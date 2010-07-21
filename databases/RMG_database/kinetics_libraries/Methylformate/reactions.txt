@@ -1,0 +1,22 @@
+// Some methylformate reactions.
+// These are HIGH PRESSURE LIMITS (for use as a reaction library, not a seed mechanism)
+// Rates provided by CFGold; file compiled by RWest.
+
+Unit:
+A: mol/cm3/s
+E: kcal/mol
+
+Reactions:
+// The format is:
+// R1 + R2 + R3 <=> P1 + P2 + P3        A       n       E       dA      dn      dE
+//      where R1, R2, R3, P1, P2, P3 are species; A, n, and E are the Arrhenius
+//      parameters, and dA, dn, dE are the errors in those parameter (normally
+//      additive, but can also be multiplicative if a * comes before the number).
+//      A "<=>" or "=" represents a reversible reaction and a
+//      "=>" or "->" represents an irreversible reaction.
+
+CO + CH3OH  = Mfmt          0.015       4.08    52.5    0   0   0 ! Franklin: CO + methanol = methylformate 
+Mfmt        = CO2 + CH4     6.88e+06    2.01    134     0   0   0 ! Franklin: methylformate = CO2 + CH4
+Mofml       = CO2 + CH3     2.72e+33    1.09    14.3    0   0   0 ! Franklin: methoxy-formyl = CO2 + CH3
+CO + CH3O   = Mofml         1.94e+09    1.27    5.81    0   0   0 ! Franklin: CO + CH3O = methoxy-formyl 
+
