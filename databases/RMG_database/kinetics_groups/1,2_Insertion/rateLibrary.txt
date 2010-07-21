@@ -16,3 +16,5 @@ Arrhenius_EP
 557.	CO_birad	C_pri/NonDeC		300-1500	9.14E+04	2.53	0		85.5	0		0		0		0		2		[87]CBS-QB3 calculations from Sumathi 2003.
 558.	CO_birad	C/H2/NonDeC			300-1500	7.66E+05	2.07	0		82.2	0		0		0		0		2		[87]CBS-QB3 calculations from Sumathi 2003.
 559.	CO_birad	C/H/Cs3				300-1500	8.89E+07	1.51	0		79.2	0		0		0		0		2		[87]CBS-QB3 calculations from Sumathi 2003.
+5600.	CO_birad	CsO_H	300-2000	0.127	3.7	0.0	53.36	0.0	0.0	0.0	0.0	2	CBS-QB3 calculations by Franklin, 2010	
+

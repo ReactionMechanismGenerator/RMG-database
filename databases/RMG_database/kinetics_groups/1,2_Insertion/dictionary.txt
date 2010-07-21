@@ -8,7 +8,7 @@ RR'
 Union {R_H,R_R'}
 
 R_H
-1 *2 {H,Cs,Cd,Cb,Sis,Sid} 0 {2,S}
+1 *2 {H,Cs,Cd,Cb,O,Sis,Sid} 0 {2,S}
 2 *3 H 0 {1,S}
 
 H2
@@ -325,6 +325,15 @@ Cs_Cb
 4 H 0 {1,S}
 5 H 0 {1,S}
 
+RO_H
+1 *2 O 0 {2,S}, {3,S}
+2 *3 H 0 {1,S}
+3    R 0 {1,S}
+
+CsO_H
+1 *2 O 0 {2,S}, {3,S}
+2 *3 H 0 {1,S}
+3   Cs 0 {1,S}
 
 
 
