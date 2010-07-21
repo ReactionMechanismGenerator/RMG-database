@@ -1,6 +1,5 @@
 // Some methylformate species.
 
-
 // methylformate
 Mfmt
 1  C 0 {4,S}
@@ -31,3 +30,9 @@ CH3O
 CH3OH
 1  O 0 {2,S}
 2  C 0 {1,S}
+
+CH4
+1  C 0
+
+CH3
+1  C 1
