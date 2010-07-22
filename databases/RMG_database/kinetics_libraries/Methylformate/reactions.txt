@@ -15,13 +15,15 @@ Reactions:
 //      A "<=>" or "=" represents a reversible reaction and a
 //      "=>" or "->" represents an irreversible reaction.
 
-// Mfmt is methylformate
-// Mofml is methoxy-formyl radical
+// Mfmt is methylformate              SMILES:     COC=O
+// Mofml is methoxy-formyl radical    SMILES:   CO[C]=O
+// Fmoml is Formyloxy-methyl radical  SMILES: [CH2]OC=O
 
 CO + CH3OH  = Mfmt          0.015       4.08    52.5    0   0   0
 Mfmt        = CO2 + CH4     6.88e+06    2.01    134     0   0   0
 Mofml       = CO2 + CH3j    2.72e+33    1.09    14.3    0   0   0
 CO + CH3Oj  = Mofml         1.94e+09    1.27    5.81    0   0   0
+HCjO + CH2O = Fmoml         5.03e+03    2.48    9.32    0   0   0
 
 // radical recombinations guessed
 CH3Oj + HCjO = Mfmt         2e13        0       0       0   0   0

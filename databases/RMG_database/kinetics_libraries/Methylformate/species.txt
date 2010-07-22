@@ -14,6 +14,13 @@ Mofml
 3  O 0 {2,D}
 4  O 0 {1,S} {2,S}
 
+// formyloxymethyl
+Fmoml
+1  C 1 {4,S}
+2  C 0 {3,D} {4,S}
+3  O 0 {2,D}
+4  O 0 {1,S} {2,S}
+
 CO2
 1  C 0 {2,D} {3,D}
 2  O 0 {1,D}
@@ -45,3 +52,7 @@ OjCHO
 1  O 1 {2,S}
 2  C 0 {1,S} {3,D}
 3  O 0 {2,D}
+
+CH2O
+1  C 0 {2,D}
+2  O 0 {1,D}
