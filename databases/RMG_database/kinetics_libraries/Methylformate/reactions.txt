@@ -7,25 +7,26 @@ A: mol/cm3/s
 E: kcal/mol
 
 Reactions:
-// The format is:
-// R1 + R2 + R3 <=> P1 + P2 + P3        A       n       E       dA      dn      dE
-//      where R1, R2, R3, P1, P2, P3 are species; A, n, and E are the Arrhenius
-//      parameters, and dA, dn, dE are the errors in those parameter (normally
-//      additive, but can also be multiplicative if a * comes before the number).
-//      A "<=>" or "=" represents a reversible reaction and a
-//      "=>" or "->" represents an irreversible reaction.
 
 // Mfmt is methylformate              SMILES:     COC=O
 // Mofml is methoxy-formyl radical    SMILES:   CO[C]=O
 // Fmoml is Formyloxy-methyl radical  SMILES: [CH2]OC=O
 
-CO + CH3OH  = Mfmt          0.015       4.08    52.5    0   0   0
+// Unimolecular decomposition high-pressure rates.
+Mfmt        = CO + CH3OH    6.49e+04    2.62    64.4    0   0   0
 Mfmt        = CO2 + CH4     6.88e+06    2.01    134     0   0   0
-Mofml       = CO2 + CH3j    2.72e+33    1.09    14.3    0   0   0
-CO + CH3Oj  = Mofml         1.94e+09    1.27    5.81    0   0   0
+Mofml       = CO2 + CH3j    2.34e+09    1.09    14.3    0   0   0
+CO + CH3Oj  = Mofml         1.97e+09    1.27    5.81    0   0   0
 HCjO + CH2O = Fmoml         5.03e+03    2.48    9.32    0   0   0
 
-// radical recombinations guessed
+// H-abstraction
+// These are done using CBS-QB3, since the QCI method takes too long.
+Hj + Mfmt   = H2 + Mofml    2.28e+05    2.5     6.56    0   0   0
+Hj + Mfmt   = H2 + Fmoml    1.16e+05    2.55    7.62    0   0   0
+CH3j + Mfmt = CH4 + Mofml   6.34        2.82    6.81    0   0   0
+CH3j + Mfmt = CH4 + Fmoml   0.257       3.96    8.02    0   0   0
+
+
+// Radical-Radical recombinations guessed by Mike (based on Klippenstein's rule of thumb)
 CH3Oj + HCjO = Mfmt         2e13        0       0       0   0   0
 CH3j + OjCHO = Mfmt         2e13        0       0       0   0   0
-
