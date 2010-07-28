@@ -3,15 +3,17 @@ Union {Y_biCyc3, Y_biCyc4, Y_biCyc5,Y_biCyc6, Y_biCyc7}
 
 //It is assumed below that the other radical site (#3) is not a member of the TS ring; we may eventually want to consider the possibility for the radical site being in the TS ring, which in certain cases, may give rise to multiple transition states for the same reaction; I expect that the number of cases that would be encountered where this reaction would not occur at all due to neglecting this would be small; UPDATE: 2,5-pentdiyl radical to 1-pentene can only occur when radical site is included in ring, so maybe this is more important than I thought
 //update: (cf. above) I will consider possibility of Endo case, but I will assume the rate rules are the same as for the probably more typical exo case (2nd radical site not a part of ring)
-Y_biCyc3
+
 //3 member TS endo cannot occur unless the same atom is used for 2 different starred groups and even then, it requires adjacent radical sites, I believe, so I will ignore this for now and just consider exo for 3-member TS
+Y_biCyc3
 1 *1 {R!H} 1 {2,{S,D,B}}
 2 *2 {R!H} 0 {1,{S,D,B}} {3,{S,D}} {4,S}
 3 *3 {R!H} 1 {2,{S,D}}
 4 *4 H 0 {2,S}
 
-Y_biCyc4
+
 //unless same atom is used for 2 different starred groups, 4 member TS endo cannot occur unless there are adjacent radical sites, I believe, so I will ignore this for now and just consider exo for 4-member TS
+Y_biCyc4
 1 *1 {R!H} 1 {5,{S,D,B,T}}
 2 *2 {R!H} 0 {5,{S,D,B}} {3,{S,D}} {4,S}
 3 *3 {R!H} 1 {2,{S,D}}
