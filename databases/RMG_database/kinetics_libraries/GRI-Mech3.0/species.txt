@@ -162,12 +162,11 @@ CO2
 3 O 0 {1,D} 
 
 H
-//1 H 0 
-// Not sure why InChI couldn't convert this to 1 H 1
 1 H 1
 
 H2
-1 H 0 
+1 H 0 {2,S}
+2 H 0 {1,S}
 
 //NH2
 //1 N 0 
