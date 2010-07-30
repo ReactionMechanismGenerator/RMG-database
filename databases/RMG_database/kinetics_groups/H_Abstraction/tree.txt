@@ -82,6 +82,7 @@ L1: Y_rad_birad
 					L6: InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3
 					L6: InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3
 				L5: C_rad/H2/Cd
+					L6: InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3
 				L5: C_rad/H2/Ct
 				L5: C_rad/H2/Cb
 				L5: C_rad/H2/CO

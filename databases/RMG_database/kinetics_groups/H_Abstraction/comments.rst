@@ -3049,3 +3049,25 @@ tunneling correction was employed and the frequencies were scaled by 0.99 (as su
 J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
 for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
 The computed pre-exponential factor was divided by 2 and this is the reported value.
+
+---
+500
+---
+MRH CBS-QB3 calculations w/o HR corrections
+CH2O + H2C=C[*CH2][CH3] = HCO + H2C=C[CH3]2
+
+Geometries and energies of reactants, products, and TS were computed using the CBS-QB3 methodology; frequencies
+were calculated at B3LYP/CBSB7.  Arrhenius expression was computed using CanTherm; an asymmetric Eckart tunneling
+correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomergy et al.; J. Chem. Phys.
+110 (1999) 2822-2827).  The Arrhenius fit was based on k(T) at T=600, 800, 1000, 1200, 1400, 1600, 1800, and 2000K.
+The external symmetry number for CH2O and iso-butene was 2; the external symmetry for all others was 1.  The
+electronic spin multiplicity was 1 for CH2O and iso-butene; the electronic spin multiplicity for all others was 2.
+The computed pre-exponential factor was divided by 2 (symmetry of CH2O), from 6.13e-02 to 3.065e-02.
+
+There are no rate coefficients for this reaction in the literature (based on MRH's limited search).
+   Tsang {J. Phys. Chem. Ref. Data 20 (1991) 221-273} recommends the following for the reaction of 
+   CH2O + H2C=CH-*CH2 = HCO + H2C=CH-CH3: k(T) = 1.26e+08 * T^1.9 * exp(-18.184 kcal/mol / RT) cm3 mol-1 s-1.
+   This rate coefficient is 25-85x faster than MRH's calculation over the range 600-2000K.
+   
+   The previous estimate by RMG for this reaction was: k(T) = 5.500e+03 * T^2.81 * exp(-5.86 kcal/mol / RT) cm3 mol-1 s-1.
+   This rate coefficient is 80-13,000x faster than MRH's calculation over the range 600-2000K.

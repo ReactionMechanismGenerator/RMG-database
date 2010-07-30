@@ -303,3 +303,4 @@ Arrhenius_EP
 // (Reverse) Rates for tButanol+HO2=H2O2+radicals
 309.	H2O2	InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3		600-2000	2.100E-01	3.53	0.0	1.56	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
 486.	Orad_O_H		O_rad/NonDeO	300-1500	1.75E+10	0	0	-3.275	0	0	0	0	5	[8] Curran's estimation in reaction type 13, RO2 + HO2 --> RO2H + O2
+500.	CO_pri	InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3			600-2000	3.065e-02	3.95	0.0	12.22	0	0	0	0	3	MRH CBS-QB# calculations w/o HR corrections
