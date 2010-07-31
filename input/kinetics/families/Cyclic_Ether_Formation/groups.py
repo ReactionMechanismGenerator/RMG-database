@@ -1132,24 +1132,130 @@ u"""
     ],
 )
 
+entry(
+    index = 45,
+    label = "R2OOH_SCO",
+    group = 
+"""
+1  *2 O 0 {2,S} {3,S}
+2  *4 CO 0 {1,S} {4,S}
+3  *3 O 0 {1,S} {5,S}
+4  *1 {Cd,Cs} 1 {2,S}
+5     H 0 {3,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 46,
+    label = "R3OOH_SSCO",
+    group = 
+"""
+1     CO 0 {2,S} {3,S}
+2  *2 O 0 {1,S} {4,S}
+3  *4 {Cd,Cs} 0 {1,S} {5,S}
+4  *3 O 0 {2,S} {6,S}
+5  *1 {Cd,Cs} 1 {3,S}
+6     H 0 {4,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 47,
+    label = "R4OOH_SSSCO",
+    group = 
+"""
+1     CO 0 {2,S} {3,S}
+2     {Cd,Cs} 0 {1,S} {4,S}
+3  *2 O 0 {1,S} {5,S}
+4  *4 {Cd,Cs} 0 {2,S} {6,S}
+5  *3 O 0 {3,S} {7,S}
+6  *1 {Cd,Cs} 1 {4,S}
+7     H 0 {5,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 48,
+    label = "R5OOH_SSSSCO",
+    group = 
+"""
+1     {Cd,Cs} 0 {2,S} {3,S}
+2     CO 0 {1,S} {4,S}
+3     {Cd,Cs} 0 {1,S} {5,S}
+4  *2 O 0 {2,S} {6,S}
+5  *4 {Cd,Cs} 0 {3,S} {7,S}
+6  *3 O 0 {4,S} {8,S}
+7  *1 {Cd,Cs} 1 {5,S}
+8     H 0 {6,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
 tree(
 """
 L1: RnOOH
     L2: R2OOH
         L3: R2OOH_S
+        L3: R2OOH_SCO
         L3: R2OOH_D
     L2: R3OOH
         L3: R3OOH_SS
+        L3: R3OOH_SSCO
         L3: R3OOH_SD
         L3: R3OOH_DS
     L2: R4OOH
         L3: R4OOH_SSS
+        L3: R4OOH_SSSCO
         L3: R4OOH_SSD
         L3: R4OOH_SDS
         L3: R4OOH_DSS
         L3: R4OOH_DSD
     L2: R5OOH
         L3: R5OOH_SSSS
+        L3: R5OOH_SSSSCO
         L3: R5OOH_SSSD
         L3: R5OOH_SSDS
         L3: R5OOH_SDSS

@@ -559,3 +559,160 @@ u"""
     ],
 )
 
+entry(
+    index = 826,
+    label = "R5OOH_SSSSCO;Cs_rad_intra",
+    group1 = 
+"""
+1     {Cd,Cs} 0 {2,S} {3,S}
+2     CO 0 {1,S} {4,S}
+3     {Cd,Cs} 0 {1,S} {5,S}
+4  *2 O 0 {2,S} {6,S}
+5  *4 {Cd,Cs} 0 {3,S} {7,S}
+6  *3 O 0 {4,S} {8,S}
+7  *1 {Cd,Cs} 1 {5,S}
+8     H 0 {6,S}
+""",
+    group2 = 
+"""
+1  *1 C 1 {2,S} {3,S} {4,S}
+2  *4 C 0 {1,S}
+3     R 0 {1,S}
+4     R 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.27e+08,"s^-1"),
+        n = 0.77,
+        alpha = 0,
+        E0 = (18.73,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""CBS-QB3 Including treatment of hindered rotor (SSM)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 827,
+    label = "R2OOH_SCO;Cs_rad_intra",
+    group1 = 
+"""
+1  *2 O 0 {2,S} {3,S}
+2  *4 CO 0 {1,S} {4,S}
+3  *3 O 0 {1,S} {5,S}
+4  *1 {Cd,Cs} 1 {2,S}
+5     H 0 {3,S}
+""",
+    group2 = 
+"""
+1  *1 C 1 {2,S} {3,S} {4,S}
+2  *4 C 0 {1,S}
+3     R 0 {1,S}
+4     R 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (6.92e+15,"s^-1"),
+        n = -0.53,
+        alpha = 0,
+        E0 = (24.34,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""CBS-QB3 Including treatment for hindered rotor, QTST Calculation (CFG & JWA)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 828,
+    label = "R4OOH_SSSCO;Cs_rad_intra",
+    group1 = 
+"""
+1     CO 0 {2,S} {3,S}
+2     {Cd,Cs} 0 {1,S} {4,S}
+3  *2 O 0 {1,S} {5,S}
+4  *4 {Cd,Cs} 0 {2,S} {6,S}
+5  *3 O 0 {3,S} {7,S}
+6  *1 {Cd,Cs} 1 {4,S}
+7     H 0 {5,S}
+""",
+    group2 = 
+"""
+1  *1 C 1 {2,S} {3,S} {4,S}
+2  *4 C 0 {1,S}
+3     R 0 {1,S}
+4     R 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.27e+08,"s^-1"),
+        n = 0.77,
+        alpha = 0,
+        E0 = (18.73,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    referenceType = "",
+    rank = 0,
+    shortDesc = u"""Estimate (Same as 5 memebered ring)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 829,
+    label = "R3OOH_SSCO;Cs_rad_intra",
+    group1 = 
+"""
+1     CO 0 {2,S} {3,S}
+2  *2 O 0 {1,S} {4,S}
+3  *4 {Cd,Cs} 0 {1,S} {5,S}
+4  *3 O 0 {2,S} {6,S}
+5  *1 {Cd,Cs} 1 {3,S}
+6     H 0 {4,S}
+""",
+    group2 = 
+"""
+1  *1 C 1 {2,S} {3,S} {4,S}
+2  *4 C 0 {1,S}
+3     R 0 {1,S}
+4     R 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.27e+08,"s^-1"),
+        n = 0.77,
+        alpha = 0,
+        E0 = (18.73,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    referenceType = "",
+    rank = 0,
+    shortDesc = u"""Estimate (Same as 5 memebered ring)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
