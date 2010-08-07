@@ -3075,7 +3075,7 @@ There are no rate coefficients for this reaction in the literature (based on MRH
 ---
 501
 ---
-MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
 InChI=1/C3H8/c1-3-2/h3H2,1-2H3 (external symmetry number = 2, spin multiplicity = 1)
  +
