@@ -319,3 +319,9 @@ Arrhenius_EP
 512.	InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/beta	InChI=1/C2H5/c1-2/h1H2,2H3	300-2000	1.41e-05	4.83	0	4.37	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
 513.	InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha	InChI=1/C2H5/c1-2/h1H2,2H3	300-2000	4.25e-06	5.01	0	5.01	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
 514.	InChI=1/C2H6/c1-2/h1-2H3	InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3			300-2000	5.07e-03	4.52	0	2.34	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
+515.	InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/beta	InChI=1/C2H3/c1-2/h1H,2H2	300-2000	5.49e+00	3.33	0	0.63	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
+516.	InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/gamma	InChI=1/C3H5/c1-3-2/h1H2,2H3	300-2000	3.11e-05	4.87	0	3.50	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
+517.	InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha	InChI=1/C3H5/c1-3-2/h1H2,2H3	300-2000	1.28e-02	4.09	0	1.31	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
+518.	InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3/beta	InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3	300-2000	1.56e-04	4.31	0	3.39	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
+519.	InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/beta	InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3	300-2000	4.85e-04	4.37	0	9.66	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
+520.	InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha	InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3	300-2000	1.84e-03	4.02	0	7.92	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections

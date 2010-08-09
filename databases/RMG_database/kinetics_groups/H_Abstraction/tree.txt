@@ -30,6 +30,7 @@ L1: X_H
 				L5: C/H2/O2
 			L4: C/H2/OneDe
 				L5: C/H2/OneDeC
+					L6: InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3/beta
 				L5: C/H2/OneDeO
 			L4: C/H2/TwoDe
 		L3: C_ter
@@ -109,6 +110,7 @@ L1: Y_rad_birad
 					L6: C_rad/H/O2
 				L5: C_rad/H/OneDe
 					L6: C_rad/H/OneDeC
+						L7: InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3
 					L6: C_rad/H/OneDeO
 				L5: C_rad/H/TwoDe
 			L4: C_ter_rad
@@ -126,8 +128,10 @@ L1: Y_rad_birad
 				L5: C_rad/ThreeDe
 		L3: Cd_rad
 			L4: Cd_pri_rad
+				L5: InChI=1/C2H3/c1-2/h1H,2H2
 			L4: Cd_sec_rad
 				L5: Cd_rad/NonDeC
+					L6: InChI=1/C3H5/c1-3-2/h1H2,2H3
 				L5: Cd_rad/NonDeO
 				L5: Cd_rad/OneDe
 		L3: Ct_rad
