@@ -21,6 +21,7 @@ L1: X_H
 			L4: C/H3/O
 		L3: C_sec
 			L4: C/H2/NonDeC
+				L5: InChI=1/C3H8/c1-3-2/h3H2,1-2H3
 			L4: C/H2/NonDeO
 				L5: C/H2/CsO
 					L6: InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha
@@ -97,6 +98,7 @@ L1: Y_rad_birad
 					L6: InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3
 					L6: InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3
 					L6: InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3
+					L6: InChI=1/C3H7/c1-3-2/h3H,1-2H3
 				L5: C_rad/H/NonDeO
 					L6: C_rad/H/CsO
 						L7: InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3
