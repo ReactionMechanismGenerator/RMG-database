@@ -3369,6 +3369,32 @@ InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3 (external symmetry number = 1, spin multipl
  +
 InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3 (external symmetry number = 1, spin multiplicity = 1)
 
+---
+521
+---
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
+
+InChI=1/C4H8O/c1-4(2)3-5/h3-4H,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/H (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H7O/c1-4(2)3-5/h3H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/H2/h1H (external symmetry number = 2, spin multiplicity = 1)
+
+---
+522
+---
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
+
+InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
+ +
+InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C3H6O/c1-2-3-4/h2-4H,1H3/ (external symmetry number = 1, spin multiplicity = 1)
+
 .. [MRHCBSQB3RRHO] M.R. Harper (mrharper_at_mit_dot_edu or michael.harper.jr_at_gmail_dot_com)
 The geometries of all reactants, products, and the transition state were optimized using the CBS-QB3 calculations.  The zero-point
 energy is that computed by the CBS-QB3 calculations.  The frequencies were computed with B3LYP/CBSB7.
