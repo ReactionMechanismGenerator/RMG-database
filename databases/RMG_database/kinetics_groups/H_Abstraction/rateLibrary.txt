@@ -327,3 +327,4 @@ Arrhenius_EP
 520.	InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha	InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c	300-2000	1.84e-03	4.02	0	7.92	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
 521.	InChI=1/C4H8O/c1-4(2)3-5/h3-4H,1-2H3	H_rad	300-2000	2.08e+07	1.84	0	3.03	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
 522.	InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3	InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/o	300-2000	7.52e-08	5.77	0	12.04	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
+523.	O/H/NonDeC	O2b	300-2000	5e+10	0.0	1	0.0	0	0	0	0	1	Estimate [W.H. Green]

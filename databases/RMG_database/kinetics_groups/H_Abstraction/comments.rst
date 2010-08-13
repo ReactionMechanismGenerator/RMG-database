@@ -3395,6 +3395,16 @@ InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3 (external symmetry number = 1, spin multiplicit
  +
 InChI=1/C3H6O/c1-2-3-4/h2-4H,1H3/ (external symmetry number = 1, spin multiplicity = 1)
 
+---
+523
+---
+ROH + .OO. --> HOO. + RO.
+
+This rate coefficient is an estimate from W.H. Green (personal communication).  The pre-exponential factor has been
+ divided by 2 (from 1e11 to 5e10), to account for the symmetry of .OO.  The temperature range is estimated as 300-2000 K
+ and the rank is assigned 1, so that this rate coefficient estimate will be used in all instances.
+This is simply an estimate; JDM and/or MRH will refine this value in the near future.
+
 .. [MRHCBSQB3RRHO] M.R. Harper (mrharper_at_mit_dot_edu or michael.harper.jr_at_gmail_dot_com)
 The geometries of all reactants, products, and the transition state were optimized using the CBS-QB3 calculations.  The zero-point
 energy is that computed by the CBS-QB3 calculations.  The frequencies were computed with B3LYP/CBSB7.
