@@ -28,5 +28,6 @@ CH3j + Mfmt = CH4 + Fmoml   0.257       3.96    8.02    0   0   0
 
 
 // Radical-Radical recombinations guessed by Mike (based on Klippenstein's rule of thumb)
-CH3Oj + HCjO = Mfmt         2e13        0       0       0   0   0
-CH3j + OjCHO = Mfmt         2e13        0       0       0   0   0
+// ...and halved by Richard to see how sensitive they are (Klippenstein said they were 1.8e13 times-or-divide 5)
+CH3Oj + HCjO = Mfmt         1e13        0       0       0   0   0
+CH3j + OjCHO = Mfmt         1e13        0       0       0   0   0
