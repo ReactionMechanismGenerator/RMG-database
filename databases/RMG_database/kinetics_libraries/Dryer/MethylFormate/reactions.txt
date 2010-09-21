@@ -1775,8 +1775,7 @@ C3H3+H = C3H4-A  						2.500E+12 0.0 0.0   0.0 0.0 0.0
 
 //!LASKIN ET AL. IJCK 32 589-614 2000
 //CFG not sure about C3H2
-//CFG assumes HCCCH-triplet
-// C3H3+H = C3H2+H2  						5.00E+13 0.0 1000.0   0.0 0.0 0.0
+C3H3+H = C3H2+H2  						5.00E+13 0.0 1000.0   0.0 0.0 0.0
 // Laskin et al is this: http://dx.doi.org/10.1002/1097-4601(2000)32:10%3C589::AID-KIN2%3E3.0.CO;2-U
 // For its C3 rates it cites these:
 // [1] Davis, S. G.; Law, C. K.; Wang, H. Twenty-Seventh Symposium (International) on Combustion; The Combustion Institute: Pittsburgh, PA, 1998; pp 305–312.
@@ -1789,8 +1788,7 @@ C3H3+O = CH2O+C2H  						2.00E+13 0.0 0.0   0.0 0.0 0.0
 
 //!LASKIN ET AL. IJCK 32 589-614 2000
 //CFG not sure about C3H2
-//CFG assumes HCCCH-triplet
-//C3H3+OH = C3H2+H2O  					2.00E+13 0.0 0.0   0.0 0.0 0.0
+C3H3+OH = C3H2+H2O  					2.00E+13 0.0 0.0   0.0 0.0 0.0
 // Laskin et al. attribute this to [3] Davis, S. G.; Law, C. K.; Wang, H. Combust Flame 1999, 119, 375. doi:10.1016/S0010-2180(99)00070-X
 // doi:10.1016/S0010-2180(99)00070-X attributes this to [41] Miller, J. A., and Bowman, C. T., Prog. Energy Combust. Sci. 15:287–338 (1989). doi:10.1016/0360-1285(89)90017-8
 // doi:10.1016/0360-1285(89)90017-8 have it as reaction 121, but I can't see where they get it from (if anywhere) nor any clue what it is.
@@ -1837,57 +1835,49 @@ C2H5+C2H = C3H3+CH3  					1.810E+13 0.0 0.0   0.0 0.0 0.0
 
 //!LASKIN ET AL. IJCK 32 589-614 2000
 //CFG not sure about C3H2
-//CFG assumes HCCCH-triplet
-//C3H2+H = C3H3  						1.00E+13 0.0 0.0   0.0 0.0 0.0
+C3H2+H = C3H3  						1.00E+13 0.0 0.0   0.0 0.0 0.0
 // Laskin et al. attribute this to [3] Davis, S. G.; Law, C. K.; Wang, H. Combust Flame 1999, 119, 375. doi:10.1016/S0010-2180(99)00070-X
 //doi:10.1016/S0010-2180(99)00070-X atrributes this to [estimated]!
 
 //!LASKIN ET AL. IJCK 32 589-614 2000
 //CFG not sure about C3H2
-//CFG assumes HCCCH-triplet
-//C3H2+O = C2H2+CO  					6.80E+13 0.0 0.0   0.0 0.0 0.0
+C3H2+O = C2H2+CO  					6.80E+13 0.0 0.0   0.0 0.0 0.0
 // Laskin et al. attribute this to [3] Davis, S. G.; Law, C. K.; Wang, H. Combust Flame 1999, 119, 375. doi:10.1016/S0010-2180(99)00070-X
 //doi:10.1016/S0010-2180(99)00070-X atrributes this to [43] Warnatz,J., Bockhorn,H., Moser,A., and Wenz,H. W., Nineteenth Symposium (International) on Combustion, The Combustion Institute, Pittsburgh, 1983, p.197.
 
 //!LASKIN ET AL. IJCK 32 589-614 2000
 //CFG not sure about C3H2
-//CFG assumes HCCCH-triplet
-//C3H2+OH = HCO+C2H2  					6.80E+13 0.0 0.0   0.0 0.0 0.0
+C3H2+OH = HCO+C2H2  					6.80E+13 0.0 0.0   0.0 0.0 0.0
 // Laskin et al. attribute this to [3] Davis, S. G.; Law, C. K.; Wang, H. Combust Flame 1999, 119, 375. doi:10.1016/S0010-2180(99)00070-X
 //doi:10.1016/S0010-2180(99)00070-X atrributes this to [43] Warnatz,J., Bockhorn,H., Moser,A., and Wenz,H. W., Nineteenth Symposium (International) on Combustion, The Combustion Institute, Pittsburgh, 1983, p.197.
 
 //!LASKIN ET AL. IJCK 32 589-614 2000
 //CFG not sure about C3H2
-//CFG assumes HCCCH-triplet
-//C3H2+O2 = HCCO+H+CO  					2.00E+12 0.0 1000.0   0.0 0.0 0.0
+C3H2+O2 = HCCO+H+CO  					2.00E+12 0.0 1000.0   0.0 0.0 0.0
 // Laskin et al. attribute this to [3] Davis, S. G.; Law, C. K.; Wang, H. Combust Flame 1999, 119, 375. doi:10.1016/S0010-2180(99)00070-X
 //doi:10.1016/S0010-2180(99)00070-X atrributes this to [40] Pauwels, J-F., Volponi, J. V., and Miller, J. A., Combust. Sci. Technol., 110 –111:249–276 (1995).
 
 //!LASKIN ET AL. IJCK 32 589-614 2000
 //CFG not sure about C3H2
-//CFG assumes HCCCH-triplet
-//C3H2+CH = C4H2+H  					5.00E+13 0.0 0.0   0.0 0.0 0.0
+C3H2+CH = C4H2+H  					5.00E+13 0.0 0.0   0.0 0.0 0.0
 // Laskin et al. attribute this to [3] Davis, S. G.; Law, C. K.; Wang, H. Combust Flame 1999, 119, 375. doi:10.1016/S0010-2180(99)00070-X
 //doi:10.1016/S0010-2180(99)00070-X atrributes this to [32] Wang, H., and Frenklach, M., Combust. Flame 110:173–221 (1997).
 
 //!LASKIN ET AL. IJCK 32 589-614 2000
 //CFG not sure about C3H2
-//CFG assumes HCCCH-triplet
-//C3H2+CH2 = C4H3-N+H  					5.00E+13 0.0 0.0   0.0 0.0 0.0
+C3H2+CH2 = C4H3-N+H  					5.00E+13 0.0 0.0   0.0 0.0 0.0
 // Laskin et al. attribute this to [3] Davis, S. G.; Law, C. K.; Wang, H. Combust Flame 1999, 119, 375. doi:10.1016/S0010-2180(99)00070-X
 //doi:10.1016/S0010-2180(99)00070-X atrributes this to [32] Wang, H., and Frenklach, M., Combust. Flame 110:173–221 (1997).
 
 //!LASKIN ET AL. IJCK 32 589-614 2000
 //CFG not sure about C3H2
-//CFG assumes HCCCH-triplet
-//C3H2+CH3 = C4H4+H  					5.00E+12 0.0 0.0   0.0 0.0 0.0
+C3H2+CH3 = C4H4+H  					5.00E+12 0.0 0.0   0.0 0.0 0.0
 // Laskin et al. attribute this to [3] Davis, S. G.; Law, C. K.; Wang, H. Combust Flame 1999, 119, 375. doi:10.1016/S0010-2180(99)00070-X
 //doi:10.1016/S0010-2180(99)00070-X atrributes this to [32] Wang, H., and Frenklach, M., Combust. Flame 110:173–221 (1997).
 
 //!LASKIN ET AL. IJCK 32 589-614 2000
 //CFG not sure about C3H2
-//CFG assumes HCCCH-triplet
-//C3H2+HCCO = C4H3-N+CO 					1.00E+13 0.0 0.0   0.0 0.0 0.0
+C3H2+HCCO = C4H3-N+CO 					1.00E+13 0.0 0.0   0.0 0.0 0.0
 // Laskin et al. attribute this to [3] Davis, S. G.; Law, C. K.; Wang, H. Combust Flame 1999, 119, 375. doi:10.1016/S0010-2180(99)00070-X
 //doi:10.1016/S0010-2180(99)00070-X atrributes this to [32] Wang, H., and Frenklach, M., Combust. Flame 110:173–221 (1997).
 
@@ -1897,8 +1887,7 @@ C2H5+C2H = C3H3+CH3  					1.810E+13 0.0 0.0   0.0 0.0 0.0
 
 //!HEALY ET AL C&F, 155: 451 461 (2008) 
 //CFG not sure about C3H2
-//CFG assumes HCCCH-triplet
-//C3H2+O2 = HCO+HCCO 					5.000E+13 0.00 0.000E+00   0.0 0.0 0.0
+C3H2+O2 = HCO+HCCO 					5.000E+13 0.00 0.000E+00   0.0 0.0 0.0
 
 //!HEALY ET AL C&F, 155: 451 461 (2008) 
 //!CURRAN ESTIMATE
