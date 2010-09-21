@@ -2397,23 +2397,23 @@ CH3OCO  + CH3O  = OCH2OCHO + CH3         7E12        0.0           -1000   0.0 0
 CH2OCHO + O2 = OOCH2OCHO                 4.50E+12    0.0             0.0   0.0 0.0 0.0
 // Removed because RMG doesn't like CH3OC*OOO ("forbidden by CO3")
 //OOCH2OCHO = HOOCH2OC*O                   2.47E11     0.0           28900   0.0 0.0 0.0
-CH3OC*OOO = CH2OC*OOOH                   7.41E11     0.0           28900   0.0 0.0 0.0
+//CH3OC*OOO = CH2OC*OOOH                   7.41E11     0.0           28900   0.0 0.0 0.0
 // CFG thinks CH2O2H isn't stable
 //CH2O2H+CO2 = HOOCH2OC*O                  2.92E6      1.65          36591   0.0 0.0 0.0
 OCH2O2H+CO = HOOCH2OC*O                  1.08E7      1.633          5588   0.0 0.0 0.0
 // CFG thinks CH2O2H isn't stable
 //OH+CH2O  = CH2O2H                        2.30E+10    0.0           12900   0.0 0.0 0.0
-CH2OC*OOOH => CH2O + CO2 + OH            3.801E+18  -1.47      3.736E+04   0.0 0.0 0.0
-CH2OC*OOOH => CH2O + CO + HO2            3.801E+18  -1.47      3.736E+04   0.0 0.0 0.0
-CH2OC*OOOH => CYOCH2OC*O + OH            7.50E+10    0.0         15250.0   0.0 0.0 0.0
-HOOCH2OC*O => CYOCH2OC*O + OH            7.50E+10    0.0         15250.0   0.0 0.0 0.0
-CH2OC*OOOH + O2 = OOCH2OC*OOOH           4.52E+12    0.0             0.0   0.0 0.0 0.0
-HOOCH2OC*O + O2 = HOOCH2OC*OOO           7.54E+12    0.0             0.0   0.0 0.0 0.0
-HOOCH2OC*OOO = O*CHOC*OOOH + OH          2.89E+10    0.0           21863   0.0 0.0 0.0
-O*CHOC*OOOH => CO2 + OCHO + OH           1.050E+16   0.0         41600.0   0.0 0.0 0.0
-CYOCH2OC*O + H = CHOOCO + H2             4.800E+08   1.5          2005.0   0.0 0.0 0.0
-CYOCH2OC*O + OH = CHOOCO + H2O           2.400E+06   2.0         -1192.2   0.0 0.0 0.0
-CYOCH2OC*O + HO2 = CHOOCO + H2O2         4.000E+12   0.0         12976.7   0.0 0.0 0.0
+//CH2OC*OOOH => CH2O + CO2 + OH            3.801E+18  -1.47      3.736E+04   0.0 0.0 0.0
+//CH2OC*OOOH => CH2O + CO + HO2            3.801E+18  -1.47      3.736E+04   0.0 0.0 0.0
+//CH2OC*OOOH => CYOCH2OC*O + OH            7.50E+10    0.0         15250.0   0.0 0.0 0.0
+//HOOCH2OC*O => CYOCH2OC*O + OH            7.50E+10    0.0         15250.0   0.0 0.0 0.0
+//CH2OC*OOOH + O2 = OOCH2OC*OOOH           4.52E+12    0.0             0.0   0.0 0.0 0.0
+//HOOCH2OC*O + O2 = HOOCH2OC*OOO           7.54E+12    0.0             0.0   0.0 0.0 0.0
+//HOOCH2OC*OOO = O*CHOC*OOOH + OH          2.89E+10    0.0           21863   0.0 0.0 0.0
+//O*CHOC*OOOH => CO2 + OCHO + OH           1.050E+16   0.0         41600.0   0.0 0.0 0.0
+//CYOCH2OC*O + H = CHOOCO + H2             4.800E+08   1.5          2005.0   0.0 0.0 0.0
+//CYOCH2OC*O + OH = CHOOCO + H2O           2.400E+06   2.0         -1192.2   0.0 0.0 0.0
+//CYOCH2OC*O + HO2 = CHOOCO + H2O2         4.000E+12   0.0         12976.7   0.0 0.0 0.0
 OCHO + CO = CHOOCO                       1.500E+11   0.0          3000.0   0.0 0.0 0.0
 HCO + CO2 = CHOOCO                       1.500E+11   0.0         36730.0   0.0 0.0 0.0
 
