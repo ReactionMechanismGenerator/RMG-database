@@ -872,13 +872,14 @@ CH3OCO
 //5 O 0 {3,S} {6,S}
 //6 O 1 {5,S}
 
-CH3OC*OOOH
-1 C 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,D} {5,S}
-4 O 0 {3,D}
-5 O 0 {3,S} {6,S}
-6 O 0 {5,S}
+// RMG does not like this: "forbidden by CO3" so removing for now -- RHW
+//CH3OC*OOOH
+//1 C 0 {2,S}
+//2 O 0 {1,S} {3,S}
+//3 C 0 {2,S} {4,D} {5,S}
+//4 O 0 {3,D}
+//5 O 0 {3,S} {6,S}
+//6 O 0 {5,S}
 
 HOOCH2OCHO
 1 O 0 {2,D}

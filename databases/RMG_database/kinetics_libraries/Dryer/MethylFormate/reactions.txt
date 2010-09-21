@@ -2379,10 +2379,11 @@ HOCH2OCO = CH2OH + CO2                   2.413E+17  -1.57      2.212E+04  0.0 0.
 CH2O + OCHO = OCH2OCHO                   3.89E11     0.0            2500   0.0 0.0 0.0
 CH3OCO  + HCO = CH3OCHO + CO             1E14        0.0             0.0  0.0 0.0 0.0
 CH2OCHO + HCO = CH3OCHO + CO             1E14        0.0             0.0  0.0 0.0 0.0
-CH3OCO  + HO2 = CH3OC*OOOH               7E12        0             -1000  0.0 0.0 0.0
+// Removed because RMG doesn't like CH3OC*OOOH ("forbidden by CO3")
+//CH3OCO  + HO2 = CH3OC*OOOH               7E12        0             -1000  0.0 0.0 0.0
 CH2OCHO + HO2 = HOOCH2OCHO               7E12        0             -1000  0.0 0.0 0.0
 //!Reverse of NC3H7O2H = NC3H7O + OH  computed from forward e*pressions of Healy et al,
-// Removed because RMG doesn't like CH3OC*OO ("forbidden by CO3.")
+// Removed because RMG doesn't like CH3OC*OO ("forbidden by CO3.") or CH3OC*OOOH ("forbidden by CO3")
 //CH3OC*OO + OH = CH3OC*OOOH               1.550E+06   2.41      -4.132E+03     0.0 0.0 0.0
 //!Reverse of NC3H7O2H = NC3H7O + OH  computed from forward e*pressions of Healy et al,
 OCH2OCHO + OH = HOOCH2OCHO               1.550E+06   2.41      -4.132E+03     0.0 0.0 0.0
