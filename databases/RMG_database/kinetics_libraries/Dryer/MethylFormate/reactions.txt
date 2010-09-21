@@ -2391,9 +2391,11 @@ OCH2OCHO + OH = HOOCH2OCHO               1.550E+06   2.41      -4.132E+03     0.
 CH3OCO  + CH3O  = OCH2OCHO + CH3         7E12        0.0           -1000   0.0 0.0 0.0
 // Removed because RMG doesn't like CH3OC*OO ("forbidden by CO3.")
 //CO2 + CH3O = CH3OC*OO                    1.00E+11    0.0          9200.0   0.0 0.0 0.0
-CH3OCO + O2 = CH3OC*OOO                  4.50E+12    0.0             0.0   0.0 0.0 0.0
+// Removed because RMG doesn't like CH3OC*OOO ("forbidden by CO3")
+//CH3OCO + O2 = CH3OC*OOO                  4.50E+12    0.0             0.0   0.0 0.0 0.0
 CH2OCHO + O2 = OOCH2OCHO                 4.50E+12    0.0             0.0   0.0 0.0 0.0
-OOCH2OCHO = HOOCH2OC*O                   2.47E11     0.0           28900   0.0 0.0 0.0
+// Removed because RMG doesn't like CH3OC*OOO ("forbidden by CO3")
+//OOCH2OCHO = HOOCH2OC*O                   2.47E11     0.0           28900   0.0 0.0 0.0
 CH3OC*OOO = CH2OC*OOOH                   7.41E11     0.0           28900   0.0 0.0 0.0
 // CFG thinks CH2O2H isn't stable
 //CH2O2H+CO2 = HOOCH2OC*O                  2.92E6      1.65          36591   0.0 0.0 0.0
