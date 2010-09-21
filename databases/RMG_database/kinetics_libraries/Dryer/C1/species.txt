@@ -128,7 +128,7 @@ HOCH2O2H
 1 C 0 {2,S} {3,S}
 2 O 0 {1,S}
 3 O 0 {1,S} {4,S}
-4 O 1 {3,S}
+4 O 0 {3,S}
 
 HOCH2O
 1 C 0 {2,S} {3,S}
@@ -326,15 +326,15 @@ CH3COCH2O
 5 O 1 {4,S}
 
 C2H3CHO
-1 O 0 {2,D}
+1 C 0 {2,D}
 2 C 0 {1,D} {3,S}
 3 C 0 {2,S} {4,D}
 4 O 0 {3,D}
 
 C2H3CO
-1 O 0 {2,D}
-2 C 1 {1,D} {3,S}
-3 C 0 {2,S} {4,D}
+1 C 0 {2,D}
+2 C 0 {1,D} {3,S}
+3 C 1 {2,S} {4,D}
 4 O 0 {3,D}
 
 C2H5CHO
@@ -553,10 +553,11 @@ CC3H4
 3 C 0 {1,S} {2,D}
 
 // mechanism is not clear about C3H2 -- CFG
-C3H2
-1 C 0 {2,T}
-2 C 0 {1,T} {3,S}
-3 C 2T {2,S}
+// RMG does not like this species (forbidden by "Carbene_S") so I'm removing it for now. -- RHW
+//C3H2
+//1 C 0 {2,T}
+//2 C 0 {1,T} {3,S}
+//3 C 2T {2,S}
 
 C4H2
 1 C 0 {2,T}
@@ -854,28 +855,31 @@ CH3OCO
 3 C 1 {2,S} {4,D}
 4 O 0 {3,D}
 
-CH3OC*OO
-1 C 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,D} {5,S}
-4 O 0 {3,D}
-5 O 1 {3,S} 
+// RMG does not like this: "forbidden by CO3." so removing for now -- RHW
+// CH3OC*OO
+// 1 C 0 {2,S}
+// 2 O 0 {1,S} {3,S}
+// 3 C 0 {2,S} {4,D} {5,S}
+// 4 O 0 {3,D}
+// 5 O 1 {3,S} 
 
-CH3OC*OOO
-1 C 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,D} {5,S}
-4 O 0 {3,D}
-5 O 0 {3,S} {6,S}
-6 O 1 {5,S}
+// RMG does not like this: "forbidden by CO3" so removing for now -- RHW
+//CH3OC*OOO
+//1 C 0 {2,S}
+//2 O 0 {1,S} {3,S}
+//3 C 0 {2,S} {4,D} {5,S}
+//4 O 0 {3,D}
+//5 O 0 {3,S} {6,S}
+//6 O 1 {5,S}
 
-CH3OC*OOOH
-1 C 0 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,D} {5,S}
-4 O 0 {3,D}
-5 O 0 {3,S} {6,S}
-6 O 0 {5,S}
+// RMG does not like this: "forbidden by CO3" so removing for now -- RHW
+//CH3OC*OOOH
+//1 C 0 {2,S}
+//2 O 0 {1,S} {3,S}
+//3 C 0 {2,S} {4,D} {5,S}
+//4 O 0 {3,D}
+//5 O 0 {3,S} {6,S}
+//6 O 0 {5,S}
 
 HOOCH2OCHO
 1 O 0 {2,D}
@@ -901,49 +905,50 @@ HOOCH2OC*O
 5 O 0 {4,S} {6,S}
 6 O 0 {5,S}
 
-CH2OC*OOOH
-1 C 1 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,D} {5,S}
-4 O 0 {3,D}
-5 O 0 {3,S} {6,S}
-6 O 0 {5,S}
-
-CYOCH2OC*O
-1 C 0 {2,S} {4,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,S} {5,D}
-4 O 0 {1,S} {3,S}
-5 O 0 {3,D}
-
-OOCH2OC*OOOH
-1 O 1 {2,S}
-2 O 0 {1,S} {3,S}
-3 C 0 {2,S} {4,S}
-4 O 0 {3,S} {5,S}
-5 C 0 {4,S} {6,D} {7,S}
-6 O 0 {5,D}
-7 O 0 {5,S} {8,S}
-8 O 0 {7,S}
-
-HOOCH2OC*OOO
-1 O 0 {2,D}
-2 C 0 {1,D} {3,S} {7,S}
-3 O 0 {2,S} {4,S}
-4 C 0 {3,S} {5,S}
-5 O 0 {4,S} {6,S}
-6 O 0 {5,S}
-7 O 0 {2,S} {8,S}
-8 O 1 {7,S}
-
-O*CHOC*OOOH
-1 O 0 {2,D}
-2 C 0 {1,D} {3,S} {6,S}
-3 O 0 {2,S} {4,S}
-4 C 0 {3,S} {5,D}
-5 O 0 {4,D}
-6 O 0 {2,S} {7,S}
-7 O 0 {6,S}
+// RMG does not like this: "forbidden by CO3" so removing for now -- RHW
+//CH2OC*OOOH
+//1 C 1 {2,S}
+//2 O 0 {1,S} {3,S}
+//3 C 0 {2,S} {4,D} {5,S}
+//4 O 0 {3,D}
+//5 O 0 {3,S} {6,S}
+//6 O 0 {5,S}
+//
+//CYOCH2OC*O
+//1 C 0 {2,S} {4,S}
+//2 O 0 {1,S} {3,S}
+//3 C 0 {2,S} {4,S} {5,D}
+//4 O 0 {1,S} {3,S}
+//5 O 0 {3,D}
+//
+//OOCH2OC*OOOH
+//1 O 1 {2,S}
+//2 O 0 {1,S} {3,S}
+//3 C 0 {2,S} {4,S}
+//4 O 0 {3,S} {5,S}
+//5 C 0 {4,S} {6,D} {7,S}
+//6 O 0 {5,D}
+//7 O 0 {5,S} {8,S}
+//8 O 0 {7,S}
+//
+//HOOCH2OC*OOO
+//1 O 0 {2,D}
+//2 C 0 {1,D} {3,S} {7,S}
+//3 O 0 {2,S} {4,S}
+//4 C 0 {3,S} {5,S}
+//5 O 0 {4,S} {6,S}
+//6 O 0 {5,S}
+//7 O 0 {2,S} {8,S}
+//8 O 1 {7,S}
+//
+//O*CHOC*OOOH
+//1 O 0 {2,D}
+//2 C 0 {1,D} {3,S} {6,S}
+//3 O 0 {2,S} {4,S}
+//4 C 0 {3,S} {5,D}
+//5 O 0 {4,D}
+//6 O 0 {2,S} {7,S}
+//7 O 0 {6,S}
 
 
 CHOOCO
