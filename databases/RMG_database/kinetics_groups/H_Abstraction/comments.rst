@@ -3051,6 +3051,54 @@ for the remaining species and TS were set to 1.  The rate coefficient was comput
 The computed pre-exponential factor was divided by 2 and this is the reported value.
 
 ---
+310
+---
+JDM increased the activation energy for the abstraction of a vinyl-H hydrogen by O2.  August 2010.
+Using the Evans-Polanyi principle with alpha = 1, the activation energy was increased by delta(vinyl radical - alkyl radical) = 9.6 kcal/mol.
+Reaction rate 154 was the basis for this.
+
+Previously, rates had been calculated by an averaging-of-averages technique, which resulted in the abstraction of vinyl-H's being orders of magnitude faster than the abstraction of alkyl-H's.
+
+These rates have been calculated based on rates of primary- and secondary-alkyl H-abstractions by O2. 
+The A-factors have remained the same.
+
+---
+311
+---
+JDM increased the activation energy for the abstraction of a vinyl-H hydrogen by O2.  August 2010.
+Using the Evans-Polanyi principle with alpha = 1, the activation energy was increased by delta(vinyl radical - alkyl radical) = 9.6 kcal/mol.
+Reaction rate 179 was the basis for this.
+
+Previously, rates had been calculated by an averaging-of-averages technique, which resulted in the abstraction of vinyl-H's being orders of magnitude faster than the abstraction of alkyl-H's.
+
+These rates have been calculated based on rates of primary- and secondary-alkyl H-abstractions by O2. 
+The A-factors have remained the same.
+
+---
+312
+---
+JDM increased the activation energy for the abstraction of a vinyl-H hydrogen by O2.  August 2010.
+Using the Evans-Polanyi principle with alpha = 1, the activation energy was increased by delta(vinyl radical - alkyl radical) = 9.6 kcal/mol.
+Reaction rate 155 was the basis for this.
+
+Previously, rates had been calculated by an averaging-of-averages technique, which resulted in the abstraction of vinyl-H's being orders of magnitude faster than the abstraction of alkyl-H's.
+
+These rates have been calculated based on rates of primary- and secondary-alkyl H-abstractions by O2. 
+The A-factors have remained the same.
+
+---
+313
+---
+JDM increased the activation energy for the abstraction of a vinyl-H hydrogen by O2.  August 2010.
+Using the Evans-Polanyi principle with alpha = 1, the activation energy was increased by delta(vinyl radical - alkyl radical) = 9.6 kcal/mol.
+Reaction rate 188 was the basis for this.
+
+Previously, rates had been calculated by an averaging-of-averages technique, which resulted in the abstraction of vinyl-H's being orders of magnitude faster than the abstraction of alkyl-H's.
+
+These rates have been calculated based on rates of primary- and secondary-alkyl H-abstractions by O2. 
+The A-factors have remained the same.
+
+---
 500
 ---
 MRH CBS-QB3 calculations w/o HR corrections

@@ -302,6 +302,10 @@ Arrhenius_EP
 308.	H2O2	InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3	600-2000	3.055E-01	3.53	0.0	1.52	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
 // (Reverse) Rates for tButanol+HO2=H2O2+radicals
 309.	H2O2	InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3		600-2000	2.100E-01	3.53	0.0	1.56	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
+310.	Cd_pri		O2b					300-1500	7.00E+12	0		0		60.36	0		0		0		0		5		Increased rate 154 Ea by 9.6 kcal/mol (vinyl versus methyl)
+311.	Cd_pri		O2b					500-2000	1.005E+13	0		0		61.47	*10.0	0		0		0		4		Increased rate 179 Ea by 9.6 kcal/mol (vinyl versus methyl)
+312.	Cd/H/NonDeC	O2b					300-1500	7.00E+12	0		0		57.81	0		0		0		0		5		Increased rate 155 Ea by 9.6 kcal/mol (vinyl versus methyl)
+313.	Cd/H/NonDeC	O2b					300-2500	1.985E+13	0		0		57.29	*10.0	0		0		0		4		Increased rate 188 Ea by 9.6 kcal/mol (vinyl versus methyl)486.	Orad_O_H		O_rad/NonDeO	300-1500	1.75E+10	0	0	-3.275	0	0	0	0	5	[8] Curran's estimation in reaction type 13, RO2 + HO2 --> RO2H + O2
 486.	Orad_O_H		O_rad/NonDeO	300-1500	1.75E+10	0	0	-3.275	0	0	0	0	5	[8] Curran's estimation in reaction type 13, RO2 + HO2 --> RO2H + O2
 500.	CO_pri	InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3			600-2000	3.065e-02	3.95	0.0	12.22	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
 501.	InChI=1/C3H8/c1-3-2/h3H2,1-2H3	InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3		300-2000	9.11e-07	5.11	0	5.69	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
