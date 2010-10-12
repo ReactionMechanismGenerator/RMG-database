@@ -96,4 +96,4 @@ Arrhenius_EP
 533.		O2_birad		O_Csrad        298        5.7209E+12    0    0    0        *2.0        0    0    0    4    Atkinson et al [98] literature review.
 534.		O2_birad		O_Csrad        298        2.92067E+12    0    0    0        *1.3        0    0    0    4    Atkinson et al [98] literature review.
 535.		O2_birad		O_Csrad        200-300    2.74001E+12    0    0    0        *1.3        0    0    0.40    4    DeMore et al [183] literature review.
-600.		O2_birad		O_Csrad				250-1000	4.6826E+11	0.3321	0	-1.0635	0	0	0	0	1	Zador et al.
+600.		O2_birad		O_Csrad				250-1000	2.3413E+11	0.3321	0	-1.0635	0	0	0	0	1	Zador et al.

@@ -2,7 +2,7 @@
 // JS, change y_1centerbirad definition, so that it wont have CO as child, Aug 22, 2003
 
 Y_rad_birad
-Union {O2_birad, Y_1centerbirad, Y_rad}
+Union {Y_1centerbirad, Y_rad}
 
 // Y_2centeradjbirad
 // 1 *1 {Os, Ct} 1 {2,{S,T}}

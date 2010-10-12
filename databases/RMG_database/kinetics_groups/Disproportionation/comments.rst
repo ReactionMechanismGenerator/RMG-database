@@ -1126,6 +1126,8 @@ The authors conclude that the CH3CHO+HO2 product channel dominates at all temper
  signal from the m/z = 44 PIE scan; they concluded this was due to the CH3CHO and CH2CHOH isomers.
 This rate coefficient recommendation is up to 3x slower than the previous RMG-employed recommendation, over the valid
  temperature range.
+ 
+12-OCT-2010 amendement (MRH): Divided pre-exponential A factor by 2 (to account for symmetry of oxygen).
 
 .. [Zador2009] J. Zador, R.X. Fernandes, Y. Georgievskii, G. Meloni, C.A. Taatjes, J.A. Miller
 	"The reaction of hydroxyethyl radicals with O2: A theoretical analysis of experimental product study"
