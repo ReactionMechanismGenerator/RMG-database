@@ -7,4 +7,5 @@ Int. J. Chem. Kinet., Vol. 42, No. 9. (2010), pp. 527-549.
 http://dx.doi.org/10.1002/kin.20512
 
  * C1 contains just the C0-C1 chemistry
- * MethylFormate additionally contains some (but not all) of the other reactions.
+ * methylformate additionally contains some (but not all) of the other reactions.
+ * methylformate_2 also contains some (but perhaps different?) of the methylformate-specific reactions, as transcribed independently by Shamel.
