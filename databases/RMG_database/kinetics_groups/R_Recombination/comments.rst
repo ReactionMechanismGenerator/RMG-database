@@ -1126,3 +1126,35 @@ Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 literature review. Rate constant is high pressure limit. O2+ CH3CO --> CH3C(O)OO C.D.W. divided rate expression by 2, to get rate of addition per site
 
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
+
+---
+491
+---
+MRH estimate
+
+A reasonable estimate for the total k_inf(T) for the recombination of H radical with a heavy atom
+is a temperature-independent 1e+14 cm3 mol-1 s-1.  HOWEVER, the value I choose to store in the database
+is 1e+13 cm3 mol-1 s-1, because this is the single-event value.  Not knowing what species RMG will find
+in trying this estimate, I want to fail on the low side.
+
+Using a hydrogen on a primary carbon as an example: Ethane has a multiplicity of six, iso-butane has a
+multiplicity of nine, and neo-pentane has a multiplicity of 12.  Using the 1e+13 cm3 mol-1 s-1 with any
+of these multiplicities will not result in ridiculously fast kinetics.  The purpose of adding entries
+491 and 492 are to reduce the chance RMG sends ridiculously fast high-P-limit kinetics to fame, thereby
+giving us ridiculously fast k(T,P) in our chem.inp files and causing stiffness issues in flame solvers.
+
+NOTE TO RMG USERS: If your model proves to be sensitive to the kinetics of the H+R(+M)=H-R(+M), I would
+encourage you to run a fame job separately, with the 1e+14 cm3 mol-1 s-1 as the total k(T) (if no better
+estimate is known).
+
+---
+492
+---
+MRH estimate
+
+A reasonable estimate for the total k_inf(T) for the recombination of two heavy atom radicals is a
+temperature-independent 1e+13 cm3 mol-1 s-1.  The actual high-P-limit k(T) sent to fame may be slightly
+larger (e.g. neo-pentane has a multiplicity of four for breaking a C-CH3 bond) but this is still
+reasonable.
+
+[Please read the comments for entry 491 - Y_rad + H_rad - for more background on the matter].
