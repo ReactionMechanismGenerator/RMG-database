@@ -332,3 +332,11 @@ Arrhenius_EP
 521.	InChI=1/C4H8O/c1-4(2)3-5/h3-4H,1-2H3	H_rad	300-2000	2.08e+07	1.84	0	3.03	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
 522.	InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3	InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/o	300-2000	7.52e-08	5.77	0	12.04	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
 523.	O/H/NonDeC	O2b	300-2000	5e+10	0.0	1	0.0	0	0	0	0	1	Estimate [W.H. Green]
+524.	C/H3/Cd		O_rad/NonDeO		300-1500	0.57833e-03	4.65		0		9.78	0		0		0		0		5	SSM due to lack of better value ref rate rule 525 
+525.	InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+		O_rad/NonDeO		300-1500	0.57833e-03	4.65		0		9.78	0		0		0		0		5	SSM CBS-QB3 calculations w/o HR corrections  		
+526.	H2O2		Cd_rad/NonDeC		300-1500	4.375e-01	3.59		0		-4.03	0		0		0		0		5	SSM due to lack of better value ref rate rule 527
+527.	H2O2		InChI=1/C4H7/c1-3-4-2/h3H,1-2H3 		300-1500	4.375e-01	3.59		0		-4.03	0		0		0		0		5	SSM CBS-QB3 calculations w/o HR corrections
+528.	C/H2/OneDeC		O_rad/NonDeO		300-1500	2.54e-04	4.59		0		7.16	0		0		0		0		5	SSM due to lack of better value ref rate rule 529
+529.	InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3 		O_rad/NonDeO		300-1500	2.54e-04	4.59		0		7.16	0		0		0		0		5	SSM CBS-QB3 calculations w/o HR corrections
+530.	H2O2		Cd_pri_rad		300-1500	1.00e+00	3.52		0		-7.48	0		0		0		0		5	SSM due to lack of better value ref rate rule 531
+531.	H2O2		InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3 		300-1500	1.00e+00	3.52		0		-7.48	0		0		0		0		5	SSM CBS-QB3 calculations w/o HR corrections

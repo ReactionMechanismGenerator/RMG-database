@@ -17,6 +17,7 @@ L1: X_H
 			L4: C/H3/Cd
 				L5: InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3
 				L5: InChI=1/C3H6/c1-3-2/h3H,1H2,2H3
+				L5: InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ 
 			L4: C/H3/Ct
 			L4: C/H3/Cb
 			L4: C/H3/CO
@@ -31,6 +32,7 @@ L1: X_H
 			L4: C/H2/OneDe
 				L5: C/H2/OneDeC
 					L6: InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3/beta
+					L6: InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3
 				L5: C/H2/OneDeO
 			L4: C/H2/TwoDe
 		L3: C_ter
@@ -130,9 +132,11 @@ L1: Y_rad_birad
 		L3: Cd_rad
 			L4: Cd_pri_rad
 				L5: InChI=1/C2H3/c1-2/h1H,2H2
+				L5: InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3 
 			L4: Cd_sec_rad
 				L5: Cd_rad/NonDeC
 					L6: InChI=1/C3H5/c1-3-2/h1H2,2H3
+					L6: InChI=1/C4H7/c1-3-4-2/h3H,1-2H3 
 				L5: Cd_rad/NonDeO
 				L5: Cd_rad/OneDe
 		L3: Ct_rad
