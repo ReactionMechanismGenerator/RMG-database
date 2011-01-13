@@ -3462,3 +3462,98 @@ temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (even
 .. [Tsang1990] W. Tsang; "Chemical kinetic database for combustion chemistry. Part IV. Isobutane" J. Phys. Chem. Ref. Data 19 (1990) 1-68
 
 .. [Tsang1991] W. Tsang; "Chemkcai kinetic database for combustion chemistry. Part V. Propene" J. Phys. Chem. Ref. Data 20 (1991) 221-273
+
+---
+524
+---
+This rate rules matches C=C-CH3 + HO-O* <=> C=C-CH2* + H2O2
+
+Due to lack of better estimate SSM has given this node the value obtained from 2-Butene + HO2 calculations (Rate rule 525)
+The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
+The Wigner tunneling currection that was used to account for tunneling.  
+
+---
+525
+---
+SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 6 to get per-H value.
+
+InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ (external symmetry number = 2, spin multiplicity = 1)
+ +
+HO2 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H7/c1-3-4-2/h3-4H,1H2,2H3  (external symmetry number = 1, spin multiplicity = 2)
+ +
+H2O2 (external symmetry number = 2, spin multiplicity = 1)
+
+---
+526
+---
+This rate rules matches C=C*-C + H2O2 <=> C=C-C + HO-O*
+
+Due to lack of better estimate SSM has given this node the value obtained from 2-Butene + HO2 calculations (Rate rule 527)
+The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
+The Wigner tunneling currection that was used to account for tunneling.
+
+---
+527
+---
+SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to account for summetry of H2O2
+The rate rule is valid in a range of temperature from 300 -2000 K.
+The Wigner tunneling currection that was used to account for tunneling.
+
+InChI=1/C4H7/c1-3-4-2/h3H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+H2O2 (external symmetry number = 2, spin multiplicity = 1)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+  (external symmetry number = 2, spin multiplicity = 1)
+ +
+HO2 (external symmetry number = 1, spin multiplicity = 2)
+
+---
+528
+---
+This rate rules matches Cs-CH2-C=C + HO-O* <=> Cs-CH*-C=C + H2O2
+
+Due to lack of better estimate SSM has given this node the value obtained from 1-Butene + HO2 calculations (Rate rule 529)
+The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
+The Wigner tunneling currection that was used to account for tunneling.
+  
+
+---
+529
+---
+SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to get per-H value.
+The rate rule is valid in a range of temperature from 300 -2000 K.
+The Wigner tunneling currection that was used to account for tunneling.
+
+InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+HO2 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H7/c1-3-4-2/h3-4H,1H2,2H3   (external symmetry number = 1, spin multiplicity = 2)
+ +
+H2O2 (external symmetry number = 2, spin multiplicity = 1)
+
+---
+530
+---
+This rate rules matches C-HC=CH* + H2O2 <=> C-HC=CH2 + HO=O*
+
+Due to lack of better estimate SSM has given this node the value obtained from 1-Butene + HO2 calculations (Rate rule 531)
+The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
+The Wigner tunneling currection that was used to account for tunneling.
+
+---
+531
+---
+SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to account for summetry of H2O2
+The rate rule is valid in a range of temperature from 300 -2000 K.
+The Wigner tunneling currection that was used to account for tunneling.
+
+InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3  (external symmetry number = 1, spin multiplicity = 2)
+ +
+H2O2 (external symmetry number = 2, spin multiplicity = 1)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3  (external symmetry number = 1, spin multiplicity = 1)
+ +
+HO2 (external symmetry number = 1, spin multiplicity = 2)
