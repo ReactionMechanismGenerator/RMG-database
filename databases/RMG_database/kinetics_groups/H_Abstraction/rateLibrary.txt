@@ -340,3 +340,4 @@ Arrhenius_EP
 529.	InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3 		O_rad/NonDeO		300-1500	2.54e-04	4.59		0		7.16	0		0		0		0		5	SSM CBS-QB3 calculations w/o HR corrections
 530.	H2O2		Cd_pri_rad		300-1500	1.00e+00	3.52		0		-7.48	0		0		0		0		5	SSM due to lack of better value ref rate rule 531
 531.	H2O2		InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3 		300-1500	1.00e+00	3.52		0		-7.48	0		0		0		0		5	SSM CBS-QB3 calculations w/o HR corrections
+532.	X_H	O2b	300-2000	5e+10	0.0	1	0.0	0	0	0	0	1	Estimate [W.H. Green]

@@ -3452,16 +3452,7 @@ This rate coefficient is an estimate from W.H. Green (personal communication).  
  divided by 2 (from 1e11 to 5e10), to account for the symmetry of .OO.  The temperature range is estimated as 300-2000 K
  and the rank is assigned 1, so that this rate coefficient estimate will be used in all instances.
 This is simply an estimate; JDM and/or MRH will refine this value in the near future.
-
-.. [MRHCBSQB3RRHO] M.R. Harper (mrharper_at_mit_dot_edu or michael.harper.jr_at_gmail_dot_com)
-The geometries of all reactants, products, and the transition state were optimized using the CBS-QB3 calculations.  The zero-point
-energy is that computed by the CBS-QB3 calculations.  The frequencies were computed with B3LYP/CBSB7.
-In computing k(T), an asymmetric tunneling correction was employed, the calculated frequencies were scaled by 0.99, and the 
-temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (evenly spaced on inverse temperature scale).
-
-.. [Tsang1990] W. Tsang; "Chemical kinetic database for combustion chemistry. Part IV. Isobutane" J. Phys. Chem. Ref. Data 19 (1990) 1-68
-
-.. [Tsang1991] W. Tsang; "Chemkcai kinetic database for combustion chemistry. Part V. Propene" J. Phys. Chem. Ref. Data 20 (1991) 221-273
+See also rate 532 for X_H + .OO. --> HOO. + X.
 
 ---
 524
@@ -3557,3 +3548,26 @@ H2O2 (external symmetry number = 2, spin multiplicity = 1)
 InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3  (external symmetry number = 1, spin multiplicity = 1)
  +
 HO2 (external symmetry number = 1, spin multiplicity = 2)
+
+---
+532
+---
+X_H + .OO. --> HOO. + X.
+
+I have taken the estimated rate from 523, which assumes A=1e11 with Ea=enthothermicity,
+and assigned it to the top level X_H node so that whenever .OO. is abstracting from 
+something without a proper rate, this value is used instead of the lengthy average.
+See notes to 523 for further details.
+
+
+
+.. [MRHCBSQB3RRHO] M.R. Harper (mrharper_at_mit_dot_edu or michael.harper.jr_at_gmail_dot_com)
+The geometries of all reactants, products, and the transition state were optimized using the CBS-QB3 calculations.  The zero-point
+energy is that computed by the CBS-QB3 calculations.  The frequencies were computed with B3LYP/CBSB7.
+In computing k(T), an asymmetric tunneling correction was employed, the calculated frequencies were scaled by 0.99, and the 
+temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (evenly spaced on inverse temperature scale).
+
+.. [Tsang1990] W. Tsang; "Chemical kinetic database for combustion chemistry. Part IV. Isobutane" J. Phys. Chem. Ref. Data 19 (1990) 1-68
+
+.. [Tsang1991] W. Tsang; "Chemkcai kinetic database for combustion chemistry. Part V. Propene" J. Phys. Chem. Ref. Data 20 (1991) 221-273
+
