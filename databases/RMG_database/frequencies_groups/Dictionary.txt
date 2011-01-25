@@ -1,6 +1,7 @@
 //Frequency dictionary: devised by Franklin Goldsmith
 //implemented by Greg Magoon: 11/13/08 (based off Group_Dictionary.txt for Thermo)
 //"counting nodes" (those that are counted by Franklin's code) denoted by ###
+//"potential counting nodes" (not currently handled by frankie, cf. https://github.com/GreenGroup/RMG-Java/commit/a171151e334dfa563f97632cb687347e314f8f9b) denoted by ***
 //modified 11/18/08 since {} notation for radicals doesn't seem to work
 
  R!H //L0
@@ -656,7 +657,7 @@
  2    R!H 2 {1,D}
  3    H 0 {1,S}
 
- CtCr //L2 Node: triple-bonded to one heavy atom (carbon) ###
+ CtCr //L2 Node: triple-bonded to one heavy atom (carbon) ***
  Union {CtCrx0, CtCrx1}
 
  CtCrx0
@@ -838,7 +839,7 @@
  C_R2			// L1 Node: carbon, double radical
  1  * C 2 
 
- RsCHrr   // L2 Node: single-bonded to exactly one heavy atom ###
+ RsCHrr   // L2 Node: single-bonded to exactly one heavy atom ***
  Union {RsCHrrx0,RsCHrrx1,RsCHrrx2}
 
  RsCHrrx0
@@ -856,7 +857,7 @@
  2    R!H 2 {1,S}
  3    H 0 {1,S}
 
- RdCrr //L2 Node: double-bonded to one heavy atom (vinylic) ###
+ RdCrr //L2 Node: double-bonded to one heavy atom (vinylic) ***
  Union {RdCrrx0,RdCrrx1,RdCrrx2}
  
  RdCrrx0
@@ -871,7 +872,7 @@
  1  * C 2 {2,D}
  2    R!H 2 {1,D}
 
- RsCrrsR   // L2 Node: single-bonded to exactly two heavy atoms ###
+ RsCrrsR   // L2 Node: single-bonded to exactly two heavy atoms ***
  Union {RsCrrsRx00,RsCrrsRx01,RsCrrsRx11,RsCrrsRx02,RsCrrsRx12,RsCrrsRx22}
 
  RsCrrsRx00
@@ -1040,7 +1041,7 @@
  1  * O 1
 
 
- Oxy   // L2 Node: bound to carbon ###
+ Oxy   // L2 Node: bound to carbon ***
  Union {Oxyx0,Oxyx1,Oxyx2}
 
  Oxyx0
