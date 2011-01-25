@@ -10,7 +10,9 @@ It is recommended that this library is included in all calculations. (It is
 advisable to use a much larger library, as many other small molecules will be
 poorly estimated by RMG. This should be considered a bare minimum.)
 
---
+--------
+Sources:
+--------
 
 For CO3 isomers:
 Data is from the paper by Mebel et al. [1].
@@ -19,10 +21,23 @@ Vibrational frequencies from the supplementary material.
 H298 values are derived from the relative energies given in the paper.
 
 For C3Hn species:
-Geometries from [2] and frequencies from [3].
+Geometries from Aguilera-Iparraguirre [2] and frequencies from Nguyen [3].
 H298 values from a mixture of the two.
 
+For OCCO species: 
+QCI//DFT calculation by C.F. Goldsmith (2010): The lowest energy conformer
+using CBS-QB3 method was selected, and this geometry was re-optimized using
+the B3LYP functional with the larger 6-311++G(d,p) basis set. the DFT
+equilibrium geometries were used for RQCISD(T)/cc-pVTZ and RQCISD(T)/cc-pVQZ
+energies. To avoid spin contamination, all calculations were spin restricted.
+The RQCISD(T) complete basis set limit was extrapolated from the triple and
+quadruple zeta basis set calculations assuming an inverse power law.
+Manuscript in preparation.
 
+
+----------
+References
+----------
 
 [1] A. M. Mebel, M. Hayashi, V. V. Kislov, and S. H. Lin. Theoretical Study of
 Oxygen Isotope Exchange and Quenching in the O(1D) + CO2 Reaction. The Journal
