@@ -27,7 +27,7 @@ L0: R!H
 		L2: OdCrsR
 		L2: CdCrsR
 		L2: RsCrsR2
-	L2: C_R2
+	L1: C_R2
 		L2: RsCHrr
 		L2: RdCrr
 		L2: RsCrrsR
