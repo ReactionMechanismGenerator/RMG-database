@@ -8,7 +8,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-//#     Group                   S               B               E               V               A                 Platt's Fragment #
+//#     Group                   S               B               E               L               A                 Platt's Fragment #
 //           Platts' name:     \pi_2^H        \Sigma\beta_2^H   R^2            \log L^{16}     \Sigma\alpha_2^H    
                                                                                                                    
 1       CssH3                   -0.075          0.007           -0.104          0.321           0                  fragment 1 sp3 CH3
