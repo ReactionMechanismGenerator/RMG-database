@@ -925,7 +925,7 @@ CH3CH2OOH = CH3CH2O + OH                 1.1E28  -4.150   46190  0.0 0.0 0.0
  CH3CH2OO + CH3CH2OO = CH3CHO + CH3CH2OH + O2 4.3E09   0.000    -850  0.0 0.0 0.0  
 
 //    1 atm
-//CH3CHO + OH = CH3CHO + OH                   3.5E12  -0.947     979  0.0 0.0 0.0  
+//CH3CHOOH = CH3CHO + OH                   3.5E12  -0.947     979  0.0 0.0 0.0  
 //   10 atm
 //CH3CHOOH = CH3CHO + OH                   3.5E13  -0.947     980  0.0 0.0 0.0  
 //  100 atm
