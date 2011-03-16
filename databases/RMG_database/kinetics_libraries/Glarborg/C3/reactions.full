@@ -464,24 +464,20 @@ C2H4 + OH = CH2CHOH + H     8.5E10   0.750   11491          0.0 0.0 0.0
   PLOG  /          100      8.5E10   0.750   11491 / 
 
 
-//   1 atm
-//C2H4 + OH = CH2CH2OH                     6.0E37  -8.140    8043  0.0 0.0 0.0  
-//    //  DUPLICATE                                                 
-//C2H4 + OH = CH2CH2OH                     7.3E23  -6.910    2855 0.0 0.0 0.0 
-//    //  DUPLICATE                                                 
-//   10 atm
-C2H4 + OH = CH2CH2OH                     6.0E37  -7.770   10736  0.0 0.0 0.0  
-//    //  DUPLICATE                                                 
-//   10 atm
-C2H4 + OH = CH2CH2OH                     3.0E26  -4.870    2297  0.0 0.0 0.0  
-//    //  DUPLICATE                                                 
-//C2H4 + OH = CH2CH2OH                     6.0E37  -7.440   14269 0.0 0.0 0.0 
-//    //  DUPLICATE                                                 
-//  fit to  60 atm,600-900K
-// C2H4 + OH = CH2CH2OH                     2.4E20  -2.399    3294  0.0 0.0 0.0  
-//   100 atm
-//C2H4 + OH = CH2CH2OH                     2.8E19  -2.410    1011  0.0 0.0 0.0  
-//    //  DUPLICATE                                                 
+//  fit to  60 atm,600-900K    with  no duplicate
+// C2H4 + OH = CH2CH2OH            2.4E20  -2.399    3294
+
+C2H4 + OH = CH2CH2OH        6.0E37  -7.440   14269          0.0 0.0 0.0 
+  PLOG  /          1        6.0E37  -8.140    8043  /
+  PLOG  /          10       6.0E37  -7.770   10736  /
+  PLOG  /          100      6.0E37  -7.440   14269  /
+//  DUPLICATE                                                 
+
+C2H4 + OH = CH2CH2OH        2.8E19  -2.410    1011     0.0 0.0 0.0 
+  PLOG  /          1        7.3E23  -6.910    2855  /
+  PLOG  /         10        3.0E26  -4.870    2297  /
+  PLOG  /        100        2.8E19  -2.410    1011  /
+//  DUPLICATE                                                 
 
  C2H4 + HO2 = cC2H4O + OH                   2.2E12   0.000   17200  0.0 0.0 0.0  
  C2H4 + O2 = C2H3 + HO2                     7.1E13   0.000   60010  0.0 0.0 0.0  
