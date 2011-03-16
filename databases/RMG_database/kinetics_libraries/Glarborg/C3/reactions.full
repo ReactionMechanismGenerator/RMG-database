@@ -123,6 +123,9 @@ CO + OH = CO2 + H                          9.3E07   1.100       0  0.0 0.0 0.0
 //  (650 bar, 300<T<2000K)
 //CO + OH = CO2 + H                          7.0E05   1.700     298  0.0 0.0 0.0  
 //    //  DUPLICATE                                                 
+//  (2000 bar, 300<T<2000K)
+//CO + OH = CO2 + H                          0.0      0.0       0    0.0 0.0 0.0  
+//    //  No DUPLICATE!
 
 
 // (0.001 bar, 300<T<2000K)
@@ -154,6 +157,16 @@ CO + OH = HOCO                           1.5E25  -5.000    1987  0.0 0.0 0.0
 //    //  DUPLICATE                                                 
 
 
+// (0.001 bar, 300<T<2000K)
+//CO + OH = HOCO                           0.0      0.0       0    0.0 0.0 0.0  
+//    //  No DUPLICATE!
+// (1 bar, 300<T<2000K)
+// CO + OH = HOCO                          0.0      0.0       0    0.0 0.0 0.0  
+//    //  No DUPLICATE!
+// (3 bar, 300<T<2000K)
+//CO + OH = HOCO                           0.0      0.0       0    0.0 0.0 0.0  
+//    //  No DUPLICATE!
+// (10 bar, 300<T<2000K)
 CO + OH = HOCO                           1.3E37  -8.400    7948  0.0 0.0 0.0  
     //  DUPLICATE                                                 
 //  (20 bar, 300<T<2000K)
@@ -175,6 +188,18 @@ CO + OH = HOCO                           1.3E37  -8.400    7948  0.0 0.0 0.0
 //CO + OH = HOCO                           2.7E67 -17.000   22851  0.0 0.0 0.0  
 //    //  DUPLICATE                                                 
 
+// (0.001 bar, 300<T<2000K)
+//CO + OH = HOCO                           0.0      0.0       0    0.0 0.0 0.0  
+//    //  No DUPLICATE!
+// (1 bar, 300<T<2000K)
+// CO + OH = HOCO                          0.0      0.0       0    0.0 0.0 0.0  
+//    //  No DUPLICATE!
+// (3 bar, 300<T<2000K)
+//CO + OH = HOCO                           0.0      0.0       0    0.0 0.0 0.0  
+//    //  No DUPLICATE!
+//  (10 bar, 300<T<2000K)
+//CO + OH = HOCO                           0.0      0.0       0    0.0 0.0 0.0  
+//    //  No DUPLICATE!
 // (20 bar, 300<T<2000K)
 //CO + OH = HOCO                           4.0E39  -9.000    9935  0.0 0.0 0.0  
 //    //  DUPLICATE                                                 
