@@ -341,14 +341,12 @@ CH3 + O2 = CH3OO             4.1E30  -5.700    8750       0.0 0.0 0.0
 
  CH3O + CH3O = CH3OH + CH2O                 6.0E13   0.000       0  0.0 0.0 0.0  
 
-//   ( 1 bar)
-// CH3OOH = CH3O + OH                       2.0E35  -6.700   47450  0.0 0.0 0.0  
-//   (10 bar)
-CH3OOH = CH3O + OH                       1.1E28  -4.150   46190  0.0 0.0 0.0  
-//   (50 bar)
-//CH3OOH = CH3O + OH                       2.8E26  -3.500   46340  0.0 0.0 0.0  
-//   (high P limit)
-//CH3OOH = CH3O + OH                       2.2E17  -0.420   44622  0.0 0.0 0.0  
+// High-P limit rate is Garborg's high-PL rate
+CH3OOH = CH3O + OH                       2.2E17  -0.420   44622   0.0 0.0 0.0 
+  PLOG  /         1          2.0E35  -6.700   47450 /
+  PLOG  /         10        1.1E28  -4.150   46190  /
+  PLOG  /         50         2.8E26  -3.500   46340 /
+  PLOG  /       1000         2.2E17  -0.420   44622 /  ! this is Glarborg's high-PL rate
 
 
  CH3OOH + H = CH2O + OH + H2                   5.4E10   0.000    1860  0.0 0.0 0.0  
@@ -382,13 +380,19 @@ CH3OOH = CH3O + OH                       1.1E28  -4.150   46190  0.0 0.0 0.0
  CH3OO + C2H6 = CH3OOH + C2H5               1.9E01   3.640   17100  0.0 0.0 0.0  
 
 
+// Since CFG converted all CH2OOH into CH2O + OH, this reaction is redundant.
 // 1 atm
-// CH2O + OH => CH2O + OH                      2.4E12  -0.925    1567  0.0 0.0 0.0  
+// CH2OOH => CH2O + OH                      2.4E12  -0.925    1567  0.0 0.0 0.0  
 // 10 atm
 //CH2OOH => CH2O + OH                      2.5E13  -0.927    1579  0.0 0.0 0.0  
 // 100 atm
 //CH2OOH => CH2O + OH                      7.0E14  -1.064    1744  0.0 0.0 0.0  
-
+// However, if it did exist, it would look something like this in PLOG form:
+// // High-P limit rate is Garborg's 100 atm rate
+// CH2OOH => CH2O + OH       7.0E14  -1.064    1744      0.0 0.0 0.0  
+//   PLOG  /         1             2.4E12  -0.925    1567 /
+//   PLOG  /         10            2.5E13  -0.927    1579 /
+//   PLOG  /         100           7.0E14  -1.064    1744 / 
 
 
 //
