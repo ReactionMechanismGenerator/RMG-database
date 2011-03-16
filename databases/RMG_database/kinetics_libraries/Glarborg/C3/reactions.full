@@ -67,7 +67,8 @@ Reactions:
  CO + HO2 = CO2 + OH                        1.6E05   2.180   17943  0.0 0.0 0.0  
  
 // (0.001-2000 bar, 300<T<2000K)
-CO + OH = CO2 + H            0.0      0.0       0        0.0 0.0 0.0  // Well-skipping reaction has zero high-P limit.
+// Well-skipping reaction, so high-P limit is zero.
+CO + OH = CO2 + H            0.0      0.0       0        0.0 0.0 0.0 
   PLOG  /      0.001       9.3E10   0.000       0   /
   PLOG  /          1       8.0E10   0.000       0   /
   PLOG  /          3       7.0E10   0.000       0   /
@@ -444,36 +445,40 @@ C2H4 + OH = C2H3 + H2O			      5.4E07   1.8	4166  0.0 0.0 0.0
 
 // JIM/GLA08 fit to SEN/MIL06 60 atm,600-900K
 //   C2H4+OH=CH3+CH2O                     3.3E11   0.000    9079
-//C2H4 + OH = CH3 + CH2O  2.8E13  -0.500   11455           0.0 0.0 0.0 //  100 atm
+// High-P limit rate is Garborg's 100 atm rate
+//C2H4 + OH = CH3 + CH2O  2.8E13  -0.500   11455           0.0 0.0 0.0 
   PLOG  /          1      1.8E06   1.680    2061  /
   PLOG  /         10      2.4E09   0.560    6007  /
   PLOG  /        100      2.8E13  -0.500   11455  /
 
 //  JIM/GLA08 fit to SEN/MIL06 60 atm,600-900K
 // C2H4+OH=CH3CHO+H                     1.4E33  -6.114   24907 
-C2H4 + OH = CH3CHO + H     6.8E09   0.810   13867          0.0 0.0 0.0 //  100 atm
+// High-P limit rate is Garborg's 100 atm rate
+C2H4 + OH = CH3CHO + H     6.8E09   0.810   13867          0.0 0.0 0.0
   PLOG  /          1       2.4E-2   3.910    1723  /
   PLOG  /          10      8.2E08   1.010   10507  /
   PLOG  /          100     6.8E09   0.810   13867  /
 
 //  JIM/GLA08 fit to SEN/MIL06 60 atm,600-900K
 // C2H4+OH=CH2CHOH+H                    1.7E13   0.000   11527
-C2H4 + OH = CH2CHOH + H     8.5E10   0.750   11491          0.0 0.0 0.0 //  100 atm
+// High-P limit rate is Garborg's 100 atm rate
+C2H4 + OH = CH2CHOH + H     8.5E10   0.750   11491          0.0 0.0 0.0
   PLOG  /          1       3.2E05   2.190    5256 /
   PLOG  /          10      1.9E08   1.430    7829 /
   PLOG  /          100      8.5E10   0.750   11491 / 
 
-
-//  fit to  60 atm,600-900K    with  no duplicate
+// Alternative fit to  60 atm,600-900K    with  no duplicate
 // C2H4 + OH = CH2CH2OH            2.4E20  -2.399    3294
 
-C2H4 + OH = CH2CH2OH        6.0E37  -7.440   14269          0.0 0.0 0.0 //  100 atm
+// High-P limit rate is Garborg's 100 atm rate
+C2H4 + OH = CH2CH2OH        6.0E37  -7.440   14269          0.0 0.0 0.0
   PLOG  /          1        6.0E37  -8.140    8043  /
   PLOG  /          10       6.0E37  -7.770   10736  /
   PLOG  /          100      6.0E37  -7.440   14269  /
 //  DUPLICATE                                                 
 
-C2H4 + OH = CH2CH2OH        2.8E19  -2.410    1011     0.0 0.0 0.0   //  100 atm
+// High-P limit rate is Garborg's 100 atm rate
+C2H4 + OH = CH2CH2OH        2.8E19  -2.410    1011     0.0 0.0 0.0
   PLOG  /          1        7.3E23  -6.910    2855  /
   PLOG  /         10        3.0E26  -4.870    2297  /
   PLOG  /        100        2.8E19  -2.410    1011  /
@@ -524,18 +529,20 @@ C2H4 + OH = CH2CH2OH        2.8E19  -2.410    1011     0.0 0.0 0.0   //  100 atm
  C2H2 + O = C2H + OH                        3.2E15  -0.600   15000  0.0 0.0 0.0  
 
 
-C2H2 + OH = CH3 + CO        8.3E05   1.770    4697        0.0 0.0 0.0  // 100 atm
+// High-P limit rate is Garborg's 100 atm rate
+C2H2 + OH = CH3 + CO        8.3E05   1.770    4697        0.0 0.0 0.0
   PLOG  /         1           1.3E09   0.730    2579 /
   PLOG  /         10          4.3E08   0.920    3736 /
   PLOG  /         100         8.3E05   1.770    4697 / 
 
 
-C2H2 + OH = HCCOH + H     7.3E06   1.890   13603        0.0 0.0 0.0  // 100 atm
+// High-P limit rate is Garborg's 100 atm rate
+C2H2 + OH = HCCOH + H     7.3E06   1.890   13603        0.0 0.0 0.0 
   PLOG  /         1         2.4E06   2.000   12713  /
   PLOG  /         10        3.2E06   1.970   12810  /
   PLOG  /         100       7.3E06   1.890   13603  /
   
-
+// High-P limit rate is Garborg's >>100 atm rate
 C2H2 + OH = CHCHOH            1.1E08   1.340     332       0.0 0.0 0.0  
   PLOG  /         1           1.9E44 -11.380    6299  /
   PLOG  /         10          1.5E24  -4.060    3261  /
@@ -543,6 +550,7 @@ C2H2 + OH = CHCHOH            1.1E08   1.340     332       0.0 0.0 0.0
   PLOG  /         1000        1.1E08   1.340     332  /  // ">>100 atm"
 //  DUPLICATE                                                 
 
+// High-P limit rate is Garborg's >>100 atm rate
 C2H2 + OH = CHCHOH            6.0E07   1.620     240       0.0 0.0 0.0  
   PLOG  /         1           3.5E31  -6.200    6635  /
   PLOG  /         10          4.5E31  -5.920    8761  /
@@ -550,8 +558,8 @@ C2H2 + OH = CHCHOH            6.0E07   1.620     240       0.0 0.0 0.0
   PLOG  /         1000        6.0E07   1.620     240  /  // ">>100 atm"
 //  DUPLICATE                                                 
 
-
-C2H2 + OH = CH2CO + H         1.5E04   2.450    4477     0.0 0.0 0.0  // 100 atm
+// High-P limit rate is Garborg's 100 atm rate
+C2H2 + OH = CH2CO + H         1.5E04   2.450    4477     0.0 0.0 0.0
   PLOG  /         1             7.5E06   1.550    2106  /
   PLOG  /         10            5.1E06   1.650    3400  /
   PLOG  /         100           1.5E04   2.450    4477  /
@@ -669,6 +677,7 @@ C2H2 + OH = CH2CO + H         1.5E04   2.450    4477     0.0 0.0 0.0  // 100 atm
  CH2CHOH + OH = CH2CHO + H2O                7.5E11   0.300    1600  0.0 0.0 0.0  
  CH2CHOH + O2 => CH2O + HCO + OH              3.5E07   1.800   39000  0.0 0.0 0.0  
 
+// High-P limit rate is Garborg's 100 atm rate
 CHCHOH = HCCOH + H           5.5E29  -5.057   52377  0.0 0.0 0.0  
   PLOG  /         1          1.1E31  -6.153   51383  /
   PLOG  /         10         1.5E32  -6.168   52239  /
@@ -684,15 +693,16 @@ CHCHOH = HCCOH + H           5.5E29  -5.057   52377  0.0 0.0 0.0
  cC2H3O = CH3 + CO                         7.1E12   0.000   14280  0.0 0.0 0.0  
 
 
-
-CH2CHO = CH2CO + H           1.4E15  -0.150   45606  0.0 0.0 0.0  // (high-PL)
+// High-P limit rate is Garborg's high-PL rate
+CH2CHO = CH2CO + H           1.4E15  -0.150   45606  0.0 0.0 0.0
   PLOG  /        0.01        2.4E25  -4.800   43424  /
   PLOG  /         0.1        2.4E30  -5.860   46114  /
   PLOG  /           1        1.3E34  -6.570   49454  /
   PLOG  /          10        3.5E36  -6.920   52979  /
   PLOG  /         100        1.2E36  -6.480   55171  /
 
-CH2CHO = CH3 + CO               2.9E12   0.290   40326  0.0 0.0 0.0   // (high-PL)
+// High-P limit rate is Garborg's high-PL rate
+CH2CHO = CH3 + CO               2.9E12   0.290   40326  0.0 0.0 0.0
   PLOG  /        0.01         1.2E30  -6.070   41332 /
   PLOG  /         0.1         6.4E32  -6.570   44282 /
   PLOG  /           1         6.5E34  -6.870   47191 /
@@ -707,7 +717,8 @@ CH2CHO = CH3 + CO               2.9E12   0.290   40326  0.0 0.0 0.0   // (high-P
  CH2CHO + OH = CH2CO + H2O                  2.0E13   0.000       0  0.0 0.0 0.0  
  CH2CHO + OH = CH2OH + HCO                  1.0E13   0.000       0  0.0 0.0 0.0  
 
-//CH2CHO + O2 = CH2O + CO + OH       1.5E-10  6.690    4868  0.0 0.0 0.0  // 100 atm
+// High-P limit rate is Garborg's 100 atm rate
+//CH2CHO + O2 = CH2O + CO + OH       1.5E-10  6.690    4868  0.0 0.0 0.0 
   PLOG  /           1          5.7E17  -1.757   11067 /
   PLOG  /          10          1.1E14  -0.610   11422 /
   PLOG  /         100          1.5E-10  6.690    4868 /
@@ -721,7 +732,8 @@ CH2CHO = CH3 + CO               2.9E12   0.290   40326  0.0 0.0 0.0   // (high-P
 // CH2CHO + CH = C2H3 + HCO                   1.0E14   0.000       0  0.0 0.0 0.0  
 
 
-CH3CO = CH3 + CO               1.1E12   0.630   16895  0.0 0.0 0.0 //   (high-PL)
+// High-P limit rate is Garborg's high-PL rate
+CH3CO = CH3 + CO               1.1E12   0.630   16895  0.0 0.0 0.0
   PLOG  /          0.01          6.9E14  -1.970   14584 /
   PLOG  /           0.1          2.0E16  -2.090   15197 /
   PLOG  /             1          6.5E18  -2.520   16436 /
@@ -776,8 +788,10 @@ CH3CO = CH3 + CO               1.1E12   0.630   16895  0.0 0.0 0.0 //   (high-PL
 
 // C2O + C = CO + C2                          1.0E14   0.000       0  0.0 0.0 0.0  
 
+
 // ( = CH3OOH = CH3O + OH[ZHU/LIN01b],high P limit)
-CH3CH2OOH = CH3CH2O + OH       2.2E17  -0.420   44622  0.0 0.0 0.0  // high p limit
+// High-P limit rate is Garborg's high-PL rate
+CH3CH2OOH = CH3CH2O + OH       2.2E17  -0.420   44622  0.0 0.0 0.0
   PLOG  /           1             2.0E35  -6.700   47450 /
   PLOG  /           10            1.1E28  -4.150   46190 /
   PLOG  /           50            2.8E26  -3.500   46340 /
@@ -811,7 +825,7 @@ CH3CH2OOH = CH3CH2O + OH       2.2E17  -0.420   44622  0.0 0.0 0.0  // high p li
  CH3CH2OO + CH3CH2OO = CH3CH2O + CH3CH2O + O2 2.9E11  -0.270     408  0.0 0.0 0.0  
  CH3CH2OO + CH3CH2OO = CH3CHO + CH3CH2OH + O2 4.3E09   0.000    -850  0.0 0.0 0.0  
 
-// High-P rate is 100 atm
+// High-P limit rate is Garborg's 100 atm rate
 //CH3CHO + OH = CH3CHO + OH    5.8E14  -1.012    1068  0.0 0.0 0.0  
   PLOG  /          1        3.5E12  -0.947     979 /
   PLOG  /         10        3.5E13  -0.947     980 /
@@ -822,6 +836,7 @@ CH3CH2OOH = CH3CH2O + OH       2.2E17  -0.420   44622  0.0 0.0 0.0  // high p li
  CH2CH2OOH = C2H4 + HO2                   1.3E11   0.520   16150  0.0 0.0 0.0  
 
 //  est = CH3OOH = CH3O + OH,high P limit)
+// High-P limit rate is Garborg's high-PL rate
 //CH2CHOOH = CH2CHO + OH                   2.2E17  -0.420   44622  0.0 0.0 0.0  
   PLOG  /        1           2.0E35  -6.700   47450 /
   PLOG  /        10          1.1E28  -4.150   46190 /
@@ -859,7 +874,6 @@ CH3CH2OOH = CH3CH2O + OH       2.2E17  -0.420   44622  0.0 0.0 0.0  // high p li
 // CYCOOC. = CH2O + HCO                     6.1E10   0.000     914  0.0 0.0 0.0  
 //  meohcys4e (100 atm)
 // CYCOOC. = OCHCHO + H                     1.6E13  -1.093    3159  0.0 0.0 0.0  
-
 
 
  OCHCHO + H = CH2O + HCO                    3.0E13   0.000       0  0.0 0.0 0.0  
