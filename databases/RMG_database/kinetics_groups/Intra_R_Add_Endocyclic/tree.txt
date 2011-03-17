@@ -39,6 +39,9 @@ L1: Rn
 	      L4: R5_DS_D
 	      L4: R5_DS_T
 	      L4: R5_DS_CO
+	   L3: R5_DS_allenic
+	      L4: R5_DS_allenic_D
+	      L4: R5_DS_allenic_CO
 	   L3: R5_ST
 	      L4: R5_ST_D
 	      L4: R5_ST_T

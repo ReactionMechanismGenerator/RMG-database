@@ -17,4 +17,4 @@ Arrhenius_EP
 813.	R3_D   		doublebond_intra_pri_HDe  	radadd_intra_cs2H	300-1600	1.05E+08	1.192	0	54		0	0	0	0	5
 814.	R3_T     	triplebond_intra_H     		radadd_intra_cs2H 	300-1600	1.05E+08	1.192	0	54		0	0	0	0	5	
 //815.	R6_SSS_D    doublebond_intra_pri_NdNd   radadd_intra_cs		300-1500	1.00E+10	0		0	50.9	0	0	0	0	2
-
+816.	R5_DS_allenic_D		doublebond_intra_secDe_2H		radadd_intra_cdsingleH			298-3000	2.82E+11	0.12		0	14.82	   0	0   0	0   2 RRHO, CBS-QB3 treatment of H2C=C=CH-CH=CH. cyclization by gmagoon
