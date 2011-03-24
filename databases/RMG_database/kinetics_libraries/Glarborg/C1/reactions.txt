@@ -5,15 +5,26 @@ A: mol/cm3/s
 E: cal/mol
 
 Reactions: 
+
+
+
+// Glarborg, 
+//
+// *****************************************************************************
+//    H2/O2 subset                                                             *
+// *****************************************************************************
+//
+
  H + O2 = O + OH                            3.6E15  -0.410   16600  0.0 0.0 0.0  
-  
+                                     
+ 
  H + H + H2 = H2 + H2                         1.0E17  -0.600       0  0.0 0.0 0.0  
- H + H + H2O = H2 + H2O                       1.0E19  -1.000       0  0.0 0.0 0.0                                  
+ H + H + H2O = H2 + H2O                       1.0E19  -1.000       0  0.0 0.0 0.0                      
 
  O + H2 = OH + H                            3.8E12   0.000    7948  0.0 0.0 0.0  
-  DUPLICATE                                                 
+     //  DUPLICATE                                                 
  O + H2 = OH + H                            8.8E14   0.000   19175  0.0 0.0 0.0  
-  DUPLICATE                                                 
+     //  DUPLICATE                                                 
 
  OH + OH = O + H2O                          4.3E03   2.700   -1822  0.0 0.0 0.0  
 
@@ -35,21 +46,21 @@ Reactions:
 // Instead here is a rate from Baulch et al JPCRF 1994 as reported by
 // http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:91
 // although the valid temperature range is not very large...
- HO2 + OH = H2O + O2                       2.89E13   0.000   -497  *1.58 0.0 0.0                                            
+ HO2 + OH = H2O + O2                       2.89E13   0.000   -497  *1.58 0.0 0.0
 
  HO2 + HO2 = H2O2 + O2                      1.9E11   0.000   -1408  0.0 0.0 0.0  
-   DUPLICATE                                                 
+     //  DUPLICATE                                                 
  HO2 + HO2 = H2O2 + O2                      1.0E14   0.000   11034  0.0 0.0 0.0
-   DUPLICATE                                                                              
+     //  DUPLICATE                                                                              
 
  H2O2 + H = H2O + OH                        1.0E13   0.000    3580  0.0 0.0 0.0  
  H2O2 + H = HO2 + H2                        1.7E12   0.000    3760  0.0 0.0 0.0  
  H2O2 + O = HO2 + OH                        9.6E06   2.000    3970  0.0 0.0 0.0  
 
  H2O2 + OH = H2O + HO2                      1.9E12   0.000     427  0.0 0.0 0.0  
-   DUPLICATE                                                 
+     //  DUPLICATE                                                 
  H2O2 + OH = H2O + HO2                      1.6E18   0.000   29410  0.0 0.0 0.0  
-   DUPLICATE                                                 
+     //  DUPLICATE                                                 
 
 //
 // *****************************************************************************
@@ -62,12 +73,13 @@ Reactions:
  CO + HO2 = CO2 + OH                        1.6E05   2.180   17943  0.0 0.0 0.0  
 
  HOCO + OH = CO2 + H2O                      4.6E12   0.000     -89  0.0 0.0 0.0  
-       DUPLICATE                                                 
+     //  DUPLICATE                                                 
  HOCO + OH = CO2 + H2O                      9.5E06   2.000     -89  0.0 0.0 0.0  
-       DUPLICATE                                                 
+     //  DUPLICATE                                                 
 
  HOCO + OH = CO + H2O2                      1.0E13   0.000       0  0.0 0.0 0.0  
  HOCO + O2 = CO2 + HO2                      9.9E11   0.000       0  0.0 0.0 0.0  
+ 
 //
 // *****************************************************************************
 //    CH2O subset                                                              *
@@ -77,7 +89,10 @@ Reactions:
  CH2O + H = HCO + H2                        4.1E08   1.470    2444  0.0 0.0 0.0  
  CH2O + O = HCO + OH                        4.2E11   0.570    2760  0.0 0.0 0.0  
  CH2O + O2 = HCO + HO2                      2.4E05   2.500   36461  0.0 0.0 0.0  
+
+//SCRATCH: RMG doesn't like this rate; cfg replaced it with baulch
  CH2O + OH = HCO + H2O                      7.8E07   1.630   -1055  0.0 0.0 0.0  
+//CH2O + OH = HCO + H2O			      4.9E12   0.0     -79.5  0.0 0.0 0.0 
  CH2O + HO2 = HCO + H2O2                    4.1E04   2.500   10206  0.0 0.0 0.0  
  CH2O + CH3 = HCO + CH4                     3.2E01   3.360    4310  0.0 0.0 0.0  
 
@@ -110,34 +125,18 @@ Reactions:
  CH3 + O = H2 + CO + H                        1.5E13   0.000       0  0.0 0.0 0.0  
  CH3 + OH = CH2 + H2O                       1.1E03   3.000    2780  0.0 0.0 0.0  
  CH2(S) + H2O = CH3 + OH                    3.0E15  -0.600       0  0.0 0.0 0.0  
+
+
+ CH3 + HO2 = CH4 + O2			    1.2E05  2.228  -3020 0.0 0.0 0.0 
+// RMG dislikes!  replaced with Jasper
 //CH3 + HO2 = CH4 + O2                       2.5E08   1.250   -1630  0.0 0.0 0.0  
- CH3 + HO2 = CH4 + O2                       1.8E03   2.830   -3730  0.0 0.0 0.0  
- CH3 + HO2 = CH3O + OH                      2.0E13   0.000    1075  0.0 0.0 0.0  
+//CH3 + HO2 = CH4 + O2                       1.8E03   2.830   -3730  0.0 0.0 0.0  
+
+// replace with Jasper
+CH3 + HO2 = CH3O + OH			   4.6E12    0.2688	687  0.0  0.0 0.0 	
+// CH3 + HO2 = CH3O + OH                      2.0E13   0.000    1075  0.0 0.0 0.0  
  CH3 + O2 = CH3O + O                        7.5E12   0.000   28297  0.0 0.0 0.0  
  CH3 + O2 = CH2O + OH                       1.9E11   0.000    9842  0.0 0.0 0.0  
-
-//  fit to FER/TRO06 ( 1 bar)
-// CH3 + O2 = CH3OO                         5.0E22  -3.850    2000  0.0 0.0 0.0  
-//  fit to FER/TRO06 (10 bar)
-CH3 + O2 = CH3OO                         3.4E21  -3.200    2300  0.0 0.0 0.0  
-//  fit to FER/TRO06 (20 bar)
-//CH3 + O2 = CH3OO                         4.1E20  -2.940    1900  0.0 0.0 0.0  
-//    //  DUPLICATE                                                 
-//  fit to FER/TRO06 (20 bar)
-//CH3 + O2 = CH3OO                         3.3E29  -5.600    6850  0.0 0.0 0.0  
-//    //  DUPLICATE                                                 
-//  fit to FER/TRO06 (50 bar)
-//CH3 + O2 = CH3OO                         2.8E18  -2.200    1400  0.0 0.0 0.0  
-//    //  DUPLICATE                                                 
-//  fit to FER/TRO06 (50 bar)
-//CH3 + O2 = CH3OO                         5.6E28  -5.250    6850  0.0 0.0 0.0  
-//    //  DUPLICATE                                                 
-//  fit to FER/TRO06 (100bar)
-//CH3 + O2 = CH3OO                         1.1E19  -2.300    1800  0.0 0.0 0.0  
-//    //  DUPLICATE                                                 
-//  fit to FER/TRO06 (100bar)
-//CH3 + O2 = CH3OO                         4.1E30  -5.700    8750  0.0 0.0 0.0  
-//    //  DUPLICATE                                                 
 
 
  CH3 + HCO = CH4 + CO                       2.8E13   0.000       0  0.0 0.0 0.0  
@@ -156,11 +155,10 @@ CH3 + O2 = CH3OO                         3.4E21  -3.200    2300  0.0 0.0 0.0
  CH2 + O2 = CO + OH + H                       1.6E21 -3.300     2867  0.0 0.0 0.0  
  CH2 + CO2 = CO + CH2O                      1.0E11  0.000     1000  0.0 0.0 0.0  
 
-// CH2(S) + N2 = CH2 + N2                     1.3E13  0.000      430  0.0 0.0 0.0  
-//CH2(S) + AR = CH2 + AR                     1.5E13  0.000      884  0.0 0.0 0.0  
+
  CH2(S) + H = CH2 + H                       2.0E14  0.000        0  0.0 0.0 0.0  
 // CH2(S) + H = CH + H2                       3.0E13  0.000        0  0.0 0.0 0.0  
- CH2(S) + O = CO + H + H                       3.0E13  0.000        0  0.0 0.0 0.0  
+ CH2(S) + O = CO + H + H                      3.0E13  0.000        0  0.0 0.0 0.0  
  CH2(S) + OH = CH2O + H                     3.0E13  0.000        0  0.0 0.0 0.0  
  CH2(S) + O2 = CO + OH + H                  7.0E13  0.000        0  0.0 0.0 0.0  
  CH2(S) + H2O = CH2 + H2O                   3.0E13  0.000        0  0.0 0.0 0.0  
@@ -196,9 +194,9 @@ CH3 + O2 = CH3OO                         3.4E21  -3.200    2300  0.0 0.0 0.0
  CH2OH + HO2 = CH2O + H2O2                  1.2E13   0.000       0  0.0 0.0 0.0  
 
  CH2OH + O2 = CH2O + HO2                    7.2E13   0.000    3736  0.0 0.0 0.0  
-       DUPLICATE                                                 
+     //  DUPLICATE                                                 
  CH2OH + O2 = CH2O + HO2                    2.9E16  -1.500       0  0.0 0.0 0.0  
-       DUPLICATE                                                 
+     //  DUPLICATE                                                 
 
  CH2OH + HCO = CH3OH + CO                   1.0E13   0.000       0  0.0 0.0 0.0  
  CH2OH + HCO = CH2O + CH2O                  1.5E13   0.000       0  0.0 0.0 0.0  
@@ -223,23 +221,14 @@ CH3 + O2 = CH3OO                         3.4E21  -3.200    2300  0.0 0.0 0.0
 
  CH3O + CH3O = CH3OH + CH2O                 6.0E13   0.000       0  0.0 0.0 0.0  
 
-//   ( 1 bar)
-// CH3OOH = CH3O + OH                       2.0E35  -6.700   47450  0.0 0.0 0.0  
-//   (10 bar)
-CH3OOH = CH3O + OH                       1.1E28  -4.150   46190  0.0 0.0 0.0  
-//   (50 bar)
-//CH3OOH = CH3O + OH                       2.8E26  -3.500   46340  0.0 0.0 0.0  
-//   (high P limit)
-//CH3OOH = CH3O + OH                       2.2E17  -0.420   44622  0.0 0.0 0.0  
 
-
- CH3OOH + H = CH2OOH + H2                   5.4E10   0.000    1860  0.0 0.0 0.0  
+ CH3OOH + H = CH2O + OH + H2                   5.4E10   0.000    1860  0.0 0.0 0.0  
  CH3OOH + H = CH3OO + H2                    5.4E10   0.000    1860  0.0 0.0 0.0  
  CH3OOH + H = CH3O + H2O                    1.2E10   0.000    1860  0.0 0.0 0.0  
- CH3OOH + O = CH2OOH + OH                   1.6E13   0.000    4750  0.0 0.0 0.0  
+ CH3OOH + O = CH2O + OH + OH                   1.6E13   0.000    4750  0.0 0.0 0.0  
  CH3OOH + O = CH3OO + OH                    8.7E12   0.000    4750  0.0 0.0 0.0  
  CH3OOH + OH = CH3OO + H2O                  1.1E12   0.000    -437  0.0 0.0 0.0  
- CH3OOH + OH = CH2OOH + H2O                 7.2E11   0.000    -258  0.0 0.0 0.0  
+ CH3OOH + OH = CH2O + OH + H2O                 7.2E11   0.000    -258  0.0 0.0 0.0  
  CH3OOH + HO2 = CH3OO + H2O2                4.1E04   2.500   10206  0.0 0.0 0.0  
 
  CH3OO + H = CH3O + OH                      1.0E14   0.000       0  0.0 0.0 0.0  
@@ -255,17 +244,18 @@ CH3OOH = CH3O + OH                       1.1E28  -4.150   46190  0.0 0.0 0.0
  CH3OO + CH3O = CH2O + CH3OOH               3.0E11   0.000       0  0.0 0.0 0.0  
  CH3OO + CH3OH = CH3OOH + CH2OH             4.0E13   0.000   19400  0.0 0.0 0.0  
  CH3OO + CH3OO = CH3O + CH3O + O2             1.1E18  -2.400    1800  0.0 0.0 0.0  
-       DUPLICATE                                                    
+     //  DUPLICATE                                                    
  CH3OO + CH3OO = CH3O + CH3O + O2             7.0E10   0.000     800  0.0 0.0 0.0  
-       DUPLICATE                                                    
+     //  DUPLICATE                                                    
 
  CH3OO + CH3OO = CH3OH + CH2O + O2            2.0E11  -0.550   -1600  0.0 0.0 0.0  
- CH3OO + C2H5 = CH3O + C2H5O                5.1E12   0.000   -1410  0.0 0.0 0.0  
+ CH3OO + C2H5 = CH3O + CH3CH2O                5.1E12   0.000   -1410  0.0 0.0 0.0  
  CH3OO + C2H6 = CH3OOH + C2H5               1.9E01   3.640   17100  0.0 0.0 0.0  
 
 // 1 atm
-// CH2OOH => CH2O + OH                      2.4E12  -0.925    1567  0.0 0.0 0.0  
+// CH2O + OH => CH2O + OH                      2.4E12  -0.925    1567  0.0 0.0 0.0  
 // 10 atm
-CH2OOH => CH2O + OH                      2.5E13  -0.927    1579  0.0 0.0 0.0  
+//CH2OOH => CH2O + OH                      2.5E13  -0.927    1579  0.0 0.0 0.0  
 // 100 atm
 //CH2OOH => CH2O + OH                      7.0E14  -1.064    1744  0.0 0.0 0.0  
+ 

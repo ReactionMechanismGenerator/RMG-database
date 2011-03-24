@@ -123,8 +123,14 @@ C2H5
 2  C 0 {1,S}
 
 
-C2H5O
-1  C 0 {2,S}
+//C2H5O
+//1  C 0 {2,S}
+//2  C 0 {1,S} {3,S}
+//3  O 1 {2,S}
+
+// replacement for C2H5O
+CH3CH2O
+1  C 0 {2,S} 
 2  C 0 {1,S} {3,S}
 3  O 1 {2,S}
 
