@@ -418,7 +418,7 @@ CH2CHO = CH3 + CO               2.9E12   0.290   40326  0.0 0.0 0.0
   PLOG  /         100         2.2E33  -5.970   50448 /
   
  // High-P limit rate is Garborg's 100 atm rate
-//CH2CHO + O2 = CH2O + CO + OH       1.5E-10  6.690    4868  0.0 0.0 0.0 
+CH2CHO + O2 = CH2O + CO + OH       1.5E-10  6.690    4868  0.0 0.0 0.0 
   PLOG  /           1          5.7E17  -1.757   11067 /
   PLOG  /          10          1.1E14  -0.610   11422 /
   PLOG  /         100          1.5E-10  6.690    4868 /
@@ -439,14 +439,14 @@ CH3CH2OOH = CH3CH2O + OH       2.2E17  -0.420   44622  0.0 0.0 0.0
   PLOG  /           50            2.8E26  -3.500   46340 /
   
 // High-P limit rate is Garborg's 100 atm rate
-//CH3CHO + OH = CH3CHO + OH    5.8E14  -1.012    1068  0.0 0.0 0.0  
+CH3CHO + OH = CH3CHO + OH    5.8E14  -1.012    1068  0.0 0.0 0.0  
   PLOG  /          1        3.5E12  -0.947     979 /
   PLOG  /         10        3.5E13  -0.947     980 /
   PLOG  /        100        5.8E14  -1.012    1068 /
 
 //  est = CH3OOH = CH3O + OH,high P limit)
 // High-P limit rate is Garborg's high-PL rate
-//CH2CHOOH = CH2CHO + OH                   2.2E17  -0.420   44622  0.0 0.0 0.0  
+CH2CHOOH = CH2CHO + OH                   2.2E17  -0.420   44622  0.0 0.0 0.0  
   PLOG  /        1           2.0E35  -6.700   47450 /
   PLOG  /        10          1.1E28  -4.150   46190 /
   PLOG  /        50          2.8E26  -3.500   46340 / 
