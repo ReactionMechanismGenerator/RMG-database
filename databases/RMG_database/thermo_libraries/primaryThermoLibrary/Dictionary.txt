@@ -56,3 +56,7 @@ cyclopropynylidyne
 3  C 1 {1,S} {2,S} {4,S}
 4  H 0 {3,S}
 
+C3H2
+1 C 2S {2,S} {3,S}
+2 C 0 {1,S} {3,D}
+3 C 0 {1,S} {2,D}

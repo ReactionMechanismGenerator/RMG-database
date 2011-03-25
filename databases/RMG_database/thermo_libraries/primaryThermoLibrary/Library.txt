@@ -10,3 +10,4 @@ cyclopropene12diyl     188.13    59.26    11.32   13.42   15.16   16.58   18.74 
 cyclopropynylidyne     169.80    57.47    10.43   11.93   13.18   14.18   15.61   16.59   17.99   0.0 0.0 0.0 "doi:10.1016/j.chemphys.2008.01.057 and doi:10.1021/jp003224c"
 OCCO(S)	18.31	90.63	13.66	14.78	15.66	16.41	17.57	18.39	19.53	0.0	0.0	0.0	"QCI//DFT calculation by CFGoldsmith; Copied from DFT_QCI_thermo library"
 OCCO	5.60	61.18	14.21	15.20	15.98	16.65	17.72	18.49	19.58	0.0	0.0	0.0	"QCI//DFT calculation by CFGoldsmith; Copied from DFT_QCI_thermo library"
+C3H2	113.99	56.44	10.61	12.79	14.81	16.48	18.71	20.33	22.59	0.0	0.0	0.0	"Burcat's recommended value for 16165-40-5: C3H2 CYCLOPROPENYLIDENE BI-RADICAL SINGLET on 3/25/2011 (MRH converted from NASA-7 to RMG format)"
