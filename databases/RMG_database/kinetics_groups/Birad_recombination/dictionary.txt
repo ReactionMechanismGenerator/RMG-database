@@ -269,7 +269,7 @@ CdsingleND_rad_out
 
 CdsingleDe_rad_out
 1 *1 Cd 1 {2,S}
-2 {Cd,Ct,Cb,Os} 0 {1,S}
+2 {Cd,Ct,Cb,CO} 0 {1,S}
 
 O_rad
 1 *1 Os 1
@@ -373,7 +373,7 @@ CdsinglepriND_rad_out
 
 CdsinglepriDe_rad_out
 1 *2 Cd 1 {2,S}
-2 {Cd,Ct,Cb,Os} 0 {1,S}
+2 {Cd,Ct,Cb,CO} 0 {1,S}
 
 Opri_rad
 1 *2 Os 1
