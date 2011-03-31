@@ -59,8 +59,8 @@ CH3
 CH2
 1  C 2T
 
-//CH2(S)
-//1  C 2S
+CH2(S)
+1  C 2S
 
 
 //CH
