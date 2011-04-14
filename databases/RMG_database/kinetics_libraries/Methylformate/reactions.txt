@@ -24,8 +24,8 @@ Mfmt        = CO2 + CH4         4.536e11    0.832   83.612  0   0   0
 
 // These are CFGoldsmith's QCI calculations
 // Mfmt        = CO + CH3OH    6.49e+04    2.62    64.4    0   0   0
-// Mfmt        = CO2 + CH4     6.88e+06    2.01    134     0   0   0
-Mofml       = CO2 + CH3j    2.34e+09    1.09    14.3    0   0   0
+// Mfmt        = CO2 + CH4     4.52e+06    2.06    79.4    0   0   0
+Mofml       = CO2 + CH3j    2.3e+09     1.09    14.9    0   0   0
 CO + CH3Oj  = Mofml         1.97e+09    1.27    5.81    0   0   0
 HCjO + CH2O = Fmoml         5.03e+03    2.48    9.32    0   0   0
 
