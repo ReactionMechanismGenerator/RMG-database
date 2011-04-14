@@ -22,9 +22,9 @@ Reactions:
  H + H + H2O = H2 + H2O                       1.0E19  -1.000       0  0.0 0.0 0.0                                  
 
  O + H2 = OH + H                            3.8E12   0.000    7948  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
  O + H2 = OH + H                            8.8E14   0.000   19175  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
 
  OH + OH = O + H2O                          4.3E03   2.700   -1822  0.0 0.0 0.0  
 
@@ -49,18 +49,18 @@ Reactions:
  HO2 + OH = H2O + O2                       2.89E13   0.000   -497  *1.58 0.0 0.0
 
  HO2 + HO2 = H2O2 + O2                      1.9E11   0.000   -1408  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
  HO2 + HO2 = H2O2 + O2                      1.0E14   0.000   11034  0.0 0.0 0.0
-     //  DUPLICATE                                                                              
+       DUPLICATE                                                                              
 
  H2O2 + H = H2O + OH                        1.0E13   0.000    3580  0.0 0.0 0.0  
  H2O2 + H = HO2 + H2                        1.7E12   0.000    3760  0.0 0.0 0.0  
  H2O2 + O = HO2 + OH                        9.6E06   2.000    3970  0.0 0.0 0.0  
 
  H2O2 + OH = H2O + HO2                      1.9E12   0.000     427  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
  H2O2 + OH = H2O + HO2                      1.6E18   0.000   29410  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
 
 //
 // *****************************************************************************
@@ -97,16 +97,16 @@ Reactions:
 //CO + OH = HOCO                           2.2E27  -5.600    3239  0.0 0.0 0.0  
 //  (10 bar, 300<T<2000K)
 CO + OH = CO2 + H                          3.7E12   0.000   12518  0.0 0.0 0.0  
-    //  DUPLICATE                                                 
+      DUPLICATE                                                 
 //  (10 bar, 300<T<2000K)
 CO + OH = CO2 + H                          9.3E07   1.100       0  0.0 0.0 0.0  
-    //  DUPLICATE                                                 
+      DUPLICATE                                                 
 //  (10 bar, 300<T<2000K)
 CO + OH = HOCO                           1.5E25  -5.000    1987  0.0 0.0 0.0  
-    //  DUPLICATE                                                 
+      DUPLICATE                                                 
 // (10 bar, 300<T<2000K)
 CO + OH = HOCO                           1.3E37  -8.400    7948  0.0 0.0 0.0  
-    //  DUPLICATE                                                 
+      DUPLICATE                                                 
 //  (20 bar, 300<T<2000K)
 //CO + OH = CO2 + H                          2.9E12   0.000   11922  0.0 0.0 0.0  
 //    //  DUPLICATE                                                 
@@ -208,10 +208,10 @@ CO + OH = HOCO                           1.3E37  -8.400    7948  0.0 0.0 0.0
 //     //  DUPLICATE                                                 
 //  (10 bar)
 HOCO = CO2 + H                           3.2E57 -15.000   46500  0.0 0.0 0.0  
-    //  DUPLICATE                                                 
+      DUPLICATE                                                 
 //  (10 bar)
 HOCO = CO2 + H                           2.2E70 -18.000   60000  0.0 0.0 0.0  
-    //  DUPLICATE                                                 
+      DUPLICATE                                                 
 //  (20 bar)
 //HOCO = CO2 + H                           6.0E57 -15.000   46500  0.0 0.0 0.0  
 //    //  DUPLICATE                                                 
@@ -232,9 +232,9 @@ HOCO = CO2 + H                           2.2E70 -18.000   60000  0.0 0.0 0.0
 //    //  DUPLICATE                                                 
 
  HOCO + OH = CO2 + H2O                      4.6E12   0.000     -89  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
  HOCO + OH = CO2 + H2O                      9.5E06   2.000     -89  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
 
  HOCO + OH = CO + H2O2                      1.0E13   0.000       0  0.0 0.0 0.0  
  HOCO + O2 = CO2 + HO2                      9.9E11   0.000       0  0.0 0.0 0.0  
@@ -367,9 +367,9 @@ CH3 + HO2 = CH3O + OH			   1.0E12    0.2688	-687.5  0.0  0.0 0.0
  CH2OH + HO2 = CH2O + H2O2                  1.2E13   0.000       0  0.0 0.0 0.0  
 
  CH2OH + O2 = CH2O + HO2                    7.2E13   0.000    3736  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
  CH2OH + O2 = CH2O + HO2                    2.9E16  -1.500       0  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
 
  CH2OH + HCO = CH3OH + CO                   1.0E13   0.000       0  0.0 0.0 0.0  
  CH2OH + HCO = CH2O + CH2O                  1.5E13   0.000       0  0.0 0.0 0.0  
@@ -426,9 +426,9 @@ CH3OOH = CH3O + OH                       1.1E28  -4.150   46190  0.0 0.0 0.0
  CH3OO + CH3O = CH2O + CH3OOH               3.0E11   0.000       0  0.0 0.0 0.0  
  CH3OO + CH3OH = CH3OOH + CH2OH             4.0E13   0.000   19400  0.0 0.0 0.0  
  CH3OO + CH3OO = CH3O + CH3O + O2             1.1E18  -2.400    1800  0.0 0.0 0.0  
-     //  DUPLICATE                                                    
+       DUPLICATE                                                    
  CH3OO + CH3OO = CH3O + CH3O + O2             7.0E10   0.000     800  0.0 0.0 0.0  
-     //  DUPLICATE                                                    
+       DUPLICATE                                                    
 
  CH3OO + CH3OO = CH3OH + CH2O + O2            2.0E11  -0.550   -1600  0.0 0.0 0.0  
  CH3OO + C2H5 = CH3O + CH3CH2O                5.1E12   0.000   -1410  0.0 0.0 0.0  
@@ -456,9 +456,9 @@ CH2OOH => CH2O + OH                      2.5E13  -0.927    1579  0.0 0.0 0.0
  C2H6 + O2 = C2H5 + HO2                     7.3E05   2.500   49160  0.0 0.0 0.0  
 
  C2H6 + CH3 = C2H5 + CH4                    5.6E10   0.000    9418  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
  C2H6 + CH3 = C2H5 + CH4                    8.4E14   0.000   22250  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
 
  C2H5 + O = CH3 + CH2O                      4.2E13   0.000       0  0.0 0.0 0.0  
  C2H5 + O = CH3CHO + H                      5.3E13   0.000       0  0.0 0.0 0.0  
@@ -479,14 +479,14 @@ CH2OOH => CH2O + OH                      2.5E13  -0.927    1579  0.0 0.0 0.0
  CH3 + CH2 = C2H4 + H                       4.2E13   0.000       0  0.0 0.0 0.0  
 
  C2H4 + O = CH3 + HCO                       3.9E12   0.000    1494  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
  C2H4 + O = CH3 + HCO                       6.2E13   0.000    6855  0.0 0.0 0.0
-     //  DUPLICATE                                                  
+       DUPLICATE                                                  
 
  C2H4 + O = CH2CHO + H                      1.7E12   0.000    1494  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
  C2H4 + O = CH2CHO + H                      2.8E13   0.000    6855  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
 
 // RMG doesn't like this rate; I replaced it with NIST
 // C2H4 + OH = C2H3 + H2O                     1.3E-1   4.200    -860  0.0 0.0 0.0  
@@ -526,10 +526,10 @@ C2H4 + OH = CH2CHOH + H                    1.9E08   1.430    7829  0.0 0.0 0.0
 //    //  DUPLICATE                                                 
 //   10 atm
 C2H4 + OH = CH2CH2OH                     6.0E37  -7.770   10736  0.0 0.0 0.0  
-//    //  DUPLICATE                                                 
+      DUPLICATE                                                 
 //   10 atm
 C2H4 + OH = CH2CH2OH                     3.0E26  -4.870    2297  0.0 0.0 0.0  
-//    //  DUPLICATE                                                 
+      DUPLICATE                                                 
 //C2H4 + OH = CH2CH2OH                     6.0E37  -7.440   14269 0.0 0.0 0.0 
 //    //  DUPLICATE                                                 
 //  fit to  60 atm,600-900K
@@ -593,10 +593,10 @@ C2H2 + OH = HCCOH + H                      3.2E06   1.970   12810  0.0 0.0 0.0
 //    //  DUPLICATE                                                 
 //      10 atm
 C2H2 + OH = CHCHOH                       1.5E24  -4.060    3261  0.0 0.0 0.0  
-//    //  DUPLICATE                                                 
+      DUPLICATE                                                 
 //      10 atm
 C2H2 + OH = CHCHOH                       4.5E31  -5.920    8761  0.0 0.0 0.0  
-//    //  DUPLICATE                                                 
+      DUPLICATE                                                 
 //     100 atm
 // C2H2 + OH = CHCHOH                       6.2E20  -2.800    2831  0.0 0.0 0.0  
      //  DUPLICATE                                                 
@@ -637,9 +637,9 @@ C2H2 + OH = CHCHOH                       4.5E31  -5.920    8761  0.0 0.0 0.0
  CH3CHOH + HO2 = CH3CHO + OH + OH             4.0E13   0.000       0  0.0 0.0 0.0  
 
  CH3CHOH + O2 = CH3CHO + HO2                8.4E15  -1.200       0  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
  CH3CHOH + O2 = CH3CHO + HO2                4.8E14   0.000    5017  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
 
  CH2CH2OH = CH2CHOH + H                   2.2E05   2.840   32920  0.0 0.0 0.0  
  CH3CH2O = CH2CH2OH                     2.8E-29 11.900    4450  0.0 0.0 0.0  
@@ -693,9 +693,9 @@ C2H2 + OH = CHCHOH                       4.5E31  -5.920    8761  0.0 0.0 0.0
  CH2CHOH + H = CH2CHO + H2                  1.5E07   1.700    3000  0.0 0.0 0.0  
 
  CH2CHOH + O = CH2OH + HCO                  3.9E12   0.000    1494  0.0 0.0 0.0  
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
  CH2CHOH + O = CH2OH + HCO                  6.2E13   0.000    6855 0.0 0.0 0.0 
-     //  DUPLICATE                                                 
+       DUPLICATE                                                 
 
  CH2CHOH + O = CH2CHO + OH                  1.6E07   2.000    4400  0.0 0.0 0.0  
  CH2CHOH + OH = CHCHOH + H2O                1.3E-1   4.200    -860  0.0 0.0 0.0  

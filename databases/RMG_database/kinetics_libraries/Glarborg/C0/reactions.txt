@@ -11,9 +11,9 @@ H + H + H2 = H2 + H2                         1.0E17  -0.600       0  0.0 0.0 0.0
 H + H + H2O = H2 + H2O                       1.0E19  -1.000       0  0.0 0.0 0.0                                  
 
  O + H2 = OH + H                            3.8E12   0.000    7948  0.0 0.0 0.0  
-//  DUPLICATE                                                 
+  DUPLICATE                                                 
  O + H2 = OH + H                            8.8E14   0.000   19175  0.0 0.0 0.0  
-//  DUPLICATE                                                 
+  DUPLICATE                                                 
 
  OH + OH = O + H2O                          4.3E03   2.700   -1822  0.0 0.0 0.0  
 
@@ -38,16 +38,16 @@ H + H + H2O = H2 + H2O                       1.0E19  -1.000       0  0.0 0.0 0.0
  HO2 + OH = H2O + O2                       2.89E13   0.000   -497  *1.58 0.0 0.0
 
  HO2 + HO2 = H2O2 + O2                      1.9E11   0.000   -1408  0.0 0.0 0.0  
- //  DUPLICATE                                                 
+   DUPLICATE                                                 
  HO2 + HO2 = H2O2 + O2                      1.0E14   0.000   11034  0.0 0.0 0.0
- //  DUPLICATE                                                                              
+   DUPLICATE                                                                              
 
  H2O2 + H = H2O + OH                        1.0E13   0.000    3580  0.0 0.0 0.0  
  H2O2 + H = HO2 + H2                        1.7E12   0.000    3760  0.0 0.0 0.0  
  H2O2 + O = HO2 + OH                        9.6E06   2.000    3970  0.0 0.0 0.0  
 
  H2O2 + OH = H2O + HO2                      1.9E12   0.000     427  0.0 0.0 0.0  
- //  DUPLICATE                                                 
+   DUPLICATE                                                 
  H2O2 + OH = H2O + HO2                      1.6E18   0.000   29410  0.0 0.0 0.0  
- //  DUPLICATE                                                 
+   DUPLICATE                                                 
 
