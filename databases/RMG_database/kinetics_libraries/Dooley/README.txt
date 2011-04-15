@@ -9,3 +9,5 @@ http://dx.doi.org/10.1002/kin.20512
  * C1 contains just the C0-C1 chemistry
  * methylformate additionally contains some (but not all) of the other reactions.
  * methylformate_2 also contains some (but perhaps different?) of the methylformate-specific reactions, as transcribed independently by Shamel.
+ * methylformate_all_ARHEbathgas contains the entire model from the above paper, transcribed by Michael Harper, for Ar or He bath gas.
+ * methylformate_all_N2bathgas contains the entire model from the above paper, transcribed by Michael Harper, for Nitrogen bath gas.
