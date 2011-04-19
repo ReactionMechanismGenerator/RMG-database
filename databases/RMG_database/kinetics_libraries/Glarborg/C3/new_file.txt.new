@@ -570,7 +570,9 @@ C2H4  +  OH  =  CH2CH2OH                     3.0E26  -4.870    2297  0.0 0.0 0.0
 //  PM 60 bar
 // RMG dislikes; cfg replaced w mclin
 // C2H3  +  O2  =  CH2CHOO                      1.1E12   0.000   -1680  0.0 0.0 0.0  
- C2H3  +  O2  =  CH2CHOO			  3.0E36   -8.0	   -5680  0.0 0.0 0.0 
+// C.F.Goldsmith replaced the above rate expression from Glarborg with the following rate expression from
+// A. M. Mebel, E. W. G. Diau, M. C. Lin, and K. Morokuma J. Am. Chem. Soc. 1996, 118, 9759-9771  http://dx.doi.org/10.1021/ja961476e
+ C2H3 + O2 = CH2CHOO			  3.0E36   -8.0	   5680  0.0 0.0 0.0 
 //  PM 60 bar
  C2H3  +  O2  =  CH2O  +  HCO                     6.3E12   0.000    3130  0.0 0.0 0.0  
 //  PM 60 bar
