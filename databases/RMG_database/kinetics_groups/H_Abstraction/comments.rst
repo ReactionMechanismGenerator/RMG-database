@@ -3559,8 +3559,34 @@ and assigned it to the top level X_H node so that whenever .OO. is abstracting f
 something without a proper rate, this value is used instead of the lengthy average.
 See notes to 523 for further details.
 
+---
+533
+---
 
+For CH4 + C2 = CH3 + C2H
 
+J. Phys. Chem. A 2010, 114, 4580–4585
+http://dx.doi.org/10.1021/jp1012494
+
+Rate Constants and Kinetic Isotope Effects on the Reaction of C($X^1\Sigma_g^+$) with CH4 and CD4.
+Akira Matsugi, Kohsuke Suma, and Akira Miyoshi
+
+It was measured at pretty low temperatures (294-376), but also calculated ab initio. The calculated
+rates are plotted but the expression is not reported.
+
+    k = (10.0 +- 2.1)E-11 exp[-(4.4+-0.5 kJ mol)/RT] cm3 molecule-1 s-1
+which gives 
+    A = 6e13+-1.3e13 cm3/mole/s
+    n = 0
+    Ea = 1.05+-0.12  kcal/mol
+The degeneracy of this reaction is 8 though, so per-site A is:
+    A = 7.5e12+-1.6e12
+    
+(See also  doi:10.1063/1.3480395  for reactions of C2, but that may be the wrong electronic state.)
+
+----------
+References
+----------
 .. [MRHCBSQB3RRHO] M.R. Harper (mrharper_at_mit_dot_edu or michael.harper.jr_at_gmail_dot_com)
 The geometries of all reactants, products, and the transition state were optimized using the CBS-QB3 calculations.  The zero-point
 energy is that computed by the CBS-QB3 calculations.  The frequencies were computed with B3LYP/CBSB7.
