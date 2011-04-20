@@ -200,7 +200,7 @@ Arrhenius_EP
 185.	C/H3/CO		O_pri_rad			295-600		5.17E+05	2.20	0		1.00	0		0		0		0		3		Taylor et al. [127] Transition state theory.
 186.	C/H3/O		C_methyl			300-2000	2.05E-04	4.90	0		6.72	0		0		0		0		2		Jodkowski et al. [100] ab initio calculations.
 187.	C/H3/O		O_pri_rad			300-2000	8.14E+03	2.80	0		-0.42	0		0		0		0		2		Jodkowski et al. [100] ab initio calculations.
-100_R2    C/H3/O          H_rad                         300-2000        4.51E+02        3.20    0               3.49    0               0               0               0               2               Jodkowski et al. [100] ab initio calculations. added by Greg Magoon 08/25/09
+1001.    C/H3/O          H_rad                         300-2000        4.51E+02        3.20    0               3.49    0               0               0               0               2               Jodkowski et al. [100] ab initio calculations. added by Greg Magoon 08/25/09
 188.	C/H2/NonDeC	O2b					300-2500	1.985E+13	0		0		47.69	*10.0	0		0		0		4		Tsang [91] literature review.
 189.	C/H2/NonDeC	CH2_triplet			300-2500	7.55E-01	3.46	0		7.47	*10.0	0		0		0		4		Tsang [91] literature review.
 190.	C/H2/NonDeC	O_atom_triplet		300-2500	2.39E+04	2.71	0		2.11	*2.0	0		0		0		4		Tsang [91] literature review.
@@ -309,7 +309,7 @@ Arrhenius_EP
 486.	Orad_O_H		O_rad/NonDeO	300-1500	1.75E+10	0	0	-3.275	0	0	0	0	5	[8] Curran's estimation in reaction type 13, RO2 + HO2 --> RO2H + O2
 500.	CO_pri	InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3			600-2000	3.065e-02	3.95	0.0	12.22	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
 501.	InChI=1/C3H8/c1-3-2/h3H2,1-2H3	InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3		300-2000	9.11e-07	5.11	0	5.69	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
-501R.	InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/beta		InChI=1/C3H7/c1-3-2/h3H,1-2H3	300-2000	2.35e-06	4.84	0	4.27	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
+1002.	InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/beta		InChI=1/C3H7/c1-3-2/h3H,1-2H3	300-2000	2.35e-06	4.84	0	4.27	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
 502.	InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha		InChI=1/C3H7/c1-3-2/h3H,1-2H3	300-2000	1.06e-06	5.06	0	4.89	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
 503.	InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3	InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3	300-2000	8.39e-06	4.89	0	4.32	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections
 504.	InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3	InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3		300-2000	1.44e-05	4.52	0	1.46	0	0	0	0	3	MRH CBS-QB3 calculations w/o HR corrections

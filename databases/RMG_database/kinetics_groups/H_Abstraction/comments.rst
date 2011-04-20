@@ -1512,9 +1512,9 @@ CH3OH + OH --> CH2OH + H2O The calculated rate constants are in good agreement w
 C.D.W divided original rate expression by 3 ( from A= 2.11E+11), to get rate expression per H atom.
 
 Verified by Greg Magoon
-**Note that R2 from this paper appears to be missing from the RMG library, so I have added it as 100_R2**
+**Note that R2 from this paper appears to be missing from the RMG library, so I have added it as 1001**
 
-100_R2: [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
+1001: [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 
 CH3OH + H --> CH2OH + H2 (Rxn. R2 in paper)
 
@@ -3134,7 +3134,7 @@ InChI=1/C3H7/c1-3-2/h3H,1-2H3 (external symmetry number = 1, spin multiplicity =
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
 
 ----
-501R
+1002
 ----
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
