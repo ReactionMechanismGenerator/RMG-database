@@ -3595,5 +3595,5 @@ temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (even
 
 .. [Tsang1990] W. Tsang; "Chemical kinetic database for combustion chemistry. Part IV. Isobutane" J. Phys. Chem. Ref. Data 19 (1990) 1-68
 
-.. [Tsang1991] W. Tsang; "Chemkcai kinetic database for combustion chemistry. Part V. Propene" J. Phys. Chem. Ref. Data 20 (1991) 221-273
+.. [Tsang1991] W. Tsang; "Chemical kinetic database for combustion chemistry. Part V. Propene" J. Phys. Chem. Ref. Data 20 (1991) 221-273
 
