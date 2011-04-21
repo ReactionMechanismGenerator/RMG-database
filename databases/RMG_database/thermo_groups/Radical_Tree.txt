@@ -44,7 +44,7 @@ L1: RJ
 			L5: Allyl_P
 				L6: C=CC=CCJ
 				L6: CTCC=CCJ
-				L6: C2JC=O
+			L5: C2JC=O
 			L5: Propargyl
 			
 		L4: Cs_S		// secondary radical
@@ -55,7 +55,7 @@ L1: RJ
 				L6: CCJCOOH
 			L5: Benzyl_S
 			L5: Allyl_S
-				L6: CCJCHO
+			L5: CCJCHO
 			L5: C=CCJC=C
 			L5: Sec_Propargyl
 		L4: Cs_T		// tertiary radical
@@ -63,7 +63,7 @@ L1: RJ
 				L6: C2CJCOOH
 			L5: Benzyl_T	
 			L5: Allyl_T
-				L6: C2CJCHO
+			L5: C2CJCHO
 			L5: Tert_Propargyl
 		L4: CsJO
 			L5: CsJOH
