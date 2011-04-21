@@ -154,5 +154,6 @@ L1: Y_rad_birad
 				L5: O_rad/NonDeO
 				L5: O_rad/OneDe
 					L6: InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/o
+					L6: InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3
 
 
