@@ -753,11 +753,10 @@ dioxirane
 
 
 cyclopropanone
-1  Cd 0 {2,S} {3,S} {4,D}
-2  * Cd 0 {1,S} {3,S} {5,D}
-3  Cs 0 {2,S} {1,S}
-4  Cd 0 {1,D}
-5  Cd 0 {2,D}
+1 * C 0 {3,S} {2,S} {4,D}
+2   C 0 {1,S} {3,S}
+3   C 0 {2,S} {1,S}
+4   O 0 {1,D}
 
 
 
