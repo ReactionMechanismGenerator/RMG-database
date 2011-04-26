@@ -3568,7 +3568,7 @@ For CH4 + C2 = CH3 + C2H
 J. Phys. Chem. A 2010, 114, 4580–4585
 http://dx.doi.org/10.1021/jp1012494
 
-Rate Constants and Kinetic Isotope Effects on the Reaction of C($X^1\Sigma_g^+$) with CH4 and CD4.
+Rate Constants and Kinetic Isotope Effects on the Reaction of C2($X^1\Sigma_g^+$) with CH4 and CD4.
 Akira Matsugi, Kohsuke Suma, and Akira Miyoshi
 
 It was measured at pretty low temperatures (294-376), but also calculated ab initio. The calculated
