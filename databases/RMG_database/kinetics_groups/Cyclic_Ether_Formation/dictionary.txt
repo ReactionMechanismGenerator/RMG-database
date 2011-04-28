@@ -10,8 +10,8 @@ Union {R2OOH, R3OOH, R4OOH, R5OOH}
 
 
 R2OOH
-1 *1 {Cd,Cs,CO, Sid,Sis} 1 {2,{S,D}}
-2 *4 {Cd,Cs,CO, Sid,Sis} 0 {1,{S,D}}, {3,S}
+1 *1 {Cd,Cs,CO,Sid,Sis} 1 {2,{S,D}}
+2 *4 {Cd,Cs,CO,Sid,Sis} 0 {1,{S,D}}, {3,S}
 3 *2 O 0 {2,S}, {4,S}
 4 *3 O 0 {3,S}, {5,S}
 5 H 0 {4,S}
