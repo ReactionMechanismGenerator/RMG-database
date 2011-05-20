@@ -344,3 +344,5 @@ Arrhenius_EP
 533.    C_methane   C2b                 294-376     7.5e12  0.0  0  1.05       1.6e12  0.0 0   0.12 4   Matsugi et al 10.1021/jp1012494
 534.	H2O2	InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3		600-2000	3.495e-02 3.75 0.0 10.89  *3		0.0	0.0	2.0	3	MHS CBS-QB3 w/1dHR calculations
 535.	H2O2	O_rad/OneDe		600-2000	3.495e-02 3.75 0.0 10.89  *3		0.0	0.0	2.0	3	MHS CBS-QB3 w/1dHR calculations, see node 534.
+536.	H2O2	OOCH3	600-2000	9.2e-02 3.96 0.0 6.63  *3  0.0 0.0 2.0 3  MHS CBS-QB3 w/1dHR calculations
+537.	H2O2	O_rad/NonDeO	600-2000	9.2e-02 3.96 0.0 6.63  *3  0.0 0.0 2.0 3  MHS CBS-QB3 w/1dHR calculations, see node 536.

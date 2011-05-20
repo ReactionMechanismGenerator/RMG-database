@@ -3614,6 +3614,36 @@ Rxn family nodes: H2O2 + O_rad/OneDe
 The rate coefficient for this node was taken from node 534 (H2O2 + InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3)
 by analogy: HOOH + *O-C=R.  Discussed with MRH.
 
+---
+536
+---
+
+Exact reaction: HOOH + *O-O-CH3 <=> HO-O-CH3 + HOO*
+Rxn family nodes: H2O2 + OOCH3
+
+MHS computed rate coefficient using CBS-QB3 method, see _[MRHCBSQB3RRHO] for general algorithm
+employed.  Two differences::
+	1) the k(T) was calculated from 600 to 2000 K, in 200 K increments.
+	2) Low-frequency torsional modes were treated as 1-d separable hindered rotors.  The scans
+		were performed at the B3LYP/6-31G(d) level.
+
+MHS computed the fitted Arrhenius expression to be: k(T) = 1.84e-1 (T/1K)^3.96 exp(-6.63 kcal mol-1 / RT) cm3 mol-1 s-1.
+The pre-exponential was divided by 2 to get the per-H event.  The uncertainty in the E0
+was estimated to be 2 kcal mol-1 (general accuracy of CBS-QB3 calculations) and the uncertainty
+in the A parameter was MRH guess.
+
+RMG previously estimated the kinetics of the titled reaction to be 1-3 orders of magnitude faster
+than calculations of MHS.
+
+---
+537
+---
+
+Rxn family nodes: H2O2 + O_rad/NonDeO
+
+The rate coefficient for this node was taken from node 536 (H2O2 + OOCH3)
+by analogy: HOOH + *O-O-R.  Discussed with MRH.
+
 ----------
 References
 ----------
