@@ -1570,3 +1570,11 @@ Sandeep's CBS-QB3 calculations.
 875
 ---
 Sandeep's CBS-QB3 calculations.
+
+---
+876
+---
+MHS CBS-QB3 calculations for CH3-CH2-CH=CH-O* == CH3-C*H-CH=CH-OH.  
+Product is the cis configuration because TS is also cis.  
+Note--this only affects the tunneling correction (b/c in products).  
+Only methyl rotor was considered for TS.
