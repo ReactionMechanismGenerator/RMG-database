@@ -40,6 +40,14 @@ CO_De2
 3 {Cd,Ct,Cb,CO} 0 {1,S}
 4 {Cd,Ct,Cb,CO} 0 {1,S}
 
+CH2CHO
+1 *1 C 0 {2,D} {3,S} {4,S}
+2 *2 O 0 {1,D}
+3    H 0 {1,S}
+4    C 1 {1,S} {5,S} {6,S}
+5    H 0 {4,S}
+6    H 0 {4,S}
+
 doublebond
 Union {mb_CO, mb_OC, mb_CCO, mb_COC}
 

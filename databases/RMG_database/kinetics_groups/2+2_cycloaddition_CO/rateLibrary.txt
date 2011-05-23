@@ -8,3 +8,4 @@ Arrhenius_EP
 
 //No.	CO	doublebond		Temp.		A			N		a		E0		DA		Dn		Da		DE0		Rank	Comments
 587.	CO	doublebond		300-1500	6.92E+10	0		0		43.72	0		0		0		0		0
+588		CH2CHO	mb_CO_2H	600-2000	2.319E-01	3.416	0		77.107	*5		0		0		2		5		MRH CBS-QB3 calculations with 1d h.r. corrections
