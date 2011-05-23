@@ -13,4 +13,4 @@ Arrhenius_EP
 810. 	R6_SMS_D	doublebond_intra			radadd_intra_cs		300-1500	1E+10		0		0		46.85	0		0		0		0		2
 811.	R6_SSM_D    doublebond_intra     		radadd_intra_cs 	300-1500	1E+10		0		0		46.85	0		0		0		0		2
 812.	R5_SD_D     doublebond_intra_HNd_pri    radadd_intra_csHNd	300-1500	1E+10		0		0		46.85	0		0		0		0		2 
-
+813		R5_SS_D		doublebond_intra_2H_pri		radadd_intra_O		600-2000	2.724E+10	0.478	0		29.169	*3		0		0		2		3	MRH CBS-QB3 calculations with 1d h.r. corrections
