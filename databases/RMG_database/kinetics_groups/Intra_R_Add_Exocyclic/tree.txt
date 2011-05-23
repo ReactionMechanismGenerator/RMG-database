@@ -21,10 +21,10 @@ L1: Rn
 	      L4: R4_B_T
 	      L4: R4_B_CO
    L2: R5
-           L3: R5_SS
-              L4: R5_SS_D
-              L4: R5_SS_T
-              L4: R5_SS_CO
+	   L3: R5_SS
+		  L4: R5_SS_D
+		  L4: R5_SS_T
+		  L4: R5_SS_CO
 	   L3: R5_SD
 	      L4: R5_SD_D
 	      L4: R5_SD_T
