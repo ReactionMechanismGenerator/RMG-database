@@ -1578,3 +1578,22 @@ MHS CBS-QB3 calculations for CH3-CH2-CH=CH-O* == CH3-C*H-CH=CH-OH.
 Product is the cis configuration because TS is also cis.  
 Note--this only affects the tunneling correction (b/c in products).  
 Only methyl rotor was considered for TS.
+
+---
+877
+---
+MRH CBS-QB3 calculations with 1-d hindered rotor corrections for CH2=CH-CH2-OO => CH=CH-CH2-OOH
+
+Previous RMG estimate for this reaction was an "Average of average" estimate.  This reaction was of
+interest to MRH/MHS because the butanol model was sensitive to allyl+O2 => C2H2+CH2O+OH.  The high-p
+limit kinetics were necessary to estimate a k(T,P) for this PES.
+
+Reactant: 2 hindered rotors were considered (the OO and CH2OO torsions)
+TS: 0 hindered rotors were considered (MRH did not think 1-d separable rotor approximation was valid
+	for cyclic TS)
+Product: 3 hindered rotors were considered (the HO, HOO, and HOOCH2 torsions)
+
+All external symmetry numbers were set equal to one.  The k(T) was calculated from 600 - 2000 K,
+in 200 K intervals, and the fitted Arrhenius expression from CanTherm was:
+k(T) = 2.468e+06 * (T/1K)^1.554 * exp(-26.636 kcal/mol / RT) cm3/mol/s.
+The number appearing in the database has been divided by two to account for the reaction path degeneracy.

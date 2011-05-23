@@ -279,3 +279,4 @@ Arrhenius_EP
 874		R3H_SD			C_rad_out_2H			Cd_H_out_singleDe		300-1600	1.59E+07	1.4638	0		66.3163	0	0	0		0	3		Sandeep's CBS-QB3 calculations.
 875		R3H_DS			Cd_rad_out_singleDe     Cs_H_out_2H				300-1600	1283712039	1.0541	0		46.1467	0	0	0		0	3		Sandeep's CBS-QB3 calculations.
 876		R4H_SDS         O_rad_out               Cs_H_out_H/NonDeC       600-2000    1.11E+06    1.78    0       27.18   *3	0	0		2	3		MHS CBS-QB3 calculations. 
+877		R5H_SSSD		O_rad_out				Cd_H_out_singleH		600-2000	1.234E+06	1.554	0		26.636	*3	0	0		2	3		MRH CBS-QB3 calculations w/1d h.r. corrections
