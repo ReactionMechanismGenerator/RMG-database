@@ -3644,6 +3644,36 @@ Rxn family nodes: H2O2 + O_rad/NonDeO
 The rate coefficient for this node was taken from node 536 (H2O2 + OOCH3)
 by analogy: HOOH + *O-O-R.  Discussed with MRH.
 
+---
+538
+---
+MRH CBS-QB3 calculations w/1d hindered rotor corrections
+Exact reaction: CH3CH2CH=CH2 + OOCH3 = HOOCH3 + CH3CHCH=CH2
+
+This reaction was of interest to MRH/MHS because the butanol model was sensitive to its kinetics
+(in particular, the C4H8-1 predicted concentration for 10-atm JSR simulations between 800-1000 K).
+The original mechanism had an estimate that was much faster than these new calculations (the RMG old
+k(T) was 50-100x faster than these calculations between 800-1000 K).
+
+MRH computed these kinetics using the CBS-QB3 method.  Hindered rotor corrections were accounted for in all species:
+	CH3CH2CH=CH2: -CH3 and -CH2CH3 rotor
+	OOCH3: -CH3 rotor
+	TS: -CH3 and -CH=CH2 rotor of react1, -CH3 and -OCH3 of react2, and -OOCH3 between react1 and react2
+	HOOCH3: -CH3 and -OCH3 rotor
+	CH3CHCH=CH2: -CH3 and -CH=CH2 rotor
+External symmetry number of all speces was 1.  k(T) was computed from 600 - 2000 K, in 200 K intervals.  An
+asymmetric Eckart tunneling correction was used.
+
+The computed k(T) was 1.482e-02 * (T/1K)^4.313 * exp(-8.016 kcal/mol / RT) cm3 mol-1 s-1.
+MRH divided the pre-exponential by 2 to account for the reaction path degeneracy.
+
+NOTE: Running PopulateReactions before and after this number produced results that differed by less than a factor
+of three.  New numbers in the RMG database thus lead to an improvement in the RMG estimate (RMG works!).  Also,
+this computed rate coefficient is a factor of 10 faster than Tsang's recommendation for C3H6 + OOCH3 = HOOCH3 + allyl;
+his stated uncertainty is a factor of ten.  However, one would expect abstraction from the secondary carbon of
+1-butane to be faster than the primary carbon of propene, because the C-H bond strength should be weaker.  So,
+this calculation is in reasonable agreement with the literature.
+
 ----------
 References
 ----------
