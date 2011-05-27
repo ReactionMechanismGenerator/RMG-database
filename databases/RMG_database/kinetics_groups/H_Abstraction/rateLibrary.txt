@@ -347,3 +347,4 @@ Arrhenius_EP
 536.	H2O2	OOCH3	600-2000	9.2e-02 3.96 0.0 6.63  *3  0.0 0.0 2.0 3  MHS CBS-QB3 w/1dHR calculations
 537.	H2O2	O_rad/NonDeO	600-2000	9.2e-02 3.96 0.0 6.63  *3  0.0 0.0 2.0 3  MHS CBS-QB3 w/1dHR calculations, see node 536.
 538.	InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3	OOCH3	600-2000	7.41e-3	4.313	0	8.016	*3	0	0	2.0	3	MRH CBS-QB3 calculations, w/1dHR corrections
+539.	H2O2	InChI=1/C3H5/c1-3-2/h3H,1-2H2	600-2000	1.755e-02 4.22 0.0 9.86	*3 0.0 0.0 2.0 3	MHS CBS-QB3 w/1dHR calculations
