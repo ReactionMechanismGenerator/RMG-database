@@ -1514,7 +1514,10 @@ C.D.W divided original rate expression by 3 ( from A= 2.11E+11), to get rate exp
 Verified by Greg Magoon
 **Note that R2 from this paper appears to be missing from the RMG library, so I have added it as 1001**
 
-1001: [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
+----
+1001
+----
+[100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 
 CH3OH + H --> CH2OH + H2 (Rxn. R2 in paper)
 
@@ -3565,7 +3568,7 @@ See notes to 523 for further details.
 
 For CH4 + C2 = CH3 + C2H
 
-J. Phys. Chem. A 2010, 114, 4580–4585
+J. Phys. Chem. A 2010, 114, 4580-4585
 http://dx.doi.org/10.1021/jp1012494
 
 Rate Constants and Kinetic Isotope Effects on the Reaction of C2($X^1\Sigma_g^+$) with CH4 and CD4.
