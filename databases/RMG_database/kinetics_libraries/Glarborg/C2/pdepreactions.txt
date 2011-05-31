@@ -137,7 +137,7 @@ CO + OH = CO2 + H            0.0      0.0       1        0.0 0.0 0.0
   PLOG  /        100      1.5E11   0.000    1987    /
   PLOG  /         650      2.3E11   0.200    4968   /
   PLOG  /        2000     3.7E07   1.340    2186    /
-//  DUPLICATE 
+  DUPLICATE 
 
 // (0.001-2000 bar, 300<T<2000K)
 CO + OH = CO2 + H              0.0      0.0       2         0.0 0.0 0.0
@@ -151,7 +151,7 @@ CO + OH = CO2 + H              0.0      0.0       2         0.0 0.0 0.0
   PLOG  /           100       1.9E05   1.940       0  /
   PLOG  /           650      7.0E05   1.700     298   /
   PLOG  /          2000       0.0      0.0       0    /
-//  DUPLICATE 
+  DUPLICATE 
 
 
 // (0.001-2000 bar, 300<T<2000K)
@@ -166,7 +166,7 @@ CO + OH = HOCO              5.5E44 -11.000    7948       0.0 0.0 0.0
   PLOG  /          100      1.1E28  -6.000    2384    /
   PLOG  /          650      3.2E41 -10.000    6955    /
   PLOG  /          2000      5.5E44 -11.000    7948   /
-//  DUPLICATE                                             
+  DUPLICATE                                             
 
 // (0.001 bar, 300<T<2000K)
 CO + OH = HOCO                  2.7E67 -17.000   22851      0.0 0.0 0.0
@@ -180,7 +180,7 @@ CO + OH = HOCO                  2.7E67 -17.000   22851      0.0 0.0 0.0
   PLOG  /          100       1.8E36  -8.000    7153   /
   PLOG  /          650       2.9E66 -17.100   19870   /
   PLOG  /          2000       2.7E67 -17.000   22851  /
-//  DUPLICATE                                               
+  DUPLICATE                                               
 
 // (0.001 bar, 300<T<2000K)
 CO + OH = HOCO                 1.0E74 -18.000   37157      0.0 0.0 0.0
@@ -194,7 +194,7 @@ CO + OH = HOCO                 1.0E74 -18.000   37157      0.0 0.0 0.0
   PLOG  /            100       2.0E54 -13.000   19671     /
   PLOG  /            650        2.0E63 -15.200   27421    /
   PLOG  /              2000      1.0E74 -18.000   37157   /
-//  DUPLICATE                                    
+  DUPLICATE                                    
 
 
 //  (1-100 bar, 300<T<2000K)
@@ -205,7 +205,7 @@ HOCO = CO2 + H                  2.8E58 -15.000   46500      0.0 0.0 0.0
   PLOG  /             20        6.0E57 -15.000   46500  /
   PLOG  /             50        1.4E58 -15.000   46500  /
   PLOG  /           100         2.8E58 -15.000   46500  /
-//  DUPLICATE                                               
+  DUPLICATE                                               
 
 
 //  (1-100 bar, 300<T<2000K)
@@ -216,7 +216,7 @@ HOCO = CO2 + H                2.0E71 -18.000   60000       0.0 0.0 0.0
   PLOG  /            20        4.3E70 -18.000   60000  /
   PLOG  /            50        1.0E71 -18.000   60000  /
   PLOG  /          100        2.0E71 -18.000   60000   /
-//  DUPLICATE           
+  DUPLICATE           
 
 
 // *****************************************************************************
@@ -245,7 +245,7 @@ HCO = H + CO                   5.3E13  -0.865   16755  0.0 0.0 0.0
   PLOG  /         20          4.1E20  -2.940    1900 /
   PLOG  /         50          2.8E18  -2.200    1400 /
   PLOG  /         100         1.1E19  -2.300    1800 /
-//  DUPLICATE  
+  DUPLICATE  
 
 CH3 + O2 = CH3OO             4.1E30  -5.700    8750       0.0 0.0 0.0  
   PLOG  /         1            0.0    0.0       0   /
@@ -253,7 +253,7 @@ CH3 + O2 = CH3OO             4.1E30  -5.700    8750       0.0 0.0 0.0
   PLOG  /         20         3.3E29  -5.600    6850 /
   PLOG  /         50         5.6E28  -5.250    6850 /
   PLOG  /         100        4.1E30  -5.700    8750 /
-//  DUPLICATE                    
+  DUPLICATE                    
 
 // High-P limit rate is Garborg's high-PL rate
 // 1000 atm rate is Glarborg's high-PL rate
@@ -312,14 +312,14 @@ C2H4 + OH = CH2CH2OH        6.0E37  -7.440   14269          0.0 0.0 0.0
   PLOG  /          1        6.0E37  -8.140    8043  /
   PLOG  /          10       6.0E37  -7.770   10736  /
   PLOG  /          100      6.0E37  -7.440   14269  /
-//  DUPLICATE                                                 
+  DUPLICATE                                                 
 
 // High-P limit rate is Garborg's 100 atm rate
 C2H4 + OH = CH2CH2OH        2.8E19  -2.410    1011     0.0 0.0 0.0
   PLOG  /          1        7.3E23  -6.910    2855  /
   PLOG  /         10        3.0E26  -4.870    2297  /
   PLOG  /        100        2.8E19  -2.410    1011  /
-//  DUPLICATE       
+  DUPLICATE       
 // High-P limit rate is Garborg's 100 atm rate
 C2H2 + OH = CH3 + CO        8.3E05   1.770    4697        0.0 0.0 0.0
   PLOG  /         1           1.3E09   0.730    2579 /
@@ -340,7 +340,7 @@ C2H2 + OH = CHCHOH            1.1E08   1.340     332       0.0 0.0 0.0
   PLOG  /         10          1.5E24  -4.060    3261  /
   PLOG  /         100         6.2E20  -2.800    2831  /
   PLOG  /         1000        1.1E08   1.340     332  /
-//  DUPLICATE                                                 
+  DUPLICATE                                                 
 
 // High-P limit rate is Garborg's >>100 atm rate
 // 1000 atm rate is Glarborg's ">>100 atm" rate
@@ -349,7 +349,7 @@ C2H2 + OH = CHCHOH            6.0E07   1.620     240       0.0 0.0 0.0
   PLOG  /         10          4.5E31  -5.920    8761  /
   PLOG  /         100         1.6E29  -4.910    9734  /
   PLOG  /         1000        6.0E07   1.620     240  /
-//  DUPLICATE                                                 
+  DUPLICATE                                                 
 
 // High-P limit rate is Garborg's 100 atm rate
 C2H2 + OH = CH2CO + H         1.5E04   2.450    4477     0.0 0.0 0.0
