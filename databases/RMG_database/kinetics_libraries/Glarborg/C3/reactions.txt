@@ -711,9 +711,13 @@ C2H4 + OH = C2H3 + H2O			      5.4E07   1.8	4166  0.0 0.0 0.0
  H2CCCH2 = H3CCCH			    2.2E14   0.000   68100  0.0 0.0 0.0  
  H2CCCH2 + H = H3CCCH + H                   1.0E13   0.000    5000  0.0 0.0 0.0  
  H2CCCH2 + H = H2CCCH + H2                  3.0E07   2.000    5000  0.0 0.0 0.0  
- H2CCCH2 + H = CH3CHCH			    1.1E30  -6.52    15200  0.0 0.0 0.0  
- H2CCCH2 + H = CH3CCH2			    9.2E38  -8.65     7000  0.0 0.0 0.0  
- H2CCCH2 + H = CH2CHCH2			    9.6E61  -14.67   26000  0.0 0.0 0.0  
+// The rates for aC3H4 + H -> products are from doi:10.1021/jp982762a 
+// and are for 0.1 bar; that reference also has data at higher pressures
+// These reactions also have Troe expressions in the other file, whose low-P
+// limit values are similar to these; therefore we will keep those and omit these
+// H2CCCH2 + H = CH3CHCH			    1.1E30  -6.52    15200  0.0 0.0 0.0  
+// H2CCCH2 + H = CH3CCH2			    9.2E38  -8.65     7000  0.0 0.0 0.0  
+// H2CCCH2 + H = CH2CHCH2			    9.6E61  -14.67   26000  0.0 0.0 0.0  
  H2CCCH2 + O = C2H4 + CO                    2.0E07   1.800    1000  0.0 0.0 0.0  
  H2CCCH2 + OH = H2CCCH + H2O                2.0E07   2.000    1000  0.0 0.0 0.0  
  H2CCCH2 + CH3 = H2CCCH + CH4               1.3E12   0.000    7700  0.0 0.0 0.0  
