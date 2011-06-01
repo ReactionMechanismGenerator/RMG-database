@@ -604,7 +604,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (4.82e-08,"cm^3/(mol*s)"),
+        A = (4.82e-08,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (236763,"J/mol"),
         T0 = (1,"K"),
@@ -617,6 +617,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:30 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -647,7 +648,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (9.14e-12,"cm^3/(mol*s)"),
+        A = (9.14e-12,"cm^3/(molecule*s)"),
         n = 2.049,
         Ea = (158715,"J/mol"),
         T0 = (1,"K"),
@@ -660,6 +661,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:30 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -1158,7 +1160,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (4.1e-12,"cm^3/(mol*s)"),
+        A = (4.1e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (582.013,"J/mol"),
         T0 = (1,"K"),
@@ -1171,6 +1173,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -4317,10 +4320,10 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (2.5e-15,"cm^3/(mol*s)"),
+        A = (2.5e-15,"cm^3/(molecule*s)"),
         n = 5,
         Ea = (23363.7,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (300,"K"),
     ),
     reference = Article(authors=["Jodkowski, J.T.", "Rayez, M.-T.", "Rayez, J.-C."], title=u'Theoretical Study of the Kinetics of the Hydrogen Abstraction from Methanol. 3. Reaction of Methanol with Hydrogen Atom, Methyl, and Hydroxyl Radicals', journal="J. Phys. Chem. A", volume="103", pages="""3750-3765""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
@@ -4330,6 +4333,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:32 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
     ],
 )
 
@@ -4481,10 +4485,10 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.7e-16,"cm^3/(mol*s)"),
+        A = (2.7e-16,"cm^3/(molecule*s)"),
         n = 4.7,
         Ea = (24195.1,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (300,"K"),
     ),
     reference = Article(authors=["Jodkowski, J.T.", "Rayez, M.-T.", "Rayez, J.-C."], title=u'Theoretical Study of the Kinetics of the Hydrogen Abstraction from Methanol. 3. Reaction of Methanol with Hydrogen Atom, Methyl, and Hydroxyl Radicals', journal="J. Phys. Chem. A", volume="103", pages="""3750-3765""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
     referenceType = "",
@@ -4494,6 +4498,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:32 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
     ],
 )
 
@@ -4808,10 +4813,10 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (5.2e-15,"cm^3/(mol*s)"),
+        A = (5.2e-15,"cm^3/(molecule*s)"),
         n = 5,
         Ea = (62150.7,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (300,"K"),
     ),
     reference = Article(authors=["Jodkowski, J.T.", "Rayez, M.-T.", "Rayez, J.-C."], title=u'Theoretical Study of the Kinetics of the Hydrogen Abstraction from Methanol. 3. Reaction of Methanol with Hydrogen Atom, Methyl, and Hydroxyl Radicals', journal="J. Phys. Chem. A", volume="103", pages="""3750-3765""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
@@ -4821,6 +4826,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:32 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
     ],
 )
 
@@ -4972,10 +4978,10 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (1.4e-15,"cm^3/(mol*s)"),
+        A = (1.4e-15,"cm^3/(molecule*s)"),
         n = 4.9,
         Ea = (28102.9,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (300,"K"),
     ),
     reference = Article(authors=["Jodkowski, J.T.", "Rayez, M.-T.", "Rayez, J.-C."], title=u'Theoretical Study of the Kinetics of the Hydrogen Abstraction from Methanol. 3. Reaction of Methanol with Hydrogen Atom, Methyl, and Hydroxyl Radicals', journal="J. Phys. Chem. A", volume="103", pages="""3750-3765""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
@@ -4985,6 +4991,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:32 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
     ],
 )
 
@@ -5505,7 +5512,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (2.24e-27,"cm^3/(mol*s)"),
+        A = (2.24e-27,"cm^3/(molecule*s)"),
         n = 4.95,
         Ea = (59.1508,"J/mol"),
         T0 = (1,"K"),
@@ -5518,6 +5525,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:32 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -5546,7 +5554,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (6.35e-26,"cm^3/(mol*s)"),
+        A = (6.35e-26,"cm^3/(molecule*s)"),
         n = 4.4,
         Ea = (20370.5,"J/mol"),
         T0 = (1,"K"),
@@ -5559,6 +5567,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:32 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -7813,7 +7822,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (2.55e-10,"cm^3/(mol*s)"),
+        A = (2.55e-10,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (57153.7,"J/mol"),
         T0 = (1,"K"),
@@ -7826,6 +7835,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:32 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -7852,9 +7862,9 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (6.78e-21,"cm^3/(mol*s)"),
+        A = (6.78e-21,"cm^3/(molecule*s)"),
         n = 3.156,
-        Ea = (-36633.6,"J/mol"),
+        Ea = (36633.6,"J/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Sutherland, J.W.", "Su, M.-C.", "Michael, J.V."], title=u'Rate Constants for H + CH_4, CH_3 + H_2, and CH_4 Dissociation at High Temperature', journal="Int J. Chem. Kinet.", volume="33", pages="""669-684""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000055.xml"),
@@ -7865,6 +7875,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:33 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -8749,9 +8760,9 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.9e-10,"cm^3/(mol*s)"),
+        A = (1.9e-10,"cm^3/(molecule*s)"),
         n = 0,
-        Ea = (-89912.7,"J/mol"),
+        Ea = (89912.7,"J/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Sutherland, J.W.", "Su, M.-C.", "Michael, J.V."], title=u'Rate Constants for H + CH_4, CH_3 + H_2, and CH_4 Dissociation at High Temperature', journal="Int J. Chem. Kinet.", volume="33", pages="""669-684""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000082.xml"),
@@ -8762,6 +8773,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:33 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -10147,7 +10159,7 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (1.39e-18,"cm^3/(mol*s)"),
+        A = (1.39e-18,"cm^3/(molecule*s)"),
         n = 2.34,
         Ea = (-3159.5,"J/mol"),
         T0 = (1,"K"),
@@ -10160,6 +10172,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:35 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -10598,7 +10611,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (3.92e-19,"cm^3/(mol*s)"),
+        A = (3.92e-19,"cm^3/(molecule*s)"),
         n = 2.57,
         Ea = (1080.88,"J/mol"),
         T0 = (1,"K"),
@@ -10611,6 +10624,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:35 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -13101,7 +13115,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (7.6e-12,"cm^3/(mol*s)"),
+        A = (7.6e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (4863.97,"J/mol"),
         T0 = (1,"K"),
@@ -13114,6 +13128,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:36 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -14558,7 +14573,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (4.4e-12,"cm^3/(mol*s)"),
+        A = (4.4e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-3034.78,"J/mol"),
         T0 = (1,"K"),
@@ -14571,6 +14586,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:36 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -14742,7 +14758,7 @@ entry(
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
-        A = (4.21e-18,"cm^3/(mol*s)"),
+        A = (4.21e-18,"cm^3/(molecule*s)"),
         n = 2,
         Ea = (3774.77,"J/mol"),
         T0 = (1,"K"),
@@ -14755,6 +14771,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:36 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -21179,7 +21196,7 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (2.31e-23,"cm^3/(mol*s)"),
+        A = (2.31e-23,"cm^3/(molecule*s)"),
         n = 3.354,
         Ea = (796.718,"J/mol"),
         T0 = (1,"K"),
@@ -21192,6 +21209,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:49 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -21314,7 +21332,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.09e-22,"cm^3/(mol*s)"),
+        A = (1.09e-22,"cm^3/(molecule*s)"),
         n = 3.322,
         Ea = (691.8,"J/mol"),
         T0 = (1,"K"),
@@ -21327,6 +21345,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:49 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -21359,7 +21378,7 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (3.54e-18,"cm^3/(mol*s)"),
+        A = (3.54e-18,"cm^3/(molecule*s)"),
         n = 2.002,
         Ea = (100.788,"J/mol"),
         T0 = (1,"K"),
@@ -21372,6 +21391,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:49 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -21404,7 +21424,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.67e-18,"cm^3/(mol*s)"),
+        A = (2.67e-18,"cm^3/(molecule*s)"),
         n = 1.874,
         Ea = (1.81748,"J/mol"),
         T0 = (1,"K"),
@@ -21417,6 +21437,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:49 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -21449,7 +21470,7 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (2.35e-17,"cm^3/(mol*s)"),
+        A = (2.35e-17,"cm^3/(molecule*s)"),
         n = 2.05,
         Ea = (614.144,"J/mol"),
         T0 = (1,"K"),
@@ -21462,6 +21483,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:49 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -21494,7 +21516,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (4.51e-17,"cm^3/(mol*s)"),
+        A = (4.51e-17,"cm^3/(molecule*s)"),
         n = 1.937,
         Ea = (544.749,"J/mol"),
         T0 = (1,"K"),
@@ -21507,6 +21529,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:49 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -23128,7 +23151,7 @@ entry(
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (3.26e-17,"cm^3/(mol*s)"),
+        A = (3.26e-17,"cm^3/(molecule*s)"),
         n = 2,
         Ea = (-2178.39,"J/mol"),
         T0 = (1,"K"),
@@ -23141,6 +23164,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:52 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -27077,7 +27101,7 @@ entry(
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
-        A = (5.7e-12,"cm^3/(mol*s)"),
+        A = (5.7e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (1787.61,"J/mol"),
         T0 = (1,"K"),
@@ -27090,6 +27114,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:55 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -27120,7 +27145,7 @@ entry(
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
-        A = (3.33e-20,"cm^3/(mol*s)"),
+        A = (3.33e-20,"cm^3/(molecule*s)"),
         n = 2.91,
         Ea = (3406.44,"J/mol"),
         T0 = (1,"K"),
@@ -27133,6 +27158,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:55 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -28670,7 +28696,7 @@ entry(
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
-        A = (2.1e-17,"cm^3/(mol*s)"),
+        A = (2.1e-17,"cm^3/(molecule*s)"),
         n = 2,
         Ea = (-207.862,"J/mol"),
         T0 = (1,"K"),
@@ -28683,6 +28709,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:01 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -29013,7 +29040,7 @@ entry(
 """,
     degeneracy = 10,
     kinetics = Arrhenius(
-        A = (2.73e-17,"cm^3/(mol*s)"),
+        A = (2.73e-17,"cm^3/(molecule*s)"),
         n = 2,
         Ea = (-1779.3,"J/mol"),
         T0 = (1,"K"),
@@ -29026,6 +29053,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:01 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -29499,7 +29527,7 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (5.65e-22,"cm^3/(mol*s)"),
+        A = (5.65e-22,"cm^3/(molecule*s)"),
         n = 3.2,
         Ea = (300.38,"J/mol"),
         T0 = (1,"K"),
@@ -29512,6 +29540,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -30214,7 +30243,7 @@ entry(
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (1.86e-17,"cm^3/(mol*s)"),
+        A = (1.86e-17,"cm^3/(molecule*s)"),
         n = 2,
         Ea = (1721.1,"J/mol"),
         T0 = (1,"K"),
@@ -30227,6 +30256,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -32862,7 +32892,7 @@ entry(
 """,
     degeneracy = 18,
     kinetics = Arrhenius(
-        A = (1.99e-17,"cm^3/(mol*s)"),
+        A = (1.99e-17,"cm^3/(molecule*s)"),
         n = 2,
         Ea = (1479.98,"J/mol"),
         T0 = (1,"K"),
@@ -32875,6 +32905,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:12 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -35118,9 +35149,9 @@ entry(
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
-        A = (9.5e-11,"cm^3/(mol*s)"),
+        A = (9.5e-11,"cm^3/(molecule*s)"),
         n = 0,
-        Ea = (-35885.3,"J/mol"),
+        Ea = (35885.3,"J/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Bryukov, M.G.", "Slagle, I.R.", "Knyazev, V.D."], title=u'Kinetics of Reactions of H Atoms with Ethane and Chlorinated Ethanes', journal="J. Phys. Chem. A", volume="105", pages="""6900-6909""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000043.xml"),
@@ -35131,6 +35162,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:25 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -35159,9 +35191,9 @@ entry(
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
-        A = (1.04e-10,"cm^3/(mol*s)"),
+        A = (1.04e-10,"cm^3/(molecule*s)"),
         n = 0,
-        Ea = (-36226.2,"J/mol"),
+        Ea = (36226.2,"J/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Bryukov, M.G.", "Slagle, I.R.", "Knyazev, V.D."], title=u'Kinetics of Reactions of H Atoms with Ethane and Chlorinated Ethanes', journal="J. Phys. Chem. A", volume="105", pages="""6900-6909""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000046.xml"),
@@ -35172,6 +35204,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:25 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -35243,10 +35276,10 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.7e-15,"cm^3/(mol*s)"),
+        A = (1.7e-15,"cm^3/(molecule*s)"),
         n = 4,
         Ea = (20536.7,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (300,"K"),
     ),
     reference = Article(authors=["Jodkowski, J.T.", "Rayez, M.-T.", "Rayez, J.-C."], title=u'Theoretical Study of the Kinetics of the Hydrogen Abstraction from Methanol. 3. Reaction of Methanol with Hydrogen Atom, Methyl, and Hydroxyl Radicals', journal="J. Phys. Chem. A", volume="103", pages="""3750-3765""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
@@ -35256,6 +35289,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:25 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
     ],
 )
 
@@ -35366,10 +35400,10 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (3e-14,"cm^3/(mol*s)"),
+        A = (3e-14,"cm^3/(molecule*s)"),
         n = 3.4,
         Ea = (30264.7,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (300,"K"),
     ),
     reference = Article(authors=["Jodkowski, J.T.", "Rayez, M.-T.", "Rayez, J.-C."], title=u'Theoretical Study of the Kinetics of the Hydrogen Abstraction from Methanol. 3. Reaction of Methanol with Hydrogen Atom, Methyl, and Hydroxyl Radicals', journal="J. Phys. Chem. A", volume="103", pages="""3750-3765""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
@@ -35379,6 +35413,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:25 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
     ],
 )
 
@@ -35673,10 +35708,10 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (8.8e-15,"cm^3/(mol*s)"),
+        A = (8.8e-15,"cm^3/(molecule*s)"),
         n = 3.5,
         Ea = (43817.3,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (300,"K"),
     ),
     reference = Article(authors=["Jodkowski, J.T.", "Rayez, M.-T.", "Rayez, J.-C."], title=u'Theoretical Study of the Kinetics of the Hydrogen Abstraction from Methanol. 3. Reaction of Methanol with Hydrogen Atom, Methyl, and Hydroxyl Radicals', journal="J. Phys. Chem. A", volume="103", pages="""3750-3765""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
@@ -35686,6 +35721,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:25 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
     ],
 )
 
@@ -35960,10 +35996,10 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (1.9e-13,"cm^3/(mol*s)"),
+        A = (1.9e-13,"cm^3/(molecule*s)"),
         n = 3.2,
         Ea = (14591.9,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (300,"K"),
     ),
     reference = Article(authors=["Jodkowski, J.T.", "Rayez, M.-T.", "Rayez, J.-C."], title=u'Theoretical Study of the Kinetics of the Hydrogen Abstraction from Methanol. 3. Reaction of Methanol with Hydrogen Atom, Methyl, and Hydroxyl Radicals', journal="J. Phys. Chem. A", volume="103", pages="""3750-3765""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
     referenceType = "",
@@ -35973,6 +36009,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:25 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
     ],
 )
 
@@ -39820,7 +39857,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (2.1e-12,"cm^3/(mol*s)"),
+        A = (2.1e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-18225.3,"J/mol"),
         T0 = (1,"K"),
@@ -39833,6 +39870,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -40553,7 +40591,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (3.8e-13,"cm^3/(mol*s)"),
+        A = (3.8e-13,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-6485.29,"J/mol"),
         T0 = (1,"K"),
@@ -40566,6 +40604,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -40839,10 +40878,10 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.5e-15,"cm^3/(mol*s)"),
+        A = (1.5e-15,"cm^3/(molecule*s)"),
         n = 3.8,
         Ea = (48057.6,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (300,"K"),
     ),
     reference = Article(authors=["Jodkowski, J.T.", "Rayez, M.-T.", "Rayez, J.-C."], title=u'Theoretical Study of the Kinetics of the Hydrogen Abstraction from Methanol. 3. Reaction of Methanol with Hydrogen Atom, Methyl, and Hydroxyl Radicals', journal="J. Phys. Chem. A", volume="103", pages="""3750-3765""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
@@ -40852,6 +40891,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
     ],
 )
 
@@ -41003,10 +41043,10 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.87476e-23,"cm^3/(mol*s)"),
+        A = (2.87476e-23,"cm^3/(molecule*s)"),
         n = 3.4,
         Ea = (-4780.82,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (300,"K"),
     ),
     reference = Article(authors=["Jodkowski, J.T.", "Rayez, M.-T.", "Rayez, J.-C."], title=u'Theoretical Study of the Kinetics of the Hydrogen Abstraction from Methanol. 3. Reaction of Methanol with Hydrogen Atom, Methyl, and Hydroxyl Radicals', journal="J. Phys. Chem. A", volume="103", pages="""3750-3765""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
@@ -41016,6 +41056,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
     ],
 )
 
@@ -41044,7 +41085,7 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (5e-13,"cm^3/(mol*s)"),
+        A = (5e-13,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (22864.8,"J/mol"),
         T0 = (1,"K"),
@@ -41057,6 +41098,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -41087,7 +41129,7 @@ entry(
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
-        A = (1.6e-12,"cm^3/(mol*s)"),
+        A = (1.6e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (19123.3,"J/mol"),
         T0 = (1,"K"),
@@ -41100,6 +41142,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -41130,7 +41173,7 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (1.1e-12,"cm^3/(mol*s)"),
+        A = (1.1e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (20370.5,"J/mol"),
         T0 = (1,"K"),
@@ -41143,6 +41186,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -41171,7 +41215,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (2.5e-12,"cm^3/(mol*s)"),
+        A = (2.5e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (26190.6,"J/mol"),
         T0 = (1,"K"),
@@ -41184,6 +41228,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -43092,7 +43137,7 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (1.47e-11,"cm^3/(mol*s)"),
+        A = (1.47e-11,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (71.3775,"J/mol"),
         T0 = (1,"K"),
@@ -43105,6 +43150,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:41 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -43131,7 +43177,7 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (5.16e-11,"cm^3/(mol*s)"),
+        A = (5.16e-11,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (75.8386,"J/mol"),
         T0 = (1,"K"),
@@ -43144,6 +43190,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:41 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -43170,7 +43217,7 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (1.17e-10,"cm^3/(mol*s)"),
+        A = (1.17e-10,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (91.8655,"J/mol"),
         T0 = (1,"K"),
@@ -43183,6 +43230,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:41 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -43209,7 +43257,7 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (6.76e-09,"cm^3/(mol*s)"),
+        A = (6.76e-09,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (101.118,"J/mol"),
         T0 = (1,"K"),
@@ -43222,6 +43270,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:41 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -43248,7 +43297,7 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (2.24e-18,"cm^3/(mol*s)"),
+        A = (2.24e-18,"cm^3/(molecule*s)"),
         n = 2.32,
         Ea = (48.0807,"J/mol"),
         T0 = (1,"K"),
@@ -43261,6 +43310,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:41 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -43287,7 +43337,7 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (2.25e-19,"cm^3/(mol*s)"),
+        A = (2.25e-19,"cm^3/(molecule*s)"),
         n = 2.85,
         Ea = (47.2546,"J/mol"),
         T0 = (1,"K"),
@@ -43300,6 +43350,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:41 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -43652,7 +43703,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (9.87e-22,"cm^3/(mol*s)"),
+        A = (9.87e-22,"cm^3/(molecule*s)"),
         n = 3.13,
         Ea = (493.694,"J/mol"),
         T0 = (1,"K"),
@@ -43665,6 +43716,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:45 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -43705,7 +43757,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (4.34e-22,"cm^3/(mol*s)"),
+        A = (4.34e-22,"cm^3/(molecule*s)"),
         n = 3.2,
         Ea = (251.804,"J/mol"),
         T0 = (1,"K"),
@@ -43718,6 +43770,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:45 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -44204,10 +44257,10 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (4.2e-14,"cm^3/(mol*s)"),
+        A = (4.2e-14,"cm^3/(molecule*s)"),
         n = 3,
         Ea = (86803.1,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (300,"K"),
     ),
     reference = Article(authors=["Jodkowski, J.T.", "Rayez, M.-T.", "Rayez, J.-C."], title=u'Theoretical Study of the Kinetics of the Hydrogen Abstraction from Methanol. 3. Reaction of Methanol with Hydrogen Atom, Methyl, and Hydroxyl Radicals', journal="J. Phys. Chem. A", volume="103", pages="""3750-3765""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
@@ -44217,6 +44270,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
     ],
 )
 
@@ -44491,10 +44545,10 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (4.05629e-20,"cm^3/(mol*s)"),
+        A = (4.05629e-20,"cm^3/(molecule*s)"),
         n = 2.8,
         Ea = (-1746.04,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (300,"K"),
     ),
     reference = Article(authors=["Jodkowski, J.T.", "Rayez, M.-T.", "Rayez, J.-C."], title=u'Theoretical Study of the Kinetics of the Hydrogen Abstraction from Methanol. 3. Reaction of Methanol with Hydrogen Atom, Methyl, and Hydroxyl Radicals', journal="J. Phys. Chem. A", volume="103", pages="""3750-3765""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
     referenceType = "",
@@ -44504,6 +44558,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
     ],
 )
 
@@ -44532,7 +44587,7 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (3.1e-12,"cm^3/(mol*s)"),
+        A = (3.1e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (2993.21,"J/mol"),
         T0 = (1,"K"),
@@ -44545,6 +44600,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -46071,7 +46127,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (8.2e-12,"cm^3/(mol*s)"),
+        A = (8.2e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-332.579,"J/mol"),
         T0 = (1,"K"),
@@ -46084,6 +46140,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -46696,7 +46753,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.9e-12,"cm^3/(mol*s)"),
+        A = (1.9e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-1579.75,"J/mol"),
         T0 = (1,"K"),
@@ -46709,6 +46766,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:49 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -46825,7 +46883,7 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (1e-12,"cm^3/(mol*s)"),
+        A = (1e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-1579.75,"J/mol"),
         T0 = (1,"K"),
@@ -46838,6 +46896,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:49 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -47154,7 +47213,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (3.8e-13,"cm^3/(mol*s)"),
+        A = (3.8e-13,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-7483.02,"J/mol"),
         T0 = (1,"K"),
@@ -47167,6 +47226,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -47510,7 +47570,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (2.9e-12,"cm^3/(mol*s)"),
+        A = (2.9e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (1330.32,"J/mol"),
         T0 = (1,"K"),
@@ -47523,6 +47583,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -48412,7 +48473,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (2.9e-12,"cm^3/(mol*s)"),
+        A = (2.9e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (1330.32,"J/mol"),
         T0 = (1,"K"),
@@ -48425,6 +48486,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -48453,7 +48515,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (6.8e-13,"cm^3/(mol*s)"),
+        A = (6.8e-13,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-2369.62,"J/mol"),
         T0 = (1,"K"),
@@ -48466,6 +48528,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -48796,7 +48859,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (5.1e-13,"cm^3/(mol*s)"),
+        A = (5.1e-13,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-7690.89,"J/mol"),
         T0 = (1,"K"),
@@ -48809,6 +48872,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:51 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -50233,7 +50297,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.2e-13,"cm^3/(mol*s)"),
+        A = (2.2e-13,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-4988.68,"J/mol"),
         T0 = (1,"K"),
@@ -50246,6 +50310,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:35:13 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -50276,7 +50341,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.2e-13,"cm^3/(mol*s)"),
+        A = (2.2e-13,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-4988.68,"J/mol"),
         T0 = (1,"K"),
@@ -50289,6 +50354,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:35:13 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -51793,7 +51859,7 @@ entry(
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
-        A = (6.9e-12,"cm^3/(mol*s)"),
+        A = (6.9e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (8314.47,"J/mol"),
         T0 = (1,"K"),
@@ -51806,6 +51872,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:35:13 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -51957,7 +52024,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (4.8e-11,"cm^3/(mol*s)"),
+        A = (4.8e-11,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-2078.62,"J/mol"),
         T0 = (1,"K"),
@@ -51970,6 +52037,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:35:13 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -52326,7 +52394,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (4.8e-11,"cm^3/(mol*s)"),
+        A = (4.8e-11,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-2078.62,"J/mol"),
         T0 = (1,"K"),
@@ -52339,6 +52407,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:35:13 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -52872,7 +52941,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (7.7e-12,"cm^3/(mol*s)"),
+        A = (7.7e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (17460.4,"J/mol"),
         T0 = (1,"K"),
@@ -52885,6 +52954,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:35:13 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
@@ -54627,7 +54697,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (7.7e-12,"cm^3/(mol*s)"),
+        A = (7.7e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (17460.4,"J/mol"),
         T0 = (1,"K"),
@@ -54640,6 +54710,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:35:14 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
     ],
 )
 
