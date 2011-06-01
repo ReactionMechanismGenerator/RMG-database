@@ -269,57 +269,6 @@ entry(
 )
 
 entry(
-    index = 7,
-    label = "r00001355",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,B} {3,B}
-2     C     0 {1,B} {4,B}
-3     C     0 {1,B} {5,B}
-4     C     0 {2,B} {6,B}
-5     C     0 {3,B} {6,B}
-6  *3 C     1 {4,B} {5,B}
-""",
-    product1 = 
-"""
-1     C     0 {2,B} {3,B}
-2     C     0 {1,B} {4,B}
-3  *1 C     0 {1,B} {5,B} {7,S}
-4     C     0 {2,B} {6,B}
-5     C     0 {3,B} {6,B}
-6     C     0 {4,B} {5,B}
-7  *2 H     0 {3,S}
-""",
-    product2 = 
-"""
-1  *3 C     1 {2,D}
-2     O     0 {1,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (inf,"cm^3/(mol*s)"),
-        n = 2.19,
-        Ea = (2610.57,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(authors=["Choi, Y.M.", "Xia, W.S.", "Park, J.", "Lin, M.C."], title=u'Kinetics and Mechanism for the Reaction of Phenyl Radical with Formaldehyde', journal="J. Phys. Chem. A", volume="104", pages="""7030-7035""", year="2000", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
-    referenceType = "",
-    shortDesc = """""",
-    longDesc = 
-"""
-""",
-    history = [
-        ("Tue May 17 14:33:30 2011","jwallen","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
     index = 8,
     label = "r00001357",
     reactant1 = 
@@ -7881,45 +7830,6 @@ entry(
 )
 
 entry(
-    index = 185,
-    label = "r00002017",
-    reactant1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1  *3 H     1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (inf,"cm^3/(mol*s)"),
-        n = 2.59,
-        Ea = (-42046.3,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(authors=["Bryukov, M.G.", "Slagle, I.R.", "Knyazev, V.D."], title=u'Kinetics of Reactions of H Atoms with Methane and Chlorinated Methanes', journal="J. Phys. Chem. A", volume="105", pages="""3107-3122""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000054.xml"),
-    referenceType = "",
-    shortDesc = """""",
-    longDesc = 
-"""
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","jwallen","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
     index = 186,
     label = "r00002017",
     reactant1 = 
@@ -8806,45 +8716,6 @@ entry(
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Maity, D.K.", "Duncan, W.T.", "Truong, T.N."], title=u'Direct ab initio dynamics studies of the hydrogen abstraction reactions of hydrogen atom with fluoromethanes', journal="J. Phys. Chem. A", volume="103", pages="""2152-2159""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000080.xml"),
-    referenceType = "",
-    shortDesc = """""",
-    longDesc = 
-"""
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","jwallen","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 209,
-    label = "r00002017",
-    reactant1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1  *3 H     1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (inf,"cm^3/(mol*s)"),
-        n = 2.7,
-        Ea = (-37007.7,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(authors=["Bryukov, M.G.", "Slagle, I.R.", "Knyazev, V.D."], title=u'Kinetics of Reactions of H Atoms with Methane and Chlorinated Methanes', journal="J. Phys. Chem. A", volume="105", pages="""3107-3122""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000081.xml"),
     referenceType = "",
     shortDesc = """""",
     longDesc = 
@@ -34280,88 +34151,6 @@ entry(
 )
 
 entry(
-    index = 754,
-    label = "r00009460",
-    reactant1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1  *3 H     1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (inf,"cm^3/(mol*s)"),
-        n = 2.43,
-        Ea = (-36949.5,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(authors=["Bryukov, M.G.", "Slagle, I.R.", "Knyazev, V.D."], title=u'Kinetics of Reactions of H Atoms with Ethane and Chlorinated Ethanes', journal="J. Phys. Chem. A", volume="105", pages="""6900-6909""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
-    referenceType = "",
-    shortDesc = """""",
-    longDesc = 
-"""
-""",
-    history = [
-        ("Tue May 17 14:34:25 2011","jwallen","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 755,
-    label = "r00009460",
-    reactant1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1  *3 H     1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (inf,"cm^3/(mol*s)"),
-        n = 8.94,
-        Ea = (-18848.9,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(authors=["Bryukov, M.G.", "Slagle, I.R.", "Knyazev, V.D."], title=u'Kinetics of Reactions of H Atoms with Ethane and Chlorinated Ethanes', journal="J. Phys. Chem. A", volume="105", pages="""6900-6909""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
-    referenceType = "",
-    shortDesc = """""",
-    longDesc = 
-"""
-""",
-    history = [
-        ("Tue May 17 14:34:25 2011","jwallen","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
     index = 756,
     label = "r00009460",
     reactant1 = 
@@ -35335,88 +35124,6 @@ entry(
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Bryukov, M.G.", "Slagle, I.R.", "Knyazev, V.D."], title=u'Kinetics of Reactions of H Atoms with Ethane and Chlorinated Ethanes', journal="J. Phys. Chem. A", volume="105", pages="""6900-6909""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000043.xml"),
-    referenceType = "",
-    shortDesc = """""",
-    longDesc = 
-"""
-""",
-    history = [
-        ("Tue May 17 14:34:25 2011","jwallen","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 780,
-    label = "r00009460",
-    reactant1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (inf,"cm^3/(mol*s)"),
-        n = 1.98,
-        Ea = (-26465,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(authors=["Bryukov, M.G.", "Slagle, I.R.", "Knyazev, V.D."], title=u'Kinetics of Reactions of H Atoms with Ethane and Chlorinated Ethanes', journal="J. Phys. Chem. A", volume="105", pages="""6900-6909""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000044.xml"),
-    referenceType = "",
-    shortDesc = """""",
-    longDesc = 
-"""
-""",
-    history = [
-        ("Tue May 17 14:34:25 2011","jwallen","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 781,
-    label = "r00009460",
-    reactant1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (inf,"cm^3/(mol*s)"),
-        n = 9.72,
-        Ea = (-3882.86,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(authors=["Bryukov, M.G.", "Slagle, I.R.", "Knyazev, V.D."], title=u'Kinetics of Reactions of H Atoms with Ethane and Chlorinated Ethanes', journal="J. Phys. Chem. A", volume="105", pages="""6900-6909""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000045.xml"),
     referenceType = "",
     shortDesc = """""",
     longDesc = 
