@@ -963,53 +963,6 @@ entry(
 )
 
 entry(
-    index = 23,
-    label = "r00001571",
-    reactant1 = 
-"""
-1  *1 C     0 {3,S} {5,S} {6,S}
-2     C     0 {4,S} {5,S}
-3     C     0 {1,S}
-4     C     0 {2,S}
-5     O     0 {1,S} {2,S}
-6  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {5,S}
-2     C     0 {1,S}
-3     C     0 {4,S}
-4  *3 C     1 {3,S} {5,S}
-5     O     0 {1,S} {4,S}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (7.4e+12,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (13552.6,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(authors=["Faubel, C.", "Hoyermann, K.", "Strofer, E.", "Wagner, H.Gg."], title=u'Untersuchungen zur Reaktion von Wasserstoffatomen mit Dimethylaether, Diaethylaether und tert. Buthyl-methyl-Aether in der Gasphase', journal="Ber. Bunsenges. Phys. Chem.", volume="83", pages="""532""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
-    referenceType = "",
-    shortDesc = """""",
-    longDesc = 
-"""
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
     index = 24,
     label = "r00001604",
     reactant1 = 
@@ -16304,51 +16257,6 @@ entry(
 )
 
 entry(
-    index = 381,
-    label = "r00003291",
-    reactant1 = 
-"""
-1  *1 C     0 {2,S} {3,S} {4,S} {5,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4     C     0 {1,S}
-5  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.82e+11,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (34172.5,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(authors=["Sway, M."], title=u'Kinetics of abstraction reactions of methyl radicals with alkanes in gas phase', journal="Indian J. Chem.", volume="29", pages="""748""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
-    referenceType = "",
-    shortDesc = """""",
-    longDesc = 
-"""
-""",
-    history = [
-        ("Tue May 17 14:33:37 2011","jwallen","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
     index = 382,
     label = "r00003291",
     reactant1 = 
@@ -16647,9 +16555,9 @@ entry(
 """,
     degeneracy = 9,
     kinetics = Arrhenius(
-        A = (3.6,"cm^3/(mol*s)"),
-        n = 3.46,
-        Ea = (317.233,"J/mol"),
+        A = (5.4,"cm^3/(mol*s)"),
+        n = 3.65,
+        Ea = (29.9,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Goos, E.", "Hippler, H.", "Hoyermann, K.", "Jurges, B."], title=u'Reactions of Methyl Radicals with Isobutane at Temperatures Between 800 and 950 Kelvin', journal="Int. J. Chem. Kinet.", volume="33", pages="""732-740""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
@@ -16660,6 +16568,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:37 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 18 09:43:35 2011","jwallen","action","""Fixed errors in values of kinetics parameters."""),
     ],
 )
 
@@ -19815,9 +19724,9 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (4.27e+11,"cm^3/(mol*s)"),
+        A = (1.708e12,"cm^3/(mol*s)"),
         n = 0,
-        Ea = (43900.4,"J/mol"),
+        Ea = (10.49,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Yampol'skii, Yu.P."], title=u'Reactivity of Primary and Secondary Carbon-Hydrogen Bonds in Radical Processes', journal="React. Kinet. Catal. Lett.", volume="2", pages="""449""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
@@ -19828,51 +19737,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:46 2011","jwallen","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 455,
-    label = "r00004593",
-    reactant1 = 
-"""
-1  *1 C     0 {2,S} {3,S} {5,S}
-2     C     0 {1,S} {4,S}
-3     C     0 {1,S}
-4     C     0 {2,S}
-5  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {3,S}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (5.5e+11,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (39992.6,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(authors=["Sway, M."], title=u'Kinetics of abstraction reactions of methyl radicals with alkanes in gas phase', journal="Indian J. Chem.", volume="29", pages="""748""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
-    referenceType = "",
-    shortDesc = """""",
-    longDesc = 
-"""
-""",
-    history = [
-        ("Tue May 17 14:33:46 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 18 09:43:35 2011","jwallen","action","""Fixed errors in values of kinetics parameters."""),
     ],
 )
 
@@ -19905,9 +19770,9 @@ entry(
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
-        A = (5.01e+11,"cm^3/(mol*s)"),
+        A = (3.006e+12,"cm^3/(mol*s)"),
         n = 0,
-        Ea = (56871,"J/mol"),
+        Ea = (13.59,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Yampol'skii, Yu.P."], title=u'Reactivity of Primary and Secondary Carbon-Hydrogen Bonds in Radical Processes', journal="React. Kinet. Catal. Lett.", volume="2", pages="""449""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -19918,6 +19783,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:46 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 18 09:43:35 2011","jwallen","action","""Fixed errors in values of kinetics parameters."""),
     ],
 )
 
@@ -23555,7 +23421,7 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (1.84e+14,"cm^3/(mol*s)"),
+        A = (1.108e+12,"cm^3/(mol*s)"),
         n = 0,
         Ea = (38496,"J/mol"),
         T0 = (1,"K"),
@@ -23568,6 +23434,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 18 09:43:35 2011","jwallen","action","""Fixed errors in values of kinetics parameters."""),
     ],
 )
 
@@ -25041,9 +24908,9 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (89.9322,"cm^3/(mol*s)"),
-        n = 2.95,
-        Ea = (50136.3,"J/mol"),
+        A = (2.175e11,"cm^3/(mol*s)"),
+        n = 0,
+        Ea = (4.57,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -25054,6 +24921,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:54 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 18 09:43:35 2011","jwallen","action","""Fixed errors in values of kinetics parameters."""),
     ],
 )
 
