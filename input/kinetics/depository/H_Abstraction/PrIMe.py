@@ -17474,8 +17474,8 @@ entry(
 """,
     degeneracy = 9,
     kinetics = Arrhenius(
-        A = (308111,"cm^3/(mol*s)"),
-        n = 5.1,
+        A = (5.1e-19,"cm^3/(molecule*s)"),
+        n = 2.5,
         Ea = (77158.3,"J/mol"),
         T0 = (1,"K"),
     ),
@@ -17484,9 +17484,15 @@ entry(
     shortDesc = """""",
     longDesc = 
 """
+The rate coefficient expression differs between the table (p. 5, near the 
+bottom) and the discussion (p. 21), as the n is different in these two 
+locations. We believe the n = 2.5 value from the discussion, as the expression
+was constructed by analogy to isobutane + formyl.
 """,
     history = [
         ("Tue May 17 14:33:37 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
+        ("Tue May 17 17:31:23 2011","jwallen","action","""Fixed a typo in this entry's n parameter."""),
     ],
 )
 
@@ -40997,7 +41003,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.87476e-23,"cm^3/(molecule*s)"),
+        A = (7.6e-15,"cm^3/(molecule*s)"),
         n = 3.4,
         Ea = (-4780.82,"J/mol"),
         T0 = (300,"K"),
@@ -41011,6 +41017,7 @@ entry(
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
         ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
+        ("Tue May 17 17:48:20 2011","jwallen","action","""Fixed erroneous value of the preexponential factor."""),
     ],
 )
 
@@ -43604,7 +43611,7 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (9.57216e-06,"cm^3/(mol*s)"),
+        A = (1.39e-21,"cm^3/(molecule*s)"),
         n = 3.21,
         Ea = (6593.38,"J/mol"),
         T0 = (1,"K"),
@@ -43617,6 +43624,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:34:41 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 17:48:20 2011","jwallen","action","""Fixed erroneous value and units of preexponential factor."""),
     ],
 )
 
@@ -44499,7 +44507,7 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (4.05629e-20,"cm^3/(molecule*s)"),
+        A = (3.5e-13,"cm^3/(molecule*s)"),
         n = 2.8,
         Ea = (-1746.04,"J/mol"),
         T0 = (300,"K"),
@@ -44513,6 +44521,7 @@ entry(
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
         ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
+        ("Tue May 17 17:48:20 2011","jwallen","action","""Fixed erroneous value of the preexponential factor."""),
     ],
 )
 
