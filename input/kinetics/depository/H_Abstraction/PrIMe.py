@@ -23017,57 +23017,6 @@ entry(
 )
 
 entry(
-    index = 521,
-    label = "r00005489",
-    reactant1 = 
-"""
-1  *1 C     0 {2,S} {3,S} {7,S}
-2     C     0 {1,S} {4,S}
-3     C     0 {1,S} {5,S}
-4     C     0 {2,S} {6,S}
-5     C     0 {3,S} {6,S}
-6     C     0 {4,S} {5,S}
-7  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S} {4,S}
-3     C     0 {1,S} {5,S}
-4     C     0 {2,S} {6,S}
-5     C     0 {3,S} {6,S}
-6  *3 C     1 {4,S} {5,S}
-""",
-    degeneracy = 12,
-    kinetics = Arrhenius(
-        A = (10310,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (1227.63,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(authors=["Handford-Styring, S.M.", "Walker, R.W."], title=u'Arrhenius Parameters for the Reaction HO_2 + Cyclohexane Between 673 and 773 K, and for H Atom Transfer in Cyclohexylperoxy Radicals', journal="Phys. Chem. Chem. Phys.", volume="3", pages="""2043-2052""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
-    referenceType = "",
-    shortDesc = """""",
-    longDesc = 
-"""
-""",
-    history = [
-        ("Tue May 17 14:33:52 2011","jwallen","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
     index = 522,
     label = "r00005489",
     reactant1 = 
