@@ -1,0 +1,7 @@
+// The format for the data in this rate library
+Arrhenius_EP
+
+480   Rn                      Y_rad_out               Ypri_rad_out            300-1500       5.00e+11      0.00      0.00       30.00 0            0      0      0     0        Default
+482   R6_SSSDS                C_rad_out_H/OneDe       Cpri_rad_out_2H         550-650        2.00e+12      0.00      0.00        1.80 0            0      0      1     4        [186] Benson et al.
+485   R4_SSS                  C_rad_out_2H            Cpri_rad_out_2H         600-2000       1.62e+12     -0.30      0.00        1.98 0            0      0      0     3        [x] Sirjean et al.
+486   R6_SSSSS                C_rad_out_2H            Cpri_rad_out_2H         600-2000       3.21e+10      0.14      0.00        2.12 0            0      0      0     3        [x] Sirjean et al.

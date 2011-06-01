@@ -1,0 +1,11 @@
+RnOOH -> HORO.
+
+forward
+reverse: intra_OH_migration_reverse
+
+Actions 1
+(1) BREAK_BOND      {*2,S,*3}
+(2) FORM_BOND       {*1,S,*3}
+(3) GAIN_RADICAL    {*2,1}
+(4) LOSE_RADICAL    {*1,1}
+

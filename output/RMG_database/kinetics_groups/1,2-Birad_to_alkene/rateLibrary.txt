@@ -1,0 +1,19 @@
+// The format for the data in this rate library
+Arrhenius_EP
+
+1     Y_12birad               300-1500       1.00e+08      0.00      0.00        0.00 0            0      0      0     0        Default
+2     Y_12_00                 300-1500       1.00e+08      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt
+3     Y_12_10                 300-1500       6.31e+07      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt
+4     Y_12_20                 300-1500       3.98e+07      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt
+5     Y_12_30                 300-1500       2.51e+07      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt
+6     Y_12_40                 300-1500       1.58e+07      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt
+7     Y_12_01                 300-1500       5.01e+07      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt
+8     Y_12_02                 300-1500       2.51e+07      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt
+9     Y_12_03                 300-1500       1.26e+07      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt
+10    Y_12_04                 300-1500       6.31e+06      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt
+11    Y_12_11                 300-1500       3.16e+07      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt
+12    Y_12_12                 300-1500       1.58e+07      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt
+13    Y_12_21                 300-1500       2.00e+07      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt
+14    Y_12_22                 300-1500       1.00e+07      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt
+15    Y_12_13                 300-1500       7.94e+06      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt
+16    Y_12_31                 300-1500       1.26e+07      0.00      0.00        0.00 0            0      0      0     5        see references header of 1,2-Birad_to_alkene/rateLibrary.txt

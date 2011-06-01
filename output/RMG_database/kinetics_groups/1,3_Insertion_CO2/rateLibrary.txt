@@ -1,0 +1,8 @@
+// The format for the data in this rate library
+Arrhenius_EP
+
+571   CO2                     RR'                     300-1500       1.00e+05      2.00      0.00       75.00 0            0      0      0     0        Default
+572   CO2_Cdd                 H2                      300-1500       1.51e+09      1.23      0.00       73.90 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+573   CO2_Cdd                 C_methane               300-1500       4.53e+03      2.83      0.00       79.20 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+574   CO2_Cdd                 C_pri/NonDeC            300-1500       1.09e+04      2.56      0.00       76.60 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+575   CO2_Cdd                 C/H2/NonDeC             300-1500       1.06e+05      2.13      0.00       77.00 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.

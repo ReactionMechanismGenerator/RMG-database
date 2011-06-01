@@ -1,0 +1,4 @@
+// The format for the data in this rate library
+Arrhenius_EP
+
+588   CCO                     doublebond              300-1500       6.92e+10      0.00      0.00       43.72 0            0      0      0     0        Quick et al. [107]

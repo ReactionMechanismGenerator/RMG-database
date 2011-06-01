@@ -1,0 +1,13 @@
+ene + diene_out -> Six_Ring
+
+forward
+reverse: Diels_alder_addition_reverse
+
+Actions 1
+(1) CHANGE_BOND     {*1,-1,*2}
+(2) CHANGE_BOND     {*3,-1,*4}
+(3) CHANGE_BOND     {*4,1,*5}
+(4) CHANGE_BOND     {*5,-1,*6}
+(5) FORM_BOND       {*1,S,*3}
+(6) FORM_BOND       {*2,S,*6}
+

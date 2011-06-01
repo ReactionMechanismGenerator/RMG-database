@@ -1,0 +1,5 @@
+// The format for the data in this rate library
+Arrhenius_EP
+
+586   db                      doublebond              723-786        6.92e+10      0.00      0.00       43.72 0            0      0      0     3        Quick et al. [107]
+6000  db_2H                   mb_OC                   300-1500       2.33e+06      1.65      0.00       54.15 *5           0      0      0     0        

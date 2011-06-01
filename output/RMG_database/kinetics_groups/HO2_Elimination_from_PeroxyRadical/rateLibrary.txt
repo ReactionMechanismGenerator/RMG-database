@@ -1,0 +1,15 @@
+// The format for the data in this rate library
+Arrhenius_EP
+
+835   R2OO                    300-1500       1.00e+10      1.00      0.00       30.00 0            0      0      0     0        
+836   R2OO_2H_2H              300-1500       1.56e+07      1.69      0.00       29.80 0            0      0      0     2        Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
+837   R2OO_HNd_2H             300-1500       4.79e+07      1.46      0.00       29.40 0            0      0      0     2        Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
+838   R2OO_NdNd_2H            300-1500       5.06e+08      1.19      0.00       29.90 0            0      0      0     2        Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
+839   R2OO_2H_HNd             300-1500       9.79e+08      1.17      0.00       30.10 0            0      0      0     2        Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
+840   R2OO_HNd_HNd            300-1500       1.65e+09      1.01      0.00       29.60 0            0      0      0     2        Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
+841   R2OO_NdNd_HNd           300-1500       6.48e+10      0.57      0.00       29.90 0            0      0      0     2        Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
+842   R2OO_2H_NdNd            300-1500       7.48e+09      1.08      0.00       29.70 0            0      0      0     2        Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
+843   R2OO_HNd_NdNd           300-1500       8.11e+14     -0.78      0.00       30.40 0            0      0      0     2        Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
+844   R2OO_NdNd_NdNd          300-1500       3.10e+19     -1.78      0.00       31.70 0            0      0      0     2        Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
+845   CH3CH(OO)CHCH2          600-2000       8.25e+05      1.83      0.00       24.25 *5           0      0      2     3        MRH CBS-QB3 calculations with 1d h.r. corrections.
+846   R2OO_2H_HDe             600-2000       8.25e+05      1.83      0.00       24.25 *5           0      0      2     3        Same as node 845 (MRH assumption)

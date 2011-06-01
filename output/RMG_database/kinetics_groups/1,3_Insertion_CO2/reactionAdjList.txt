@@ -1,0 +1,11 @@
+CO2 + RR' -> R_(CO2)_R'
+
+forward
+reverse: 1,3_Insertion_CO2_reverse
+
+Actions 1
+(1) BREAK_BOND      {*3,S,*4}
+(2) CHANGE_BOND     {*1,-1,*2}
+(3) FORM_BOND       {*1,S,*3}
+(4) FORM_BOND       {*2,S,*4}
+

@@ -1,0 +1,72 @@
+// The format for the data in this rate library
+Arrhenius_EP
+
+485   Y_rad_birad             XH_Rrad                 300-1500       3.00e+11      0.00      0.00        0.00 0            0      0      0     0        Default
+487   O2_birad                Cmethyl_Csrad           700-2500       1.06e+10      0.00      0.00        0.00 *3           0      0      0     4        Tsang [91] Literature review.
+488   CH2_triplet             Cmethyl_Csrad           300-2500       3.01e+13      0.00      0.00        0.00 *2           0      0      0     4        Tsang [91] Literature review.
+489   H_rad                   Cmethyl_Csrad           300-2500       3.61e+12      0.00      0.00        0.00 *2           0      0      0     4        Tsang [91] Literature review.
+490   H_rad                   Cmethyl_Csrad           300-2500       1.81e+12      0.00      0.00        0.00 *3           0      0      0     4        Tsang [89] Literature review.
+491   C_methyl                Cmethyl_Csrad           300-2500       2.19e+14     -0.68      0.00        0.00 *1.1         0      0      0     4        Tsang [91] Literature review.
+492   C_rad/H2/Cs             Cmethyl_Csrad           300-2500       2.30e+13     -0.35      0.00        0.00 *1.1         0      0      0     4        Tsang [91] Literature review.
+493   C_rad/H2/Cd             Cmethyl_Csrad           300-2500       2.29e+13     -0.35      0.00       -0.13 *3           0      0      0     4        Tsang [93] Literature review.
+494   C_rad/H2/O              Cmethyl_Csrad           300-2500       2.89e+12      0.00      0.00        0.00 *5           0      0      0     4        Tsang [91] Literature review.
+495   C_rad/H/NonDeC          Cmethyl_Csrad           300-2500       2.11e+14     -0.70      0.00        0.00 *2           0      0      0     4        Tsang [91] Literature review.
+496   C_rad/Cs3               Cmethyl_Csrad           300-2500       2.86e+15     -1.10      0.00        0.00 *1.7         0      0      0     4        Tsang [92] Literature review.
+497   Cd_pri_rad              Cmethyl_Csrad           300-2500       1.52e+14     -0.70      0.00        0.00 *1.5         0      0      0     4        Tsang [91] Literature review.
+498   Ct_rad                  Cmethyl_Csrad           300-2500       3.61e+12      0.00      0.00        0.00 *2           0      0      0     4        Tsang [91] Literature review.
+499   O_pri_rad               Cmethyl_Csrad           300-2500       2.41e+13      0.00      0.00        0.00 *3           0      0      0     4        Tsang [91] Literature review.
+500   H_rad                   Cmethyl_Orad            300-1000       1.81e+13      0.00      0.00        0.00 *3.16        0      0      0     4        Baulch et al [95] literature review.
+501   O2_birad                C/H2/Nd_Csrad           500-900        2.26e+10      0.00      0.00        0.00 *3           0      0      0     4        Tsang [91] Literature review.
+502   CH2_triplet             C/H2/Nd_Csrad           300-2500       1.81e+12      0.00      0.00        0.00 *5           0      0      0     4        Tsang [91] Literature review.
+503   H_rad                   C/H2/Nd_Csrad           300-2500       1.81e+12      0.00      0.00        0.00 *2           0      0      0     4        Tsang [91] Literature review.
+504   C_methyl                C/H2/Nd_Csrad           300-2500       1.15e+13     -0.32      0.00        0.00 *1.7         0      0      0     4        Tsang [91] Literature review.
+505   C_rad/H2/Cs             C/H2/Nd_Csrad           300-2500       1.45e+12      0.00      0.00        0.00 *1.4         0      0      0     4        Tsang [91] Literature review.
+506   C_rad/H2/Cd             C/H2/Nd_Csrad           300-2500       1.45e+12      0.00      0.00       -0.13 *3           0      0      0     4        Tsang [93] Literature review.
+507   C_rad/H2/O              C/H2/Nd_Csrad           300-2500       4.82e+11      0.00      0.00        0.00 *3           0      0      0     4        Tsang [91] Literature review.
+508   C_rad/H/NonDeC          C/H2/Nd_Csrad           300-2500       5.13e+13     -0.35      0.00        0.00 *2           0      0      0     4        Tsang [91] Literature review.
+509   C_rad/Cs3               C/H2/Nd_Csrad           300-2500       2.16e+14     -0.75      0.00        0.00 *2           0      0      0     4        Tsang [92] Literature review.
+510   Cd_pri_rad              C/H2/Nd_Csrad           300-2500       1.21e+12      0.00      0.00        0.00 *3           0      0      0     4        Tsang [91] Literature review.
+511   Ct_rad                  C/H2/Nd_Csrad           300-2500       6.03e+12      0.00      0.00        0.00 *3           0      0      0     4        Tsang [91] Literature review.
+512   O_pri_rad               C/H2/Nd_Csrad           300-2500       2.41e+13      0.00      0.00        0.00 *3           0      0      0     4        Tsang [91] Literature review.
+513   O2_birad                C/H/NdNd_Csrad          600-1000       1.20e+10      0.00      0.00        0.00 *5           0      0      0     4        Tsang [92] Literature review.
+514   Ct_rad                  C/H/NdNd_Csrad          300-2500       6.03e+12      0.00      0.00        0.00 *3           0      0      0     4        Tsang [92] Literature review.
+515   H_rad                   C/H/NdNd_Csrad          300-2500       9.04e+11      0.00      0.00        0.00 *2           0      0      0     4        Tsang [92] Literature review.
+516   C_methyl                C/H/NdNd_Csrad          300-2500       6.02e+12     -0.32      0.00        0.00 *2           0      0      0     4        Tsang [92] Literature review.
+517   C_rad/H2/Cs             C/H/NdNd_Csrad          300-2500       8.43e+11      0.00      0.00        0.00 *2           0      0      0     4        Tsang [92] Literature review.
+518   C_rad/H2/O              C/H/NdNd_Csrad          300-2500       2.41e+11      0.00      0.00        0.00 *3           0      0      0     4        Tsang [92] Literature review.
+519   C_rad/H2/Cd             C/H/NdNd_Csrad          300-2500       7.83e+11      0.00      0.00       -0.13 *3           0      0      0     4        Tsang [93] Literature review.
+520   C_rad/H/NonDeC          C/H/NdNd_Csrad          300-2500       2.56e+13     -0.35      0.00        0.00 *2           0      0      0     4        Tsang [92] Literature review.
+521   C_rad/Cs3               C/H/NdNd_Csrad          300-2500       1.08e+14     -0.75      0.00        0.00 *2           0      0      0     4        Tsang [92] Literature review.
+522   Cd_pri_rad              C/H/NdNd_Csrad          300-2500       8.43e+11      0.00      0.00        0.00 *4           0      0      0     4        Tsang [92] Literature review.
+523   O_pri_rad               C/H/NdNd_Csrad          300-2500       1.21e+13      0.00      0.00        0.00 *3           0      0      0     4        Tsang [92] Literature review.
+524   O2_birad                Cdpri_Csrad             300-2500       6.02e+11      0.00      0.00       13.55 0            0      0      0     4        Tsang [93] Literature review.
+525   H_rad                   Cdpri_Csrad             300-2500       1.81e+13      0.00      0.00        0.00 *3           0      0      0     4        Tsang [93] Literature review.
+526   C_methyl                Cdpri_Csrad             300-2500       3.01e+12     -0.32      0.00       -0.13 *3           0      0      0     4        Tsang [93] Literature review.
+527   C_rad/H2/Cs             Cdpri_Csrad             300-2500       9.64e+11      0.00      0.00       -0.13 *2           0      0      0     4        Tsang [93] Literature review.
+528   C_rad/H2/Cd             Cdpri_Csrad             300-2500       8.43e+10      0.00      0.00       -0.26 *2.5         0      0      0     4        Tsang [93] Literature review.
+529   C_rad/H/NonDeC          Cdpri_Csrad             300-2500       4.58e+12     -0.35      0.00       -0.13 *3           0      0      0     4        Tsang [93] Literature review.
+530   C_rad/Cs3               Cdpri_Csrad             300-2500       2.89e+13     -0.75      0.00       -0.13 *3           0      0      0     4        Tsang [93] Literature review.
+531   Cd_pri_rad              Cdpri_Csrad             300-2500       2.41e+12      0.00      0.00        0.00 *3           0      0      0     4        Tsang [93] Literature review.
+532   O_pri_rad               Cdpri_Csrad             300-2500       6.03e+12      0.00      0.00        0.00 *3           0      0      0     4        Tsang [93] Literature review.
+533   O2_birad                O_Csrad                 298            5.72e+12      0.00      0.00        0.00 *2           0      0      0     4        Atkinson et al [98] literature review.
+534   O2_birad                O_Csrad                 298            2.92e+12      0.00      0.00        0.00 *1.3         0      0      0     4        Atkinson et al [98] literature review.
+535   O2_birad                O_Csrad                 200-300        2.74e+12      0.00      0.00        0.00 *1.3         0      0    0.4     4        DeMore et al [183] literature review.
+536   O_atom_triplet          O_Csrad                 298            9.04e+13      0.00      0.00        0.00 3.01e+13      0      0      0     3        Grotheer et al [189].
+537   CH2_triplet             O_Csrad                 300-2500       1.21e+12      0.00      0.00        0.00 *3           0      0      0     4        Tsang [90] Literature review.
+538   H_rad                   O_Csrad                 295            2.00e+13      0.00      0.00        0.00 1e+13        0      0      0     4        Edelbuttel-Einhaus et al [190].
+539   H_rad                   O_Csrad                 300-2500       6.03e+12      0.00      0.00        0.00 *3           0      0      0     4        Tsang [90] Literature review.
+540   C_methyl                O_Csrad                 298            8.49e+13      0.00      0.00        0.00 0            0      0      0     3        Pagsberg et al [191].
+541   C_methyl                O_Csrad                 300-2500       2.41e+12      0.00      0.00        0.00 *5           0      0      0     4        Tsang [90] Literature review.
+542   C_rad/H2/Cs             O_Csrad                 300-2500       2.41e+12      0.00      0.00        0.00 *5           0      0      0     4        Tsang [90] Literature review.
+543   C_rad/H2/Cd             O_Csrad                 300-2500       1.81e+13      0.00      0.00        0.00 *2.5         0      0      0     4        Tsang [93] Literature review.
+544   C_rad/H2/O              O_Csrad                 300-2500       4.82e+12      0.00      0.00        0.00 *2           0      0      0     4        Tsang [90] Literature review.
+545   C_rad/H/NonDeC          O_Csrad                 300-2500       2.35e+12      0.00      0.00        0.00 *5           0      0      0     4        Tsang [91] Literature review.
+546   C_rad/Cs3               O_Csrad                 300-2500       3.47e+14     -0.75      0.00        0.00 *3           0      0      0     4        Tsang [92] Literature review.
+547   Cd_pri_rad              O_Csrad                 300-2500       3.01e+13      0.00      0.00        0.00 *2.5         0      0      0     4        Tsang [90] Literature review.
+548   Ct_rad                  O_Csrad                 300-2500       3.61e+13      0.00      0.00        0.00 *5           0      0      0     4        Tsang [90] Literature review.
+549   CO_pri_rad              O_Csrad                 300-2500       1.81e+14      0.00      0.00        0.00 *3           0      0      0     4        Tsang [90] Literature review.
+550   O_pri_rad               O_Csrad                 300-2500       2.41e+13      0.00      0.00        0.00 *2           0      0      0     4        Tsang [90] Literature review.
+551   O_rad/NonDeC            O_Csrad                 300-2500       2.41e+13      0.00      0.00        0.00 *2           0      0      0     4        Tsang [90] Literature review.
+552   O_rad/NonDeO            O_Csrad                 300-2500       1.21e+13      0.00      0.00        0.00 *2           0      0      0     4        Tsang [90] Literature review.
+600   O2_birad                O_Csrad                 250-1000       2.34e+11      0.33      0.00       -1.06 0            0      0      0     1        Zador et al.
+20001 O2_birad                XH_Rrad                 300-1500       3.00e+11      0.00      0.00        0.00 0            0      0      0     0        

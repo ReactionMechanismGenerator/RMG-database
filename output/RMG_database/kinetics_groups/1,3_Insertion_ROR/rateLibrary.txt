@@ -1,0 +1,14 @@
+// The format for the data in this rate library
+Arrhenius_EP
+
+560   doublebond              R_OR                    300-1500       1.00e+02      3.00      0.00       45.00 0            0      0      0     0        Default
+561   Cd/H2_Cd/Nd2            H_OCmethyl              300-1500       9.36e+01      2.85      0.00       41.90 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+562   Cd/H2_Cd/H/Nd           H_OCmethyl              300-1500       2.48e+01      2.93      0.00       43.90 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+563   Cd/unsub_Cd/unsub       H_OCmethyl              300-1500       4.73e+01      3.00      0.00       47.00 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+564   cco_2H                  H_OH                    300-1500       1.57e+02      3.04      0.00       39.40 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+565   cco_HNd                 H_OH                    300-1500       5.15e+01      3.05      0.00       41.00 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+566   cco_Nd2                 H_OH                    300-1500       1.45e+03      2.80      0.00       40.80 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+567   Cd/unsub_Cd/unsub       H_OH                    300-1500       1.47e+02      2.94      0.00       53.10 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+568   Cd/H/Nd_Cd/H2           H_OH                    300-1500       2.27e+02      2.74      0.00       56.90 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+569   Cd/H2_Cd/H/Nd           H_OH                    300-1500       6.52e+01      2.92      0.00       50.70 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+570   Cd/H2_Cd/Nd2            H_OH                    300-1500       1.25e+03      2.76      0.00       48.50 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.

@@ -1,0 +1,105 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
+name = "2+2_cycloaddition_CO/rules"
+shortDesc = ""
+longDesc = """
+General comments go at the top of the file,
+
+or in a section(s) titled 'General'
+
+.. the ID must match those in the rateLibrary AS A STRING (ie. '2' is different from '02')
+"""
+
+entry(
+    index = 587,
+    label = "CO;doublebond",
+    group1 = 
+"""
+1  *1 CO 0 {2,D}
+2  *2 Od 0 {1,D}
+""",
+    group2 = "OR{mb_CO, mb_OC, mb_CCO, mb_COC}",
+    kinetics = ArrheniusEP(
+        A = (6.92e+10,"cm^3/(mol*s)"),
+        n = 0,
+        alpha = 0,
+        E0 = (43.72,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 0,
+    shortDesc = """""",
+    longDesc = 
+"""
+
+""",
+    history = [
+        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 588,
+    label = "CH2CHO;mb_CO_2H",
+    group1 = 
+"""
+1  *1 C 0 {2,D} {3,S} {4,S}
+2  *2 O 0 {1,D}
+3     H 0 {1,S}
+4     C 1 {1,S} {5,S} {6,S}
+5     H 0 {4,S}
+6     H 0 {4,S}
+""",
+    group2 = 
+"""
+1  *3 CO 0 {2,D} {3,S} {4,S}
+2  *4 Od 0 {1,D}
+3     H 0 {1,S}
+4     H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.2319,"cm^3/(mol*s)","*|/",5),
+        n = 3.416,
+        alpha = 0,
+        E0 = (77.107,"kcal/mol","+|-",2),
+        Tmin = (600,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = """MRH CBS-QB3 calculations with 1d h.r. corrections""",
+    longDesc = 
+"""
+MRH CBS-QB3 calculations for the reverse of the reaction sequence *CH2-cycle(CH-CH2-O-O) => *CH2-O-O-CH=CH2 ==> CH2O + CH2CHO
+
+Previous RMG estimate for this reaction was an "Average of average" estimate, in addition to RMG needing
+to increase the estimated Ea by ~20 kcal/mol because the barrier was not greater than the endothermicity.
+This reaction was of interest to MRH/MHS because the butanol model was sensitive to allyl+O2 => CH2O+CH2CHO.
+The high-p limit kinetics were necessary to estimate a k(T,P) for this PES.
+
+The kinetics correspond to the reaction CH2O+CH2CHO => *CH2-cycle(CH-CH2-O-O)
+
+Reactant: 0 hindered rotors
+TS: 0 hindered rotors were considered (the only low-frequency torisonal mode corresponded to
+	a hindered rotation within the cycle; MRH did not think treating this as a 1-d separable
+	hindered rotor was accurate)
+Product: 1 hindered rotor was considered (the *CH2 torsion)
+
+All external symmetry numbers were set equal to one, except for CH2O which was set to two.
+MRH could not find a stable geometry for *CH2-O-O-CH=CH2 at the B3LYP/6-31G(d) level (the method/basis
+used in the CBS-QB3 method), it would always optimize to CH2O + CH2CHO.  Furthermore, MRH did not run an
+IRC for the TS, to confirm the TS would fall apart to CH2O + CH2CHO (instead of CH2-OO-CH=CH2), hence the lowest
+ranking of "5" assigned to this rate coefficient.
+
+The k(T) was calculated from 600 - 2000 K, in 200 K intervals, and the fitted Arrhenius expression from CanTherm was:
+k(T) = 2.319e-01 * (T/1K)^3.416 * exp(-77.107 kcal/mol / RT) cm3/mol/s.
+""",
+    history = [
+        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+    ],
+)
+

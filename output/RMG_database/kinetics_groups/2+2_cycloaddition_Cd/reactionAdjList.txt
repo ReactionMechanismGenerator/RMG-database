@@ -1,0 +1,11 @@
+db + doublebond -> four_ring
+
+forward
+reverse: 2+2_cycloaddition_Cd_reverse
+
+Actions 1
+(1) CHANGE_BOND     {*1,-1,*2}
+(2) CHANGE_BOND     {*3,-1,*4}
+(3) FORM_BOND       {*1,S,*3}
+(4) FORM_BOND       {*2,S,*4}
+

@@ -1,0 +1,11 @@
+XZ + Y_rad_birad -> YXZ.
+
+forward
+reverse: R_Addition_MultipleBond_reverse
+
+Actions 1
+(1) CHANGE_BOND     {*1,-1,*2}
+(2) FORM_BOND       {*1,S,*3}
+(3) GAIN_RADICAL    {*2,1}
+(4) LOSE_RADICAL    {*3,1}
+

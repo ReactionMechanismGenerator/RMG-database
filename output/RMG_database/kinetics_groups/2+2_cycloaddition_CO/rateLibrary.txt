@@ -1,0 +1,5 @@
+// The format for the data in this rate library
+Arrhenius_EP
+
+587   CO                      doublebond              300-1500       6.92e+10      0.00      0.00       43.72 0            0      0      0     0        
+588   CH2CHO                  mb_CO_2H                600-2000       2.32e-01      3.42      0.00       77.11 *5           0      0      2     5        MRH CBS-QB3 calculations with 1d h.r. corrections

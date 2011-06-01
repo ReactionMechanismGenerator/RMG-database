@@ -1,0 +1,11 @@
+// The format for the data in this rate library
+Arrhenius_EP
+
+553   CO_birad                RR'                     300-1500       1.00e+05      2.00      0.00       80.00 0            0      0      0     0        Default
+554   CO_birad                C_methyl_C_methyl       300-1500       5.38e+02      3.29      0.00      104.50 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+555   CO_birad                H2                      300-1500       2.89e+09      1.16      0.00       82.10 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+556   CO_birad                C_methane               300-1500       1.64e+04      2.86      0.00       86.90 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+557   CO_birad                C_pri/NonDeC            300-1500       9.14e+04      2.53      0.00       85.50 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+558   CO_birad                C/H2/NonDeC             300-1500       7.66e+05      2.07      0.00       82.20 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+559   CO_birad                C/H/Cs3                 300-1500       8.89e+07      1.51      0.00       79.20 0            0      0      0     2        [87]CBS-QB3 calculations from Sumathi 2003.
+5600  CO_birad                CsO_H                   300-2000       1.27e-01      3.70      0.00       53.36 0            0      0      0     2        CBS-QB3 calculations by Franklin, 2010

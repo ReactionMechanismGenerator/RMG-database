@@ -1,0 +1,10 @@
+// The format for the data in this rate library
+Arrhenius_EP
+
+807   Rn                      multiplebond_intra      radadd_intra            300-1500       1.00e+10      0.00      0.00        5.00 0            0      0      0     0        
+808   R6_SSS_D                doublebond_intra_2H_pri radadd_intra_cs2H       300-1500       2.51e+10      0.00      0.00        6.85 0            0      0      0     2        
+809   R4_S_D                  doublebond_intra_2H_pri radadd_intra_csHDe      300-1500       1.00e+10      0.00      0.00       25.85 0            0      0      0     2        
+810   R6_SMS_D                doublebond_intra        radadd_intra_cs         300-1500       1.00e+10      0.00      0.00       46.85 0            0      0      0     2        
+811   R6_SSM_D                doublebond_intra        radadd_intra_cs         300-1500       1.00e+10      0.00      0.00       46.85 0            0      0      0     2        
+812   R5_SD_D                 doublebond_intra_HNd_pri radadd_intra_csHNd      300-1500       1.00e+10      0.00      0.00       46.85 0            0      0      0     2        
+813   R5_SS_D                 doublebond_intra_2H_pri radadd_intra_O          600-2000       2.72e+10      0.48      0.00       29.17 *3           0      0      2     3        MRH CBS-QB3 calculations with 1d h.r. corrections

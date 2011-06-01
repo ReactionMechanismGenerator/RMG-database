@@ -1,0 +1,8 @@
+// The format for the data in this rate library
+Arrhenius_EP
+
+1     Y_biCyc3                Y_rad                   XH_Rrad                 300-1500       5.66e+10      1.00      0.00        9.50 0            0      0      0     5        Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1
+2     Y_biCyc4                Y_rad                   XH_Rrad                 300-1500       5.66e+10      1.00      0.00       16.30 0            0      0      0     5        Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1
+3     Y_biCyc5                Y_rad                   XH_Rrad                 300-1500       5.66e+10      1.00      0.00        7.75 0            0      0      0     5        Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1
+4     Y_biCyc6                Y_rad                   XH_Rrad                 300-1500       5.66e+10      1.00      0.00        3.85 0            0      0      0     5        Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1
+5     Y_biCyc7                Y_rad                   XH_Rrad                 300-1500       5.66e+10      1.00      0.00        7.75 0            0      0      0     5        Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1

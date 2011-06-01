@@ -1,0 +1,6 @@
+Unit:
+A: mol/m3/s
+E: cal/mol
+
+Reactions:
+HCO + H2O <=> H + CO + H2O                       1.500e+12    -1.000   17000.00     0 0 0

@@ -1,0 +1,17 @@
+Unit:
+A: mol/m3/s
+E: cal/mol
+
+Reactions:
+Mfmt <=> CO + CH3OH                              2.128e+12     0.735   68628.00     0 0 0
+Mfmt <=> CH2O + CH2O                             2.158e+09     1.280   75979.00     0 0 0
+Mfmt <=> CO2 + CH4                               4.536e+11     0.832   83612.00     0 0 0
+Mofml <=> CO2 + CH3j                             2.300e+09     1.090   14900.00     0 0 0
+CO + CH3Oj <=> Mofml                             1.970e+03     1.270    5810.00     0 0 0
+HCjO + CH2O <=> Fmoml                            5.030e-03     2.480    9320.00     0 0 0
+Hj + Mfmt <=> H2 + Mofml                         2.280e-01     2.500    6560.00     0 0 0
+Hj + Mfmt <=> H2 + Fmoml                         1.160e-01     2.550    7620.00     0 0 0
+CH3j + Mfmt <=> CH4 + Mofml                      6.340e-06     2.820    6810.00     0 0 0
+CH3j + Mfmt <=> CH4 + Fmoml                      2.570e-07     3.960    8020.00     0 0 0
+CH3Oj + HCjO <=> Mfmt                            1.800e+07     0.000       0.00     0 0 0
+CH3j + OjCHO <=> Mfmt                            1.800e+07     0.000       0.00     0 0 0

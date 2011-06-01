@@ -1,0 +1,10 @@
+// The format for the data in this rate library
+Arrhenius_EP
+
+809   Rn                      multiplebond_intra      radadd_intra            300-1500       1.00e+08      0.00      0.00        5.00 0            0      0      0     0        
+810   R5_SS_D                 doublebond_intra_pri_2H radadd_intra_cs2H       300-1500       1.22e+08      1.05      0.00       15.82 0            0      0      0     2        
+811   R6_SSS_D                doublebond_intra_pri_2H radadd_intra_cs2H       300-1500       1.00e+08      0.85      0.00        5.90 0            0      0      0     2        
+812   R5_SD_D                 doublebond_intra_pri_2H radadd_intra_cs2H       300-1600       1.05e+07      1.19      0.00       34.91 0            0      0      0     2        
+813   R3_D                    doublebond_intra_pri_HDe radadd_intra_cs2H       300-1600       1.05e+08      1.19      0.00       54.00 0            0      0      0     5        
+814   R3_T                    triplebond_intra_H      radadd_intra_cs2H       300-1600       1.05e+08      1.19      0.00       54.00 0            0      0      0     5        
+816   R5_DS_allenic_D         doublebond_intra_secDe_2H radadd_intra_cdsingleH  298-3000       2.82e+11      0.12      0.00       14.82 0            0      0      0     2        RRHO, CBS-QB3 treatment of H2C=C=CH-CH=CH. cyclization by gmagoon
