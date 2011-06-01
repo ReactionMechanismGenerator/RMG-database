@@ -453,25 +453,25 @@ entry(
     label = "r00001370",
     reactant1 = 
 """
-1  *3 C     1 {2,D}
-2     O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,D}
 2  *2 H     0 {1,S}
 3     O     0 {1,D}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 O     1 {2,S}
 2     O     1 {1,S}
+""",
+    product1 = 
+"""
+1  *3 C     1 {2,D}
+2     O     0 {1,D}
+""",
+    product2 = 
+"""
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -488,6 +488,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:30 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 18:03:57 2011","jwallen","action","""Fixed reversed reactants and products."""),
     ],
 )
 
@@ -496,25 +497,25 @@ entry(
     label = "r00001370",
     reactant1 = 
 """
-1  *3 C     1 {2,D}
-2     O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,D}
 2  *2 H     0 {1,S}
 3     O     0 {1,D}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 O     1 {2,S}
 2     O     1 {1,S}
+""",
+    product1 = 
+"""
+1  *3 C     1 {2,D}
+2     O     0 {1,D}
+""",
+    product2 = 
+"""
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -531,6 +532,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:30 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 18:03:57 2011","jwallen","action","""Fixed reversed reactants and products."""),
     ],
 )
 
@@ -539,25 +541,25 @@ entry(
     label = "r00001370",
     reactant1 = 
 """
-1  *3 C     1 {2,D}
-2     O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,D}
 2  *2 H     0 {1,S}
 3     O     0 {1,D}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 O     1 {2,S}
 2     O     1 {1,S}
+""",
+    product1 = 
+"""
+1  *3 C     1 {2,D}
+2     O     0 {1,D}
+""",
+    product2 = 
+"""
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -574,6 +576,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:30 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 18:03:57 2011","jwallen","action","""Fixed reversed reactants and products."""),
     ],
 )
 
@@ -582,25 +585,25 @@ entry(
     label = "r00001370",
     reactant1 = 
 """
-1  *3 C     1 {2,D}
-2     O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,D}
 2  *2 H     0 {1,S}
 3     O     0 {1,D}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 O     1 {2,S}
 2     O     1 {1,S}
+""",
+    product1 = 
+"""
+1  *3 C     1 {2,D}
+2     O     0 {1,D}
+""",
+    product2 = 
+"""
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -618,6 +621,7 @@ entry(
     history = [
         ("Tue May 17 14:33:30 2011","jwallen","action","""jwallen added this entry to the database."""),
         ("Tue May 17 16:45:41 2011","jwallen","action","""Fixed a typo in the units of the preexponential factor."""),
+        ("Tue May 17 18:03:57 2011","jwallen","action","""Fixed reversed reactants and products."""),
     ],
 )
 
@@ -705,6 +709,7 @@ entry(
 """,
     history = [
         ("Tue May 17 14:33:30 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 18:03:57 2011","jwallen","action","""Fixed reversed reactants and products."""),
     ],
 )
 
