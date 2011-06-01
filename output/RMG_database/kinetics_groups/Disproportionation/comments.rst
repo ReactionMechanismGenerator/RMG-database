@@ -1,6 +1,16 @@
----
+-------
+General
+-------
+
+
+------
+485
+------
+
+
+------
 487
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review: i-C3H7 + O2 = HO2 + C3H6
 
@@ -18,10 +28,9 @@ MRH 30-Aug-2009
 Divide the rate constant by 12 to account for symmetry of 2 (O2) and 6 (i-C3H7, carbons #1 and 3).  The final result is 1.05833e+10 cm3/mol/s.
 JDM 31-Mar-2010
 
-
----
+------
 488
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH2(triplet) + i-C3H7 --> C3H6 + CH3
 
@@ -33,10 +42,9 @@ stating the main process should be combination, leading to chemically activated
 i-butyl radical.  Rate coefficient is estimate.
 MRH 30-Aug-2009
 
-
----
+------
 489
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  H + i-C3H7 --> C3H6 + H2
 
@@ -47,10 +55,9 @@ Entry 42,4 (a): No data available at the time.  Author recommends a rate coeffic
 expression equal to double the rate expression of H+C2H5=H2+C2H4.
 MRH 30-Aug-2009
 
-
----
+------
 490
----
+------
 [89] Tsang, W.; Hampson, R.F.; Journal of Physical and Chemical Reference Data (1986) 15(3), 1087-1279.
 Literature review.  H + C2H5 --> C2H4 + H2
 
@@ -61,10 +68,9 @@ Entry 17,4 (c): Author recommends rate coefficient from study performed by
 Camilleri, et al. (1974)
 MRH 30-Aug-2009
 
-
----
+------
 491
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH3 + i-C3H7 --> C3H6 + CH4
 
@@ -91,10 +97,9 @@ These are the values that now reside in the database.  The online NIST database
 (kinetics.nist.gov) agree with what I have calculated.
 MRH 30-Aug-2009
 
-
----
+------
 492
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H5 + i-C3H7 --> C3H6 + C2H6
 
@@ -107,10 +112,9 @@ the combination rxn is computed using the geometric mean rule and is reported as
 disproportionation to addition is that reported by Gibian and Corley (1973).
 MRH 30-Aug-2009
 
-
----
+------
 493
----
+------
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + iC3H7 --> C3H6 + C3H6
 
@@ -124,10 +128,9 @@ to-addition ratio of 0.2.  The addition rate expression was derived using the ge
 mean rule for the rxns C3H5+C3H5-->adduct and iC3H7+iC3H7-->adduct.
 MRH 31-Aug-2009
 
-
----
+------
 494
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH2OH + i-C3H7 --> C3H6 + CH3OH
 
@@ -138,10 +141,9 @@ Entry 42,39 (c): No data available at the time.  Author recommends a rate coeffi
 of 4.8x10^-12 based on the rate expression of i-C3H7+C2H5=C2H6+C3H6
 MRH 30-Aug-2009
 
-
----
+------
 495
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  i-C3H7 + i-C3H7 --> C3H6 + C3H8
 
@@ -153,10 +155,9 @@ expression for addition rxn to 4 sets of experimental data.  Recommended branchi
 ratio agrees well with most of the experimental data.
 MRH 30-Aug-2009
 
-
----
+------
 496
----
+------
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: t-C4H9 + i-C3H7 --> C3H6 + i-C4H10
 
@@ -169,10 +170,9 @@ disproportionation rate coefficient expression was then computed using the
 reported branching ratio.
 MRH 30-Aug-2009
 
-
----
+------
 497
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H3 + i-C3H7 --> C3H6 + C2H4
 
@@ -185,10 +185,9 @@ recommends the branching ratio of disproportionation to addition of the
 C2H5+i-C3H7 system for the C2H3+i-C3H7 system.
 MRH 30-Aug-2009
 
-
----
+------
 498
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H + i-C3H7 --> C3H6 + C2H2
 
@@ -199,10 +198,9 @@ Entry 42,21 (a): No data available at the time.  Author recommends a rate coeffi
 of 6x10^-12 cm3/molecule/s, a "typical" disproportionation rate.
 MRH 30-Aug-2009
 
-
----
+------
 499
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  OH + i-C3H7 --> C3H6 + H2O
 
@@ -213,10 +211,9 @@ Entry 42,6: No data available at the time.  Author notes that both a H-atom abst
 rxn and an addition + hot adduct decomposition rxn will result in the same products.
 MRH 30-Aug-2009
 
-
----
+------
 500
----
+------
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; Troe, J.; Walker, R.W.; Warnatz, J.; Journal of Physical and Chemical Reference Data (1992), 21(3), 411-734.
 pg.523: Discussion of evaluated data
 
@@ -226,10 +223,9 @@ MRH assumes the recommended value comes from a previous review article published
 by authors.  In any case, recommended data fits the reported data well.
 MRH 31-Aug-2009
 
-
----
+------
 501
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review: n-C3H7 + O2 = HO2 + C3H6
 
@@ -246,10 +242,9 @@ MRH 30-Aug-2009
 Divide the rate constant by 4 to account for symmetry of 2 (O2) and 2 (n-C3H7, carbon #2).  The final result is 2.25825e+10 cm3/mol/s.
 JDM 31-Mar-2010
 
-
----
+------
 502
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH2_triplet + n-C3H7 --> C3H6 + CH3
 
@@ -262,10 +257,9 @@ rate coefficient not exceed 10% of the combination rate.  Thus, the rate coeffic
 is an upper limit.
 MRH 30-Aug-2009
 
-
----
+------
 503
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  H + n-C3H7 --> C3H6 + H2
 
@@ -276,10 +270,9 @@ Entry 41,4 (a): No data available at the time.  Author recommends the rate coeff
 of the H+C2H5=C2H4+H2 rxn for the H+n-C3H7=C3H6+H2 rxn.
 MRH 30-Aug-2009
 
-
----
+------
 504
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH3 + n-C3H7 --> C3H6 + CH4
 
@@ -294,10 +287,9 @@ addition of 0.06 (which appears to MRH to be consistent with the experimentally
 measured branching ratios)
 MRH 30-Aug-2009
 
-
----
+------
 505
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H5 + n-C3H7 --> C3H6 + C2H6
 
@@ -312,10 +304,9 @@ addition of 0.073 (which is an average of the 2 experimentally determined
 branching ratios)
 MRH 30-Aug-2009
 
-
----
+------
 506
----
+------
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + nC3H7 --> C3H6 + C3H6
 
@@ -329,10 +320,9 @@ to-addition ratio of 0.07.  The addition rate expression was derived using the g
 mean rule for the rxns C3H5+C3H5-->adduct and nC3H7+nC3H7-->adduct.
 MRH 31-Aug-2009
 
-
----
+------
 507
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH2OH + n-C3H7 --> C3H6 + CH3OH
 
@@ -344,10 +334,9 @@ for the addition rxn to be similar to the rate for n-C3H7+n-C3H7=>adduct.  Autho
 also estimates the branching ratio of disproportionation to addition as 0.051
 MRH 30-Aug-2009
 
-
----
+------
 508
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  i-C3H7 + n-C3H7 --> C3H6 + C3H8
 
@@ -361,10 +350,9 @@ the branching ratio of disproportionation to addition reported by Gibian and
 Corley (1973).
 MRH 30-Aug-2009
 
-
----
+------
 509
----
+------
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: t-C4H9 + n-C3H7 --> C3H6 + i-C4H10
 
@@ -378,10 +366,9 @@ rate expression using the branching ratio; the branching ratio is from "analogou
 processes".
 MRH 30-Aug-2009
 
-
----
+------
 510
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H3 + n-C3H7 --> C3H6 + C2H4
 
@@ -392,10 +379,9 @@ Entry 41,19 (a): No data available at the time.  Author estimates the rate coeff
 based on the rxn C2H5+n-C3H7=C3H6=C2H6.
 MRH 30-Aug-2009
 
-
----
+------
 511
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H + n-C3H7 --> C3H6 + C2H2
 
@@ -407,10 +393,9 @@ than the rxn CH3+n-C3H7=C3H6+CH4 and suggests a rate coefficient 3x larger,
 namely 1.0x10^-11 cm3/molecule/s.
 MRH 30-Aug-2009
 
-
----
+------
 512
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  OH + n-C3H7 --> C3H6 + H2O
 
@@ -421,10 +406,9 @@ Entry 41,6 (a): No data available at the time.  Author estimates rate coefficien
 on the rate coefficient for OH+C2H5=C2H4+H2O, namely 4.0x10^-11 cm3/molecule/s.
 MRH 30-Aug-2009
 
-
----
+------
 513
----
+------
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: O2 + iC4H9 --> iC4H8 + HO2
 
@@ -439,10 +423,9 @@ MRH 31-Aug-2009
 Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (i-C4H9, carbon #2).  The final result is 1.2044e+10 cm3/mol/s.
 JDM 31-Mar-2010
 
-
----
+------
 514
----
+------
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: C2H + i-C4H9 --> i-C4H8 + C2H2
 
@@ -455,10 +438,9 @@ disproportionation to be 1x10^-11 cm3/molecule/s.
 
 MRH 30-Aug-2009
 
-
----
+------
 515
----
+------
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: H + i-C4H9 --> i-C4H8 + H2
 
@@ -472,10 +454,9 @@ The author also states that the branching ratio is pressure-dependent and suppli
 fall-off tables and collisional efficiencies.
 MRH 30-Aug-2009
 
-
----
+------
 516
----
+------
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: CH3 + i-C4H9 --> i-C4H8 + CH4
 
@@ -487,10 +468,9 @@ rate coefficient as half the rate of CH3+n-C3H7=C3H6+H2 (due to half as many H-a
 on the alpha-carbon).
 MRH 30-Aug-2009
 
-
----
+------
 517
----
+------
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: C2H5 + i-C4H9 --> i-C4H8 + C2H6
 
@@ -504,10 +484,9 @@ coefficient was computed using the disproportionation-to-combination ratio repor
 by Gibian and Corley (1973).
 MRH 30-Aug-2009
 
-
----
+------
 518
----
+------
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: CH2OH + i-C4H9 --> i-C4H8 + CH3OH
 
@@ -524,10 +503,9 @@ references and the online NIST database (kinetics.nist.gov).  I am therefore
 cutting the A in the RMG_database in two. ***
 MRH 30-Aug-2009
 
-
----
+------
 519
----
+------
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + iC4H9 --> iC4H8 + C3H6
 
@@ -540,10 +518,9 @@ to-addition ratio of 0.04.  The addition rate expression was derived using the g
 mean rule for the rxns C3H5+C3H5-->adduct and iC4H9+iC4H9-->adduct.
 MRH 31-Aug-2009
 
-
----
+------
 520
----
+------
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: i-C3H7 + i-C4H9 --> i-C4H8 + C3H8
 
@@ -559,10 +536,9 @@ not 0.58x10^-11 * (300/T)^0.35.  However, there may be a reason for the relative
 small discrepancy between the author's stated and implemented calculation. ***
 MRH 30-Aug-2009
 
-
----
+------
 521
----
+------
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: t-C4H9 + i-C4H9 --> i-C4H8 + i-C4H10
 
@@ -579,10 +555,9 @@ references and the online NIST database (kinetics.nist.gov).  I am therefore
 cutting the A in the RMG_database in two. ***
 MRH 30-Aug-2009
 
-
----
+------
 522
----
+------
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: C2H3 + i-C4H9 --> i-C4H8 + C2H4
 
@@ -593,10 +568,9 @@ Entry 45,19 (b): No data available at the time.  Author estimates the disproport
 coefficient based on the rate of C2H5+i-C4H9=i-C4H8+C2H6.
 MRH 30-Aug-2009
 
-
----
+------
 523
----
+------
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: OH + i-C4H9 --> i-C4H8 + H2O
 
@@ -608,10 +582,9 @@ coefficient as half the rate of OH+n-C3H7=C3H6+H2O (due to half as many H-atoms
 on the alpha-carbon).
 MRH 30-Aug-2009
 
-
----
+------
 524
----
+------
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: O2 + C3H5 --> H2C=C=CH2 + HO2
 
@@ -632,10 +605,9 @@ MRH 31-Aug-2009
 Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (allyl, carbon #2). The final result is 6.022e+11 cm3/mol/s, Ea = 13.55 kcal/mol.
 JDM 31-Mar-2010
 
-
----
+------
 525
----
+------
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: H + C3H5 --> H2C=C=CH2 + H2
 
@@ -646,10 +618,9 @@ Entry 47,4(c): No data available at the time.  Author assigns a rate coefficient
 3x10^-11 cm3/molecule/s for the disproportionation rxn.
 MRH 31-Aug-2009
 
-
----
+------
 526
----
+------
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: CH3 + C3H5 --> H2C=C=CH2 + CH4
 
@@ -669,10 +640,9 @@ combination rxn (1.68x10^-9 * T^-0.64) to obtain 1.69x10^-11 * T^-0.32 * exp(66/
 Multiplying by 0.03 results in the recommended rate coefficient expression.
 MRH 31-Aug-2009
 
-
----
+------
 527
----
+------
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C2H5 + C3H5 --> H2C=C=CH2 + C2H6
 
@@ -685,10 +655,9 @@ and the addition rate rule (C2H5+C3H5-->adduct) calculated using the geometric
 mean rule of the rxns C2H5+C2H5-->adduct and C3H5+C3H5-->adduct.
 MRH 31-Aug-2009
 
-
----
+------
 528
----
+------
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + C3H5 --> H2C=C=CH2 + C3H6
 
@@ -701,10 +670,9 @@ and the addition rate rule (C3H5+C3H5-->adduct) calculated based on the results
 of Tulloch et al.
 MRH 31-Aug-2009
 
-
----
+------
 529
----
+------
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: iC3H7 + C3H5 --> H2C=C=CH2 + C3H8
 
@@ -718,10 +686,9 @@ to-addition ratio of 0.04.  The addition rate expression was derived using the g
 mean rule for the rxns C3H5+C3H5-->adduct and iC3H7+iC3H7-->adduct.
 MRH 31-Aug-2009
 
-
----
+------
 530
----
+------
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: tC4H9 + C3H5 --> H2C=C=CH2 + iC4H10
 
@@ -735,10 +702,9 @@ to-addition ratio of 0.04.  The addition rate expression was derived using the g
 mean rule for the rxns C3H5+C3H5-->adduct and tC4H9+tC4H9-->adduct.
 MRH 31-Aug-2009
 
-
----
+------
 531
----
+------
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C2H3 + C3H5 --> H2C=C=CH2 + C2H4
 
@@ -749,10 +715,9 @@ Entry 47,19(d): No data available at the time.  Author recommends a rate coeffic
 of 4x10^-12 cm3/molecule/s for the disproportionation rxn.
 MRH 31-Aug-2009
 
-
----
+------
 532
----
+------
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: OH + C3H5 --> H2C=C=CH2 + H2O
 
@@ -763,10 +728,9 @@ Entry 47,6(a): No data available at the time.  Author recommends a rate coeffici
 of 1x10^-11 cm3/molecule/s, based on "comparable rxns".
 MRH 31-Aug-2009
 
-
----
+------
 533
----
+------
 [98] Atkinson, R.; Baulch, D.L.; Cox, R.A.; Crowley, J.N.; Hampson, R.F., Jr.; Kerr, J.A.; Rossi, M.J.; Troe, J. "Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry,", 2001.
 Literature review: CH3CHOH + O2 --> CH3CHO + HO2
 
@@ -778,10 +742,9 @@ MRH 31-Aug-2009
 Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH3CHOH, oxygen atom). The final result is 5.7209e+12 cm3/mol/s.
 JDM 31-Mar-2010
 
-
----
+------
 534
----
+------
 [98] Atkinson, R.; Baulch, D.L.; Cox, R.A.; Crowley, J.N.; Hampson, R.F., Jr.; Kerr, J.A.; Rossi, M.J.; Troe, J. "Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry,", 2001.
 Literature review: CH2OH + O2 --> CH2O + HO2
 
@@ -793,9 +756,9 @@ MRH 31-Aug-2009
 Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH2OH, oxygen atom). The final result is 2.92067e+12 cm3/mol/s.
 JDM 31-Mar-2010
 
----
+------
 535
----
+------
 [183] DeMore, W.B.; Sander, S.P.; Golden, D.M.; Hampson, R.F.; Kurylo, M.J.; Howard, C.J.; Ravishankara, A.R.; Kolb, C.E.; Molina, M.J.; JPL Publication 97-4
 Literature review: CH2OH + O2 --> CH2O + HO2
 
@@ -808,10 +771,9 @@ MRH 1-Sept-2009
 Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH2OH, oxygen atom). The final result is 2.74001e+12 cm3/mol/s.
 JDM 31-Mar-2010
 
-
----
+------
 536
----
+------
 [189] Grotheer, H.; Riekert, G.; Walter, D.; Just, T. Symp. Int. Combust. Proc. 1989, 22, 963.
 Absolute value measured directly. Excitation: discharge, analysis: mass spectroscopy. Original uncertainty 3.0E+13
 
@@ -825,10 +787,9 @@ pg.965-967: Discussion on measured rate coefficients.
 
 MRH 1-Sept-2009
 
-
----
+------
 537
----
+------
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: CH2 + CH2OH --> CH3 + CH2O
 
@@ -840,10 +801,9 @@ Author estimates the rate of disproportionation as 2.0x10^-12 cm3/molecule/s.  N
 
 MRH 30-Aug-2009
 
-
----
+------
 538
----
+------
 [190] Edelbuttel-Einhaus, J.; Hoyermann, K.; Rohde, G.; Seeba, J. Symp. Int. Combust. Proc. 1992, 22, 661.
 Data derived from fitting to a complex mechanism. Excitation: discharge, analysis: mass spectroscopy. Original uncertainty 1.0E+13
 
@@ -860,10 +820,9 @@ was calculated based on the rate coefficient of the rxn C2H5+H --> CH3+CH3; the
 value the authors used was 3.6x10^13 cm3/mol/s.
 MRH 1-Sept-2009
 
-
----
+------
 539
----
+------
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: H + CH2OH --> H2 + CH2O
 
@@ -876,10 +835,9 @@ Author estimates disproportionation rate will be faster than the H+C2H5=H2+C2H4 
 and reports rate coefficient as 1.0x10^-11 cm3/molecule/s.  No data at the time.
 MRH 30-Aug-2009
 
-
----
+------
 540
----
+------
 [191] Pagsberg, P.; Munk, J.; Sillesen, A.; Anastasi, C. Chem. Phys. Lett. 1988, 146, 375.
 Absolute value measured directly. Excitatio: electron beam, analysis: Vis-UV absorption.
 
@@ -897,10 +855,9 @@ nor do the authors address whether other channels besides -->CH4+CH2O exist / ar
 The value of A in the database is consistent with that reported in Table 2.
 MRH 1-Sept-2009
 
-
----
+------
 541
----
+------
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: CH3 + CH2OH --> CH4 + CH2O
 
@@ -913,10 +870,9 @@ Author estimates ratio of disproportionation rate to addition rate to be 0.2,
 namely 4x10^-12 cm3/molecule/s.  No data at the time.
 MRH 30-Aug-2009
 
-
----
+------
 542
----
+------
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: C2H5 + CH2OH --> C2H6 + CH2O
 
@@ -929,10 +885,9 @@ Author estimates the disproportionation rate coefficient as 4x10^-12 cm3/molecul
 No data at the time.
 MRH 30-Aug-2009
 
-
----
+------
 543
----
+------
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + CH2OH --> CH2O + C3H6
 
@@ -945,10 +900,9 @@ to form C3H6 + CH2O (same products).  The author therefore recommends a rate
 coefficient of 3x10^-11 cm3/molecule/s.
 MRH 31-Aug-2009
 
-
----
+------
 544
----
+------
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: CH2OH + CH2OH --> CH3OH + CH2O
 
@@ -968,10 +922,9 @@ MRH 30-Aug-2009
 
 *** NEED TO INVESTIGATE ***
 
-
----
+------
 545
----
+------
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review: CH2OH + i-C3H7 = C3H8 + CH2O
 
@@ -982,10 +935,9 @@ Entry 42,39 (b): No data available at the time.  Author suggests rate coefficien
 on rxn C2H5+i-C3H7=C3H8+C2H4, namely 3.9x10^-12 cm3/molecule/s
 MRH 30-Aug-2009
 
-
----
+------
 546
----
+------
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: t-C4H9 + CH2OH = CH2O + i-C4H10
 
@@ -1001,10 +953,9 @@ expression.
 the rate for the disproportionation rxn. ***
 MRH 30-Aug-2009
 
-
----
+------
 547
----
+------
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: CH2OH + C2H3 --> C2H4 + CH2O
 
@@ -1017,10 +968,9 @@ Author suggests a disproportionation rate coefficient near the collision limit, 
 to rxn's exothermicity.  No data available at the time.
 MRH 30-Aug-2009
 
-
----
+------
 548
----
+------
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: C2H + CH2OH --> C2H2 + CH2O
 
@@ -1033,10 +983,9 @@ Author suggest a disproportionation rate coefficient of 6.0x10^-11 cm3/molecule/
 to very exothermic rxn.  No data available at the time.
 MRH 30-Aug-2009
 
-
----
+------
 549
----
+------
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: HCO + CH2OH --> CH2O + CH2O
 
@@ -1049,10 +998,9 @@ Author estimates a disproportionation rate coefficient of 3x10^-11 cm3/molecule/
 No data available at the time.
 MRH 30-Aug-2009
 
-
----
+------
 550
----
+------
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: OH + CH2OH --> H2O + CH2O
 
@@ -1065,10 +1013,9 @@ Author estimates a disproportionation rate coefficient of 4x10^-11 cm3/molecule/
 No data available at the time.
 MRH 30-Aug-2009
 
-
----
+------
 551
----
+------
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: CH3O + CH2OH --> CH3OH + CH2O
 
@@ -1081,10 +1028,9 @@ Author estimates a disproportionation rate coefficient of 4x10^-11 cm3/molecule/
 No data available at the time.
 MRH 30-Aug-2009
 
-
----
+------
 552
----
+------
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: HO2 + CH2OH --> CH3OH + H2O2
 
@@ -1097,9 +1043,9 @@ Author recommends a disproportionation rate coefficient of 2x10^-11 cm3/molecule
 No data available at the time.
 MRH 30-Aug-2009
 
----
+------
 600
----
+------
 (Essentially) Pressure-independent rate coefficient for CH3CHOH + O2 = HO2 + CH3CHO [Zador2009]_.
 
 Authors computed the following PES:
@@ -1132,3 +1078,9 @@ This rate coefficient recommendation is up to 3x slower than the previous RMG-em
 .. [Zador2009] J. Zador, R.X. Fernandes, Y. Georgievskii, G. Meloni, C.A. Taatjes, J.A. Miller
 	"The reaction of hydroxyethyl radicals with O2: A theoretical analysis of experimental product study"
 	Proc. Combust. Inst. 32 (2009) 271-277
+
+------
+20001
+------
+
+

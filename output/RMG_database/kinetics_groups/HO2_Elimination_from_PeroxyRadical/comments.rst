@@ -1,15 +1,65 @@
-General comments go at the top of the file,
-
 -------
 General
 -------
+General comments go at the top of the file,
+
 or in a section(s) titled 'General'
 
 .. the ID must match those in the rateLibrary AS A STRING (ie. '2' is different from '02')
 
----
+------
+835
+------
+
+
+------
+836
+------
+
+
+------
+837
+------
+
+
+------
+838
+------
+
+
+------
+839
+------
+
+
+------
+840
+------
+
+
+------
+841
+------
+
+
+------
+842
+------
+
+
+------
+843
+------
+
+
+------
+844
+------
+
+
+------
 845
----
+------
 MRH CBS-QB3 calculations for the reaction CH3-CH(OO)-CH=CH2 => CH2=CH-CH=CH2 + HO2
 
 Previous RMG estimate for this reaction was an "Average of average" estimate.  This reaction was of
@@ -28,9 +78,9 @@ The k(T) was calculated from 600 - 2000 K, in 200 K intervals, and the fitted Ar
 k(T) = 2.476e+06 * (T/1K)^1.829 * exp(-24.247 kcal/mol / RT) cm3/mol/s.  MRH divided this rate coefficient by
 three to account for the reaction path degeneracy, yielding the value stored in the rateLibrary.
 
----
+------
 846
----
+------
 MRH approximation for the general R2OO_2H_HDe node
 
 MRH computed the rate coefficient for the reaction CH3-CH(OO)-CH=CH2 => CH2=CH-CH=CH2 + HO2 (see node 845).
@@ -38,3 +88,4 @@ The difference between the R2OO_2H_HDe and CH3CH(OO)CHCH2 nodes is defining the 
 case of the CH3CH(OO)CHCH2 node, the -CH=CH2 functional group).  MRH thinks using the kinetics for node 845
 in the event node 846 is hit is reasonable, considering this part of the molecule does not play a role in the
 TS (and it is certainly better than leaving RMG to estimate via "Average of Average").
+

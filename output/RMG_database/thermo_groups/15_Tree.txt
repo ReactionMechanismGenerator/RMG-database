@@ -1,5 +1,11 @@
-L0: CsOs
-L1: Cs(Cs(CsCsCs)Cs(CsCsR)RR) //S(QT)
- L2: Cs(Cs(CsCsCs)Cs(CsCsCs)RR) //S(QQ)
-L1: Os(Cs(CsCsCs)Cs(CsCsR)) //S(QT)
- L2: Os(Cs(CsCsCs)Cs(CsCsCs)) //S(QQ)
+////////////////////////////////////////////////////////////////////////////////
+//
+//  1,5-Interaction Corrections tree
+//
+////////////////////////////////////////////////////////////////////////////////
+
+L1: CsOs
+    L2: Cs(Cs(CsCsCs)Cs(CsCsR)RR)
+        L3: Cs(Cs(CsCsCs)Cs(CsCsCs)RR)
+    L2: Os(Cs(CsCsCs)Cs(CsCsR))
+        L3: Os(Cs(CsCsCs)Cs(CsCsCs))

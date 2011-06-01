@@ -1,7 +1,16 @@
+-------
+General
+-------
 
----
+
+------
+416
+------
+
+
+------
 417
----
+------
 [102] Arai, H.; Nagai, S.; Hatada, M.; Radiat. Phys. Chem. 1981, 17, 211.
 CO + H --> HCO. Data estimated
 
@@ -53,10 +62,9 @@ reported by Sepehrad et al., they estimate a value of k2.
 (176C, 1.23x10^-16 cm3/molecule/s). ***
 MRH 1-Sept-2009
 
-
----
+------
 418
----
+------
 [103] Gordon, E.B.; Ivanov, B.I; Perminov, A.P; Balalaev, V.E. Chem. Phys. 1978, 35, 79.
 CO + H --> HCO.
 
@@ -78,9 +86,9 @@ coefficients reported are LOWER LIMITS.  The discussion appears to suggest that
 the authors suspect oxygen contamination; they further note that the reaction between
 H-atom and O2 is 10^4 times faster than the H+CO-->HCO rxn. ***
 
----
+------
 419
----
+------
 [94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
@@ -100,10 +108,9 @@ coefficient comes from the preferred (from this reference) rxn rate and the equi
 constant (from Bencsura et al.)
 MRH 31-Aug-2009
 
-
----
+------
 420
----
+------
 [89] Tsang, W.; Hampson, R.F. J.Phys. Chem. Ref. Data 1986, 15, 1087.
 CO + C2H5 --> C2H5CO.
 
@@ -121,10 +128,9 @@ Fall-off corrections and collision efficiencies are also available
 (although we do not store them in RMG_database)
 MRH 28-Aug-2009
 
-
----
+------
 421
----
+------
 [89] Tsang, W.; Hampson, R.F. J.Phys. Chem. Ref. Data 1986, 15, 1087.
 CO + C2H3 --> CH2=CHCO.
 
@@ -144,10 +150,9 @@ Fall-off corrections and collision efficiencies are also available
 (although we do not store them in RMG_database).
 MRH 28-Aug-2009
 
-
----
+------
 422
----
+------
 [104] Nam, G.-J.; Xia, W.; Park, J.; Lin, M. Phys. Chem. A 2000, 104, 1233.	
 Phenyl + CO --> Benzoyl. Original deltaA = 2.8E+11
 
@@ -211,12 +216,11 @@ k1_inf = 10^12.17+/-0.18 * exp[(-1676+/-149)/T] cm3/mole/s
 *** NOTE: RMG database was storing reported k1 value.  MRH has changed this so that RMG
 
 now stores the k1_inf value. ***
-MRH 1-Sept-2009		
+MRH 1-Sept-2009
 
-
----
+------
 423
----
+------
 [105] Wang, B.; Hou, H.; Gu, Y. Phys. Chem. A 1999, 103, 8021.
 RRK(M) extrapolation. CH3O + CO --> CH3OCO, 250K and 2500K
 
@@ -230,3 +234,4 @@ Plotting ln(k) vs. 1000/T[=K] and performing a "Linear" regression in Microsoft 
 in "y = -1.502x - 37.412" with an R^2 value of 1.  The A and Ea values calculated
 by MRH are thus: A=3.40x10^7 cm3/mol/s, Ea=2.98 kcal/mol, in agreement w/database.
 MRH 1-Sept-2009
+
