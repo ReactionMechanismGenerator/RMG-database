@@ -289,7 +289,7 @@ def generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmod
     """
     for t, T in enumerate(Tdata):
         ci = math.log10(groups.top[0].data.kdata.uncertainties[t])
-        generatePlot(T, kdata_training[:,t], kmodel_training[:,t], kdata_test[:,t], kmodel_test[:,t], ci, trainingSet, testSet, family)
+        generateParityPlot(T, kdata_training[:,t], kmodel_training[:,t], kdata_test[:,t], kmodel_test[:,t], ci, trainingSet, testSet, family)
 
 ################################################################################
 
