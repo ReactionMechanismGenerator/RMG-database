@@ -23,39 +23,6 @@ temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (even
 """
 
 entry(
-    index = 0,
-    label = "X_H_or_Xrad_H;Y_rad_birad",
-    group1 = "OR{X_H, Xrad_H}",
-    group2 = "OR{Y_1centerbirad, Y_rad}",
-    kinetics = ArrheniusEP(
-        A = (100000,"cm^3/(mol*s)"),
-        n = 0,
-        alpha = 0,
-        E0 = (10,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 0,
-    shortDesc = """Default""",
-    longDesc = 
-"""
-If a biradical CH2JJ can abstract from RCH4 to make RCH3J and CH3J 
-then a Y_rad CH3J should be able to abstract from RCH3J which means X_H needs 
-to include Xrad_H. I.e. you can abstract from a radical. To make this possible
-a head node has been created X_H_or_Xrad_H which is a union of X_H and Xrad_H.
-The kinetics for it have just been copied from X_H and are only defined for 
-abstraction by Y_rad_birad. I.e. the top level very approximate guess.
-
-Do better kinetics for this exist? Do we in fact use the reverse kinetics anyway?
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 1,
     label = "X_H;Y_rad_birad",
     group1 = 
