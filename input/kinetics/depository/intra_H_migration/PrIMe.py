@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
 name = "intra_H_migration"
 shortDesc = ""
 longDesc = """
