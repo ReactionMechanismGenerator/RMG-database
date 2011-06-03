@@ -9478,9 +9478,9 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.28e+27,"s^-1"),
+        A = (10**61.5,"s^-1"),
         n = -13.9,
-        Ea = (256917,"J/mol"),
+        Ea = (61.4,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Braun-Unkhoff, M.", "Frank, P.", "Just, Th."], title=u'A shock tube study on the thermal decomposition of toluene and of the phenyl radical at high temperatures', journal="Symp. Int. Combust. Proc.", volume="22", pages="""1053""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
@@ -9492,6 +9492,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 14:55:12 2011","jwallen","action","""Fixed incorrect values of the kinetic parameters."""),
     ],
 )
 
@@ -16021,9 +16022,9 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.69e+26,"s^-1"),
+        A = (10**62.6,"s^-1"),
         n = -14.7,
-        Ea = (240288,"J/mol"),
+        Ea = (57.5,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Braun-Unkhoff, M.", "Frank, P.", "Just, Th."], title=u'A shock tube study on the thermal decomposition of toluene and of the phenyl radical at high temperatures', journal="Symp. Int. Combust. Proc.", volume="22", pages="""1053""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -16035,6 +16036,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 14:55:12 2011","jwallen","action","""Fixed incorrect values of the kinetic parameters."""),
     ],
 )
 
@@ -16109,9 +16111,9 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.8e+24,"s^-1"),
+        A = (10**58.4,"s^-1"),
         n = -13.8,
-        Ea = (208693,"J/mol"),
+        Ea = (49.8,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Braun-Unkhoff, M.", "Frank, P.", "Just, Th."], title=u'A shock tube study on the thermal decomposition of toluene and of the phenyl radical at high temperatures', journal="Symp. Int. Combust. Proc.", volume="22", pages="""1053""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -16123,6 +16125,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 14:55:12 2011","jwallen","action","""Fixed incorrect values of the kinetic parameters."""),
     ],
 )
 
