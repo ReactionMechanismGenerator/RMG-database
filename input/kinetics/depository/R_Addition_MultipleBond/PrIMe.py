@@ -1163,7 +1163,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (9.6e-13,"cm^3/(mol*s)"),
+        A = (9.6e-13,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (23870.8,"J/mol"),
         T0 = (1,"K"),
@@ -1177,6 +1177,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:33:38 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","jwallen","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -1206,7 +1207,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.81e-12,"cm^3/(mol*s)"),
+        A = (1.81e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (13028.8,"J/mol"),
         T0 = (1,"K"),
@@ -1220,6 +1221,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:33:38 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","jwallen","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -1249,7 +1251,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.25e-11,"cm^3/(mol*s)"),
+        A = (2.25e-11,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-2103.56,"J/mol"),
         T0 = (1,"K"),
@@ -1263,6 +1265,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:33:38 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","jwallen","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -1292,7 +1295,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.39e-12,"cm^3/(mol*s)"),
+        A = (2.39e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-5620.58,"J/mol"),
         T0 = (1,"K"),
@@ -1306,6 +1309,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:33:38 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","jwallen","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -1767,7 +1771,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (2.19e-20,"cm^3/(mol*s)"),
+        A = (2.19e-20,"cm^3/(molecule*s)"),
         n = 2.64,
         Ea = (256.926,"J/mol"),
         T0 = (1,"K"),
@@ -1781,6 +1785,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","jwallen","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -1816,7 +1821,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (2.97e-20,"cm^3/(mol*s)"),
+        A = (2.97e-20,"cm^3/(molecule*s)"),
         n = 2.53,
         Ea = (196.949,"J/mol"),
         T0 = (1,"K"),
@@ -1830,6 +1835,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","jwallen","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -2675,7 +2681,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (4.57e-11,"cm^3/(mol*s)"),
+        A = (4.57e-11,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-6061.25,"J/mol"),
         T0 = (1,"K"),
@@ -2689,6 +2695,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:27 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","jwallen","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -3781,7 +3788,7 @@ entry(
         A = (9.46e+19,"s^-1"),
         n = -9.54,
         Ea = (213682,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (298,"K"),
     ),
     reference = Article(authors=["Bozzelli, J.W.", "Dean, A.M."], title=u'Chemical activation analysis of the reaction of C_2H_5 with O_2', journal="J. Phys. Chem.", volume="94", pages="""3313""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000027.xml"),
     referenceType = "",
@@ -3792,6 +3799,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","jwallen","action","""Fixed incorrect value for T0."""),
     ],
 )
 
@@ -5944,7 +5952,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.41e-29,"cm^3/(mol*s)"),
+        A = (1.41e-29,"cm^3/(molecule*s)"),
         n = 4.98,
         Ea = (18.5053,"J/mol"),
         T0 = (1,"K"),
@@ -5958,6 +5966,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","jwallen","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -7301,7 +7310,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (3.99e-20,"cm^3/(mol*s)"),
+        A = (3.99e-20,"cm^3/(molecule*s)"),
         n = 2.57,
         Ea = (22.8012,"J/mol"),
         T0 = (1,"K"),
@@ -7315,6 +7324,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:45 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","jwallen","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
