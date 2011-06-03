@@ -8485,7 +8485,7 @@ entry(
 
 entry(
     index = 827,
-    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_H/(CCCOOH)",
+    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_H/NonDeC",
     group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
     group2 = 
 """
@@ -8495,12 +8495,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {4,S} {6,S}
-6     Os 0 {5,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (4.07e+09,"s^-1"),
@@ -8531,7 +8529,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 828,
-    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/(CCCOOH)",
+    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
     group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
     group2 = 
 """
@@ -8541,12 +8539,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {4,S} {6,S}
-6     Os 0 {5,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.7e+08,"s^-1"),
@@ -8577,17 +8573,15 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 829,
-    label = "Others-R2H_S;Others-C_rad_out_Cs2;Cs_H_out_H/(CCCOOH)",
+    label = "Others-R2H_S;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
     group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {4,S} {6,S}
-6     Os 0 {5,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.56e+07,"s^-1"),
@@ -8618,7 +8612,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 830,
-    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_H/((C/C)CCOOH)",
+    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_H/NonDeC",
     group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
     group2 = 
 """
@@ -8628,13 +8622,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {7,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {4,S} {6,S}
-6     Os 0 {5,S}
-7     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.83e+11,"s^-1"),
@@ -8665,7 +8656,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 831,
-    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/((C/C)CCOOH)",
+    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
     group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
     group2 = 
 """
@@ -8675,13 +8666,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {7,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {4,S} {6,S}
-6     Os 0 {5,S}
-7     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.89e+10,"s^-1"),
@@ -8712,7 +8700,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 832,
-    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_H/(CCOOH)",
+    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_H/NonDeC",
     group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
     group2 = 
 """
@@ -8722,11 +8710,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Os 0 {4,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (5.87e+08,"s^-1"),
@@ -8757,7 +8744,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 833,
-    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/(CCOOH)",
+    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
     group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
     group2 = 
 """
@@ -8767,11 +8754,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Os 0 {4,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.75e+08,"s^-1"),
@@ -8802,16 +8788,15 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 834,
-    label = "Others-R2H_S;Others-C_rad_out_Cs2;Cs_H_out_H/(CCOOH)",
+    label = "Others-R2H_S;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
     group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Os 0 {4,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.14e+08,"s^-1"),
@@ -8842,7 +8827,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 835,
-    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_H/((C/C)COOH)",
+    label = "Others-R2H_S;C_rad_out_2H;Cs_H_out_H/NonDeC",
     group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
     group2 = 
 """
@@ -8852,12 +8837,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {6,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Os 0 {4,S}
-6     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (4.28e+09,"s^-1"),
@@ -8888,7 +8871,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 836,
-    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/((C/C)COOH)",
+    label = "Others-R2H_S;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
     group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
     group2 = 
 """
@@ -8898,12 +8881,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {6,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Os 0 {4,S}
-6     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.53e+10,"s^-1"),
@@ -8934,17 +8915,15 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 837,
-    label = "Others-R2H_S;Others-C_rad_out_Cs2;Cs_H_out_H/((C/C)COOH)",
+    label = "Others-R2H_S;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = "AND{R2H_S, NOT OR{R2H_S, R2H_S_cy3, R2H_S_cy4, R2H_S_cy5}}",
     group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {6,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Os 0 {4,S}
-6     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.24e+09,"s^-1"),
@@ -8975,7 +8954,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 838,
-    label = "Others-R3H_SS;C_rad_out_2H;Cs_H_out_H/(CCOOH)",
+    label = "Others-R3H_SS;C_rad_out_2H;Cs_H_out_H/NonDeC",
     group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
     group2 = 
 """
@@ -8985,11 +8964,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Os 0 {4,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.02e+08,"s^-1"),
@@ -9020,7 +8998,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 839,
-    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_H/(CCOOH)",
+    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
     group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
     group2 = 
 """
@@ -9030,11 +9008,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Os 0 {4,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.63e+07,"s^-1"),
@@ -9065,16 +9042,15 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 840,
-    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cs_H_out_H/(CCOOH)",
+    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
     group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Os 0 {4,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (313000,"s^-1"),
@@ -9105,7 +9081,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 841,
-    label = "Others-R3H_SS;C_rad_out_2H;Cs_H_out_H/((C/C)COOH)",
+    label = "Others-R3H_SS;C_rad_out_2H;Cs_H_out_H/NonDeC",
     group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
     group2 = 
 """
@@ -9115,12 +9091,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {6,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Os 0 {4,S}
-6     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.95e+09,"s^-1"),
@@ -9151,7 +9125,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 842,
-    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_H/((C/C)COOH)",
+    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
     group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
     group2 = 
 """
@@ -9161,12 +9135,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {6,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Os 0 {4,S}
-6     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.53e+10,"s^-1"),
@@ -9197,17 +9169,15 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 843,
-    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cs_H_out_H/((C/C)COOH)",
+    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
     group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {6,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Cs 0 {1,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Os 0 {4,S}
-6     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (4.44e+09,"s^-1"),
@@ -9238,7 +9208,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 844,
-    label = "Others-R3H_SS;C_rad_out_2H;Cs_H_out_H/(COOH)",
+    label = "Others-R3H_SS;C_rad_out_2H;Cs_H_out_H/NonDeC",
     group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
     group2 = 
 """
@@ -9248,10 +9218,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Os 0 {1,S} {4,S}
-4     Os 0 {3,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.51e+08,"s^-1"),
@@ -9282,7 +9252,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 845,
-    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_H/(COOH)",
+    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
     group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
     group2 = 
 """
@@ -9292,10 +9262,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Os 0 {1,S} {4,S}
-4     Os 0 {3,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.37e+07,"s^-1"),
@@ -9324,15 +9294,15 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 846,
-    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cs_H_out_H/(COOH)",
+    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
     group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Os 0 {1,S} {4,S}
-4     Os 0 {3,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (4.08e+06,"s^-1"),
@@ -9361,7 +9331,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 847,
-    label = "Others-R3H_SS;C_rad_out_2H;Cs_H_out_H/((C/C)OOH)",
+    label = "Others-R3H_SS;C_rad_out_2H;Cs_H_out_H/NonDeC",
     group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
     group2 = 
 """
@@ -9371,11 +9341,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {5,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Os 0 {1,S} {4,S}
-4     Os 0 {3,S}
-5     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (4.69e+09,"s^-1"),
@@ -9404,7 +9373,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 848,
-    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_H/((C/C)OOH)",
+    label = "Others-R3H_SS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
     group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
     group2 = 
 """
@@ -9414,11 +9383,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {5,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Os 0 {1,S} {4,S}
-4     Os 0 {3,S}
-5     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (5.18e+08,"s^-1"),
@@ -9447,16 +9415,15 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 849,
-    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cs_H_out_H/((C/C)OOH)",
+    label = "Others-R3H_SS;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = "AND{R3H_SS, NOT OR{R3H_SS_12cy3, R3H_SS_23cy3, R3H_SS_12cy4, R3H_SS_23cy4, R3H_SS_13cy4, R3H_SS_12cy5, R3H_SS_23cy5, R3H_SS_13cy5, R3H_SS_2Cd, R3H_SS_OC}}",
     group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {5,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Os 0 {1,S} {4,S}
-4     Os 0 {3,S}
-5     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.07e+07,"s^-1"),
@@ -10433,7 +10400,7 @@ The number appearing in the database has been divided by two to account for the 
 
 entry(
     index = 8441,
-    label = "R4H_SSS;C_rad_out_2H;Cs_H_out_H/(COOH)",
+    label = "R4H_SSS;C_rad_out_2H;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1  *1 R!H 1 {2,S}
@@ -10450,10 +10417,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Os 0 {1,S} {4,S}
-4     Os 0 {3,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (8.73e+06,"s^-1"),
@@ -10482,7 +10449,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 8451,
-    label = "R4H_SSS;C_rad_out_H/NonDeC;Cs_H_out_H/(COOH)",
+    label = "R4H_SSS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1  *1 R!H 1 {2,S}
@@ -10499,10 +10466,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Os 0 {1,S} {4,S}
-4     Os 0 {3,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (695000,"s^-1"),
@@ -10531,7 +10498,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 8461,
-    label = "R4H_SSS;Others-C_rad_out_Cs2;Cs_H_out_H/(COOH)",
+    label = "R4H_SSS;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1  *1 R!H 1 {2,S}
@@ -10543,10 +10510,10 @@ entry(
     group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Os 0 {1,S} {4,S}
-4     Os 0 {3,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (17400,"s^-1"),
@@ -10575,7 +10542,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 8471,
-    label = "R4H_SSS;C_rad_out_2H;Cs_H_out_H/((C/C)OOH)",
+    label = "R4H_SSS;C_rad_out_2H;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1  *1 R!H 1 {2,S}
@@ -10592,11 +10559,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {5,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Os 0 {1,S} {4,S}
-4     Os 0 {3,S}
-5     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.09e+09,"s^-1"),
@@ -10625,7 +10591,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 8481,
-    label = "R4H_SSS;C_rad_out_H/NonDeC;Cs_H_out_H/((C/C)OOH)",
+    label = "R4H_SSS;C_rad_out_H/NonDeC;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1  *1 R!H 1 {2,S}
@@ -10642,11 +10608,10 @@ entry(
 """,
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {5,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Os 0 {1,S} {4,S}
-4     Os 0 {3,S}
-5     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (7.86e+07,"s^-1"),
@@ -10675,7 +10640,7 @@ Unfortunately it was not clear what they were intended to mean because many of t
 
 entry(
     index = 8491,
-    label = "R4H_SSS;Others-C_rad_out_Cs2;Cs_H_out_H/((C/C)OOH)",
+    label = "R4H_SSS;Others-C_rad_out_Cs2;Cs_H_out_H/NonDeC",
     group1 = 
 """
 1  *1 R!H 1 {2,S}
@@ -10687,11 +10652,10 @@ entry(
     group2 = "AND{C_rad_out_Cs2, NOT OR{C_rad_out_Cs2_cy3, C_rad_out_Cs2_cy4, C_rad_out_Cs2_cy5}}",
     group3 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {5,S}
+1  *2 Cs 0 {2,S} {3,S} {4,S}
 2  *3 H 0 {1,S}
-3     Os 0 {1,S} {4,S}
-4     Os 0 {3,S}
-5     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.05e+06,"s^-1"),
