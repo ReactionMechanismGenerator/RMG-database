@@ -13690,7 +13690,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.35e+14,"s^-1"),
         n = 0.34,
-        Ea = (755.247,"J/mol"),
+        Ea = (45.71,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Tokmakov, I.V.", "Lin, M.C."], title=u'Reaction of phenyl radicals with acetylene: Quantum chemical investigation of the mechanism and master equation analysis of the kinetics', journal="J. Am. Chem. Soc.", volume="125", pages="""11397-11408""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -13737,7 +13737,7 @@ entry(
     kinetics = Arrhenius(
         A = (2.69e+06,"cm^3/(mol*s)"),
         n = 2.05,
-        Ea = (61.464,"J/mol"),
+        Ea = (3.72,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Tokmakov, I.V.", "Lin, M.C."], title=u'Reaction of phenyl radicals with acetylene: Quantum chemical investigation of the mechanism and master equation analysis of the kinetics', journal="J. Am. Chem. Soc.", volume="125", pages="""11397-11408""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
@@ -13786,7 +13786,7 @@ entry(
     kinetics = Arrhenius(
         A = (3.8e+11,"s^-1"),
         n = 0.82,
-        Ea = (642.893,"J/mol"),
+        Ea = (38.91,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Tokmakov, I.V.", "Lin, M.C."], title=u'Reaction of phenyl radicals with acetylene: Quantum chemical investigation of the mechanism and master equation analysis of the kinetics', journal="J. Am. Chem. Soc.", volume="125", pages="""11397-11408""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
