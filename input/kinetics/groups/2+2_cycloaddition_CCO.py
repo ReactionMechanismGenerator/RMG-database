@@ -25,7 +25,7 @@ entry(
 2  *2 Cdd 0 {1,D} {3,D}
 3     Od 0 {2,D}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([9.79e-28,8.97663e-20,5.37665e-15,8.23084e-12,7.88152e-08,1.9289e-05,0.0295285,1.15533],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -35,6 +35,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:15:48 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 

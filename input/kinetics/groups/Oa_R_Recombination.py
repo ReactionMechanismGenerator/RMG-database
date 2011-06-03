@@ -22,7 +22,7 @@ entry(
 """
 1  *1 R 1
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([1e+07,1e+07,1e+07,1e+07,1e+07,1e+07,1e+07,1e+07],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -32,6 +32,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:21:58 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 

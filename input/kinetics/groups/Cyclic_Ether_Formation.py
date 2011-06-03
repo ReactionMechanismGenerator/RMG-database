@@ -20,7 +20,7 @@ entry(
     index = 1,
     label = "RnOOH",
     group = "OR{R2OOH, R3OOH, R4OOH, R5OOH}",
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([9.38459e-07,0.0188259,7.18059,377.656,53489.2,1.04464e+06,5.4942e+07,3.98449e+08],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -30,6 +30,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:21:56 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -64,7 +65,7 @@ entry(
 4  *3 O 0 {3,S} {5,S}
 5     H 0 {4,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([2.04278e-06,9.90328e-05,0.00101651,0.00480105,0.0334283,0.107098,0.50583,1.0993],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -74,6 +75,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:21:56 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -88,7 +90,7 @@ entry(
 4  *3 O 0 {3,S} {5,S}
 5     H 0 {4,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([2.04278e-06,9.90328e-05,0.00101651,0.00480105,0.0334283,0.107098,0.50583,1.0993],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -98,6 +100,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:21:56 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -137,7 +140,7 @@ entry(
 5  *3 O 0 {4,S} {6,S}
 6     H 0 {5,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([3.75704e-07,1.64324e-05,0.000158567,0.000718712,0.00475316,0.0147652,0.0669238,0.142479],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -147,6 +150,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:21:56 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -162,7 +166,7 @@ entry(
 5  *3 O 0 {4,S} {6,S}
 6     H 0 {5,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([3.75704e-07,1.64324e-05,0.000158567,0.000718712,0.00475316,0.0147652,0.0669238,0.142479],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -172,6 +176,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:21:56 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -238,7 +243,7 @@ entry(
 6  *3 O 0 {5,S} {7,S}
 7     H 0 {6,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([5.0147e+08,2.12723e+06,80233.7,9023.7,587.719,114.141,12.8371,4.30509],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -248,6 +253,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:21:56 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -264,7 +270,7 @@ entry(
 6  *3 O 0 {5,S} {7,S}
 7     H 0 {6,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([5.0147e+08,2.12723e+06,80233.7,9023.7,587.719,114.141,12.8371,4.30509],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -274,6 +280,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:21:56 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -395,7 +402,7 @@ entry(
 7  *3 O 0 {6,S} {8,S}
 8     H 0 {7,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([8.1172e+13,7.99971e+09,3.157e+07,788392,7826.66,491.674,12.2785,1.94034],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -405,6 +412,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:21:56 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -422,7 +430,7 @@ entry(
 7  *3 O 0 {6,S} {8,S}
 8     H 0 {7,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([8.1172e+13,7.99971e+09,3.157e+07,788392,7826.66,491.674,12.2785,1.94034],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -432,6 +440,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:21:56 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -761,7 +770,7 @@ entry(
 3     R 0 {1,S}
 4     R 0 {1,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.562582,0.651336,0.711174,0.754091,0.811396,0.847849,0.899013,0.925741],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -771,6 +780,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:21:56 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -784,7 +794,7 @@ entry(
 3     H 0 {1,S}
 4  *4 C 0 {1,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.000384873,0.00342462,0.0127113,0.0304724,0.0908979,0.175123,0.419817,0.650008],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -794,6 +804,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:21:56 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -807,7 +818,7 @@ entry(
 3  *4 C 0 {1,S}
 4     R!H 0 {1,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.00050751,0.00351128,0.0112067,0.0242934,0.0638997,0.114158,0.247465,0.364349],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -817,6 +828,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:21:56 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -899,7 +911,7 @@ entry(
 3     R!H 0 {1,S}
 4     R!H 0 {1,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.00160862,0.00902434,0.0253976,0.0506264,0.119911,0.201162,0.400987,0.566138],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -909,6 +921,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:21:56 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 

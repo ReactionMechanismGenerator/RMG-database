@@ -24,7 +24,7 @@ entry(
 1  *1 CO 0 {2,D}
 2  *2 Od 0 {1,D}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([3.88928e-44,2.86127e-32,4.18364e-25,2.67973e-20,3.08655e-14,1.48349e-10,1.50123e-05,0.00568388],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -34,6 +34,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:17:26 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -204,7 +205,7 @@ entry(
 5     H 0 {4,S}
 6     H 0 {4,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([3.41215e-06,6.83096e-05,0.000426921,0.00148212,0.00731624,0.019739,0.0798121,0.170077],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -214,6 +215,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:17:26 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -225,7 +227,7 @@ entry(
 1  *3 CO 0 {2,D}
 2  *4 Od 0 {1,D}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([6.30294e-09,5.64576e-07,8.82107e-06,5.70589e-05,0.000625794,0.00277324,0.0225477,0.0701404],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -235,6 +237,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:17:26 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -248,7 +251,7 @@ entry(
 3     H 0 {1,S}
 4     H 0 {1,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([6.30294e-09,5.64576e-07,8.82107e-06,5.70589e-05,0.000625794,0.00277324,0.0225477,0.0701404],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -258,6 +261,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:17:26 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 

@@ -21,7 +21,7 @@ entry(
     index = 1,
     label = "Y_birad",
     group = "OR{Y_biCyc3, Y_biCyc4, Y_biCyc5, Y_biCyc6, Y_biCyc7}",
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([4.48463e+06,2.63766e+08,3.19786e+09,1.74527e+10,1.54553e+11,6.01663e+11,4.10455e+12,1.16712e+13],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -31,6 +31,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:17:26 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -86,7 +87,7 @@ entry(
 3  *3 R!H 1 {2,{S,D}}
 4  *4 H 0 {2,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.454582,0.553617,0.623114,0.674227,0.744054,0.789376,0.854127,0.888468],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -96,6 +97,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:17:26 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -110,7 +112,7 @@ entry(
 4  *4 H 0 {2,S}
 5     R!H 0 {1,{S,D,B,T}} {2,{S,D,B}}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([5.05732e-06,0.000106645,0.000664282,0.00224885,0.0103269,0.0257737,0.0872538,0.160542],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -120,6 +122,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:17:26 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -127,7 +130,7 @@ entry(
     index = 6,
     label = "Y_biCyc5",
     group = "OR{Y_biCyc5radEndo, Y_biCyc5radExo}",
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([8.55972,5.00432,3.6264,2.9257,2.23703,1.90431,1.53636,1.37997],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -137,6 +140,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:17:26 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -144,7 +148,7 @@ entry(
     index = 7,
     label = "Y_biCyc6",
     group = "OR{Y_biCyc6radEndo, Y_biCyc6radExo}",
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([5936.73,676.333,183.708,77.0502,26.0064,13.5539,5.68473,3.68156],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -154,6 +158,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:17:26 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
@@ -161,7 +166,7 @@ entry(
     index = 8,
     label = "Y_biCyc7",
     group = "OR{Y_biCyc7radEndo, Y_biCyc7radExo}",
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([8.55972,5.00432,3.6264,2.9257,2.23703,1.90431,1.53636,1.37997],"s^-1")),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -171,6 +176,7 @@ u"""
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Fri Jun  3 13:17:26 2011","jwallen","action","""jwallen generated new group additivity values for this entry."""),
     ],
 )
 
