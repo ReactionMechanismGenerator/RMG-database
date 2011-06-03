@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "2+2_cycloaddition_CO/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 General comments go at the top of the file,
 
 or in a section(s) titled 'General'
@@ -31,9 +31,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -71,9 +71,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """MRH CBS-QB3 calculations with 1d h.r. corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations with 1d h.r. corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations for the reverse of the reaction sequence *CH2-cycle(CH-CH2-O-O) => *CH2-O-O-CH=CH2 ==> CH2O + CH2CHO
 
 Previous RMG estimate for this reaction was an "Average of average" estimate, in addition to RMG needing

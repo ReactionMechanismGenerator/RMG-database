@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Diels_alder_addition/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -32,9 +32,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """default""",
+    shortDesc = u"""default""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -83,9 +83,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Huybrechts et al. [198]""",
+    shortDesc = u"""Huybrechts et al. [198]""",
     longDesc = 
-"""
+u"""
 [198] Huybrechts, G.; Luyckx, L.; Vandenboom, T.; Van Mele, B. Int. J. Chem. Kinet. 1977, 9, 283.
 (E)-CH2=CHCH=CH2 + (E)-CH2=CHCH=CH2 --> 4-vinylcyclohexene
 
@@ -137,9 +137,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Huybrechts et al. [198]""",
+    shortDesc = u"""Huybrechts et al. [198]""",
     longDesc = 
-"""
+u"""
 [198] Huybrechts, G.; Luyckx, L.; Vandenboom, T.; Van Mele, B. Int. J. Chem. Kinet. 1977, 9, 283.
 (E)-CH2=CHCH=CH2 + (E)-CH2=CHCH=CH2 --> 4-vinylcyclohexene
 
@@ -191,9 +191,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Kistiakowsky et al [112]""",
+    shortDesc = u"""Kistiakowsky et al [112]""",
     longDesc = 
-"""
+u"""
 [112] Kistiakowsky, G. B.; Lacher, J. R. J. Am. Chem. Soc. 1936, 58, 123.
 (Z)-CH3CH=CHCHO + (E)-CH2=CHCH=CH2 --> 3-cyclohexene-1-carboxaldehyde,6-methyl
 
@@ -245,9 +245,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Kistiakowsky et al [112]""",
+    shortDesc = u"""Kistiakowsky et al [112]""",
     longDesc = 
-"""
+u"""
 [112] Kistiakowsky, G. B.; Lacher, J. R. J. Am. Chem. Soc. 1936, 58, 123.
 (Z)-CH3CH=CHCHO + (E)-CH2=CHCH=CH2 --> 3-cyclohexene-1-carboxaldehyde,6-methyl
 
@@ -299,9 +299,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Simmie [199]""",
+    shortDesc = u"""Simmie [199]""",
     longDesc = 
-"""
+u"""
 [199] Simmie, J. M. Int. J. Chem. Kinet. 1978, 10, 227.
 CH2=C(CH3)CH=CH2 + C2H4 --> 1-methyl-cyclohexane
 
@@ -353,9 +353,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Simmie [199]""",
+    shortDesc = u"""Simmie [199]""",
     longDesc = 
-"""
+u"""
 [199] Simmie, J. M. Int. J. Chem. Kinet. 1978, 10, 227.
 CH2=C(CH3)CH=CH2 + C2H4 --> 1-methyl-cyclohexane
 
@@ -407,9 +407,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Kistiakowsky et al [112]""",
+    shortDesc = u"""Kistiakowsky et al [112]""",
     longDesc = 
-"""
+u"""
 [112] Kistiakowsky, G. B.; Lacher, J. R. J. Am. Chem. Soc. 1936, 58, 123.
 CH2=CHCHO + CH2=C(CH3)CH=CH2 --> 3-cyclohexene-1-carboxaldehyde,4-methyl
 
@@ -461,9 +461,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Kistiakowsky et al [112]""",
+    shortDesc = u"""Kistiakowsky et al [112]""",
     longDesc = 
-"""
+u"""
 [112] Kistiakowsky, G. B.; Lacher, J. R. J. Am. Chem. Soc. 1936, 58, 123.
 CH2=CHCHO + CH2=C(CH3)CH=CH2 --> 3-cyclohexene-1-carboxaldehyde,4-methyl
 
@@ -515,9 +515,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Huybrechts et al. [109]""",
+    shortDesc = u"""Huybrechts et al. [109]""",
     longDesc = 
-"""
+u"""
 [109] Huybrechts, G.; Rigaux, D.; Vankeerberghen, J.; Van Mele, B. Int. J. Chem. Kinet. 1980, 12, 253.
 1,3-cyclohexadiene + C2H4 --> bicyclo[2.2.2]oct-2-ene
 
@@ -569,9 +569,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Huybrechts et al. [108]""",
+    shortDesc = u"""Huybrechts et al. [108]""",
     longDesc = 
-"""
+u"""
 [108] Huybrechts, G.; Poppelsdorf, H.; Maesschalck, L.; Van Mele, B. Int. J. Chem. Kinet. 1984, 16, 93.
 1,3-cyclohexadiene + CH3CH=CH2 --> bicyclo[2.2.2]oct-2-ene,5-METHYL-(1alpha, 4alpha, 5beta)
 
@@ -623,9 +623,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Huybrechts et al. [108]""",
+    shortDesc = u"""Huybrechts et al. [108]""",
     longDesc = 
-"""
+u"""
 [108] Huybrechts, G.; Poppelsdorf, H.; Maesschalck, L.; Van Mele, B. Int. J. Chem. Kinet. 1984, 16, 93.
 1,3-cyclohexadiene + CH3CH=CH2 --> bicyclo[2.2.2]oct-2-ene,5-METHYL-(1alpha, 4alpha, 5alpha)
 
@@ -677,9 +677,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Huybrechts et al. [108]""",
+    shortDesc = u"""Huybrechts et al. [108]""",
     longDesc = 
-"""
+u"""
 [108] Huybrechts, G.; Poppelsdorf, H.; Maesschalck, L.; Van Mele, B. Int. J. Chem. Kinet. 1984, 16, 93.
 1,3-cyclohexadiene + 1-C4H8 --> bicyclo[2.2.2]oct-2-ene,5-ETHYL-(1alpha, 4alpha, 5beta)
 
@@ -731,9 +731,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Huybrechts et al. [108]""",
+    shortDesc = u"""Huybrechts et al. [108]""",
     longDesc = 
-"""
+u"""
 [108] Huybrechts, G.; Poppelsdorf, H.; Maesschalck, L.; Van Mele, B. Int. J. Chem. Kinet. 1984, 16, 93.
 1,3-cyclohexadiene + 1-C4H8 --> bicyclo[2.2.2]oct-2-ene,5-ETHYL-(1alpha, 4alpha, 5alpha)
 
@@ -785,9 +785,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Huybrechts et al. [108]""",
+    shortDesc = u"""Huybrechts et al. [108]""",
     longDesc = 
-"""
+u"""
 [108] Huybrechts, G.; Poppelsdorf, H.; Maesschalck, L.; Van Mele, B. Int. J. Chem. Kinet. 1984, 16, 93.
 1,3-cyclohexadiene + (CH3)2CHCH=CH2 --> bicyclo[2.2.2]oct-2-ene,5-(1-METHYLETHYL)-(1alpha, 4alpha, 5beta)
 
@@ -839,9 +839,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Huybrechts et al. [108]""",
+    shortDesc = u"""Huybrechts et al. [108]""",
     longDesc = 
-"""
+u"""
 [108] Huybrechts, G.; Poppelsdorf, H.; Maesschalck, L.; Van Mele, B. Int. J. Chem. Kinet. 1984, 16, 93.
 1,3-cyclohexadiene + (CH3)2CHCH=CH2 --> bicyclo[2.2.2]oct-2-ene,5-(1-METHYLETHYL)-(1alpha, 4alpha, 5alpha)
 
@@ -893,9 +893,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Huybrechts et al. [108]""",
+    shortDesc = u"""Huybrechts et al. [108]""",
     longDesc = 
-"""
+u"""
 [108] Huybrechts, G.; Poppelsdorf, H.; Maesschalck, L.; Van Mele, B. Int. J. Chem. Kinet. 1984, 16, 93.
 1,3-cyclohexadiene + CH3CH=CH2 --> bicyclo[2.2.2]oct-2-ene,5-METHYL-(1alpha, 4alpha, 5beta)
 
@@ -947,9 +947,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Van Mele et al [110]""",
+    shortDesc = u"""Van Mele et al [110]""",
     longDesc = 
-"""
+u"""
 [110] Van Mele, B.; Tybaert, C.; Huybrechts, G.  Int. J. Chem. Kinet. 1987, 19, 1063.
 1,3-cyclohexadiene + CH2=CHCHO --> bicyclo[2.2.2]oct-2-ene,2-carboxaldehyde(1alpha, 2alpha, 4alpha)
 
@@ -1001,9 +1001,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Van Mele et al [110]""",
+    shortDesc = u"""Van Mele et al [110]""",
     longDesc = 
-"""
+u"""
 [110] Van Mele, B.; Tybaert, C.; Huybrechts, G.  Int. J. Chem. Kinet. 1987, 19, 1063.
 1,3-cyclohexadiene + CH2=CHCHO --> bicyclo[2.2.2]oct-2-ene,2-carboxaldehyde(1alpha, 2beta, 4alpha)
 
@@ -1055,9 +1055,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Huybrechts et al. [111]""",
+    shortDesc = u"""Huybrechts et al. [111]""",
     longDesc = 
-"""
+u"""
 [111] Huybrechts, G.;Hubin, Y.; Narmon, M.; Van Mele, B. Int. J. Chem. Kinet. 1982, 14, 259.
 1,3-cyclohexadiene + (E)CH2=CHCH=CH2 --> bicyclo[2.2.2]oct-2-ene,5-ethenyl(1alpha, 4alpha, 5alpha)
 
@@ -1109,9 +1109,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Huybrechts et al. [111]""",
+    shortDesc = u"""Huybrechts et al. [111]""",
     longDesc = 
-"""
+u"""
 [111] Huybrechts, G.;Hubin, Y.; Narmon, M.; Van Mele, B. Int. J. Chem. Kinet. 1982, 14, 259.
 1,3-cyclohexadiene + (E)CH2=CHCH=CH2 --> bicyclo[2.2.2]oct-2-ene,5-ethenyl(1alpha, 4alpha, 5beta)
 
@@ -1163,9 +1163,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Van Mele et al [110]""",
+    shortDesc = u"""Van Mele et al [110]""",
     longDesc = 
-"""
+u"""
 [110] Van Mele, B.; Tybaert, C.; Huybrechts, G.  Int. J. Chem. Kinet. 1987, 19, 1063.
 1,3-cyclohexadiene + CH2=CHCHO --> bicyclo[2.2.2]oct-2-ene,2-carboxaldehyde(1alpha, 2alpha, 4alpha)
 
@@ -1217,9 +1217,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Benford et al [200]""",
+    shortDesc = u"""Benford et al [200]""",
     longDesc = 
-"""
+u"""
 [200] Benford, G. A.; Wassermann, A. J. Chem. Soc. 1939, 362. 
 Cyclopentadiene + cyclopentadiene --> Tricyclo[5.2.1.02,6]deca-c,8-diene.
 
@@ -1271,9 +1271,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Benford et al [200]""",
+    shortDesc = u"""Benford et al [200]""",
     longDesc = 
-"""
+u"""
 [200] Benford, G. A.; Wassermann, A. J. Chem. Soc. 1939, 362. 
 Cyclopentadiene + cyclopentadiene --> Tricyclo[5.2.1.02,6]deca-c,8-diene.
 

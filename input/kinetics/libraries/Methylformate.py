@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Methylformate"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -12,10 +12,10 @@ entry(
     reactant1 = 
 """
 Mfmt
-1     C     0 {4,S}
-2     C     0 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     0 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4     O     0 {1,D}
 """,
     product1 = 
 """
@@ -38,9 +38,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -53,10 +53,10 @@ entry(
     reactant1 = 
 """
 Mfmt
-1     C     0 {4,S}
-2     C     0 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     0 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4     O     0 {1,D}
 """,
     product1 = 
 """
@@ -79,9 +79,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -94,10 +94,10 @@ entry(
     reactant1 = 
 """
 Mfmt
-1     C     0 {4,S}
-2     C     0 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     0 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4     O     0 {1,D}
 """,
     product1 = 
 """
@@ -120,9 +120,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -135,10 +135,10 @@ entry(
     reactant1 = 
 """
 Mofml
-1     C     0 {4,S}
-2     C     1 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     1 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4     O     0 {1,D}
 """,
     product1 = 
 """
@@ -161,9 +161,9 @@ CH3j
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -188,10 +188,10 @@ CH3Oj
     product1 = 
 """
 Mofml
-1     C     0 {4,S}
-2     C     1 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     1 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -202,9 +202,9 @@ Mofml
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -229,10 +229,10 @@ CH2O
     product1 = 
 """
 Fmoml
-1     C     1 {4,S}
-2     C     0 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     0 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     1 {2,S}
+4     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -243,9 +243,9 @@ Fmoml
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -263,10 +263,10 @@ Hj
     reactant2 = 
 """
 Mfmt
-1     C     0 {4,S}
-2     C     0 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     0 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4     O     0 {1,D}
 """,
     product1 = 
 """
@@ -277,10 +277,10 @@ H2
     product2 = 
 """
 Mofml
-1     C     0 {4,S}
-2     C     1 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     1 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -291,9 +291,9 @@ Mofml
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -311,10 +311,10 @@ Hj
     reactant2 = 
 """
 Mfmt
-1     C     0 {4,S}
-2     C     0 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     0 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4     O     0 {1,D}
 """,
     product1 = 
 """
@@ -325,10 +325,10 @@ H2
     product2 = 
 """
 Fmoml
-1     C     1 {4,S}
-2     C     0 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     0 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     1 {2,S}
+4     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -339,9 +339,9 @@ Fmoml
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -359,10 +359,10 @@ CH3j
     reactant2 = 
 """
 Mfmt
-1     C     0 {4,S}
-2     C     0 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     0 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4     O     0 {1,D}
 """,
     product1 = 
 """
@@ -372,10 +372,10 @@ CH4
     product2 = 
 """
 Mofml
-1     C     0 {4,S}
-2     C     1 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     1 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -386,9 +386,9 @@ Mofml
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -406,10 +406,10 @@ CH3j
     reactant2 = 
 """
 Mfmt
-1     C     0 {4,S}
-2     C     0 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     0 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4     O     0 {1,D}
 """,
     product1 = 
 """
@@ -419,10 +419,10 @@ CH4
     product2 = 
 """
 Fmoml
-1     C     1 {4,S}
-2     C     0 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     0 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     1 {2,S}
+4     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -433,9 +433,9 @@ Fmoml
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -460,10 +460,10 @@ HCjO
     product1 = 
 """
 Mfmt
-1     C     0 {4,S}
-2     C     0 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     0 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -474,9 +474,9 @@ Mfmt
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -501,10 +501,10 @@ OjCHO
     product1 = 
 """
 Mfmt
-1     C     0 {4,S}
-2     C     0 {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {1,S} {2,S}
+1     C     0 {2,S} {4,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -515,9 +515,9 @@ Mfmt
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [

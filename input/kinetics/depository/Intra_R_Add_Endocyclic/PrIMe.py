@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Intra_R_Add_Endocyclic"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -31,9 +31,10 @@ entry(
     ),
     reference = Article(authors=["Greig, G.", "Thynne, J.C.J."], title=u'Reactions of cyclic akyl radicals. Part 2.-Photolysis of cyclopropane carboxaldehyde', journal="Trans. Faraday Soc.", volume="63", pages="""1367""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:45 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -64,9 +65,10 @@ entry(
     ),
     reference = Article(authors=["Kerr, J.A.", "Smith, A.", "Trotman-Dickenson, A.F."], title=u'Reactions of cyclopropyl radicals in the methyl-initiated decomposition of cyclopropanecarbaldehyde', journal="J. Chem. Soc. A", pages="""1400""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:45 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -99,9 +101,10 @@ entry(
     ),
     reference = Article(authors=["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."], title=u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates', journal="Int. J. Chem. Kinet.", volume="35", pages="""95-119""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -136,9 +139,10 @@ entry(
     ),
     reference = Article(authors=["Gierczak, T.", "Gawlowski, J.", "Niedzielski, J."], title=u'Mutual isomerization of cyclopentyl and 1-penten-5-yl radicals', journal="Int. J. Chem. Kinet.", volume="18", pages="""623-637""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:12 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -173,9 +177,10 @@ entry(
     ),
     reference = Article(authors=["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."], title=u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates', journal="Int. J. Chem. Kinet.", volume="35", pages="""95-119""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:12 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -210,9 +215,10 @@ entry(
     ),
     reference = Article(authors=["Gierczak, T.", "Gawlowski, J.", "Niedzielski, J."], title=u'Mutual isomerization of cyclopentyl and 1-penten-5-yl radicals', journal="Int. J. Chem. Kinet.", volume="18", pages="""623-637""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:12 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -247,9 +253,10 @@ entry(
     ),
     reference = Article(authors=["Handford-Styring, S.M.", "Walker, R.W."], title=u'Addition of cyclopentane to slowly reacting mixtures of H_2 + O_2 between 673 and 783 K: reactions of H and OH with cyclopentane and of cyclopentyl radicals', journal="J. Chem. Soc. Faraday Trans.", volume="91", pages="""1431-1438""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:12 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -286,9 +293,10 @@ entry(
     ),
     reference = Article(authors=["Handford-Styring, S.M.", "Walker, R.W."], title=u'Addition of cyclopentane to slowly reacting mixtures of H_2 + O_2 between 673 and 783 K: reactions of H and OH with cyclopentane and of cyclopentyl radicals', journal="J. Chem. Soc. Faraday Trans.", volume="91", pages="""1431-1438""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:26 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -325,9 +333,10 @@ entry(
     ),
     reference = Article(authors=["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."], title=u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates', journal="Int. J. Chem. Kinet.", volume="35", pages="""95-119""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:26 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -368,9 +377,10 @@ entry(
     ),
     reference = Article(authors=["Tokmakov, I.V.", "Lin, M.C."], title=u'Reaction of phenyl radicals with acetylene: Quantum chemical investigation of the mechanism and master equation analysis of the kinetics', journal="J. Am. Chem. Soc.", volume="125", pages="""11397-11408""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:12 2011","jwallen","action","""jwallen added this entry to the database."""),

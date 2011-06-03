@@ -25,9 +25,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -46,9 +46,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -67,9 +67,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -94,9 +94,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -121,9 +121,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -148,9 +148,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -175,9 +175,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -202,9 +202,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -229,9 +229,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -256,9 +256,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -283,9 +283,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -310,9 +310,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -337,9 +337,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -364,9 +364,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -391,9 +391,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -418,9 +418,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -445,9 +445,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -472,9 +472,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -499,9 +499,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -526,9 +526,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -553,9 +553,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -580,9 +580,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -607,9 +607,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -634,9 +634,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -661,9 +661,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -688,9 +688,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -711,9 +711,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -734,9 +734,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -757,9 +757,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -780,9 +780,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -803,9 +803,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -826,9 +826,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -849,9 +849,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -872,9 +872,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -895,9 +895,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -920,9 +920,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -945,9 +945,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -970,9 +970,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -995,9 +995,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1020,9 +1020,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1045,9 +1045,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1070,9 +1070,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1095,9 +1095,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1120,9 +1120,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1145,9 +1145,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1170,9 +1170,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1195,9 +1195,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1220,9 +1220,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1245,9 +1245,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1270,9 +1270,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1295,9 +1295,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1320,9 +1320,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1345,9 +1345,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1370,9 +1370,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1395,9 +1395,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1420,9 +1420,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1445,9 +1445,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1470,9 +1470,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1495,9 +1495,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1520,9 +1520,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1545,9 +1545,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1570,9 +1570,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1595,9 +1595,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1620,9 +1620,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1645,9 +1645,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1670,9 +1670,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1695,9 +1695,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1720,9 +1720,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1745,9 +1745,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1770,9 +1770,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1795,9 +1795,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1820,9 +1820,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1845,9 +1845,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1870,9 +1870,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1895,9 +1895,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1920,9 +1920,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1945,9 +1945,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1970,9 +1970,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1995,9 +1995,9 @@ entry(
     kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2098,9 +2098,9 @@ forbidden(
 3  *5 Cd 0 {2,S} {4,D}
 4  *6 Cd 0 {2,S} {3,D}
 """,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2117,9 +2117,9 @@ forbidden(
 3  *5 Cd 0 {1,S} {2,S} {4,D}
 4  *6 Cd 0 {3,D}
 """,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,

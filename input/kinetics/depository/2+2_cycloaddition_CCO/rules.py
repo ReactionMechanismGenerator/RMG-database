@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "2+2_cycloaddition_CCO/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -28,9 +28,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """Quick et al. [107]""",
+    shortDesc = u"""Quick et al. [107]""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [

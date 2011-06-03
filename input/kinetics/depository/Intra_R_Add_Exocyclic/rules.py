@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Intra_R_Add_Exocyclic/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 General comments go at the top of the file,
 
 or in a section(s) titled 'General'
@@ -35,9 +35,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -82,9 +82,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -127,9 +127,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -169,9 +169,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -211,9 +211,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -257,9 +257,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -301,9 +301,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations with 1d h.r. corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations with 1d h.r. corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations for the reaction CH2=CH-CH2-OO => *CH2-cycle(CH-CH2-O-O)
 
 Previous RMG estimate for this reaction was an "Average of average" estimate.  This reaction was of

@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "TEOS"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -12,19 +12,19 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)4
-1     C     0 {5,S}
-2     C     0 {6,S}
-3     C     0 {7,S}
-4     C     0 {8,S}
-5     C     0 {1,S} {9,S}
+1     Si    0 {2,S} {3,S} {4,S} {5,S}
+2     O     0 {1,S} {6,S}
+3     O     0 {1,S} {7,S}
+4     O     0 {1,S} {8,S}
+5     O     0 {1,S} {9,S}
 6     C     0 {2,S} {10,S}
 7     C     0 {3,S} {11,S}
 8     C     0 {4,S} {12,S}
-9     O     0 {5,S} {13,S}
-10    O     0 {6,S} {13,S}
-11    O     0 {7,S} {13,S}
-12    O     0 {8,S} {13,S}
-13    Si    0 {9,S} {10,S} {11,S} {12,S}
+9     C     0 {5,S} {13,S}
+10    C     0 {6,S}
+11    C     0 {7,S}
+12    C     0 {8,S}
+13    C     0 {9,S}
 """,
     product1 = 
 """
@@ -35,17 +35,17 @@ C2H4
     product2 = 
 """
 Si(OC2H5)3OH
-1     C     0 {4,S}
-2     C     0 {5,S}
-3     C     0 {6,S}
-4     C     0 {1,S} {8,S}
+1     Si    0 {2,S} {3,S} {4,S} {8,S}
+2     O     0 {1,S} {5,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {1,S} {7,S}
 5     C     0 {2,S} {9,S}
 6     C     0 {3,S} {10,S}
-7     O     0 {11,S}
-8     O     0 {4,S} {11,S}
-9     O     0 {5,S} {11,S}
-10    O     0 {6,S} {11,S}
-11    Si    0 {7,S} {8,S} {9,S} {10,S}
+7     C     0 {4,S} {11,S}
+8     O     0 {1,S}
+9     C     0 {5,S}
+10    C     0 {6,S}
+11    C     0 {7,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -56,9 +56,9 @@ Si(OC2H5)3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -71,19 +71,19 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)4
-1     C     0 {5,S}
-2     C     0 {6,S}
-3     C     0 {7,S}
-4     C     0 {8,S}
-5     C     0 {1,S} {9,S}
+1     Si    0 {2,S} {3,S} {4,S} {5,S}
+2     O     0 {1,S} {6,S}
+3     O     0 {1,S} {7,S}
+4     O     0 {1,S} {8,S}
+5     O     0 {1,S} {9,S}
 6     C     0 {2,S} {10,S}
 7     C     0 {3,S} {11,S}
 8     C     0 {4,S} {12,S}
-9     O     0 {5,S} {13,S}
-10    O     0 {6,S} {13,S}
-11    O     0 {7,S} {13,S}
-12    O     0 {8,S} {13,S}
-13    Si    0 {9,S} {10,S} {11,S} {12,S}
+9     C     0 {5,S} {13,S}
+10    C     0 {6,S}
+11    C     0 {7,S}
+12    C     0 {8,S}
+13    C     0 {9,S}
 """,
     product1 = 
 """
@@ -115,9 +115,9 @@ CH2OSi(OC2H5)3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -130,17 +130,17 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)3OH
-1     C     0 {4,S}
-2     C     0 {5,S}
-3     C     0 {6,S}
-4     C     0 {1,S} {8,S}
+1     Si    0 {2,S} {3,S} {4,S} {8,S}
+2     O     0 {1,S} {5,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {1,S} {7,S}
 5     C     0 {2,S} {9,S}
 6     C     0 {3,S} {10,S}
-7     O     0 {11,S}
-8     O     0 {4,S} {11,S}
-9     O     0 {5,S} {11,S}
-10    O     0 {6,S} {11,S}
-11    Si    0 {7,S} {8,S} {9,S} {10,S}
+7     C     0 {4,S} {11,S}
+8     O     0 {1,S}
+9     C     0 {5,S}
+10    C     0 {6,S}
+11    C     0 {7,S}
 """,
     product1 = 
 """
@@ -151,15 +151,15 @@ C2H4
     product2 = 
 """
 Si(OC2H5)2(OH)2
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {7,S}
+1     Si    0 {2,S} {3,S} {6,S} {7,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
 4     C     0 {2,S} {8,S}
-5     O     0 {9,S}
-6     O     0 {9,S}
-7     O     0 {3,S} {9,S}
-8     O     0 {4,S} {9,S}
-9     Si    0 {5,S} {6,S} {7,S} {8,S}
+5     C     0 {3,S} {9,S}
+6     O     0 {1,S}
+7     O     0 {1,S}
+8     C     0 {4,S}
+9     C     0 {5,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -170,9 +170,9 @@ Si(OC2H5)2(OH)2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -185,36 +185,36 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)3OH
-1     C     0 {4,S}
-2     C     0 {5,S}
-3     C     0 {6,S}
-4     C     0 {1,S} {8,S}
+1     Si    0 {2,S} {3,S} {4,S} {8,S}
+2     O     0 {1,S} {5,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {1,S} {7,S}
 5     C     0 {2,S} {9,S}
 6     C     0 {3,S} {10,S}
-7     O     0 {11,S}
-8     O     0 {4,S} {11,S}
-9     O     0 {5,S} {11,S}
-10    O     0 {6,S} {11,S}
-11    Si    0 {7,S} {8,S} {9,S} {10,S}
+7     C     0 {4,S} {11,S}
+8     O     0 {1,S}
+9     C     0 {5,S}
+10    C     0 {6,S}
+11    C     0 {7,S}
 """,
     product1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
 O_Si(OC2H5)2
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {6,S}
+1     Si    0 {2,S} {3,S} {6,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
 4     C     0 {2,S} {7,S}
-5     O     0 {8,D}
-6     O     0 {3,S} {8,S}
-7     O     0 {4,S} {8,S}
-8     Si    0 {5,D} {6,S} {7,S}
+5     C     0 {3,S} {8,S}
+6     O     0 {1,D}
+7     C     0 {4,S}
+8     C     0 {5,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -225,9 +225,9 @@ O_Si(OC2H5)2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -240,17 +240,17 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)3OH
-1     C     0 {4,S}
-2     C     0 {5,S}
-3     C     0 {6,S}
-4     C     0 {1,S} {8,S}
+1     Si    0 {2,S} {3,S} {4,S} {8,S}
+2     O     0 {1,S} {5,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {1,S} {7,S}
 5     C     0 {2,S} {9,S}
 6     C     0 {3,S} {10,S}
-7     O     0 {11,S}
-8     O     0 {4,S} {11,S}
-9     O     0 {5,S} {11,S}
-10    O     0 {6,S} {11,S}
-11    Si    0 {7,S} {8,S} {9,S} {10,S}
+7     C     0 {4,S} {11,S}
+8     O     0 {1,S}
+9     C     0 {5,S}
+10    C     0 {6,S}
+11    C     0 {7,S}
 """,
     product1 = 
 """
@@ -280,9 +280,9 @@ CH2OSi(OC2H5)2OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -295,15 +295,15 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)2(OH)2
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {7,S}
+1     Si    0 {2,S} {3,S} {6,S} {7,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
 4     C     0 {2,S} {8,S}
-5     O     0 {9,S}
-6     O     0 {9,S}
-7     O     0 {3,S} {9,S}
-8     O     0 {4,S} {9,S}
-9     Si    0 {5,S} {6,S} {7,S} {8,S}
+5     C     0 {3,S} {9,S}
+6     O     0 {1,S}
+7     O     0 {1,S}
+8     C     0 {4,S}
+9     C     0 {5,S}
 """,
     product1 = 
 """
@@ -314,13 +314,13 @@ C2H4
     product2 = 
 """
 Si(OC2H5)(OH)3
-1     C     0 {2,S}
-2     C     0 {1,S} {6,S}
-3     O     0 {7,S}
-4     O     0 {7,S}
-5     O     0 {7,S}
-6     O     0 {2,S} {7,S}
-7     Si    0 {3,S} {4,S} {5,S} {6,S}
+1     Si    0 {2,S} {4,S} {5,S} {6,S}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S} {7,S}
+4     O     0 {1,S}
+5     O     0 {1,S}
+6     O     0 {1,S}
+7     C     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -331,9 +331,9 @@ Si(OC2H5)(OH)3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -346,15 +346,15 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)2(OH)2
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {7,S}
+1     Si    0 {2,S} {3,S} {6,S} {7,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
 4     C     0 {2,S} {8,S}
-5     O     0 {9,S}
-6     O     0 {9,S}
-7     O     0 {3,S} {9,S}
-8     O     0 {4,S} {9,S}
-9     Si    0 {5,S} {6,S} {7,S} {8,S}
+5     C     0 {3,S} {9,S}
+6     O     0 {1,S}
+7     O     0 {1,S}
+8     C     0 {4,S}
+9     C     0 {5,S}
 """,
     product1 = 
 """
@@ -364,14 +364,14 @@ H2O
     product2 = 
 """
 O_Si(OC2H5)2
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {6,S}
+1     Si    0 {2,S} {3,S} {6,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
 4     C     0 {2,S} {7,S}
-5     O     0 {8,D}
-6     O     0 {3,S} {8,S}
-7     O     0 {4,S} {8,S}
-8     Si    0 {5,D} {6,S} {7,S}
+5     C     0 {3,S} {8,S}
+6     O     0 {1,D}
+7     C     0 {4,S}
+8     C     0 {5,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -382,9 +382,9 @@ O_Si(OC2H5)2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -397,32 +397,32 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)2(OH)2
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {7,S}
+1     Si    0 {2,S} {3,S} {6,S} {7,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
 4     C     0 {2,S} {8,S}
-5     O     0 {9,S}
-6     O     0 {9,S}
-7     O     0 {3,S} {9,S}
-8     O     0 {4,S} {9,S}
-9     Si    0 {5,S} {6,S} {7,S} {8,S}
+5     C     0 {3,S} {9,S}
+6     O     0 {1,S}
+7     O     0 {1,S}
+8     C     0 {4,S}
+9     C     0 {5,S}
 """,
     product1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
 O_Si(OC2H5)OH
-1     C     0 {2,S}
-2     C     0 {1,S} {5,S}
-3     O     0 {6,S}
-4     O     0 {6,D}
-5     O     0 {2,S} {6,S}
-6     Si    0 {3,S} {4,D} {5,S}
+1     Si    0 {2,S} {4,S} {5,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S} {6,S}
+4     O     0 {1,S}
+5     O     0 {1,D}
+6     C     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -433,9 +433,9 @@ O_Si(OC2H5)OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -448,15 +448,15 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)2(OH)2
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {7,S}
+1     Si    0 {2,S} {3,S} {6,S} {7,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
 4     C     0 {2,S} {8,S}
-5     O     0 {9,S}
-6     O     0 {9,S}
-7     O     0 {3,S} {9,S}
-8     O     0 {4,S} {9,S}
-9     Si    0 {5,S} {6,S} {7,S} {8,S}
+5     C     0 {3,S} {9,S}
+6     O     0 {1,S}
+7     O     0 {1,S}
+8     C     0 {4,S}
+9     C     0 {5,S}
 """,
     product1 = 
 """
@@ -484,9 +484,9 @@ CH2OSi(OC2H5)(OH)2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -499,13 +499,13 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)(OH)3
-1     C     0 {2,S}
-2     C     0 {1,S} {6,S}
-3     O     0 {7,S}
-4     O     0 {7,S}
-5     O     0 {7,S}
-6     O     0 {2,S} {7,S}
-7     Si    0 {3,S} {4,S} {5,S} {6,S}
+1     Si    0 {2,S} {4,S} {5,S} {6,S}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S} {7,S}
+4     O     0 {1,S}
+5     O     0 {1,S}
+6     O     0 {1,S}
+7     C     0 {3,S}
 """,
     product1 = 
 """
@@ -531,9 +531,9 @@ Si(OH)4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -546,13 +546,13 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)(OH)3
-1     C     0 {2,S}
-2     C     0 {1,S} {6,S}
-3     O     0 {7,S}
-4     O     0 {7,S}
-5     O     0 {7,S}
-6     O     0 {2,S} {7,S}
-7     Si    0 {3,S} {4,S} {5,S} {6,S}
+1     Si    0 {2,S} {4,S} {5,S} {6,S}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S} {7,S}
+4     O     0 {1,S}
+5     O     0 {1,S}
+6     O     0 {1,S}
+7     C     0 {3,S}
 """,
     product1 = 
 """
@@ -562,12 +562,12 @@ H2O
     product2 = 
 """
 O_Si(OC2H5)OH
-1     C     0 {2,S}
-2     C     0 {1,S} {5,S}
-3     O     0 {6,S}
-4     O     0 {6,D}
-5     O     0 {2,S} {6,S}
-6     Si    0 {3,S} {4,D} {5,S}
+1     Si    0 {2,S} {4,S} {5,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S} {6,S}
+4     O     0 {1,S}
+5     O     0 {1,D}
+6     C     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -578,9 +578,9 @@ O_Si(OC2H5)OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -593,28 +593,28 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)(OH)3
-1     C     0 {2,S}
-2     C     0 {1,S} {6,S}
-3     O     0 {7,S}
-4     O     0 {7,S}
-5     O     0 {7,S}
-6     O     0 {2,S} {7,S}
-7     Si    0 {3,S} {4,S} {5,S} {6,S}
+1     Si    0 {2,S} {4,S} {5,S} {6,S}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S} {7,S}
+4     O     0 {1,S}
+5     O     0 {1,S}
+6     O     0 {1,S}
+7     C     0 {3,S}
 """,
     product1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
 O_Si(OH)2
-1     O     0 {4,S}
-2     O     0 {4,S}
-3     O     0 {4,D}
-4     Si    0 {1,S} {2,S} {3,D}
+1     Si    0 {2,S} {3,S} {4,D}
+2     O     0 {1,S}
+3     O     0 {1,S}
+4     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -625,9 +625,9 @@ O_Si(OH)2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -640,13 +640,13 @@ entry(
     reactant1 = 
 """
 Si(OC2H5)(OH)3
-1     C     0 {2,S}
-2     C     0 {1,S} {6,S}
-3     O     0 {7,S}
-4     O     0 {7,S}
-5     O     0 {7,S}
-6     O     0 {2,S} {7,S}
-7     Si    0 {3,S} {4,S} {5,S} {6,S}
+1     Si    0 {2,S} {4,S} {5,S} {6,S}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S} {7,S}
+4     O     0 {1,S}
+5     O     0 {1,S}
+6     O     0 {1,S}
+7     C     0 {3,S}
 """,
     product1 = 
 """
@@ -672,9 +672,9 @@ CH2OSi(OH)3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -687,14 +687,14 @@ entry(
     reactant1 = 
 """
 O_Si(OC2H5)2
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {6,S}
+1     Si    0 {2,S} {3,S} {6,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
 4     C     0 {2,S} {7,S}
-5     O     0 {8,D}
-6     O     0 {3,S} {8,S}
-7     O     0 {4,S} {8,S}
-8     Si    0 {5,D} {6,S} {7,S}
+5     C     0 {3,S} {8,S}
+6     O     0 {1,D}
+7     C     0 {4,S}
+8     C     0 {5,S}
 """,
     product1 = 
 """
@@ -705,12 +705,12 @@ C2H4
     product2 = 
 """
 O_Si(OC2H5)OH
-1     C     0 {2,S}
-2     C     0 {1,S} {5,S}
-3     O     0 {6,S}
-4     O     0 {6,D}
-5     O     0 {2,S} {6,S}
-6     Si    0 {3,S} {4,D} {5,S}
+1     Si    0 {2,S} {4,S} {5,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S} {6,S}
+4     O     0 {1,S}
+5     O     0 {1,D}
+6     C     0 {3,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -722,9 +722,9 @@ O_Si(OC2H5)OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -737,14 +737,14 @@ entry(
     reactant1 = 
 """
 O_Si(OC2H5)2
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {6,S}
+1     Si    0 {2,S} {3,S} {6,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
 4     C     0 {2,S} {7,S}
-5     O     0 {8,D}
-6     O     0 {3,S} {8,S}
-7     O     0 {4,S} {8,S}
-8     Si    0 {5,D} {6,S} {7,S}
+5     C     0 {3,S} {8,S}
+6     O     0 {1,D}
+7     C     0 {4,S}
+8     C     0 {5,S}
 """,
     product1 = 
 """
@@ -755,12 +755,12 @@ C2H4
     product2 = 
 """
 O_Si(OC2H5)OH
-1     C     0 {2,S}
-2     C     0 {1,S} {5,S}
-3     O     0 {6,S}
-4     O     0 {6,D}
-5     O     0 {2,S} {6,S}
-6     Si    0 {3,S} {4,D} {5,S}
+1     Si    0 {2,S} {4,S} {5,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S} {6,S}
+4     O     0 {1,S}
+5     O     0 {1,D}
+6     C     0 {3,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -772,9 +772,9 @@ O_Si(OC2H5)OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -787,14 +787,14 @@ entry(
     reactant1 = 
 """
 O_Si(OC2H5)2
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {6,S}
+1     Si    0 {2,S} {3,S} {6,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
 4     C     0 {2,S} {7,S}
-5     O     0 {8,D}
-6     O     0 {3,S} {8,S}
-7     O     0 {4,S} {8,S}
-8     Si    0 {5,D} {6,S} {7,S}
+5     C     0 {3,S} {8,S}
+6     O     0 {1,D}
+7     C     0 {4,S}
+8     C     0 {5,S}
 """,
     product1 = 
 """
@@ -821,9 +821,9 @@ CH2OSiO(OC2H5)
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -836,12 +836,12 @@ entry(
     reactant1 = 
 """
 O_Si(OC2H5)OH
-1     C     0 {2,S}
-2     C     0 {1,S} {5,S}
-3     O     0 {6,S}
-4     O     0 {6,D}
-5     O     0 {2,S} {6,S}
-6     Si    0 {3,S} {4,D} {5,S}
+1     Si    0 {2,S} {4,S} {5,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S} {6,S}
+4     O     0 {1,S}
+5     O     0 {1,D}
+6     C     0 {3,S}
 """,
     product1 = 
 """
@@ -852,10 +852,10 @@ C2H4
     product2 = 
 """
 O_Si(OH)2
-1     O     0 {4,S}
-2     O     0 {4,S}
-3     O     0 {4,D}
-4     Si    0 {1,S} {2,S} {3,D}
+1     Si    0 {2,S} {3,S} {4,D}
+2     O     0 {1,S}
+3     O     0 {1,S}
+4     O     0 {1,D}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -867,9 +867,9 @@ O_Si(OH)2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -882,12 +882,12 @@ entry(
     reactant1 = 
 """
 O_Si(OC2H5)OH
-1     C     0 {2,S}
-2     C     0 {1,S} {5,S}
-3     O     0 {6,S}
-4     O     0 {6,D}
-5     O     0 {2,S} {6,S}
-6     Si    0 {3,S} {4,D} {5,S}
+1     Si    0 {2,S} {4,S} {5,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S} {6,S}
+4     O     0 {1,S}
+5     O     0 {1,D}
+6     C     0 {3,S}
 """,
     product1 = 
 """
@@ -898,10 +898,10 @@ C2H4
     product2 = 
 """
 O_Si(OH)2
-1     O     0 {4,S}
-2     O     0 {4,S}
-3     O     0 {4,D}
-4     Si    0 {1,S} {2,S} {3,D}
+1     Si    0 {2,S} {3,S} {4,D}
+2     O     0 {1,S}
+3     O     0 {1,S}
+4     O     0 {1,D}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -913,9 +913,9 @@ O_Si(OH)2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -928,19 +928,19 @@ entry(
     reactant1 = 
 """
 O_Si(OC2H5)OH
-1     C     0 {2,S}
-2     C     0 {1,S} {5,S}
-3     O     0 {6,S}
-4     O     0 {6,D}
-5     O     0 {2,S} {6,S}
-6     Si    0 {3,S} {4,D} {5,S}
+1     Si    0 {2,S} {4,S} {5,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S} {6,S}
+4     O     0 {1,S}
+5     O     0 {1,D}
+6     C     0 {3,S}
 """,
     product1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -958,9 +958,9 @@ SiO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -973,12 +973,12 @@ entry(
     reactant1 = 
 """
 O_Si(OC2H5)OH
-1     C     0 {2,S}
-2     C     0 {1,S} {5,S}
-3     O     0 {6,S}
-4     O     0 {6,D}
-5     O     0 {2,S} {6,S}
-6     Si    0 {3,S} {4,D} {5,S}
+1     Si    0 {2,S} {4,S} {5,D}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S} {6,S}
+4     O     0 {1,S}
+5     O     0 {1,D}
+6     C     0 {3,S}
 """,
     product1 = 
 """
@@ -1003,9 +1003,9 @@ CH2OSiO(OH)
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1018,18 +1018,18 @@ entry(
     reactant1 = 
 """
 CH3OSi(OC2H5)2(OC2H3)
-1     C     0 {5,D}
-2     C     0 {6,S}
-3     C     0 {7,S}
-4     C     0 {8,S}
-5     C     0 {1,D} {9,S}
-6     C     0 {2,S} {10,S}
+1     Si    0 {2,S} {3,S} {4,S} {5,S}
+2     O     0 {1,S} {6,S}
+3     O     0 {1,S} {7,S}
+4     O     0 {1,S} {8,S}
+5     O     0 {1,S} {9,S}
+6     C     0 {2,S} {10,D}
 7     C     0 {3,S} {11,S}
-8     O     0 {4,S} {12,S}
-9     O     0 {5,S} {12,S}
-10    O     0 {6,S} {12,S}
-11    O     0 {7,S} {12,S}
-12    Si    0 {8,S} {9,S} {10,S} {11,S}
+8     C     0 {4,S} {12,S}
+9     C     0 {5,S}
+10    C     0 {6,D}
+11    C     0 {7,S}
+12    C     0 {8,S}
 """,
     product1 = 
 """
@@ -1040,16 +1040,16 @@ C2H4
     product2 = 
 """
 CH3OSi(OC2H5)(OC2H3)OH
-1     C     0 {4,D}
-2     C     0 {5,S}
-3     C     0 {7,S}
-4     C     0 {1,D} {8,S}
-5     C     0 {2,S} {9,S}
-6     O     0 {10,S}
-7     O     0 {3,S} {10,S}
-8     O     0 {4,S} {10,S}
-9     O     0 {5,S} {10,S}
-10    Si    0 {6,S} {7,S} {8,S} {9,S}
+1     Si    0 {2,S} {3,S} {4,S} {7,S}
+2     O     0 {1,S} {5,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {1,S} {8,S}
+5     C     0 {2,S} {9,D}
+6     C     0 {3,S} {10,S}
+7     O     0 {1,S}
+8     C     0 {4,S}
+9     C     0 {5,D}
+10    C     0 {6,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1060,9 +1060,9 @@ CH3OSi(OC2H5)(OC2H3)OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1075,18 +1075,18 @@ entry(
     reactant1 = 
 """
 CH3OSi(OC2H5)2(OC2H3)
-1     C     0 {5,D}
-2     C     0 {6,S}
-3     C     0 {7,S}
-4     C     0 {8,S}
-5     C     0 {1,D} {9,S}
-6     C     0 {2,S} {10,S}
+1     Si    0 {2,S} {3,S} {4,S} {5,S}
+2     O     0 {1,S} {6,S}
+3     O     0 {1,S} {7,S}
+4     O     0 {1,S} {8,S}
+5     O     0 {1,S} {9,S}
+6     C     0 {2,S} {10,D}
 7     C     0 {3,S} {11,S}
-8     O     0 {4,S} {12,S}
-9     O     0 {5,S} {12,S}
-10    O     0 {6,S} {12,S}
-11    O     0 {7,S} {12,S}
-12    Si    0 {8,S} {9,S} {10,S} {11,S}
+8     C     0 {4,S} {12,S}
+9     C     0 {5,S}
+10    C     0 {6,D}
+11    C     0 {7,S}
+12    C     0 {8,S}
 """,
     product1 = 
 """
@@ -1117,9 +1117,9 @@ CH2OSi(OC2H5)(OC2H3)(OCH3)
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1132,16 +1132,16 @@ entry(
     reactant1 = 
 """
 CH3OSi(OC2H5)(OC2H3)OH
-1     C     0 {4,D}
-2     C     0 {5,S}
-3     C     0 {7,S}
-4     C     0 {1,D} {8,S}
-5     C     0 {2,S} {9,S}
-6     O     0 {10,S}
-7     O     0 {3,S} {10,S}
-8     O     0 {4,S} {10,S}
-9     O     0 {5,S} {10,S}
-10    Si    0 {6,S} {7,S} {8,S} {9,S}
+1     Si    0 {2,S} {3,S} {4,S} {7,S}
+2     O     0 {1,S} {5,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {1,S} {8,S}
+5     C     0 {2,S} {9,D}
+6     C     0 {3,S} {10,S}
+7     O     0 {1,S}
+8     C     0 {4,S}
+9     C     0 {5,D}
+10    C     0 {6,S}
 """,
     product1 = 
 """
@@ -1170,9 +1170,9 @@ CH3OSi(OC2H3)(OH)2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1185,16 +1185,16 @@ entry(
     reactant1 = 
 """
 CH3OSi(OC2H5)(OC2H3)OH
-1     C     0 {4,D}
-2     C     0 {5,S}
-3     C     0 {7,S}
-4     C     0 {1,D} {8,S}
-5     C     0 {2,S} {9,S}
-6     O     0 {10,S}
-7     O     0 {3,S} {10,S}
-8     O     0 {4,S} {10,S}
-9     O     0 {5,S} {10,S}
-10    Si    0 {6,S} {7,S} {8,S} {9,S}
+1     Si    0 {2,S} {3,S} {4,S} {7,S}
+2     O     0 {1,S} {5,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {1,S} {8,S}
+5     C     0 {2,S} {9,D}
+6     C     0 {3,S} {10,S}
+7     O     0 {1,S}
+8     C     0 {4,S}
+9     C     0 {5,D}
+10    C     0 {6,S}
 """,
     product1 = 
 """
@@ -1223,9 +1223,9 @@ CH2OSi(OCH3)(OC2H3)OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1238,23 +1238,23 @@ entry(
     reactant1 = 
 """
 CH3OSi(OC2H5)(OC2H3)OH
-1     C     0 {4,D}
-2     C     0 {5,S}
-3     C     0 {7,S}
-4     C     0 {1,D} {8,S}
-5     C     0 {2,S} {9,S}
-6     O     0 {10,S}
-7     O     0 {3,S} {10,S}
-8     O     0 {4,S} {10,S}
-9     O     0 {5,S} {10,S}
-10    Si    0 {6,S} {7,S} {8,S} {9,S}
+1     Si    0 {2,S} {3,S} {4,S} {7,S}
+2     O     0 {1,S} {5,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {1,S} {8,S}
+5     C     0 {2,S} {9,D}
+6     C     0 {3,S} {10,S}
+7     O     0 {1,S}
+8     C     0 {4,S}
+9     C     0 {5,D}
+10    C     0 {6,S}
 """,
     product1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -1276,9 +1276,9 @@ CH3OSi(O)OC2H3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1291,9 +1291,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product1 = 
 """
@@ -1315,9 +1315,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1330,9 +1330,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product1 = 
 """
@@ -1354,9 +1354,9 @@ CH2OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [

@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = ""
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -14,9 +14,9 @@ entry(
 1     C 2T {2,D}
 2     C 0 {1,D}
 """,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -32,9 +32,9 @@ entry(
 1     C 2T {2,S}
 2     R!H 0 {1,S}
 """,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -51,9 +51,9 @@ entry(
 2     O 0 {1,S} {3,S}
 3     O 0 {2,S}
 """,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -70,9 +70,9 @@ entry(
 2     O 0 {1,S} {3,S}
 3     O 1 {2,S}
 """,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -89,9 +89,9 @@ entry(
 2     O 0 {1,S} {3,S}
 3     O 1 {2,S}
 """,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -109,9 +109,9 @@ entry(
 3     O 0 {2,S} {4,S}
 4     O 0 {3,S}
 """,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -129,9 +129,9 @@ entry(
 3     O 0 {2,S} {4,S}
 4     O 1 {3,S}
 """,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -149,9 +149,9 @@ entry(
 3     O 0 {2,S} {4,S}
 4     O 1 {3,S}
 """,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -169,9 +169,9 @@ entry(
 3     C 0 {1,S} {4,T}
 4     C 0 {1,S} {3,T}
 """,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -190,9 +190,9 @@ entry(
 4     H 0 {3,S}
 5     H 0 {3,S}
 """,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,

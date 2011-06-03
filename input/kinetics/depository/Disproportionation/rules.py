@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Disproportionation/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -28,9 +28,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """Default""",
+    shortDesc = u"""Default""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -65,9 +65,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review: i-C3H7 + O2 = HO2 + C3H6
 
@@ -118,9 +118,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH2(triplet) + i-C3H7 --> C3H6 + CH3
 
@@ -163,9 +163,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  H + i-C3H7 --> C3H6 + H2
 
@@ -207,9 +207,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] Literature review.""",
+    shortDesc = u"""Tsang [89] Literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F.; Journal of Physical and Chemical Reference Data (1986) 15(3), 1087-1279.
 Literature review.  H + C2H5 --> C2H4 + H2
 
@@ -254,9 +254,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH3 + i-C3H7 --> C3H6 + CH4
 
@@ -317,9 +317,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H5 + i-C3H7 --> C3H6 + C2H6
 
@@ -366,9 +366,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] Literature review.""",
+    shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + iC3H7 --> C3H6 + C3H6
 
@@ -416,9 +416,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH2OH + i-C3H7 --> C3H6 + CH3OH
 
@@ -463,9 +463,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  i-C3H7 + i-C3H7 --> C3H6 + C3H8
 
@@ -511,9 +511,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] Literature review.""",
+    shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: t-C4H9 + i-C3H7 --> C3H6 + i-C4H10
 
@@ -559,9 +559,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H3 + i-C3H7 --> C3H6 + C2H4
 
@@ -606,9 +606,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H + i-C3H7 --> C3H6 + C2H2
 
@@ -651,9 +651,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  OH + i-C3H7 --> C3H6 + H2O
 
@@ -695,9 +695,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al [95] literature review.""",
+    shortDesc = u"""Baulch et al [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; Troe, J.; Walker, R.W.; Warnatz, J.; Journal of Physical and Chemical Reference Data (1992), 21(3), 411-734.
 pg.523: Discussion of evaluated data
 
@@ -739,9 +739,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review: n-C3H7 + O2 = HO2 + C3H6
 
@@ -791,9 +791,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH2_triplet + n-C3H7 --> C3H6 + CH3
 
@@ -837,9 +837,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  H + n-C3H7 --> C3H6 + H2
 
@@ -884,9 +884,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH3 + n-C3H7 --> C3H6 + CH4
 
@@ -935,9 +935,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H5 + n-C3H7 --> C3H6 + C2H6
 
@@ -986,9 +986,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] Literature review.""",
+    shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + nC3H7 --> C3H6 + C3H6
 
@@ -1036,9 +1036,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  CH2OH + n-C3H7 --> C3H6 + CH3OH
 
@@ -1084,9 +1084,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  i-C3H7 + n-C3H7 --> C3H6 + C3H8
 
@@ -1134,9 +1134,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] Literature review.""",
+    shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: t-C4H9 + n-C3H7 --> C3H6 + i-C4H10
 
@@ -1183,9 +1183,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H3 + n-C3H7 --> C3H6 + C2H4
 
@@ -1228,9 +1228,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  C2H + n-C3H7 --> C3H6 + C2H2
 
@@ -1274,9 +1274,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review.  OH + n-C3H7 --> C3H6 + H2O
 
@@ -1319,9 +1319,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] Literature review.""",
+    shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: O2 + iC4H9 --> iC4H8 + HO2
 
@@ -1368,9 +1368,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] Literature review.""",
+    shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: C2H + i-C4H9 --> i-C4H8 + C2H2
 
@@ -1414,9 +1414,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] Literature review.""",
+    shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: H + i-C4H9 --> i-C4H8 + H2
 
@@ -1464,9 +1464,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] Literature review.""",
+    shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: CH3 + i-C4H9 --> i-C4H8 + CH4
 
@@ -1512,9 +1512,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] Literature review.""",
+    shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: C2H5 + i-C4H9 --> i-C4H8 + C2H6
 
@@ -1562,9 +1562,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] Literature review.""",
+    shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: CH2OH + i-C4H9 --> i-C4H8 + CH3OH
 
@@ -1615,9 +1615,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] Literature review.""",
+    shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + iC4H9 --> iC4H8 + C3H6
 
@@ -1664,9 +1664,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] Literature review.""",
+    shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: i-C3H7 + i-C4H9 --> i-C4H8 + C3H8
 
@@ -1716,9 +1716,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] Literature review.""",
+    shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: t-C4H9 + i-C4H9 --> i-C4H8 + i-C4H10
 
@@ -1768,9 +1768,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] Literature review.""",
+    shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: C2H3 + i-C4H9 --> i-C4H8 + C2H4
 
@@ -1813,9 +1813,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] Literature review.""",
+    shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: OH + i-C4H9 --> i-C4H8 + H2O
 
@@ -1857,9 +1857,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] Literature review.""",
+    shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: O2 + C3H5 --> H2C=C=CH2 + HO2
 
@@ -1909,9 +1909,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] Literature review.""",
+    shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: H + C3H5 --> H2C=C=CH2 + H2
 
@@ -1954,9 +1954,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] Literature review.""",
+    shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: CH3 + C3H5 --> H2C=C=CH2 + CH4
 
@@ -2008,9 +2008,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] Literature review.""",
+    shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C2H5 + C3H5 --> H2C=C=CH2 + C2H6
 
@@ -2055,9 +2055,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] Literature review.""",
+    shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + C3H5 --> H2C=C=CH2 + C3H6
 
@@ -2102,9 +2102,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] Literature review.""",
+    shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: iC3H7 + C3H5 --> H2C=C=CH2 + C3H8
 
@@ -2150,9 +2150,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] Literature review.""",
+    shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: tC4H9 + C3H5 --> H2C=C=CH2 + iC4H10
 
@@ -2197,9 +2197,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] Literature review.""",
+    shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C2H3 + C3H5 --> H2C=C=CH2 + C2H4
 
@@ -2240,9 +2240,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] Literature review.""",
+    shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: OH + C3H5 --> H2C=C=CH2 + H2O
 
@@ -2282,9 +2282,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Atkinson et al [98] literature review.""",
+    shortDesc = u"""Atkinson et al [98] literature review.""",
     longDesc = 
-"""
+u"""
 [98] Atkinson, R.; Baulch, D.L.; Cox, R.A.; Crowley, J.N.; Hampson, R.F., Jr.; Kerr, J.A.; Rossi, M.J.; Troe, J. "Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry,", 2001.
 Literature review: CH3CHOH + O2 --> CH3CHO + HO2
 
@@ -2325,9 +2325,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Atkinson et al [98] literature review.""",
+    shortDesc = u"""Atkinson et al [98] literature review.""",
     longDesc = 
-"""
+u"""
 [98] Atkinson, R.; Baulch, D.L.; Cox, R.A.; Crowley, J.N.; Hampson, R.F., Jr.; Kerr, J.A.; Rossi, M.J.; Troe, J. "Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry,", 2001.
 Literature review: CH2OH + O2 --> CH2O + HO2
 
@@ -2369,9 +2369,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """DeMore et al [183] literature review.""",
+    shortDesc = u"""DeMore et al [183] literature review.""",
     longDesc = 
-"""
+u"""
 [183] DeMore, W.B.; Sander, S.P.; Golden, D.M.; Hampson, R.F.; Kurylo, M.J.; Howard, C.J.; Ravishankara, A.R.; Kolb, C.E.; Molina, M.J.; JPL Publication 97-4
 Literature review: CH2OH + O2 --> CH2O + HO2
 
@@ -2412,9 +2412,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Grotheer et al [189].""",
+    shortDesc = u"""Grotheer et al [189].""",
     longDesc = 
-"""
+u"""
 [189] Grotheer, H.; Riekert, G.; Walter, D.; Just, T. Symp. Int. Combust. Proc. 1989, 22, 963.
 Absolute value measured directly. Excitation: discharge, analysis: mass spectroscopy. Original uncertainty 3.0E+13
 
@@ -2459,9 +2459,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] Literature review.""",
+    shortDesc = u"""Tsang [90] Literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: CH2 + CH2OH --> CH3 + CH2O
 
@@ -2501,9 +2501,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Edelbuttel-Einhaus et al [190].""",
+    shortDesc = u"""Edelbuttel-Einhaus et al [190].""",
     longDesc = 
-"""
+u"""
 [190] Edelbuttel-Einhaus, J.; Hoyermann, K.; Rohde, G.; Seeba, J. Symp. Int. Combust. Proc. 1992, 22, 661.
 Data derived from fitting to a complex mechanism. Excitation: discharge, analysis: mass spectroscopy. Original uncertainty 1.0E+13
 
@@ -2549,9 +2549,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] Literature review.""",
+    shortDesc = u"""Tsang [90] Literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: H + CH2OH --> H2 + CH2O
 
@@ -2595,9 +2595,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Pagsberg et al [191].""",
+    shortDesc = u"""Pagsberg et al [191].""",
     longDesc = 
-"""
+u"""
 [191] Pagsberg, P.; Munk, J.; Sillesen, A.; Anastasi, C. Chem. Phys. Lett. 1988, 146, 375.
 Absolute value measured directly. Excitatio: electron beam, analysis: Vis-UV absorption.
 
@@ -2647,9 +2647,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] Literature review.""",
+    shortDesc = u"""Tsang [90] Literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: CH3 + CH2OH --> CH4 + CH2O
 
@@ -2694,9 +2694,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] Literature review.""",
+    shortDesc = u"""Tsang [90] Literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: C2H5 + CH2OH --> C2H6 + CH2O
 
@@ -2741,9 +2741,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] Literature review.""",
+    shortDesc = u"""Tsang [93] Literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
 Literature review: C3H5 + CH2OH --> CH2O + C3H6
 
@@ -2788,9 +2788,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] Literature review.""",
+    shortDesc = u"""Tsang [90] Literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: CH2OH + CH2OH --> CH3OH + CH2O
 
@@ -2842,9 +2842,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] Literature review.""",
+    shortDesc = u"""Tsang [91] Literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
 Literature review: CH2OH + i-C3H7 = C3H8 + CH2O
 
@@ -2887,9 +2887,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] Literature review.""",
+    shortDesc = u"""Tsang [92] Literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
 Literature review: t-C4H9 + CH2OH = CH2O + i-C4H10
 
@@ -2936,9 +2936,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] Literature review.""",
+    shortDesc = u"""Tsang [90] Literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: CH2OH + C2H3 --> C2H4 + CH2O
 
@@ -2981,9 +2981,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] Literature review.""",
+    shortDesc = u"""Tsang [90] Literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: C2H + CH2OH --> C2H2 + CH2O
 
@@ -3027,9 +3027,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] Literature review.""",
+    shortDesc = u"""Tsang [90] Literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: HCO + CH2OH --> CH2O + CH2O
 
@@ -3072,9 +3072,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] Literature review.""",
+    shortDesc = u"""Tsang [90] Literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: OH + CH2OH --> H2O + CH2O
 
@@ -3117,9 +3117,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] Literature review.""",
+    shortDesc = u"""Tsang [90] Literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: CH3O + CH2OH --> CH3OH + CH2O
 
@@ -3162,9 +3162,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] Literature review.""",
+    shortDesc = u"""Tsang [90] Literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
 Literature review: HO2 + CH2OH --> CH3OH + H2O2
 
@@ -3207,9 +3207,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 1,
-    shortDesc = """Zador et al.""",
+    shortDesc = u"""Zador et al.""",
     longDesc = 
-"""
+u"""
 (Essentially) Pressure-independent rate coefficient for CH3CHOH + O2 = HO2 + CH3CHO [Zador2009]_.
 
 Authors computed the following PES:
@@ -3273,9 +3273,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [

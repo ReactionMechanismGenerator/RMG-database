@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Cyclic_Ether_Formation"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -42,9 +42,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, R.R.", "Hisham, M.W.M.", "Walker, R.W."], title=u'Arrhenius parameters of elementary reactions involved in the oxidation of neopentane', journal="J. Chem. Soc. Faraday Trans. 1", volume="78", pages="""1615""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -86,9 +87,10 @@ entry(
     ),
     reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -130,9 +132,10 @@ entry(
     ),
     reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),

@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Other Corrections"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -20,9 +20,9 @@ entry(
         H298 = (0,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """dummy root""",
+    shortDesc = u"""dummy root""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -48,9 +48,9 @@ entry(
         H298 = (0,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """All the corrections from this family are from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
+    shortDesc = u"""All the corrections from this family are from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -78,9 +78,9 @@ entry(
         H298 = (-1.6,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """This is correction NN2 from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
+    shortDesc = u"""This is correction NN2 from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -110,9 +110,9 @@ entry(
         H298 = (-0.5,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """This is correction NN1 from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
+    shortDesc = u"""This is correction NN1 from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -143,9 +143,9 @@ entry(
         H298 = (-0.9,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """This is correction NN3 from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
+    shortDesc = u"""This is correction NN3 from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -177,9 +177,9 @@ entry(
         H298 = (0,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """This is correction NN0 from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
+    shortDesc = u"""This is correction NN0 from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -206,9 +206,9 @@ entry(
         H298 = (1,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """Cis double bond interaction BENSON""",
+    shortDesc = u"""Cis double bond interaction BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -238,9 +238,9 @@ entry(
         H298 = (1,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -273,9 +273,9 @@ entry(
         H298 = (1,"kcal/mol"),
         S298 = (1.2,"cal/(mol*K)"),
     ),
-    shortDesc = """The entropy correction for 2-cis-butene is not zero BENSON""",
+    shortDesc = u"""The entropy correction for 2-cis-butene is not zero BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -308,9 +308,9 @@ entry(
         H298 = (4,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """Cis double bond interaction involving tertiary butyl group BENSON""",
+    shortDesc = u"""Cis double bond interaction involving tertiary butyl group BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -343,9 +343,9 @@ entry(
         H298 = (1,"kcal/mol"),
         S298 = (-0.6,"cal/(mol*K)"),
     ),
-    shortDesc = """The entropy correction for 2-cis-butene is not zero BENSON""",
+    shortDesc = u"""The entropy correction for 2-cis-butene is not zero BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -378,9 +378,9 @@ entry(
         H298 = (4,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """Cis double bond interaction involving tertiary butyl group BENSON""",
+    shortDesc = u"""Cis double bond interaction involving tertiary butyl group BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -413,9 +413,9 @@ entry(
         H298 = (10,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """Cis double bond interaction invloving two tertiary butyl groups BENSON""",
+    shortDesc = u"""Cis double bond interaction invloving two tertiary butyl groups BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -442,9 +442,9 @@ entry(
         H298 = (3,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """2 Cis interactions around a double bond BENSON""",
+    shortDesc = u"""2 Cis interactions around a double bond BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -471,9 +471,9 @@ entry(
         H298 = (0.57,"kcal/mol"),
         S298 = (-1.61,"cal/(mol*K)"),
     ),
-    shortDesc = """Ortho correction from BENSON""",
+    shortDesc = u"""Ortho correction from BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,

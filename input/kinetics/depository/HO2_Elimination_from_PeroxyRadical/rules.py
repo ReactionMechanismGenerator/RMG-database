@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "HO2_Elimination_from_PeroxyRadical/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 General comments go at the top of the file,
 
 or in a section(s) titled 'General'
@@ -33,9 +33,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -69,9 +69,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -105,9 +105,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -141,9 +141,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -177,9 +177,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -213,9 +213,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -249,9 +249,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -285,9 +285,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -321,9 +321,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -357,9 +357,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -397,9 +397,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations with 1d h.r. corrections.""",
+    shortDesc = u"""MRH CBS-QB3 calculations with 1d h.r. corrections.""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations for the reaction CH3-CH(OO)-CH=CH2 => CH2=CH-CH=CH2 + HO2
 
 Previous RMG estimate for this reaction was an "Average of average" estimate.  This reaction was of
@@ -449,9 +449,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Same as node 845 (MRH assumption)""",
+    shortDesc = u"""Same as node 845 (MRH assumption)""",
     longDesc = 
-"""
+u"""
 MRH approximation for the general R2OO_2H_HDe node
 
 MRH computed the rate coefficient for the reaction CH3-CH(OO)-CH=CH2 => CH2=CH-CH=CH2 + HO2 (see node 845).

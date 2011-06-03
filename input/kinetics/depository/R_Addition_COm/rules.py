@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "R_Addition_COm/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -30,9 +30,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -63,9 +63,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Arai et al [102].""",
+    shortDesc = u"""Arai et al [102].""",
     longDesc = 
-"""
+u"""
 [102] Arai, H.; Nagai, S.; Hatada, M.; Radiat. Phys. Chem. 1981, 17, 211.
 CO + H --> HCO. Data estimated
 
@@ -145,9 +145,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Gordon et al [103].""",
+    shortDesc = u"""Gordon et al [103].""",
     longDesc = 
-"""
+u"""
 [103] Gordon, E.B.; Ivanov, B.I; Perminov, A.P; Balalaev, V.E. Chem. Phys. 1978, 35, 79.
 CO + H --> HCO.
 
@@ -200,9 +200,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [94]""",
+    shortDesc = u"""Baulch et al. [94]""",
     longDesc = 
-"""
+u"""
 [94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
@@ -253,9 +253,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al [89] literature review.""",
+    shortDesc = u"""Tsang et al [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J.Phys. Chem. Ref. Data 1986, 15, 1087.
 CO + C2H5 --> C2H5CO.
 
@@ -303,9 +303,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al [89] literature review.""",
+    shortDesc = u"""Tsang et al [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J.Phys. Chem. Ref. Data 1986, 15, 1087.
 CO + C2H3 --> CH2=CHCO.
 
@@ -355,9 +355,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Nam et al [104].""",
+    shortDesc = u"""Nam et al [104].""",
     longDesc = 
-"""
+u"""
 [104] Nam, G.-J.; Xia, W.; Park, J.; Lin, M. Phys. Chem. A 2000, 104, 1233.	
 Phenyl + CO --> Benzoyl. Original deltaA = 2.8E+11
 
@@ -452,9 +452,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Wang et al. [105].""",
+    shortDesc = u"""Wang et al. [105].""",
     longDesc = 
-"""
+u"""
 [105] Wang, B.; Hou, H.; Gu, Y. Phys. Chem. A 1999, 103, 8021.
 RRK(M) extrapolation. CH3O + CO --> CH3OCO, 250K and 2500K
 

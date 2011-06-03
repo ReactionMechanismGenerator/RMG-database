@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Birad_recombination/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -30,9 +30,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """Default""",
+    shortDesc = u"""Default""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -75,9 +75,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """[186] Benson et al.""",
+    shortDesc = u"""[186] Benson et al.""",
     longDesc = 
-"""
+u"""
 [186] Benson, S.W. J. Chem. Phys. 1967, 46, 4920.
 
 CH2=CHCH(.)CH2CH2CH(.)CH=CH2 --> 4-vinylcyclohexene. (Rxn. -c); arises from birad recombination of resonance isomer: .CH2CH=CHCH2CH2CH(.)CH=CH2
@@ -127,9 +127,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """[x] Sirjean et al.""",
+    shortDesc = u"""[x] Sirjean et al.""",
     longDesc = 
-"""
+u"""
 [x] Sirjean, B.; Glaude, P. A.; Ruiz-Lopez, M. F.; Fournet, R.; J. Phys. Chem. A. 2006, 110, 12693-12704. 
 http://dx.doi.org/10.1021/jp0651081
 .CH2CH2CH2CH2CH2. -> cyclopentane (k4-1 in Scheme 5/Table 7)
@@ -178,9 +178,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """[x] Sirjean et al.""",
+    shortDesc = u"""[x] Sirjean et al.""",
     longDesc = 
-"""
+u"""
 [x] Sirjean, B.; Glaude, P. A.; Ruiz-Lopez, M. F.; Fournet, R.; J. Phys. Chem. A. 2006, 110, 12693-12704. 
 http://dx.doi.org/10.1021/jp0651081
 .CH2CH2CH2CH2CH2CH2. -> cyclohexane (k5-1+k5-2 in Scheme 7/Table 10) (includes formation of both boat and chair conformations)

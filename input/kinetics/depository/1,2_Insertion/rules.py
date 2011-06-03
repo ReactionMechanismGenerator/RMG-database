@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "1,2_Insertion/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 553 - 559 Some of the tortional motions in the alkyl part of the 
 
 transition states are treated as free rotations as they are relatively loose TSs.
@@ -29,9 +29,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """Default""",
+    shortDesc = u"""Default""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -69,9 +69,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -103,9 +103,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -140,9 +140,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -177,9 +177,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -214,9 +214,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -251,9 +251,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -286,9 +286,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations by Franklin, 2010""",
+    shortDesc = u"""CBS-QB3 calculations by Franklin, 2010""",
     longDesc = 
-"""
+u"""
 CBS-QB3 calculations by CFG, Jan 2010 
 Methyl group was hindered rotor. ester CO bond also a rotor.
 """,

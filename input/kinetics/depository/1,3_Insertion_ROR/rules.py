@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "1,3_Insertion_ROR/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 561 - 570 Some of the tortional motions in the alkyl part of the 
 
 transition states are treated as free rotations as they are relatively loose TSs.
@@ -25,9 +25,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """Default""",
+    shortDesc = u"""Default""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -67,9 +67,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -109,9 +109,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -151,9 +151,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -189,9 +189,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -227,9 +227,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -265,9 +265,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -304,9 +304,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -343,9 +343,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -382,9 +382,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -421,9 +421,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
+    shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [

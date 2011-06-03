@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "H_Abstraction/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 General comments go at the top of the file,
 
 or in a section(s) titled 'General'
@@ -42,9 +42,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """Default""",
+    shortDesc = u"""Default""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -75,9 +75,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Dean, A. M. [118]""",
+    shortDesc = u"""Dean, A. M. [118]""",
     longDesc = 
-"""
+u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
@@ -108,9 +108,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Dean, A. M. [118]""",
+    shortDesc = u"""Dean, A. M. [118]""",
     longDesc = 
-"""
+u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
@@ -142,9 +142,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Dean, A. M. [118]""",
+    shortDesc = u"""Dean, A. M. [118]""",
     longDesc = 
-"""
+u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
@@ -176,9 +176,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Dean, A. M. [118]""",
+    shortDesc = u"""Dean, A. M. [118]""",
     longDesc = 
-"""
+u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
@@ -212,9 +212,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Dean, A. M. [118]""",
+    shortDesc = u"""Dean, A. M. [118]""",
     longDesc = 
-"""
+u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
@@ -251,9 +251,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -290,9 +290,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -329,9 +329,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -368,9 +368,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -407,9 +407,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -446,9 +446,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -485,9 +485,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -524,9 +524,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -563,9 +563,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -602,9 +602,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -641,9 +641,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -680,9 +680,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -719,9 +719,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -755,9 +755,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -791,9 +791,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -827,9 +827,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -863,9 +863,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -897,9 +897,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -939,9 +939,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -981,9 +981,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -1023,9 +1023,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom. Primary vinylic {Cd/H2}""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Primary vinylic {Cd/H2}""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -1065,9 +1065,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom. Ketene hydrogen {CCO/H2}""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Ketene hydrogen {CCO/H2}""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -1100,9 +1100,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom. Allene hydrogen {Cd/H2/Ca}""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Allene hydrogen {Cd/H2/Ca}""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -1135,9 +1135,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -1178,9 +1178,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -1221,9 +1221,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom. Primary allylic hydrogen {C/Cd/C/H2}""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Primary allylic hydrogen {C/Cd/C/H2}""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -1264,9 +1264,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom. Primary propergylic {C/Ct/C/H2}""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Primary propergylic {C/Ct/C/H2}""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -1307,9 +1307,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom. Secondary allylic hydrogen {C/Cd/C2/H}""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Secondary allylic hydrogen {C/Cd/C2/H}""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -1350,9 +1350,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom. Secondary propergylic {C/Ct/C2/H}""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Secondary propergylic {C/Ct/C2/H}""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -1393,9 +1393,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -1435,9 +1435,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom. Dienylic {Cd/Cd/H}""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Dienylic {Cd/Cd/H}""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -1477,9 +1477,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom. Eneynic {Cd/Ct/H}""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Eneynic {Cd/Ct/H}""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -1518,9 +1518,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -1567,9 +1567,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -1609,9 +1609,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -1643,9 +1643,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -1681,9 +1681,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -1720,9 +1720,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -1757,9 +1757,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -1795,9 +1795,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -1832,9 +1832,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom. Olefinic alcohol {O/Cd/H}""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Olefinic alcohol {O/Cd/H}""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -1866,9 +1866,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom. Acid O-H {O/CO/H}""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Acid O-H {O/CO/H}""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -1911,9 +1911,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
@@ -1950,9 +1950,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom. 
 Same reaction as #19. 
 
@@ -2002,9 +2002,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2041,9 +2041,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2080,9 +2080,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2119,9 +2119,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2158,9 +2158,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2197,9 +2197,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2236,9 +2236,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2275,9 +2275,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2314,9 +2314,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2353,9 +2353,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2392,9 +2392,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2431,9 +2431,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2470,9 +2470,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2509,9 +2509,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2548,9 +2548,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2587,9 +2587,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2626,9 +2626,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2665,9 +2665,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2704,9 +2704,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2742,9 +2742,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2780,9 +2780,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2818,9 +2818,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2856,9 +2856,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2894,9 +2894,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2931,9 +2931,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -2969,9 +2969,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3008,9 +3008,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3047,9 +3047,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3086,9 +3086,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3125,9 +3125,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3161,9 +3161,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3200,9 +3200,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3239,9 +3239,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3277,9 +3277,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3316,9 +3316,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3352,9 +3352,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3391,9 +3391,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3430,9 +3430,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3468,9 +3468,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3507,9 +3507,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3546,9 +3546,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3585,9 +3585,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3624,9 +3624,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3663,9 +3663,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3701,9 +3701,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3739,9 +3739,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3778,9 +3778,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3817,9 +3817,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3856,9 +3856,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3891,9 +3891,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3929,9 +3929,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -3967,9 +3967,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4004,9 +4004,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4042,9 +4042,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4080,9 +4080,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4118,9 +4118,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4156,9 +4156,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4194,9 +4194,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4231,9 +4231,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4268,9 +4268,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4306,9 +4306,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4344,9 +4344,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4382,9 +4382,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4418,9 +4418,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4457,9 +4457,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4496,9 +4496,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4534,9 +4534,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4573,9 +4573,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4612,9 +4612,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4651,9 +4651,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4690,9 +4690,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4729,9 +4729,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4767,9 +4767,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4805,9 +4805,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4844,9 +4844,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4883,9 +4883,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4922,9 +4922,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4955,9 +4955,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -4991,9 +4991,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -5027,9 +5027,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -5062,9 +5062,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -5098,9 +5098,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -5134,9 +5134,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -5170,9 +5170,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -5206,9 +5206,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -5242,9 +5242,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -5277,9 +5277,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -5312,9 +5312,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -5348,9 +5348,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -5384,9 +5384,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -5420,9 +5420,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
@@ -5457,9 +5457,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels. Fixed by RWest (changed to per H)""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. Fixed by RWest (changed to per H)""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
 
 Rate expressions for H atom abstraction from fuels. 
@@ -5508,9 +5508,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 http://dx.doi.org/10.1016/S0010-2180(01)00373-X
 
@@ -5558,9 +5558,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 http://dx.doi.org/10.1016/S0010-2180(01)00373-X
 
@@ -5603,9 +5603,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -5647,9 +5647,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -5692,9 +5692,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -5741,9 +5741,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -5785,9 +5785,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -5830,9 +5830,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -5872,9 +5872,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -5917,9 +5917,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -5962,9 +5962,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -6004,9 +6004,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -6049,9 +6049,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -6094,9 +6094,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -6133,9 +6133,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [89] literature review.""",
+    shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2 + O2 --> H + HO2 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -6179,9 +6179,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Knyazev et al. [119] Transition state theory.""",
+    shortDesc = u"""Knyazev et al. [119] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [119] Knyazev, V.D; Bencsura, A.; Stoliarov, S.I.; Slagle, I.R. J. Phys. Chem. 1996, 100, 11346.
 H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2 ( from A = 9.45E+03), to get rate expression per H atom.
 """,
@@ -6215,9 +6215,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mebel et al. [120] Transition state theory.""",
+    shortDesc = u"""Mebel et al. [120] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [120] Mebel, A.M.; Morokuma, K.; Lin, M.C. J Chem. Phys. 1995, 103, 3440.
 H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 """,
@@ -6251,9 +6251,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Weissman et al. [121] Transition state theory.""",
+    shortDesc = u"""Weissman et al. [121] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [121] Weissman, M.A.; Benson, S.W. J. Phys. Chem. 1988, 92, 4080.
 H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2 ( from A = 3.15E+09), to get rate expression per H atom.
 """,
@@ -6286,9 +6286,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [94] literature review.""",
+    shortDesc = u"""Baulch et al. [94] literature review.""",
     longDesc = 
-"""
+u"""
 [94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
@@ -6336,9 +6336,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mebel et al. [122] Transition state theory.""",
+    shortDesc = u"""Mebel et al. [122] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [122] Mebel, A.M.; Lin, M.C.; Yu, T.; Morokuma, K. J. Phys. Chem. A. 1997, 101, 3189.
 H2 + phenyl --> H + benzene C.D.W divided original rate expression by 2 ( from A = 5.71E+04), to get rate expression per H atom.
 """,
@@ -6372,9 +6372,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [89] literature review.""",
+    shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2 + HCO --> H + CH2O C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -6418,9 +6418,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [89] literature review.""",
+    shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2 + CH3CO --> H + CH3CHO C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -6465,9 +6465,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Isaacson [123] Transition state theory.""",
+    shortDesc = u"""Isaacson [123] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [123] Isaacson, A.D. J. Chem. Phys. 1997, 107, 3832.
 H2 + O2 --> H + H2O C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -6508,9 +6508,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Jodkowski et al. [100] ab initio calculations.""",
+    shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6545,9 +6545,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [95] literature review.""",
+    shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -6598,9 +6598,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [89] literature review.""",
+    shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + C2H5 --> CH3 + C2H6 C.D.W divided original rate expression by 4, to get rate expression per H atom.
 
@@ -6648,9 +6648,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [91] literature review.""",
+    shortDesc = u"""Tsang et al. [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 CH4 + iso-C3H7 --> CH3 + C3H8 C.D.W divided original rate expression by 4, to get rate expression per H atom.
 
@@ -6697,9 +6697,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [89] literature review.""",
+    shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + C2H --> CH3 + C2H2 C.D.W divided original rate expression by 4, to get rate expression per H atom.
 
@@ -6749,9 +6749,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Heckmann et al. [124]""",
+    shortDesc = u"""Heckmann et al. [124]""",
     longDesc = 
-"""
+u"""
 [124] Heckmann, E.; Hippler, H. Troe, J. Sypm. Int. Combust. Proc. 1996, 26, 543.
 Absolute value measured directly (excitation technique: thermal, analytical technique: vis-UV absorption) CH4 + phenyl --> benzene
 
@@ -6790,9 +6790,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [89] literature review.""",
+    shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + HCO --> CH3 + CH2O C.D.W divided original rate expression by 4, to get rate expression per H atom.
 
@@ -6839,9 +6839,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [89] literature review.""",
+    shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + CH3CO --> CH3 + CH3CHO C.D.W divided original rate expression by 4, to get rate expression per H atom.
 
@@ -6887,9 +6887,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Melissas and Truhlar [125] Transition state theory.""",
+    shortDesc = u"""Melissas and Truhlar [125] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [125] Melissas, V.S.; Truhlar, D.G. J. Chem. Phys. 1993,99,1010.
 CH4 + OH --> CH3 + H2O C.D.W divided original rate expression by 4, to get rate expression per H atom.
 """,
@@ -6925,9 +6925,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [95] literature review.""",
+    shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -6977,9 +6977,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Cohen et al. [101] Transition state theory.""",
+    shortDesc = u"""Cohen et al. [101] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [101] Cohen, N. Int. J. Chem. Kinet. 1991, 23, 397.
 CH4 + OH --> CH3 + H2O C.D.W divided original rate expression by 4, to get rate expression per H atom.
 """,
@@ -7015,9 +7015,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Jodkowski et al. [100] ab initio calculations.""",
+    shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
     longDesc = 
-"""
+u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 CH4 + CH3O --> CH3 + CH3OH The calculated reverse rate constants are in good agreement with experiment. (Rxn. -R3 in paper)
 
@@ -7057,9 +7057,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [89] literature review.""",
+    shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH4 + HO2 --> CH3 + H2O2 C.D.W divided original rate expression by 4, to get rate expression per H atom.
 
@@ -7105,9 +7105,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [95] literature review.""",
+    shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -7162,9 +7162,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [89] literature review.""",
+    shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H6 + C2H --> C2H5 + C2H2 C.D.W divided original rate expression by 6, to get rate expression per H atom.
 
@@ -7213,9 +7213,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Park et al. [126]""",
+    shortDesc = u"""Park et al. [126]""",
     longDesc = 
-"""
+u"""
 [126] Park, J.; Gheyas, S.; Lin, M.C. Int. J. Chem. Kinet. 2001, 33, 64.
 Absolute value measured directly. Static or low flow, flash photolysis excitation, Vis-UV absoprtion analysis. 
 
@@ -7258,9 +7258,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [89] literature review.""",
+    shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H6 + HCO --> C2H5 + CH2O C.D.W divided original rate expression by 6(from A = 4.69E+04), to get rate expression per H atom.
 
@@ -7307,9 +7307,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [89] literature review.""",
+    shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H6 + CH3CO --> C2H5 + CH3CHO C.D.W divided original rate expression by 6(from A = 1.81E+04), to get rate expression per H atom.
 
@@ -7356,9 +7356,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [95] literature review.""",
+    shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -7408,9 +7408,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Taylor et al. [127] Transition state theory.""",
+    shortDesc = u"""Taylor et al. [127] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [127] Taylor, P.H.; Rahman, M.S.; Arif, M.; Dellinger, B.; Marshall, P. Sypm. Int. Combust. Proc. 1996, 26, 497.
 CH3CHO + OH --> CH2CHO + H2O Rate constant is high pressure limit (pressure 0.13-0.97atm?) 
 
@@ -7450,9 +7450,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Jodkowski et al. [100] ab initio calculations.""",
+    shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
     longDesc = 
-"""
+u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 CH3OH + CH3 --> CH2OH + CH4 The calculated rate constants are in good agreement with experiment. (Rxn. R4 in paper)
 
@@ -7492,9 +7492,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Jodkowski et al. [100] ab initio calculations.""",
+    shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
     longDesc = 
-"""
+u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 CH3OH + OH --> CH2OH + H2O The calculated rate constants are in good agreement with experiment. (Rxn. R6 in paper)
 
@@ -7535,9 +7535,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + O2 --> iso-C3H7 + HO2  C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -7589,9 +7589,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + CH2 --> iso-C3H7 + CH3  C.D.W divided original rate expression by 2(from A = 1.51), to get rate expression per H atom.
 
@@ -7636,9 +7636,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + O --> iso-C3H7 + OH  C.D.W divided original rate expression by 2(from A = 4.77E+04), to get rate expression per H atom.
 
@@ -7689,9 +7689,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + CH2OH --> iso-C3H7 + CH3OH  C.D.W divided original rate expression by 2(from A = 6.03E+01), to get rate expression per H atom.
 
@@ -7746,9 +7746,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + C2H3 --> iso-C3H7 + C2H4  C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -7797,9 +7797,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + C2H --> iso-C3H7 + C2H2  C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -7850,9 +7850,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + HCO --> iso-C3H7 + CH2O  C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -7901,9 +7901,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + CH3CO --> iso-C3H7 + CH3CHO  C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -7951,9 +7951,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Cohen et al. [101] Transition state theory.""",
+    shortDesc = u"""Cohen et al. [101] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [101] Cohen, N. Int. J. Chem. Kinet. 1991, 23, 397.
 C3H8 + OH --> iso-C3H7 + H20  C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -7991,9 +7991,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C3H8 + CH3O --> iso-C3H7 + CH3OH  C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -8044,9 +8044,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + O2 --> tert-C4H9 + HO2
 
@@ -8097,9 +8097,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + O --> tert-C4H9 + OH
 
@@ -8152,9 +8152,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + CH2 --> tert-C4H9 + CH3
 
@@ -8205,9 +8205,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + C2H3 --> tert-C4H9 + C2H4
 
@@ -8257,9 +8257,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + C2H --> tert-C4H9 + C2H2
 
@@ -8311,9 +8311,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + HCO --> tert-C4H9 + CH2O
 
@@ -8366,9 +8366,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + CH3CO --> tert-C4H9 + CH3CHO
 
@@ -8417,9 +8417,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Cohen et al. [101] Transition state theory.""",
+    shortDesc = u"""Cohen et al. [101] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [101] Cohen, N. Int. J. Chem. Kinet. 1991, 23, 397.
 Iso-C4H10 + OH --> tert-C4H9 + H2O
 
@@ -8457,9 +8457,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C4H10 + CH3O --> tert-C4H9 + CH3OH
 
@@ -8514,9 +8514,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Hua, Ruscic, and Wang 2005, transition state theory.""",
+    shortDesc = u"""Hua, Ruscic, and Wang 2005, transition state theory.""",
     longDesc = 
-"""
+u"""
 FORMER RATES
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H4 + O2 --> C2H3 + HO2 C.D.W divided original rate expression by 4, to get rate expression per H atom.
@@ -8572,9 +8572,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mahmud et al. [128] Transition state theory""",
+    shortDesc = u"""Mahmud et al. [128] Transition state theory""",
     longDesc = 
-"""
+u"""
 [128] Mahmud, K.; Marshall, P.; Fontijn, A. J Phys. Chem. 1987, 91, `568.
 C2H4 + O --> C2H3 + OH C.D.W divided original rate expression by 4(from A= 1.51E+07), to get rate expression per H atom.
 """,
@@ -8611,9 +8611,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H4 + C2H5 --> C2H3 + C2H6 C.D.W divided original rate expression by 4, to get rate expression per H atom.
 
@@ -8660,9 +8660,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [95] literature review.""",
+    shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -8708,9 +8708,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] literature review.""",
+    shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + O --> CH3C=CH2 + OH
 
@@ -8763,9 +8763,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] literature review.""",
+    shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + H --> CH3C=CH2 + H2
 
@@ -8816,9 +8816,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] literature review.""",
+    shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + CH3 --> CH3C=CH2 + CH4
 
@@ -8867,9 +8867,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] literature review.""",
+    shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + C2H3 --> CH3C=CH2 + C2H4
 
@@ -8918,9 +8918,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] literature review.""",
+    shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + C2H --> CH3C=CH2 + C2H2 
 
@@ -8965,9 +8965,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] literature review.""",
+    shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + OH --> CH3C=CH2 + H2O
 
@@ -9017,9 +9017,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H2 + O2 --> C2H + HO2 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -9067,9 +9067,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H2 + C2H5 --> C2H + C2H6 C.D.W divided original rate expression by 2 (from A= 2.71E+11), to get rate expression per H atom.
 
@@ -9113,9 +9113,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H2 + OH --> C2H + H2O C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -9160,9 +9160,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Asaba et al. [129]. Data are estimated.""",
+    shortDesc = u"""Asaba et al. [129]. Data are estimated.""",
     longDesc = 
-"""
+u"""
 [129] Asaba, T.; Fujii, N.; Proc. Int. Symp. Shock Tubes Waves 1971, 8, 1.
 Benzene + O2 --> phenyl + HO2 C.D.W divided original rate expression by 6(from A = 6.31E+13), to get rate expression per H atom.
 """,
@@ -9196,9 +9196,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Mebel et al. [122] RRK(M) extrapolation.""",
+    shortDesc = u"""Mebel et al. [122] RRK(M) extrapolation.""",
     longDesc = 
-"""
+u"""
 [122] Mebel, A.M.; Lin, M.C.; Yu, T.; Morokuma, K. J. Phys. Chem. A. 1997, 101, 3189.
 Rate constant is high pressure limit. Benzene + H --> phenyl + H2
 
@@ -9234,9 +9234,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Nicovich et al. [130]""",
+    shortDesc = u"""Nicovich et al. [130]""",
     longDesc = 
-"""
+u"""
 [130] Nicovich, J.M.; Ravishankara, A.R. J. Phys. Chem. 1984, 88, 2534.
 Pressure 0.01-0.26 atm Excitation: flash photolysis, analysis: resonance fluorescence. Benzene + H --> phenyl + H2
 
@@ -9275,9 +9275,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Zhang et al. [131]""",
+    shortDesc = u"""Zhang et al. [131]""",
     longDesc = 
-"""
+u"""
 [131] Zhang, H.X.; Ahonkhai, S.I. Back, H.M. Can. J. Chem. 1989, 67, 1541.
 Pressure 0.30-0.50 atm Excitation: thermal, analysis: GC. Benzene + C2H5 --> phenyl + C2H6
 
@@ -9314,9 +9314,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [95] literature review.""",
+    shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -9365,9 +9365,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Michael et al. [132] Transition state theory.""",
+    shortDesc = u"""Michael et al. [132] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [132] Michael, J.V.; Kumaran, S.S.; Su, M.-C. J. Phys. Chem. A. 1999, 103, 5942.
 CH2O + O2 --> HCO + HO2 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 """,
@@ -9401,9 +9401,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [95] literature review.""",
+    shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -9452,9 +9452,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 Rate constant is an upper limit. CH2O + CH2 --> HCO + CH3
 
@@ -9504,9 +9504,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [94] literature review.""",
+    shortDesc = u"""Baulch et al. [94] literature review.""",
     longDesc = 
-"""
+u"""
 [94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
@@ -9557,9 +9557,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH2O + C2H5 --> HCO + C2H6 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -9608,9 +9608,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 CH2O + iso-C3H7 --> HCO + C3H8 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -9661,9 +9661,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 CH2O + tert-C4H9 --> HCO + iso-C4H10 C.D.W divided original rate expression by 2 (from A= 3.25E+09), to get rate expression per H atom.
 
@@ -9715,9 +9715,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH2O + C2H3 --> HCO + C2H4 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -9765,9 +9765,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH2O + CH3CO --> HCO + CH3CHO C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -9812,9 +9812,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [95] literature review.""",
+    shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -9862,9 +9862,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH2O + CH3O --> HCO + CH3OH C.D.W divided original rate expression by 2, to get rate expression per H atom.
 
@@ -9911,9 +9911,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Eiteneer et al. [133] literature review.""",
+    shortDesc = u"""Eiteneer et al. [133] literature review.""",
     longDesc = 
-"""
+u"""
 [133] Eiteneer, B.; Yu, C.-L.; Goldenberg, M.; Frenklach, M. J. Phys. Chem. A. 1998, 102, 5196.
 CH2O + HO2 --> HCO + H2O2 C.D.W divided original rate expression by 2 (from A= 4.11E+04), to get rate expression per H atom.
 """,
@@ -9948,9 +9948,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [95] literature review.""",
+    shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -9999,9 +9999,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Warnatz [134] literature review""",
+    shortDesc = u"""Warnatz [134] literature review""",
     longDesc = 
-"""
+u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3CHO + O --> CH3CO + OH
 """,
@@ -10035,9 +10035,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Warnatz [134] literature review""",
+    shortDesc = u"""Warnatz [134] literature review""",
     longDesc = 
-"""
+u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3CHO + H --> CH3CO + H2
 """,
@@ -10074,9 +10074,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [95] literature review.""",
+    shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -10128,9 +10128,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Loser et al. [135] bond strength-bond length method.""",
+    shortDesc = u"""Loser et al. [135] bond strength-bond length method.""",
     longDesc = 
-"""
+u"""
 [135] Loser, U.; Scherzer, K.; Weber, K. Z. Phys. Chem. (Leipzig) 1989, 270, 237.
 CH3CHO + CH2CH=CH2 --> CH3CO + CH3CH=CH2
 """,
@@ -10166,9 +10166,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Scherzer et al. [136] bond energy-bond order method.""",
+    shortDesc = u"""Scherzer et al. [136] bond energy-bond order method.""",
     longDesc = 
-"""
+u"""
 [136] Scherzer, K.; Loser, U.; Stiller, W. Z. Phys. Chem. 1987, 27, 300.
 CH3CHO + C2H3 --> CH3CO + C2H4
 """,
@@ -10203,9 +10203,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Taylor et al. [127] Transition state theory.""",
+    shortDesc = u"""Taylor et al. [127] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [127] Taylor, P.H.; Rahman, M.S.; Arif, M.; Dellinger, B.; Marshall, P. Sypm. Int. Combust. Proc. 1996, 26, 497.
 CH3CHO + OH --> CH3CO + H2O Pressure 0.13-0.97 atm. Rate constant is high pressure limit.
 
@@ -10246,9 +10246,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Warnatz [134] literature review""",
+    shortDesc = u"""Warnatz [134] literature review""",
     longDesc = 
-"""
+u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3CHO + OH --> CH3CO + H2O
 """,
@@ -10283,9 +10283,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [95] literature review.""",
+    shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -10333,9 +10333,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Mayer et al. [137] Bond energy-bond order.""",
+    shortDesc = u"""Mayer et al. [137] Bond energy-bond order.""",
     longDesc = 
-"""
+u"""
 [137] Mayer, S.W.; Schieler, L. J. Phys. Chem. 1968, 72, 2628.
 http://dx.doi.org/10.1021/j100853a066
 
@@ -10371,9 +10371,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Karach et al. [138] Transition state theory.""",
+    shortDesc = u"""Karach et al. [138] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [138] Karach, S.P.; Oscherov, V.I. J. Phys. Chem. 1999, 110, 11918.
 H2O + O --> OH + OH. C.D.W divided original rate expression by 2 (from A= 2.95E+39), to get rate expression per H atom.
 """,
@@ -10406,9 +10406,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Harding et al. [139] Transition state theory.""",
+    shortDesc = u"""Harding et al. [139] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [139] Harding, L.B.; Wagner, A.F. Symp. Int. Combust. proc. 1989, 22, 983.
 H2O + O --> OH + OH. C.D.W divided original rate expression by 2 (from A= 1.48E+05), to get rate expression per H atom.
 """,
@@ -10441,9 +10441,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [95] literature review.""",
+    shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -10497,9 +10497,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Ma et al. [140] Transition state theory.""",
+    shortDesc = u"""Ma et al. [140] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [140] Ma, S.; Liu, R.; Sci. China Ser. S: 1996, 39, 37.
 H2O + CH3 --> OH + CH4. C.D.W divided original rate expression by 2 (from A= 6.39), to get rate expression per H atom.
 """,
@@ -10535,9 +10535,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2O + CH3 --> OH + CH4. C.D.W divided original rate expression by 2 (from A= 4.83E+02), to get rate expression per H atom.
 
@@ -10583,9 +10583,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2O + C2H5 --> OH + C2H6. C.D.W divided original rate expression by 2 (from A= 3.39E+06), to get rate expression per H atom.
 
@@ -10630,9 +10630,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2O + C2H3 --> OH + C2H4. C.D.W divided original rate expression by 2 (from A= 4.83E+02), to get rate expression per H atom.
 
@@ -10677,9 +10677,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H2O + HCO --> OH + CH2O. C.D.W divided original rate expression by 2 (from A= 2.35E+08), to get rate expression per H atom.
 
@@ -10723,9 +10723,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Masgrau et al. [141] Transition state theory.""",
+    shortDesc = u"""Masgrau et al. [141] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [141] Masgrau, L.; Gonzalez-Lafont, A.; Lluch, J.M. J. Phys. Chem. A. 1999, 103, 1044.
 H2O + OH --> OH + H2O . C.D.W refitted their k(T) to get A, n, and Ea, and divided original rate expression by 2, to get rate expression per H atom.
 
@@ -10769,9 +10769,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Jodkowski et al. [100] ab initio calculations.""",
+    shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
     longDesc = 
-"""
+u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 H2O + CH3O --> OH + CH3OH C.D.W divided original rate expression by 2 (from A= 9.03E+08), to get rate expression per H atom.; This is Rxn. -R5 from mpaper
 
@@ -10806,9 +10806,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Warnatz [134] literature review""",
+    shortDesc = u"""Warnatz [134] literature review""",
     longDesc = 
-"""
+u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3OH + O --> CH3O + OH
 """,
@@ -10843,9 +10843,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] literature review.""",
+    shortDesc = u"""Tsang [90] literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 CH3OH + CH2 --> CH3O + CH3
 
@@ -10898,9 +10898,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Jodkowski et al. [100] ab initio calculations.""",
+    shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
     longDesc = 
-"""
+u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 The calculated rate constants are in good agreement with experiment. CH3OH + CH3 --> CH3O + CH4 (Rxn. R3 from paper)
 
@@ -10938,9 +10938,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] literature review.""",
+    shortDesc = u"""Tsang [90] literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 CH3OH + C2H5 --> CH3O + C2H6
 
@@ -10993,9 +10993,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 CH3OH + iso-C3H7 --> CH3O + C3H8
 
@@ -11049,9 +11049,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 CH3OH + tert-C4H9 --> CH3O + iso-C4H10
 
@@ -11103,9 +11103,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] literature review.""",
+    shortDesc = u"""Tsang [90] literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 CH3OH + C2H3 --> CH3O + C2H4
 
@@ -11152,9 +11152,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [90] literature review.""",
+    shortDesc = u"""Tsang [90] literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 CH3OH + C2H --> CH3O + C2H2
 
@@ -11201,9 +11201,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Jodkowski et al. [100] ab initio calculations.""",
+    shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
     longDesc = 
-"""
+u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 The calculated rate constants are in good agreement with experiment. CH3OH + OH --> CH3O + H2O (Rxn. R5 from paper)
 
@@ -11239,9 +11239,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Warnatz [134] literature review""",
+    shortDesc = u"""Warnatz [134] literature review""",
     longDesc = 
-"""
+u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3OH + OH --> CH3O + H2O
 """,
@@ -11288,9 +11288,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + *CH2CH2CH2CH2OH = nButanol + HO2
 
@@ -11352,9 +11352,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3*CHCH2CH2OH = nButanol + HO2
 
@@ -11416,9 +11416,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2*CHCH2OH = nButanol + HO2
 
@@ -11480,9 +11480,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2CH2*CHOH = nButanol + HO2
 
@@ -11544,9 +11544,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + *CH2CH2CH[OH]CH3 = 2-Butanol + HO2
 
@@ -11600,9 +11600,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3*CHCH[OH]CH3 = 2-Butanol + HO2
 
@@ -11656,9 +11656,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2*C[OH]CH3 = 2-Butanol + HO2
 
@@ -11712,9 +11712,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + CH3CH2CH[OH]*CH2 = 2-Butanol + HO2
 
@@ -11768,9 +11768,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/o HR corrections
 H2O2 + HOC[*CH2][CH3][CH3] = tert-Butanol + HO2
 
@@ -11812,9 +11812,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Increased rate 154 Ea by 9.6 kcal/mol (vinyl versus methyl)""",
+    shortDesc = u"""Increased rate 154 Ea by 9.6 kcal/mol (vinyl versus methyl)""",
     longDesc = 
-"""
+u"""
 JDM increased the activation energy for the abstraction of a vinyl-H hydrogen by O2.  August 2010.
 Using the Evans-Polanyi principle with alpha = 1, the activation energy was increased by delta(vinyl radical - alkyl radical) = 9.6 kcal/mol.
 Reaction rate 154 was the basis for this.
@@ -11855,9 +11855,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Increased rate 179 Ea by 9.6 kcal/mol (vinyl versus methyl)""",
+    shortDesc = u"""Increased rate 179 Ea by 9.6 kcal/mol (vinyl versus methyl)""",
     longDesc = 
-"""
+u"""
 JDM increased the activation energy for the abstraction of a vinyl-H hydrogen by O2.  August 2010.
 Using the Evans-Polanyi principle with alpha = 1, the activation energy was increased by delta(vinyl radical - alkyl radical) = 9.6 kcal/mol.
 Reaction rate 179 was the basis for this.
@@ -11898,9 +11898,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Increased rate 155 Ea by 9.6 kcal/mol (vinyl versus methyl)""",
+    shortDesc = u"""Increased rate 155 Ea by 9.6 kcal/mol (vinyl versus methyl)""",
     longDesc = 
-"""
+u"""
 JDM increased the activation energy for the abstraction of a vinyl-H hydrogen by O2.  August 2010.
 Using the Evans-Polanyi principle with alpha = 1, the activation energy was increased by delta(vinyl radical - alkyl radical) = 9.6 kcal/mol.
 Reaction rate 155 was the basis for this.
@@ -11941,9 +11941,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Increased rate 188 Ea by 9.6 kcal/mol (vinyl versus methyl)""",
+    shortDesc = u"""Increased rate 188 Ea by 9.6 kcal/mol (vinyl versus methyl)""",
     longDesc = 
-"""
+u"""
 JDM increased the activation energy for the abstraction of a vinyl-H hydrogen by O2.  August 2010.
 Using the Evans-Polanyi principle with alpha = 1, the activation energy was increased by delta(vinyl radical - alkyl radical) = 9.6 kcal/mol.
 Reaction rate 188 was the basis for this.
@@ -11983,9 +11983,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """[8] Curran's estimation in reaction type 13, RO2 + HO2 --> RO2H + O2""",
+    shortDesc = u"""[8] Curran's estimation in reaction type 13, RO2 + HO2 --> RO2H + O2""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12028,9 +12028,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/o HR corrections
 CH2O + H2C=C[*CH2][CH3] = HCO + H2C=C[CH3]2
 
@@ -12100,9 +12100,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
 InChI=1/C3H8/c1-3-2/h3H2,1-2H3 (external symmetry number = 2, spin multiplicity = 1)
@@ -12163,9 +12163,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
@@ -12227,9 +12227,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
 InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
@@ -12291,9 +12291,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
 InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
@@ -12355,9 +12355,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
 InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
@@ -12419,9 +12419,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
 InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
@@ -12480,9 +12480,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
 
 InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
@@ -12545,9 +12545,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
 
 InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
@@ -12610,9 +12610,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
 
 InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
@@ -12671,9 +12671,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
 
 InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
@@ -12731,9 +12731,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
 InChI=1/C2H6/c1-2/h1-2H3 (external symmetry number = 6, spin multiplicity = 1)
@@ -12795,9 +12795,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
@@ -12859,9 +12859,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
@@ -12919,9 +12919,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
 InChI=1/C2H6/c1-2/h1-2H3 (external symmetry number = 6, spin multiplicity = 1)
@@ -12977,9 +12977,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
@@ -13042,9 +13042,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
@@ -13103,9 +13103,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
@@ -13165,9 +13165,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
 InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3 (external symmetry number = 1, spin multiplicity = 1)
@@ -13227,9 +13227,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
@@ -13289,9 +13289,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
 
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
@@ -13341,9 +13341,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
 InChI=1/C4H8O/c1-4(2)3-5/h3-4H,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
@@ -13400,9 +13400,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
 
 InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
@@ -13443,9 +13443,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 1,
-    shortDesc = """Estimate [W.H. Green]""",
+    shortDesc = u"""Estimate [W.H. Green]""",
     longDesc = 
-"""
+u"""
 ROH + .OO. --> HOO. + RO.
 
 This rate coefficient is an estimate from W.H. Green (personal communication).  The pre-exponential factor has been
@@ -13486,9 +13486,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """SSM due to lack of better value ref rate rule 525""",
+    shortDesc = u"""SSM due to lack of better value ref rate rule 525""",
     longDesc = 
-"""
+u"""
 This rate rules matches C=C-CH3 + HO-O* <=> C=C-CH2* + H2O2
 
 Due to lack of better estimate SSM has given this node the value obtained from 2-Butene + HO2 calculations (Rate rule 525)
@@ -13534,9 +13534,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """SSM CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 6 to get per-H value.
 
 InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ (external symmetry number = 2, spin multiplicity = 1)
@@ -13579,9 +13579,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """SSM due to lack of better value ref rate rule 527""",
+    shortDesc = u"""SSM due to lack of better value ref rate rule 527""",
     longDesc = 
-"""
+u"""
 This rate rules matches C=C*-C + H2O2 <=> C=C-C + HO-O*
 
 Due to lack of better estimate SSM has given this node the value obtained from 2-Butene + HO2 calculations (Rate rule 527)
@@ -13628,9 +13628,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """SSM CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to account for summetry of H2O2
 The rate rule is valid in a range of temperature from 300 -2000 K.
 The Wigner tunneling currection that was used to account for tunneling.
@@ -13675,9 +13675,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """SSM due to lack of better value ref rate rule 529""",
+    shortDesc = u"""SSM due to lack of better value ref rate rule 529""",
     longDesc = 
-"""
+u"""
 This rate rules matches Cs-CH2-C=C + HO-O* <=> Cs-CH*-C=C + H2O2
 
 Due to lack of better estimate SSM has given this node the value obtained from 1-Butene + HO2 calculations (Rate rule 529)
@@ -13723,9 +13723,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """SSM CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to get per-H value.
 The rate rule is valid in a range of temperature from 300 -2000 K.
 The Wigner tunneling currection that was used to account for tunneling.
@@ -13770,9 +13770,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """SSM due to lack of better value ref rate rule 531""",
+    shortDesc = u"""SSM due to lack of better value ref rate rule 531""",
     longDesc = 
-"""
+u"""
 This rate rules matches C-HC=CH* + H2O2 <=> C-HC=CH2 + HO=O*
 
 Due to lack of better estimate SSM has given this node the value obtained from 1-Butene + HO2 calculations (Rate rule 531)
@@ -13819,9 +13819,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """SSM CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to account for summetry of H2O2
 The rate rule is valid in a range of temperature from 300 -2000 K.
 The Wigner tunneling currection that was used to account for tunneling.
@@ -13863,9 +13863,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 1,
-    shortDesc = """Estimate [W.H. Green]""",
+    shortDesc = u"""Estimate [W.H. Green]""",
     longDesc = 
-"""
+u"""
 X_H + .OO. --> HOO. + X.
 
 I have taken the estimated rate from 523, which assumes A=1e11 with Ea=enthothermicity,
@@ -13905,9 +13905,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Matsugi et al 10.1021/jp1012494""",
+    shortDesc = u"""Matsugi et al 10.1021/jp1012494""",
     longDesc = 
-"""
+u"""
 For CH4 + C2 = CH3 + C2H
 
 J. Phys. Chem. A 2010, 114, 4580-4585
@@ -13963,9 +13963,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MHS CBS-QB3 w/1dHR calculations""",
+    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
     longDesc = 
-"""
+u"""
 Exact reaction: HOOH + *O-CH=CH-C2H5 <=> HO-CH=CH-C2H5 + HOO*
 Rxn family nodes: H2O2 + InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3
 
@@ -14014,9 +14014,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MHS CBS-QB3 w/1dHR calculations, see node 534.""",
+    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations, see node 534.""",
     longDesc = 
-"""
+u"""
 Rxn family nodes: H2O2 + O_rad/OneDe
 
 The rate coefficient for this node was taken from node 534 (H2O2 + InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3)
@@ -14054,9 +14054,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MHS CBS-QB3 w/1dHR calculations""",
+    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
     longDesc = 
-"""
+u"""
 Exact reaction: HOOH + *O-O-CH3 <=> HO-O-CH3 + HOO*
 Rxn family nodes: H2O2 + OOCH3
 
@@ -14105,9 +14105,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MHS CBS-QB3 w/1dHR calculations, see node 536.""",
+    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations, see node 536.""",
     longDesc = 
-"""
+u"""
 Rxn family nodes: H2O2 + O_rad/NonDeO
 
 The rate coefficient for this node was taken from node 536 (H2O2 + OOCH3)
@@ -14153,9 +14153,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations, w/1dHR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations, w/1dHR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/1d hindered rotor corrections
 Exact reaction: CH3CH2CH=CH2 + OOCH3 = HOOCH3 + CH3CHCH=CH2
 
@@ -14217,9 +14217,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MHS CBS-QB3 w/1dHR calculations""",
+    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
     longDesc = 
-"""
+u"""
 MHS CBS-QB3 calculations w/1d hindered rotor corrections
 Exact reaction: *CH2-CH=CH2 + H2O2 = CH3-CH=CH2 + HO2
 
@@ -14268,9 +14268,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Jodkowski et al. [100] ab initio calculations. added by Greg Magoon 08/25/09""",
+    shortDesc = u"""Jodkowski et al. [100] ab initio calculations. added by Greg Magoon 08/25/09""",
     longDesc = 
-"""
+u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 
 CH3OH + H --> CH2OH + H2 (Rxn. R2 in paper)
@@ -14329,9 +14329,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/o HR corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
 
 InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)

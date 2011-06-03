@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "States Depository"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 

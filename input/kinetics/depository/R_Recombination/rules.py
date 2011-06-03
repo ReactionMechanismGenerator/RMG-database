@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "R_Recombination/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 For some reason the definition of Cs_rad::
 
  Cs_rad
@@ -41,9 +41,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """Default""",
+    shortDesc = u"""Default""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -73,9 +73,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Dingle et al. [167]""",
+    shortDesc = u"""Dingle et al. [167]""",
     longDesc = 
-"""
+u"""
 [167] Dingle, J.R.; Le Roy, D.J.; J. Chem. Phys. 1950, 18, 1632.
 
 Absolute value measured directly. Excitation: thermal. H + H --> H2 Bath gas: C2H2
@@ -114,9 +114,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Takahashi et al. [168] Transition state theory.""",
+    shortDesc = u"""Takahashi et al. [168] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [168] Takahashi, J.; Momose, T.; Shida, T. Bull. Chem. Soc. Jpn. 1994, 67, 74.
 
 H + CH3 --> CH4
@@ -155,9 +155,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [94] literature review.""",
+    shortDesc = u"""Baulch et al. [94] literature review.""",
     longDesc = 
-"""
+u"""
 [94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
@@ -205,9 +205,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Sillensen et al [169]""",
+    shortDesc = u"""Sillensen et al [169]""",
     longDesc = 
-"""
+u"""
 [169] Sillesen , A.; Ratajczak, E.; Pagsberg, P. Chem. Phys. Lett. 1993, 201, 171.
 Data derived from fitting to a complex mechanism. Excitation: radiolysis, analysis: IR absroption. Pressure 0.10 bar
 
@@ -246,9 +246,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Warnatz [134] literature review.""",
+    shortDesc = u"""Warnatz [134] literature review.""",
     longDesc = 
-"""
+u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 """,
     history = [
@@ -280,9 +280,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Munk et al. [170]""",
+    shortDesc = u"""Munk et al. [170]""",
     longDesc = 
-"""
+u"""
 [170] Munk, J; Pagsberg, P.; Ratajczak, E.; Sillensen, A. Chem. Phys. Lett. 1986, 132, 417.
 Data derived from fitting to a complex mechanism. Excitation: electron beam, analysis: Vis-UV absorption. Pressure 1.0 atm
 
@@ -319,9 +319,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Fahr et al. [171]""",
+    shortDesc = u"""Fahr et al. [171]""",
     longDesc = 
-"""
+u"""
 [171] Fahr, A.; Laufer, A.; Klein, R.; Braun, W. J. Phys. Chem. 1991, 95, 3218.
 Absolute value measured directly. Excitation: flash photolysis, analysis : Vis-UV absorption. Pressure 0.13 atm. Original uncertainty 4.8E+13
 
@@ -359,9 +359,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Duran et al. [165]""",
+    shortDesc = u"""Duran et al. [165]""",
     longDesc = 
-"""
+u"""
 [165] Duran, R. P.; Amorebieta, V. T.; Colussi, A. J. J. Phys. Chem. 1988, 92, 636.
 Ab initio
 
@@ -398,9 +398,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H + C2H --> C2H2
 
@@ -447,9 +447,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Davis et al. [172] Ackermann et al. [173] Emdee et al. [172b]""",
+    shortDesc = u"""Davis et al. [172] Ackermann et al. [173] Emdee et al. [172b]""",
     longDesc = 
-"""
+u"""
 [172] Davis, S. G.; Wang, H.; Brezinsky K.; Law C. K. Symp. Int. Combust. Proc. 1996, 26, 1025.
 (1000-1200K, excitation : thermal, pressure 1.0 atm)
 
@@ -492,9 +492,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsuboi et al. [174]""",
+    shortDesc = u"""Tsuboi et al. [174]""",
     longDesc = 
-"""
+u"""
 [174] Tsuboi, T.; Katoh, M.; Kikuchi, S.; Hashimoto, K. Jpn J. Appl. Phys. 1981, 20, 985.
 Data is estimated. Pressure 7.0 atm. 
 
@@ -531,9 +531,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Cobos et al. [106]""",
+    shortDesc = u"""Cobos et al. [106]""",
     longDesc = 
-"""
+u"""
 [106] Cobos, C. J.; Troe, J. J. Chem. Phys. 1985, 83, 1010. 
 Transition State Theory
 
@@ -572,9 +572,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Pesa et al. [175]""",
+    shortDesc = u"""Pesa et al. [175]""",
     longDesc = 
-"""
+u"""
 [175] Pesa, M. ; Pilling, M. J.; Robertson, S. H.; Wardlaw. J. Phys. Chem. A 1998, 102, 8526.
 Canonical Flexible Transition State Theory 
 
@@ -616,9 +616,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [94] literature review.""",
+    shortDesc = u"""Baulch et al. [94] literature review.""",
     longDesc = 
-"""
+u"""
 [94] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Frank, P.; Hayman, G.; Just, T.; Kerr, J. A.; 
 Murrells, T.; Pilling, M. J.; Troe, J.; Walker, R. W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
@@ -671,9 +671,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [94] literature review.""",
+    shortDesc = u"""Baulch et al. [94] literature review.""",
     longDesc = 
-"""
+u"""
 [94] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Frank, P.; Hayman, G.; Just, T.; Kerr, J. A.;
 Murrells, T.; Pilling, M. J.; Troe, J.; Walker, R. W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
@@ -727,9 +727,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [176] RRK(M) extrapolation.""",
+    shortDesc = u"""Tsang [176] RRK(M) extrapolation.""",
     longDesc = 
-"""
+u"""
 [176] Tsang, W. Combust. Flame 1989, 78, 71. 
 RRK(M) extrapolation. 
 
@@ -776,9 +776,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 
 CH3 + tert-C4H9 --> neo-C5H12
@@ -840,9 +840,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Fahr et al. [171]""",
+    shortDesc = u"""Fahr et al. [171]""",
     longDesc = 
-"""
+u"""
 [171] Fahr, A.; Laufer, A.; Klein, R.; Braun, W. J. Phys. Chem. 1991, 95, 3218.
 Absolute value measured directly. Excitation: flash photolysis, analysis : Vis-UV absorption. Pressure 0.13 atm. Original Uncertainty 1.8E+13
 
@@ -883,9 +883,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Tokmakov et al. [177]""",
+    shortDesc = u"""Tokmakov et al. [177]""",
     longDesc = 
-"""
+u"""
 [177] Tokmakov, I. V.; Park, J.; Gheyas, S. I.; Lin, M. C. J. Phys. Chem. A. 1999, 103, 3636.
 Data Derived from detailed balance/reverse rate. Uncertainty 8.0E-2. 
 
@@ -926,9 +926,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Park et al. [178]""",
+    shortDesc = u"""Park et al. [178]""",
     longDesc = 
-"""
+u"""
 [178] Park, J.; Cheyas, s. I.; Lin, M. C. Int. J. Chem. Kinet. 1999, 31, 645.
 Absolute value measured directly. Excitation: flash photolysis, analysis : mass spectometry. Pressure 0.05 atm. Uncertainty 7.0E-02 
 
@@ -969,9 +969,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH3 + HCO --> CH3CHO 
 
@@ -1018,9 +1018,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Hassinen et al [179]""",
+    shortDesc = u"""Hassinen et al [179]""",
     longDesc = 
-"""
+u"""
 [179] Hassinen, E.; Kalliorinne, K; Koskikallio, J. Int. J. Chem. Kinet. 1990, 22, 741
 Data derived from fitting to a complex mechanism. Excitation : direct photolysis, analysis : GC. Pressure 96? and 99 kPa with He, 5.5 kPa and 25 kPa with CO2. 
 
@@ -1061,9 +1061,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH3 + CH3CO --> (CH3)2CO 
 
@@ -1118,9 +1118,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [94] literature review.""",
+    shortDesc = u"""Baulch et al. [94] literature review.""",
     longDesc = 
-"""
+u"""
 [94] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Frank, P.; Hayman, G.; Just, T.; Kerr, J. A.;
 Murrells, T.; Pilling, M. J.; Troe, J.; Walker, R. W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
 
@@ -1171,9 +1171,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH3 + CH3O --> (CH3)2O
 
@@ -1221,9 +1221,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [95] literature review.""",
+    shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Esser, C.; Frank, P.; Just, T.; Kerr, 
 J. A.; Pilling, M. J.; Troe, J.; Walker, R. W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -1271,9 +1271,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C2H5 + iso-C3H7 --> iso-C5H12
 
@@ -1322,9 +1322,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 C2H5 + tert-C4H9 --> (CH3)3CCH2CH3
 
@@ -1384,9 +1384,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H5 + HCO --> C2H5CHO
 
@@ -1432,9 +1432,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H5 + CH3CO --> C2H5COCH3
 
@@ -1479,9 +1479,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Fagerstrom et al. [180]""",
+    shortDesc = u"""Fagerstrom et al. [180]""",
     longDesc = 
-"""
+u"""
 [180] Fagerstrom, K.; Lund, A.; Mahmoud, G.; Jodkowski, J. T.; Ratajczak, E. Chem. Phys. Lett. 1993, 208, 321
 Excitation : radiolysis, analysis : VIS-UV absorption. Pressure 0.25-0.99 bar SF6. Original Uncertainty 1.0E+13. 
 
@@ -1522,9 +1522,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 Iso-C3H7 + iso-C3H7 --> (CH3)2CHCH(CH3)2
 
@@ -1578,9 +1578,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C3H7 + tert-C4H9 --> 2,2,3-trimethyl-butane
 
@@ -1638,9 +1638,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 Iso-C3H7 + CH3CO --> iso-C3H7COCH3
 
@@ -1691,9 +1691,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [91] literature review.""",
+    shortDesc = u"""Tsang [91] literature review.""",
     longDesc = 
-"""
+u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 Iso-C3H7 + CH3O --> i-C3H7OCH3
 
@@ -1741,9 +1741,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Tert-C4H9 + tert- C4H9 --> (CH3)3CC(CH3)3
 
@@ -1800,9 +1800,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Tert-C4H9 + HCO --> tert-C4H9CHO
 
@@ -1851,9 +1851,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Tert-C4H9 + CH3CO --> tert-C4H9COCH3
 
@@ -1910,9 +1910,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [92] literature review.""",
+    shortDesc = u"""Tsang [92] literature review.""",
     longDesc = 
-"""
+u"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Tert-C4H9 + CH3O --> tert-C4H9OCH3
 
@@ -1959,9 +1959,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Fahr et al. [171]""",
+    shortDesc = u"""Fahr et al. [171]""",
     longDesc = 
-"""
+u"""
 [171] Fahr, A.; Laufer, A.; Klein, R.; Braun, W. J. Phys. Chem. 1991, 95, 3218.
 Absolute value measured directly. Excitation: flash photolysis, analysis : Vis-UV absorption. Original Uncertainty 1.2E+13. 
 
@@ -1999,9 +1999,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Duran et al. [165]""",
+    shortDesc = u"""Duran et al. [165]""",
     longDesc = 
-"""
+u"""
 [165] Duran, R. P.; Amorebieta, V. T.; Colussi, A. J. J. Phys. Chem. 1988, 92, 636.
 Ab initio. Pressure 0.10-1.0 atm. 
 
@@ -2041,9 +2041,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H3 + HCO --> CH2=CHCHO
 
@@ -2089,9 +2089,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Heckmann et al. [124]""",
+    shortDesc = u"""Heckmann et al. [124]""",
     longDesc = 
-"""
+u"""
 [124] Heckmann, E.; Hippler, H.; Troe, J. Symp. Int. Combust. Proc.1996, 26, 543.
 Absolute value measured directly. Excitation : thermal, analysis : Vis-UV absorption. 
 
@@ -2128,9 +2128,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Park et al. [181]""",
+    shortDesc = u"""Park et al. [181]""",
     longDesc = 
-"""
+u"""
 [181] Park, J. ; Lin, M. C. J. Phys. Chem. A. 1997, 101, 14
 Absolute value measured directly. Excitation : flash photolysis, analysis : mass spectometry. Original Uncertainty 1.1E+12.   
 
@@ -2169,9 +2169,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Stoeckel et al. [182]""",
+    shortDesc = u"""Stoeckel et al. [182]""",
     longDesc = 
-"""
+u"""
 [182] Stoeckel, F.; Schuh, M. D.; Goldstein, N.; Atkinson, G.H. Chem. Phys. 1985, 95, 135
 Absolute value measured directly. Excitation : flash photolysis, abalysis : VIS-UV absorption. Original uncertainty 1.2E+13. Pressure: 10 Torr (this is total pressure; see p. 141)
 
@@ -2211,9 +2211,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 HCO + CH3CO --> CH3COCHO
 
@@ -2259,9 +2259,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH3CO + CH3CO --> (CH3CO)2
 
@@ -2304,9 +2304,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """DeMore et al. [183] literature review.""",
+    shortDesc = u"""DeMore et al. [183] literature review.""",
     longDesc = 
-"""
+u"""
 [183] DeMore, W. B.; Sander, S. P.; Golden, D. M.; Hampson, R. F.; Kurylo, M.J.; 
 Howard, C. J.; Ravishankara, A. R.; Kolb, C. E.; Molina, M .J. JPL publication 97-4 1997, 1.
 
@@ -2360,9 +2360,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [89] literature review.""",
+    shortDesc = u"""Tsang [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH3O + CH3O --> CH3OOCH3
 
@@ -2408,9 +2408,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's [8] estimation.""",
+    shortDesc = u"""Curran's [8] estimation.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253. 
 Curran's estimation, based on half that recommended by Allara and Shaw [146] for H (rad) and R (rad) recombination reactions
 """,
@@ -2447,9 +2447,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's [8] estimation.""",
+    shortDesc = u"""Curran's [8] estimation.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation, based on recommendations of Tsang [92] for CH3 + tC4H9
 """,
@@ -2486,9 +2486,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's [8] estimation.""",
+    shortDesc = u"""Curran's [8] estimation.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation based on half Tsang's [91] recommendation for CH3 + iC3H7
 """,
@@ -2525,9 +2525,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's [8] estimation.""",
+    shortDesc = u"""Curran's [8] estimation.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation for neoC5H11 + iC3H7, similar to tC4H9 + iC4H9
 """,
@@ -2564,9 +2564,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's [8] estimation.""",
+    shortDesc = u"""Curran's [8] estimation.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation based on Tsang's [92] reccomendation for tC4H9 Curran's estimation. About a factor of 2 slower than other 
 
@@ -2601,9 +2601,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's [159] estimation.""",
+    shortDesc = u"""Curran's [159] estimation.""",
     longDesc = 
-"""
+u"""
 [159] Curran, H.J.; Pitz, W.J.; Westbrook, C.K.; Dagaut, P.; Boettner, J.-C.; Cathonnet, M. Int. J. Chem. Kinet. 1998, 30, 229.
 Curran's estimation in DME modeling for ketohydroperoxide decomposition 
 
@@ -2640,9 +2640,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Duchovic et al. [142] RRK(M) extrapolation. Probably could do better.""",
+    shortDesc = u"""Duchovic et al. [142] RRK(M) extrapolation. Probably could do better.""",
     longDesc = 
-"""
+u"""
 [142] Duchovic,R.J; Pettigrew,J D; Welling B; Shipchandler,T. *J. Chem Phys.* **105**, 10367 (1996) http://dx.doi.org/10.1063/1.472992
 
 RRK(M) extrapolation. H + O2 --> OH + O
@@ -2709,9 +2709,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Cobos, C.J and Troe, J. [106] Transition state theory.""",
+    shortDesc = u"""Cobos, C.J and Troe, J. [106] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [106] Cobos,C.J.;Troe,J.J. Chem. Phys 1985, 83,1010.
 
 Transition state theory. H+O2 -->HO2 
@@ -2751,9 +2751,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K) (n-butyl not methyl)""",
+    shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K) (n-butyl not methyl)""",
     longDesc = 
-"""
+u"""
 We are using a primary R. radical as a methyl radical. The rate comes from n-butyl.
 
 [8]   Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. *Combust. Flame* 2002, 129, 253-280. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
@@ -2819,9 +2819,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K)""",
+    shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K)""",
     longDesc = 
-"""
+u"""
 [8]   Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. *Combust. Flame* 2002, 129, 253-280. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
 
 In their study modelling iso-octane oxidation, Curran et al [8] chose to use the rate measured by Lenhardt et al [143] described below.
@@ -2885,9 +2885,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8]. (Estimated at 300K)""",
+    shortDesc = u"""Curran et al. [8]. (Estimated at 300K)""",
     longDesc = 
-"""
+u"""
 Lenhardt [143] measured (10.0±1.3)E12 cm3/mole/sec (at 300K, high pressure limit, from flash photolysis experiments.)
 Atkinson [96], in their review, recommend 6.62E12 cm3/mole/sec. (according to Curran [8]).
 Curran [8], in their modelling paper, refer to both these and chose and "intermediate" value of 7.54E12 cm3/mol/sec.
@@ -2937,9 +2937,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K)""",
+    shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K)""",
     longDesc = 
-"""
+u"""
 [8]   Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. *Combust. Flame* 2002, 129, 253-280. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
 
 In their study modelling iso-octane oxidation, Curran et al [8] chose to use the rate measured by Lenhardt et al [143] described below.
@@ -3002,9 +3002,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Bozzelli et al. [144] RRKM extrapolation ( adjusted to match data).""",
+    shortDesc = u"""Bozzelli et al. [144] RRKM extrapolation ( adjusted to match data).""",
     longDesc = 
-"""
+u"""
 [144] Bozzelli,J.W. J phys. Chem 1993, 97,4427.
 RRKM extrapolation (adjusted to match data).O2 +CH = CH2CHOO. C.D.W. divided rate expression by 2, to get rate of addition per site
 
@@ -3040,9 +3040,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Yu, T. and Lin, M.C. [145]""",
+    shortDesc = u"""Yu, T. and Lin, M.C. [145]""",
     longDesc = 
-"""
+u"""
 [145] Yu,T.; Lin, M.C.J. Am. Chem.Soc.1994,116,9571.
 O2+ phenyl --> phenyl dioxy. Absolute value measured directly. Pressure 0.03-0.11 atm. Excitation: Flash photolysis, analysis: Vis- UV absorption. C.D.W. divided rate epxression by 2, to get rate of addition per site
 
@@ -3078,9 +3078,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Bozzelli et al. [144] RRKM extrapolation.""",
+    shortDesc = u"""Bozzelli et al. [144] RRKM extrapolation.""",
     longDesc = 
-"""
+u"""
 [144] Bozzelli,J.W. J Phys. Chem. 1993, 97 , 4427.
 RRKM extrapolation. O2 +HCO -->HC(O)O2. C.D.W. divided rate expression by 2, to get rate of addition per site
 
@@ -3116,9 +3116,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Atkinson et al [96] literature review.""",
+    shortDesc = u"""Atkinson et al [96] literature review.""",
     longDesc = 
-"""
+u"""
 [96] Atkinson,R; Baulch,D. L.; Cox R.A.;Hampson,R.F.,Jr.;Kerr,J.A;Rossi,M.J.;Troe,J.J Phys. Chem. Ref. Data 1997,26,521.
 literature review. Rate constant is high pressure limit. O2+ CH3CO --> CH3C(O)OO C.D.W. divided rate expression by 2, to get rate of addition per site
 
@@ -3151,9 +3151,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 1,
-    shortDesc = """MRH estimate""",
+    shortDesc = u"""MRH estimate""",
     longDesc = 
-"""
+u"""
 MRH estimate
 
 A reasonable estimate for the total k_inf(T) for the recombination of H radical with a heavy atom
@@ -3198,9 +3198,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 1,
-    shortDesc = """MRH estimate""",
+    shortDesc = u"""MRH estimate""",
     longDesc = 
-"""
+u"""
 MRH estimate
 
 A reasonable estimate for the total k_inf(T) for the recombination of two heavy atom radicals is a

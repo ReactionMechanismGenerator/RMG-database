@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Glarborg/C1"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -39,9 +39,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -88,9 +88,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -135,9 +135,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -178,9 +178,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -221,9 +221,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -262,9 +262,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -304,9 +304,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -348,9 +348,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -390,9 +390,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -432,9 +432,9 @@ O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -475,9 +475,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -518,9 +518,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -564,9 +564,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -610,9 +610,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -652,9 +652,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -696,9 +696,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -739,9 +739,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -783,9 +783,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -827,9 +827,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -872,9 +872,9 @@ O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -917,9 +917,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -963,9 +963,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1009,9 +1009,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1054,9 +1054,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1101,9 +1101,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1145,9 +1145,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1188,9 +1188,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1233,9 +1233,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1276,9 +1276,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1321,9 +1321,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1364,9 +1364,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1408,9 +1408,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1451,9 +1451,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1495,9 +1495,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1538,9 +1538,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1583,9 +1583,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1633,9 +1633,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1678,9 +1678,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1720,9 +1720,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1761,9 +1761,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1802,9 +1802,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1845,9 +1845,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1886,9 +1886,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1927,9 +1927,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1969,9 +1969,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2011,9 +2011,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2053,9 +2053,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2101,9 +2101,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2142,9 +2142,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2183,9 +2183,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2226,9 +2226,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2269,9 +2269,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2312,9 +2312,9 @@ O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2355,9 +2355,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2398,9 +2398,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2440,9 +2440,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2487,9 +2487,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2530,9 +2530,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2572,9 +2572,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2615,9 +2615,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2664,9 +2664,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2707,9 +2707,9 @@ O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2752,9 +2752,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2800,9 +2800,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2845,9 +2845,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2886,9 +2886,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2933,9 +2933,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2975,9 +2975,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3023,9 +3023,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3064,9 +3064,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3109,9 +3109,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3153,9 +3153,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3197,9 +3197,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3240,9 +3240,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3283,9 +3283,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3326,9 +3326,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3369,9 +3369,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3414,9 +3414,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3459,9 +3459,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3504,9 +3504,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3548,9 +3548,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3590,9 +3590,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3633,9 +3633,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3676,9 +3676,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3721,9 +3721,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3767,9 +3767,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3813,9 +3813,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3858,9 +3858,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3903,9 +3903,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3948,9 +3948,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3993,9 +3993,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4038,9 +4038,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4081,9 +4081,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4125,9 +4125,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4167,9 +4167,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4210,9 +4210,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4253,9 +4253,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4298,9 +4298,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4343,9 +4343,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4388,9 +4388,9 @@ CO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4431,9 +4431,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4474,9 +4474,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4519,9 +4519,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4564,9 +4564,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4579,9 +4579,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -4614,9 +4614,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4629,9 +4629,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -4641,9 +4641,9 @@ H
     product1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -4660,9 +4660,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4675,9 +4675,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -4704,9 +4704,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4719,9 +4719,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -4753,9 +4753,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4768,9 +4768,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -4780,9 +4780,9 @@ O
     product1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -4798,9 +4798,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4813,9 +4813,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -4825,9 +4825,9 @@ OH
     product1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -4843,9 +4843,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4858,9 +4858,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -4892,9 +4892,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4907,9 +4907,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -4920,9 +4920,9 @@ HO2
     product1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -4939,9 +4939,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4954,9 +4954,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -4983,9 +4983,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4998,9 +4998,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -5028,9 +5028,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5043,9 +5043,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -5073,9 +5073,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5088,9 +5088,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -5118,9 +5118,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5133,9 +5133,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -5146,9 +5146,9 @@ HO2
     product1 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -5165,9 +5165,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5180,9 +5180,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -5210,9 +5210,9 @@ CH3O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5225,9 +5225,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -5237,9 +5237,9 @@ CH4
     product1 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -5255,9 +5255,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5270,9 +5270,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -5307,9 +5307,9 @@ CO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5322,9 +5322,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -5354,9 +5354,9 @@ CO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5369,9 +5369,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -5382,9 +5382,9 @@ CH2O
     product1 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -5401,9 +5401,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5416,9 +5416,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -5435,9 +5435,9 @@ CH2O
     product2 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5448,9 +5448,9 @@ CH3OOH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5463,9 +5463,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -5476,9 +5476,9 @@ CH3OH
     product1 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -5495,9 +5495,9 @@ CH2OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5510,16 +5510,16 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -5549,9 +5549,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5564,16 +5564,16 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -5603,9 +5603,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5618,16 +5618,16 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -5656,9 +5656,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5671,9 +5671,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -5703,9 +5703,9 @@ CH3CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5718,9 +5718,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -5731,9 +5731,9 @@ C2H6
     product1 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -5750,9 +5750,9 @@ C2H5
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5787,9 +5787,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5825,9 +5825,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5865,9 +5865,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5905,9 +5905,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5947,9 +5947,9 @@ CO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5986,9 +5986,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6025,9 +6025,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6065,9 +6065,9 @@ C2H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6105,9 +6105,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6146,9 +6146,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6187,9 +6187,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6227,9 +6227,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6268,9 +6268,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6303,9 +6303,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6337,9 +6337,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6372,9 +6372,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6406,9 +6406,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6435,9 +6435,9 @@ CH2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6489,9 +6489,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6543,9 +6543,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6592,9 +6592,9 @@ HOCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6641,9 +6641,9 @@ HOCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6690,9 +6690,9 @@ HOCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6735,9 +6735,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6780,9 +6780,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6822,9 +6822,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6848,9 +6848,9 @@ O2
     product1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -6866,9 +6866,9 @@ CH3OO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6892,9 +6892,9 @@ O2
     product1 = 
 """
 CH3OO
-1     O     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -6910,9 +6910,9 @@ CH3OO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6925,9 +6925,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product1 = 
 """
@@ -6952,9 +6952,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [

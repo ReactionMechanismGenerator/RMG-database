@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Intra_R_Add_Endocyclic/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -31,9 +31,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -77,9 +77,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -124,9 +124,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -170,9 +170,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -214,9 +214,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -256,9 +256,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -301,9 +301,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """RRHO, CBS-QB3 treatment of H2C=C=CH-CH=CH. cyclization by gmagoon""",
+    shortDesc = u"""RRHO, CBS-QB3 treatment of H2C=C=CH-CH=CH. cyclization by gmagoon""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [

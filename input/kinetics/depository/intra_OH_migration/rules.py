@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "intra_OH_migration/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -26,9 +26,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -64,9 +64,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -102,9 +102,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -141,9 +141,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -180,9 +180,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -219,9 +219,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -259,9 +259,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -299,9 +299,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -339,9 +339,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [

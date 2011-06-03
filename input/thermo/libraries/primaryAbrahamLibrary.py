@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "primaryAbrahamLibrary"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -16,9 +16,9 @@ entry(
 2     O     1 {1,S}
 """,
     thermo = '0.0',
-    shortDesc = """0.0 0.0 -0.723 0.0 0.191 !experimental descriptors for molecular oxygen""",
+    shortDesc = u"""0.0 0.0 -0.723 0.0 0.191 !experimental descriptors for molecular oxygen""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -35,9 +35,9 @@ entry(
 1     O     1
 """,
     thermo = '0.524',
-    shortDesc = """0.378 0.309 0.802 0.348 0.146 !descriptors for H2O but with the contribution of 1 OH group to A""",
+    shortDesc = u"""0.378 0.309 0.802 0.348 0.146 !descriptors for H2O but with the contribution of 1 OH group to A""",
     longDesc = 
-"""
+u"""
 
 
 """,

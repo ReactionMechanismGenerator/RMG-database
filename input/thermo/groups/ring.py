@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Ring Corrections"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -20,9 +20,9 @@ entry(
         H298 = (0,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """Dummy Root""",
+    shortDesc = u"""Dummy Root""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -41,9 +41,9 @@ entry(
 3     R!H 0 {1,{S,D}} {2,{S,D}}
 """,
     thermo = 'Cyclopropane',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -67,9 +67,9 @@ entry(
         H298 = (27.53,"kcal/mol"),
         S298 = (32.0088,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclopropane ring BENSON""",
+    shortDesc = u"""Cyclopropane ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -93,9 +93,9 @@ entry(
         H298 = (55.4702,"kcal/mol"),
         S298 = (33.3257,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclopropene ring BENSON""",
+    shortDesc = u"""Cyclopropene ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -119,9 +119,9 @@ entry(
         H298 = (73.04,"kcal/mol"),
         S298 = (33.3257,"cal/(mol*K)"),
     ),
-    shortDesc = """Enthalpy from doi:10.1021/j100005a002 (S and Cp from Cyclopropene row above)""",
+    shortDesc = u"""Enthalpy from doi:10.1021/j100005a002 (S and Cp from Cyclopropene row above)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -145,9 +145,9 @@ entry(
         H298 = (78,"kcal/mol"),
         S298 = (33.3257,"cal/(mol*K)"),
     ),
-    shortDesc = """Enthalpy from doi:10.1021/j100005a002 (S and Cp from Cyclopropene row above)""",
+    shortDesc = u"""Enthalpy from doi:10.1021/j100005a002 (S and Cp from Cyclopropene row above)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -171,9 +171,9 @@ entry(
         H298 = (26.82,"kcal/mol"),
         S298 = (31.1767,"cal/(mol*K)"),
     ),
-    shortDesc = """CY/C2O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
+    shortDesc = u"""CY/C2O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -197,9 +197,9 @@ entry(
         H298 = (25.1977,"kcal/mol"),
         S298 = (32.3877,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -223,9 +223,9 @@ entry(
         H298 = (40.7699,"kcal/mol"),
         S298 = (34.529,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -249,9 +249,9 @@ entry(
         H298 = (67.2975,"kcal/mol"),
         S298 = (38.9107,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -275,9 +275,9 @@ entry(
         H298 = (56.774,"kcal/mol"),
         S298 = (35.6157,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -302,9 +302,9 @@ entry(
         H298 = (40.92,"kcal/mol"),
         S298 = (31.4507,"cal/(mol*K)"),
     ),
-    shortDesc = """Methylene cyclopropane ring BENSON""",
+    shortDesc = u"""Methylene cyclopropane ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -329,9 +329,9 @@ entry(
         H298 = (45.6,"kcal/mol"),
         S298 = (30.7247,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -356,9 +356,9 @@ entry(
         H298 = (69.316,"kcal/mol"),
         S298 = (39.8857,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -383,9 +383,9 @@ entry(
         H298 = (57.7946,"kcal/mol"),
         S298 = (37.18,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -410,9 +410,9 @@ entry(
         H298 = (36.0543,"kcal/mol"),
         S298 = (29.893,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -438,9 +438,9 @@ entry(
         H298 = (51.4711,"kcal/mol"),
         S298 = (35.3587,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -460,9 +460,9 @@ entry(
 4     R!H 0 {1,{S,D}} {3,{S,D}}
 """,
     thermo = 'Cyclobutane',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -487,9 +487,9 @@ entry(
         H298 = (26.2,"kcal/mol"),
         S298 = (29.8,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclobutane ring BENSON""",
+    shortDesc = u"""Cyclobutane ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -514,9 +514,9 @@ entry(
         H298 = (29.84,"kcal/mol"),
         S298 = (29.8677,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclobutene ring BENSON""",
+    shortDesc = u"""Cyclobutene ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -541,9 +541,9 @@ entry(
         H298 = (25.08,"kcal/mol"),
         S298 = (28.5487,"cal/(mol*K)"),
     ),
-    shortDesc = """CY/C3O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
+    shortDesc = u"""CY/C3O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -568,9 +568,9 @@ entry(
         H298 = (22.98,"kcal/mol"),
         S298 = (30.392,"cal/(mol*K)"),
     ),
-    shortDesc = """Beta-Propiolactone ring BENSON""",
+    shortDesc = u"""Beta-Propiolactone ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -595,9 +595,9 @@ entry(
         H298 = (22.53,"kcal/mol"),
         S298 = (29.8337,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclobutanone ring BENSON""",
+    shortDesc = u"""Cyclobutanone ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -622,9 +622,9 @@ entry(
         H298 = (28.0736,"kcal/mol"),
         S298 = (29.0217,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -649,9 +649,9 @@ entry(
         H298 = (24.4413,"kcal/mol"),
         S298 = (29.7827,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -676,9 +676,9 @@ entry(
         H298 = (77.2135,"kcal/mol"),
         S298 = (36.4303,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -704,9 +704,9 @@ entry(
         H298 = (16.94,"kcal/mol"),
         S298 = (35.477,"cal/(mol*K)"),
     ),
-    shortDesc = """4-Methylene-2-oxetanone ring BENSON""",
+    shortDesc = u"""4-Methylene-2-oxetanone ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -732,9 +732,9 @@ entry(
         H298 = (26.9,"kcal/mol"),
         S298 = (28.8887,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -760,9 +760,9 @@ entry(
         H298 = (23.79,"kcal/mol"),
         S298 = (25.597,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -789,9 +789,9 @@ entry(
         H298 = (28.04,"kcal/mol"),
         S298 = (31.4877,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -812,9 +812,9 @@ entry(
 5     R!H 0 {1,{S,D}} {4,{S,D}}
 """,
     thermo = 'Cyclopentane',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -840,9 +840,9 @@ entry(
         H298 = (6.3,"kcal/mol"),
         S298 = (27.3,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclopentane ring BENSON""",
+    shortDesc = u"""Cyclopentane ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -868,9 +868,9 @@ entry(
         H298 = (5.97,"kcal/mol"),
         S298 = (25.8284,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclopentene ring BENSON""",
+    shortDesc = u"""Cyclopentene ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -896,9 +896,9 @@ entry(
         H298 = (6.05,"kcal/mol"),
         S298 = (27.9821,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclopentadiene ring BENSON""",
+    shortDesc = u"""Cyclopentadiene ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -924,9 +924,9 @@ entry(
         H298 = (5.96,"kcal/mol"),
         S298 = (21.1624,"cal/(mol*K)"),
     ),
-    shortDesc = """CY/C4O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
+    shortDesc = u"""CY/C4O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -952,9 +952,9 @@ entry(
         H298 = (4.57,"kcal/mol"),
         S298 = (23.83,"cal/(mol*K)"),
     ),
-    shortDesc = """2,3-Dihydrofuran ring BENSON""",
+    shortDesc = u"""2,3-Dihydrofuran ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -980,9 +980,9 @@ entry(
         H298 = (5.13,"kcal/mol"),
         S298 = (20.4021,"cal/(mol*K)"),
     ),
-    shortDesc = """1,3-Dioxolane ring BENSON""",
+    shortDesc = u"""1,3-Dioxolane ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1008,9 +1008,9 @@ entry(
         H298 = (6.89,"kcal/mol"),
         S298 = (30.0857,"cal/(mol*K)"),
     ),
-    shortDesc = """Furan ring BENSON""",
+    shortDesc = u"""Furan ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1036,9 +1036,9 @@ entry(
         H298 = (1.4,"kcal/mol"),
         S298 = (37.7647,"cal/(mol*K)"),
     ),
-    shortDesc = """Dihydro-2,5-furandione ring BENSON""",
+    shortDesc = u"""Dihydro-2,5-furandione ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1064,9 +1064,9 @@ entry(
         H298 = (3.6,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """2,5-Furandione ring BENSON""",
+    shortDesc = u"""2,5-Furandione ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1092,9 +1092,9 @@ entry(
         H298 = (4.47,"kcal/mol"),
         S298 = (24.6287,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclopentanone ring BENSON""",
+    shortDesc = u"""Cyclopentanone ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1120,9 +1120,9 @@ entry(
         H298 = (7.92,"kcal/mol"),
         S298 = (27.4547,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1148,9 +1148,9 @@ entry(
         H298 = (4.23674,"kcal/mol"),
         S298 = (25.1504,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1176,9 +1176,9 @@ entry(
         H298 = (6.05383,"kcal/mol"),
         S298 = (25.0554,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1204,9 +1204,9 @@ entry(
         H298 = (4.56853,"kcal/mol"),
         S298 = (29.97,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1232,9 +1232,9 @@ entry(
         H298 = (10.1971,"kcal/mol"),
         S298 = (23.316,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1260,9 +1260,9 @@ entry(
         H298 = (9.45319,"kcal/mol"),
         S298 = (25.1104,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1289,9 +1289,9 @@ entry(
         H298 = (5.21,"kcal/mol"),
         S298 = (24.6287,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1318,9 +1318,9 @@ entry(
         H298 = (14.73,"kcal/mol"),
         S298 = (34.1,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1348,9 +1348,9 @@ entry(
         H298 = (6.67,"kcal/mol"),
         S298 = (31.384,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1372,9 +1372,9 @@ entry(
 6     R!H 0 {1,{S,D}} {5,{S,D}}
 """,
     thermo = 'Cyclohexane',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1396,9 +1396,9 @@ entry(
 6     {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = 'Cyclohexane',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1425,9 +1425,9 @@ entry(
         H298 = (0.08,"kcal/mol"),
         S298 = (18.1277,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclohexane ring BENSON https:""",
+    shortDesc = u"""Cyclohexane ring BENSON https:""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1454,9 +1454,9 @@ entry(
         H298 = (3.9,"kcal/mol"),
         S298 = (19.6424,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1483,9 +1483,9 @@ entry(
         H298 = (1.88,"kcal/mol"),
         S298 = (16.1924,"cal/(mol*K)"),
     ),
-    shortDesc = """1,3-Dioxane ring BENSON""",
+    shortDesc = u"""1,3-Dioxane ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1512,9 +1512,9 @@ entry(
         H298 = (3.4,"kcal/mol"),
         S298 = (17.8049,"cal/(mol*K)"),
     ),
-    shortDesc = """1,4-Dioxane ring BENSON""",
+    shortDesc = u"""1,4-Dioxane ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1541,9 +1541,9 @@ entry(
         H298 = (4.09,"kcal/mol"),
         S298 = (16.1953,"cal/(mol*K)"),
     ),
-    shortDesc = """1,3,5-Trioxane ring BENSON""",
+    shortDesc = u"""1,3,5-Trioxane ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1570,9 +1570,9 @@ entry(
         H298 = (3.6,"kcal/mol"),
         S298 = (19.9,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1599,9 +1599,9 @@ entry(
         H298 = (4.87,"kcal/mol"),
         S298 = (17.2,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1628,9 +1628,9 @@ entry(
         H298 = (0.7,"kcal/mol"),
         S298 = (18.8,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1657,9 +1657,9 @@ entry(
         H298 = (10,"kcal/mol"),
         S298 = (10,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1681,9 +1681,9 @@ entry(
 6     {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = 'Cyclohexanone',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1710,9 +1710,9 @@ entry(
         H298 = (1.29,"kcal/mol"),
         S298 = (19.1,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclohexanone ring BENSON""",
+    shortDesc = u"""Cyclohexanone ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1734,9 +1734,9 @@ entry(
 6     {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = '14methylenecyclohexane',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1765,9 +1765,9 @@ entry(
         H298 = (1.23,"kcal/mol"),
         S298 = (15.7314,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1789,9 +1789,9 @@ entry(
 6     {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = 'six-sidedoubles',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1813,9 +1813,9 @@ entry(
 6     {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = 'six-sidedoubles',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1837,9 +1837,9 @@ entry(
 6     {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = 'Cyclohexene',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1866,9 +1866,9 @@ entry(
         H298 = (1.07,"kcal/mol"),
         S298 = (20.3,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1895,9 +1895,9 @@ entry(
         H298 = (1.43,"kcal/mol"),
         S298 = (19.2,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1924,9 +1924,9 @@ entry(
         H298 = (1.17,"kcal/mol"),
         S298 = (21.2114,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclohexene ring BENSON""",
+    shortDesc = u"""Cyclohexene ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1953,9 +1953,9 @@ entry(
         H298 = (3.94,"kcal/mol"),
         S298 = (22.01,"cal/(mol*K)"),
     ),
-    shortDesc = """3,4-Dihydro-2H-pyran ring BENSON""",
+    shortDesc = u"""3,4-Dihydro-2H-pyran ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1982,9 +1982,9 @@ entry(
         H298 = (3.32,"kcal/mol"),
         S298 = (18.72,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2011,9 +2011,9 @@ entry(
         H298 = (3.1,"kcal/mol"),
         S298 = (20.2,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2040,9 +2040,9 @@ entry(
         H298 = (7.9,"kcal/mol"),
         S298 = (19.3,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2069,9 +2069,9 @@ entry(
         H298 = (6.98,"kcal/mol"),
         S298 = (24.5,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2098,9 +2098,9 @@ entry(
         H298 = (4,"kcal/mol"),
         S298 = (21.57,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2122,9 +2122,9 @@ entry(
 6     {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = '1,3-Cyclohexadiene',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2151,9 +2151,9 @@ entry(
         H298 = (3.78,"kcal/mol"),
         S298 = (23.9824,"cal/(mol*K)"),
     ),
-    shortDesc = """1,3-Cyclohexadiene ring BENSON""",
+    shortDesc = u"""1,3-Cyclohexadiene ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2175,9 +2175,9 @@ entry(
 6     Cd 0 {1,S} {5,D}
 """,
     thermo = '1,4-Cyclohexadiene',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2204,9 +2204,9 @@ entry(
         H298 = (0.52,"kcal/mol"),
         S298 = (25.3849,"cal/(mol*K)"),
     ),
-    shortDesc = """1,4-Cyclohexadiene ring BENSON""",
+    shortDesc = u"""1,4-Cyclohexadiene ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2233,9 +2233,9 @@ entry(
         H298 = (11.71,"kcal/mol","+|-",-2.9),
         S298 = (27.6,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2262,9 +2262,9 @@ entry(
         H298 = (10,"kcal/mol"),
         S298 = (10,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2286,9 +2286,9 @@ entry(
 6     Cd 0 {1,S} {5,D}
 """,
     thermo = '14cyclohexadiene3methylene',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2315,9 +2315,9 @@ entry(
         H298 = (-7.63,"kcal/mol"),
         S298 = (22.5264,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2345,9 +2345,9 @@ entry(
         H298 = (-2.31,"kcal/mol"),
         S298 = (27.775,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2369,9 +2369,9 @@ entry(
 6  *  {Cd,CO} 0 {1,S} {5,S}
 """,
     thermo = '13cyclohexadiene5methylene',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2398,9 +2398,9 @@ entry(
         H298 = (-10.77,"kcal/mol"),
         S298 = (29.286,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2428,9 +2428,9 @@ entry(
         H298 = (-4.78,"kcal/mol"),
         S298 = (28.295,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2452,9 +2452,9 @@ entry(
 6  *  {Cd,CO} 0 {1,S} {5,S}
 """,
     thermo = 'oxylene',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2482,9 +2482,9 @@ entry(
         H298 = (-4.62,"kcal/mol"),
         S298 = (28.901,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2513,9 +2513,9 @@ entry(
         H298 = (4.16,"kcal/mol"),
         S298 = (32.519,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2544,9 +2544,9 @@ entry(
         H298 = (11,"kcal/mol"),
         S298 = (25.331,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2568,9 +2568,9 @@ entry(
 6     Cd 0 {1,S} {5,D}
 """,
     thermo = 'pxylene',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2597,9 +2597,9 @@ entry(
         H298 = (15.52,"kcal/mol"),
         S298 = (24.9239,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2628,9 +2628,9 @@ entry(
         H298 = (1.16,"kcal/mol"),
         S298 = (31.3499,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2653,9 +2653,9 @@ entry(
 7     R!H 0 {1,{S,D}} {6,{S,D}}
 """,
     thermo = 'Cycloheptane',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2683,9 +2683,9 @@ entry(
         H298 = (6.4,"kcal/mol"),
         S298 = (15.9,"cal/(mol*K)"),
     ),
-    shortDesc = """Cycloheptane ring BENSON""",
+    shortDesc = u"""Cycloheptane ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2713,9 +2713,9 @@ entry(
         H298 = (5.4,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """Cycloheptene ring BENSON""",
+    shortDesc = u"""Cycloheptene ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2743,9 +2743,9 @@ entry(
         H298 = (6.6,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """1,3-Cycloheptadiene ring BENSON""",
+    shortDesc = u"""1,3-Cycloheptadiene ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2773,9 +2773,9 @@ entry(
         H298 = (4.7,"kcal/mol"),
         S298 = (23.7,"cal/(mol*K)"),
     ),
-    shortDesc = """1,3,5-Cycloheptatriene ring BENSON""",
+    shortDesc = u"""1,3,5-Cycloheptatriene ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2803,9 +2803,9 @@ entry(
         H298 = (2.3,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """Cycloheptanone ring BENSON""",
+    shortDesc = u"""Cycloheptanone ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2829,9 +2829,9 @@ entry(
 8     R!H 0 {1,{S,D}} {7,{S,D}}
 """,
     thermo = 'Cyclooctane',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2860,9 +2860,9 @@ entry(
         H298 = (9.9,"kcal/mol"),
         S298 = (16.5,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclooctane ring BENSON""",
+    shortDesc = u"""Cyclooctane ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2891,9 +2891,9 @@ entry(
         H298 = (8.9,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """1,3,5-Cyclooctatriene ring BENSON""",
+    shortDesc = u"""1,3,5-Cyclooctatriene ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2922,9 +2922,9 @@ entry(
         H298 = (17.1,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclooctatetraene ring BENSON""",
+    shortDesc = u"""Cyclooctatetraene ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2953,9 +2953,9 @@ entry(
         H298 = (1.5,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclooctanone ring BENSON""",
+    shortDesc = u"""Cyclooctanone ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2980,9 +2980,9 @@ entry(
 9     R!H 0 {1,{S,D}} {8,{S,D}}
 """,
     thermo = 'Cyclononane',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3012,9 +3012,9 @@ entry(
         H298 = (12.8,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclononane ring BENSON""",
+    shortDesc = u"""Cyclononane ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3044,9 +3044,9 @@ entry(
         H298 = (4.7,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclononanone ring BENSON""",
+    shortDesc = u"""Cyclononanone ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3072,9 +3072,9 @@ entry(
 10    R!H 0 {1,{S,D}} {9,{S,D}}
 """,
     thermo = 'Cyclodecane',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3105,9 +3105,9 @@ entry(
         H298 = (12.6,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclodecane ring BENSON""",
+    shortDesc = u"""Cyclodecane ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3138,9 +3138,9 @@ entry(
         H298 = (3.6,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """Cyclodecanone ring BENSON""",
+    shortDesc = u"""Cyclodecanone ring BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,

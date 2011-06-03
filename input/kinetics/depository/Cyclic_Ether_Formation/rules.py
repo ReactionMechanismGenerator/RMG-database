@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Cyclic_Ether_Formation/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -26,9 +26,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -65,9 +65,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -104,9 +104,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -143,9 +143,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -183,9 +183,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -223,9 +223,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -263,9 +263,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -304,9 +304,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -345,9 +345,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -386,9 +386,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -425,9 +425,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
+    shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -465,9 +465,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
+    shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -506,9 +506,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
+    shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -548,9 +548,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
+    shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [

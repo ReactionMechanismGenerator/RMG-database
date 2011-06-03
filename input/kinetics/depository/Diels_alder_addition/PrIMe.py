@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Diels_alder_addition"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -44,9 +44,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Rigaux, D.", "Vankeerberghen, J.", "Van Mele, B."], title=u'Kinetics of the Diels-Alder Addition of Ethene to Cyclohexa-1,3-Diene and Its Reverse Reaction in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="12", pages="""253""", year="1980", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -90,9 +91,10 @@ entry(
     ),
     reference = Article(authors=["Cocks, A.T.", "Frey, H.M."], title=u'Thermal Unimolecular Decomposition of Bicyclo[2.2.2]oct-2-ene', journal="J. Chem. Soc. A", pages="""1661""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -136,9 +138,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Rigaux, D.", "Vankeerberghen, J.", "Van Mele, B."], title=u'Kinetics of the Diels-Alder Addition of Ethene to Cyclohexa-1,3-Diene and Its Reverse Reaction in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="12", pages="""253""", year="1980", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -184,9 +187,10 @@ entry(
     ),
     reference = Article(authors=["Kistiakowsky, G.B.", "Lacher, J.R."], title=u'The kinetics of some gaseous diels-alder reactions', journal="J. Am. Chem. Soc.", volume="58", pages="""123-133""", year="1936", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:38 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -230,9 +234,10 @@ entry(
     ),
     reference = Article(authors=["Vaughan, W.E."], title=u'The homogeneous thermal polymerization of 1,3-butadiene', journal="J. Am. Chem. Soc.", volume="54", pages="""3863-3876""", year="1932", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -276,9 +281,10 @@ entry(
     ),
     reference = Article(authors=["Rowley, D.", "Steiner, H."], title=u'Kinetics of diene reactions at high temperatures', journal="Discuss. Faraday Soc.", volume="10", pages="""198-213""", year="1951", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -322,9 +328,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Luyckx, L.", "Vandenboom, Th.", "Van Mele, B."], title=u'Thermal Dimerization of 1,3-Butadiene: Kinetics of the Formation of cis, cis-Cycloocta-1,5-diene', journal="Int. J. Chem. Kinet.", volume="9", pages="""283""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -368,9 +375,10 @@ entry(
     ),
     reference = Article(authors=["Duncan, N.E.", "Janz, G.J."], title=u'The thermal dimerization of butadiene, and the equilibrium between butadiene and vinylcyclohexene', journal="J. Chem. Phys.", volume="20", pages="""1644-1645""", year="1952", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -414,9 +422,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Decyclization of cyclohexene, 4-methylcyclohexene, and 4-vinylcyclohexene in a single-pulse shock tube', journal="J. Chem. Phys.", volume="42", pages="""1805-1809""", year="1965", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -460,9 +469,10 @@ entry(
     ),
     reference = Article(authors=["Barnard, J.A.", "Parrott, T.K."], title=u'Kinetics of the thermal unimolecular reactions of cyclohexene and 4-vinylcyclohexene behind reflected shock waves', journal="J. Chem. Soc. Faraday Trans. 1", volume="72", pages="""2404""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -506,9 +516,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Luyckx, L.", "Vandenboom, Th.", "Van Mele, B."], title=u'Thermal Dimerization of 1,3-Butadiene: Kinetics of the Formation of cis, cis-Cycloocta-1,5-diene', journal="Int. J. Chem. Kinet.", volume="9", pages="""283""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -552,9 +563,10 @@ entry(
     ),
     reference = Article(authors=["Kistiakowsky, G.B.", "Lacher, J.R."], title=u'The kinetics of some gaseous diels-alder reactions', journal="J. Am. Chem. Soc.", volume="58", pages="""123-133""", year="1936", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -602,9 +614,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Hubin, Y.", "Narmon, M.", "Van Mele, B."], title=u'Kinetics and Mechanism of the Addition of 1,3-Butadiene to Cyclohexa-1,3-diene in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="14", pages="""259""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -650,9 +663,10 @@ entry(
     ),
     reference = Article(authors=["Kistiakowsky, G.B.", "Lacher, J.R."], title=u'The kinetics of some gaseous diels-alder reactions', journal="J. Am. Chem. Soc.", volume="58", pages="""123-133""", year="1936", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -700,9 +714,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Paternoster, G.", "Baetens, P."], title=u'Kinetics of the Diels-Alder Addition of Acrolein to Cyclohexa-1,3-diene and Its Reverse Reaction in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="8", pages="""641""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -750,9 +765,10 @@ entry(
     ),
     reference = Article(authors=["Van Mele, B.", "Tybaert, C.", "Huybrechts, G."], title=u'Kinetics, mechanism, and stereochemistry of Diels-Alder reactions of carbonyl-substituted ethenes with cyclohexa-1,3-diene in the gas phase', journal="Int. J. Chem. Kinet.", volume="19", pages="""1063""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -792,9 +808,10 @@ entry(
     ),
     reference = Article(authors=["Kuchler, L."], title=u'Homogenous thermal decomposition of some cyclic hydrocarbons', journal="J. Chem. Soc. Faraday Trans.", volume="35", pages="""874""", year="1939", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -834,9 +851,10 @@ entry(
     ),
     reference = Article(authors=["Kraus, M.", "Vavruska, M.", "Bazant, V."], title=u'Diene durch pyrolyse von cyclischen verbindungen. III. Die kinetik der spaltung von cyclohexen und cyclohexylacetat', journal="Collect. Czech. Chem. Commun.", volume="22", pages="""484""", year="1957", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -876,9 +894,10 @@ entry(
     ),
     reference = Article(authors=["Smith, S.R.", "Gordon, A.S."], title=u'A study of the pyrolysis of cyclohexene', journal="J. Phys. Chem.", volume="65", pages="""1124""", year="1961", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -918,9 +937,10 @@ entry(
     ),
     reference = Article(authors=["Uchiyama, M.", "Tomioka, T.", "Amano, A."], title=u'Thermal decomposition of cyclohexene', journal="Ber. Bunsenges. Phys. Chem.", volume="68", pages="""1878""", year="1964", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -960,9 +980,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Decyclization of cyclohexene, 4-methylcyclohexene, and 4-vinylcyclohexene in a single-pulse shock tube', journal="J. Chem. Phys.", volume="42", pages="""1805-1809""", year="1965", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1002,9 +1023,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Comparative rate single-pulse shock tube studies on the thermal decomposition of cyclohexene, 2,2,3-trimethylbutane, isopropyl bromide, and ethylcyclobutane', journal="Int. J. Chem. Kinet.", volume="2", pages="""311""", year="1970", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1044,9 +1066,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Thermal Decomposition of 1,1,2,2-Tetramethylcyclopropane in a Single-Pulse Shock Tube', journal="Int. J. Chem. Kinet.", volume="5", pages="""651""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1086,9 +1109,10 @@ entry(
     ),
     reference = Article(authors=["Barnard, J.A.", "Parrott, T.K."], title=u'Kinetics of the thermal unimolecular reactions of cyclohexene and 4-vinylcyclohexene behind reflected shock waves', journal="J. Chem. Soc. Faraday Trans. 1", volume="72", pages="""2404""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1128,9 +1152,10 @@ entry(
     ),
     reference = Article(authors=["Newman, C.G.", "O'Neal, H.E.", "Ring, M.A.", "Leska, F.", "Shipley, N."], title=u'Kinetics and mechanism of the silane decomposition', journal="Int. J. Chem. Kinet.", volume="11", pages="""1167""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1170,9 +1195,10 @@ entry(
     ),
     reference = Article(authors=["Skinner, G.B.", "Rogers, D.", "Patel, K.B."], title=u'Consistency of theory and experiment in the ethane-methyl radical system', journal="Int. J. Chem. Kinet.", volume="13", pages="""481""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1212,9 +1238,10 @@ entry(
     ),
     reference = Article(authors=["Hidaka, Y.", "Chimori, T.", "Shiba, S.", "Suga, M."], title=u'Decyclization of cyclohexene in shock waves', journal="Chem. Phys. Lett.", volume="111", pages="""181""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1254,9 +1281,10 @@ entry(
     ),
     reference = Article(authors=["Lewis, D.K.", "Bergmann, J.", "Manjoney, R.", "Paddock, R.", "Kaira, B.L."], title=u'Rates of reactions of cyclopropane, cyclobutane, cyclopentene, and cyclohexene in the presence of boron trichloride', journal="J. Phys. Chem.", volume="88", pages="""4112""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1296,9 +1324,10 @@ entry(
     ),
     reference = Article(authors=["Kiefer, J.H.", "Shah, J.N."], title=u'Unimolecular dissociation of cyclohexene at extremely high temperatures: Behavior of the energy-transfer collision efficiency', journal="J. Phys. Chem.", volume="91", pages="""3024""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1338,9 +1367,10 @@ entry(
     ),
     reference = Article(authors=["Kiefer, J.H.", "Shah, J.N."], title=u'Unimolecular dissociation of cyclohexene at extremely high temperatures: Behavior of the energy-transfer collision efficiency', journal="J. Phys. Chem.", volume="91", pages="""3024""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1380,9 +1410,10 @@ entry(
     ),
     reference = Article(authors=["Kiefer, J.H.", "Shah, J.N."], title=u'Unimolecular dissociation of cyclohexene at extremely high temperatures: Behavior of the energy-transfer collision efficiency', journal="J. Phys. Chem.", volume="91", pages="""3024""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1430,9 +1461,10 @@ entry(
     ),
     reference = Article(authors=["Ondruschka, B.", "Zimmermann, G."], title=u'Pyrolysis kinetics of octalins', journal="J. Prakt. Chem.", volume="332", pages="""547""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:03 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1474,9 +1506,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Decyclization of cyclohexene, 4-methylcyclohexene, and 4-vinylcyclohexene in a single-pulse shock tube', journal="J. Chem. Phys.", volume="42", pages="""1805-1809""", year="1965", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1518,9 +1551,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Single-pulse shock tube study on the stability of perfluorobromomethane', journal="J. Phys. Chem.", volume="90", pages="""414-418""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1562,9 +1596,10 @@ entry(
     ),
     reference = Article(authors=["Simmie, J.M."], title=u'Kinetic Study of a Retro Diels-Alder Reaction in a Single-Pulse Shock Tube: Decyclization of 1-Methylcyclohex-1-ene', journal="Int. J. Chem. Kinet.", volume="10", pages="""227""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1606,9 +1641,10 @@ entry(
     ),
     reference = Article(authors=["Simmie, J.M."], title=u'Kinetic Study of a Retro Diels-Alder Reaction in a Single-Pulse Shock Tube: Decyclization of 1-Methylcyclohex-1-ene', journal="Int. J. Chem. Kinet.", volume="10", pages="""227""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1660,9 +1696,10 @@ entry(
     ),
     reference = Article(authors=["De Mare, G.R.", "Huybrechts, G.", "Toth, M.", "Goldfinger, P."], title=u'Thermal Dimerization of 1,3-Cyclohexadiene in the Gas Phase', journal="Trans. Faraday Soc.", volume="67", pages="""1397""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:11 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1714,9 +1751,10 @@ entry(
     ),
     reference = Article(authors=["De Mare, G.R.", "Huybrechts, G.", "Toth, M.", "Goldfinger, P."], title=u'Thermal Dimerization of 1,3-Cyclohexadiene in the Gas Phase', journal="Trans. Faraday Soc.", volume="67", pages="""1397""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:18 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1768,9 +1806,10 @@ entry(
     ),
     reference = Article(authors=["De Mare, G.R.", "Huybrechts, G.", "Toth, M.", "Goldfinger, P."], title=u'Thermal Dimerization of 1,3-Cyclohexadiene in the Gas Phase', journal="Trans. Faraday Soc.", volume="67", pages="""1397""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:18 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1818,9 +1857,10 @@ entry(
     ),
     reference = Article(authors=["Ondruschka, B.", "Zimmermann, G."], title=u'Pyrolysis kinetics of octalins', journal="J. Prakt. Chem.", volume="332", pages="""547""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:25 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1864,9 +1904,10 @@ entry(
     ),
     reference = Article(authors=["Robaugh, D.", "Tsang, W."], title=u'Thermal decomposition of phenyl iodide and o-iodotoluene', journal="J. Phys. Chem.", volume="90", pages="""5363""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:29 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1912,9 +1953,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Ngoy, G."], title=u'Kinetics of the Pyrolysis of Endo- and Exo-5-Methylbicyclo[2.2.2]oct-2-ene in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="8", pages="""775""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:23 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1960,9 +2002,10 @@ entry(
     ),
     reference = Article(authors=["van Mele, B.", "Boon, G.", "Huybrechts, G."], title=u'Gas phase kinetic and thermochemical data for endo- and exo-5-monosubstituted bicyclo[2.2.2]oct-2-enes', journal="Int. J. Chem. Kinet.", volume="18", pages="""537""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:23 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2008,9 +2051,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Ngoy, G."], title=u'Kinetics of the Pyrolysis of Endo- and Exo-5-Methylbicyclo[2.2.2]oct-2-ene in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="8", pages="""775""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:23 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2056,9 +2100,10 @@ entry(
     ),
     reference = Article(authors=["van Mele, B.", "Boon, G.", "Huybrechts, G."], title=u'Gas phase kinetic and thermochemical data for endo- and exo-5-monosubstituted bicyclo[2.2.2]oct-2-enes', journal="Int. J. Chem. Kinet.", volume="18", pages="""537""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:23 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2104,9 +2149,10 @@ entry(
     ),
     reference = Article(authors=["Debande, G.", "Huybrechts, G."], title=u'Kinetics of the Addition of Propene to Cyclohexa-1,3-Diene in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="6", pages="""545""", year="1974", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:23 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2152,9 +2198,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Poppelsdorf, H.", "Maesschalck, L.", "Van Mele, B."], title=u'Kinetics, mechanism, and endo selectivity of diels-alder reactions of alkylmonosubstituted ethenes with cyclohexa-1,3-diene in the gas phase', journal="Int. J. Chem. Kinet.", volume="16", pages="""93""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:23 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2200,9 +2247,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Ngoy, G."], title=u'Kinetics of the Pyrolysis of Endo- and Exo-5-Methylbicyclo[2.2.2]oct-2-ene in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="8", pages="""775""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2248,9 +2296,10 @@ entry(
     ),
     reference = Article(authors=["van Mele, B.", "Boon, G.", "Huybrechts, G."], title=u'Gas phase kinetic and thermochemical data for endo- and exo-5-monosubstituted bicyclo[2.2.2]oct-2-enes', journal="Int. J. Chem. Kinet.", volume="18", pages="""537""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2296,9 +2345,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Ngoy, G."], title=u'Kinetics of the Pyrolysis of Endo- and Exo-5-Methylbicyclo[2.2.2]oct-2-ene in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="8", pages="""775""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2344,9 +2394,10 @@ entry(
     ),
     reference = Article(authors=["van Mele, B.", "Boon, G.", "Huybrechts, G."], title=u'Gas phase kinetic and thermochemical data for endo- and exo-5-monosubstituted bicyclo[2.2.2]oct-2-enes', journal="Int. J. Chem. Kinet.", volume="18", pages="""537""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2392,9 +2443,10 @@ entry(
     ),
     reference = Article(authors=["Debande, G.", "Huybrechts, G."], title=u'Kinetics of the Addition of Propene to Cyclohexa-1,3-Diene in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="6", pages="""545""", year="1974", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2440,9 +2492,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Poppelsdorf, H.", "Maesschalck, L.", "Van Mele, B."], title=u'Kinetics, mechanism, and endo selectivity of diels-alder reactions of alkylmonosubstituted ethenes with cyclohexa-1,3-diene in the gas phase', journal="Int. J. Chem. Kinet.", volume="16", pages="""93""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2490,9 +2543,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Hubin, Y.", "Narmon, M.", "Van Mele, B."], title=u'Kinetics of the Thermal Reactions of Bicyclo[4.2.2]deca-3,7-diene and endo- and exo-5-Vinylbicyclo[2.2.2]oct-2-ene in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="14", pages="""251""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2540,9 +2594,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Hubin, Y.", "Narmon, M.", "Van Mele, B."], title=u'Kinetics and Mechanism of the Addition of 1,3-Butadiene to Cyclohexa-1,3-diene in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="14", pages="""259""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2590,9 +2645,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Hubin, Y.", "Narmon, M.", "Van Mele, B."], title=u'Kinetics of the Thermal Reactions of Bicyclo[4.2.2]deca-3,7-diene and endo- and exo-5-Vinylbicyclo[2.2.2]oct-2-ene in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="14", pages="""251""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2640,9 +2696,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Hubin, Y.", "Narmon, M.", "Van Mele, B."], title=u'Kinetics and Mechanism of the Addition of 1,3-Butadiene to Cyclohexa-1,3-diene in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="14", pages="""259""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2690,9 +2747,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Paternoster, G.", "Baetens, P."], title=u'Kinetics of the Diels-Alder Addition of Acrolein to Cyclohexa-1,3-diene and Its Reverse Reaction in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="8", pages="""641""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2740,9 +2798,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Paternoster, G.", "Baetens, P."], title=u'Kinetics of the Diels-Alder Addition of Acrolein to Cyclohexa-1,3-diene and Its Reverse Reaction in the Gas Phase', journal="Int. J. Chem. Kinet.", volume="8", pages="""641""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2790,9 +2849,10 @@ entry(
     ),
     reference = Article(authors=["Van Mele, B.", "Tybaert, C.", "Huybrechts, G."], title=u'Kinetics, mechanism, and stereochemistry of Diels-Alder reactions of carbonyl-substituted ethenes with cyclohexa-1,3-diene in the gas phase', journal="Int. J. Chem. Kinet.", volume="19", pages="""1063""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2842,9 +2902,10 @@ entry(
     ),
     reference = Article(authors=["van Mele, B.", "Boon, G.", "Huybrechts, G."], title=u'Gas phase kinetic and thermochemical data for endo- and exo-5-monosubstituted bicyclo[2.2.2]oct-2-enes', journal="Int. J. Chem. Kinet.", volume="18", pages="""537""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:08 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2894,9 +2955,10 @@ entry(
     ),
     reference = Article(authors=["van Mele, B.", "Boon, G.", "Huybrechts, G."], title=u'Gas phase kinetic and thermochemical data for endo- and exo-5-monosubstituted bicyclo[2.2.2]oct-2-enes', journal="Int. J. Chem. Kinet.", volume="18", pages="""537""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:09 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2946,9 +3008,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Poppelsdorf, H.", "Maesschalck, L.", "Van Mele, B."], title=u'Kinetics, mechanism, and endo selectivity of diels-alder reactions of alkylmonosubstituted ethenes with cyclohexa-1,3-diene in the gas phase', journal="Int. J. Chem. Kinet.", volume="16", pages="""93""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:09 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2996,9 +3059,10 @@ entry(
     ),
     reference = Article(authors=["van Mele, B.", "Boon, G.", "Huybrechts, G."], title=u'Gas phase kinetic and thermochemical data for endo- and exo-5-monosubstituted bicyclo[2.2.2]oct-2-enes', journal="Int. J. Chem. Kinet.", volume="18", pages="""537""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:09 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3046,9 +3110,10 @@ entry(
     ),
     reference = Article(authors=["van Mele, B.", "Boon, G.", "Huybrechts, G."], title=u'Gas phase kinetic and thermochemical data for endo- and exo-5-monosubstituted bicyclo[2.2.2]oct-2-enes', journal="Int. J. Chem. Kinet.", volume="18", pages="""537""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:09 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3096,9 +3161,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Poppelsdorf, H.", "Maesschalck, L.", "Van Mele, B."], title=u'Kinetics, mechanism, and endo selectivity of diels-alder reactions of alkylmonosubstituted ethenes with cyclohexa-1,3-diene in the gas phase', journal="Int. J. Chem. Kinet.", volume="16", pages="""93""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:09 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3146,9 +3212,10 @@ entry(
     ),
     reference = Article(authors=["van Mele, B.", "Boon, G.", "Huybrechts, G."], title=u'Gas phase kinetic and thermochemical data for endo- and exo-5-monosubstituted bicyclo[2.2.2]oct-2-enes', journal="Int. J. Chem. Kinet.", volume="18", pages="""537""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:09 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3196,9 +3263,10 @@ entry(
     ),
     reference = Article(authors=["van Mele, B.", "Boon, G.", "Huybrechts, G."], title=u'Gas phase kinetic and thermochemical data for endo- and exo-5-monosubstituted bicyclo[2.2.2]oct-2-enes', journal="Int. J. Chem. Kinet.", volume="18", pages="""537""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3246,9 +3314,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Poppelsdorf, H.", "Maesschalck, L.", "Van Mele, B."], title=u'Kinetics, mechanism, and endo selectivity of diels-alder reactions of alkylmonosubstituted ethenes with cyclohexa-1,3-diene in the gas phase', journal="Int. J. Chem. Kinet.", volume="16", pages="""93""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3298,9 +3367,10 @@ entry(
     ),
     reference = Article(authors=["van Mele, B.", "Boon, G.", "Huybrechts, G."], title=u'Gas phase kinetic and thermochemical data for endo- and exo-5-monosubstituted bicyclo[2.2.2]oct-2-enes', journal="Int. J. Chem. Kinet.", volume="18", pages="""537""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3350,9 +3420,10 @@ entry(
     ),
     reference = Article(authors=["van Mele, B.", "Boon, G.", "Huybrechts, G."], title=u'Gas phase kinetic and thermochemical data for endo- and exo-5-monosubstituted bicyclo[2.2.2]oct-2-enes', journal="Int. J. Chem. Kinet.", volume="18", pages="""537""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3402,9 +3473,10 @@ entry(
     ),
     reference = Article(authors=["Huybrechts, G.", "Poppelsdorf, H.", "Maesschalck, L.", "Van Mele, B."], title=u'Kinetics, mechanism, and endo selectivity of diels-alder reactions of alkylmonosubstituted ethenes with cyclohexa-1,3-diene in the gas phase', journal="Int. J. Chem. Kinet.", volume="16", pages="""93""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),

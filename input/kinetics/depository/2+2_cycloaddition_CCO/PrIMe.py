@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "2+2_cycloaddition_CCO"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -40,9 +40,10 @@ entry(
     ),
     reference = Article(authors=["Blake, P.G.", "Davis, H.H."], title=u'Kinetics of Dimerisation of Gaseous Keten', journal="J. Appl. Chem. Biotechnol.", volume="22", pages="""491""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -90,9 +91,10 @@ entry(
     ),
     reference = Article(authors=["Vala, M.", "Baiardo, J.", "Latham, D.", "Mukherjee, R.", "Pascyz, S."], title=u'Fourier transform infrared kinetic study of the thermal decomposition of tetramethyl-1-3-cyclobutanedione and dimethylketene', journal="J. Indian Chem. Soc.", volume="63", pages="""16""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:22 2011","jwallen","action","""jwallen added this entry to the database."""),

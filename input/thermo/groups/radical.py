@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Radical Corrections"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -12,9 +12,9 @@ entry(
     label = "Radical",
     group = "OR{RJ, RJ2, RJ3}",
     thermo = 'RJ',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -31,9 +31,9 @@ entry(
 1  *  R 1
 """,
     thermo = 'CJ',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -50,9 +50,9 @@ entry(
 1  *  C 1
 """,
     thermo = 'CsJ',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -69,9 +69,9 @@ entry(
 1  *  Cs 1
 """,
     thermo = 'Cs_P',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -96,9 +96,9 @@ entry(
         H298 = (104.81,"kcal/mol","+|-",0.1),
         S298 = (0.52,"cal/(mol*K)"),
     ),
-    shortDesc = """Calculated in relation to methane from NIST values""",
+    shortDesc = u"""Calculated in relation to methane from NIST values""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -123,9 +123,9 @@ entry(
         H298 = (101.1,"kcal/mol"),
         S298 = (2.61,"cal/(mol*K)"),
     ),
-    shortDesc = """Generic primary radical. (CHEN & BOZZELLI) #""",
+    shortDesc = u"""Generic primary radical. (CHEN & BOZZELLI) #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -145,9 +145,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cs_P',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -174,9 +174,9 @@ entry(
         H298 = (103.26,"kcal/mol"),
         S298 = (3.54,"cal/(mol*K)"),
     ),
-    shortDesc = """WIJAYA et al.""",
+    shortDesc = u"""WIJAYA et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -204,9 +204,9 @@ entry(
         H298 = (101.1,"kcal/mol","+|-",0.2),
         S298 = (2.61,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -234,9 +234,9 @@ entry(
         H298 = (101.1,"kcal/mol","+|-",0.2),
         S298 = (2.61,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al. CHEN & BOZZELLI #""",
+    shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -264,9 +264,9 @@ entry(
         H298 = (101.1,"kcal/mol"),
         S298 = (2.91,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -294,9 +294,9 @@ entry(
         H298 = (101.1,"kcal/mol"),
         S298 = (3.03,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al. CHEN & BOZZELLI #""",
+    shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -321,9 +321,9 @@ entry(
         H298 = (88.5,"kcal/mol","+|-",0.1),
         S298 = (-4.74,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -348,9 +348,9 @@ entry(
         H298 = (88.2,"kcal/mol"),
         S298 = (-2.56,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al. CHEN & BOZZELLI #""",
+    shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -377,9 +377,9 @@ entry(
         H298 = (80,"kcal/mol"),
         S298 = (-1.55,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -406,9 +406,9 @@ entry(
         H298 = (81,"kcal/mol"),
         S298 = (-3.55,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -433,9 +433,9 @@ entry(
         H298 = (89.4,"kcal/mol"),
         S298 = (-0.51,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al. CHEN & BOZZELLI #""",
+    shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -462,9 +462,9 @@ entry(
         H298 = (94.4,"kcal/mol"),
         S298 = (-1.16,"cal/(mol*K)"),
     ),
-    shortDesc = """CHEN & BOZZELLI""",
+    shortDesc = u"""CHEN & BOZZELLI""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -489,9 +489,9 @@ entry(
         H298 = (98.45,"kcal/mol"),
         S298 = (4.44,"cal/(mol*K)"),
     ),
-    shortDesc = """Generic secondary radical. (CHEN & BOZZELLI) #""",
+    shortDesc = u"""Generic secondary radical. (CHEN & BOZZELLI) #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -511,9 +511,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cs_S',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -540,9 +540,9 @@ entry(
         H298 = (99.98,"kcal/mol"),
         S298 = (4.79,"cal/(mol*K)"),
     ),
-    shortDesc = """WIJAYA et al.""",
+    shortDesc = u"""WIJAYA et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -573,9 +573,9 @@ entry(
         H298 = (98.45,"kcal/mol","+|-",0.2),
         S298 = (4.51,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al. CHEN & BOZZELLI #""",
+    shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -606,9 +606,9 @@ entry(
         H298 = (98.45,"kcal/mol"),
         S298 = (5.13,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -639,9 +639,9 @@ entry(
         H298 = (98.45,"kcal/mol"),
         S298 = (4.9,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -666,9 +666,9 @@ entry(
         H298 = (85.9,"kcal/mol"),
         S298 = (-5.04,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -693,9 +693,9 @@ entry(
         H298 = (85.6,"kcal/mol"),
         S298 = (-3.81,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al. CHEN & BOZZELLI #""",
+    shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -720,9 +720,9 @@ entry(
         H298 = (76,"kcal/mol"),
         S298 = (-4.05,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -747,9 +747,9 @@ entry(
         H298 = (87,"kcal/mol"),
         S298 = (-0.45,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -776,9 +776,9 @@ entry(
         H298 = (91.9,"kcal/mol"),
         S298 = (-2.37,"cal/(mol*K)"),
     ),
-    shortDesc = """CHEN & BOZZELLI #""",
+    shortDesc = u"""CHEN & BOZZELLI #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -798,9 +798,9 @@ entry(
 4     C 0 {1,S}
 """,
     thermo = 'Tertalkyl',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -825,9 +825,9 @@ entry(
         H298 = (96.5,"kcal/mol"),
         S298 = (5.24,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al. CHEN & BOZZELLI #""",
+    shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -854,9 +854,9 @@ entry(
         H298 = (97.2,"kcal/mol"),
         S298 = (7.31,"cal/(mol*K)"),
     ),
-    shortDesc = """WIJAYA et al.""",
+    shortDesc = u"""WIJAYA et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -881,9 +881,9 @@ entry(
         H298 = (83.8,"kcal/mol"),
         S298 = (-5.34,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -908,9 +908,9 @@ entry(
         H298 = (83.4,"kcal/mol"),
         S298 = (-3.69,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -935,9 +935,9 @@ entry(
         H298 = (84.5,"kcal/mol"),
         S298 = (1.48,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -964,9 +964,9 @@ entry(
         H298 = (89.8,"kcal/mol"),
         S298 = (-1.71,"cal/(mol*K)"),
     ),
-    shortDesc = """CHEN & BOZZELLI #. Value for Cp1500 taken as equal to Cp1000""",
+    shortDesc = u"""CHEN & BOZZELLI #. Value for Cp1500 taken as equal to Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -986,9 +986,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'CsJOH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1014,9 +1014,9 @@ entry(
         H298 = (96.51,"kcal/mol"),
         S298 = (0.09,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1037,9 +1037,9 @@ entry(
 5     C 0 {2,S}
 """,
     thermo = 'CsJOCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1060,9 +1060,9 @@ entry(
 5     Cs 0 {2,S}
 """,
     thermo = 'CsJOCH3',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1091,9 +1091,9 @@ entry(
         H298 = (97,"kcal/mol"),
         S298 = (0.78,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN #""",
+    shortDesc = u"""SUMATHI & GREEN #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1122,9 +1122,9 @@ entry(
         H298 = (96.83,"kcal/mol"),
         S298 = (1.41,"cal/(mol*K)"),
     ),
-    shortDesc = """Calculated from data in SUMATHI & GREEN. Values might have large error bars.""",
+    shortDesc = u"""Calculated from data in SUMATHI & GREEN. Values might have large error bars.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1153,9 +1153,9 @@ entry(
         H298 = (96.16,"kcal/mol"),
         S298 = (-0.59,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1184,9 +1184,9 @@ entry(
         H298 = (95.75,"kcal/mol"),
         S298 = (0.27,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1207,9 +1207,9 @@ entry(
 5     {Cd,CO} 0 {2,S}
 """,
     thermo = 'CsJOC(O)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1236,9 +1236,9 @@ entry(
         H298 = (100.7,"kcal/mol"),
         S298 = (-0.18,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1266,9 +1266,9 @@ entry(
         H298 = (100.88,"kcal/mol"),
         S298 = (-0.18,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1296,9 +1296,9 @@ entry(
         H298 = (100.48,"kcal/mol"),
         S298 = (-0.17,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1324,9 +1324,9 @@ entry(
         H298 = (98.5,"kcal/mol"),
         S298 = (-1.57,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1353,9 +1353,9 @@ entry(
         H298 = (98.91,"kcal/mol"),
         S298 = (-1.52,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1382,9 +1382,9 @@ entry(
         H298 = (98.34,"kcal/mol"),
         S298 = (-1.62,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1404,9 +1404,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'CCsJOC',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1432,9 +1432,9 @@ entry(
         H298 = (95.39,"kcal/mol"),
         S298 = (0.92,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1455,9 +1455,9 @@ entry(
 5     C 0 {2,S}
 """,
     thermo = 'CCsJOCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1483,9 +1483,9 @@ entry(
         H298 = (95.41,"kcal/mol"),
         S298 = (0.33,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1506,9 +1506,9 @@ entry(
 5     {CO,Cd} 0 {2,S}
 """,
     thermo = 'CCsJOC(O)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1535,9 +1535,9 @@ entry(
         H298 = (98.7,"kcal/mol"),
         S298 = (0.98,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1565,9 +1565,9 @@ entry(
         H298 = (98.87,"kcal/mol"),
         S298 = (0.98,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1590,9 +1590,9 @@ entry(
 7     C 0 {5,S}
 """,
     thermo = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1618,9 +1618,9 @@ entry(
         H298 = (96.9,"kcal/mol"),
         S298 = (0.76,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1647,9 +1647,9 @@ entry(
         H298 = (97.19,"kcal/mol"),
         S298 = (0.77,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1676,9 +1676,9 @@ entry(
         H298 = (96.64,"kcal/mol"),
         S298 = (0.74,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1698,9 +1698,9 @@ entry(
 4     C 0 {1,S}
 """,
     thermo = 'C2CsJOC',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1726,9 +1726,9 @@ entry(
         H298 = (94.5,"kcal/mol"),
         S298 = (2.17,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1749,9 +1749,9 @@ entry(
 5     C 0 {2,S}
 """,
     thermo = 'C2CsJOCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1777,9 +1777,9 @@ entry(
         H298 = (95.5,"kcal/mol"),
         S298 = (3.71,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1800,9 +1800,9 @@ entry(
 5     {Cd,CO} 0 {2,S}
 """,
     thermo = 'C2CsJOC(O)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1829,9 +1829,9 @@ entry(
         H298 = (100.1,"kcal/mol"),
         S298 = (4.77,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1859,9 +1859,9 @@ entry(
         H298 = (99.97,"kcal/mol"),
         S298 = (4.88,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1889,9 +1889,9 @@ entry(
         H298 = (100.25,"kcal/mol"),
         S298 = (4.66,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1917,9 +1917,9 @@ entry(
         H298 = (96.7,"kcal/mol"),
         S298 = (2.22,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1946,9 +1946,9 @@ entry(
         H298 = (96.74,"kcal/mol"),
         S298 = (2.37,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1975,9 +1975,9 @@ entry(
         H298 = (96.58,"kcal/mol"),
         S298 = (2.08,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1994,9 +1994,9 @@ entry(
 1  *  {Cd,CO} 1
 """,
     thermo = 'Cds_P',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2014,9 +2014,9 @@ entry(
 2     O 0 {1,D}
 """,
     thermo = 'CCJ=O',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2040,9 +2040,9 @@ entry(
         H298 = (88.45,"kcal/mol"),
         S298 = (-0.01,"cal/(mol*K)"),
     ),
-    shortDesc = """Calculated in relation to formaldehyde from NIST values""",
+    shortDesc = u"""Calculated in relation to formaldehyde from NIST values""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2061,9 +2061,9 @@ entry(
 3     C 0 {1,S}
 """,
     thermo = 'CsCJ=O',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2087,9 +2087,9 @@ entry(
         H298 = (89,"kcal/mol"),
         S298 = (1.12,"cal/(mol*K)"),
     ),
-    shortDesc = """CHEN & BOZZELLI #""",
+    shortDesc = u"""CHEN & BOZZELLI #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2114,9 +2114,9 @@ entry(
         H298 = (83,"kcal/mol"),
         S298 = (-1.39,"cal/(mol*K)"),
     ),
-    shortDesc = """CHEN & BOZZELLI #""",
+    shortDesc = u"""CHEN & BOZZELLI #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2135,9 +2135,9 @@ entry(
 3     O 0 {1,S}
 """,
     thermo = '(O)CJOC',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2162,9 +2162,9 @@ entry(
         H298 = (100.75,"kcal/mol"),
         S298 = (0.78,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN #""",
+    shortDesc = u"""SUMATHI & GREEN #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2189,9 +2189,9 @@ entry(
         H298 = (98.99,"kcal/mol"),
         S298 = (0.72,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN (Hf assigned value of (O)CJOCH(CH3)2)""",
+    shortDesc = u"""SUMATHI & GREEN (Hf assigned value of (O)CJOCH(CH3)2)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2219,9 +2219,9 @@ entry(
         H298 = (100.1,"kcal/mol"),
         S298 = (0.72,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN""",
+    shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2249,9 +2249,9 @@ entry(
         H298 = (99.49,"kcal/mol"),
         S298 = (0.55,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN (values from (O)CJOCH2CH3)""",
+    shortDesc = u"""SUMATHI & GREEN (values from (O)CJOCH2CH3)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2279,9 +2279,9 @@ entry(
         H298 = (98.99,"kcal/mol"),
         S298 = (0.82,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN (values from (O)CJOCH(CH3)2)""",
+    shortDesc = u"""SUMATHI & GREEN (values from (O)CJOCH(CH3)2)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2309,9 +2309,9 @@ entry(
         H298 = (97.98,"kcal/mol"),
         S298 = (0.76,"cal/(mol*K)"),
     ),
-    shortDesc = """SUMATHI & GREEN (values from (O)CJOC(CH3)3)""",
+    shortDesc = u"""SUMATHI & GREEN (values from (O)CJOC(CH3)3)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2335,9 +2335,9 @@ entry(
         H298 = (111.2,"kcal/mol"),
         S298 = (1.39,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al. CHEN & BOZZELLI #""",
+    shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2362,9 +2362,9 @@ entry(
         H298 = (89,"kcal/mol"),
         S298 = (1.29,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2388,9 +2388,9 @@ entry(
         H298 = (109,"kcal/mol"),
         S298 = (1.81,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al. CHEN & BOZZELLI #""",
+    shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2414,9 +2414,9 @@ entry(
         H298 = (99.8,"kcal/mol"),
         S298 = (0.71,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2434,9 +2434,9 @@ entry(
 2     C 0 {1,T}
 """,
     thermo = 'Acetyl',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2460,9 +2460,9 @@ entry(
         H298 = (132.7,"kcal/mol"),
         S298 = (2.11,"cal/(mol*K)"),
     ),
-    shortDesc = """LAY et al.""",
+    shortDesc = u"""LAY et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2486,9 +2486,9 @@ entry(
         H298 = (113,"kcal/mol"),
         S298 = (1.48,"cal/(mol*K)"),
     ),
-    shortDesc = """BDE from TSANG, S and Cp from THERM""",
+    shortDesc = u"""BDE from TSANG, S and Cp from THERM""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2505,9 +2505,9 @@ entry(
 1  *  O 1
 """,
     thermo = 'COJ',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2530,9 +2530,9 @@ entry(
         H298 = (119.22,"kcal/mol"),
         S298 = (-2.6,"cal/(mol*K)"),
     ),
-    shortDesc = """Calculated from NIST values for H2O, OH and H""",
+    shortDesc = u"""Calculated from NIST values for H2O, OH and H""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2550,9 +2550,9 @@ entry(
 2     C 0 {1,S}
 """,
     thermo = 'CsOJ',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2575,9 +2575,9 @@ entry(
         H298 = (104.06,"kcal/mol"),
         S298 = (-1.46,"cal/(mol*K)"),
     ),
-    shortDesc = """CHEN & BOZZELLI(ROJ)""",
+    shortDesc = u"""CHEN & BOZZELLI(ROJ)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2603,9 +2603,9 @@ entry(
         H298 = (104.27,"kcal/mol"),
         S298 = (0.51,"cal/(mol*K)"),
     ),
-    shortDesc = """Enthalpy HBI calculated from NIST values, entropy and Cp from B3LYP/6-31G* for CH3OH, CH3O and H""",
+    shortDesc = u"""Enthalpy HBI calculated from NIST values, entropy and Cp from B3LYP/6-31G* for CH3OH, CH3O and H""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2623,9 +2623,9 @@ entry(
 2     {Cd,CO} 0 {1,S}
 """,
     thermo = 'RC=COJ',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2648,9 +2648,9 @@ entry(
         H298 = (88,"kcal/mol"),
         S298 = (-1.11,"cal/(mol*K)"),
     ),
-    shortDesc = """CHEN & BOZZELLI""",
+    shortDesc = u"""CHEN & BOZZELLI""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2673,9 +2673,9 @@ entry(
         H298 = (104,"kcal/mol"),
         S298 = (0.79,"cal/(mol*K)"),
     ),
-    shortDesc = """CHEN & BOZZELLI""",
+    shortDesc = u"""CHEN & BOZZELLI""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2693,9 +2693,9 @@ entry(
 2     O 0 {1,S}
 """,
     thermo = 'ROOJ',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2719,9 +2719,9 @@ entry(
         H298 = (88.2,"kcal/mol"),
         S298 = (0.22,"cal/(mol*K)"),
     ),
-    shortDesc = """CHEN & BOZZELLI""",
+    shortDesc = u"""CHEN & BOZZELLI""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2746,9 +2746,9 @@ entry(
         H298 = (98.33,"kcal/mol"),
         S298 = (0.22,"cal/(mol*K)"),
     ),
-    shortDesc = """HBI for enthalpy from CHEN & BOZZELLI. Cp and S values taken from ROOJ""",
+    shortDesc = u"""HBI for enthalpy from CHEN & BOZZELLI. Cp and S values taken from ROOJ""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2775,9 +2775,9 @@ entry(
         H298 = (85.3,"kcal/mol"),
         S298 = (0.22,"cal/(mol*K)"),
     ),
-    shortDesc = """CHEN & BOZZELLI""",
+    shortDesc = u"""CHEN & BOZZELLI""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2801,9 +2801,9 @@ entry(
         H298 = (85.13,"kcal/mol"),
         S298 = (-0.92,"cal/(mol*K)"),
     ),
-    shortDesc = """Calculated from NIST values for H2O2, O2H and H""",
+    shortDesc = u"""Calculated from NIST values for H2O2, O2H and H""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2820,9 +2820,9 @@ entry(
 1  *  Si 1
 """,
     thermo = 'CJ',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2839,9 +2839,9 @@ entry(
 1  *  S 1
 """,
     thermo = 'OJ',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2858,9 +2858,9 @@ entry(
 1  *  R {2S,2T}
 """,
     thermo = 'CJ2',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2877,9 +2877,9 @@ entry(
 1  *  C {2S,2T}
 """,
     thermo = 'CsJ2',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2896,9 +2896,9 @@ entry(
 1  *  Cs {2S,2T}
 """,
     thermo = 'CH2',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2917,9 +2917,9 @@ entry(
 3     H 0 {1,S}
 """,
     thermo = 'CH2_t',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2943,9 +2943,9 @@ entry(
         H298 = (214.44,"kcal/mol"),
         S298 = (-1.73,"cal/(mol*K)"),
     ),
-    shortDesc = """Calculated for methylene in relation to methane from NIST values""",
+    shortDesc = u"""Calculated for methylene in relation to methane from NIST values""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2969,9 +2969,9 @@ entry(
         H298 = (223.7,"kcal/mol"),
         S298 = (-1.73,"cal/(mol*K)"),
     ),
-    shortDesc = """BDE JANOSCHEK & ROSSI. S and Cp from CH2_t.""",
+    shortDesc = u"""BDE JANOSCHEK & ROSSI. S and Cp from CH2_t.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2990,9 +2990,9 @@ entry(
 3     H 0 {1,S}
 """,
     thermo = 'CsCsJ2',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3011,9 +3011,9 @@ entry(
 3     H 0 {1,S}
 """,
     thermo = 'CCJ2',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3035,9 +3035,9 @@ entry(
 6     H 0 {2,S}
 """,
     thermo = 'CCJ2_t',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3064,9 +3064,9 @@ entry(
         H298 = (211.3,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """BDE and Cp calculated from data in KIM et al.""",
+    shortDesc = u"""BDE and Cp calculated from data in KIM et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3088,9 +3088,9 @@ entry(
 6     H 0 {2,S}
 """,
     thermo = 'CCJ2_t',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3109,9 +3109,9 @@ entry(
 3     H 0 {1,S}
 """,
     thermo = 'PhCH_t',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3135,9 +3135,9 @@ entry(
         H298 = (195,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """BDE from PUTSMA et al.""",
+    shortDesc = u"""BDE from PUTSMA et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3161,9 +3161,9 @@ entry(
         H298 = (205.8,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """BDE from NGUYEN et al.""",
+    shortDesc = u"""BDE from NGUYEN et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3182,9 +3182,9 @@ entry(
 3     H 0 {1,S}
 """,
     thermo = 'AllylJ2_t',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3208,9 +3208,9 @@ entry(
         H298 = (192.8,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """BDE from PUTSMA et al.""",
+    shortDesc = u"""BDE from PUTSMA et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3229,9 +3229,9 @@ entry(
 3     H 0 {1,S}
 """,
     thermo = 'AllylJ2_t',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3250,9 +3250,9 @@ entry(
 3     C 0 {1,S}
 """,
     thermo = 'CsJ2_P',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3269,9 +3269,9 @@ entry(
 1  *  {Cd,CO} {2S,2T}
 """,
     thermo = 'CCdJ2',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3289,9 +3289,9 @@ entry(
 2     C 0 {1,D}
 """,
     thermo = 'CCdJ2_s',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3309,9 +3309,9 @@ entry(
 2     C 0 {1,D}
 """,
     thermo = 'CCdJ2_s',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3334,9 +3334,9 @@ entry(
         H298 = (190.7,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """BDE from ERWIN et al.""",
+    shortDesc = u"""BDE from ERWIN et al.""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3359,9 +3359,9 @@ entry(
         H298 = (103.73,"kcal/mol"),
         S298 = (-6.47,"cal/(mol*K)"),
     ),
-    shortDesc = """Value for carbon monoxide calculated in relation to formaldehyde from NIST values""",
+    shortDesc = u"""Value for carbon monoxide calculated in relation to formaldehyde from NIST values""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3378,9 +3378,9 @@ entry(
 1  *  O {2S,2T}
 """,
     thermo = 'Oa_t',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3402,9 +3402,9 @@ entry(
         H298 = (221.55,"kcal/mol"),
         S298 = (-8.02,"cal/(mol*K)"),
     ),
-    shortDesc = """Calculated for atomic oxygen in relation to water from NIST values""",
+    shortDesc = u"""Calculated for atomic oxygen in relation to water from NIST values""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3426,9 +3426,9 @@ entry(
         H298 = (266.9,"kcal/mol"),
         S298 = (-8.02,"cal/(mol*K)"),
     ),
-    shortDesc = """BDE from SCHALLEY et al. S and Cp values taken from Oa_t""",
+    shortDesc = u"""BDE from SCHALLEY et al. S and Cp values taken from Oa_t""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3445,9 +3445,9 @@ entry(
 1  *  Si {2S,2T}
 """,
     thermo = 'CJ2',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3464,9 +3464,9 @@ entry(
 1  *  S {2S,2T}
 """,
     thermo = 'Oa',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3483,9 +3483,9 @@ entry(
 1  *  R 3
 """,
     thermo = 'CJ3',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3507,9 +3507,9 @@ entry(
         H298 = (316.19,"kcal/mol"),
         S298 = (-5.7,"cal/(mol*K)"),
     ),
-    shortDesc = """Calculated for methylidyene in relation to methane from NIST values""",
+    shortDesc = u"""Calculated for methylidyene in relation to methane from NIST values""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3526,9 +3526,9 @@ entry(
 1  *  Si 3
 """,
     thermo = 'CJ3',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,

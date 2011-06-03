@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Intra_Disproportionation/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -38,9 +38,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
+    shortDesc = u"""Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -80,9 +80,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
+    shortDesc = u"""Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -115,9 +115,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
+    shortDesc = u"""Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -150,9 +150,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
+    shortDesc = u"""Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -185,9 +185,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
+    shortDesc = u"""Herbinet et al.(2006) reference Ea and Warth et al.(1998) prefactor with deltan_int=-1""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [

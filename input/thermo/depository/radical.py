@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Radical Molecules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 

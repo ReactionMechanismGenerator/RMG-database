@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "R_Addition_MultipleBond"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -38,9 +38,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:23 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -80,9 +81,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:23 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -120,9 +122,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:23 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -160,9 +163,10 @@ entry(
     ),
     reference = Article(authors=["Knoll, H.", "Nacsa, A.", "Foergeteg, S.", "Berces, T."], title=u'Free Radical Additions to the C=O Bond of Formaldehyde', journal="React. Kinet. Catal. Lett.", volume="15", pages="""481""", year="1980", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:30 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -200,9 +204,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."], title=u'Photochemical smog. Rate parameter estimates and computer simulations', journal="J. Phys. Chem.", volume="81", pages="""2483""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:30 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -240,9 +245,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, A.C.", "Golden, D.M."], title=u'Alkoxy Radical Reactions: The Isomerization of n-Butoxy Radicals Generated from the Pyrolysis of n-Butyl Nitrite', journal="Chem. Phys. Lett.", volume="60", pages="""108""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:30 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -282,9 +288,10 @@ entry(
     ),
     reference = Article(authors=["Birrell, R.N.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part VII. t-butyl radicals from the photolysis of pivalaldehyde', journal="J. Chem. Soc.", pages="""4218""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -322,9 +329,10 @@ entry(
     ),
     reference = Article(authors=["Kerr, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part 2. s-Propyl radicals from the photolysis of isobutyraldehyde', journal="Trans. Faraday Soc.", volume="55", pages="""921""", year="1959", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -362,9 +370,10 @@ entry(
     ),
     reference = Article(authors=["Watkins, K.W.", "O'Deen, L.A."], title=u'Kinetics of the addition of ethyl, isopropyl, n-butyl, and isopentyl radicals to ethylene', journal="J. Phys. Chem.", volume="73", pages="""4094-4102""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -402,9 +411,10 @@ entry(
     ),
     reference = Article(authors=["Kerr, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part 1.-n-Propyl radicals from the photolysis of n-butyraldehyde', journal="Trans. Faraday Soc.", volume="55", pages="""572""", year="1959", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -442,9 +452,10 @@ entry(
     ),
     reference = Article(authors=["Watkins, K.W.", "Lawson, D.R."], title=u'Isomerization of Chemically Activated n-Pentyl Radicals', journal="J. Phys. Chem.", volume="75", pages="""1632""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -478,9 +489,10 @@ entry(
     ),
     reference = Article(authors=["Hogg, A.M.", "Kebarle, P."], title=u'Addition of methyl radicals to vinyl chloride and catalysis of di-t-butyl peroxide decomposition by chlorinated compounds', journal="J. Am. Chem. Soc.", volume="86", pages="""4558-4562""", year="1964", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -514,9 +526,10 @@ entry(
     ),
     reference = Article(authors=["Camilleri, P.", "Marshall, R.M.", "Purnell, H."], title=u'Arrhenius Parameters for the Unimolecular Decompositions of Azomethane and n-Propyl and Isopropyl Radicals and for Methyl Radical Attack on Propane', journal="J. Chem. Soc. Faraday Trans. 1", volume="71", pages="""1491""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -550,9 +563,10 @@ entry(
     ),
     reference = Article(authors=["Holt, P.M.", "Kerr, J.A."], title=u'Kinetics of Gas-Phase Addition Reactions of Methyl Radicals. I. Addition to Ethylene, Acetylene, and Benzene', journal="Int. J. Chem. Kinet.", volume="9", pages="""185""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -586,9 +600,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W.", "Hampson, R.F."], title=u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds', journal="J. Phys. Chem. Ref. Data", volume="15", pages="""1087""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -622,9 +637,10 @@ entry(
     ),
     reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -666,9 +682,10 @@ entry(
     ),
     reference = Article(authors=["Watkins, K.W.", "O'Deen, L.A."], title=u'Kinetics of the addition of ethyl, isopropyl, n-butyl, and isopentyl radicals to ethylene', journal="J. Phys. Chem.", volume="73", pages="""4094-4102""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -708,9 +725,10 @@ entry(
     ),
     reference = Article(authors=["Kerr, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part III. n-Butyl radicals from the photolysis of n-Valeraldehyde', journal="J. Chem. Soc.", pages="""1602""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -750,9 +768,10 @@ entry(
     ),
     reference = Article(authors=["Watkins, K.W.", "O'Deen, L.A."], title=u'Kinetics of the addition of ethyl, isopropyl, n-butyl, and isopentyl radicals to ethylene', journal="J. Phys. Chem.", volume="73", pages="""4094-4102""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -788,9 +807,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part 2. Methanol', journal="J. Phys. Chem. Ref. Data", volume="16", pages="""471""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -826,9 +846,10 @@ entry(
     ),
     reference = Article(authors=["Weissman, M.", "Benson, S.W."], title=u'Pyrolysis of methyl chloride, a pathway in the chlorine-catalyzed polymerization of methane', journal="Int. J. Chem. Kinet.", volume="16", pages="""307""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -868,9 +889,10 @@ entry(
     ),
     reference = Article(authors=["Garcia Dominguez, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part IX. The addition of methyl, ethyl, isopropyl, and t-butyl radicals to acetylene and the isomerization of alkenyl radicals', journal="J. Chem. Soc.", pages="""940-944""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -908,9 +930,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -948,9 +971,10 @@ entry(
     ),
     reference = Article(authors=["Garcia Dominguez, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part IX. The addition of methyl, ethyl, isopropyl, and t-butyl radicals to acetylene and the isomerization of alkenyl radicals', journal="J. Chem. Soc.", pages="""940-944""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -986,9 +1010,10 @@ entry(
     ),
     reference = Article(authors=["Garcia Dominguez, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part IX. The addition of methyl, ethyl, isopropyl, and t-butyl radicals to acetylene and the isomerization of alkenyl radicals', journal="J. Chem. Soc.", pages="""940-944""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1024,9 +1049,10 @@ entry(
     ),
     reference = Article(authors=["Wagner, H.Gg.", "Zellner, R."], title=u'Reaktionen von Wasserstoffatomen mit ungesaettigten C_3-Kohlenwasserstoffen. II. Die Reaktion von H-Atomen mit Methylacetylen', journal="Ber. Bunsenges. Phys. Chem.", volume="76", pages="""518""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1062,9 +1088,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1100,9 +1127,10 @@ entry(
     ),
     reference = Article(authors=["Naroznik, M.", "Niedzielski, J."], title=u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes', journal="J. Photochem.", volume="32", pages="""281""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1142,9 +1170,10 @@ entry(
     ),
     reference = Article(authors=["Francisco-Marquez, M.", "Alvarez-Idaboy, J.R.", "Galano, A.", "Vivier-Bunge, A."], title=u'Theoretical study of the initial reaction between OH and isoprene in tropospheric conditions', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""1392-1399""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:38 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1184,9 +1213,10 @@ entry(
     ),
     reference = Article(authors=["Francisco-Marquez, M.", "Alvarez-Idaboy, J.R.", "Galano, A.", "Vivier-Bunge, A."], title=u'Theoretical study of the initial reaction between OH and isoprene in tropospheric conditions', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""1392-1399""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:38 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1226,9 +1256,10 @@ entry(
     ),
     reference = Article(authors=["Francisco-Marquez, M.", "Alvarez-Idaboy, J.R.", "Galano, A.", "Vivier-Bunge, A."], title=u'Theoretical study of the initial reaction between OH and isoprene in tropospheric conditions', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""1392-1399""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:38 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1268,9 +1299,10 @@ entry(
     ),
     reference = Article(authors=["Francisco-Marquez, M.", "Alvarez-Idaboy, J.R.", "Galano, A.", "Vivier-Bunge, A."], title=u'Theoretical study of the initial reaction between OH and isoprene in tropospheric conditions', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""1392-1399""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:38 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1308,9 +1340,10 @@ entry(
     ),
     reference = Article(authors=["Perrin, D.", "Richard, C.", "Martin, R."], title=u'H_2S-promoted thermal isomerization of Cis-2-pentene to 1-pentene and trans-2-pentene around 800 K', journal="Int. J. Chem. Kinet.", volume="20", pages="""621""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1348,9 +1381,10 @@ entry(
     ),
     reference = Article(authors=["Perrin, D.", "Richard, C.", "Martin, R."], title=u'H_2S-promoted thermal isomerization of Cis-2-pentene to 1-pentene and trans-2-pentene around 800 K', journal="Int. J. Chem. Kinet.", volume="20", pages="""621""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1390,9 +1424,10 @@ entry(
     ),
     reference = Article(authors=["Brown, A.C.R.", "James, D.G.L."], title=u'A kinetic study of the metathetical and addition reactions characteristic of allyl polymerization', journal="Can. J. Chem.", volume="40", pages="""796-803""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1434,9 +1469,10 @@ entry(
     ),
     reference = Article(authors=["Hoyermann, K.", "Preuss, A.W.", "Wagner, H.G."], title=u'Die reaktionen von atomarem wasserstoff mit cyclohexen, cyclohexadien-1,3 und benzol', journal="Ber. Bunsenges. Phys. Chem.", volume="79", pages="""156""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1478,9 +1514,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1520,9 +1557,10 @@ entry(
     ),
     reference = Article(authors=["Barbe, P.", "Martin, R.", "Perrin, D.", "Scacchi, G."], title=u'Kinetics and modeling of the thermal reaction of propene at 800 K. Part I. Pure propene', journal="Int. J. Chem. Kinet.", volume="28", pages="""829-847""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1560,9 +1598,10 @@ entry(
     ),
     reference = Article(authors=["Seres, L.", "Nacsa, A.", "Arthur, N.L."], title=u'Thermal decomposition of di-t-butyl peroxide in the presence of (CH_3)_2C=CH_2: reactions of CH_3, (CH_3)_2CCH_2CH_3, and (CH_3)_2CCH_2C(CH_3)_2CH_2CH_3 radicals', journal="Int. J. Chem. Kinet.", volume="26", pages="""227-246""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:55 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1608,9 +1647,10 @@ entry(
     ),
     reference = Article(authors=["Seres, L.", "Nacsa, A.", "Arthur, N.L."], title=u'Thermal decomposition of di-t-butyl peroxide in the presence of (CH_3)_2C=CH_2: reactions of CH_3, (CH_3)_2CCH_2CH_3, and (CH_3)_2CCH_2C(CH_3)_2CH_2CH_3 radicals', journal="Int. J. Chem. Kinet.", volume="26", pages="""227-246""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:55 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1646,9 +1686,10 @@ entry(
     ),
     reference = Article(authors=["Getty, R.R.", "Kerr, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part XII. The additions of methyl, ethyl, and isopropyl radicals to allene', journal="J. Chem. Soc. A", pages="""979-982""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:01 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1684,9 +1725,10 @@ entry(
     ),
     reference = Article(authors=["Scherzer, K.", "Claus, P.", "Dabbagh, M."], title=u'Kinetische untersuchungen der reaktionen von methylradikalen mit allen', journal="J. Prakt. Chem.", volume="325", pages="""680""", year="1983", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:01 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1732,9 +1774,10 @@ entry(
     ),
     reference = Article(authors=["Vereecken, L.", "Peeters, J."], title=u'Reactions of chemically activated C9H9 species II: The reaction of phenyl radicals with allene and cyclopropene, and of benzyl radicals with acetylene', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""2807-2817""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1780,9 +1823,10 @@ entry(
     ),
     reference = Article(authors=["Vereecken, L.", "Peeters, J."], title=u'Reactions of chemically activated C9H9 species II: The reaction of phenyl radicals with allene and cyclopropene, and of benzyl radicals with acetylene', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""2807-2817""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1818,9 +1862,10 @@ entry(
     ),
     reference = Article(authors=["Wagner, H.Gg.", "Zellner, R."], title=u'Reaktionen von Wasserstoffatomen mit ungesaettigten C_3-Kohlenwasserstoffen. III. Die Reaktion von H-Atomen mit Allen', journal="Ber. Bunsenges. Phys. Chem.", volume="76", pages="""667""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1856,9 +1901,10 @@ entry(
     ),
     reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1894,9 +1940,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W.", "Walker, J.A."], title=u'Pyrolysis of 1,7-octadiene and the kinetic and thermodynamic stability of allyl and 4-pentenyl radicals', journal="J. Phys. Chem.", volume="96", pages="""8378-8384""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1932,9 +1979,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1970,9 +2018,10 @@ entry(
     ),
     reference = Article(authors=["Naroznik, M.", "Niedzielski, J."], title=u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes', journal="J. Photochem.", volume="32", pages="""281""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2008,9 +2057,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2046,9 +2096,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W.", "Walker, J.A."], title=u'Pyrolysis of 1,7-octadiene and the kinetic and thermodynamic stability of allyl and 4-pentenyl radicals', journal="J. Phys. Chem.", volume="96", pages="""8378-8384""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2086,9 +2137,10 @@ entry(
     ),
     reference = Article(authors=["Yokoyama, N.", "Brinton, R.K."], title=u'Reaction of methyl radicals with cis-butene-2', journal="Can. J. Chem.", volume="47", pages="""2987""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:09 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2134,9 +2186,10 @@ entry(
     ),
     reference = Article(authors=["James, D.G.L.", "Steacie, E.W.R."], title=u'Reactions of the ethyl radical. II. Addition to unsaturated hydrocarbons', journal="Proc. R. Soc. London A", volume="244", pages="""297-311""", year="1958", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:11 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2178,9 +2231,10 @@ entry(
     ),
     reference = Article(authors=["Seres, L.", "Fischer, R.", "Scherzer, K.", "Gorgenyl, M."], title=u'Thermal reaction of azoisopropane in the presence of (E)-CH_3CH = CHCH_3: reactions of the radical 2-C_3H_7', journal="J. Chem. Soc. Faraday Trans.", volume="91", pages="""1303-1312""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:14 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2218,9 +2272,10 @@ entry(
     ),
     reference = Article(authors=["Birrell, R.N.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part VII. t-butyl radicals from the photolysis of pivalaldehyde', journal="J. Chem. Soc.", pages="""4218""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:27 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2258,9 +2313,10 @@ entry(
     ),
     reference = Article(authors=["Canosa, C.E.", "Marshall, R.M."], title=u'The Rate Constant for t-C_4H_9 \u2192 H + i-C_4H_8 and the Thermodynamic Parameters of t-C_4H_9', journal="Int. J. Chem. Kinet.", volume="13", pages="""303""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:27 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2298,9 +2354,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'The stability of alkyl radicals', journal="J. Am. Chem. Soc.", volume="107", pages="""2872""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:27 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2338,9 +2395,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part 4. Isobutane', journal="J. Phys. Chem. Ref. Data", volume="19", pages="""1-68""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:27 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2378,9 +2436,10 @@ entry(
     ),
     reference = Article(authors=["Knyazev, V.D.", "Dubinsky, I.A.", "Slagle, I.R.", "Gutman, D."], title=u'Unimolecular decomposition of t-C_4H_9 radical', journal="J. Phys. Chem.", volume="98", pages="""5279-5289""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:27 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2418,9 +2477,10 @@ entry(
     ),
     reference = Article(authors=["Dalgleish, D.G.", "Knox, J.H."], title=u'The reactions of hydrogen atoms with isobutane and isobutene', journal="J. Chem. Soc. Chem. Commun.", pages="""917-918""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:27 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2458,9 +2518,10 @@ entry(
     ),
     reference = Article(authors=["Bradley, J.N.", "West, K.O."], title=u'Single-pulse Shock Tube Studies of Hydrocarbon Pyrolysis. Part 5. Pyrolysis of Neopentane', journal="J. Chem. Soc. Faraday Trans. 1", volume="72", pages="""8""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:27 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2498,9 +2559,10 @@ entry(
     ),
     reference = Article(authors=["Canosa, C.E.", "Marshall, R.M.", "Sheppard, A."], title=u'The Rate Constant for H + i-C_4H_8 \u2192 t-C_4H_9 in the Range of 298-563 K', journal="Int. J. Chem. Kinet.", volume="13", pages="""295""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:27 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2538,9 +2600,10 @@ entry(
     ),
     reference = Article(authors=["Kyogoku, T.", "Watanabe, T.", "Tsunashima, S.", "Sato, S."], title=u'Arrhenius parameters for the reactions of hydrogen and deuterium atoms with four butenes', journal="Bull. Chem. Soc. Jpn.", volume="56", pages="""19""", year="1983", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:27 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2578,9 +2641,10 @@ entry(
     ),
     reference = Article(authors=["Knyazev, V.D.", "Dubinsky, I.A.", "Slagle, I.R.", "Gutman, D."], title=u'Unimolecular decomposition of t-C_4H_9 radical', journal="J. Phys. Chem.", volume="98", pages="""5279-5289""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:27 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2618,9 +2682,10 @@ entry(
     ),
     reference = Article(authors=["Bryukov, M.G.", "Slagle, I.R.", "Knyazev, V.D."], title=u'Kinetics of Reactions of H Atoms with Methane and Chlorinated Methanes', journal="J. Phys. Chem. A", volume="105", pages="""3107-3122""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:27 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2656,9 +2721,10 @@ entry(
     ),
     reference = Article(authors=["Kerr, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part 2. s-Propyl radicals from the photolysis of isobutyraldehyde', journal="Trans. Faraday Soc.", volume="55", pages="""921""", year="1959", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2694,9 +2760,10 @@ entry(
     ),
     reference = Article(authors=["Leathard, D.A.", "Purnell, J.H."], title=u'Propyl radical isomerization and heterogeneous effects in the pyrolysis of propane below 500\xb0C', journal="Proc. R. Soc. London A", volume="306", pages="""553""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2732,9 +2799,10 @@ entry(
     ),
     reference = Article(authors=["Papic, M.M.", "Laidler, K.J."], title=u'Kinetics of the Mercury-Photosensitized Decomposition of Propane. Part II. Reactions of the Propyl Radicals', journal="Can. J. Chem.", volume="49", pages="""549""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2770,9 +2838,10 @@ entry(
     ),
     reference = Article(authors=["Camilleri, P.", "Marshall, R.M.", "Purnell, H."], title=u'Arrhenius Parameters for the Unimolecular Decompositions of Azomethane and n-Propyl and Isopropyl Radicals and for Methyl Radical Attack on Propane', journal="J. Chem. Soc. Faraday Trans. 1", volume="71", pages="""1491""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2808,9 +2877,10 @@ entry(
     ),
     reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2846,9 +2916,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2884,9 +2955,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'The stability of alkyl radicals', journal="J. Am. Chem. Soc.", volume="107", pages="""2872""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2922,9 +2994,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part 3. Propane', journal="J. Phys. Chem. Ref. Data", volume="17", pages="""887""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2960,9 +3033,10 @@ entry(
     ),
     reference = Article(authors=["Seakins, P.W.", "Robertson, S.H.", "Pilling, M.J.", "Slagle, I.R.", "Gmurczyk, G.W.", "Bencsura, A.", "Gutman, D.", "Tsang, W."], title=u'Kinetics of the unimolecular decomposition of iso-C_3H_7: weak collision effects in helium, argon, and nitrogen', journal="J. Phys. Chem.", volume="97", pages="""4450-4458""", year="1993", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2998,9 +3072,10 @@ entry(
     ),
     reference = Article(authors=["Kurylo, M.J.", "Peterson, N.C.", "Braun, W."], title=u'Temperature and Pressure Effects in the Addition of H Atoms to Propylene', journal="J. Chem. Phys.", volume="54", pages="""4662""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3036,9 +3111,10 @@ entry(
     ),
     reference = Article(authors=["Wagner, H.Gg.", "Zellner, R."], title=u'Reaktionen von Wasserstoffatomen mit ungesaettigten C_3-Kohlenwasserstoffen. I. Die Reaktion von H-Atomen mit Propylen', journal="Ber. Bunsenges. Phys. Chem.", volume="76", pages="""440""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3074,9 +3150,10 @@ entry(
     ),
     reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3112,9 +3189,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3150,9 +3228,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for hydrocarbon pyrolysis', journal="Ind. Eng. Chem.", volume="31", pages="""3-8""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3188,9 +3267,10 @@ entry(
     ),
     reference = Article(authors=["Seakins, P.W.", "Robertson, S.H.", "Pilling, M.J.", "Slagle, I.R.", "Gmurczyk, G.W.", "Bencsura, A.", "Gutman, D.", "Tsang, W."], title=u'Kinetics of the unimolecular decomposition of iso-C_3H_7: weak collision effects in helium, argon, and nitrogen', journal="J. Phys. Chem.", volume="97", pages="""4450-4458""", year="1993", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:33 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3224,9 +3304,10 @@ entry(
     ),
     reference = Article(authors=["Brodsky, A.M.", "Kalinenko, R.A.", "Lavrovsky, K.P."], title=u'The principles governing high-temperature ethane cracking', journal="J. Chem. Soc.", pages="""4443""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3260,9 +3341,10 @@ entry(
     ),
     reference = Article(authors=["Kerr, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part V. Ethyl radicals from propionaldehyde', journal="J. Chem. Soc.", pages="""1611""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3296,9 +3378,10 @@ entry(
     ),
     reference = Article(authors=["Purnell, J.H.", "Quinn, C.P."], title=u'The pyrolysis of n-butane', journal="Proc. R. Soc. London A", volume="270", pages="""267""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3332,9 +3415,10 @@ entry(
     ),
     reference = Article(authors=["Lin, M.C.", "Back, M.H."], title=u'the thermal decomposition of ethane. Part II. The unimolecular decomposition of the ethane molecule and the ethyl radical', journal="Can. J. Chem.", volume="44", pages="""2357""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3368,9 +3452,10 @@ entry(
     ),
     reference = Article(authors=["Loucks, L.F.", "Laidler, K.J."], title=u'Thermal decomposition of the ethyl radical', journal="Can. J. Chem.", volume="45", pages="""2795-2803""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3404,9 +3489,10 @@ entry(
     ),
     reference = Article(authors=["Koski, A.A.", "Price, S.J.W.", "Trudell, B.C."], title=u'Studies of the pyrolysis of diethylzinc by the toluene carrier method and of the reaction of ethyl radicals with toluene', journal="Can. J. Chem.", volume="54", pages="""482-487""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3440,9 +3526,10 @@ entry(
     ),
     reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3476,9 +3563,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3512,9 +3600,10 @@ entry(
     ),
     reference = Article(authors=["Hidaka, Y.", "Shiba, S.", "Takuma, H.", "Suga, M."], title=u'Thermal decomposition of ethane in shock waves', journal="Int. J. Chem. Kinet.", volume="17", pages="""441""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000021.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3548,9 +3637,10 @@ entry(
     ),
     reference = Article(authors=["Brouard, M.", "Lightfoot, P.D.", "Pilling, M.J."], title=u'Observation of equilibration in the system H + C_2H_4 = C_2H_5. The determination of the heat of formation of C_2H_5', journal="J. Phys. Chem.", volume="90", pages="""445""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3584,9 +3674,10 @@ entry(
     ),
     reference = Article(authors=["Trenwith, A.B."], title=u'The pyrolysis of ethane. A study of the dissociation reaction C_2H_5 \u2192 C_2H_4 + H', journal="J. Chem. Soc. Faraday Trans. 2", volume="82", pages="""457""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3620,9 +3711,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W.", "Hampson, R.F."], title=u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds', journal="J. Phys. Chem. Ref. Data", volume="15", pages="""1087""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000024.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3656,9 +3748,10 @@ entry(
     ),
     reference = Article(authors=["Simon, Y.", "Foucaut, J.F.", "Scacchi, G."], title=u'Etude experimentale et modelisation theorique de la decomposition du radical ethyle', journal="Can. J. Chem.", volume="66", pages="""2142""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000025.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3692,9 +3785,10 @@ entry(
     ),
     reference = Article(authors=["Bozzelli, J.W.", "Dean, A.M."], title=u'Chemical activation analysis of the reaction of C_2H_5 with O_2', journal="J. Phys. Chem.", volume="94", pages="""3313""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000027.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3728,9 +3822,10 @@ entry(
     ),
     reference = Article(authors=["Feng, Y.", "Niiranen, J.T.", "Bencsura, A.", "Knyazev, V.D.", "Gutman, D.", "Tsang, W."], title=u'Weak collision effects in the reaction C_2H_5 = C_2H_4 + H', journal="J. Phys. Chem.", volume="97", pages="""871-880""", year="1993", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000028.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3764,9 +3859,10 @@ entry(
     ),
     reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000030.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3800,9 +3896,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000032.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3836,9 +3933,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000033.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3872,9 +3970,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000034.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3908,9 +4007,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000035.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3944,9 +4044,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000036.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -3980,9 +4081,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000037.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4016,9 +4118,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000038.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4052,9 +4155,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000039.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4088,9 +4192,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000040.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4124,9 +4229,10 @@ entry(
     ),
     reference = Article(authors=["Yang, K."], title=u'Free radical reactions initiated by ionizing radiations. I. Arrhenius parameters for the reactions of hydrogen atoms with propane, ethylene and propylene', journal="J. Am. Chem. Soc.", volume="84", pages="""719-721""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000045.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4160,9 +4266,10 @@ entry(
     ),
     reference = Article(authors=["Dodonov, A.F.", "Lavrovskaya, G.K.", "Talroze, V.L."], title=u'Mass-spectroscopic determination of rate constants for elementary reactions. III. The rections H + C_2H_4, H + C_3H_6, and H + n-C_4H_8', journal="Kinet. Catal.", volume="10", pages="""14""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000054.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4196,9 +4303,10 @@ entry(
     ),
     reference = Article(authors=["Teng, L.", "Jones, W.E."], title=u'Kinetics of the Reactions of Hydrogen Atoms with Ethylene and Vinyl Fluoride', journal="J. Chem. Soc. Faraday Trans. 1", volume="68", pages="""1267""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000065.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4232,9 +4340,10 @@ entry(
     ),
     reference = Article(authors=["Lee, J.H.", "Michael, J.V.", "Payne, W.A.", "Stief, L.J."], title=u'Absolute Rate of the Reaction of Atomic Hydrogen with Ethylene from 198 to 320 K at High Pressure', journal="J. Chem. Phys.", volume="68", pages="""1817""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000072.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4268,9 +4377,10 @@ entry(
     ),
     reference = Article(authors=["Billaud, F.", "Baronnet, F.", "Niclause, M."], title=u"Influence de l'Ethylene sur la Pyrolyse de l'Ethane vers 540^oC", journal="J. Chim. Phys.", volume="77", pages="""357""", year="1980", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000074.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4304,9 +4414,10 @@ entry(
     ),
     reference = Article(authors=["Sugawara, K.", "Okazaki, K.", "Sato, S."], title=u'Kinetic Isotope Effects in the Reaction H + C_2H_4 \u2192 C_2H_5', journal="Chem. Phys. Lett.", volume="78", pages="""259""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000076.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4340,9 +4451,10 @@ entry(
     ),
     reference = Article(authors=["Sugawara, K.", "Okazaki, K.", "Sato, S."], title=u'Temperature Dependence of the Rate Constants of H and D-Atom Additions to C_2H_4, C_2H_3D, C_2D_4, C_2H_2, and C_2D_2', journal="Bull. Chem. Soc. Jpn.", volume="54", pages="""2872""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000077.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4376,9 +4488,10 @@ entry(
     ),
     reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000079.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4412,9 +4525,10 @@ entry(
     ),
     reference = Article(authors=["Brouard, M.", "Lightfoot, P.D.", "Pilling, M.J."], title=u'Observation of equilibration in the system H + C_2H_4 = C_2H_5. The determination of the heat of formation of C_2H_5', journal="J. Phys. Chem.", volume="90", pages="""445""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000080.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4448,9 +4562,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W.", "Hampson, R.F."], title=u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds', journal="J. Phys. Chem. Ref. Data", volume="15", pages="""1087""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000082.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4484,9 +4599,10 @@ entry(
     ),
     reference = Article(authors=["Lightfoot, P.D.", "Pilling, M.J."], title=u'Temperature and pressure dependence of the rate constant for the addition of H to C_2H_4', journal="J. Phys. Chem.", volume="91", pages="""3373""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000083.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4520,9 +4636,10 @@ entry(
     ),
     reference = Article(authors=["Lightfoot, P.D.", "Pilling, M.J."], title=u'Temperature and pressure dependence of the rate constant for the addition of H to C_2H_4', journal="J. Phys. Chem.", volume="91", pages="""3373""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000084.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4556,9 +4673,10 @@ entry(
     ),
     reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000087.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:34 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4594,9 +4712,10 @@ entry(
     ),
     reference = Article(authors=["Kerr, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part 1.-n-Propyl radicals from the photolysis of n-butyraldehyde', journal="Trans. Faraday Soc.", volume="55", pages="""572""", year="1959", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4632,9 +4751,10 @@ entry(
     ),
     reference = Article(authors=["Jackson, W.M.", "McNesby, J.R."], title=u'Photolysis of acetone-d_6 in the presence of propane-2,2-d_2. Decomposition of the n-propyl radical', journal="J. Am. Chem. Soc.", volume="83", pages="""4891""", year="1961", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4670,9 +4790,10 @@ entry(
     ),
     reference = Article(authors=["Mintz, K.J.", "Le Roy, D.J."], title=u'Kinetics of radical reactions in sodium diffusion flames', journal="Can. J. Chem.", volume="56", pages="""941""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4708,9 +4829,10 @@ entry(
     ),
     reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4746,9 +4868,10 @@ entry(
     ),
     reference = Article(authors=["Weissman, M.", "Benson, S.W."], title=u'Pyrolysis of methyl chloride, a pathway in the chlorine-catalyzed polymerization of methane', journal="Int. J. Chem. Kinet.", volume="16", pages="""307""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4784,9 +4907,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4822,9 +4946,10 @@ entry(
     ),
     reference = Article(authors=["Wagner, H.Gg.", "Zellner, R."], title=u'Reaktionen von Wasserstoffatomen mit ungesaettigten C_3-Kohlenwasserstoffen. I. Die Reaktion von H-Atomen mit Propylen', journal="Ber. Bunsenges. Phys. Chem.", volume="76", pages="""440""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4860,9 +4985,10 @@ entry(
     ),
     reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4898,9 +5024,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4936,9 +5063,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for hydrocarbon pyrolysis', journal="Ind. Eng. Chem.", volume="31", pages="""3-8""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -4972,9 +5100,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L."], title=u'The Gas-Phase Decomposition of Alkoxy Radicals', journal="Int. J. Chem. Kinet.", volume="11", pages="""977""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5008,9 +5137,10 @@ entry(
     ),
     reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5044,9 +5174,10 @@ entry(
     ),
     reference = Article(authors=["Greenhill, P.G.", "O'Grady, B.V.", "Gilbert, R.G."], title=u'Theoretical prediction of CH_3O and CH_2OH gas phase decomposition rate coefficients', journal="Aust. J. Chem.", volume="39", pages="""1929""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5080,9 +5211,10 @@ entry(
     ),
     reference = Article(authors=["Heicklen, J."], title=u'The decomposition of alkyl nitrites and the reactions of alkoxyl radicals', journal="Adv. Photochem.", volume="14", pages="""177""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5116,9 +5248,10 @@ entry(
     ),
     reference = Article(authors=["Zaslonko, I.S.", "Mukoseev, Yu.K.", "Tyurin, A.N."], title=u'Reactions of CH_3O radicals in shock waves', journal="Kinet. Catal.", volume="29", pages="""244""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5152,9 +5285,10 @@ entry(
     ),
     reference = Article(authors=["Hippler, H.", "Striebel, F.", "Viskolcz, B."], title=u'A Detailed Experimental and Theoretical Study on the Decomposition of Methoxy Radicals', journal="Phys. Chem. Chem. Phys.", volume="3", pages="""2450-2458""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5188,9 +5322,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5224,9 +5359,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5260,9 +5396,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000024.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5296,9 +5433,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000025.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5332,9 +5470,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000026.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5368,9 +5507,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000027.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5404,9 +5544,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000028.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5440,9 +5581,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000029.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5476,9 +5618,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000030.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5512,9 +5655,10 @@ entry(
     ),
     reference = Article(authors=["Leggett, C.", "Thynne, J.C.J."], title=u'Decomposition of ethoxyl radicals', journal="J. Chem. Soc. A", pages="""1188""", year="1970", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5548,9 +5692,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."], title=u'Photochemical smog. Rate parameter estimates and computer simulations', journal="J. Phys. Chem.", volume="81", pages="""2483""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5584,9 +5729,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "Milne, R.T."], title=u'The Gas-Phase Pyrolysis of Alkyl Nitrites. IV. Ethyl Nitrite', journal="Int. J. Chem. Kinet.", volume="9", pages="""549""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5620,9 +5766,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L."], title=u'The Gas-Phase Decomposition of Alkoxy Radicals', journal="Int. J. Chem. Kinet.", volume="11", pages="""977""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5656,9 +5803,10 @@ entry(
     ),
     reference = Article(authors=["Choo, K.Y.", "Benson, S.W."], title=u'Arrhenius Parameters for the Alkoxy Radical Decomposition Reactions', journal="Int. J. Chem. Kinet.", volume="13", pages="""833""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5692,9 +5840,10 @@ entry(
     ),
     reference = Article(authors=["Heicklen, J."], title=u'The decomposition of alkyl nitrites and the reactions of alkoxyl radicals', journal="Adv. Photochem.", volume="14", pages="""177""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5728,9 +5877,10 @@ entry(
     ),
     reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5764,9 +5914,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5800,9 +5951,10 @@ entry(
     ),
     reference = Article(authors=["Che, C.-b.", "Zhang, H.", "Zhang, X.", "Liu, Y.", "Liu, B."], title=u'Ab Initio and Kinetic Study on CH_3 Radical Reaction with H_2CO', journal="J. Phys. Chem. A", volume="107", pages="""2929-2933""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5838,9 +5990,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "Milne, R.T."], title=u'The Gas-Phase Pyrolysis of Alkyl Nitrites. IV. Ethyl Nitrite', journal="Int. J. Chem. Kinet.", volume="9", pages="""549""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5876,9 +6029,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L."], title=u'The Gas-Phase Decomposition of Alkoxy Radicals', journal="Int. J. Chem. Kinet.", volume="11", pages="""977""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5914,9 +6068,10 @@ entry(
     ),
     reference = Article(authors=["Heicklen, J."], title=u'The decomposition of alkyl nitrites and the reactions of alkoxyl radicals', journal="Adv. Photochem.", volume="14", pages="""177""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5952,9 +6107,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -5992,9 +6148,10 @@ entry(
     ),
     reference = Article(authors=["Weissman, M.", "Benson, S.W."], title=u'Pyrolysis of methyl chloride, a pathway in the chlorine-catalyzed polymerization of methane', journal="Int. J. Chem. Kinet.", volume="16", pages="""307""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:40 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6032,9 +6189,10 @@ entry(
     ),
     reference = Article(authors=["East, R.L.", "Phillips, L."], title=u'Pressure-dependence of the gas-phase pyrolysis of the s-butoxyl radical at 150-190\xb0', journal="J. Chem. Soc. A", pages="""1939""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:40 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6072,9 +6230,10 @@ entry(
     ),
     reference = Article(authors=["Hohlein, G.", "Freeman, G.R."], title=u'Radiation-sensitized pyrolysis of diethyl ether. Free-radical reaction rate parameters', journal="J. Am. Chem. Soc.", volume="92", pages="""6118""", year="1970", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:40 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6112,9 +6271,10 @@ entry(
     ),
     reference = Article(authors=["Lin, M.C.", "Laidler, K.J."], title=u'Thermal decomposition of the sec-butl radical', journal="Can. J. Chem.", volume="45", pages="""1315""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6152,9 +6312,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6192,9 +6353,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'The stability of alkyl radicals', journal="J. Am. Chem. Soc.", volume="107", pages="""2872""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6232,9 +6394,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6270,9 +6433,10 @@ entry(
     ),
     reference = Article(authors=["Gruver, J.T.", "Calvert, J.C."], title=u'The vapor phase photolysis of 2-methylbutanal at wave length 3130 A', journal="J. Am. Chem. Soc.", volume="78", pages="""5208""", year="1956", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6308,9 +6472,10 @@ entry(
     ),
     reference = Article(authors=["Lin, M.C.", "Laidler, K.J."], title=u'Thermal decomposition of the sec-butl radical', journal="Can. J. Chem.", volume="45", pages="""1315""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6346,9 +6511,10 @@ entry(
     ),
     reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6384,9 +6550,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6422,9 +6589,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'The stability of alkyl radicals', journal="J. Am. Chem. Soc.", volume="107", pages="""2872""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6460,9 +6628,10 @@ entry(
     ),
     reference = Article(authors=["Gierczak, T.", "Gawlowski, J.", "Niedzielski, J."], title=u'Isomerization of chemically activated secondary butyl radical', journal="React. Kinet. Catal. Lett.", volume="36", pages="""435""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6498,9 +6667,10 @@ entry(
     ),
     reference = Article(authors=["Marshall, R.M."], title=u'The rate constant for the intramolecular isomerization of pentyl radicals', journal="Int. J. Chem. Kinet.", volume="22", pages="""935""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6536,9 +6706,10 @@ entry(
     ),
     reference = Article(authors=["Knyazev, V.D.", "Dubinsky, I.A.", "Slagle, I.R.", "Gutman, D."], title=u'Experimental and theoretical study of the sec-C_4H_9 = CH_3 + C_3H_6 reaction', journal="J. Phys. Chem.", volume="98", pages="""11099-11108""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6574,9 +6745,10 @@ entry(
     ),
     reference = Article(authors=["Gang, J.", "Pilling, M.J.", "Robertson, S.H."], title=u'Asymmetric internal rotation: application to the 2-C_4H_9=CH_3 + C_3H_6 reaction', journal="J. Chem. Soc. Faraday Trans.", volume="93", pages="""1481-1491""", year="1997", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6612,9 +6784,10 @@ entry(
     ),
     reference = Article(authors=["Tedder, J.M.", "Walton, J.C.", "Winton, K.D.R."], title=u'Free Radical Addition to Olefins Part 9. Addition of Methyl Radicals to Fluoro-ethylenes', journal="J. Chem. Soc. Faraday Trans. 1", volume="68", pages="""1866""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6650,9 +6823,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, R.R.", "Keen, A.", "Walker, R.W."], title=u'Rate constants for the addition of methyl radicals to propene', journal="J. Chem. Soc. Faraday Trans. 2", volume="83", pages="""759""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6688,9 +6862,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6726,9 +6901,10 @@ entry(
     ),
     reference = Article(authors=["Knyazev, V.D.", "Dubinsky, I.A.", "Slagle, I.R.", "Gutman, D."], title=u'Experimental and theoretical study of the sec-C_4H_9 = CH_3 + C_3H_6 reaction', journal="J. Phys. Chem.", volume="98", pages="""11099-11108""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6766,9 +6942,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'The stability of alkyl radicals', journal="J. Am. Chem. Soc.", volume="107", pages="""2872""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6806,9 +6983,10 @@ entry(
     ),
     reference = Article(authors=["Kyogoku, T.", "Watanabe, T.", "Tsunashima, S.", "Sato, S."], title=u'Arrhenius parameters for the reactions of hydrogen and deuterium atoms with four butenes', journal="Bull. Chem. Soc. Jpn.", volume="56", pages="""19""", year="1983", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6846,9 +7024,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'The stability of alkyl radicals', journal="J. Am. Chem. Soc.", volume="107", pages="""2872""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6886,9 +7065,10 @@ entry(
     ),
     reference = Article(authors=["Harris, G.W.", "Pitts, J.N., Jr."], title=u'Absolute Rate Constants and Temperature Dependences for the Gas Phase Reactions of H Atoms with Propene and the Butenes in the Temperature Range 298 to 445 K', journal="J. Chem. Phys.", volume="77", pages="""3994""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6926,9 +7106,10 @@ entry(
     ),
     reference = Article(authors=["Kyogoku, T.", "Watanabe, T.", "Tsunashima, S.", "Sato, S."], title=u'Arrhenius parameters for the reactions of hydrogen and deuterium atoms with four butenes', journal="Bull. Chem. Soc. Jpn.", volume="56", pages="""19""", year="1983", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:43 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -6976,9 +7157,10 @@ entry(
     ),
     reference = Article(authors=["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."], title=u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene', journal="J. Phys. Chem. A", volume="108", pages="""3829-3843""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:44 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7026,9 +7208,10 @@ entry(
     ),
     reference = Article(authors=["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."], title=u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene', journal="J. Phys. Chem. A", volume="108", pages="""3829-3843""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:44 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7076,9 +7259,10 @@ entry(
     ),
     reference = Article(authors=["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."], title=u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene', journal="J. Phys. Chem. A", volume="108", pages="""3829-3843""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:44 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7124,9 +7308,10 @@ entry(
     ),
     reference = Article(authors=["Vereecken, L.", "Peeters, J."], title=u'Reactions of chemically activated C9H9 species II: The reaction of phenyl radicals with allene and cyclopropene, and of benzyl radicals with acetylene', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""2807-2817""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:45 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7162,9 +7347,10 @@ entry(
     ),
     reference = Article(authors=["Kerr, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part III. n-Butyl radicals from the photolysis of n-Valeraldehyde', journal="J. Chem. Soc.", pages="""1602""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7200,9 +7386,10 @@ entry(
     ),
     reference = Article(authors=["Morganroth, W.E.", "Calvert, J.G."], title=u"The photolysis of 1,1'-azo-n-butane vapor. The reactions of the n-butyl free radical", journal="J. Am. Chem. Soc.", volume="88", pages="""5387""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7238,9 +7425,10 @@ entry(
     ),
     reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7276,9 +7464,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7314,9 +7503,10 @@ entry(
     ),
     reference = Article(authors=["Gierczak, T.", "Gawlowski, J.", "Niedzielski, J."], title=u'Isomerization of chemically activated secondary butyl radical', journal="React. Kinet. Catal. Lett.", volume="36", pages="""435""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7352,9 +7542,10 @@ entry(
     ),
     reference = Article(authors=["Marshall, R.M."], title=u'The rate constant for the intramolecular isomerization of pentyl radicals', journal="Int. J. Chem. Kinet.", volume="22", pages="""935""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7390,9 +7581,10 @@ entry(
     ),
     reference = Article(authors=["Knyazev, V.D.", "Slagle, I.R."], title=u'Unimolecular decomposition of n-C_4H_9 and iso-C_4H_9 radicals', journal="J. Phys. Chem.", volume="100", pages="""5318-5328""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7428,9 +7620,10 @@ entry(
     ),
     reference = Article(authors=["Kerr, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part V. Ethyl radicals from propionaldehyde', journal="J. Chem. Soc.", pages="""1611""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7466,9 +7659,10 @@ entry(
     ),
     reference = Article(authors=["Morganroth, W.E.", "Calvert, J.G."], title=u"The photolysis of 1,1'-azo-n-butane vapor. The reactions of the n-butyl free radical", journal="J. Am. Chem. Soc.", volume="88", pages="""5387""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7504,9 +7698,10 @@ entry(
     ),
     reference = Article(authors=["Watkins, K.W.", "O'Deen, L.A."], title=u'Kinetics of the addition of ethyl, isopropyl, n-butyl, and isopentyl radicals to ethylene', journal="J. Phys. Chem.", volume="73", pages="""4094-4102""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7542,9 +7737,10 @@ entry(
     ),
     reference = Article(authors=["Knyazev, V.D.", "Slagle, I.R."], title=u'Unimolecular decomposition of n-C_4H_9 and iso-C_4H_9 radicals', journal="J. Phys. Chem.", volume="100", pages="""5318-5328""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7582,9 +7778,10 @@ entry(
     ),
     reference = Article(authors=["Lin, M.C.", "Back, M.H."], title=u'The thermal decomposition of ethane. Part III. Secondary reactions', journal="Can. J. Chem.", volume="44", pages="""2369""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7622,9 +7819,10 @@ entry(
     ),
     reference = Article(authors=["MacKenzie, A.L.", "Pacey, P.D.", "Wimalasena, J.H."], title=u'Radical addition, decomposition, and isomerization reactions in the pyrolysis of ethane and ethylene', journal="Can. J. Chem.", volume="62", pages="""1325""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7662,9 +7860,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7702,9 +7901,10 @@ entry(
     ),
     reference = Article(authors=["Kyogoku, T.", "Watanabe, T.", "Tsunashima, S.", "Sato, S."], title=u'Arrhenius parameters for the reactions of hydrogen and deuterium atoms with four butenes', journal="Bull. Chem. Soc. Jpn.", volume="56", pages="""19""", year="1983", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7744,9 +7944,10 @@ entry(
     ),
     reference = Article(authors=["Quinn, C.P."], title=u'Isomerization of primary n-alkyl radicals in the pyrolysis of ethane', journal="J. Chem. Soc. Faraday Trans. 2", volume="59", pages="""2543""", year="1963", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7786,9 +7987,10 @@ entry(
     ),
     reference = Article(authors=["Lin, M.C.", "Back, M.H."], title=u'The thermal decomposition of ethane. Part III. Secondary reactions', journal="Can. J. Chem.", volume="44", pages="""2369""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7828,9 +8030,10 @@ entry(
     ),
     reference = Article(authors=["Imbert, F.E.", "Marshall, R.M."], title=u'The mechanism and rate parameters for the pyrolysis of n-hexane in the range 723-823 K', journal="Int. J. Chem. Kinet.", volume="19", pages="""81""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7864,9 +8067,10 @@ entry(
     ),
     reference = Article(authors=["Bowman, C.T."], title=u'A Shock-Tube Investigation of the High-Temperature Oxidation of Methanol', journal="Combust. Flame", volume="25", pages="""343""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7900,9 +8104,10 @@ entry(
     ),
     reference = Article(authors=["Tsuboi, T.", "Katoh, M.", "Kikuchi, S.", "Hashimoto, K."], title=u'Thermal Decomposition of Methanol behind Shock Waves', journal="Jpn. J. Appl. Phys.", volume="20", pages="""985""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7936,9 +8141,10 @@ entry(
     ),
     reference = Article(authors=["Greenhill, P.G.", "O'Grady, B.V.", "Gilbert, R.G."], title=u'Theoretical prediction of CH_3O and CH_2OH gas phase decomposition rate coefficients', journal="Aust. J. Chem.", volume="39", pages="""1929""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -7972,9 +8178,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8008,9 +8215,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8044,9 +8252,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8080,9 +8289,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8116,9 +8326,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8152,9 +8363,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8188,9 +8400,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8224,9 +8437,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8260,9 +8474,10 @@ entry(
     ),
     reference = Article(authors=["Tsuboi, T.", "Katoh, M.", "Kikuchi, S.", "Hashimoto, K."], title=u'Thermal Decomposition of Methanol behind Shock Waves', journal="Jpn. J. Appl. Phys.", volume="20", pages="""985""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000019.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8296,9 +8511,10 @@ entry(
     ),
     reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8332,9 +8548,10 @@ entry(
     ),
     reference = Article(authors=["Weissman, M.", "Benson, S.W."], title=u'Pyrolysis of methyl chloride, a pathway in the chlorine-catalyzed polymerization of methane', journal="Int. J. Chem. Kinet.", volume="16", pages="""307""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8368,9 +8585,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8404,9 +8622,10 @@ entry(
     ),
     reference = Article(authors=["Naroznik, M.", "Niedzielski, J."], title=u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes', journal="J. Photochem.", volume="32", pages="""281""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8440,9 +8659,10 @@ entry(
     ),
     reference = Article(authors=["Manion, J.A.", "Louw, R."], title=u'Gas-phase hydrogenolysis of chloroethene: Rates, products, and computer modelling', journal="J. Chem. Soc. Perkin Trans. 2", pages="""1547-1555""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8476,9 +8696,10 @@ entry(
     ),
     reference = Article(authors=["Rao, V.S.", "Skinner, G.B."], title=u'Reactions of vinyl radicals at high temperatures: Pyrolysis of vinyl bromide and vinyl iodide and the reaction H + C_2D_2 \u2192 D + C_2HD', journal="J. Phys. Chem.", volume="92", pages="""6313""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8512,9 +8733,10 @@ entry(
     ),
     reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8548,9 +8770,10 @@ entry(
     ),
     reference = Article(authors=["Knyazev, V.D.", "Slagle, I.R."], title=u'Experimental and theoretical study of the C_2H_3 = H + C_2H_2 reaction. Tunneling and the shape of falloff curves', journal="J. Phys. Chem.", volume="100", pages="""16899-16911""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8584,9 +8807,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000019.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8620,9 +8844,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8656,9 +8881,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000021.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8692,9 +8918,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8728,9 +8955,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8764,9 +8992,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000024.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8800,9 +9029,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000025.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8836,9 +9066,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000026.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8872,9 +9103,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000027.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8908,9 +9140,10 @@ entry(
     ),
     reference = Article(authors=["Hoyermann, K.", "Wagner, H.Gg.", "Wolfrum, J."], title=u'Die geschwindigkeit der reaktion von atomarem Wasserstoff mit azetylen', journal="Ber. Bunsenges. Phys. Chem.", volume="72", pages="""1004""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000034.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8944,9 +9177,10 @@ entry(
     ),
     reference = Article(authors=["Payne, W.A.", "Stief, L.J."], title=u'Absolute Rate Constant for the Reaction of Atomic Hydrogen with Acetylene over an Extended Pressure and Temperature Range', journal="J. Chem. Phys.", volume="64", pages="""1150""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000037.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -8980,9 +9214,10 @@ entry(
     ),
     reference = Article(authors=["Ellul, R.", "Potzinger, P.", "Reimann, B.", "Camilleri, P."], title=u'Arrhenius parameters for the system (CH_3)_3Si + D_2 = (CH_3)_3SiD + D. The (CH_3)_3Si-D bond dissociation energy', journal="Ber. Bunsenges. Phys. Chem.", volume="85", pages="""407""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000040.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9016,9 +9251,10 @@ entry(
     ),
     reference = Article(authors=["Sugawara, K.", "Okazaki, K.", "Sato, S."], title=u'Temperature Dependence of the Rate Constants of H and D-Atom Additions to C_2H_4, C_2H_3D, C_2D_4, C_2H_2, and C_2D_2', journal="Bull. Chem. Soc. Jpn.", volume="54", pages="""2872""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000042.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9052,9 +9288,10 @@ entry(
     ),
     reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000043.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9088,9 +9325,10 @@ entry(
     ),
     reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000046.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9124,9 +9362,10 @@ entry(
     ),
     reference = Article(authors=["Knyazev, V.D.", "Slagle, I.R."], title=u'Experimental and theoretical study of the C_2H_3 = H + C_2H_2 reaction. Tunneling and the shape of falloff curves', journal="J. Phys. Chem.", volume="100", pages="""16899-16911""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000048.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:47 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9164,9 +9403,10 @@ entry(
     ),
     reference = Article(authors=["Back, M.H."], title=u'Mechanism of the pyrolysis of acetylene', journal="Can. J. Chem.", volume="49", pages="""2199""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9204,9 +9444,10 @@ entry(
     ),
     reference = Article(authors=["Weissman, M.", "Benson, S.W."], title=u'Pyrolysis of methyl chloride, a pathway in the chlorine-catalyzed polymerization of methane', journal="Int. J. Chem. Kinet.", volume="16", pages="""307""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9244,9 +9485,10 @@ entry(
     ),
     reference = Article(authors=["Braun-Unkhoff, M.", "Frank, P.", "Just, Th."], title=u'A shock tube study on the thermal decomposition of toluene and of the phenyl radical at high temperatures', journal="Symp. Int. Combust. Proc.", volume="22", pages="""1053""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9284,9 +9526,10 @@ entry(
     ),
     reference = Article(authors=["Birss, F.W.", "Danby, C.J.", "Hinshelwood, C."], title=u'The thermal dissociation of tertiary butyl peroxide in presence of nitric oxide', journal="Proc. R. Soc. London A", volume="239", pages="""154-164""", year="1957", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9324,9 +9567,10 @@ entry(
     ),
     reference = Article(authors=["McMillan, G.R."], title=u'Photolysis of di-t-butyl peroxide-azomethane and ei-t-butyl peroxide-isobutane mixtures', journal="J. Am. Chem. Soc.", volume="82", pages="""2422""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9364,9 +9608,10 @@ entry(
     ),
     reference = Article(authors=["Quee, M.J.Y.", "Thynne, J.C.J."], title=u'Pressure-dependence of decomposition of tert-butoxyl radical', journal="J. Chem. Soc. Faraday Trans.", volume="63", pages="""2970""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9404,9 +9649,10 @@ entry(
     ),
     reference = Article(authors=["Yee Quee, M.J.", "Thynne, J.C.J."], title=u'Pressure-dependence of decomposition of tert-butoxyl radical', journal="Trans. Faraday Soc.", volume="63", pages="""2970-2974""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9444,9 +9690,10 @@ entry(
     ),
     reference = Article(authors=["Cadman, P.", "Trotman-Dickenson, A.F.", "White, A.J."], title=u'Kinetics and Pressure-Dependence of the t-Butoxyl Radical Decomposition', journal="J. Chem. Soc. A", pages="""2296""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9484,9 +9731,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "McCulloch, R.D.", "Milne, R.T."], title=u'Thermochemical and Kinetic Studies of Alkyl Nitrites (RONO)-D(RO-NO), The Reactions between RO. and NO, and the Decomposition RO.', journal="Proc. Symp. Chem. Kinet. Data Upper Lower Atmos. 1974", pages="""441""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9524,9 +9772,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "Milne, R.T."], title=u'The Gas Phase Pyrolysis of Alkyl Nitrites. I. t-Butyl Nitrite', journal="Int. J. Chem. Kinet.", volume="8", pages="""59""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9564,9 +9813,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."], title=u'Photochemical smog. Rate parameter estimates and computer simulations', journal="J. Phys. Chem.", volume="81", pages="""2483""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9604,9 +9854,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L."], title=u'The Gas-Phase Decomposition of Alkoxy Radicals', journal="Int. J. Chem. Kinet.", volume="11", pages="""977""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9644,9 +9895,10 @@ entry(
     ),
     reference = Article(authors=["Choo, K.Y.", "Benson, S.W."], title=u'Arrhenius Parameters for the Alkoxy Radical Decomposition Reactions', journal="Int. J. Chem. Kinet.", volume="13", pages="""833""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9684,9 +9936,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "Robinson, G.N."], title=u'Arrhenius Parameters for the Decomposition of the t-Butoxy Radical', journal="Int. J. Chem. Kinet.", volume="14", pages="""1053""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9724,9 +9977,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "Robinson, G.N."], title=u'Arrhenius Parameters for the Decomposition of the t-Butoxy Radical', journal="Int. J. Chem. Kinet.", volume="14", pages="""1053""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9764,9 +10018,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "Robinson, G.N."], title=u'Decomposition of the t-butoxy radical', journal="Phys. Chem. Behav. Atmos. Pollut. Proc. Eur. Symp.", pages="""172""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9804,9 +10059,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "Robinson, G.N."], title=u'Decomposition of the t-butoxy radical', journal="Phys. Chem. Behav. Atmos. Pollut. Proc. Eur. Symp.", pages="""172""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9844,9 +10100,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "Robinson, G.N."], title=u'Decomposition of the t-Butoxy radical. I. Studies over the temperature range 402-443 K', journal="Int. J. Chem. Kinet.", volume="19", pages="""391""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000019.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9884,9 +10141,10 @@ entry(
     ),
     reference = Article(authors=["Heicklen, J."], title=u'The decomposition of alkyl nitrites and the reactions of alkoxyl radicals', journal="Adv. Photochem.", volume="14", pages="""177""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9924,9 +10182,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "Hisham, M.W.M.", "Mackay, M."], title=u'Decomposition of the t-butoxy radical: II. Studies over the temperature range 303-393 K', journal="Int. J. Chem. Kinet.", volume="21", pages="""535""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000021.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -9964,9 +10223,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10004,9 +10264,10 @@ entry(
     ),
     reference = Article(authors=["Cadman, P.", "Trotman-Dickenson, A.F.", "White, A.J."], title=u'Kinetics and Pressure-Dependence of the t-Butoxyl Radical Decomposition', journal="J. Chem. Soc. A", pages="""2296""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000024.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10044,9 +10305,10 @@ entry(
     ),
     reference = Article(authors=["Knoll, H.", "Richter, G.", "Schliebs, R."], title=u'On the Gas-Phase Free Radical Displacement Reaction CH_3 + CD_3COCD_3 \u2192 CD_3 + CH_3COCD_3', journal="Int. J. Chem. Kinet.", volume="12", pages="""623""", year="1980", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000025.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10086,9 +10348,10 @@ entry(
     ),
     reference = Article(authors=["Chen, C.-J.", "Bozzelli, J.W."], title=u'Analysis of Tertiary Butyl Radical + O_2, Isobutene + HO_2, Isobutene + OH, and Isobutene-OH Adducts + O_2: A Detailed Tertiary Butyl Oxidation Mechanism', journal="J. Phys. Chem. A", volume="103", pages="""9731-9769""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:51 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10126,9 +10389,10 @@ entry(
     ),
     reference = Article(authors=["Foucaut, J.-F.", "Martin, R."], title=u"No. 18. - Etude analytique et cinetique de la pyrolyse de l'ether ethylique vers 500 \xb0C et a faible avancement", journal="J. Chim. Phys.", volume="75", pages="""132""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:51 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10166,9 +10430,10 @@ entry(
     ),
     reference = Article(authors=["Furimsky, E.", "Laidler, K.J."], title=u'Kinetics of the Mercury- Photosensitized Decomposition of Neopentane. Part II. Reactions of the Methyl and Neopentyl Radicals', journal="Can. J. Chem.", volume="50", pages="""1123""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10206,9 +10471,10 @@ entry(
     ),
     reference = Article(authors=["Szirovicza, L.", "Marta, F."], title=u'Kinetics of the Decomposition of neo-Pentane Sensitized by Azoisopropane', journal="React. Kinet. Catal. Lett.", volume="3", pages="""9""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10246,9 +10512,10 @@ entry(
     ),
     reference = Article(authors=["Muller, J.", "Baronnet, F.", "Scacchi, G.", "Dzierzynski, M.", "Niclause, M."], title=u'Influences of ClH and BrH on the Pyrolyses of Neopentane and Ethane at Small Extents of Reaction', journal="Int. J. Chem. Kinet.", volume="9", pages="""425""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10286,9 +10553,10 @@ entry(
     ),
     reference = Article(authors=["Szirovicza, L.", "Marta, F."], title=u'Kinetics of the Decomposition of Neopentane Sensitized by Azoisopropane', journal="Magy. Kem. Foly.", volume="85", pages="""369""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10326,9 +10594,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, R.R.", "Hisham, M.W.M.", "Walker, R.W."], title=u'Arrhenius parameters of elementary reactions involved in the oxidation of neopentane', journal="J. Chem. Soc. Faraday Trans. 1", volume="78", pages="""1615""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10366,9 +10635,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'The stability of alkyl radicals', journal="J. Am. Chem. Soc.", volume="107", pages="""2872""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10406,9 +10676,10 @@ entry(
     ),
     reference = Article(authors=["Slagle, I.R.", "Batt, L.", "Gmurczyk, G.W.", "Gutman, D."], title=u'Unimolecular decomposition of the neopentyl radical', journal="J. Phys. Chem.", volume="95", pages="""7732-7739""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10446,9 +10717,10 @@ entry(
     ),
     reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10486,9 +10758,10 @@ entry(
     ),
     reference = Article(authors=["Slagle, I.R.", "Batt, L.", "Gmurczyk, G.W.", "Gutman, D."], title=u'Unimolecular decomposition of the neopentyl radical', journal="J. Phys. Chem.", volume="95", pages="""7732-7739""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10526,9 +10799,10 @@ entry(
     ),
     reference = Article(authors=["Liu, M.T.H.", "Laidler, K.J."], title=u'Elementary processes in the acetaldehyde pyrolysis', journal="Can. J. Chem.", volume="46", pages="""479""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10566,9 +10840,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L."], title=u'The Gas-Phase Decomposition of Alkoxy Radicals', journal="Int. J. Chem. Kinet.", volume="11", pages="""977""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10606,9 +10881,10 @@ entry(
     ),
     reference = Article(authors=["Heicklen, J."], title=u'The decomposition of alkyl nitrites and the reactions of alkoxyl radicals', journal="Adv. Photochem.", volume="14", pages="""177""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10646,9 +10922,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10684,9 +10961,10 @@ entry(
     ),
     reference = Article(authors=["Ferguson, J.M.", "Phillips, L."], title=u'Reactions of the isopropoxyl radical. Part I. Pyrolysis of isopropyl nitrite in a static system at 175-200\xb0', journal="J. Chem. Soc.", pages="""4416""", year="1965", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10722,9 +11000,10 @@ entry(
     ),
     reference = Article(authors=["Cox, D.L.", "Livermore, R.A.", "Phillips, L."], title=u'Reactions of the isopropoxyl radical. Part II. Pressure dependence and kinetics of pyrolysis at 160-200\xb0 in the gas phase', journal="J. Chem. Soc. London B", pages="""245-249""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10760,9 +11039,10 @@ entry(
     ),
     reference = Article(authors=["Yee Quee, M.J.", "Thynne, J.C.J."], title=u'The pressure dependence of the decomposition of the isopropoxyl radical', journal="J. Phys. Chem.", volume="72", pages="""2824""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10798,9 +11078,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "McCulloch, R.D.", "Milne, R.T."], title=u'Thermochemical and Kinetic Studies of Alkyl Nitrites (RONO)-D(RO-NO), The Reactions between RO. and NO, and the Decomposition RO.', journal="Proc. Symp. Chem. Kinet. Data Upper Lower Atmos. 1974", pages="""441""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10836,9 +11117,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."], title=u'Photochemical smog. Rate parameter estimates and computer simulations', journal="J. Phys. Chem.", volume="81", pages="""2483""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10874,9 +11156,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L."], title=u'The Gas-Phase Decomposition of Alkoxy Radicals', journal="Int. J. Chem. Kinet.", volume="11", pages="""977""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10912,9 +11195,10 @@ entry(
     ),
     reference = Article(authors=["Choo, K.Y.", "Benson, S.W."], title=u'Arrhenius Parameters for the Alkoxy Radical Decomposition Reactions', journal="Int. J. Chem. Kinet.", volume="13", pages="""833""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10950,9 +11234,10 @@ entry(
     ),
     reference = Article(authors=["Heicklen, J."], title=u'The decomposition of alkyl nitrites and the reactions of alkoxyl radicals', journal="Adv. Photochem.", volume="14", pages="""177""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -10988,9 +11273,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11026,9 +11312,10 @@ entry(
     ),
     reference = Article(authors=["Colket, M.B., III", "Naegeli, D.W.", "Glassman, I."], title=u'High-Temperature Pyrolysis of Acetaldehyde', journal="Int. J. Chem. Kinet.", volume="7", pages="""223""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11064,9 +11351,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11102,9 +11390,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11140,9 +11429,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11178,9 +11468,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11216,9 +11507,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11254,9 +11546,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11292,9 +11585,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11330,9 +11624,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11368,9 +11663,10 @@ entry(
     ),
     reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11404,9 +11700,10 @@ entry(
     ),
     reference = Article(authors=["Diau, E.W-G.", "Lee, Y-P."], title=u'Detailed rate coefficients and the enthalpy change of the equilibrium reaction OH+C_2H_4(+M) = HOC_2H_4(+M) over the temperature range 544-673 K', journal="J. Chem. Phys.", volume="96", pages="""377-386""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11440,9 +11737,10 @@ entry(
     ),
     reference = Article(authors=["Liu, A.-D.", "Mulac, W.A.", "Jonah, C.D."], title=u'Pulse radiolysis study of the reaction of OH radicals with C_2H_4 over the temperature range 343-1173 K', journal="Int. J. Chem. Kinet.", volume="19", pages="""25""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11476,9 +11774,10 @@ entry(
     ),
     reference = Article(authors=["Liu, A.", "Mulac, W.A.", "Jonah, C.D."], title=u'Kinetic isotope effects in the gas-phase reaction of hydroxyl radicals with ethylene in the temperature range 343-1173 K and at 1-atm pressure', journal="J. Phys. Chem.", volume="92", pages="""3828""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11512,9 +11811,10 @@ entry(
     ),
     reference = Article(authors=["Liu, A.", "Jonah, C.D.", "Mulac, W.A."], title=u'The gas-phase reactions of hydroxyl radicals with several unsaturated hydrocarbons at atmosphere pressure', journal="Radiat. Phys. Chem.", volume="34", pages="""687-691""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11548,9 +11848,10 @@ entry(
     ),
     reference = Article(authors=["Diau, E.W-G.", "Lee, Y-P."], title=u'Detailed rate coefficients and the enthalpy change of the equilibrium reaction OH+C_2H_4(+M) = HOC_2H_4(+M) over the temperature range 544-673 K', journal="J. Chem. Phys.", volume="96", pages="""377-386""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11584,9 +11885,10 @@ entry(
     ),
     reference = Article(authors=["Yamada, T.", "Bozzelli, J.W.", "Lay, T."], title=u'Kinetic and Thermodynamic Analysis on OH Addition to Ethylene: Adduct Formation, Isomerization, and Isomer Dissociations', journal="J. Phys. Chem. A", volume="103", pages="""7646-7655""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11620,9 +11922,10 @@ entry(
     ),
     reference = Article(authors=["Yamada, T.", "Bozzelli, J.W.", "Lay, T."], title=u'Kinetic and Thermodynamic Analysis on OH Addition to Ethylene: Adduct Formation, Isomerization, and Isomer Dissociations', journal="J. Phys. Chem. A", volume="103", pages="""7646-7655""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11658,9 +11961,10 @@ entry(
     ),
     reference = Article(authors=["Metcalfe, E.L.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part VIII. Isobutyl radicals from the photolysis of isovaleraldehyde', journal="J. Chem. Soc.", pages="""5072-5077""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11696,9 +12000,10 @@ entry(
     ),
     reference = Article(authors=["Slater, D.H.", "Collier, S.S.", "Calvert, J.G."], title=u"The photolysis of 1,1'-azoisobutane vapor at 3660 A. The reactions of the isobutyl free radical", journal="J. Am. Chem. Soc.", volume="90", pages="""268-273""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11734,9 +12039,10 @@ entry(
     ),
     reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11772,9 +12078,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part 4. Isobutane', journal="J. Phys. Chem. Ref. Data", volume="19", pages="""1-68""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11810,9 +12117,10 @@ entry(
     ),
     reference = Article(authors=["Douhou, S.", "Perrin, D.", "Martin, R."], title=u"Etude cinetique et modelisation de la reaction thermique de l'isobutene vers 800 K. II. Isobutene en presence d'hydrogene", journal="J. Chim. Phys.", volume="91", pages="""1628-1647""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11848,9 +12156,10 @@ entry(
     ),
     reference = Article(authors=["Knyazev, V.D.", "Slagle, I.R."], title=u'Unimolecular decomposition of n-C_4H_9 and iso-C_4H_9 radicals', journal="J. Phys. Chem.", volume="100", pages="""5318-5328""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11886,9 +12195,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, R.R.", "Keen, A.", "Walker, R.W."], title=u'Rate constants for the addition of methyl radicals to propene', journal="J. Chem. Soc. Faraday Trans. 2", volume="83", pages="""759""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11924,9 +12234,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -11962,9 +12273,10 @@ entry(
     ),
     reference = Article(authors=["Knyazev, V.D.", "Slagle, I.R."], title=u'Unimolecular decomposition of n-C_4H_9 and iso-C_4H_9 radicals', journal="J. Phys. Chem.", volume="100", pages="""5318-5328""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12002,9 +12314,10 @@ entry(
     ),
     reference = Article(authors=["Metcalfe, E.L.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part VIII. Isobutyl radicals from the photolysis of isovaleraldehyde', journal="J. Chem. Soc.", pages="""5072-5077""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12042,9 +12355,10 @@ entry(
     ),
     reference = Article(authors=["Weissman, M.", "Benson, S.W."], title=u'Pyrolysis of methyl chloride, a pathway in the chlorine-catalyzed polymerization of methane', journal="Int. J. Chem. Kinet.", volume="16", pages="""307""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12078,9 +12392,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:04 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12114,9 +12429,10 @@ entry(
     ),
     reference = Article(authors=["Naroznik, M.", "Niedzielski, J."], title=u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes', journal="J. Photochem.", volume="32", pages="""281""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:04 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12150,9 +12466,10 @@ entry(
     ),
     reference = Article(authors=["Garcia Dominguez, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part IX. The addition of methyl, ethyl, isopropyl, and t-butyl radicals to acetylene and the isomerization of alkenyl radicals', journal="J. Chem. Soc.", pages="""940-944""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:04 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12186,9 +12503,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M.", "Westmoreland, P.R."], title=u'Bimolecular QRRK analyss of methyl radical reactions', journal="Int. J. Chem. Kinet.", volume="19", pages="""207""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:04 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12222,9 +12540,10 @@ entry(
     ),
     reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:04 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12258,9 +12577,10 @@ entry(
     ),
     reference = Article(authors=["Diau, E.W.", "Lin, M.C."], title=u'A theoretical study of the CH_3 + C_2H_2 reaction', journal="J. Chem. Phys.", volume="101", pages="""3923-3927""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:04 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12294,9 +12614,10 @@ entry(
     ),
     reference = Article(authors=["Diau, E.W.", "Lin, M.C."], title=u'A theoretical study of the CH_3 + C_2H_2 reaction', journal="J. Chem. Phys.", volume="101", pages="""3923-3927""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:04 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12330,9 +12651,10 @@ entry(
     ),
     reference = Article(authors=["Diau, E.W.", "Lin, M.C."], title=u'Kinetic modeling of the CH_3 + C_2H_2 reaction data with sensitivity analyses', journal="Int. J. Chem. Kinet.", volume="27", pages="""855-866""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:04 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12368,9 +12690,10 @@ entry(
     ),
     reference = Article(authors=["Dunlop, J.R.", "Tully, F.P."], title=u'Catalytic dehydration of alcohols by OH. 2-propanol: an intermediate case', journal="J. Phys. Chem.", volume="97", pages="""6457-6464""", year="1993", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:12 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12408,9 +12731,10 @@ entry(
     ),
     reference = Article(authors=["Gierczak, T.", "Gawlowski, J.", "Niedzielski, J."], title=u'Mutual isomerization of cyclopentyl and 1-penten-5-yl radicals', journal="Int. J. Chem. Kinet.", volume="18", pages="""623-637""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:12 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12450,9 +12774,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "Islam, T.S.A.", "Rattray, G.N."], title=u'The Gas-Phase Pyrolysis of Alkyl Nitrites. VI. t-Amyl Nitrite', journal="Int. J. Chem. Kinet.", volume="10", pages="""931""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:17 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12492,9 +12817,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L."], title=u'The Gas-Phase Decomposition of Alkoxy Radicals', journal="Int. J. Chem. Kinet.", volume="11", pages="""977""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:17 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12534,9 +12860,10 @@ entry(
     ),
     reference = Article(authors=["Choo, K.Y.", "Benson, S.W."], title=u'Arrhenius Parameters for the Alkoxy Radical Decomposition Reactions', journal="Int. J. Chem. Kinet.", volume="13", pages="""833""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:17 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12576,9 +12903,10 @@ entry(
     ),
     reference = Article(authors=["Heicklen, J."], title=u'The decomposition of alkyl nitrites and the reactions of alkoxyl radicals', journal="Adv. Photochem.", volume="14", pages="""177""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:17 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12618,9 +12946,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "Islam, T.S.A.", "Rattray, G.N."], title=u'The Gas-Phase Pyrolysis of Alkyl Nitrites. VI. t-Amyl Nitrite', journal="Int. J. Chem. Kinet.", volume="10", pages="""931""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:17 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12660,9 +12989,10 @@ entry(
     ),
     reference = Article(authors=["Choo, K.Y.", "Benson, S.W."], title=u'Arrhenius Parameters for the Alkoxy Radical Decomposition Reactions', journal="Int. J. Chem. Kinet.", volume="13", pages="""833""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:17 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12702,9 +13032,10 @@ entry(
     ),
     reference = Article(authors=["Heicklen, J."], title=u'The decomposition of alkyl nitrites and the reactions of alkoxyl radicals', journal="Adv. Photochem.", volume="14", pages="""177""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:17 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12740,9 +13071,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Pyrolysis of 2,4-Dimethylhexene-1 and the Stability of Isobutenyl Radicals', journal="Int. J. Chem. Kinet.", volume="5", pages="""929""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12778,9 +13110,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Pyrolysis of 2,4-Dimethylhexene-1 and the Stability of Isobutenyl Radicals', journal="Int. J. Chem. Kinet.", volume="5", pages="""929""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12816,9 +13149,10 @@ entry(
     ),
     reference = Article(authors=["Naroznik, M.", "Niedzielski, J."], title=u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes', journal="J. Photochem.", volume="32", pages="""281""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:25 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12854,9 +13188,10 @@ entry(
     ),
     reference = Article(authors=["Wagner, H.Gg.", "Zellner, R."], title=u'Reaktionen von Wasserstoffatomen mit ungesaettigten C_3-Kohlenwasserstoffen. II. Die Reaktion von H-Atomen mit Methylacetylen', journal="Ber. Bunsenges. Phys. Chem.", volume="76", pages="""518""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:25 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12892,9 +13227,10 @@ entry(
     ),
     reference = Article(authors=["Naroznik, M.", "Niedzielski, J."], title=u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes', journal="J. Photochem.", volume="32", pages="""281""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:25 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12930,9 +13266,10 @@ entry(
     ),
     reference = Article(authors=["Wagner, H.Gg.", "Zellner, R."], title=u'Reaktionen von Wasserstoffatomen mit ungesaettigten C_3-Kohlenwasserstoffen. III. Die Reaktion von H-Atomen mit Allen', journal="Ber. Bunsenges. Phys. Chem.", volume="76", pages="""667""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:25 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -12972,9 +13309,10 @@ entry(
     ),
     reference = Article(authors=["Handford-Styring, S.M.", "Walker, R.W."], title=u'Addition of cyclopentane to slowly reacting mixtures of H_2 + O_2 between 673 and 783 K: reactions of H and OH with cyclopentane and of cyclopentyl radicals', journal="J. Chem. Soc. Faraday Trans.", volume="91", pages="""1431-1438""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:26 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13010,9 +13348,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."], title=u'Photochemical smog. Rate parameter estimates and computer simulations', journal="J. Phys. Chem.", volume="81", pages="""2483""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:26 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13048,9 +13387,10 @@ entry(
     ),
     reference = Article(authors=["Choo, K.Y.", "Benson, S.W."], title=u'Arrhenius Parameters for the Alkoxy Radical Decomposition Reactions', journal="Int. J. Chem. Kinet.", volume="13", pages="""833""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:26 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13088,9 +13428,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:26 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13126,9 +13467,10 @@ entry(
     ),
     reference = Article(authors=["Larson, c.W.", "Stewart, P.H.", "Golden, D.M."], title=u'Pressure and temperature dependence of reactions proceeding via a bound complex. An approach for combustion and atmospheric chemistry modelers. Application to HO + CO \u2192 [HOCO] \u2192 H + CO_2', journal="Int. J. Chem. Kinet.", volume="20", pages="""27""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:26 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13162,9 +13504,10 @@ entry(
     ),
     reference = Article(authors=["Loucks, L.F.", "Laidler, K.J."], title=u'Mercury-photosensitized decomposition of dimethyl ether. Part II. The thermal decomposition of the methoxymethyl radical', journal="Can. J. Chem.", volume="45", pages="""2767-2773""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:26 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13198,9 +13541,10 @@ entry(
     ),
     reference = Article(authors=["Sehested, J.", "Sehested, K.", "Platz, J.", "Egsgaard, H.", "Nielsen, O.J."], title=u'Oxidation of dimethyl ether: absolute rate constants for the self reaction of CH_3OCH_2 radicals, the reaction of CH_3OCH_2 radicals with O_2, and the thermal decomposition of CH_3OCH_2 radicals', journal="Int. J. Chem. Kinet.", volume="29", pages="""627-636""", year="1997", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:26 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13234,9 +13578,10 @@ entry(
     ),
     reference = Article(authors=["Li, Q.S.", "Zhang, Y.", "Zhang, S.W."], title=u'Dual level direct ab initio and density-functional theory dynamics study on the unimolecular decomposition of CH_3OCH_2 radical', journal="J. Phys. Chem. A:", volume="108", pages="""2014-2019""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:26 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13286,9 +13631,10 @@ entry(
     ),
     reference = Article(authors=["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."], title=u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene', journal="J. Phys. Chem. A", volume="108", pages="""3829-3843""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:28 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13338,9 +13684,10 @@ entry(
     ),
     reference = Article(authors=["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."], title=u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene', journal="J. Phys. Chem. A", volume="108", pages="""3829-3843""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:28 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13384,9 +13731,10 @@ entry(
     ),
     reference = Article(authors=["Tokmakov, I.V.", "Lin, M.C."], title=u'Reaction of phenyl radicals with acetylene: Quantum chemical investigation of the mechanism and master equation analysis of the kinetics', journal="J. Am. Chem. Soc.", volume="125", pages="""11397-11408""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:37 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13430,9 +13778,10 @@ entry(
     ),
     reference = Article(authors=["Tokmakov, I.V.", "Lin, M.C."], title=u'Reaction of phenyl radicals with acetylene: Quantum chemical investigation of the mechanism and master equation analysis of the kinetics', journal="J. Am. Chem. Soc.", volume="125", pages="""11397-11408""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:37 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13478,9 +13827,10 @@ entry(
     ),
     reference = Article(authors=["Tokmakov, I.V.", "Lin, M.C."], title=u'Reaction of phenyl radicals with acetylene: Quantum chemical investigation of the mechanism and master equation analysis of the kinetics', journal="J. Am. Chem. Soc.", volume="125", pages="""11397-11408""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:37 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13522,9 +13872,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, R.R.", "Walker, R.W.", "Walker, R.W."], title=u'Addition of 2,2,3-Trimethylbutane to Slowly Reacting Mixtures of Hydrogen and Oxygen at 480^oC', journal="J. Chem. Soc. Faraday Trans. 1", volume="77", pages="""2157""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:37 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13566,9 +13917,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, R.R.", "Walker, R.W.", "Walker, R.W."], title=u'Addition of 2,2,3-Trimethylbutane to Slowly Reacting Mixtures of Hydrogen and Oxygen at 480^oC', journal="J. Chem. Soc. Faraday Trans. 1", volume="77", pages="""2157""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:37 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13608,9 +13960,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, R.R.", "Drewery, G.R.", "Walker, R.W."], title=u'Decomposition of 2,3-dimethylbutane in the presence of oxygen. Part 2.-Elementary reactions involved in the formation of products', journal="J. Chem. Soc. Faraday Trans. 1", volume="80", pages="""3195""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:38 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13652,9 +14005,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, R.R.", "Drewery, G.R.", "Walker, R.W."], title=u'Decomposition of 2,3-dimethylbutane in the presence of oxygen. Part 2.-Elementary reactions involved in the formation of products', journal="J. Chem. Soc. Faraday Trans. 1", volume="80", pages="""3195""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:38 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13690,9 +14044,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:38 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13730,9 +14085,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:38 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13770,9 +14126,10 @@ entry(
     ),
     reference = Article(authors=["Choo, K.Y.", "Benson, S.W."], title=u'Arrhenius Parameters for the Alkoxy Radical Decomposition Reactions', journal="Int. J. Chem. Kinet.", volume="13", pages="""833""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:38 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13818,9 +14175,10 @@ entry(
     ),
     reference = Article(authors=["Brezinsky, K.", "Litzinger, T.A.", "Glassman, I."], title=u'The high temperature oxidation of the methyl side chain of toluene', journal="Int. J. Chem. Kinet.", volume="16", pages="""1053""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13858,9 +14216,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "McCulloch, R.D.", "Milne, R.T."], title=u'Thermochemical and Kinetic Studies of Alkyl Nitrites (RONO)-D(RO-NO), The Reactions between RO. and NO, and the Decomposition RO.', journal="Proc. Symp. Chem. Kinet. Data Upper Lower Atmos. 1974", pages="""441""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13898,9 +14257,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "McCulloch, R.D."], title=u'The Gas-Phase Pyrolysis of Alkyl Nitrites. II. s-Butyl Nitrite', journal="Int. J. Chem. Kinet.", volume="8", pages="""911""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13938,9 +14298,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."], title=u'Photochemical smog. Rate parameter estimates and computer simulations', journal="J. Phys. Chem.", volume="81", pages="""2483""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -13978,9 +14339,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L."], title=u'The Gas-Phase Decomposition of Alkoxy Radicals', journal="Int. J. Chem. Kinet.", volume="11", pages="""977""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14018,9 +14380,10 @@ entry(
     ),
     reference = Article(authors=["Choo, K.Y.", "Benson, S.W."], title=u'Arrhenius Parameters for the Alkoxy Radical Decomposition Reactions', journal="Int. J. Chem. Kinet.", volume="13", pages="""833""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14058,9 +14421,10 @@ entry(
     ),
     reference = Article(authors=["Heicklen, J."], title=u'The decomposition of alkyl nitrites and the reactions of alkoxyl radicals', journal="Adv. Photochem.", volume="14", pages="""177""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14098,9 +14462,10 @@ entry(
     ),
     reference = Article(authors=["Heiss, A.", "Tardieu de Maleissye, J.", "Viossat, V.", "Sahetchian, K.A."], title=u'Reactions of primary and secondary butoxy radicals in oxygen at atmospheric pressure', journal="Int. J. Chem. Kinet.", volume="23", pages="""607-622""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14138,9 +14503,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14180,9 +14546,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14220,9 +14587,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L."], title=u'The Gas-Phase Decomposition of Alkoxy Radicals', journal="Int. J. Chem. Kinet.", volume="11", pages="""977""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14260,9 +14628,10 @@ entry(
     ),
     reference = Article(authors=["Heicklen, J."], title=u'The decomposition of alkyl nitrites and the reactions of alkoxyl radicals', journal="Adv. Photochem.", volume="14", pages="""177""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14300,9 +14669,10 @@ entry(
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14344,9 +14714,10 @@ entry(
     ),
     reference = Article(authors=["Choo, K.Y.", "Benson, S.W."], title=u'Arrhenius Parameters for the Alkoxy Radical Decomposition Reactions', journal="Int. J. Chem. Kinet.", volume="13", pages="""833""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14386,9 +14757,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, R.R.", "Walker, R.W."], title=u'Elementary Reactions in the Oxidation of Alkenes', journal="Symp. Int. Combust. Proc.", volume="18", pages="""819""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:49 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14428,9 +14800,10 @@ entry(
     ),
     reference = Article(authors=["Dobe, S.", "Berces, T.", "Marta, F."], title=u'Gas phase decomposition and isomerization reactions of 2-pentoxy radicals', journal="Int. J. Chem. Kinet.", volume="18", pages="""329""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:51 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14470,9 +14843,10 @@ entry(
     ),
     reference = Article(authors=["Heicklen, J."], title=u'The decomposition of alkyl nitrites and the reactions of alkoxyl radicals', journal="Adv. Photochem.", volume="14", pages="""177""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:51 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14512,9 +14886,10 @@ entry(
     ),
     reference = Article(authors=["Dobe, S.", "Berces, T.", "Marta, F."], title=u'Gas phase decomposition and isomerization reactions of 2-pentoxy radicals', journal="Int. J. Chem. Kinet.", volume="18", pages="""329""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:52 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14552,9 +14927,10 @@ entry(
     ),
     reference = Article(authors=["Ghibaudi, E.", "Colussi, A.J."], title=u'Kinetics and thermochemistry of the equilibrium 2 (acetylene) = vinylacetylene. Direct evidence against a chain mechanism', journal="J. Phys. Chem.", volume="92", pages="""5839""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14592,9 +14968,10 @@ entry(
     ),
     reference = Article(authors=["Eiteneer, B.", "Frenklach, M."], title=u'Experimental and Modeling Study of Shock-Tube Oxidation of Acetylene', journal="Int J. Chem. Kinet.", volume="35", pages="""391-414""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14634,9 +15011,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."], title=u'Photochemical smog. Rate parameter estimates and computer simulations', journal="J. Phys. Chem.", volume="81", pages="""2483""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14674,9 +15052,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."], title=u'Photochemical smog. Rate parameter estimates and computer simulations', journal="J. Phys. Chem.", volume="81", pages="""2483""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14716,9 +15095,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."], title=u'Photochemical smog. Rate parameter estimates and computer simulations', journal="J. Phys. Chem.", volume="81", pages="""2483""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14754,9 +15134,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:00 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14792,9 +15173,10 @@ entry(
     ),
     reference = Article(authors=["Getty, R.R.", "Kerr, J.A.", "Trotman-Dickenson, A.F."], title=u'The reactions of alkyl radicals. Part XIII. The additions of methyl, isopropyl, and t-butyl radicals to propyne and the isomerisation of alkenyl radicals', journal="J. Chem. Soc. A", pages="""1360""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:00 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14842,9 +15224,10 @@ entry(
     ),
     reference = Article(authors=["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."], title=u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene', journal="J. Phys. Chem. A", volume="108", pages="""3829-3843""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:01 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14892,9 +15275,10 @@ entry(
     ),
     reference = Article(authors=["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."], title=u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene', journal="J. Phys. Chem. A", volume="108", pages="""3829-3843""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:01 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14936,9 +15320,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, R.R.", "Hisham, M.W.M.", "Walker, R.W."], title=u'Arrhenius parameters of elementary reactions involved in the oxidation of neopentane', journal="J. Chem. Soc. Faraday Trans. 1", volume="78", pages="""1615""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:02 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -14980,9 +15365,10 @@ entry(
     ),
     reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:02 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15024,9 +15410,10 @@ entry(
     ),
     reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15062,9 +15449,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15100,9 +15488,10 @@ entry(
     ),
     reference = Article(authors=["Callear, A.B.", "Smith, G.B."], title=u'Addition of atomic hydrogen to acetylene. Chain reactions of the vinyl radical', journal="Chem. Phys. Lett.", volume="105", pages="""119""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15138,9 +15527,10 @@ entry(
     ),
     reference = Article(authors=["Weissman, M.", "Benson, S.W."], title=u'Pyrolysis of methyl chloride, a pathway in the chlorine-catalyzed polymerization of methane', journal="Int. J. Chem. Kinet.", volume="16", pages="""307""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15176,9 +15566,10 @@ entry(
     ),
     reference = Article(authors=["Duran, R.P.", "Amorebieta, V.T.", "Colussi, A.J."], title=u'Is the homogeneous thermal dimerization of acetylene a free-radical chain reaction? Kinetic and thermochemical analysis', journal="J. Phys. Chem.", volume="92", pages="""636""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15214,9 +15605,10 @@ entry(
     ),
     reference = Article(authors=["Weissman, M.A.", "Benson, S.W."], title=u'Rate parameters for the reactions of C_2H_3 and C_4H_5 with H_2 and C_2H_2', journal="J. Phys. Chem.", volume="92", pages="""4080""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15252,9 +15644,10 @@ entry(
     ),
     reference = Article(authors=["Benson, S.W."], title=u'The mechanism of the reversible reaction: 2C_2H_2 = vinyl acetylene and the pyrolysis of butadiene', journal="Int. J. Chem. Kinet.", volume="21", pages="""233""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15292,9 +15685,10 @@ entry(
     ),
     reference = Article(authors=["Weissman, M.", "Benson, S.W."], title=u'Pyrolysis of methyl chloride, a pathway in the chlorine-catalyzed polymerization of methane', journal="Int. J. Chem. Kinet.", volume="16", pages="""307""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15332,9 +15726,10 @@ entry(
     ),
     reference = Article(authors=["Colket, M.B., III", "Seery, D.J.", "Palmer, H.B."], title=u'The pyrolysis of acetylene initiated by acetone', journal="Combust. Flame", volume="75", pages="""343-366""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15368,9 +15763,10 @@ entry(
     ),
     reference = Article(authors=["Lai, L-H.", "Hsu, Y-C.", "Lee, Y-P."], title=u'The enthalpy change and the detailed rate coefficients of the equilibrium reaction OH+C_2H_2 + M = HOC_2H_2 + M over the temperature range 627-713K', journal="J. Chem. Phys.", volume="97", pages="""3092-3099""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15404,9 +15800,10 @@ entry(
     ),
     reference = Article(authors=["Liu, A.", "Mulac, W.A.", "Jonah, C.D."], title=u'Temperature dependence of the rate constants of the reactions of OH radicals with C_2H_2 and C_2D_2 at 1 atm in Ar and from 333 to 1273 K', journal="J. Phys. Chem.", volume="92", pages="""5942""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15440,9 +15837,10 @@ entry(
     ),
     reference = Article(authors=["Liu, A.", "Jonah, C.D.", "Mulac, W.A."], title=u'The gas-phase reactions of hydroxyl radicals with several unsaturated hydrocarbons at atmosphere pressure', journal="Radiat. Phys. Chem.", volume="34", pages="""687-691""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15476,9 +15874,10 @@ entry(
     ),
     reference = Article(authors=["Miller, J.A.", "Melius, C.F."], title=u'A theoretical analysis of the reaction between hydroxyl and acetylene', journal="Symp. Int. Combust. Proc.", volume="22", pages="""1031-1039""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15512,9 +15911,10 @@ entry(
     ),
     reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15548,9 +15948,10 @@ entry(
     ),
     reference = Article(authors=["Lai, L-H.", "Hsu, Y-C.", "Lee, Y-P."], title=u'The enthalpy change and the detailed rate coefficients of the equilibrium reaction OH+C_2H_2 + M = HOC_2H_2 + M over the temperature range 627-713K', journal="J. Chem. Phys.", volume="97", pages="""3092-3099""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15584,9 +15985,10 @@ entry(
     ),
     reference = Article(authors=["Siese, M.", "Zetzsch, C."], title=u'Addition of OH to acetylene and consecutive reactions of the adduct with O_2', journal="Z. Phys. Chem. (Munich)", volume="188", pages="""75-89""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15626,9 +16028,10 @@ entry(
     ),
     reference = Article(authors=["Braun-Unkhoff, M.", "Frank, P.", "Just, Th."], title=u'A shock tube study on the thermal decomposition of toluene and of the phenyl radical at high temperatures', journal="Symp. Int. Combust. Proc.", volume="22", pages="""1053""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15668,9 +16071,10 @@ entry(
     ),
     reference = Article(authors=["Westmoreland, P.R.", "Dean, A.M.", "Howard, J.B.", "Longwell, J.P."], title=u'Forming benzene in flames by chemically activated isomerization', journal="J. Phys. Chem.", volume="93", pages="""8171""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15712,9 +16116,10 @@ entry(
     ),
     reference = Article(authors=["Braun-Unkhoff, M.", "Frank, P.", "Just, Th."], title=u'A shock tube study on the thermal decomposition of toluene and of the phenyl radical at high temperatures', journal="Symp. Int. Combust. Proc.", volume="22", pages="""1053""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15754,9 +16159,10 @@ entry(
     ),
     reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:12 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -15796,9 +16202,10 @@ entry(
     ),
     reference = Article(authors=["Westmoreland, P.R.", "Dean, A.M.", "Howard, J.B.", "Longwell, J.P."], title=u'Forming benzene in flames by chemically activated isomerization', journal="J. Phys. Chem.", volume="93", pages="""8171""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:12 2011","jwallen","action","""jwallen added this entry to the database."""),

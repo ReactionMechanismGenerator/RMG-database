@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "R_Addition_MultipleBond/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -23,9 +23,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """Default""",
+    shortDesc = u"""Default""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -58,9 +58,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 3. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
@@ -95,9 +95,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 3. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
@@ -132,9 +132,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 3. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
@@ -172,9 +172,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 3. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
@@ -212,9 +212,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 3. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
@@ -252,9 +252,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 3. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
@@ -290,9 +290,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 20. Based on recommendations of Chen and Bozzelli [57]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 20. Based on recommendations of Chen and Bozzelli [57]""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 20. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
@@ -328,9 +328,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 20. Based on recommendations of Chen and Bozzelli [57]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 20. Based on recommendations of Chen and Bozzelli [57]""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 20. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
@@ -366,9 +366,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 20. Based on recommendations of Chen and Bozzelli [57]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 20. Based on recommendations of Chen and Bozzelli [57]""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 in his reaction type 20. Based on the recommendations of
 [146] Allara, D.L.; Shaw, R. J Phys. Chem. Ref. Data 1980,9,523.
@@ -405,9 +405,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [94] literature review.""",
+    shortDesc = u"""Baulch et al. [94] literature review.""",
     longDesc = 
-"""
+u"""
 [94] Baulch,D.L.; Cobos,C.J.;Cox,R.A;Frank,P.;Hayman,G.;Just,T.;Kerr,J.A.;Murells,T.;Philling,M.J.;Troe,J.;Walker,R.W.; Warnatz, J. J Phys Chem. Ref. Data 1994,23,847.
 literature review. C2H4 + H --> C2H5. C.D.W. divided rate expression by 2, to get rate of addition per site 
 pg.916-920: Discussion on evaluated data
@@ -454,9 +454,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [89] literature review.""",
+    shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087. 
 literature review. C2H4 + CH3 --> n-C3H7. C.D.W. divided rate expression by 2, to get rate of addition per site
 pg. 1191: Discussion on evaluated data
@@ -502,9 +502,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Knyazev et al. [147]""",
+    shortDesc = u"""Knyazev et al. [147]""",
     longDesc = 
-"""
+u"""
 [147] Knyazev,V.D.;Slagle,I.R. J Phys. Chem. 1996 100, 5318.
 Pressure up to 10 atm. Excitation; thermal, analysis: mass spectrometry. C2H4 + C2H5--> n-C4H9. C.D.W. divided rate expression by 2, to get rate of addtion per site
 """,
@@ -543,9 +543,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [90] literature review.""",
+    shortDesc = u"""Tsang et al. [90] literature review.""",
     longDesc = 
-"""
+u"""
 [90] Tsang,W.J. Phys. Chem. Ref. Data 1987,16,471.
 literature review. C2H4+ CH2OH --> CH2CH2CH2OH C.D.W. divided rate expression by 2, to get rate of addition per site
 pg. 502: Discussion on evaluated data
@@ -590,9 +590,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Weissman and Benson [148] Estimated values.""",
+    shortDesc = u"""Weissman and Benson [148] Estimated values.""",
     longDesc = 
-"""
+u"""
 [148] Weissman and Benson. Estimated values. Activation energy is a lower limit. Pressure 1.00 atm. 
 C2H4 + C2H3 --> CH2=CHCH2CH2 C.D.W. divided rate expression by 2, to get rate of addition per site
 """,
@@ -629,9 +629,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [89] literature review.""",
+    shortDesc = u"""Tsang et al. [89] literature review.""",
     longDesc = 
-"""
+u"""
 [89] Tsang et al. Literature Review.  
 C2H4 + OH --> CH2CH2OH  C.D.W. divided rate expression by 2, to get rate of addition per site
 
@@ -681,9 +681,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [149] experiments and limited review.""",
+    shortDesc = u"""Tsang [149] experiments and limited review.""",
     longDesc = 
-"""
+u"""
 [149] Tsang experiments and limited review. CH3CH=CH2 + H --> iso-C3H7
 """,
     history = [
@@ -721,9 +721,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Knyazev et al. [150]""",
+    shortDesc = u"""Knyazev et al. [150]""",
     longDesc = 
-"""
+u"""
 [150] Knayzev et al. Data derived from fitting to a complex mechanism. Pressure up to 10 atm. Excitation : flash photolysis, analysis : mass spectrometry
 CH3CH=CH2 + CH3 --> sec-C4H9
 """,
@@ -762,9 +762,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] literature review.""",
+    shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang literature review. CH3CH=CH2 + CH3 --> sec-C4H9 
 pg.237-239: Discussion on evaluated data
 
@@ -809,9 +809,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Barbe et al. [151] Data are estimated.""",
+    shortDesc = u"""Barbe et al. [151] Data are estimated.""",
     longDesc = 
-"""
+u"""
 [151] Barbe et al. Data is estimated. Pressure 0.04-0.26 atm. CH3CH=CH2 + .CH2CH=CH2 --> CH3CH(.)CH2CH2CH=CH2
 """,
     history = [
@@ -849,9 +849,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] literature review.""",
+    shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang literature review. CH3CH=CH2 + tert-C4H9 --> (CH3)3CCH2CH(.)CH3
 pg.247: Discussion on evaluated data
 
@@ -895,9 +895,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Perrin et al. [152] Data are estimated.""",
+    shortDesc = u"""Perrin et al. [152] Data are estimated.""",
     longDesc = 
-"""
+u"""
 [152] Perrin et al. Data is estimated. Pressure 0.01-0.13 atm. 
 CH2=CHCH=CH2 + .CH3 --> CH2CH=CHCH2CH3 C.D.W. divied rate expression by 2, to get rate of addition per site.
 """,
@@ -933,9 +933,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Knyazev et al. [153]""",
+    shortDesc = u"""Knyazev et al. [153]""",
     longDesc = 
-"""
+u"""
 [153] Knayzev et al. Pressure ~ 0.01 atm. Excitation : thermal, analysis : GC Iso-C4H8 + CH3 --> (CH3)2CCH2CH3
 """,
     history = [
@@ -973,9 +973,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Seres et al. [154] Data derived from fitting a complex mechanism.""",
+    shortDesc = u"""Seres et al. [154] Data derived from fitting a complex mechanism.""",
     longDesc = 
-"""
+u"""
 [303] Seres et al. Data derived from fitting to a complex mechanism. Excitation : thermal, analysis : GC Iso-C4H8 + CH3 --> (CH3)2CCH2CH3
 """,
     history = [
@@ -1010,9 +1010,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [149] experiments and limited review.""",
+    shortDesc = u"""Tsang [149] experiments and limited review.""",
     longDesc = 
-"""
+u"""
 [149] Tsang experiments and limited review. CH3CH=CH2 + H --> n-C3H7
 """,
     history = [
@@ -1050,9 +1050,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Knyazev et al. [147]""",
+    shortDesc = u"""Knyazev et al. [147]""",
     longDesc = 
-"""
+u"""
 [147] Knyazev et al. Pressure up to 10 atm. Excitation : thermal, analysis : mass spectrometry. 
 CH3CH=CH2 + CH3 --> iso-C4H9
 """,
@@ -1091,9 +1091,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] literature review.""",
+    shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
-"""
+u"""
 [93] literature review. CH3CH=CH2 + CH3 --> iso-C4H9
 pg.237-239: Discussion on evaluated data
 
@@ -1138,9 +1138,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Slagle et al. [155] Data derived from detailed balance/reverse rate.""",
+    shortDesc = u"""Slagle et al. [155] Data derived from detailed balance/reverse rate.""",
     longDesc = 
-"""
+u"""
 [155] Slagle et al. Data deriver from detailed balance/reverse rate. Pressure ~ 0.01 atm. 
 Iso-C4H8 + .CH3 --> (CH3)3CCH2
 """,
@@ -1175,9 +1175,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
     longDesc = 
-"""
+u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 """,
     history = [
@@ -1211,9 +1211,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
     longDesc = 
-"""
+u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 """,
     history = [
@@ -1247,9 +1247,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
     longDesc = 
-"""
+u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 """,
     history = [
@@ -1286,9 +1286,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
     longDesc = 
-"""
+u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 """,
     history = [
@@ -1325,9 +1325,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
     longDesc = 
-"""
+u"""
 [8] Curran et al. in his reaction type 3. Based on recommendations of Allara and Shaw. [146]
 """,
     history = [
@@ -1364,9 +1364,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 3. Based on recommendations of Allara and Shaw [146]""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1403,9 +1403,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Scherzer et al. [156] Data derived from fitting a complex mechanism.""",
+    shortDesc = u"""Scherzer et al. [156] Data derived from fitting a complex mechanism.""",
     longDesc = 
-"""
+u"""
 [156] Scherzer et al. Data derived from fitting to a complex mechanism. Pressure 0.04 atm. Excitation: thermal, analysis: GC.
 CH2=C=CH2 + .CH3 --> CH3CH2C=CH2
 """,
@@ -1440,9 +1440,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang et al. [157]""",
+    shortDesc = u"""Tsang et al. [157]""",
     longDesc = 
-"""
+u"""
 [157] Tsang et al. Absolute Value Measured directly. Pressure 2 - 7 atm. Excitation: thermal, analysis : GC. 
 CH2=C=CH2 + H --> .CH2CH=CH2
 """,
@@ -1480,9 +1480,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Tsang [158] Data is estimated.""",
+    shortDesc = u"""Tsang [158] Data is estimated.""",
     longDesc = 
-"""
+u"""
 [158] Tsang. Data is estimated. Pressure 1.50-5.00 atm. CH2=C=CH2 + CH3 --> CH2C(CH3)=CH2
 """,
     history = [
@@ -1513,9 +1513,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 18.""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 18.""",
     longDesc = 
-"""
+u"""
 [8] Curran et al. In his reaction type 18.
 """,
     history = [
@@ -1549,9 +1549,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran et al. [8] in his reaction type 18.""",
+    shortDesc = u"""Curran et al. [8] in his reaction type 18.""",
     longDesc = 
-"""
+u"""
 [8] Curran et al. In his reaction type 18.
 """,
     history = [
@@ -1584,9 +1584,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Bozzelli et al. [144] based on CH3 addition to CO (Anastasi and Maw)""",
+    shortDesc = u"""Bozzelli et al. [144] based on CH3 addition to CO (Anastasi and Maw)""",
     longDesc = 
-"""
+u"""
 [144] Bozzelli et al. Based upon CH3 addition to CO (Anastasi and Maw)
 """,
     history = [
@@ -1618,9 +1618,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran esitmation [159] in DME oxidation modeling for ketohydroperoxide decomposition.""",
+    shortDesc = u"""Curran esitmation [159] in DME oxidation modeling for ketohydroperoxide decomposition.""",
     longDesc = 
-"""
+u"""
 [159] Curran et al. His estimation in DME oxidation modeling for ketohydroperoxide decomposition. 
 H2CO + HCO2. (formic acid radical) --> +  .OCH2OCHO (ester) (Rxn. 338, p. 234)
 
@@ -1659,9 +1659,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Knoll et al. [160] Data derived from fitting a complex mechanism.""",
+    shortDesc = u"""Knoll et al. [160] Data derived from fitting a complex mechanism.""",
     longDesc = 
-"""
+u"""
 [160] Knoll et al. Data derived from fitting to a complex mechanism. Pressure 0.08 atm. Excitation : direct photolysis, analysis : mass spectrometry.
 N-C3H7 + C2HO --> N-C4H9O
 """,
@@ -1698,9 +1698,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Knoll et al. [161]""",
+    shortDesc = u"""Knoll et al. [161]""",
     longDesc = 
-"""
+u"""
 [161] Knoll et al. Absolute value measured directly. Pressure 0.28 - 1.17 atm. Excitation : thermal, analysis : mass spectrometry. 
 (CH3)2CO + .CH3 --> (CH3)3CO
 """,
@@ -1734,9 +1734,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Warnatz [134] literature review.""",
+    shortDesc = u"""Warnatz [134] literature review.""",
     longDesc = 
-"""
+u"""
 [134] Warnatz literature review. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + H --> C2H3
 """,
@@ -1773,9 +1773,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """E.W. Diau and M.C. Lin [162] RRK(M) extrapolation.""",
+    shortDesc = u"""E.W. Diau and M.C. Lin [162] RRK(M) extrapolation.""",
     longDesc = 
-"""
+u"""
 [162] E.W.Diau and M.C.Lin. RRK(M) extrapolation. C.D.W divided rate expression by 2, to get rate of addition per site. 
 C2H2 + CH3 --> CH3CH=CH
 """,
@@ -1812,9 +1812,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Kerr et al. [163] literature review.""",
+    shortDesc = u"""Kerr et al. [163] literature review.""",
     longDesc = 
-"""
+u"""
 [163] Kerr et al. literature review. Pressure 0.03-0.20 atm. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + .C2H5 --> CH3CH2CH=CH
 """,
@@ -1851,9 +1851,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Tsang [93] literature review.""",
+    shortDesc = u"""Tsang [93] literature review.""",
     longDesc = 
-"""
+u"""
 [93] Tsang et al. literature review. Pressure 0.03-0.20 atm. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + .CH2CH=CH2 --> CHCH2CH=CH 
 
@@ -1898,9 +1898,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Kerr et al. [163] literature review.""",
+    shortDesc = u"""Kerr et al. [163] literature review.""",
     longDesc = 
-"""
+u"""
 [163] Kerr et al. literature review. Pressure 0.07-0.13 atm. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + Iso-C3H7 --> (CH3)2CHCH=CH
 """,
@@ -1937,9 +1937,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Dominguez et al. [164] Data derived from fitting a complex mechanism.""",
+    shortDesc = u"""Dominguez et al. [164] Data derived from fitting a complex mechanism.""",
     longDesc = 
-"""
+u"""
 [164] Dominguez et al. Data derived from fitting to a complex mechanism. Pressure 0.01-0.32 atm. Excitation : direct photolysis, analysis : GC. 
 C2H2 + Tert-C4H9 --> (CH3)3CCH=CH C.D.W divided rate expression by 2, to get rate of addition per site.
 """,
@@ -1975,9 +1975,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Weissman et al. [121] Transition state theory.""",
+    shortDesc = u"""Weissman et al. [121] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [121] Weissman et al. Transition state theory. C.D.W divided rate expression by 2, to get rate of addition per site.	
 C2H2 + C2H3 --> CH2=CHCH=CH.
 """,
@@ -2013,9 +2013,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Duran et al. [165] Ab initio.""",
+    shortDesc = u"""Duran et al. [165] Ab initio.""",
     longDesc = 
-"""
+u"""
 [165] Duran et al. Ab initio. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + C2H3 --> CH2=CHCH=CH. (Rxn. -5?)
 
@@ -2052,9 +2052,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Duran et al. [165] Ab initio.""",
+    shortDesc = u"""Duran et al. [165] Ab initio.""",
     longDesc = 
-"""
+u"""
 [165] Duran et al. Ab initio. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + CCH --> HC(tb)CCH=CH. (Rxn. 18?) 
 
@@ -2092,9 +2092,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Baulch et al. [95] literature review.""",
+    shortDesc = u"""Baulch et al. [95] literature review.""",
     longDesc = 
-"""
+u"""
 [95] Baulch et al. literature review. C.D.W divided rate expression by 2, to get rate of addition per site.
 C2H2 + .OH --> HOCH=CH
 
@@ -2140,9 +2140,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Miller et al. [166] Transition state theory.""",
+    shortDesc = u"""Miller et al. [166] Transition state theory.""",
     longDesc = 
-"""
+u"""
 [166] Miller et al. Transition State Theory. C.D.W divided rate expression by 2, to get rate of addition per site. 
 Same reaction as #332, #333 ranked as more accurate in rate library than #332, but they are both from relatively old sources from the early '90s.  
 
@@ -2179,9 +2179,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Bozzelli et al. [144] based on CH3 addition to C2H2 (NIST)""",
+    shortDesc = u"""Bozzelli et al. [144] based on CH3 addition to C2H2 (NIST)""",
     longDesc = 
-"""
+u"""
 [144] Bozzelli et al. Based upon CH3 addition to C2H2 (NIST)
 """,
     history = [
@@ -2219,9 +2219,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2259,9 +2259,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2299,9 +2299,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2339,9 +2339,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2379,9 +2379,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2419,9 +2419,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2459,9 +2459,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2499,9 +2499,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2539,9 +2539,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2579,9 +2579,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2619,9 +2619,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2659,9 +2659,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2699,9 +2699,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2739,9 +2739,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2779,9 +2779,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2819,9 +2819,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2859,9 +2859,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2899,9 +2899,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2939,9 +2939,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -2979,9 +2979,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3018,9 +3018,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3057,9 +3057,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3096,9 +3096,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3136,9 +3136,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3176,9 +3176,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3216,9 +3216,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3256,9 +3256,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3296,9 +3296,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3335,9 +3335,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3375,9 +3375,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3414,9 +3414,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3452,9 +3452,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3490,9 +3490,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3529,9 +3529,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3569,9 +3569,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3609,9 +3609,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3649,9 +3649,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3687,9 +3687,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3727,9 +3727,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3767,9 +3767,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3807,9 +3807,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3847,9 +3847,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3887,9 +3887,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3927,9 +3927,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -3967,9 +3967,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4007,9 +4007,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4045,9 +4045,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4085,9 +4085,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4125,9 +4125,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4163,9 +4163,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4201,9 +4201,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4241,9 +4241,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4278,9 +4278,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4315,9 +4315,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4352,9 +4352,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4389,9 +4389,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4426,9 +4426,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4463,9 +4463,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4500,9 +4500,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4535,9 +4535,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4570,9 +4570,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4606,9 +4606,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4642,9 +4642,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4679,9 +4679,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4716,9 +4716,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4751,9 +4751,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4786,9 +4786,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4821,9 +4821,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4857,9 +4857,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4893,9 +4893,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4930,9 +4930,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -4967,9 +4967,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -5004,9 +5004,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -5041,9 +5041,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -5076,9 +5076,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -5113,9 +5113,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -5150,9 +5150,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -5187,9 +5187,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -5224,9 +5224,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -5259,9 +5259,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -5294,9 +5294,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment.""",
     longDesc = 
-"""
+u"""
 Mark Saeys, CBS-QB3 calculations,without hindered rotor treatment.
 """,
     history = [
@@ -5334,9 +5334,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep CBS-QB3 calculations""",
+    shortDesc = u"""Sandeep CBS-QB3 calculations""",
     longDesc = 
-"""
+u"""
 Sandeep CBS-QB3 calculations
 """,
     history = [

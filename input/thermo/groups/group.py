@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Functional Group Additivity Values"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -15,9 +15,9 @@ entry(
 1  *  R 0
 """,
     thermo = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -34,9 +34,9 @@ entry(
 1  *  C 0
 """,
     thermo = 'Cs-CsCsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -53,9 +53,9 @@ entry(
 1  *  Cbf 0
 """,
     thermo = 'Cbf-CbCbCbf',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -80,9 +80,9 @@ entry(
         H298 = (4.8,"kcal/mol","+|-",0.17),
         S298 = (-5,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cbf-CbfCbCb STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
+    shortDesc = u"""Cbf-CbfCbCb STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -107,9 +107,9 @@ entry(
         H298 = (3.7,"kcal/mol","+|-",0.3),
         S298 = (-5,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cbf-CbfCbfCb STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
+    shortDesc = u"""Cbf-CbfCbfCb STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -134,9 +134,9 @@ entry(
         H298 = (1.5,"kcal/mol","+|-",0.3),
         S298 = (1.8,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cbf-CbfCbfCbf STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
+    shortDesc = u"""Cbf-CbfCbfCbf STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -153,9 +153,9 @@ entry(
 1  *  Cb 0
 """,
     thermo = 'Cb-Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -178,9 +178,9 @@ entry(
         H298 = (3.3,"kcal/mol","+|-",0.11),
         S298 = (11.53,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cb-H BENSON""",
+    shortDesc = u"""Cb-H BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -203,9 +203,9 @@ entry(
         H298 = (-0.9,"kcal/mol","+|-",0.16),
         S298 = (-10.2,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cb-O BENSON Cp1500=3D Cp1000*(Cp1500/Cp1000: Cb/Cd)""",
+    shortDesc = u"""Cb-O BENSON Cp1500=3D Cp1000*(Cp1500/Cp1000: Cb/Cd)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -223,9 +223,9 @@ entry(
 2     C 0 {1,S}
 """,
     thermo = 'Cb-Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -248,9 +248,9 @@ entry(
         H298 = (5.51,"kcal/mol","+|-",0.13),
         S298 = (-7.69,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cb-Cs BENSON""",
+    shortDesc = u"""Cb-Cs BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -268,9 +268,9 @@ entry(
 2     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cb-(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -293,9 +293,9 @@ entry(
         H298 = (3.69,"kcal/mol","+|-",0.2),
         S298 = (-7.8,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Enthalpy from Cb-CO, entropies and heat capacities assigned value of Cb-Cd""",
+    shortDesc = u"""Enthalpy from Cb-CO, entropies and heat capacities assigned value of Cb-Cd""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -313,9 +313,9 @@ entry(
 2     Cd 0 {1,S}
 """,
     thermo = 'Cb-(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -339,9 +339,9 @@ entry(
         H298 = (5.69,"kcal/mol","+|-",0.2),
         S298 = (-7.8,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cb-Cd STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
+    shortDesc = u"""Cb-Cd STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -360,9 +360,9 @@ entry(
 3     Cdd 0 {2,D}
 """,
     thermo = 'Cb-(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -382,9 +382,9 @@ entry(
 4     Od 0 {3,D}
 """,
     thermo = 'Cb-(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -404,9 +404,9 @@ entry(
 4     C 0 {3,D}
 """,
     thermo = 'Cb-(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -429,9 +429,9 @@ entry(
         H298 = (5.69,"kcal/mol","+|-",0.3),
         S298 = (-7.8,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cb-Ct STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
+    shortDesc = u"""Cb-Ct STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -454,9 +454,9 @@ entry(
         H298 = (4.96,"kcal/mol","+|-",0.3),
         S298 = (-8.64,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cb-Cb BENSON""",
+    shortDesc = u"""Cb-Cb BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -473,9 +473,9 @@ entry(
 1  *  Ct 0
 """,
     thermo = 'Ct-Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -498,9 +498,9 @@ entry(
         H298 = (26.93,"kcal/mol","+|-",0.05),
         S298 = (24.7,"cal/(mol*K)","+|-",0.07),
     ),
-    shortDesc = """Ct-H STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
+    shortDesc = u"""Ct-H STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -523,9 +523,9 @@ entry(
         H298 = (31.4,"kcal/mol","+|-",0.27),
         S298 = (4.91,"cal/(mol*K)","+|-",0.09),
     ),
-    shortDesc = """Ct-O MELIUS / hc#coh !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Ct-O MELIUS / hc#coh !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -543,9 +543,9 @@ entry(
 2     C 0 {1,S}
 """,
     thermo = 'Ct-Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -568,9 +568,9 @@ entry(
         H298 = (27.55,"kcal/mol","+|-",0.27),
         S298 = (6.35,"cal/(mol*K)","+|-",0.09),
     ),
-    shortDesc = """Ct-Cs STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
+    shortDesc = u"""Ct-Cs STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -588,9 +588,9 @@ entry(
 2     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Ct-(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -608,9 +608,9 @@ entry(
 2     CO 0 {1,S}
 """,
     thermo = 'Ct-Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -628,9 +628,9 @@ entry(
 2     Cd 0 {1,S}
 """,
     thermo = 'Ct-(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -654,9 +654,9 @@ entry(
         H298 = (28.2,"kcal/mol","+|-",0.27),
         S298 = (6.43,"cal/(mol*K)","+|-",0.09),
     ),
-    shortDesc = """Ct-Cd STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
+    shortDesc = u"""Ct-Cd STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -675,9 +675,9 @@ entry(
 3     Cdd 0 {2,D}
 """,
     thermo = 'Ct-(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -697,9 +697,9 @@ entry(
 4     Od 0 {3,D}
 """,
     thermo = 'Ct-(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -719,9 +719,9 @@ entry(
 4     C 0 {3,D}
 """,
     thermo = 'Ct-(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -744,9 +744,9 @@ entry(
         H298 = (25.6,"kcal/mol","+|-",0.27),
         S298 = (5.88,"cal/(mol*K)","+|-",0.09),
     ),
-    shortDesc = """Ct-Ct STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
+    shortDesc = u"""Ct-Ct STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -769,9 +769,9 @@ entry(
         H298 = (24.67,"kcal/mol","+|-",0.27),
         S298 = (6.43,"cal/(mol*K)","+|-",0.09),
     ),
-    shortDesc = """Ct-Cb STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
+    shortDesc = u"""Ct-Cb STEIN and FAHR; J. PHYS. CHEM. 1985, 89, 17, 3714""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -788,9 +788,9 @@ entry(
 1  *  Cdd 0
 """,
     thermo = 'Cdd-CdsCds',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -814,9 +814,9 @@ entry(
         H298 = (-94.05,"kcal/mol","+|-",0.03),
         S298 = (52.46,"cal/(mol*K)","+|-",0.002),
     ),
-    shortDesc = """CHEMKIN DATABASE: S(group) = S(CO2) + Rln(2)""",
+    shortDesc = u"""CHEMKIN DATABASE: S(group) = S(CO2) + Rln(2)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -835,9 +835,9 @@ entry(
 3     Od 0 {1,D}
 """,
     thermo = 'Cdd-CdsOd',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -861,9 +861,9 @@ entry(
         H298 = (0,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """O=C*=C< currently treat the adjacent C as Ck""",
+    shortDesc = u"""O=C*=C< currently treat the adjacent C as Ck""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -882,9 +882,9 @@ entry(
 3     Od 0 {1,D}
 """,
     thermo = 'Cdd-(Cdd-Cd)Od',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -904,9 +904,9 @@ entry(
 4     Od 0 {2,D}
 """,
     thermo = 'Cdd-CdsOd',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -926,9 +926,9 @@ entry(
 4     C 0 {2,D}
 """,
     thermo = 'Cdd-CdsOd',
-    shortDesc = """O=C*=C= currently not defined. Assigned same value as Ca""",
+    shortDesc = u"""O=C*=C= currently not defined. Assigned same value as Ca""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -947,9 +947,9 @@ entry(
 3     C 0 {1,D}
 """,
     thermo = 'Cdd-CdsCds',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -968,9 +968,9 @@ entry(
 3     Cdd 0 {1,D}
 """,
     thermo = 'Cdd-(Cdd-Cd)(Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -991,9 +991,9 @@ entry(
 5     Od 0 {3,D}
 """,
     thermo = 'Cdd-CdsCds',
-    shortDesc = """O=C=C*=C=O, currently not defined. Assigned same value as Ca""",
+    shortDesc = u"""O=C=C*=C=O, currently not defined. Assigned same value as Ca""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1014,9 +1014,9 @@ entry(
 5     C 0 {3,D}
 """,
     thermo = 'Cdd-(Cdd-Od)Cds',
-    shortDesc = """O=C=C*=C=C, currently not defined. Assigned same value as Ca""",
+    shortDesc = u"""O=C=C*=C=C, currently not defined. Assigned same value as Ca""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1037,9 +1037,9 @@ entry(
 5     C 0 {3,D}
 """,
     thermo = 'Cdd-CdsCds',
-    shortDesc = """C=C=C*=C=C, currently not defined. Assigned same value as Ca""",
+    shortDesc = u"""C=C=C*=C=C, currently not defined. Assigned same value as Ca""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1058,9 +1058,9 @@ entry(
 3     Cd 0 {1,D}
 """,
     thermo = 'Cdd-(Cdd-Cd)(Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1080,9 +1080,9 @@ entry(
 4     Od 0 {2,D}
 """,
     thermo = 'Cdd-CdsCds',
-    shortDesc = """O=C=C*=C<, currently not defined. Assigned same value as Ca """,
+    shortDesc = u"""O=C=C*=C<, currently not defined. Assigned same value as Ca """,
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1102,9 +1102,9 @@ entry(
 4     C 0 {2,D}
 """,
     thermo = 'Cdd-CdsCds',
-    shortDesc = """C=C=C*=C<, currently not defined. Assigned same value as Ca """,
+    shortDesc = u"""C=C=C*=C<, currently not defined. Assigned same value as Ca """,
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1128,9 +1128,9 @@ entry(
         H298 = (34.2,"kcal/mol","+|-",0.2),
         S298 = (6,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Benson's Ca """,
+    shortDesc = u"""Benson's Ca """,
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1147,9 +1147,9 @@ entry(
 1  *  {Cd,CO} 0
 """,
     thermo = 'Cds-CdsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1174,9 +1174,9 @@ entry(
         H298 = (-25.95,"kcal/mol","+|-",0.11),
         S298 = (53.68,"cal/(mol*K)","+|-",0.06),
     ),
-    shortDesc = """CO-HH BENSON !!!WARNING! Cp1500 value taken as Cp1000, S(group) = S(CH2O) + Rln(2)""",
+    shortDesc = u"""CO-HH BENSON !!!WARNING! Cp1500 value taken as Cp1000, S(group) = S(CH2O) + Rln(2)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1201,9 +1201,9 @@ entry(
         H298 = (-32.1,"kcal/mol","+|-",0.3),
         S298 = (34.9,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """CO-OH BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""CO-OH BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1228,9 +1228,9 @@ entry(
         H298 = (-31.45,"kcal/mol","+|-",0.3),
         S298 = (10.78,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """CO-OO BOZZELLI 8/91, S CO/C/O, Hf PEDLEY ccoc*oocc Bsn Hf-24 !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""CO-OO BOZZELLI 8/91, S CO/C/O, Hf PEDLEY ccoc*oocc Bsn Hf-24 !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1250,9 +1250,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-OdCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1277,9 +1277,9 @@ entry(
         H298 = (-29.1,"kcal/mol","+|-",0.3),
         S298 = (34.9,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """CO-CsH BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""CO-CsH BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1299,9 +1299,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1326,9 +1326,9 @@ entry(
         H298 = (-25.3,"kcal/mol","+|-",0.3),
         S298 = (33.4,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """CO-COH Hf BENSON S,Cp =3D CO/Cs/H-del(Cd/Cd/H-Cd/Cs/H) !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""CO-COH Hf BENSON S,Cp =3D CO/Cs/H-del(Cd/Cd/H-Cd/Cs/H) !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1348,9 +1348,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1376,9 +1376,9 @@ entry(
         H298 = (-30.9,"kcal/mol","+|-",0.3),
         S298 = (33.4,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """CO-CdH Hf BOZZELLI S,Cp =3D CO/C/H-del(cd syst) !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""CO-CdH Hf BOZZELLI S,Cp =3D CO/C/H-del(cd syst) !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1399,9 +1399,9 @@ entry(
 5     Cdd 0 {3,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Cd)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1423,9 +1423,9 @@ entry(
 6     Od 0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1447,9 +1447,9 @@ entry(
 6     C 0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1469,9 +1469,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1491,9 +1491,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1513,9 +1513,9 @@ entry(
 4     Os 0 {1,S}
 """,
     thermo = 'Cds-OdCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1540,9 +1540,9 @@ entry(
         H298 = (-35.1,"kcal/mol","+|-",0.3),
         S298 = (10.04,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """CO-OCs Hf BENSON S STULL !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""CO-OCs Hf BENSON S STULL !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1562,9 +1562,9 @@ entry(
 4     Os 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1589,9 +1589,9 @@ entry(
         H298 = (-29.3,"kcal/mol","+|-",0.3),
         S298 = (14.6,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """CO-OCO Hf,S BOZZELLI Cp BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""CO-OCO Hf,S BOZZELLI Cp BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1611,9 +1611,9 @@ entry(
 4     Os 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1639,9 +1639,9 @@ entry(
         H298 = (-32.1,"kcal/mol","+|-",0.3),
         S298 = (14.78,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """CO-OCd RPS + S Coreected !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""CO-OCd RPS + S Coreected !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1662,9 +1662,9 @@ entry(
 5     Cdd 0 {3,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Cd)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1686,9 +1686,9 @@ entry(
 6     Od 0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1710,9 +1710,9 @@ entry(
 6     C 0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1732,9 +1732,9 @@ entry(
 4     Os 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1759,9 +1759,9 @@ entry(
         H298 = (-36.6,"kcal/mol","+|-",0.3),
         S298 = (14.78,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """CO-OCb RPS + S Coreected !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""CO-OCb RPS + S Coreected !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1781,9 +1781,9 @@ entry(
 4     C 0 {1,S}
 """,
     thermo = 'Cds-OdCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1808,9 +1808,9 @@ entry(
         H298 = (-31.4,"kcal/mol","+|-",0.3),
         S298 = (15.01,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """CO-CsCs BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""CO-CsCs BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1830,9 +1830,9 @@ entry(
 4     Cs 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1857,9 +1857,9 @@ entry(
         H298 = (-29.1,"kcal/mol","+|-",0.3),
         S298 = (14.6,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """CO-COCs Hf,S BOZZELLI Cp BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""CO-COCs Hf,S BOZZELLI Cp BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1879,9 +1879,9 @@ entry(
 4     Cs 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1907,9 +1907,9 @@ entry(
         H298 = (-30.9,"kcal/mol","+|-",0.3),
         S298 = (14.6,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """CO-CdCs Hf BENSON =3D CO/Cb/C S,Cp !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""CO-CdCs Hf BENSON =3D CO/Cb/C S,Cp !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1930,9 +1930,9 @@ entry(
 5     Cdd 0 {3,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Cd)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1954,9 +1954,9 @@ entry(
 6     Od 0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1978,9 +1978,9 @@ entry(
 6     C 0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2000,9 +2000,9 @@ entry(
 4     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2022,9 +2022,9 @@ entry(
 4     CO 0 {1,S}
 """,
     thermo = 'Cds-OdCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2044,9 +2044,9 @@ entry(
 4     CO 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2067,9 +2067,9 @@ entry(
 5     Cd 0 {3,D}
 """,
     thermo = 'Cds-Od(Cds-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2090,9 +2090,9 @@ entry(
 5     Cdd 0 {3,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Cd)(Cds-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2114,9 +2114,9 @@ entry(
 6     Od 0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2138,9 +2138,9 @@ entry(
 6     C 0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2160,9 +2160,9 @@ entry(
 4     Cd 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2189,9 +2189,9 @@ entry(
         H298 = (-30.9,"kcal/mol","+|-",0.3),
         S298 = (14.6,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """CO-CdCd Estimate BOZZELLI !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""CO-CdCd Estimate BOZZELLI !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2213,9 +2213,9 @@ entry(
 6     Cd 0 {4,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Cd)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2238,9 +2238,9 @@ entry(
 7     Od 0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2263,9 +2263,9 @@ entry(
 7     C 0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2287,9 +2287,9 @@ entry(
 6     Cdd 0 {4,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2313,9 +2313,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2339,9 +2339,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2365,9 +2365,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2387,9 +2387,9 @@ entry(
 4     Cs 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2409,9 +2409,9 @@ entry(
 4     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-OdCt(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2431,9 +2431,9 @@ entry(
 4     CO 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2453,9 +2453,9 @@ entry(
 4     Cd 0 {1,S}
 """,
     thermo = 'Cds-OdCt(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2476,9 +2476,9 @@ entry(
 5     Cd 0 {4,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2499,9 +2499,9 @@ entry(
 5     Cdd 0 {4,D}
 """,
     thermo = 'Cds-OdCt(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2523,9 +2523,9 @@ entry(
 6     Od 0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2547,9 +2547,9 @@ entry(
 6     C 0 {5,D}
 """,
     thermo = 'Cds-OdCt(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2569,9 +2569,9 @@ entry(
 4     Ct 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2591,9 +2591,9 @@ entry(
 4     Cs 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2613,9 +2613,9 @@ entry(
 4     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-OdCb(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2635,9 +2635,9 @@ entry(
 4     CO 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2657,9 +2657,9 @@ entry(
 4     Cd 0 {1,S}
 """,
     thermo = 'Cds-OdCb(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2680,9 +2680,9 @@ entry(
 5     Cd 0 {4,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2703,9 +2703,9 @@ entry(
 5     Cdd 0 {4,D}
 """,
     thermo = 'Cds-OdCb(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2727,9 +2727,9 @@ entry(
 6     Od 0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2751,9 +2751,9 @@ entry(
 6     C 0 {5,D}
 """,
     thermo = 'Cds-OdCb(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2773,9 +2773,9 @@ entry(
 4     Ct 0 {1,S}
 """,
     thermo = 'Cds-OdCt(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2795,9 +2795,9 @@ entry(
 4     Cb 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2817,9 +2817,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-CdsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2844,9 +2844,9 @@ entry(
         H298 = (6.26,"kcal/mol","+|-",0.19),
         S298 = (27.61,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cd-HH BENSON""",
+    shortDesc = u"""Cd-HH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2866,9 +2866,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)HH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2894,9 +2894,9 @@ entry(
         H298 = (-11.34,"kcal/mol","+|-",0.19),
         S298 = (57.47,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """{CCO/H2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{CCO/H2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2917,9 +2917,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2939,9 +2939,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-CdsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2966,9 +2966,9 @@ entry(
         H298 = (2.03,"kcal/mol","+|-",0.19),
         S298 = (6.2,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cd-OH BOZZELLI Hf vin-oh RADOM + C/Cd/H, S&Cp LAY""",
+    shortDesc = u"""Cd-OH BOZZELLI Hf vin-oh RADOM + C/Cd/H, S&Cp LAY""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2988,9 +2988,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3016,9 +3016,9 @@ entry(
         H298 = (2.11,"kcal/mol","+|-",0.19),
         S298 = (38.17,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """{CCO/O/H} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{CCO/O/H} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3039,9 +3039,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3061,9 +3061,9 @@ entry(
 4     Os 0 {1,S}
 """,
     thermo = 'Cds-CdsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3083,9 +3083,9 @@ entry(
 4     Os 0 {1,S}
 """,
     thermo = 'Cds-CdsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3105,9 +3105,9 @@ entry(
 4     Os 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3133,9 +3133,9 @@ entry(
         H298 = (2.403,"kcal/mol","+|-",0.19),
         S298 = (13.42,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """{CCO/O2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{CCO/O2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3156,9 +3156,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3178,9 +3178,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-CdsCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3205,9 +3205,9 @@ entry(
         H298 = (8.59,"kcal/mol","+|-",0.17),
         S298 = (7.97,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cd-CsH BENSON""",
+    shortDesc = u"""Cd-CsH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3227,9 +3227,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3254,9 +3254,9 @@ entry(
         H298 = (4.32,"kcal/mol","+|-",0.2),
         S298 = (6.38,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cd-COH BOZZELLI lit rev Jul91 S,Cp Cd/Cd/H""",
+    shortDesc = u"""Cd-COH BOZZELLI lit rev Jul91 S,Cp Cd/Cd/H""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3276,9 +3276,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3304,9 +3304,9 @@ entry(
         H298 = (6.78,"kcal/mol","+|-",0.2),
         S298 = (6.38,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cd-CdH BENSON""",
+    shortDesc = u"""Cd-CdH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3327,9 +3327,9 @@ entry(
 5     Cdd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Cd)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3351,9 +3351,9 @@ entry(
 6     Od 0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3375,9 +3375,9 @@ entry(
 6     C 0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3402,9 +3402,9 @@ entry(
         H298 = (6.78,"kcal/mol","+|-",0.2),
         S298 = (6.38,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cd-CtH BENSON""",
+    shortDesc = u"""Cd-CtH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3429,9 +3429,9 @@ entry(
         H298 = (6.78,"kcal/mol","+|-",0.2),
         S298 = (6.38,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cd-CbH BENSON""",
+    shortDesc = u"""Cd-CbH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3451,9 +3451,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3479,9 +3479,9 @@ entry(
         H298 = (-4.947,"kcal/mol","+|-",0.2),
         S298 = (40.04,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """{CCO/H/C} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{CCO/H/C} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3502,9 +3502,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3524,9 +3524,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3547,9 +3547,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3570,9 +3570,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3594,9 +3594,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3618,9 +3618,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3648,9 +3648,9 @@ entry(
         H298 = (-4.998,"kcal/mol","+|-",0.2),
         S298 = (39.06,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """{CCO/H/CCO} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{CCO/H/CCO} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3673,9 +3673,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3696,9 +3696,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-Cds(Cds-Od)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3719,9 +3719,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3743,9 +3743,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3767,9 +3767,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3792,9 +3792,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3817,9 +3817,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3839,9 +3839,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3862,9 +3862,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3885,9 +3885,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsCtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3907,9 +3907,9 @@ entry(
 4     H 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CbH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3930,9 +3930,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3953,9 +3953,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsCbH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3975,9 +3975,9 @@ entry(
 4     O 0 {1,S}
 """,
     thermo = 'Cds-CdsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4002,9 +4002,9 @@ entry(
         H298 = (3.03,"kcal/mol","+|-",0.2),
         S298 = (-12.32,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cd-OCs BOZZELLI-RADOM vin-oh and del (ccoh-ccohc)""",
+    shortDesc = u"""Cd-OCs BOZZELLI-RADOM vin-oh and del (ccoh-ccohc)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4024,9 +4024,9 @@ entry(
 4     Os 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4051,9 +4051,9 @@ entry(
         H298 = (5.13,"kcal/mol","+|-",0.2),
         S298 = (-14.6,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cd-OCO adj BENSON for RADOM c*coh""",
+    shortDesc = u"""Cd-OCO adj BENSON for RADOM c*coh""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4073,9 +4073,9 @@ entry(
 4     Os 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4101,9 +4101,9 @@ entry(
         H298 = (1.5,"kcal/mol","+|-",0.2),
         S298 = (-14.4,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cd-OCd jwb need calc""",
+    shortDesc = u"""Cd-OCd jwb need calc""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4124,9 +4124,9 @@ entry(
 5     Cdd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Cd)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4148,9 +4148,9 @@ entry(
 6     Od 0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4172,9 +4172,9 @@ entry(
 6     C 0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4194,9 +4194,9 @@ entry(
 4     Os 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4221,9 +4221,9 @@ entry(
         H298 = (1.5,"kcal/mol","+|-",0.2),
         S298 = (-14.4,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cd-OCb jwb need calc""",
+    shortDesc = u"""Cd-OCb jwb need calc""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4243,9 +4243,9 @@ entry(
 4     Os 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4271,9 +4271,9 @@ entry(
         H298 = (3.273,"kcal/mol","+|-",0.2),
         S298 = (18.58,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """{CCO/O/C} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{CCO/O/C} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4294,9 +4294,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4316,9 +4316,9 @@ entry(
 4     Os 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4339,9 +4339,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4362,9 +4362,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4386,9 +4386,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4410,9 +4410,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4440,9 +4440,9 @@ entry(
         H298 = (1.607,"kcal/mol","+|-",0.2),
         S298 = (17.73,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """{CCO/O/CCO} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{CCO/O/CCO} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4465,9 +4465,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4488,9 +4488,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4512,9 +4512,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4536,9 +4536,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4561,9 +4561,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4586,9 +4586,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4608,9 +4608,9 @@ entry(
 4     Os 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4631,9 +4631,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4654,9 +4654,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsCtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4676,9 +4676,9 @@ entry(
 4     Os 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4699,9 +4699,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4722,9 +4722,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsCbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4744,9 +4744,9 @@ entry(
 4     C 0 {1,S}
 """,
     thermo = 'Cds-CdsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4771,9 +4771,9 @@ entry(
         H298 = (10.34,"kcal/mol","+|-",0.24),
         S298 = (-12.7,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cd-CsCs BENSON""",
+    shortDesc = u"""Cd-CsCs BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4793,9 +4793,9 @@ entry(
 4     Cs 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4820,9 +4820,9 @@ entry(
         H298 = (7.5,"kcal/mol","+|-",0.24),
         S298 = (-14.6,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cd-COCs BENSON Hf, Cd/C/Cd =3D S,Cp""",
+    shortDesc = u"""Cd-COCs BENSON Hf, Cd/C/Cd =3D S,Cp""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4842,9 +4842,9 @@ entry(
 4     Cs 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4870,9 +4870,9 @@ entry(
         H298 = (8.88,"kcal/mol","+|-",0.24),
         S298 = (-14.6,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cd-CdCs BENSON""",
+    shortDesc = u"""Cd-CdCs BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4893,9 +4893,9 @@ entry(
 5     Cdd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Cd)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4917,9 +4917,9 @@ entry(
 6     Od 0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4941,9 +4941,9 @@ entry(
 6     C 0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4963,9 +4963,9 @@ entry(
 4     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4985,9 +4985,9 @@ entry(
 4     CO 0 {1,S}
 """,
     thermo = 'Cds-CdsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5007,9 +5007,9 @@ entry(
 4     Cd 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5035,9 +5035,9 @@ entry(
         H298 = (4.6,"kcal/mol","+|-",0.24),
         S298 = (-16.5,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cd-COCd from CD/CD2/ jwb est 6/97""",
+    shortDesc = u"""Cd-COCd from CD/CD2/ jwb est 6/97""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5058,9 +5058,9 @@ entry(
 5     Cdd 0 {4,D}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5082,9 +5082,9 @@ entry(
 6     Od 0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5106,9 +5106,9 @@ entry(
 6     C 0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5128,9 +5128,9 @@ entry(
 4     Cd 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5157,9 +5157,9 @@ entry(
         H298 = (4.6,"kcal/mol","+|-",0.24),
         S298 = (-15.67,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cd-CdCd Hf=3D est S,Cp mopac nov99""",
+    shortDesc = u"""Cd-CdCd Hf=3D est S,Cp mopac nov99""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5181,9 +5181,9 @@ entry(
 6     Cdd 0 {4,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5206,9 +5206,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5231,9 +5231,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5255,9 +5255,9 @@ entry(
 6     Cdd 0 {4,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5281,9 +5281,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5307,9 +5307,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5333,9 +5333,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5360,9 +5360,9 @@ entry(
         H298 = (8.11,"kcal/mol","+|-",0.24),
         S298 = (-13.02,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cd-CtCs RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
+    shortDesc = u"""Cd-CtCs RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5382,9 +5382,9 @@ entry(
 4     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5404,9 +5404,9 @@ entry(
 4     CO 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5426,9 +5426,9 @@ entry(
 4     Cd 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5454,9 +5454,9 @@ entry(
         H298 = (7.54,"kcal/mol","+|-",0.24),
         S298 = (-14.65,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cd-CtCd RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
+    shortDesc = u"""Cd-CtCd RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5477,9 +5477,9 @@ entry(
 5     Cdd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Cd)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5501,9 +5501,9 @@ entry(
 6     Od 0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5525,9 +5525,9 @@ entry(
 6     C 0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5552,9 +5552,9 @@ entry(
         H298 = (8.81,"kcal/mol","+|-",0.24),
         S298 = (-13.51,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cd-CtCt RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
+    shortDesc = u"""Cd-CtCt RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5579,9 +5579,9 @@ entry(
         H298 = (8.64,"kcal/mol","+|-",0.24),
         S298 = (-14.6,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cd-CbCs BENSON""",
+    shortDesc = u"""Cd-CbCs BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5601,9 +5601,9 @@ entry(
 4     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5623,9 +5623,9 @@ entry(
 4     CO 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5645,9 +5645,9 @@ entry(
 4     Cb 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5673,9 +5673,9 @@ entry(
         H298 = (7.18,"kcal/mol","+|-",0.24),
         S298 = (-16.5,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cd-CbCd BOZZELLI =3D Cd/Cs/Cb + (Cd/Cs/Cd - Cd/Cs/Cs)""",
+    shortDesc = u"""Cd-CbCd BOZZELLI =3D Cd/Cs/Cb + (Cd/Cs/Cd - Cd/Cs/Cs)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5696,9 +5696,9 @@ entry(
 5     Cdd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Cd)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5720,9 +5720,9 @@ entry(
 6     Od 0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5744,9 +5744,9 @@ entry(
 6     C 0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5771,9 +5771,9 @@ entry(
         H298 = (6.7,"kcal/mol","+|-",0.24),
         S298 = (-17.04,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cd-CbCt Hf=3D est S,Cp mopac nov99""",
+    shortDesc = u"""Cd-CbCt Hf=3D est S,Cp mopac nov99""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5798,9 +5798,9 @@ entry(
         H298 = (8,"kcal/mol","+|-",0.24),
         S298 = (-16.5,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cd-CbCb BOZZELLI =3D Cd/Cs/Cb + (Cd/Cs/Cb - Cd/Cs/Cs)""",
+    shortDesc = u"""Cd-CbCb BOZZELLI =3D Cd/Cs/Cb + (Cd/Cs/Cb - Cd/Cs/Cs)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5820,9 +5820,9 @@ entry(
 4     Cs 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5848,9 +5848,9 @@ entry(
         H298 = (-1.644,"kcal/mol","+|-",0.24),
         S298 = (20.02,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """{CCO/C2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{CCO/C2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5871,9 +5871,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5893,9 +5893,9 @@ entry(
 4     Cs 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5916,9 +5916,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5939,9 +5939,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5963,9 +5963,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -5987,9 +5987,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6017,9 +6017,9 @@ entry(
         H298 = (-2.07,"kcal/mol","+|-",0.24),
         S298 = (19.65,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """{CCO/C/CCO} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{CCO/C/CCO} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6042,9 +6042,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6065,9 +6065,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6089,9 +6089,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6113,9 +6113,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6138,9 +6138,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6163,9 +6163,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6185,9 +6185,9 @@ entry(
 4     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6208,9 +6208,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6231,9 +6231,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6255,9 +6255,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6279,9 +6279,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)(Cds-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6304,9 +6304,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6329,9 +6329,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6352,9 +6352,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6377,9 +6377,9 @@ entry(
 7     Cd 0 {4,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6402,9 +6402,9 @@ entry(
 7     Cd 0 {4,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6428,9 +6428,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6454,9 +6454,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6479,9 +6479,9 @@ entry(
 7     Cdd 0 {4,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6506,9 +6506,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6533,9 +6533,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6560,9 +6560,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6583,9 +6583,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6606,9 +6606,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6630,9 +6630,9 @@ entry(
 6     Cd 0 {4,D}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6654,9 +6654,9 @@ entry(
 6     Cdd 0 {4,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Od)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6679,9 +6679,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6704,9 +6704,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6727,9 +6727,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6752,9 +6752,9 @@ entry(
 7     Cd 0 {4,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6777,9 +6777,9 @@ entry(
 7     Cd 0 {4,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6803,9 +6803,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6829,9 +6829,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6854,9 +6854,9 @@ entry(
 7     Cdd 0 {4,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6881,9 +6881,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6908,9 +6908,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6935,9 +6935,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6957,9 +6957,9 @@ entry(
 4     Cs 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -6980,9 +6980,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7003,9 +7003,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsCtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7025,9 +7025,9 @@ entry(
 4     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7048,9 +7048,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7071,9 +7071,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7095,9 +7095,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7119,9 +7119,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7144,9 +7144,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7169,9 +7169,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7192,9 +7192,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7216,9 +7216,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7240,9 +7240,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7265,9 +7265,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7290,9 +7290,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7312,9 +7312,9 @@ entry(
 4     Ct 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7335,9 +7335,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7358,9 +7358,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsCtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7380,9 +7380,9 @@ entry(
 4     Cs 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7403,9 +7403,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7426,9 +7426,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsCbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7448,9 +7448,9 @@ entry(
 4     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7471,9 +7471,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7494,9 +7494,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7518,9 +7518,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7542,9 +7542,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7567,9 +7567,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7592,9 +7592,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7615,9 +7615,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7639,9 +7639,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7663,9 +7663,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7688,9 +7688,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7713,9 +7713,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7735,9 +7735,9 @@ entry(
 4     Ct 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7758,9 +7758,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7781,9 +7781,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsCbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7803,9 +7803,9 @@ entry(
 4     Cb 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7826,9 +7826,9 @@ entry(
 5     Od 0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7849,9 +7849,9 @@ entry(
 5     C 0 {2,D}
 """,
     thermo = 'Cds-CdsCbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7868,9 +7868,9 @@ entry(
 1  *  Cs 0
 """,
     thermo = 'Cs-CsCsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7896,9 +7896,9 @@ entry(
         H298 = (-17.9,"kcal/mol","+|-",0.1),
         S298 = (49.41,"cal/(mol*K)","+|-",0.05),
     ),
-    shortDesc = """CHEMKIN DATABASE S(group) = S(CH4) + Rln(12)""",
+    shortDesc = u"""CHEMKIN DATABASE S(group) = S(CH4) + Rln(12)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7919,9 +7919,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CsHHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7947,9 +7947,9 @@ entry(
         H298 = (-10.2,"kcal/mol","+|-",0.12),
         S298 = (30.41,"cal/(mol*K)","+|-",0.08),
     ),
-    shortDesc = """Cs-CsHHH BENSON""",
+    shortDesc = u"""Cs-CsHHH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7970,9 +7970,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)HHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -7998,9 +7998,9 @@ entry(
         H298 = (-10.08,"kcal/mol","+|-",0.08),
         S298 = (30.41,"cal/(mol*K)","+|-",0.04),
     ),
-    shortDesc = """Cs-COHHH BENSON: Cp1500 =3D Cp1000*(Cp1500/Cp1000: C/Cd/H3)""",
+    shortDesc = u"""Cs-COHHH BENSON: Cp1500 =3D Cp1000*(Cp1500/Cp1000: C/Cd/H3)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8021,9 +8021,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)HHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8050,9 +8050,9 @@ entry(
         H298 = (-10.2,"kcal/mol","+|-",0.08),
         S298 = (30.41,"cal/(mol*K)","+|-",0.04),
     ),
-    shortDesc = """Cs-CdHHH BENSON (Assigned Cs-CsHHH)""",
+    shortDesc = u"""Cs-CdHHH BENSON (Assigned Cs-CsHHH)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8074,9 +8074,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)HHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8104,9 +8104,9 @@ entry(
         H298 = (-10.08,"kcal/mol","+|-",0.08),
         S298 = (30.41,"cal/(mol*K)","+|-",0.04),
     ),
-    shortDesc = """{CCO/C/H3} RAMAN & GREEN JPCA 2002, 106, 7937-7949, assigened same value as Cs-CsHHH""",
+    shortDesc = u"""{CCO/C/H3} RAMAN & GREEN JPCA 2002, 106, 7937-7949, assigened same value as Cs-CsHHH""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8129,9 +8129,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)HHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8157,9 +8157,9 @@ entry(
         H298 = (-10.2,"kcal/mol","+|-",0.15),
         S298 = (30.41,"cal/(mol*K)","+|-",0.08),
     ),
-    shortDesc = """Cs-CtHHH BENSON (Assigned Cs-CsHHH)""",
+    shortDesc = u"""Cs-CtHHH BENSON (Assigned Cs-CsHHH)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8185,9 +8185,9 @@ entry(
         H298 = (-10.2,"kcal/mol","+|-",0.18),
         S298 = (30.41,"cal/(mol*K)","+|-",0.14),
     ),
-    shortDesc = """Cs-CbHHH BENSON (Assigned Cs-CsHHH)""",
+    shortDesc = u"""Cs-CbHHH BENSON (Assigned Cs-CsHHH)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8213,9 +8213,9 @@ entry(
         H298 = (-10.1,"kcal/mol","+|-",0.2),
         S298 = (30.41,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cs-OHHH BENSON""",
+    shortDesc = u"""Cs-OHHH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8241,9 +8241,9 @@ entry(
         H298 = (-15.23,"kcal/mol","+|-",0.2),
         S298 = (9.42,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cs-OOHH PEDLEY Hf, BOZZELLI C/C2/H2 !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-OOHH PEDLEY Hf, BOZZELLI C/C2/H2 !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8269,9 +8269,9 @@ entry(
         H298 = (-21.23,"kcal/mol","+|-",0.2),
         S298 = (-12.07,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cs-OOOH BOZZELLI del C/C2/O - C/C3/O, series !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-OOOH BOZZELLI del C/C2/O - C/C3/O, series !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8292,9 +8292,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CsCsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8320,9 +8320,9 @@ entry(
         H298 = (-4.93,"kcal/mol","+|-",0.05),
         S298 = (9.42,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CsCsHH BENSON""",
+    shortDesc = u"""Cs-CsCsHH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8343,9 +8343,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8371,9 +8371,9 @@ entry(
         H298 = (-5.2,"kcal/mol","+|-",0.16),
         S298 = (9.6,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cs-COCsHH BENSON Cp1500 =3D Cp1000*(Cp1500/Cp1000: C/C/Cd/H2)""",
+    shortDesc = u"""Cs-COCsHH BENSON Cp1500 =3D Cp1000*(Cp1500/Cp1000: C/C/Cd/H2)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8394,9 +8394,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8423,9 +8423,9 @@ entry(
         H298 = (-4.76,"kcal/mol","+|-",0.16),
         S298 = (9.8,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cs-CdCsHH BENSON""",
+    shortDesc = u"""Cs-CdCsHH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8447,9 +8447,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8477,9 +8477,9 @@ entry(
         H298 = (-5.723,"kcal/mol","+|-",0.16),
         S298 = (9.37,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """{C/C/H2/CCO} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{C/C/H2/CCO} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8502,9 +8502,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8525,9 +8525,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)HH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8553,9 +8553,9 @@ entry(
         H298 = (-7.6,"kcal/mol","+|-",0.16),
         S298 = (5.82,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cs-COCOHH BENSON Hf, Mopac =3D S,Cp nov99 !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-COCOHH BENSON Hf, Mopac =3D S,Cp nov99 !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8576,9 +8576,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)HH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8605,9 +8605,9 @@ entry(
         H298 = (-3.8,"kcal/mol","+|-",0.16),
         S298 = (6.31,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cs-COCdHH BENSON Hf, Mopac =3D S,Cp nov99 !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-COCdHH BENSON Hf, Mopac =3D S,Cp nov99 !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8629,9 +8629,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)HH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8654,9 +8654,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8679,9 +8679,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)HH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8702,9 +8702,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)HH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8732,9 +8732,9 @@ entry(
         H298 = (-4.29,"kcal/mol","+|-",0.16),
         S298 = (10.2,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cs-CdCdHH BENSON""",
+    shortDesc = u"""Cs-CdCdHH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8757,9 +8757,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)HH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8783,9 +8783,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8809,9 +8809,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)HH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8834,9 +8834,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)HH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8866,9 +8866,9 @@ entry(
         H298 = (-5.301,"kcal/mol","+|-",0.16),
         S298 = (7.18,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """{C/H2/CCO2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{C/H2/CCO2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8893,9 +8893,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)HH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8920,9 +8920,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)HH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8948,9 +8948,9 @@ entry(
         H298 = (-4.73,"kcal/mol","+|-",0.28),
         S298 = (10.3,"cal/(mol*K)","+|-",0.07),
     ),
-    shortDesc = """Cs-CtCsHH BENSON""",
+    shortDesc = u"""Cs-CtCsHH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8971,9 +8971,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -8999,9 +8999,9 @@ entry(
         H298 = (-5.4,"kcal/mol","+|-",0.28),
         S298 = (7.68,"cal/(mol*K)","+|-",0.07),
     ),
-    shortDesc = """Cs-COCtHH BENSON Hf, Mopac =3D S,Cp nov99 !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-COCtHH BENSON Hf, Mopac =3D S,Cp nov99 !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9022,9 +9022,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9051,9 +9051,9 @@ entry(
         H298 = (-3.49,"kcal/mol","+|-",0.28),
         S298 = (9.31,"cal/(mol*K)","+|-",0.07),
     ),
-    shortDesc = """Cs-CtCdHH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
+    shortDesc = u"""Cs-CtCdHH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9075,9 +9075,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9100,9 +9100,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)HH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9125,9 +9125,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9153,9 +9153,9 @@ entry(
         H298 = (-0.82,"kcal/mol","+|-",0.28),
         S298 = (10.04,"cal/(mol*K)","+|-",0.07),
     ),
-    shortDesc = """Cs-CtCtHH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
+    shortDesc = u"""Cs-CtCtHH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9181,9 +9181,9 @@ entry(
         H298 = (-4.86,"kcal/mol","+|-",0.2),
         S298 = (9.34,"cal/(mol*K)","+|-",0.19),
     ),
-    shortDesc = """Cs-CbCsHH BENSON""",
+    shortDesc = u"""Cs-CbCsHH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9204,9 +9204,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9232,9 +9232,9 @@ entry(
         H298 = (-5.4,"kcal/mol","+|-",0.2),
         S298 = (5.89,"cal/(mol*K)","+|-",0.19),
     ),
-    shortDesc = """Cs-COCbHH BENSON Hf, Mopac =3D S,Cp nov99 !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-COCbHH BENSON Hf, Mopac =3D S,Cp nov99 !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9255,9 +9255,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9284,9 +9284,9 @@ entry(
         H298 = (-4.29,"kcal/mol","+|-",0.2),
         S298 = (2,"cal/(mol*K)","+|-",0.19),
     ),
-    shortDesc = """Cs-CbCdHH Hf=Stein S,Cp=3D mopac nov99""",
+    shortDesc = u"""Cs-CbCdHH Hf=Stein S,Cp=3D mopac nov99""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9308,9 +9308,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9333,9 +9333,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)HH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9358,9 +9358,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9386,9 +9386,9 @@ entry(
         H298 = (-4.29,"kcal/mol","+|-",0.28),
         S298 = (9.84,"cal/(mol*K)","+|-",0.07),
     ),
-    shortDesc = """Cs-CbCtHH Hf=Stein S,Cp=3D mopac nov99""",
+    shortDesc = u"""Cs-CbCtHH Hf=Stein S,Cp=3D mopac nov99""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9414,9 +9414,9 @@ entry(
         H298 = (-4.29,"kcal/mol","+|-",0.2),
         S298 = (8.07,"cal/(mol*K)","+|-",0.19),
     ),
-    shortDesc = """Cs-CbCbHH Hf=3Dbsn/Cs/Cd2/H2 S,Cp=3D mopac nov99""",
+    shortDesc = u"""Cs-CbCbHH Hf=3Dbsn/Cs/Cd2/H2 S,Cp=3D mopac nov99""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9437,9 +9437,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9465,9 +9465,9 @@ entry(
         H298 = (-1.9,"kcal/mol","+|-",0.15),
         S298 = (-12.07,"cal/(mol*K)","+|-",0.07),
     ),
-    shortDesc = """Cs-CsCsCsH BENSON""",
+    shortDesc = u"""Cs-CsCsCsH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9488,9 +9488,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9516,9 +9516,9 @@ entry(
         H298 = (-1.7,"kcal/mol","+|-",0.27),
         S298 = (-11.7,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-COCsCsH BOZZELLI - BENSON Hf, S, -C/C2Cd/H =3D Cp !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-COCsCsH BOZZELLI - BENSON Hf, S, -C/C2Cd/H =3D Cp !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9539,9 +9539,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9568,9 +9568,9 @@ entry(
         H298 = (-1.48,"kcal/mol","+|-",0.27),
         S298 = (-11.69,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CdCsCsH BENSON""",
+    shortDesc = u"""Cs-CdCsCsH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9592,9 +9592,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CsCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9622,9 +9622,9 @@ entry(
         H298 = (-3.634,"kcal/mol","+|-",0.27),
         S298 = (-12.31,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """{C/C2/CCO/H} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{C/C2/CCO/H} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9652,9 +9652,9 @@ entry(
         H298 = (-1.48,"kcal/mol","+|-",0.27),
         S298 = (-11.69,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CdCsCsH BENSON""",
+    shortDesc = u"""Cs-CdCsCsH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9680,9 +9680,9 @@ entry(
         H298 = (-1.72,"kcal/mol","+|-",0.27),
         S298 = (-11.19,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CtCsCsH BENSON""",
+    shortDesc = u"""Cs-CtCsCsH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9708,9 +9708,9 @@ entry(
         H298 = (-0.98,"kcal/mol","+|-",0.27),
         S298 = (-12.15,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CbCsCsH BENSON""",
+    shortDesc = u"""Cs-CbCsCsH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9731,9 +9731,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9754,9 +9754,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9777,9 +9777,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9801,9 +9801,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)CsCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9825,9 +9825,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9850,9 +9850,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9875,9 +9875,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9898,9 +9898,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9928,9 +9928,9 @@ entry(
         H298 = (-1.1,"kcal/mol","+|-",0.27),
         S298 = (-13.03,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CdCdCsH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
+    shortDesc = u"""Cs-CdCdCsH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9953,9 +9953,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -9979,9 +9979,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10005,9 +10005,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10030,9 +10030,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10062,9 +10062,9 @@ entry(
         H298 = (-3.714,"kcal/mol","+|-",0.27),
         S298 = (-14.12,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """{C/C/H/CCO2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{C/C/H/CCO2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10089,9 +10089,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10116,9 +10116,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10139,9 +10139,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10162,9 +10162,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10185,9 +10185,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10214,9 +10214,9 @@ entry(
         H298 = (-6.9,"kcal/mol","+|-",0.27),
         S298 = (-13.48,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CtCdCsH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
+    shortDesc = u"""Cs-CtCdCsH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10238,9 +10238,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10263,9 +10263,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10288,9 +10288,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10311,9 +10311,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10334,9 +10334,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10357,9 +10357,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10386,9 +10386,9 @@ entry(
         H298 = (-1.56,"kcal/mol","+|-",0.27),
         S298 = (-11.77,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CbCdCsH BOZZELLI =3D Cs/Cs2/Cd/H + (Cs/Cs2/Cb/H - Cs/Cs3/H)""",
+    shortDesc = u"""Cs-CbCdCsH BOZZELLI =3D Cs/Cs2/Cd/H + (Cs/Cs2/Cb/H - Cs/Cs3/H)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10410,9 +10410,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10435,9 +10435,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10460,9 +10460,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10488,9 +10488,9 @@ entry(
         H298 = (1.72,"kcal/mol","+|-",0.27),
         S298 = (-11.61,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CtCtCsH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
+    shortDesc = u"""Cs-CtCtCsH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10516,9 +10516,9 @@ entry(
         H298 = (-1.55,"kcal/mol","+|-",0.27),
         S298 = (-11.65,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CbCtCsH BOZZELLI =3D Cs/Cs2/Cb/H + (Cs/Cs2/Ct/H - Cs/Cs3/H)""",
+    shortDesc = u"""Cs-CbCtCsH BOZZELLI =3D Cs/Cs2/Cb/H + (Cs/Cs2/Ct/H - Cs/Cs3/H)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10544,9 +10544,9 @@ entry(
         H298 = (-1.06,"kcal/mol","+|-",0.27),
         S298 = (-12.23,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CbCbCsCs BOZZELLI =3D Cs/Cs2/Cb/H + (Cs/Cs2/Cb/H - Cs/Cs3/H)""",
+    shortDesc = u"""Cs-CbCbCsCs BOZZELLI =3D Cs/Cs2/Cb/H + (Cs/Cs2/Cb/H - Cs/Cs3/H)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10567,9 +10567,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10590,9 +10590,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10613,9 +10613,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10637,9 +10637,9 @@ entry(
 6     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10661,9 +10661,9 @@ entry(
 6     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10686,9 +10686,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10711,9 +10711,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10734,9 +10734,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10759,9 +10759,9 @@ entry(
 7     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)CsCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10784,9 +10784,9 @@ entry(
 7     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10810,9 +10810,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10836,9 +10836,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10861,9 +10861,9 @@ entry(
 7     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10888,9 +10888,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10915,9 +10915,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10942,9 +10942,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10965,9 +10965,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -10996,9 +10996,9 @@ entry(
         H298 = (0.41,"kcal/mol","+|-",0.27),
         S298 = (-11.82,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CdCdCdH RAMAN & GREEN JPC 2002""",
+    shortDesc = u"""Cs-CdCdCdH RAMAN & GREEN JPC 2002""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11022,9 +11022,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11049,9 +11049,9 @@ entry(
 9     Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11076,9 +11076,9 @@ entry(
 9     C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11102,9 +11102,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11130,9 +11130,9 @@ entry(
 10    Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11158,9 +11158,9 @@ entry(
 10    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11186,9 +11186,9 @@ entry(
 10    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11212,9 +11212,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11241,9 +11241,9 @@ entry(
 11    Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11270,9 +11270,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11299,9 +11299,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11328,9 +11328,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11351,9 +11351,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11374,9 +11374,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11397,9 +11397,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11421,9 +11421,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11445,9 +11445,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11470,9 +11470,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11495,9 +11495,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11518,9 +11518,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11548,9 +11548,9 @@ entry(
         H298 = (1.88,"kcal/mol","+|-",0.27),
         S298 = (-13.75,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CtCdCdH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
+    shortDesc = u"""Cs-CtCdCdH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11573,9 +11573,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11599,9 +11599,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11625,9 +11625,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11650,9 +11650,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11677,9 +11677,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11704,9 +11704,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11731,9 +11731,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11754,9 +11754,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11777,9 +11777,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11800,9 +11800,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11824,9 +11824,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11848,9 +11848,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CbH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11873,9 +11873,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11898,9 +11898,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11921,9 +11921,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11951,9 +11951,9 @@ entry(
         H298 = (-1.39,"kcal/mol","+|-",0.27),
         S298 = (-11.39,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CbCdCdH BOZZELLI =3D Cs/Cs/Cd2/H + (Cs/Cs2/Cb/H - Cs/Cs3/H)""",
+    shortDesc = u"""Cs-CbCdCdH BOZZELLI =3D Cs/Cs/Cd2/H + (Cs/Cs2/Cb/H - Cs/Cs3/H)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -11976,9 +11976,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12002,9 +12002,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12028,9 +12028,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12053,9 +12053,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12080,9 +12080,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12107,9 +12107,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CbH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12134,9 +12134,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12157,9 +12157,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CtCt(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12180,9 +12180,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12203,9 +12203,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CtCt(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12232,9 +12232,9 @@ entry(
         H298 = (4.73,"kcal/mol","+|-",0.27),
         S298 = (-11.46,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CtCtCdH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
+    shortDesc = u"""Cs-CtCtCdH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12256,9 +12256,9 @@ entry(
 6     Cdd 0 {4,D}
 """,
     thermo = 'Cs-CtCt(Cds-Cdd-Cd)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12281,9 +12281,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12306,9 +12306,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-CtCt(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12329,9 +12329,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CbCt(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12352,9 +12352,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12375,9 +12375,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CbCt(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12399,9 +12399,9 @@ entry(
 6     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12423,9 +12423,9 @@ entry(
 6     Cdd 0 {4,D}
 """,
     thermo = 'Cs-CbCt(Cds-Cdd-Cd)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12448,9 +12448,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12473,9 +12473,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-CbCt(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12496,9 +12496,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CbCb(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12519,9 +12519,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12542,9 +12542,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12566,9 +12566,9 @@ entry(
 6     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12590,9 +12590,9 @@ entry(
 6     Cdd 0 {4,D}
 """,
     thermo = 'Cs-CbCb(Cds-Cdd-Cd)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12615,9 +12615,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12640,9 +12640,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-CbCb(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12668,9 +12668,9 @@ entry(
         H298 = (10.11,"kcal/mol","+|-",0.27),
         S298 = (-10.46,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CtCtCtH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
+    shortDesc = u"""Cs-CtCtCtH RAMAN & GREEN JPCA 2002, 106, 11141-11149""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12691,9 +12691,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CtCt(Cds-Cds)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12714,9 +12714,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12742,9 +12742,9 @@ entry(
         H298 = (-0.34,"kcal/mol","+|-",0.27),
         S298 = (-12.31,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CbCbCbH BOZZELLI =3D Cs/Cs/Cb2/H + (Cs/Cs2/Cb/H - Cs/Cs3/H)""",
+    shortDesc = u"""Cs-CbCbCbH BOZZELLI =3D Cs/Cs/Cb2/H + (Cs/Cs2/Cb/H - Cs/Cs3/H)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12765,9 +12765,9 @@ entry(
 5     C 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12793,9 +12793,9 @@ entry(
         H298 = (0.5,"kcal/mol","+|-",0.27),
         S298 = (-35.1,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CsCsCsCs BENSON""",
+    shortDesc = u"""Cs-CsCsCsCs BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12816,9 +12816,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12844,9 +12844,9 @@ entry(
         H298 = (1.4,"kcal/mol","+|-",0.27),
         S298 = (-34.72,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-COCsCsCs Hf BENSON S,Cp =3D C/Cd/C3""",
+    shortDesc = u"""Cs-COCsCsCs Hf BENSON S,Cp =3D C/Cd/C3""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12867,9 +12867,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12896,9 +12896,9 @@ entry(
         H298 = (1.68,"kcal/mol","+|-",0.27),
         S298 = (-34.72,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CdCsCsCs BENSON""",
+    shortDesc = u"""Cs-CdCsCsCs BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12920,9 +12920,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12950,9 +12950,9 @@ entry(
         H298 = (-2.896,"kcal/mol","+|-",0.27),
         S298 = (-34.87,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """{C/C3/CCO} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{C/C3/CCO} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -12975,9 +12975,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13003,9 +13003,9 @@ entry(
         H298 = (2.81,"kcal/mol","+|-",0.27),
         S298 = (-35.18,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """Cs-CtCsCsCs BENSON""",
+    shortDesc = u"""Cs-CtCsCsCs BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13031,9 +13031,9 @@ entry(
         H298 = (2.81,"kcal/mol","+|-",0.26),
         S298 = (-35.18,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CbCsCsCs BENSON""",
+    shortDesc = u"""Cs-CbCsCsCs BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13054,9 +13054,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13077,9 +13077,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13100,9 +13100,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13124,9 +13124,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)CsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13148,9 +13148,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13173,9 +13173,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13198,9 +13198,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13221,9 +13221,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13251,9 +13251,9 @@ entry(
         H298 = (1.68,"kcal/mol","+|-",0.26),
         S298 = (-34.72,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CdCdCsCs BENSON""",
+    shortDesc = u"""Cs-CdCdCsCs BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13276,9 +13276,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13302,9 +13302,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13328,9 +13328,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13353,9 +13353,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13385,9 +13385,9 @@ entry(
         H298 = (-2.987,"kcal/mol","+|-",0.26),
         S298 = (-36.46,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """{C/C2/CCO2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{C/C2/CCO2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13412,9 +13412,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13439,9 +13439,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13462,9 +13462,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13485,9 +13485,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13508,9 +13508,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13537,9 +13537,9 @@ entry(
         H298 = (2.99,"kcal/mol","+|-",0.26),
         S298 = (-34.8,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CtCdCsCs BOZZELLI =3D Cs/Cs3/Cd + (Cs/Cs3/Ct - Cs/Cs4)""",
+    shortDesc = u"""Cs-CtCdCsCs BOZZELLI =3D Cs/Cs3/Cd + (Cs/Cs3/Ct - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13561,9 +13561,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13586,9 +13586,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13611,9 +13611,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13634,9 +13634,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13657,9 +13657,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13680,9 +13680,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13709,9 +13709,9 @@ entry(
         H298 = (2.99,"kcal/mol","+|-",0.26),
         S298 = (-34.8,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CbCdCsCs BOZZELLI =3D Cs/Cs3/Cb + (Cs/Cs3/Cd - Cs/Cs4)""",
+    shortDesc = u"""Cs-CbCdCsCs BOZZELLI =3D Cs/Cs3/Cb + (Cs/Cs3/Cd - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13733,9 +13733,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13758,9 +13758,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13783,9 +13783,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13811,9 +13811,9 @@ entry(
         H298 = (1.16,"kcal/mol","+|-",0.26),
         S298 = (-35.26,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CtCtCsCs BOZZELLI =3D Cs/Cs3/Ct + (Cs/Cs3/Ct - Cs/Cs4)""",
+    shortDesc = u"""Cs-CtCtCsCs BOZZELLI =3D Cs/Cs3/Ct + (Cs/Cs3/Ct - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13839,9 +13839,9 @@ entry(
         H298 = (1.16,"kcal/mol","+|-",0.26),
         S298 = (-35.26,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CbCtCsCs BOZZELLI =3D Cs/Cs3/Cb + (Cs/Cs3/Ct - Cs/Cs4)""",
+    shortDesc = u"""Cs-CbCtCsCs BOZZELLI =3D Cs/Cs3/Cb + (Cs/Cs3/Ct - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13867,9 +13867,9 @@ entry(
         H298 = (1.16,"kcal/mol","+|-",0.26),
         S298 = (-35.26,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CbCbCsCs BENSON""",
+    shortDesc = u"""Cs-CbCbCsCs BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13890,9 +13890,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13913,9 +13913,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13936,9 +13936,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13960,9 +13960,9 @@ entry(
 6     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -13984,9 +13984,9 @@ entry(
 6     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14009,9 +14009,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14034,9 +14034,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14057,9 +14057,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14082,9 +14082,9 @@ entry(
 7     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)CsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14107,9 +14107,9 @@ entry(
 7     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14133,9 +14133,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14159,9 +14159,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14184,9 +14184,9 @@ entry(
 7     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14211,9 +14211,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14238,9 +14238,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14265,9 +14265,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14288,9 +14288,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14319,9 +14319,9 @@ entry(
         H298 = (2.54,"kcal/mol","+|-",0.26),
         S298 = (-33.96,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CdCdCdCs BOZZELLI =3D Cs/Cs2/Cd2 + (Cs/Cs3/Cd - Cs/Cs4)""",
+    shortDesc = u"""Cs-CdCdCdCs BOZZELLI =3D Cs/Cs2/Cd2 + (Cs/Cs3/Cd - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14345,9 +14345,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14372,9 +14372,9 @@ entry(
 9     Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14399,9 +14399,9 @@ entry(
 9     C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14425,9 +14425,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14453,9 +14453,9 @@ entry(
 10    Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14481,9 +14481,9 @@ entry(
 10    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14509,9 +14509,9 @@ entry(
 10    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14535,9 +14535,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14564,9 +14564,9 @@ entry(
 11    Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14593,9 +14593,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14622,9 +14622,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14651,9 +14651,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14674,9 +14674,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14697,9 +14697,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14720,9 +14720,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14744,9 +14744,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14768,9 +14768,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14793,9 +14793,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14818,9 +14818,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14841,9 +14841,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14866,9 +14866,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14891,9 +14891,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14917,9 +14917,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14943,9 +14943,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14968,9 +14968,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -14995,9 +14995,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15022,9 +15022,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15049,9 +15049,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15072,9 +15072,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15095,9 +15095,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15118,9 +15118,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15142,9 +15142,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15166,9 +15166,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15191,9 +15191,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15216,9 +15216,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15239,9 +15239,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15264,9 +15264,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15289,9 +15289,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15315,9 +15315,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15341,9 +15341,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15366,9 +15366,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15393,9 +15393,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15420,9 +15420,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15447,9 +15447,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15470,9 +15470,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15493,9 +15493,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15516,9 +15516,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15545,9 +15545,9 @@ entry(
         H298 = (5.1,"kcal/mol","+|-",0.26),
         S298 = (-34.88,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CtCtCdCs BOZZELLI =3D Cs/Cd2/Cs2 + (Cs/Cs3/Ct - Cs/Cs4)""",
+    shortDesc = u"""Cs-CtCtCdCs BOZZELLI =3D Cs/Cd2/Cs2 + (Cs/Cs3/Ct - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15569,9 +15569,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtCtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15594,9 +15594,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15619,9 +15619,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15642,9 +15642,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15665,9 +15665,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15688,9 +15688,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15717,9 +15717,9 @@ entry(
         H298 = (5.1,"kcal/mol","+|-",0.26),
         S298 = (-34.88,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CbCtCdCs BOZZELLI =3D Cs/Cb/Cd/Cs2 + (Cs/Cs3/Ct - Cs/Cs4)""",
+    shortDesc = u"""Cs-CbCtCdCs BOZZELLI =3D Cs/Cb/Cd/Cs2 + (Cs/Cs3/Ct - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15741,9 +15741,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15766,9 +15766,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15796,9 +15796,9 @@ entry(
         H298 = (5.1,"kcal/mol","+|-",0.26),
         S298 = (-34.88,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CbCtCdCs BOZZELLI =3D Cs/Cb/Cd/Cs2 + (Cs/Cs3/Ct - Cs/Cs4)""",
+    shortDesc = u"""Cs-CbCtCdCs BOZZELLI =3D Cs/Cb/Cd/Cs2 + (Cs/Cs3/Ct - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15819,9 +15819,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15842,9 +15842,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15865,9 +15865,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15894,9 +15894,9 @@ entry(
         H298 = (5.1,"kcal/mol","+|-",0.26),
         S298 = (-34.88,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CbCbCdCs BOZZELLI =3D Cs/Cs2/Cb2 + (Cs/Cs3/Cd - Cs/Cs4)""",
+    shortDesc = u"""Cs-CbCbCdCs BOZZELLI =3D Cs/Cs2/Cb2 + (Cs/Cs3/Cd - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15918,9 +15918,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15943,9 +15943,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15968,9 +15968,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -15996,9 +15996,9 @@ entry(
         H298 = (6.23,"kcal/mol","+|-",0.26),
         S298 = (-35.34,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CtCtCtCs BOZZELLI =3D Cs/Cs2/Ct2 + (Cs/Cs3/Ct - Cs/Cs4)""",
+    shortDesc = u"""Cs-CtCtCtCs BOZZELLI =3D Cs/Cs2/Ct2 + (Cs/Cs3/Ct - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16024,9 +16024,9 @@ entry(
         H298 = (6.23,"kcal/mol","+|-",0.26),
         S298 = (-35.34,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CbCtCtCs BOZZELLI =3D Cs/Cs2/Cb/Ct + (Cs/Cs3/Ct - Cs/Cs4)""",
+    shortDesc = u"""Cs-CbCtCtCs BOZZELLI =3D Cs/Cs2/Cb/Ct + (Cs/Cs3/Ct - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16052,9 +16052,9 @@ entry(
         H298 = (6.43,"kcal/mol","+|-",0.26),
         S298 = (-35.34,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CbCbCtCs BOZZELLI =3D Cs/Cs2/Cb2 + (Cs/Cs3/Ct - Cs/Cs4)""",
+    shortDesc = u"""Cs-CbCbCtCs BOZZELLI =3D Cs/Cs2/Cb2 + (Cs/Cs3/Ct - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16080,9 +16080,9 @@ entry(
         H298 = (6.23,"kcal/mol","+|-",0.26),
         S298 = (-35.34,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CbCbCbCs BOZZELLI =3D Cs/Cs2/Cb2 + (Cs/Cs3/Cb - Cs/Cs4)""",
+    shortDesc = u"""Cs-CbCbCbCs BOZZELLI =3D Cs/Cs2/Cb2 + (Cs/Cs3/Cb - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16103,9 +16103,9 @@ entry(
 5     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16126,9 +16126,9 @@ entry(
 5     CO 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16149,9 +16149,9 @@ entry(
 5     Cd 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16173,9 +16173,9 @@ entry(
 6     Cd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16197,9 +16197,9 @@ entry(
 6     Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16222,9 +16222,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16247,9 +16247,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16270,9 +16270,9 @@ entry(
 5     Cd 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16295,9 +16295,9 @@ entry(
 7     Cd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16320,9 +16320,9 @@ entry(
 7     Cd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16346,9 +16346,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16372,9 +16372,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16397,9 +16397,9 @@ entry(
 7     Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16424,9 +16424,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16451,9 +16451,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16478,9 +16478,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16501,9 +16501,9 @@ entry(
 5     Cd 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16527,9 +16527,9 @@ entry(
 8     Cd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)CsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16553,9 +16553,9 @@ entry(
 8     Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16580,9 +16580,9 @@ entry(
 9     Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16607,9 +16607,9 @@ entry(
 9     C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16633,9 +16633,9 @@ entry(
 8     Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16661,9 +16661,9 @@ entry(
 10    Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16689,9 +16689,9 @@ entry(
 10    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16717,9 +16717,9 @@ entry(
 10    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16743,9 +16743,9 @@ entry(
 8     Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16772,9 +16772,9 @@ entry(
 11    Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16801,9 +16801,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16830,9 +16830,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16859,9 +16859,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16882,9 +16882,9 @@ entry(
 5     Cd 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16909,9 +16909,9 @@ entry(
 9     Cd 0 {5,D}
 """,
     thermo = 'Cs-CsCsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16936,9 +16936,9 @@ entry(
 9     Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16964,9 +16964,9 @@ entry(
 10    Od 0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -16992,9 +16992,9 @@ entry(
 10    C 0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17019,9 +17019,9 @@ entry(
 9     Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17048,9 +17048,9 @@ entry(
 11    Od 0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17077,9 +17077,9 @@ entry(
 11    C 0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17106,9 +17106,9 @@ entry(
 11    C 0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17133,9 +17133,9 @@ entry(
 9     Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17163,9 +17163,9 @@ entry(
 12    Od 0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17193,9 +17193,9 @@ entry(
 12    C 0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17223,9 +17223,9 @@ entry(
 12    C 0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17253,9 +17253,9 @@ entry(
 12    C 0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17280,9 +17280,9 @@ entry(
 9     Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17311,9 +17311,9 @@ entry(
 13    Od 0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17342,9 +17342,9 @@ entry(
 13    C 0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17373,9 +17373,9 @@ entry(
 13    C 0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17404,9 +17404,9 @@ entry(
 13    C 0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17435,9 +17435,9 @@ entry(
 13    C 0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17458,9 +17458,9 @@ entry(
 5     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17481,9 +17481,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17504,9 +17504,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17528,9 +17528,9 @@ entry(
 6     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17552,9 +17552,9 @@ entry(
 6     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17577,9 +17577,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17602,9 +17602,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17625,9 +17625,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17650,9 +17650,9 @@ entry(
 7     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17675,9 +17675,9 @@ entry(
 7     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17701,9 +17701,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17727,9 +17727,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17752,9 +17752,9 @@ entry(
 7     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17779,9 +17779,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17806,9 +17806,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17833,9 +17833,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17856,9 +17856,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17882,9 +17882,9 @@ entry(
 8     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17908,9 +17908,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17935,9 +17935,9 @@ entry(
 9     Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17962,9 +17962,9 @@ entry(
 9     C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -17988,9 +17988,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18016,9 +18016,9 @@ entry(
 10    Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18044,9 +18044,9 @@ entry(
 10    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18072,9 +18072,9 @@ entry(
 10    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18098,9 +18098,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18127,9 +18127,9 @@ entry(
 11    Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18156,9 +18156,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18185,9 +18185,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18214,9 +18214,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18237,9 +18237,9 @@ entry(
 5     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18260,9 +18260,9 @@ entry(
 5     Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18283,9 +18283,9 @@ entry(
 5     Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18307,9 +18307,9 @@ entry(
 6     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18331,9 +18331,9 @@ entry(
 6     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18356,9 +18356,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18381,9 +18381,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18404,9 +18404,9 @@ entry(
 5     Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18429,9 +18429,9 @@ entry(
 7     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18454,9 +18454,9 @@ entry(
 7     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18480,9 +18480,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18506,9 +18506,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18531,9 +18531,9 @@ entry(
 7     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18558,9 +18558,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18585,9 +18585,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18612,9 +18612,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18635,9 +18635,9 @@ entry(
 5     Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18661,9 +18661,9 @@ entry(
 8     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18687,9 +18687,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18714,9 +18714,9 @@ entry(
 9     Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18741,9 +18741,9 @@ entry(
 9     C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18767,9 +18767,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18795,9 +18795,9 @@ entry(
 10    Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18823,9 +18823,9 @@ entry(
 10    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18851,9 +18851,9 @@ entry(
 10    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18877,9 +18877,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18906,9 +18906,9 @@ entry(
 11    Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18935,9 +18935,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18964,9 +18964,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -18993,9 +18993,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19016,9 +19016,9 @@ entry(
 5     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19039,9 +19039,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19062,9 +19062,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19086,9 +19086,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19110,9 +19110,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19135,9 +19135,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19160,9 +19160,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19183,9 +19183,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19213,9 +19213,9 @@ entry(
         H298 = (5.48,"kcal/mol","+|-",0.26),
         S298 = (-34.5,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CtCtCdCd BOZZELLI =3D Cs/Cs/Cd/Ct2 + (Cs/Cs3/Cd - Cs/Cs4)""",
+    shortDesc = u"""Cs-CtCtCdCd BOZZELLI =3D Cs/Cs/Cd/Ct2 + (Cs/Cs3/Cd - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19238,9 +19238,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19264,9 +19264,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19290,9 +19290,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19315,9 +19315,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19342,9 +19342,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19369,9 +19369,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19396,9 +19396,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19419,9 +19419,9 @@ entry(
 5     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19442,9 +19442,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19465,9 +19465,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19489,9 +19489,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19513,9 +19513,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19538,9 +19538,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19563,9 +19563,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19586,9 +19586,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19616,9 +19616,9 @@ entry(
         H298 = (5.48,"kcal/mol","+|-",0.26),
         S298 = (-34.5,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CbCtCdCd BOZZELLI =3D Cs/Cs/Cb/Cd2 + (Cs/Cs3/Ct - Cs/Cs4)""",
+    shortDesc = u"""Cs-CbCtCdCd BOZZELLI =3D Cs/Cs/Cb/Cd2 + (Cs/Cs3/Ct - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19641,9 +19641,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19667,9 +19667,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19693,9 +19693,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19718,9 +19718,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19745,9 +19745,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19772,9 +19772,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19799,9 +19799,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19822,9 +19822,9 @@ entry(
 5     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19845,9 +19845,9 @@ entry(
 5     Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19868,9 +19868,9 @@ entry(
 5     Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19892,9 +19892,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19916,9 +19916,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19941,9 +19941,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19966,9 +19966,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -19989,9 +19989,9 @@ entry(
 5     Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20019,9 +20019,9 @@ entry(
         H298 = (5.48,"kcal/mol","+|-",0.26),
         S298 = (-34.5,"cal/(mol*K)","+|-",0.13),
     ),
-    shortDesc = """Cs-CbCbCdCd BOZZELLI =3D Cs/Cs/Cb2/Cd + (Cs/Cs3/Cd - Cs/Cs4)""",
+    shortDesc = u"""Cs-CbCbCdCd BOZZELLI =3D Cs/Cs/Cb2/Cd + (Cs/Cs3/Cd - Cs/Cs4)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20044,9 +20044,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20070,9 +20070,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20096,9 +20096,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20121,9 +20121,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20148,9 +20148,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20175,9 +20175,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20202,9 +20202,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20225,9 +20225,9 @@ entry(
 5     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20248,9 +20248,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20271,9 +20271,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20295,9 +20295,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20319,9 +20319,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtCtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20344,9 +20344,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20369,9 +20369,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20392,9 +20392,9 @@ entry(
 5     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20415,9 +20415,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20438,9 +20438,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20462,9 +20462,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20486,9 +20486,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20511,9 +20511,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20536,9 +20536,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20559,9 +20559,9 @@ entry(
 5     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20582,9 +20582,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20605,9 +20605,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20629,9 +20629,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20653,9 +20653,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20678,9 +20678,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20703,9 +20703,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20726,9 +20726,9 @@ entry(
 5     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20749,9 +20749,9 @@ entry(
 5     Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20772,9 +20772,9 @@ entry(
 5     Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20796,9 +20796,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20820,9 +20820,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20845,9 +20845,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20870,9 +20870,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCb',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20893,9 +20893,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20916,9 +20916,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20939,9 +20939,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20962,9 +20962,9 @@ entry(
 5     Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -20985,9 +20985,9 @@ entry(
 5     Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21008,9 +21008,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21036,9 +21036,9 @@ entry(
         H298 = (-6.6,"kcal/mol","+|-",0.4),
         S298 = (-33.56,"cal/(mol*K)","+|-",0.2),
     ),
-    shortDesc = """Cs-OCsCsCs BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-OCsCsCs BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21059,9 +21059,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21087,9 +21087,9 @@ entry(
         H298 = (-3.6,"kcal/mol","+|-",0.4),
         S298 = (-34.72,"cal/(mol*K)","+|-",0.2),
     ),
-    shortDesc = """Cs-OCOCsCs Hf BENSON S,Cp =3D C/Cd/C3""",
+    shortDesc = u"""Cs-OCOCsCs Hf BENSON S,Cp =3D C/Cd/C3""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21110,9 +21110,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21139,9 +21139,9 @@ entry(
         H298 = (-6.6,"kcal/mol","+|-",0.4),
         S298 = (-32.56,"cal/(mol*K)","+|-",0.2),
     ),
-    shortDesc = """Cs-OCdCsCs BOZZELLI C/C3/O - (C/C3/H - C/Cb/C2/H), Hf-1 !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-OCdCsCs BOZZELLI C/C3/O - (C/C3/H - C/Cb/C2/H), Hf-1 !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21163,9 +21163,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21193,9 +21193,9 @@ entry(
         H298 = (-9.725,"kcal/mol","+|-",0.4),
         S298 = (-36.5,"cal/(mol*K)","+|-",0.2),
     ),
-    shortDesc = """{C/CCO/O/C2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{C/CCO/O/C2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21218,9 +21218,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21241,9 +21241,9 @@ entry(
 5     Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21269,9 +21269,9 @@ entry(
         H298 = (-6.6,"kcal/mol","+|-",0.4),
         S298 = (-32.56,"cal/(mol*K)","+|-",0.2),
     ),
-    shortDesc = """Cs-OCbCsCs BOZZELLI C/C3/O - (C/C3/H - C/Cb/C2/H), Hf-1 !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-OCbCsCs BOZZELLI C/C3/O - (C/C3/H - C/Cb/C2/H), Hf-1 !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21292,9 +21292,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21315,9 +21315,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21338,9 +21338,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21362,9 +21362,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)CsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21386,9 +21386,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21411,9 +21411,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21436,9 +21436,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21459,9 +21459,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21489,9 +21489,9 @@ entry(
         H298 = (-8.01,"kcal/mol","+|-",0.4),
         S298 = (-34.34,"cal/(mol*K)","+|-",0.2),
     ),
-    shortDesc = """Cs-OCdCdCs Hf jwb 697 S,Cp from C/Cd2/C2""",
+    shortDesc = u"""Cs-OCdCdCs Hf jwb 697 S,Cp from C/Cd2/C2""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21514,9 +21514,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21540,9 +21540,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21566,9 +21566,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21591,9 +21591,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21618,9 +21618,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21645,9 +21645,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21672,9 +21672,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21695,9 +21695,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21718,9 +21718,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21741,9 +21741,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21765,9 +21765,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21789,9 +21789,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21814,9 +21814,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21839,9 +21839,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21862,9 +21862,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21885,9 +21885,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21908,9 +21908,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21932,9 +21932,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21956,9 +21956,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -21981,9 +21981,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22006,9 +22006,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22029,9 +22029,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22052,9 +22052,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22075,9 +22075,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22098,9 +22098,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22121,9 +22121,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22144,9 +22144,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22168,9 +22168,9 @@ entry(
 6     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22192,9 +22192,9 @@ entry(
 6     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22217,9 +22217,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22242,9 +22242,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22265,9 +22265,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22290,9 +22290,9 @@ entry(
 7     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)CsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22315,9 +22315,9 @@ entry(
 7     Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22341,9 +22341,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22367,9 +22367,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22392,9 +22392,9 @@ entry(
 7     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22419,9 +22419,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22446,9 +22446,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22473,9 +22473,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22496,9 +22496,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22522,9 +22522,9 @@ entry(
 8     Cd 0 {4,D}
 """,
     thermo = 'Cs-CsCsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22548,9 +22548,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22575,9 +22575,9 @@ entry(
 9     Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22602,9 +22602,9 @@ entry(
 9     C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22628,9 +22628,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22656,9 +22656,9 @@ entry(
 10    Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22684,9 +22684,9 @@ entry(
 10    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22712,9 +22712,9 @@ entry(
 10    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22738,9 +22738,9 @@ entry(
 8     Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22767,9 +22767,9 @@ entry(
 11    Od 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22796,9 +22796,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22825,9 +22825,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22854,9 +22854,9 @@ entry(
 11    C 0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22877,9 +22877,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22900,9 +22900,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22923,9 +22923,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22947,9 +22947,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22971,9 +22971,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -22996,9 +22996,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23021,9 +23021,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23044,9 +23044,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23069,9 +23069,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23094,9 +23094,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23120,9 +23120,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23146,9 +23146,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23171,9 +23171,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23198,9 +23198,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23225,9 +23225,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23252,9 +23252,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23275,9 +23275,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23298,9 +23298,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23321,9 +23321,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23345,9 +23345,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23369,9 +23369,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23394,9 +23394,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23419,9 +23419,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23442,9 +23442,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23467,9 +23467,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23492,9 +23492,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23518,9 +23518,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23544,9 +23544,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23569,9 +23569,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23596,9 +23596,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23623,9 +23623,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23650,9 +23650,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23673,9 +23673,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23696,9 +23696,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23719,9 +23719,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23743,9 +23743,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23767,9 +23767,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtCtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23792,9 +23792,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23817,9 +23817,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23840,9 +23840,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23863,9 +23863,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23886,9 +23886,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23910,9 +23910,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23934,9 +23934,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23959,9 +23959,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -23984,9 +23984,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24007,9 +24007,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24030,9 +24030,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24053,9 +24053,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24077,9 +24077,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24101,9 +24101,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24126,9 +24126,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24151,9 +24151,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24174,9 +24174,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24197,9 +24197,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24220,9 +24220,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24243,9 +24243,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24266,9 +24266,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-CsCsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24294,9 +24294,9 @@ entry(
         H298 = (-9.77,"kcal/mol","+|-",0.4),
         S298 = (-33.18,"cal/(mol*K)","+|-",0.2),
     ),
-    shortDesc = """Cs-OOCsCs BOZZELLI =3D C/C3/O - (C/C2/H2 - C/C/H2/O) !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-OOCsCs BOZZELLI =3D C/C3/O - (C/C2/H2 - C/C/H2/O) !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24317,9 +24317,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24340,9 +24340,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-CsCsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24363,9 +24363,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24387,9 +24387,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-CsCsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24411,9 +24411,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24436,9 +24436,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24461,9 +24461,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24484,9 +24484,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24507,9 +24507,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-CsCsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24530,9 +24530,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24554,9 +24554,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)CsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24578,9 +24578,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24603,9 +24603,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24628,9 +24628,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24651,9 +24651,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24676,9 +24676,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-CsCsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24701,9 +24701,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24727,9 +24727,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24753,9 +24753,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24778,9 +24778,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24805,9 +24805,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24832,9 +24832,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24859,9 +24859,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24882,9 +24882,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24905,9 +24905,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24928,9 +24928,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24951,9 +24951,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24975,9 +24975,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -24999,9 +24999,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25024,9 +25024,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25049,9 +25049,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25072,9 +25072,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25095,9 +25095,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25118,9 +25118,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25141,9 +25141,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25164,9 +25164,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25188,9 +25188,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25212,9 +25212,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25237,9 +25237,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25262,9 +25262,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25285,9 +25285,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25308,9 +25308,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25331,9 +25331,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-CsOsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25359,9 +25359,9 @@ entry(
         H298 = (-19,"kcal/mol","+|-",0.4),
         S298 = (-33.56,"cal/(mol*K)","+|-",0.2),
     ),
-    shortDesc = """Cs-OOOCs BOZZELLI est !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-OOOCs BOZZELLI est !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25382,9 +25382,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25405,9 +25405,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-CsOsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25428,9 +25428,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25452,9 +25452,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-CsOsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25476,9 +25476,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)OsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25501,9 +25501,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25526,9 +25526,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25549,9 +25549,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25572,9 +25572,9 @@ entry(
 5     Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsOs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25600,9 +25600,9 @@ entry(
         H298 = (-23,"kcal/mol","+|-",0.4),
         S298 = (-35.56,"cal/(mol*K)","+|-",0.2),
     ),
-    shortDesc = """Cs-OOOO BOZZELLI est !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-OOOO BOZZELLI est !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25623,9 +25623,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CsOsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25651,9 +25651,9 @@ entry(
         H298 = (-16,"kcal/mol","+|-",0.24),
         S298 = (-12.07,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cs-OOCsH BENSON Hf, BOZZELLI C/C3/H - C/C2/O/H !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-OOCsH BENSON Hf, BOZZELLI C/C3/H - C/C2/O/H !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25674,9 +25674,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25697,9 +25697,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CsOsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25720,9 +25720,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25744,9 +25744,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-CsOsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25768,9 +25768,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)OsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25793,9 +25793,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25818,9 +25818,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25841,9 +25841,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25864,9 +25864,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25887,9 +25887,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CsCsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25915,9 +25915,9 @@ entry(
         H298 = (-7.2,"kcal/mol","+|-",0.24),
         S298 = (-11,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cs-OCsCs BENSON: Cp1500 =3D Cp1000*(Cp1500/Cp1000: C/C2Cd/H)""",
+    shortDesc = u"""Cs-OCsCs BENSON: Cp1500 =3D Cp1000*(Cp1500/Cp1000: C/C2Cd/H)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25938,9 +25938,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25966,9 +25966,9 @@ entry(
         H298 = (-6,"kcal/mol","+|-",0.24),
         S298 = (-11.1,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cs-OCOCsH BOZZELLI""",
+    shortDesc = u"""Cs-OCOCsH BOZZELLI""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -25989,9 +25989,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26018,9 +26018,9 @@ entry(
         H298 = (-6,"kcal/mol","+|-",0.24),
         S298 = (-11.1,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cs-OCdCsH BOZZELLI""",
+    shortDesc = u"""Cs-OCdCsH BOZZELLI""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26042,9 +26042,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26072,9 +26072,9 @@ entry(
         H298 = (-8.37,"kcal/mol","+|-",0.24),
         S298 = (-13.04,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """{C/CCO/O/C/H} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{C/CCO/O/C/H} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26097,9 +26097,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26120,9 +26120,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26143,9 +26143,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CsCsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26166,9 +26166,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26190,9 +26190,9 @@ entry(
 6     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)CsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26214,9 +26214,9 @@ entry(
 6     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26239,9 +26239,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26264,9 +26264,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26287,9 +26287,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26317,9 +26317,9 @@ entry(
         H298 = (-6.67,"kcal/mol","+|-",0.24),
         S298 = (-10.42,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cs-OCdCdH BOZZELLI""",
+    shortDesc = u"""Cs-OCdCdH BOZZELLI""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26342,9 +26342,9 @@ entry(
 7     Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26368,9 +26368,9 @@ entry(
 8     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26394,9 +26394,9 @@ entry(
 8     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26419,9 +26419,9 @@ entry(
 7     Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26446,9 +26446,9 @@ entry(
 9     Od 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26473,9 +26473,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26500,9 +26500,9 @@ entry(
 9     C 0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26523,9 +26523,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26546,9 +26546,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26569,9 +26569,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26592,9 +26592,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26616,9 +26616,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26640,9 +26640,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26665,9 +26665,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26690,9 +26690,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26713,9 +26713,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26741,9 +26741,9 @@ entry(
         H298 = (-6,"kcal/mol","+|-",0.24),
         S298 = (-11.1,"cal/(mol*K)","+|-",0.12),
     ),
-    shortDesc = """Cs-OCbCsH BOZZELLI =3D C/Cd/C/H/O Jul 91""",
+    shortDesc = u"""Cs-OCbCsH BOZZELLI =3D C/Cd/C/H/O Jul 91""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26764,9 +26764,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26787,9 +26787,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26810,9 +26810,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26834,9 +26834,9 @@ entry(
 6     Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26858,9 +26858,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26883,9 +26883,9 @@ entry(
 7     Od 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26908,9 +26908,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26931,9 +26931,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26954,9 +26954,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -26977,9 +26977,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-CsOsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27005,9 +27005,9 @@ entry(
         H298 = (-8.1,"kcal/mol","+|-",0.2),
         S298 = (9.8,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cs-OCsHH BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""Cs-OCsHH BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27028,9 +27028,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27056,9 +27056,9 @@ entry(
         H298 = (-5.28,"kcal/mol","+|-",0.2),
         S298 = (10.17,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cs-OCOHH jwl 99 cdsQ cc*ocq""",
+    shortDesc = u"""Cs-OCOHH jwl 99 cdsQ cc*ocq""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27079,9 +27079,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27108,9 +27108,9 @@ entry(
         H298 = (-6.76,"kcal/mol","+|-",0.2),
         S298 = (9.8,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cs-OCdHH BOZZELLI Hf PEDLEY c*ccoh C/C/Cd/H2""",
+    shortDesc = u"""Cs-OCdHH BOZZELLI Hf PEDLEY c*ccoh C/C/Cd/H2""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27132,9 +27132,9 @@ entry(
 6     Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)OsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27162,9 +27162,9 @@ entry(
         H298 = (-8.68,"kcal/mol","+|-",0.2),
         S298 = (8.43,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """{C/CCO/O/H2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
+    shortDesc = u"""{C/CCO/O/H2} RAMAN & GREEN JPCA 2002, 106, 7937-7949""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27187,9 +27187,9 @@ entry(
 7     C 0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)OsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27215,9 +27215,9 @@ entry(
         H298 = (-6.76,"kcal/mol","+|-",0.2),
         S298 = (9.8,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """Cs-OCtHH BOZZELLI assigned C/Cd/H2/O""",
+    shortDesc = u"""Cs-OCtHH BOZZELLI assigned C/Cd/H2/O""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27238,9 +27238,9 @@ entry(
 5     H 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27257,9 +27257,9 @@ entry(
 1  *  O 0
 """,
     thermo = 'Os-CsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27276,9 +27276,9 @@ entry(
 1  *  Od 0
 """,
     thermo = 'Od-Cd',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27301,9 +27301,9 @@ entry(
         H298 = (0,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """In this case the C is treated as the central atom""",
+    shortDesc = u"""In this case the C is treated as the central atom""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27326,9 +27326,9 @@ entry(
         H298 = (0,"kcal/mol","+|-",0.001),
         S298 = (25.19,"cal/(mol*K)"),
     ),
-    shortDesc = """O2 Kee et al., SAND87-8215B, 1994", we cut it half to account for adding two single Od groups, also the symmetric number is considered too. S(group) = (S(o2) + Rln(sigma))/2""",
+    shortDesc = u"""O2 Kee et al., SAND87-8215B, 1994", we cut it half to account for adding two single Od groups, also the symmetric number is considered too. S(group) = (S(o2) + Rln(sigma))/2""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27345,9 +27345,9 @@ entry(
 1  *  Os 0
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27371,9 +27371,9 @@ entry(
         H298 = (-57.8,"kcal/mol","+|-",0.01),
         S298 = (46.51,"cal/(mol*K)","+|-",0.002),
     ),
-    shortDesc = """O-HH WATER. !!!Using NIST value for H2O, S(group) = S(H2O) + Rln(2)""",
+    shortDesc = u"""O-HH WATER. !!!Using NIST value for H2O, S(group) = S(H2O) + Rln(2)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27397,9 +27397,9 @@ entry(
         H298 = (-16.3,"kcal/mol","+|-",0.14),
         S298 = (27.83,"cal/(mol*K)","+|-",0.07),
     ),
-    shortDesc = """O-OH SANDIA 1/2*H2O2""",
+    shortDesc = u"""O-OH SANDIA 1/2*H2O2""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27423,9 +27423,9 @@ entry(
         H298 = (8.85,"kcal/mol","+|-",0.16),
         S298 = (9.4,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """O-OO LAY 1997=20 !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""O-OO LAY 1997=20 !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27444,9 +27444,9 @@ entry(
 3     H 0 {1,S}
 """,
     thermo = 'Os-CsH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27470,9 +27470,9 @@ entry(
         H298 = (-37.9,"kcal/mol","+|-",0.16),
         S298 = (29.1,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """O-CtH BENSON (Assigned O-CsH)""",
+    shortDesc = u"""O-CtH BENSON (Assigned O-CsH)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27491,9 +27491,9 @@ entry(
 3     H 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)H',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27517,9 +27517,9 @@ entry(
         H298 = (-58.1,"kcal/mol","+|-",0.16),
         S298 = (24.5,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """O-COH !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""O-COH !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27543,9 +27543,9 @@ entry(
         H298 = (-37.9,"kcal/mol","+|-",0.16),
         S298 = (29.1,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """O-CdH BENSON (Assigned O-CsH)""",
+    shortDesc = u"""O-CdH BENSON (Assigned O-CsH)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27569,9 +27569,9 @@ entry(
         H298 = (-37.9,"kcal/mol","+|-",0.2),
         S298 = (29.07,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """O-CsH BENSON""",
+    shortDesc = u"""O-CsH BENSON""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27595,9 +27595,9 @@ entry(
         H298 = (-37.9,"kcal/mol","+|-",0.16),
         S298 = (29.1,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """O-CbH BENSON (Assigned O-CsH)""",
+    shortDesc = u"""O-CbH BENSON (Assigned O-CsH)""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27616,9 +27616,9 @@ entry(
 3     C 0 {1,S}
 """,
     thermo = 'Os-OsCs',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27642,9 +27642,9 @@ entry(
         H298 = (7,"kcal/mol","+|-",0.3),
         S298 = (10.8,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """O-OCb Hf JWB plot S,Cp assigned O/O/Cd !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""O-OCb Hf JWB plot S,Cp assigned O/O/Cd !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27663,9 +27663,9 @@ entry(
 3     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Os-Os(Cds-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27689,9 +27689,9 @@ entry(
         H298 = (-23.22,"kcal/mol","+|-",0.3),
         S298 = (9.11,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """O-OCO jwl cbsQ 99 cqcho=20 !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""O-OCO jwl cbsQ 99 cqcho=20 !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27715,9 +27715,9 @@ entry(
         H298 = (1.64,"kcal/mol","+|-",0.3),
         S298 = (10.12,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """O-OCd WESTMORELAND S,Cp LAY'9405 !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""O-OCd WESTMORELAND S,Cp LAY'9405 !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27741,9 +27741,9 @@ entry(
         H298 = (-5.4,"kcal/mol","+|-",0.3),
         S298 = (8.54,"cal/(mol*K)","+|-",0.15),
     ),
-    shortDesc = """O-OCs LAY 1997 !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""O-OCs LAY 1997 !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27762,9 +27762,9 @@ entry(
 3     Cb 0 {1,S}
 """,
     thermo = 'Os-Os(Cds-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27783,9 +27783,9 @@ entry(
 3     C 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27804,9 +27804,9 @@ entry(
 3     Ct 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27825,9 +27825,9 @@ entry(
 3     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27846,9 +27846,9 @@ entry(
 3     CO 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27867,9 +27867,9 @@ entry(
 3     Cd 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27888,9 +27888,9 @@ entry(
 3     Cs 0 {1,S}
 """,
     thermo = 'Os-Cs(Cds-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27909,9 +27909,9 @@ entry(
 3     Cb 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27930,9 +27930,9 @@ entry(
 3     {Cd,CO} 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27956,9 +27956,9 @@ entry(
         H298 = (-46,"kcal/mol","+|-",0.19),
         S298 = (2.5,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """O-COCO Hf BENSON S,Cp Mopac=3D""",
+    shortDesc = u"""O-COCO Hf BENSON S,Cp Mopac=3D""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -27977,9 +27977,9 @@ entry(
 3     Cd 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -28003,9 +28003,9 @@ entry(
         H298 = (-19.61,"kcal/mol","+|-",0.19),
         S298 = (10,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """O-CdCd BOZZELLI""",
+    shortDesc = u"""O-CdCd BOZZELLI""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -28024,9 +28024,9 @@ entry(
 3     Cs 0 {1,S}
 """,
     thermo = 'Os-Cs(Cds-Cd)',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -28050,9 +28050,9 @@ entry(
         H298 = (-42.19,"kcal/mol","+|-",0.19),
         S298 = (8.4,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """O-COCs BOZZELLI Jul91 S,Cp ABaldwin O/Cs/O !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""O-COCs BOZZELLI Jul91 S,Cp ABaldwin O/Cs/O !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -28076,9 +28076,9 @@ entry(
         H298 = (-23.73,"kcal/mol","+|-",0.19),
         S298 = (9.7,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """O-CdCs Hf RADOM vin-oh S A.Baldwin O/Cs/O !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""O-CdCs Hf RADOM vin-oh S A.Baldwin O/Cs/O !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -28097,9 +28097,9 @@ entry(
 3     Cb 0 {1,S}
 """,
     thermo = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -28118,9 +28118,9 @@ entry(
 3     CO 0 {1,S}
 """,
     thermo = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -28139,9 +28139,9 @@ entry(
 3     Cd 0 {1,S}
 """,
     thermo = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -28165,9 +28165,9 @@ entry(
         H298 = (-23.2,"kcal/mol","+|-",0.19),
         S298 = (8.68,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """O-CsCs BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""O-CsCs BENSON !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -28191,9 +28191,9 @@ entry(
         H298 = (-22.6,"kcal/mol","+|-",0.19),
         S298 = (9.7,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """O-CbCs REID, PRAUSNITZ and SHERWOOD !!!WARNING! Cp1500 value taken as Cp1000""",
+    shortDesc = u"""O-CbCs REID, PRAUSNITZ and SHERWOOD !!!WARNING! Cp1500 value taken as Cp1000""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -28217,9 +28217,9 @@ entry(
         H298 = (-18.77,"kcal/mol","+|-",0.19),
         S298 = (13.59,"cal/(mol*K)","+|-",0.1),
     ),
-    shortDesc = """O-CbCb CHERN 1/97 Hf PEDLEY, Mopac""",
+    shortDesc = u"""O-CbCb CHERN 1/97 Hf PEDLEY, Mopac""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -28236,9 +28236,9 @@ entry(
 1  *  Si 0
 """,
     thermo = 'Cs-HHHH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -28255,9 +28255,9 @@ entry(
 1  *  S 0
 """,
     thermo = 'Os-HH',
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,

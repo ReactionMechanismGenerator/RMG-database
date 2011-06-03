@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "2+2_cycloaddition_Cd/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -23,9 +23,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Quick et al. [107]""",
+    shortDesc = u"""Quick et al. [107]""",
     longDesc = 
-"""
+u"""
 [107] Quick, L. M. *Int. J. Chem. Kinet.* 1972, 4, 61. 
 
 C2H4 + C2H4 --> cyclobutane, absolute value measured directly using thermal excitation technique 
@@ -62,9 +62,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [

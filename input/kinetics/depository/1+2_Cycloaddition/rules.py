@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "1+2_Cycloaddition/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -27,9 +27,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """Default""",
+    shortDesc = u"""Default""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -66,9 +66,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Frey et al [192]""",
+    shortDesc = u"""Frey et al [192]""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -102,9 +102,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Gaedtke et al [194]""",
+    shortDesc = u"""Gaedtke et al [194]""",
     longDesc = 
-"""
+u"""
 [194] Gaedtke, H. Symp. Int. Combust. Proc. 1973, 14, 295. 
 Excitation: direct photolysis, analysis: UV-Vis absorption, Pressure 0.1 - 1000 atm. O + C2H4 --> Oxirane
 """,
@@ -139,9 +139,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Gaedtke et al [194]""",
+    shortDesc = u"""Gaedtke et al [194]""",
     longDesc = 
-"""
+u"""
 [194] Gaedtke, H. Symp. Int. Combust. Proc. 1973, 14, 295. 
 Excitation: direct photolysis, analysis: UV-Vis absorption, Pressure 0.1 - 1000 atm. O + CH3CH=CH2 --> methyloxirane
 """,
@@ -177,9 +177,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Herbrechtsmeier et al [195]""",
+    shortDesc = u"""Herbrechtsmeier et al [195]""",
     longDesc = 
-"""
+u"""
 [195] Herbrechtsmeier, P. Reactions of O(3P) Atoms with Unsaturated C3 Hydrocarbons. In Combust. Inst. European Symp., 1973; pp13.
 Absolute values measured directly. Excitation: discharge, analysis :GC, Pressure 0.01 atm. O + CH3CH=CH2 --> methyloxirane
 """,
@@ -215,9 +215,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Smith [196]""",
+    shortDesc = u"""Smith [196]""",
     longDesc = 
-"""
+u"""
 [196] Smith, I.W.M. Trans. Faraday Soc. 1968, 64, 378.
 Data derived from fitting to a complex mechanism. Excitation: flash photolysis, analysis : UV-Vis absorption. Pressure 0.13 atm
 
@@ -255,9 +255,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Smith [196]""",
+    shortDesc = u"""Smith [196]""",
     longDesc = 
-"""
+u"""
 [196] Smith, I.W.M. Trans. Faraday Soc. 1968, 64, 378.
 Data derived from fitting to a complex mechanism. Excitation: flash photolysis, analysis : UV-Vis absorption. Pressure 0.13 atm
 
@@ -294,9 +294,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Cvetanovic [197]""",
+    shortDesc = u"""Cvetanovic [197]""",
     longDesc = 
-"""
+u"""
 [197] Cvetanovic, R. J. Chem. Phys. 1959, 30, 19.
 Relative value measured (O + (Z)-2-C4H8 --> cis-2,3-dimethyloxirane/O + C2H4 = Oxirane --> 2.2E+01) 
 
@@ -333,9 +333,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = """Cvetanovic [197]""",
+    shortDesc = u"""Cvetanovic [197]""",
     longDesc = 
-"""
+u"""
 [197] Cvetanovic, R. J. Chem. Phys. 1959, 30, 19.
 Relative value measured (O + (CH3)2C=C(CH3)2 --> tetramethyl-oxirane/O + iso-C4H8 --> 2,2-Dimethyloxirane = 4.18)  
 

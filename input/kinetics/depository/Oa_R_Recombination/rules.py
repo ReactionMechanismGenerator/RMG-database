@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Oa_R_Recombination/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -29,9 +29,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [

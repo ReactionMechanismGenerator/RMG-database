@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "intra_H_migration/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -31,9 +31,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """default""",
+    shortDesc = u"""default""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -74,9 +74,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Currans's estimation [5] in his reaction type 5.""",
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
-"""
+u"""
 [5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
 Currans's estimation in his reaction type 5. C7H15
 
@@ -120,9 +120,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Currans's estimation [5] in his reaction type 5.""",
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
-"""
+u"""
 [5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
 Currans's estimation in his reaction type 5. C7H15
 
@@ -167,9 +167,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Currans's estimation [5] in his reaction type 5.""",
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
-"""
+u"""
 [5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
 Currans's estimation in his reaction type 5. C7H15
 
@@ -214,9 +214,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Currans's estimation [5] in his reaction type 5.""",
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
-"""
+u"""
 [5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
 Currans's estimation in his reaction type 5. C7H15
 
@@ -262,9 +262,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Currans's estimation [5] in his reaction type 5.""",
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
-"""
+u"""
 [5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
 Currans's estimation in his reaction type 5. C7H15
 
@@ -310,9 +310,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Currans's estimation [5] in his reaction type 5.""",
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
-"""
+u"""
 [5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
 Currans's estimation in his reaction type 5. C7H15
 
@@ -359,9 +359,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Currans's estimation [5] in his reaction type 5.""",
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
-"""
+u"""
 [5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
 Currans's estimation in his reaction type 5. 
 
@@ -408,9 +408,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Currans's estimation [5] in his reaction type 5.""",
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
-"""
+u"""
 [5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
 Currans's estimation in his reaction type 5. C7H15
 
@@ -457,9 +457,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Currans's estimation [5] in his reaction type 5.""",
+    shortDesc = u"""Currans's estimation [5] in his reaction type 5.""",
     longDesc = 
-"""
+u"""
 [5] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 1998, 114, 149. 
 Currans's estimation in his reaction type 5. C7H15
 
@@ -503,9 +503,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
+    shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
@@ -547,9 +547,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
+    shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
@@ -592,9 +592,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
+    shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
@@ -637,9 +637,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
+    shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
@@ -682,9 +682,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
+    shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
@@ -728,9 +728,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
+    shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
@@ -774,9 +774,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
+    shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
@@ -820,9 +820,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
+    shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
@@ -867,9 +867,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
+    shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
@@ -914,9 +914,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
+    shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
@@ -961,9 +961,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
+    shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
@@ -1009,9 +1009,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
+    shortDesc = u"""Curran's estimstion [8] in his reaction type 12 RO2 isomerization.""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimstion in his reaction type 12 RO2 isomerization.
 """,
@@ -1048,9 +1048,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1086,9 +1086,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1124,9 +1124,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1157,9 +1157,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1189,9 +1189,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1216,9 +1216,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1254,9 +1254,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1286,9 +1286,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1319,9 +1319,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1356,9 +1356,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1393,9 +1393,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1430,9 +1430,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1467,9 +1467,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1505,9 +1505,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1542,9 +1542,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1580,9 +1580,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1618,9 +1618,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1656,9 +1656,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1694,9 +1694,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1726,9 +1726,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1759,9 +1759,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1797,9 +1797,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1836,9 +1836,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1874,9 +1874,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1913,9 +1913,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1945,9 +1945,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -1979,9 +1979,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2020,9 +2020,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2061,9 +2061,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2102,9 +2102,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2143,9 +2143,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2181,9 +2181,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2220,9 +2220,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2258,9 +2258,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2297,9 +2297,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2329,9 +2329,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2363,9 +2363,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2403,9 +2403,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2442,9 +2442,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2482,9 +2482,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2521,9 +2521,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2556,9 +2556,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2589,9 +2589,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2629,9 +2629,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2670,9 +2670,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2711,9 +2711,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2751,9 +2751,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2787,9 +2787,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2821,9 +2821,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2865,9 +2865,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2903,9 +2903,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2936,9 +2936,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -2975,9 +2975,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3015,9 +3015,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3061,9 +3061,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3101,9 +3101,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3142,9 +3142,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3180,9 +3180,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3218,9 +3218,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3256,9 +3256,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3294,9 +3294,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3326,9 +3326,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3359,9 +3359,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3391,9 +3391,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3424,9 +3424,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3451,9 +3451,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3494,9 +3494,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3537,9 +3537,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3580,9 +3580,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3623,9 +3623,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3660,9 +3660,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3698,9 +3698,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3741,9 +3741,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3784,9 +3784,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3827,9 +3827,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3870,9 +3870,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3907,9 +3907,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3945,9 +3945,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -3982,9 +3982,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4019,9 +4019,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4056,9 +4056,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4093,9 +4093,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4124,9 +4124,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4156,9 +4156,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4200,9 +4200,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4244,9 +4244,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4288,9 +4288,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4326,9 +4326,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4365,9 +4365,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4409,9 +4409,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4447,9 +4447,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4486,9 +4486,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4519,9 +4519,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4557,9 +4557,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4595,9 +4595,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4633,9 +4633,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4671,9 +4671,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4703,9 +4703,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4736,9 +4736,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4781,9 +4781,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4826,9 +4826,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4871,9 +4871,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4916,9 +4916,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4955,9 +4955,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -4995,9 +4995,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5033,9 +5033,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5072,9 +5072,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5110,9 +5110,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5149,9 +5149,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5181,9 +5181,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5215,9 +5215,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5261,9 +5261,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5307,9 +5307,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5353,9 +5353,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5399,9 +5399,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5439,9 +5439,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5480,9 +5480,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5519,9 +5519,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5559,9 +5559,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5598,9 +5598,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5638,9 +5638,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5671,9 +5671,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5706,9 +5706,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5753,9 +5753,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5800,9 +5800,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5847,9 +5847,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5894,9 +5894,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5935,9 +5935,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -5977,9 +5977,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6017,9 +6017,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6058,9 +6058,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6098,9 +6098,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6139,9 +6139,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6173,9 +6173,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6209,9 +6209,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6249,9 +6249,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6288,9 +6288,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6328,9 +6328,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6367,9 +6367,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6401,9 +6401,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6435,9 +6435,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6480,9 +6480,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6520,9 +6520,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6559,9 +6559,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6593,9 +6593,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6639,9 +6639,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6680,9 +6680,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6720,9 +6720,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6755,9 +6755,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6797,9 +6797,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6838,9 +6838,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6880,9 +6880,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6921,9 +6921,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6957,9 +6957,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -6993,9 +6993,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -7034,9 +7034,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -7074,9 +7074,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -7115,9 +7115,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -7155,9 +7155,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -7190,9 +7190,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -7225,9 +7225,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy B3LYP/CCPVDZ calculations""",
+    shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
     longDesc = 
-"""
+u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
     history = [
@@ -7267,9 +7267,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations""",
+    shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations
 """,
     history = [
@@ -7309,9 +7309,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations""",
+    shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations
 """,
     history = [
@@ -7352,9 +7352,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations""",
+    shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations
 """,
     history = [
@@ -7396,9 +7396,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations""",
+    shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations
 """,
     history = [
@@ -7441,9 +7441,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations""",
+    shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations
 """,
     history = [
@@ -7477,9 +7477,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations""",
+    shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations
 """,
     history = [
@@ -7520,9 +7520,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations""",
+    shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations
 """,
     history = [
@@ -7564,9 +7564,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations""",
+    shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations
 """,
     history = [
@@ -7609,9 +7609,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy CBS-Q calculations""",
+    shortDesc = u"""Sumathy CBS-Q calculations""",
     longDesc = 
-"""
+u"""
 Sumathy CBS-Q calculations
 """,
     history = [
@@ -7652,9 +7652,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7696,9 +7696,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7741,9 +7741,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7778,9 +7778,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7816,9 +7816,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7855,9 +7855,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7899,9 +7899,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 """,
     history = [
@@ -7944,9 +7944,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 """,
     history = [
@@ -7990,9 +7990,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 """,
     history = [
@@ -8035,9 +8035,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 """,
     history = [
@@ -8081,9 +8081,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 """,
     history = [
@@ -8125,9 +8125,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 """,
     history = [
@@ -8170,9 +8170,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 """,
     history = [
@@ -8208,9 +8208,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 """,
     history = [
@@ -8253,9 +8253,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
+    shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.
 """,
     history = [
@@ -8298,9 +8298,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
+    shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253. 
 Curran's estimation in reaction type 19, QOOH = cyclic ether + OH
 """,
@@ -8338,9 +8338,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
+    shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation in reaction type 19, QOOH = cyclic ether + OH
 """,
@@ -8385,9 +8385,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
+    shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation in reaction type 19, QOOH = cyclic ether + OH
 """,
@@ -8432,9 +8432,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
+    shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
     longDesc = 
-"""
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253. 
 Curran's estimation in reaction type 19, QOOH = cyclic ether + OH
 """,
@@ -8473,9 +8473,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8511,9 +8511,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya).""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -8555,9 +8555,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya).""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -8594,9 +8594,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya).""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -8638,9 +8638,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya).""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -8682,9 +8682,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya).""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -8726,9 +8726,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya).""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -8770,9 +8770,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya).""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -8809,9 +8809,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """CBS-QB3 calculations (Catherina Wijaya).""",
+    shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya).""",
     longDesc = 
-"""
+u"""
 CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -8853,9 +8853,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -8897,9 +8897,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -8936,9 +8936,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -8980,9 +8980,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -9024,9 +9024,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -9063,9 +9063,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -9107,9 +9107,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -9151,9 +9151,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -9190,9 +9190,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -9234,9 +9234,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """Sumathy's CBS-QB3 calculations.""",
+    shortDesc = u"""Sumathy's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.
 
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
@@ -9278,9 +9278,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
 The node was commented out of the tree, disabling the rate, by Sandeep Sharma on Feb 13 2006 (2e7b38d367c9) with the message "Removed nodes Cs_H_out_H/(CCCOOH) and the others from under node Cs_H_out_H/NonDeC as it is not a subnode anyway."
 
@@ -9315,9 +9315,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
 The node was commented out of the tree, disabling the rate, by Sandeep Sharma on Feb 13 2006 (2e7b38d367c9) with the message "Removed nodes Cs_H_out_H/(CCCOOH) and the others from under node Cs_H_out_H/NonDeC as it is not a subnode anyway."
 
@@ -9357,9 +9357,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
 The node was commented out of the tree, disabling the rate, by Sandeep Sharma on Feb 13 2006 (2e7b38d367c9) with the message "Removed nodes Cs_H_out_H/(CCCOOH) and the others from under node Cs_H_out_H/NonDeC as it is not a subnode anyway."
 
@@ -9399,9 +9399,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
 The node was commented out of the tree, disabling the rate, by Sandeep Sharma on Feb 13 2006 (2e7b38d367c9) with the message "Removed nodes Cs_H_out_H/(CCCOOH) and the others from under node Cs_H_out_H/NonDeC as it is not a subnode anyway."
 
@@ -9436,9 +9436,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
 The node was commented out of the tree, disabling the rate, by Sandeep Sharma on Feb 13 2006 (2e7b38d367c9) with the message "Removed nodes Cs_H_out_H/(CCCOOH) and the others from under node Cs_H_out_H/NonDeC as it is not a subnode anyway."
 
@@ -9482,9 +9482,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's DFT/CBSB7 level of calculations.""",
+    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
@@ -9525,9 +9525,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's DFT/CBSB7 level of calculations.""",
+    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
@@ -9568,9 +9568,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's DFT/CBSB7 level of calculations.""",
+    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
@@ -9612,9 +9612,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's DFT/CBSB7 level of calculations.""",
+    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
@@ -9657,9 +9657,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's DFT/CBSB7 level of calculations.""",
+    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
@@ -9701,9 +9701,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's DFT/CBSB7 level of calculations.""",
+    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
@@ -9746,9 +9746,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's DFT/CBSB7 level of calculations.""",
+    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
@@ -9791,9 +9791,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's DFT/CBSB7 level of calculations.""",
+    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
@@ -9837,9 +9837,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's DFT/CBSB7 level of calculations.""",
+    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
@@ -9882,9 +9882,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's DFT/CBSB7 level of calculations.""",
+    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
@@ -9928,9 +9928,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's DFT/CBSB7 level of calculations.""",
+    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
@@ -9974,9 +9974,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's DFT/CBSB7 level of calculations.""",
+    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
@@ -10021,9 +10021,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's DFT/CBSB7 level of calculations.""",
+    shortDesc = u"""Sandeep's DFT/CBSB7 level of calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep and Sumathy paper (submitted to JPCA 2009), intra_H_migration of ROO & HOOQOO.
 """,
     history = [
@@ -10065,9 +10065,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's CBS-QB3 calculations.""",
+    shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep's CBS-QB3 calculations.
 """,
     history = [
@@ -10109,9 +10109,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's CBS-QB3 calculations.""",
+    shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep's CBS-QB3 calculations.
 """,
     history = [
@@ -10154,9 +10154,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's CBS-QB3 calculations.""",
+    shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep's CBS-QB3 calculations.
 """,
     history = [
@@ -10199,9 +10199,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's CBS-QB3 calculations.""",
+    shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep's CBS-QB3 calculations.
 """,
     history = [
@@ -10242,9 +10242,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's CBS-QB3 calculations.""",
+    shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep's CBS-QB3 calculations.
 """,
     history = [
@@ -10285,9 +10285,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """Sandeep's CBS-QB3 calculations.""",
+    shortDesc = u"""Sandeep's CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 Sandeep's CBS-QB3 calculations.
 """,
     history = [
@@ -10328,9 +10328,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MHS CBS-QB3 calculations.""",
+    shortDesc = u"""MHS CBS-QB3 calculations.""",
     longDesc = 
-"""
+u"""
 MHS CBS-QB3 calculations for CH3-CH2-CH=CH-O* == CH3-C*H-CH=CH-OH.  
 Product is the cis configuration because TS is also cis.  
 Note--this only affects the tunneling correction (b/c in products).  
@@ -10374,9 +10374,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = """MRH CBS-QB3 calculations w/1d h.r. corrections""",
+    shortDesc = u"""MRH CBS-QB3 calculations w/1d h.r. corrections""",
     longDesc = 
-"""
+u"""
 MRH CBS-QB3 calculations with 1-d hindered rotor corrections for CH2=CH-CH2-OO => CH=CH-CH2-OOH
 
 Previous RMG estimate for this reaction was an "Average of average" estimate.  This reaction was of
@@ -10433,9 +10433,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
 The node was commented out of the tree, disabling the rate, by Sandeep Sharma on Feb 13 2006 (2e7b38d367c9) with the message "Removed nodes Cs_H_out_H/(CCCOOH) and the others from under node Cs_H_out_H/NonDeC as it is not a subnode anyway."
 
@@ -10482,9 +10482,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
 The node was commented out of the tree, disabling the rate, by Sandeep Sharma on Feb 13 2006 (2e7b38d367c9) with the message "Removed nodes Cs_H_out_H/(CCCOOH) and the others from under node Cs_H_out_H/NonDeC as it is not a subnode anyway."
 
@@ -10526,9 +10526,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
 The node was commented out of the tree, disabling the rate, by Sandeep Sharma on Feb 13 2006 (2e7b38d367c9) with the message "Removed nodes Cs_H_out_H/(CCCOOH) and the others from under node Cs_H_out_H/NonDeC as it is not a subnode anyway."
 
@@ -10575,9 +10575,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
 The node was commented out of the tree, disabling the rate, by Sandeep Sharma on Feb 13 2006 (2e7b38d367c9) with the message "Removed nodes Cs_H_out_H/(CCCOOH) and the others from under node Cs_H_out_H/NonDeC as it is not a subnode anyway."
 
@@ -10624,9 +10624,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
 The node was commented out of the tree, disabling the rate, by Sandeep Sharma on Feb 13 2006 (2e7b38d367c9) with the message "Removed nodes Cs_H_out_H/(CCCOOH) and the others from under node Cs_H_out_H/NonDeC as it is not a subnode anyway."
 
@@ -10668,9 +10668,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 2,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 The rate was added by Sandeep Sharma on Feb 01 2006 (713a0f98f91) with message "I have added the rate rules given to me by Sumathy which are present in Pitz.xls file in the Acads directory of my laptop."
 The node was commented out of the tree, disabling the rate, by Sandeep Sharma on Feb 13 2006 (2e7b38d367c9) with the message "Removed nodes Cs_H_out_H/(CCCOOH) and the others from under node Cs_H_out_H/NonDeC as it is not a subnode anyway."
 

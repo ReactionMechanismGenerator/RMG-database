@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "intra_H_migration"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -43,9 +43,10 @@ entry(
     ),
     reference = Article(authors=["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."], title=u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""4828-4833""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:23 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -88,9 +89,10 @@ entry(
     ),
     reference = Article(authors=["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."], title=u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""4828-4833""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:23 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -131,9 +133,10 @@ entry(
     ),
     reference = Article(authors=["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."], title=u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""4828-4833""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -172,9 +175,10 @@ entry(
     ),
     reference = Article(authors=["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."], title=u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""4828-4833""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -213,9 +217,10 @@ entry(
     ),
     reference = Article(authors=["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."], title=u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""4828-4833""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -260,9 +265,10 @@ entry(
     ),
     reference = Article(authors=["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."], title=u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""4828-4833""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -303,9 +309,10 @@ entry(
     ),
     reference = Article(authors=["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."], title=u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""4828-4833""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -346,9 +353,10 @@ entry(
     ),
     reference = Article(authors=["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."], title=u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""4828-4833""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -389,9 +397,10 @@ entry(
     ),
     reference = Article(authors=["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."], title=u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""4828-4833""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -432,9 +441,10 @@ entry(
     ),
     reference = Article(authors=["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."], title=u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""4828-4833""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:24 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -477,9 +487,10 @@ entry(
     ),
     reference = Article(authors=["Handford-Styring, S.M.", "Walker, R.W."], title=u'Arrhenius Parameters for the Reaction HO_2 + Cyclohexane Between 673 and 773 K, and for H Atom Transfer in Cyclohexylperoxy Radicals', journal="Phys. Chem. Chem. Phys.", volume="3", pages="""2043-2052""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -522,9 +533,10 @@ entry(
     ),
     reference = Article(authors=["Handford-Styring, S.M.", "Walker, R.W."], title=u'Arrhenius Parameters for the Reaction HO_2 + Cyclohexane Between 673 and 773 K, and for H Atom Transfer in Cyclohexylperoxy Radicals', journal="Phys. Chem. Chem. Phys.", volume="3", pages="""2043-2052""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -567,9 +579,10 @@ entry(
     ),
     reference = Article(authors=["Handford-Styring, S.M.", "Walker, R.W."], title=u'Arrhenius Parameters for the Reaction HO_2 + Cyclohexane Between 673 and 773 K, and for H Atom Transfer in Cyclohexylperoxy Radicals', journal="Phys. Chem. Chem. Phys.", volume="3", pages="""2043-2052""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -602,9 +615,10 @@ entry(
     ),
     reference = Article(authors=["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."], title=u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates', journal="Int. J. Chem. Kinet.", volume="35", pages="""95-119""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:35 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -635,9 +649,10 @@ entry(
     ),
     reference = Article(authors=["Batt, L.", "Burrows, J.P.", "Robinson, G.N."], title=u'On the Isomerisation of the Methoxy Radical: Relevance to Atmospheric Chemistry and Combustion', journal="Chem. Phys. Lett.", volume="78", pages="""467""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -672,9 +687,10 @@ entry(
     ),
     reference = Article(authors=["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."], title=u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates', journal="Int. J. Chem. Kinet.", volume="35", pages="""95-119""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:40 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -709,9 +725,10 @@ entry(
     ),
     reference = Article(authors=["Lin, M.C.", "Back, M.H."], title=u'The thermal decomposition of ethane. Part III. Secondary reactions', journal="Can. J. Chem.", volume="44", pages="""2369""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -746,9 +763,10 @@ entry(
     ),
     reference = Article(authors=["Gierczak, T.", "Gawlowski, J.", "Niedzielski, J."], title=u'Isomerization of chemically activated secondary butyl radical', journal="React. Kinet. Catal. Lett.", volume="36", pages="""435""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -783,9 +801,10 @@ entry(
     ),
     reference = Article(authors=["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."], title=u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates', journal="Int. J. Chem. Kinet.", volume="35", pages="""95-119""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -820,9 +839,10 @@ entry(
     ),
     reference = Article(authors=["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."], title=u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates', journal="Int. J. Chem. Kinet.", volume="35", pages="""95-119""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -857,9 +877,10 @@ entry(
     ),
     reference = Article(authors=["Gierczak, T.", "Gawlowski, J.", "Niedzielski, J."], title=u'Isomerization of chemically activated secondary butyl radical', journal="React. Kinet. Catal. Lett.", volume="36", pages="""435""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:46 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -896,9 +917,10 @@ entry(
     ),
     reference = Article(authors=["Endrenyi, L.", "Le Roy, D.J."], title=u'The isomerization of n-pentyl and 4-oxo-1-pentyl radicals in the gas phase', journal="J. Phys. Chem.", volume="70", pages="""4081""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -935,9 +957,10 @@ entry(
     ),
     reference = Article(authors=["Watkins, K.W."], title=u'Photolysis of n-Pentylazomethane Vapor. Reactions of the n-Pentyl Radical', journal="J. Am. Chem. Soc.", volume="93", pages="""6355""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -974,9 +997,10 @@ entry(
     ),
     reference = Article(authors=["Watkins, K.W."], title=u'On the rate constant for n-pentyl radical isomerization', journal="Can. J. Chem.", volume="50", pages="""3738""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1013,9 +1037,10 @@ entry(
     ),
     reference = Article(authors=["Marshall, R.M."], title=u'The rate constant for the intramolecular isomerization of pentyl radicals', journal="Int. J. Chem. Kinet.", volume="22", pages="""935""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1052,9 +1077,10 @@ entry(
     ),
     reference = Article(authors=["Marshall, R.M."], title=u'The rate constant for the intramolecular isomerization of pentyl radicals', journal="Int. J. Chem. Kinet.", volume="22", pages="""935""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1091,9 +1117,10 @@ entry(
     ),
     reference = Article(authors=["Yamauchi, N.", "Miyoshi, A.", "Kosaka, K.", "Koshi, M.", "Matsui, H."], title=u'Thermal decomposition and isomerization processes of alkyl radicals', journal="J. Phys. Chem. A", volume="103", pages="""2723-2733""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1130,9 +1157,10 @@ entry(
     ),
     reference = Article(authors=["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."], title=u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates', journal="Int. J. Chem. Kinet.", volume="35", pages="""95-119""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1169,9 +1197,10 @@ entry(
     ),
     reference = Article(authors=["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."], title=u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates', journal="Int. J. Chem. Kinet.", volume="35", pages="""95-119""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1208,9 +1237,10 @@ entry(
     ),
     reference = Article(authors=["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."], title=u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates', journal="Int. J. Chem. Kinet.", volume="35", pages="""95-119""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1249,9 +1279,10 @@ entry(
     ),
     reference = Article(authors=["Watkins, K.W.", "Ostreko, L.A."], title=u'Isomerization of n-hexyl radicals in the gas phase', journal="J. Phys. Chem.", volume="73", pages="""2080""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1290,9 +1321,10 @@ entry(
     ),
     reference = Article(authors=["Dobe, S.", "Berces, T.", "Reti, F.", "Marta, F."], title=u'Isomerization of n-hexyl and s-octyl radicals by 1,5 and 1,4 intramolecular hydrogen atom transfer reactions', journal="Int. J. Chem. Kinet.", volume="19", pages="""895""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1331,9 +1363,10 @@ entry(
     ),
     reference = Article(authors=["Imbert, F.E.", "Marshall, R.M."], title=u'The mechanism and rate parameters for the pyrolysis of n-hexane in the range 723-823 K', journal="Int. J. Chem. Kinet.", volume="19", pages="""81""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1372,9 +1405,10 @@ entry(
     ),
     reference = Article(authors=["Yamauchi, N.", "Miyoshi, A.", "Kosaka, K.", "Koshi, M.", "Matsui, H."], title=u'Thermal decomposition and isomerization processes of alkyl radicals', journal="J. Phys. Chem. A", volume="103", pages="""2723-2733""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1413,9 +1447,10 @@ entry(
     ),
     reference = Article(authors=["Imbert, F.E.", "Marshall, R.M."], title=u'The mechanism and rate parameters for the pyrolysis of n-hexane in the range 723-823 K', journal="Int. J. Chem. Kinet.", volume="19", pages="""81""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:48 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1458,9 +1493,10 @@ entry(
     ),
     reference = Article(authors=["Dobe, S.", "Berces, T.", "Reti, F.", "Marta, F."], title=u'Isomerization of n-hexyl and s-octyl radicals by 1,5 and 1,4 intramolecular hydrogen atom transfer reactions', journal="Int. J. Chem. Kinet.", volume="19", pages="""895""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:51 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1493,9 +1529,10 @@ entry(
     ),
     reference = Article(authors=["Colket, M.B., III", "Naegeli, D.W.", "Glassman, I."], title=u'High-Temperature Pyrolysis of Acetaldehyde', journal="Int. J. Chem. Kinet.", volume="7", pages="""223""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1530,9 +1567,10 @@ entry(
     ),
     reference = Article(authors=["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."], title=u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates', journal="Int. J. Chem. Kinet.", volume="35", pages="""95-119""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1565,9 +1603,10 @@ entry(
     ),
     reference = Article(authors=["Ondruschka, B.", "Ziegler, U.", "Zimmermann, G."], title=u'Zu moglichen umlagerungen zwischen isomeren C_3H_5-radikalen', journal="Z. Phys. Chem. (Leipzig)", volume="267", pages="""1127""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:25 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1600,9 +1639,10 @@ entry(
     ),
     reference = Article(authors=["Ondruschka, B.", "Ziegler, U.", "Zimmermann, G."], title=u'Zu moglichen umlagerungen zwischen isomeren C_3H_5-radikalen', journal="Z. Phys. Chem. (Leipzig)", volume="267", pages="""1127""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:25 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1641,9 +1681,10 @@ entry(
     ),
     reference = Article(authors=["Handford-Styring, S.M.", "Walker, R.W."], title=u'Addition of cyclopentane to slowly reacting mixtures of H_2 + O_2 between 673 and 783 K: reactions of H and OH with cyclopentane and of cyclopentyl radicals', journal="J. Chem. Soc. Faraday Trans.", volume="91", pages="""1431-1438""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:25 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1682,9 +1723,10 @@ entry(
     ),
     reference = Article(authors=["Handford-Styring, S.M.", "Walker, R.W."], title=u'Addition of cyclopentane to slowly reacting mixtures of H_2 + O_2 between 673 and 783 K: reactions of H and OH with cyclopentane and of cyclopentyl radicals', journal="J. Chem. Soc. Faraday Trans.", volume="91", pages="""1431-1438""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:26 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1723,9 +1765,10 @@ entry(
     ),
     reference = Article(authors=["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."], title=u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates', journal="Int. J. Chem. Kinet.", volume="35", pages="""95-119""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:26 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1762,9 +1805,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."], title=u'Photochemical smog. Rate parameter estimates and computer simulations', journal="J. Phys. Chem.", volume="81", pages="""2483""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:30 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1801,9 +1845,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, A.C.", "Golden, D.M."], title=u'Alkoxy Radical Reactions: The Isomerization of n-Butoxy Radicals Generated from the Pyrolysis of n-Butyl Nitrite', journal="Chem. Phys. Lett.", volume="60", pages="""108""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:30 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1840,9 +1885,10 @@ entry(
     ),
     reference = Article(authors=["Morabito, P.", "Heicklen, J."], title=u'The reactions of alkoxyl radicals with O_2. IV. n-C_4H_9O radicals', journal="Bull. Chem. Soc. Jpn.", volume="60", pages="""2641""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:30 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1879,9 +1925,10 @@ entry(
     ),
     reference = Article(authors=["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."], title=u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""4828-4833""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:30 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1918,9 +1965,10 @@ entry(
     ),
     reference = Article(authors=["Vereecken, L.", "Peeters, J."], title=u'The 1,5-H-shift in 1-butoxy: A case study in the rigorous implementation of transition state theory for a multirotamer system', journal="J. Chem. Phys.", volume="119", pages="""5159-5170""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:30 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1961,9 +2009,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, R.R.", "Hisham, M.W.M.", "Walker, R.W."], title=u'Arrhenius parameters of elementary reactions involved in the oxidation of neopentane', journal="J. Chem. Soc. Faraday Trans. 1", volume="78", pages="""1615""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2004,9 +2053,10 @@ entry(
     ),
     reference = Article(authors=["Hughes, K.J.", "Halford-Maw, P.A.", "Lightfoot, P.D.", "Turanyi, T.", "Pilling, M.J."], title=u'Direct measurements of the neopentyl peroxy-hydroperoxy radical isomerisation over the temperature range 660-750 K', journal="Symp. Int. Combust. Proc.", volume="24", pages="""645-652""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2047,9 +2097,10 @@ entry(
     ),
     reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2090,9 +2141,10 @@ entry(
     ),
     reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2131,9 +2183,10 @@ entry(
     ),
     reference = Article(authors=["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."], title=u'Photochemical smog. Rate parameter estimates and computer simulations', journal="J. Phys. Chem.", volume="81", pages="""2483""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:53 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2176,9 +2229,10 @@ entry(
     ),
     reference = Article(authors=["Dobe, S.", "Berces, T.", "Reti, F.", "Marta, F."], title=u'Isomerization of n-hexyl and s-octyl radicals by 1,5 and 1,4 intramolecular hydrogen atom transfer reactions', journal="Int. J. Chem. Kinet.", volume="19", pages="""895""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:11 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2221,9 +2275,10 @@ entry(
     ),
     reference = Article(authors=["Tokmakov, I.V.", "Lin, M.C."], title=u'Reaction of phenyl radicals with acetylene: Quantum chemical investigation of the mechanism and master equation analysis of the kinetics', journal="J. Am. Chem. Soc.", volume="125", pages="""11397-11408""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:12 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2266,9 +2321,10 @@ entry(
     ),
     reference = Article(authors=["Tokmakov, I.V.", "Lin, M.C."], title=u'Reaction of phenyl radicals with acetylene: Quantum chemical investigation of the mechanism and master equation analysis of the kinetics', journal="J. Am. Chem. Soc.", volume="125", pages="""11397-11408""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:12 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2307,9 +2363,10 @@ entry(
     ),
     reference = Article(authors=["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."], title=u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships', journal="Phys. Chem. Chem. Phys.", volume="5", pages="""4828-4833""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:12 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -2348,9 +2405,10 @@ entry(
     ),
     reference = Article(authors=["Dobe, S.", "Berces, T.", "Marta, F."], title=u'Gas phase decomposition and isomerization reactions of 2-pentoxy radicals', journal="Int. J. Chem. Kinet.", volume="18", pages="""329""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:36:12 2011","jwallen","action","""jwallen added this entry to the database."""),

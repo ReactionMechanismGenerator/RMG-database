@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Stable Molecules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 

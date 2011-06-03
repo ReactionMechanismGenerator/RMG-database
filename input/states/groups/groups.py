@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Functional Group Values"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -12,9 +12,9 @@ entry(
     label = "R!H",
     group = "OR{R!Hx0, R!Hx1, R!Hx2}",
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -31,9 +31,9 @@ entry(
 1  *  C 0
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -57,9 +57,9 @@ entry(
         ],
         symmetry = 6,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -82,9 +82,9 @@ entry(
         ],
         symmetry = 2,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -105,9 +105,9 @@ entry(
         ],
         symmetry = 1,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -131,9 +131,9 @@ entry(
         ],
         symmetry = 4,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -157,9 +157,9 @@ entry(
         ],
         symmetry = 1,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -180,9 +180,9 @@ entry(
         ],
         symmetry = 1,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -202,9 +202,9 @@ entry(
         ],
         symmetry = 2,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -227,9 +227,9 @@ entry(
         ],
         symmetry = 1,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -249,9 +249,9 @@ entry(
         ],
         symmetry = 1,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -273,9 +273,9 @@ entry(
         ],
         symmetry = 6,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -297,9 +297,9 @@ entry(
         ],
         symmetry = 2,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -321,9 +321,9 @@ entry(
         ],
         symmetry = 2,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -344,9 +344,9 @@ entry(
         ],
         symmetry = 12,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -363,9 +363,9 @@ entry(
 1  *  C 1
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -388,9 +388,9 @@ entry(
         ],
         symmetry = 2,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -412,9 +412,9 @@ entry(
         ],
         symmetry = 1,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -428,9 +428,9 @@ entry(
     label = "CtCr",
     group = "OR{CtCrx0, CtCrx1}",
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -452,9 +452,9 @@ entry(
         ],
         symmetry = 2,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -475,9 +475,9 @@ entry(
         ],
         symmetry = 1,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -497,9 +497,9 @@ entry(
         ],
         symmetry = 1,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -519,9 +519,9 @@ entry(
         ],
         symmetry = 6,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -538,9 +538,9 @@ entry(
 1  *  C {2S,2T}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -554,9 +554,9 @@ entry(
     label = "RsCHrr",
     group = "OR{RsCHrrx0, RsCHrrx1, RsCHrrx2}",
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -570,9 +570,9 @@ entry(
     label = "RdCrr",
     group = "OR{RdCrrx0, RdCrrx1, RdCrrx2}",
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -586,9 +586,9 @@ entry(
     label = "RsCrrsR",
     group = "OR{RsCrrsRx00, RsCrrsRx01, RsCrrsRx11, RsCrrsRx02, RsCrrsRx12, RsCrrsRx22}",
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -605,9 +605,9 @@ entry(
 1  *  O 0
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -628,9 +628,9 @@ entry(
         ],
         symmetry = 1,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -649,9 +649,9 @@ entry(
         ],
         symmetry = 2,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -674,9 +674,9 @@ entry(
         ],
         symmetry = 1,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -696,9 +696,9 @@ entry(
         ],
         symmetry = 2,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -719,9 +719,9 @@ entry(
         ],
         symmetry = 1,
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -738,9 +738,9 @@ entry(
 1  *  O 1
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -754,9 +754,9 @@ entry(
     label = "Oxy",
     group = "OR{Oxyx0, Oxyx1, Oxyx2}",
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -773,9 +773,9 @@ entry(
 1  *  R!H 0
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -792,9 +792,9 @@ entry(
 1  *  R!H 1
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -811,9 +811,9 @@ entry(
 1  *  R!H {2S,2T}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -834,9 +834,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -857,9 +857,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -880,9 +880,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -902,9 +902,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -924,9 +924,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -946,9 +946,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -967,9 +967,9 @@ entry(
 3     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -988,9 +988,9 @@ entry(
 3     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1011,9 +1011,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1034,9 +1034,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1057,9 +1057,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1080,9 +1080,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1103,9 +1103,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1126,9 +1126,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1148,9 +1148,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1170,9 +1170,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1192,9 +1192,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1213,9 +1213,9 @@ entry(
 3     R!H 0 {1,D}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1234,9 +1234,9 @@ entry(
 3     R!H 1 {1,D}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1255,9 +1255,9 @@ entry(
 3     R!H {2S,2T} {1,D}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1276,9 +1276,9 @@ entry(
 3     C 0 {1,D}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1297,9 +1297,9 @@ entry(
 3     C 1 {1,D}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1318,9 +1318,9 @@ entry(
 3     C 1 {1,D}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1339,9 +1339,9 @@ entry(
 3     C {2S,2T} {1,D}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1360,9 +1360,9 @@ entry(
 3     C {2S,2T} {1,D}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1381,9 +1381,9 @@ entry(
 3     C {2S,2T} {1,D}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1403,9 +1403,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1425,9 +1425,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1447,9 +1447,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1469,9 +1469,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1491,9 +1491,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1513,9 +1513,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1535,9 +1535,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1557,9 +1557,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1579,9 +1579,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1600,9 +1600,9 @@ entry(
 3     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1621,9 +1621,9 @@ entry(
 3     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1642,9 +1642,9 @@ entry(
 3     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1663,9 +1663,9 @@ entry(
 3     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1684,9 +1684,9 @@ entry(
 3     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1705,9 +1705,9 @@ entry(
 3     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1728,9 +1728,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1751,9 +1751,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1774,9 +1774,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1797,9 +1797,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1820,9 +1820,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1843,9 +1843,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1866,9 +1866,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1889,9 +1889,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1912,9 +1912,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1935,9 +1935,9 @@ entry(
 5     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1957,9 +1957,9 @@ entry(
 4     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -1979,9 +1979,9 @@ entry(
 4     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2001,9 +2001,9 @@ entry(
 4     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2023,9 +2023,9 @@ entry(
 4     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2045,9 +2045,9 @@ entry(
 4     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2067,9 +2067,9 @@ entry(
 4     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2089,9 +2089,9 @@ entry(
 4     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2111,9 +2111,9 @@ entry(
 4     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2133,9 +2133,9 @@ entry(
 4     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2155,9 +2155,9 @@ entry(
 4     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2177,9 +2177,9 @@ entry(
 4     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2199,9 +2199,9 @@ entry(
 4     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2221,9 +2221,9 @@ entry(
 4     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2243,9 +2243,9 @@ entry(
 4     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2265,9 +2265,9 @@ entry(
 4     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2287,9 +2287,9 @@ entry(
 4     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2309,9 +2309,9 @@ entry(
 4     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2331,9 +2331,9 @@ entry(
 4     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2353,9 +2353,9 @@ entry(
 4     C 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2375,9 +2375,9 @@ entry(
 4     C 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2397,9 +2397,9 @@ entry(
 4     C 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2419,9 +2419,9 @@ entry(
 4     C {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2441,9 +2441,9 @@ entry(
 4     C {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2463,9 +2463,9 @@ entry(
 4     C {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2486,9 +2486,9 @@ entry(
 5     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2509,9 +2509,9 @@ entry(
 5     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2532,9 +2532,9 @@ entry(
 5     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2555,9 +2555,9 @@ entry(
 5     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2578,9 +2578,9 @@ entry(
 5     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2601,9 +2601,9 @@ entry(
 5     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2624,9 +2624,9 @@ entry(
 5     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2647,9 +2647,9 @@ entry(
 5     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2670,9 +2670,9 @@ entry(
 5     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2693,9 +2693,9 @@ entry(
 5     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2716,9 +2716,9 @@ entry(
 5     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2739,9 +2739,9 @@ entry(
 5     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2762,9 +2762,9 @@ entry(
 5     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2785,9 +2785,9 @@ entry(
 5     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2808,9 +2808,9 @@ entry(
 5     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2830,9 +2830,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2852,9 +2852,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2874,9 +2874,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2895,9 +2895,9 @@ entry(
 3     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2916,9 +2916,9 @@ entry(
 3     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2937,9 +2937,9 @@ entry(
 3     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2957,9 +2957,9 @@ entry(
 2     C 0 {1,T}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2977,9 +2977,9 @@ entry(
 2     C 1 {1,T}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -2999,9 +2999,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3021,9 +3021,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3043,9 +3043,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3065,9 +3065,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3087,9 +3087,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3109,9 +3109,9 @@ entry(
 4     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3130,9 +3130,9 @@ entry(
 3     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3151,9 +3151,9 @@ entry(
 3     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3172,9 +3172,9 @@ entry(
 3     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3193,9 +3193,9 @@ entry(
 3     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3214,9 +3214,9 @@ entry(
 3     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3235,9 +3235,9 @@ entry(
 3     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3256,9 +3256,9 @@ entry(
 3     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3277,9 +3277,9 @@ entry(
 3     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3298,9 +3298,9 @@ entry(
 3     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3319,9 +3319,9 @@ entry(
 3     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3340,9 +3340,9 @@ entry(
 3     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3361,9 +3361,9 @@ entry(
 3     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3383,9 +3383,9 @@ entry(
 4     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3405,9 +3405,9 @@ entry(
 4     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3427,9 +3427,9 @@ entry(
 4     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3449,9 +3449,9 @@ entry(
 4     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3471,9 +3471,9 @@ entry(
 4     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3493,9 +3493,9 @@ entry(
 4     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3515,9 +3515,9 @@ entry(
 4     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3537,9 +3537,9 @@ entry(
 4     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3559,9 +3559,9 @@ entry(
 4     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3581,9 +3581,9 @@ entry(
 4     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3602,9 +3602,9 @@ entry(
 3     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3623,9 +3623,9 @@ entry(
 3     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3644,9 +3644,9 @@ entry(
 3     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3664,9 +3664,9 @@ entry(
 2     R!H 0 {1,D}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3684,9 +3684,9 @@ entry(
 2     R!H 1 {1,D}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3704,9 +3704,9 @@ entry(
 2     R!H {2S,2T} {1,D}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3725,9 +3725,9 @@ entry(
 3     R!H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3746,9 +3746,9 @@ entry(
 3     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3767,9 +3767,9 @@ entry(
 3     R!H 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3788,9 +3788,9 @@ entry(
 3     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3809,9 +3809,9 @@ entry(
 3     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3830,9 +3830,9 @@ entry(
 3     R!H {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3851,9 +3851,9 @@ entry(
 3     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3872,9 +3872,9 @@ entry(
 3     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3893,9 +3893,9 @@ entry(
 3     H 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3914,9 +3914,9 @@ entry(
 3     C 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3935,9 +3935,9 @@ entry(
 3     C 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3956,9 +3956,9 @@ entry(
 3     C 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3977,9 +3977,9 @@ entry(
 3     C {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -3998,9 +3998,9 @@ entry(
 3     C {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4019,9 +4019,9 @@ entry(
 3     C {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4041,9 +4041,9 @@ entry(
 4     H 0 {3,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4063,9 +4063,9 @@ entry(
 4     H 0 {3,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4085,9 +4085,9 @@ entry(
 4     H 0 {3,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4107,9 +4107,9 @@ entry(
 4     C 0 {3,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4129,9 +4129,9 @@ entry(
 4     C 1 {3,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4151,9 +4151,9 @@ entry(
 4     C 1 {3,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4173,9 +4173,9 @@ entry(
 4     C {2S,2T} {3,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4195,9 +4195,9 @@ entry(
 4     C {2S,2T} {3,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4217,9 +4217,9 @@ entry(
 4     C {2S,2T} {3,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4238,9 +4238,9 @@ entry(
 3     O 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4259,9 +4259,9 @@ entry(
 3     O 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4280,9 +4280,9 @@ entry(
 3     O 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4300,9 +4300,9 @@ entry(
 2     C 0 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4320,9 +4320,9 @@ entry(
 2     C 1 {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -4340,9 +4340,9 @@ entry(
 2     C {2S,2T} {1,S}
 """,
     states = None,
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,

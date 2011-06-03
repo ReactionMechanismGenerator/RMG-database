@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "primaryThermoLibrary"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -21,9 +21,9 @@ entry(
         H298 = (0,"kcal/mol"),
         S298 = (31.233,"cal/(mol*K)","+|-",0.0007),
     ),
-    shortDesc = """library value for H2""",
+    shortDesc = u"""library value for H2""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -45,9 +45,9 @@ entry(
         H298 = (52.103,"kcal/mol","+|-",0.001),
         S298 = (27.419,"cal/(mol*K)","+|-",0.0005),
     ),
-    shortDesc = """library value for H radical""",
+    shortDesc = u"""library value for H radical""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -70,9 +70,9 @@ entry(
         H298 = (-0.0010244,"kcal/mol"),
         S298 = (49.0236,"cal/(mol*K)"),
     ),
-    shortDesc = """from GRI-Mech 3.0""",
+    shortDesc = u"""from GRI-Mech 3.0""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -94,9 +94,9 @@ entry(
         H298 = (9.4021,"kcal/mol"),
         S298 = (43.9063,"cal/(mol*K)"),
     ),
-    shortDesc = """taken from GRI-Mech 3.0 species s00010102""",
+    shortDesc = u"""taken from GRI-Mech 3.0 species s00010102""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -121,9 +121,9 @@ entry(
         H298 = (-37.9,"kcal/mol"),
         S298 = (61.28,"cal/(mol*K)"),
     ),
-    shortDesc = """Mebel et al (2004) http:""",
+    shortDesc = u"""Mebel et al (2004) http:""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -148,9 +148,9 @@ entry(
         H298 = (-11.5,"kcal/mol"),
         S298 = (64.53,"cal/(mol*K)"),
     ),
-    shortDesc = """Mebel et al (2004) http:""",
+    shortDesc = u"""Mebel et al (2004) http:""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -175,9 +175,9 @@ entry(
         H298 = (28.7,"kcal/mol"),
         S298 = (67.06,"cal/(mol*K)"),
     ),
-    shortDesc = """Mebel et al (2004) http:""",
+    shortDesc = u"""Mebel et al (2004) http:""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -201,9 +201,9 @@ entry(
         H298 = (188.13,"kcal/mol"),
         S298 = (59.26,"cal/(mol*K)"),
     ),
-    shortDesc = """doi:10.1016/j.chemphys.2008.01.057 and doi:10.1021/jp003224c""",
+    shortDesc = u"""doi:10.1016/j.chemphys.2008.01.057 and doi:10.1021/jp003224c""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -227,9 +227,9 @@ entry(
         H298 = (169.8,"kcal/mol"),
         S298 = (57.47,"cal/(mol*K)"),
     ),
-    shortDesc = """doi:10.1016/j.chemphys.2008.01.057 and doi:10.1021/jp003224c""",
+    shortDesc = u"""doi:10.1016/j.chemphys.2008.01.057 and doi:10.1021/jp003224c""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -254,9 +254,9 @@ entry(
         H298 = (18.31,"kcal/mol"),
         S298 = (90.63,"cal/(mol*K)"),
     ),
-    shortDesc = """QCI""",
+    shortDesc = u"""QCI""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -281,9 +281,9 @@ entry(
         H298 = (5.6,"kcal/mol"),
         S298 = (61.18,"cal/(mol*K)"),
     ),
-    shortDesc = """QCI""",
+    shortDesc = u"""QCI""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -307,9 +307,9 @@ entry(
         H298 = (113.99,"kcal/mol"),
         S298 = (56.44,"cal/(mol*K)"),
     ),
-    shortDesc = """Burcat's recommended value for 16165-40-5: C3H2 CYCLOPROPENYLIDENE BI-RADICAL SINGLET on 3/25/2011 (MRH converted from NASA-7 to RMG format)""",
+    shortDesc = u"""Burcat's recommended value for 16165-40-5: C3H2 CYCLOPROPENYLIDENE BI-RADICAL SINGLET on 3/25/2011 (MRH converted from NASA-7 to RMG format)""",
     longDesc = 
-"""
+u"""
 
 
 """,

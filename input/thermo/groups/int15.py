@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "1,5-Interaction Corrections"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -27,9 +27,9 @@ entry(
         H298 = (0,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -58,9 +58,9 @@ entry(
         H298 = (1.5,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -90,9 +90,9 @@ entry(
         H298 = (3,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -121,9 +121,9 @@ entry(
         H298 = (3.5,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,
@@ -153,9 +153,9 @@ entry(
         H298 = (7,"kcal/mol"),
         S298 = (0,"cal/(mol*K)"),
     ),
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 
 """,

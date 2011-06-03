@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "Dooley/methylformate"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -39,9 +39,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -81,9 +81,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -123,9 +123,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -164,9 +164,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -208,9 +208,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -250,9 +250,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -293,9 +293,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -336,9 +336,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -382,9 +382,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -428,9 +428,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -470,9 +470,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -514,9 +514,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -557,9 +557,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -601,9 +601,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -645,9 +645,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -690,9 +690,9 @@ O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -735,9 +735,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -779,9 +779,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -824,9 +824,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -868,9 +868,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -911,9 +911,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -954,9 +954,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -998,9 +998,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1048,9 +1048,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1091,9 +1091,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1142,9 +1142,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1187,9 +1187,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1214,10 +1214,10 @@ O2
     product1 = 
 """
 O2CHO
-1     C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,D}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1228,9 +1228,9 @@ O2CHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1249,10 +1249,10 @@ CH2O
     reactant2 = 
 """
 O2CHO
-1     C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,D}
+4     O     1 {2,S}
 """,
     product1 = 
 """
@@ -1263,10 +1263,10 @@ HCO
     product2 = 
 """
 HO2CHO
-1     C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,D}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1277,9 +1277,9 @@ HO2CHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1292,10 +1292,10 @@ entry(
     reactant1 = 
 """
 HO2CHO
-1     C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,D}
+4     O     0 {2,S}
 """,
     product1 = 
 """
@@ -1318,9 +1318,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1362,9 +1362,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1405,9 +1405,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1448,9 +1448,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1493,9 +1493,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1538,9 +1538,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1581,9 +1581,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1608,10 +1608,10 @@ HO2
     product1 = 
 """
 OCH2O2H
-1     O     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     1 {1,S}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1622,9 +1622,9 @@ OCH2O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1637,18 +1637,18 @@ entry(
     reactant1 = 
 """
 OCH2O2H
-1     O     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     1 {1,S}
+4     O     0 {2,S}
 """,
     product1 = 
 """
 HOCH2O2
 1     C     0 {2,S} {3,S}
-2     O     0 {1,S}
-3     O     0 {1,S} {4,S}
-4     O     1 {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1659,9 +1659,9 @@ HOCH2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1675,9 +1675,9 @@ entry(
 """
 HOCH2O2
 1     C     0 {2,S} {3,S}
-2     O     0 {1,S}
-3     O     0 {1,S} {4,S}
-4     O     1 {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S}
+4     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -1689,9 +1689,9 @@ HO2
 """
 HOCH2O2H
 1     C     0 {2,S} {3,S}
-2     O     0 {1,S}
-3     O     0 {1,S} {4,S}
-4     O     0 {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S}
+4     O     0 {2,S}
 """,
     product2 = 
 """
@@ -1708,9 +1708,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1736,9 +1736,9 @@ OH
 """
 HOCH2O2H
 1     C     0 {2,S} {3,S}
-2     O     0 {1,S}
-3     O     0 {1,S} {4,S}
-4     O     0 {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1749,9 +1749,9 @@ HOCH2O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1791,9 +1791,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1834,9 +1834,9 @@ O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1877,9 +1877,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1920,9 +1920,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -1962,9 +1962,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2003,9 +2003,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2044,9 +2044,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2087,9 +2087,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2130,9 +2130,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2173,9 +2173,9 @@ CH3O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2216,9 +2216,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2260,9 +2260,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2275,9 +2275,9 @@ entry(
     reactant1 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -2288,9 +2288,9 @@ CH2O
     product1 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -2307,9 +2307,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2327,9 +2327,9 @@ CH4
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
@@ -2339,9 +2339,9 @@ CH3
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2352,9 +2352,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2373,9 +2373,9 @@ CH3OH
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
@@ -2386,9 +2386,9 @@ CH2OH
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -2399,9 +2399,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2414,9 +2414,9 @@ entry(
     reactant1 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -2444,9 +2444,9 @@ CH3O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2459,9 +2459,9 @@ entry(
     reactant1 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -2472,9 +2472,9 @@ HO2
     product1 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -2491,9 +2491,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2506,16 +2506,16 @@ entry(
     reactant1 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
@@ -2544,9 +2544,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2559,16 +2559,16 @@ entry(
     reactant1 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
@@ -2597,9 +2597,9 @@ CH3O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2612,9 +2612,9 @@ entry(
     reactant1 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -2641,9 +2641,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2656,9 +2656,9 @@ entry(
     reactant1 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -2686,9 +2686,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2701,9 +2701,9 @@ entry(
     reactant1 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -2731,9 +2731,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2746,9 +2746,9 @@ entry(
     reactant1 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product1 = 
 """
@@ -2770,9 +2770,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2814,9 +2814,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2856,9 +2856,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2899,9 +2899,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2942,9 +2942,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -2988,9 +2988,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3034,9 +3034,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3079,9 +3079,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3124,9 +3124,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3169,9 +3169,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3214,9 +3214,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3259,9 +3259,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3304,9 +3304,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3346,9 +3346,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3389,9 +3389,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3432,9 +3432,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3478,9 +3478,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3524,9 +3524,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3569,9 +3569,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3614,9 +3614,9 @@ CO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3659,9 +3659,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3704,9 +3704,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3748,9 +3748,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3792,9 +3792,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3835,9 +3835,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3878,9 +3878,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3921,9 +3921,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -3966,9 +3966,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4011,9 +4011,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4056,9 +4056,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4099,9 +4099,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4144,9 +4144,9 @@ CH2OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4186,9 +4186,9 @@ C2H5
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4227,9 +4227,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4268,9 +4268,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4309,9 +4309,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4350,9 +4350,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4392,9 +4392,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4434,9 +4434,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4476,9 +4476,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4518,9 +4518,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4560,9 +4560,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4602,9 +4602,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4645,9 +4645,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4688,9 +4688,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4731,9 +4731,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4772,9 +4772,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4815,9 +4815,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4860,9 +4860,9 @@ CO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4903,9 +4903,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4945,9 +4945,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -4987,9 +4987,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5029,9 +5029,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5077,9 +5077,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5120,9 +5120,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5165,9 +5165,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5207,9 +5207,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5250,9 +5250,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5293,9 +5293,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5334,9 +5334,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5377,9 +5377,9 @@ O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5419,9 +5419,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5461,9 +5461,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5503,9 +5503,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5545,9 +5545,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5590,9 +5590,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5630,9 +5630,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5669,9 +5669,9 @@ HOCH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5708,9 +5708,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5758,9 +5758,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5807,9 +5807,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5858,9 +5858,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5908,9 +5908,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -5957,9 +5957,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6008,9 +6008,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6057,9 +6057,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6101,9 +6101,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6144,9 +6144,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6187,9 +6187,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6232,9 +6232,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6275,9 +6275,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6320,9 +6320,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6341,9 +6341,9 @@ C2H6
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
@@ -6354,9 +6354,9 @@ C2H5
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6367,9 +6367,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6412,9 +6412,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6455,9 +6455,9 @@ CH2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6498,9 +6498,9 @@ C2H5
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6519,9 +6519,9 @@ H2
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
@@ -6531,9 +6531,9 @@ H
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6544,9 +6544,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6565,10 +6565,10 @@ H2
     reactant2 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product1 = 
 """
@@ -6578,10 +6578,10 @@ H
     product2 = 
 """
 C2H5O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6592,9 +6592,9 @@ C2H5O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6637,9 +6637,9 @@ C2H3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6680,9 +6680,9 @@ C2H4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6724,9 +6724,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6750,9 +6750,9 @@ O
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -6768,9 +6768,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6795,9 +6795,9 @@ HO2
     product1 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product2 = 
 """
@@ -6813,9 +6813,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6828,9 +6828,9 @@ entry(
     reactant1 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -6847,9 +6847,9 @@ CH3O
     product2 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6860,9 +6860,9 @@ C2H5O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6875,9 +6875,9 @@ entry(
     reactant1 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -6888,9 +6888,9 @@ O2
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -6907,9 +6907,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6922,9 +6922,9 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -6934,9 +6934,9 @@ H
     product1 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6947,9 +6947,9 @@ C2H5O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -6974,10 +6974,10 @@ O2
     product1 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -6988,9 +6988,9 @@ C2H5O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7003,10 +7003,10 @@ entry(
     reactant1 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -7017,10 +7017,10 @@ CH2O
     product1 = 
 """
 C2H5O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     product2 = 
 """
@@ -7037,9 +7037,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7057,10 +7057,10 @@ CH4
     reactant2 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product1 = 
 """
@@ -7070,10 +7070,10 @@ CH3
     product2 = 
 """
 C2H5O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7084,9 +7084,9 @@ C2H5O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7105,10 +7105,10 @@ CH3OH
     reactant2 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product1 = 
 """
@@ -7119,10 +7119,10 @@ CH2OH
     product2 = 
 """
 C2H5O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7133,9 +7133,9 @@ C2H5O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7148,10 +7148,10 @@ entry(
     reactant1 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -7162,10 +7162,10 @@ HO2
     product1 = 
 """
 C2H5O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     product2 = 
 """
@@ -7182,9 +7182,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7203,10 +7203,10 @@ C2H6
     reactant2 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product1 = 
 """
@@ -7217,10 +7217,10 @@ C2H5
     product2 = 
 """
 C2H5O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7231,9 +7231,9 @@ C2H5O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7246,17 +7246,17 @@ entry(
     reactant1 = 
 """
 C2H5O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     product1 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product2 = 
 """
@@ -7272,9 +7272,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7299,10 +7299,10 @@ O2
     product1 = 
 """
 C2H4O2H
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     1 {1,S}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7313,9 +7313,9 @@ C2H4O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7359,9 +7359,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7405,9 +7405,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7450,9 +7450,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7477,9 +7477,9 @@ O2
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -7495,9 +7495,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7510,18 +7510,18 @@ entry(
     reactant1 = 
 """
 C2H4O2H
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     1 {1,S}
+4     O     0 {2,S}
 """,
     product1 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7532,9 +7532,9 @@ C2H5O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7547,17 +7547,17 @@ entry(
     reactant1 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -7573,9 +7573,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7588,10 +7588,10 @@ entry(
     reactant1 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product1 = 
 """
@@ -7614,9 +7614,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7629,10 +7629,10 @@ entry(
     reactant1 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product1 = 
 """
@@ -7655,9 +7655,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7670,10 +7670,10 @@ entry(
     reactant1 = 
 """
 C2H4O2H
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     1 {1,S}
+4     O     0 {2,S}
 """,
     product1 = 
 """
@@ -7696,9 +7696,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7711,10 +7711,10 @@ entry(
     reactant1 = 
 """
 C2H4O2H
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     1 {1,S}
+4     O     0 {2,S}
 """,
     product1 = 
 """
@@ -7737,9 +7737,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7752,17 +7752,17 @@ entry(
     reactant1 = 
 """
 C2H4O2H
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     1 {1,S}
+4     O     0 {2,S}
 """,
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -7778,9 +7778,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7817,9 +7817,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7839,9 +7839,9 @@ C2H4O1-2
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -7852,9 +7852,9 @@ CH3CHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7897,9 +7897,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7943,9 +7943,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -7990,9 +7990,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8012,9 +8012,9 @@ C2H4O1-2
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
@@ -8026,9 +8026,9 @@ C2H3O1-2
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8039,9 +8039,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8061,10 +8061,10 @@ C2H4O1-2
     reactant2 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product1 = 
 """
@@ -8076,10 +8076,10 @@ C2H3O1-2
     product2 = 
 """
 C2H5O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8090,9 +8090,9 @@ C2H5O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8135,9 +8135,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8182,9 +8182,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8217,9 +8217,9 @@ CH3CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8239,9 +8239,9 @@ C2H3O1-2
     product1 = 
 """
 CH2CHO
-1     C     1 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S}
+3     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8252,9 +8252,9 @@ CH2CHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8278,9 +8278,9 @@ HCO
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8291,9 +8291,9 @@ CH3CHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8306,9 +8306,9 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -8337,9 +8337,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8352,9 +8352,9 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -8382,9 +8382,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8397,9 +8397,9 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -8427,9 +8427,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8442,9 +8442,9 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -8474,9 +8474,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8489,9 +8489,9 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -8519,9 +8519,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8534,9 +8534,9 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -8566,9 +8566,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8581,23 +8581,23 @@ entry(
     reactant1 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product1 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -8615,9 +8615,9 @@ CH3CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8630,18 +8630,18 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
 CH3CO3
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     1 {2,S}
 """,
     product1 = 
 """
@@ -8653,11 +8653,11 @@ CH3CO
     product2 = 
 """
 CH3CO3H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8668,9 +8668,9 @@ CH3CO3H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8683,9 +8683,9 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -8713,9 +8713,9 @@ HCOOH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8728,9 +8728,9 @@ entry(
     reactant1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -8740,9 +8740,9 @@ OH
     product1 = 
 """
 CH2CHO
-1     C     1 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -8758,9 +8758,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8785,9 +8785,9 @@ H
     product1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -8804,9 +8804,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8831,9 +8831,9 @@ O
     product1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -8849,9 +8849,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8876,9 +8876,9 @@ CH3
     product1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -8894,9 +8894,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8922,11 +8922,11 @@ O2
     product1 = 
 """
 CH3CO3
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -8937,9 +8937,9 @@ CH3CO3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -8952,11 +8952,11 @@ entry(
     reactant1 = 
 """
 CH3CO3
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -8967,11 +8967,11 @@ HO2
     product1 = 
 """
 CH3CO3H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     0 {2,S}
 """,
     product2 = 
 """
@@ -8988,9 +8988,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9009,11 +9009,11 @@ H2O2
     reactant2 = 
 """
 CH3CO3
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     1 {2,S}
 """,
     product1 = 
 """
@@ -9024,11 +9024,11 @@ HO2
     product2 = 
 """
 CH3CO3H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9039,9 +9039,9 @@ CH3CO3H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9059,11 +9059,11 @@ CH4
     reactant2 = 
 """
 CH3CO3
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     1 {2,S}
 """,
     product1 = 
 """
@@ -9073,11 +9073,11 @@ CH3
     product2 = 
 """
 CH3CO3H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9088,9 +9088,9 @@ CH3CO3H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9109,11 +9109,11 @@ CH2O
     reactant2 = 
 """
 CH3CO3
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     1 {2,S}
 """,
     product1 = 
 """
@@ -9124,11 +9124,11 @@ HCO
     product2 = 
 """
 CH3CO3H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9139,9 +9139,9 @@ CH3CO3H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9160,11 +9160,11 @@ C2H6
     reactant2 = 
 """
 CH3CO3
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     1 {2,S}
 """,
     product1 = 
 """
@@ -9175,11 +9175,11 @@ C2H5
     product2 = 
 """
 CH3CO3H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9190,9 +9190,9 @@ CH3CO3H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9205,19 +9205,19 @@ entry(
     reactant1 = 
 """
 CH3CO3H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     0 {2,S}
 """,
     product1 = 
 """
 CH3CO2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,D} {4,S}
+2     C     0 {1,S}
+3     O     0 {1,D}
+4     O     1 {1,S}
 """,
     product2 = 
 """
@@ -9233,9 +9233,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9248,9 +9248,9 @@ entry(
     reactant1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -9260,9 +9260,9 @@ H
     product1 = 
 """
 CH2CHO
-1     C     1 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S}
+3     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9273,9 +9273,9 @@ CH2CHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9288,9 +9288,9 @@ entry(
     reactant1 = 
 """
 CH2CHO
-1     C     1 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -9324,9 +9324,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9339,9 +9339,9 @@ entry(
     reactant1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -9368,9 +9368,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9383,9 +9383,9 @@ entry(
     reactant1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -9395,9 +9395,9 @@ H
     product1 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -9414,9 +9414,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9429,9 +9429,9 @@ entry(
     reactant1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -9459,9 +9459,9 @@ CO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9474,9 +9474,9 @@ entry(
     reactant1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -9486,9 +9486,9 @@ O
     product1 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -9504,9 +9504,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9519,9 +9519,9 @@ entry(
     reactant1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -9531,9 +9531,9 @@ OH
     product1 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -9549,9 +9549,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9564,9 +9564,9 @@ entry(
     reactant1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -9594,9 +9594,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9614,9 +9614,9 @@ CH2(S)
     reactant2 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     product1 = 
 """
@@ -9639,9 +9639,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9654,9 +9654,9 @@ entry(
     reactant1 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -9690,9 +9690,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9710,9 +9710,9 @@ H
     reactant2 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     product1 = 
 """
@@ -9734,9 +9734,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9749,9 +9749,9 @@ entry(
     reactant1 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -9784,9 +9784,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9799,9 +9799,9 @@ entry(
     reactant1 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -9835,9 +9835,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9866,9 +9866,9 @@ H
     product2 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -9879,9 +9879,9 @@ CH2CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9899,9 +9899,9 @@ CH
     reactant2 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     product1 = 
 """
@@ -9924,9 +9924,9 @@ C2H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -9968,9 +9968,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10011,9 +10011,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10037,9 +10037,9 @@ O
     product1 = 
 """
 CH2CHO
-1     C     1 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -10055,9 +10055,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10098,9 +10098,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10141,9 +10141,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10186,9 +10186,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10231,9 +10231,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10252,9 +10252,9 @@ C2H4
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
@@ -10265,9 +10265,9 @@ C2H3
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10278,9 +10278,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10299,10 +10299,10 @@ C2H4
     reactant2 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product1 = 
 """
@@ -10313,10 +10313,10 @@ C2H3
     product2 = 
 """
 C2H5O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10327,9 +10327,9 @@ C2H5O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10348,11 +10348,11 @@ C2H4
     reactant2 = 
 """
 CH3CO3
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     1 {2,S}
 """,
     product1 = 
 """
@@ -10363,11 +10363,11 @@ C2H3
     product2 = 
 """
 CH3CO3H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10378,9 +10378,9 @@ CH3CO3H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10399,9 +10399,9 @@ C2H4
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
@@ -10425,9 +10425,9 @@ CH3O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10446,10 +10446,10 @@ C2H4
     reactant2 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product1 = 
 """
@@ -10461,9 +10461,9 @@ C2H4O1-2
     product2 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10474,9 +10474,9 @@ C2H5O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10519,9 +10519,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10561,9 +10561,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10606,9 +10606,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10651,9 +10651,9 @@ C2H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10683,9 +10683,9 @@ O
     product2 = 
 """
 CH2CHO
-1     C     1 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S}
+3     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10696,9 +10696,9 @@ CH2CHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10739,9 +10739,9 @@ C2H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10783,9 +10783,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10826,9 +10826,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10853,9 +10853,9 @@ O2
     product1 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -10871,9 +10871,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10914,9 +10914,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10957,9 +10957,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -10983,9 +10983,9 @@ O
     product1 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -11001,9 +11001,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11044,9 +11044,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11070,9 +11070,9 @@ OH
     product1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -11088,9 +11088,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11131,9 +11131,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11162,9 +11162,9 @@ H
     product2 = 
 """
 HCCOH
-1     C     0 {2,T}
-2     C     0 {1,T} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,T} {3,S}
+2     C     0 {1,T}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11175,9 +11175,9 @@ HCCOH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11195,9 +11195,9 @@ H
     reactant2 = 
 """
 HCCOH
-1     C     0 {2,T}
-2     C     0 {1,T} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,T} {3,S}
+2     C     0 {1,T}
+3     O     0 {1,S}
 """,
     product1 = 
 """
@@ -11207,9 +11207,9 @@ H
     product2 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11220,9 +11220,9 @@ CH2CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11235,9 +11235,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -11248,9 +11248,9 @@ O2
     product1 = 
 """
 PC2H4OH
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -11267,9 +11267,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11282,9 +11282,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -11295,9 +11295,9 @@ O2
     product1 = 
 """
 SC2H4OH
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -11314,9 +11314,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11329,9 +11329,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -11341,9 +11341,9 @@ OH
     product1 = 
 """
 PC2H4OH
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -11359,9 +11359,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11374,9 +11374,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -11386,9 +11386,9 @@ OH
     product1 = 
 """
 SC2H4OH
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -11404,9 +11404,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11419,9 +11419,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -11431,9 +11431,9 @@ OH
     product1 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product2 = 
 """
@@ -11449,9 +11449,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11464,9 +11464,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -11476,9 +11476,9 @@ H
     product1 = 
 """
 PC2H4OH
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -11495,9 +11495,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11510,9 +11510,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -11522,9 +11522,9 @@ H
     product1 = 
 """
 SC2H4OH
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -11541,9 +11541,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11556,9 +11556,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -11568,9 +11568,9 @@ H
     product1 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product2 = 
 """
@@ -11587,9 +11587,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11602,9 +11602,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -11615,9 +11615,9 @@ HO2
     product1 = 
 """
 PC2H4OH
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -11634,9 +11634,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11649,9 +11649,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -11662,9 +11662,9 @@ HO2
     product1 = 
 """
 SC2H4OH
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -11681,9 +11681,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11696,9 +11696,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -11709,9 +11709,9 @@ HO2
     product1 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product2 = 
 """
@@ -11728,9 +11728,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11743,30 +11743,30 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
 PC2H4OH
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11777,9 +11777,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11792,30 +11792,30 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
 SC2H4OH
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11826,9 +11826,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11841,30 +11841,30 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11875,9 +11875,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11890,9 +11890,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -11902,9 +11902,9 @@ O
     product1 = 
 """
 PC2H4OH
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -11920,9 +11920,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11935,9 +11935,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -11947,9 +11947,9 @@ O
     product1 = 
 """
 SC2H4OH
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -11965,9 +11965,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -11980,9 +11980,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -11992,9 +11992,9 @@ O
     product1 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product2 = 
 """
@@ -12010,9 +12010,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12025,9 +12025,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -12037,9 +12037,9 @@ CH3
     product1 = 
 """
 PC2H4OH
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -12055,9 +12055,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12070,9 +12070,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -12082,9 +12082,9 @@ CH3
     product1 = 
 """
 SC2H4OH
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -12100,9 +12100,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12115,9 +12115,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -12127,9 +12127,9 @@ CH3
     product1 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product2 = 
 """
@@ -12145,9 +12145,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12160,9 +12160,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -12173,9 +12173,9 @@ C2H5
     product1 = 
 """
 PC2H4OH
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -12192,9 +12192,9 @@ C2H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12207,9 +12207,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -12220,9 +12220,9 @@ C2H5
     product1 = 
 """
 SC2H4OH
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -12239,9 +12239,9 @@ C2H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12265,9 +12265,9 @@ OH
     product1 = 
 """
 PC2H4OH
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12278,9 +12278,9 @@ PC2H4OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12293,18 +12293,18 @@ entry(
     reactant1 = 
 """
 O2C2H4OH
-1     O     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     O     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
 PC2H4OH
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -12321,9 +12321,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12336,11 +12336,11 @@ entry(
     reactant1 = 
 """
 O2C2H4OH
-1     O     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     O     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
@@ -12368,9 +12368,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12383,9 +12383,9 @@ entry(
     reactant1 = 
 """
 SC2H4OH
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     reactant2 = 
 """
@@ -12396,9 +12396,9 @@ O2
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -12415,9 +12415,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12430,10 +12430,10 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -12443,10 +12443,10 @@ OH
     product1 = 
 """
 CH3COCH2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     1 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     1 {1,S}
 """,
     product2 = 
 """
@@ -12462,9 +12462,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12477,10 +12477,10 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -12490,10 +12490,10 @@ H
     product1 = 
 """
 CH3COCH2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     1 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     1 {1,S}
 """,
     product2 = 
 """
@@ -12510,9 +12510,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12525,10 +12525,10 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -12538,10 +12538,10 @@ O
     product1 = 
 """
 CH3COCH2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     1 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     1 {1,S}
 """,
     product2 = 
 """
@@ -12557,9 +12557,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12572,10 +12572,10 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -12585,10 +12585,10 @@ CH3
     product1 = 
 """
 CH3COCH2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     1 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     1 {1,S}
 """,
     product2 = 
 """
@@ -12604,9 +12604,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12619,10 +12619,10 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -12633,10 +12633,10 @@ CH3O
     product1 = 
 """
 CH3COCH2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     1 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     1 {1,S}
 """,
     product2 = 
 """
@@ -12653,9 +12653,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12668,10 +12668,10 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -12682,10 +12682,10 @@ O2
     product1 = 
 """
 CH3COCH2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     1 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     1 {1,S}
 """,
     product2 = 
 """
@@ -12702,9 +12702,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12717,10 +12717,10 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -12731,10 +12731,10 @@ HO2
     product1 = 
 """
 CH3COCH2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     1 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     1 {1,S}
 """,
     product2 = 
 """
@@ -12751,9 +12751,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12766,32 +12766,32 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
 CH3COCH2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     1 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     1 {1,S}
 """,
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12802,9 +12802,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12817,17 +12817,17 @@ entry(
     reactant1 = 
 """
 CH3COCH2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     1 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     1 {1,S}
 """,
     product1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -12843,9 +12843,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12858,10 +12858,10 @@ entry(
     reactant1 = 
 """
 CH3COCH2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     1 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -12872,12 +12872,12 @@ O2
     product1 = 
 """
 CH3COCH2O2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S} {5,S}
-5     O     0 {4,S} {6,S}
-6     O     1 {5,S}
+1     C     0 {2,S} {4,D} {5,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {2,S} {6,S}
+4     O     0 {1,D}
+5     C     0 {1,S}
+6     O     1 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12888,9 +12888,9 @@ CH3COCH2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12903,38 +12903,38 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
 CH3COCH2O2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S} {5,S}
-5     O     0 {4,S} {6,S}
-6     O     1 {5,S}
+1     C     0 {2,S} {4,D} {5,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {2,S} {6,S}
+4     O     0 {1,D}
+5     C     0 {1,S}
+6     O     1 {3,S}
 """,
     product1 = 
 """
 CH3COCH2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     1 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     1 {1,S}
 """,
     product2 = 
 """
 CH3COCH2O2H
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S} {5,S}
-5     O     0 {4,S} {6,S}
-6     O     0 {5,S}
+1     C     0 {2,S} {4,D} {5,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {2,S} {6,S}
+4     O     0 {1,D}
+5     C     0 {1,S}
+6     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12945,9 +12945,9 @@ CH3COCH2O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -12966,12 +12966,12 @@ CH2O
     reactant2 = 
 """
 CH3COCH2O2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S} {5,S}
-5     O     0 {4,S} {6,S}
-6     O     1 {5,S}
+1     C     0 {2,S} {4,D} {5,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {2,S} {6,S}
+4     O     0 {1,D}
+5     C     0 {1,S}
+6     O     1 {3,S}
 """,
     product1 = 
 """
@@ -12982,12 +12982,12 @@ HCO
     product2 = 
 """
 CH3COCH2O2H
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S} {5,S}
-5     O     0 {4,S} {6,S}
-6     O     0 {5,S}
+1     C     0 {2,S} {4,D} {5,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {2,S} {6,S}
+4     O     0 {1,D}
+5     C     0 {1,S}
+6     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -12998,9 +12998,9 @@ CH3COCH2O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13019,22 +13019,22 @@ HO2
     reactant2 = 
 """
 CH3COCH2O2
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S} {5,S}
-5     O     0 {4,S} {6,S}
-6     O     1 {5,S}
+1     C     0 {2,S} {4,D} {5,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {2,S} {6,S}
+4     O     0 {1,D}
+5     C     0 {1,S}
+6     O     1 {3,S}
 """,
     product1 = 
 """
 CH3COCH2O2H
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S} {5,S}
-5     O     0 {4,S} {6,S}
-6     O     0 {5,S}
+1     C     0 {2,S} {4,D} {5,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {2,S} {6,S}
+4     O     0 {1,D}
+5     C     0 {1,S}
+6     O     0 {3,S}
 """,
     product2 = 
 """
@@ -13051,9 +13051,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13066,21 +13066,21 @@ entry(
     reactant1 = 
 """
 CH3COCH2O2H
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S} {5,S}
-5     O     0 {4,S} {6,S}
-6     O     0 {5,S}
+1     C     0 {2,S} {4,D} {5,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {2,S} {6,S}
+4     O     0 {1,D}
+5     C     0 {1,S}
+6     O     0 {3,S}
 """,
     product1 = 
 """
 CH3COCH2O
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,D} {4,S}
+2     C     0 {1,S} {5,S}
+3     O     0 {1,D}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     product2 = 
 """
@@ -13096,9 +13096,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13124,11 +13124,11 @@ CH2O
     product1 = 
 """
 CH3COCH2O
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,D} {4,S}
+2     C     0 {1,S} {5,S}
+3     O     0 {1,D}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13139,9 +13139,9 @@ CH3COCH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13166,10 +13166,10 @@ HCO
     product1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13180,9 +13180,9 @@ C2H3CHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13195,10 +13195,10 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -13208,10 +13208,10 @@ H
     product1 = 
 """
 C2H3CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -13228,9 +13228,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13243,10 +13243,10 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -13256,10 +13256,10 @@ O
     product1 = 
 """
 C2H3CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -13275,9 +13275,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13290,10 +13290,10 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -13321,9 +13321,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13336,10 +13336,10 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -13349,9 +13349,9 @@ O
     product1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -13373,9 +13373,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13388,10 +13388,10 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -13401,10 +13401,10 @@ OH
     product1 = 
 """
 C2H3CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -13420,9 +13420,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13435,10 +13435,10 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -13449,10 +13449,10 @@ O2
     product1 = 
 """
 C2H3CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -13469,9 +13469,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13484,10 +13484,10 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -13498,10 +13498,10 @@ HO2
     product1 = 
 """
 C2H3CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -13518,9 +13518,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13533,10 +13533,10 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -13546,10 +13546,10 @@ CH3
     product1 = 
 """
 C2H3CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -13565,9 +13565,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13580,10 +13580,10 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -13594,10 +13594,10 @@ C2H3
     product1 = 
 """
 C2H3CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -13614,9 +13614,9 @@ C2H4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13629,10 +13629,10 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -13643,10 +13643,10 @@ CH3O
     product1 = 
 """
 C2H3CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -13663,9 +13663,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13678,32 +13678,32 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
 C2H3CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13714,9 +13714,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13741,10 +13741,10 @@ CO
     product1 = 
 """
 C2H3CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13755,9 +13755,9 @@ C2H3CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13770,10 +13770,10 @@ entry(
     reactant1 = 
 """
 C2H3CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -13784,9 +13784,9 @@ O2
     product1 = 
 """
 CH2CHO
-1     C     1 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -13804,9 +13804,9 @@ CO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13819,10 +13819,10 @@ entry(
     reactant1 = 
 """
 C2H3CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -13851,9 +13851,9 @@ CO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13878,10 +13878,10 @@ HCO
     product1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13892,9 +13892,9 @@ C2H5CHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13907,10 +13907,10 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -13920,10 +13920,10 @@ H
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -13940,9 +13940,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -13955,10 +13955,10 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -13968,10 +13968,10 @@ O
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -13987,9 +13987,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14002,10 +14002,10 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -14015,10 +14015,10 @@ OH
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -14034,9 +14034,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14049,10 +14049,10 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -14062,10 +14062,10 @@ CH3
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -14081,9 +14081,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14096,10 +14096,10 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -14110,10 +14110,10 @@ HO2
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -14130,9 +14130,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14145,10 +14145,10 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -14159,10 +14159,10 @@ CH3O
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -14179,9 +14179,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14194,32 +14194,32 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14230,9 +14230,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14245,10 +14245,10 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -14259,10 +14259,10 @@ C2H5
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -14279,9 +14279,9 @@ C2H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14294,32 +14294,32 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14330,9 +14330,9 @@ C2H5OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14345,34 +14345,34 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
 C2H5O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14383,9 +14383,9 @@ C2H5O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14398,10 +14398,10 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -14412,10 +14412,10 @@ O2
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -14432,9 +14432,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14447,36 +14447,36 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
 CH3CO3
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     1 {2,S}
 """,
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
 CH3CO3H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14487,9 +14487,9 @@ CH3CO3H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14502,10 +14502,10 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -14516,10 +14516,10 @@ C2H3
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -14536,9 +14536,9 @@ C2H4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14563,10 +14563,10 @@ CO
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14577,9 +14577,9 @@ C2H5CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14592,9 +14592,9 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -14604,9 +14604,9 @@ OH
     product1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -14622,9 +14622,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14637,9 +14637,9 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -14649,9 +14649,9 @@ H
     product1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -14668,9 +14668,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14683,9 +14683,9 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -14695,9 +14695,9 @@ O
     product1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -14713,9 +14713,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14728,9 +14728,9 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -14741,9 +14741,9 @@ HO2
     product1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -14760,9 +14760,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14775,30 +14775,30 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14809,9 +14809,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14824,9 +14824,9 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -14836,9 +14836,9 @@ CH3
     product1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -14854,9 +14854,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14869,9 +14869,9 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -14882,9 +14882,9 @@ O2
     product1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -14901,9 +14901,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14916,9 +14916,9 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -14929,9 +14929,9 @@ CH3O
     product1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -14948,9 +14948,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -14963,34 +14963,34 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 CH3OCH2O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     product2 = 
 """
 CH3OCH2O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15001,9 +15001,9 @@ CH3OCH2O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15016,32 +15016,32 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 O2CHO
-1     C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,D}
+4     O     1 {2,S}
 """,
     product1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     product2 = 
 """
 HO2CHO
-1     C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,D}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15052,9 +15052,9 @@ HO2CHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15067,9 +15067,9 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -15081,9 +15081,9 @@ OCHO
     product1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -15101,9 +15101,9 @@ HCOOH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15116,9 +15116,9 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     product1 = 
 """
@@ -15140,9 +15140,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15155,9 +15155,9 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -15168,9 +15168,9 @@ CH3O
     product1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -15187,9 +15187,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15202,9 +15202,9 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -15215,9 +15215,9 @@ CH2O
     product1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -15234,9 +15234,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15249,23 +15249,23 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -15283,9 +15283,9 @@ CH3CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15298,9 +15298,9 @@ entry(
     reactant1 = 
 """
 CH3OCH2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -15311,11 +15311,11 @@ O2
     product1 = 
 """
 CH3OCH2O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15326,9 +15326,9 @@ CH3OCH2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15341,11 +15341,11 @@ entry(
     reactant1 = 
 """
 CH3OCH2O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
@@ -15356,11 +15356,11 @@ CH2O
     product1 = 
 """
 CH3OCH2O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     product2 = 
 """
@@ -15377,9 +15377,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15392,27 +15392,27 @@ entry(
     reactant1 = 
 """
 CH3OCH2O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product1 = 
 """
 CH3OCH2O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     product2 = 
 """
@@ -15430,9 +15430,9 @@ CH3CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15445,20 +15445,20 @@ entry(
     reactant1 = 
 """
 CH3OCH2O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
 CH3OCH2O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
@@ -15469,18 +15469,18 @@ O2
     product2 = 
 """
 CH3OCH2O
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product3 = 
 """
 CH3OCH2O
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15491,9 +15491,9 @@ CH3OCH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15506,10 +15506,10 @@ entry(
     reactant1 = 
 """
 CH3OCH2O
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -15519,11 +15519,11 @@ OH
     product1 = 
 """
 CH3OCH2O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15534,9 +15534,9 @@ CH3OCH2O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15561,10 +15561,10 @@ CH2O
     product1 = 
 """
 CH3OCH2O
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15575,9 +15575,9 @@ CH3OCH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15590,20 +15590,20 @@ entry(
     reactant1 = 
 """
 CH3OCH2O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
 CH2OCH2O2H
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     1 {2,S}
+5     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15614,9 +15614,9 @@ CH2OCH2O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15629,11 +15629,11 @@ entry(
     reactant1 = 
 """
 CH2OCH2O2H
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     1 {2,S}
+5     O     0 {3,S}
 """,
     product1 = 
 """
@@ -15661,9 +15661,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15676,11 +15676,11 @@ entry(
     reactant1 = 
 """
 CH2OCH2O2H
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     1 {2,S}
+5     O     0 {3,S}
 """,
     reactant2 = 
 """
@@ -15691,13 +15691,13 @@ O2
     product1 = 
 """
 O2CH2OCH2O2H
-1     C     0 {2,S} {6,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
-6     O     0 {1,S} {7,S}
-7     O     1 {6,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {5,S}
+3     C     0 {1,S} {4,S}
+4     O     0 {3,S} {6,S}
+5     O     0 {2,S} {7,S}
+6     O     0 {4,S}
+7     O     1 {5,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15708,9 +15708,9 @@ O2CH2OCH2O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15723,13 +15723,13 @@ entry(
     reactant1 = 
 """
 O2CH2OCH2O2H
-1     C     0 {2,S} {6,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
-6     O     0 {1,S} {7,S}
-7     O     1 {6,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {5,S}
+3     C     0 {1,S} {4,S}
+4     O     0 {3,S} {6,S}
+5     O     0 {2,S} {7,S}
+6     O     0 {4,S}
+7     O     1 {5,S}
 """,
     product1 = 
 """
@@ -15755,9 +15755,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15770,9 +15770,9 @@ entry(
     reactant1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -15782,9 +15782,9 @@ H
     product1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15795,9 +15795,9 @@ C3H8
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15810,9 +15810,9 @@ entry(
     reactant1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -15822,9 +15822,9 @@ H
     product1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15835,9 +15835,9 @@ C3H8
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15850,9 +15850,9 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -15863,9 +15863,9 @@ O2
     product1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -15882,9 +15882,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15897,9 +15897,9 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -15910,9 +15910,9 @@ O2
     product1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -15929,9 +15929,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15949,9 +15949,9 @@ H
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -15962,9 +15962,9 @@ H2
     product2 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -15975,9 +15975,9 @@ IC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -15995,9 +15995,9 @@ H
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -16008,9 +16008,9 @@ H2
     product2 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16021,9 +16021,9 @@ NC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16036,9 +16036,9 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -16048,9 +16048,9 @@ O
     product1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -16066,9 +16066,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16081,9 +16081,9 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -16093,9 +16093,9 @@ O
     product1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -16111,9 +16111,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16126,9 +16126,9 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -16138,9 +16138,9 @@ OH
     product1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -16156,9 +16156,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16171,9 +16171,9 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -16183,9 +16183,9 @@ OH
     product1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -16201,9 +16201,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16216,9 +16216,9 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -16229,9 +16229,9 @@ HO2
     product1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -16248,9 +16248,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16263,9 +16263,9 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -16276,9 +16276,9 @@ HO2
     product1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -16295,9 +16295,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16315,9 +16315,9 @@ CH3
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -16327,9 +16327,9 @@ CH4
     product2 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16340,9 +16340,9 @@ IC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16360,9 +16360,9 @@ CH3
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -16372,9 +16372,9 @@ CH4
     product2 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16385,9 +16385,9 @@ NC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16400,30 +16400,30 @@ entry(
     reactant1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16434,9 +16434,9 @@ C3H8
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16455,9 +16455,9 @@ C2H3
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -16468,9 +16468,9 @@ C2H4
     product2 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16481,9 +16481,9 @@ IC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16502,9 +16502,9 @@ C2H3
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -16515,9 +16515,9 @@ C2H4
     product2 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16528,9 +16528,9 @@ NC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16549,9 +16549,9 @@ C2H5
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -16562,9 +16562,9 @@ C2H6
     product2 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16575,9 +16575,9 @@ IC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16596,9 +16596,9 @@ C2H5
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -16609,9 +16609,9 @@ C2H6
     product2 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16622,9 +16622,9 @@ NC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16637,30 +16637,30 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16671,9 +16671,9 @@ C3H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16686,30 +16686,30 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16720,9 +16720,9 @@ C3H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16735,9 +16735,9 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -16748,9 +16748,9 @@ CH3O
     product1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -16767,9 +16767,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16782,9 +16782,9 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -16795,9 +16795,9 @@ CH3O
     product1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -16814,9 +16814,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16829,30 +16829,30 @@ entry(
     reactant1 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16863,9 +16863,9 @@ NC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16878,30 +16878,30 @@ entry(
     reactant1 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16912,9 +16912,9 @@ IC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16927,32 +16927,32 @@ entry(
     reactant1 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 C2H5O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     product2 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16963,9 +16963,9 @@ NC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -16978,32 +16978,32 @@ entry(
     reactant1 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 C2H5O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     product2 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17014,9 +17014,9 @@ IC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17029,34 +17029,34 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 NC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     product2 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17067,9 +17067,9 @@ NC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17082,34 +17082,34 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 NC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     product2 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17120,9 +17120,9 @@ IC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17135,34 +17135,34 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 IC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     product2 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17173,9 +17173,9 @@ NC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17188,34 +17188,34 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 IC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     product2 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17226,9 +17226,9 @@ IC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17241,34 +17241,34 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 CH3CO3
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     1 {2,S}
 """,
     product1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
 CH3CO3H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17279,9 +17279,9 @@ CH3CO3H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17294,34 +17294,34 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 CH3CO3
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     1 {2,S}
 """,
     product1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
 CH3CO3H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17332,9 +17332,9 @@ CH3CO3H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17347,32 +17347,32 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 O2CHO
-1     C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,D}
+4     O     1 {2,S}
 """,
     product1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
 HO2CHO
-1     C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,D}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17383,9 +17383,9 @@ HO2CHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17398,32 +17398,32 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 O2CHO
-1     C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,D}
+4     O     1 {2,S}
 """,
     product1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product2 = 
 """
 HO2CHO
-1     C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,D}
+2     O     0 {1,S} {4,S}
+3     O     0 {1,D}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17434,9 +17434,9 @@ HO2CHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17454,16 +17454,16 @@ H
     reactant2 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17474,9 +17474,9 @@ IC3H7
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17489,9 +17489,9 @@ entry(
     reactant1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -17518,9 +17518,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17533,9 +17533,9 @@ entry(
     reactant1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -17546,9 +17546,9 @@ O2
     product1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -17565,9 +17565,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17580,9 +17580,9 @@ entry(
     reactant1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -17592,9 +17592,9 @@ OH
     product1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -17610,9 +17610,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17625,9 +17625,9 @@ entry(
     reactant1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -17637,10 +17637,10 @@ O
     product1 = 
 """
 CH3COCH3
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     0 {1,S}
 """,
     product2 = 
 """
@@ -17656,9 +17656,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17671,9 +17671,9 @@ entry(
     reactant1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -17683,9 +17683,9 @@ O
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -17701,9 +17701,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17716,9 +17716,9 @@ entry(
     reactant1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -17740,9 +17740,9 @@ C2H4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17755,9 +17755,9 @@ entry(
     reactant1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -17767,9 +17767,9 @@ H
     product2 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17780,9 +17780,9 @@ C3H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17795,9 +17795,9 @@ entry(
     reactant1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -17808,9 +17808,9 @@ O2
     product1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -17827,9 +17827,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17842,32 +17842,32 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17878,9 +17878,9 @@ C3H8
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17893,32 +17893,32 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17929,9 +17929,9 @@ C3H8
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17944,32 +17944,32 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product1 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -17980,9 +17980,9 @@ C3H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -17995,16 +17995,16 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -18020,9 +18020,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18035,16 +18035,16 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -18060,9 +18060,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18075,9 +18075,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18105,9 +18105,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18120,9 +18120,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18132,9 +18132,9 @@ O
     product1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -18155,9 +18155,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18170,9 +18170,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18182,10 +18182,10 @@ O
     product1 = 
 """
 CH3CHCO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -18206,9 +18206,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18221,9 +18221,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18233,9 +18233,9 @@ O
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -18251,9 +18251,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18266,9 +18266,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18278,9 +18278,9 @@ O
     product1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -18296,9 +18296,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18311,9 +18311,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18323,9 +18323,9 @@ O
     product1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -18341,9 +18341,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18356,9 +18356,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18368,9 +18368,9 @@ OH
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -18386,9 +18386,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18401,9 +18401,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18413,9 +18413,9 @@ OH
     product1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -18431,9 +18431,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18446,9 +18446,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18458,9 +18458,9 @@ OH
     product1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -18476,9 +18476,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18491,9 +18491,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18504,9 +18504,9 @@ HO2
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -18523,9 +18523,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18538,9 +18538,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18551,9 +18551,9 @@ HO2
     product1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -18570,9 +18570,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18585,9 +18585,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18598,9 +18598,9 @@ HO2
     product1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -18617,9 +18617,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18632,9 +18632,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18661,9 +18661,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18676,9 +18676,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18688,9 +18688,9 @@ H
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -18707,9 +18707,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18722,9 +18722,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18734,9 +18734,9 @@ H
     product1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -18753,9 +18753,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18768,9 +18768,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18780,9 +18780,9 @@ H
     product1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -18799,9 +18799,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18814,9 +18814,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18827,9 +18827,9 @@ O2
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -18846,9 +18846,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18861,9 +18861,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18874,9 +18874,9 @@ O2
     product1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -18893,9 +18893,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18908,9 +18908,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18921,9 +18921,9 @@ O2
     product1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -18940,9 +18940,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -18955,9 +18955,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -18967,9 +18967,9 @@ CH3
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -18985,9 +18985,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19000,9 +19000,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -19012,9 +19012,9 @@ CH3
     product1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -19030,9 +19030,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19045,9 +19045,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -19057,9 +19057,9 @@ CH3
     product1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -19075,9 +19075,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19090,9 +19090,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -19103,9 +19103,9 @@ C2H5
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product2 = 
 """
@@ -19122,9 +19122,9 @@ C2H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19137,34 +19137,34 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 CH3CO3
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     1 {2,S}
 """,
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product2 = 
 """
 CH3CO3H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19175,9 +19175,9 @@ CH3CO3H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19190,30 +19190,30 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19224,9 +19224,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19239,9 +19239,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -19252,10 +19252,10 @@ HO2
     product1 = 
 """
 C3H6O1-2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {2,S} {3,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {1,S} {2,S}
+4     C     0 {1,S}
 """,
     product2 = 
 """
@@ -19271,9 +19271,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19286,32 +19286,32 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product2 = 
 """
 C2H5O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19322,9 +19322,9 @@ C2H5O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19337,34 +19337,34 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product2 = 
 """
 NC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19375,9 +19375,9 @@ NC3H7O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19390,34 +19390,34 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product2 = 
 """
 IC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19428,9 +19428,9 @@ IC3H7O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19443,9 +19443,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -19455,10 +19455,10 @@ OH
     product1 = 
 """
 C3H6OH
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19469,9 +19469,9 @@ C3H6OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19484,10 +19484,10 @@ entry(
     reactant1 = 
 """
 C3H6OH
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -19498,12 +19498,12 @@ O2
     product1 = 
 """
 HOC3H6O2
-1     O     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S} {5,S}
-4     C     0 {3,S}
-5     O     0 {3,S} {6,S}
-6     O     1 {5,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S} {5,S}
+3     O     0 {1,S} {6,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
+6     O     1 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19514,9 +19514,9 @@ HOC3H6O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19529,19 +19529,19 @@ entry(
     reactant1 = 
 """
 HOC3H6O2
-1     O     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S} {5,S}
-4     C     0 {3,S}
-5     O     0 {3,S} {6,S}
-6     O     1 {5,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S} {5,S}
+3     O     0 {1,S} {6,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
+6     O     1 {3,S}
 """,
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -19563,9 +19563,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19578,9 +19578,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -19590,9 +19590,9 @@ H
     product1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -19609,9 +19609,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19624,9 +19624,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -19636,10 +19636,10 @@ O
     product1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -19655,9 +19655,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19670,9 +19670,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -19682,10 +19682,10 @@ OH
     product1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -19706,9 +19706,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19721,9 +19721,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -19733,9 +19733,9 @@ OH
     product1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -19751,9 +19751,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19766,9 +19766,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -19779,9 +19779,9 @@ O2
     product1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -19798,9 +19798,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19813,9 +19813,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -19845,9 +19845,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19860,9 +19860,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -19873,10 +19873,10 @@ O2
     product1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -19892,9 +19892,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19907,9 +19907,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -19920,9 +19920,9 @@ HCO
     product1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -19939,9 +19939,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19954,9 +19954,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -19966,9 +19966,9 @@ CH3
     product1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -19984,9 +19984,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -19999,16 +19999,16 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20019,9 +20019,9 @@ C3H5-T
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20034,16 +20034,16 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20054,9 +20054,9 @@ C3H5-S
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20080,9 +20080,9 @@ CH3
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20093,9 +20093,9 @@ C3H5-A
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20108,24 +20108,24 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
 C3H5O
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     1 {2,S}
 """,
     product2 = 
 """
@@ -20142,9 +20142,9 @@ CH3O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20157,9 +20157,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -20176,9 +20176,9 @@ C2H6
     product2 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20189,9 +20189,9 @@ C3H4-A
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20204,9 +20204,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -20223,9 +20223,9 @@ C2H4
     product2 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20236,9 +20236,9 @@ C3H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20251,9 +20251,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -20270,9 +20270,9 @@ C2H4
     product2 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20283,9 +20283,9 @@ C3H4-A
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20298,30 +20298,30 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     product2 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20332,9 +20332,9 @@ C3H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20347,9 +20347,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -20360,10 +20360,10 @@ HO2
     product1 = 
 """
 C3H5O
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     1 {2,S}
 """,
     product2 = 
 """
@@ -20379,9 +20379,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20405,9 +20405,9 @@ CH3
     product1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20418,9 +20418,9 @@ C3H5-S
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20433,9 +20433,9 @@ entry(
     reactant1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -20445,9 +20445,9 @@ H
     product1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     product2 = 
 """
@@ -20464,9 +20464,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20479,9 +20479,9 @@ entry(
     reactant1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -20509,9 +20509,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20524,9 +20524,9 @@ entry(
     reactant1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -20559,9 +20559,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20574,9 +20574,9 @@ entry(
     reactant1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -20587,9 +20587,9 @@ O2
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -20606,9 +20606,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20621,9 +20621,9 @@ entry(
     reactant1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -20657,9 +20657,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20672,9 +20672,9 @@ entry(
     reactant1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -20685,9 +20685,9 @@ HCO
     product1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -20704,9 +20704,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20719,9 +20719,9 @@ entry(
     reactant1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -20731,9 +20731,9 @@ CH3
     product1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     product2 = 
 """
@@ -20749,9 +20749,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20775,9 +20775,9 @@ CH3
     product1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20788,9 +20788,9 @@ C3H5-T
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20803,16 +20803,16 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     product1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20823,9 +20823,9 @@ C3H5-S
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20838,9 +20838,9 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -20850,9 +20850,9 @@ H
     product1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     product2 = 
 """
@@ -20869,9 +20869,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20884,9 +20884,9 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -20901,9 +20901,9 @@ CH3
     product2 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20914,9 +20914,9 @@ CH2CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20929,9 +20929,9 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -20946,9 +20946,9 @@ CH3
     product2 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     product3 = 
 """
@@ -20964,9 +20964,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -20979,9 +20979,9 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -21011,9 +21011,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21026,9 +21026,9 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -21044,9 +21044,9 @@ CH3
     product2 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     product3 = 
 """
@@ -21062,9 +21062,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21077,9 +21077,9 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -21090,9 +21090,9 @@ HCO
     product1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -21109,9 +21109,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21124,9 +21124,9 @@ entry(
     reactant1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -21136,9 +21136,9 @@ CH3
     product1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     product2 = 
 """
@@ -21154,9 +21154,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21180,9 +21180,9 @@ CH3
     product1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -21198,9 +21198,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21213,9 +21213,9 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -21225,9 +21225,9 @@ H
     product1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -21244,9 +21244,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21259,9 +21259,9 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -21271,9 +21271,9 @@ H
     product1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21284,9 +21284,9 @@ C3H5-S
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21299,9 +21299,9 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -21311,9 +21311,9 @@ H
     product1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21324,9 +21324,9 @@ C3H5-T
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21339,9 +21339,9 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -21351,9 +21351,9 @@ H
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21364,9 +21364,9 @@ C3H5-A
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21379,9 +21379,9 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -21409,9 +21409,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21424,9 +21424,9 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -21436,9 +21436,9 @@ OH
     product1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -21454,9 +21454,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21469,9 +21469,9 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -21481,9 +21481,9 @@ CH3
     product1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -21499,9 +21499,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21514,9 +21514,9 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -21533,9 +21533,9 @@ C2H2
     product2 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21546,9 +21546,9 @@ C3H3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21561,30 +21561,30 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product2 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21595,9 +21595,9 @@ C3H3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21610,30 +21610,30 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     product2 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21644,9 +21644,9 @@ C3H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21659,9 +21659,9 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     product1 = 
 """
@@ -21679,9 +21679,9 @@ CC3H4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21694,16 +21694,16 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     product1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21714,9 +21714,9 @@ C3H4-A
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21729,9 +21729,9 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     reactant2 = 
 """
@@ -21741,9 +21741,9 @@ H
     product1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -21759,9 +21759,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21774,9 +21774,9 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     reactant2 = 
 """
@@ -21786,9 +21786,9 @@ H
     product1 = 
 """
 C3H5-T
-1     C     0 {2,S}
-2     C     1 {1,S} {3,D}
-3     C     0 {2,D}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21799,9 +21799,9 @@ C3H5-T
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21814,9 +21814,9 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     reactant2 = 
 """
@@ -21826,9 +21826,9 @@ H
     product1 = 
 """
 C3H5-S
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     C     1 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21839,9 +21839,9 @@ C3H5-S
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21854,9 +21854,9 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     reactant2 = 
 """
@@ -21866,9 +21866,9 @@ H
     product1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21879,9 +21879,9 @@ C3H5-A
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21894,9 +21894,9 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     reactant2 = 
 """
@@ -21906,9 +21906,9 @@ H
     product1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -21925,9 +21925,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21940,30 +21940,30 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     reactant2 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     product1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     product2 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -21974,9 +21974,9 @@ C3H3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -21989,9 +21989,9 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     reactant2 = 
 """
@@ -22001,9 +22001,9 @@ O
     product1 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -22019,9 +22019,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22034,9 +22034,9 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     reactant2 = 
 """
@@ -22064,9 +22064,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22079,9 +22079,9 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     reactant2 = 
 """
@@ -22091,9 +22091,9 @@ OH
     product1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -22109,9 +22109,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22124,9 +22124,9 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     reactant2 = 
 """
@@ -22143,9 +22143,9 @@ C2H2
     product2 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22156,9 +22156,9 @@ C3H3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22171,9 +22171,9 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     reactant2 = 
 """
@@ -22183,9 +22183,9 @@ CH3
     product1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -22201,9 +22201,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22227,9 +22227,9 @@ CH3
     product1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     product2 = 
 """
@@ -22245,9 +22245,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22260,9 +22260,9 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     reactant2 = 
 """
@@ -22273,9 +22273,9 @@ C2H3
     product1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -22292,9 +22292,9 @@ C2H4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22307,30 +22307,30 @@ entry(
     reactant1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     reactant2 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     product2 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22341,9 +22341,9 @@ C3H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22363,9 +22363,9 @@ CC3H4
     product1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22376,9 +22376,9 @@ C3H4-A
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22391,9 +22391,9 @@ entry(
     reactant1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -22403,9 +22403,9 @@ H
     product1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22416,9 +22416,9 @@ C3H4-P
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22431,9 +22431,9 @@ entry(
     reactant1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -22443,9 +22443,9 @@ H
     product1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -22456,9 +22456,9 @@ C3H4-A
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22471,9 +22471,9 @@ entry(
     reactant1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -22483,9 +22483,9 @@ H
     product1 = 
 """
 C3H2
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -22502,9 +22502,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22517,9 +22517,9 @@ entry(
     reactant1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -22547,9 +22547,9 @@ C2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22562,9 +22562,9 @@ entry(
     reactant1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -22574,9 +22574,9 @@ OH
     product1 = 
 """
 C3H2
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -22592,9 +22592,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22607,9 +22607,9 @@ entry(
     reactant1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -22620,9 +22620,9 @@ O2
     product1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -22639,9 +22639,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22654,9 +22654,9 @@ entry(
     reactant1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -22690,9 +22690,9 @@ C2H3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22705,9 +22705,9 @@ entry(
     reactant1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -22718,9 +22718,9 @@ HO2
     product1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -22737,9 +22737,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22752,9 +22752,9 @@ entry(
     reactant1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -22765,9 +22765,9 @@ HO2
     product1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     product2 = 
 """
@@ -22784,9 +22784,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22799,9 +22799,9 @@ entry(
     reactant1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -22812,9 +22812,9 @@ HCO
     product1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     product2 = 
 """
@@ -22831,9 +22831,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22846,9 +22846,9 @@ entry(
     reactant1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -22859,9 +22859,9 @@ HCO
     product1 = 
 """
 C3H4-P
-1     C     0 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S}
+3     C     0 {1,T}
 """,
     product2 = 
 """
@@ -22878,9 +22878,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22893,24 +22893,24 @@ entry(
     reactant1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     product1 = 
 """
 C4H4
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,T}
-4     C     0 {3,T}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,T}
+3     C     0 {1,D}
+4     C     0 {2,T}
 """,
     product2 = 
 """
@@ -22927,9 +22927,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22942,9 +22942,9 @@ entry(
     reactant1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -22973,9 +22973,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -22988,9 +22988,9 @@ entry(
     reactant1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -23000,10 +23000,10 @@ CH2
     product1 = 
 """
 C4H4
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,T}
-4     C     0 {3,T}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,T}
+3     C     0 {1,D}
+4     C     0 {2,T}
 """,
     product2 = 
 """
@@ -23019,9 +23019,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23046,9 +23046,9 @@ C2H
     product1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     product2 = 
 """
@@ -23064,9 +23064,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23079,9 +23079,9 @@ entry(
     reactant1 = 
 """
 C3H2
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -23091,9 +23091,9 @@ H
     product1 = 
 """
 C3H3
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     1 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23104,9 +23104,9 @@ C3H3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23119,9 +23119,9 @@ entry(
     reactant1 = 
 """
 C3H2
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -23149,9 +23149,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23164,9 +23164,9 @@ entry(
     reactant1 = 
 """
 C3H2
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -23194,9 +23194,9 @@ C2H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23209,9 +23209,9 @@ entry(
     reactant1 = 
 """
 C3H2
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -23222,9 +23222,9 @@ O2
     product1 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -23246,9 +23246,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23261,9 +23261,9 @@ entry(
     reactant1 = 
 """
 C3H2
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -23292,9 +23292,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23307,9 +23307,9 @@ entry(
     reactant1 = 
 """
 C3H2
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -23319,10 +23319,10 @@ CH2
     product1 = 
 """
 C4H3-N
-1     C     0 {2,T}
-2     C     0 {1,T} {3,S}
-3     C     0 {2,S} {4,D}
-4     C     1 {3,D}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,T}
+4     C     1 {2,D}
 """,
     product2 = 
 """
@@ -23338,9 +23338,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23353,9 +23353,9 @@ entry(
     reactant1 = 
 """
 C3H2
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -23365,10 +23365,10 @@ CH3
     product1 = 
 """
 C4H4
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,T}
-4     C     0 {3,T}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,T}
+3     C     0 {1,D}
+4     C     0 {2,T}
 """,
     product2 = 
 """
@@ -23384,9 +23384,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23399,24 +23399,24 @@ entry(
     reactant1 = 
 """
 C3H2
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     product1 = 
 """
 C4H3-N
-1     C     0 {2,T}
-2     C     0 {1,T} {3,S}
-3     C     0 {2,S} {4,D}
-4     C     1 {3,D}
+1     C     0 {2,S} {3,T}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,T}
+4     C     1 {2,D}
 """,
     product2 = 
 """
@@ -23433,9 +23433,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23448,9 +23448,9 @@ entry(
     reactant1 = 
 """
 C3H2
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     1 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     C     1 {1,D}
 """,
     reactant2 = 
 """
@@ -23467,9 +23467,9 @@ HCO
     product2 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23480,9 +23480,9 @@ HCCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23495,10 +23495,10 @@ entry(
     reactant1 = 
 """
 CH3CHCO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -23527,9 +23527,9 @@ CO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23542,10 +23542,10 @@ entry(
     reactant1 = 
 """
 CH3CHCO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -23555,9 +23555,9 @@ OH
     product1 = 
 """
 SC2H4OH
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product2 = 
 """
@@ -23574,9 +23574,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23589,10 +23589,10 @@ entry(
     reactant1 = 
 """
 CH3CHCO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -23620,9 +23620,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23635,10 +23635,10 @@ entry(
     reactant1 = 
 """
 CH3CHCO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -23648,9 +23648,9 @@ O
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -23667,9 +23667,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23682,9 +23682,9 @@ entry(
     reactant1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -23695,10 +23695,10 @@ HO2
     product1 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product2 = 
 """
@@ -23714,9 +23714,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23729,9 +23729,9 @@ entry(
     reactant1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -23742,10 +23742,10 @@ HO2
     product1 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     product2 = 
 """
@@ -23761,9 +23761,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23776,16 +23776,16 @@ entry(
     reactant1 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -23796,10 +23796,10 @@ CH3O
     product2 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23810,9 +23810,9 @@ NC3H7O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23825,16 +23825,16 @@ entry(
     reactant1 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     reactant2 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -23845,10 +23845,10 @@ CH3O
     product2 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23859,9 +23859,9 @@ IC3H7O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23874,9 +23874,9 @@ entry(
     reactant1 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -23887,11 +23887,11 @@ O2
     product1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23902,9 +23902,9 @@ NC3H7O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23917,9 +23917,9 @@ entry(
     reactant1 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -23930,11 +23930,11 @@ O2
     product1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -23945,9 +23945,9 @@ IC3H7O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -23960,11 +23960,11 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
@@ -23975,11 +23975,11 @@ CH2O
     product1 = 
 """
 NC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     product2 = 
 """
@@ -23996,9 +23996,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24011,27 +24011,27 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product1 = 
 """
 NC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     product2 = 
 """
@@ -24049,9 +24049,9 @@ CH3CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24064,11 +24064,11 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -24079,11 +24079,11 @@ CH2O
     product1 = 
 """
 IC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     product2 = 
 """
@@ -24100,9 +24100,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24115,27 +24115,27 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product1 = 
 """
 IC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     product2 = 
 """
@@ -24153,9 +24153,9 @@ CH3CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24168,11 +24168,11 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
@@ -24183,11 +24183,11 @@ HO2
     product1 = 
 """
 NC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     product2 = 
 """
@@ -24204,9 +24204,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24219,11 +24219,11 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -24234,11 +24234,11 @@ HO2
     product1 = 
 """
 IC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     product2 = 
 """
@@ -24255,9 +24255,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24276,11 +24276,11 @@ C2H4
     reactant2 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
@@ -24291,11 +24291,11 @@ C2H3
     product2 = 
 """
 NC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24306,9 +24306,9 @@ NC3H7O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24327,11 +24327,11 @@ C2H4
     reactant2 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     product1 = 
 """
@@ -24342,11 +24342,11 @@ C2H3
     product2 = 
 """
 IC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24357,9 +24357,9 @@ IC3H7O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24378,11 +24378,11 @@ CH3OH
     reactant2 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
@@ -24393,11 +24393,11 @@ CH2OH
     product2 = 
 """
 NC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24408,9 +24408,9 @@ NC3H7O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24429,11 +24429,11 @@ CH3OH
     reactant2 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     product1 = 
 """
@@ -24444,11 +24444,11 @@ CH2OH
     product2 = 
 """
 IC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24459,9 +24459,9 @@ IC3H7O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24474,36 +24474,36 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
 C2H3CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
 NC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24514,9 +24514,9 @@ NC3H7O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24529,36 +24529,36 @@ entry(
     reactant1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     product1 = 
 """
 C2H3CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
 IC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24569,9 +24569,9 @@ IC3H7O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24589,11 +24589,11 @@ CH4
     reactant2 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
@@ -24603,11 +24603,11 @@ CH3
     product2 = 
 """
 NC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24618,9 +24618,9 @@ NC3H7O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24638,11 +24638,11 @@ CH4
     reactant2 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     product1 = 
 """
@@ -24652,11 +24652,11 @@ CH3
     product2 = 
 """
 IC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24667,9 +24667,9 @@ IC3H7O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24682,82 +24682,25 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
-""",
-    product2 = 
-"""
-CH3O
-1     C     0 {2,S}
-2     O     1 {1,S}
-""",
-    product3 = 
-"""
-O2
-1     O     1 {2,S}
-2     O     1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.4e+16,"cm^3/(mol*s)"),
-        n = -1.61,
-        Ea = (1860,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = """""",
-    longDesc = 
-"""
-
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 543,
-    reactant1 = 
-"""
-IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
-""",
-    reactant2 = 
-"""
-CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
-""",
-    product1 = 
-"""
-IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
 4     O     1 {2,S}
 """,
     product2 = 
@@ -24781,9 +24724,66 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 543,
+    reactant1 = 
 """
+IC3H7O2
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
+""",
+    reactant2 = 
+"""
+CH3O2
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
+""",
+    product1 = 
+"""
+IC3H7O
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
+""",
+    product2 = 
+"""
+CH3O
+1     C     0 {2,S}
+2     O     1 {1,S}
+""",
+    product3 = 
+"""
+O2
+1     O     1 {2,S}
+2     O     1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.4e+16,"cm^3/(mol*s)"),
+        n = -1.61,
+        Ea = (1860,"cal/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
 
 """,
     history = [
@@ -24802,11 +24802,11 @@ H2
     reactant2 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
@@ -24816,11 +24816,11 @@ H
     product2 = 
 """
 NC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24831,9 +24831,9 @@ NC3H7O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24852,11 +24852,11 @@ H2
     reactant2 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     product1 = 
 """
@@ -24866,11 +24866,11 @@ H
     product2 = 
 """
 IC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -24881,9 +24881,9 @@ IC3H7O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24896,11 +24896,11 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -24911,11 +24911,11 @@ C2H6
     product1 = 
 """
 IC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     product2 = 
 """
@@ -24932,9 +24932,9 @@ C2H5
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24947,11 +24947,11 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
@@ -24962,11 +24962,11 @@ C2H6
     product1 = 
 """
 NC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     product2 = 
 """
@@ -24983,9 +24983,9 @@ C2H5
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -24998,36 +24998,36 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product1 = 
 """
 IC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     product2 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25038,9 +25038,9 @@ C2H5CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25053,36 +25053,36 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product1 = 
 """
 NC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     product2 = 
 """
 C2H5CO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25093,9 +25093,9 @@ C2H5CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25108,36 +25108,36 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
 CH3CO3
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     1 {2,S}
 """,
     product1 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     product2 = 
 """
 CH3CO2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,D} {4,S}
+2     C     0 {1,S}
+3     O     0 {1,D}
+4     O     1 {1,S}
 """,
     product3 = 
 """
@@ -25154,9 +25154,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25169,36 +25169,36 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
 CH3CO3
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,D}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     O     0 {1,D}
+5     O     1 {2,S}
 """,
     product1 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product2 = 
 """
 CH3CO2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,D} {4,S}
+2     C     0 {1,S}
+3     O     0 {1,D}
+4     O     1 {1,S}
 """,
     product3 = 
 """
@@ -25215,9 +25215,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25230,34 +25230,34 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product1 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     product2 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product3 = 
 """
@@ -25274,9 +25274,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25289,34 +25289,34 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
 C2H5O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product1 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product2 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product3 = 
 """
@@ -25333,9 +25333,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25348,20 +25348,20 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     product1 = 
 """
@@ -25372,18 +25372,18 @@ O2
     product2 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     product3 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25394,9 +25394,9 @@ IC3H7O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25409,20 +25409,20 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
@@ -25433,18 +25433,18 @@ O2
     product2 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product3 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25455,9 +25455,9 @@ NC3H7O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25470,36 +25470,36 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     product2 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product3 = 
 """
@@ -25516,9 +25516,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25531,11 +25531,11 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -25545,10 +25545,10 @@ CH3
     product1 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     product2 = 
 """
@@ -25565,9 +25565,9 @@ CH3O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25580,11 +25580,11 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -25595,17 +25595,17 @@ C2H5
     product1 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     product2 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25616,9 +25616,9 @@ C2H5O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25631,34 +25631,34 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     product2 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25669,9 +25669,9 @@ IC3H7O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25684,34 +25684,34 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     product2 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25722,9 +25722,9 @@ NC3H7O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25737,34 +25737,34 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     reactant2 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product1 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     product2 = 
 """
 C3H5O
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25775,9 +25775,9 @@ C3H5O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25790,11 +25790,11 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
@@ -25804,10 +25804,10 @@ CH3
     product1 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product2 = 
 """
@@ -25824,9 +25824,9 @@ CH3O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25839,11 +25839,11 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
@@ -25854,17 +25854,17 @@ C2H5
     product1 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product2 = 
 """
 C2H5O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25875,9 +25875,9 @@ C2H5O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25890,34 +25890,34 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
 IC3H7
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product2 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25928,9 +25928,9 @@ IC3H7O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25943,34 +25943,34 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
 NC3H7
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product2 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25981,9 +25981,9 @@ NC3H7O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -25996,34 +25996,34 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     reactant2 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     product1 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product2 = 
 """
 C3H5O
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26034,9 +26034,9 @@ C3H5O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26049,19 +26049,19 @@ entry(
     reactant1 = 
 """
 NC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     product1 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     product2 = 
 """
@@ -26077,9 +26077,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26092,19 +26092,19 @@ entry(
     reactant1 = 
 """
 IC3H7O2H
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     product1 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     product2 = 
 """
@@ -26120,9 +26120,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26147,10 +26147,10 @@ CH2O
     product1 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26161,9 +26161,9 @@ NC3H7O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26176,10 +26176,10 @@ entry(
     reactant1 = 
 """
 C2H5CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -26189,10 +26189,10 @@ H
     product1 = 
 """
 NC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26203,9 +26203,9 @@ NC3H7O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26223,17 +26223,17 @@ CH3
     reactant2 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product1 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26244,9 +26244,9 @@ IC3H7O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26259,10 +26259,10 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -26272,10 +26272,10 @@ H
     product1 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26286,9 +26286,9 @@ IC3H7O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26301,10 +26301,10 @@ entry(
     reactant1 = 
 """
 IC3H7O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -26315,10 +26315,10 @@ O2
     product1 = 
 """
 CH3COCH3
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     0 {1,S}
 """,
     product2 = 
 """
@@ -26335,9 +26335,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26350,20 +26350,20 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
 C3H6OOH1-2
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26374,9 +26374,9 @@ C3H6OOH1-2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26389,20 +26389,20 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
 C3H6OOH1-3
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     1 {2,S}
+5     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26413,9 +26413,9 @@ C3H6OOH1-3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26428,20 +26428,20 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     product1 = 
 """
 C3H6OOH2-1
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     1 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26452,9 +26452,9 @@ C3H6OOH2-1
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26467,19 +26467,19 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     product1 = 
 """
 CH3COCH3
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     0 {1,S}
 """,
     product2 = 
 """
@@ -26495,9 +26495,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26510,19 +26510,19 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     product1 = 
 """
 C3H6O1-2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {2,S} {3,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {1,S} {2,S}
+4     C     0 {1,S}
 """,
     product2 = 
 """
@@ -26538,9 +26538,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26553,11 +26553,11 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     1 {2,S}
+5     O     0 {3,S}
 """,
     product1 = 
 """
@@ -26581,9 +26581,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26596,19 +26596,19 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     1 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     product1 = 
 """
 C3H6O1-2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {2,S} {3,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {1,S} {2,S}
+4     C     0 {1,S}
 """,
     product2 = 
 """
@@ -26624,9 +26624,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26639,9 +26639,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -26652,11 +26652,11 @@ HO2
     product1 = 
 """
 C3H6OOH1-2
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26667,9 +26667,9 @@ C3H6OOH1-2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26682,9 +26682,9 @@ entry(
     reactant1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -26695,11 +26695,11 @@ HO2
     product1 = 
 """
 C3H6OOH2-1
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     1 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26710,9 +26710,9 @@ C3H6OOH2-1
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26725,11 +26725,11 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     1 {2,S}
+5     O     0 {3,S}
 """,
     product1 = 
 """
@@ -26757,9 +26757,9 @@ C2H4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26772,19 +26772,19 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     1 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     product1 = 
 """
 C2H3OOH
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,D}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     product2 = 
 """
@@ -26800,9 +26800,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26815,11 +26815,11 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     product1 = 
 """
@@ -26847,9 +26847,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26862,11 +26862,11 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     1 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     0 {3,S}
 """,
     reactant2 = 
 """
@@ -26877,13 +26877,13 @@ O2
     product1 = 
 """
 C3H6OOH1-2O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {6,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
-6     O     0 {2,S} {7,S}
-7     O     1 {6,S}
+1     C     0 {2,S} {3,S} {5,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {2,S} {7,S}
+5     C     0 {1,S}
+6     O     1 {3,S}
+7     O     0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26894,9 +26894,9 @@ C3H6OOH1-2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26909,11 +26909,11 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     1 {2,S}
+5     O     0 {3,S}
 """,
     reactant2 = 
 """
@@ -26924,13 +26924,13 @@ O2
     product1 = 
 """
 C3H6OOH1-3O2
-1     O     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     C     0 {3,S} {5,S}
-5     C     0 {4,S} {6,S}
-6     O     0 {5,S} {7,S}
-7     O     1 {6,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,S}
+4     O     0 {2,S} {6,S}
+5     O     0 {3,S} {7,S}
+6     O     0 {4,S}
+7     O     1 {5,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26941,9 +26941,9 @@ C3H6OOH1-3O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -26956,11 +26956,11 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     1 {1,S}
+4     C     0 {1,S}
+5     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -26971,13 +26971,13 @@ O2
     product1 = 
 """
 C3H6OOH2-1O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {6,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
-6     O     0 {2,S} {7,S}
-7     O     0 {6,S}
+1     C     0 {2,S} {3,S} {5,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {2,S} {7,S}
+5     C     0 {1,S}
+6     O     0 {3,S}
+7     O     1 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -26988,9 +26988,9 @@ C3H6OOH2-1O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27003,23 +27003,23 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {6,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
-6     O     0 {2,S} {7,S}
-7     O     1 {6,S}
+1     C     0 {2,S} {3,S} {5,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {2,S} {7,S}
+5     C     0 {1,S}
+6     O     1 {3,S}
+7     O     0 {4,S}
 """,
     product1 = 
 """
 C3KET12
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S} {6,D}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
-6     O     0 {3,D}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S} {6,D}
+3     O     0 {1,S} {5,S}
+4     C     0 {1,S}
+5     O     0 {3,S}
+6     O     0 {2,D}
 """,
     product2 = 
 """
@@ -27035,9 +27035,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27050,23 +27050,23 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3O2
-1     O     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     C     0 {3,S} {5,S}
-5     C     0 {4,S} {6,S}
-6     O     0 {5,S} {7,S}
-7     O     1 {6,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,S}
+4     O     0 {2,S} {6,S}
+5     O     0 {3,S} {7,S}
+6     O     0 {4,S}
+7     O     1 {5,S}
 """,
     product1 = 
 """
 C3KET13
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     C     0 {3,S} {5,S}
-5     O     0 {4,S} {6,S}
-6     O     0 {5,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,D}
+4     O     0 {2,S} {6,S}
+5     O     0 {3,D}
+6     O     0 {4,S}
 """,
     product2 = 
 """
@@ -27082,9 +27082,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27097,23 +27097,23 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {6,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
-6     O     0 {2,S} {7,S}
-7     O     0 {6,S}
+1     C     0 {2,S} {3,S} {5,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {2,S} {7,S}
+5     C     0 {1,S}
+6     O     0 {3,S}
+7     O     1 {4,S}
 """,
     product1 = 
 """
 C3KET21
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3     C     0 {2,S} {5,S}
-4     O     0 {2,D}
-5     O     0 {3,S} {6,S}
-6     O     0 {5,S}
+1     C     0 {2,S} {4,S} {5,D}
+2     C     0 {1,S} {3,S}
+3     O     0 {2,S} {6,S}
+4     C     0 {1,S}
+5     O     0 {1,D}
+6     O     0 {3,S}
 """,
     product2 = 
 """
@@ -27129,9 +27129,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27144,24 +27144,24 @@ entry(
     reactant1 = 
 """
 C3H6OOH2-1O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {6,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
-6     O     0 {2,S} {7,S}
-7     O     0 {6,S}
+1     C     0 {2,S} {3,S} {5,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {2,S} {7,S}
+5     C     0 {1,S}
+6     O     0 {3,S}
+7     O     1 {4,S}
 """,
     product1 = 
 """
 C3H51-2,3OOH
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S} {6,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
-6     O     0 {2,S} {7,S}
-7     O     0 {6,S}
+1     C     0 {2,S} {3,S} {5,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {2,S} {7,S}
+5     C     1 {1,S}
+6     O     0 {3,S}
+7     O     0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27172,9 +27172,9 @@ C3H51-2,3OOH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27187,24 +27187,24 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-2O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {6,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
-6     O     0 {2,S} {7,S}
-7     O     1 {6,S}
+1     C     0 {2,S} {3,S} {5,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {2,S} {7,S}
+5     C     0 {1,S}
+6     O     1 {3,S}
+7     O     0 {4,S}
 """,
     product1 = 
 """
 C3H51-2,3OOH
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S} {6,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
-6     O     0 {2,S} {7,S}
-7     O     0 {6,S}
+1     C     0 {2,S} {3,S} {5,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {2,S} {7,S}
+5     C     1 {1,S}
+6     O     0 {3,S}
+7     O     0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27215,9 +27215,9 @@ C3H51-2,3OOH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27230,22 +27230,22 @@ entry(
     reactant1 = 
 """
 C3H51-2,3OOH
-1     C     1 {2,S}
-2     C     0 {1,S} {3,S} {6,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
-6     O     0 {2,S} {7,S}
-7     O     0 {6,S}
+1     C     0 {2,S} {3,S} {5,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {6,S}
+4     O     0 {2,S} {7,S}
+5     C     1 {1,S}
+6     O     0 {3,S}
+7     O     0 {4,S}
 """,
     product1 = 
 """
 AC3H5OOH
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,D}
+5     O     0 {3,S}
 """,
     product2 = 
 """
@@ -27262,9 +27262,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27277,24 +27277,24 @@ entry(
     reactant1 = 
 """
 C3H6OOH1-3O2
-1     O     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     C     0 {3,S} {5,S}
-5     C     0 {4,S} {6,S}
-6     O     0 {5,S} {7,S}
-7     O     1 {6,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,S}
+4     O     0 {2,S} {6,S}
+5     O     0 {3,S} {7,S}
+6     O     0 {4,S}
+7     O     1 {5,S}
 """,
     product1 = 
 """
 C3H52-1,3OOH
-1     O     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     C     1 {3,S} {5,S}
-5     C     0 {4,S} {6,S}
-6     O     0 {5,S} {7,S}
-7     O     0 {6,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,S}
+4     O     0 {2,S} {6,S}
+5     O     0 {3,S} {7,S}
+6     O     0 {4,S}
+7     O     0 {5,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27305,9 +27305,9 @@ C3H52-1,3OOH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27320,22 +27320,22 @@ entry(
     reactant1 = 
 """
 C3H52-1,3OOH
-1     O     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     C     1 {3,S} {5,S}
-5     C     0 {4,S} {6,S}
-6     O     0 {5,S} {7,S}
-7     O     0 {6,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,S}
+4     O     0 {2,S} {6,S}
+5     O     0 {3,S} {7,S}
+6     O     0 {4,S}
+7     O     0 {5,S}
 """,
     product1 = 
 """
 AC3H5OOH
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,D}
+5     O     0 {3,S}
 """,
     product2 = 
 """
@@ -27352,9 +27352,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27367,19 +27367,19 @@ entry(
     reactant1 = 
 """
 C3KET12
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S} {6,D}
-4     O     0 {2,S} {5,S}
-5     O     0 {4,S}
-6     O     0 {3,D}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S} {6,D}
+3     O     0 {1,S} {5,S}
+4     C     0 {1,S}
+5     O     0 {3,S}
+6     O     0 {2,D}
 """,
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -27401,9 +27401,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27416,12 +27416,12 @@ entry(
     reactant1 = 
 """
 C3KET13
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     C     0 {3,S} {5,S}
-5     O     0 {4,S} {6,S}
-6     O     0 {5,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,D}
+4     O     0 {2,S} {6,S}
+5     O     0 {3,D}
+6     O     0 {4,S}
 """,
     product1 = 
 """
@@ -27432,9 +27432,9 @@ CH2O
     product2 = 
 """
 CH2CHO
-1     C     1 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S}
+3     O     0 {1,D}
 """,
     product3 = 
 """
@@ -27450,9 +27450,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27465,12 +27465,12 @@ entry(
     reactant1 = 
 """
 C3KET21
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3     C     0 {2,S} {5,S}
-4     O     0 {2,D}
-5     O     0 {3,S} {6,S}
-6     O     0 {5,S}
+1     C     0 {2,S} {4,S} {5,D}
+2     C     0 {1,S} {3,S}
+3     O     0 {2,S} {6,S}
+4     C     0 {1,S}
+5     O     0 {1,D}
+6     O     0 {3,S}
 """,
     product1 = 
 """
@@ -27499,9 +27499,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27514,10 +27514,10 @@ entry(
     reactant1 = 
 """
 C3H5O
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -27527,11 +27527,11 @@ OH
     product1 = 
 """
 AC3H5OOH
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     0 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,D}
+5     O     0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27542,9 +27542,9 @@ AC3H5OOH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27557,18 +27557,18 @@ entry(
     reactant1 = 
 """
 C3H5O
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     1 {2,S}
 """,
     product1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -27584,9 +27584,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27611,10 +27611,10 @@ CH2O
     product1 = 
 """
 C3H5O
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     1 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -27625,9 +27625,9 @@ C3H5O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27640,10 +27640,10 @@ entry(
     reactant1 = 
 """
 C3H5O
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     1 {3,S}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -27654,10 +27654,10 @@ O2
     product1 = 
 """
 C2H3CHO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -27674,9 +27674,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27689,17 +27689,17 @@ entry(
     reactant1 = 
 """
 C2H3OOH
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,D}
+2     O     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     product1 = 
 """
 CH2CHO
-1     C     1 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     1 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -27715,9 +27715,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27730,10 +27730,10 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {2,S} {3,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {1,S} {2,S}
+4     C     0 {1,S}
 """,
     product1 = 
 """
@@ -27756,9 +27756,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27771,10 +27771,10 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {2,S} {3,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {1,S} {2,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -27807,9 +27807,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27822,10 +27822,10 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {2,S} {3,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {1,S} {2,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -27859,9 +27859,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27874,10 +27874,10 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {2,S} {3,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {1,S} {2,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -27910,9 +27910,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27925,10 +27925,10 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {2,S} {3,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {1,S} {2,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -27963,9 +27963,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -27978,17 +27978,17 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {2,S} {3,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {1,S} {2,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
@@ -28005,9 +28005,9 @@ C2H3
     product3 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28018,9 +28018,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28033,10 +28033,10 @@ entry(
     reactant1 = 
 """
 C3H6O1-2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {2,S} {3,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S} {3,S}
+3     O     0 {1,S} {2,S}
+4     C     0 {1,S}
 """,
     reactant2 = 
 """
@@ -28069,9 +28069,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28110,9 +28110,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28161,9 +28161,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28212,9 +28212,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28264,9 +28264,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28287,9 +28287,9 @@ C3H6O1-3
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
@@ -28306,9 +28306,9 @@ C2H3
     product3 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28319,9 +28319,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28372,9 +28372,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28423,9 +28423,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28438,18 +28438,18 @@ entry(
     reactant1 = 
 """
 IC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,S}
-3     C     0 {2,S}
-4     O     0 {2,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S} {4,S}
+2     O     0 {1,S} {5,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     1 {2,S}
 """,
     product1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -28466,9 +28466,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28481,18 +28481,18 @@ entry(
     reactant1 = 
 """
 NC3H7O2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S} {5,S}
-5     O     1 {4,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     O     0 {1,S} {5,S}
+4     C     0 {2,S}
+5     O     1 {3,S}
 """,
     product1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     product2 = 
 """
@@ -28509,9 +28509,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28524,10 +28524,10 @@ entry(
     reactant1 = 
 """
 CH2CCH2OH
-1     C     0 {2,D}
-2     C     1 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -28538,10 +28538,10 @@ H2O2
     product1 = 
 """
 C3H5OH
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     product2 = 
 """
@@ -28558,9 +28558,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28573,10 +28573,10 @@ entry(
     reactant1 = 
 """
 C3H5OH
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -28586,10 +28586,10 @@ OH
     product1 = 
 """
 CH2CCH2OH
-1     C     0 {2,D}
-2     C     1 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     product2 = 
 """
@@ -28605,9 +28605,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28620,10 +28620,10 @@ entry(
     reactant1 = 
 """
 C3H5OH
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -28633,10 +28633,10 @@ H
     product1 = 
 """
 CH2CCH2OH
-1     C     0 {2,D}
-2     C     1 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     product2 = 
 """
@@ -28653,9 +28653,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28668,10 +28668,10 @@ entry(
     reactant1 = 
 """
 C3H5OH
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -28682,10 +28682,10 @@ O2
     product1 = 
 """
 CH2CCH2OH
-1     C     0 {2,D}
-2     C     1 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     product2 = 
 """
@@ -28702,9 +28702,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28717,10 +28717,10 @@ entry(
     reactant1 = 
 """
 C3H5OH
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -28730,10 +28730,10 @@ CH3
     product1 = 
 """
 CH2CCH2OH
-1     C     0 {2,D}
-2     C     1 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     product2 = 
 """
@@ -28749,9 +28749,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28764,10 +28764,10 @@ entry(
     reactant1 = 
 """
 CH2CCH2OH
-1     C     0 {2,D}
-2     C     1 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -28777,10 +28777,10 @@ H
     product1 = 
 """
 C3H5OH
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28791,9 +28791,9 @@ C3H5OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28806,10 +28806,10 @@ entry(
     reactant1 = 
 """
 CH2CCH2OH
-1     C     0 {2,D}
-2     C     1 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -28844,9 +28844,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28859,10 +28859,10 @@ entry(
     reactant1 = 
 """
 CH2CCH2OH
-1     C     0 {2,D}
-2     C     1 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     product1 = 
 """
@@ -28885,9 +28885,9 @@ CH2OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28900,9 +28900,9 @@ entry(
     reactant1 = 
 """
 C3H4-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     C     0 {1,D}
 """,
     reactant2 = 
 """
@@ -28912,10 +28912,10 @@ OH
     product1 = 
 """
 CH2CCH2OH
-1     C     0 {2,D}
-2     C     1 {1,D} {3,S}
-3     C     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     1 {2,S} {3,D}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,D}
+4     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28926,9 +28926,9 @@ CH2CCH2OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28946,18 +28946,18 @@ H
     reactant2 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     product1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28968,9 +28968,9 @@ CH3OCHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -28988,18 +28988,18 @@ H
     reactant2 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29010,9 +29010,9 @@ CH3OCHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29025,10 +29025,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29038,10 +29038,10 @@ H
     product1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29058,9 +29058,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29073,10 +29073,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29086,10 +29086,10 @@ OH
     product1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29105,9 +29105,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29120,10 +29120,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29133,10 +29133,10 @@ CH3
     product1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29152,9 +29152,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29167,10 +29167,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29181,10 +29181,10 @@ HO2
     product1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29201,9 +29201,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29216,32 +29216,32 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29252,9 +29252,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29267,10 +29267,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29281,10 +29281,10 @@ CH3O
     product1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29301,9 +29301,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29316,10 +29316,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29329,10 +29329,10 @@ O
     product1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29348,9 +29348,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29363,10 +29363,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29377,10 +29377,10 @@ O2
     product1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29397,9 +29397,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29412,10 +29412,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29426,10 +29426,10 @@ HCO
     product1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29446,9 +29446,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29461,10 +29461,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29475,10 +29475,10 @@ C2H5
     product1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29495,9 +29495,9 @@ C2H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29510,10 +29510,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29524,10 +29524,10 @@ C2H3
     product1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29544,9 +29544,9 @@ C2H4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29559,10 +29559,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29574,10 +29574,10 @@ OCHO
     product1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29595,9 +29595,9 @@ HCOOH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29610,10 +29610,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29623,10 +29623,10 @@ H
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29643,9 +29643,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29658,10 +29658,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29671,10 +29671,10 @@ OH
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29690,9 +29690,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29705,10 +29705,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29718,10 +29718,10 @@ CH3
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29737,9 +29737,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29752,32 +29752,32 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
 CH3O2
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
 CH3O2H
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -29788,9 +29788,9 @@ CH3O2H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29803,10 +29803,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29817,10 +29817,10 @@ HO2
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29837,9 +29837,9 @@ H2O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29852,10 +29852,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29866,10 +29866,10 @@ CH3O
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29886,9 +29886,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29901,10 +29901,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29914,10 +29914,10 @@ O
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29933,9 +29933,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29948,10 +29948,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -29962,10 +29962,10 @@ O2
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -29982,9 +29982,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -29997,10 +29997,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -30011,10 +30011,10 @@ HCO
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -30031,9 +30031,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30046,10 +30046,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -30060,10 +30060,10 @@ C2H5
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -30080,9 +30080,9 @@ C2H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30095,10 +30095,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -30109,10 +30109,10 @@ C2H3
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -30129,9 +30129,9 @@ C2H4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30144,10 +30144,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -30159,10 +30159,10 @@ OCHO
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -30180,9 +30180,9 @@ HCOOH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30195,34 +30195,34 @@ entry(
     reactant1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30233,9 +30233,9 @@ CH2OCHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30260,10 +30260,10 @@ CO2
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30274,9 +30274,9 @@ CH3OCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30301,10 +30301,10 @@ CO
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30315,9 +30315,9 @@ CH3OCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30330,18 +30330,18 @@ entry(
     reactant1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     product1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30352,9 +30352,9 @@ CH3OCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30379,10 +30379,10 @@ HCO
     product1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30393,9 +30393,9 @@ CH2OCHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30408,20 +30408,20 @@ entry(
     reactant1 = 
 """
 OCH2OCHO
-1     O     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     C     0 {3,S} {5,D}
-5     O     0 {4,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,D}
+4     O     1 {2,S}
+5     O     0 {3,D}
 """,
     product1 = 
 """
 HOCH2OCO
-1     O     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     C     1 {3,S} {5,D}
-5     O     0 {4,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     1 {1,S} {5,D}
+4     O     0 {2,S}
+5     O     0 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30432,9 +30432,9 @@ HOCH2OCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30447,11 +30447,11 @@ entry(
     reactant1 = 
 """
 HOCH2OCO
-1     O     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     C     1 {3,S} {5,D}
-5     O     0 {4,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     1 {1,S} {5,D}
+4     O     0 {2,S}
+5     O     0 {3,D}
 """,
     product1 = 
 """
@@ -30475,9 +30475,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30490,11 +30490,11 @@ entry(
     reactant1 = 
 """
 HOCH2OCO
-1     O     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     C     1 {3,S} {5,D}
-5     O     0 {4,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     1 {1,S} {5,D}
+4     O     0 {2,S}
+5     O     0 {3,D}
 """,
     product1 = 
 """
@@ -30518,9 +30518,9 @@ CO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30546,11 +30546,11 @@ OCHO
     product1 = 
 """
 OCH2OCHO
-1     O     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     C     0 {3,S} {5,D}
-5     O     0 {4,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,D}
+4     O     1 {2,S}
+5     O     0 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30561,9 +30561,9 @@ OCH2OCHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30576,10 +30576,10 @@ entry(
     reactant1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -30590,10 +30590,10 @@ HCO
     product1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -30610,9 +30610,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30625,10 +30625,10 @@ entry(
     reactant1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -30639,10 +30639,10 @@ HCO
     product1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product2 = 
 """
@@ -30659,9 +30659,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30674,10 +30674,10 @@ entry(
     reactant1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -30688,12 +30688,12 @@ HO2
     product1 = 
 """
 HOOCH2OCHO
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     O     0 {2,S} {4,S}
-4     C     0 {3,S} {5,S}
-5     O     0 {4,S} {6,S}
-6     O     0 {5,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,D}
+4     O     0 {2,S} {6,S}
+5     O     0 {3,D}
+6     O     0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30704,9 +30704,9 @@ HOOCH2OCHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30719,11 +30719,11 @@ entry(
     reactant1 = 
 """
 OCH2OCHO
-1     O     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     C     0 {3,S} {5,D}
-5     O     0 {4,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,D}
+4     O     1 {2,S}
+5     O     0 {3,D}
 """,
     reactant2 = 
 """
@@ -30733,12 +30733,12 @@ OH
     product1 = 
 """
 HOOCH2OCHO
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     O     0 {2,S} {4,S}
-4     C     0 {3,S} {5,S}
-5     O     0 {4,S} {6,S}
-6     O     0 {5,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,D}
+4     O     0 {2,S} {6,S}
+5     O     0 {3,D}
+6     O     0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30749,9 +30749,9 @@ HOOCH2OCHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30764,10 +30764,10 @@ entry(
     reactant1 = 
 """
 CH3OCO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     1 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     1 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -30778,11 +30778,11 @@ CH3O
     product1 = 
 """
 OCH2OCHO
-1     O     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     C     0 {3,S} {5,D}
-5     O     0 {4,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,D}
+4     O     1 {2,S}
+5     O     0 {3,D}
 """,
     product2 = 
 """
@@ -30798,9 +30798,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30813,10 +30813,10 @@ entry(
     reactant1 = 
 """
 CH2OCHO
-1     C     1 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S}
+4     O     0 {2,D}
 """,
     reactant2 = 
 """
@@ -30843,9 +30843,9 @@ OOCH2OCHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30858,10 +30858,10 @@ entry(
     reactant1 = 
 """
 OCH2O2H
-1     O     1 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S} {4,S}
-4     O     0 {3,S}
+1     C     0 {2,S} {3,S}
+2     O     0 {1,S} {4,S}
+3     O     1 {1,S}
+4     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -30888,9 +30888,9 @@ HOOCH2OC*O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30916,11 +30916,11 @@ CO
     product1 = 
 """
 CHOOCO
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     O     0 {2,S} {4,S}
-4     C     1 {3,S} {5,D}
-5     O     0 {4,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S} {5,D}
+4     O     0 {2,D}
+5     O     0 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30931,9 +30931,9 @@ CHOOCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -30959,11 +30959,11 @@ CO2
     product1 = 
 """
 CHOOCO
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     O     0 {2,S} {4,S}
-4     C     1 {3,S} {5,D}
-5     O     0 {4,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     1 {1,S} {5,D}
+4     O     0 {2,D}
+5     O     0 {3,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -30974,9 +30974,9 @@ CHOOCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31009,9 +31009,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31044,9 +31044,9 @@ O2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31078,9 +31078,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31112,9 +31112,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31152,9 +31152,9 @@ HO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31191,9 +31191,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31229,9 +31229,9 @@ CO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31265,9 +31265,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31301,9 +31301,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31338,9 +31338,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31378,9 +31378,9 @@ C2H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31417,9 +31417,9 @@ CH4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31457,9 +31457,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31498,9 +31498,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31539,9 +31539,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31579,9 +31579,9 @@ CH3OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31618,9 +31618,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31644,9 +31644,9 @@ CO
     product1 = 
 """
 CH2CO
-1     C     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     0 {1,D}
+3     O     0 {1,D}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -31660,9 +31660,9 @@ CH2CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31689,9 +31689,9 @@ CH2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31729,9 +31729,9 @@ OCHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31767,9 +31767,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31805,9 +31805,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31844,9 +31844,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31885,9 +31885,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31926,9 +31926,9 @@ C2H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -31967,9 +31967,9 @@ C2H5
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32005,9 +32005,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32020,10 +32020,10 @@ entry(
     reactant1 = 
 """
 CH3CO2
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4     O     1 {2,S}
+1     C     0 {2,S} {3,D} {4,S}
+2     C     0 {1,S}
+3     O     0 {1,D}
+4     O     1 {1,S}
 """,
     product1 = 
 """
@@ -32046,9 +32046,9 @@ CO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32061,9 +32061,9 @@ entry(
     reactant1 = 
 """
 HCCO
-1     C     1 {2,D}
-2     C     0 {1,D} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,D} {3,D}
+2     C     1 {1,D}
+3     O     0 {1,D}
 """,
     product1 = 
 """
@@ -32085,9 +32085,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32126,9 +32126,9 @@ C2H4
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32168,9 +32168,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32209,9 +32209,9 @@ C2H3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32250,9 +32250,9 @@ C2H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32265,9 +32265,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product1 = 
 """
@@ -32292,9 +32292,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32307,9 +32307,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product1 = 
 """
@@ -32334,9 +32334,9 @@ OH
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32349,9 +32349,9 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product1 = 
 """
@@ -32376,9 +32376,9 @@ H2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32391,16 +32391,16 @@ entry(
     reactant1 = 
 """
 C2H5OH
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -32420,9 +32420,9 @@ H2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32435,16 +32435,16 @@ entry(
     reactant1 = 
 """
 SC2H4OH
-1     C     0 {2,S}
-2     C     1 {1,S} {3,S}
-3     O     0 {2,S}
+1     C     1 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     0 {1,S}
 """,
     product1 = 
 """
 CH3CHO
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     O     0 {2,D}
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S}
+3     O     0 {1,D}
 """,
     product2 = 
 """
@@ -32460,9 +32460,9 @@ H
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32475,10 +32475,10 @@ entry(
     reactant1 = 
 """
 CH3COCH3
-1     O     0 {2,D}
-2     C     0 {1,D} {3,S} {4,S}
-3     C     0 {2,S}
-4     C     0 {2,S}
+1     C     0 {2,D} {3,S} {4,S}
+2     O     0 {1,D}
+3     C     0 {1,S}
+4     C     0 {1,S}
 """,
     product1 = 
 """
@@ -32504,9 +32504,9 @@ CH3
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32519,9 +32519,9 @@ entry(
     reactant1 = 
 """
 CH3OCH3
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -32546,9 +32546,9 @@ CH3O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32561,9 +32561,9 @@ entry(
     reactant1 = 
 """
 C3H8
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
 """,
     product1 = 
 """
@@ -32588,9 +32588,9 @@ C2H5
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32603,9 +32603,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -32615,9 +32615,9 @@ H
     product1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -32631,9 +32631,9 @@ C3H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32657,9 +32657,9 @@ CH3
     product1 = 
 """
 C3H6
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     0 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -32673,9 +32673,9 @@ C3H6
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32688,9 +32688,9 @@ entry(
     reactant1 = 
 """
 C3H5-A
-1     C     0 {2,D}
-2     C     0 {1,D} {3,S}
-3     C     1 {2,S}
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3     C     1 {1,S}
 """,
     reactant2 = 
 """
@@ -32717,9 +32717,9 @@ C4H8-1
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32732,10 +32732,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product1 = 
 """
@@ -32761,9 +32761,9 @@ CO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32776,10 +32776,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product1 = 
 """
@@ -32805,9 +32805,9 @@ CO2
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32820,10 +32820,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product1 = 
 """
@@ -32849,9 +32849,9 @@ CH2O
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32864,10 +32864,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product1 = 
 """
@@ -32893,9 +32893,9 @@ OCHO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -32908,10 +32908,10 @@ entry(
     reactant1 = 
 """
 CH3OCHO
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     O     0 {3,D}
+1     O     0 {2,S} {3,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S}
+4     O     0 {2,D}
 """,
     product1 = 
 """
@@ -32937,9 +32937,9 @@ HCO
     ),
     reference = None,
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [

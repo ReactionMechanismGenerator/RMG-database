@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "1,3_Insertion_ROR"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -48,9 +48,10 @@ entry(
     ),
     reference = Article(authors=["Chuchani, G.", "Rotinov, A.", "Dominguez, R.M."], title=u'The kinetics and mechanisms of gas phase elimination of primary, secondary, and tertiary 2-hydroxyalkylbenzenes', journal="Int. J. Chem. Kinet.", volume="31", pages="""401-407""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -90,9 +91,10 @@ entry(
     ),
     reference = Article(authors=["Laidler, K.J.", "McKenney, D.J."], title=u'Kinetics and mechanisms of the pyrolysis of diethyl ether. II. The reaction inhibited by nitric oxide', journal="Proc. R. Soc. London", volume="278", pages="""517-526""", year="1964", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -132,9 +134,10 @@ entry(
     ),
     reference = Article(authors=["Seres, I.", "Huhn, P."], title=u'A dietil-eter termikus bomlasa, III.', journal="Magy. Kem. Foly.", volume="81", pages="""120-123""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -174,9 +177,10 @@ entry(
     ),
     reference = Article(authors=["Foucaut, J.-F.", "Martin, R."], title=u"No. 18. - Etude analytique et cinetique de la pyrolyse de l'ether ethylique vers 500 \xb0C et a faible avancement", journal="J. Chim. Phys.", volume="75", pages="""132""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -212,9 +216,10 @@ entry(
     ),
     reference = Article(authors=["Marinov, N.M."], title=u'A detailed chemical kinetic model for high temperature ethanol oxidation', journal="Int. J. Chem. Kinet.", volume="31", pages="""183-220""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -250,9 +255,10 @@ entry(
     ),
     reference = Article(authors=["Rajakumar, B.", "Reddy, K.P.J.", "Arunan, E."], title=u'Thermal decomposition of 2-fluoroethanol:  Single pulse shock tube and ab initio studies', journal="J. Phys. Chem. A", volume="107", pages="""9782-9793""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -290,9 +296,10 @@ entry(
     ),
     reference = Article(authors=["Bamford, C.H.", "Dewar, M.J.S."], title=u'608. The thermal decomposition of acetic acid', journal="J. Chem. Soc.", pages="""2877-2882""", year="1949", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -330,9 +337,10 @@ entry(
     ),
     reference = Article(authors=["Blake, P.G.", "Jackson, G.E."], title=u'High- and low-temperature mechanisms in the thermal decomposition of acetic acid', journal="J. Chem. Soc. B", pages="""94-96""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -370,9 +378,10 @@ entry(
     ),
     reference = Article(authors=["Mackie, J.C.", "Doolan, K.R."], title=u'High-temperature kinetics of thermal decomposition of acetic acid and its products', journal="Int. J. Chem. Kinet.", volume="16", pages="""525""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -410,9 +419,10 @@ entry(
     ),
     reference = Article(authors=["Mackie, J.C.", "Doolan, K.R."], title=u'High-temperature kinetics of thermal decomposition of acetic acid and its products', journal="Int. J. Chem. Kinet.", volume="16", pages="""525""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -450,9 +460,10 @@ entry(
     ),
     reference = Article(authors=["Duan, X.", "Page, M."], title=u'Theoretical investigation of competing mechanisms in the thermal unimolecular decomposition of acetic acid and the hydration reaction of ketene', journal="J. Am. Chem. Soc.", volume="117", pages="""5114-5119""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -490,9 +501,10 @@ entry(
     ),
     reference = Article(authors=["Trenwith, A.B."], title=u'Thermal Decomposition of Isopropanol', journal="J. Chem. Soc. Faraday Trans. 1", volume="71", pages="""2405""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -530,9 +542,10 @@ entry(
     ),
     reference = Article(authors=["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."], title=u'Thermal Decomposition of Iso-Propanol:  First-Principles Prediction of Total and Product-Branching Rate Constants', journal="J. Chem. Phys.", volume="117", pages="""11188-11195""", year="2002", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -570,9 +583,10 @@ entry(
     ),
     reference = Article(authors=["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."], title=u'Thermal Decomposition of Iso-Propanol:  First-Principles Prediction of Total and Product-Branching Rate Constants', journal="J. Chem. Phys.", volume="117", pages="""11188-11195""", year="2002", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -610,9 +624,10 @@ entry(
     ),
     reference = Article(authors=["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."], title=u'Thermal Decomposition of Iso-Propanol:  First-Principles Prediction of Total and Product-Branching Rate Constants', journal="J. Chem. Phys.", volume="117", pages="""11188-11195""", year="2002", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -652,9 +667,10 @@ entry(
     ),
     reference = Article(authors=["Barnard, J.A."], title=u'The pyrolysis of tert-butanol', journal="Trans. Faraday Soc.", volume="55", pages="""947-951""", year="1959", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:37 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -694,9 +710,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of some tert-butyl compounds at elevated temperatures', journal="J. Chem. Phys.", volume="40", pages="""1498-1505""", year="1964", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:37 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -736,9 +753,10 @@ entry(
     ),
     reference = Article(authors=["Dorko, E.A.", "McGhee, D.B.", "Painter, C.E.", "Caponecchi, A.J.", "Crossley, R.W."], title=u'Shock Tube Isomerization of Cyclopropane', journal="J. Phys. Chem.", volume="75", pages="""2526""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:37 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -778,9 +796,10 @@ entry(
     ),
     reference = Article(authors=["Gonzalez, M.G.", "Lew, L.", "Cunningham, R.E."], title=u'Determinacion de la Cinetica de Descomposicion Termica de Alcoholes e Hidrocarburos Mediante un Reactor Pulso', journal="Lab. Ensayo Mater. Invest. Tecnol. Prov. Buenos Aires Publ. Ser. 2", pages="""103-123""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:37 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -820,9 +839,10 @@ entry(
     ),
     reference = Article(authors=["Lewis, D.", "Keil, M.", "Sarr, M."], title=u'Gas Phase Thermal Decomposition of tert-Butyl Alcohol', journal="J. Am. Chem. Soc.", volume="96", pages="""4398""", year="1974", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:37 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -862,9 +882,10 @@ entry(
     ),
     reference = Article(authors=["Newman, C.G.", "O'Neal, H.E.", "Ring, M.A.", "Leska, F.", "Shipley, N."], title=u'Kinetics and mechanism of the silane decomposition', journal="Int. J. Chem. Kinet.", volume="11", pages="""1167""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:37 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -908,9 +929,10 @@ entry(
     ),
     reference = Article(authors=["Daly, N.J.", "Stimson, V.R."], title=u'The thermal decomposition of diisopropyl ether', journal="Aust. J. Chem.", volume="19", pages="""239-250""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:33:49 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -954,9 +976,10 @@ entry(
     ),
     reference = Article(authors=["Herzler, J.", "Manion, J.A.", "Tsang, W."], title=u'Single-pulse shock tube studies of the decomposition of ethoxy compounds', journal="J. Phys. Chem. A", volume="101", pages="""5494-5499""", year="1997", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:01 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1000,9 +1023,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1044,9 +1068,10 @@ entry(
     ),
     reference = Article(authors=["Rotinov, A.", "Chuchani, G.", "Machado, R.A.", "Rivas, C."], title=u'The retro-aldol mechanism in the pyrolysis kinetics of primary, secondary, and tertiary \u03b2-hydroxy ketones in the gas phase', journal="Int. J. Chem. Kinet.", volume="24", pages="""909-915""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:10 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1090,9 +1115,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:11 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1136,9 +1162,10 @@ entry(
     ),
     reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:11 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1178,9 +1205,10 @@ entry(
     ),
     reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation of 3-Hydroxybut-1-ene and the Resonance Energy of the Hydroxyallyl Radical', journal="J. Chem. Soc. Faraday Trans. 1", volume="69", pages="""1737""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:12 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1224,9 +1252,10 @@ entry(
     ),
     reference = Article(authors=["Daly, N.J.", "Wentrup, C."], title=u'The thermal decomposition of t-butyl ethyl ether', journal="Aust. J. Chem.", volume="21", pages="""1535""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:16 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1268,9 +1297,10 @@ entry(
     ),
     reference = Article(authors=["Daly, N.J.", "Wentrup, C."], title=u'The thermal decomposition of t-butyl methyl ether', journal="Aust. J. Chem.", volume="21", pages="""2711-2716""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:29 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1312,9 +1342,10 @@ entry(
     ),
     reference = Article(authors=["Choo, K-Y.", "Golden, D.M.", "Benson, S.W."], title=u'Very Low-Pressure Pyrolysis (VLPP) of t-Butylmethyl Ether', journal="Int. J. Chem. Kinet.", volume="6", pages="""631""", year="1974", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:29 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1356,9 +1387,10 @@ entry(
     ),
     reference = Article(authors=["Brocard, J.C.", "Baronnet, F."], title=u'Pyrolysis of methyl tert-butyl ether', journal="Oxid. Commun.", volume="1", pages="""321""", year="1980", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:29 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1400,9 +1432,10 @@ entry(
     ),
     reference = Article(authors=["Brocard, J.C.", "Baronnet, F."], title=u'Effets de parois dans la pyrolyse du methyl tert-butyl ether (MTBE)', journal="J. Chim. Phys. Phys. Chim. Biol.", volume="84", pages="""19""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:34:29 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1448,9 +1481,10 @@ entry(
     ),
     reference = Article(authors=["Daly, N.J.", "Ziolkowski, F.J."], title=u'The thermal decomposition of t-butyl isopropyl ether', journal="Aust. J. Chem.", volume="23", pages="""541""", year="1970", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:29 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1496,9 +1530,10 @@ entry(
     ),
     reference = Article(authors=["Daly, N.J.", "Ziolkowski, F.J."], title=u'The thermal decomposition of t-butyl isopropyl ether', journal="Aust. J. Chem.", volume="23", pages="""541""", year="1970", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:29 2011","jwallen","action","""jwallen added this entry to the database."""),
@@ -1544,9 +1579,10 @@ entry(
     ),
     reference = Article(authors=["Chuchani, G.", "Rotinov, A.", "Dominguez, R.M."], title=u'Elimination kinetics and mechanisms for several 2-alkoxyacetic acids in the gas phase', journal="J. Phys. Org. Chem.", volume="9", pages="""787-794""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
-    shortDesc = """""",
+    shortDesc = u"""""",
     longDesc = 
-"""
+u"""
+
 """,
     history = [
         ("Tue May 17 14:35:43 2011","jwallen","action","""jwallen added this entry to the database."""),

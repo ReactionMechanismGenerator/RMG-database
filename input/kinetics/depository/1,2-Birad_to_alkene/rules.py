@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 name = "1,2-Birad_to_alkene/rules"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
 
@@ -22,9 +22,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 0,
-    shortDesc = """Default""",
+    shortDesc = u"""Default""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -55,9 +55,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -88,9 +88,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -113,9 +113,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -146,9 +146,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -179,9 +179,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -212,9 +212,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -237,9 +237,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -270,9 +270,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -303,9 +303,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -328,9 +328,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -353,9 +353,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -378,9 +378,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -403,9 +403,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -436,9 +436,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
@@ -469,9 +469,9 @@ entry(
     reference = None,
     referenceType = "",
     rank = 5,
-    shortDesc = """see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
+    shortDesc = u"""see references header of 1,2-Birad_to_alkene/rateLibrary.txt""",
     longDesc = 
-"""
+u"""
 
 """,
     history = [
