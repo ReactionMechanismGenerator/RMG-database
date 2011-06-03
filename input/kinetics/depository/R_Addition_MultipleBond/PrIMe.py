@@ -33,7 +33,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.74e+14,"s^-1"),
         n = 0,
-        Ea = (1414.33,"J/mol"),
+        Ea = (85.6,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -45,6 +45,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:33:23 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -74,9 +75,9 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (9.77e+13,"s^-1"),
+        A = (9.77e+12,"s^-1"),
         n = 0,
-        Ea = (1192.93,"J/mol"),
+        Ea = (72.2,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -88,6 +89,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:33:23 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -117,7 +119,7 @@ entry(
     kinetics = Arrhenius(
         A = (2.69e+13,"s^-1"),
         n = 0,
-        Ea = (837.694,"J/mol"),
+        Ea = (50.7,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -129,6 +131,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:33:23 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -5325,7 +5328,7 @@ entry(
     kinetics = Arrhenius(
         A = (5.5e+13,"s^-1"),
         n = 0,
-        Ea = (1670.43,"J/mol"),
+        Ea = (101.1,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
@@ -5337,6 +5340,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -5917,7 +5921,7 @@ entry(
     kinetics = Arrhenius(
         A = (3.98e+13,"s^-1"),
         n = 0,
-        Ea = (1163.19,"J/mol"),
+        Ea = (70.4,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
@@ -5929,6 +5933,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -6111,7 +6116,7 @@ entry(
     kinetics = Arrhenius(
         A = (2.46e+13,"s^-1"),
         n = 0,
-        Ea = (1447.38,"J/mol"),
+        Ea = (87.6,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
@@ -6123,6 +6128,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:36 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -10178,9 +10184,9 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (1.15e+13,"s^-1"),
+        A = (1.15e+14,"s^-1"),
         n = 0,
-        Ea = (940.134,"J/mol"),
+        Ea = (56.9,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
@@ -10192,6 +10198,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -10879,7 +10886,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.58e+13,"s^-1"),
         n = 0,
-        Ea = (1265.63,"J/mol"),
+        Ea = (76.6,"J/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
@@ -10891,6 +10898,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -11230,7 +11238,7 @@ entry(
     kinetics = Arrhenius(
         A = (9.12e+13,"s^-1"),
         n = 0,
-        Ea = (993.007,"J/mol"),
+        Ea = (60.1,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
@@ -11242,6 +11250,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:54 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -13385,7 +13394,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.7e+13,"s^-1"),
         n = 0,
-        Ea = (1417.64,"J/mol"),
+        Ea = (85.8,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -13397,6 +13406,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:35:26 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -14003,7 +14013,7 @@ entry(
     kinetics = Arrhenius(
         A = (3.39e+14,"s^-1"),
         n = 0,
-        Ea = (1566.34,"J/mol"),
+        Ea = (94.8,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -14015,6 +14025,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:35:38 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -14044,7 +14055,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.1e+13,"s^-1"),
         n = 0,
-        Ea = (1275.54,"J/mol"),
+        Ea = (77.2,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -14056,6 +14067,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:35:38 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -14462,7 +14474,7 @@ entry(
     kinetics = Arrhenius(
         A = (5.25e+13,"s^-1"),
         n = 0,
-        Ea = (807.954,"J/mol"),
+        Ea = (48.9,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
@@ -14474,6 +14486,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -14505,7 +14518,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.51e+13,"s^-1"),
         n = 0,
-        Ea = (1249.11,"J/mol"),
+        Ea = (75.6,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -14517,6 +14530,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -14628,7 +14642,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.78e+13,"s^-1"),
         n = 0,
-        Ea = (1029.36,"J/mol"),
+        Ea = (62.3,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
@@ -14640,6 +14654,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:35:39 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","jwallen","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
