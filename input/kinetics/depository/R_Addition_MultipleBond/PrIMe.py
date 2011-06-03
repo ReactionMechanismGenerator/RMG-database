@@ -15369,20 +15369,26 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (6.17e+45,"s^-1"),
-        n = -11,
-        Ea = (585411,"J/mol"),
+        A = (3.11e9,"s^-1"),
+        n = 1.05,
+        Ea = (26430,"cal/mol"),
         T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (900,"K"),
     ),
     reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+The reference gives pressure-dependent Arrhenius expressions at several
+pressures and for two temperature ranges. The original values used here were
+taken from the expression for 1 bar. The current values are taken from the
+high-pressure limit instead.
 """,
     history = [
         ("Tue May 17 14:36:02 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:56:45 2011","jwallen","action","""Switched to use high-pressure-limit Arrhenius parameters."""),
     ],
 )
 
@@ -15414,20 +15420,26 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (8.72e+26,"s^-1"),
-        n = -5.92,
-        Ea = (325660,"J/mol"),
+        A = (2.35e+7,"s^-1"),
+        n = 1.67,
+        Ea = (25230,"cal/mol"),
         T0 = (1,"K"),
+        Tmin = (900,"K"),
+        Tmax = (2500,"K"),
     ),
     reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+The reference gives pressure-dependent Arrhenius expressions at several
+pressures and for two temperature ranges. The original values used here were
+taken from the expression for 1 bar. The current values are taken from the
+high-pressure limit instead.
 """,
     history = [
         ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:56:45 2011","jwallen","action","""Switched to use high-pressure-limit Arrhenius parameters."""),
     ],
 )
 
