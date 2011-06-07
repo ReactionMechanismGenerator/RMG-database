@@ -175,6 +175,9 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
     trainingSet = []
     for label in trainingSetLabels:
         for entry in database.kinetics.depository['{0}/{1}'.format(family,label)].entries.values():
+            if isinstance(entry.data, ArrheniusEP):
+                if entry.data.alpha.value != 0:
+                    continue # skip things with Evans-Polanyi values
             trainingSet.append(getForwardReactionForEntry(entry=entry, database=database, family=family))
     testSet = []
     for label in testSetLabels:
