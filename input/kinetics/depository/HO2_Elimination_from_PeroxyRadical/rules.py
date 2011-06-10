@@ -467,31 +467,32 @@ TS (and it is certainly better than leaving RMG to estimate via "Average of Aver
 
 entry(
     index = 847,
-    label = "R2OO_2H_HDe",
+    label = "HOCH[OO]CH3",
     group1 =
 """
-1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2  *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 O 0 {2,S} {5,S}
+2 *2 C 0 {1,S} {3,S} {6,S} {7,S}
+3 *3 O 0 {2,S} {4,S}
+4 *4 O 1 {3,S}
+5 *5 H 0 {1,S}
+6 H 0 {2,S}
+7 C 0 {2,S} {8,S} {9,S} {10,S}
+8 H 0 {7,S}
+9 H 0 {7,S}
+10 H 0 {7,S}
 """,
     kinetics = ArrheniusEP(
-        A = (825300,"cm^3/(mol*s)","*|/",5),
-        n = 1.829,
+        A = (6.813e+10,"cm^3/(mol*s)","*|/",10),
+        n = .439,
         alpha = 0,
-        E0 = (24.247,"kcal/mol","+|-",2),
+        E0 = (11.894,"kcal/mol","+|-",2),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Same as node 845 (MRH assumption)""",
+    rank = 5,
+    shortDesc = u"""MRH CBS-QB3 calculations with 1d h.r. corrections.""",
     longDesc =
 u"""
 MRH CBS-QB3 calculations for the reaction CH3-CH(OO)-OH => CH3-CH=O + HO2
@@ -535,40 +536,34 @@ k(T) = 6.813e+10 * (T/1K)^0.493 * exp(-11.894 kcal/mol / RT) cm3/mol/s.
 
 entry(
     index = 848,
-    label = "R2OO_2H_HDe",
+    label = "OCOO",
     group1 =
 """
-1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2  *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 O 0 {2,S} {5,S}
+2 *2 C 0 {1,S} {3,S} {6,S} {7,S}
+3 *3 O 0 {2,S} {4,S}
+4 *4 O 1 {3,S}
+5 *5 H 0 {1,S}
+6 R 0 {2,S}
+7 R 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (825300,"cm^3/(mol*s)","*|/",5),
-        n = 1.829,
+        A = (6.813e+10,"cm^3/(mol*s)","*|/",10),
+        n = .439,
         alpha = 0,
-        E0 = (24.247,"kcal/mol","+|-",2),
+        E0 = (11.894,"kcal/mol","+|-",2),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""Same as node 845 (MRH assumption)""",
+    shortDesc = u"""Same as node 847 (MRH assumption)""",
     longDesc =
 u"""
-MRH approximation for the general R2OO_2H_HDe node
+MRH approximation for the general OCOO node
 
-MRH computed the rate coefficient for the reaction CH3-CH(OO)-CH=CH2 => CH2=CH-CH=CH2 + HO2 (see node 845).
-The difference between the R2OO_2H_HDe and CH3CH(OO)CHCH2 nodes is defining the delocalized group (in the
-case of the CH3CH(OO)CHCH2 node, the -CH=CH2 functional group).  MRH thinks using the kinetics for node 845
-in the event node 846 is hit is reasonable, considering this part of the molecule does not play a role in the
-TS (and it is certainly better than leaving RMG to estimate via "Average of Average").
+In the event RMG finds any H-O-C-O-O* connection, the kinetics used for direct HO2 elimination will be those of CH3-CH(OO)-OH => CH3CHO + HO2.
 """,
     history = [
         ("Fri Jun  10 17:16:47 2011","connie","action","""connie imported this entry from the old RMG database."""),
