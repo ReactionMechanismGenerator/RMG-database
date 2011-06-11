@@ -34,7 +34,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -86,7 +86,7 @@ Divide the rate constant by 12 to account for symmetry of 2 (O2) and 6 (i-C3H7, 
 JDM 31-Mar-2010
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -133,7 +133,7 @@ i-butyl radical.  Rate coefficient is estimate.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -177,7 +177,7 @@ expression equal to double the rate expression of H+C2H5=H2+C2H4.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -221,7 +221,7 @@ Camilleri, et al. (1974)
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -284,7 +284,7 @@ These are the values that now reside in the database.  The online NIST database
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -333,7 +333,7 @@ disproportionation to addition is that reported by Gibian and Corley (1973).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -383,7 +383,7 @@ mean rule for the rxns C3H5+C3H5-->adduct and iC3H7+iC3H7-->adduct.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -430,7 +430,7 @@ of 4.8x10^-12 based on the rate expression of i-C3H7+C2H5=C2H6+C3H6
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -478,7 +478,7 @@ ratio agrees well with most of the experimental data.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -527,7 +527,7 @@ reported branching ratio.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -575,7 +575,7 @@ C2H5+i-C3H7 system for the C2H3+i-C3H7 system.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -620,7 +620,7 @@ of 6x10^-12 cm3/molecule/s, a "typical" disproportionation rate.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -665,7 +665,7 @@ rxn and an addition + hot adduct decomposition rxn will result in the same produ
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -708,7 +708,7 @@ by authors.  In any case, recommended data fits the reported data well.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -759,7 +759,7 @@ Divide the rate constant by 4 to account for symmetry of 2 (O2) and 2 (n-C3H7, c
 JDM 31-Mar-2010
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -807,7 +807,7 @@ is an upper limit.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -851,7 +851,7 @@ of the H+C2H5=C2H4+H2 rxn for the H+n-C3H7=C3H6+H2 rxn.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -902,7 +902,7 @@ measured branching ratios)
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -953,7 +953,7 @@ branching ratios)
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1003,7 +1003,7 @@ mean rule for the rxns C3H5+C3H5-->adduct and nC3H7+nC3H7-->adduct.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1051,7 +1051,7 @@ also estimates the branching ratio of disproportionation to addition as 0.051
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1101,7 +1101,7 @@ Corley (1973).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1151,7 +1151,7 @@ processes".
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1197,7 +1197,7 @@ based on the rxn C2H5+n-C3H7=C3H6=C2H6.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1243,7 +1243,7 @@ namely 1.0x10^-11 cm3/molecule/s.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1288,7 +1288,7 @@ on the rate coefficient for OH+C2H5=C2H4+H2O, namely 4.0x10^-11 cm3/molecule/s.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1337,7 +1337,7 @@ Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (i-C4H9, c
 JDM 31-Mar-2010
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1384,7 +1384,7 @@ disproportionation to be 1x10^-11 cm3/molecule/s.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1431,7 +1431,7 @@ fall-off tables and collisional efficiencies.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1479,7 +1479,7 @@ on the alpha-carbon).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1529,7 +1529,7 @@ by Gibian and Corley (1973).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1582,7 +1582,7 @@ cutting the A in the RMG_database in two. ***
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1631,7 +1631,7 @@ mean rule for the rxns C3H5+C3H5-->adduct and iC4H9+iC4H9-->adduct.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1683,7 +1683,7 @@ small discrepancy between the author's stated and implemented calculation. ***
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1736,7 +1736,7 @@ cutting the A in the RMG_database in two. ***
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1782,7 +1782,7 @@ coefficient based on the rate of C2H5+i-C4H9=i-C4H8+C2H6.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1828,7 +1828,7 @@ on the alpha-carbon).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1881,7 +1881,7 @@ Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (allyl, ca
 JDM 31-Mar-2010
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1923,7 +1923,7 @@ Entry 47,4(c): No data available at the time.  Author assigns a rate coefficient
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1977,7 +1977,7 @@ Multiplying by 0.03 results in the recommended rate coefficient expression.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2024,7 +2024,7 @@ mean rule of the rxns C2H5+C2H5-->adduct and C3H5+C3H5-->adduct.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2071,7 +2071,7 @@ of Tulloch et al.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2119,7 +2119,7 @@ mean rule for the rxns C3H5+C3H5-->adduct and iC3H7+iC3H7-->adduct.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2167,7 +2167,7 @@ mean rule for the rxns C3H5+C3H5-->adduct and tC4H9+tC4H9-->adduct.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2211,7 +2211,7 @@ of 4x10^-12 cm3/molecule/s for the disproportionation rxn.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2254,7 +2254,7 @@ of 1x10^-11 cm3/molecule/s, based on "comparable rxns".
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2297,7 +2297,7 @@ Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH3CHOH, 
 JDM 31-Mar-2010
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2340,7 +2340,7 @@ Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH2OH, ox
 JDM 31-Mar-2010
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2385,7 +2385,7 @@ Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH2OH, ox
 JDM 31-Mar-2010
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2429,7 +2429,7 @@ pg.965-967: Discussion on measured rate coefficients.
 MRH 1-Sept-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2474,7 +2474,7 @@ Author estimates the rate of disproportionation as 2.0x10^-12 cm3/molecule/s.  N
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2521,7 +2521,7 @@ value the authors used was 3.6x10^13 cm3/mol/s.
 MRH 1-Sept-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2565,7 +2565,7 @@ and reports rate coefficient as 1.0x10^-11 cm3/molecule/s.  No data at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2616,7 +2616,7 @@ The value of A in the database is consistent with that reported in Table 2.
 MRH 1-Sept-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2663,7 +2663,7 @@ namely 4x10^-12 cm3/molecule/s.  No data at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2710,7 +2710,7 @@ No data at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2757,7 +2757,7 @@ coefficient of 3x10^-11 cm3/molecule/s.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2811,7 +2811,7 @@ MRH 30-Aug-2009
 *** NEED TO INVESTIGATE ***
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2856,7 +2856,7 @@ on rxn C2H5+i-C3H7=C3H8+C2H4, namely 3.9x10^-12 cm3/molecule/s
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2906,7 +2906,7 @@ the rate for the disproportionation rxn. ***
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2952,7 +2952,7 @@ to rxn's exothermicity.  No data available at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2997,7 +2997,7 @@ to very exothermic rxn.  No data available at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3043,7 +3043,7 @@ No data available at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3088,7 +3088,7 @@ No data available at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3133,7 +3133,7 @@ No data available at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3178,7 +3178,7 @@ No data available at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3244,7 +3244,7 @@ This rate coefficient recommendation is up to 3x slower than the previous RMG-em
 	Proc. Combust. Inst. 32 (2009) 271-277
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3279,7 +3279,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 

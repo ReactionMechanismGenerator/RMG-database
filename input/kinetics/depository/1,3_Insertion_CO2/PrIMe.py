@@ -44,7 +44,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -85,7 +85,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -126,7 +126,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -167,7 +167,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -208,7 +208,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -249,7 +249,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -290,7 +290,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -331,7 +331,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -374,7 +374,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:33:38 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:38 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -427,7 +427,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:33:44 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:44 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -474,7 +474,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:33:58 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:58 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -529,7 +529,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:34:12 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -574,7 +574,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:34:15 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -619,7 +619,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:34:15 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -664,7 +664,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:34:15 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -715,7 +715,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:34:56 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -766,7 +766,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:34:56 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -813,7 +813,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:35:01 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:01 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -862,7 +862,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:35:16 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:16 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -911,7 +911,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:35:16 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:16 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -962,7 +962,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:35:27 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -1017,7 +1017,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:35:27 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -1072,7 +1072,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:35:28 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 

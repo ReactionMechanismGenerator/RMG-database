@@ -10,12 +10,49 @@ import math
 import os.path
 import sys
 import time
+import subprocess
+import os
 
 from rmgpy.data.rmg import RMGDatabase
 from rmgpy.kinetics import KineticsData
 from rmgpy.data.kinetics import KineticsDatabase, KineticsGroups
 
 ################################################################################
+
+def getUsername():
+    """
+    Figure out what the current username is in the form "Richard West <rwest@mit.edu>"
+    
+    It should be in the format "Richard West <rwest@mit.edu>". We do this by
+    interrogating git, if possible
+    """
+    name = ''
+    email = ''
+    try:
+        p=subprocess.Popen('git config --get user.name'.split(),
+                stdout=subprocess.PIPE)
+        name = p.stdout.read()
+    except OSError:
+        pass
+    if name:
+        name = name.strip()
+    else:
+        print "Couldn't find user.name from git."
+        name = os.getlogin()
+    
+    try:
+        p=subprocess.Popen('git config --get user.email'.split(),
+                stdout=subprocess.PIPE)
+        email = p.stdout.read()
+    except OSError:
+        pass
+    if email:
+        email = email.strip()
+    else:
+        print "Couldn't find user.email from git."
+        email = os.getlogin() + "@" + os.uname()[1]
+    
+    return '{0} <{1}>'.format(name,email)
 
 def setHistory(database, user):
     """
@@ -55,6 +92,9 @@ def setHistory(database, user):
 ################################################################################
 
 if __name__ == '__main__':
+    
+    #figure out the username
+    user = getUsername()
 
     # Set the import and export paths
     oldPath = 'output/RMG_database'
@@ -65,7 +105,7 @@ if __name__ == '__main__':
     database.loadOld(oldPath)
     
     print 'Setting history of all entries in database...'
-    setHistory(database, user='jwallen')
+    setHistory(database, user=user)
       
     print 'Saving the new RMG-Py database...'
     database.save(newPath)
