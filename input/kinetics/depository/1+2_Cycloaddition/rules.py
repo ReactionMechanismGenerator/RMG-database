@@ -33,7 +33,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -72,7 +72,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -109,7 +109,7 @@ u"""
 Excitation: direct photolysis, analysis: UV-Vis absorption, Pressure 0.1 - 1000 atm. O + C2H4 --> Oxirane
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -146,7 +146,7 @@ u"""
 Excitation: direct photolysis, analysis: UV-Vis absorption, Pressure 0.1 - 1000 atm. O + CH3CH=CH2 --> methyloxirane
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -184,7 +184,7 @@ u"""
 Absolute values measured directly. Excitation: discharge, analysis :GC, Pressure 0.01 atm. O + CH3CH=CH2 --> methyloxirane
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -224,7 +224,7 @@ Data derived from fitting to a complex mechanism. Excitation: flash photolysis, 
 O + 1-C4H8 --> ethyloxirane. Original uncertainty 3.0E+11
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -264,7 +264,7 @@ Data derived from fitting to a complex mechanism. Excitation: flash photolysis, 
 O + iso-C4H8 --> 2,2- dimethyloxirane. Original uncertainty 1.2E+12
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -303,7 +303,7 @@ Relative value measured (O + (Z)-2-C4H8 --> cis-2,3-dimethyloxirane/O + C2H4 = O
 Pressure 0.39 atm. Excitation : sensitized photolysis, analysis :GC.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 
@@ -342,7 +342,7 @@ Relative value measured (O + (CH3)2C=C(CH3)2 --> tetramethyl-oxirane/O + iso-C4H
 Pressure 0.39 atm. Excitation : sensitized photolysis, analysis :GC.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","jwallen","action","""jwallen imported this entry from the old RMG database."""),
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
     ],
 )
 

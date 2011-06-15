@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "HO2_Elimination_from_PeroxyRadical"
+name = "HO2_Elimination_from_PeroxyRadical/PrIMe"
 shortDesc = u""
 longDesc = u"""
 
@@ -44,7 +44,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -85,7 +85,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -126,7 +126,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -171,7 +171,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -214,7 +214,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:34:57 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -257,7 +257,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:35:48 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:48 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 

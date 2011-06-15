@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Cyclic_Ether_Formation"
+name = "Cyclic_Ether_Formation/PrIMe"
 shortDesc = u""
 longDesc = u"""
 
@@ -48,7 +48,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:36:03 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -93,7 +93,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:36:03 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -138,7 +138,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:36:03 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:36:03 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "2+2_cycloaddition_CCO"
+name = "2+2_cycloaddition_CCO/PrIMe"
 shortDesc = u""
 longDesc = u"""
 
@@ -46,7 +46,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:34:02 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:02 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
@@ -97,7 +97,7 @@ u"""
 
 """,
     history = [
-        ("Tue May 17 14:34:22 2011","jwallen","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:22 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
     ],
 )
 
