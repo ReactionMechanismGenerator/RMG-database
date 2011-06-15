@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Disproportionation"
+name = "Disproportionation/PrIMe"
 shortDesc = u""
 longDesc = u"""
 
