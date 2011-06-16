@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "R_Addition_MultipleBond/PrIMe"
+name = "R_Addition_MultipleBond"
 shortDesc = u""
 longDesc = u"""
 
@@ -33,7 +33,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.74e+14,"s^-1"),
         n = 0,
-        Ea = (1414.33,"J/mol"),
+        Ea = (85.6,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -45,6 +45,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:33:23 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -74,9 +75,9 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (9.77e+13,"s^-1"),
+        A = (9.77e+12,"s^-1"),
         n = 0,
-        Ea = (1192.93,"J/mol"),
+        Ea = (72.2,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -88,6 +89,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:33:23 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -117,7 +119,7 @@ entry(
     kinetics = Arrhenius(
         A = (2.69e+13,"s^-1"),
         n = 0,
-        Ea = (837.694,"J/mol"),
+        Ea = (50.7,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -129,6 +131,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:33:23 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -1163,7 +1166,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (9.6e-13,"cm^3/(mol*s)"),
+        A = (9.6e-13,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (23870.8,"J/mol"),
         T0 = (1,"K"),
@@ -1177,6 +1180,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:33:38 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -1206,7 +1210,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.81e-12,"cm^3/(mol*s)"),
+        A = (1.81e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (13028.8,"J/mol"),
         T0 = (1,"K"),
@@ -1220,6 +1224,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:33:38 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -1249,7 +1254,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.25e-11,"cm^3/(mol*s)"),
+        A = (2.25e-11,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-2103.56,"J/mol"),
         T0 = (1,"K"),
@@ -1263,6 +1268,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:33:38 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -1292,7 +1298,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.39e-12,"cm^3/(mol*s)"),
+        A = (2.39e-12,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-5620.58,"J/mol"),
         T0 = (1,"K"),
@@ -1306,6 +1312,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:33:38 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -1767,7 +1774,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (2.19e-20,"cm^3/(mol*s)"),
+        A = (2.19e-20,"cm^3/(molecule*s)"),
         n = 2.64,
         Ea = (256.926,"J/mol"),
         T0 = (1,"K"),
@@ -1781,6 +1788,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:02 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -1816,7 +1824,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (2.97e-20,"cm^3/(mol*s)"),
+        A = (2.97e-20,"cm^3/(molecule*s)"),
         n = 2.53,
         Ea = (196.949,"J/mol"),
         T0 = (1,"K"),
@@ -1830,6 +1838,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:02 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -2675,7 +2684,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (4.57e-11,"cm^3/(mol*s)"),
+        A = (4.57e-11,"cm^3/(molecule*s)"),
         n = 0,
         Ea = (-6061.25,"J/mol"),
         T0 = (1,"K"),
@@ -2689,6 +2698,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -3781,7 +3791,7 @@ entry(
         A = (9.46e+19,"s^-1"),
         n = -9.54,
         Ea = (213682,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (298,"K"),
     ),
     reference = Article(authors=["Bozzelli, J.W.", "Dean, A.M."], title=u'Chemical activation analysis of the reaction of C_2H_5 with O_2', journal="J. Phys. Chem.", volume="94", pages="""3313""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000027.xml"),
     referenceType = "",
@@ -3792,6 +3802,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value for T0."""),
     ],
 )
 
@@ -3858,302 +3869,6 @@ entry(
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000030.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 97,
-    label = "r00010238",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 C     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 C     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (6e+41,"cm^3/(mol*s)"),
-        n = -7.62,
-        Ea = (6970,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000032.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 98,
-    label = "r00010238",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 C     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 C     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.2e+42,"cm^3/(mol*s)"),
-        n = -7.62,
-        Ea = (6970,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000033.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 99,
-    label = "r00010238",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 C     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 C     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (3.6e+42,"cm^3/(mol*s)"),
-        n = -7.62,
-        Ea = (6970,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000034.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 100,
-    label = "r00010238",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 C     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 C     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.2e+42,"cm^3/(mol*s)"),
-        n = -7.62,
-        Ea = (6970,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000035.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 101,
-    label = "r00010238",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 C     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 C     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (9e+41,"cm^3/(mol*s)"),
-        n = -7.62,
-        Ea = (6970,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000036.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 102,
-    label = "r00010238",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 C     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 C     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.2e+42,"cm^3/(mol*s)"),
-        n = -7.62,
-        Ea = (6970,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000037.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 103,
-    label = "r00010238",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 C     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 C     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.8e+42,"cm^3/(mol*s)"),
-        n = -7.62,
-        Ea = (6970,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000038.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 104,
-    label = "r00010238",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 C     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 C     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (4.2e+41,"cm^3/(mol*s)"),
-        n = -7.62,
-        Ea = (6970,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000039.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -5280,7 +4995,7 @@ entry(
     kinetics = Arrhenius(
         A = (6.8e+13,"s^-1"),
         n = 0,
-        Ea = (1809.22,"J/mol"),
+        Ea = (109.5,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Hippler, H.", "Striebel, F.", "Viskolcz, B."], title=u'A Detailed Experimental and Theoretical Study on the Decomposition of Methoxy Radicals', journal="Phys. Chem. Chem. Phys.", volume="3", pages="""2450-2458""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
@@ -5292,6 +5007,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Wed Jun 15 13:08:15 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -5317,7 +5033,7 @@ entry(
     kinetics = Arrhenius(
         A = (5.5e+13,"s^-1"),
         n = 0,
-        Ea = (1670.43,"J/mol"),
+        Ea = (101.1,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
@@ -5329,265 +5045,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 136,
-    label = "r00010564",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 O     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.2e+30,"cm^3/(mol*s)"),
-        n = -4.8,
-        Ea = (5560,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 137,
-    label = "r00010564",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 O     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (4.4e+30,"cm^3/(mol*s)"),
-        n = -4.8,
-        Ea = (5560,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000024.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 138,
-    label = "r00010564",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 O     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.32e+31,"cm^3/(mol*s)"),
-        n = -4.8,
-        Ea = (5560,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000025.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 139,
-    label = "r00010564",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 O     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (4.4e+30,"cm^3/(mol*s)"),
-        n = -4.8,
-        Ea = (5560,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000026.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 140,
-    label = "r00010564",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 O     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (3.3e+30,"cm^3/(mol*s)"),
-        n = -4.8,
-        Ea = (5560,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000027.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 141,
-    label = "r00010564",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 O     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (4.4e+30,"cm^3/(mol*s)"),
-        n = -4.8,
-        Ea = (5560,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000028.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 142,
-    label = "r00010564",
-    reactant1 = 
-"""
-1  *1 C     0 {2,D}
-2  *2 O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *2 O     1 {1,S}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (6.6e+30,"cm^3/(mol*s)"),
-        n = -4.8,
-        Ea = (5560,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000029.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -5909,7 +5367,7 @@ entry(
     kinetics = Arrhenius(
         A = (3.98e+13,"s^-1"),
         n = 0,
-        Ea = (1163.19,"J/mol"),
+        Ea = (70.4,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
@@ -5921,6 +5379,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -5944,7 +5403,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.41e-29,"cm^3/(mol*s)"),
+        A = (1.41e-29,"cm^3/(molecule*s)"),
         n = 4.98,
         Ea = (18.5053,"J/mol"),
         T0 = (1,"K"),
@@ -5958,6 +5417,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -6102,7 +5562,7 @@ entry(
     kinetics = Arrhenius(
         A = (2.46e+13,"s^-1"),
         n = 0,
-        Ea = (1447.38,"J/mol"),
+        Ea = (87.6,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
@@ -6114,6 +5574,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -7152,7 +6613,7 @@ entry(
     kinetics = Arrhenius(
         A = (5.01e+46,"cm^3/(mol*s)"),
         n = -10.2,
-        Ea = (272755,"J/mol"),
+        Ea = (16508,"cal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."], title=u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene', journal="J. Phys. Chem. A", volume="108", pages="""3829-3843""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -7164,57 +6625,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:44 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 183,
-    label = "r00011148",
-    reactant1 = 
-"""
-1     C     0 {2,B} {3,B}
-2     C     0 {1,B} {4,B}
-3     C     0 {1,B} {5,B}
-4     C     0 {2,B} {6,B}
-5     C     0 {3,B} {6,B}
-6  *3 C     1 {4,B} {5,B}
-""",
-    reactant2 = 
-"""
-1  *2 C     0 {2,S} {3,D}
-2     C     0 {1,S} {4,D}
-3  *1 C     0 {1,D}
-4     C     0 {2,D}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2  *3 C     0 {1,S} {4,B} {5,B}
-3  *2 C     1 {1,S} {9,S}
-4     C     0 {2,B} {7,B}
-5     C     0 {2,B} {8,B}
-6     C     0 {7,B} {8,B}
-7     C     0 {4,B} {6,B}
-8     C     0 {5,B} {6,B}
-9     C     0 {3,S} {10,D}
-10    C     0 {9,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (3.98e+67,"cm^3/(mol*s)"),
-        n = -16.85,
-        Ea = (385059,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(authors=["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."], title=u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene', journal="J. Phys. Chem. A", volume="108", pages="""3829-3843""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:44 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 16:02:18 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value for activation energy."""),
     ],
 )
 
@@ -7254,7 +6665,7 @@ entry(
     kinetics = Arrhenius(
         A = (8.3e+17,"s^-1"),
         n = -1,
-        Ea = (807954,"J/mol"),
+        Ea = (48.9,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."], title=u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene', journal="J. Phys. Chem. A", volume="108", pages="""3829-3843""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
@@ -7266,6 +6677,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:44 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 16:02:18 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value for activation energy."""),
     ],
 )
 
@@ -7301,7 +6713,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (3.99e-20,"cm^3/(mol*s)"),
+        A = (3.99e-20,"cm^3/(molecule*s)"),
         n = 2.57,
         Ea = (22.8012,"J/mol"),
         T0 = (1,"K"),
@@ -7315,6 +6727,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:27:24 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed units error on preexponential factor."""),
     ],
 )
 
@@ -8152,265 +7565,6 @@ u"""
 )
 
 entry(
-    index = 207,
-    label = "r00011282",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *3 H     0 {2,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.27e+32,"cm^3/(mol*s)"),
-        n = -4.82,
-        Ea = (6530,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:46 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 208,
-    label = "r00011282",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *3 H     0 {2,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.54e+32,"cm^3/(mol*s)"),
-        n = -4.82,
-        Ea = (6530,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:46 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 209,
-    label = "r00011282",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *3 H     0 {2,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (7.62e+32,"cm^3/(mol*s)"),
-        n = -4.82,
-        Ea = (6530,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:46 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 210,
-    label = "r00011282",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *3 H     0 {2,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.54e+32,"cm^3/(mol*s)"),
-        n = -4.82,
-        Ea = (6530,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:46 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 211,
-    label = "r00011282",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *3 H     0 {2,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.905e+32,"cm^3/(mol*s)"),
-        n = -4.82,
-        Ea = (6530,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:46 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 212,
-    label = "r00011282",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *3 H     0 {2,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.54e+32,"cm^3/(mol*s)"),
-        n = -4.82,
-        Ea = (6530,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:46 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 213,
-    label = "r00011282",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *3 H     0 {2,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (3.81e+32,"cm^3/(mol*s)"),
-        n = -4.82,
-        Ea = (6530,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:46 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
     index = 214,
     label = "r00011282",
     reactant1 = 
@@ -8769,302 +7923,6 @@ entry(
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Knyazev, V.D.", "Slagle, I.R."], title=u'Experimental and theoretical study of the C_2H_3 = H + C_2H_2 reaction. Tunneling and the shape of falloff curves', journal="J. Phys. Chem.", volume="100", pages="""16899-16911""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 224,
-    label = "r00011402",
-    reactant1 = 
-"""
-1  *1 C     0 {2,T}
-2  *2 C     0 {1,T}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2  *2 C     1 {1,D}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (3.8e+40,"cm^3/(mol*s)"),
-        n = -7.27,
-        Ea = (7220,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000019.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 225,
-    label = "r00011402",
-    reactant1 = 
-"""
-1  *1 C     0 {2,T}
-2  *2 C     0 {1,T}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2  *2 C     1 {1,D}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (7.6e+40,"cm^3/(mol*s)"),
-        n = -7.27,
-        Ea = (7220,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 226,
-    label = "r00011402",
-    reactant1 = 
-"""
-1  *1 C     0 {2,T}
-2  *2 C     0 {1,T}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2  *2 C     1 {1,D}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (2.28e+41,"cm^3/(mol*s)"),
-        n = -7.27,
-        Ea = (7220,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000021.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 227,
-    label = "r00011402",
-    reactant1 = 
-"""
-1  *1 C     0 {2,T}
-2  *2 C     0 {1,T}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2  *2 C     1 {1,D}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (7.6e+40,"cm^3/(mol*s)"),
-        n = -7.27,
-        Ea = (7220,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 228,
-    label = "r00011402",
-    reactant1 = 
-"""
-1  *1 C     0 {2,T}
-2  *2 C     0 {1,T}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2  *2 C     1 {1,D}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (5.7e+40,"cm^3/(mol*s)"),
-        n = -7.27,
-        Ea = (7220,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 229,
-    label = "r00011402",
-    reactant1 = 
-"""
-1  *1 C     0 {2,T}
-2  *2 C     0 {1,T}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2  *2 C     1 {1,D}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (7.6e+40,"cm^3/(mol*s)"),
-        n = -7.27,
-        Ea = (7220,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000024.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 230,
-    label = "r00011402",
-    reactant1 = 
-"""
-1  *1 C     0 {2,T}
-2  *2 C     0 {1,T}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2  *2 C     1 {1,D}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.14e+41,"cm^3/(mol*s)"),
-        n = -7.27,
-        Ea = (7220,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000025.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 231,
-    label = "r00011402",
-    reactant1 = 
-"""
-1  *1 C     0 {2,T}
-2  *2 C     0 {1,T}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2  *2 C     1 {1,D}
-3  *3 H     0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (2.66e+40,"cm^3/(mol*s)"),
-        n = -7.27,
-        Ea = (7220,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000026.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -9478,9 +8336,9 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.28e+27,"s^-1"),
+        A = (10**61.5,"s^-1"),
         n = -13.9,
-        Ea = (256917,"J/mol"),
+        Ea = (61.4,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Braun-Unkhoff, M.", "Frank, P.", "Just, Th."], title=u'A shock tube study on the thermal decomposition of toluene and of the phenyl radical at high temperatures', journal="Symp. Int. Combust. Proc.", volume="22", pages="""1053""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
@@ -9492,6 +8350,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:48 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 14:55:12 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect values of the kinetic parameters."""),
     ],
 )
 
@@ -10216,9 +9075,9 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (1.15e+13,"s^-1"),
+        A = (1.15e+14,"s^-1"),
         n = 0,
-        Ea = (940.134,"J/mol"),
+        Ea = (56.9,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
@@ -10230,6 +9089,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -10341,9 +9201,9 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.06e+09,"cm^3/(mol*s)"),
+        A = (1.31+04,"cm^3/(mol*s)"),
         n = 2.10058,
-        Ea = (124.58,"J/mol"),
+        Ea = (7.54,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Chen, C.-J.", "Bozzelli, J.W."], title=u'Analysis of Tertiary Butyl Radical + O_2, Isobutene + HO_2, Isobutene + OH, and Isobutene-OH Adducts + O_2: A Detailed Tertiary Butyl Oxidation Mechanism', journal="J. Phys. Chem. A", volume="103", pages="""9731-9769""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -10355,6 +9215,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:51 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Wed Jun 15 13:08:15 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect values of preexponential and activation energy."""),
     ],
 )
 
@@ -10712,7 +9573,7 @@ entry(
     kinetics = Arrhenius(
         A = (2.21e+10,"s^-1"),
         n = 1.085,
-        Ea = (492.042,"J/mol"),
+        Ea = (29.78,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
@@ -10724,6 +9585,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:53 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Wed Jun 15 13:08:15 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -10917,7 +9779,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.58e+13,"s^-1"),
         n = 0,
-        Ea = (1265.63,"J/mol"),
+        Ea = (76.6,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
@@ -10929,6 +9791,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:54 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -11268,7 +10131,7 @@ entry(
     kinetics = Arrhenius(
         A = (9.12e+13,"s^-1"),
         n = 0,
-        Ea = (993.007,"J/mol"),
+        Ea = (60.1,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
@@ -11280,6 +10143,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:54 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -11311,318 +10175,6 @@ entry(
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Colket, M.B., III", "Naegeli, D.W.", "Glassman, I."], title=u'High-Temperature Pyrolysis of Acetaldehyde', journal="Int. J. Chem. Kinet.", volume="7", pages="""223""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 288,
-    label = "r00012710",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 C     0 {1,D} {3,D}
-3     O     0 {2,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4  *3 H     0 {2,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.012e+42,"cm^3/(mol*s)"),
-        n = -7.63,
-        Ea = (3854,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 289,
-    label = "r00012710",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 C     0 {1,D} {3,D}
-3     O     0 {2,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4  *3 H     0 {2,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (2.024e+42,"cm^3/(mol*s)"),
-        n = -7.63,
-        Ea = (3854,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 290,
-    label = "r00012710",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 C     0 {1,D} {3,D}
-3     O     0 {2,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4  *3 H     0 {2,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (6.072e+42,"cm^3/(mol*s)"),
-        n = -7.63,
-        Ea = (3854,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 291,
-    label = "r00012710",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 C     0 {1,D} {3,D}
-3     O     0 {2,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4  *3 H     0 {2,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (2.024e+42,"cm^3/(mol*s)"),
-        n = -7.63,
-        Ea = (3854,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 292,
-    label = "r00012710",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 C     0 {1,D} {3,D}
-3     O     0 {2,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4  *3 H     0 {2,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.518e+42,"cm^3/(mol*s)"),
-        n = -7.63,
-        Ea = (3854,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 293,
-    label = "r00012710",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 C     0 {1,D} {3,D}
-3     O     0 {2,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4  *3 H     0 {2,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (2.024e+42,"cm^3/(mol*s)"),
-        n = -7.63,
-        Ea = (3854,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 294,
-    label = "r00012710",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 C     0 {1,D} {3,D}
-3     O     0 {2,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4  *3 H     0 {2,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (3.036e+42,"cm^3/(mol*s)"),
-        n = -7.63,
-        Ea = (3854,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-    ],
-)
-
-entry(
-    index = 295,
-    label = "r00012710",
-    reactant1 = 
-"""
-1  *2 C     0 {2,D}
-2  *1 C     0 {1,D} {3,D}
-3     O     0 {2,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *2 C     1 {2,S}
-2  *1 C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4  *3 H     0 {2,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (7.084e+41,"cm^3/(mol*s)"),
-        n = -7.63,
-        Ea = (3854,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -13423,7 +11975,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.7e+13,"s^-1"),
         n = 0,
-        Ea = (1417.64,"J/mol"),
+        Ea = (85.8,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -13435,6 +11987,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:35:26 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -13626,7 +12179,7 @@ entry(
     kinetics = Arrhenius(
         A = (5.2e+12,"cm^3/(mol*s)"),
         n = 0,
-        Ea = (145399,"J/mol"),
+        Ea = (8.8,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."], title=u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene', journal="J. Phys. Chem. A", volume="108", pages="""3829-3843""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -13638,6 +12191,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:35:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 16:02:18 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value for activation energy."""),
     ],
 )
 
@@ -13679,7 +12233,7 @@ entry(
     kinetics = Arrhenius(
         A = (2.4e+12,"s^-1"),
         n = 0,
-        Ea = (773256,"J/mol"),
+        Ea = (46.8,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."], title=u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene', journal="J. Phys. Chem. A", volume="108", pages="""3829-3843""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
@@ -13691,6 +12245,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:35:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 16:02:18 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value for activation energy."""),
     ],
 )
 
@@ -13726,7 +12281,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.35e+14,"s^-1"),
         n = 0.34,
-        Ea = (755.247,"J/mol"),
+        Ea = (45.71,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Tokmakov, I.V.", "Lin, M.C."], title=u'Reaction of phenyl radicals with acetylene: Quantum chemical investigation of the mechanism and master equation analysis of the kinetics', journal="J. Am. Chem. Soc.", volume="125", pages="""11397-11408""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -13773,7 +12328,7 @@ entry(
     kinetics = Arrhenius(
         A = (2.69e+06,"cm^3/(mol*s)"),
         n = 2.05,
-        Ea = (61.464,"J/mol"),
+        Ea = (3.72,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Tokmakov, I.V.", "Lin, M.C."], title=u'Reaction of phenyl radicals with acetylene: Quantum chemical investigation of the mechanism and master equation analysis of the kinetics', journal="J. Am. Chem. Soc.", volume="125", pages="""11397-11408""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
@@ -13822,7 +12377,7 @@ entry(
     kinetics = Arrhenius(
         A = (3.8e+11,"s^-1"),
         n = 0.82,
-        Ea = (642.893,"J/mol"),
+        Ea = (38.91,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Tokmakov, I.V.", "Lin, M.C."], title=u'Reaction of phenyl radicals with acetylene: Quantum chemical investigation of the mechanism and master equation analysis of the kinetics', journal="J. Am. Chem. Soc.", volume="125", pages="""11397-11408""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -14039,7 +12594,7 @@ entry(
     kinetics = Arrhenius(
         A = (3.39e+14,"s^-1"),
         n = 0,
-        Ea = (1566.34,"J/mol"),
+        Ea = (94.8,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -14051,6 +12606,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:35:38 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -14080,7 +12636,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.1e+13,"s^-1"),
         n = 0,
-        Ea = (1275.54,"J/mol"),
+        Ea = (77.2,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -14092,6 +12648,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:35:38 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -14498,7 +13055,7 @@ entry(
     kinetics = Arrhenius(
         A = (5.25e+13,"s^-1"),
         n = 0,
-        Ea = (807.954,"J/mol"),
+        Ea = (48.9,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
@@ -14510,6 +13067,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:35:39 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -14541,7 +13099,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.51e+13,"s^-1"),
         n = 0,
-        Ea = (1249.11,"J/mol"),
+        Ea = (75.6,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -14553,6 +13111,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:35:39 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -14664,7 +13223,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.78e+13,"s^-1"),
         n = 0,
-        Ea = (1029.36,"J/mol"),
+        Ea = (62.3,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
@@ -14676,6 +13235,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:35:39 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -15219,7 +13779,7 @@ entry(
     kinetics = Arrhenius(
         A = (5e+13,"s^-1"),
         n = 0,
-        Ea = (520461,"J/mol"),
+        Ea = (31.5,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."], title=u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene', journal="J. Phys. Chem. A", volume="108", pages="""3829-3843""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -15231,6 +13791,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:36:01 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 16:02:18 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value for activation energy."""),
     ],
 )
 
@@ -15270,7 +13831,7 @@ entry(
     kinetics = Arrhenius(
         A = (2e+11,"cm^3/(mol*s)"),
         n = 0,
-        Ea = (199923,"J/mol"),
+        Ea = (12.1,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."], title=u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene', journal="J. Phys. Chem. A", volume="108", pages="""3829-3843""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
@@ -15282,6 +13843,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:36:01 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 16:02:18 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value for activation energy."""),
     ],
 )
 
@@ -15358,20 +13920,26 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (6.17e+45,"s^-1"),
-        n = -11,
-        Ea = (585411,"J/mol"),
+        A = (3.11e9,"s^-1"),
+        n = 1.05,
+        Ea = (26430,"cal/mol"),
         T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (900,"K"),
     ),
     reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+The reference gives pressure-dependent Arrhenius expressions at several
+pressures and for two temperature ranges. The original values used here were
+taken from the expression for 1 bar. The current values are taken from the
+high-pressure limit instead.
 """,
     history = [
         ("Tue May 17 14:36:02 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:56:45 2011","Josh Allen <jwallen@mit.edu>","action","""Switched to use high-pressure-limit Arrhenius parameters."""),
     ],
 )
 
@@ -15403,20 +13971,26 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (8.72e+26,"s^-1"),
-        n = -5.92,
-        Ea = (325660,"J/mol"),
+        A = (2.35e+7,"s^-1"),
+        n = 1.67,
+        Ea = (25230,"cal/mol"),
         T0 = (1,"K"),
+        Tmin = (900,"K"),
+        Tmax = (2500,"K"),
     ),
     reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+The reference gives pressure-dependent Arrhenius expressions at several
+pressures and for two temperature ranges. The original values used here were
+taken from the expression for 1 bar. The current values are taken from the
+high-pressure limit instead.
 """,
     history = [
         ("Tue May 17 14:36:03 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 15:56:45 2011","Josh Allen <jwallen@mit.edu>","action","""Switched to use high-pressure-limit Arrhenius parameters."""),
     ],
 )
 
@@ -16021,9 +14595,9 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.69e+26,"s^-1"),
+        A = (10**62.6,"s^-1"),
         n = -14.7,
-        Ea = (240288,"J/mol"),
+        Ea = (57.5,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Braun-Unkhoff, M.", "Frank, P.", "Just, Th."], title=u'A shock tube study on the thermal decomposition of toluene and of the phenyl radical at high temperatures', journal="Symp. Int. Combust. Proc.", volume="22", pages="""1053""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -16035,6 +14609,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:36:10 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 14:55:12 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect values of the kinetic parameters."""),
     ],
 )
 
@@ -16109,9 +14684,9 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.8e+24,"s^-1"),
+        A = (10**58.4,"s^-1"),
         n = -13.8,
-        Ea = (208693,"J/mol"),
+        Ea = (49.8,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Braun-Unkhoff, M.", "Frank, P.", "Just, Th."], title=u'A shock tube study on the thermal decomposition of toluene and of the phenyl radical at high temperatures', journal="Symp. Int. Combust. Proc.", volume="22", pages="""1053""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -16123,6 +14698,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:36:10 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Fri Jun  3 14:55:12 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect values of the kinetic parameters."""),
     ],
 )
 
