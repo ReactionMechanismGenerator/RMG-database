@@ -4995,7 +4995,7 @@ entry(
     kinetics = Arrhenius(
         A = (6.8e+13,"s^-1"),
         n = 0,
-        Ea = (1809.22,"J/mol"),
+        Ea = (109.5,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Hippler, H.", "Striebel, F.", "Viskolcz, B."], title=u'A Detailed Experimental and Theoretical Study on the Decomposition of Methoxy Radicals', journal="Phys. Chem. Chem. Phys.", volume="3", pages="""2450-2458""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
@@ -5007,6 +5007,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Wed Jun 15 13:08:15 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -9200,9 +9201,9 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.06e+09,"cm^3/(mol*s)"),
+        A = (1.31+04,"cm^3/(mol*s)"),
         n = 2.10058,
-        Ea = (124.58,"J/mol"),
+        Ea = (7.54,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Chen, C.-J.", "Bozzelli, J.W."], title=u'Analysis of Tertiary Butyl Radical + O_2, Isobutene + HO_2, Isobutene + OH, and Isobutene-OH Adducts + O_2: A Detailed Tertiary Butyl Oxidation Mechanism', journal="J. Phys. Chem. A", volume="103", pages="""9731-9769""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
@@ -9214,6 +9215,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:51 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Wed Jun 15 13:08:15 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect values of preexponential and activation energy."""),
     ],
 )
 
@@ -9571,7 +9573,7 @@ entry(
     kinetics = Arrhenius(
         A = (2.21e+10,"s^-1"),
         n = 1.085,
-        Ea = (492.042,"J/mol"),
+        Ea = (29.78,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
@@ -9583,6 +9585,7 @@ u"""
 """,
     history = [
         ("Tue May 17 14:34:53 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Wed Jun 15 13:08:15 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
     ],
 )
 
@@ -9776,7 +9779,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.58e+13,"s^-1"),
         n = 0,
-        Ea = (76.6,"J/mol"),
+        Ea = (76.6,"kJ/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."], title=u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds', journal="Can. J. Chem.", volume="81", pages="""431-442""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
