@@ -91,9 +91,9 @@ def fitEvansPolanyi(dHrxn, Ea):
     # Compute sample standard deviation and standard error
     stdev = 0.0; error = 0.0; count = 0
     for H, E in zip(dHrxn, Ea):
-        if dHrxn[index] < Hmin:
+        if H < Hmin:
             stdev += (E - 0)**2
-        elif dHrxn[index] > Hmax:
+        elif H > Hmax:
             stdev += (E - H)**2
         else:
             E0 = x[0] * H + x[1]
@@ -136,7 +136,7 @@ def generateEvansPolanyiPlot(depository, database):
             reactions.append(reaction)
             Ea.append(reaction.kinetics.Ea.value / 1000.)
             dHrxn.append(reaction.getEnthalpyOfReaction(298) / 1000.)
-
+            
     xEP, stdevEP, dHrxnEP, EaEP = fitEvansPolanyi(dHrxn, Ea)
     alpha, E0 = xEP
 
