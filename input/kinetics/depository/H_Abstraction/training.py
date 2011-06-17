@@ -645,7 +645,7 @@ formyl
 isobutene
 1     C 0 {2,D}
 2     C 0 {1,D} {3,S} {4,S}
-3  *1 C 1 {2,S} {5,S}
+3  *1 C 0 {2,S} {5,S}
 4     C 0 {2,S}
 5  *2 H 0 {3,S}
 """,
@@ -897,7 +897,7 @@ entry(
 """
 1     C 0 {2,D}
 2     C 0 {1,D} {3,S} {4,S}
-3  *3 C 0 {2,S}
+3  *3 C 1 {2,S}
 4     C 0 {2,S}
 """,
     product2 = 
@@ -2346,14 +2346,14 @@ entry(
 6  *2 H 0 {5,S}
 """,
     kinetics = Arrhenius(
-        A = (0.03495,"cm^3/(mol*s)","*|/",3),
+        A = (0.03495*2,"cm^3/(mol*s)","*|/",3),
         n = 3.75,
         Ea = (10.89,"kcal/mol","+|-",2),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 1,
+    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -2411,14 +2411,14 @@ entry(
 4  *2 H 0 {1,S}
 """,
     kinetics = Arrhenius(
-        A = (0.092,"cm^3/(mol*s)","*|/",3),
+        A = (0.092*2,"cm^3/(mol*s)","*|/",3),
         n = 3.96,
         Ea = (6.63,"kcal/mol","+|-",2),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 1,
+    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
