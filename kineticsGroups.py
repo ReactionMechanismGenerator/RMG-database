@@ -13,137 +13,8 @@ import math
 import numpy
 import pylab
 
-from rmgpy.data.base import LogicNode
-from rmgpy.molecule import Molecule
-from rmgpy.group import Group
-from rmgpy.species import Species
-from rmgpy.reaction import Reaction
 from rmgpy.kinetics import Arrhenius, ArrheniusEP, KineticsData
 
-################################################################################
-
-def matchSpeciesToMolecules(species, molecules):
-    """
-    For a given list of :class:`Species` objects `species` and list of
-    :class:`Molecule` objects `molecules`, return ``True`` if the lists
-    represent the same species (in any order) or ``False`` if not.
-    """
-    if len(species) == len(molecules) == 1:
-        for mol in species[0].molecule:
-            if mol.isIsomorphic(molecules[0]):
-                return True
-    elif len(species) == len(molecules) == 2:
-        for molA in species[0].molecule:
-            for molB in species[1].molecule:
-                if molA.isIsomorphic(molecules[0]) and molB.isIsomorphic(molecules[1]):
-                    return True
-                elif molA.isIsomorphic(molecules[1]) and molB.isIsomorphic(molecules[0]):
-                    return True
-    return False
-
-def generateThermoData(species, database):
-    """
-    Return the thermodynamics data for a given `species` as generated from
-    the specified `database`.
-    """
-    thermoData = [database.thermo.getThermoData(molecule) for molecule in species.molecule]
-    thermoData.sort(key=lambda x: x.getEnthalpy(298))
-    return thermoData[0]
-
-def getForwardReactionForEntry(entry, database, family):
-    """
-    For a given depository `entry`, return the reaction with kinetics and
-    degeneracy for the "forward" direction as defined by the reaction family.
-    For families that are their own reverse, the direction the kinetics is
-    given in will be preserved.
-    
-    If the entry contains functional groups for the reactants, assume that it
-    is given in the forward direction and simply return.
-    
-    If the entry contains real molecules for the reactants and products, create
-    Species objects for the reaction
-    """
-    
-    reaction = None; template = None
-    
-    if all([(isinstance(reactant, Group) or isinstance(reactant, LogicNode)) for reactant in entry.item.reactants]):
-        # The entry is a rate rule, containing functional groups only
-        # By convention, these are always given in the forward direction and
-        # have kinetics defined on a per-site basis
-        reaction = Reaction(
-            reactants = entry.item.reactants[:],
-            products = [],
-            kinetics = entry.data,
-            degeneracy = 1,
-        )
-        template = [database.kinetics.groups[family].entries[label] for label in entry.label.split(';')]
-        
-    elif (all([isinstance(reactant, Molecule) for reactant in entry.item.reactants]) and
-        all([isinstance(product, Molecule) for product in entry.item.products])):
-        # The entry is a real reaction, containing molecules
-        # These could be defined for either the forward or reverse direction
-        # and could have a reaction-path degeneracy
-        
-        reaction = Reaction(reactants=[], products=[])
-        for molecule in entry.item.reactants:
-            molecule.makeHydrogensExplicit()
-            reactant = Species(molecule=[molecule], label=molecule.toSMILES())
-            reactant.generateResonanceIsomers()
-            reactant.thermo = generateThermoData(reactant, database)
-            reaction.reactants.append(reactant)
-        for molecule in entry.item.products:
-            molecule.makeHydrogensExplicit()
-            product = Species(molecule=[molecule], label=molecule.toSMILES())
-            product.generateResonanceIsomers()
-            product.thermo = generateThermoData(product, database)
-            reaction.products.append(product)
-    
-        # Generate all possible reactions involving the reactant species
-        generatedReactions = database.kinetics.generateReactionsFromGroups([reactant.molecule for reactant in reaction.reactants], only_families=[family])
-        
-        # Remove from that set any reactions that don't produce the desired reactants and products
-        forward = []; reverse = []
-        for rxn in generatedReactions:
-            if matchSpeciesToMolecules(reaction.reactants, rxn.reactants) and matchSpeciesToMolecules(reaction.products, rxn.products):
-                forward.append(rxn)
-            if matchSpeciesToMolecules(reaction.reactants, rxn.products) and matchSpeciesToMolecules(reaction.products, rxn.reactants):
-                reverse.append(rxn)
-        
-        # We should now know whether the reaction is given in the forward or
-        # reverse direction
-        if len(forward) == 1 and len(reverse) == 0:
-            # The reaction is in the forward direction, so use as-is
-            reaction = forward[0]
-            template = database.kinetics.groups[family].getReactionTemplate(entry.item)
-            # Don't forget to overwrite the estimated kinetics from the database with the kinetics for this entry
-            reaction.kinetics = entry.data
-        elif len(reverse) == 1 and len(forward) == 0:
-            # The reaction is in the reverse direction
-            # First fit Arrhenius kinetics in that direction
-            Tdata = 1.0/numpy.arange(0.0005,0.0035,0.0001,numpy.float64)
-            kdata = []
-            for T in Tdata:
-                kdata.append(entry.data.getRateCoefficient(T) / reaction.getEquilibriumConstant(T))
-            kdata = numpy.array(kdata, numpy.float64)
-            kunits = 'm^3/(mol*s)' if len(reverse[0].reactants) == 2 else 's^-1'
-            kinetics = Arrhenius().fitToData(Tdata, kdata, kunits, T0=1.0)
-            # Now flip the direction
-            reaction = reverse[0]
-            reaction.kinetics = kinetics
-            template = database.kinetics.groups[family].getReactionTemplate(
-                Reaction(reactants=entry.item.products, products=entry.item.reactants),
-            )
-        elif len(reverse) > 0 and len(forward) > 0:
-            print 'FAIL: Multiple reactions found for "%s".' % (entry.label)
-        elif len(reverse) == 0 and len(forward) == 0:
-            print 'FAIL: No reactions found for "%s".' % (entry.label)
-        else:
-            print 'FAIL: Unable to estimate kinetics for "%s".' % (entry.label)
-
-    assert reaction is not None
-    assert template is not None
-    return reaction, template, entry
-        
 ################################################################################
 
 def getRateCoefficientUnits(family):
@@ -178,11 +49,13 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
             if isinstance(entry.data, ArrheniusEP):
                 if entry.data.alpha.value != 0:
                     continue # skip things with Evans-Polanyi values
-            trainingSet.append(getForwardReactionForEntry(entry=entry, database=database, family=family))
+            reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family, thermoDatabase=database.thermo)
+            trainingSet.append([reaction, template, entry])
     testSet = []
     for label in testSetLabels:
         for entry in database.kinetics.depository['{0}/{1}'.format(family,label)].entries.values():
-            testSet.append(getForwardReactionForEntry(entry=entry, database=database, family=family))
+            reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family, thermoDatabase=database.thermo)
+            testSet.append([reaction, template, entry])
     
     print 'Fitting new group additivity values for {0}...'.format(family)
     kdata_training = []
