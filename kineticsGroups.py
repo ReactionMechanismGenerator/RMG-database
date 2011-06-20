@@ -15,11 +15,123 @@ import numpy
 import pylab
 
 from rmgpy.kinetics import Arrhenius, ArrheniusEP, KineticsData
-from rmgpy.group import Group
+from rmgpy.data.base import getAllCombinations
 
 from importOldDatabase import getUsername
 user = getUsername()
 
+################################################################################
+
+def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits):
+    """
+    Fit group additivity values based on a matrix of rate coefficient
+    data `kdata` corresponding to a list of reaction `templates` and a
+    set of temperatures `Tdata`. The provided rate coefficient data should
+    be for the high-pressure limit and should be given on a per-site basis.
+    The groups in the templates should also be in this reaction family's
+    tree.
+    """
+
+    import scipy.stats
+
+    kmodel = numpy.zeros_like(kdata)
+
+    # Determine a complete list of the entries in the database, sorted as in the tree
+    entries = groupDatabase.top[:]
+    for entry in groupDatabase.top:
+        entries.extend(groupDatabase.descendants(entry))
+
+    # Determine a unique list of the groups we will be able to fit parameters for
+    groupList = []
+    for template in templates:
+        for group in template:
+            if group not in groupDatabase.top:
+                groupList.append(group)
+                groupList.extend(groupDatabase.ancestors(group)[:-1])
+    groupList = list(set(groupList))
+    groupList.sort(key=lambda x: x.index)
+
+    # Initialize dictionaries of fitted group values and uncertainties
+    groupValues = {}; groupUncertainties = {}; groupCounts = {}
+    for entry in entries:
+        groupValues[entry] = []
+        groupUncertainties[entry] = []
+        groupCounts[entry] = []
+
+    # Fit group values at each temperature
+    for t, T in enumerate(Tdata):
+
+        # Generate least-squares matrix and vector
+        A = []; b = []
+        for index, template in enumerate(templates):
+
+            # Create every combination of each group and its ancestors with each other
+            combinations = []
+            for group in template:
+                groups = [group]; groups.extend(groupDatabase.ancestors(group))
+                combinations.append(groups)
+            combinations = getAllCombinations(combinations)
+            # Add a row to the matrix for each combination
+            for groups in combinations:
+                Arow = [1 if group in groups else 0 for group in groupList]
+                Arow.append(1)
+                brow = math.log10(kdata[index,t])
+                A.append(Arow); b.append(brow)
+
+        if len(A) == 0:
+            logging.warning('Unable to fit kinetics groups for family "{0}"; no valid data found.'.format(groupDatabase.label))
+            return
+        A = numpy.array(A)
+        b = numpy.array(b)
+
+        x, residues, rank, s = numpy.linalg.lstsq(A, b)
+
+        # Determine error in each group (on log scale)
+        stdev = numpy.zeros(len(groupList)+1, numpy.float64)
+        count = numpy.zeros(len(groupList)+1, numpy.int)
+        for index, template in enumerate(templates):
+            kd = math.log10(kdata[index,t])
+            km = x[-1] + sum([x[groupList.index(group)] for group in template if group in groupList])
+            kmodel[index,t] = 10**km
+            variance = (km - kd)**2
+            for group in template:
+                groups = [group]; groups.extend(groupDatabase.ancestors(group))
+                for g in groups:
+                    if g not in groupDatabase.top:
+                        index = groupList.index(g)
+                        stdev[index] += variance
+                        count[index] += 1
+            stdev[-1] += variance
+            count[-1] += 1
+        stdev = numpy.sqrt(stdev / (count - 1))
+        ci = scipy.stats.t.ppf(0.975, count - 1) * stdev
+
+        # Update dictionaries of fitted group values and uncertainties
+        for entry in entries:
+            if entry == groupDatabase.top[0]:
+                groupValues[entry].append(10**x[-1])
+                groupUncertainties[entry].append(10**ci[-1])
+                groupCounts[entry].append(count[-1])
+            elif entry in groupList:
+                index = groupList.index(entry)
+                groupValues[entry].append(10**x[index])
+                groupUncertainties[entry].append(10**ci[index])
+                groupCounts[entry].append(count[index])
+            else:
+                groupValues[entry] = None
+                groupUncertainties[entry] = None
+                groupCounts[entry] = None
+
+    # Store the fitted group values and uncertainties on the associated entries
+    for entry in entries:
+        if groupValues[entry] is not None:
+            entry.data = KineticsData(Tdata=(Tdata,"K"), kdata=(groupValues[entry],kunits))
+            entry.data.kdata.uncertainties = numpy.array(groupUncertainties[entry])
+        else:
+            entry.data = None
+
+    return groupValues, groupUncertainties, groupCounts, kmodel
+    
 ################################################################################
 
 def getRateCoefficientUnits(family):
@@ -88,7 +200,7 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
         trainingKinetics.extend(list(kdata))
     trainingKinetics = numpy.array(trainingKinetics, numpy.float64)
     trainingTemplates = [template for label, trainingSet in trainingSets for reaction, template, entry in trainingSet]
-    
+   
     # keep track of previous values so we can detect if they change
     old_entries = dict()
     for label,entry in groups.entries.iteritems():
@@ -96,7 +208,7 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
             old_entries[label] = entry.data.kdata.values * 1.0
     
     # fit group values
-    groupValues, groupUncertainties, groupCounts, kmodel = groups.fitGroupValues(trainingTemplates, Tdata, trainingKinetics, kunits)
+    groupValues, groupUncertainties, groupCounts, kmodel = fitGroupValues(groups, trainingTemplates, Tdata, trainingKinetics, kunits)
 
     # Add a note to the history of each changed item indicating that we've generated new group values
     event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
