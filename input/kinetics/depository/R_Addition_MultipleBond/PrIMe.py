@@ -9201,7 +9201,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.31+04,"cm^3/(mol*s)"),
+        A = (1.31e+04,"cm^3/(mol*s)"),
         n = 2.10058,
         Ea = (7.54,"kcal/mol"),
         T0 = (1,"K"),
@@ -9211,11 +9211,13 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Table 9 rate k1 in doi:10.1021/jp991227n
+Fitting with two parameter modified Arrhenius equation; A estimated using TST- and MP2-determined entropies, Ea evaluated from CBS-q//MP2(full)/6-31G* calculation.
 """,
     history = [
         ("Tue May 17 14:34:51 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
         ("Wed Jun 15 13:08:15 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect values of preexponential and activation energy."""),
+        ("2011-06-20","Richard West <rwest@mit.edu>","action","""Fixed typo in A and added detail to longDesc.""")
     ],
 )
 
