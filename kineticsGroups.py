@@ -382,7 +382,7 @@ def generate(args, database):
             family = family,
             Tdata = Tdata,
             trainingSetLabels = ['rules', 'training'],
-            testSetLabels = ['PrIMe', 'test'],
+            testSetLabels = [],
             plot = False,
         )
     print 'Saving new kinetics group values...'
