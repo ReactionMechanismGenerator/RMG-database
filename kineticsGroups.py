@@ -15,6 +15,9 @@ import pylab
 
 from rmgpy.kinetics import Arrhenius, ArrheniusEP, KineticsData
 
+from importOldDatabase import getUsername
+user = getUsername()
+
 ################################################################################
 
 def getRateCoefficientUnits(family):
@@ -72,7 +75,7 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
     trainingTemplates = [template for reaction, template, entry in trainingSet]
     groupValues, groupUncertainties, groupCounts, kmodel = groups.fitGroupValues(trainingTemplates, Tdata, kdata_training, kunits)
     # Add a note to the history of each item indicating that we've generated new group values
-    event = [time.asctime(),'jwallen','action','jwallen generated new group additivity values for this entry.']
+    event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
     for label, entry in groups.entries.iteritems():
         if entry.data is not None:
             entry.history.append(event)
