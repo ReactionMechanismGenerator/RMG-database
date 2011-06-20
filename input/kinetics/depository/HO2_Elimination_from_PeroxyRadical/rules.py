@@ -530,7 +530,7 @@ The k(T) was calculated from 600 - 2000 K, in 200 K intervals, and the fitted Ar
 k(T) = 6.813e+10 * (T/1K)^0.493 * exp(-11.894 kcal/mol / RT) cm3/mol/s.
 """,
     history = [
-        ("Fri Jun  10 17:16:47 2011","connie","action","""connie imported this entry from the old RMG database."""),
+        ("Fri Jun  10 17:16:47 2011","Connie Gao <connieg@mit.edu>","action","""connie imported this entry from the old RMG database."""),
     ],
 )
 
@@ -566,7 +566,7 @@ MRH approximation for the general OCOO node
 In the event RMG finds any H-O-C-O-O* connection, the kinetics used for direct HO2 elimination will be those of CH3-CH(OO)-OH => CH3CHO + HO2.
 """,
     history = [
-        ("Fri Jun  10 17:16:47 2011","connie","action","""connie imported this entry from the old RMG database."""),
+        ("Fri Jun  10 17:16:47 2011","Connie Gao <connieg@mit.edu>","action","""connie imported this entry from the old RMG database."""),
     ],
 )
 
