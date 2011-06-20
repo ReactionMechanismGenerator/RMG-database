@@ -36,15 +36,15 @@ entry(
         Ea = (-132200,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Wagner, A.F.", "Slagle, I.R.", "Sarzynski, D.", "Gutman, D."], title=u'Experimental and theoretical studies of the C_2H_5 + O_2 reaction kinetics', journal="J. Phys. Chem.", volume="94", pages="""1853""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Wagner, A.F.", "Slagle, I.R.", "Sarzynski, D.", "Gutman, D."], title=u'Experimental and theoretical studies of the C_2H_5 + O_2 reaction kinetics', journal="J. Phys. Chem.", volume="94", pages="""1853""", year="1990", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011720/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011720/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011720/rk00000001.xml"""),
     ],
 )
 
@@ -77,16 +77,17 @@ entry(
         Ea = (27955,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Miller, J.A.", "Klippenstein, S.J."], title=u'The Reaction Between Ethyl and Molecular Oxygen II. Further Analysis', journal="Int J. Chem. Kinet.", volume="33", pages="""654-668""", year="2001", doi="10.1002/kin.1063", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Miller, J.A.", "Klippenstein, S.J."], title=u'The Reaction Between Ethyl and Molecular Oxygen II. Further Analysis', journal="Int J. Chem. Kinet.", volume="33", pages="""654-668""", year="2001", doi="10.1002/kin.1063", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011720/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011720/rk00000003.xml
 PrIMe had an error: Corrected the activation energy according to the $k_{p \infty}$ on page 665 of doi:10.1002/kin.1063
 See text on page 663 for clue to the units being cal/mol.
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011720/rk00000003.xml"""),
         ("2011-06-20","Richard West <rwest@mit.edu>","action","""Corrected the activation energy according to the $k_{p \infty}$ on page 665 of doi:10.1002/kin.1063"""),
     ],
 )
@@ -120,15 +121,15 @@ entry(
         Ea = (141845,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."], title=u'Measurements, Theory, and Modeling of OH Formation in Ethyl + O_2 and Propyl + O_2 Reactions', journal="J. Phys. Chem. A", volume="107", pages="""4415-4427""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."], title=u'Measurements, Theory, and Modeling of OH Formation in Ethyl + O_2 and Propyl + O_2 Reactions', journal="J. Phys. Chem. A", volume="107", pages="""4415-4427""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011720/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011720/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011720/rk00000004.xml"""),
     ],
 )
 
@@ -165,15 +166,15 @@ entry(
         Ea = (323.842,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Chen, C.-J.", "Bozzelli, J.W."], title=u'Analysis of Tertiary Butyl Radical + O_2, Isobutene + HO_2, Isobutene + OH, and Isobutene-OH Adducts + O_2: A Detailed Tertiary Butyl Oxidation Mechanism', journal="J. Phys. Chem. A", volume="103", pages="""9731-9769""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Chen, C.-J.", "Bozzelli, J.W."], title=u'Analysis of Tertiary Butyl Radical + O_2, Isobutene + HO_2, Isobutene + OH, and Isobutene-OH Adducts + O_2: A Detailed Tertiary Butyl Oxidation Mechanism', journal="J. Phys. Chem. A", volume="103", pages="""9731-9769""", year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml"""),
     ],
 )
 
@@ -208,15 +209,15 @@ entry(
         Ea = (153236,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."], title=u'Measurements, Theory, and Modeling of OH Formation in Ethyl + O_2 and Propyl + O_2 Reactions', journal="J. Phys. Chem. A", volume="107", pages="""4415-4427""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."], title=u'Measurements, Theory, and Modeling of OH Formation in Ethyl + O_2 and Propyl + O_2 Reactions', journal="J. Phys. Chem. A", volume="107", pages="""4415-4427""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00012692/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012692/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012692/rk00000001.xml"""),
     ],
 )
 
@@ -251,15 +252,15 @@ entry(
         Ea = (136440,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."], title=u'Measurements, Theory, and Modeling of OH Formation in Ethyl + O_2 and Propyl + O_2 Reactions', journal="J. Phys. Chem. A", volume="107", pages="""4415-4427""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."], title=u'Measurements, Theory, and Modeling of OH Formation in Ethyl + O_2 and Propyl + O_2 Reactions', journal="J. Phys. Chem. A", volume="107", pages="""4415-4427""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00016504/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016504/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:48 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:48 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016504/rk00000001.xml"""),
     ],
 )
 

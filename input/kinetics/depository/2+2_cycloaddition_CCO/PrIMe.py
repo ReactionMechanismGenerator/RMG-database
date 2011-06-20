@@ -38,15 +38,15 @@ entry(
         Ea = (73998.8,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Blake, P.G.", "Davis, H.H."], title=u'Kinetics of Dimerisation of Gaseous Keten', journal="J. Appl. Chem. Biotechnol.", volume="22", pages="""491""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Blake, P.G.", "Davis, H.H."], title=u'Kinetics of Dimerisation of Gaseous Keten', journal="J. Appl. Chem. Biotechnol.", volume="22", pages="""491""", year="1972", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007002/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007002/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:02 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:02 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007002/rk00000001.xml"""),
     ],
 )
 
@@ -89,15 +89,15 @@ entry(
         Ea = (202873,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Vala, M.", "Baiardo, J.", "Latham, D.", "Mukherjee, R.", "Pascyz, S."], title=u'Fourier transform infrared kinetic study of the thermal decomposition of tetramethyl-1-3-cyclobutanedione and dimethylketene', journal="J. Indian Chem. Soc.", volume="63", pages="""16""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Vala, M.", "Baiardo, J.", "Latham, D.", "Mukherjee, R.", "Pascyz, S."], title=u'Fourier transform infrared kinetic study of the thermal decomposition of tetramethyl-1-3-cyclobutanedione and dimethylketene', journal="J. Indian Chem. Soc.", volume="63", pages="""16""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009168/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009168/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:22 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:22 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009168/rk00000001.xml"""),
     ],
 )
 

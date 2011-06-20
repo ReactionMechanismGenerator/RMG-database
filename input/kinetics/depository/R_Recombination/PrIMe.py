@@ -32,15 +32,15 @@ entry(
         Ea = (364174,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Aronowitz, D.", "Naegeli, D.W.", "Glassman, I."], title=u'Kinetics of the pyrolysis of methanol', journal="J. Phys. Chem.", volume="81", pages="""2555""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Aronowitz, D.", "Naegeli, D.W.", "Glassman, I."], title=u'Kinetics of the pyrolysis of methanol', journal="J. Phys. Chem.", volume="81", pages="""2555""", year="1977", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000003.xml"""),
     ],
 )
 
@@ -69,15 +69,15 @@ entry(
         Ea = (364174,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Aronowitz, D.", "Naegeli, D."], title=u'High-Temperature Pyrolysis of Dimethyl Ether', journal="Int. J. Chem. Kinet.", volume="9", pages="""471""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Aronowitz, D.", "Naegeli, D."], title=u'High-Temperature Pyrolysis of Dimethyl Ether', journal="Int. J. Chem. Kinet.", volume="9", pages="""471""", year="1977", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000004.xml"""),
     ],
 )
 
@@ -106,15 +106,15 @@ entry(
         Ea = (300984,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsuboi, T.", "Katoh, M.", "Kikuchi, S.", "Hashimoto, K."], title=u'Thermal Decomposition of Methanol behind Shock Waves', journal="Jpn. J. Appl. Phys.", volume="20", pages="""985""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["Tsuboi, T.", "Katoh, M.", "Kikuchi, S.", "Hashimoto, K."], title=u'Thermal Decomposition of Methanol behind Shock Waves', journal="Jpn. J. Appl. Phys.", volume="20", pages="""985""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000007.xml"""),
     ],
 )
 
@@ -143,15 +143,15 @@ entry(
         Ea = (425,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000015.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000015.xml
 """,
     history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000015.xml"""),
     ],
 )
 
@@ -180,15 +180,15 @@ entry(
         Ea = (425,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000016.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000016.xml
 """,
     history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000016.xml"""),
     ],
 )
 
@@ -217,15 +217,15 @@ entry(
         Ea = (425,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000017.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000017.xml
 """,
     history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000017.xml"""),
     ],
 )
 
@@ -254,15 +254,15 @@ entry(
         Ea = (425,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000018.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000018.xml
 """,
     history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000018.xml"""),
     ],
 )
 
@@ -291,15 +291,15 @@ entry(
         Ea = (425,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000019.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000019.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000019.xml
 """,
     history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000019.xml"""),
     ],
 )
 
@@ -328,15 +328,15 @@ entry(
         Ea = (425,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000020.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000020.xml
 """,
     history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000020.xml"""),
     ],
 )
 
@@ -365,15 +365,15 @@ entry(
         Ea = (425,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000021.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000021.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000021.xml
 """,
     history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000021.xml"""),
     ],
 )
 
@@ -402,15 +402,15 @@ entry(
         Ea = (425,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000022.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000022.xml
 """,
     history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000022.xml"""),
     ],
 )
 
@@ -439,15 +439,15 @@ entry(
         Ea = (-260,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000023.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000023.xml
 """,
     history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000023.xml"""),
     ],
 )
 
@@ -476,15 +476,15 @@ entry(
         Ea = (-18957,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsuboi, T.", "Katoh, M.", "Kikuchi, S.", "Hashimoto, K."], title=u'Thermal Decomposition of Methanol behind Shock Waves', journal="Jpn. J. Appl. Phys.", volume="20", pages="""985""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000025.xml"),
+    reference = Article(authors=["Tsuboi, T.", "Katoh, M.", "Kikuchi, S.", "Hashimoto, K."], title=u'Thermal Decomposition of Methanol behind Shock Waves', journal="Jpn. J. Appl. Phys.", volume="20", pages="""985""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000025.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000025.xml
 """,
     history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000025.xml"""),
     ],
 )
 
@@ -517,15 +517,15 @@ entry(
         Ea = (241120,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Laidler, K.J.", "McKenney, D.J."], title=u'Kinetics and mechanisms of the pyrolysis of diethyl ether. I. The uninhibited reaction', journal="Proc. R. Soc. London", volume="278", pages="""505-516""", year="1964", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Laidler, K.J.", "McKenney, D.J."], title=u'Kinetics and mechanisms of the pyrolysis of diethyl ether. I. The uninhibited reaction', journal="Proc. R. Soc. London", volume="278", pages="""505-516""", year="1964", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000001.xml"""),
     ],
 )
 
@@ -558,15 +558,15 @@ entry(
         Ea = (324264,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Seres, I.", "Huhn, P."], title=u'A dietil-eter termikus bomlasa, III.', journal="Magy. Kem. Foly.", volume="81", pages="""120-123""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Seres, I.", "Huhn, P."], title=u'A dietil-eter termikus bomlasa, III.', journal="Magy. Kem. Foly.", volume="81", pages="""120-123""", year="1975", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000003.xml"""),
     ],
 )
 
@@ -599,15 +599,15 @@ entry(
         Ea = (339230,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Seres, I.", "Labadi, I.", "Huhn, P."], title=u'A Dietil-Eter Termikus Bomlasa, IV. Az Acetaldehid Hatasa a Bomlasra, [The Thermal Decomposition of Diethyl Ether, IV. The Effect of Acetaldehyde]', journal="Magy. Kem. Foly.", volume="83", pages="""151""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Seres, I.", "Labadi, I.", "Huhn, P."], title=u'A Dietil-Eter Termikus Bomlasa, IV. Az Acetaldehid Hatasa a Bomlasra, [The Thermal Decomposition of Diethyl Ether, IV. The Effect of Acetaldehyde]', journal="Magy. Kem. Foly.", volume="83", pages="""151""", year="1977", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000004.xml"""),
     ],
 )
 
@@ -640,15 +640,15 @@ entry(
         Ea = (320939,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Foucaut, J.-F.", "Martin, R."], title=u"No. 18. - Etude analytique et cinetique de la pyrolyse de l'ether ethylique vers 500 \xb0C et a faible avancement", journal="J. Chim. Phys.", volume="75", pages="""132""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Foucaut, J.-F.", "Martin, R."], title=u"No. 18. - Etude analytique et cinetique de la pyrolyse de l'ether ethylique vers 500 \xb0C et a faible avancement", journal="J. Chim. Phys.", volume="75", pages="""132""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000005.xml"""),
     ],
 )
 
@@ -681,15 +681,15 @@ entry(
         Ea = (345051,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Seres, I.", "Huhn, P."], title=u'Radical steps in diethyl ether decomposition', journal="Int. J. Chem. Kinet.", volume="18", pages="""829""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Article(authors=["Seres, I.", "Huhn, P."], title=u'Radical steps in diethyl ether decomposition', journal="Int. J. Chem. Kinet.", volume="18", pages="""829""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000006.xml"""),
     ],
 )
 
@@ -718,15 +718,15 @@ entry(
         Ea = (1645.81,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Ing, W.C.", "Sheng, C.Y.", "Bozzelli, J.W."], title=u'Development of a detailed high-pressure reaction model for methane/mehanol mixtures under pyrolytic and oxidative conditions and comparison with experimental data', journal="Fuel Process. Technol.", volume="83", pages="""111-145""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Ing, W.C.", "Sheng, C.Y.", "Bozzelli, J.W."], title=u'Development of a detailed high-pressure reaction model for methane/mehanol mixtures under pyrolytic and oxidative conditions and comparison with experimental data', journal="Fuel Process. Technol.", volume="83", pages="""111-145""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000001.xml"""),
     ],
 )
 
@@ -755,15 +755,15 @@ entry(
         Ea = (14080,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000002.xml"""),
     ],
 )
 
@@ -792,15 +792,15 @@ entry(
         Ea = (14080,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000003.xml"""),
     ],
 )
 
@@ -829,15 +829,15 @@ entry(
         Ea = (14080,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000004.xml"""),
     ],
 )
 
@@ -866,15 +866,15 @@ entry(
         Ea = (14080,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000005.xml"""),
     ],
 )
 
@@ -903,15 +903,15 @@ entry(
         Ea = (14080,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000006.xml"""),
     ],
 )
 
@@ -940,15 +940,15 @@ entry(
         Ea = (14080,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000007.xml"""),
     ],
 )
 
@@ -977,15 +977,15 @@ entry(
         Ea = (14080,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000008.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000008.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000008.xml"""),
     ],
 )
 
@@ -1014,15 +1014,15 @@ entry(
         Ea = (50,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001660/rk00000009.xml"""),
     ],
 )
 
@@ -1049,15 +1049,15 @@ entry(
         Ea = (380803,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Aronowitz, D.", "Naegeli, D.W.", "Glassman, I."], title=u'Kinetics of the pyrolysis of methanol', journal="J. Phys. Chem.", volume="81", pages="""2555""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Aronowitz, D.", "Naegeli, D.W.", "Glassman, I."], title=u'Kinetics of the pyrolysis of methanol', journal="J. Phys. Chem.", volume="81", pages="""2555""", year="1977", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000002.xml"""),
     ],
 )
 
@@ -1084,15 +1084,15 @@ entry(
         Ea = (394937,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsuboi, T.", "Katoh, M.", "Kikuchi, S.", "Hashimoto, K."], title=u'Thermal Decomposition of Methanol behind Shock Waves', journal="Jpn. J. Appl. Phys.", volume="20", pages="""985""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Tsuboi, T.", "Katoh, M.", "Kikuchi, S.", "Hashimoto, K."], title=u'Thermal Decomposition of Methanol behind Shock Waves', journal="Jpn. J. Appl. Phys.", volume="20", pages="""985""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000005.xml"""),
     ],
 )
 
@@ -1119,15 +1119,15 @@ entry(
         Ea = (375814,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Spindler, K.", "Wagner, H.Gg."], title=u'Zum thermischen unimolekularen Zerfall von Methanol', journal="Ber. Bunsenges. Phys. Chem.", volume="86", pages="""2""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["Spindler, K.", "Wagner, H.Gg."], title=u'Zum thermischen unimolekularen Zerfall von Methanol', journal="Ber. Bunsenges. Phys. Chem.", volume="86", pages="""2""", year="1982", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000007.xml"""),
     ],
 )
 
@@ -1154,15 +1154,15 @@ entry(
         Ea = (375814,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000009.xml"""),
     ],
 )
 
@@ -1189,15 +1189,15 @@ entry(
         Ea = (384129,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part 2. Methanol', journal="J. Phys. Chem. Ref. Data", volume="16", pages="""471""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part 2. Methanol', journal="J. Phys. Chem. Ref. Data", volume="16", pages="""471""", year="1987", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000011.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000011.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000011.xml"""),
     ],
 )
 
@@ -1224,15 +1224,15 @@ entry(
         Ea = (379971,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
+    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000015.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000015.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000015.xml"""),
     ],
 )
 
@@ -1259,15 +1259,15 @@ entry(
         Ea = (1492.81,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Ing, W.C.", "Sheng, C.Y.", "Bozzelli, J.W."], title=u'Development of a detailed high-pressure reaction model for methane/mehanol mixtures under pyrolytic and oxidative conditions and comparison with experimental data', journal="Fuel Process. Technol.", volume="83", pages="""111-145""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
+    reference = Article(authors=["Ing, W.C.", "Sheng, C.Y.", "Bozzelli, J.W."], title=u'Development of a detailed high-pressure reaction model for methane/mehanol mixtures under pyrolytic and oxidative conditions and comparison with experimental data', journal="Fuel Process. Technol.", volume="83", pages="""111-145""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000017.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000017.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000017.xml"""),
     ],
 )
 
@@ -1294,15 +1294,15 @@ entry(
         Ea = (3140,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000018.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000018.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000018.xml"""),
     ],
 )
 
@@ -1329,15 +1329,15 @@ entry(
         Ea = (3140,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000019.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000019.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000019.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000019.xml"""),
     ],
 )
 
@@ -1364,15 +1364,15 @@ entry(
         Ea = (3140,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000020.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000020.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000020.xml"""),
     ],
 )
 
@@ -1399,15 +1399,15 @@ entry(
         Ea = (3140,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000021.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000021.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000021.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000021.xml"""),
     ],
 )
 
@@ -1434,15 +1434,15 @@ entry(
         Ea = (3140,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000022.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000022.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000022.xml"""),
     ],
 )
 
@@ -1469,15 +1469,15 @@ entry(
         Ea = (3140,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000023.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000023.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000023.xml"""),
     ],
 )
 
@@ -1504,15 +1504,15 @@ entry(
         Ea = (3140,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000024.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000024.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000024.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000024.xml"""),
     ],
 )
 
@@ -1539,15 +1539,15 @@ entry(
         Ea = (1330,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000025.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000025.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000025.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000025.xml"""),
     ],
 )
 
@@ -1574,15 +1574,15 @@ entry(
         Ea = (48806,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M.", "Westmoreland, P.R."], title=u'Bimolecular QRRK analyss of methyl radical reactions', journal="Int. J. Chem. Kinet.", volume="19", pages="""207""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000027.xml"),
+    reference = Article(authors=["Dean, A.M.", "Westmoreland, P.R."], title=u'Bimolecular QRRK analyss of methyl radical reactions', journal="Int. J. Chem. Kinet.", volume="19", pages="""207""", year="1987", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000027.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000027.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000027.xml"""),
     ],
 )
 
@@ -1609,15 +1609,15 @@ entry(
         Ea = (-29.0797,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Ing, W.C.", "Sheng, C.Y.", "Bozzelli, J.W."], title=u'Development of a detailed high-pressure reaction model for methane/mehanol mixtures under pyrolytic and oxidative conditions and comparison with experimental data', journal="Fuel Process. Technol.", volume="83", pages="""111-145""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000036.xml"),
+    reference = Article(authors=["Ing, W.C.", "Sheng, C.Y.", "Bozzelli, J.W."], title=u'Development of a detailed high-pressure reaction model for methane/mehanol mixtures under pyrolytic and oxidative conditions and comparison with experimental data', journal="Fuel Process. Technol.", volume="83", pages="""111-145""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000036.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000036.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000036.xml"""),
     ],
 )
 
@@ -1646,15 +1646,15 @@ entry(
         Ea = (1519.25,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Ing, W.C.", "Sheng, C.Y.", "Bozzelli, J.W."], title=u'Development of a detailed high-pressure reaction model for methane/mehanol mixtures under pyrolytic and oxidative conditions and comparison with experimental data', journal="Fuel Process. Technol.", volume="83", pages="""111-145""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Ing, W.C.", "Sheng, C.Y.", "Bozzelli, J.W."], title=u'Development of a detailed high-pressure reaction model for methane/mehanol mixtures under pyrolytic and oxidative conditions and comparison with experimental data', journal="Fuel Process. Technol.", volume="83", pages="""111-145""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000005.xml"""),
     ],
 )
 
@@ -1683,15 +1683,15 @@ entry(
         Ea = (5080,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000006.xml"""),
     ],
 )
 
@@ -1720,15 +1720,15 @@ entry(
         Ea = (5080,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000007.xml"""),
     ],
 )
 
@@ -1757,15 +1757,15 @@ entry(
         Ea = (5080,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000008.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000008.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000008.xml"""),
     ],
 )
 
@@ -1794,15 +1794,15 @@ entry(
         Ea = (5080,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000009.xml"""),
     ],
 )
 
@@ -1831,15 +1831,15 @@ entry(
         Ea = (5080,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000010.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000010.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000010.xml"""),
     ],
 )
 
@@ -1868,15 +1868,15 @@ entry(
         Ea = (5080,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000011.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000011.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000011.xml"""),
     ],
 )
 
@@ -1905,15 +1905,15 @@ entry(
         Ea = (5080,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000012.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000012.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000012.xml"""),
     ],
 )
 
@@ -1942,15 +1942,15 @@ entry(
         Ea = (86,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000013.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000013.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001662/rk00000013.xml"""),
     ],
 )
 
@@ -1981,15 +1981,15 @@ entry(
         Ea = (341725,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001742/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001742/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001742/rk00000001.xml"""),
     ],
 )
 
@@ -2020,15 +2020,15 @@ entry(
         Ea = (464954,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."], title=u'Thermal Decomposition of Iso-Propanol:  First-Principles Prediction of Total and Product-Branching Rate Constants', journal="J. Chem. Phys.", volume="117", pages="""11188-11195""", year="2002", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."], title=u'Thermal Decomposition of Iso-Propanol:  First-Principles Prediction of Total and Product-Branching Rate Constants', journal="J. Chem. Phys.", volume="117", pages="""11188-11195""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001742/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001742/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001742/rk00000003.xml"""),
     ],
 )
 
@@ -2059,15 +2059,15 @@ entry(
         Ea = (459624,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."], title=u'Thermal Decomposition of Iso-Propanol:  First-Principles Prediction of Total and Product-Branching Rate Constants', journal="J. Chem. Phys.", volume="117", pages="""11188-11195""", year="2002", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."], title=u'Thermal Decomposition of Iso-Propanol:  First-Principles Prediction of Total and Product-Branching Rate Constants', journal="J. Chem. Phys.", volume="117", pages="""11188-11195""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001742/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001742/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001742/rk00000004.xml"""),
     ],
 )
 
@@ -2098,15 +2098,15 @@ entry(
         Ea = (381144,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."], title=u'Thermal Decomposition of Iso-Propanol:  First-Principles Prediction of Total and Product-Branching Rate Constants', journal="J. Chem. Phys.", volume="117", pages="""11188-11195""", year="2002", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."], title=u'Thermal Decomposition of Iso-Propanol:  First-Principles Prediction of Total and Product-Branching Rate Constants', journal="J. Chem. Phys.", volume="117", pages="""11188-11195""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001742/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001742/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001742/rk00000005.xml"""),
     ],
 )
 
@@ -2137,15 +2137,15 @@ entry(
         Ea = (341725,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001836/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001836/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001836/rk00000001.xml"""),
     ],
 )
 
@@ -2172,15 +2172,15 @@ entry(
         Ea = (263569,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kenwright, R.", "Robinson, P.L.", "Trenwith, A.B."], title=u'The kinetics of the oxidation of ethane by nitrous oxide', journal="J. Chem. Soc.", pages="""660-666""", year="1958", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Kenwright, R.", "Robinson, P.L.", "Trenwith, A.B."], title=u'The kinetics of the oxidation of ethane by nitrous oxide', journal="J. Chem. Soc.", pages="""660-666""", year="1958", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000001.xml"""),
     ],
 )
 
@@ -2207,15 +2207,15 @@ entry(
         Ea = (62691.1,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Skinner, G.B.", "Ball, W.E."], title=u'Shock tube experiments on the pyrolysis of ethane', journal="J. Phys. Chem.", volume="64", pages="""1025""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Skinner, G.B.", "Ball, W.E."], title=u'Shock tube experiments on the pyrolysis of ethane', journal="J. Phys. Chem.", volume="64", pages="""1025""", year="1960", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000003.xml"""),
     ],
 )
 
@@ -2242,15 +2242,15 @@ entry(
         Ea = (305973,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Laidler, K.J.", "Wojciechowski, B.W."], title=u'Kinetics and mechanisms of the thermal decomposition of ethane. I. The uninhibited reaction', journal="Proc. R. Soc. London", volume="260", pages="""91-102""", year="1961", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Laidler, K.J.", "Wojciechowski, B.W."], title=u'Kinetics and mechanisms of the thermal decomposition of ethane. I. The uninhibited reaction', journal="Proc. R. Soc. London", volume="260", pages="""91-102""", year="1961", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000004.xml"""),
     ],
 )
 
@@ -2277,15 +2277,15 @@ entry(
         Ea = (280198,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Towell, g.D.", "Martin, J.J."], title=u'Kinetic data from nonisothermal experiments: thermal decomposition of ethane, ethylene, and acetylene', journal="AIChE J.", volume="7", pages="""693-698""", year="1961", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Towell, g.D.", "Martin, J.J."], title=u'Kinetic data from nonisothermal experiments: thermal decomposition of ethane, ethylene, and acetylene', journal="AIChE J.", volume="7", pages="""693-698""", year="1961", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000005.xml"""),
     ],
 )
 
@@ -2312,15 +2312,15 @@ entry(
         Ea = (288512,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kozlov, G.I.", "Knorre, V.G."], title=u'Single-pulse shock tube studies on the kinetics of the thermal decomposition of methane', journal="Combust. Flame", volume="6", pages="""253""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["Kozlov, G.I.", "Knorre, V.G."], title=u'Single-pulse shock tube studies on the kinetics of the thermal decomposition of methane', journal="Combust. Flame", volume="6", pages="""253""", year="1962", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000007.xml"""),
     ],
 )
 
@@ -2347,15 +2347,15 @@ entry(
         Ea = (384129,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Quinn, C.P."], title=u'The thermal dissociation and pyrolysis of ethane', journal="Proc. R. Soc. London A", volume="275", pages="""190""", year="1963", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
+    reference = Article(authors=["Quinn, C.P."], title=u'The thermal dissociation and pyrolysis of ethane', journal="Proc. R. Soc. London A", volume="275", pages="""190""", year="1963", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000008.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000008.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000008.xml"""),
     ],
 )
 
@@ -2382,15 +2382,15 @@ entry(
         Ea = (368331,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dexter, R.W.", "Trenwith, A.B."], title=u'The dissociation of ethane', journal="J. Chem. Soc.", pages="""392""", year="1964", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Dexter, R.W.", "Trenwith, A.B."], title=u'The dissociation of ethane', journal="J. Chem. Soc.", pages="""392""", year="1964", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000009.xml"""),
     ],
 )
 
@@ -2417,15 +2417,15 @@ entry(
         Ea = (368331,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Lin, M.C.", "Back, M.H."], title=u'the thermal decomposition of ethane. Part II. The unimolecular decomposition of the ethane molecule and the ethyl radical', journal="Can. J. Chem.", volume="44", pages="""2357""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
+    reference = Article(authors=["Lin, M.C.", "Back, M.H."], title=u'the thermal decomposition of ethane. Part II. The unimolecular decomposition of the ethane molecule and the ethyl radical', journal="Can. J. Chem.", volume="44", pages="""2357""", year="1966", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000010.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000010.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000010.xml"""),
     ],
 )
 
@@ -2452,15 +2452,15 @@ entry(
         Ea = (360017,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Lin, M.C.", "Back, M.H."], title=u'The thermal decomposition of ethane. Part I. Initiation and termination steps', journal="Can. J. Chem.", volume="44", pages="""505-514""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
+    reference = Article(authors=["Lin, M.C.", "Back, M.H."], title=u'The thermal decomposition of ethane. Part I. Initiation and termination steps', journal="Can. J. Chem.", volume="44", pages="""505-514""", year="1966", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000012.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000012.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000012.xml"""),
     ],
 )
 
@@ -2487,15 +2487,15 @@ entry(
         Ea = (368331,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation and kinetics of thermal decomposition of ethane', journal="J. Chem. Soc. Faraday Trans.", volume="62", pages="""1538""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
+    reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation and kinetics of thermal decomposition of ethane', journal="J. Chem. Soc. Faraday Trans.", volume="62", pages="""1538""", year="1966", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000014.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000014.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000014.xml"""),
     ],
 )
 
@@ -2522,15 +2522,15 @@ entry(
         Ea = (379140,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Waage, E.V.", "Rabinovitch, B.S."], title=u'Some aspects of theory and experiment in the ethane-methyl radical system', journal="Int. J. Chem. Kinet.", volume="3", pages="""105-125""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
+    reference = Article(authors=["Waage, E.V.", "Rabinovitch, B.S."], title=u'Some aspects of theory and experiment in the ethane-methyl radical system', journal="Int. J. Chem. Kinet.", volume="3", pages="""105-125""", year="1971", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000016.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000016.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000016.xml"""),
     ],
 )
 
@@ -2557,15 +2557,15 @@ entry(
         Ea = (369994,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Pacey, P.D.", "Purnell, J.H."], title=u'Arrhenius Parameters of the Reaction CH_3^. + C_2H_6 \u2192 CH_4 + C_2H_5^.', journal="J. Chem. Soc. Faraday Trans. 1", volume="68", pages="""1462""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
+    reference = Article(authors=["Pacey, P.D.", "Purnell, J.H."], title=u'Arrhenius Parameters of the Reaction CH_3^. + C_2H_6 \u2192 CH_4 + C_2H_5^.', journal="J. Chem. Soc. Faraday Trans. 1", volume="68", pages="""1462""", year="1972", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000017.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000017.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000017.xml"""),
     ],
 )
 
@@ -2592,15 +2592,15 @@ entry(
         Ea = (374151,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Burcat, A.", "Skinner, G.B.", "Crossley, R.W.", "Scheller, K."], title=u'High Temperature Decomposition of Ethane', journal="Int. J. Chem. Kinet.", volume="5", pages="""345""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
+    reference = Article(authors=["Burcat, A.", "Skinner, G.B.", "Crossley, R.W.", "Scheller, K."], title=u'High Temperature Decomposition of Ethane', journal="Int. J. Chem. Kinet.", volume="5", pages="""345""", year="1973", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000018.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000018.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000018.xml"""),
     ],
 )
 
@@ -2627,15 +2627,15 @@ entry(
         Ea = (362511,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Clark, J.A.", "Quinn, C.P."], title=u'Kinetic Isotope Effect in the Thermal Dissociation of Ethane', journal="J. Chem. Soc. Faraday Trans. 1", volume="72", pages="""706""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
+    reference = Article(authors=["Clark, J.A.", "Quinn, C.P."], title=u'Kinetic Isotope Effect in the Thermal Dissociation of Ethane', journal="J. Chem. Soc. Faraday Trans. 1", volume="72", pages="""706""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000020.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000020.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000020.xml"""),
     ],
 )
 
@@ -2662,15 +2662,15 @@ entry(
         Ea = (377477,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Olson, D.B.", "Gardiner, W.C., Jr."], title=u'Thermal Dissociation Rate of Ethane at the High Pressure Limit from 250 to 2500 K', journal="J. Phys. Chem.", volume="83", pages="""922""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000021.xml"),
+    reference = Article(authors=["Olson, D.B.", "Gardiner, W.C., Jr."], title=u'Thermal Dissociation Rate of Ethane at the High Pressure Limit from 250 to 2500 K', journal="J. Phys. Chem.", volume="83", pages="""922""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000021.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000021.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000021.xml"""),
     ],
 )
 
@@ -2697,15 +2697,15 @@ entry(
         Ea = (367500,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Olson, D.B.", "Gardiner, W.C., Jr."], title=u'Thermal Dissociation Rate of Ethane at the High Pressure Limit from 250 to 2500 K', journal="J. Phys. Chem.", volume="83", pages="""922""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
+    reference = Article(authors=["Olson, D.B.", "Gardiner, W.C., Jr."], title=u'Thermal Dissociation Rate of Ethane at the High Pressure Limit from 250 to 2500 K', journal="J. Phys. Chem.", volume="83", pages="""922""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000022.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000022.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000022.xml"""),
     ],
 )
 
@@ -2732,15 +2732,15 @@ entry(
         Ea = (326759,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Pratt, G.", "Rogers, D."], title=u'Wall-less Reactor Studies. Part 1. - Ethane Pyrolysis', journal="J. Chem. Soc. Faraday Trans. 1", volume="75", pages="""1089""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
+    reference = Article(authors=["Pratt, G.", "Rogers, D."], title=u'Wall-less Reactor Studies. Part 1. - Ethane Pyrolysis', journal="J. Chem. Soc. Faraday Trans. 1", volume="75", pages="""1089""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000023.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000023.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000023.xml"""),
     ],
 )
 
@@ -2767,15 +2767,15 @@ entry(
         Ea = (349208,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Roth, P.", "Just, T.H."], title=u'Measurements of Some Elementary Hydrocarbon Reactions at High Temperatures', journal="NBS Spec. Publ. (U.S.)", volume="10", pages="""1339""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000024.xml"),
+    reference = Article(authors=["Roth, P.", "Just, T.H."], title=u'Measurements of Some Elementary Hydrocarbon Reactions at High Temperatures', journal="NBS Spec. Publ. (U.S.)", volume="10", pages="""1339""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000024.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000024.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000024.xml"""),
     ],
 )
 
@@ -2802,15 +2802,15 @@ entry(
         Ea = (349208,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Roth, P.", "Just, Th."], title=u'Messungen zur Hochtemperaturpyroyse von Aethan', journal="Ber. Bunsenges. Phys. Chem.", volume="83", pages="""577""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000025.xml"),
+    reference = Article(authors=["Roth, P.", "Just, Th."], title=u'Messungen zur Hochtemperaturpyroyse von Aethan', journal="Ber. Bunsenges. Phys. Chem.", volume="83", pages="""577""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000025.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000025.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000025.xml"""),
     ],
 )
 
@@ -2837,15 +2837,15 @@ entry(
         Ea = (371657,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Trenwith, A.B."], title=u'Re-examination of the Thermal Dissociation of Ethane', journal="J. Chem. Soc. Faraday Trans. 1", volume="75", pages="""614""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000026.xml"),
+    reference = Article(authors=["Trenwith, A.B."], title=u'Re-examination of the Thermal Dissociation of Ethane', journal="J. Chem. Soc. Faraday Trans. 1", volume="75", pages="""614""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000026.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000026.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000026.xml"""),
     ],
 )
 
@@ -2872,15 +2872,15 @@ entry(
         Ea = (372488,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Trenwith, A.B."], title=u'Re-examination of the Thermal Dissociation of Ethane', journal="J. Chem. Soc. Faraday Trans. 1", volume="75", pages="""614""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000027.xml"),
+    reference = Article(authors=["Trenwith, A.B."], title=u'Re-examination of the Thermal Dissociation of Ethane', journal="J. Chem. Soc. Faraday Trans. 1", volume="75", pages="""614""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000027.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000027.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000027.xml"""),
     ],
 )
 
@@ -2907,15 +2907,15 @@ entry(
         Ea = (365837,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baulch, D.L.", "Duxbury, J."], title=u'Ethane Decomposition and the Reference Rate Constant for Methyl Radical Recombination', journal="Combust. Flame", volume="37", pages="""313""", year="1980", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000028.xml"),
+    reference = Article(authors=["Baulch, D.L.", "Duxbury, J."], title=u'Ethane Decomposition and the Reference Rate Constant for Methyl Radical Recombination', journal="Combust. Flame", volume="37", pages="""313""", year="1980", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000028.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000028.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000028.xml"""),
     ],
 )
 
@@ -2942,15 +2942,15 @@ entry(
         Ea = (294332,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bhaskaran, K.A.", "Frank, P.", "Just, Th."], title=u'High Temperature Methyl Radical Reactions with Atomic and Molecular Oxygen', journal="Proc. Int. Symp. Shock Tubes Waves", volume="12", pages="""503""", year="1980", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000029.xml"),
+    reference = Article(authors=["Bhaskaran, K.A.", "Frank, P.", "Just, Th."], title=u'High Temperature Methyl Radical Reactions with Atomic and Molecular Oxygen', journal="Proc. Int. Symp. Shock Tubes Waves", volume="12", pages="""503""", year="1980", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000029.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000029.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000029.xml"""),
     ],
 )
 
@@ -2977,15 +2977,15 @@ entry(
         Ea = (352534,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Chiang, C.C.", "Skinner, G.B."], title=u'Resonance Absorption Measurements of Atom Concentrations in Reacting Gas Mixtures. 7. Pyrolysis of C_2H_6 and C_2D_6 behind Shock Waves', journal="J. Phys. Chem.", volume="85", pages="""3126""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000031.xml"),
+    reference = Article(authors=["Chiang, C.C.", "Skinner, G.B."], title=u'Resonance Absorption Measurements of Atom Concentrations in Reacting Gas Mixtures. 7. Pyrolysis of C_2H_6 and C_2D_6 behind Shock Waves', journal="J. Phys. Chem.", volume="85", pages="""3126""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000031.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000031.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000031.xml"""),
     ],
 )
 
@@ -3012,15 +3012,15 @@ entry(
         Ea = (380803,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Skinner, G.B.", "Rogers, D.", "Patel, K.B."], title=u'Consistency of theory and experiment in the ethane-methyl radical system', journal="Int. J. Chem. Kinet.", volume="13", pages="""481""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000033.xml"),
+    reference = Article(authors=["Skinner, G.B.", "Rogers, D.", "Patel, K.B."], title=u'Consistency of theory and experiment in the ethane-methyl radical system', journal="Int. J. Chem. Kinet.", volume="13", pages="""481""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000033.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000033.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000033.xml"""),
     ],
 )
 
@@ -3047,15 +3047,15 @@ entry(
         Ea = (367500,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kanan, K.", "Purnell, H.", "Sepherad, A."], title=u'Induced heterogeneity, a novel technique for the study of gas-phase reactions. 2. Direct study of C-C bond scission in ethane', journal="Int. J. Chem. Kinet.", volume="15", pages="""845""", year="1983", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000034.xml"),
+    reference = Article(authors=["Kanan, K.", "Purnell, H.", "Sepherad, A."], title=u'Induced heterogeneity, a novel technique for the study of gas-phase reactions. 2. Direct study of C-C bond scission in ethane', journal="Int. J. Chem. Kinet.", volume="15", pages="""845""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000034.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000034.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000034.xml"""),
     ],
 )
 
@@ -3082,15 +3082,15 @@ entry(
         Ea = (369994,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kanan, K.", "Purnell, H.", "Sepherad, A."], title=u'Induced heterogeneity, a novel technique for the study of gas-phase reactions. 2. Direct study of C-C bond scission in ethane', journal="Int. J. Chem. Kinet.", volume="15", pages="""845""", year="1983", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000035.xml"),
+    reference = Article(authors=["Kanan, K.", "Purnell, H.", "Sepherad, A."], title=u'Induced heterogeneity, a novel technique for the study of gas-phase reactions. 2. Direct study of C-C bond scission in ethane', journal="Int. J. Chem. Kinet.", volume="15", pages="""845""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000035.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000035.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000035.xml"""),
     ],
 )
 
@@ -3117,15 +3117,15 @@ entry(
         Ea = (365837,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000038.xml"),
+    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000038.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000038.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000038.xml"""),
     ],
 )
 
@@ -3152,15 +3152,15 @@ entry(
         Ea = (374151,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000040.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000040.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000040.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000040.xml"""),
     ],
 )
 
@@ -3187,15 +3187,15 @@ entry(
         Ea = (335073,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hidaka, Y.", "Shiba, S.", "Takuma, H.", "Suga, M."], title=u'Thermal decomposition of ethane in shock waves', journal="Int. J. Chem. Kinet.", volume="17", pages="""441""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000041.xml"),
+    reference = Article(authors=["Hidaka, Y.", "Shiba, S.", "Takuma, H.", "Suga, M."], title=u'Thermal decomposition of ethane in shock waves', journal="Int. J. Chem. Kinet.", volume="17", pages="""441""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000041.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000041.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000041.xml"""),
     ],
 )
 
@@ -3222,15 +3222,15 @@ entry(
         Ea = (380803,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W.", "Hampson, R.F."], title=u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds', journal="J. Phys. Chem. Ref. Data", volume="15", pages="""1087""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000043.xml"),
+    reference = Article(authors=["Tsang, W.", "Hampson, R.F."], title=u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds', journal="J. Phys. Chem. Ref. Data", volume="15", pages="""1087""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000043.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000043.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000043.xml"""),
     ],
 )
 
@@ -3257,15 +3257,15 @@ entry(
         Ea = (389949,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Stewart, P.H.", "Larson, C.W.", "Golden, D.M."], title=u'Pressure and temperature dependence of reactions proceeding via a bound complex. 2. Application to 2CH\u2083 \u2192 C\u2082H\u2085 + H', journal="Combust. Flame", volume="75", pages="""25-31""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000044.xml"),
+    reference = Article(authors=["Stewart, P.H.", "Larson, C.W.", "Golden, D.M."], title=u'Pressure and temperature dependence of reactions proceeding via a bound complex. 2. Application to 2CH\u2083 \u2192 C\u2082H\u2085 + H', journal="Combust. Flame", volume="75", pages="""25-31""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000044.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000044.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000044.xml"""),
     ],
 )
 
@@ -3292,15 +3292,15 @@ entry(
         Ea = (380803,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Rate constants for the decomposition and formation of simple alkanes over extended temperature and pressure ranges', journal="Combust. Flame", volume="78", pages="""71-86""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000045.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Rate constants for the decomposition and formation of simple alkanes over extended temperature and pressure ranges', journal="Combust. Flame", volume="78", pages="""71-86""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000045.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000045.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000045.xml"""),
     ],
 )
 
@@ -3327,15 +3327,15 @@ entry(
         Ea = (379971,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000046.xml"),
+    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000046.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000046.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000046.xml"""),
     ],
 )
 
@@ -3362,15 +3362,15 @@ entry(
         Ea = (488891,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Davidson, D.F.", "DiRosa, M.D.", "Hanson, R.K.", "Bowman, C.T."], title=u'A study of ethane decomposition in a shock tube using laser absorption of CH_3', journal="Int. J. Chem. Kinet.", volume="25", pages="""969-982""", year="1993", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000049.xml"),
+    reference = Article(authors=["Davidson, D.F.", "DiRosa, M.D.", "Hanson, R.K.", "Bowman, C.T."], title=u'A study of ethane decomposition in a shock tube using laser absorption of CH_3', journal="Int. J. Chem. Kinet.", volume="25", pages="""969-982""", year="1993", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000049.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000049.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000049.xml"""),
     ],
 )
 
@@ -3397,15 +3397,15 @@ entry(
         Ea = (379971,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000050.xml"),
+    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000050.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000050.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000050.xml"""),
     ],
 )
 
@@ -3432,15 +3432,15 @@ entry(
         Ea = (251929,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Davidson, D.F.", "Hanson, R.K.", "Bowman, C.T."], title=u'Communication: revised values for the rate coefficients of ethane and methane decomposition', journal="Int. J. Chem. Kinet.", volume="27", pages="""305-308""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000054.xml"),
+    reference = Article(authors=["Davidson, D.F.", "Hanson, R.K.", "Bowman, C.T."], title=u'Communication: revised values for the rate coefficients of ethane and methane decomposition', journal="Int. J. Chem. Kinet.", volume="27", pages="""305-308""", year="1995", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000054.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000054.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000054.xml"""),
     ],
 )
 
@@ -3467,15 +3467,15 @@ entry(
         Ea = (2762,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000055.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000055.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000055.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000055.xml"""),
     ],
 )
 
@@ -3502,15 +3502,15 @@ entry(
         Ea = (2762,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000056.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000056.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000056.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000056.xml"""),
     ],
 )
 
@@ -3537,15 +3537,15 @@ entry(
         Ea = (2762,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000057.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000057.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000057.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000057.xml"""),
     ],
 )
 
@@ -3572,15 +3572,15 @@ entry(
         Ea = (2762,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000058.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000058.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000058.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000058.xml"""),
     ],
 )
 
@@ -3607,15 +3607,15 @@ entry(
         Ea = (2762,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000059.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000059.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000059.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000059.xml"""),
     ],
 )
 
@@ -3642,15 +3642,15 @@ entry(
         Ea = (2762,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000060.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000060.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000060.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000060.xml"""),
     ],
 )
 
@@ -3677,15 +3677,15 @@ entry(
         Ea = (2762,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000061.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000061.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000061.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000061.xml"""),
     ],
 )
 
@@ -3712,15 +3712,15 @@ entry(
         Ea = (2762,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000062.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000062.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000062.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000062.xml"""),
     ],
 )
 
@@ -3747,15 +3747,15 @@ entry(
         Ea = (654,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000063.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000063.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000063.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000063.xml"""),
     ],
 )
 
@@ -3782,15 +3782,15 @@ entry(
         Ea = (-6343.94,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Ingold, K.U.", "Lossing, F.P."], title=u'Free radicals by mass spectrometry. IV. The rate of combination of methyl radicals', journal="J. Chem. Phys.", volume="21", pages="""1135-1144""", year="1953", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000067.xml"),
+    reference = Article(authors=["Ingold, K.U.", "Lossing, F.P."], title=u'Free radicals by mass spectrometry. IV. The rate of combination of methyl radicals', journal="J. Chem. Phys.", volume="21", pages="""1135-1144""", year="1953", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000067.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000067.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000067.xml"""),
     ],
 )
 
@@ -3817,15 +3817,15 @@ entry(
         Ea = (-9062.77,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Ingold, K.U.", "Lossing, F.P."], title=u'The rate of combination of methyl radicals', journal="J. Chem. Phys.", volume="21", pages="""368""", year="1953", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000068.xml"),
+    reference = Article(authors=["Ingold, K.U.", "Lossing, F.P."], title=u'The rate of combination of methyl radicals', journal="J. Chem. Phys.", volume="21", pages="""368""", year="1953", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000068.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000068.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000068.xml"""),
     ],
 )
 
@@ -3852,15 +3852,15 @@ entry(
         Ea = (5903.28,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Waage, E.V.", "Rabinovitch, B.S."], title=u'Some aspects of theory and experiment in the ethane-methyl radical system', journal="Int. J. Chem. Kinet.", volume="3", pages="""105-125""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000081.xml"),
+    reference = Article(authors=["Waage, E.V.", "Rabinovitch, B.S."], title=u'Some aspects of theory and experiment in the ethane-methyl radical system', journal="Int. J. Chem. Kinet.", volume="3", pages="""105-125""", year="1971", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000081.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000081.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000081.xml"""),
     ],
 )
 
@@ -3887,15 +3887,15 @@ entry(
         Ea = (1795.93,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Teng, L.", "Jones, W.E."], title=u'Kinetics of the Reactions of Hydrogen Atoms with Ethylene and Vinyl Fluoride', journal="J. Chem. Soc. Faraday Trans. 1", volume="68", pages="""1267""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000082.xml"),
+    reference = Article(authors=["Teng, L.", "Jones, W.E."], title=u'Kinetics of the Reactions of Hydrogen Atoms with Ethylene and Vinyl Fluoride', journal="J. Chem. Soc. Faraday Trans. 1", volume="68", pages="""1267""", year="1972", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000082.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000082.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000082.xml"""),
     ],
 )
 
@@ -3922,15 +3922,15 @@ entry(
         Ea = (-1280.43,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["MacPherson, M.T.", "Pilling, M.J.", "Smith, M.J.C."], title=u'The pressure and temperature dependence of the rate constant for methyl radical recombination over the temperature range 296-577 K', journal="Chem. Phys. Lett.", volume="94", pages="""430""", year="1983", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000105.xml"),
+    reference = Article(authors=["MacPherson, M.T.", "Pilling, M.J.", "Smith, M.J.C."], title=u'The pressure and temperature dependence of the rate constant for methyl radical recombination over the temperature range 296-577 K', journal="Chem. Phys. Lett.", volume="94", pages="""430""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000105.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000105.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000105.xml"""),
     ],
 )
 
@@ -3957,15 +3957,15 @@ entry(
         Ea = (448.981,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Cobos, C.J.", "Troe, J."], title=u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results', journal="J. Chem. Phys.", volume="83", pages="""1010-1015""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000109.xml"),
+    reference = Article(authors=["Cobos, C.J.", "Troe, J."], title=u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results', journal="J. Chem. Phys.", volume="83", pages="""1010-1015""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000109.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000109.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000109.xml"""),
     ],
 )
 
@@ -3992,15 +3992,15 @@ entry(
         Ea = (-1139.08,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Macpherson, M.T.", "Pilling, M.J.", "Smith, M.J.C."], title=u'Determination of the absorption cross section for CH_3 at 216.36 nm and the absolute rate constant for methyl radical recombination over the temperature range 296-577 K', journal="J. Phys. Chem.", volume="89", pages="""2268""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000110.xml"),
+    reference = Article(authors=["Macpherson, M.T.", "Pilling, M.J.", "Smith, M.J.C."], title=u'Determination of the absorption cross section for CH_3 at 216.36 nm and the absolute rate constant for methyl radical recombination over the temperature range 296-577 K', journal="J. Phys. Chem.", volume="89", pages="""2268""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000110.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000110.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000110.xml"""),
     ],
 )
 
@@ -4027,15 +4027,15 @@ entry(
         Ea = (-29932.1,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Moller, W.", "Mozzhukhin, E.", "Wagner, H.Gg."], title=u'High temperature reactions of CH_3. 1. The reactions CH_3 + H_2 ? CH_4 + H', journal="Ber. Bunsenges. Phys. Chem.", volume="90", pages="""854""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000114.xml"),
+    reference = Article(authors=["Moller, W.", "Mozzhukhin, E.", "Wagner, H.Gg."], title=u'High temperature reactions of CH_3. 1. The reactions CH_3 + H_2 ? CH_4 + H', journal="Ber. Bunsenges. Phys. Chem.", volume="90", pages="""854""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000114.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000114.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000114.xml"""),
     ],
 )
 
@@ -4062,15 +4062,15 @@ entry(
         Ea = (2735.46,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Slagle, I.R.", "Gutman, D.", "Davies, J.W.", "Pilling, M.J."], title=u'Study of the recombination reaction CH_3 + CH_3 \u2192 C_2H_6. 1. Experiment', journal="J. Phys. Chem.", volume="92", pages="""2455""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000118.xml"),
+    reference = Article(authors=["Slagle, I.R.", "Gutman, D.", "Davies, J.W.", "Pilling, M.J."], title=u'Study of the recombination reaction CH_3 + CH_3 \u2192 C_2H_6. 1. Experiment', journal="J. Phys. Chem.", volume="92", pages="""2455""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000118.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000118.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000118.xml"""),
     ],
 )
 
@@ -4097,15 +4097,15 @@ entry(
         Ea = (2735.46,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Wagner, A.F.", "Wardlaw, D.M."], title=u'Study of the recombination reaction CH_3 + CH_3 ? C_2H_6. 2. Theory', journal="J. Phys. Chem.", volume="92", pages="""2462""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000119.xml"),
+    reference = Article(authors=["Wagner, A.F.", "Wardlaw, D.M."], title=u'Study of the recombination reaction CH_3 + CH_3 ? C_2H_6. 2. Theory', journal="J. Phys. Chem.", volume="92", pages="""2462""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000119.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000119.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000119.xml"""),
     ],
 )
 
@@ -4132,15 +4132,15 @@ entry(
         Ea = (2452.77,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Forst, W."], title=u'Microcanonical variational theory of radical recombination by inversion of interpolated partition function, with examples: CH_3 + H, CH_3 + CH_3', journal="J. Phys. Chem.", volume="95", pages="""3612-3620""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000122.xml"),
+    reference = Article(authors=["Forst, W."], title=u'Microcanonical variational theory of radical recombination by inversion of interpolated partition function, with examples: CH_3 + H, CH_3 + CH_3', journal="J. Phys. Chem.", volume="95", pages="""3612-3620""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000122.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000122.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000122.xml"""),
     ],
 )
 
@@ -4167,15 +4167,15 @@ entry(
         Ea = (2660.63,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hwang, S.M.", "Wagner, H.GG.", "Wolff, Th."], title=u'Recombination of CH_3 radicals at elevated pressures and temperatures', journal="Symp. Int. Combust. Proc.", volume="23", pages="""99-105""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000123.xml"),
+    reference = Article(authors=["Hwang, S.M.", "Wagner, H.GG.", "Wolff, Th."], title=u'Recombination of CH_3 radicals at elevated pressures and temperatures', journal="Symp. Int. Combust. Proc.", volume="23", pages="""99-105""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000123.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000123.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000123.xml"""),
     ],
 )
 
@@ -4202,15 +4202,15 @@ entry(
         Ea = (2660.63,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Walter, D.", "Grotheer, H-H."], title=u'Experimental and theoretical study of the recombination reaction CH_3 + CH_3 \u2192 C_2H_6', journal="Symp. Int. Combust. Proc.", volume="23", pages="""107-114""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000124.xml"),
+    reference = Article(authors=["Walter, D.", "Grotheer, H-H."], title=u'Experimental and theoretical study of the recombination reaction CH_3 + CH_3 \u2192 C_2H_6', journal="Symp. Int. Combust. Proc.", volume="23", pages="""107-114""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000124.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000124.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000124.xml"""),
     ],
 )
 
@@ -4237,15 +4237,15 @@ entry(
         Ea = (1330.32,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Robertson, S.H.", "Pilling, M.J.", "Baulch, D.L.", "Green, N.J.B."], title=u'Fitting of pressure-dependent kinetic rate data by master equation/inverse laplace transform analysis', journal="J. Phys. Chem.", volume="99", pages="""13452-13460""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000128.xml"),
+    reference = Article(authors=["Robertson, S.H.", "Pilling, M.J.", "Baulch, D.L.", "Green, N.J.B."], title=u'Fitting of pressure-dependent kinetic rate data by master equation/inverse laplace transform analysis', journal="J. Phys. Chem.", volume="99", pages="""13452-13460""", year="1995", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000128.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000128.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000128.xml"""),
     ],
 )
 
@@ -4272,15 +4272,15 @@ entry(
         Ea = (2452.77,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Du, H.", "Hessler, J.P.", "Ogren, P.J."], title=u'Recombination of methyl radicals. 1. New data between 1175 and 1750 K in the falloff region', journal="J. Phys. Chem.", volume="100", pages="""974-983""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000129.xml"),
+    reference = Article(authors=["Du, H.", "Hessler, J.P.", "Ogren, P.J."], title=u'Recombination of methyl radicals. 1. New data between 1175 and 1750 K in the falloff region', journal="J. Phys. Chem.", volume="100", pages="""974-983""", year="1996", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000129.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000129.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000129.xml"""),
     ],
 )
 
@@ -4307,15 +4307,15 @@ entry(
         Ea = (4173.86,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Pesa, M.", "Pilling, M.J.", "Robertson, S.H.", "Wardlaw, D.M."], title=u'Application of the canonical flexible transition state theory to CH_3, CF_3, and CCl_3', journal="J. Phys. Chem. A", volume="102", pages="""8526-8536""", year="1998", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000131.xml"),
+    reference = Article(authors=["Pesa, M.", "Pilling, M.J.", "Robertson, S.H.", "Wardlaw, D.M."], title=u'Application of the canonical flexible transition state theory to CH_3, CF_3, and CCl_3', journal="J. Phys. Chem. A", volume="102", pages="""8526-8536""", year="1998", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000131.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000131.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000131.xml"""),
     ],
 )
 
@@ -4342,15 +4342,15 @@ entry(
         Ea = (731.674,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Wang, B.S.", "Hou, H.", "Yoder, L.M.", "Muckerman, J.T.", "Fockenberg, C."], title=u'Experimental and theoretical investigations on the methyl-methyl recombination reaction', journal="J. Phys. Chem. A:", volume="107", pages="""11414-11426""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000159.xml"),
+    reference = Article(authors=["Wang, B.S.", "Hou, H.", "Yoder, L.M.", "Muckerman, J.T.", "Fockenberg, C."], title=u'Experimental and theoretical investigations on the methyl-methyl recombination reaction', journal="J. Phys. Chem. A:", volume="107", pages="""11414-11426""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000159.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000159.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000159.xml"""),
     ],
 )
 
@@ -4377,15 +4377,15 @@ entry(
         Ea = (4107.35,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Wang, B.S.", "Hou, H.", "Yoder, L.M.", "Muckerman, J.T.", "Fockenberg, C."], title=u'Experimental and theoretical investigations on the methyl-methyl recombination reaction', journal="J. Phys. Chem. A:", volume="107", pages="""11414-11426""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000160.xml"),
+    reference = Article(authors=["Wang, B.S.", "Hou, H.", "Yoder, L.M.", "Muckerman, J.T.", "Fockenberg, C."], title=u'Experimental and theoretical investigations on the methyl-methyl recombination reaction', journal="J. Phys. Chem. A:", volume="107", pages="""11414-11426""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000160.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000160.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000160.xml"""),
     ],
 )
 
@@ -4414,15 +4414,15 @@ entry(
         Ea = (409903,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000001.xml"""),
     ],
 )
 
@@ -4451,15 +4451,15 @@ entry(
         Ea = (427364,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Stewart, P.H.", "Larson, C.W.", "Golden, D.M."], title=u'Pressure and temperature dependence of reactions proceeding via a bound complex. 2. Application to 2CH\u2083 \u2192 C\u2082H\u2085 + H', journal="Combust. Flame", volume="75", pages="""25-31""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Stewart, P.H.", "Larson, C.W.", "Golden, D.M."], title=u'Pressure and temperature dependence of reactions proceeding via a bound complex. 2. Application to 2CH\u2083 \u2192 C\u2082H\u2085 + H', journal="Combust. Flame", volume="75", pages="""25-31""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000002.xml"""),
     ],
 )
 
@@ -4488,15 +4488,15 @@ entry(
         Ea = (6685,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000003.xml"""),
     ],
 )
 
@@ -4525,15 +4525,15 @@ entry(
         Ea = (6685,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000004.xml"""),
     ],
 )
 
@@ -4562,15 +4562,15 @@ entry(
         Ea = (6685,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000005.xml"""),
     ],
 )
 
@@ -4599,15 +4599,15 @@ entry(
         Ea = (6685,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000006.xml"""),
     ],
 )
 
@@ -4636,15 +4636,15 @@ entry(
         Ea = (6685,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000007.xml"""),
     ],
 )
 
@@ -4673,15 +4673,15 @@ entry(
         Ea = (6685,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000008.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000008.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000008.xml"""),
     ],
 )
 
@@ -4710,15 +4710,15 @@ entry(
         Ea = (6685,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000009.xml"""),
     ],
 )
 
@@ -4747,15 +4747,15 @@ entry(
         Ea = (6685,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000010.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000010.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000010.xml"""),
     ],
 )
 
@@ -4784,15 +4784,15 @@ entry(
         Ea = (1580,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000011.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000011.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002086/rk00000011.xml"""),
     ],
 )
 
@@ -4821,15 +4821,15 @@ entry(
         Ea = (460622,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000007.xml"""),
     ],
 )
 
@@ -4858,15 +4858,15 @@ entry(
         Ea = (3320,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000009.xml"""),
     ],
 )
 
@@ -4895,15 +4895,15 @@ entry(
         Ea = (3320,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000010.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000010.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000010.xml"""),
     ],
 )
 
@@ -4932,15 +4932,15 @@ entry(
         Ea = (3320,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000011.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000011.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000011.xml"""),
     ],
 )
 
@@ -4969,15 +4969,15 @@ entry(
         Ea = (3320,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000012.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000012.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000012.xml"""),
     ],
 )
 
@@ -5006,15 +5006,15 @@ entry(
         Ea = (3320,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000013.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000013.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000013.xml"""),
     ],
 )
 
@@ -5043,15 +5043,15 @@ entry(
         Ea = (3320,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000014.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000014.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000014.xml"""),
     ],
 )
 
@@ -5080,15 +5080,15 @@ entry(
         Ea = (3320,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000015.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000015.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000015.xml"""),
     ],
 )
 
@@ -5117,15 +5117,15 @@ entry(
         Ea = (3320,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000016.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000016.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000016.xml"""),
     ],
 )
 
@@ -5154,15 +5154,15 @@ entry(
         Ea = (280,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000017.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000017.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000017.xml"""),
     ],
 )
 
@@ -5191,15 +5191,15 @@ entry(
         Ea = (4107.35,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Duran, R.P.", "Amorebieta, V.T.", "Colussi, A.J."], title=u'Is the homogeneous thermal dimerization of acetylene a free-radical chain reaction? Kinetic and thermochemical analysis', journal="J. Phys. Chem.", volume="92", pages="""636""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000019.xml"),
+    reference = Article(authors=["Duran, R.P.", "Amorebieta, V.T.", "Colussi, A.J."], title=u'Is the homogeneous thermal dimerization of acetylene a free-radical chain reaction? Kinetic and thermochemical analysis', journal="J. Phys. Chem.", volume="92", pages="""636""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000019.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000019.xml
 """,
     history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002163/rk00000019.xml"""),
     ],
 )
 
@@ -5228,15 +5228,15 @@ entry(
         Ea = (460622,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Al'tshuler, B.N."], title=u'Investigation of the High Temperature Pyrolysis of Acetylene', journal="Kinet. Catal.", volume="15", pages="""835""", year="1974", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Al'tshuler, B.N."], title=u'Investigation of the High Temperature Pyrolysis of Acetylene', journal="Kinet. Catal.", volume="15", pages="""835""", year="1974", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000001.xml"""),
     ],
 )
 
@@ -5265,15 +5265,15 @@ entry(
         Ea = (518823,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W.", "Hampson, R.F."], title=u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds', journal="J. Phys. Chem. Ref. Data", volume="15", pages="""1087""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
+    reference = Article(authors=["Tsang, W.", "Hampson, R.F."], title=u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds', journal="J. Phys. Chem. Ref. Data", volume="15", pages="""1087""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000008.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000008.xml
 """,
     history = [
-        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000008.xml"""),
     ],
 )
 
@@ -5302,15 +5302,15 @@ entry(
         Ea = (1900,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000011.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000011.xml
 """,
     history = [
-        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000011.xml"""),
     ],
 )
 
@@ -5339,15 +5339,15 @@ entry(
         Ea = (1900,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000012.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000012.xml
 """,
     history = [
-        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000012.xml"""),
     ],
 )
 
@@ -5376,15 +5376,15 @@ entry(
         Ea = (1900,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000013.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000013.xml
 """,
     history = [
-        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000013.xml"""),
     ],
 )
 
@@ -5413,15 +5413,15 @@ entry(
         Ea = (1900,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000014.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000014.xml
 """,
     history = [
-        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000014.xml"""),
     ],
 )
 
@@ -5450,15 +5450,15 @@ entry(
         Ea = (1900,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000015.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000015.xml
 """,
     history = [
-        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000015.xml"""),
     ],
 )
 
@@ -5487,15 +5487,15 @@ entry(
         Ea = (1900,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000016.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000016.xml
 """,
     history = [
-        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000016.xml"""),
     ],
 )
 
@@ -5524,15 +5524,15 @@ entry(
         Ea = (1900,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000017.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000017.xml
 """,
     history = [
-        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000017.xml"""),
     ],
 )
 
@@ -5561,15 +5561,15 @@ entry(
         Ea = (1900,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000018.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000018.xml
 """,
     history = [
-        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000018.xml"""),
     ],
 )
 
@@ -5598,15 +5598,15 @@ entry(
         Ea = (0,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000019.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000019.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000019.xml
 """,
     history = [
-        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000019.xml"""),
     ],
 )
 
@@ -5637,15 +5637,15 @@ entry(
         Ea = (396600,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002698/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002698/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002698/rk00000001.xml"""),
     ],
 )
 
@@ -5676,15 +5676,15 @@ entry(
         Ea = (408241,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002699/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002699/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002699/rk00000001.xml"""),
     ],
 )
 
@@ -5713,15 +5713,15 @@ entry(
         Ea = (335073,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Blackmore, D.R.", "Hinshelwood, C."], title=u'Derivation of rate constants for steps in the free-radical chain decomposition of paraffins', journal="Proc. R. Soc. London A", volume="268", pages="""36""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Blackmore, D.R.", "Hinshelwood, C."], title=u'Derivation of rate constants for steps in the free-radical chain decomposition of paraffins', journal="Proc. R. Soc. London A", volume="268", pages="""36""", year="1962", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000001.xml"""),
     ],
 )
 
@@ -5750,15 +5750,15 @@ entry(
         Ea = (281029,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Laidler, K.J.", "Sagert, N.H.", "Wojciechowski, B.W."], title=u'Kinetics and mechanisms of the thermal decomposition of propane. I. The uninhibited reaction', journal="Proc. R. Soc. London A", volume="270", pages="""242""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Laidler, K.J.", "Sagert, N.H.", "Wojciechowski, B.W."], title=u'Kinetics and mechanisms of the thermal decomposition of propane. I. The uninhibited reaction', journal="Proc. R. Soc. London A", volume="270", pages="""242""", year="1962", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000002.xml"""),
     ],
 )
 
@@ -5787,15 +5787,15 @@ entry(
         Ea = (300152,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kao, W.", "Yeh, C."], title=u'The role of the termination reaction H + CH_3 \u2192 CH_4 in the pyrolysis of propane in the temperature range 1100-1300 K', journal="J. Chem. Phys.", volume="81", pages="""2304-2306""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Kao, W.", "Yeh, C."], title=u'The role of the termination reaction H + CH_3 \u2192 CH_4 in the pyrolysis of propane in the temperature range 1100-1300 K', journal="J. Chem. Phys.", volume="81", pages="""2304-2306""", year="1977", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000003.xml"""),
     ],
 )
 
@@ -5824,15 +5824,15 @@ entry(
         Ea = (355028,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Jezequel, J-Y.", "Baronnet, F.", "Niclause, M."], title=u'Modelisation de la pyrolyse du propane', journal="J. Chim. Phys.", volume="75", pages="""991-993""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Jezequel, J-Y.", "Baronnet, F.", "Niclause, M."], title=u'Modelisation de la pyrolyse du propane', journal="J. Chim. Phys.", volume="75", pages="""991-993""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000004.xml"""),
     ],
 )
 
@@ -5861,15 +5861,15 @@ entry(
         Ea = (365837,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Chiang, C.", "Skinner, G.B."], title=u'Resonance absorption measurements of atom concentrations in reacting gas mixtures. 5. Pyrolysis of propane and propane-D_8 behind shock waves', journal="Report by Wright State University, Dept. of Chemistry, Dayton, OH 45435", pages="""1-18""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Chiang, C.", "Skinner, G.B."], title=u'Resonance absorption measurements of atom concentrations in reacting gas mixtures. 5. Pyrolysis of propane and propane-D_8 behind shock waves', journal="Report by Wright State University, Dept. of Chemistry, Dayton, OH 45435", pages="""1-18""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000005.xml"""),
     ],
 )
 
@@ -5898,15 +5898,15 @@ entry(
         Ea = (365837,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Chiang, C.-C.", "Skinner, G.B."], title=u'Resonance Absorption Measurements of Atom Concentrations in Reacting Gas Mixtures 5. Pyrolysis of C_3H_8 and C_3D_8 Behind Shock Waves', journal="Symp. Int. Combust. Proc.", volume="18", pages="""915""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
+    reference = Article(authors=["Chiang, C.-C.", "Skinner, G.B."], title=u'Resonance Absorption Measurements of Atom Concentrations in Reacting Gas Mixtures 5. Pyrolysis of C_3H_8 and C_3D_8 Behind Shock Waves', journal="Symp. Int. Combust. Proc.", volume="18", pages="""915""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000008.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000008.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000008.xml"""),
     ],
 )
 
@@ -5935,15 +5935,15 @@ entry(
         Ea = (377477,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Chiang, C.-C.", "Skinner, G.B."], title=u'Resonance Absorption Measurements of Atom Concentrations in Reacting Gas Mixtures 5. Pyrolysis of C_3H_8 and C_3D_8 Behind Shock Waves', journal="Symp. Int. Combust. Proc.", volume="18", pages="""915""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Chiang, C.-C.", "Skinner, G.B."], title=u'Resonance Absorption Measurements of Atom Concentrations in Reacting Gas Mixtures 5. Pyrolysis of C_3H_8 and C_3D_8 Behind Shock Waves', journal="Symp. Int. Combust. Proc.", volume="18", pages="""915""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000009.xml"""),
     ],
 )
 
@@ -5972,15 +5972,15 @@ entry(
         Ea = (354197,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Juste, C.", "Scacchi, G.", "Niclause, M."], title=u'Minor Products and Initiation Rate in the Chain Pyrolysis of Propane', journal="Int. J. Chem. Kinet.", volume="13", pages="""855""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
+    reference = Article(authors=["Juste, C.", "Scacchi, G.", "Niclause, M."], title=u'Minor Products and Initiation Rate in the Chain Pyrolysis of Propane', journal="Int. J. Chem. Kinet.", volume="13", pages="""855""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000010.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000010.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000010.xml"""),
     ],
 )
 
@@ -6009,15 +6009,15 @@ entry(
         Ea = (361680,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Al-Alami, M.Z.", "Kiefer, J.H."], title=u'Shock-tube study of propane pyrolysis. Rate of initial dissociation from 1400 to 2300 K', journal="J. Phys. Chem.", volume="87", pages="""499""", year="1983", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
+    reference = Article(authors=["Al-Alami, M.Z.", "Kiefer, J.H."], title=u'Shock-tube study of propane pyrolysis. Rate of initial dissociation from 1400 to 2300 K', journal="J. Phys. Chem.", volume="87", pages="""499""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000011.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000011.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000011.xml"""),
     ],
 )
 
@@ -6046,15 +6046,15 @@ entry(
         Ea = (232805,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Al-Alami, M.Z.", "Kiefer, J.H."], title=u'Shock-tube study of propane pyrolysis. Rate of initial dissociation from 1400 to 2300 K', journal="J. Phys. Chem.", volume="87", pages="""499""", year="1983", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
+    reference = Article(authors=["Al-Alami, M.Z.", "Kiefer, J.H."], title=u'Shock-tube study of propane pyrolysis. Rate of initial dissociation from 1400 to 2300 K', journal="J. Phys. Chem.", volume="87", pages="""499""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000012.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000012.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000012.xml"""),
     ],
 )
 
@@ -6083,15 +6083,15 @@ entry(
         Ea = (349208,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kanan, K.", "Purnell, H.", "Smith, E."], title=u'Induced heterogeneity, a novel technique for the study of gas-phase reactions. Part I. Determination of the Arrhenius parameters for C-C bond scission in propane', journal="Int. J. Chem. Kinet.", volume="15", pages="""63""", year="1983", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
+    reference = Article(authors=["Kanan, K.", "Purnell, H.", "Smith, E."], title=u'Induced heterogeneity, a novel technique for the study of gas-phase reactions. Part I. Determination of the Arrhenius parameters for C-C bond scission in propane', journal="Int. J. Chem. Kinet.", volume="15", pages="""63""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000014.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000014.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000014.xml"""),
     ],
 )
 
@@ -6120,15 +6120,15 @@ entry(
         Ea = (350039,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
+    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000015.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000015.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000015.xml"""),
     ],
 )
 
@@ -6157,15 +6157,15 @@ entry(
         Ea = (357522,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000016.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000016.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000016.xml"""),
     ],
 )
 
@@ -6194,15 +6194,15 @@ entry(
         Ea = (355859,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dombi, A.", "Horvath, I.", "Huhn, P."], title=u'Effects of olefins on the thermal decomposition of propane. Part III. Some remarks on the kinetics of decomposition', journal="Int. J. Chem. Kinet.", volume="18", pages="""255""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
+    reference = Article(authors=["Dombi, A.", "Horvath, I.", "Huhn, P."], title=u'Effects of olefins on the thermal decomposition of propane. Part III. Some remarks on the kinetics of decomposition', journal="Int. J. Chem. Kinet.", volume="18", pages="""255""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000017.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000017.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000017.xml"""),
     ],
 )
 
@@ -6231,15 +6231,15 @@ entry(
         Ea = (370825,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part 3. Propane', journal="J. Phys. Chem. Ref. Data", volume="17", pages="""887""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part 3. Propane', journal="J. Phys. Chem. Ref. Data", volume="17", pages="""887""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000018.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000018.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000018.xml"""),
     ],
 )
 
@@ -6268,15 +6268,15 @@ entry(
         Ea = (351702,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hidaka, Y.", "Oki, T.", "Kawano, H."], title=u'Thermal decomposition of propane in shock waves', journal="Int. J. Chem. Kinet.", volume="21", pages="""689""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000019.xml"),
+    reference = Article(authors=["Hidaka, Y.", "Oki, T.", "Kawano, H."], title=u'Thermal decomposition of propane in shock waves', journal="Int. J. Chem. Kinet.", volume="21", pages="""689""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000019.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000019.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000019.xml"""),
     ],
 )
 
@@ -6305,15 +6305,15 @@ entry(
         Ea = (370825,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Rate constants for the decomposition and formation of simple alkanes over extended temperature and pressure ranges', journal="Combust. Flame", volume="78", pages="""71-86""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Rate constants for the decomposition and formation of simple alkanes over extended temperature and pressure ranges', journal="Combust. Flame", volume="78", pages="""71-86""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000020.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000020.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000020.xml"""),
     ],
 )
 
@@ -6342,15 +6342,15 @@ entry(
         Ea = (353365,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000021.xml"),
+    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000021.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000021.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000021.xml"""),
     ],
 )
 
@@ -6379,15 +6379,15 @@ entry(
         Ea = (364174,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Belmeliani, A.", "Perrin, D.", "Martin, R."], title=u"Etude cinetique de l'ethane forme dans la pyrolyse homogene du propane et mesure de la constante de vitesse d'amorcage", journal="J. Chim. Phys.", volume="91", pages="""313-328""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
+    reference = Article(authors=["Belmeliani, A.", "Perrin, D.", "Martin, R."], title=u"Etude cinetique de l'ethane forme dans la pyrolyse homogene du propane et mesure de la constante de vitesse d'amorcage", journal="J. Chim. Phys.", volume="91", pages="""313-328""", year="1994", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000023.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000023.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000023.xml"""),
     ],
 )
 
@@ -6416,15 +6416,15 @@ entry(
         Ea = (6098.48,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Mousavipour, S.H.", "Homayoon, Z."], title=u'A Theoretical Study on the Kinetics of Disproportionation Versus Association Reaction of CH_3 + C_2H_5', journal="J. Phys. Chem. A", volume="107", pages="""8566-8574""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000025.xml"),
+    reference = Article(authors=["Mousavipour, S.H.", "Homayoon, Z."], title=u'A Theoretical Study on the Kinetics of Disproportionation Versus Association Reaction of CH_3 + C_2H_5', journal="J. Phys. Chem. A", volume="107", pages="""8566-8574""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000025.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000025.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000025.xml"""),
     ],
 )
 
@@ -6453,15 +6453,15 @@ entry(
         Ea = (13065,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000026.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000026.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000026.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000026.xml"""),
     ],
 )
 
@@ -6490,15 +6490,15 @@ entry(
         Ea = (13065,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000027.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000027.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000027.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000027.xml"""),
     ],
 )
 
@@ -6527,15 +6527,15 @@ entry(
         Ea = (13065,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000028.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000028.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000028.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000028.xml"""),
     ],
 )
 
@@ -6564,15 +6564,15 @@ entry(
         Ea = (13065,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000029.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000029.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000029.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000029.xml"""),
     ],
 )
 
@@ -6601,15 +6601,15 @@ entry(
         Ea = (13065,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000030.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000030.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000030.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000030.xml"""),
     ],
 )
 
@@ -6638,15 +6638,15 @@ entry(
         Ea = (13065,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000031.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000031.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000031.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000031.xml"""),
     ],
 )
 
@@ -6675,15 +6675,15 @@ entry(
         Ea = (13065,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000032.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000032.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000032.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000032.xml"""),
     ],
 )
 
@@ -6712,15 +6712,15 @@ entry(
         Ea = (13065,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000033.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000033.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000033.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000033.xml"""),
     ],
 )
 
@@ -6749,15 +6749,15 @@ entry(
         Ea = (0,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000034.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000034.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000034.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000034.xml"""),
     ],
 )
 
@@ -6786,15 +6786,15 @@ entry(
         Ea = (1671.21,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Teng, L.", "Jones, W.E."], title=u'Kinetics of the Reactions of Hydrogen Atoms with Ethylene and Vinyl Fluoride', journal="J. Chem. Soc. Faraday Trans. 1", volume="68", pages="""1267""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000038.xml"),
+    reference = Article(authors=["Teng, L.", "Jones, W.E."], title=u'Kinetics of the Reactions of Hydrogen Atoms with Ethylene and Vinyl Fluoride', journal="J. Chem. Soc. Faraday Trans. 1", volume="68", pages="""1267""", year="1972", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000038.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000038.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000038.xml"""),
     ],
 )
 
@@ -6823,15 +6823,15 @@ entry(
         Ea = (-47392.5,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Simmie, J.M.", "Gardiner, W.C., Jr.", "Eubank, C.S."], title=u'Falloff Behavior in Propane Thermal Decomposition at High Temperature', journal="J. Phys. Chem.", volume="86", pages="""799""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000042.xml"),
+    reference = Article(authors=["Simmie, J.M.", "Gardiner, W.C., Jr.", "Eubank, C.S."], title=u'Falloff Behavior in Propane Thermal Decomposition at High Temperature', journal="J. Phys. Chem.", volume="86", pages="""799""", year="1982", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000042.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000042.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000042.xml"""),
     ],
 )
 
@@ -6860,15 +6860,15 @@ entry(
         Ea = (-7108.87,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kanan, K.", "Purnell, H.", "Smith, E."], title=u'Induced heterogeneity, a novel technique for the study of gas-phase reactions. Part I. Determination of the Arrhenius parameters for C-C bond scission in propane', journal="Int. J. Chem. Kinet.", volume="15", pages="""63""", year="1983", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000044.xml"),
+    reference = Article(authors=["Kanan, K.", "Purnell, H.", "Smith, E."], title=u'Induced heterogeneity, a novel technique for the study of gas-phase reactions. Part I. Determination of the Arrhenius parameters for C-C bond scission in propane', journal="Int. J. Chem. Kinet.", volume="15", pages="""63""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000044.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000044.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000044.xml"""),
     ],
 )
 
@@ -6897,15 +6897,15 @@ entry(
         Ea = (-8.75696,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Mousavipour, S.H.", "Homayoon, Z."], title=u'A Theoretical Study on the Kinetics of Disproportionation Versus Association Reaction of CH_3 + C_2H_5', journal="J. Phys. Chem. A", volume="107", pages="""8566-8574""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000051.xml"),
+    reference = Article(authors=["Mousavipour, S.H.", "Homayoon, Z."], title=u'A Theoretical Study on the Kinetics of Disproportionation Versus Association Reaction of CH_3 + C_2H_5', journal="J. Phys. Chem. A", volume="107", pages="""8566-8574""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000051.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000051.xml
 """,
     history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000051.xml"""),
     ],
 )
 
@@ -6938,15 +6938,15 @@ entry(
         Ea = (384960,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Lifshitz, A.", "Tamburu, C."], title=u'Isomerization and decomposition of propylene oxide. Studies with a single-pulse shock tube', journal="J. Phys. Chem.", volume="98", pages="""1161-1170""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Lifshitz, A.", "Tamburu, C."], title=u'Isomerization and decomposition of propylene oxide. Studies with a single-pulse shock tube', journal="J. Phys. Chem.", volume="98", pages="""1161-1170""", year="1994", url="http://warehouse.primekinetics.org/depository/reactions/data/r00003550/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003550/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003550/rk00000001.xml"""),
     ],
 )
 
@@ -6979,15 +6979,15 @@ entry(
         Ea = (340062,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00003588/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003588/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003588/rk00000001.xml"""),
     ],
 )
 
@@ -7022,15 +7022,15 @@ entry(
         Ea = (157975,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kirk, A.D.", "Knox, J.H."], title=u'The pyrolysis of alkyl hydroperoxides in the gas phase', journal="Trans. Faraday Soc.", volume="56", pages="""1296-1303""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Kirk, A.D.", "Knox, J.H."], title=u'The pyrolysis of alkyl hydroperoxides in the gas phase', journal="Trans. Faraday Soc.", volume="56", pages="""1296-1303""", year="1960", url="http://warehouse.primekinetics.org/depository/reactions/data/r00003751/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003751/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003751/rk00000001.xml"""),
     ],
 )
 
@@ -7065,15 +7065,15 @@ entry(
         Ea = (176267,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Benson, S.W.", "Spokes, G.N."], title=u'Very low pressure pyrolysis. III. t-Butyl hydroperoxide in fused silica and stainless steel reactors', journal="J. Phys. Chem.", volume="72", pages="""1182-1186""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Benson, S.W.", "Spokes, G.N."], title=u'Very low pressure pyrolysis. III. t-Butyl hydroperoxide in fused silica and stainless steel reactors', journal="J. Phys. Chem.", volume="72", pages="""1182-1186""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00003751/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003751/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003751/rk00000002.xml"""),
     ],
 )
 
@@ -7108,15 +7108,15 @@ entry(
         Ea = (172941,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Mulder, P.", "Louw, R."], title=u'Gas-phase thermolysis of tert-butyl hydroperoxide in a nitrogen atmosphere. The effect of added toluene', journal="Recl. Trav. Chim. Pays-Bas", volume="103", pages="""148-152""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Mulder, P.", "Louw, R."], title=u'Gas-phase thermolysis of tert-butyl hydroperoxide in a nitrogen atmosphere. The effect of added toluene', journal="Recl. Trav. Chim. Pays-Bas", volume="103", pages="""148-152""", year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00003751/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003751/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003751/rk00000003.xml"""),
     ],
 )
 
@@ -7151,15 +7151,15 @@ entry(
         Ea = (177930,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Sahetchian, K.A.", "Rigny, R.", "Tardieu de Maleissye, J.", "Batt, L.", "Anwar Khan, M.", "Mathews, S."], title=u'The pyrolysis of organic hydroperoxides (ROOH)', journal="Symp. Int. Combust. Proc.", volume="24", pages="""637-643""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Sahetchian, K.A.", "Rigny, R.", "Tardieu de Maleissye, J.", "Batt, L.", "Anwar Khan, M.", "Mathews, S."], title=u'The pyrolysis of organic hydroperoxides (ROOH)', journal="Symp. Int. Combust. Proc.", volume="24", pages="""637-643""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00003751/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003751/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003751/rk00000004.xml"""),
     ],
 )
 
@@ -7192,15 +7192,15 @@ entry(
         Ea = (167952,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Sahetchian, K.A.", "Rigny, R.", "Tardieu de Maleissye, J.", "Batt, L.", "Anwar Khan, M.", "Mathews, S."], title=u'The pyrolysis of organic hydroperoxides (ROOH)', journal="Symp. Int. Combust. Proc.", volume="24", pages="""637-643""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Sahetchian, K.A.", "Rigny, R.", "Tardieu de Maleissye, J.", "Batt, L.", "Anwar Khan, M.", "Mathews, S."], title=u'The pyrolysis of organic hydroperoxides (ROOH)', journal="Symp. Int. Combust. Proc.", volume="24", pages="""637-643""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004010/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004010/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:38 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:38 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004010/rk00000001.xml"""),
     ],
 )
 
@@ -7235,15 +7235,15 @@ entry(
         Ea = (339230,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of 2,3-dimethylbutane in a single-pulse shock tube', journal="J. Chem. Phys.", volume="43", pages="""352-359""", year="1965", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of 2,3-dimethylbutane in a single-pulse shock tube', journal="J. Chem. Phys.", volume="43", pages="""352-359""", year="1965", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004033/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004033/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:39 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:39 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004033/rk00000001.xml"""),
     ],
 )
 
@@ -7278,15 +7278,15 @@ entry(
         Ea = (348376,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baldwin, R.R.", "Drewery, G.R.", "Walker, R.W."], title=u'Decomposition of 2,3-dimethylbutane in the presence of oxygen. Part 1.-Thermochemistry of the reaction (CH_3)_2CHCH(CH_3)_2 \u2192 2i-C_3H_7', journal="J. Chem. Soc. Faraday Trans. 1", volume="80", pages="""2827""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Baldwin, R.R.", "Drewery, G.R.", "Walker, R.W."], title=u'Decomposition of 2,3-dimethylbutane in the presence of oxygen. Part 1.-Thermochemistry of the reaction (CH_3)_2CHCH(CH_3)_2 \u2192 2i-C_3H_7', journal="J. Chem. Soc. Faraday Trans. 1", volume="80", pages="""2827""", year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004033/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004033/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:39 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:39 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004033/rk00000002.xml"""),
     ],
 )
 
@@ -7329,15 +7329,15 @@ entry(
         Ea = (231142,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Suryan, M.M.", "Kafafi, S.A.", "Stein, S.E."], title=u'The thermal decomposition of hydroxy- and methoxy-substituted anisoles', journal="J. Am. Chem. Soc.", volume="111", pages="""1423""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Suryan, M.M.", "Kafafi, S.A.", "Stein, S.E."], title=u'The thermal decomposition of hydroxy- and methoxy-substituted anisoles', journal="J. Am. Chem. Soc.", volume="111", pages="""1423""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004187/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004187/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004187/rk00000001.xml"""),
     ],
 )
 
@@ -7372,15 +7372,15 @@ entry(
         Ea = (368331,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Brown, T.C.", "King, K.D."], title=u'Very low-pressure pyrolysis (VLPP) of methyl- and ethynyl- cyclopentanes and cyclohexanes', journal="Int. J. Chem. Kinet.", volume="21", pages="""251""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Brown, T.C.", "King, K.D."], title=u'Very low-pressure pyrolysis (VLPP) of methyl- and ethynyl- cyclopentanes and cyclohexanes', journal="Int. J. Chem. Kinet.", volume="21", pages="""251""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004262/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004262/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004262/rk00000001.xml"""),
     ],
 )
 
@@ -7423,15 +7423,15 @@ entry(
         Ea = (251929,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Leigh, C.H.", "Szwarc, M."], title=u'An investigation of the pyrolyses of cumene, t-butyl-benzene and p-cymene, and the relevant bond dissociation energies', journal="J. Chem. Phys.", volume="20", pages="""844-847""", year="1952", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Leigh, C.H.", "Szwarc, M."], title=u'An investigation of the pyrolyses of cumene, t-butyl-benzene and p-cymene, and the relevant bond dissociation energies', journal="J. Chem. Phys.", volume="20", pages="""844-847""", year="1952", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004286/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004286/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004286/rk00000001.xml"""),
     ],
 )
 
@@ -7474,15 +7474,15 @@ entry(
         Ea = (289344,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Robaugh, D.A.", "Stein, S.E."], title=u'Very-low-pressure pyrolysis of ethylbenzene, isopropylbenzene, and tert-butylbenzene', journal="Int. J. Chem. Kinet.", volume="13", pages="""445""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Robaugh, D.A.", "Stein, S.E."], title=u'Very-low-pressure pyrolysis of ethylbenzene, isopropylbenzene, and tert-butylbenzene', journal="Int. J. Chem. Kinet.", volume="13", pages="""445""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004286/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004286/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004286/rk00000002.xml"""),
     ],
 )
 
@@ -7525,15 +7525,15 @@ entry(
         Ea = (286018,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Brand, U.", "Hippler, H.", "Lindemann, L.", "Troe, J."], title=u'C-C and C-H bond splits of laser-excited aromatic molecules. 1. Specific and thermally averaged rate constants', journal="J. Phys. Chem.", volume="94", pages="""6305""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Brand, U.", "Hippler, H.", "Lindemann, L.", "Troe, J."], title=u'C-C and C-H bond splits of laser-excited aromatic molecules. 1. Specific and thermally averaged rate constants', journal="J. Phys. Chem.", volume="94", pages="""6305""", year="1990", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004286/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004286/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:33:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004286/rk00000003.xml"""),
     ],
 )
 
@@ -7576,15 +7576,15 @@ entry(
         Ea = (141.346,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Brand, U.", "Hippler, H.", "Lindemann, L.", "Troe, J."], title=u'C-C and C-H bond splits of laser-excited aromatic molecules. 1. Specific and thermally averaged rate constants', journal="J. Phys. Chem.", volume="94", pages="""6305""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Brand, U.", "Hippler, H.", "Lindemann, L.", "Troe, J."], title=u'C-C and C-H bond splits of laser-excited aromatic molecules. 1. Specific and thermally averaged rate constants', journal="J. Phys. Chem.", volume="94", pages="""6305""", year="1990", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004286/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004286/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:33:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004286/rk00000004.xml"""),
     ],
 )
 
@@ -7623,15 +7623,15 @@ entry(
         Ea = (242783,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Paul, S.", "Back, M.H."], title=u'A kinetic determination of the dissociation energy of the C-O bond in anisole', journal="Can. J. Chem.", volume="53", pages="""3330""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Paul, S.", "Back, M.H."], title=u'A kinetic determination of the dissociation energy of the C-O bond in anisole', journal="Can. J. Chem.", volume="53", pages="""3330""", year="1975", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000001.xml"""),
     ],
 )
 
@@ -7670,15 +7670,15 @@ entry(
         Ea = (275209,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Lin, C-Y.", "Lin, M.C."], title=u'Thermal decomposition of methyl phenyl ether in shock waves: The kinetics of phenoxy radical reactions', journal="J. Phys. Chem.", volume="90", pages="""425""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Lin, C-Y.", "Lin, M.C."], title=u'Thermal decomposition of methyl phenyl ether in shock waves: The kinetics of phenoxy radical reactions', journal="J. Phys. Chem.", volume="90", pages="""425""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000002.xml"""),
     ],
 )
 
@@ -7717,15 +7717,15 @@ entry(
         Ea = (262737,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bruinsma, O.S.L.", "Geertsman, R.S.", "Bank, P.", "Moulijn, J.A."], title=u'Gas phase pyrolysis of coal-related aromatic compounds in a coiled tube flow reactor. 1. Benzene and derivatives', journal="Fuel", volume="67", pages="""327""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Bruinsma, O.S.L.", "Geertsman, R.S.", "Bank, P.", "Moulijn, J.A."], title=u'Gas phase pyrolysis of coal-related aromatic compounds in a coiled tube flow reactor. 1. Benzene and derivatives', journal="Fuel", volume="67", pages="""327""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000003.xml"""),
     ],
 )
 
@@ -7764,15 +7764,15 @@ entry(
         Ea = (255254,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Back, M.H."], title=u'Comment on the thermal decomposition of anisole and the heat of formation of the phenoxy radical', journal="J. Phys. Chem.", volume="93", pages="""6880""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Back, M.H."], title=u'Comment on the thermal decomposition of anisole and the heat of formation of the phenoxy radical', journal="J. Phys. Chem.", volume="93", pages="""6880""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000004.xml"""),
     ],
 )
 
@@ -7811,15 +7811,15 @@ entry(
         Ea = (267726,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Mackie, J.C.", "Doolan, K.R.", "Nelson, P.F."], title=u'Kinetics of the thermal decomposition of methoxybenzene (anisole)', journal="J. Phys. Chem.", volume="93", pages="""664""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Mackie, J.C.", "Doolan, K.R.", "Nelson, P.F."], title=u'Kinetics of the thermal decomposition of methoxybenzene (anisole)', journal="J. Phys. Chem.", volume="93", pages="""664""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000005.xml"""),
     ],
 )
 
@@ -7858,15 +7858,15 @@ entry(
         Ea = (266063,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Suryan, M.M.", "Kafafi, S.A.", "Stein, S.E."], title=u'The thermal decomposition of hydroxy- and methoxy-substituted anisoles', journal="J. Am. Chem. Soc.", volume="111", pages="""1423""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Article(authors=["Suryan, M.M.", "Kafafi, S.A.", "Stein, S.E."], title=u'The thermal decomposition of hydroxy- and methoxy-substituted anisoles', journal="J. Am. Chem. Soc.", volume="111", pages="""1423""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000006.xml"""),
     ],
 )
 
@@ -7905,15 +7905,15 @@ entry(
         Ea = (266063,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Arends, I.W.C.E.", "Louw, R.", "Mulder, P."], title=u'Kinetic study of the thermolysis of anisole in a hydrogen atmosphere', journal="J. Phys. Chem.", volume="97", pages="""7914-7925""", year="1993", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["Arends, I.W.C.E.", "Louw, R.", "Mulder, P."], title=u'Kinetic study of the thermolysis of anisole in a hydrogen atmosphere', journal="J. Phys. Chem.", volume="97", pages="""7914-7925""", year="1993", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004429/rk00000007.xml"""),
     ],
 )
 
@@ -7964,15 +7964,15 @@ entry(
         Ea = (340893,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Rossi, M.J.", "McMillen, D.F.", "Golden, D.M."], title=u'Aliphatic C-H bond scission processes in diphenylmethane and 2-benzyl- and 4-benzylpyridine. The head of formation of the diphenylmethyl and \u03b1-phenylethyl radical in the gas phase', journal="J. Phys. Chem.", volume="88", pages="""5031""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Rossi, M.J.", "McMillen, D.F.", "Golden, D.M."], title=u'Aliphatic C-H bond scission processes in diphenylmethane and 2-benzyl- and 4-benzylpyridine. The head of formation of the diphenylmethyl and \u03b1-phenylethyl radical in the gas phase', journal="J. Phys. Chem.", volume="88", pages="""5031""", year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004452/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004452/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004452/rk00000001.xml"""),
     ],
 )
 
@@ -8021,15 +8021,15 @@ entry(
         Ea = (316781,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["van Scheppingen, W.", "Dorrestijn, E.", "Arends, I.", "Mulder, P.", "Korth, H-G."], title=u'Carbon-oxygen bond strength in diphenyl ether and phenyl vinyl ether: an experimental and computational study', journal="J. Phys. Chem. A", volume="101", pages="""5404-5411""", year="1997", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["van Scheppingen, W.", "Dorrestijn, E.", "Arends, I.", "Mulder, P.", "Korth, H-G."], title=u'Carbon-oxygen bond strength in diphenyl ether and phenyl vinyl ether: an experimental and computational study', journal="J. Phys. Chem. A", volume="101", pages="""5404-5411""", year="1997", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004456/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004456/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:43 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004456/rk00000001.xml"""),
     ],
 )
 
@@ -8070,15 +8070,15 @@ entry(
         Ea = (252760,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Colussi, A.J.", "Zabel, F.", "Benson, S.W."], title=u'The very low-pressure pyrolysis of phenyl ethyl ether, phenyl allyl ether, and benzyl methyl ether and the enthalpy of formation of the phenoxy radical', journal="Int. J. Chem. Kinet.", volume="9", pages="""161""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Colussi, A.J.", "Zabel, F.", "Benson, S.W."], title=u'The very low-pressure pyrolysis of phenyl ethyl ether, phenyl allyl ether, and benzyl methyl ether and the enthalpy of formation of the phenoxy radical', journal="Int. J. Chem. Kinet.", volume="9", pages="""161""", year="1977", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004476/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004476/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:44 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:44 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004476/rk00000001.xml"""),
     ],
 )
 
@@ -8119,15 +8119,15 @@ entry(
         Ea = (259412,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Suryan, M.M.", "Kafafi, S.A.", "Stein, S.E."], title=u'The thermal decomposition of hydroxy- and methoxy-substituted anisoles', journal="J. Am. Chem. Soc.", volume="111", pages="""1423""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Suryan, M.M.", "Kafafi, S.A.", "Stein, S.E."], title=u'The thermal decomposition of hydroxy- and methoxy-substituted anisoles', journal="J. Am. Chem. Soc.", volume="111", pages="""1423""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004476/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004476/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:44 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:44 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004476/rk00000002.xml"""),
     ],
 )
 
@@ -8170,15 +8170,15 @@ entry(
         Ea = (281029,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Esteban, G.L.", "Kerr, J.A.", "Trotman-Dickenson, A.F."], title=u'Pyrolysis of ethyl-, n-propyl-, and n-butyl-benzene and the heats of formation of the benzyl and n-propyl radicals', journal="J. Chem. Soc.", pages="""3873""", year="1963", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Esteban, G.L.", "Kerr, J.A.", "Trotman-Dickenson, A.F."], title=u'Pyrolysis of ethyl-, n-propyl-, and n-butyl-benzene and the heats of formation of the benzyl and n-propyl radicals', journal="J. Chem. Soc.", pages="""3873""", year="1963", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004483/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004483/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:44 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:44 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004483/rk00000001.xml"""),
     ],
 )
 
@@ -8211,15 +8211,15 @@ entry(
         Ea = (397432,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004586/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004586/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:46 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:46 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004586/rk00000001.xml"""),
     ],
 )
 
@@ -8252,15 +8252,15 @@ entry(
         Ea = (409903,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004587/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004587/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:46 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:46 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004587/rk00000001.xml"""),
     ],
 )
 
@@ -8293,15 +8293,15 @@ entry(
         Ea = (345051,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004651/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004651/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:46 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:46 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004651/rk00000001.xml"""),
     ],
 )
 
@@ -8334,15 +8334,15 @@ entry(
         Ea = (460622,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004730/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004730/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:46 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:46 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004730/rk00000001.xml"""),
     ],
 )
 
@@ -8375,15 +8375,15 @@ entry(
         Ea = (397432,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oshita, H.", "Kawano, H."], title=u'Thermal isomerization and decomposition of 2-butyne in shock waves', journal="J. Phys. Chem.", volume="97", pages="""10977-10983""", year="1993", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oshita, H.", "Kawano, H."], title=u'Thermal isomerization and decomposition of 2-butyne in shock waves', journal="J. Phys. Chem.", volume="97", pages="""10977-10983""", year="1993", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004730/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004730/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:46 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:46 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004730/rk00000002.xml"""),
     ],
 )
 
@@ -8416,15 +8416,15 @@ entry(
         Ea = (360017,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oshita, H.", "Kawano, H."], title=u'Thermal isomerization and decomposition of 2-butyne in shock waves', journal="J. Phys. Chem.", volume="97", pages="""10977-10983""", year="1993", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oshita, H.", "Kawano, H."], title=u'Thermal isomerization and decomposition of 2-butyne in shock waves', journal="J. Phys. Chem.", volume="97", pages="""10977-10983""", year="1993", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004807/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004807/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:48 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:48 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004807/rk00000001.xml"""),
     ],
 )
 
@@ -8455,15 +8455,15 @@ entry(
         Ea = (415724,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004825/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004825/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:48 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:48 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004825/rk00000001.xml"""),
     ],
 )
 
@@ -8496,15 +8496,15 @@ entry(
         Ea = (355859,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004826/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004826/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:48 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:48 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004826/rk00000001.xml"""),
     ],
 )
 
@@ -8537,15 +8537,15 @@ entry(
         Ea = (298490,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Decomposition of Cyclopentane and Related Compounds', journal="Int. J. Chem. Kinet.", volume="10", pages="""599""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Decomposition of Cyclopentane and Related Compounds', journal="Int. J. Chem. Kinet.", volume="10", pages="""599""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005303/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005303/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:51 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:51 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005303/rk00000001.xml"""),
     ],
 )
 
@@ -8578,15 +8578,15 @@ entry(
         Ea = (295995,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Brown, T.C.", "King, K.D.", "Nguyen, T.T."], title=u'Kinetics of primary processes in the pyrolysis of cyclopentanes and cyclohexanes', journal="J. Phys. Chem.", volume="90", pages="""419""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Brown, T.C.", "King, K.D.", "Nguyen, T.T."], title=u'Kinetics of primary processes in the pyrolysis of cyclopentanes and cyclohexanes', journal="J. Phys. Chem.", volume="90", pages="""419""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005303/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005303/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:51 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:51 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005303/rk00000002.xml"""),
     ],
 )
 
@@ -8619,15 +8619,15 @@ entry(
         Ea = (292669,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Blades, A.T.", "Murphy, G.W."], title=u'Kinetics of the thermal decomposition of vinyl ethyl ether', journal="J. Am. Chem. Soc.", volume="74", pages="""1039-1041""", year="1952", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Blades, A.T.", "Murphy, G.W."], title=u'Kinetics of the thermal decomposition of vinyl ethyl ether', journal="J. Am. Chem. Soc.", volume="74", pages="""1039-1041""", year="1952", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005356/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005356/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:51 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:51 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005356/rk00000001.xml"""),
     ],
 )
 
@@ -8660,15 +8660,15 @@ entry(
         Ea = (275209,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Rosenfeld, R.N.", "Brauman, J.I.", "Barker, J.R.", "Golden, D.M."], title=u'Infrared photodecomposition of ethyl vinyl ether. A chemical probe of multiphoton dynamics', journal="J. Am. Chem. Soc.", volume="99", pages="""8063-8064""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Rosenfeld, R.N.", "Brauman, J.I.", "Barker, J.R.", "Golden, D.M."], title=u'Infrared photodecomposition of ethyl vinyl ether. A chemical probe of multiphoton dynamics', journal="J. Am. Chem. Soc.", volume="99", pages="""8063-8064""", year="1977", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005356/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005356/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:51 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:51 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005356/rk00000002.xml"""),
     ],
 )
 
@@ -8711,15 +8711,15 @@ entry(
         Ea = (163795,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Raley, J.H.", "Rust, F.F.", "Vaughan, W.E."], title=u'Decompositions of Di-t-alkyl peroxides. I. Kinetics', journal="J. Am. Chem. Soc.", volume="70", pages="""88-94""", year="1948", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Raley, J.H.", "Rust, F.F.", "Vaughan, W.E."], title=u'Decompositions of Di-t-alkyl peroxides. I. Kinetics', journal="J. Am. Chem. Soc.", volume="70", pages="""88-94""", year="1948", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000001.xml"""),
     ],
 )
 
@@ -8762,15 +8762,15 @@ entry(
         Ea = (150492,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Murawski, J.", "Roberts, J.S.", "Szwarc, M."], title=u'Kinetics of the thermal decomposition of di-t-butyl peroxide', journal="J. Chem. Phys.", volume="19", pages="""698""", year="1951", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Murawski, J.", "Roberts, J.S.", "Szwarc, M."], title=u'Kinetics of the thermal decomposition of di-t-butyl peroxide', journal="J. Chem. Phys.", volume="19", pages="""698""", year="1951", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000002.xml"""),
     ],
 )
 
@@ -8813,15 +8813,15 @@ entry(
         Ea = (157144,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Brinton, R.K.", "Volman, D.H."], title=u'Decomposition of di-t-butyl peroxide and kinetics of the gas phase reaction of t-butoxy radicals in the presence of ethylenimine', journal="J. Chem. Phys.", volume="20", pages="""25""", year="1952", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Brinton, R.K.", "Volman, D.H."], title=u'Decomposition of di-t-butyl peroxide and kinetics of the gas phase reaction of t-butoxy radicals in the presence of ethylenimine', journal="J. Chem. Phys.", volume="20", pages="""25""", year="1952", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000003.xml"""),
     ],
 )
 
@@ -8864,15 +8864,15 @@ entry(
         Ea = (157975,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Jaquiss, M.T.", "Robert, J.S.", "Szwarc, M."], title=u'The reactions of methyl radicals with acetone', journal="J. Am. Chem. Soc.", volume="74", pages="""6005""", year="1952", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Jaquiss, M.T.", "Robert, J.S.", "Szwarc, M."], title=u'The reactions of methyl radicals with acetone', journal="J. Am. Chem. Soc.", volume="74", pages="""6005""", year="1952", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000004.xml"""),
     ],
 )
 
@@ -8915,15 +8915,15 @@ entry(
         Ea = (158806,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Lossing, F.P.", "Tickner, A.W."], title=u'Free radicals by mass spectrometry. I. The measurement of methyl radical concentrations', journal="J. Chem. Phys.", volume="20", pages="""907-914""", year="1952", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Lossing, F.P.", "Tickner, A.W."], title=u'Free radicals by mass spectrometry. I. The measurement of methyl radical concentrations', journal="J. Chem. Phys.", volume="20", pages="""907-914""", year="1952", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000005.xml"""),
     ],
 )
 
@@ -8966,15 +8966,15 @@ entry(
         Ea = (162964,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Pritchard, G.O.", "Pritchard, H.O.", "Trotman-Dickenson, A.F."], title=u'The reactions of methyl radicals with acetone, diethyl ketone, and di-tert.-butyl peroxide', journal="J. Chem. Soc.", pages="""1425""", year="1954", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Article(authors=["Pritchard, G.O.", "Pritchard, H.O.", "Trotman-Dickenson, A.F."], title=u'The reactions of methyl radicals with acetone, diethyl ketone, and di-tert.-butyl peroxide', journal="J. Chem. Soc.", pages="""1425""", year="1954", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000006.xml"""),
     ],
 )
 
@@ -9017,15 +9017,15 @@ entry(
         Ea = (159638,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Birss, F.W.", "Danby, C.J.", "Hinshelwood, C."], title=u'The thermal dissociation of tertiary butyl peroxide in presence of nitric oxide', journal="Proc. R. Soc. London A", volume="239", pages="""154-164""", year="1957", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["Birss, F.W.", "Danby, C.J.", "Hinshelwood, C."], title=u'The thermal dissociation of tertiary butyl peroxide in presence of nitric oxide', journal="Proc. R. Soc. London A", volume="239", pages="""154-164""", year="1957", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000007.xml"""),
     ],
 )
 
@@ -9068,15 +9068,15 @@ entry(
         Ea = (162132,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Blake, A.R.", "Kutschke, K.O."], title=u'The reaction of methyl radicals with formaldehyde', journal="Can. J. Chem.", volume="37", pages="""1462""", year="1957", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
+    reference = Article(authors=["Blake, A.R.", "Kutschke, K.O."], title=u'The reaction of methyl radicals with formaldehyde', journal="Can. J. Chem.", volume="37", pages="""1462""", year="1957", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000008.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000008.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000008.xml"""),
     ],
 )
 
@@ -9119,15 +9119,15 @@ entry(
         Ea = (162132,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Blake, A.R.", "Kutschke, K.O."], title=u'The reaction of methyl radicals with formaldehyde', journal="Can. J. Chem.", volume="37", pages="""1462""", year="1959", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Blake, A.R.", "Kutschke, K.O."], title=u'The reaction of methyl radicals with formaldehyde', journal="Can. J. Chem.", volume="37", pages="""1462""", year="1959", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000009.xml"""),
     ],
 )
 
@@ -9170,15 +9170,15 @@ entry(
         Ea = (160469,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Mulcahy, M.F.R.", "Williams, D.J."], title=u'A stirred-flow reactor for investigating the kinetics of gaseous reactions: application to the decomposition of di-t-butyl peroxide', journal="Aust. J. Chem.", volume="14", pages="""534-544""", year="1961", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
+    reference = Article(authors=["Mulcahy, M.F.R.", "Williams, D.J."], title=u'A stirred-flow reactor for investigating the kinetics of gaseous reactions: application to the decomposition of di-t-butyl peroxide', journal="Aust. J. Chem.", volume="14", pages="""534-544""", year="1961", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000010.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000010.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000010.xml"""),
     ],
 )
 
@@ -9221,15 +9221,15 @@ entry(
         Ea = (156312,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Batt, L.", "Benson, S.W."], title=u'Pyrolysis of di-tertiary butyl peroxide: temperature gradients and chain contribution to the rate', journal="J. Chem. Phys.", volume="36", pages="""895""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
+    reference = Article(authors=["Batt, L.", "Benson, S.W."], title=u'Pyrolysis of di-tertiary butyl peroxide: temperature gradients and chain contribution to the rate', journal="J. Chem. Phys.", volume="36", pages="""895""", year="1962", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000011.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000011.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000011.xml"""),
     ],
 )
 
@@ -9272,15 +9272,15 @@ entry(
         Ea = (130537,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baker, G.", "Shaw, R."], title=u'Reactions of methoxyl, ethoxyl, and t-butoxyl with nitric oxide and with nitrogen dioxide', journal="J. Chem. Soc.", pages="""6965""", year="1965", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
+    reference = Article(authors=["Baker, G.", "Shaw, R."], title=u'Reactions of methoxyl, ethoxyl, and t-butoxyl with nitric oxide and with nitrogen dioxide', journal="J. Chem. Soc.", pages="""6965""", year="1965", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000012.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000012.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000012.xml"""),
     ],
 )
 
@@ -9323,15 +9323,15 @@ entry(
         Ea = (157975,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Shaw, D.H.", "Pritchard, H.O."], title=u'Thermal decomposition of di-tert-buyl peroxide at high pressure', journal="Can. J. Chem.", volume="46", pages="""2721""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
+    reference = Article(authors=["Shaw, D.H.", "Pritchard, H.O."], title=u'Thermal decomposition of di-tert-buyl peroxide at high pressure', journal="Can. J. Chem.", volume="46", pages="""2721""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000013.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000013.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000013.xml"""),
     ],
 )
 
@@ -9374,15 +9374,15 @@ entry(
         Ea = (162964,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Retzloff, D.G.", "Coull, B.M.", "Coull, J."], title=u'A microchemical study of gas-phase kinetics for three irreversible reactions', journal="J. Phys. Chem.", volume="74", pages="""2455""", year="1970", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
+    reference = Article(authors=["Retzloff, D.G.", "Coull, B.M.", "Coull, J."], title=u'A microchemical study of gas-phase kinetics for three irreversible reactions', journal="J. Phys. Chem.", volume="74", pages="""2455""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000014.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000014.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000014.xml"""),
     ],
 )
 
@@ -9425,15 +9425,15 @@ entry(
         Ea = (148829,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Cadman, P.", "Trotman-Dickenson, A.F.", "White, A.J."], title=u'Kinetics and Pressure-Dependence of the t-Butoxyl Radical Decomposition', journal="J. Chem. Soc. A", pages="""2296""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
+    reference = Article(authors=["Cadman, P.", "Trotman-Dickenson, A.F.", "White, A.J."], title=u'Kinetics and Pressure-Dependence of the t-Butoxyl Radical Decomposition', journal="J. Chem. Soc. A", pages="""2296""", year="1971", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000015.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000015.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000015.xml"""),
     ],
 )
 
@@ -9476,15 +9476,15 @@ entry(
         Ea = (156312,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Perona, M.J.", "Golden, D.M."], title=u'Very Low-Pressure Pyrolysis. VIII. The Decomposition of Di-t-Amyl Peroxide', journal="Int. J. Chem. Kinet.", volume="5", pages="""55""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
+    reference = Article(authors=["Perona, M.J.", "Golden, D.M."], title=u'Very Low-Pressure Pyrolysis. VIII. The Decomposition of Di-t-Amyl Peroxide', journal="Int. J. Chem. Kinet.", volume="5", pages="""55""", year="1973", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000016.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000016.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000016.xml"""),
     ],
 )
 
@@ -9527,15 +9527,15 @@ entry(
         Ea = (152155,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Lewis, D.K."], title=u'Di-tert-butyl peroxide decomposition behind shock waves', journal="Can. J. Chem.", volume="54", pages="""581-585""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
+    reference = Article(authors=["Lewis, D.K."], title=u'Di-tert-butyl peroxide decomposition behind shock waves', journal="Can. J. Chem.", volume="54", pages="""581-585""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000017.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000017.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000017.xml"""),
     ],
 )
 
@@ -9578,15 +9578,15 @@ entry(
         Ea = (157975,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Loucks, L.F.", "Liu, M.T.H.", "Hooper, D.G."], title=u'Pyrolysis of trifluoroacetaldehyde, initiated by di-tertiary-butyl peroxide decomposition', journal="Can. J. Chem.", volume="57", pages="""2201""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
+    reference = Article(authors=["Loucks, L.F.", "Liu, M.T.H.", "Hooper, D.G."], title=u'Pyrolysis of trifluoroacetaldehyde, initiated by di-tertiary-butyl peroxide decomposition', journal="Can. J. Chem.", volume="57", pages="""2201""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000018.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000018.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000018.xml"""),
     ],
 )
 
@@ -9629,15 +9629,15 @@ entry(
         Ea = (159638,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Al Akeel, N.Y.", "Selby, K.", "Waddington, D.J."], title=u'Reactions of Oxygenated Radicals in the Gas Phase. Part 8. Reactions of Alkoxyl Radicals with Aldehydes and Ketones', journal="J. Chem. Soc. Perkin Trans. 2", pages="""1036""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
+    reference = Article(authors=["Al Akeel, N.Y.", "Selby, K.", "Waddington, D.J."], title=u'Reactions of Oxygenated Radicals in the Gas Phase. Part 8. Reactions of Alkoxyl Radicals with Aldehydes and Ketones', journal="J. Chem. Soc. Perkin Trans. 2", pages="""1036""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000020.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000020.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000020.xml"""),
     ],
 )
 
@@ -9680,15 +9680,15 @@ entry(
         Ea = (154649,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Batt, L.", "Robinson, G.N."], title=u'Decomposition of the t-butoxy radical', journal="Phys. Chem. Behav. Atmos. Pollut. Proc. Eur. Symp.", pages="""172""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000021.xml"),
+    reference = Article(authors=["Batt, L.", "Robinson, G.N."], title=u'Decomposition of the t-butoxy radical', journal="Phys. Chem. Behav. Atmos. Pollut. Proc. Eur. Symp.", pages="""172""", year="1982", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000021.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000021.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000021.xml"""),
     ],
 )
 
@@ -9731,15 +9731,15 @@ entry(
         Ea = (154649,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Batt, L.", "Robinson, G.N."], title=u'Decomposition of the t-Butoxy radical. I. Studies over the temperature range 402-443 K', journal="Int. J. Chem. Kinet.", volume="19", pages="""391""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
+    reference = Article(authors=["Batt, L.", "Robinson, G.N."], title=u'Decomposition of the t-Butoxy radical. I. Studies over the temperature range 402-443 K', journal="Int. J. Chem. Kinet.", volume="19", pages="""391""", year="1987", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000022.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000022.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000022.xml"""),
     ],
 )
 
@@ -9782,15 +9782,15 @@ entry(
         Ea = (156312,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Sway, M.I."], title=u'Kinetics of abstraction reactions of tert-butoxyl radicals with cyclohexane and methyl-substituted cyclohexanes in the gas phase', journal="J. Chem. Soc. Faraday Trans.", volume="87", pages="""2157-2159""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000024.xml"),
+    reference = Article(authors=["Sway, M.I."], title=u'Kinetics of abstraction reactions of tert-butoxyl radicals with cyclohexane and methyl-substituted cyclohexanes in the gas phase', journal="J. Chem. Soc. Faraday Trans.", volume="87", pages="""2157-2159""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000024.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000024.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000024.xml"""),
     ],
 )
 
@@ -9833,15 +9833,15 @@ entry(
         Ea = (156312,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Seres, L.", "Nacsa, A.", "Arthur, N.L."], title=u'Thermal decomposition of di-t-butyl peroxide in the presence of (CH_3)_2C=CH_2: reactions of CH_3, (CH_3)_2CCH_2CH_3, and (CH_3)_2CCH_2C(CH_3)_2CH_2CH_3 radicals', journal="Int. J. Chem. Kinet.", volume="26", pages="""227-246""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000025.xml"),
+    reference = Article(authors=["Seres, L.", "Nacsa, A.", "Arthur, N.L."], title=u'Thermal decomposition of di-t-butyl peroxide in the presence of (CH_3)_2C=CH_2: reactions of CH_3, (CH_3)_2CCH_2CH_3, and (CH_3)_2CCH_2C(CH_3)_2CH_2CH_3 radicals', journal="Int. J. Chem. Kinet.", volume="26", pages="""227-246""", year="1994", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000025.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000025.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000025.xml"""),
     ],
 )
 
@@ -9884,15 +9884,15 @@ entry(
         Ea = (152155,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kortvelyesi, T.", "Seres, L."], title=u'Thermal reaction of (CH_3)_2C=C(CH_3)_2 in the presence of di-tert-butyl peroxide; reactions of the radicals ^.CH_3, (CH_3)_3C^.C(CH_3)_2 and (CH_3)_2 C=C(CH_3)^.CH_2', journal="J. Chim. Phys.", volume="93", pages="""253-273""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000026.xml"),
+    reference = Article(authors=["Kortvelyesi, T.", "Seres, L."], title=u'Thermal reaction of (CH_3)_2C=C(CH_3)_2 in the presence of di-tert-butyl peroxide; reactions of the radicals ^.CH_3, (CH_3)_3C^.C(CH_3)_2 and (CH_3)_2 C=C(CH_3)^.CH_2', journal="J. Chim. Phys.", volume="93", pages="""253-273""", year="1996", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000026.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000026.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005412/rk00000026.xml"""),
     ],
 )
 
@@ -9931,15 +9931,15 @@ entry(
         Ea = (337568,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Single pulse shock tube study on the thermal stability of ketones', journal="Int. J. Chem. Kinet.", volume="16", pages="""1543""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Single pulse shock tube study on the thermal stability of ketones', journal="Int. J. Chem. Kinet.", volume="16", pages="""1543""", year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005417/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005417/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005417/rk00000001.xml"""),
     ],
 )
 
@@ -9976,15 +9976,15 @@ entry(
         Ea = (341725,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005511/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005511/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:53 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:53 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005511/rk00000001.xml"""),
     ],
 )
 
@@ -10023,15 +10023,15 @@ entry(
         Ea = (316781,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Blackmore, D.R.", "Hinshelwood, C."], title=u'Derivation of rate constants for steps in the free-radical chain decomposition of paraffins', journal="Proc. R. Soc. London A", volume="268", pages="""36""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Blackmore, D.R.", "Hinshelwood, C."], title=u'Derivation of rate constants for steps in the free-radical chain decomposition of paraffins', journal="Proc. R. Soc. London A", volume="268", pages="""36""", year="1962", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005574/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005574/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:53 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:53 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005574/rk00000001.xml"""),
     ],
 )
 
@@ -10070,15 +10070,15 @@ entry(
         Ea = (325096,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Doolan, K>R.", "Mackie, J.C."], title=u'Kinetics of pyrolysis of octane in argon-hydrogen mixtures', journal="Combust. Flame", volume="50", pages="""29""", year="1983", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Doolan, K>R.", "Mackie, J.C."], title=u'Kinetics of pyrolysis of octane in argon-hydrogen mixtures', journal="Combust. Flame", volume="50", pages="""29""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005574/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005574/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:53 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:53 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005574/rk00000002.xml"""),
     ],
 )
 
@@ -10109,15 +10109,15 @@ entry(
         Ea = (300984,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Szwarc, M."], title=u'The kinetics of the thermal decomposition of propylene', journal="J. Chem. Phys.", volume="17", pages="""284-291""", year="1949", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Szwarc, M."], title=u'The kinetics of the thermal decomposition of propylene', journal="J. Chem. Phys.", volume="17", pages="""284-291""", year="1949", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000001.xml"""),
     ],
 )
 
@@ -10148,15 +10148,15 @@ entry(
         Ea = (371657,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Naroznik, M.", "Niedzielski, J."], title=u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes', journal="J. Photochem.", volume="32", pages="""281""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Naroznik, M.", "Niedzielski, J."], title=u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes', journal="J. Photochem.", volume="32", pages="""281""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000002.xml"""),
     ],
 )
 
@@ -10187,15 +10187,15 @@ entry(
         Ea = (362511,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000003.xml"""),
     ],
 )
 
@@ -10226,15 +10226,15 @@ entry(
         Ea = (335073,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hidaka, Y.", "Nakamura, T.", "Tanaka, H.", "Jinno, A.", "Kawano, H."], title=u'Shock tube and modeling study of propene pyrolysis', journal="Int. J. Chem. Kinet.", volume="24", pages="""761-780""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Hidaka, Y.", "Nakamura, T.", "Tanaka, H.", "Jinno, A.", "Kawano, H."], title=u'Shock tube and modeling study of propene pyrolysis', journal="Int. J. Chem. Kinet.", volume="24", pages="""761-780""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000004.xml"""),
     ],
 )
 
@@ -10265,15 +10265,15 @@ entry(
         Ea = (296827,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Barbe, P.", "Martin, R.", "Perrin, D.", "Scacchi, G."], title=u'Kinetics and modeling of the thermal reaction of propene at 800 K. Part I. Pure propene', journal="Int. J. Chem. Kinet.", volume="28", pages="""829-847""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Barbe, P.", "Martin, R.", "Perrin, D.", "Scacchi, G."], title=u'Kinetics and modeling of the thermal reaction of propene at 800 K. Part I. Pure propene', journal="Int. J. Chem. Kinet.", volume="28", pages="""829-847""", year="1996", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005623/rk00000005.xml"""),
     ],
 )
 
@@ -10304,15 +10304,15 @@ entry(
         Ea = (424038,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Naroznik, M.", "Niedzielski, J."], title=u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes', journal="J. Photochem.", volume="32", pages="""281""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Naroznik, M.", "Niedzielski, J."], title=u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes', journal="J. Photochem.", volume="32", pages="""281""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005625/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005625/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005625/rk00000001.xml"""),
     ],
 )
 
@@ -10343,15 +10343,15 @@ entry(
         Ea = (409903,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Naroznik, M.", "Niedzielski, J."], title=u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes', journal="J. Photochem.", volume="32", pages="""281""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Naroznik, M.", "Niedzielski, J."], title=u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes', journal="J. Photochem.", volume="32", pages="""281""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005626/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005626/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005626/rk00000001.xml"""),
     ],
 )
 
@@ -10384,15 +10384,15 @@ entry(
         Ea = (-280198,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Szwarc, M."], title=u'The kinetics of the thermal decomposition of isobutene', journal="J. Chem. Phys.", volume="17", pages="""292-295""", year="1949", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Szwarc, M."], title=u'The kinetics of the thermal decomposition of isobutene', journal="J. Chem. Phys.", volume="17", pages="""292-295""", year="1949", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005814/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005814/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005814/rk00000001.xml"""),
     ],
 )
 
@@ -10425,15 +10425,15 @@ entry(
         Ea = (365837,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Douhou, S.", "Perrin, D.", "Martin, R."], title=u"Etude cinetique et modelisaiton de la reaction thermique de l'isobutene vers 800 K. I. Isobutene pur", journal="J. Chim. Phys.", volume="91", pages="""1597-1627""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Douhou, S.", "Perrin, D.", "Martin, R."], title=u"Etude cinetique et modelisaiton de la reaction thermique de l'isobutene vers 800 K. I. Isobutene pur", journal="J. Chim. Phys.", volume="91", pages="""1597-1627""", year="1994", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005814/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005814/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005814/rk00000002.xml"""),
     ],
 )
 
@@ -10466,15 +10466,15 @@ entry(
         Ea = (1443.03,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Santhanam, S.", "Kiefer, J.H.", "Tranter, R.S.", "Srinivasan, N.K."], title=u'A Shock Tube, Laser-Schlieren Study of the Pyrolysis of Isobutene: Relaxation, Incubation, and Dissociation Rates', journal="Int. J", volume="35", pages="""381-390""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Santhanam, S.", "Kiefer, J.H.", "Tranter, R.S.", "Srinivasan, N.K."], title=u'A Shock Tube, Laser-Schlieren Study of the Pyrolysis of Isobutene: Relaxation, Incubation, and Dissociation Rates', journal="Int. J", volume="35", pages="""381-390""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005814/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005814/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005814/rk00000003.xml"""),
     ],
 )
 
@@ -10525,15 +10525,15 @@ entry(
         Ea = (365837,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Clark, D.", "Pritchard, H.O."], title=u'Arrhenius parameters of some reactions involving multiplicity changes', journal="J. Chem. Soc. London", pages="""2136-2140""", year="1956", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Clark, D.", "Pritchard, H.O."], title=u'Arrhenius parameters of some reactions involving multiplicity changes', journal="J. Chem. Soc. London", pages="""2136-2140""", year="1956", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005988/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005988/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:56 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005988/rk00000001.xml"""),
     ],
 )
 
@@ -10570,15 +10570,15 @@ entry(
         Ea = (311793,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Choudhury, T.K.", "Lin, M.C."], title=u'Homogeneous pyrolysis of acetylacetone at high temperatures in shock waves', journal="Int. J. Chem. Kinet.", volume="20", pages="""491""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Choudhury, T.K.", "Lin, M.C."], title=u'Homogeneous pyrolysis of acetylacetone at high temperatures in shock waves', journal="Int. J. Chem. Kinet.", volume="20", pages="""491""", year="1990", url="http://warehouse.primekinetics.org/depository/reactions/data/r00006092/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006092/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:57 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:57 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006092/rk00000001.xml"""),
     ],
 )
 
@@ -10619,15 +10619,15 @@ entry(
         Ea = (214513,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Enguehard, F.", "Kressmann, S.", "Domine, F."], title=u'Kinetics of dibutylether pyrolysis at high pressure: Experimental study', journal="Adv. Org. Geochem.", volume="16", pages="""155""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Enguehard, F.", "Kressmann, S.", "Domine, F."], title=u'Kinetics of dibutylether pyrolysis at high pressure: Experimental study', journal="Adv. Org. Geochem.", volume="16", pages="""155""", year="1990", url="http://warehouse.primekinetics.org/depository/reactions/data/r00006343/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006343/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:58 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:58 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006343/rk00000001.xml"""),
     ],
 )
 
@@ -10662,15 +10662,15 @@ entry(
         Ea = (281029,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hole, K.J.", "Mulcahy, M.F.R."], title=u'The pyrolysis of biacetyl and the third-body effect on the combination of methyl radicals', journal="J. Phys. Chem.", volume="73", pages="""177""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Hole, K.J.", "Mulcahy, M.F.R."], title=u'The pyrolysis of biacetyl and the third-body effect on the combination of methyl radicals', journal="J. Phys. Chem.", volume="73", pages="""177""", year="1969", url="http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000001.xml"""),
     ],
 )
 
@@ -10705,15 +10705,15 @@ entry(
         Ea = (283523,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Knoll, H.", "Scherzer, K.", "Geiseler, G."], title=u'The Thermal Decomposition of Biacetyl', journal="Int. J. Chem. Kinet.", volume="5", pages="""271""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Knoll, H.", "Scherzer, K.", "Geiseler, G."], title=u'The Thermal Decomposition of Biacetyl', journal="Int. J. Chem. Kinet.", volume="5", pages="""271""", year="1973", url="http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000003.xml"""),
     ],
 )
 
@@ -10748,15 +10748,15 @@ entry(
         Ea = (279366,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Scherzer, K.", "Plarre, D."], title=u'Der Thermische Zerfall von Diacetyl. II. Mitteilung: Untersuchungen bei hohen Temperaturen', journal="Z. Phys. Chem. (Leipzig)", volume="256", pages="""660""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Scherzer, K.", "Plarre, D."], title=u'Der Thermische Zerfall von Diacetyl. II. Mitteilung: Untersuchungen bei hohen Temperaturen', journal="Z. Phys. Chem. (Leipzig)", volume="256", pages="""660""", year="1975", url="http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000004.xml"""),
     ],
 )
 
@@ -10791,15 +10791,15 @@ entry(
         Ea = (-3741.51,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Maricq, M.M.", "Szente, J.J."], title=u'The UV spectrum of acetyl and the kinetics of the chain reaction between acetaldehyde and chlorine', journal="Chem. Phys. Lett.", volume="253", pages="""333-339""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
+    reference = Article(authors=["Maricq, M.M.", "Szente, J.J."], title=u'The UV spectrum of acetyl and the kinetics of the chain reaction between acetaldehyde and chlorine', journal="Chem. Phys. Lett.", volume="253", pages="""333-339""", year="1996", url="http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000013.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000013.xml
 """,
     history = [
-        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000013.xml"""),
     ],
 )
 
@@ -10832,15 +10832,15 @@ entry(
         Ea = (488060,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Frank, P.", "Just, Th."], title=u'High Temperature Thermal Decomposition of Acetylene and Diacetylene at Low Relative Concentrations', journal="Combust. Flame", volume="38", pages="""231""", year="1980", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Frank, P.", "Just, Th."], title=u'High Temperature Thermal Decomposition of Acetylene and Diacetylene at Low Relative Concentrations', journal="Combust. Flame", volume="38", pages="""231""", year="1980", url="http://warehouse.primekinetics.org/depository/reactions/data/r00006906/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006906/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006906/rk00000002.xml"""),
     ],
 )
 
@@ -10877,15 +10877,15 @@ entry(
         Ea = (317613,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Herzler, J.", "Manion, J.A.", "Tsang, W."], title=u'Single-pulse shock tube studies of the decomposition of ethoxy compounds', journal="J. Phys. Chem. A", volume="101", pages="""5494-5499""", year="1997", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Herzler, J.", "Manion, J.A.", "Tsang, W."], title=u'Single-pulse shock tube studies of the decomposition of ethoxy compounds', journal="J. Phys. Chem. A", volume="101", pages="""5494-5499""", year="1997", url="http://warehouse.primekinetics.org/depository/reactions/data/r00006950/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006950/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006950/rk00000001.xml"""),
     ],
 )
 
@@ -10922,15 +10922,15 @@ entry(
         Ea = (305141,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of hexamethylethane, 2,2,3-trimethylbutane, and neopentane in a single-pulse shock tube', journal="J. Chem. Phys.", volume="44", pages="""4283-4295""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of hexamethylethane, 2,2,3-trimethylbutane, and neopentane in a single-pulse shock tube', journal="J. Chem. Phys.", volume="44", pages="""4283-4295""", year="1966", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007080/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007080/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:02 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:02 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007080/rk00000001.xml"""),
     ],
 )
 
@@ -10967,15 +10967,15 @@ entry(
         Ea = (305973,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Comparative rate single-pulse shock tube studies on the thermal decomposition of cyclohexene, 2,2,3-trimethylbutane, isopropyl bromide, and ethylcyclobutane', journal="Int. J. Chem. Kinet.", volume="2", pages="""311""", year="1970", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Comparative rate single-pulse shock tube studies on the thermal decomposition of cyclohexene, 2,2,3-trimethylbutane, isopropyl bromide, and ethylcyclobutane', journal="Int. J. Chem. Kinet.", volume="2", pages="""311""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007080/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007080/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:02 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:02 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007080/rk00000002.xml"""),
     ],
 )
 
@@ -11012,15 +11012,15 @@ entry(
         Ea = (305141,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baldwin, R.R.", "Walker, R.W.", "Walker, R.W."], title=u'Decomposition of 2,2,3-Trimethylbutane in the Presence of Oxygen', journal="J. Chem. Soc. Faraday Trans. 1", volume="76", pages="""825""", year="1980", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Baldwin, R.R.", "Walker, R.W.", "Walker, R.W."], title=u'Decomposition of 2,2,3-Trimethylbutane in the Presence of Oxygen', journal="J. Chem. Soc. Faraday Trans. 1", volume="76", pages="""825""", year="1980", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007080/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007080/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:02 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:02 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007080/rk00000003.xml"""),
     ],
 )
 
@@ -11057,15 +11057,15 @@ entry(
         Ea = (311793,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007090/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007090/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:02 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:02 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007090/rk00000001.xml"""),
     ],
 )
 
@@ -11096,15 +11096,15 @@ entry(
         Ea = (502194,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oshita, H.", "Kawano, H."], title=u'Thermal isomerization and decomposition of 2-butyne in shock waves', journal="J. Phys. Chem.", volume="97", pages="""10977-10983""", year="1993", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oshita, H.", "Kawano, H."], title=u'Thermal isomerization and decomposition of 2-butyne in shock waves', journal="J. Phys. Chem.", volume="97", pages="""10977-10983""", year="1993", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007144/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007144/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:03 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:03 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007144/rk00000001.xml"""),
     ],
 )
 
@@ -11137,15 +11137,15 @@ entry(
         Ea = (365005,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007145/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007145/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:03 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:03 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007145/rk00000001.xml"""),
     ],
 )
 
@@ -11180,15 +11180,15 @@ entry(
         Ea = (286849,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation of 1-butene, 3-methyl-1-butene, and of 3,3-dimethyl-1-butene and the resonance energy of the allyl, methyl allyl and dimethyl allyl radicals', journal="Trans. Faraday Soc.", volume="66", pages="""2805-2811""", year="1970", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation of 1-butene, 3-methyl-1-butene, and of 3,3-dimethyl-1-butene and the resonance energy of the allyl, methyl allyl and dimethyl allyl radicals', journal="Trans. Faraday Soc.", volume="66", pages="""2805-2811""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007547/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007547/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:08 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:08 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007547/rk00000001.xml"""),
     ],
 )
 
@@ -11223,15 +11223,15 @@ entry(
         Ea = (295164,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007547/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007547/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:08 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:08 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007547/rk00000002.xml"""),
     ],
 )
 
@@ -11270,15 +11270,15 @@ entry(
         Ea = (298490,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of 3,4-dimethylpentene-1,2,3,3-trimethylpentane, 3,3-dimethylpentane, and isobutylbenzene in a single pulse shock tube', journal="Int. J. Chem. Kinet.", volume="1", pages="""245""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of 3,4-dimethylpentene-1,2,3,3-trimethylpentane, 3,3-dimethylpentane, and isobutylbenzene in a single pulse shock tube', journal="Int. J. Chem. Kinet.", volume="1", pages="""245""", year="1969", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007562/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007562/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:08 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:08 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007562/rk00000001.xml"""),
     ],
 )
 
@@ -11315,15 +11315,15 @@ entry(
         Ea = (322602,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of 3,4-dimethylpentene-1,2,3,3-trimethylpentane, 3,3-dimethylpentane, and isobutylbenzene in a single pulse shock tube', journal="Int. J. Chem. Kinet.", volume="1", pages="""245""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of 3,4-dimethylpentene-1,2,3,3-trimethylpentane, 3,3-dimethylpentane, and isobutylbenzene in a single pulse shock tube', journal="Int. J. Chem. Kinet.", volume="1", pages="""245""", year="1969", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007564/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007564/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:08 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:08 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007564/rk00000001.xml"""),
     ],
 )
 
@@ -11356,15 +11356,15 @@ entry(
         Ea = (287681,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation of 1-butene, 3-methyl-1-butene, and of 3,3-dimethyl-1-butene and the resonance energy of the allyl, methyl allyl and dimethyl allyl radicals', journal="Trans. Faraday Soc.", volume="66", pages="""2805-2811""", year="1970", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation of 1-butene, 3-methyl-1-butene, and of 3,3-dimethyl-1-butene and the resonance energy of the allyl, methyl allyl and dimethyl allyl radicals', journal="Trans. Faraday Soc.", volume="66", pages="""2805-2811""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007566/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007566/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:08 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:08 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007566/rk00000001.xml"""),
     ],
 )
 
@@ -11399,15 +11399,15 @@ entry(
         Ea = (296827,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007602/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007602/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:08 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:08 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007602/rk00000001.xml"""),
     ],
 )
 
@@ -11446,15 +11446,15 @@ entry(
         Ea = (302647,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Decomposition of 3,4-Dimethylhexane, 2,2,3-Trimethylpentane, tert-Butylcyclohexane, and Related Hydrocarbons', journal="J. Phys. Chem.", volume="76", pages="""143""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Decomposition of 3,4-Dimethylhexane, 2,2,3-Trimethylpentane, tert-Butylcyclohexane, and Related Hydrocarbons', journal="J. Phys. Chem.", volume="76", pages="""143""", year="1972", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007656/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007656/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007656/rk00000001.xml"""),
     ],
 )
 
@@ -11491,15 +11491,15 @@ entry(
         Ea = (318444,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Single pulse shock tube study on the thermal stability of ketones', journal="Int. J. Chem. Kinet.", volume="16", pages="""1543""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Single pulse shock tube study on the thermal stability of ketones', journal="Int. J. Chem. Kinet.", volume="16", pages="""1543""", year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007657/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007657/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007657/rk00000001.xml"""),
     ],
 )
 
@@ -11538,15 +11538,15 @@ entry(
         Ea = (315118,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Decomposition of 3,4-Dimethylhexane, 2,2,3-Trimethylpentane, tert-Butylcyclohexane, and Related Hydrocarbons', journal="J. Phys. Chem.", volume="76", pages="""143""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Decomposition of 3,4-Dimethylhexane, 2,2,3-Trimethylpentane, tert-Butylcyclohexane, and Related Hydrocarbons', journal="J. Phys. Chem.", volume="76", pages="""143""", year="1972", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007681/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007681/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007681/rk00000001.xml"""),
     ],
 )
 
@@ -11579,15 +11579,15 @@ entry(
         Ea = (359185,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007774/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007774/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:10 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:10 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007774/rk00000001.xml"""),
     ],
 )
 
@@ -11622,15 +11622,15 @@ entry(
         Ea = (277703,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation of 1,3-Hexadiene and the Resonance Energy of the Pentadienyl Radical', journal="J. Chem. Soc. Faraday Trans. 1", volume="76", pages="""266""", year="1980", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation of 1,3-Hexadiene and the Resonance Energy of the Pentadienyl Radical', journal="J. Chem. Soc. Faraday Trans. 1", volume="76", pages="""266""", year="1980", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007893/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007893/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:10 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:10 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007893/rk00000001.xml"""),
     ],
 )
 
@@ -11667,15 +11667,15 @@ entry(
         Ea = (303478,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007897/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007897/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:11 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:11 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007897/rk00000001.xml"""),
     ],
 )
 
@@ -11712,15 +11712,15 @@ entry(
         Ea = (310961,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008054/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008054/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:11 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:11 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008054/rk00000001.xml"""),
     ],
 )
 
@@ -11753,15 +11753,15 @@ entry(
         Ea = (299321,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Nguyen, T.T.", "King, K.D."], title=u'Kinetics of Decomposition and Interconversion of 3-Methylbut-1-yne and 3-Methylbuta-1,2-diene. Resonance Stabilization Energies of Propargylic Radicals', journal="J. Phys. Chem.", volume="85", pages="""3130""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Nguyen, T.T.", "King, K.D."], title=u'Kinetics of Decomposition and Interconversion of 3-Methylbut-1-yne and 3-Methylbuta-1,2-diene. Resonance Stabilization Energies of Propargylic Radicals', journal="J. Phys. Chem.", volume="85", pages="""3130""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008082/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008082/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008082/rk00000001.xml"""),
     ],
 )
 
@@ -11794,15 +11794,15 @@ entry(
         Ea = (315118,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Nguyen, T.T.", "King, K.D."], title=u'Kinetics of Decomposition and Interconversion of 3-Methylbut-1-yne and 3-Methylbuta-1,2-diene. Resonance Stabilization Energies of Propargylic Radicals', journal="J. Phys. Chem.", volume="85", pages="""3130""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Nguyen, T.T.", "King, K.D."], title=u'Kinetics of Decomposition and Interconversion of 3-Methylbut-1-yne and 3-Methylbuta-1,2-diene. Resonance Stabilization Energies of Propargylic Radicals', journal="J. Phys. Chem.", volume="85", pages="""3130""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008084/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008084/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008084/rk00000001.xml"""),
     ],
 )
 
@@ -11835,15 +11835,15 @@ entry(
         Ea = (289344,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation of 3-Hydroxybut-1-ene and the Resonance Energy of the Hydroxyallyl Radical', journal="J. Chem. Soc. Faraday Trans. 1", volume="69", pages="""1737""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation of 3-Hydroxybut-1-ene and the Resonance Energy of the Hydroxyallyl Radical', journal="J. Chem. Soc. Faraday Trans. 1", volume="69", pages="""1737""", year="1973", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008095/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008095/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008095/rk00000001.xml"""),
     ],
 )
 
@@ -11880,15 +11880,15 @@ entry(
         Ea = (283523,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Scherzer, K.", "Knoll, H.", "Geiseler, G."], title=u'Thermische und durch Methylradikale initiierte Spaltung von Pentandion-(2,3) bei geringen Umsaetzen', journal="J. Prakt. Chem.", volume="316", pages="""415""", year="1974", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Scherzer, K.", "Knoll, H.", "Geiseler, G."], title=u'Thermische und durch Methylradikale initiierte Spaltung von Pentandion-(2,3) bei geringen Umsaetzen', journal="J. Prakt. Chem.", volume="316", pages="""415""", year="1974", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008118/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008118/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008118/rk00000001.xml"""),
     ],
 )
 
@@ -11939,15 +11939,15 @@ entry(
         Ea = (282692,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Robaugh, D.A.", "Stein, S.E."], title=u'Stabilities of highly conjugated radicals from bond homolysis rates', journal="J. Am. Chem. Soc.", volume="108", pages="""3224-3229""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Robaugh, D.A.", "Stein, S.E."], title=u'Stabilities of highly conjugated radicals from bond homolysis rates', journal="J. Am. Chem. Soc.", volume="108", pages="""3224-3229""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008133/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008133/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008133/rk00000001.xml"""),
     ],
 )
 
@@ -11984,15 +11984,15 @@ entry(
         Ea = (291007,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Decomposition of 1,1,2,2-Tetramethylcyclopropane in a Single-Pulse Shock Tube', journal="Int. J. Chem. Kinet.", volume="5", pages="""651""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Decomposition of 1,1,2,2-Tetramethylcyclopropane in a Single-Pulse Shock Tube', journal="Int. J. Chem. Kinet.", volume="5", pages="""651""", year="1973", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008332/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008332/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008332/rk00000001.xml"""),
     ],
 )
 
@@ -12025,15 +12025,15 @@ entry(
         Ea = (303478,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Nguyen, T.T.", "King, K.D."], title=u'Very Low-Pressure Pyrolysis (VLPP ) of Pentynes. III. Pent-2-yne. Heat of Formation and Resonance Stabilization Energy of the 3-Methylpropargyl Radical', journal="Int. J. Chem. Kinet.", volume="14", pages="""613""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Nguyen, T.T.", "King, K.D."], title=u'Very Low-Pressure Pyrolysis (VLPP ) of Pentynes. III. Pent-2-yne. Heat of Formation and Resonance Stabilization Energy of the 3-Methylpropargyl Radical', journal="Int. J. Chem. Kinet.", volume="14", pages="""613""", year="1982", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008396/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008396/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008396/rk00000001.xml"""),
     ],
 )
 
@@ -12070,15 +12070,15 @@ entry(
         Ea = (345882,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008426/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008426/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008426/rk00000001.xml"""),
     ],
 )
 
@@ -12113,15 +12113,15 @@ entry(
         Ea = (132200,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Harris, E.J.", "Egerton, A.C."], title=u'The decomposition and ignition of peroxides. I. Diethylperoxide', journal="Proc. R. Soc. London A", volume="168", pages="""1-18""", year="1938", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Harris, E.J.", "Egerton, A.C."], title=u'The decomposition and ignition of peroxides. I. Diethylperoxide', journal="Proc. R. Soc. London A", volume="168", pages="""1-18""", year="1938", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008431/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008431/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008431/rk00000001.xml"""),
     ],
 )
 
@@ -12156,15 +12156,15 @@ entry(
         Ea = (133032,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Rebbert, R.E.", "Laidler, K.J."], title=u'Kinetics of the decomposition of diethyl peroxide', journal="J. Chem. Phys.", volume="20", pages="""574-577""", year="1952", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Rebbert, R.E.", "Laidler, K.J."], title=u'Kinetics of the decomposition of diethyl peroxide', journal="J. Chem. Phys.", volume="20", pages="""574-577""", year="1952", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008431/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008431/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008431/rk00000002.xml"""),
     ],
 )
 
@@ -12199,15 +12199,15 @@ entry(
         Ea = (156312,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Leggett, C.", "Thynne, J.C.J."], title=u'Thermal decomposition of dialkyl peroxides and heats of formation of the ethoxyl and isopropoxyl radicals', journal="Trans. Faraday Soc.", volume="63", pages="""2504-2509""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Leggett, C.", "Thynne, J.C.J."], title=u'Thermal decomposition of dialkyl peroxides and heats of formation of the ethoxyl and isopropoxyl radicals', journal="Trans. Faraday Soc.", volume="63", pages="""2504-2509""", year="1967", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008431/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008431/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008431/rk00000004.xml"""),
     ],
 )
 
@@ -12240,15 +12240,15 @@ entry(
         Ea = (414061,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Ghibaudi, E.", "Colussi, A.J."], title=u'Kinetics and thermochemistry of the equilibrium 2 (acetylene) = vinylacetylene. Direct evidence against a chain mechanism', journal="J. Phys. Chem.", volume="92", pages="""5839""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Ghibaudi, E.", "Colussi, A.J."], title=u'Kinetics and thermochemistry of the equilibrium 2 (acetylene) = vinylacetylene. Direct evidence against a chain mechanism', journal="J. Phys. Chem.", volume="92", pages="""5839""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:17 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:17 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000001.xml"""),
     ],
 )
 
@@ -12281,15 +12281,15 @@ entry(
         Ea = (3367.36,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Duran, R.P.", "Amorebieta, V.T.", "Colussi, A.J."], title=u'Is the homogeneous thermal dimerization of acetylene a free-radical chain reaction? Kinetic and thermochemical analysis', journal="J. Phys. Chem.", volume="92", pages="""636""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Duran, R.P.", "Amorebieta, V.T.", "Colussi, A.J."], title=u'Is the homogeneous thermal dimerization of acetylene a free-radical chain reaction? Kinetic and thermochemical analysis', journal="J. Phys. Chem.", volume="92", pages="""636""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:17 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:17 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000002.xml"""),
     ],
 )
 
@@ -12322,15 +12322,15 @@ entry(
         Ea = (335073,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hidaka, Y.", "Tanaka, K.", "Suga, M."], title=u'Thermal decomposition of vinylacetylene in shock waves. Rate constant of initiation reaction', journal="Chem. Phys. Lett.", volume="130", pages="""195""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Hidaka, Y.", "Tanaka, K.", "Suga, M."], title=u'Thermal decomposition of vinylacetylene in shock waves. Rate constant of initiation reaction', journal="Chem. Phys. Lett.", volume="130", pages="""195""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008728/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008728/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:17 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:17 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008728/rk00000001.xml"""),
     ],
 )
 
@@ -12363,15 +12363,15 @@ entry(
         Ea = (364174,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hidaka, Y.", "Masaoka, H.", "Oshita, H.", "Nakamura, T.", "Tanaka, K.", "Kawano, H."], title=u'Thermal decomposition of vinylacetylene in shock waves', journal="Int. J. Chem. Kinet.", volume="24", pages="""871-885""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Hidaka, Y.", "Masaoka, H.", "Oshita, H.", "Nakamura, T.", "Tanaka, K.", "Kawano, H."], title=u'Thermal decomposition of vinylacetylene in shock waves', journal="Int. J. Chem. Kinet.", volume="24", pages="""871-885""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008728/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008728/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:17 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:17 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008728/rk00000002.xml"""),
     ],
 )
 
@@ -12406,15 +12406,15 @@ entry(
         Ea = (301815,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Intermediate Sized Acetylenic Compounds and the Heats of Formation of Propargyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""687""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Intermediate Sized Acetylenic Compounds and the Heats of Formation of Propargyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""687""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008770/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008770/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:17 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:17 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008770/rk00000001.xml"""),
     ],
 )
 
@@ -12449,15 +12449,15 @@ entry(
         Ea = (295995,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["King, K.D."], title=u'Kinetics of Competitive Pathways in the Thermal Unimolecular Decomposition of Hex-1-yne', journal="Int. J. Chem. Kinet.", volume="13", pages="""273""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["King, K.D."], title=u'Kinetics of Competitive Pathways in the Thermal Unimolecular Decomposition of Hex-1-yne', journal="Int. J. Chem. Kinet.", volume="13", pages="""273""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008770/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008770/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:17 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:17 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008770/rk00000002.xml"""),
     ],
 )
 
@@ -12500,15 +12500,15 @@ entry(
         Ea = (292669,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Robaugh, D.A.", "Stein, S.E."], title=u'Stabilities of highly conjugated radicals from bond homolysis rates', journal="J. Am. Chem. Soc.", volume="108", pages="""3224-3229""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Robaugh, D.A.", "Stein, S.E."], title=u'Stabilities of highly conjugated radicals from bond homolysis rates', journal="J. Am. Chem. Soc.", volume="108", pages="""3224-3229""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008918/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008918/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:19 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:19 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008918/rk00000001.xml"""),
     ],
 )
 
@@ -12561,15 +12561,15 @@ entry(
         Ea = (275209,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Robaugh, D.A.", "Stein, S.E."], title=u'Stabilities of highly conjugated radicals from bond homolysis rates', journal="J. Am. Chem. Soc.", volume="108", pages="""3224-3229""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Robaugh, D.A.", "Stein, S.E."], title=u'Stabilities of highly conjugated radicals from bond homolysis rates', journal="J. Am. Chem. Soc.", volume="108", pages="""3224-3229""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008930/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008930/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:19 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:19 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008930/rk00000001.xml"""),
     ],
 )
 
@@ -12604,15 +12604,15 @@ entry(
         Ea = (295995,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["King, K.D."], title=u'Very Low-Pressure Pyrolysis (VLPP) of 3,3-Dimethylbut-1-yne (tert-Butyl Acetylene). The Heat of Formation and Stabilization Energy of the Dimethylpropargyl Radical', journal="Int. J. Chem. Kinet.", volume="9", pages="""907""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["King, K.D."], title=u'Very Low-Pressure Pyrolysis (VLPP) of 3,3-Dimethylbut-1-yne (tert-Butyl Acetylene). The Heat of Formation and Stabilization Energy of the Dimethylpropargyl Radical', journal="Int. J. Chem. Kinet.", volume="9", pages="""907""", year="1977", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009062/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009062/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:21 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:21 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009062/rk00000001.xml"""),
     ],
 )
 
@@ -12649,15 +12649,15 @@ entry(
         Ea = (298490,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["King, K.D.", "Nguyen, T.T."], title=u'Very Low-Pressure Pyrolysis (VLPP) of Pentynes. II. 4-Methylpent-2-yne and 4,4-Dimethyl-pent-2-yne. Heats of Formation and Resonance Stabilization Energies of Methyl-Substituted Propargyl Radicals', journal="Int. J. Chem. Kinet.", volume="13", pages="""255""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["King, K.D.", "Nguyen, T.T."], title=u'Very Low-Pressure Pyrolysis (VLPP) of Pentynes. II. 4-Methylpent-2-yne and 4,4-Dimethyl-pent-2-yne. Heats of Formation and Resonance Stabilization Energies of Methyl-Substituted Propargyl Radicals', journal="Int. J. Chem. Kinet.", volume="13", pages="""255""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009241/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009241/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:23 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:23 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009241/rk00000001.xml"""),
     ],
 )
 
@@ -12692,15 +12692,15 @@ entry(
         Ea = (271883,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation of 3-Methylpenta-1,4-diene and the Resonance Energy of the Pentadienyl Radical', journal="J. Chem. Soc. Faraday Trans. 1", volume="78", pages="""3131""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation of 3-Methylpenta-1,4-diene and the Resonance Energy of the Pentadienyl Radical', journal="J. Chem. Soc. Faraday Trans. 1", volume="78", pages="""3131""", year="1982", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009347/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009347/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:24 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:24 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009347/rk00000001.xml"""),
     ],
 )
 
@@ -12745,15 +12745,15 @@ entry(
         Ea = (274378,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Walker, J.A.", "Tsang, W."], title=u'Single-pulse shock tube studies on the thermal decomposition of n-butyl phenyl ether, n-pentylbenzene, and phenotole and the heat of formation of phenoxy and benzyl radicals', journal="J. Phys. Chem.", volume="94", pages="""3324""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Walker, J.A.", "Tsang, W."], title=u'Single-pulse shock tube studies on the thermal decomposition of n-butyl phenyl ether, n-pentylbenzene, and phenotole and the heat of formation of phenoxy and benzyl radicals', journal="J. Phys. Chem.", volume="94", pages="""3324""", year="1990", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009389/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009389/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009389/rk00000001.xml"""),
     ],
 )
 
@@ -12780,15 +12780,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000018.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000018.xml
 """,
     history = [
-        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000018.xml"""),
     ],
 )
 
@@ -12815,15 +12815,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000019.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000019.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000019.xml
 """,
     history = [
-        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000019.xml"""),
     ],
 )
 
@@ -12850,15 +12850,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000020.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000020.xml
 """,
     history = [
-        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000020.xml"""),
     ],
 )
 
@@ -12885,15 +12885,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000021.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000021.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000021.xml
 """,
     history = [
-        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000021.xml"""),
     ],
 )
 
@@ -12920,15 +12920,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000022.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000022.xml
 """,
     history = [
-        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000022.xml"""),
     ],
 )
 
@@ -12955,15 +12955,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000023.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000023.xml
 """,
     history = [
-        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000023.xml"""),
     ],
 )
 
@@ -12990,15 +12990,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000024.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000024.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000024.xml
 """,
     history = [
-        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000024.xml"""),
     ],
 )
 
@@ -13025,15 +13025,15 @@ entry(
         Ea = (6269.11,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dingle, J.R.", "Le Roy, D.J."], title=u'Kinetics of the reaction of atomic hydrogen with acetylene', journal="J. Chem. Phys.", volume="18", pages="""1632-1637""", year="1950", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000026.xml"),
+    reference = Article(authors=["Dingle, J.R.", "Le Roy, D.J."], title=u'Kinetics of the reaction of atomic hydrogen with acetylene', journal="J. Chem. Phys.", volume="18", pages="""1632-1637""", year="1950", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000026.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000026.xml
 """,
     history = [
-        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000026.xml"""),
     ],
 )
 
@@ -13072,15 +13072,15 @@ entry(
         Ea = (286849,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of hexamethylethane, 2,2,3-trimethylbutane, and neopentane in a single-pulse shock tube', journal="J. Chem. Phys.", volume="44", pages="""4283-4295""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of hexamethylethane, 2,2,3-trimethylbutane, and neopentane in a single-pulse shock tube', journal="J. Chem. Phys.", volume="44", pages="""4283-4295""", year="1966", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000020.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000020.xml
 """,
     history = [
-        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000020.xml"""),
     ],
 )
 
@@ -13119,15 +13119,15 @@ entry(
         Ea = (284355,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Golden, D.M.", "Alfassi, Z.B.", "Beadle, P.C."], title=u"Very Low-Pressure Pyrolysis (VLPP) of Alkanes: n-Butane, 2,3-Dimethylbutane, 2,2',3,3'-Tetramethylbutane, and Isobutane", journal="Int. J. Chem. Kinet.", volume="6", pages="""359""", year="1974", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000021.xml"),
+    reference = Article(authors=["Golden, D.M.", "Alfassi, Z.B.", "Beadle, P.C."], title=u"Very Low-Pressure Pyrolysis (VLPP) of Alkanes: n-Butane, 2,3-Dimethylbutane, 2,2',3,3'-Tetramethylbutane, and Isobutane", journal="Int. J. Chem. Kinet.", volume="6", pages="""359""", year="1974", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000021.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000021.xml
 """,
     history = [
-        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000021.xml"""),
     ],
 )
 
@@ -13166,15 +13166,15 @@ entry(
         Ea = (290175,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Atri, G.M.", "Baldwin, R.R.", "Evans, G.A.", "Walker, R.W."], title=u'Decomposition of 2,2,3,3-Tetramethylbutane in the Presence of Oxygen', journal="J. Chem. Soc. Faraday Trans. 1", volume="74", pages="""366""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
+    reference = Article(authors=["Atri, G.M.", "Baldwin, R.R.", "Evans, G.A.", "Walker, R.W."], title=u'Decomposition of 2,2,3,3-Tetramethylbutane in the Presence of Oxygen', journal="J. Chem. Soc. Faraday Trans. 1", volume="74", pages="""366""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000022.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000022.xml
 """,
     history = [
-        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000022.xml"""),
     ],
 )
 
@@ -13213,15 +13213,15 @@ entry(
         Ea = (180424,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Taylor, J.E.", "Milazzo, T.S."], title=u'Gas-Phase Pyrolysis of 2,2,3,3-Tetramethylbutane using a Wall-less Reactor', journal="Int. J. Chem. Kinet.", volume="10", pages="""1245""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
+    reference = Article(authors=["Taylor, J.E.", "Milazzo, T.S."], title=u'Gas-Phase Pyrolysis of 2,2,3,3-Tetramethylbutane using a Wall-less Reactor', journal="Int. J. Chem. Kinet.", volume="10", pages="""1245""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000023.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000023.xml
 """,
     history = [
-        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000023.xml"""),
     ],
 )
 
@@ -13260,15 +13260,15 @@ entry(
         Ea = (304310,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Evidence for Strongly Temperature-Dependent A Factors in Alkane Decomposition and High Heats of Formation for Alkyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""821""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000024.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Evidence for Strongly Temperature-Dependent A Factors in Alkane Decomposition and High Heats of Formation for Alkyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""821""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000024.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000024.xml
 """,
     history = [
-        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000024.xml"""),
     ],
 )
 
@@ -13307,15 +13307,15 @@ entry(
         Ea = (286018,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Evidence for Strongly Temperature-Dependent A Factors in Alkane Decomposition and High Heats of Formation for Alkyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""821""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000025.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Evidence for Strongly Temperature-Dependent A Factors in Alkane Decomposition and High Heats of Formation for Alkyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""821""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000025.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000025.xml
 """,
     history = [
-        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000025.xml"""),
     ],
 )
 
@@ -13354,15 +13354,15 @@ entry(
         Ea = (299321,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Walker, J.A.", "Tsang, W."], title=u'Thermal Decomposition of Hexamethylethane in a Flow System', journal="Int. J. Chem. Kinet.", volume="11", pages="""867""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000026.xml"),
+    reference = Article(authors=["Walker, J.A.", "Tsang, W."], title=u'Thermal Decomposition of Hexamethylethane in a Flow System', journal="Int. J. Chem. Kinet.", volume="11", pages="""867""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000026.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000026.xml
 """,
     history = [
-        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000026.xml"""),
     ],
 )
 
@@ -13401,15 +13401,15 @@ entry(
         Ea = (294332,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baldwin, R.R.", "Hisham, M.W.M.", "Keen, A.", "Walker, R.W."], title=u'The Decomposition of 2,2,3,3-Tetramethylbutane in KCl- and B_2O_3-coateed Vessels in the Presence of Oxygen', journal="J. Chem. Soc. Faraday Trans. 1", volume="78", pages="""1165""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000027.xml"),
+    reference = Article(authors=["Baldwin, R.R.", "Hisham, M.W.M.", "Keen, A.", "Walker, R.W."], title=u'The Decomposition of 2,2,3,3-Tetramethylbutane in KCl- and B_2O_3-coateed Vessels in the Presence of Oxygen', journal="J. Chem. Soc. Faraday Trans. 1", volume="78", pages="""1165""", year="1982", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000027.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000027.xml
 """,
     history = [
-        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009780/rk00000027.xml"""),
     ],
 )
 
@@ -13446,15 +13446,15 @@ entry(
         Ea = (-548.755,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009783/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009783/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009783/rk00000001.xml"""),
     ],
 )
 
@@ -13489,15 +13489,15 @@ entry(
         Ea = (320107,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Davidson, I.M.T.", "Barton, T.J.", "Hughes, K.J.", "Ijadi-Maghsoodi, S.", "Revis, A.", "Paul, G.C."], title=u'Kinetics of radical-forming homolyses in alkenyl- and tert-butyisilanes. The stability of \u03b1- and \u03b2-silicon-substituted alkyl radicals', journal="Organometallics", volume="6", pages="""644""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Davidson, I.M.T.", "Barton, T.J.", "Hughes, K.J.", "Ijadi-Maghsoodi, S.", "Revis, A.", "Paul, G.C."], title=u'Kinetics of radical-forming homolyses in alkenyl- and tert-butyisilanes. The stability of \u03b1- and \u03b2-silicon-substituted alkyl radicals', journal="Organometallics", volume="6", pages="""644""", year="1987", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009789/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009789/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:27 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009789/rk00000002.xml"""),
     ],
 )
 
@@ -13530,15 +13530,15 @@ entry(
         Ea = (-2494.34,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part 4. Isobutane', journal="J. Phys. Chem. Ref. Data", volume="19", pages="""1-68""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part 4. Isobutane', journal="J. Phys. Chem. Ref. Data", volume="19", pages="""1-68""", year="1990", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000001.xml"""),
     ],
 )
 
@@ -13571,15 +13571,15 @@ entry(
         Ea = (327590,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of hexamethylethane, 2,2,3-trimethylbutane, and neopentane in a single-pulse shock tube', journal="J. Chem. Phys.", volume="44", pages="""4283-4295""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of hexamethylethane, 2,2,3-trimethylbutane, and neopentane in a single-pulse shock tube', journal="J. Chem. Phys.", volume="44", pages="""4283-4295""", year="1966", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000003.xml"""),
     ],
 )
 
@@ -13612,15 +13612,15 @@ entry(
         Ea = (359185,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Halstead, M.P.", "Konar, R.S.", "Leathard, D.A.", "Marshall, R.M.", "Purnell, J.H."], title=u'The self-inhibited pyrolysis of neopentane at small extents of reaction', journal="Proc. R. Soc. London A", volume="310", pages="""525""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Halstead, M.P.", "Konar, R.S.", "Leathard, D.A.", "Marshall, R.M.", "Purnell, J.H."], title=u'The self-inhibited pyrolysis of neopentane at small extents of reaction', journal="Proc. R. Soc. London A", volume="310", pages="""525""", year="1969", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000004.xml"""),
     ],
 )
 
@@ -13653,15 +13653,15 @@ entry(
         Ea = (336736,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Taylor, J.E.", "Hutchings, D.A.", "Frech, K.J."], title=u'Homogeneous gas-phase pyrolyses using a wall-less reactor. I. Neopentane', journal="J. Am. Chem. Soc.", volume="91", pages="""2215-2219""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Taylor, J.E.", "Hutchings, D.A.", "Frech, K.J."], title=u'Homogeneous gas-phase pyrolyses using a wall-less reactor. I. Neopentane', journal="J. Am. Chem. Soc.", volume="91", pages="""2215-2219""", year="1969", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000005.xml"""),
     ],
 )
 
@@ -13694,15 +13694,15 @@ entry(
         Ea = (343388,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baronnet, F.", "Dzierzynski, M.", "Come, G.M.", "Martin, R.", "Niclause, M."], title=u'The Pyrolysis of Neopentane at Small Extents of Reaction', journal="Int. J. Chem. Kinet.", volume="3", pages="""197""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Article(authors=["Baronnet, F.", "Dzierzynski, M.", "Come, G.M.", "Martin, R.", "Niclause, M."], title=u'The Pyrolysis of Neopentane at Small Extents of Reaction', journal="Int. J. Chem. Kinet.", volume="3", pages="""197""", year="1971", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000006.xml"""),
     ],
 )
 
@@ -13735,15 +13735,15 @@ entry(
         Ea = (355859,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Pacey, P.D."], title=u'The Reaction of Methyl Radicals with Neopentane', journal="Can. J. Chem.", volume="51", pages="""2415""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["Pacey, P.D."], title=u'The Reaction of Methyl Radicals with Neopentane', journal="Can. J. Chem.", volume="51", pages="""2415""", year="1973", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000007.xml"""),
     ],
 )
 
@@ -13776,15 +13776,15 @@ entry(
         Ea = (335905,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bradley, J.N.", "West, K.O."], title=u'Single-pulse Shock Tube Studies of Hydrocarbon Pyrolysis. Part 5. Pyrolysis of Neopentane', journal="J. Chem. Soc. Faraday Trans. 1", volume="72", pages="""8""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
+    reference = Article(authors=["Bradley, J.N.", "West, K.O."], title=u'Single-pulse Shock Tube Studies of Hydrocarbon Pyrolysis. Part 5. Pyrolysis of Neopentane', journal="J. Chem. Soc. Faraday Trans. 1", volume="72", pages="""8""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000008.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000008.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000008.xml"""),
     ],
 )
 
@@ -13817,15 +13817,15 @@ entry(
         Ea = (330085,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Marshall, R.M.", "Purnell, H.", "Storey, P.D."], title=u'Chain Initiation of Neopentane Pyrolysis and a Suggested Reconciliation of the Thermochemically Calculated and Measured Rate Constants for the Recombination of t-Butyl Radicals', journal="J. Chem. Soc. Faraday Trans. 1", volume="72", pages="""85""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Marshall, R.M.", "Purnell, H.", "Storey, P.D."], title=u'Chain Initiation of Neopentane Pyrolysis and a Suggested Reconciliation of the Thermochemically Calculated and Measured Rate Constants for the Recombination of t-Butyl Radicals', journal="J. Chem. Soc. Faraday Trans. 1", volume="72", pages="""85""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000009.xml"""),
     ],
 )
 
@@ -13858,15 +13858,15 @@ entry(
         Ea = (351702,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Marquaire, P.M.", "Come, G.M."], title=u'Non Quasi-Stationary State Pyrolysis. Kinetic Parameters of Neopentane Pyrolysis Mechanism', journal="React. Kinet. Catal. Lett.", volume="9", pages="""171""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
+    reference = Article(authors=["Marquaire, P.M.", "Come, G.M."], title=u'Non Quasi-Stationary State Pyrolysis. Kinetic Parameters of Neopentane Pyrolysis Mechanism', journal="React. Kinet. Catal. Lett.", volume="9", pages="""171""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000010.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000010.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000010.xml"""),
     ],
 )
 
@@ -13899,15 +13899,15 @@ entry(
         Ea = (338399,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baldwin, A.C.", "Lewis, K.E.", "Golden, D.M."], title=u'Very-Low-Pressure Pyrolysis (VLPP) of Group IV(A) Tetramethyls: Neopentane and Tetramethyltin', journal="Int. J. Chem. Kinet.", volume="11", pages="""529""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
+    reference = Article(authors=["Baldwin, A.C.", "Lewis, K.E.", "Golden, D.M."], title=u'Very-Low-Pressure Pyrolysis (VLPP) of Group IV(A) Tetramethyls: Neopentane and Tetramethyltin', journal="Int. J. Chem. Kinet.", volume="11", pages="""529""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000012.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000012.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000012.xml"""),
     ],
 )
 
@@ -13940,15 +13940,15 @@ entry(
         Ea = (333410,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Pratt, G.L.", "Rogers, D."], title=u'Wall-less Studies. Part 5. - Neopentane Pyrolysis', journal="J. Chem. Soc. Faraday Trans. 1", volume="77", pages="""2751""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
+    reference = Article(authors=["Pratt, G.L.", "Rogers, D."], title=u'Wall-less Studies. Part 5. - Neopentane Pyrolysis', journal="J. Chem. Soc. Faraday Trans. 1", volume="77", pages="""2751""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000014.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000014.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000014.xml"""),
     ],
 )
 
@@ -13981,15 +13981,15 @@ entry(
         Ea = (351702,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bernfeld, D.", "Skinner, G.B."], title=u'Formation of hydrogen atoms in pyrolysis of 2,2-dimethylpropane behind shock waves', journal="J. Phys. Chem.", volume="87", pages="""3732""", year="1983", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
+    reference = Article(authors=["Bernfeld, D.", "Skinner, G.B."], title=u'Formation of hydrogen atoms in pyrolysis of 2,2-dimethylpropane behind shock waves', journal="J. Phys. Chem.", volume="87", pages="""3732""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000015.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000015.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000015.xml"""),
     ],
 )
 
@@ -14022,15 +14022,15 @@ entry(
         Ea = (259412,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Rao, V.S.", "Skinner, G.B."], title=u'Further experiments on pyrolysis of 2,2-dimethylpropane behind shock waves', journal="Int. J. Chem. Kinet.", volume="20", pages="""165""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
+    reference = Article(authors=["Rao, V.S.", "Skinner, G.B."], title=u'Further experiments on pyrolysis of 2,2-dimethylpropane behind shock waves', journal="Int. J. Chem. Kinet.", volume="20", pages="""165""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000016.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000016.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000016.xml"""),
     ],
 )
 
@@ -14063,15 +14063,15 @@ entry(
         Ea = (343388,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Mitchell, T.J.", "Benson, S.W."], title=u'Modelling of the homogeneously catalyzed and uncatalyzed pyrolysis of neopentane: thermochemistry of the neopentyl radical', journal="Int. J. Chem. Kinet.", volume="25", pages="""931-955""", year="1993", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
+    reference = Article(authors=["Mitchell, T.J.", "Benson, S.W."], title=u'Modelling of the homogeneously catalyzed and uncatalyzed pyrolysis of neopentane: thermochemistry of the neopentyl radical', journal="Int. J. Chem. Kinet.", volume="25", pages="""931-955""", year="1993", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000017.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000017.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009801/rk00000017.xml"""),
     ],
 )
 
@@ -14106,15 +14106,15 @@ entry(
         Ea = (-2394.57,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dilger, H.", "Stolmar, M.", "Tregenna-Piggott, P.L.W.", "Roduner, E."], title=u'Gas phase addition kinetics of the tert-butyl radical to oxygen', journal="Ber. Bunsenges. Phys. Chem.", volume="101", pages="""956-960""", year="1997", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Dilger, H.", "Stolmar, M.", "Tregenna-Piggott, P.L.W.", "Roduner, E."], title=u'Gas phase addition kinetics of the tert-butyl radical to oxygen', journal="Ber. Bunsenges. Phys. Chem.", volume="101", pages="""956-960""", year="1997", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009827/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009827/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009827/rk00000004.xml"""),
     ],
 )
 
@@ -14149,15 +14149,15 @@ entry(
         Ea = (-21118.8,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Golden, D.M.", "Gac, N.A.", "Benson, S.W."], title=u'Equilibrium constant for allyl radical recombination. Direct measurement of "allyl resonance energy"', journal="J. Am. Chem. Soc.", pages="""2136""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Golden, D.M.", "Gac, N.A.", "Benson, S.W."], title=u'Equilibrium constant for allyl radical recombination. Direct measurement of "allyl resonance energy"', journal="J. Am. Chem. Soc.", pages="""2136""", year="1969", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000002.xml"""),
     ],
 )
 
@@ -14192,15 +14192,15 @@ entry(
         Ea = (-1097.51,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tulloch, J.M.", "Macpherson, M.T.", "Morgan, C.A.", "Pilling, M.J."], title=u'Flash Photolysis Studies of Free-Radical Reactions: C_3H_5 + C_3H_5 (293-691 K) and C_3H_5 + NO (295-400 K)', journal="J. Phys. Chem.", volume="86", pages="""3812""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["Tulloch, J.M.", "Macpherson, M.T.", "Morgan, C.A.", "Pilling, M.J."], title=u'Flash Photolysis Studies of Free-Radical Reactions: C_3H_5 + C_3H_5 (293-691 K) and C_3H_5 + NO (295-400 K)', journal="J. Phys. Chem.", volume="86", pages="""3812""", year="1982", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000007.xml"""),
     ],
 )
 
@@ -14235,15 +14235,15 @@ entry(
         Ea = (-1097.51,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000009.xml"""),
     ],
 )
 
@@ -14278,15 +14278,15 @@ entry(
         Ea = (131369,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Ruzicka, D.J.", "Bryce, W.A."], title=u'The pyrolysis of diallyl (1,5-hexadiene)', journal="Can. J. Chem.", volume="38", pages="""827-834""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
+    reference = Article(authors=["Ruzicka, D.J.", "Bryce, W.A."], title=u'The pyrolysis of diallyl (1,5-hexadiene)', journal="Can. J. Chem.", volume="38", pages="""827-834""", year="1960", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000013.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000013.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000013.xml"""),
     ],
 )
 
@@ -14321,15 +14321,15 @@ entry(
         Ea = (184581,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Homer, J.B.", "Lossing, F.P."], title=u'Free radicals by mass spectrometry. XXXV. The heat of formation of allyl radical from biallyl pyrolysis', journal="Can. J. Chem.", volume="44", pages="""2211-2217""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
+    reference = Article(authors=["Homer, J.B.", "Lossing, F.P."], title=u'Free radicals by mass spectrometry. XXXV. The heat of formation of allyl radical from biallyl pyrolysis', journal="Can. J. Chem.", volume="44", pages="""2211-2217""", year="1966", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000014.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000014.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000014.xml"""),
     ],
 )
 
@@ -14364,15 +14364,15 @@ entry(
         Ea = (234468,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Akers, R.J.", "Throssell, J.J."], title=u'Kinetic studies on allyl radicals. Part 1.-Toluene-carrier pyrolysis of 4-phenyl-but-l-ene and hexa-1, 5-diene and the heat of formation of the allyl radical', journal="Trans. Faraday Soc.", volume="63", pages="""124""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
+    reference = Article(authors=["Akers, R.J.", "Throssell, J.J."], title=u'Kinetic studies on allyl radicals. Part 1.-Toluene-carrier pyrolysis of 4-phenyl-but-l-ene and hexa-1, 5-diene and the heat of formation of the allyl radical', journal="Trans. Faraday Soc.", volume="63", pages="""124""", year="1967", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000015.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000015.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000015.xml"""),
     ],
 )
 
@@ -14407,15 +14407,15 @@ entry(
         Ea = (261074,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Golden, D.M.", "Gac, N.A.", "Benson, S.W."], title=u'Equilibrium constant for allyl radical recombination. Direct measurement of "allyl resonance energy"', journal="J. Am. Chem. Soc.", pages="""2136""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
+    reference = Article(authors=["Golden, D.M.", "Gac, N.A.", "Benson, S.W."], title=u'Equilibrium constant for allyl radical recombination. Direct measurement of "allyl resonance energy"', journal="J. Am. Chem. Soc.", pages="""2136""", year="1969", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000016.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000016.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000016.xml"""),
     ],
 )
 
@@ -14450,15 +14450,15 @@ entry(
         Ea = (213682,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Doering, W.v.E.", "Toscano, V.G.", "Beasley, G.H."], title=u'Kinetics of the Cope Rearrangement of 1,1-Dideuteriohexa-1,5-Diene', journal="Tetrahedron", volume="27", pages="""5299""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
+    reference = Article(authors=["Doering, W.v.E.", "Toscano, V.G.", "Beasley, G.H."], title=u'Kinetics of the Cope Rearrangement of 1,1-Dideuteriohexa-1,5-Diene', journal="Tetrahedron", volume="27", pages="""5299""", year="1971", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000017.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000017.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000017.xml"""),
     ],
 )
 
@@ -14493,15 +14493,15 @@ entry(
         Ea = (101437,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Throssell, J.J."], title=u'Rates of reaction of allyl radicals: A reassessment', journal="Int. J. Chem. Kinet.", volume="4", pages="""273""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
+    reference = Article(authors=["Throssell, J.J."], title=u'Rates of reaction of allyl radicals: A reassessment', journal="Int. J. Chem. Kinet.", volume="4", pages="""273""", year="1972", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000018.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000018.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000018.xml"""),
     ],
 )
 
@@ -14536,15 +14536,15 @@ entry(
         Ea = (230311,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Sakai, T.", "Nohara, D.", "Kunugi, T.", "Nohara, D."], title=u'A Kinetic Study on the Formation of Aromatics During Pyrolysis of Petroleum Hydrocarbons', journal="Am. Chem. Soc. Symp. Ser.", volume="22", pages="""152""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000019.xml"),
+    reference = Article(authors=["Sakai, T.", "Nohara, D.", "Kunugi, T.", "Nohara, D."], title=u'A Kinetic Study on the Formation of Aromatics During Pyrolysis of Petroleum Hydrocarbons', journal="Am. Chem. Soc. Symp. Ser.", volume="22", pages="""152""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000019.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000019.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000019.xml"""),
     ],
 )
 
@@ -14579,15 +14579,15 @@ entry(
         Ea = (237794,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000020.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000020.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000020.xml"""),
     ],
 )
 
@@ -14622,15 +14622,15 @@ entry(
         Ea = (241120,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Roth, W.R.", "Bauer, F.", "Beitat, A.", "Ebbrecht, T.", "Wustefeld, M."], title=u'Die bildungsenthalpie des allyl- und methallyl-radikals', journal="Chem. Ber.", volume="124", pages="""1453-1460""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000021.xml"),
+    reference = Article(authors=["Roth, W.R.", "Bauer, F.", "Beitat, A.", "Ebbrecht, T.", "Wustefeld, M."], title=u'Die bildungsenthalpie des allyl- und methallyl-radikals', journal="Chem. Ber.", volume="124", pages="""1453-1460""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000021.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000021.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010093/rk00000021.xml"""),
     ],
 )
 
@@ -14665,15 +14665,15 @@ entry(
         Ea = (-548.755,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010096/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010096/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010096/rk00000001.xml"""),
     ],
 )
 
@@ -14708,15 +14708,15 @@ entry(
         Ea = (184581,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Taniewski, M."], title=u'Kinetics and mechanism of the thermal decomposition of 4-methylpent-1-ene', journal="J. Chem. Soc.", pages="""7436""", year="1965", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Taniewski, M."], title=u'Kinetics and mechanism of the thermal decomposition of 4-methylpent-1-ene', journal="J. Chem. Soc.", pages="""7436""", year="1965", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010096/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010096/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010096/rk00000002.xml"""),
     ],
 )
 
@@ -14751,15 +14751,15 @@ entry(
         Ea = (-548.755,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010107/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010107/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010107/rk00000001.xml"""),
     ],
 )
 
@@ -14794,15 +14794,15 @@ entry(
         Ea = (295995,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Cyclohexane and 1-Hexene', journal="Int. J. Chem. Kinet.", volume="10", pages="""1119""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Cyclohexane and 1-Hexene', journal="Int. J. Chem. Kinet.", volume="10", pages="""1119""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010107/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010107/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010107/rk00000002.xml"""),
     ],
 )
 
@@ -14837,15 +14837,15 @@ entry(
         Ea = (295995,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["King, K.D."], title=u'Very Low-Pressure Pyrolysis (VLPP) of Hex-1-ene. Kinetics of the Retro-ene Decomposition of a Mono-Olefin', journal="Int. J. Chem. Kinet.", volume="11", pages="""1071""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["King, K.D."], title=u'Very Low-Pressure Pyrolysis (VLPP) of Hex-1-ene. Kinetics of the Retro-ene Decomposition of a Mono-Olefin', journal="Int. J. Chem. Kinet.", volume="11", pages="""1071""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010107/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010107/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010107/rk00000003.xml"""),
     ],
 )
 
@@ -14876,15 +14876,15 @@ entry(
         Ea = (-548.755,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000001.xml"""),
     ],
 )
 
@@ -14915,15 +14915,15 @@ entry(
         Ea = (263569,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Sehon, A.H.", "Szwarc, M."], title=u'The CH_2:CH_2-CH_3 bond dissociation energy and the heat of formation of the allyl radical', journal="Proc. R. Soc. London A", volume="202", pages="""263-276""", year="1950", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Sehon, A.H.", "Szwarc, M."], title=u'The CH_2:CH_2-CH_3 bond dissociation energy and the heat of formation of the allyl radical', journal="Proc. R. Soc. London A", volume="202", pages="""263-276""", year="1950", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000002.xml"""),
     ],
 )
 
@@ -14954,15 +14954,15 @@ entry(
         Ea = (246940,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kerr, J.A.", "Spencer, R.", "Trotman-Dickenson, A.F."], title=u'The pyrolysis of but-1-ene, and the resonance energy of the allyl radical', journal="J. Chem. Soc.", pages="""6652-6654""", year="1965", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Kerr, J.A.", "Spencer, R.", "Trotman-Dickenson, A.F."], title=u'The pyrolysis of but-1-ene, and the resonance energy of the allyl radical', journal="J. Chem. Soc.", pages="""6652-6654""", year="1965", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000003.xml"""),
     ],
 )
 
@@ -14993,15 +14993,15 @@ entry(
         Ea = (291007,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Halstead, M.P.", "Quinn, C.P."], title=u'Pyrolysis of ethylene', journal="Trans. Faraday Soc.", volume="64", pages="""103""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Halstead, M.P.", "Quinn, C.P."], title=u'Pyrolysis of ethylene', journal="Trans. Faraday Soc.", volume="64", pages="""103""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000004.xml"""),
     ],
 )
 
@@ -15032,15 +15032,15 @@ entry(
         Ea = (299321,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation of 1-butene, 3-methyl-1-butene, and of 3,3-dimethyl-1-butene and the resonance energy of the allyl, methyl allyl and dimethyl allyl radicals', journal="Trans. Faraday Soc.", volume="66", pages="""2805-2811""", year="1970", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Article(authors=["Trenwith, A.B."], title=u'Dissociation of 1-butene, 3-methyl-1-butene, and of 3,3-dimethyl-1-butene and the resonance energy of the allyl, methyl allyl and dimethyl allyl radicals', journal="Trans. Faraday Soc.", volume="66", pages="""2805-2811""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000006.xml"""),
     ],
 )
 
@@ -15071,15 +15071,15 @@ entry(
         Ea = (305141,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:34:32 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010111/rk00000007.xml"""),
     ],
 )
 
@@ -15116,15 +15116,15 @@ entry(
         Ea = (-548.755,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010126/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010126/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:32 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010126/rk00000001.xml"""),
     ],
 )
 
@@ -15159,15 +15159,15 @@ entry(
         Ea = (1338.63,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Arrowsmith, P.", "Kirsch, L.J."], title=u'Mutual Reaction of Isopropyl Radicals', journal="J. Chem. Soc. Faraday Trans. 1", volume="74", pages="""3016""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Arrowsmith, P.", "Kirsch, L.J."], title=u'Mutual Reaction of Isopropyl Radicals', journal="J. Chem. Soc. Faraday Trans. 1", volume="74", pages="""3016""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000009.xml"""),
     ],
 )
 
@@ -15202,15 +15202,15 @@ entry(
         Ea = (317613,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of 2,3-dimethylbutane in a single-pulse shock tube', journal="J. Chem. Phys.", volume="43", pages="""352-359""", year="1965", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of 2,3-dimethylbutane in a single-pulse shock tube', journal="J. Chem. Phys.", volume="43", pages="""352-359""", year="1965", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000016.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000016.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000016.xml"""),
     ],
 )
 
@@ -15245,15 +15245,15 @@ entry(
         Ea = (311793,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Golden, D.M.", "Alfassi, Z.B.", "Beadle, P.C."], title=u"Very Low-Pressure Pyrolysis (VLPP) of Alkanes: n-Butane, 2,3-Dimethylbutane, 2,2',3,3'-Tetramethylbutane, and Isobutane", journal="Int. J. Chem. Kinet.", volume="6", pages="""359""", year="1974", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
+    reference = Article(authors=["Golden, D.M.", "Alfassi, Z.B.", "Beadle, P.C."], title=u"Very Low-Pressure Pyrolysis (VLPP) of Alkanes: n-Butane, 2,3-Dimethylbutane, 2,2',3,3'-Tetramethylbutane, and Isobutane", journal="Int. J. Chem. Kinet.", volume="6", pages="""359""", year="1974", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000017.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000017.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000017.xml"""),
     ],
 )
 
@@ -15288,15 +15288,15 @@ entry(
         Ea = (316781,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Evidence for Strongly Temperature-Dependent A Factors in Alkane Decomposition and High Heats of Formation for Alkyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""821""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Evidence for Strongly Temperature-Dependent A Factors in Alkane Decomposition and High Heats of Formation for Alkyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""821""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000018.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000018.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000018.xml"""),
     ],
 )
 
@@ -15331,15 +15331,15 @@ entry(
         Ea = (339230,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Evidence for Strongly Temperature-Dependent A Factors in Alkane Decomposition and High Heats of Formation for Alkyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""821""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000019.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Evidence for Strongly Temperature-Dependent A Factors in Alkane Decomposition and High Heats of Formation for Alkyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""821""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000019.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000019.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000019.xml"""),
     ],
 )
 
@@ -15374,15 +15374,15 @@ entry(
         Ea = (354197,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Forst, W."], title=u'Temperature-dependent A factor in thermal unimolecular reactions', journal="J. Phys. Chem.", volume="83", pages="""100-108""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
+    reference = Article(authors=["Forst, W."], title=u'Temperature-dependent A factor in thermal unimolecular reactions', journal="J. Phys. Chem.", volume="83", pages="""100-108""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000020.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000020.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000020.xml"""),
     ],
 )
 
@@ -15417,15 +15417,15 @@ entry(
         Ea = (305141,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baldwin, R.R.", "Drewery, G.R.", "Walker, R.W."], title=u'Decomposition of 2,3-dimethylbutane in the presence of oxygen. Part 1.-Thermochemistry of the reaction (CH_3)_2CHCH(CH_3)_2 \u2192 2i-C_3H_7', journal="J. Chem. Soc. Faraday Trans. 1", volume="80", pages="""2827""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000021.xml"),
+    reference = Article(authors=["Baldwin, R.R.", "Drewery, G.R.", "Walker, R.W."], title=u'Decomposition of 2,3-dimethylbutane in the presence of oxygen. Part 1.-Thermochemistry of the reaction (CH_3)_2CHCH(CH_3)_2 \u2192 2i-C_3H_7', journal="J. Chem. Soc. Faraday Trans. 1", volume="80", pages="""2827""", year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000021.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000021.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000021.xml"""),
     ],
 )
 
@@ -15460,15 +15460,15 @@ entry(
         Ea = (319276,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baldwin, R.R.", "Drewery, G.R.", "Walker, R.W."], title=u'Decomposition of 2,3-dimethylbutane in the presence of oxygen. Part 1.-Thermochemistry of the reaction (CH_3)_2CHCH(CH_3)_2 \u2192 2i-C_3H_7', journal="J. Chem. Soc. Faraday Trans. 1", volume="80", pages="""2827""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
+    reference = Article(authors=["Baldwin, R.R.", "Drewery, G.R.", "Walker, R.W."], title=u'Decomposition of 2,3-dimethylbutane in the presence of oxygen. Part 1.-Thermochemistry of the reaction (CH_3)_2CHCH(CH_3)_2 \u2192 2i-C_3H_7', journal="J. Chem. Soc. Faraday Trans. 1", volume="80", pages="""2827""", year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000022.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000022.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010169/rk00000022.xml"""),
     ],
 )
 
@@ -15499,15 +15499,15 @@ entry(
         Ea = (2502.66,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Konar, R.S.", "Marshall, R.M.", "Purnell, J.H."], title=u'Initiation of isobutane pyrolysis', journal="Trans. Faraday Soc.", volume="64", pages="""405-413""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Konar, R.S.", "Marshall, R.M.", "Purnell, J.H."], title=u'Initiation of isobutane pyrolysis', journal="Trans. Faraday Soc.", volume="64", pages="""405-413""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000001.xml"""),
     ],
 )
 
@@ -15538,15 +15538,15 @@ entry(
         Ea = (335073,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Brooks, C.T."], title=u'Gas-phase high-pressure decomposition of isobutane in the presence of hydrogen', journal="Trans. Faraday Soc.", volume="62", pages="""935-944""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Brooks, C.T."], title=u'Gas-phase high-pressure decomposition of isobutane in the presence of hydrogen', journal="Trans. Faraday Soc.", volume="62", pages="""935-944""", year="1966", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000005.xml"""),
     ],
 )
 
@@ -15577,15 +15577,15 @@ entry(
         Ea = (345051,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Konar, R.S.", "Marshall, R.M.", "Purnell, J.H."], title=u'Initiation of isobutane pyrolysis', journal="Trans. Faraday Soc.", volume="64", pages="""405-413""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["Konar, R.S.", "Marshall, R.M.", "Purnell, J.H."], title=u'Initiation of isobutane pyrolysis', journal="Trans. Faraday Soc.", volume="64", pages="""405-413""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000007.xml"""),
     ],
 )
 
@@ -15616,15 +15616,15 @@ entry(
         Ea = (341725,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Konar, R.S.", "Marshall, R.M.", "Purnell, J.H."], title=u'The Self-Inhibited Pyrolysis of Isobutane', journal="Int. J. Chem. Kinet.", volume="5", pages="""1007""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
+    reference = Article(authors=["Konar, R.S.", "Marshall, R.M.", "Purnell, J.H."], title=u'The Self-Inhibited Pyrolysis of Isobutane', journal="Int. J. Chem. Kinet.", volume="5", pages="""1007""", year="1973", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000008.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000008.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000008.xml"""),
     ],
 )
 
@@ -15655,15 +15655,15 @@ entry(
         Ea = (202042,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bradley, J.N."], title=u'A general mechanism for the high-temperature pyrolysis of alkanes. The pyrolysis of isobutane', journal="Proc. R. Soc. London A", volume="337", pages="""199""", year="1974", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Bradley, J.N."], title=u'A general mechanism for the high-temperature pyrolysis of alkanes. The pyrolysis of isobutane', journal="Proc. R. Soc. London A", volume="337", pages="""199""", year="1974", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000009.xml"""),
     ],
 )
 
@@ -15694,15 +15694,15 @@ entry(
         Ea = (346713,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Golden, D.M.", "Alfassi, Z.B.", "Beadle, P.C."], title=u"Very Low-Pressure Pyrolysis (VLPP) of Alkanes: n-Butane, 2,3-Dimethylbutane, 2,2',3,3'-Tetramethylbutane, and Isobutane", journal="Int. J. Chem. Kinet.", volume="6", pages="""359""", year="1974", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
+    reference = Article(authors=["Golden, D.M.", "Alfassi, Z.B.", "Beadle, P.C."], title=u"Very Low-Pressure Pyrolysis (VLPP) of Alkanes: n-Butane, 2,3-Dimethylbutane, 2,2',3,3'-Tetramethylbutane, and Isobutane", journal="Int. J. Chem. Kinet.", volume="6", pages="""359""", year="1974", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000010.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000010.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000010.xml"""),
     ],
 )
 
@@ -15733,15 +15733,15 @@ entry(
         Ea = (357522,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Pratt, G.L.", "Rogers, D."], title=u'Wall-less Reactor Studies. Part 4. - Isobutane Pyrolysis', journal="J. Chem. Soc. Faraday Trans. 1", volume="76", pages="""1694""", year="1980", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
+    reference = Article(authors=["Pratt, G.L.", "Rogers, D."], title=u'Wall-less Reactor Studies. Part 4. - Isobutane Pyrolysis', journal="J. Chem. Soc. Faraday Trans. 1", volume="76", pages="""1694""", year="1980", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000011.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000011.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000011.xml"""),
     ],
 )
 
@@ -15772,15 +15772,15 @@ entry(
         Ea = (202042,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Shevel'kova, L.V.", "Ivanvuk, A.V.", "Nametkin, N.S."], title=u'Comparative Study of the Pyrolysis of n-Butane and Isobutane', journal="Neftekhimiya", volume="20", pages="""837""", year="1980", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
+    reference = Article(authors=["Shevel'kova, L.V.", "Ivanvuk, A.V.", "Nametkin, N.S."], title=u'Comparative Study of the Pyrolysis of n-Butane and Isobutane', journal="Neftekhimiya", volume="20", pages="""837""", year="1980", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000012.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000012.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000012.xml"""),
     ],
 )
 
@@ -15811,15 +15811,15 @@ entry(
         Ea = (254423,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Koike, T.", "Morinaga, K."], title=u'UV Absorption Studies of the Pyrolysis of Isobutane in Shock Waves', journal="Bull. Chem. Soc. Jpn.", volume="55", pages="""690""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
+    reference = Article(authors=["Koike, T.", "Morinaga, K."], title=u'UV Absorption Studies of the Pyrolysis of Isobutane in Shock Waves', journal="Bull. Chem. Soc. Jpn.", volume="55", pages="""690""", year="1982", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000013.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000013.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000013.xml"""),
     ],
 )
 
@@ -15850,15 +15850,15 @@ entry(
         Ea = (346713,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
+    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000014.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000014.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000014.xml"""),
     ],
 )
 
@@ -15889,15 +15889,15 @@ entry(
         Ea = (339230,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hidaka, Y.", "Fujiwara, M.", "Oki, T.", "Kawano, H."], title=u'Thermal decomposition of isobutane in shock waves. Rate constant of initiation reaction', journal="Chem. Phys. Lett.", volume="144", pages="""570""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
+    reference = Article(authors=["Hidaka, Y.", "Fujiwara, M.", "Oki, T.", "Kawano, H."], title=u'Thermal decomposition of isobutane in shock waves. Rate constant of initiation reaction', journal="Chem. Phys. Lett.", volume="144", pages="""570""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000015.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000015.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000015.xml"""),
     ],
 )
 
@@ -15928,15 +15928,15 @@ entry(
         Ea = (378308,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Rate constants for the decomposition and formation of simple alkanes over extended temperature and pressure ranges', journal="Combust. Flame", volume="78", pages="""71-86""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Rate constants for the decomposition and formation of simple alkanes over extended temperature and pressure ranges', journal="Combust. Flame", volume="78", pages="""71-86""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000016.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000016.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000016.xml"""),
     ],
 )
 
@@ -15967,15 +15967,15 @@ entry(
         Ea = (378308,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part 4. Isobutane', journal="J. Phys. Chem. Ref. Data", volume="19", pages="""1-68""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part 4. Isobutane', journal="J. Phys. Chem. Ref. Data", volume="19", pages="""1-68""", year="1990", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000017.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000017.xml
 """,
     history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000017.xml"""),
     ],
 )
 
@@ -16008,15 +16008,15 @@ entry(
         Ea = (27354.6,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."], title=u'Measurements, Theory, and Modeling of OH Formation in Ethyl + O_2 and Propyl + O_2 Reactions', journal="J. Phys. Chem. A", volume="107", pages="""4415-4427""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."], title=u'Measurements, Theory, and Modeling of OH Formation in Ethyl + O_2 and Propyl + O_2 Reactions', journal="J. Phys. Chem. A", volume="107", pages="""4415-4427""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010210/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010210/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010210/rk00000007.xml"""),
     ],
 )
 
@@ -16047,15 +16047,15 @@ entry(
         Ea = (11390.8,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Shepp, A.", "Kutschke, K.O."], title=u'Rate of recombination of radicals. III. Rate of recombination of ethyl radicals', journal="J. Chem. Phys.", volume="26", pages="""1020-1028""", year="1957", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Shepp, A.", "Kutschke, K.O."], title=u'Rate of recombination of radicals. III. Rate of recombination of ethyl radicals', journal="J. Chem. Phys.", volume="26", pages="""1020-1028""", year="1957", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000002.xml"""),
     ],
 )
 
@@ -16086,15 +16086,15 @@ entry(
         Ea = (798.189,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Teng, L.", "Jones, W.E."], title=u'Kinetics of the Reactions of Hydrogen Atoms with Ethylene and Vinyl Fluoride', journal="J. Chem. Soc. Faraday Trans. 1", volume="68", pages="""1267""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Teng, L.", "Jones, W.E."], title=u'Kinetics of the Reactions of Hydrogen Atoms with Ethylene and Vinyl Fluoride', journal="J. Chem. Soc. Faraday Trans. 1", volume="68", pages="""1267""", year="1972", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000009.xml"""),
     ],
 )
 
@@ -16125,15 +16125,15 @@ entry(
         Ea = (360848,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Purnell, J.H.", "Quinn, C.P."], title=u'The pyrolysis of n-butane', journal="Proc. R. Soc. London A", volume="270", pages="""267""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000029.xml"),
+    reference = Article(authors=["Purnell, J.H.", "Quinn, C.P."], title=u'The pyrolysis of n-butane', journal="Proc. R. Soc. London A", volume="270", pages="""267""", year="1962", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000029.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000029.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000029.xml"""),
     ],
 )
 
@@ -16164,15 +16164,15 @@ entry(
         Ea = (335073,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Lin, M.C.", "Back, M.H."], title=u'The thermal decomposition of ethane. Part III. Secondary reactions', journal="Can. J. Chem.", volume="44", pages="""2369""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000030.xml"),
+    reference = Article(authors=["Lin, M.C.", "Back, M.H."], title=u'The thermal decomposition of ethane. Part III. Secondary reactions', journal="Can. J. Chem.", volume="44", pages="""2369""", year="1966", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000030.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000030.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000030.xml"""),
     ],
 )
 
@@ -16203,15 +16203,15 @@ entry(
         Ea = (338399,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Golden, D.M.", "Alfassi, Z.B.", "Beadle, P.C."], title=u"Very Low-Pressure Pyrolysis (VLPP) of Alkanes: n-Butane, 2,3-Dimethylbutane, 2,2',3,3'-Tetramethylbutane, and Isobutane", journal="Int. J. Chem. Kinet.", volume="6", pages="""359""", year="1974", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000031.xml"),
+    reference = Article(authors=["Golden, D.M.", "Alfassi, Z.B.", "Beadle, P.C."], title=u"Very Low-Pressure Pyrolysis (VLPP) of Alkanes: n-Butane, 2,3-Dimethylbutane, 2,2',3,3'-Tetramethylbutane, and Isobutane", journal="Int. J. Chem. Kinet.", volume="6", pages="""359""", year="1974", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000031.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000031.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000031.xml"""),
     ],
 )
 
@@ -16242,15 +16242,15 @@ entry(
         Ea = (322602,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hughes, D.G.", "Marshall, R.M.", "Purnell, J.H."], title=u'Rate Constants for the Initiation of n-Butane Pyrolysis and for the Recombination of Ethyl Radicals', journal="J. Chem. Soc. Faraday Trans. 1", volume="70", pages="""594""", year="1974", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000032.xml"),
+    reference = Article(authors=["Hughes, D.G.", "Marshall, R.M.", "Purnell, J.H."], title=u'Rate Constants for the Initiation of n-Butane Pyrolysis and for the Recombination of Ethyl Radicals', journal="J. Chem. Soc. Faraday Trans. 1", volume="70", pages="""594""", year="1974", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000032.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000032.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000032.xml"""),
     ],
 )
 
@@ -16281,15 +16281,15 @@ entry(
         Ea = (343388,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Evidence for Strongly Temperature-Dependent A Factors in Alkane Decomposition and High Heats of Formation for Alkyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""821""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000033.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Evidence for Strongly Temperature-Dependent A Factors in Alkane Decomposition and High Heats of Formation for Alkyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""821""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000033.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000033.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000033.xml"""),
     ],
 )
 
@@ -16320,15 +16320,15 @@ entry(
         Ea = (364174,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Evidence for Strongly Temperature-Dependent A Factors in Alkane Decomposition and High Heats of Formation for Alkyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""821""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000034.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Evidence for Strongly Temperature-Dependent A Factors in Alkane Decomposition and High Heats of Formation for Alkyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""821""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000034.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000034.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000034.xml"""),
     ],
 )
 
@@ -16359,15 +16359,15 @@ entry(
         Ea = (365005,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Forst, W."], title=u'Temperature-dependent A factor in thermal unimolecular reactions', journal="J. Phys. Chem.", volume="83", pages="""100-108""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000035.xml"),
+    reference = Article(authors=["Forst, W."], title=u'Temperature-dependent A factor in thermal unimolecular reactions', journal="J. Phys. Chem.", volume="83", pages="""100-108""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000035.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000035.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000035.xml"""),
     ],
 )
 
@@ -16398,15 +16398,15 @@ entry(
         Ea = (340062,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000037.xml"),
+    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000037.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000037.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000037.xml"""),
     ],
 )
 
@@ -16437,15 +16437,15 @@ entry(
         Ea = (335905,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000038.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000038.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000038.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000038.xml"""),
     ],
 )
 
@@ -16484,15 +16484,15 @@ entry(
         Ea = (371657,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Lovell, A.B.", "Brezinsky, K.", "Glassman, I."], title=u'The gas phase pyrolysis of phenol', journal="Int. J. Chem. Kinet.", volume="21", pages="""547""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Lovell, A.B.", "Brezinsky, K.", "Glassman, I."], title=u'The gas phase pyrolysis of phenol', journal="Int. J. Chem. Kinet.", volume="21", pages="""547""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010358/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010358/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010358/rk00000004.xml"""),
     ],
 )
 
@@ -16527,15 +16527,15 @@ entry(
         Ea = (329253,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Burcat, A.", "Dvinyaninov, M."], title=u'Detailed kinetics of cyclopentadiene decomposition studied in a shock tube', journal="Int. J. Chem. Kinet.", volume="29", pages="""505-514""", year="1997", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Burcat, A.", "Dvinyaninov, M."], title=u'Detailed kinetics of cyclopentadiene decomposition studied in a shock tube', journal="Int. J. Chem. Kinet.", volume="29", pages="""505-514""", year="1997", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010419/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010419/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010419/rk00000004.xml"""),
     ],
 )
 
@@ -16570,15 +16570,15 @@ entry(
         Ea = (-312042,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Roy, K.", "Braun-Unkhoff, M.", "Frank, P.", "Just, Th."], title=u'Erratum: "Kinetics of the Cyclopentadiene Decay and the Recombination of Cyclopentadienyl Radicals with H-Atoms:  Enthalpy of Formation of the Cyclopentadienyl Radical:, Int. J. Chem. Kinet 2001, 33, 821', journal="Int J. Chem. Kinet.", volume="34", pages="""209-209""", year="2002", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Roy, K.", "Braun-Unkhoff, M.", "Frank, P.", "Just, Th."], title=u'Erratum: "Kinetics of the Cyclopentadiene Decay and the Recombination of Cyclopentadienyl Radicals with H-Atoms:  Enthalpy of Formation of the Cyclopentadienyl Radical:, Int. J. Chem. Kinet 2001, 33, 821', journal="Int J. Chem. Kinet.", volume="34", pages="""209-209""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010419/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010419/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010419/rk00000005.xml"""),
     ],
 )
 
@@ -16609,15 +16609,15 @@ entry(
         Ea = (360848,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Purnell, J.H.", "Quinn, C.P."], title=u'The pyrolysis of n-butane', journal="Proc. R. Soc. London A", volume="270", pages="""267""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Purnell, J.H.", "Quinn, C.P."], title=u'The pyrolysis of n-butane', journal="Proc. R. Soc. London A", volume="270", pages="""267""", year="1962", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010516/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010516/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010516/rk00000003.xml"""),
     ],
 )
 
@@ -16648,15 +16648,15 @@ entry(
         Ea = (300984,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Koike, T.", "Morinaga, K."], title=u'UV Absorption Studies of the Pyrolysis of Butane in Shock Waves', journal="Bull. Chem. Soc. Jpn.", volume="54", pages="""2439""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Koike, T.", "Morinaga, K."], title=u'UV Absorption Studies of the Pyrolysis of Butane in Shock Waves', journal="Bull. Chem. Soc. Jpn.", volume="54", pages="""2439""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010516/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010516/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010516/rk00000004.xml"""),
     ],
 )
 
@@ -16687,15 +16687,15 @@ entry(
         Ea = (340062,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010516/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010516/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:34:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010516/rk00000005.xml"""),
     ],
 )
 
@@ -16726,15 +16726,15 @@ entry(
         Ea = (354197,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010516/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010516/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:34:35 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010516/rk00000006.xml"""),
     ],
 )
 
@@ -16767,15 +16767,15 @@ entry(
         Ea = (21617.6,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."], title=u'Measurements, Theory, and Modeling of OH Formation in Ethyl + O_2 and Propyl + O_2 Reactions', journal="J. Phys. Chem. A", volume="107", pages="""4415-4427""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."], title=u'Measurements, Theory, and Modeling of OH Formation in Ethyl + O_2 and Propyl + O_2 Reactions', journal="J. Phys. Chem. A", volume="107", pages="""4415-4427""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010545/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010545/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010545/rk00000009.xml"""),
     ],
 )
 
@@ -16806,15 +16806,15 @@ entry(
         Ea = (154649,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Takezaki, Y.", "Takeuchi, C."], title=u'Decomposition of methanol induced by methoxy radicals', journal="J. Chem. Phys.", volume="22", pages="""1527""", year="1954", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Takezaki, Y.", "Takeuchi, C."], title=u'Decomposition of methanol induced by methoxy radicals', journal="J. Chem. Phys.", volume="22", pages="""1527""", year="1954", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000003.xml"""),
     ],
 )
 
@@ -16845,15 +16845,15 @@ entry(
         Ea = (147998,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hanst, P.L.", "Calvert, J.G."], title=u'The thermal decomposition of dimethyl peroxide: the oxygen-oxygen bond strength of dialkyl peroxides', journal="J. Phys. Chem.", volume="63", pages="""104-106""", year="1959", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Hanst, P.L.", "Calvert, J.G."], title=u'The thermal decomposition of dimethyl peroxide: the oxygen-oxygen bond strength of dialkyl peroxides', journal="J. Phys. Chem.", volume="63", pages="""104-106""", year="1959", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000004.xml"""),
     ],
 )
 
@@ -16884,15 +16884,15 @@ entry(
         Ea = (154649,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Batt, L.", "McCulloch, R.D."], title=u'Pyrolysis of Dimethyl Peroxide', journal="Int. J. Chem. Kinet.", volume="8", pages="""491""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["Batt, L.", "McCulloch, R.D."], title=u'Pyrolysis of Dimethyl Peroxide', journal="Int. J. Chem. Kinet.", volume="8", pages="""491""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000007.xml"""),
     ],
 )
 
@@ -16923,15 +16923,15 @@ entry(
         Ea = (155481,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Barker, J.R.", "Benson, S.W.", "Golden, D.M."], title=u'The Decomposition of Dimethyl Peroxide and the Rate Constant for CH_3O + O_2 \u2192 CH_2O +HO_2', journal="Int. J. Chem. Kinet.", volume="9", pages="""31""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
+    reference = Article(authors=["Barker, J.R.", "Benson, S.W.", "Golden, D.M."], title=u'The Decomposition of Dimethyl Peroxide and the Rate Constant for CH_3O + O_2 \u2192 CH_2O +HO_2', journal="Int. J. Chem. Kinet.", volume="9", pages="""31""", year="1977", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000008.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000008.xml
 """,
     history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000008.xml"""),
     ],
 )
 
@@ -16962,15 +16962,15 @@ entry(
         Ea = (161301,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Batt, L.", "Rattray, G.N."], title=u'The Reaction of Methoxy Radicals with Nitric Oxide and Nitrogen Dioxide', journal="Int. J. Chem. Kinet.", volume="11", pages="""1183""", year="1979", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Batt, L.", "Rattray, G.N."], title=u'The Reaction of Methoxy Radicals with Nitric Oxide and Nitrogen Dioxide', journal="Int. J. Chem. Kinet.", volume="11", pages="""1183""", year="1979", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010569/rk00000009.xml"""),
     ],
 )
 
@@ -16999,15 +16999,15 @@ entry(
         Ea = (339230,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Benson, S.W."], title=u'Pyrolysis of dimethyl ether', journal="J. Chem. Phys.", volume="25", pages="""27-31""", year="1956", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Benson, S.W."], title=u'Pyrolysis of dimethyl ether', journal="J. Chem. Phys.", volume="25", pages="""27-31""", year="1956", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000003.xml"""),
     ],
 )
 
@@ -17036,15 +17036,15 @@ entry(
         Ea = (339230,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Benson, S.W.", "Jain, D.V.S."], title=u'Further studies of the pyrolysis of dimethyl ether', journal="J. Chem. Phys.", volume="31", pages="""1008""", year="1959", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Benson, S.W.", "Jain, D.V.S."], title=u'Further studies of the pyrolysis of dimethyl ether', journal="J. Chem. Phys.", volume="31", pages="""1008""", year="1959", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000004.xml"""),
     ],
 )
 
@@ -17073,15 +17073,15 @@ entry(
         Ea = (317613,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Pacey, P.D."], title=u'The Initial Stages of the Pyrolysis of Dimethyl Ether', journal="Can. J. Chem.", volume="53", pages="""2742""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Pacey, P.D."], title=u'The Initial Stages of the Pyrolysis of Dimethyl Ether', journal="Can. J. Chem.", volume="53", pages="""2742""", year="1975", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000005.xml"""),
     ],
 )
 
@@ -17110,15 +17110,15 @@ entry(
         Ea = (320107,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Aronowitz, D.", "Naegeli, D."], title=u'High-Temperature Pyrolysis of Dimethyl Ether', journal="Int. J. Chem. Kinet.", volume="9", pages="""471""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Article(authors=["Aronowitz, D.", "Naegeli, D."], title=u'High-Temperature Pyrolysis of Dimethyl Ether', journal="Int. J. Chem. Kinet.", volume="9", pages="""471""", year="1977", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000006.xml"""),
     ],
 )
 
@@ -17147,15 +17147,15 @@ entry(
         Ea = (347545,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Batt, L.", "Alvarado-Salinas, G.", "Reid, I.A.B.", "Robinson, C.", "Smith, D.B."], title=u'The Pyrolysis of Dimethyl Ether and Formaldehyde', journal="Symp. Int. Combust. Proc.", volume="19", pages="""81""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
+    reference = Article(authors=["Batt, L.", "Alvarado-Salinas, G.", "Reid, I.A.B.", "Robinson, C.", "Smith, D.B."], title=u'The Pyrolysis of Dimethyl Ether and Formaldehyde', journal="Symp. Int. Combust. Proc.", volume="19", pages="""81""", year="1982", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000008.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000008.xml
 """,
     history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010572/rk00000008.xml"""),
     ],
 )
 
@@ -17192,15 +17192,15 @@ entry(
         Ea = (305141,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Intermediate Sized Acetylenic Compounds and the Heats of Formation of Propargyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""687""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Intermediate Sized Acetylenic Compounds and the Heats of Formation of Propargyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""687""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010729/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010729/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010729/rk00000001.xml"""),
     ],
 )
 
@@ -17237,15 +17237,15 @@ entry(
         Ea = (191.233,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tokmakov, I.V.", "Park, J.", "Gheyas, S.", "Lin, M.C."], title=u'Experimental and theoretical studies of the reaction of the phenyl radical with methane', journal="J. Phys. Chem. A", volume="103", pages="""3636-3645""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tokmakov, I.V.", "Park, J.", "Gheyas, S.", "Lin, M.C."], title=u'Experimental and theoretical studies of the reaction of the phenyl radical with methane', journal="J. Phys. Chem. A", volume="103", pages="""3636-3645""", year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010761/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010761/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010761/rk00000001.xml"""),
     ],
 )
 
@@ -17282,15 +17282,15 @@ entry(
         Ea = (124.717,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Park, J.", "Gheyas, S.I.", "Lin, M.C."], title=u'Kinetics of C_6H_5 Radical Reactions with 2-Methylpropane, 2,3-Dimethylbutane and 2,3,4-Trimethylpentane', journal="Int J. Chem. Kinet.", volume="31", pages="""645-653""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Park, J.", "Gheyas, S.I.", "Lin, M.C."], title=u'Kinetics of C_6H_5 Radical Reactions with 2-Methylpropane, 2,3-Dimethylbutane and 2,3,4-Trimethylpentane', journal="Int J. Chem. Kinet.", volume="31", pages="""645-653""", year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010761/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010761/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010761/rk00000002.xml"""),
     ],
 )
 
@@ -17327,15 +17327,15 @@ entry(
         Ea = (303478,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Pamidimukkala, K.M.", "Kern, R.D.", "Patel, M.R.", "Wei, H.C.", "Kiefer, J.H."], title=u'High-temperature pyrolysis of toluene', journal="J. Phys. Chem.", volume="91", pages="""2148""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Pamidimukkala, K.M.", "Kern, R.D.", "Patel, M.R.", "Wei, H.C.", "Kiefer, J.H."], title=u'High-temperature pyrolysis of toluene', journal="J. Phys. Chem.", volume="91", pages="""2148""", year="1987", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010761/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010761/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010761/rk00000003.xml"""),
     ],
 )
 
@@ -17368,15 +17368,15 @@ entry(
         Ea = (330916,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Blackmore, D.R.", "Hinshelwood, C."], title=u'Derivation of rate constants for steps in the free-radical chain decomposition of paraffins', journal="Proc. R. Soc. London A", volume="268", pages="""36""", year="1962", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Blackmore, D.R.", "Hinshelwood, C."], title=u'Derivation of rate constants for steps in the free-radical chain decomposition of paraffins', journal="Proc. R. Soc. London A", volume="268", pages="""36""", year="1962", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010765/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010765/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010765/rk00000002.xml"""),
     ],
 )
 
@@ -17405,15 +17405,15 @@ entry(
         Ea = (353365,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Alcohols', journal="Int. J. Chem. Kinet.", volume="8", pages="""173""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010768/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010768/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010768/rk00000002.xml"""),
     ],
 )
 
@@ -17442,15 +17442,15 @@ entry(
         Ea = (381634,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Marinov, N.M."], title=u'A detailed chemical kinetic model for high temperature ethanol oxidation', journal="Int. J. Chem. Kinet.", volume="31", pages="""183-220""", year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Marinov, N.M."], title=u'A detailed chemical kinetic model for high temperature ethanol oxidation', journal="Int. J. Chem. Kinet.", volume="31", pages="""183-220""", year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010768/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010768/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010768/rk00000003.xml"""),
     ],
 )
 
@@ -17479,15 +17479,15 @@ entry(
         Ea = (309298,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Liu, M.T.H.", "Laidler, K.J."], title=u'Elementary processes in the acetaldehyde pyrolysis', journal="Can. J. Chem.", volume="46", pages="""479""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Liu, M.T.H.", "Laidler, K.J."], title=u'Elementary processes in the acetaldehyde pyrolysis', journal="Can. J. Chem.", volume="46", pages="""479""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000009.xml"""),
     ],
 )
 
@@ -17516,15 +17516,15 @@ entry(
         Ea = (333410,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bardi, I.", "Marta, F."], title=u'Investigation of the Thermal Decomposition of Acetaldehyde', journal="Acta Phys. Chem.", volume="19", pages="""227""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
+    reference = Article(authors=["Bardi, I.", "Marta, F."], title=u'Investigation of the Thermal Decomposition of Acetaldehyde', journal="Acta Phys. Chem.", volume="19", pages="""227""", year="1973", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000010.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000010.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000010.xml"""),
     ],
 )
 
@@ -17553,15 +17553,15 @@ entry(
         Ea = (340893,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bardi, I.", "Marta, F."], title=u'Investigation of the Thermal Decomposition of Acetaldehyde', journal="Acta Phys. Chem.", volume="19", pages="""227""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
+    reference = Article(authors=["Bardi, I.", "Marta, F."], title=u'Investigation of the Thermal Decomposition of Acetaldehyde', journal="Acta Phys. Chem.", volume="19", pages="""227""", year="1973", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000011.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000011.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000011.xml"""),
     ],
 )
 
@@ -17590,15 +17590,15 @@ entry(
         Ea = (342556,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Colket, M.B., III", "Naegeli, D.W.", "Glassman, I."], title=u'High-Temperature Pyrolysis of Acetaldehyde', journal="Int. J. Chem. Kinet.", volume="7", pages="""223""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
+    reference = Article(authors=["Colket, M.B., III", "Naegeli, D.W.", "Glassman, I."], title=u'High-Temperature Pyrolysis of Acetaldehyde', journal="Int. J. Chem. Kinet.", volume="7", pages="""223""", year="1975", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000012.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000012.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000012.xml"""),
     ],
 )
 
@@ -17627,15 +17627,15 @@ entry(
         Ea = (341725,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Ernst, J.", "Spindler, K."], title=u'Untersuchungen zum Thermischen Zerfall von Acetaldehyd und Aceton', journal="Ber. Bunsenges. Phys. Chem.", volume="79", pages="""1163""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
+    reference = Article(authors=["Ernst, J.", "Spindler, K."], title=u'Untersuchungen zum Thermischen Zerfall von Acetaldehyd und Aceton', journal="Ber. Bunsenges. Phys. Chem.", volume="79", pages="""1163""", year="1975", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000013.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000013.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000013.xml"""),
     ],
 )
 
@@ -17664,15 +17664,15 @@ entry(
         Ea = (341725,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Ernst, J.", "Spindler, K.", "Wagner, H.Gg."], title=u'Untersuchungen zum Thermischen Zerfall von Acetaldehyd und Aceton', journal="Ber. Bunsenges. Phys. Chem.", volume="80", pages="""645""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
+    reference = Article(authors=["Ernst, J.", "Spindler, K.", "Wagner, H.Gg."], title=u'Untersuchungen zum Thermischen Zerfall von Acetaldehyd und Aceton', journal="Ber. Bunsenges. Phys. Chem.", volume="80", pages="""645""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000014.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000014.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000014.xml"""),
     ],
 )
 
@@ -17701,15 +17701,15 @@ entry(
         Ea = (330916,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
+    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000015.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000015.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000015.xml"""),
     ],
 )
 
@@ -17738,15 +17738,15 @@ entry(
         Ea = (341725,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
+    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000016.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000016.xml
 """,
     history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010771/rk00000016.xml"""),
     ],
 )
 
@@ -17775,15 +17775,15 @@ entry(
         Ea = (393275,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Marshall, R.M.", "Purnell, J.H.", "Shurlock, B.C."], title=u'The initiation of propylene pyrolysis', journal="Can. J. Chem.", volume="44", pages="""2778-2780""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Marshall, R.M.", "Purnell, J.H.", "Shurlock, B.C."], title=u'The initiation of propylene pyrolysis', journal="Can. J. Chem.", volume="44", pages="""2778-2780""", year="1966", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000003.xml"""),
     ],
 )
 
@@ -17812,15 +17812,15 @@ entry(
         Ea = (359185,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Chappell, G.A.", "Shaw, H."], title=u'A shock tube study of the pyrolysis of propylene. Kinetics of the vinyl-methyl bond rupture', journal="J. Phys. Chem.", volume="72", pages="""4672-4675""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Chappell, G.A.", "Shaw, H."], title=u'A shock tube study of the pyrolysis of propylene. Kinetics of the vinyl-methyl bond rupture', journal="J. Phys. Chem.", volume="72", pages="""4672-4675""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000004.xml"""),
     ],
 )
 
@@ -17849,15 +17849,15 @@ entry(
         Ea = (309298,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Burcat, A."], title=u'Cracking of Propylene in a Shock Tube', journal="Fuel", volume="54", pages="""87""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Burcat, A."], title=u'Cracking of Propylene in a Shock Tube', journal="Fuel", volume="54", pages="""87""", year="1975", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000005.xml"""),
     ],
 )
 
@@ -17886,15 +17886,15 @@ entry(
         Ea = (416555,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000006.xml"""),
     ],
 )
 
@@ -17923,15 +17923,15 @@ entry(
         Ea = (384960,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Naroznik, M.", "Niedzielski, J."], title=u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes', journal="J. Photochem.", volume="32", pages="""281""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["Naroznik, M.", "Niedzielski, J."], title=u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes', journal="J. Photochem.", volume="32", pages="""281""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000007.xml"""),
     ],
 )
 
@@ -17960,15 +17960,15 @@ entry(
         Ea = (409072,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Chemical kinetic data base for combustion chemistry. Part V. Propene', journal="J. Phys. Chem. Ref. Data", volume="20", pages="""221-273""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000008.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000008.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000008.xml"""),
     ],
 )
 
@@ -17997,15 +17997,15 @@ entry(
         Ea = (368331,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hidaka, Y.", "Nakamura, T.", "Tanaka, H.", "Jinno, A.", "Kawano, H."], title=u'Shock tube and modeling study of propene pyrolysis', journal="Int. J. Chem. Kinet.", volume="24", pages="""761-780""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Hidaka, Y.", "Nakamura, T.", "Tanaka, H.", "Jinno, A.", "Kawano, H."], title=u'Shock tube and modeling study of propene pyrolysis', journal="Int. J. Chem. Kinet.", volume="24", pages="""761-780""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010777/rk00000009.xml"""),
     ],
 )
 
@@ -18036,15 +18036,15 @@ entry(
         Ea = (310130,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["King, K.D."], title=u'Very Low-Pressure Pyrolysis (VLPP) of But-1-yne. The Heat of Formation and Stabilization Energy of the Propargyl Radical', journal="Int. J. Chem. Kinet.", volume="10", pages="""545""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["King, K.D."], title=u'Very Low-Pressure Pyrolysis (VLPP) of But-1-yne. The Heat of Formation and Stabilization Energy of the Propargyl Radical', journal="Int. J. Chem. Kinet.", volume="10", pages="""545""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000002.xml"""),
     ],
 )
 
@@ -18075,15 +18075,15 @@ entry(
         Ea = (312624,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Trenwith, A.B.", "Wrigley, S.P."], title=u'Pyrolysis of But-1-yne and the Resonance Energy of the Propargyl and 3-Methylpropargyl Radicals', journal="J. Chem. Soc. Faraday Trans. 1", volume="78", pages="""2337""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Trenwith, A.B.", "Wrigley, S.P."], title=u'Pyrolysis of But-1-yne and the Resonance Energy of the Propargyl and 3-Methylpropargyl Radicals', journal="J. Chem. Soc. Faraday Trans. 1", volume="78", pages="""2337""", year="1982", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000003.xml"""),
     ],
 )
 
@@ -18114,15 +18114,15 @@ entry(
         Ea = (316781,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000004.xml"""),
     ],
 )
 
@@ -18153,15 +18153,15 @@ entry(
         Ea = (320939,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oshita, H.", "Kawano, H."], title=u'Thermal isomerization and decomposition of 2-butyne in shock waves', journal="J. Phys. Chem.", volume="97", pages="""10977-10983""", year="1993", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oshita, H.", "Kawano, H."], title=u'Thermal isomerization and decomposition of 2-butyne in shock waves', journal="J. Phys. Chem.", volume="97", pages="""10977-10983""", year="1993", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000005.xml"""),
     ],
 )
 
@@ -18192,15 +18192,15 @@ entry(
         Ea = (316781,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hidaka, Y.", "Higashihara, T.", "Oki, T.", "Kawano, H."], title=u'Thermal decomposition of 1-butyne in shock waves', journal="Int. J. Chem. Kinet.", volume="27", pages="""321-330""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Article(authors=["Hidaka, Y.", "Higashihara, T.", "Oki, T.", "Kawano, H."], title=u'Thermal decomposition of 1-butyne in shock waves', journal="Int. J. Chem. Kinet.", volume="27", pages="""321-330""", year="1995", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010783/rk00000006.xml"""),
     ],
 )
 
@@ -18231,15 +18231,15 @@ entry(
         Ea = (248603,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kern, R.D.", "Singh, H.J.", "Wu, C.H."], title=u'Thermal decomposition of 1,2 butadiene', journal="Int. J. Chem. Kinet.", volume="20", pages="""731""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Kern, R.D.", "Singh, H.J.", "Wu, C.H."], title=u'Thermal decomposition of 1,2 butadiene', journal="Int. J. Chem. Kinet.", volume="20", pages="""731""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000003.xml"""),
     ],
 )
 
@@ -18270,15 +18270,15 @@ entry(
         Ea = (313456,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oshita, H.", "Kawano, H."], title=u'Thermal isomerization and decomposition of 2-butyne in shock waves', journal="J. Phys. Chem.", volume="97", pages="""10977-10983""", year="1993", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oshita, H.", "Kawano, H."], title=u'Thermal isomerization and decomposition of 2-butyne in shock waves', journal="J. Phys. Chem.", volume="97", pages="""10977-10983""", year="1993", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000004.xml"""),
     ],
 )
 
@@ -18309,15 +18309,15 @@ entry(
         Ea = (313456,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oki, T.", "Kawano, H."], title=u'Thermal isomerization and decomposition of 1,2-butadiene in shock waves', journal="Int. J. Chem. Kinet.", volume="27", pages="""331-341""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oki, T.", "Kawano, H."], title=u'Thermal isomerization and decomposition of 1,2-butadiene in shock waves', journal="Int. J. Chem. Kinet.", volume="27", pages="""331-341""", year="1995", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000005.xml"""),
     ],
 )
 
@@ -18354,15 +18354,15 @@ entry(
         Ea = (368331,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Brown, T.C.", "King, K.D."], title=u'Very low-pressure pyrolysis (VLPP) of methyl- and ethynyl- cyclopentanes and cyclohexanes', journal="Int. J. Chem. Kinet.", volume="21", pages="""251""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Brown, T.C.", "King, K.D."], title=u'Very low-pressure pyrolysis (VLPP) of methyl- and ethynyl- cyclopentanes and cyclohexanes', journal="Int. J. Chem. Kinet.", volume="21", pages="""251""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010787/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010787/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010787/rk00000002.xml"""),
     ],
 )
 
@@ -18393,15 +18393,15 @@ entry(
         Ea = (300984,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Szwarc, M.", "Taylor, J.W."], title=u'Pyrolysis of acetone and the heat of formation of acetyl radicals', journal="J. Chem. Phys.", volume="23", pages="""2310-2314""", year="1955", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
+    reference = Article(authors=["Szwarc, M.", "Taylor, J.W."], title=u'Pyrolysis of acetone and the heat of formation of acetyl radicals', journal="J. Chem. Phys.", volume="23", pages="""2310-2314""", year="1955", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000008.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000008.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000008.xml"""),
     ],
 )
 
@@ -18432,15 +18432,15 @@ entry(
         Ea = (296827,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Clark, D.", "Pritchard, H.O."], title=u'Arrhenius parameters of some reactions involving multiplicity changes', journal="J. Chem. Soc. London", pages="""2136-2140""", year="1956", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Clark, D.", "Pritchard, H.O."], title=u'Arrhenius parameters of some reactions involving multiplicity changes', journal="J. Chem. Soc. London", pages="""2136-2140""", year="1956", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000009.xml"""),
     ],
 )
 
@@ -18471,15 +18471,15 @@ entry(
         Ea = (338399,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Ernst, J.", "Spindler, K."], title=u'Untersuchungen zum Thermischen Zerfall von Acetaldehyd und Aceton', journal="Ber. Bunsenges. Phys. Chem.", volume="79", pages="""1163""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
+    reference = Article(authors=["Ernst, J.", "Spindler, K."], title=u'Untersuchungen zum Thermischen Zerfall von Acetaldehyd und Aceton', journal="Ber. Bunsenges. Phys. Chem.", volume="79", pages="""1163""", year="1975", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000010.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000010.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000010.xml"""),
     ],
 )
 
@@ -18510,15 +18510,15 @@ entry(
         Ea = (341725,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Ernst, J.", "Spindler, K.", "Wagner, H.Gg."], title=u'Untersuchungen zum Thermischen Zerfall von Acetaldehyd und Aceton', journal="Ber. Bunsenges. Phys. Chem.", volume="80", pages="""645""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
+    reference = Article(authors=["Ernst, J.", "Spindler, K.", "Wagner, H.Gg."], title=u'Untersuchungen zum Thermischen Zerfall von Acetaldehyd und Aceton', journal="Ber. Bunsenges. Phys. Chem.", volume="80", pages="""645""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000011.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000011.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000011.xml"""),
     ],
 )
 
@@ -18549,15 +18549,15 @@ entry(
         Ea = (353365,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Mousavipour, S.H.", "Pacey, P.D."], title=u'Initiation and abstraction reactions in the pyrolysis of acetone', journal="J. Phys. Chem.", volume="100", pages="""3573-3579""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
+    reference = Article(authors=["Mousavipour, S.H.", "Pacey, P.D."], title=u'Initiation and abstraction reactions in the pyrolysis of acetone', journal="J. Phys. Chem.", volume="100", pages="""3573-3579""", year="1996", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000012.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000012.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010789/rk00000012.xml"""),
     ],
 )
 
@@ -18586,15 +18586,15 @@ entry(
         Ea = (2660.63,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Cobos, C.J.", "Troe, J."], title=u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results', journal="J. Chem. Phys.", volume="83", pages="""1010-1015""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000028.xml"),
+    reference = Article(authors=["Cobos, C.J.", "Troe, J."], title=u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results', journal="J. Chem. Phys.", volume="83", pages="""1010-1015""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000028.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000028.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000028.xml"""),
     ],
 )
 
@@ -18623,15 +18623,15 @@ entry(
         Ea = (71255,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W.", "Hampson, R.F."], title=u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds', journal="J. Phys. Chem. Ref. Data", volume="15", pages="""1087""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000031.xml"),
+    reference = Article(authors=["Tsang, W.", "Hampson, R.F."], title=u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds', journal="J. Phys. Chem. Ref. Data", volume="15", pages="""1087""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000031.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000031.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000031.xml"""),
     ],
 )
 
@@ -18660,15 +18660,15 @@ entry(
         Ea = (22365.9,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M.", "Westmoreland, P.R."], title=u'Bimolecular QRRK analyss of methyl radical reactions', journal="Int. J. Chem. Kinet.", volume="19", pages="""207""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000032.xml"),
+    reference = Article(authors=["Dean, A.M.", "Westmoreland, P.R."], title=u'Bimolecular QRRK analyss of methyl radical reactions', journal="Int. J. Chem. Kinet.", volume="19", pages="""207""", year="1987", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000032.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000032.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000032.xml"""),
     ],
 )
 
@@ -18697,15 +18697,15 @@ entry(
         Ea = (-5728.67,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Keiffer, M.", "Miscampbell, A.J.", "Pilling, M.J."], title=u'A global technique for analysing multiple decay curves. Application to the CH_3 + O_2 system', journal="J. Chem. Soc. Faraday Trans. 2", volume="84", pages="""505""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000035.xml"),
+    reference = Article(authors=["Keiffer, M.", "Miscampbell, A.J.", "Pilling, M.J."], title=u'A global technique for analysing multiple decay curves. Application to the CH_3 + O_2 system', journal="J. Chem. Soc. Faraday Trans. 2", volume="84", pages="""505""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000035.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000035.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000035.xml"""),
     ],
 )
 
@@ -18732,15 +18732,15 @@ entry(
         Ea = (207.862,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Teng, L.", "Jones, W.E."], title=u'Kinetics of the Reactions of Hydrogen Atoms with Ethylene and Vinyl Fluoride', journal="J. Chem. Soc. Faraday Trans. 1", volume="68", pages="""1267""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Teng, L.", "Jones, W.E."], title=u'Kinetics of the Reactions of Hydrogen Atoms with Ethylene and Vinyl Fluoride', journal="J. Chem. Soc. Faraday Trans. 1", volume="68", pages="""1267""", year="1972", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000004.xml"""),
     ],
 )
 
@@ -18767,15 +18767,15 @@ entry(
         Ea = (1671.21,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Cobos, C.J.", "Troe, J."], title=u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results', journal="J. Chem. Phys.", volume="83", pages="""1010-1015""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
+    reference = Article(authors=["Cobos, C.J.", "Troe, J."], title=u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results', journal="J. Chem. Phys.", volume="83", pages="""1010-1015""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000018.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000018.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000018.xml"""),
     ],
 )
 
@@ -18802,15 +18802,15 @@ entry(
         Ea = (814.818,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hase, W.L.", "Mondro, S.L.", "Duchovic, R.J.", "Hirst, D.M."], title=u'Thermal rate constant for H + CH_3 \u2192 CH_4 recombination. 3. Comparison of experiment and canonical variational transition state theory', journal="J. Am. Chem. Soc.", volume="109", pages="""2916-2922""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
+    reference = Article(authors=["Hase, W.L.", "Mondro, S.L.", "Duchovic, R.J.", "Hirst, D.M."], title=u'Thermal rate constant for H + CH_3 \u2192 CH_4 recombination. 3. Comparison of experiment and canonical variational transition state theory', journal="J. Am. Chem. Soc.", volume="109", pages="""2916-2922""", year="1987", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000020.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000020.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000020.xml"""),
     ],
 )
 
@@ -18837,15 +18837,15 @@ entry(
         Ea = (1571.44,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Forst, W."], title=u'Microcanonical variational theory of radical recombination by inversion of interpolated partition function, with examples: CH_3 + H, CH_3 + CH_3', journal="J. Phys. Chem.", volume="95", pages="""3612-3620""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000027.xml"),
+    reference = Article(authors=["Forst, W."], title=u'Microcanonical variational theory of radical recombination by inversion of interpolated partition function, with examples: CH_3 + H, CH_3 + CH_3', journal="J. Phys. Chem.", volume="95", pages="""3612-3620""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000027.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000027.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000027.xml"""),
     ],
 )
 
@@ -18872,15 +18872,15 @@ entry(
         Ea = (1147.4,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Takahashi, J.", "Momose, T.", "Shida, T."], title=u'Thermal rate constants for SiH_4=SiH_3+H and CH_4=CH_3+H by Canonical Variational Transition State Theory', journal="Bull. Chem. Soc. Jpn.", volume="67", pages="""74-85""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000037.xml"),
+    reference = Article(authors=["Takahashi, J.", "Momose, T.", "Shida, T."], title=u'Thermal rate constants for SiH_4=SiH_3+H and CH_4=CH_3+H by Canonical Variational Transition State Theory', journal="Bull. Chem. Soc. Jpn.", volume="67", pages="""74-85""", year="1994", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000037.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000037.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000037.xml"""),
     ],
 )
 
@@ -18907,15 +18907,15 @@ entry(
         Ea = (2440,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000038.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000038.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000038.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000038.xml"""),
     ],
 )
 
@@ -18942,15 +18942,15 @@ entry(
         Ea = (2440,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000039.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000039.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000039.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000039.xml"""),
     ],
 )
 
@@ -18977,15 +18977,15 @@ entry(
         Ea = (2440,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000040.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000040.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000040.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000040.xml"""),
     ],
 )
 
@@ -19012,15 +19012,15 @@ entry(
         Ea = (2440,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000041.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000041.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000041.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000041.xml"""),
     ],
 )
 
@@ -19047,15 +19047,15 @@ entry(
         Ea = (2440,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000042.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000042.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000042.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000042.xml"""),
     ],
 )
 
@@ -19082,15 +19082,15 @@ entry(
         Ea = (2440,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000043.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000043.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000043.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000043.xml"""),
     ],
 )
 
@@ -19117,15 +19117,15 @@ entry(
         Ea = (2440,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000044.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000044.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000044.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000044.xml"""),
     ],
 )
 
@@ -19152,15 +19152,15 @@ entry(
         Ea = (2440,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000045.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000045.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000045.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000045.xml"""),
     ],
 )
 
@@ -19187,15 +19187,15 @@ entry(
         Ea = (536,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000046.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000046.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000046.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000046.xml"""),
     ],
 )
 
@@ -19222,15 +19222,15 @@ entry(
         Ea = (-362619,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Sutherland, J.W.", "Su, M.-C.", "Michael, J.V."], title=u'Rate Constants for H + CH_4, CH_3 + H_2, and CH_4 Dissociation at High Temperature', journal="Int J. Chem. Kinet.", volume="33", pages="""669-684""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000048.xml"),
+    reference = Article(authors=["Sutherland, J.W.", "Su, M.-C.", "Michael, J.V."], title=u'Rate Constants for H + CH_4, CH_3 + H_2, and CH_4 Dissociation at High Temperature', journal="Int J. Chem. Kinet.", volume="33", pages="""669-684""", year="2001", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000048.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000048.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000048.xml"""),
     ],
 )
 
@@ -19257,15 +19257,15 @@ entry(
         Ea = (422375,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Skinner, G.B.", "Ruehrwein, R.A."], title=u'Shock tube studies on the pyrolysis and oxidation of methane', journal="J. Phys. Chem.", volume="63", pages="""1736""", year="1959", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000050.xml"),
+    reference = Article(authors=["Skinner, G.B.", "Ruehrwein, R.A."], title=u'Shock tube studies on the pyrolysis and oxidation of methane', journal="J. Phys. Chem.", volume="63", pages="""1736""", year="1959", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000050.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000050.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000050.xml"""),
     ],
 )
 
@@ -19292,15 +19292,15 @@ entry(
         Ea = (430690,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Palmer, H.B.", "Hirt, T.J."], title=u'The activation energy for the pyrolysis of methane', journal="J. Phys. Chem.", volume="67", pages="""709""", year="1963", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000051.xml"),
+    reference = Article(authors=["Palmer, H.B.", "Hirt, T.J."], title=u'The activation energy for the pyrolysis of methane', journal="J. Phys. Chem.", volume="67", pages="""709""", year="1963", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000051.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000051.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000051.xml"""),
     ],
 )
 
@@ -19327,15 +19327,15 @@ entry(
         Ea = (422375,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Palmer, H.B.", "Hirt, T.J."], title=u'The activation energy for the pyrolysis of methane', journal="J. Phys. Chem.", volume="67", pages="""709""", year="1963", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000052.xml"),
+    reference = Article(authors=["Palmer, H.B.", "Hirt, T.J."], title=u'The activation energy for the pyrolysis of methane', journal="J. Phys. Chem.", volume="67", pages="""709""", year="1963", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000052.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000052.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000052.xml"""),
     ],
 )
 
@@ -19362,15 +19362,15 @@ entry(
         Ea = (430690,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kondratiev, V.N."], title=u'Determination of the rate constant for thermal cracking of methane by means of adiabatic compression and expansion', journal="Symp. Int. Combust. Proc.", volume="10", pages="""319""", year="1965", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000053.xml"),
+    reference = Article(authors=["Kondratiev, V.N."], title=u'Determination of the rate constant for thermal cracking of methane by means of adiabatic compression and expansion', journal="Symp. Int. Combust. Proc.", volume="10", pages="""319""", year="1965", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000053.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000053.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000053.xml"""),
     ],
 )
 
@@ -19397,15 +19397,15 @@ entry(
         Ea = (427364,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Placzek, D.W.", "Rabinovitch, B.S.", "Whitten, G.Z."], title=u'Some comparisons of the classical RRK and the RRKM theoretical rate formulations', journal="J. Chem. Phys.", volume="43", pages="""4071-4080""", year="1965", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000054.xml"),
+    reference = Article(authors=["Placzek, D.W.", "Rabinovitch, B.S.", "Whitten, G.Z."], title=u'Some comparisons of the classical RRK and the RRKM theoretical rate formulations', journal="J. Chem. Phys.", volume="43", pages="""4071-4080""", year="1965", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000054.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000054.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000054.xml"""),
     ],
 )
 
@@ -19432,15 +19432,15 @@ entry(
         Ea = (434847,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Palmer, H.B."], title=u'Discussion', journal="Symp. Int. Combust. Proc.", volume="12", pages="""588""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000055.xml"),
+    reference = Article(authors=["Palmer, H.B."], title=u'Discussion', journal="Symp. Int. Combust. Proc.", volume="12", pages="""588""", year="1969", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000055.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000055.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000055.xml"""),
     ],
 )
 
@@ -19467,15 +19467,15 @@ entry(
         Ea = (434847,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hartig, R.", "Troe, J.", "Wagner, H.GG."], title=u'Thermal Decomposition of Methane Behind Reflected Shock Waves', journal="Symp. Int. Combust. Proc.", volume="13", pages="""147""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000056.xml"),
+    reference = Article(authors=["Hartig, R.", "Troe, J.", "Wagner, H.GG."], title=u'Thermal Decomposition of Methane Behind Reflected Shock Waves', journal="Symp. Int. Combust. Proc.", volume="13", pages="""147""", year="1971", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000056.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000056.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000056.xml"""),
     ],
 )
 
@@ -19502,15 +19502,15 @@ entry(
         Ea = (449813,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Chen, C.J.", "Back, M.H.", "Back, R.A."], title=u'The Thermal Decomposition of Methane. I.Kinetics of the Promary Decomposition to C_2H_6 + H_2; Rate Constant for the Homogeneous Unimolecular Dissociation of Methane and its Pressure Dependence', journal="Can. J. Chem.", volume="53", pages="""3580""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000057.xml"),
+    reference = Article(authors=["Chen, C.J.", "Back, M.H.", "Back, R.A."], title=u'The Thermal Decomposition of Methane. I.Kinetics of the Promary Decomposition to C_2H_6 + H_2; Rate Constant for the Homogeneous Unimolecular Dissociation of Methane and its Pressure Dependence', journal="Can. J. Chem.", volume="53", pages="""3580""", year="1975", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000057.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000057.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000057.xml"""),
     ],
 )
 
@@ -19537,15 +19537,15 @@ entry(
         Ea = (419881,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000058.xml"),
+    reference = Reference(authors=["Warnatz, J."], year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000058.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000058.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000058.xml"""),
     ],
 )
 
@@ -19572,15 +19572,15 @@ entry(
         Ea = (439004,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000059.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000059.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000059.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000059.xml"""),
     ],
 )
 
@@ -19607,15 +19607,15 @@ entry(
         Ea = (434015,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W.", "Hampson, R.F."], title=u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds', journal="J. Phys. Chem. Ref. Data", volume="15", pages="""1087""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000060.xml"),
+    reference = Article(authors=["Tsang, W.", "Hampson, R.F."], title=u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds', journal="J. Phys. Chem. Ref. Data", volume="15", pages="""1087""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000060.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000060.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000060.xml"""),
     ],
 )
 
@@ -19642,15 +19642,15 @@ entry(
         Ea = (440667,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Barnes, r.W.", "Pratt, G.L."], title=u'Pressure dependence of methane dissociation', journal="J. Chem. Soc. Faraday Trans. 2", volume="85", pages="""229""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000061.xml"),
+    reference = Article(authors=["Barnes, r.W.", "Pratt, G.L."], title=u'Pressure dependence of methane dissociation', journal="J. Chem. Soc. Faraday Trans. 2", volume="85", pages="""229""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000061.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000061.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000061.xml"""),
     ],
 )
 
@@ -19677,15 +19677,15 @@ entry(
         Ea = (434015,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Rate constants for the decomposition and formation of simple alkanes over extended temperature and pressure ranges', journal="Combust. Flame", volume="78", pages="""71-86""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000062.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Rate constants for the decomposition and formation of simple alkanes over extended temperature and pressure ranges', journal="Combust. Flame", volume="78", pages="""71-86""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000062.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000062.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000062.xml"""),
     ],
 )
 
@@ -19712,15 +19712,15 @@ entry(
         Ea = (439004,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Cobos, C.J.", "Troe, J."], title=u'The dissociation-recombination system CH_4 + M = CH_3 + H + M: reevaluated experiments from 300 to 3000 K', journal="Z. Phys. Chem. (Neue Folge)", volume="167", pages="""129-149""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000063.xml"),
+    reference = Article(authors=["Cobos, C.J.", "Troe, J."], title=u'The dissociation-recombination system CH_4 + M = CH_3 + H + M: reevaluated experiments from 300 to 3000 K', journal="Z. Phys. Chem. (Neue Folge)", volume="167", pages="""129-149""", year="1990", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000063.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000063.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000063.xml"""),
     ],
 )
 
@@ -19747,15 +19747,15 @@ entry(
         Ea = (343388,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Arutyunov, V.S.", "Vedeneev, V.I.", "Moshkina, R.I.", "Ushakov, V.A."], title=u'Pyrolysis of methane under static conditions at 1100-1400 K', journal="Kinet. Catal.", volume="32", pages="""234-240""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000064.xml"),
+    reference = Article(authors=["Arutyunov, V.S.", "Vedeneev, V.I.", "Moshkina, R.I.", "Ushakov, V.A."], title=u'Pyrolysis of methane under static conditions at 1100-1400 K', journal="Kinet. Catal.", volume="32", pages="""234-240""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000064.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000064.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000064.xml"""),
     ],
 )
 
@@ -19782,15 +19782,15 @@ entry(
         Ea = (439004,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000065.xml"),
+    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000065.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000065.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000065.xml"""),
     ],
 )
 
@@ -19817,15 +19817,15 @@ entry(
         Ea = (439004,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Cobos, C.J.", "Troe, J."], title=u'The dissociation-recombination system CH_4 + M = CH_3 + H + M: II. Evaluation of experiments up to 5000 K and temperature dependence of <\u0394E>', journal="Z. Phys. Chem. (Munich)", volume="176", pages="""161-171""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000066.xml"),
+    reference = Article(authors=["Cobos, C.J.", "Troe, J."], title=u'The dissociation-recombination system CH_4 + M = CH_3 + H + M: II. Evaluation of experiments up to 5000 K and temperature dependence of <\u0394E>', journal="Z. Phys. Chem. (Munich)", volume="176", pages="""161-171""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000066.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000066.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000066.xml"""),
     ],
 )
 
@@ -19852,15 +19852,15 @@ entry(
         Ea = (439004,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000067.xml"),
+    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000067.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000067.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000067.xml"""),
     ],
 )
 
@@ -19887,15 +19887,15 @@ entry(
         Ea = (435678,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Takahashi, J.", "Momose, T.", "Shida, T."], title=u'Thermal rate constants for SiH_4=SiH_3+H and CH_4=CH_3+H by Canonical Variational Transition State Theory', journal="Bull. Chem. Soc. Jpn.", volume="67", pages="""74-85""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000068.xml"),
+    reference = Article(authors=["Takahashi, J.", "Momose, T.", "Shida, T."], title=u'Thermal rate constants for SiH_4=SiH_3+H and CH_4=CH_3+H by Canonical Variational Transition State Theory', journal="Bull. Chem. Soc. Jpn.", volume="67", pages="""74-85""", year="1994", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000068.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000068.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000068.xml"""),
     ],
 )
 
@@ -19922,15 +19922,15 @@ entry(
         Ea = (403252,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Davidson, D.F.", "Hanson, R.K.", "Bowman, C.T."], title=u'Communication: revised values for the rate coefficients of ethane and methane decomposition', journal="Int. J. Chem. Kinet.", volume="27", pages="""305-308""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000069.xml"),
+    reference = Article(authors=["Davidson, D.F.", "Hanson, R.K.", "Bowman, C.T."], title=u'Communication: revised values for the rate coefficients of ethane and methane decomposition', journal="Int. J. Chem. Kinet.", volume="27", pages="""305-308""", year="1995", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000069.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000069.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000069.xml"""),
     ],
 )
 
@@ -19963,15 +19963,15 @@ entry(
         Ea = (296827,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Trenwith, A.B.", "Wrigley, S.P."], title=u'Dissociation of 2-Methylbut-1-ene and the Resonance Energy of the 2-Methyl allyl Radical', journal="J. Chem. Soc. Faraday Trans. 1", volume="73", pages="""817""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Trenwith, A.B.", "Wrigley, S.P."], title=u'Dissociation of 2-Methylbut-1-ene and the Resonance Energy of the 2-Methyl allyl Radical', journal="J. Chem. Soc. Faraday Trans. 1", volume="73", pages="""817""", year="1977", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010916/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010916/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010916/rk00000002.xml"""),
     ],
 )
 
@@ -20018,15 +20018,15 @@ entry(
         Ea = (465.61,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Park, J.", "Lin, M.C."], title=u'Kinetics for the recombination of phenyl radicals', journal="J. Phys. Chem. A", volume="101", pages="""14-18""", year="1997", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Park, J.", "Lin, M.C."], title=u'Kinetics for the recombination of phenyl radicals', journal="J. Phys. Chem. A", volume="101", pages="""14-18""", year="1997", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011156/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011156/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011156/rk00000002.xml"""),
     ],
 )
 
@@ -20065,15 +20065,15 @@ entry(
         Ea = (1338.63,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Yu, T.", "Lin, M.C."], title=u'Kinetics of the C_6H_5 + O_2 reaction at low temperatures', journal="J. Am. Chem. Soc.", volume="116", pages="""9571-9576""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Yu, T.", "Lin, M.C."], title=u'Kinetics of the C_6H_5 + O_2 reaction at low temperatures', journal="J. Am. Chem. Soc.", volume="116", pages="""9571-9576""", year="1994", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011168/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011168/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011168/rk00000002.xml"""),
     ],
 )
 
@@ -20110,15 +20110,15 @@ entry(
         Ea = (443161,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Asaba, T.", "Fujii, N."], title=u'High temperature oxidation of benzene', journal="Proc. Int. Symp. Shock Tubes Waves", volume="8", pages="""1-12""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Article(authors=["Asaba, T.", "Fujii, N."], title=u'High temperature oxidation of benzene', journal="Proc. Int. Symp. Shock Tubes Waves", volume="8", pages="""1-12""", year="1971", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000006.xml"""),
     ],
 )
 
@@ -20155,15 +20155,15 @@ entry(
         Ea = (451476,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hsu, D.S.Y.", "Lin, C.Y.", "Lin, M.C."], title=u'CO formation in early stage high temperature benzene oxidation under fuel lean conditions: Kinetics of the initiation reaction, C_6H_6 \u2192 C_6H_5 \u2192 H', journal="Symp. Int. Combust. Proc.", volume="20", pages="""623""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["Hsu, D.S.Y.", "Lin, C.Y.", "Lin, M.C."], title=u'CO formation in early stage high temperature benzene oxidation under fuel lean conditions: Kinetics of the initiation reaction, C_6H_6 \u2192 C_6H_5 \u2192 H', journal="Symp. Int. Combust. Proc.", volume="20", pages="""623""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000007.xml"""),
     ],
 )
 
@@ -20200,15 +20200,15 @@ entry(
         Ea = (484734,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hsu, D.S.Y.", "Lin, C.Y.", "Lin, M.C."], title=u'CO formation in early stage high temperature benzene oxidation under fuel lean conditions: Kinetics of the initiation reaction, C_6H_6 \u2192 C_6H_5 \u2192 H', journal="Symp. Int. Combust. Proc.", volume="20", pages="""623""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000008.xml"),
+    reference = Article(authors=["Hsu, D.S.Y.", "Lin, C.Y.", "Lin, M.C."], title=u'CO formation in early stage high temperature benzene oxidation under fuel lean conditions: Kinetics of the initiation reaction, C_6H_6 \u2192 C_6H_5 \u2192 H', journal="Symp. Int. Combust. Proc.", volume="20", pages="""623""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000008.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000008.xml
 """,
     history = [
-        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000008.xml"""),
     ],
 )
 
@@ -20245,15 +20245,15 @@ entry(
         Ea = (372488,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kern, R.D.", "Wu, C.H.", "Skinner, G.B.", "Rao, V.S.", "Kiefer, J.H.", "Towers, J.A.", "Mizerka, L.J."], title=u'Collaborative shock tube studies of benzene pyrolysis', journal="Symp. Int. Combust. Proc.", volume="20", pages="""789""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Kern, R.D.", "Wu, C.H.", "Skinner, G.B.", "Rao, V.S.", "Kiefer, J.H.", "Towers, J.A.", "Mizerka, L.J."], title=u'Collaborative shock tube studies of benzene pyrolysis', journal="Symp. Int. Combust. Proc.", volume="20", pages="""789""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000009.xml"""),
     ],
 )
 
@@ -20290,15 +20290,15 @@ entry(
         Ea = (493880,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kiefer, J.H.", "Mizerka, L.J.", "Patel, M.R.", "Wei, H.-C."], title=u'A shock tube investigation of major pathways in the high-temperature pyrolysis of benzene', journal="J. Phys. Chem.", volume="89", pages="""2013""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
+    reference = Article(authors=["Kiefer, J.H.", "Mizerka, L.J.", "Patel, M.R.", "Wei, H.-C."], title=u'A shock tube investigation of major pathways in the high-temperature pyrolysis of benzene', journal="J. Phys. Chem.", volume="89", pages="""2013""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000010.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000010.xml
 """,
     history = [
-        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000010.xml"""),
     ],
 )
 
@@ -20335,15 +20335,15 @@ entry(
         Ea = (443161,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Rao, V.S.", "Skinner, G.B."], title=u'Formation of H and D atoms in pyrolysis of benzene-d_6, chlorobenzene, bromobenzene, and iodobenzene behind shock waves', journal="J. Phys. Chem.", volume="92", pages="""2442""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
+    reference = Article(authors=["Rao, V.S.", "Skinner, G.B."], title=u'Formation of H and D atoms in pyrolysis of benzene-d_6, chlorobenzene, bromobenzene, and iodobenzene behind shock waves', journal="J. Phys. Chem.", volume="92", pages="""2442""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000011.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000011.xml
 """,
     history = [
-        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011174/rk00000011.xml"""),
     ],
 )
 
@@ -20384,15 +20384,15 @@ entry(
         Ea = (350039,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Grela, M.A.", "Colussi, A.J."], title=u'Kinetics and mechanism of the thermal decomposition of unsaturated aldehydes: Benzaldehyde, 2-butenal, and 2-furaldehyde', journal="J. Phys. Chem.", volume="90", pages="""434""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Grela, M.A.", "Colussi, A.J."], title=u'Kinetics and mechanism of the thermal decomposition of unsaturated aldehydes: Benzaldehyde, 2-butenal, and 2-furaldehyde', journal="J. Phys. Chem.", volume="90", pages="""434""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011400/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011400/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011400/rk00000003.xml"""),
     ],
 )
 
@@ -20423,15 +20423,15 @@ entry(
         Ea = (390780,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kiefer, J.H.", "Wei, H.C.", "Kern, R.D.", "Wu, C.H."], title=u'The high temperature pyrolysis of 1,3-butadiene: Heat of formation and rate of dissociation of vinyl radical', journal="Int. J. Chem. Kinet.", volume="17", pages="""225""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Kiefer, J.H.", "Wei, H.C.", "Kern, R.D.", "Wu, C.H."], title=u'The high temperature pyrolysis of 1,3-butadiene: Heat of formation and rate of dissociation of vinyl radical', journal="Int. J. Chem. Kinet.", volume="17", pages="""225""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000009.xml"""),
     ],
 )
 
@@ -20462,15 +20462,15 @@ entry(
         Ea = (278535,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kern, R.D.", "Singh, H.J.", "Wu, C.H."], title=u'Thermal decomposition of 1,2 butadiene', journal="Int. J. Chem. Kinet.", volume="20", pages="""731""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
+    reference = Article(authors=["Kern, R.D.", "Singh, H.J.", "Wu, C.H."], title=u'Thermal decomposition of 1,2 butadiene', journal="Int. J. Chem. Kinet.", volume="20", pages="""731""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000010.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000010.xml
 """,
     history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000010.xml"""),
     ],
 )
 
@@ -20501,15 +20501,15 @@ entry(
         Ea = (393275,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kiefer, J.H.", "Mitchell, K.I.", "Wei, H.C."], title=u'The high temperature pyrolysis of 1,3-butadiene II: Pulsed laser flash absorption rate constants, and consideration of possible molecular dissociation pathways', journal="Int. J. Chem. Kinet.", volume="20", pages="""787""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
+    reference = Article(authors=["Kiefer, J.H.", "Mitchell, K.I.", "Wei, H.C."], title=u'The high temperature pyrolysis of 1,3-butadiene II: Pulsed laser flash absorption rate constants, and consideration of possible molecular dissociation pathways', journal="Int. J. Chem. Kinet.", volume="20", pages="""787""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000011.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000011.xml
 """,
     history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000011.xml"""),
     ],
 )
 
@@ -20540,15 +20540,15 @@ entry(
         Ea = (355859,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Rao, V.S.", "Takeda, K.", "Skinner, G.B."], title=u'Formation of H and D atoms in pyrolysis of 1,3-butadiene and 1,3 butadiene-1,1,4,4,-d_4 behind shock waves', journal="Int. J. Chem. Kinet.", volume="20", pages="""153""", year="1988", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
+    reference = Article(authors=["Rao, V.S.", "Takeda, K.", "Skinner, G.B."], title=u'Formation of H and D atoms in pyrolysis of 1,3-butadiene and 1,3 butadiene-1,1,4,4,-d_4 behind shock waves', journal="Int. J. Chem. Kinet.", volume="20", pages="""153""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000012.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000012.xml
 """,
     history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000012.xml"""),
     ],
 )
 
@@ -20583,15 +20583,15 @@ entry(
         Ea = (415.724,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Westmoreland, P.R.", "Dean, A.M.", "Howard, J.B.", "Longwell, J.P."], title=u'Forming benzene in flames by chemically activated isomerization', journal="J. Phys. Chem.", volume="93", pages="""8171""", year="1989", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Westmoreland, P.R.", "Dean, A.M.", "Howard, J.B.", "Longwell, J.P."], title=u'Forming benzene in flames by chemically activated isomerization', journal="J. Phys. Chem.", volume="93", pages="""8171""", year="1989", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011454/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011454/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011454/rk00000001.xml"""),
     ],
 )
 
@@ -20638,15 +20638,15 @@ entry(
         Ea = (123886,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Rembaum, A.", "Szwarc, M."], title=u'O-O bond dissociation energies in propionyl and butyryl peroxides', journal="J. Chem. Phys.", volume="23", pages="""909-913""", year="1955", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Rembaum, A.", "Szwarc, M."], title=u'O-O bond dissociation energies in propionyl and butyryl peroxides', journal="J. Chem. Phys.", volume="23", pages="""909-913""", year="1955", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011505/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011505/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:48 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:48 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011505/rk00000001.xml"""),
     ],
 )
 
@@ -20681,15 +20681,15 @@ entry(
         Ea = (258580,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011580/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011580/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:48 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:48 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011580/rk00000002.xml"""),
     ],
 )
 
@@ -20718,15 +20718,15 @@ entry(
         Ea = (133863,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kirk, A.D."], title=u'The thermal decomposition of methyl hydroperoxide', journal="Can. J. Chem.", volume="43", pages="""2236-2242""", year="1965", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Kirk, A.D."], title=u'The thermal decomposition of methyl hydroperoxide', journal="Can. J. Chem.", volume="43", pages="""2236-2242""", year="1965", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011636/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011636/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011636/rk00000001.xml"""),
     ],
 )
 
@@ -20755,15 +20755,15 @@ entry(
         Ea = (177098,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Lightfoot, P.D.", "Roussel, P.", "Caralp, F.", "Lesclaux, R."], title=u'Flash photolysis study of the CH_3O_2 + CH_3O_2 and CH_3O_2 + HO_2 reactions between 600 and 719 K: unimolecular decomposition of methylhydroperoxide', journal="J. Chem. Soc. Faraday Trans.", volume="87", pages="""3213-3220""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Lightfoot, P.D.", "Roussel, P.", "Caralp, F.", "Lesclaux, R."], title=u'Flash photolysis study of the CH_3O_2 + CH_3O_2 and CH_3O_2 + HO_2 reactions between 600 and 719 K: unimolecular decomposition of methylhydroperoxide', journal="J. Chem. Soc. Faraday Trans.", volume="87", pages="""3213-3220""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011636/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011636/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011636/rk00000002.xml"""),
     ],
 )
 
@@ -20792,15 +20792,15 @@ entry(
         Ea = (179593,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011636/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011636/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011636/rk00000003.xml"""),
     ],
 )
 
@@ -20829,15 +20829,15 @@ entry(
         Ea = (177098,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011636/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011636/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011636/rk00000004.xml"""),
     ],
 )
 
@@ -20868,15 +20868,15 @@ entry(
         Ea = (157975,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kirk, A.D.", "Knox, J.H."], title=u'The pyrolysis of alkyl hydroperoxides in the gas phase', journal="Trans. Faraday Soc.", volume="56", pages="""1296-1303""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Kirk, A.D.", "Knox, J.H."], title=u'The pyrolysis of alkyl hydroperoxides in the gas phase', journal="Trans. Faraday Soc.", volume="56", pages="""1296-1303""", year="1960", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011653/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011653/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011653/rk00000001.xml"""),
     ],
 )
 
@@ -20907,15 +20907,15 @@ entry(
         Ea = (179593,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011653/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011653/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011653/rk00000002.xml"""),
     ],
 )
 
@@ -20946,15 +20946,15 @@ entry(
         Ea = (179593,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combusion modelling. Supplement I', journal="J. Phys. Chem. Ref. Data", volume="23", pages="""847-1033""", year="1994", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011653/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011653/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011653/rk00000003.xml"""),
     ],
 )
 
@@ -20987,15 +20987,15 @@ entry(
         Ea = (167121,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Kirk, A.D.", "Knox, J.H."], title=u'The pyrolysis of alkyl hydroperoxides in the gas phase', journal="Trans. Faraday Soc.", volume="56", pages="""1296-1303""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Kirk, A.D.", "Knox, J.H."], title=u'The pyrolysis of alkyl hydroperoxides in the gas phase', journal="Trans. Faraday Soc.", volume="56", pages="""1296-1303""", year="1960", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011657/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011657/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011657/rk00000001.xml"""),
     ],
 )
 
@@ -21028,15 +21028,15 @@ entry(
         Ea = (105594,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Abuin, E.", "Lissi, E.A."], title=u'Arrhenius Parameters for the Photocleavage of Butan-2-one Triplets', journal="J. Photochem.", volume="5", pages="""65""", year="1975", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Abuin, E.", "Lissi, E.A."], title=u'Arrhenius Parameters for the Photocleavage of Butan-2-one Triplets', journal="J. Photochem.", volume="5", pages="""65""", year="1975", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011751/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011751/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011751/rk00000002.xml"""),
     ],
 )
 
@@ -21065,15 +21065,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000003.xml"""),
     ],
 )
 
@@ -21102,15 +21102,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000004.xml"""),
     ],
 )
 
@@ -21139,15 +21139,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000005.xml"""),
     ],
 )
 
@@ -21176,15 +21176,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000006.xml"""),
     ],
 )
 
@@ -21213,15 +21213,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000007.xml"""),
     ],
 )
 
@@ -21250,15 +21250,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000009.xml"""),
     ],
 )
 
@@ -21287,15 +21287,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000011.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000011.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000011.xml"""),
     ],
 )
 
@@ -21324,15 +21324,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000015.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000015.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000015.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000015.xml"""),
     ],
 )
 
@@ -21361,15 +21361,15 @@ entry(
         Ea = (-5437.66,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baldwin, R.R.", "Jackson, D.", "Walker, R.W.", "Webster, S.J."], title=u'Interpretation of the slow reaction and second limit of hydrogen oxygen mixtures by computer methods', journal="Trans. Faraday Soc.", volume="63", pages="""1676-1686""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
+    reference = Article(authors=["Baldwin, R.R.", "Jackson, D.", "Walker, R.W.", "Webster, S.J."], title=u'Interpretation of the slow reaction and second limit of hydrogen oxygen mixtures by computer methods', journal="Trans. Faraday Soc.", volume="63", pages="""1676-1686""", year="1967", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000017.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000017.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000017.xml"""),
     ],
 )
 
@@ -21398,15 +21398,15 @@ entry(
         Ea = (3184.44,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Cobos, C.J.", "Troe, J."], title=u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results', journal="J. Chem. Phys.", volume="83", pages="""1010-1015""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000020.xml"),
+    reference = Article(authors=["Cobos, C.J.", "Troe, J."], title=u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results', journal="J. Chem. Phys.", volume="83", pages="""1010-1015""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000020.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000020.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000020.xml"""),
     ],
 )
 
@@ -21435,15 +21435,15 @@ entry(
         Ea = (1862.44,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Duchovic, R.J.", "Pettigrew, J.D.", "Welling, B.", "Shipchandler, T."], title=u'Conventional transition state theory/Rice-Ramsperger-Kassel-Marcus theory calculations of thermal termolecular rate coefficients for H(D)+O_2+M', journal="J. Chem. Phys.", volume="105", pages="""10367-10379""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
+    reference = Article(authors=["Duchovic, R.J.", "Pettigrew, J.D.", "Welling, B.", "Shipchandler, T."], title=u'Conventional transition state theory/Rice-Ramsperger-Kassel-Marcus theory calculations of thermal termolecular rate coefficients for H(D)+O_2+M', journal="J. Chem. Phys.", volume="105", pages="""10367-10379""", year="1996", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000022.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000022.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000022.xml"""),
     ],
 )
 
@@ -21472,15 +21472,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Davis, S.G.", "Joshi, A.V.", "Wang, H.", "Egolfopoulos, F."], title=u'An optimized kinetic model of H2/CO Combustion', journal="Proc. Combust. Inst.", volume="30", pages="""1283-1292""", year="2005", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000026.xml"),
+    reference = Article(authors=["Davis, S.G.", "Joshi, A.V.", "Wang, H.", "Egolfopoulos, F."], title=u'An optimized kinetic model of H2/CO Combustion', journal="Proc. Combust. Inst.", volume="30", pages="""1283-1292""", year="2005", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000026.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000026.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000026.xml"""),
     ],
 )
 
@@ -21509,15 +21509,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Davis, S.G.", "Joshi, A.V.", "Wang, H.", "Egolfopoulos, F."], title=u'An optimized kinetic model of H2/CO Combustion', journal="Proc. Combust. Inst.", volume="30", pages="""1283-1292""", year="2005", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000027.xml"),
+    reference = Article(authors=["Davis, S.G.", "Joshi, A.V.", "Wang, H.", "Egolfopoulos, F."], title=u'An optimized kinetic model of H2/CO Combustion', journal="Proc. Combust. Inst.", volume="30", pages="""1283-1292""", year="2005", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000027.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000027.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000027.xml"""),
     ],
 )
 
@@ -21546,15 +21546,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Davis, S.G.", "Joshi, A.V.", "Wang, H.", "Egolfopoulos, F."], title=u'An optimized kinetic model of H2/CO Combustion', journal="Proc. Combust. Inst.", volume="30", pages="""1283-1292""", year="2005", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000028.xml"),
+    reference = Article(authors=["Davis, S.G.", "Joshi, A.V.", "Wang, H.", "Egolfopoulos, F."], title=u'An optimized kinetic model of H2/CO Combustion', journal="Proc. Combust. Inst.", volume="30", pages="""1283-1292""", year="2005", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000028.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000028.xml
 """,
     history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000028.xml"""),
     ],
 )
 
@@ -21597,15 +21597,15 @@ entry(
         Ea = (310130,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Decomposition of 3,4-Dimethylhexane, 2,2,3-Trimethylpentane, tert-Butylcyclohexane, and Related Hydrocarbons', journal="J. Phys. Chem.", volume="76", pages="""143""", year="1972", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Decomposition of 3,4-Dimethylhexane, 2,2,3-Trimethylpentane, tert-Butylcyclohexane, and Related Hydrocarbons', journal="J. Phys. Chem.", volume="76", pages="""143""", year="1972", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011946/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011946/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:51 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:51 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011946/rk00000001.xml"""),
     ],
 )
 
@@ -21648,15 +21648,15 @@ entry(
         Ea = (125549,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Rembaum, A.", "Szwarc, M."], title=u'O-O bond dissociation energies in propionyl and butyryl peroxides', journal="J. Chem. Phys.", volume="23", pages="""909-913""", year="1955", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Rembaum, A.", "Szwarc, M."], title=u'O-O bond dissociation energies in propionyl and butyryl peroxides', journal="J. Chem. Phys.", volume="23", pages="""909-913""", year="1955", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011959/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011959/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:51 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:51 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011959/rk00000001.xml"""),
     ],
 )
 
@@ -21695,15 +21695,15 @@ entry(
         Ea = (296827,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W.", "Walker, J.A."], title=u'Pyrolysis of 1,7-octadiene and the kinetic and thermodynamic stability of allyl and 4-pentenyl radicals', journal="J. Phys. Chem.", volume="96", pages="""8378-8384""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W.", "Walker, J.A."], title=u'Pyrolysis of 1,7-octadiene and the kinetic and thermodynamic stability of allyl and 4-pentenyl radicals', journal="J. Phys. Chem.", volume="96", pages="""8378-8384""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00012437/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012437/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:53 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:53 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012437/rk00000001.xml"""),
     ],
 )
 
@@ -21746,15 +21746,15 @@ entry(
         Ea = (160469,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Sahetchian, K.A.", "Rigny, R.", "Blin, N.", "Heiss, A."], title=u'Homogeneous decomposition of dialkylperoxides in oxygen', journal="J. Chem. Soc. Faraday Trans. 2", volume="83", pages="""2035""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Sahetchian, K.A.", "Rigny, R.", "Blin, N.", "Heiss, A."], title=u'Homogeneous decomposition of dialkylperoxides in oxygen', journal="J. Chem. Soc. Faraday Trans. 2", volume="83", pages="""2035""", year="1987", url="http://warehouse.primekinetics.org/depository/reactions/data/r00012502/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012502/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:54 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012502/rk00000001.xml"""),
     ],
 )
 
@@ -21791,15 +21791,15 @@ entry(
         Ea = (235300,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Roth, W.R.", "Bauer, F.", "Beitat, A.", "Ebbrecht, T.", "Wustefeld, M."], title=u'Die bildungsenthalpie des allyl- und methallyl-radikals', journal="Chem. Ber.", volume="124", pages="""1453-1460""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Roth, W.R.", "Bauer, F.", "Beitat, A.", "Ebbrecht, T.", "Wustefeld, M."], title=u'Die bildungsenthalpie des allyl- und methallyl-radikals', journal="Chem. Ber.", volume="124", pages="""1453-1460""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00012588/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012588/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:54 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012588/rk00000001.xml"""),
     ],
 )
 
@@ -21834,15 +21834,15 @@ entry(
         Ea = (167952,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Sahetchian, K.A.", "Rigny, R.", "Tardieu de Maleissye, J.", "Batt, L.", "Anwar Khan, M.", "Mathews, S."], title=u'The pyrolysis of organic hydroperoxides (ROOH)', journal="Symp. Int. Combust. Proc.", volume="24", pages="""637-643""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Sahetchian, K.A.", "Rigny, R.", "Tardieu de Maleissye, J.", "Batt, L.", "Anwar Khan, M.", "Mathews, S."], title=u'The pyrolysis of organic hydroperoxides (ROOH)', journal="Symp. Int. Combust. Proc.", volume="24", pages="""637-643""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00012661/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012661/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:56 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012661/rk00000001.xml"""),
     ],
 )
 
@@ -21875,15 +21875,15 @@ entry(
         Ea = (53295.8,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Morgan, C.A.", "Pilling, M.J.", "Tulloch, J.M.", "Ruiz, R.P.", "Bayes, K.D."], title=u'Direct determination of the equilibrium constant and thermodynamic parameters for the reaction C_3H_5 + O_2 = C_3H_5O_2', journal="J. Chem. Soc. Faraday Trans. 2", volume="78", pages="""1323""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Morgan, C.A.", "Pilling, M.J.", "Tulloch, J.M.", "Ruiz, R.P.", "Bayes, K.D."], title=u'Direct determination of the equilibrium constant and thermodynamic parameters for the reaction C_3H_5 + O_2 = C_3H_5O_2', journal="J. Chem. Soc. Faraday Trans. 2", volume="78", pages="""1323""", year="1982", url="http://warehouse.primekinetics.org/depository/reactions/data/r00012760/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012760/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012760/rk00000002.xml"""),
     ],
 )
 
@@ -21918,15 +21918,15 @@ entry(
         Ea = (290175,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Rate and mechanism of thermal decomposition of 4-methyl-1-pentyne in a single-pulse shock tube', journal="Int. J. Chem. Kinet.", volume="2", pages="""23""", year="1970", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Rate and mechanism of thermal decomposition of 4-methyl-1-pentyne in a single-pulse shock tube', journal="Int. J. Chem. Kinet.", volume="2", pages="""23""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013061/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013061/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:12 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013061/rk00000001.xml"""),
     ],
 )
 
@@ -21963,15 +21963,15 @@ entry(
         Ea = (270220,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of 3,4-dimethylpentene-1,2,3,3-trimethylpentane, 3,3-dimethylpentane, and isobutylbenzene in a single pulse shock tube', journal="Int. J. Chem. Kinet.", volume="1", pages="""245""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal decomposition of 3,4-dimethylpentene-1,2,3,3-trimethylpentane, 3,3-dimethylpentane, and isobutylbenzene in a single pulse shock tube', journal="Int. J. Chem. Kinet.", volume="1", pages="""245""", year="1969", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013101/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013101/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:12 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013101/rk00000001.xml"""),
     ],
 )
 
@@ -21998,15 +21998,15 @@ entry(
         Ea = (165458,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["McLane, C.K."], title=u'Hydrogen peroxide in the thermal hydrogen oxygen reaction. I. Thermal decomposition of hydrogen peroxide', journal="J. Chem. Phys.", volume="17", pages="""379-385""", year="1949", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["McLane, C.K."], title=u'Hydrogen peroxide in the thermal hydrogen oxygen reaction. I. Thermal decomposition of hydrogen peroxide', journal="J. Chem. Phys.", volume="17", pages="""379-385""", year="1949", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000001.xml"""),
     ],
 )
 
@@ -22033,15 +22033,15 @@ entry(
         Ea = (167952,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["McLane, C.K."], title=u'Hydrogen peroxide in the thermal hydrogen oxygen reaction. I. Thermal decomposition of hydrogen peroxide', journal="J. Chem. Phys.", volume="17", pages="""379-385""", year="1949", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["McLane, C.K."], title=u'Hydrogen peroxide in the thermal hydrogen oxygen reaction. I. Thermal decomposition of hydrogen peroxide', journal="J. Chem. Phys.", volume="17", pages="""379-385""", year="1949", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000002.xml"""),
     ],
 )
 
@@ -22068,15 +22068,15 @@ entry(
         Ea = (201210,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Giguere, P.A.", "Liu, I.D."], title=u'Kinetics of the thermal decomposition of hydrogen peroxide vapor', journal="Can. J. Chem.", volume="35", pages="""283-293""", year="1957", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Giguere, P.A.", "Liu, I.D."], title=u'Kinetics of the thermal decomposition of hydrogen peroxide vapor', journal="Can. J. Chem.", volume="35", pages="""283-293""", year="1957", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000003.xml"""),
     ],
 )
 
@@ -22103,15 +22103,15 @@ entry(
         Ea = (202873,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Brouwer, L.", "Cobos, C.J.", "Troe, J.", "Dubal, H.-R.", "Crim, F.F."], title=u'Specific rate constants k(E,J) and product state distributions in simple bond fission reactions. II. Application to HOOH \u2192 OH + OH', journal="J. Chem. Phys.", volume="86", pages="""6171""", year="1987", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000018.xml"),
+    reference = Article(authors=["Brouwer, L.", "Cobos, C.J.", "Troe, J.", "Dubal, H.-R.", "Crim, F.F."], title=u'Specific rate constants k(E,J) and product state distributions in simple bond fission reactions. II. Application to HOOH \u2192 OH + OH', journal="J. Chem. Phys.", volume="86", pages="""6171""", year="1987", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000018.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000018.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000018.xml"""),
     ],
 )
 
@@ -22138,15 +22138,15 @@ entry(
         Ea = (202873,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000019.xml"),
+    reference = Article(authors=["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."], title=u'Evaluated kinetic data for combustion modelling', journal="J. Phys. Chem. Ref. Data", volume="21", pages="""411-429""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000019.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000019.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000019.xml"""),
     ],
 )
 
@@ -22173,15 +22173,15 @@ entry(
         Ea = (-1700,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000022.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000022.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000022.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000022.xml"""),
     ],
 )
 
@@ -22208,15 +22208,15 @@ entry(
         Ea = (-1700,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000023.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000023.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000023.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000023.xml"""),
     ],
 )
 
@@ -22243,15 +22243,15 @@ entry(
         Ea = (-1700,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000024.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000024.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000024.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000024.xml"""),
     ],
 )
 
@@ -22278,15 +22278,15 @@ entry(
         Ea = (-1700,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000025.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000025.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000025.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000025.xml"""),
     ],
 )
 
@@ -22313,15 +22313,15 @@ entry(
         Ea = (-1700,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000026.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000026.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000026.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000026.xml"""),
     ],
 )
 
@@ -22348,15 +22348,15 @@ entry(
         Ea = (-1700,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000027.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000027.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000027.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000027.xml"""),
     ],
 )
 
@@ -22383,15 +22383,15 @@ entry(
         Ea = (-1700,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000028.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000028.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000028.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000028.xml"""),
     ],
 )
 
@@ -22418,15 +22418,15 @@ entry(
         Ea = (-1700,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000029.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000029.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000029.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000029.xml"""),
     ],
 )
 
@@ -22453,15 +22453,15 @@ entry(
         Ea = (0,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000030.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000030.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000030.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000030.xml"""),
     ],
 )
 
@@ -22488,15 +22488,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000009.xml"""),
     ],
 )
 
@@ -22523,15 +22523,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000010.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000010.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000010.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000010.xml"""),
     ],
 )
 
@@ -22558,15 +22558,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000011.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000011.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000011.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000011.xml"""),
     ],
 )
 
@@ -22593,15 +22593,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000012.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000012.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000012.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000012.xml"""),
     ],
 )
 
@@ -22628,15 +22628,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000013.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000013.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000013.xml"""),
     ],
 )
 
@@ -22663,15 +22663,15 @@ entry(
         Ea = (0,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000014.xml"),
+    reference = Reference(authors=["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."], year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000014.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000014.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000014.xml"""),
     ],
 )
 
@@ -22698,15 +22698,15 @@ entry(
         Ea = (623.585,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Cobos, C.J.", "Troe, J."], title=u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results', journal="J. Chem. Phys.", volume="83", pages="""1010-1015""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000016.xml"),
+    reference = Article(authors=["Cobos, C.J.", "Troe, J."], title=u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results', journal="J. Chem. Phys.", volume="83", pages="""1010-1015""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000016.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000016.xml
 """,
     history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000016.xml"""),
     ],
 )
 
@@ -22737,15 +22737,15 @@ entry(
         Ea = (14300.9,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Jolley, J.E."], title=u'The photooxidation of diethyl ketone', journal="J. Am. Chem. Soc.", volume="79", pages="""1537""", year="1957", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Jolley, J.E."], title=u'The photooxidation of diethyl ketone', journal="J. Am. Chem. Soc.", volume="79", pages="""1537""", year="1957", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000001.xml"""),
     ],
 )
 
@@ -22776,15 +22776,15 @@ entry(
         Ea = (-3517.02,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Munk, J.", "Pagsberg, P.", "Ratajczak, E.", "Sillesen, A."], title=u'Spectrokinetic studies of ethyl and ethylperoxy radicals', journal="J. Phys. Chem.", volume="90", pages="""2752""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000009.xml"),
+    reference = Article(authors=["Munk, J.", "Pagsberg, P.", "Ratajczak, E.", "Sillesen, A."], title=u'Spectrokinetic studies of ethyl and ethylperoxy radicals', journal="J. Phys. Chem.", volume="90", pages="""2752""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000009.xml
 """,
     history = [
-        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000009.xml"""),
     ],
 )
 
@@ -22815,15 +22815,15 @@ entry(
         Ea = (25442.3,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bozzelli, J.W.", "Dean, A.M."], title=u'Chemical activation analysis of the reaction of C_2H_5 with O_2', journal="J. Phys. Chem.", volume="94", pages="""3313""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000013.xml"),
+    reference = Article(authors=["Bozzelli, J.W.", "Dean, A.M."], title=u'Chemical activation analysis of the reaction of C_2H_5 with O_2', journal="J. Phys. Chem.", volume="94", pages="""3313""", year="1990", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000013.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000013.xml
 """,
     history = [
-        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000013.xml"""),
     ],
 )
 
@@ -22854,15 +22854,15 @@ entry(
         Ea = (-2386.25,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Wagner, A.F.", "Slagle, I.R.", "Sarzynski, D.", "Gutman, D."], title=u'Experimental and theoretical studies of the C_2H_5 + O_2 reaction kinetics', journal="J. Phys. Chem.", volume="94", pages="""1853""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000017.xml"),
+    reference = Article(authors=["Wagner, A.F.", "Slagle, I.R.", "Sarzynski, D.", "Gutman, D."], title=u'Experimental and theoretical studies of the C_2H_5 + O_2 reaction kinetics', journal="J. Phys. Chem.", volume="94", pages="""1853""", year="1990", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000017.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000017.xml
 """,
     history = [
-        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000017.xml"""),
     ],
 )
 
@@ -22893,16 +22893,17 @@ entry(
         Ea = (-63.6,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Miller, J.A.", "Klippenstein, S.J."], title=u'The Reaction Between Ethyl and Molecular Oxygen II. Further Analysis', journal="Int J. Chem. Kinet.", volume="33", pages="""654-668""", year="2001", doi="10.1002/kin.1063", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000030.xml"),
+    reference = Article(authors=["Miller, J.A.", "Klippenstein, S.J."], title=u'The Reaction Between Ethyl and Molecular Oxygen II. Further Analysis', journal="Int J. Chem. Kinet.", volume="33", pages="""654-668""", year="2001", doi="10.1002/kin.1063", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000030.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000030.xml
 PrIMe had an error: Corrected the activation energy according to the $k_{p \infty}$ on page 665 of doi:10.1002/kin.1063
 See text on page 663 for clue to the units being cal/mol.
 """,
     history = [
-        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000030.xml"""),
         ("2011-06-20","Richard West <rwest@mit.edu>","action","""Corrected the activation energy according to the $k_{p \infty}$ on page 665 of doi:10.1002/kin.1063"""),
     ],
 )
@@ -22934,15 +22935,15 @@ entry(
         Ea = (21867.1,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."], title=u'Measurements, Theory, and Modeling of OH Formation in Ethyl + O_2 and Propyl + O_2 Reactions', journal="J. Phys. Chem. A", volume="107", pages="""4415-4427""", year="2003", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000031.xml"),
+    reference = Article(authors=["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."], title=u'Measurements, Theory, and Modeling of OH Formation in Ethyl + O_2 and Propyl + O_2 Reactions', journal="J. Phys. Chem. A", volume="107", pages="""4415-4427""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000031.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000031.xml
 """,
     history = [
-        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000031.xml"""),
     ],
 )
 
@@ -22973,15 +22974,15 @@ entry(
         Ea = (143009,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Wagner, A.F.", "Slagle, I.R.", "Sarzynski, D.", "Gutman, D."], title=u'Experimental and theoretical studies of the C_2H_5 + O_2 reaction kinetics', journal="J. Phys. Chem.", volume="94", pages="""1853""", year="1990", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000032.xml"),
+    reference = Article(authors=["Wagner, A.F.", "Slagle, I.R.", "Sarzynski, D.", "Gutman, D."], title=u'Experimental and theoretical studies of the C_2H_5 + O_2 reaction kinetics', journal="J. Phys. Chem.", volume="94", pages="""1853""", year="1990", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000032.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000032.xml
 """,
     history = [
-        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013875/rk00000032.xml"""),
     ],
 )
 
@@ -23022,15 +23023,15 @@ entry(
         Ea = (19622.2,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Lay, T.H.", "Bozzelli, J.W.", "Seinfeld, J.H."], title=u'Atmospheric photochemical oxidation of benzene: benzene + OH and the benzene-OH adduct (hydroxyl-2,4-cyclohexadienyl) + O_2', journal="J. Phys. Chem.", volume="100", pages="""6543-6554""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Lay, T.H.", "Bozzelli, J.W.", "Seinfeld, J.H."], title=u'Atmospheric photochemical oxidation of benzene: benzene + OH and the benzene-OH adduct (hydroxyl-2,4-cyclohexadienyl) + O_2', journal="J. Phys. Chem.", volume="100", pages="""6543-6554""", year="1996", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013891/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013891/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013891/rk00000002.xml"""),
     ],
 )
 
@@ -23071,15 +23072,15 @@ entry(
         Ea = (15880.6,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Lay, T.H.", "Bozzelli, J.W.", "Seinfeld, J.H."], title=u'Atmospheric photochemical oxidation of benzene: benzene + OH and the benzene-OH adduct (hydroxyl-2,4-cyclohexadienyl) + O_2', journal="J. Phys. Chem.", volume="100", pages="""6543-6554""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Lay, T.H.", "Bozzelli, J.W.", "Seinfeld, J.H."], title=u'Atmospheric photochemical oxidation of benzene: benzene + OH and the benzene-OH adduct (hydroxyl-2,4-cyclohexadienyl) + O_2', journal="J. Phys. Chem.", volume="100", pages="""6543-6554""", year="1996", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013891/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013891/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013891/rk00000003.xml"""),
     ],
 )
 
@@ -23112,15 +23113,15 @@ entry(
         Ea = (-7108.87,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hoyermann, K.", "Nacke, F."], title=u'Elementary reactions of the methoxymethyl radical in the gas phase: CH_3OCH_3 + F, CH_2OCH_3 + CH_2OCH_3, CH_2OCH_3 + O_2 and CH_2OCH_3 + O', journal="Symp. Int. Combust. Proc.", volume="26", pages="""505-512""", year="1996", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Hoyermann, K.", "Nacke, F."], title=u'Elementary reactions of the methoxymethyl radical in the gas phase: CH_3OCH_3 + F, CH_2OCH_3 + CH_2OCH_3, CH_2OCH_3 + O_2 and CH_2OCH_3 + O', journal="Symp. Int. Combust. Proc.", volume="26", pages="""505-512""", year="1996", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013961/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013961/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013961/rk00000002.xml"""),
     ],
 )
 
@@ -23153,15 +23154,15 @@ entry(
         Ea = (-2710.52,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Maricq, M.M.", "Szente, J.J.", "Hybl, J.D."], title=u'Kinetic studies of the oxidation of dimethyl ether and its chain reaction with Cl_2', journal="J. Phys. Chem. A", volume="101", pages="""5155-5167""", year="1997", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Maricq, M.M.", "Szente, J.J.", "Hybl, J.D."], title=u'Kinetic studies of the oxidation of dimethyl ether and its chain reaction with Cl_2', journal="J. Phys. Chem. A", volume="101", pages="""5155-5167""", year="1997", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013961/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013961/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013961/rk00000004.xml"""),
     ],
 )
 
@@ -23194,15 +23195,15 @@ entry(
         Ea = (-382.466,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Sehested, J.", "Sehested, K.", "Platz, J.", "Egsgaard, H.", "Nielsen, O.J."], title=u'Oxidation of dimethyl ether: absolute rate constants for the self reaction of CH_3OCH_2 radicals, the reaction of CH_3OCH_2 radicals with O_2, and the thermal decomposition of CH_3OCH_2 radicals', journal="Int. J. Chem. Kinet.", volume="29", pages="""627-636""", year="1997", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000007.xml"),
+    reference = Article(authors=["Sehested, J.", "Sehested, K.", "Platz, J.", "Egsgaard, H.", "Nielsen, O.J."], title=u'Oxidation of dimethyl ether: absolute rate constants for the self reaction of CH_3OCH_2 radicals, the reaction of CH_3OCH_2 radicals with O_2, and the thermal decomposition of CH_3OCH_2 radicals', journal="Int. J. Chem. Kinet.", volume="29", pages="""627-636""", year="1997", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013961/rk00000007.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013961/rk00000007.xml
 """,
     history = [
-        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013961/rk00000007.xml"""),
     ],
 )
 
@@ -23249,15 +23250,15 @@ entry(
         Ea = (152155,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Perona, M.J.", "Golden, D.M."], title=u'Very Low-Pressure Pyrolysis. VIII. The Decomposition of Di-t-Amyl Peroxide', journal="Int. J. Chem. Kinet.", volume="5", pages="""55""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Perona, M.J.", "Golden, D.M."], title=u'Very Low-Pressure Pyrolysis. VIII. The Decomposition of Di-t-Amyl Peroxide', journal="Int. J. Chem. Kinet.", volume="5", pages="""55""", year="1973", url="http://warehouse.primekinetics.org/depository/reactions/data/r00014912/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00014912/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:17 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:17 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00014912/rk00000001.xml"""),
     ],
 )
 
@@ -23292,15 +23293,15 @@ entry(
         Ea = (300152,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Staker, W.S.", "King, K.D.", "Nguyen, T.T."], title=u'Kinetics of the thermal unimolecular decomposition of hex-1-ene-3-yne. Heat of formation and resonance stabilization energy of the 3-ethenylpropargyl radical', journal="Int. J. Chem. Kinet.", volume="24", pages="""781-790""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Staker, W.S.", "King, K.D.", "Nguyen, T.T."], title=u'Kinetics of the thermal unimolecular decomposition of hex-1-ene-3-yne. Heat of formation and resonance stabilization energy of the 3-ethenylpropargyl radical', journal="Int. J. Chem. Kinet.", volume="24", pages="""781-790""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00015258/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015258/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:18 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:18 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015258/rk00000001.xml"""),
     ],
 )
 
@@ -23335,15 +23336,15 @@ entry(
         Ea = (248603,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Dean, A.M."], title=u'Predictions of pressure and temperature effects upon radical addition and recombination reactions', journal="J. Phys. Chem.", volume="89", pages="""4600""", year="1985", url="http://warehouse.primekinetics.org/depository/reactions/data/r00015452/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015452/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:23 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:23 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015452/rk00000001.xml"""),
     ],
 )
 
@@ -23382,15 +23383,15 @@ entry(
         Ea = (238625,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Roth, W.R.", "Bauer, F.", "Beitat, A.", "Ebbrecht, T.", "Wustefeld, M."], title=u'Die bildungsenthalpie des allyl- und methallyl-radikals', journal="Chem. Ber.", volume="124", pages="""1453-1460""", year="1991", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Roth, W.R.", "Bauer, F.", "Beitat, A.", "Ebbrecht, T.", "Wustefeld, M."], title=u'Die bildungsenthalpie des allyl- und methallyl-radikals', journal="Chem. Ber.", volume="124", pages="""1453-1460""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00015596/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015596/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:35:24 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:24 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015596/rk00000004.xml"""),
     ],
 )
 
@@ -23429,15 +23430,15 @@ entry(
         Ea = (150492,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Harris, E.J."], title=u'The decomposition of alkyl peroxides: dipropyl peroxide, ethyl hydrogen peroxide and propyl hydrogen peroxide', journal="Proc. R. Soc. London A", volume="173", pages="""126-146""", year="1939", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Harris, E.J."], title=u'The decomposition of alkyl peroxides: dipropyl peroxide, ethyl hydrogen peroxide and propyl hydrogen peroxide', journal="Proc. R. Soc. London A", volume="173", pages="""126-146""", year="1939", url="http://warehouse.primekinetics.org/depository/reactions/data/r00015703/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015703/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:35:26 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015703/rk00000002.xml"""),
     ],
 )
 
@@ -23476,15 +23477,15 @@ entry(
         Ea = (146335,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["East, R.L.", "Phillips, L."], title=u'Kinetics of disproportionation-combination reactions between the n-propoxyl radical and nitric oxide, and of the pyrolysis of the O-O bond in di-n-propyl peroxide in the gas phase', journal="J. Chem. Soc. A", pages="""331""", year="1970", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["East, R.L.", "Phillips, L."], title=u'Kinetics of disproportionation-combination reactions between the n-propoxyl radical and nitric oxide, and of the pyrolysis of the O-O bond in di-n-propyl peroxide in the gas phase', journal="J. Chem. Soc. A", pages="""331""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00015703/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015703/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:35:26 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015703/rk00000003.xml"""),
     ],
 )
 
@@ -23519,15 +23520,15 @@ entry(
         Ea = (-1662.89,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Maricq, M.M.", "Szente, J.J.", "Hybl, J.D."], title=u'Kinetic studies of the oxidation of dimethyl ether and its chain reaction with Cl_2', journal="J. Phys. Chem. A", volume="101", pages="""5155-5167""", year="1997", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Maricq, M.M.", "Szente, J.J.", "Hybl, J.D."], title=u'Kinetic studies of the oxidation of dimethyl ether and its chain reaction with Cl_2', journal="J. Phys. Chem. A", volume="101", pages="""5155-5167""", year="1997", url="http://warehouse.primekinetics.org/depository/reactions/data/r00015717/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015717/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:35:26 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015717/rk00000002.xml"""),
     ],
 )
 
@@ -23562,15 +23563,15 @@ entry(
         Ea = (298490,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Loucks, L.F.", "Laidler, K.J."], title=u'Thermochemistry of the methoxymethyl radical', journal="Can. J. Chem.", volume="45", pages="""2785-2793""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Loucks, L.F.", "Laidler, K.J."], title=u'Thermochemistry of the methoxymethyl radical', journal="Can. J. Chem.", volume="45", pages="""2785-2793""", year="1967", url="http://warehouse.primekinetics.org/depository/reactions/data/r00015717/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015717/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:35:26 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015717/rk00000004.xml"""),
     ],
 )
 
@@ -23609,15 +23610,15 @@ entry(
         Ea = (153818,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Hughes, G.A.", "Phillips, L."], title=u'The kinetics of disproportionation-combination reactions between the isopropoxyl radical and nitric oxide, and of the pyrolysis of the O-O bond in di-isopropyl peroxide', journal="J. Chem. Soc. A", pages="""894-897""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Hughes, G.A.", "Phillips, L."], title=u'The kinetics of disproportionation-combination reactions between the isopropoxyl radical and nitric oxide, and of the pyrolysis of the O-O bond in di-isopropyl peroxide', journal="J. Chem. Soc. A", pages="""894-897""", year="1967", url="http://warehouse.primekinetics.org/depository/reactions/data/r00015740/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015740/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015740/rk00000001.xml"""),
     ],
 )
 
@@ -23656,15 +23657,15 @@ entry(
         Ea = (155481,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Leggett, C.", "Thynne, J.C.J."], title=u'Thermal decomposition of dialkyl peroxides and heats of formation of the ethoxyl and isopropoxyl radicals', journal="Trans. Faraday Soc.", volume="63", pages="""2504-2509""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Leggett, C.", "Thynne, J.C.J."], title=u'Thermal decomposition of dialkyl peroxides and heats of formation of the ethoxyl and isopropoxyl radicals', journal="Trans. Faraday Soc.", volume="63", pages="""2504-2509""", year="1967", url="http://warehouse.primekinetics.org/depository/reactions/data/r00015740/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015740/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:35:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015740/rk00000002.xml"""),
     ],
 )
 
@@ -23703,15 +23704,15 @@ entry(
         Ea = (163795,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Yee Quee, M.J.", "Thynne, J.C.J."], title=u'Reactions of isopropoxyl radicals', journal="J. Chem. Soc. Faraday Trans.", volume="64", pages="""1296""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Yee Quee, M.J.", "Thynne, J.C.J."], title=u'Reactions of isopropoxyl radicals', journal="J. Chem. Soc. Faraday Trans.", volume="64", pages="""1296""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00015740/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015740/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:35:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015740/rk00000003.xml"""),
     ],
 )
 
@@ -23750,15 +23751,15 @@ entry(
         Ea = (276040,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Pyrolysis of 2,4-Dimethylhexene-1 and the Stability of Isobutenyl Radicals', journal="Int. J. Chem. Kinet.", volume="5", pages="""929""", year="1973", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Pyrolysis of 2,4-Dimethylhexene-1 and the Stability of Isobutenyl Radicals', journal="Int. J. Chem. Kinet.", volume="5", pages="""929""", year="1973", url="http://warehouse.primekinetics.org/depository/reactions/data/r00015745/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015745/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015745/rk00000001.xml"""),
     ],
 )
 
@@ -23793,15 +23794,15 @@ entry(
         Ea = (310961,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["King, K.D.", "Nguyen, T.T."], title=u'Very Low-Pressure Pyrolysis (VLPP) of Pentynes. II. 4-Methylpent-2-yne and 4,4-Dimethyl-pent-2-yne. Heats of Formation and Resonance Stabilization Energies of Methyl-Substituted Propargyl Radicals', journal="Int. J. Chem. Kinet.", volume="13", pages="""255""", year="1981", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["King, K.D.", "Nguyen, T.T."], title=u'Very Low-Pressure Pyrolysis (VLPP) of Pentynes. II. 4-Methylpent-2-yne and 4,4-Dimethyl-pent-2-yne. Heats of Formation and Resonance Stabilization Energies of Methyl-Substituted Propargyl Radicals', journal="Int. J. Chem. Kinet.", volume="13", pages="""255""", year="1981", url="http://warehouse.primekinetics.org/depository/reactions/data/r00016015/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016015/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:33 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016015/rk00000001.xml"""),
     ],
 )
 
@@ -23844,15 +23845,15 @@ entry(
         Ea = (152155,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Walker, R.F.", "Phillips, L."], title=u'The kinetics of disproportionation-combination reactions between the s-butoxy-radical and nitric oxide, and of the pyrolysis of the O-O bond in di-s-butyl peroxide in the gas phase', journal="J. Chem. Soc. London A", pages="""2103-2106""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Walker, R.F.", "Phillips, L."], title=u'The kinetics of disproportionation-combination reactions between the s-butoxy-radical and nitric oxide, and of the pyrolysis of the O-O bond in di-s-butyl peroxide in the gas phase', journal="J. Chem. Soc. London A", pages="""2103-2106""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00016191/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016191/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:35:39 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:39 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016191/rk00000002.xml"""),
     ],
 )
 
@@ -23889,15 +23890,15 @@ entry(
         Ea = (23610.8,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Sun, H.", "Bozzelli, J.W."], title=u'Thermochemical and kinetic analysis on the reactions of neopentyl and hydroperoxy-neopentyl radicals with oxygen: Part I.  OH and initial stable HC product formation', journal="J. Phys. Chem. A", volume="108", pages="""1694-1711""", year="2004", url="http://warehouse.primekinetics.org/depository/reactions/data/r00016216/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016216/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:35:39 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:39 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016216/rk00000003.xml"""),
     ],
 )
 
@@ -23936,15 +23937,15 @@ entry(
         Ea = (305973,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Intermediate Sized Acetylenic Compounds and the Heats of Formation of Propargyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""687""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Intermediate Sized Acetylenic Compounds and the Heats of Formation of Propargyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""687""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00016525/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016525/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:48 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:48 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016525/rk00000001.xml"""),
     ],
 )
 
@@ -23981,15 +23982,15 @@ entry(
         Ea = (291007,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Intermediate Sized Acetylenic Compounds and the Heats of Formation of Propargyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""687""", year="1978", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Tsang, W."], title=u'Thermal Stability of Intermediate Sized Acetylenic Compounds and the Heats of Formation of Propargyl Radicals', journal="Int. J. Chem. Kinet.", volume="10", pages="""687""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00016546/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016546/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:48 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:48 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016546/rk00000001.xml"""),
     ],
 )
 
@@ -24052,15 +24053,15 @@ entry(
         Ea = (116403,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Roth, W.R.", "Hunold, F."], title=u'Bildungsenthalpie und Stabilisierungsenergie des Pentamethylcyclopentadienyl-Radikals', journal="Liebigs Ann.", pages="""1119-1122""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Roth, W.R.", "Hunold, F."], title=u'Bildungsenthalpie und Stabilisierungsenergie des Pentamethylcyclopentadienyl-Radikals', journal="Liebigs Ann.", pages="""1119-1122""", year="1995", url="http://warehouse.primekinetics.org/depository/reactions/data/r00016760/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016760/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:57 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:57 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016760/rk00000001.xml"""),
     ],
 )
 

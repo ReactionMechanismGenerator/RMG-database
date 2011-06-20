@@ -36,15 +36,15 @@ entry(
         Ea = (128043,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Blake, P.G.", "Hinshelwood, C."], title=u'The homogeneous decomposition reactions of gaseous formic acid', journal="Proc. R. Soc. London A", volume="255", pages="""444-455""", year="1960", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Blake, P.G.", "Hinshelwood, C."], title=u'The homogeneous decomposition reactions of gaseous formic acid', journal="Proc. R. Soc. London A", volume="255", pages="""444-455""", year="1960", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001636/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001636/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001636/rk00000001.xml"""),
     ],
 )
 
@@ -77,15 +77,15 @@ entry(
         Ea = (202873,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Blake, P.G.", "Davies, H.H.", "Jackson, G.E."], title=u'Dehydration Mechanisms in the Thermal Decomposition of Gaseous Formic Acid', journal="J. Chem. Soc. B", volume="10", pages="""1923""", year="1971", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Blake, P.G.", "Davies, H.H.", "Jackson, G.E."], title=u'Dehydration Mechanisms in the Thermal Decomposition of Gaseous Formic Acid', journal="J. Chem. Soc. B", volume="10", pages="""1923""", year="1971", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001636/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001636/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001636/rk00000002.xml"""),
     ],
 )
 
@@ -118,15 +118,15 @@ entry(
         Ea = (259412,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bamford, C.H.", "Dewar, M.J.S."], title=u'608. The thermal decomposition of acetic acid', journal="J. Chem. Soc.", pages="""2877-2882""", year="1949", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Bamford, C.H.", "Dewar, M.J.S."], title=u'608. The thermal decomposition of acetic acid', journal="J. Chem. Soc.", pages="""2877-2882""", year="1949", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000001.xml"""),
     ],
 )
 
@@ -159,15 +159,15 @@ entry(
         Ea = (244445,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Blake, P.G.", "Jackson, G.E."], title=u'The thermal decomposition of acetic acid', journal="J. Chem. Soc. B", pages="""1153-1155""", year="1968", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Blake, P.G.", "Jackson, G.E."], title=u'The thermal decomposition of acetic acid', journal="J. Chem. Soc. B", pages="""1153-1155""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000002.xml"""),
     ],
 )
 
@@ -200,15 +200,15 @@ entry(
         Ea = (291838,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Blake, P.G.", "Jackson, G.E."], title=u'High- and low-temperature mechanisms in the thermal decomposition of acetic acid', journal="J. Chem. Soc. B", pages="""94-96""", year="1969", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Blake, P.G.", "Jackson, G.E."], title=u'High- and low-temperature mechanisms in the thermal decomposition of acetic acid', journal="J. Chem. Soc. B", pages="""94-96""", year="1969", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000003.xml"""),
     ],
 )
 
@@ -241,15 +241,15 @@ entry(
         Ea = (304310,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Mackie, J.C.", "Doolan, K.R."], title=u'High-temperature kinetics of thermal decomposition of acetic acid and its products', journal="Int. J. Chem. Kinet.", volume="16", pages="""525""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Mackie, J.C.", "Doolan, K.R."], title=u'High-temperature kinetics of thermal decomposition of acetic acid and its products', journal="Int. J. Chem. Kinet.", volume="16", pages="""525""", year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000004.xml"""),
     ],
 )
 
@@ -282,15 +282,15 @@ entry(
         Ea = (295164,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Mackie, J.C.", "Doolan, K.R."], title=u'High-temperature kinetics of thermal decomposition of acetic acid and its products', journal="Int. J. Chem. Kinet.", volume="16", pages="""525""", year="1984", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000005.xml"),
+    reference = Article(authors=["Mackie, J.C.", "Doolan, K.R."], title=u'High-temperature kinetics of thermal decomposition of acetic acid and its products', journal="Int. J. Chem. Kinet.", volume="16", pages="""525""", year="1984", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000005.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000005.xml"""),
     ],
 )
 
@@ -323,15 +323,15 @@ entry(
         Ea = (311793,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Duan, X.", "Page, M."], title=u'Theoretical investigation of competing mechanisms in the thermal unimolecular decomposition of acetic acid and the hydration reaction of ketene', journal="J. Am. Chem. Soc.", volume="117", pages="""5114-5119""", year="1995", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000006.xml"),
+    reference = Article(authors=["Duan, X.", "Page, M."], title=u'Theoretical investigation of competing mechanisms in the thermal unimolecular decomposition of acetic acid and the hydration reaction of ketene', journal="J. Am. Chem. Soc.", volume="117", pages="""5114-5119""", year="1995", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000006.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000006.xml
 """,
     history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000006.xml"""),
     ],
 )
 
@@ -366,15 +366,15 @@ entry(
         Ea = (206199,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Blake, P.G.", "Hole, K.J."], title=u'The thermal decomposition of propionic acid', journal="J. Chem. Soc. B", pages="""577-579""", year="1966", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Blake, P.G.", "Hole, K.J."], title=u'The thermal decomposition of propionic acid', journal="J. Chem. Soc. B", pages="""577-579""", year="1966", url="http://warehouse.primekinetics.org/depository/reactions/data/r00003987/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003987/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:38 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:38 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003987/rk00000001.xml"""),
     ],
 )
 
@@ -419,15 +419,15 @@ entry(
         Ea = (101437,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Colussi, A.J.", "Amorebieta, V.T.", "Grela, M.A."], title=u'Very low pressure pyrolysis of phenylacetic acid', journal="J. Chem. Soc. Faraday Trans.", volume="88", pages="""2125-2127""", year="1992", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Colussi, A.J.", "Amorebieta, V.T.", "Grela, M.A."], title=u'Very low pressure pyrolysis of phenylacetic acid', journal="J. Chem. Soc. Faraday Trans.", volume="88", pages="""2125-2127""", year="1992", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004480/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004480/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:44 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:44 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004480/rk00000001.xml"""),
     ],
 )
 
@@ -466,15 +466,15 @@ entry(
         Ea = (129706,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Cao, J.-R.", "Back, R.A."], title=u'The thermolysis and photolysis of malonic acid in the gas phase', journal="Can. J. Chem.", volume="64", pages="""967""", year="1986", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Cao, J.-R.", "Back, R.A."], title=u'The thermolysis and photolysis of malonic acid in the gas phase', journal="Can. J. Chem.", volume="64", pages="""967""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00006301/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006301/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:33:58 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:33:58 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006301/rk00000001.xml"""),
     ],
 )
 
@@ -521,15 +521,15 @@ entry(
         Ea = (3349.13,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Chuchani, G.", "Martin, I."], title=u'ELIMINATION KINETICS OF DL-MANDELIC ACID IN THE GAS PHASE', journal="J. Phys. Org. Chem.", volume="10", pages="""121-124""", year="1997", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Chuchani, G.", "Martin, I."], title=u'ELIMINATION KINETICS OF DL-MANDELIC ACID IN THE GAS PHASE', journal="J. Phys. Org. Chem.", volume="10", pages="""121-124""", year="1997", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008130/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008130/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008130/rk00000001.xml"""),
     ],
 )
 
@@ -566,15 +566,15 @@ entry(
         Ea = (162132,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Smith, G.G.", "Blau, S.E."], title=u'Decarboxylation. I. Kinetic study of the vapor phase thermal decarboxylation of 3-butenoic acid', journal="J. Phys. Chem.", volume="68", pages="""1231-1234""", year="1964", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Smith, G.G.", "Blau, S.E."], title=u'Decarboxylation. I. Kinetic study of the vapor phase thermal decarboxylation of 3-butenoic acid', journal="J. Phys. Chem.", volume="68", pages="""1231-1234""", year="1964", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008316/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008316/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008316/rk00000001.xml"""),
     ],
 )
 
@@ -611,15 +611,15 @@ entry(
         Ea = (167952,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bigley, D.B.", "Weatherhead, R.H.", "May, R.W."], title=u'Studies in Decarboxylation. Part 10. Effect of \u03b2-Substituents on the Rate of Gas-phase Decarboxylation of \u03b2\u03b2\u03b2\u03b2\u03c0\u03b2-Unsaturated Acids', journal="J. Chem. Soc. Perkin Trans. 2", pages="""745""", year="1977", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000003.xml"),
+    reference = Article(authors=["Bigley, D.B.", "Weatherhead, R.H.", "May, R.W."], title=u'Studies in Decarboxylation. Part 10. Effect of \u03b2-Substituents on the Rate of Gas-phase Decarboxylation of \u03b2\u03b2\u03b2\u03b2\u03c0\u03b2-Unsaturated Acids', journal="J. Chem. Soc. Perkin Trans. 2", pages="""745""", year="1977", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008316/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008316/rk00000003.xml
 """,
     history = [
-        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008316/rk00000003.xml"""),
     ],
 )
 
@@ -656,15 +656,15 @@ entry(
         Ea = (190401,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bigley, D.B.", "Clarke, M.J."], title=u'Studies in Decarboxylation. Part 14. The Gas-phase Decarboxylation of But-3-enoic Acid and the Intermediacy of Isocrotonic (cis-But-2-enoic) Acid in its Isomerization to Crotonic (trans-But-2-enoic) Acid', journal="J. Chem. Soc. Perkin Trans. 2", pages="""1""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000004.xml"),
+    reference = Article(authors=["Bigley, D.B.", "Clarke, M.J."], title=u'Studies in Decarboxylation. Part 14. The Gas-phase Decarboxylation of But-3-enoic Acid and the Intermediacy of Isocrotonic (cis-But-2-enoic) Acid in its Isomerization to Crotonic (trans-But-2-enoic) Acid', journal="J. Chem. Soc. Perkin Trans. 2", pages="""1""", year="1982", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008316/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008316/rk00000004.xml
 """,
     history = [
-        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:15 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008316/rk00000004.xml"""),
     ],
 )
 
@@ -707,15 +707,15 @@ entry(
         Ea = (133863,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bigley, D.B.", "May, R.W."], title=u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids', journal="J. Chem. Soc. B", pages="""557-559""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Bigley, D.B.", "May, R.W."], title=u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids', journal="J. Chem. Soc. B", pages="""557-559""", year="1967", url="http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:34:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:56 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000001.xml"""),
     ],
 )
 
@@ -758,15 +758,15 @@ entry(
         Ea = (143009,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Al-Borno, A.", "Bigley, D.B."], title=u'Studies in Decarboxylation. Par t 15. The Effects of 3-Substitution on the Rate of Decarboxylation of \u03b2\u03b2\u03c0\u03b2-Unsaturated Acids', journal="J. Chem. Soc. Perkin Trans. 2", pages="""15""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Al-Borno, A.", "Bigley, D.B."], title=u'Studies in Decarboxylation. Par t 15. The Effects of 3-Substitution on the Rate of Decarboxylation of \u03b2\u03b2\u03c0\u03b2-Unsaturated Acids', journal="J. Chem. Soc. Perkin Trans. 2", pages="""15""", year="1982", url="http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:34:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:34:56 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000002.xml"""),
     ],
 )
 
@@ -805,15 +805,15 @@ entry(
         Ea = (172941,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bigley, D.B.", "Weatherhead, R.H."], title=u'Studies in Decarboxylation. Part VIII. The Gas-phase Pyrolysis of \u03b2\u03c0-Acetylenic Acids', journal="J. Chem. Soc. Perkin Trans. 2", pages="""592""", year="1976", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Bigley, D.B.", "Weatherhead, R.H."], title=u'Studies in Decarboxylation. Part VIII. The Gas-phase Pyrolysis of \u03b2\u03c0-Acetylenic Acids', journal="J. Chem. Soc. Perkin Trans. 2", pages="""592""", year="1976", url="http://warehouse.primekinetics.org/depository/reactions/data/r00012860/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012860/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:01 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:01 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012860/rk00000001.xml"""),
     ],
 )
 
@@ -854,15 +854,15 @@ entry(
         Ea = (148829,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bigley, D.B.", "May, R.W."], title=u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids', journal="J. Chem. Soc. B", pages="""557-559""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Bigley, D.B.", "May, R.W."], title=u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids', journal="J. Chem. Soc. B", pages="""557-559""", year="1967", url="http://warehouse.primekinetics.org/depository/reactions/data/r00014891/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00014891/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:16 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:16 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00014891/rk00000001.xml"""),
     ],
 )
 
@@ -903,15 +903,15 @@ entry(
         Ea = (154649,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Al-Borno, A.", "Bigley, D.B."], title=u'Studies in Decarboxylation. Par t 15. The Effects of 3-Substitution on the Rate of Decarboxylation of \u03b2\u03b2\u03c0\u03b2-Unsaturated Acids', journal="J. Chem. Soc. Perkin Trans. 2", pages="""15""", year="1982", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000002.xml"),
+    reference = Article(authors=["Al-Borno, A.", "Bigley, D.B."], title=u'Studies in Decarboxylation. Par t 15. The Effects of 3-Substitution on the Rate of Decarboxylation of \u03b2\u03b2\u03c0\u03b2-Unsaturated Acids', journal="J. Chem. Soc. Perkin Trans. 2", pages="""15""", year="1982", url="http://warehouse.primekinetics.org/depository/reactions/data/r00014891/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00014891/rk00000002.xml
 """,
     history = [
-        ("Tue May 17 14:35:16 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:16 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00014891/rk00000002.xml"""),
     ],
 )
 
@@ -954,15 +954,15 @@ entry(
         Ea = (164627,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bigley, D.B.", "May, R.W."], title=u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids', journal="J. Chem. Soc. B", pages="""557-559""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Bigley, D.B.", "May, R.W."], title=u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids', journal="J. Chem. Soc. B", pages="""557-559""", year="1967", url="http://warehouse.primekinetics.org/depository/reactions/data/r00015735/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015735/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:27 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015735/rk00000001.xml"""),
     ],
 )
 
@@ -1009,15 +1009,15 @@ entry(
         Ea = (146335,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bigley, D.B.", "May, R.W."], title=u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids', journal="J. Chem. Soc. B", pages="""557-559""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Bigley, D.B.", "May, R.W."], title=u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids', journal="J. Chem. Soc. B", pages="""557-559""", year="1967", url="http://warehouse.primekinetics.org/depository/reactions/data/r00015736/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015736/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:27 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:27 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015736/rk00000001.xml"""),
     ],
 )
 
@@ -1064,15 +1064,15 @@ entry(
         Ea = (121391,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Bigley, D.B.", "May, R.W."], title=u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids', journal="J. Chem. Soc. B", pages="""557-559""", year="1967", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000001.xml"),
+    reference = Article(authors=["Bigley, D.B.", "May, R.W."], title=u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids', journal="J. Chem. Soc. B", pages="""557-559""", year="1967", url="http://warehouse.primekinetics.org/depository/reactions/data/r00015737/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015737/rk00000001.xml
 """,
     history = [
-        ("Tue May 17 14:35:28 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Tue May 17 14:35:28 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015737/rk00000001.xml"""),
     ],
 )
 
