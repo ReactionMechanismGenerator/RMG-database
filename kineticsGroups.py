@@ -126,7 +126,9 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits):
     for entry in entries:
         if groupValues[entry] is not None:
             entry.data = KineticsData(Tdata=(Tdata,"K"), kdata=(groupValues[entry],kunits))
-            entry.data.kdata.uncertainties = numpy.array(groupUncertainties[entry])
+            if not any(numpy.isnan(numpy.array(groupUncertainties[entry]))):
+                entry.data.kdata.uncertainties = numpy.array(groupUncertainties[entry])
+                entry.data.kdata.uncertaintyType = '*|/'
         else:
             entry.data = None
 
