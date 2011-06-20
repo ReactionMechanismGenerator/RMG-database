@@ -23,7 +23,7 @@ entry(
     label = "R2OO",
     group = 
 """
-1  *1 {C,Si} 0 {2,S} {5,S}
+1  *1 {C,Si,O} 0 {2,S} {5,S}
 2  *2 {C,Si} 0 {1,S} {3,S}
 3  *3 O 0 {2,S} {4,S}
 4  *4 O 1 {3,S}
@@ -40,6 +40,7 @@ u"""
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 10:40:16 2011","Richard West <rwest@mit.edu>","action","""Modified the group definition to allow O at *1 site, after MRHarper's change to old RMG database."""),
     ],
 )
 
@@ -1253,6 +1254,61 @@ u"""
     ],
 )
 
+entry(
+    index = 45,
+    label = "OCOO",
+    group = 
+"""
+1  *1 O 0 {2,S} {5,S}
+2  *2 C 0 {1,S} {3,S} {6,S} {7,S}
+3  *3 O 0 {2,S} {4,S}
+4  *4 O 1 {3,S}
+5  *5 H 0 {1,S}
+6     R 0 {2,S}
+7     R 0 {2,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Jun 20 10:40:16 2011","Richard West <rwest@mit.edu>","action","""Added this group definition, which MRHarper recently added to the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 46,
+    label = "HOCH[OO]CH3",
+    group = 
+"""
+1  *1 O 0 {2,S} {5,S}
+2  *2 C 0 {1,S} {3,S} {6,S} {7,S}
+3  *3 O 0 {2,S} {4,S}
+4  *4 O 1 {3,S}
+5  *5 H 0 {1,S}
+6     H 0 {2,S}
+7     C 0 {2,S} {8,S} {9,S} {10,S}
+8     H 0 {7,S}
+9     H 0 {7,S}
+10    H 0 {7,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Jun 20 10:40:16 2011","Richard West <rwest@mit.edu>","action","""Added this group definition, which MRHarper recently added to the old RMG database."""),
+    ],
+)
+
 tree(
 """
 L1: R2OO
@@ -1299,6 +1355,8 @@ L1: R2OO
         L3: R2OO_DeDe_NdNd
         L3: R2OO_DeDe_NdDe
         L3: R2OO_DeDe_DeDe
+    L2: OCOO
+        L3: HOCH[OO]CH3
 """
 )
 
