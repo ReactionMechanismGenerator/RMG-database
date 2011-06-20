@@ -477,17 +477,17 @@ MRH 1-Sept-2009
 entry(
     index = 424,
     label = "COm;C_methyl",
-    group1 =
+    group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2 O 0 {1,D}
+1  *1 C {2S,2T} {2,D}
+2     O 0 {1,D}
 """,
-    group2 =
+    group2 = 
 """
-1 *2 C 1 {2,S}, {3,S}, {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
+1  *2 C 1 {2,S} {3,S} {4,S}
+2     H 0 {1,S}
+3     H 0 {1,S}
+4     H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.06e+06,"cm^3/(mol*s)","*|/",3),
@@ -501,7 +501,7 @@ entry(
     referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
-    longDesc =
+    longDesc = 
 u"""
 CH3 + CO = CH3CO
 MRH CBS-QB3 calculations with 1D hindered rotor corrections [MRHCBSQB31DHR]_.
@@ -522,24 +522,23 @@ temperatures used were from 600 K to 2000 K (in 200 K increments).
     ],
 )
 
-
 entry(
     index = 425,
     label = "COm;CH2CH3",
-    group1 =
+    group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2 O 0 {1,D}
+1  *1 C {2S,2T} {2,D}
+2     O 0 {1,D}
 """,
-    group2 =
+    group2 = 
 """
-1 *2 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,S} {5,S} {6,S} {7,S}
-5 H 0 {4,S}
-6 H 0 {4,S}
-7 H 0 {4,S}
+1  *2 C 1 {2,S} {3,S} {4,S}
+2     H 0 {1,S}
+3     H 0 {1,S}
+4     C 0 {1,S} {5,S} {6,S} {7,S}
+5     H 0 {4,S}
+6     H 0 {4,S}
+7     H 0 {4,S}
 """,
     kinetics = ArrheniusEP(
         A = (7.70e+07,"cm^3/(mol*s)","*|/",3),
@@ -553,7 +552,7 @@ entry(
     referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
-    longDesc =
+    longDesc = 
 u"""
 CH3CH2 + CO = CH3CH2CO
 MRH CBS-QB3 calculations with 1D hindered rotor corrections [MRHCBSQB31DHR]_.
@@ -577,23 +576,23 @@ temperatures used were from 600 K to 2000 K (in 200 K increments).
 entry(
     index = 426,
     label = "COm;CH2CH2CH3",
-    group1 =
+    group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2 O 0 {1,D}
+1  *1 C {2S,2T} {2,D}
+2     O 0 {1,D}
 """,
-    group2 =
+    group2 = 
 """
-1 *2 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 C 0 {1,S} {5,S} {6,S} {7,S}
-5 H 0 {4,S}
-6 H 0 {4,S}
-7 C 0 {4,S} {8,S} {9,S} {10,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
-10 H 0 {7,S}
+1  *2 C 1 {2,S} {3,S} {4,S}
+2     H 0 {1,S}
+3     H 0 {1,S}
+4     C 0 {1,S} {5,S} {6,S} {7,S}
+5     H 0 {4,S}
+6     H 0 {4,S}
+7     C 0 {4,S} {8,S} {9,S} {10,S}
+8     H 0 {7,S}
+9     H 0 {7,S}
+10    H 0 {7,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.51e+10,"cm^3/(mol*s)","*|/",3),
@@ -607,7 +606,7 @@ entry(
     referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
-    longDesc =
+    longDesc = 
 u"""
 CH3CH2CH2 + CO = CH3CH2CH2CO
 MRH CBS-QB3 calculations with 1D hindered rotor corrections [MRHCBSQB31DHR]_.
@@ -631,23 +630,23 @@ temperatures used were from 600 K to 2000 K (in 200 K increments).
 entry(
     index = 427,
     label = "COm;CH[CH3]2",
-    group1 =
+    group1 = 
 """
-1 *1 C {2S,2T} {2,D}
-2 O 0 {1,D}
+1  *1 C {2S,2T} {2,D}
+2     O 0 {1,D}
 """,
-    group2 =
+    group2 = 
 """
-1 *2 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 C 0 {1,S} {5,S} {6,S} {7,S}
-4 C 0 {1,S} {8,S} {9,S} {10,S}
-5 H 0 {3,S}
-6 H 0 {3,S}
-7 H 0 {3,S}
-8 H 0 {4,S}
-9 H 0 {4,S}
-10 H 0 {4,S}
+1  *2 C 1 {2,S} {3,S} {4,S}
+2     H 0 {1,S}
+3     C 0 {1,S} {5,S} {6,S} {7,S}
+4     C 0 {1,S} {8,S} {9,S} {10,S}
+5     H 0 {3,S}
+6     H 0 {3,S}
+7     H 0 {3,S}
+8     H 0 {4,S}
+9     H 0 {4,S}
+10    H 0 {4,S}
 """,
     kinetics = ArrheniusEP(
         A = (8.61e+07,"cm^3/(mol*s)","*|/",3),
@@ -661,7 +660,7 @@ entry(
     referenceType = "",
     rank = 3,
     shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
-    longDesc =
+    longDesc = 
 u"""
 CH3CHCH3 + CO = CH3CH(CO)CH3
 MRH CBS-QB3 calculations with 1D hindered rotor corrections [MRHCBSQB31DHR]_.
