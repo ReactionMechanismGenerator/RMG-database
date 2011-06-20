@@ -15,6 +15,7 @@ import numpy
 import pylab
 
 from rmgpy.kinetics import Arrhenius, ArrheniusEP, KineticsData
+from rmgpy.group import Group
 
 from importOldDatabase import getUsername
 user = getUsername()
@@ -47,34 +48,47 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
     groups = database.kinetics.groups[family]
     
     print 'Categorizing reactions in training and test sets for {0}'.format(family)
-    trainingSet = []
+    trainingSets = []
     for label in trainingSetLabels:
+        trainingSet = []
         for entry in database.kinetics.depository['{0}/{1}'.format(family,label)].entries.values():
             if isinstance(entry.data, ArrheniusEP):
                 if entry.data.alpha.value != 0:
                     continue # skip things with Evans-Polanyi values
             reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family, thermoDatabase=database.thermo)
             trainingSet.append([reaction, template, entry])
-    testSet = []
+        if len(trainingSet) > 0:
+            trainingSets.append([label, trainingSet])
+    testSets = []
     for label in testSetLabels:
+        testSet = []
         for entry in database.kinetics.depository['{0}/{1}'.format(family,label)].entries.values():
             reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family, thermoDatabase=database.thermo)
             testSet.append([reaction, template, entry])
-    
+        if len(testSet) > 0:
+            testSets.append([label, testSet])
+        
     print 'Fitting new group additivity values for {0}...'.format(family)
     kdata_training = []
-    for reaction, template, entry in trainingSet:
-        if isinstance(reaction.kinetics, Arrhenius) or isinstance(reaction.kinetics, KineticsData):
-            kdata_training.append([(reaction.kinetics.getRateCoefficient(T) / reaction.degeneracy) for T in Tdata])
-        elif isinstance(reaction.kinetics, ArrheniusEP):
-            kdata_training.append([(reaction.kinetics.getRateCoefficient(T, 0) / reaction.degeneracy) for T in Tdata])
-        else:
-            raise Exception('Unexpected kinetics model of type {0} for reaction {1}.'.format(reaction.kinetics.__class__, reaction))
-    kdata_training = numpy.array(kdata_training, numpy.float64)
+    for label, trainingSet in trainingSets:
+        kdata = []
+        for reaction, template, entry in trainingSet:
+            if isinstance(reaction.kinetics, Arrhenius) or isinstance(reaction.kinetics, KineticsData):
+                kdata.append([(reaction.kinetics.getRateCoefficient(T) / reaction.degeneracy) for T in Tdata])
+            elif isinstance(reaction.kinetics, ArrheniusEP):
+                kdata.append([(reaction.kinetics.getRateCoefficient(T, 0) / reaction.degeneracy) for T in Tdata])
+            else:
+                raise Exception('Unexpected kinetics model of type {0} for reaction {1}.'.format(reaction.kinetics.__class__, reaction))
+        kdata = numpy.array(kdata, numpy.float64)
+        kdata_training.append(kdata)
     
     kunits = getRateCoefficientUnits(family)
-    trainingTemplates = [template for reaction, template, entry in trainingSet]
-    groupValues, groupUncertainties, groupCounts, kmodel = groups.fitGroupValues(trainingTemplates, Tdata, kdata_training, kunits)
+    trainingKinetics = []
+    for kdata in kdata_training:
+        trainingKinetics.extend(list(kdata))
+    trainingKinetics = numpy.array(trainingKinetics, numpy.float64)
+    trainingTemplates = [template for label, trainingSet in trainingSets for reaction, template, entry in trainingSet]
+    groupValues, groupUncertainties, groupCounts, kmodel = groups.fitGroupValues(trainingTemplates, Tdata, trainingKinetics, kunits)
     # Add a note to the history of each item indicating that we've generated new group values
     event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
     for label, entry in groups.entries.iteritems():
@@ -83,24 +97,31 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
     
     # Evaluate kmodel for the training set
     kmodel_training = []
-    for reaction, template, entry in trainingSet:
-        kinetics = groups.getKineticsForTemplate(template, degeneracy=1)
-        kmodel_training.append([kinetics.getRateCoefficient(T) for T in Tdata])
-    kmodel_training = numpy.array(kmodel_training, numpy.float64)
+    for label, trainingSet in trainingSets:
+        kmodel = []
+        for reaction, template, entry in trainingSet:
+            kinetics = groups.getKineticsForTemplate(template, degeneracy=1)
+            kmodel.append([kinetics.getRateCoefficient(T) for T in Tdata])
+        kmodel = numpy.array(kmodel, numpy.float64)
+        kmodel_training.append(kmodel)
     
     # Evaluate kdata and kmodel for the test set
     kdata_test = []; kmodel_test = []
-    for reaction, template, entry in testSet:
-        kinetics = groups.getKineticsForTemplate(template, degeneracy=1)
-        kmodel_test.append([kinetics.getRateCoefficient(T) for T in Tdata])
-        if isinstance(reaction.kinetics, Arrhenius) or isinstance(reaction.kinetics, KineticsData):
-            kdata_test.append([(reaction.kinetics.getRateCoefficient(T) / reaction.degeneracy) for T in Tdata])
-        elif isinstance(reaction.kinetics, ArrheniusEP):
-            kdata_test.append([(reaction.kinetics.getRateCoefficient(T, 0) / reaction.degeneracy) for T in Tdata])
-        else:
-            raise Exception('Unexpected kinetics model of type {0} for reaction {1}.'.format(reaction.kinetics.__class__, reaction))
-    kdata_test = numpy.array(kdata_test, numpy.float64)
-    kmodel_test = numpy.array(kmodel_test, numpy.float64)
+    for label, testSet in testSets:
+        kdata = []; kmodel = []
+        for reaction, template, entry in testSet:
+            kinetics = groups.getKineticsForTemplate(template, degeneracy=1)
+            kmodel.append([kinetics.getRateCoefficient(T) for T in Tdata])
+            if isinstance(reaction.kinetics, Arrhenius) or isinstance(reaction.kinetics, KineticsData):
+                kdata.append([(reaction.kinetics.getRateCoefficient(T) / reaction.degeneracy) for T in Tdata])
+            elif isinstance(reaction.kinetics, ArrheniusEP):
+                kdata.append([(reaction.kinetics.getRateCoefficient(T, 0) / reaction.degeneracy) for T in Tdata])
+            else:
+                raise Exception('Unexpected kinetics model of type {0} for reaction {1}.'.format(reaction.kinetics.__class__, reaction))
+        kdata = numpy.array(kdata, numpy.float64)
+        kdata_test.append(kdata)
+        kmodel = numpy.array(kmodel, numpy.float64)
+        kmodel_test.append(kmodel)
     
     if plot:
         # Print the group values
@@ -131,66 +152,86 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
         print '=============================== =========== =========== =========== ======='
         
         # Generate plots
-        generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmodel_test, groups, trainingSet, testSet, family)
+        generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmodel_test, groups, trainingSets, testSets, family)
     
 ################################################################################
 
-def generateParityPlot(T, kdata_training, kmodel_training, kdata_test, kmodel_test, ci, trainingSet, testSet, family):
-    """
-    Generate and show a parity plot of the predicted and actual values of k(T)
-    at a given temperature `T`. The predicted (model) and actual (data) k(T)
-    values are split into a training set (used to train the model) and a test
-    set (not used to train the model). The `ci` parameter gives the overall
-    uncertainty in the model at that temperature.
-    """
-    fig = pylab.figure(figsize=(8,6))
-    pylab.loglog(kdata_training, kmodel_training, 'ob', picker=5)
-    pylab.loglog(kdata_test, kmodel_test, 'or', picker=5)
-    
-    xlim = pylab.xlim()
-    ylim = pylab.ylim()
-    lim = (min(xlim[0], ylim[0])*0.1, max(xlim[1], ylim[1])*10)
-    pylab.loglog(lim, lim, '-k')
-    pylab.loglog(lim, [lim[0] * 10**ci, lim[1] * 10**ci], '--k')
-    pylab.loglog(lim, [lim[0] / 10**ci, lim[1] / 10**ci], '--k')
-    pylab.xlabel('Actual rate coefficient')
-    pylab.ylabel('Predicted rate coefficient')
-    pylab.title('%s, T = %g K' % (family, T))
-    pylab.xlim(lim)
-    pylab.ylim(lim)
-
-    def onpick(event):
-        thisline = event.artist
-        kdata = thisline.get_xdata()
-        kmodel = thisline.get_ydata()
-        if len(kdata) == len(trainingSet):
-            data = trainingSet
-        else:
-            data = testSet
-        for ind in event.ind:
-            reaction, template, entry = data[ind]
-            kunits = 'm^3/(mol*s)' if len(reaction.reactants) == 2 else 's^-1'
-            print 'template = [%s]' % (', '.join([g.label for g in template]))
-            print 'entry = %r' % (entry)
-            print '%s' % (reaction)
-            print 'k_data   = %9.2e %s' % (kdata[ind], kunits)
-            print 'k_model  = %9.2e %s' % (kmodel[ind], kunits)
-
-    connection_id = fig.canvas.mpl_connect('pick_event', onpick)
-
-    pylab.show()
-
-def generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmodel_test, groups, trainingSet, testSet, family):
+def generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmodel_test, groups, trainingSets, testSets, family):
     """
     Generate and show a set of parity plots of the predicted and actual values 
     of k(T) at various temperature. The predicted (model) and actual (data) k(T)
     values are split into a training set (used to train the model) and a test
     set (not used to train the model).
     """
+    import matplotlib.pyplot as plt
+    from matplotlib.widgets import CheckButtons
+    
     for t, T in enumerate(Tdata):
         ci = math.log10(groups.top[0].data.kdata.uncertainties[t])
-        generateParityPlot(T, kdata_training[:,t], kmodel_training[:,t], kdata_test[:,t], kmodel_test[:,t], ci, trainingSet, testSet, family)
+        
+        fig = pylab.figure(figsize=(10,8))
+        ax = plt.subplot(1, 1, 1)
+        
+        lines = []
+        for index in range(len(kdata_training)):
+            lines.append(ax.loglog(kdata_training[index][:,t], kmodel_training[index][:,t], 'o', picker=5)[0])
+        for index in range(len(kdata_test)):
+            lines.append(ax.loglog(kdata_test[index][:,t], kmodel_test[index][:,t], 's', picker=5)[0])
+        
+        legend = []
+        for label, trainingSet in trainingSets:
+            legend.append(label)
+        for label, testSet in testSets:
+            legend.append(label)
 
+        xlim = pylab.xlim()
+        ylim = pylab.ylim()
+        lim = (min(xlim[0], ylim[0])*0.1, max(xlim[1], ylim[1])*10)
+        ax.loglog(lim, lim, '-k')
+        ax.loglog(lim, [lim[0] * 10**ci, lim[1] * 10**ci], '--k')
+        ax.loglog(lim, [lim[0] / 10**ci, lim[1] / 10**ci], '--k')
+        pylab.xlabel('Actual rate coefficient')
+        pylab.ylabel('Predicted rate coefficient')
+        pylab.legend(legend, loc=4)
+        pylab.title('%s, T = %g K' % (family, T))
+        pylab.xlim(lim)
+        pylab.ylim(lim)
+
+        rax = plt.axes([0.15, 0.65, 0.2, 0.2])
+        check = CheckButtons(rax, legend, [True for label in legend])
+
+        def func(label):
+            for index in range(len(lines)):
+                if legend[index] == label:
+                    lines[index].set_visible(not lines[index].get_visible())
+            plt.draw()
+        check.on_clicked(func)
+        
+        def onpick(event):
+            index = lines.index(event.artist)
+            if index < len(trainingSets):
+                label, data = trainingSets[index]
+                kdata = kdata_training[index][:,t]
+                kmodel = kmodel_training[index][:,t]
+            else:
+                index = index - len(trainingSets)
+                label, data = testSets[index]
+                kdata = kdata_test[index][:,t]
+                kmodel = kmodel_test[index][:,t]
+            for ind in event.ind:
+                reaction, template, entry = data[ind]
+                kunits = 'm^3/(mol*s)' if len(reaction.reactants) == 2 else 's^-1'
+                print label
+                print 'template = [%s]' % (', '.join([g.label for g in template]))
+                print 'entry = %r' % (entry)
+                print '%s' % (reaction)
+                print 'k_data   = %9.2e %s' % (kdata[ind], kunits)
+                print 'k_model  = %9.2e %s' % (kmodel[ind], kunits)
+
+        connection_id = fig.canvas.mpl_connect('pick_event', onpick)
+
+        pylab.show()
+        
 ################################################################################
 
 def generate(args, database):
@@ -205,7 +246,8 @@ def generate(args, database):
             database = database,
             family = family,
             Tdata = Tdata,
-            trainingSetLabels = ['rules','training'],
+            trainingSetLabels = ['rules', 'training'],
+            testSetLabels = ['PrIMe', 'test'],
             plot = False,
         )
     print 'Saving new kinetics group values...'
@@ -223,8 +265,8 @@ def evaluate(args, database):
         database = database,
         family = family,
         Tdata = Tdata,
-        trainingSetLabels = ['rules'],
-        testSetLabels = ['PrIMe'],
+        trainingSetLabels = ['rules', 'training'],
+        testSetLabels = ['PrIMe', 'test'],
         plot = True,
     )
 
