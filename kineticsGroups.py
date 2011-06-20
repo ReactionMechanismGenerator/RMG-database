@@ -204,7 +204,7 @@ def generate(args, database):
             database = database,
             family = family,
             Tdata = Tdata,
-            trainingSetLabels = ['rules'],
+            trainingSetLabels = ['rules','training'],
             plot = False,
         )
     print 'Saving RMG database...'
