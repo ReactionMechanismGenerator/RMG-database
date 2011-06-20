@@ -214,7 +214,7 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
     event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
     for label, entry in groups.entries.iteritems():
         if entry.data is not None:
-            if old_entries.has_key(label) and all(abs(entry.data.kdata.values/old_entries[label]-1)<0.01):
+            if old_entries.has_key(label) and len(old_entries[label]) == len(entry.data.kdata.values) and all(abs(entry.data.kdata.values/old_entries[label]-1)<0.01):
                 #print "New group values within 1% of old."
                 pass
             else:
