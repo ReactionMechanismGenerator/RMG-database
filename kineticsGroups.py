@@ -8,6 +8,7 @@ training or test set. You can change the reaction family and the training and
 test sets at the bottom of the file.
 """
 
+import os.path
 import time
 import math
 import numpy
@@ -207,8 +208,8 @@ def generate(args, database):
             trainingSetLabels = ['rules','training'],
             plot = False,
         )
-    print 'Saving RMG database...'
-    database.save('input')
+    print 'Saving new kinetics group values...'
+    database.kinetics.groups.save(os.path.join('input', 'kinetics', 'groups'))
     
 def evaluate(args, database):
     """
