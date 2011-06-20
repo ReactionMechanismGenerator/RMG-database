@@ -28,7 +28,7 @@ used in evaluating the partition functions).
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Sat Jun 11 17:37:00 2011","Richard West <rwest@mit.edu>","action","""RWest added Michael Harper's comment about why the thermo is 'None'"""),
-        ],
+    ],
 )
 
 entry(
