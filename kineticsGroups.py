@@ -264,7 +264,7 @@ def generate(args, database):
             plot = False,
         )
     print 'Saving new kinetics group values...'
-    database.kinetics.groups.save(os.path.join('input', 'kinetics', 'groups'))
+    database.kinetics.saveGroups(os.path.join('input', 'kinetics', 'groups'))
     
 def evaluate(args, database):
     """
