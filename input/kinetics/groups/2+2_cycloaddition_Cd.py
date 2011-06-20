@@ -20,13 +20,15 @@ entry(
     index = 1,
     label = "db",
     group = "OR{db_2H, db_HNd, db_HDe, db_Nd2, db_NdDe, db_De2}",
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([2.68369e-32,3.92919e-23,1.30118e-17,6.42842e-14,2.81702e-09,1.80092e-06,0.0109807,0.928935],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([2.68369e-32,3.92919e-23,1.30118e-17,6.42842e-14,2.81702e-09,1.80092e-06,0.0109807,0.928935],"m^3/(mol*s)","*|/",[5.62792e+59,9.79934e+43,1.83946e+34,3.98448e+27,8.89963e+18,3.07436e+13,423361,17.4021])),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+[<Entry index=3 label="db_2H">, <Entry index=96 label="mb_OC">]
+[<Entry index=1 label="db">, <Entry index=2 label="doublebond">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -64,10 +66,11 @@ entry(
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.0052357,0.0209216,0.0491941,0.0883751,0.189056,0.305557,0.609811,0.896683],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=3 label="db_2H">, <Entry index=96 label="mb_OC">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2345,10 +2348,11 @@ entry(
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.0052357,0.0209216,0.0491941,0.0883751,0.189056,0.305557,0.609811,0.896683],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=3 label="db_2H">, <Entry index=96 label="mb_OC">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),

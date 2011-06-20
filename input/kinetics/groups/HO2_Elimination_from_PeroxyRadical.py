@@ -29,18 +29,33 @@ entry(
 4  *4 O 1 {3,S}
 5  *5 H 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([6.68789e-16,1.69352e-10,3.08795e-07,4.74309e-05,0.0269938,1.26814,235.765,3457.04],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([3.99149e-14,3.54807e-09,3.44175e-06,0.000346397,0.115808,3.94192,473.868,5559.09],"m^3/(mol*s)","*|/",[15.3284,6.34153,3.71136,2.5861,1.63442,1.23343,1.19567,1.46717])),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [14, 14, 14, 14, 14, 14, 14, 14] rates.
+[<Entry index=3 label="R2OO_2H_2H">]
+[<Entry index=28 label="R2OO_NdNd_NdNd">]
+[<Entry index=25 label="R2OO_NdNd_2H">]
+[<Entry index=26 label="R2OO_NdNd_HNd">]
+[<Entry index=12 label="R2OO_HNd_HNd">]
+[<Entry index=1 label="R2OO">]
+[<Entry index=45 label="OCOO">]
+[<Entry index=6 label="CH3CH(OO)CHCH2">]
+[<Entry index=5 label="R2OO_2H_HDe">]
+[<Entry index=14 label="R2OO_HNd_NdNd">]
+[<Entry index=46 label="HOCH[OO]CH3">]
+[<Entry index=4 label="R2OO_2H_HNd">]
+[<Entry index=11 label="R2OO_HNd_2H">]
+[<Entry index=7 label="R2OO_2H_NdNd">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
         ("Mon Jun 20 10:40:16 2011","Richard West <rwest@mit.edu>","action","""Modified the group definition to allow O at *1 site, after MRHarper's change to old RMG database."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -57,17 +72,23 @@ entry(
 6     H 0 {1,S}
 7     H 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([2.49629,1.63536,1.31213,1.1585,1.03165,0.99514,1.01893,1.09086],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.0418263,0.0780572,0.117725,0.158629,0.240469,0.320141,0.506952,0.678374],"m^3/(mol*s)","*|/",[1,1,1,1,1,1,1,1])),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [5, 5, 5, 5, 5, 5, 5, 5] rates.
+[<Entry index=5 label="R2OO_2H_HDe">]
+[<Entry index=3 label="R2OO_2H_2H">]
+[<Entry index=6 label="CH3CH(OO)CHCH2">]
+[<Entry index=4 label="R2OO_2H_HNd">]
+[<Entry index=7 label="R2OO_2H_NdNd">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -86,17 +107,19 @@ entry(
 8     H 0 {2,S}
 9     H 0 {2,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.0700398,0.120281,0.173548,0.227891,0.336723,0.443927,0.702222,0.948063],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.00117355,0.0057411,0.0155708,0.0312042,0.0784874,0.142813,0.349379,0.589573],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=3 label="R2OO_2H_2H">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -115,17 +138,19 @@ entry(
 8     H 0 {2,S}
 9     {Cs,O} 0 {2,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.136885,0.229549,0.318042,0.39946,0.541215,0.65979,0.888907,1.05969],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.00229356,0.0109565,0.0285349,0.0546966,0.126153,0.212258,0.442261,0.658989],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=4 label="R2OO_2H_HNd">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -144,17 +169,20 @@ entry(
 8     H 0 {2,S}
 9     {Cd,Ct,Cb,CO} 0 {2,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([90.8707,15.8243,5.82406,3.09039,1.48343,1.00318,0.661444,0.583389],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([1.52258,0.755306,0.522537,0.423155,0.345775,0.322729,0.32909,0.362793],"m^3/(mol*s)","*|/",[1,1,1,1,1,1,1,1])),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+[<Entry index=6 label="CH3CH(OO)CHCH2">]
+[<Entry index=5 label="R2OO_2H_HDe">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -177,17 +205,19 @@ entry(
 12    H 0 {11,S}
 13    H 0 {11,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([90.8707,15.8243,5.82406,3.09039,1.48343,1.00318,0.661444,0.583389],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([1.52258,0.755306,0.522537,0.423155,0.345775,0.322729,0.32909,0.362793],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=6 label="CH3CH(OO)CHCH2">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -206,17 +236,19 @@ entry(
 8     {Cs,O} 0 {2,S}
 9     {Cs,O} 0 {2,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([1.22441,1.69182,2.07746,2.40024,2.91396,3.31087,4.02166,4.51766],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.0205155,0.0807517,0.186391,0.328657,0.67922,1.06512,2.00091,2.8094],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=7 label="R2OO_2H_NdNd">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -289,17 +321,21 @@ entry(
 6     H 0 {1,S}
 7     {Cs,O} 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.290811,0.361159,0.405261,0.433343,0.463035,0.474752,0.475591,0.464336],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.00487265,0.0172384,0.0363601,0.0593361,0.10793,0.15273,0.236622,0.288757],"m^3/(mol*s)","*|/",[1,1,1,1,1,1,1,1])),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+[<Entry index=12 label="R2OO_HNd_HNd">]
+[<Entry index=11 label="R2OO_HNd_2H">]
+[<Entry index=14 label="R2OO_HNd_NdNd">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -318,17 +354,19 @@ entry(
 8     H 0 {2,S}
 9     H 0 {2,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.113295,0.153985,0.190855,0.224729,0.285789,0.340361,0.458631,0.560429],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.00189831,0.00734983,0.0171235,0.0307713,0.0666151,0.109496,0.228184,0.348514],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=11 label="R2OO_HNd_2H">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -347,17 +385,19 @@ entry(
 8     H 0 {2,S}
 9     {Cs,O} 0 {2,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.214269,0.278245,0.328017,0.367952,0.428713,0.473565,0.549833,0.600276],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.00359016,0.0132809,0.0294298,0.0503824,0.0999296,0.152348,0.27356,0.373294],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=12 label="R2OO_HNd_HNd">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -404,17 +444,19 @@ entry(
 8     {Cs,O} 0 {2,S}
 9     {Cs,O} 0 {2,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([1.01312,1.09948,1.06317,0.984111,0.810266,0.663866,0.426587,0.297595],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.0169752,0.052479,0.0953884,0.134751,0.188867,0.213569,0.212241,0.185066],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=14 label="R2OO_HNd_NdNd">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -681,17 +723,21 @@ entry(
 6     {Cs,O} 0 {1,S}
 7     {Cs,O} 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.874571,1.23638,1.45694,1.57906,1.65847,1.63519,1.46203,1.2848],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.0146538,0.0590134,0.130717,0.216215,0.386576,0.526048,0.727409,0.798982],"m^3/(mol*s)","*|/",[1,1,1,1,1,1,1,1])),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+[<Entry index=26 label="R2OO_NdNd_HNd">]
+[<Entry index=28 label="R2OO_NdNd_NdNd">]
+[<Entry index=25 label="R2OO_NdNd_2H">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -710,17 +756,19 @@ entry(
 8     H 0 {2,S}
 9     H 0 {2,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.110908,0.172011,0.227641,0.277493,0.362606,0.432995,0.568702,0.670534],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.0018583,0.00821022,0.020424,0.0379962,0.0845206,0.139297,0.282948,0.416986],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=25 label="R2OO_NdNd_2H">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -739,17 +787,19 @@ entry(
 8     H 0 {2,S}
 9     {Cs,O} 0 {2,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.413591,0.536665,0.618463,0.673323,0.736112,0.765433,0.781867,0.771271],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.00692988,0.0256155,0.0554887,0.0921956,0.171582,0.246244,0.389005,0.479631],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=26 label="R2OO_NdNd_HNd">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -796,17 +846,19 @@ entry(
 8     {Cs,O} 0 {2,S}
 9     {Cs,O} 0 {2,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([14.5832,20.4737,21.9663,21.0726,17.09,13.1921,7.02831,4.10093],"m^3/(mol*s)")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.244347,0.977224,1.97083,2.8854,3.98355,4.24395,3.49682,2.55025],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=28 label="R2OO_NdNd_NdNd">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
         ("Fri Jun  3 13:21:56 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -1267,16 +1319,19 @@ entry(
 6     R 0 {2,S}
 7     R 0 {2,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([4.51929e+10,8.45685e+07,1.91714e+06,151732,6235,902.098,65.9276,17.2901],"m^3/(mol*s)","*|/",[1,1,1,1,1,1,1,1])),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+[<Entry index=45 label="OCOO">]
+[<Entry index=46 label="HOCH[OO]CH3">]
 """,
     history = [
         ("Mon Jun 20 10:40:16 2011","Richard West <rwest@mit.edu>","action","""Added this group definition, which MRHarper recently added to the old RMG database."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -1296,16 +1351,18 @@ entry(
 9     H 0 {7,S}
 10    H 0 {7,S}
 """,
-    kinetics = None,
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([4.51929e+10,8.45685e+07,1.91714e+06,151732,6235,902.098,65.9276,17.2901],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=46 label="HOCH[OO]CH3">]
 """,
     history = [
         ("Mon Jun 20 10:40:16 2011","Richard West <rwest@mit.edu>","action","""Added this group definition, which MRHarper recently added to the old RMG database."""),
+        ("Mon Jun 20 17:29:30 2011","Richard West <rwest@mit.edu>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 

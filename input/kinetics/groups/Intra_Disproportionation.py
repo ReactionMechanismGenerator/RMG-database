@@ -21,13 +21,18 @@ entry(
     index = 1,
     label = "Y_birad",
     group = "OR{Y_biCyc3, Y_biCyc4, Y_biCyc5, Y_biCyc6, Y_biCyc7}",
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([4.48463e+06,2.63766e+08,3.19786e+09,1.74527e+10,1.54553e+11,6.01663e+11,4.10455e+12,1.16712e+13],"s^-1")),
+    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([4.48463e+06,2.63766e+08,3.19786e+09,1.74527e+10,1.54553e+11,6.01663e+11,4.10455e+12,1.16712e+13],"s^-1","*|/",[1,1,1,1,1,1,1,1])),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [5, 5, 5, 5, 5, 5, 5, 5] rates.
+[<Entry index=6 label="Y_biCyc5">, <Entry index=2 label="Y_rad">, <Entry index=3 label="XH_Rrad">]
+[<Entry index=7 label="Y_biCyc6">, <Entry index=2 label="Y_rad">, <Entry index=3 label="XH_Rrad">]
+[<Entry index=4 label="Y_biCyc3">, <Entry index=2 label="Y_rad">, <Entry index=3 label="XH_Rrad">]
+[<Entry index=8 label="Y_biCyc7">, <Entry index=2 label="Y_rad">, <Entry index=3 label="XH_Rrad">]
+[<Entry index=5 label="Y_biCyc4">, <Entry index=2 label="Y_rad">, <Entry index=3 label="XH_Rrad">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -90,10 +95,11 @@ entry(
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.454582,0.553617,0.623114,0.674227,0.744054,0.789376,0.854127,0.888468],"s^-1")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=4 label="Y_biCyc3">, <Entry index=2 label="Y_rad">, <Entry index=3 label="XH_Rrad">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -115,10 +121,11 @@ entry(
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([5.05732e-06,0.000106645,0.000664282,0.00224885,0.0103269,0.0257737,0.0872538,0.160542],"s^-1")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=5 label="Y_biCyc4">, <Entry index=2 label="Y_rad">, <Entry index=3 label="XH_Rrad">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -133,10 +140,11 @@ entry(
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([8.55972,5.00432,3.6264,2.9257,2.23703,1.90431,1.53636,1.37997],"s^-1")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=6 label="Y_biCyc5">, <Entry index=2 label="Y_rad">, <Entry index=3 label="XH_Rrad">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -151,10 +159,11 @@ entry(
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([5936.73,676.333,183.708,77.0502,26.0064,13.5539,5.68473,3.68156],"s^-1")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=7 label="Y_biCyc6">, <Entry index=2 label="Y_rad">, <Entry index=3 label="XH_Rrad">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -169,10 +178,11 @@ entry(
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([8.55972,5.00432,3.6264,2.9257,2.23703,1.90431,1.53636,1.37997],"s^-1")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=8 label="Y_biCyc7">, <Entry index=2 label="Y_rad">, <Entry index=3 label="XH_Rrad">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),

@@ -25,10 +25,11 @@ entry(
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([1e+07,1e+07,1e+07,1e+07,1e+07,1e+07,1e+07,1e+07],"m^3/(mol*s)")),
     reference = None,
     referenceType = "",
-    shortDesc = u"""""",
+    shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-
+Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+[<Entry index=1 label="Y_rad">, <Entry index=2 label="Oa">]
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
