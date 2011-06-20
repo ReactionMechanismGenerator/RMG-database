@@ -504,6 +504,61 @@ u"""
 
 entry(
     index = 23,
+    label = "CH2CH3",
+    group = 
+"""
+1  *2 C 1 {2,S} {3,S} {4,S}
+2     H 0 {1,S}
+3     H 0 {1,S}
+4     C 0 {1,S} {5,S} {6,S} {7,S}
+5     H 0 {4,S}
+6     H 0 {4,S}
+7     H 0 {4,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Jun 20 10:40:16 2011","Richard West <rwest@mit.edu>","action","""Added this group definition, which MRHarper recently added to the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 24,
+    label = "CH2CH2CH3",
+    group = 
+"""
+1  *2 C 1 {2,S} {3,S} {4,S}
+2     H 0 {1,S}
+3     H 0 {1,S}
+4     C 0 {1,S} {5,S} {6,S} {7,S}
+5     H 0 {4,S}
+6     H 0 {4,S}
+7     C 0 {4,S} {8,S} {9,S} {10,S}
+8     H 0 {7,S}
+9     H 0 {7,S}
+10    H 0 {7,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Jun 20 10:40:16 2011","Richard West <rwest@mit.edu>","action","""Added this group definition, which MRHarper recently added to the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 25,
     label = "C_rad/H2/Cd",
     group = 
 """
@@ -526,7 +581,7 @@ u"""
 )
 
 entry(
-    index = 24,
+    index = 26,
     label = "C_rad/H2/Ct",
     group = 
 """
@@ -549,7 +604,7 @@ u"""
 )
 
 entry(
-    index = 25,
+    index = 27,
     label = "C_rad/H2/Cb",
     group = 
 """
@@ -572,7 +627,7 @@ u"""
 )
 
 entry(
-    index = 26,
+    index = 28,
     label = "C_rad/H2/CO",
     group = 
 """
@@ -595,7 +650,7 @@ u"""
 )
 
 entry(
-    index = 27,
+    index = 29,
     label = "C_rad/H2/O",
     group = 
 """
@@ -618,7 +673,7 @@ u"""
 )
 
 entry(
-    index = 28,
+    index = 30,
     label = "C_sec_rad",
     group = 
 """
@@ -641,7 +696,7 @@ u"""
 )
 
 entry(
-    index = 29,
+    index = 31,
     label = "C_rad/H/NonDeC",
     group = 
 """
@@ -664,7 +719,36 @@ u"""
 )
 
 entry(
-    index = 30,
+    index = 32,
+    label = "CH[CH3]2",
+    group = 
+"""
+1  *2 C 1 {2,S} {3,S} {4,S}
+2     H 0 {1,S}
+3     C 0 {1,S} {5,S} {6,S} {7,S}
+4     C 0 {1,S} {8,S} {9,S} {10,S}
+5     H 0 {3,S}
+6     H 0 {3,S}
+7     H 0 {3,S}
+8     H 0 {4,S}
+9     H 0 {4,S}
+10    H 0 {4,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Jun 20 10:40:16 2011","Richard West <rwest@mit.edu>","action","""Added this group definition, which MRHarper recently added to the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 33,
     label = "C_rad/H/NonDeO",
     group = 
 """
@@ -687,7 +771,7 @@ u"""
 )
 
 entry(
-    index = 31,
+    index = 34,
     label = "C_rad/H/CsO",
     group = 
 """
@@ -710,7 +794,7 @@ u"""
 )
 
 entry(
-    index = 32,
+    index = 35,
     label = "C_rad/H/O2",
     group = 
 """
@@ -733,7 +817,7 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 36,
     label = "C_rad/H/OneDe",
     group = 
 """
@@ -756,7 +840,7 @@ u"""
 )
 
 entry(
-    index = 34,
+    index = 37,
     label = "C_rad/H/OneDeC",
     group = 
 """
@@ -779,7 +863,7 @@ u"""
 )
 
 entry(
-    index = 35,
+    index = 38,
     label = "C_rad/H/OneDeO",
     group = 
 """
@@ -802,7 +886,7 @@ u"""
 )
 
 entry(
-    index = 36,
+    index = 39,
     label = "C_rad/H/TwoDe",
     group = 
 """
@@ -825,7 +909,7 @@ u"""
 )
 
 entry(
-    index = 37,
+    index = 40,
     label = "C_ter_rad",
     group = 
 """
@@ -848,7 +932,7 @@ u"""
 )
 
 entry(
-    index = 38,
+    index = 41,
     label = "C_rad/NonDeC",
     group = 
 """
@@ -871,7 +955,7 @@ u"""
 )
 
 entry(
-    index = 39,
+    index = 42,
     label = "C_rad/Cs3",
     group = 
 """
@@ -894,7 +978,7 @@ u"""
 )
 
 entry(
-    index = 40,
+    index = 43,
     label = "C_rad/NDMustO",
     group = 
 """
@@ -917,7 +1001,7 @@ u"""
 )
 
 entry(
-    index = 41,
+    index = 44,
     label = "C_rad/OneDe",
     group = 
 """
@@ -940,7 +1024,7 @@ u"""
 )
 
 entry(
-    index = 42,
+    index = 45,
     label = "C_rad/OD_Cs2",
     group = 
 """
@@ -963,7 +1047,7 @@ u"""
 )
 
 entry(
-    index = 43,
+    index = 46,
     label = "C_rad/ODMustO",
     group = 
 """
@@ -986,7 +1070,7 @@ u"""
 )
 
 entry(
-    index = 44,
+    index = 47,
     label = "C_rad/TwoDe",
     group = 
 """
@@ -1009,7 +1093,7 @@ u"""
 )
 
 entry(
-    index = 45,
+    index = 48,
     label = "C_rad/TD_Cs",
     group = 
 """
@@ -1032,7 +1116,7 @@ u"""
 )
 
 entry(
-    index = 46,
+    index = 49,
     label = "C_rad/TDMustO",
     group = 
 """
@@ -1055,7 +1139,7 @@ u"""
 )
 
 entry(
-    index = 47,
+    index = 50,
     label = "C_rad/ThreeDe",
     group = 
 """
@@ -1101,6 +1185,8 @@ L1: Y_rad
         L3: C_methyl
         L3: C_pri_rad
             L4: C_rad/H2/Cs
+                L5: CH2CH3
+                L5: CH2CH2CH3
             L4: C_rad/H2/Cd
             L4: C_rad/H2/Ct
             L4: C_rad/H2/Cb
@@ -1108,6 +1194,7 @@ L1: Y_rad
             L4: C_rad/H2/O
         L3: C_sec_rad
             L4: C_rad/H/NonDeC
+                L5: CH[CH3]2
             L4: C_rad/H/NonDeO
                 L5: C_rad/H/CsO
                 L5: C_rad/H/O2
