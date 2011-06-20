@@ -9217,7 +9217,7 @@ Fitting with two parameter modified Arrhenius equation; A estimated using TST- a
     history = [
         ("Tue May 17 14:34:51 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
         ("Wed Jun 15 13:08:15 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect values of preexponential and activation energy."""),
-        ("2011-06-20","Richard West <rwest@mit.edu>","action","""Fixed typo in A and added detail to longDesc.""")
+        ("2011-06-20","Richard West <rwest@mit.edu>","action","""Fixed typo in A and added detail to longDesc."""),
     ],
 )
 

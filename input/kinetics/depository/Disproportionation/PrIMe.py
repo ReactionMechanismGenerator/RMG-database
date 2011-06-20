@@ -4786,18 +4786,20 @@ entry(
     kinetics = Arrhenius(
         A = (6.85e-12,"cm^3/(mol*s)"),
         n = 6.53,
-        Ea = (-13779.8,"J/mol"),
+        Ea = (-834,"cal/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Miller, J.A.", "Klippenstein, S.J."], title=u'The Reaction Between Ethyl and Molecular Oxygen II. Further Analysis', journal="Int J. Chem. Kinet.", volume="33", pages="""654-668""", year="2001", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000033.xml"),
+    reference = Article(authors=["Miller, J.A.", "Klippenstein, S.J."], title=u'The Reaction Between Ethyl and Molecular Oxygen II. Further Analysis', journal="Int J. Chem. Kinet.", volume="33", pages="""654-668""", year="2001", doi="10.1002/kin.1063", url="http://warehouse.primekinetics.org/depository/kinetics/catalog/rk00000033.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+PrIMe had an error: Corrected the activation energy according to the $k_{p \infty}$ on page 665 of doi:10.1002/kin.1063
+See text on page 663 for clue to the units being cal/mol.
 """,
     history = [
         ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("2011-06-20","Richard West <rwest@mit.edu>","action","""Corrected the activation energy according to the $k_{p \infty}$ on page 665 of doi:10.1002/kin.1063"""),
     ],
 )
 
