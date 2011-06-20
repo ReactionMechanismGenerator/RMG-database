@@ -518,7 +518,7 @@ In computing k(T), an asymmetric tunneling correction was employed, the calculat
 temperatures used were from 600 K to 2000 K (in 200 K increments).
 """,
     history = [
-        ("Fri Jun 10 17:16:47 2011","connie","action","""connie imported this entry from the old RMG database."""),
+        ("Fri Jun 10 17:16:47 2011","Connie Gao <connieg@mit.edu>","action","""connie imported this entry from the old RMG database."""),
     ],
 )
 
@@ -570,7 +570,7 @@ In computing k(T), an asymmetric tunneling correction was employed, the calculat
 temperatures used were from 600 K to 2000 K (in 200 K increments).
 """,
     history = [
-        ("Fri Jun 10 17:16:47 2011","connie","action","""connie imported this entry from the old RMG database."""),
+        ("Fri Jun 10 17:16:47 2011","Connie Gao <connieg@mit.edu>","action","""connie imported this entry from the old RMG database."""),
     ],
 )
 
@@ -624,7 +624,7 @@ In computing k(T), an asymmetric tunneling correction was employed, the calculat
 temperatures used were from 600 K to 2000 K (in 200 K increments).
 """,
     history = [
-        ("Fri Jun 10 17:16:47 2011","connie","action","""connie imported this entry from the old RMG database."""),
+        ("Fri Jun 10 17:16:47 2011","Connie Gao <connieg@mit.edu>","action","""connie imported this entry from the old RMG database."""),
     ],
 )
 
@@ -678,6 +678,6 @@ In computing k(T), an asymmetric tunneling correction was employed, the calculat
 temperatures used were from 600 K to 2000 K (in 200 K increments).
 """,
     history = [
-        ("Fri Jun 10 17:16:47 2011","connie","action","""connie imported this entry from the old RMG database."""),
+        ("Fri Jun 10 17:16:47 2011","Connie Gao <connieg@mit.edu>","action","""connie imported this entry from the old RMG database."""),
     ],
 )
