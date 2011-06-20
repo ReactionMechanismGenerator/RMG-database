@@ -24,7 +24,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -44,7 +43,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -71,7 +69,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -96,7 +93,6 @@ entry(
     shortDesc = u"""Cyclopropene ring BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -123,7 +119,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -148,7 +143,6 @@ entry(
     shortDesc = u"""Enthalpy from doi:10.1021/j100005a002 (S and Cp from Cyclopropene row above)""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -175,7 +169,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -200,7 +193,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -227,7 +219,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -253,7 +244,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -278,7 +268,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -306,7 +295,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -332,7 +320,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -360,7 +347,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -387,7 +373,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -413,7 +398,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -442,7 +426,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -463,7 +446,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -491,7 +473,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -517,7 +498,6 @@ entry(
     shortDesc = u"""Cyclobutene ring BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -545,7 +525,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -571,7 +550,6 @@ entry(
     shortDesc = u"""Beta-Propiolactone ring BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -599,7 +577,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -625,7 +602,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -653,7 +629,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -679,7 +654,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -708,7 +682,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -736,7 +709,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -763,7 +735,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -793,7 +764,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -815,7 +785,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -844,7 +813,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -871,7 +839,6 @@ entry(
     shortDesc = u"""Cyclopentene ring BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -900,7 +867,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -927,7 +893,6 @@ entry(
     shortDesc = u"""CY/C4O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -956,7 +921,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -983,7 +947,6 @@ entry(
     shortDesc = u"""1,3-Dioxolane ring BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1012,7 +975,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1039,7 +1001,6 @@ entry(
     shortDesc = u"""Dihydro-2,5-furandione ring BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1068,7 +1029,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1095,7 +1055,6 @@ entry(
     shortDesc = u"""Cyclopentanone ring BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1124,7 +1083,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1151,7 +1109,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1180,7 +1137,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1207,7 +1163,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1236,7 +1191,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1263,7 +1217,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1293,7 +1246,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1321,7 +1273,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1352,7 +1303,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1376,7 +1326,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1399,7 +1348,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1429,7 +1377,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1457,7 +1404,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1487,7 +1433,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1515,7 +1460,6 @@ entry(
     shortDesc = u"""1,4-Dioxane ring BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1545,7 +1489,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1573,7 +1516,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1603,7 +1545,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1631,7 +1572,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1661,7 +1601,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1684,7 +1623,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1714,7 +1652,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1737,7 +1674,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1769,7 +1705,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1792,7 +1727,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1817,7 +1751,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1840,7 +1773,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1870,7 +1802,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1898,7 +1829,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1928,7 +1858,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1956,7 +1885,6 @@ entry(
     shortDesc = u"""3,4-Dihydro-2H-pyran ring BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1986,7 +1914,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2014,7 +1941,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2044,7 +1970,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2072,7 +1997,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2102,7 +2026,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2125,7 +2048,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2155,7 +2077,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2178,7 +2099,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2208,7 +2128,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2236,7 +2155,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2266,7 +2184,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2289,7 +2206,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2318,7 +2234,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2349,7 +2264,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2372,7 +2286,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2401,7 +2314,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2432,7 +2344,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2455,7 +2366,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2485,7 +2395,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2517,7 +2426,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2548,7 +2456,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2571,7 +2478,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2600,7 +2506,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2632,7 +2537,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2656,7 +2560,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2687,7 +2590,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2716,7 +2618,6 @@ entry(
     shortDesc = u"""Cycloheptene ring BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2747,7 +2648,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2776,7 +2676,6 @@ entry(
     shortDesc = u"""1,3,5-Cycloheptatriene ring BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2807,7 +2706,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2832,7 +2730,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2864,7 +2761,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2894,7 +2790,6 @@ entry(
     shortDesc = u"""1,3,5-Cyclooctatriene ring BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2926,7 +2821,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2957,7 +2851,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2983,7 +2876,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -3016,7 +2908,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3048,7 +2939,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3075,7 +2965,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -3109,7 +2998,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3141,7 +3029,6 @@ entry(
     shortDesc = u"""Cyclodecanone ring BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [

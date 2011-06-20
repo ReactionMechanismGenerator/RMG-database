@@ -24,7 +24,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -51,7 +50,6 @@ entry(
     shortDesc = u"""All the corrections from this family are from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -81,7 +79,6 @@ entry(
     shortDesc = u"""This is correction NN2 from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -114,7 +111,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -146,7 +142,6 @@ entry(
     shortDesc = u"""This is correction NN3 from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -181,7 +176,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -209,7 +203,6 @@ entry(
     shortDesc = u"""Cis double bond interaction BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -241,7 +234,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -277,7 +269,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -311,7 +302,6 @@ entry(
     shortDesc = u"""Cis double bond interaction involving tertiary butyl group BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -347,7 +337,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -381,7 +370,6 @@ entry(
     shortDesc = u"""Cis double bond interaction involving tertiary butyl group BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -417,7 +405,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -446,7 +433,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -474,7 +460,6 @@ entry(
     shortDesc = u"""Ortho correction from BENSON""",
     longDesc = 
 u"""
-
 
 """,
     history = [

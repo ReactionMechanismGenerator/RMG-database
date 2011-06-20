@@ -20,7 +20,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -38,7 +37,6 @@ entry(
     shortDesc = u"""0.378 0.309 0.802 0.348 0.146 !descriptors for H2O but with the contribution of 1 OH group to A""",
     longDesc = 
 u"""
-
 
 """,
     history = [

@@ -25,7 +25,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -48,7 +47,6 @@ entry(
     shortDesc = u"""library value for H radical""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -74,7 +72,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -97,7 +94,6 @@ entry(
     shortDesc = u"""taken from GRI-Mech 3.0 species s00010102""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -125,7 +121,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -151,7 +146,6 @@ entry(
     shortDesc = u"""Mebel et al (2004) http:""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -179,7 +173,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -205,7 +198,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -230,7 +222,6 @@ entry(
     shortDesc = u"""doi:10.1016/j.chemphys.2008.01.057 and doi:10.1021/jp003224c""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -258,7 +249,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -285,7 +275,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -310,7 +299,6 @@ entry(
     shortDesc = u"""Burcat's recommended value for 16165-40-5: C3H2 CYCLOPROPENYLIDENE BI-RADICAL SINGLET on 3/25/2011 (MRH converted from NASA-7 to RMG format)""",
     longDesc = 
 u"""
-
 
 """,
     history = [

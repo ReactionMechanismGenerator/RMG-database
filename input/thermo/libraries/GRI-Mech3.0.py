@@ -36,7 +36,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -65,7 +64,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -92,7 +90,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -122,7 +119,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -150,7 +146,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -177,7 +172,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -207,7 +201,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -236,7 +229,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -263,7 +255,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -292,7 +283,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -319,7 +309,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -348,7 +337,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -375,7 +363,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -404,7 +391,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -432,7 +418,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -463,7 +448,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -491,7 +475,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -521,7 +504,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -549,7 +531,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -582,7 +563,7 @@ The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 
 This prevents it from being used to evaluate the standard properties at 298K as required
 by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range probably
 introduces less error than not using the thermo at all, so the range has been extended
-to 298K. 
+to 298K.
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -612,7 +593,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -640,7 +620,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -670,7 +649,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -698,7 +676,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -728,7 +705,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -756,7 +732,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -786,7 +761,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -815,7 +789,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -849,7 +822,7 @@ The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 
 This prevents it from being used to evaluate the standard properties at 298K as required
 by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range probably
 introduces less error than not using the thermo at all, so the range has been extended
-to 298K. 
+to 298K.
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -946,7 +919,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -975,7 +947,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -1002,7 +973,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1031,7 +1001,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1062,7 +1031,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -1089,7 +1057,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1118,7 +1085,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -1145,7 +1111,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1175,7 +1140,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -1204,7 +1168,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1337,7 +1300,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -1365,7 +1327,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1399,7 +1360,7 @@ The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 
 This prevents it from being used to evaluate the standard properties at 298K as required
 by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range probably
 introduces less error than not using the thermo at all, so the range has been extended
-to 298K. 
+to 298K.
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -1432,7 +1393,7 @@ The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 
 This prevents it from being used to evaluate the standard properties at 298K as required
 by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range probably
 introduces less error than not using the thermo at all, so the range has been extended
-to 298K. 
+to 298K.
 """,
     history = [
         ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
@@ -1562,7 +1523,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [

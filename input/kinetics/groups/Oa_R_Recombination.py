@@ -1176,7 +1176,6 @@ forbidden(
     longDesc = 
 u"""
 
-
 """,
     history = [
     ],

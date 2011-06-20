@@ -16,7 +16,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -34,7 +33,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -54,7 +52,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -72,7 +69,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -100,7 +96,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -127,7 +122,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -148,7 +142,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -177,7 +170,6 @@ entry(
     shortDesc = u"""WIJAYA et al.""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -208,7 +200,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -237,7 +228,6 @@ entry(
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -268,7 +258,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -298,7 +287,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -325,7 +313,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -351,7 +338,6 @@ entry(
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -381,7 +367,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -410,7 +395,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -436,7 +420,6 @@ entry(
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -466,7 +449,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -493,7 +475,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -514,7 +495,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -543,7 +523,6 @@ entry(
     shortDesc = u"""WIJAYA et al.""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -577,7 +556,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -609,7 +587,6 @@ entry(
     shortDesc = u"""LAY et al.""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -643,7 +620,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -669,7 +645,6 @@ entry(
     shortDesc = u"""LAY et al.""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -697,7 +672,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -724,7 +698,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -750,7 +723,6 @@ entry(
     shortDesc = u"""LAY et al.""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -780,7 +752,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -801,7 +772,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -828,7 +798,6 @@ entry(
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -858,7 +827,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -884,7 +852,6 @@ entry(
     shortDesc = u"""LAY et al.""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -912,7 +879,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -938,7 +904,6 @@ entry(
     shortDesc = u"""LAY et al.""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -968,7 +933,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -989,7 +953,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1018,7 +981,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1041,7 +1003,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1063,7 +1024,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1095,7 +1055,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1125,7 +1084,6 @@ entry(
     shortDesc = u"""Calculated from data in SUMATHI & GREEN. Values might have large error bars.""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1157,7 +1115,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1188,7 +1145,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1210,7 +1166,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1239,7 +1194,6 @@ entry(
     shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1270,7 +1224,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1300,7 +1253,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1327,7 +1279,6 @@ entry(
     shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1357,7 +1308,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1386,7 +1336,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1407,7 +1356,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1436,7 +1384,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1458,7 +1405,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1487,7 +1433,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1509,7 +1454,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1538,7 +1482,6 @@ entry(
     shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1569,7 +1512,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1593,7 +1535,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1621,7 +1562,6 @@ entry(
     shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1651,7 +1591,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1680,7 +1619,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1701,7 +1639,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1730,7 +1667,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1752,7 +1688,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1781,7 +1716,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1803,7 +1737,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1832,7 +1765,6 @@ entry(
     shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1863,7 +1795,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1893,7 +1824,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1920,7 +1850,6 @@ entry(
     shortDesc = u"""SUMATHI & GREEN""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -1950,7 +1879,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1979,7 +1907,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -1997,7 +1924,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2017,7 +1943,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2044,7 +1969,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2064,7 +1988,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2090,7 +2013,6 @@ entry(
     shortDesc = u"""CHEN & BOZZELLI #""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2118,7 +2040,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2138,7 +2059,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2166,7 +2086,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2192,7 +2111,6 @@ entry(
     shortDesc = u"""SUMATHI & GREEN (Hf assigned value of (O)CJOCH(CH3)2)""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2223,7 +2141,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2252,7 +2169,6 @@ entry(
     shortDesc = u"""SUMATHI & GREEN (values from (O)CJOCH2CH3)""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2283,7 +2199,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2313,7 +2228,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2338,7 +2252,6 @@ entry(
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2366,7 +2279,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2391,7 +2303,6 @@ entry(
     shortDesc = u"""LAY et al. CHEN & BOZZELLI #""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2418,7 +2329,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2437,7 +2347,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2464,7 +2373,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2490,7 +2398,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2508,7 +2415,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2534,7 +2440,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2553,7 +2458,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2578,7 +2482,6 @@ entry(
     shortDesc = u"""CHEN & BOZZELLI(ROJ)""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2607,7 +2510,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2626,7 +2528,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2652,7 +2553,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2677,7 +2577,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2696,7 +2595,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2723,7 +2621,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2749,7 +2646,6 @@ entry(
     shortDesc = u"""HBI for enthalpy from CHEN & BOZZELLI. Cp and S values taken from ROOJ""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2779,7 +2675,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2805,7 +2700,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2823,7 +2717,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2843,7 +2736,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2861,7 +2753,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2881,7 +2772,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2899,7 +2789,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2920,7 +2809,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -2947,7 +2835,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2973,7 +2860,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -2994,7 +2880,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3014,7 +2899,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -3038,7 +2922,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -3068,7 +2951,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3092,7 +2974,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3112,7 +2993,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -3139,7 +3019,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3165,7 +3044,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3185,7 +3063,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -3212,7 +3089,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3232,7 +3108,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -3254,7 +3129,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3272,7 +3146,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -3293,7 +3166,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3312,7 +3184,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -3338,7 +3209,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3363,7 +3233,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3381,7 +3250,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -3406,7 +3274,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3430,7 +3297,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3448,7 +3314,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -3468,7 +3333,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3486,7 +3350,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
@@ -3511,7 +3374,6 @@ entry(
     longDesc = 
 u"""
 
-
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
@@ -3529,7 +3391,6 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
 
 """,
     history = [
