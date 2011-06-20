@@ -53,10 +53,12 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits):
 
     # Initialize dictionaries of fitted group values and uncertainties
     groupValues = {}; groupUncertainties = {}; groupCounts = {}
+    groupComments = {}
     for entry in entries:
         groupValues[entry] = []
         groupUncertainties[entry] = []
         groupCounts[entry] = []
+        groupComments[entry] = set()
 
     # Fit group values at each temperature
     for t, T in enumerate(Tdata):
@@ -77,6 +79,9 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits):
                 Arow.append(1)
                 brow = math.log10(kdata[index,t])
                 A.append(Arow); b.append(brow)
+                
+                for group in groups:
+                    groupComments[group].add("{0!s}".format(template))
 
         if len(A) == 0:
             logging.warning('Unable to fit kinetics groups for family "{0}"; no valid data found.'.format(groupDatabase.label))
@@ -129,6 +134,9 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits):
             if not any(numpy.isnan(numpy.array(groupUncertainties[entry]))):
                 entry.data.kdata.uncertainties = numpy.array(groupUncertainties[entry])
                 entry.data.kdata.uncertaintyType = '*|/'
+            entry.shortDesc = "Group additive kinetics."
+            entry.longDesc = "Fitted to {0} rates.\n".format(groupCounts[entry])
+            entry.longDesc += "\n".join(groupComments[entry])
         else:
             entry.data = None
 
