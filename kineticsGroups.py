@@ -88,12 +88,25 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
         trainingKinetics.extend(list(kdata))
     trainingKinetics = numpy.array(trainingKinetics, numpy.float64)
     trainingTemplates = [template for label, trainingSet in trainingSets for reaction, template, entry in trainingSet]
+    
+    # keep track of previous values so we can detect if they change
+    old_entries = dict()
+    for label,entry in groups.entries.iteritems():
+        if entry.data is not None:
+            old_entries[label] = entry.data.kdata.values * 1.0
+    
+    # fit group values
     groupValues, groupUncertainties, groupCounts, kmodel = groups.fitGroupValues(trainingTemplates, Tdata, trainingKinetics, kunits)
-    # Add a note to the history of each item indicating that we've generated new group values
+
+    # Add a note to the history of each changed item indicating that we've generated new group values
     event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
     for label, entry in groups.entries.iteritems():
         if entry.data is not None:
-            entry.history.append(event)
+            if old_entries.has_key(label) and all(abs(entry.data.kdata.values/old_entries[label]-1)<0.01):
+                #print "New group values within 1% of old."
+                pass
+            else:
+                entry.history.append(event)
     
     # Evaluate kmodel for the training set
     kmodel_training = []
