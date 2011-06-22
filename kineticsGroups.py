@@ -13,7 +13,9 @@ import time
 import math
 import numpy
 import pylab
+import scipy.stats
 
+from rmgpy.quantity import constants
 from rmgpy.kinetics import Arrhenius, ArrheniusEP, KineticsData
 from rmgpy.data.base import getAllCombinations
 
@@ -22,7 +24,7 @@ user = getUsername()
 
 ################################################################################
 
-def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits):
+def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, method):
     """
     Fit group additivity values based on a matrix of rate coefficient
     data `kdata` corresponding to a list of reaction `templates` and a
@@ -31,8 +33,6 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits):
     The groups in the templates should also be in this reaction family's
     tree.
     """
-
-    import scipy.stats
 
     kmodel = numpy.zeros_like(kdata)
 
@@ -51,97 +51,127 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits):
     groupList = list(set(groupList))
     groupList.sort(key=lambda x: x.index)
 
-    # Initialize dictionaries of fitted group values and uncertainties
-    groupValues = {}; groupUncertainties = {}; groupCounts = {}
-    groupComments = {}
-    for entry in entries:
-        groupValues[entry] = []
-        groupUncertainties[entry] = []
-        groupCounts[entry] = []
-        groupComments[entry] = set()
-
-    # Fit group values at each temperature
-    for t, T in enumerate(Tdata):
-
-        # Generate least-squares matrix and vector
-        A = []; b = []
-        for index, template in enumerate(templates):
-
-            # Create every combination of each group and its ancestors with each other
-            combinations = []
-            for group in template:
-                groups = [group]; groups.extend(groupDatabase.ancestors(group))
-                combinations.append(groups)
-            combinations = getAllCombinations(combinations)
-            # Add a row to the matrix for each combination
-            for groups in combinations:
-                Arow = [1 if group in groups else 0 for group in groupList]
-                Arow.append(1)
-                brow = math.log10(kdata[index,t])
-                A.append(Arow); b.append(brow)
-                
-                for group in groups:
-                    groupComments[group].add("{0!s}".format(template))
-
-        if len(A) == 0:
-            logging.warning('Unable to fit kinetics groups for family "{0}"; no valid data found.'.format(groupDatabase.label))
-            return
-        A = numpy.array(A)
-        b = numpy.array(b)
-
-        x, residues, rank, s = numpy.linalg.lstsq(A, b)
-
-        # Determine error in each group (on log scale)
-        stdev = numpy.zeros(len(groupList)+1, numpy.float64)
-        count = numpy.zeros(len(groupList)+1, numpy.int)
-        for index, template in enumerate(templates):
-            kd = math.log10(kdata[index,t])
-            km = x[-1] + sum([x[groupList.index(group)] for group in template if group in groupList])
-            kmodel[index,t] = 10**km
-            variance = (km - kd)**2
-            for group in template:
-                groups = [group]; groups.extend(groupDatabase.ancestors(group))
-                for g in groups:
-                    if g not in groupDatabase.top:
-                        index = groupList.index(g)
-                        stdev[index] += variance
-                        count[index] += 1
-            stdev[-1] += variance
-            count[-1] += 1
-        stdev = numpy.sqrt(stdev / (count - 1))
-        ci = scipy.stats.t.ppf(0.975, count - 1) * stdev
-
-        # Update dictionaries of fitted group values and uncertainties
-        for entry in entries:
-            if entry == groupDatabase.top[0]:
-                groupValues[entry].append(10**x[-1])
-                groupUncertainties[entry].append(10**ci[-1])
-                groupCounts[entry].append(count[-1])
-            elif entry in groupList:
-                index = groupList.index(entry)
-                groupValues[entry].append(10**x[index])
-                groupUncertainties[entry].append(10**ci[index])
-                groupCounts[entry].append(count[index])
-            else:
-                groupValues[entry] = None
-                groupUncertainties[entry] = None
-                groupCounts[entry] = None
-
-    # Store the fitted group values and uncertainties on the associated entries
-    for entry in entries:
-        if groupValues[entry] is not None:
-            entry.data = KineticsData(Tdata=(Tdata,"K"), kdata=(groupValues[entry],kunits))
-            if not any(numpy.isnan(numpy.array(groupUncertainties[entry]))):
-                entry.data.kdata.uncertainties = numpy.array(groupUncertainties[entry])
-                entry.data.kdata.uncertaintyType = '*|/'
-            entry.shortDesc = "Group additive kinetics."
-            entry.longDesc = "Fitted to {0} rates.\n".format(groupCounts[entry])
-            entry.longDesc += "\n".join(groupComments[entry])
-        else:
-            entry.data = None
-
-    return groupValues, groupUncertainties, groupCounts, kmodel
+    # Fit the group values
+    if method == 'KineticsData':
     
+        # Initialize dictionaries of fitted group values and uncertainties
+        groupValues = {}; groupUncertainties = {}; groupCounts = {}; groupComments = {}
+        for entry in groupEntries:
+            groupValues[entry] = []
+            groupUncertainties[entry] = []
+            groupCounts[entry] = []
+            groupComments[entry] = set()
+
+        # Fit group values at each temperature
+        for t, T in enumerate(Tdata):
+
+            # Generate least-squares matrix and vector
+            A = []; b = []
+            for index, template in enumerate(templates):
+
+                # Create every combination of each group and its ancestors with each other
+                combinations = []
+                for group in template:
+                    groups = [group]; groups.extend(groupDatabase.ancestors(group))
+                    combinations.append(groups)
+                combinations = getAllCombinations(combinations)
+                # Add a row to the matrix for each combination
+                for groups in combinations:
+                    Arow = [1 if group in groups else 0 for group in groupList]
+                    Arow.append(1)
+                    brow = math.log10(kdata[index,t])
+                    A.append(Arow); b.append(brow)
+                    
+                    for group in groups:
+                        groupComments[group].add("{0!s}".format(template))
+
+            if len(A) == 0:
+                logging.warning('Unable to fit kinetics groups for family "{0}"; no valid data found.'.format(groupDatabase.label))
+                return
+            A = numpy.array(A)
+            b = numpy.array(b)
+
+            x, residues, rank, s = numpy.linalg.lstsq(A, b)
+
+            # Determine error in each group (on log scale)
+            stdev = numpy.zeros(len(groupList)+1, numpy.float64)
+            count = numpy.zeros(len(groupList)+1, numpy.int)
+            for index, template in enumerate(templates):
+                kd = math.log10(kdata[index,t])
+                km = x[-1] + sum([x[groupList.index(group)] for group in template if group in groupList])
+                kmodel[index,t] = 10**km
+                variance = (km - kd)**2
+                for group in template:
+                    groups = [group]; groups.extend(groupDatabase.ancestors(group))
+                    for g in groups:
+                        if g not in groupDatabase.top:
+                            index = groupList.index(g)
+                            stdev[index] += variance
+                            count[index] += 1
+                stdev[-1] += variance
+                count[-1] += 1
+            stdev = numpy.sqrt(stdev / (count - 1))
+            ci = scipy.stats.t.ppf(0.975, count - 1) * stdev
+
+            # Update dictionaries of fitted group values and uncertainties
+            for entry in entries:
+                if entry == groupDatabase.top[0]:
+                    groupValues[entry].append(10**x[-1])
+                    groupUncertainties[entry].append(10**ci[-1])
+                    groupCounts[entry].append(count[-1])
+                elif entry in groupList:
+                    index = groupList.index(entry)
+                    groupValues[entry].append(10**x[index])
+                    groupUncertainties[entry].append(10**ci[index])
+                    groupCounts[entry].append(count[index])
+                else:
+                    groupValues[entry] = None
+                    groupUncertainties[entry] = None
+                    groupCounts[entry] = None
+                    
+        # Store the fitted group values and uncertainties on the associated entries
+        for entry in entries:
+            if groupValues[entry] is not None:
+                entry.data = KineticsData(Tdata=(Tdata,"K"), kdata=(groupValues[entry],kunits))
+                if not any(numpy.isnan(numpy.array(groupUncertainties[entry]))):
+                    entry.data.kdata.uncertainties = numpy.array(groupUncertainties[entry])
+                    entry.data.kdata.uncertaintyType = '*|/'
+                entry.shortDesc = "Group additive kinetics."
+                entry.longDesc = "Fitted to {0} rates.\n".format(groupCounts[entry])
+                entry.longDesc += "\n".join(groupComments[entry])
+            else:
+                entry.data = None
+        
+        # Print the group values
+        entries = groupDatabase.top[:]
+        for entry in groupDatabase.top:
+            entries.extend(groupDatabase.descendants(entry))
+        print '=============================== =========== =========== =========== ======='
+        print 'Group                           T (K)       k(T) (SI)   CI (95%)    Count'
+        print '=============================== =========== =========== =========== ======='
+        entry = groupDatabase.top[0]
+        for i in range(len(entry.data.Tdata.values)):
+            label = ', '.join(['%s' % (top.label) for top in groupDatabase.top]) if i == 0 else ''
+            T = Tdata[i]
+            value = groupValues[entry][i]
+            uncertainty = groupUncertainties[entry][i]
+            count = groupCounts[entry][i]
+            print '%-31s %-11g %-11.4e %-11.4e %-7i' % (label, T, value, uncertainty, count)
+        print '------------------------------- ----------- ----------- ----------- -------'
+        for entry in entries:
+            if entry.data is not None:
+                for i in range(len(entry.data.Tdata.values)):
+                    label = entry.label if i == 0 else ''
+                    T = Tdata[i]
+                    value = groupValues[entry][i]
+                    uncertainty = groupUncertainties[entry][i]
+                    count = groupCounts[entry][i]
+                    print '%-31s %-11g %-11.4e %-11.4e %-7i' % (label, T, value, uncertainty, count)
+        print '=============================== =========== =========== =========== ======='
+        
+    else:
+        raise ValueError('Unexpected value "{0}" for method parameter.'.format(method))
+
 ################################################################################
 
 def getRateCoefficientUnits(family):
@@ -215,16 +245,27 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
     old_entries = dict()
     for label,entry in groups.entries.iteritems():
         if entry.data is not None:
-            old_entries[label] = entry.data.kdata.values * 1.0
+            old_entries[label] = entry.data
     
-    # fit group values
-    groupValues, groupUncertainties, groupCounts, kmodel = fitGroupValues(groups, trainingTemplates, Tdata, trainingKinetics, kunits)
+    # Fit group values!
+    fitGroupValues(groups, trainingTemplates, Tdata, trainingKinetics, kunits, method='KineticsData')
 
     # Add a note to the history of each changed item indicating that we've generated new group values
     event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
     for label, entry in groups.entries.iteritems():
-        if entry.data is not None:
-            if old_entries.has_key(label) and len(old_entries[label]) == len(entry.data.kdata.values) and all(abs(entry.data.kdata.values/old_entries[label]-1)<0.01):
+        if entry.data is not None and old_entries.has_key(label):
+            if (isinstance(entry.data, KineticsData) and 
+                isinstance(old_entries[label], KineticsData) and
+                len(entry.data.kdata.values) == len(old_entries[label].kdata.values) and
+                all(abs(entry.data.kdata.values / old_entries[label].kdata.values - 1) < 0.01)):
+                #print "New group values within 1% of old."
+                pass
+            elif (isinstance(entry.data, Arrhenius) and 
+                isinstance(old_entries[label], Arrhenius) and
+                abs(entry.data.A.value / old_entries[label].A.value - 1) < 0.01 and
+                abs(entry.data.n.value / old_entries[label].n.value - 1) < 0.01 and
+                abs(entry.data.Ea.value / old_entries[label].Ea.value - 1) < 0.01 and
+                abs(entry.data.T0.value / old_entries[label].T0.value - 1) < 0.01):
                 #print "New group values within 1% of old."
                 pass
             else:
@@ -259,33 +300,6 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
         kmodel_test.append(kmodel)
     
     if plot:
-        # Print the group values
-        entries = groups.top[:]
-        for entry in groups.top:
-            entries.extend(groups.descendants(entry))
-        print '=============================== =========== =========== =========== ======='
-        print 'Group                           T (K)       k(T) (SI)   CI (95%)    Count'
-        print '=============================== =========== =========== =========== ======='
-        entry = groups.top[0]
-        for i in range(len(entry.data.Tdata.values)):
-            label = ', '.join(['%s' % (top.label) for top in groups.top]) if i == 0 else ''
-            T = Tdata[i]
-            value = groupValues[entry][i]
-            uncertainty = groupUncertainties[entry][i]
-            count = groupCounts[entry][i]
-            print '%-31s %-11g %-11.4e %-11.4e %-7i' % (label, T, value, uncertainty, count)
-        print '------------------------------- ----------- ----------- ----------- -------'
-        for entry in entries:
-            if entry.data is not None:
-                for i in range(len(entry.data.Tdata.values)):
-                    label = entry.label if i == 0 else ''
-                    T = Tdata[i]
-                    value = groupValues[entry][i]
-                    uncertainty = groupUncertainties[entry][i]
-                    count = groupCounts[entry][i]
-                    print '%-31s %-11g %-11.4e %-11.4e %-7i' % (label, T, value, uncertainty, count)
-        print '=============================== =========== =========== =========== ======='
-        
         # Generate plots
         generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmodel_test, groups, trainingSets, testSets, family)
     
@@ -302,7 +316,28 @@ def generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmod
     from matplotlib.widgets import CheckButtons
     
     for t, T in enumerate(Tdata):
-        ci = math.log10(groups.top[0].data.kdata.uncertainties[t])
+        
+        # Evaluate confidence interval for training set
+        stdev_training = 0; ci_training = 0; count_training = 0
+        for index in range(len(kdata_training)):
+            for kdata, kmodel in zip(numpy.log10(kdata_training[index][:,t]), numpy.log10(kmodel_training[index][:,t])):
+                stdev_training += (kmodel - kdata) * (kmodel - kdata)
+                count_training += 1
+        stdev_training = numpy.sqrt(stdev_training / (count_training - 1))
+        ci_training = scipy.stats.t.ppf(0.975, count_training - 1) * stdev_training
+        print 'Confidence interval at T = {0:g} K for training set = 10^{1:g}'.format(T, ci_training)
+        # Evaluate confidence interval for test set
+        stdev_test = 0; ci_test = 0; count_test = 0
+        for index in range(len(kdata_test)):
+            for kdata, kmodel in zip(numpy.log10(kdata_test[index][:,t]), numpy.log10(kmodel_test[index][:,t])):
+                stdev_test += (kmodel - kdata) * (kmodel - kdata)
+                count_test += 1
+        stdev_test = numpy.sqrt(stdev_test / (count_test - 1))
+        ci_test = scipy.stats.t.ppf(0.975, count_test - 1) * stdev_test
+        print 'Confidence interval at T = {0:g} K for test set = 10^{1:g}'.format(T, ci_test)
+        
+        # Plot the training set confidence interval
+        ci = ci_training
         
         fig = pylab.figure(figsize=(10,8))
         ax = plt.subplot(1, 1, 1)
