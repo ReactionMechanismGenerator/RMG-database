@@ -169,6 +169,77 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, method):
                     print '%-31s %-11g %-11.4e %-11.4e %-7i' % (label, T, value, uncertainty, count)
         print '=============================== =========== =========== =========== ======='
         
+    elif method == 'Arrhenius':
+        
+        # Generate least-squares matrix and vector
+        A = []; b = []
+            
+        for index, template in enumerate(templates):
+
+            # Create every combination of each group and its ancestors with each other
+            combinations = []
+            for group in template:
+                groups = [group]; groups.extend(groupDatabase.ancestors(group))
+                combinations.append(groups)
+            combinations = getAllCombinations(combinations)
+            
+            # Add a row to the matrix for each combination at each temperature
+            for t, T in enumerate(Tdata):
+                logT = math.log(T)
+                Tinv = 1000.0 / (constants.R * T)
+                for groups in combinations:
+                    Arow = []
+                    for group in groupList:
+                        if group in groups:
+                            Arow.extend([1,logT,-Tinv])
+                        else:
+                            Arow.extend([0,0,0])
+                    Arow.extend([1,logT,-Tinv])
+                    brow = math.log(kdata[index,t])
+                    A.append(Arow); b.append(brow)
+
+        if len(A) == 0:
+            logging.warning('Unable to fit kinetics groups for family "{0}"; no valid data found.'.format(groupDatabase.label))
+            return
+        A = numpy.array(A)
+        b = numpy.array(b)
+
+        x, residues, rank, s = numpy.linalg.lstsq(A, b)
+
+        # Store the results
+        groupDatabase.top[0].data = Arrhenius(
+            A = (math.exp(x[-3]),kunits),
+            n = x[-2],
+            Ea = (x[-1]*1000.,"J/mol"),
+            T0 = (1,"K"),
+        )
+        for i, group in enumerate(groupList):
+            group.data = Arrhenius(
+                A = (math.exp(x[3*i]),kunits),
+                n = x[3*i+1],
+                Ea = (x[3*i+2]*1000.,"J/mol"),
+                T0 = (1,"K"),
+            )
+        
+        # Print the results
+        print '======================================= =========== =========== ==========='
+        print 'Group                                   log A (SI)  n           Ea (kJ/mol)   '
+        print '======================================= =========== =========== ==========='
+        entry = groupDatabase.top[0]
+        label = ', '.join(['%s' % (top.label) for top in groupDatabase.top])
+        logA = math.log10(entry.data.A.value)
+        n = entry.data.n.value
+        Ea = entry.data.Ea.value / 1000.
+        print '%-39s %11.3f %11.3f %11.3f' % (label, logA, n, Ea)
+        print '--------------------------------------- ----------- ----------- -----------'
+        for i, group in enumerate(groupList):
+            label = group.label
+            logA = math.log10(group.data.A.value)
+            n = group.data.n.value
+            Ea = group.data.Ea.value / 1000.
+            print '%-39s %11.3f %11.3f %11.3f' % (label, logA, n, Ea)
+        print '======================================= =========== =========== ==========='
+        
     else:
         raise ValueError('Unexpected value "{0}" for method parameter.'.format(method))
 
@@ -248,7 +319,7 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
             old_entries[label] = entry.data
     
     # Fit group values!
-    fitGroupValues(groups, trainingTemplates, Tdata, trainingKinetics, kunits, method='KineticsData')
+    fitGroupValues(groups, trainingTemplates, Tdata, trainingKinetics, kunits, method='Arrhenius')
 
     # Add a note to the history of each changed item indicating that we've generated new group values
     event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
