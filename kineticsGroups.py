@@ -33,14 +33,14 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
     The groups in the templates should also be in this reaction family's
     tree.
     """
-
+    
     kmodel = numpy.zeros_like(kdata)
-
+    
     # Determine a complete list of the entries in the database, sorted as in the tree
     groupEntries = groupDatabase.top[:]
     for entry in groupDatabase.top:
         groupEntries.extend(groupDatabase.descendants(entry))
-
+    
     # Determine a unique list of the groups we will be able to fit parameters for
     groupList = []
     for template in templates:
@@ -50,10 +50,10 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
                 groupList.extend(groupDatabase.ancestors(group)[:-1])
     groupList = list(set(groupList))
     groupList.sort(key=lambda x: x.index)
-
+    
+    ######## KineticsData Training ########
     # Fit the group values
     if method == 'KineticsData':
-    
         # Initialize dictionaries of fitted group values and uncertainties
         groupValues = {}; groupUncertainties = {}; groupCounts = {}; groupComments = {}
         for entry in groupEntries:
@@ -61,14 +61,14 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
             groupUncertainties[entry] = []
             groupCounts[entry] = []
             groupComments[entry] = set()
-
+        
         # Fit group values at each temperature
         for t, T in enumerate(Tdata):
-
+            
             # Generate least-squares matrix and vector
             A = []; b = []
             for index, template in enumerate(templates):
-
+                
                 # Create every combination of each group and its ancestors with each other
                 combinations = []
                 for group in template:
@@ -84,15 +84,15 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
                     
                     for group in groups:
                         groupComments[group].add("{0!s}".format(template))
-
+            
             if len(A) == 0:
                 logging.warning('Unable to fit kinetics groups for family "{0}"; no valid data found.'.format(groupDatabase.label))
                 return
             A = numpy.array(A)
             b = numpy.array(b)
-
+            
             x, residues, rank, s = numpy.linalg.lstsq(A, b)
-
+            
             # Determine error in each group (on log scale)
             stdev = numpy.zeros(len(groupList)+1, numpy.float64)
             count = numpy.zeros(len(groupList)+1, numpy.int)
@@ -112,7 +112,7 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
                 count[-1] += 1
             stdev = numpy.sqrt(stdev / (count - 1))
             ci = scipy.stats.t.ppf(0.975, count - 1) * stdev
-
+            
             # Update dictionaries of fitted group values and uncertainties
             for entry in groupEntries:
                 if entry == groupDatabase.top[0]:
@@ -128,7 +128,7 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
                     groupValues[entry] = None
                     groupUncertainties[entry] = None
                     groupCounts[entry] = None
-                    
+        
         # Store the fitted group values and uncertainties on the associated entries
         for entry in groupEntries:
             if groupValues[entry] is not None:
@@ -139,6 +139,7 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
                 entry.shortDesc = "Group additive kinetics."
                 entry.longDesc = "Fitted to {0} rates.\n".format(groupCounts[entry])
                 entry.longDesc += "\n".join(groupComments[entry])
+                import ipdb; ipdb.set_trace()
             else:
                 entry.data = None
         
@@ -165,14 +166,15 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
                     count = groupCounts[entry][i]
                     print '%-31s %-11g %-11.4e %-11.4e %-7i' % (label, T, value, uncertainty, count)
         print '=============================== =========== =========== =========== ======='
-        
+    
+    ######## Arrhenius Training ########
     elif method == 'Arrhenius':
         
         # Generate least-squares matrix and vector
         A = []; b = []
         
         for index in range(len(templates)):
-
+            
             template = templates[index]
             entry = entries[index]
             
@@ -197,7 +199,7 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
 #                    Arow.extend([1,logT,-Tinv])
 #                    brow = math.log(kdata[index,t])
 #                    A.append(Arow); b.append(brow)
-
+            
             # Add a row to the matrix for each parameter
             if isinstance(entry.data, Arrhenius) or (isinstance(entry.data, ArrheniusEP) and entry.data.alpha.value == 0):
                 for groups in combinations:
@@ -234,7 +236,7 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
                     if isinstance(entry.data, ArrheniusEP):
                         brow = entry.data.E0.value / 1000.
                     A.append(Arow); b.append(brow)
-
+                    
 #            # Add a row to the matrix for each parameter
 #            if isinstance(entry.data, Arrhenius) or (isinstance(entry.data, ArrheniusEP) and entry.data.alpha.value == 0):
 #                for groups in combinations:
@@ -248,15 +250,15 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
 #                    Ea = entry.data.E0.value if isinstance(entry.data, ArrheniusEP) else entry.data.Ea.value
 #                    brow = [math.log(entry.data.A.value), entry.data.n.value, Ea / 1000.]
 #                    A.append(Arow); b.append(brow)
-
+        
         if len(A) == 0:
             logging.warning('Unable to fit kinetics groups for family "{0}"; no valid data found.'.format(groupDatabase.label))
             return
         A = numpy.array(A)
         b = numpy.array(b)
-
+        
         x, residues, rank, s = numpy.linalg.lstsq(A, b)
-
+        
         # Store the results
         groupDatabase.top[0].data = Arrhenius(
             A = (math.exp(x[-3]),kunits),
@@ -372,7 +374,7 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
     
     # Fit group values!
     fitGroupValues(groups, trainingTemplates, Tdata, trainingKinetics, kunits, trainingEntries, method='Arrhenius')
-
+    
     # Add a note to the history of each changed item indicating that we've generated new group values
     event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
     for label, entry in groups.entries.iteritems():
@@ -476,7 +478,7 @@ def generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmod
             legend.append(label)
         for label, testSet in testSets:
             legend.append(label)
-
+        
         xlim = pylab.xlim()
         ylim = pylab.ylim()
         lim = (min(xlim[0], ylim[0])*0.1, max(xlim[1], ylim[1])*10)
@@ -489,10 +491,10 @@ def generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmod
         pylab.title('%s, T = %g K' % (family, T))
         pylab.xlim(lim)
         pylab.ylim(lim)
-
+        
         rax = plt.axes([0.15, 0.65, 0.2, 0.2])
         check = CheckButtons(rax, legend, [True for label in legend])
-
+        
         def func(label):
             for index in range(len(lines)):
                 if legend[index] == label:
@@ -520,9 +522,9 @@ def generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmod
                 print '%s' % (reaction)
                 print 'k_data   = %9.2e %s' % (kdata[ind], kunits)
                 print 'k_model  = %9.2e %s' % (kmodel[ind], kunits)
-
+        
         connection_id = fig.canvas.mpl_connect('pick_event', onpick)
-
+        
         pylab.show()
         
 ################################################################################
