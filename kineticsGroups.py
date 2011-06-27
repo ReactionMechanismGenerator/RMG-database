@@ -24,7 +24,7 @@ user = getUsername()
 
 ################################################################################
 
-def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, method):
+def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, method):
     """
     Fit group additivity values based on a matrix of rate coefficient
     data `kdata` corresponding to a list of reaction `templates` and a
@@ -37,9 +37,9 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, method):
     kmodel = numpy.zeros_like(kdata)
 
     # Determine a complete list of the entries in the database, sorted as in the tree
-    entries = groupDatabase.top[:]
+    groupEntries = groupDatabase.top[:]
     for entry in groupDatabase.top:
-        entries.extend(groupDatabase.descendants(entry))
+        groupEntries.extend(groupDatabase.descendants(entry))
 
     # Determine a unique list of the groups we will be able to fit parameters for
     groupList = []
@@ -114,7 +114,7 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, method):
             ci = scipy.stats.t.ppf(0.975, count - 1) * stdev
 
             # Update dictionaries of fitted group values and uncertainties
-            for entry in entries:
+            for entry in groupEntries:
                 if entry == groupDatabase.top[0]:
                     groupValues[entry].append(10**x[-1])
                     groupUncertainties[entry].append(10**ci[-1])
@@ -130,7 +130,7 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, method):
                     groupCounts[entry] = None
                     
         # Store the fitted group values and uncertainties on the associated entries
-        for entry in entries:
+        for entry in groupEntries:
             if groupValues[entry] is not None:
                 entry.data = KineticsData(Tdata=(Tdata,"K"), kdata=(groupValues[entry],kunits))
                 if not any(numpy.isnan(numpy.array(groupUncertainties[entry]))):
@@ -143,9 +143,6 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, method):
                 entry.data = None
         
         # Print the group values
-        entries = groupDatabase.top[:]
-        for entry in groupDatabase.top:
-            entries.extend(groupDatabase.descendants(entry))
         print '=============================== =========== =========== =========== ======='
         print 'Group                           T (K)       k(T) (SI)   CI (95%)    Count'
         print '=============================== =========== =========== =========== ======='
@@ -158,7 +155,7 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, method):
             count = groupCounts[entry][i]
             print '%-31s %-11g %-11.4e %-11.4e %-7i' % (label, T, value, uncertainty, count)
         print '------------------------------- ----------- ----------- ----------- -------'
-        for entry in entries:
+        for entry in groupEntries:
             if entry.data is not None:
                 for i in range(len(entry.data.Tdata.values)):
                     label = entry.label if i == 0 else ''
@@ -173,9 +170,12 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, method):
         
         # Generate least-squares matrix and vector
         A = []; b = []
-            
-        for index, template in enumerate(templates):
+        
+        for index in range(len(templates)):
 
+            template = templates[index]
+            entry = entries[index]
+            
             # Create every combination of each group and its ancestors with each other
             combinations = []
             for group in template:
@@ -311,6 +311,7 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
         trainingKinetics.extend(list(kdata))
     trainingKinetics = numpy.array(trainingKinetics, numpy.float64)
     trainingTemplates = [template for label, trainingSet in trainingSets for reaction, template, entry in trainingSet]
+    trainingEntries = [entry for label, trainingSet in trainingSets for reaction, template, entry in trainingSet]
    
     # keep track of previous values so we can detect if they change
     old_entries = dict()
@@ -319,7 +320,7 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
             old_entries[label] = entry.data
     
     # Fit group values!
-    fitGroupValues(groups, trainingTemplates, Tdata, trainingKinetics, kunits, method='Arrhenius')
+    fitGroupValues(groups, trainingTemplates, Tdata, trainingKinetics, kunits, trainingEntries, method='Arrhenius')
 
     # Add a note to the history of each changed item indicating that we've generated new group values
     event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
