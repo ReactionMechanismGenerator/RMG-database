@@ -183,20 +183,71 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
                 combinations.append(groups)
             combinations = getAllCombinations(combinations)
             
-            # Add a row to the matrix for each combination at each temperature
-            for t, T in enumerate(Tdata):
-                logT = math.log(T)
-                Tinv = 1000.0 / (constants.R * T)
+#            # Add a row to the matrix for each combination at each temperature
+#            for t, T in enumerate(Tdata):
+#                logT = math.log(T)
+#                Tinv = 1000.0 / (constants.R * T)
+#                for groups in combinations:
+#                    Arow = []
+#                    for group in groupList:
+#                        if group in groups:
+#                            Arow.extend([1,logT,-Tinv])
+#                        else:
+#                            Arow.extend([0,0,0])
+#                    Arow.extend([1,logT,-Tinv])
+#                    brow = math.log(kdata[index,t])
+#                    A.append(Arow); b.append(brow)
+
+            # Add a row to the matrix for each parameter
+            if isinstance(entry.data, Arrhenius) or (isinstance(entry.data, ArrheniusEP) and entry.data.alpha.value == 0):
                 for groups in combinations:
+                    # Preexponential
                     Arow = []
                     for group in groupList:
                         if group in groups:
-                            Arow.extend([1,logT,-Tinv])
+                            Arow.extend([1,0,0])
                         else:
                             Arow.extend([0,0,0])
-                    Arow.extend([1,logT,-Tinv])
-                    brow = math.log(kdata[index,t])
+                    Arow.extend([1,0,0])
+                    brow = math.log(entry.data.A.value)
                     A.append(Arow); b.append(brow)
+                    # Temperature exponent
+                    Arow = []
+                    for group in groupList:
+                        if group in groups:
+                            Arow.extend([0,1,0])
+                        else:
+                            Arow.extend([0,0,0])
+                    Arow.extend([0,1,0])
+                    brow = entry.data.n.value
+                    A.append(Arow); b.append(brow)
+                    # Activation energy
+                    Arow = []
+                    for group in groupList:
+                        if group in groups:
+                            Arow.extend([0,0,1])
+                        else:
+                            Arow.extend([0,0,0])
+                    Arow.extend([0,0,1])
+                    if isinstance(entry.data, Arrhenius):
+                        brow = entry.data.Ea.value / 1000.
+                    if isinstance(entry.data, ArrheniusEP):
+                        brow = entry.data.E0.value / 1000.
+                    A.append(Arow); b.append(brow)
+
+#            # Add a row to the matrix for each parameter
+#            if isinstance(entry.data, Arrhenius) or (isinstance(entry.data, ArrheniusEP) and entry.data.alpha.value == 0):
+#                for groups in combinations:
+#                    Arow = []
+#                    for group in groupList:
+#                        if group in groups:
+#                            Arow.append(1)
+#                        else:
+#                            Arow.append(0)
+#                    Arow.append(1)
+#                    Ea = entry.data.E0.value if isinstance(entry.data, ArrheniusEP) else entry.data.Ea.value
+#                    brow = [math.log(entry.data.A.value), entry.data.n.value, Ea / 1000.]
+#                    A.append(Arow); b.append(brow)
 
         if len(A) == 0:
             logging.warning('Unable to fit kinetics groups for family "{0}"; no valid data found.'.format(groupDatabase.label))
