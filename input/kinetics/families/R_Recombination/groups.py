@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "R_Recombination"
+name = "R_Recombination/groups"
 shortDesc = ""
 longDesc = """
 

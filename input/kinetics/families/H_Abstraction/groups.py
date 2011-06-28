@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "H_Abstraction"
+name = "H_Abstraction/groups"
 shortDesc = ""
 longDesc = """
 

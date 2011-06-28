@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Birad_recombination"
+name = "Birad_recombination/groups"
 shortDesc = ""
 longDesc = """
 

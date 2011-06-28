@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "intra_OH_migration"
+name = "intra_OH_migration/groups"
 shortDesc = ""
 longDesc = """
 

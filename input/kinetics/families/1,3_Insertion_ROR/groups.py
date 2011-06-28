@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "1,3_Insertion_ROR"
+name = "1,3_Insertion_ROR/groups"
 shortDesc = ""
 longDesc = """
 

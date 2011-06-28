@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Intra_Disproportionation"
+name = "Intra_Disproportionation/groups"
 shortDesc = ""
 longDesc = """
 

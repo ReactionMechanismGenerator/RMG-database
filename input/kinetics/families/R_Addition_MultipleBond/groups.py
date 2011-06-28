@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "R_Addition_MultipleBond"
+name = "R_Addition_MultipleBond/groups"
 shortDesc = ""
 longDesc = """
 
