@@ -321,30 +321,45 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
     """
     testSetLabels = testSetLabels or []
     
-    groups = database.kinetics.groups[family]
+    family = database.kinetics.families[family]
+    groups = family.groups
     
-    print 'Categorizing reactions in training and test sets for {0}'.format(family)
+    def getKineticsSet(family, label):
+        if label == 'rules':
+            return family.rules
+        elif label == 'training':
+            return family.training
+        elif label == 'test':
+            return family.test
+        elif label == 'PrIMe':
+            return family.PrIMe
+        else:
+            raise ValueError('Invalid value "{0}" for label parameter.'.format(label))
+    
+    print 'Categorizing reactions in training and test sets for {0}'.format(family.label)
     trainingSets = []
     for label in trainingSetLabels:
         trainingSet = []
-        for entry in database.kinetics.depository['{0}/{1}'.format(family,label)].entries.values():
+        depository = getKineticsSet(family, label)
+        for entry in depository.entries.values():
             if isinstance(entry.data, ArrheniusEP):
                 if entry.data.alpha.value != 0:
                     continue # skip things with Evans-Polanyi values
-            reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family, thermoDatabase=database.thermo)
+            reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family.label, thermoDatabase=database.thermo)
             trainingSet.append([reaction, template, entry])
         if len(trainingSet) > 0:
             trainingSets.append([label, trainingSet])
     testSets = []
     for label in testSetLabels:
         testSet = []
-        for entry in database.kinetics.depository['{0}/{1}'.format(family,label)].entries.values():
-            reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family, thermoDatabase=database.thermo)
+        depository = getKineticsSet(family, label)
+        for entry in depository.entries.values():
+            reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family.label, thermoDatabase=database.thermo)
             testSet.append([reaction, template, entry])
         if len(testSet) > 0:
             testSets.append([label, testSet])
-        
-    print 'Fitting new group additivity values for {0}...'.format(family)
+    
+    print 'Fitting new group additivity values for {0}...'.format(family.label)
     kdata_training = []
     for label, trainingSet in trainingSets:
         kdata = []
@@ -358,7 +373,7 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
         kdata = numpy.array(kdata, numpy.float64)
         kdata_training.append(kdata)
     
-    kunits = getRateCoefficientUnits(family)
+    kunits = getRateCoefficientUnits(family.label)
     trainingKinetics = []
     for kdata in kdata_training:
         trainingKinetics.extend(list(kdata))
@@ -401,7 +416,7 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
     for label, trainingSet in trainingSets:
         kmodel = []
         for reaction, template, entry in trainingSet:
-            kinetics = groups.getKineticsForTemplate(template, degeneracy=1)
+            kinetics = family.getKineticsForTemplate(template, degeneracy=1)
             kmodel.append([kinetics.getRateCoefficient(T) for T in Tdata])
         kmodel = numpy.array(kmodel, numpy.float64)
         kmodel_training.append(kmodel)
@@ -411,7 +426,7 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
     for label, testSet in testSets:
         kdata = []; kmodel = []
         for reaction, template, entry in testSet:
-            kinetics = groups.getKineticsForTemplate(template, degeneracy=1)
+            kinetics = family.getKineticsForTemplate(template, degeneracy=1)
             kmodel.append([kinetics.getRateCoefficient(T) for T in Tdata])
             if isinstance(reaction.kinetics, Arrhenius) or isinstance(reaction.kinetics, KineticsData):
                 kdata.append([(reaction.kinetics.getRateCoefficient(T) / reaction.degeneracy) for T in Tdata])
@@ -426,7 +441,7 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
     
     if plot:
         # Generate plots
-        generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmodel_test, groups, trainingSets, testSets, family)
+        generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmodel_test, groups, trainingSets, testSets, family.label)
     
 ################################################################################
 
