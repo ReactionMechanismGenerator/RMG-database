@@ -311,6 +311,12 @@ def getRateCoefficientUnits(family):
     else:
         raise ValueError('Unable to determine units of rate coefficient for reaction family "{0}".'.format(family))
 
+def getKineticsSet(family, label):
+    if label in ['rules','training','test','PrIMe']:
+        return getattr(family,label)
+    else:
+        raise ValueError('Invalid value "{0}" for label parameter.'.format(label))
+
 def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, testSetLabels=None, plot=False):
     """
     Evaluate the kinetics group additivity values for the given reaction 
@@ -323,18 +329,6 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
     
     family = database.kinetics.families[family]
     groups = family.groups
-    
-    def getKineticsSet(family, label):
-        if label == 'rules':
-            return family.rules
-        elif label == 'training':
-            return family.training
-        elif label == 'test':
-            return family.test
-        elif label == 'PrIMe':
-            return family.PrIMe
-        else:
-            raise ValueError('Invalid value "{0}" for label parameter.'.format(label))
     
     print 'Categorizing reactions in training and test sets for {0}'.format(family.label)
     trainingSets = []
