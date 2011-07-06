@@ -17,6 +17,7 @@ import scipy.stats
 import matplotlib
 matplotlib.rc('mathtext', fontset='stixsans', default='regular')
 
+import rmgpy
 from rmgpy.quantity import constants
 from rmgpy.kinetics import Arrhenius, ArrheniusEP, KineticsData
 from rmgpy.data.base import getAllCombinations
@@ -580,6 +581,65 @@ def generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmod
         
 ################################################################################
 
+def getRatesFromRMGjava(family_label, database, testSetLabels):
+    """
+    Get rates from RMG java for the given reaction `family` using the
+    specified lists of depository components `testSetLabels` as the test sets.
+    The already-loaded RMG database should be given as the `database`
+    parameter.
+    """
+    # RMG website must be on your python path, as that's where the RMG-java interface is defined.
+    from rmgweb.database import tools
+    
+    family = database.kinetics.families[family_label]
+    
+    for set_label in testSetLabels:
+        print "Running reactions from {0}/{1} through RMG-java...".format(family_label,set_label)
+        try:
+            output = rmgpy.data.kinetics.KineticsDepository(
+                label = '{0}/{1}-RMG-java'.format(family_label,set_label),
+                name = '{0}/{1}-RMG-java'.format(family_label,set_label),
+                shortDesc = "Reactions from {0}/{1} with kinetics estimated by RMG-Java.".format(family_label,set_label),
+                longDesc = "Reactions from {0}/{1} with kinetics estimated by RMG-Java.".format(family_label,set_label)
+            )
+            
+            depository = getKineticsSet(family, set_label)
+            if depository is None:
+                continue
+            for entry in depository.entries.values():
+                reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family.label, thermoDatabase=database.thermo)
+                
+                reaction_from_java = tools.getRMGJavaKineticsFromReaction(reaction)
+                longDesc = """
+The PrIMe reaction {0!s}
+with description "{1}"
+and kinetics {2!s}
+was predicted by RMG-Java
+as reaction {3!s}
+with kinetics {4!s}
+and comment "{5!s}"\n""".format(entry.item,
+                           entry.longDesc,
+                           entry.data,
+                           reaction_from_java,
+                           reaction_from_java.kinetics,
+                           reaction_from_java.kinetics.comment)
+                entry.data = reaction_from_java.kinetics
+                entry.longDesc = longDesc
+                entry.reference = None
+                entry.referenceType = ''
+                entry.history.append([time.asctime(),user,'action','Replaced kinetics with those estimated using RMG-Java.'])
+                entry.shortDesc = "Rate estimated by RMG-Java"
+                
+                output.entries[entry.index] = entry
+                print longDesc
+        finally:
+            filename = 'input/kinetics/families/{0}/{1}-RMG-Java.py'.format(family_label,set_label)
+            print "Saving results (so far) in "+filename
+            output.save(filename)
+    
+    
+################################################################################
+
 def generate(args, database):
     """
     This function is called when the "generate" command is given on the command
@@ -620,6 +680,21 @@ def evaluate(args, database):
         plot = plot,
     )
 
+def get_from_java(args, database):
+    """
+    This function is called when the "java" command is given on the command
+    line. It causes group additivity kinetics values to be estimated by
+    RMG-java and saved for all reaction families.
+    """
+    for family in database.kinetics.families.keys():
+        getRatesFromRMGjava(
+            database = database,
+            family_label = family,
+            testSetLabels = ['PrIMe'],
+        )
+    print 'Saving new kinetics values...'
+    #database.kinetics.saveGroups(os.path.join('input', 'kinetics', 'groups'))
+
 ################################################################################
 
 if __name__ == '__main__':
@@ -636,6 +711,9 @@ if __name__ == '__main__':
     evaluateParser.add_argument('family', metavar='<family>', type=str, nargs=1, help='the family to evaluate')
     evaluateParser.set_defaults(run=evaluate)
     evaluateParser.add_argument('-i', '--interactive', action='store_true', help='evaluate using interactive plots')
+    
+    javaParser = subparsers.add_parser('java', help='evaluate kinetics from RMG java for all families')
+    javaParser.set_defaults(run=get_from_java)
     
     args = parser.parse_args()
     
