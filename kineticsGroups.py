@@ -14,6 +14,8 @@ import math
 import numpy
 import pylab
 import scipy.stats
+import matplotlib
+matplotlib.rc('mathtext', fontset='stixsans', default='regular')
 
 from rmgpy.quantity import constants
 from rmgpy.kinetics import Arrhenius, ArrheniusEP, KineticsData
@@ -435,11 +437,11 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
     
     if plot:
         # Generate plots
-        generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmodel_test, groups, trainingSets, testSets, family.label)
+        generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmodel_test, groups, trainingSets, testSets, family, plot)
     
 ################################################################################
 
-def generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmodel_test, groups, trainingSets, testSets, family):
+def generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmodel_test, groups, trainingSets, testSets, family, plot):
     """
     Generate and show a set of parity plots of the predicted and actual values 
     of k(T) at various temperature. The predicted (model) and actual (data) k(T)
@@ -473,67 +475,107 @@ def generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmod
         # Plot the training set confidence interval
         ci = ci_training
         
-        fig = pylab.figure(figsize=(10,8))
-        ax = plt.subplot(1, 1, 1)
+        if plot == 'interactive':
         
-        lines = []
-        for index in range(len(kdata_training)):
-            lines.append(ax.loglog(kdata_training[index][:,t], kmodel_training[index][:,t], 'o', picker=5)[0])
-        for index in range(len(kdata_test)):
-            lines.append(ax.loglog(kdata_test[index][:,t], kmodel_test[index][:,t], 's', picker=5)[0])
+            fig = pylab.figure(figsize=(10,8))
+            ax = plt.subplot(1, 1, 1)
+            
+            lines = []
+            for index in range(len(kdata_training)):
+                lines.append(ax.loglog(kdata_training[index][:,t], kmodel_training[index][:,t], 'o', picker=5)[0])
+            for index in range(len(kdata_test)):
+                lines.append(ax.loglog(kdata_test[index][:,t], kmodel_test[index][:,t], 's', picker=5)[0])
+            
+            legend = []
+            for label, trainingSet in trainingSets:
+                legend.append(label)
+            for label, testSet in testSets:
+                legend.append(label)
+            
+            xlim = pylab.xlim()
+            ylim = pylab.ylim()
+            lim = (min(xlim[0], ylim[0])*0.1, max(xlim[1], ylim[1])*10)
+            ax.loglog(lim, lim, '-k')
+            ax.loglog(lim, [lim[0] * 10**ci, lim[1] * 10**ci], '--k')
+            ax.loglog(lim, [lim[0] / 10**ci, lim[1] / 10**ci], '--k')
+            pylab.xlabel('Actual rate coefficient')
+            pylab.ylabel('Predicted rate coefficient')
+            pylab.legend(legend, loc=4)
+            pylab.title('%s, T = %g K' % (family.label, T))
+            pylab.xlim(lim)
+            pylab.ylim(lim)
+            
+            rax = plt.axes([0.15, 0.65, 0.2, 0.2])
+            check = CheckButtons(rax, legend, [True for label in legend])
+            
+            def func(label):
+                for index in range(len(lines)):
+                    if legend[index] == label:
+                        lines[index].set_visible(not lines[index].get_visible())
+                plt.draw()
+            check.on_clicked(func)
+            
+            def onpick(event):
+                index = lines.index(event.artist)
+                if index < len(trainingSets):
+                    label, data = trainingSets[index]
+                    kdata = kdata_training[index][:,t]
+                    kmodel = kmodel_training[index][:,t]
+                else:
+                    index = index - len(trainingSets)
+                    label, data = testSets[index]
+                    kdata = kdata_test[index][:,t]
+                    kmodel = kmodel_test[index][:,t]
+                for ind in event.ind:
+                    reaction, template, entry = data[ind]
+                    kunits = 'm^3/(mol*s)' if len(reaction.reactants) == 2 else 's^-1'
+                    print label
+                    print 'template = [%s]' % (', '.join([g.label for g in template]))
+                    print 'entry = %r' % (entry)
+                    print '%s' % (reaction)
+                    print 'k_data   = %9.2e %s' % (kdata[ind], kunits)
+                    print 'k_model  = %9.2e %s' % (kmodel[ind], kunits)
+            
+            connection_id = fig.canvas.mpl_connect('pick_event', onpick)
         
-        legend = []
-        for label, trainingSet in trainingSets:
-            legend.append(label)
-        for label, testSet in testSets:
-            legend.append(label)
+        else:
         
-        xlim = pylab.xlim()
-        ylim = pylab.ylim()
-        lim = (min(xlim[0], ylim[0])*0.1, max(xlim[1], ylim[1])*10)
-        ax.loglog(lim, lim, '-k')
-        ax.loglog(lim, [lim[0] * 10**ci, lim[1] * 10**ci], '--k')
-        ax.loglog(lim, [lim[0] / 10**ci, lim[1] / 10**ci], '--k')
-        pylab.xlabel('Actual rate coefficient')
-        pylab.ylabel('Predicted rate coefficient')
-        pylab.legend(legend, loc=4)
-        pylab.title('%s, T = %g K' % (family, T))
-        pylab.xlim(lim)
-        pylab.ylim(lim)
-        
-        rax = plt.axes([0.15, 0.65, 0.2, 0.2])
-        check = CheckButtons(rax, legend, [True for label in legend])
-        
-        def func(label):
-            for index in range(len(lines)):
-                if legend[index] == label:
-                    lines[index].set_visible(not lines[index].get_visible())
-            plt.draw()
-        check.on_clicked(func)
-        
-        def onpick(event):
-            index = lines.index(event.artist)
-            if index < len(trainingSets):
-                label, data = trainingSets[index]
-                kdata = kdata_training[index][:,t]
-                kmodel = kmodel_training[index][:,t]
+            if len(family.forwardTemplate.reactants) == 1:
+                kunits = 's^-1'; kfactor = 1.0
+            elif len(family.forwardTemplate.reactants) == 2:
+                # Actual units are m^3/mol*s, but convert them to cm^3/mol*s just for the plot
+                kunits = 'cm^3/mol*s'; kfactor = 1.0e6
             else:
-                index = index - len(trainingSets)
-                label, data = testSets[index]
-                kdata = kdata_test[index][:,t]
-                kmodel = kmodel_test[index][:,t]
-            for ind in event.ind:
-                reaction, template, entry = data[ind]
-                kunits = 'm^3/(mol*s)' if len(reaction.reactants) == 2 else 's^-1'
-                print label
-                print 'template = [%s]' % (', '.join([g.label for g in template]))
-                print 'entry = %r' % (entry)
-                print '%s' % (reaction)
-                print 'k_data   = %9.2e %s' % (kdata[ind], kunits)
-                print 'k_model  = %9.2e %s' % (kmodel[ind], kunits)
-        
-        connection_id = fig.canvas.mpl_connect('pick_event', onpick)
-        
+                raise Exception('Could not determine units of forward kinetics for reaction family "{0}".'.format(family.label))
+            
+            for istraining in [True, False]:
+                
+                fig = pylab.figure(figsize=(6,5))
+                ax = plt.subplot(1, 1, 1)
+                
+                lines = []
+                if istraining:
+                    for index in range(len(kdata_training)):
+                        lines.append(ax.loglog(kdata_training[index][:,t] * kfactor, kmodel_training[index][:,t] * 1e6, 'ob', picker=5)[0])
+                else:
+                    for index in range(len(kdata_test)):
+                        lines.append(ax.loglog(kdata_test[index][:,t] * kfactor, kmodel_test[index][:,t] * 1e6, 'sr', picker=5)[0])
+                
+                xlim = pylab.xlim()
+                ylim = pylab.ylim()
+                lim = (min(xlim[0], ylim[0])*0.1, max(xlim[1], ylim[1])*10)
+                ax.loglog(lim, lim, '-k')
+                ax.loglog(lim, [lim[0] * 10**ci, lim[1] * 10**ci], '--k')
+                ax.loglog(lim, [lim[0] / 10**ci, lim[1] / 10**ci], '--k')
+                pylab.xlabel('Actual rate coefficient (${0}$)'.format(kunits))
+                pylab.ylabel('Predicted rate coefficient (${0}$)'.format(kunits))
+                pylab.title('%s, T = %g K' % (family.label, T))
+                pylab.xlim(lim)
+                pylab.ylim(lim)
+                
+                fig.subplots_adjust(left=0.15, bottom=0.12, right=0.95, top=0.93, wspace=0.20, hspace=0.20)
+                pylab.savefig('%s_%g_%s.pdf' % (family.label, T, 'training' if istraining else 'test'))
+          
         pylab.show()
         
 ################################################################################
@@ -563,6 +605,10 @@ def evaluate(args, database):
     line. It causes group additivity kinetics values to be generated and 
     evaluated for one reaction family.
     """
+    if args.interactive:
+        plot = 'interactive'
+    else:
+        plot = True
     family = args.family[0]
     Tdata = numpy.array([500,1000,1500,2000], numpy.float64)
     generateKineticsGroupValues(
@@ -571,7 +617,7 @@ def evaluate(args, database):
         Tdata = Tdata,
         trainingSetLabels = ['rules', 'training'],
         testSetLabels = ['PrIMe', 'test'],
-        plot = True,
+        plot = plot,
     )
 
 ################################################################################
@@ -589,6 +635,7 @@ if __name__ == '__main__':
     evaluateParser = subparsers.add_parser('evaluate', help='evaluate kinetics group values for one family')
     evaluateParser.add_argument('family', metavar='<family>', type=str, nargs=1, help='the family to evaluate')
     evaluateParser.set_defaults(run=evaluate)
+    evaluateParser.add_argument('-i', '--interactive', action='store_true', help='evaluate using interactive plots')
     
     args = parser.parse_args()
     
