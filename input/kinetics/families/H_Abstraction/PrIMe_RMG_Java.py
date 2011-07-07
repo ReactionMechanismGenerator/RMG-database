@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "H_Abstraction/PrIMe-RMG-java"
+name = "H_Abstraction/PrIMe_RMG_java"
 shortDesc = u"Reactions from H_Abstraction/PrIMe with kinetics estimated by RMG-Java."
 longDesc = u"""
 Reactions from H_Abstraction/PrIMe with kinetics estimated by RMG-Java.

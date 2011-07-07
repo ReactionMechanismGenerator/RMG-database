@@ -597,8 +597,8 @@ def getRatesFromRMGjava(family_label, database, testSetLabels):
         print "Running reactions from {0}/{1} through RMG-java...".format(family_label,set_label)
         try:
             output = rmgpy.data.kinetics.KineticsDepository(
-                label = '{0}/{1}-RMG-java'.format(family_label,set_label),
-                name = '{0}/{1}-RMG-java'.format(family_label,set_label),
+                label = '{0}/{1}_RMG_java'.format(family_label,set_label),
+                name = '{0}/{1}_RMG_java'.format(family_label,set_label),
                 shortDesc = "Reactions from {0}/{1} with kinetics estimated by RMG-Java.".format(family_label,set_label),
                 longDesc = "Reactions from {0}/{1} with kinetics estimated by RMG-Java.".format(family_label,set_label)
             )
@@ -633,7 +633,7 @@ and comment "{5!s}"\n""".format(entry.item,
                 output.entries[entry.index] = entry
                 print longDesc
         finally:
-            filename = 'input/kinetics/families/{0}/{1}-RMG-Java.py'.format(family_label,set_label)
+            filename = 'input/kinetics/families/{0}/{1}_RMG_Java.py'.format(family_label,set_label)
             print "Saving results (so far) in "+filename
             output.save(filename)
     
