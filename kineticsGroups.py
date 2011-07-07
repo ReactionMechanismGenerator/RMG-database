@@ -594,6 +594,9 @@ def getRatesFromRMGjava(family_label, database, testSetLabels):
     family = database.kinetics.families[family_label]
     
     for set_label in testSetLabels:
+        depository = getKineticsSet(family, set_label)
+        if depository is None:
+            continue
         print "Running reactions from {0}/{1} through RMG-java...".format(family_label,set_label)
         try:
             output = rmgpy.data.kinetics.KineticsDepository(
@@ -603,9 +606,7 @@ def getRatesFromRMGjava(family_label, database, testSetLabels):
                 longDesc = "Reactions from {0}/{1} with kinetics estimated by RMG-Java.".format(family_label,set_label)
             )
             
-            depository = getKineticsSet(family, set_label)
-            if depository is None:
-                continue
+
             for entry in depository.entries.values():
                 reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family.label, thermoDatabase=database.thermo)
                 
@@ -686,13 +687,28 @@ def get_from_java(args, database):
     line. It causes group additivity kinetics values to be estimated by
     RMG-java and saved for all reaction families.
     """
-    for family in ['H_Abstraction']: # database.kinetics.families.keys():
-        getRatesFromRMGjava(
+    successes = []
+    failures = []
+    for family in database.kinetics.families.keys():
+        try: 
+         getRatesFromRMGjava(
             database = database,
             family_label = family,
             testSetLabels = ['PrIMe'],
-        )
-    print 'Saving new kinetics values...'
+         )
+        except Exception as e:
+            print "FAILED on "+family
+            print "EXCEPTION: "+str(e)
+            failures.append(family)
+        else:
+            successes.append(family)
+    print 'COMPLETED making RMG-Java kinetics for:'
+    for family in successes:
+        print "  "+family
+    print 'FAILED while making RMG-Java kinetics for:'
+    for family in failures:
+        print "  "+family
+    
     #database.kinetics.saveGroups(os.path.join('input', 'kinetics', 'groups'))
 
 ################################################################################
