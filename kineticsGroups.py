@@ -686,7 +686,7 @@ def get_from_java(args, database):
     line. It causes group additivity kinetics values to be estimated by
     RMG-java and saved for all reaction families.
     """
-    for family in database.kinetics.families.keys():
+    for family in ['H_Abstraction']: # database.kinetics.families.keys():
         getRatesFromRMGjava(
             database = database,
             family_label = family,
