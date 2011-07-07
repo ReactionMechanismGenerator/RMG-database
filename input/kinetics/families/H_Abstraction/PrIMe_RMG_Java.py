@@ -8,93 +8,31 @@ Reactions from H_Abstraction/PrIMe with kinetics estimated by RMG-Java.
 """
 
 entry(
-    index = 1,
-    label = "r00000863",
-    reactant1 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S} {5,D}
-4     C     0 {1,S} {6,D}
-5     C     0 {3,D} {7,S}
-6  *1 C     0 {4,D} {7,S} {9,S}
-7     C     0 {5,S} {6,S} {8,D}
-8     O     0 {7,D}
-9  *2 H     0 {6,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S} {3,S} {4,S}
-3     C     0 {2,S} {5,D}
-4     C     0 {2,S} {6,D}
-5     C     0 {3,D} {7,S}
-6     C     0 {4,D} {7,S}
-7     C     0 {5,S} {6,S} {8,D}
-8     O     0 {7,D}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (9.32e+12,"cm**3/mol/s"),
-        n = 0,
-        Ea = (7,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "C1(C)C=CC(=O)C=C1"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "C[C]1C=CC(=O)C=C1">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00000863/rk00000001.xml"
-and kinetics Arrhenius(A=(3.94e+13,"cm^3/(mol*s)"), n=0, Ea=(37248.8,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction C1(C)C=CC(=O)C=C1 + [CH3] <=> CC1=C[CH]C(=O)C=C1 + C
-with kinetics Arrhenius(A=(9.32e+12,"cm**3/mol/s"), n=0, Ea=(7,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction exact:   [ C/H/Cs , C_methyl ]	deltaHrxn(T=298K) = -9.52 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00000863/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:19 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
     index = 5,
     label = "r00001347",
     reactant1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3  *3 O     1 {2,S}
-""",
-    product1 = 
 """
 1     C     0 {2,S}
 2     O     0 {1,S} {3,S}
 3  *1 O     0 {2,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1 {2,D}
 2     O     0 {1,D}
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,D} {3,S}
+2     O     0 {1,D}
+3  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3  *3 O     1 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -116,10 +54,11 @@ as reaction [CH]=O + COO <=> C=O + CO[O]
 with kinetics Arrhenius(A=(313200,"cm**3/mol/s"), n=1.98, Ea=(14.4,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (O_pri O2b) && Average of: (O/H/NonDeC O2b) && O_pri H_rad && Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad) && Average of: (O_pri C_methyl && Average of: (O_pri C_rad/H2/Cs)) && Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl) && Average of: (O_pri Cd_pri_rad) && Average of: (O/H/NonDeC Cd_pri_rad && Average of: (H2O2 InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3) && Average of: (H2O2 Cd_rad/NonDeC)) && Average of: (O/H/NonDeC Ct_rad) && Average of: (O_pri CO_pri_rad) && Average of: (O_pri O_pri_rad && Average of: (O_pri O_rad/NonDeC)) && Average of: (O/H/NonDeC O_pri_rad && Average of: (H2O2 O_rad/NonDeO && H2O2 O_rad/OneDe)))))  [ CO_pri_rad , O/H/NonDeO ] Ea computed using Evans-Polanyi dHrxn(298K)=-2.1 kcal/mol and alpha=0.08.	deltaHrxn(T=298K) = -2.09 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001347/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:19 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:40 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -396,25 +335,25 @@ entry(
     label = "r00001370",
     reactant1 = 
 """
-1  *1 C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *3 C     1 {2,D}
 2     O     0 {1,D}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,D} {3,S}
+2     O     0 {1,D}
+3  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -436,11 +375,12 @@ as reaction [CH]=O + O[O] <=> C=O + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ CO_pri_rad , Orad_O_H ]	deltaHrxn(T=298K) = -39.37 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001370/rk00000002.xml"""),
         ("Tue May 17 18:03:57 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed reversed reactants and products."""),
-        ("Thu Jul  7 16:12:20 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -449,25 +389,25 @@ entry(
     label = "r00001370",
     reactant1 = 
 """
-1  *1 C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *3 C     1 {2,D}
 2     O     0 {1,D}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,D} {3,S}
+2     O     0 {1,D}
+3  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -489,11 +429,12 @@ as reaction [CH]=O + O[O] <=> C=O + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ CO_pri_rad , Orad_O_H ]	deltaHrxn(T=298K) = -39.37 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001370/rk00000003.xml"""),
         ("Tue May 17 18:03:57 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed reversed reactants and products."""),
-        ("Thu Jul  7 16:12:20 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -502,25 +443,25 @@ entry(
     label = "r00001370",
     reactant1 = 
 """
-1  *1 C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *3 C     1 {2,D}
 2     O     0 {1,D}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,D} {3,S}
+2     O     0 {1,D}
+3  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -542,11 +483,12 @@ as reaction [CH]=O + O[O] <=> C=O + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ CO_pri_rad , Orad_O_H ]	deltaHrxn(T=298K) = -39.37 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001370/rk00000004.xml"""),
         ("Tue May 17 18:03:57 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed reversed reactants and products."""),
-        ("Thu Jul  7 16:12:20 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -555,25 +497,25 @@ entry(
     label = "r00001370",
     reactant1 = 
 """
-1  *1 C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *3 C     1 {2,D}
 2     O     0 {1,D}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,D} {3,S}
+2     O     0 {1,D}
+3  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -595,12 +537,13 @@ as reaction [CH]=O + O[O] <=> C=O + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ CO_pri_rad , Orad_O_H ]	deltaHrxn(T=298K) = -39.37 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001370/rk00000005.xml"""),
         ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units of the preexponential factor."""),
         ("Tue May 17 18:03:57 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed reversed reactants and products."""),
-        ("Thu Jul  7 16:12:20 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -662,25 +605,25 @@ entry(
     label = "r00001370",
     reactant1 = 
 """
-1  *1 C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1 {2,D}
 2     O     0 {1,D}
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,D} {3,S}
+2     O     0 {1,D}
+3  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -702,11 +645,12 @@ as reaction [CH]=O + O[O] <=> C=O + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ CO_pri_rad , Orad_O_H ]	deltaHrxn(T=298K) = -39.37 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001370/rk00000007.xml"""),
         ("Tue May 17 18:03:57 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed reversed reactants and products."""),
-        ("Thu Jul  7 16:12:20 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -1009,25 +953,25 @@ entry(
     label = "r00001604",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 O     0 {1,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *3 O     1 {1,S}
+1  *3 C     1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1049,10 +993,11 @@ as reaction C + CC[O] <=> C(C)O + [CH3]
 with kinetics Arrhenius(A=(0.00062,"cm**3/mol/s"), n=5, Ea=(5.58,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_methane , O_rad/NonDeC ]	deltaHrxn(T=298K) = -0.80 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001604/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:21 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:43 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -1218,25 +1163,25 @@ entry(
     label = "r00001618",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 O     0 {1,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *3 O     1 {1,S}
+1  *3 H     1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1258,10 +1203,11 @@ as reaction [H][H] + CC[O] <=> C(C)O + [H]
 with kinetics Arrhenius(A=(0.1264,"cm**3/mol/s"), n=4, Ea=(4.91,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H2 , O_rad/NonDeC ]	deltaHrxn(T=298K) = -1.48 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001618/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:22 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:43 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -1270,25 +1216,25 @@ entry(
     label = "r00001618",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 O     0 {1,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *3 O     1 {1,S}
+1  *3 H     1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1310,10 +1256,11 @@ as reaction [H][H] + CC[O] <=> C(C)O + [H]
 with kinetics Arrhenius(A=(0.1264,"cm**3/mol/s"), n=4, Ea=(4.91,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H2 , O_rad/NonDeC ]	deltaHrxn(T=298K) = -1.48 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001618/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:22 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:44 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -1479,26 +1426,26 @@ entry(
     reactant1 = 
 """
 1     C     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3  *3 O     1 {2,S}
-""",
-    product1 = 
-"""
-1     C     0 {2,S}
 2     O     0 {1,S} {3,S}
 3  *1 O     0 {2,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1 {2,S}
 2     O     0 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3  *3 O     1 {2,S}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -1520,10 +1467,11 @@ as reaction [CH2]O + COO <=> CO + CO[O]
 with kinetics Arrhenius(A=(0.1335,"cm**3/mol/s"), n=3.76, Ea=(5.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2))))  [ C_rad/H2/O , O/H/NonDeO ]	deltaHrxn(T=298K) = -10.42 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001676/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:22 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:44 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -1532,25 +1480,25 @@ entry(
     label = "r00001687",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1 {2,S}
-2     O     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     O     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1  *3 C     1 {2,S}
+2     O     0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -1572,10 +1520,11 @@ as reaction C[O] + CO <=> CO + [CH2]O
 with kinetics Arrhenius(A=(382.6,"cm**3/mol/s"), n=3.21, Ea=(2.01,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs O_pri_rad && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3) && InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ O_rad/NonDeO && Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/o)) && C/H3/CO O_pri_rad && C/H3/O O_pri_rad)))  [ O_rad/NonDeC , C/H3/O ]	deltaHrxn(T=298K) = -8.71 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001687/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:22 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:44 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -1636,25 +1585,25 @@ entry(
     label = "r00001688",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1 {2,D}
-2     O     0 {1,D}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,D} {3,S}
 2     O     0 {1,D}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1 {2,S}
 2     O     0 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1  *3 C     1 {2,D}
+2     O     0 {1,D}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -1676,10 +1625,11 @@ as reaction [CH2]O + C=O <=> CO + [CH]=O
 with kinetics Arrhenius(A=(18.36,"cm**3/mol/s"), n=3.38, Ea=(9.04,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (CO_pri C_rad/H2/Cs && Average of: (CO_pri InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3))))  [ C_rad/H2/O , CO_pri ]	deltaHrxn(T=298K) = -8.33 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001688/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:22 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:44 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -1845,26 +1795,26 @@ entry(
     reactant1 = 
 """
 1     C     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S} {3,D}
-3     O     0 {2,D}
-""",
-    product1 = 
-"""
-1     C     0 {2,S}
 2  *1 C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
 4  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1 {2,S}
 2     O     0 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,D}
+3     O     0 {2,D}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -1886,10 +1836,11 @@ as reaction [CH2]O + CC=O <=> CO + C[C]=O
 with kinetics Arrhenius(A=(29200,"cm**3/mol/s"), n=2.29, Ea=(5.44,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (CO/H/NonDe C_methyl)))  [ C_rad/H2/O , CO/H/NonDe ]	deltaHrxn(T=298K) = -7.34 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001691/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:23 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:45 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -1898,25 +1849,25 @@ entry(
     label = "r00001705",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1 {2,S}
 2     O     0 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -1938,10 +1889,11 @@ as reaction [CH2]O + O[O] <=> CO + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C_rad/H2/O , Orad_O_H ]	deltaHrxn(T=298K) = -47.70 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001705/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:23 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:45 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -1995,1549 +1947,7 @@ and comment "Estimated by RMG-Java:
 """,
     history = [
         ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001752/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:23 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 43,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000001.xml"
-and kinetics Arrhenius(A=(1.79578e+10,"cm^3/(mol*s)"), n=0.5, Ea=(39743.2,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:23 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 44,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000003.xml"
-and kinetics Arrhenius(A=(6.4e+11,"cm^3/(mol*s)"), n=0, Ea=(39743.2,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000003.xml"""),
-        ("Thu Jul  7 16:12:23 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 45,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000004.xml"
-and kinetics Arrhenius(A=(5e+11,"cm^3/(mol*s)"), n=0, Ea=(40990.3,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000004.xml"""),
-        ("Thu Jul  7 16:12:23 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 46,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000009.xml"
-and kinetics Arrhenius(A=(2.24e+11,"cm^3/(mol*s)"), n=0, Ea=(39743.2,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000009.xml"""),
-        ("Thu Jul  7 16:12:24 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 47,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000011.xml"
-and kinetics Arrhenius(A=(2.24e+11,"cm^3/(mol*s)"), n=0, Ea=(38911.7,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000011.xml"""),
-        ("Thu Jul  7 16:12:24 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 48,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000013.xml"
-and kinetics Arrhenius(A=(2.24e+11,"cm^3/(mol*s)"), n=0, Ea=(39909.5,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000013.xml"""),
-        ("Thu Jul  7 16:12:24 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 49,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000014.xml"
-and kinetics Arrhenius(A=(3.89e+11,"cm^3/(mol*s)"), n=0, Ea=(41322.9,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000014.xml"""),
-        ("Thu Jul  7 16:12:24 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 50,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000015.xml"
-and kinetics Arrhenius(A=(2.88e+11,"cm^3/(mol*s)"), n=0, Ea=(40325.2,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000015.xml"""),
-        ("Thu Jul  7 16:12:24 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 51,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000016.xml"
-and kinetics Arrhenius(A=(3.3e+11,"cm^3/(mol*s)"), n=0, Ea=(39493.7,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000016.xml"""),
-        ("Thu Jul  7 16:12:24 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 52,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000017.xml"
-and kinetics Arrhenius(A=(4.17e+11,"cm^3/(mol*s)"), n=0, Ea=(41073.5,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000017.xml"""),
-        ("Thu Jul  7 16:12:25 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 53,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000018.xml"
-and kinetics Arrhenius(A=(3.16e+11,"cm^3/(mol*s)"), n=0, Ea=(40325.2,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000018.xml"""),
-        ("Thu Jul  7 16:12:25 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 54,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000019.xml"
-and kinetics Arrhenius(A=(2.69e+11,"cm^3/(mol*s)"), n=0, Ea=(39660,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000019.xml"""),
-        ("Thu Jul  7 16:12:25 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 55,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000020.xml"
-and kinetics Arrhenius(A=(3.24e+11,"cm^3/(mol*s)"), n=0, Ea=(40325.2,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000020.xml"""),
-        ("Thu Jul  7 16:12:25 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 56,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000023.xml"
-and kinetics Arrhenius(A=(4.07e+11,"cm^3/(mol*s)"), n=0, Ea=(40491.5,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000023.xml"""),
-        ("Thu Jul  7 16:12:25 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 57,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000024.xml"
-and kinetics Arrhenius(A=(3.39e+11,"cm^3/(mol*s)"), n=0, Ea=(40574.6,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000024.xml"""),
-        ("Thu Jul  7 16:12:25 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 58,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000025.xml"
-and kinetics Arrhenius(A=(3.31e+11,"cm^3/(mol*s)"), n=0, Ea=(40325.2,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000025.xml"""),
-        ("Thu Jul  7 16:12:25 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 59,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000026.xml"
-and kinetics Arrhenius(A=(3.47e+11,"cm^3/(mol*s)"), n=0, Ea=(39992.6,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000026.xml"""),
-        ("Thu Jul  7 16:12:26 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 60,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000027.xml"
-and kinetics Arrhenius(A=(3.47e+11,"cm^3/(mol*s)"), n=0, Ea=(40491.5,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000027.xml"""),
-        ("Thu Jul  7 16:12:26 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 61,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000028.xml"
-and kinetics Arrhenius(A=(4.5e+11,"cm^3/(mol*s)"), n=0, Ea=(44066.7,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000028.xml"""),
-        ("Thu Jul  7 16:12:26 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 62,
-    label = "r00001769",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (62.84,"cm**3/mol/s"),
-        n = 3.29,
-        Ea = (7.68,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000029.xml"
-and kinetics Arrhenius(A=(8.51e+13,"cm^3/(mol*s)"), n=0, Ea=(71670.7,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [CH3] <=> CC(=C)[O] + C
-with kinetics Arrhenius(A=(62.84,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/CO , C_methyl ]	deltaHrxn(T=298K) = -7.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000029.xml"""),
-        ("Thu Jul  7 16:12:26 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 63,
-    label = "r00001772",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,B} {3,B}
-2     C     0 {1,B} {4,B}
-3     C     0 {1,B} {5,B}
-4     C     0 {2,B} {6,B}
-5     C     0 {3,B} {6,B}
-6  *3 C     1 {4,B} {5,B}
-""",
-    product1 = 
-"""
-1     C     0 {2,B} {3,B}
-2     C     0 {1,B} {4,B}
-3  *1 C     0 {1,B} {5,B} {7,S}
-4     C     0 {2,B} {6,B}
-5     C     0 {3,B} {6,B}
-6     C     0 {4,B} {5,B}
-7  *2 H     0 {3,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (2.088e+11,"cm**3/mol/s"),
-        n = 0,
-        Ea = (4.44,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "c1cc[c]cc1"> <=> <Molecule "c1ccccc1"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001772/rk00000001.xml"
-and kinetics Arrhenius(A=(4.2e+11,"cm^3/(mol*s)"), n=0, Ea=(7940.32,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + c1cc[c]cc1 <=> CC(=C)[O] + c1ccccc1
-with kinetics Arrhenius(A=(2.088e+11,"cm**3/mol/s"), n=0, Ea=(4.44,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs Cb_rad)))  [ C/H3/CO , Cb_rad ]	deltaHrxn(T=298K) = -15.84 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001772/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:26 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 64,
-    label = "r00001772",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,B} {3,B}
-2     C     0 {1,B} {4,B}
-3     C     0 {1,B} {5,B}
-4     C     0 {2,B} {6,B}
-5     C     0 {3,B} {6,B}
-6  *3 C     1 {4,B} {5,B}
-""",
-    product1 = 
-"""
-1     C     0 {2,B} {3,B}
-2     C     0 {1,B} {4,B}
-3  *1 C     0 {1,B} {5,B} {7,S}
-4     C     0 {2,B} {6,B}
-5     C     0 {3,B} {6,B}
-6     C     0 {4,B} {5,B}
-7  *2 H     0 {3,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (2.088e+11,"cm**3/mol/s"),
-        n = 0,
-        Ea = (4.44,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "c1cc[c]cc1"> <=> <Molecule "c1ccccc1"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001772/rk00000002.xml"
-and kinetics Arrhenius(A=(0.17,"cm^3/(mol*s)"), n=4.2, Ea=(-3874.54,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + c1cc[c]cc1 <=> CC(=C)[O] + c1ccccc1
-with kinetics Arrhenius(A=(2.088e+11,"cm**3/mol/s"), n=0, Ea=(4.44,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs Cb_rad)))  [ C/H3/CO , Cb_rad ]	deltaHrxn(T=298K) = -15.84 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001772/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:26 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 65,
-    label = "r00001773",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2     C     0 {1,D}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (93030,"cm**3/mol/s"),
-        n = 2.44,
-        Ea = (5.5,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "C=[CH]"> <=> <Molecule "C=C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001773/rk00000001.xml"
-and kinetics Arrhenius(A=(1.23e+11,"cm^3/(mol*s)"), n=0, Ea=(17876.1,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + C=[CH] <=> CC(=C)[O] + C=C
-with kinetics Arrhenius(A=(93030,"cm**3/mol/s"), n=2.44, Ea=(5.5,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (Average of: (Average of: (InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/gamma InChI=1/C3H5/c1-3-2/h1H2,2H3)) && C/H3/Cd Cd_pri_rad)))  [ C/H3/CO , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -13.59 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001773/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:26 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 66,
-    label = "r00001774",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S} {5,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4     C     0 {1,S}
-5  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     C     0 {2,S} {3,S} {4,S} {5,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4     C     0 {1,S}
-5  *1 O     0 {1,S} {6,S}
-6  *2 H     0 {5,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (765.2,"cm**3/mol/s"),
-        n = 3.21,
-        Ea = (2.01,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "C(C)(C)(C)[O]"> <=> <Molecule "C(C)(C)(C)O"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001774/rk00000001.xml"
-and kinetics Arrhenius(A=(1.26e+13,"cm^3/(mol*s)"), n=0, Ea=(25691.7,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + C(C)(C)(C)[O] <=> CC(=C)[O] + C(C)(C)(C)O
-with kinetics Arrhenius(A=(765.2,"cm**3/mol/s"), n=3.21, Ea=(2.01,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs O_pri_rad && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3) && InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ O_rad/NonDeO && Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/o)) && C/H3/CO O_pri_rad && C/H3/O O_pri_rad)))  [ C/H3/CO , O_rad/NonDeC ]	deltaHrxn(T=298K) = -6.90 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001774/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:27 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 67,
-    label = "r00001778",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 O     1
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (3.102e+06,"cm**3/mol/s"),
-        n = 2.2,
-        Ea = (1,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[OH]"> <=> <Molecule "O"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001778/rk00000006.xml"
-and kinetics Arrhenius(A=(1.69e+12,"cm^3/(mol*s)"), n=0, Ea=(6319,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [OH] <=> CC(=C)[O] + O
-with kinetics Arrhenius(A=(3.102e+06,"cm**3/mol/s"), n=2.2, Ea=(1,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction exact:   [ C/H3/CO , O_pri_rad ]	deltaHrxn(T=298K) = -22.80 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001778/rk00000006.xml"""),
-        ("Thu Jul  7 16:12:27 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 68,
-    label = "r00001778",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 O     1
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (3.102e+06,"cm**3/mol/s"),
-        n = 2.2,
-        Ea = (1,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[OH]"> <=> <Molecule "O"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001778/rk00000007.xml"
-and kinetics Arrhenius(A=(1.32e+12,"cm^3/(mol*s)"), n=0, Ea=(5695.41,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [OH] <=> CC(=C)[O] + O
-with kinetics Arrhenius(A=(3.102e+06,"cm**3/mol/s"), n=2.2, Ea=(1,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction exact:   [ C/H3/CO , O_pri_rad ]	deltaHrxn(T=298K) = -22.80 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001778/rk00000007.xml"""),
-        ("Thu Jul  7 16:12:27 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 69,
-    label = "r00001783",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (4.551e+06,"cm**3/mol/s"),
-        n = 2.31,
-        Ea = (4.95,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[H]"> <=> <Molecule "[H][H]"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001783/rk00000001.xml"
-and kinetics Arrhenius(A=(2.29e+14,"cm^3/(mol*s)"), n=0, Ea=(58201.3,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [H] <=> CC(=C)[O] + [H][H]
-with kinetics Arrhenius(A=(4.551e+06,"cm**3/mol/s"), n=2.31, Ea=(4.95,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs H_rad && C/H3/Cd H_rad && C/H3/Ct H_rad && C/H3/O H_rad)))  [ C/H3/CO , H_rad ]	deltaHrxn(T=298K) = -7.04 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001783/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:27 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 70,
-    label = "r00001783",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (4.551e+06,"cm**3/mol/s"),
-        n = 2.31,
-        Ea = (4.95,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "[H]"> <=> <Molecule "[H][H]"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001783/rk00000002.xml"
-and kinetics Arrhenius(A=(1.86e+13,"cm^3/(mol*s)"), n=0, Ea=(26606.3,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC(=O)C + [H] <=> CC(=C)[O] + [H][H]
-with kinetics Arrhenius(A=(4.551e+06,"cm**3/mol/s"), n=2.31, Ea=(4.95,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs H_rad && C/H3/Cd H_rad && C/H3/Ct H_rad && C/H3/O H_rad)))  [ C/H3/CO , H_rad ]	deltaHrxn(T=298K) = -7.04 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001783/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:27 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:46 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -3656,6 +2066,21 @@ entry(
     label = "r00001906",
     reactant1 = 
 """
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,B} {3,B}
+2     C     0 {1,B} {4,B}
+3     C     0 {1,B} {5,B}
+4     C     0 {2,B} {6,B}
+5     C     0 {3,B} {6,B}
+6  *3 C     1 {4,B} {5,B}
+""",
+    product1 = 
+"""
 1     C     0 {2,B} {3,B}
 2     C     0 {1,B} {4,B}
 3     C     0 {1,B} {5,B}
@@ -3664,25 +2089,10 @@ entry(
 6  *1 C     0 {4,B} {5,B} {7,S}
 7  *2 H     0 {6,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     1 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,B} {3,B}
-2     C     0 {1,B} {4,B}
-3     C     0 {1,B} {5,B}
-4     C     0 {2,B} {6,B}
-5     C     0 {3,B} {6,B}
-6  *3 C     1 {4,B} {5,B}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
@@ -3704,10 +2114,11 @@ as reaction c1cc[c]cc1 + O[O] <=> c1ccccc1 + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ Cb_rad , Orad_O_H ]	deltaHrxn(T=298K) = -63.96 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001906/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:28 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:52 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -3715,6 +2126,20 @@ entry(
     index = 74,
     label = "r00001912",
     reactant1 = 
+"""
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,B} {3,B}
+2     C     0 {1,B} {4,B}
+3     C     0 {1,B} {5,B}
+4     C     0 {2,B} {6,B}
+5     C     0 {3,B} {6,B}
+6  *3 C     1 {4,B} {5,B}
+""",
+    product1 = 
 """
 1     C     0 {2,B} {3,B}
 2     C     0 {1,B} {4,B}
@@ -3724,23 +2149,9 @@ entry(
 6  *1 C     0 {4,B} {5,B} {7,S}
 7  *2 H     0 {6,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,B} {3,B}
-2     C     0 {1,B} {4,B}
-3     C     0 {1,B} {5,B}
-4     C     0 {2,B} {6,B}
-5     C     0 {3,B} {6,B}
-6  *3 C     1 {4,B} {5,B}
+1  *3 H     1
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -3762,10 +2173,11 @@ as reaction c1cc[c]cc1 + [H][H] <=> c1ccccc1 + [H]
 with kinetics Arrhenius(A=(57200,"cm**3/mol/s"), n=2.43, Ea=(6.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Cb_rad , H2 ]	deltaHrxn(T=298K) = -8.80 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001912/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:28 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -3773,6 +2185,20 @@ entry(
     index = 75,
     label = "r00001912",
     reactant1 = 
+"""
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,B} {3,B}
+2     C     0 {1,B} {4,B}
+3     C     0 {1,B} {5,B}
+4     C     0 {2,B} {6,B}
+5     C     0 {3,B} {6,B}
+6  *3 C     1 {4,B} {5,B}
+""",
+    product1 = 
 """
 1     C     0 {2,B} {3,B}
 2     C     0 {1,B} {4,B}
@@ -3782,23 +2208,9 @@ entry(
 6  *1 C     0 {4,B} {5,B} {7,S}
 7  *2 H     0 {6,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,B} {3,B}
-2     C     0 {1,B} {4,B}
-3     C     0 {1,B} {5,B}
-4     C     0 {2,B} {6,B}
-5     C     0 {3,B} {6,B}
-6  *3 C     1 {4,B} {5,B}
+1  *3 H     1
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -3820,10 +2232,11 @@ as reaction c1cc[c]cc1 + [H][H] <=> c1ccccc1 + [H]
 with kinetics Arrhenius(A=(57200,"cm**3/mol/s"), n=2.43, Ea=(6.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Cb_rad , H2 ]	deltaHrxn(T=298K) = -8.80 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001912/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:28 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -3831,6 +2244,20 @@ entry(
     index = 76,
     label = "r00001912",
     reactant1 = 
+"""
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,B} {3,B}
+2     C     0 {1,B} {4,B}
+3     C     0 {1,B} {5,B}
+4     C     0 {2,B} {6,B}
+5     C     0 {3,B} {6,B}
+6  *3 C     1 {4,B} {5,B}
+""",
+    product1 = 
 """
 1     C     0 {2,B} {3,B}
 2     C     0 {1,B} {4,B}
@@ -3840,23 +2267,9 @@ entry(
 6  *1 C     0 {4,B} {5,B} {7,S}
 7  *2 H     0 {6,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,B} {3,B}
-2     C     0 {1,B} {4,B}
-3     C     0 {1,B} {5,B}
-4     C     0 {2,B} {6,B}
-5     C     0 {3,B} {6,B}
-6  *3 C     1 {4,B} {5,B}
+1  *3 H     1
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -3878,10 +2291,11 @@ as reaction c1cc[c]cc1 + [H][H] <=> c1ccccc1 + [H]
 with kinetics Arrhenius(A=(57200,"cm**3/mol/s"), n=2.43, Ea=(6.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Cb_rad , H2 ]	deltaHrxn(T=298K) = -8.80 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001912/rk00000003.xml"""),
-        ("Thu Jul  7 16:12:28 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -4064,23 +2478,23 @@ entry(
     label = "r00001950",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -4102,10 +2516,11 @@ as reaction [CH3] + CC <=> C + C[CH2]
 with kinetics Arrhenius(A=(1.668e+06,"cm**3/mol/s"), n=1.9, Ea=(11.05,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C_methyl , InChI=1/C2H6/c1-2/h1-2H3 ]	deltaHrxn(T=298K) = -3.85 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001950/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:28 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -4764,25 +3179,25 @@ entry(
     label = "r00001954",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3  *3 O     1 {2,S}
-""",
-    product1 = 
-"""
 1     C     0 {2,S}
 2     O     0 {1,S} {3,S}
 3  *1 O     0 {2,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3  *3 O     1 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -4804,10 +3219,11 @@ as reaction [CH3] + COO <=> C + CO[O]
 with kinetics Arrhenius(A=(105.6,"cm**3/mol/s"), n=2.76, Ea=(7.01,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl)))  [ C_methyl , O/H/NonDeO ]	deltaHrxn(T=298K) = -18.57 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001954/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:29 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -5017,23 +3433,23 @@ entry(
     label = "r00001957",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S}
+2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,S}
-2  *3 O     1 {1,S}
+1  *3 C     1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5055,10 +3471,11 @@ as reaction C + C[O] <=> [CH3] + CO
 with kinetics Arrhenius(A=(0.00062,"cm**3/mol/s"), n=5, Ea=(5.58,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_methane , O_rad/NonDeC ]	deltaHrxn(T=298K) = -0.56 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001957/rk00000006.xml"""),
-        ("Thu Jul  7 16:12:29 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -5067,23 +3484,23 @@ entry(
     label = "r00001957",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S}
+2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,S}
-2  *3 O     1 {1,S}
+1  *3 C     1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5105,10 +3522,11 @@ as reaction C + C[O] <=> [CH3] + CO
 with kinetics Arrhenius(A=(0.00062,"cm**3/mol/s"), n=5, Ea=(5.58,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_methane , O_rad/NonDeC ]	deltaHrxn(T=298K) = -0.56 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001957/rk00000007.xml"""),
-        ("Thu Jul  7 16:12:29 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -5117,23 +3535,23 @@ entry(
     label = "r00001957",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S}
+2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,S}
-2  *3 O     1 {1,S}
+1  *3 C     1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5155,10 +3573,11 @@ as reaction C + C[O] <=> [CH3] + CO
 with kinetics Arrhenius(A=(0.00062,"cm**3/mol/s"), n=5, Ea=(5.58,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_methane , O_rad/NonDeC ]	deltaHrxn(T=298K) = -0.56 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001957/rk00000008.xml"""),
-        ("Thu Jul  7 16:12:29 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -5167,23 +3586,23 @@ entry(
     label = "r00001957",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S}
+2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,S}
-2  *3 O     1 {1,S}
+1  *3 C     1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5205,11 +3624,12 @@ as reaction C + C[O] <=> [CH3] + CO
 with kinetics Arrhenius(A=(0.00062,"cm**3/mol/s"), n=5, Ea=(5.58,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_methane , O_rad/NonDeC ]	deltaHrxn(T=298K) = -0.56 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001957/rk00000009.xml"""),
         ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
-        ("Thu Jul  7 16:12:29 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -5392,6 +3812,20 @@ entry(
     label = "r00001964",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,B} {3,B}
+2     C     0 {1,B} {4,B}
+3     C     0 {1,B} {5,B}
+4     C     0 {2,B} {6,B}
+5     C     0 {3,B} {6,B}
+6  *3 C     1 {4,B} {5,B}
+""",
+    product1 = 
+"""
 1     C     0 {2,B} {3,B}
 2     C     0 {1,B} {4,B}
 3     C     0 {1,B} {5,B}
@@ -5400,23 +3834,9 @@ entry(
 6  *1 C     0 {4,B} {5,B} {7,S}
 7  *2 H     0 {6,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,B} {3,B}
-2     C     0 {1,B} {4,B}
-3     C     0 {1,B} {5,B}
-4     C     0 {2,B} {6,B}
-5     C     0 {3,B} {6,B}
-6  *3 C     1 {4,B} {5,B}
+1  *3 C     1
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -5438,10 +3858,11 @@ as reaction C + c1cc[c]cc1 <=> [CH3] + c1ccccc1
 with kinetics Arrhenius(A=(2e+12,"cm**3/mol/s"), n=0, Ea=(8.6,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_methane , Cb_rad ]	deltaHrxn(T=298K) = -8.12 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001964/rk00000004.xml"""),
-        ("Thu Jul  7 16:12:30 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -5449,6 +3870,20 @@ entry(
     index = 107,
     label = "r00001964",
     reactant1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,B} {3,B}
+2     C     0 {1,B} {4,B}
+3     C     0 {1,B} {5,B}
+4     C     0 {2,B} {6,B}
+5     C     0 {3,B} {6,B}
+6  *3 C     1 {4,B} {5,B}
+""",
+    product1 = 
 """
 1     C     0 {2,B} {3,B}
 2     C     0 {1,B} {4,B}
@@ -5458,23 +3893,9 @@ entry(
 6  *1 C     0 {4,B} {5,B} {7,S}
 7  *2 H     0 {6,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,B} {3,B}
-2     C     0 {1,B} {4,B}
-3     C     0 {1,B} {5,B}
-4     C     0 {2,B} {6,B}
-5     C     0 {3,B} {6,B}
-6  *3 C     1 {4,B} {5,B}
+1  *3 C     1
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -5496,10 +3917,11 @@ as reaction C + c1cc[c]cc1 <=> [CH3] + c1ccccc1
 with kinetics Arrhenius(A=(2e+12,"cm**3/mol/s"), n=0, Ea=(8.6,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_methane , Cb_rad ]	deltaHrxn(T=298K) = -8.12 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001964/rk00000005.xml"""),
-        ("Thu Jul  7 16:12:30 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -5508,23 +3930,23 @@ entry(
     label = "r00001965",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1 {2,S}
-2     O     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     O     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1 {2,S}
+2     O     0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5546,10 +3968,11 @@ as reaction CO + [CH3] <=> [CH2]O + C
 with kinetics Arrhenius(A=(0.000615,"cm**3/mol/s"), n=4.9, Ea=(6.72,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H3/O , C_methyl ]	deltaHrxn(T=298K) = -8.15 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001965/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:30 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -5558,23 +3981,23 @@ entry(
     label = "r00001965",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1 {2,S}
-2     O     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     O     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1 {2,S}
+2     O     0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5596,11 +4019,12 @@ as reaction CO + [CH3] <=> [CH2]O + C
 with kinetics Arrhenius(A=(0.000615,"cm**3/mol/s"), n=4.9, Ea=(6.72,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H3/O , C_methyl ]	deltaHrxn(T=298K) = -8.15 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001965/rk00000002.xml"""),
         ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
-        ("Thu Jul  7 16:12:30 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -5810,23 +4234,23 @@ entry(
     label = "r00001966",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1 {2,D}
-2     O     0 {1,D}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,D} {3,S}
 2     O     0 {1,D}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1 {2,D}
+2     O     0 {1,D}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5848,10 +4272,11 @@ as reaction [CH3] + C=O <=> C + [CH]=O
 with kinetics Arrhenius(A=(7.78e-08,"cm**3/mol/s"), n=6.1, Ea=(1.97,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_methyl , CO_pri ]	deltaHrxn(T=298K) = -16.48 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001966/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:30 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -6612,23 +5037,23 @@ entry(
     label = "r00001968",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 C     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6650,10 +5075,11 @@ as reaction C + C=[CH] <=> [CH3] + C=C
 with kinetics Arrhenius(A=(6.36e+14,"cm**3/mol/s"), n=0, Ea=(13.7,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C_methane , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -5.87 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001968/rk00000004.xml"""),
-        ("Thu Jul  7 16:12:31 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:56 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -6662,23 +5088,23 @@ entry(
     label = "r00001968",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 C     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6700,10 +5126,11 @@ as reaction C + C=[CH] <=> [CH3] + C=C
 with kinetics Arrhenius(A=(6.36e+14,"cm**3/mol/s"), n=0, Ea=(13.7,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C_methane , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -5.87 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001968/rk00000006.xml"""),
-        ("Thu Jul  7 16:12:31 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:56 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -6712,23 +5139,23 @@ entry(
     label = "r00001968",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 C     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6750,10 +5177,11 @@ as reaction C + C=[CH] <=> [CH3] + C=C
 with kinetics Arrhenius(A=(6.36e+14,"cm**3/mol/s"), n=0, Ea=(13.7,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C_methane , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -5.87 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001968/rk00000007.xml"""),
-        ("Thu Jul  7 16:12:31 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:56 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -6762,23 +5190,23 @@ entry(
     label = "r00001968",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 C     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6800,10 +5228,11 @@ as reaction C + C=[CH] <=> [CH3] + C=C
 with kinetics Arrhenius(A=(6.36e+14,"cm**3/mol/s"), n=0, Ea=(13.7,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C_methane , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -5.87 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001968/rk00000008.xml"""),
-        ("Thu Jul  7 16:12:31 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:56 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -6812,23 +5241,23 @@ entry(
     label = "r00001968",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 C     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6850,10 +5279,11 @@ as reaction C + C=[CH] <=> [CH3] + C=C
 with kinetics Arrhenius(A=(6.36e+14,"cm**3/mol/s"), n=0, Ea=(13.7,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C_methane , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -5.87 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001968/rk00000009.xml"""),
-        ("Thu Jul  7 16:12:31 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:56 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -6862,23 +5292,23 @@ entry(
     label = "r00001968",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 C     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6900,10 +5330,11 @@ as reaction C + C=[CH] <=> [CH3] + C=C
 with kinetics Arrhenius(A=(6.36e+14,"cm**3/mol/s"), n=0, Ea=(13.7,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C_methane , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -5.87 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001968/rk00000010.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:56 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -6912,23 +5343,23 @@ entry(
     label = "r00001968",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 C     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6950,10 +5381,11 @@ as reaction C + C=[CH] <=> [CH3] + C=C
 with kinetics Arrhenius(A=(6.36e+14,"cm**3/mol/s"), n=0, Ea=(13.7,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C_methane , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -5.87 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001968/rk00000011.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -6962,23 +5394,23 @@ entry(
     label = "r00001968",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 C     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -7000,10 +5432,11 @@ as reaction C + C=[CH] <=> [CH3] + C=C
 with kinetics Arrhenius(A=(6.36e+14,"cm**3/mol/s"), n=0, Ea=(13.7,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C_methane , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -5.87 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001968/rk00000012.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7012,23 +5445,23 @@ entry(
     label = "r00001968",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 C     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -7050,10 +5483,11 @@ as reaction C + C=[CH] <=> [CH3] + C=C
 with kinetics Arrhenius(A=(6.36e+14,"cm**3/mol/s"), n=0, Ea=(13.7,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C_methane , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -5.87 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001968/rk00000013.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7062,23 +5496,23 @@ entry(
     label = "r00001973",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -7100,10 +5534,11 @@ as reaction [CH3] + OO <=> C + O[O]
 with kinetics Arrhenius(A=(211.2,"cm**3/mol/s"), n=2.76, Ea=(7.01,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl)))  [ C_methyl , H2O2 ]	deltaHrxn(T=298K) = -17.16 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001973/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7112,23 +5547,23 @@ entry(
     label = "r00001973",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -7150,10 +5585,11 @@ as reaction [CH3] + OO <=> C + O[O]
 with kinetics Arrhenius(A=(211.2,"cm**3/mol/s"), n=2.76, Ea=(7.01,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl)))  [ C_methyl , H2O2 ]	deltaHrxn(T=298K) = -17.16 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001973/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7162,23 +5598,23 @@ entry(
     label = "r00001973",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -7200,10 +5636,11 @@ as reaction [CH3] + OO <=> C + O[O]
 with kinetics Arrhenius(A=(211.2,"cm**3/mol/s"), n=2.76, Ea=(7.01,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl)))  [ C_methyl , H2O2 ]	deltaHrxn(T=298K) = -17.16 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001973/rk00000003.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7312,23 +5749,23 @@ entry(
     label = "r00002003",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -7350,10 +5787,11 @@ as reaction [CH3] + O[O] <=> C + [O][O]
 with kinetics Arrhenius(A=(1.191e+08,"cm**3/mol/s"), n=0.94, Ea=(0,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact:  && H_Abstraction exact: ))  [ C_methyl , Orad_O_H ] Ea computed using Evans-Polanyi dHrxn(298K)=-55.8 kcal/mol and alpha=0.33. Warning: Ea raised from -13.3 kcal/mol to 0.0.	deltaHrxn(T=298K) = -55.85 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002003/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7362,23 +5800,23 @@ entry(
     label = "r00002003",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -7400,10 +5838,11 @@ as reaction [CH3] + O[O] <=> C + [O][O]
 with kinetics Arrhenius(A=(1.191e+08,"cm**3/mol/s"), n=0.94, Ea=(0,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact:  && H_Abstraction exact: ))  [ C_methyl , Orad_O_H ] Ea computed using Evans-Polanyi dHrxn(298K)=-55.8 kcal/mol and alpha=0.33. Warning: Ea raised from -13.3 kcal/mol to 0.0.	deltaHrxn(T=298K) = -55.85 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002003/rk00000003.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7412,23 +5851,23 @@ entry(
     label = "r00002003",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -7450,10 +5889,11 @@ as reaction [CH3] + O[O] <=> C + [O][O]
 with kinetics Arrhenius(A=(1.191e+08,"cm**3/mol/s"), n=0.94, Ea=(0,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact:  && H_Abstraction exact: ))  [ C_methyl , Orad_O_H ] Ea computed using Evans-Polanyi dHrxn(298K)=-55.8 kcal/mol and alpha=0.33. Warning: Ea raised from -13.3 kcal/mol to 0.0.	deltaHrxn(T=298K) = -55.85 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002003/rk00000004.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7462,23 +5902,23 @@ entry(
     label = "r00002003",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -7500,10 +5940,11 @@ as reaction [CH3] + O[O] <=> C + [O][O]
 with kinetics Arrhenius(A=(1.191e+08,"cm**3/mol/s"), n=0.94, Ea=(0,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact:  && H_Abstraction exact: ))  [ C_methyl , Orad_O_H ] Ea computed using Evans-Polanyi dHrxn(298K)=-55.8 kcal/mol and alpha=0.33. Warning: Ea raised from -13.3 kcal/mol to 0.0.	deltaHrxn(T=298K) = -55.85 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002003/rk00000005.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7512,23 +5953,23 @@ entry(
     label = "r00002003",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -7550,10 +5991,11 @@ as reaction [CH3] + O[O] <=> C + [O][O]
 with kinetics Arrhenius(A=(1.191e+08,"cm**3/mol/s"), n=0.94, Ea=(0,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact:  && H_Abstraction exact: ))  [ C_methyl , Orad_O_H ] Ea computed using Evans-Polanyi dHrxn(298K)=-55.8 kcal/mol and alpha=0.33. Warning: Ea raised from -13.3 kcal/mol to 0.0.	deltaHrxn(T=298K) = -55.85 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002003/rk00000006.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7612,21 +6054,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7648,10 +6090,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7660,21 +6103,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7696,10 +6139,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7708,21 +6152,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7744,10 +6188,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000003.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7756,21 +6201,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7792,10 +6237,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000004.xml"""),
-        ("Thu Jul  7 16:12:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7804,21 +6250,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7840,10 +6286,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000006.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7852,21 +6299,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7888,10 +6335,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000008.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7900,21 +6348,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7936,10 +6384,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000009.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7948,21 +6397,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7984,10 +6433,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000010.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -7996,21 +6446,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8032,10 +6482,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000011.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8044,21 +6495,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8080,10 +6531,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000013.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8092,21 +6544,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8128,10 +6580,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000014.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8140,21 +6593,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8176,10 +6629,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000016.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8188,21 +6642,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8224,10 +6678,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000017.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8236,21 +6691,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8272,10 +6727,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000018.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8284,21 +6740,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8320,10 +6776,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000020.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8332,21 +6789,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8368,10 +6825,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000021.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8380,21 +6838,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8416,10 +6874,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000022.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8428,21 +6887,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8464,10 +6923,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000023.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8476,21 +6936,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8512,10 +6972,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000024.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8524,21 +6985,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8560,10 +7021,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000025.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8572,21 +7034,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8608,10 +7070,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000027.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8620,21 +7083,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8656,10 +7119,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000028.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8668,21 +7132,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8704,10 +7168,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000029.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8716,21 +7181,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8752,10 +7217,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000032.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8764,21 +7230,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8800,10 +7266,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000033.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8812,21 +7279,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8848,10 +7315,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000034.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8860,21 +7328,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8896,10 +7364,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000035.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8908,21 +7377,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8944,10 +7413,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000036.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -8956,21 +7426,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8992,10 +7462,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000037.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9004,21 +7475,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9040,10 +7511,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000038.xml"""),
-        ("Thu Jul  7 16:12:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9052,21 +7524,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9088,10 +7560,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000039.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9100,21 +7573,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9136,10 +7609,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000040.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9148,21 +7622,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9184,10 +7658,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000041.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9196,21 +7671,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9232,10 +7707,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000042.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9244,21 +7720,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9280,11 +7756,12 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000053.xml"""),
         ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units of the preexponential factor."""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9293,21 +7770,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9329,11 +7806,12 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000055.xml"""),
         ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units of the preexponential factor."""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9390,21 +7868,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9426,10 +7904,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000058.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9438,21 +7917,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9474,10 +7953,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000059.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9486,21 +7966,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9522,10 +8002,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000060.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9534,21 +8015,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9570,10 +8051,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000061.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9582,21 +8064,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9618,10 +8100,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000062.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9630,21 +8113,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9666,10 +8149,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000064.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9678,21 +8162,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9714,10 +8198,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000065.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9726,21 +8211,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9762,10 +8247,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000066.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9774,21 +8260,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9810,10 +8296,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000067.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9822,21 +8309,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9858,10 +8345,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000069.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9870,21 +8358,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9906,10 +8394,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000070.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9918,21 +8407,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9954,10 +8443,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000071.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -9966,21 +8456,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10002,10 +8492,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000072.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -10014,21 +8505,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10050,10 +8541,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000073.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -10062,21 +8554,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10098,10 +8590,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000074.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -10110,21 +8603,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10146,10 +8639,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000075.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:32:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -10158,21 +8652,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10194,10 +8688,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000076.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -10206,21 +8701,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10242,10 +8737,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000077.xml"""),
-        ("Thu Jul  7 16:12:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -10254,21 +8750,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10290,10 +8786,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000078.xml"""),
-        ("Thu Jul  7 16:12:35 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -10302,21 +8799,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10338,10 +8835,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000079.xml"""),
-        ("Thu Jul  7 16:12:35 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -10350,21 +8848,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10386,10 +8884,11 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000080.xml"""),
-        ("Thu Jul  7 16:12:35 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -10398,21 +8897,21 @@ entry(
     label = "r00002017",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10434,11 +8933,12 @@ as reaction [H] + C <=> [H][H] + [CH3]
 with kinetics Arrhenius(A=(1.224e+08,"cm**3/mol/s"), n=1.87, Ea=(10.59,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C_methane ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000082.xml"""),
         ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units of the preexponential factor."""),
-        ("Thu Jul  7 16:12:35 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -10609,27 +9109,27 @@ entry(
     label = "r00002092",
     reactant1 = 
 """
+1  *1 C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {3,S}
+2     C     0 {3,S}
+3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 C     0 {1,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {3,S}
-2     C     0 {3,S}
-3  *3 C     1 {1,S} {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10651,10 +9151,11 @@ as reaction CC + C[CH]C <=> C[CH2] + C(C)C
 with kinetics Arrhenius(A=(282.6,"cm**3/mol/s"), n=3.23, Ea=(12.27,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (C/H3/Cs C_rad/H/NonDeC))  [ InChI=1/C2H6/c1-2/h1-2H3 , InChI=1/C3H7/c1-3-2/h3H,1-2H3 ]	deltaHrxn(T=298K) = -1.35 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002092/rk00000004.xml"""),
-        ("Thu Jul  7 16:12:35 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -10664,26 +9165,26 @@ entry(
     reactant1 = 
 """
 1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3  *3 O     1 {2,S}
-""",
-    product1 = 
-"""
-1     C     0 {2,S}
 2     O     0 {1,S} {3,S}
 3  *1 O     0 {2,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3  *3 O     1 {2,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -10705,10 +9206,11 @@ as reaction C[CH2] + COO <=> CC + CO[O]
 with kinetics Arrhenius(A=(0.1335,"cm**3/mol/s"), n=3.76, Ea=(5.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2))))  [ InChI=1/C2H5/c1-2/h1H2,2H3 , O/H/NonDeO ]	deltaHrxn(T=298K) = -14.72 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002096/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:35 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -10769,25 +9271,25 @@ entry(
     label = "r00002098",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -10809,10 +9311,11 @@ as reaction CC + C[O] <=> C[CH2] + CO
 with kinetics Arrhenius(A=(0.03042,"cm**3/mol/s"), n=4.52, Ea=(2.34,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ InChI=1/C2H6/c1-2/h1-2H3 , O_rad/NonDeC ]	deltaHrxn(T=298K) = -4.41 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002098/rk00000006.xml"""),
-        ("Thu Jul  7 16:12:35 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -10881,6 +9384,21 @@ entry(
     label = "r00002101",
     reactant1 = 
 """
+1  *1 C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,B} {3,B}
+2     C     0 {1,B} {4,B}
+3     C     0 {1,B} {5,B}
+4     C     0 {2,B} {6,B}
+5     C     0 {3,B} {6,B}
+6  *3 C     1 {4,B} {5,B}
+""",
+    product1 = 
+"""
 1     C     0 {2,B} {3,B}
 2     C     0 {1,B} {4,B}
 3     C     0 {1,B} {5,B}
@@ -10889,25 +9407,10 @@ entry(
 6  *1 C     0 {4,B} {5,B} {7,S}
 7  *2 H     0 {6,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,B} {3,B}
-2     C     0 {1,B} {4,B}
-3     C     0 {1,B} {5,B}
-4     C     0 {2,B} {6,B}
-5     C     0 {3,B} {6,B}
-6  *3 C     1 {4,B} {5,B}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -10929,10 +9432,11 @@ as reaction CC + c1cc[c]cc1 <=> C[CH2] + c1ccccc1
 with kinetics Arrhenius(A=(2.088e+11,"cm**3/mol/s"), n=0, Ea=(4.44,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (C/H3/Cs Cb_rad))  [ InChI=1/C2H6/c1-2/h1-2H3 , Cb_rad ]	deltaHrxn(T=298K) = -11.97 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002101/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -10997,25 +9501,25 @@ entry(
     label = "r00002103",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1 {2,S}
-2     O     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     O     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1  *3 C     1 {2,S}
+2     O     0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -11037,10 +9541,11 @@ as reaction CO + C[CH2] <=> [CH2]O + CC
 with kinetics Arrhenius(A=(31.42,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/O , InChI=1/C2H5/c1-2/h1H2,2H3 ]	deltaHrxn(T=298K) = -4.30 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002103/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -11101,25 +9606,25 @@ entry(
     label = "r00002104",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1 {2,D}
-2     O     0 {1,D}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,D} {3,S}
 2     O     0 {1,D}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1  *3 C     1 {2,D}
+2     O     0 {1,D}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -11141,10 +9646,11 @@ as reaction C[CH2] + C=O <=> CC + [CH]=O
 with kinetics Arrhenius(A=(5500,"cm**3/mol/s"), n=2.81, Ea=(5.86,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (CO_pri C_rad/H2/Cs))  [ InChI=1/C2H5/c1-2/h1H2,2H3 , CO_pri ]	deltaHrxn(T=298K) = -12.63 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002104/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -11361,25 +9867,25 @@ entry(
     label = "r00002105",
     reactant1 = 
 """
-1     C     0 {2,D}
-2  *1 C     0 {1,D} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,D}
 2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
+1     C     0 {2,D}
+2  *1 C     0 {1,D} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -11401,10 +9907,11 @@ as reaction CC + C=[CH] <=> C[CH2] + C=C
 with kinetics Arrhenius(A=(93030,"cm**3/mol/s"), n=2.44, Ea=(5.5,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (Average of: (InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/gamma InChI=1/C3H5/c1-3-2/h1H2,2H3)) && C/H3/Cd Cd_pri_rad)))  [ InChI=1/C2H6/c1-2/h1-2H3 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -9.72 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002105/rk00000004.xml"""),
-        ("Thu Jul  7 16:12:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -11413,25 +9920,25 @@ entry(
     label = "r00002105",
     reactant1 = 
 """
-1     C     0 {2,D}
-2  *1 C     0 {1,D} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,D}
 2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
+1     C     0 {2,D}
+2  *1 C     0 {1,D} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -11453,10 +9960,11 @@ as reaction CC + C=[CH] <=> C[CH2] + C=C
 with kinetics Arrhenius(A=(93030,"cm**3/mol/s"), n=2.44, Ea=(5.5,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (Average of: (InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/gamma InChI=1/C3H5/c1-3-2/h1H2,2H3)) && C/H3/Cd Cd_pri_rad)))  [ InChI=1/C2H6/c1-2/h1-2H3 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -9.72 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002105/rk00000005.xml"""),
-        ("Thu Jul  7 16:12:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -11465,25 +9973,25 @@ entry(
     label = "r00002105",
     reactant1 = 
 """
-1     C     0 {2,D}
-2  *1 C     0 {1,D} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,D}
 2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
+1     C     0 {2,D}
+2  *1 C     0 {1,D} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -11505,10 +10013,11 @@ as reaction CC + C=[CH] <=> C[CH2] + C=C
 with kinetics Arrhenius(A=(93030,"cm**3/mol/s"), n=2.44, Ea=(5.5,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (Average of: (InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/gamma InChI=1/C3H5/c1-3-2/h1H2,2H3)) && C/H3/Cd Cd_pri_rad)))  [ InChI=1/C2H6/c1-2/h1-2H3 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -9.72 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002105/rk00000008.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -11517,25 +10026,25 @@ entry(
     label = "r00002105",
     reactant1 = 
 """
-1     C     0 {2,D}
-2  *1 C     0 {1,D} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,D}
 2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
+1     C     0 {2,D}
+2  *1 C     0 {1,D} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -11557,10 +10066,11 @@ as reaction CC + C=[CH] <=> C[CH2] + C=C
 with kinetics Arrhenius(A=(93030,"cm**3/mol/s"), n=2.44, Ea=(5.5,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (Average of: (InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/gamma InChI=1/C3H5/c1-3-2/h1H2,2H3)) && C/H3/Cd Cd_pri_rad)))  [ InChI=1/C2H6/c1-2/h1-2H3 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -9.72 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002105/rk00000009.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -11569,25 +10079,25 @@ entry(
     label = "r00002105",
     reactant1 = 
 """
-1     C     0 {2,D}
-2  *1 C     0 {1,D} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,D}
 2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
+1     C     0 {2,D}
+2  *1 C     0 {1,D} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -11609,10 +10119,11 @@ as reaction CC + C=[CH] <=> C[CH2] + C=C
 with kinetics Arrhenius(A=(93030,"cm**3/mol/s"), n=2.44, Ea=(5.5,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (Average of: (InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/gamma InChI=1/C3H5/c1-3-2/h1H2,2H3)) && C/H3/Cd Cd_pri_rad)))  [ InChI=1/C2H6/c1-2/h1-2H3 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -9.72 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002105/rk00000010.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -11621,25 +10132,25 @@ entry(
     label = "r00002126",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
@@ -11661,10 +10172,11 @@ as reaction C[CH2] + O[O] <=> CC + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C2H5/c1-2/h1H2,2H3 , Orad_O_H ]	deltaHrxn(T=298K) = -52.00 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002126/rk00000003.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -11673,25 +10185,25 @@ entry(
     label = "r00002126",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
@@ -11713,10 +10225,11 @@ as reaction C[CH2] + O[O] <=> CC + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C2H5/c1-2/h1H2,2H3 , Orad_O_H ]	deltaHrxn(T=298K) = -52.00 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002126/rk00000004.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -11725,25 +10238,25 @@ entry(
     label = "r00002126",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
@@ -11765,10 +10278,11 @@ as reaction C[CH2] + O[O] <=> CC + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C2H5/c1-2/h1H2,2H3 , Orad_O_H ]	deltaHrxn(T=298K) = -52.00 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002126/rk00000005.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -11777,25 +10291,25 @@ entry(
     label = "r00002294",
     reactant1 = 
 """
-1     C     0 {2,D}
-2  *1 C     0 {1,D} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,D}
 2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
+1     C     0 {2,D}
+2  *1 C     0 {1,D} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -11817,10 +10331,11 @@ as reaction C=[CH] + O[O] <=> C=C + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C2H3/c1-2/h1H,2H2 , Orad_O_H ]	deltaHrxn(T=298K) = -61.71 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002294/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -11829,25 +10344,25 @@ entry(
     label = "r00002411",
     reactant1 = 
 """
-1     C     0 {2,T}
-2  *1 C     0 {1,T} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,T}
 2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
+1     C     0 {2,T}
+2  *1 C     0 {1,T} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -11869,10 +10384,11 @@ as reaction C#[C] + CC <=> C#C + C[CH2]
 with kinetics Arrhenius(A=(3.612e+12,"cm**3/mol/s"), n=0, Ea=(0,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (C/H3/Cs Ct_rad))  [ Ct_rad , InChI=1/C2H6/c1-2/h1-2H3 ]	deltaHrxn(T=298K) = -32.11 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002411/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -11933,23 +10449,23 @@ entry(
     label = "r00002425",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 C     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -11971,10 +10487,11 @@ as reaction C#[C] + C <=> C#C + [CH3]
 with kinetics Arrhenius(A=(1.812e+12,"cm**3/mol/s"), n=0, Ea=(0.5,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Ct_rad , C_methane ]	deltaHrxn(T=298K) = -28.26 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002425/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -12134,23 +10651,23 @@ entry(
     label = "r00002499",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12172,10 +10689,11 @@ as reaction C#[C] + [H][H] <=> C#C + [H]
 with kinetics Arrhenius(A=(1.08e+13,"cm**3/mol/s"), n=0, Ea=(2.17,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Ct_rad , H2 ]	deltaHrxn(T=298K) = -28.93 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002499/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -12184,23 +10702,23 @@ entry(
     label = "r00002499",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12222,10 +10740,11 @@ as reaction C#[C] + [H][H] <=> C#C + [H]
 with kinetics Arrhenius(A=(1.08e+13,"cm**3/mol/s"), n=0, Ea=(2.17,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Ct_rad , H2 ]	deltaHrxn(T=298K) = -28.93 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002499/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -12234,23 +10753,23 @@ entry(
     label = "r00002499",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12272,10 +10791,11 @@ as reaction C#[C] + [H][H] <=> C#C + [H]
 with kinetics Arrhenius(A=(1.08e+13,"cm**3/mol/s"), n=0, Ea=(2.17,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Ct_rad , H2 ]	deltaHrxn(T=298K) = -28.93 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002499/rk00000003.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -12284,23 +10804,23 @@ entry(
     label = "r00002499",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12322,10 +10842,11 @@ as reaction C#[C] + [H][H] <=> C#C + [H]
 with kinetics Arrhenius(A=(1.08e+13,"cm**3/mol/s"), n=0, Ea=(2.17,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Ct_rad , H2 ]	deltaHrxn(T=298K) = -28.93 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002499/rk00000004.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:03 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -12334,23 +10855,23 @@ entry(
     label = "r00002499",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12372,10 +10893,11 @@ as reaction C#[C] + [H][H] <=> C#C + [H]
 with kinetics Arrhenius(A=(1.08e+13,"cm**3/mol/s"), n=0, Ea=(2.17,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Ct_rad , H2 ]	deltaHrxn(T=298K) = -28.93 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002499/rk00000005.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:03 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -12384,23 +10906,23 @@ entry(
     label = "r00002499",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12422,10 +10944,11 @@ as reaction C#[C] + [H][H] <=> C#C + [H]
 with kinetics Arrhenius(A=(1.08e+13,"cm**3/mol/s"), n=0, Ea=(2.17,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Ct_rad , H2 ]	deltaHrxn(T=298K) = -28.93 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002499/rk00000006.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:03 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -12434,23 +10957,23 @@ entry(
     label = "r00002499",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12472,10 +10995,11 @@ as reaction C#[C] + [H][H] <=> C#C + [H]
 with kinetics Arrhenius(A=(1.08e+13,"cm**3/mol/s"), n=0, Ea=(2.17,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Ct_rad , H2 ]	deltaHrxn(T=298K) = -28.93 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002499/rk00000007.xml"""),
-        ("Thu Jul  7 16:12:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:03 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -12484,23 +11008,23 @@ entry(
     label = "r00002499",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12522,10 +11046,11 @@ as reaction C#[C] + [H][H] <=> C#C + [H]
 with kinetics Arrhenius(A=(1.08e+13,"cm**3/mol/s"), n=0, Ea=(2.17,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Ct_rad , H2 ]	deltaHrxn(T=298K) = -28.93 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002499/rk00000008.xml"""),
-        ("Thu Jul  7 16:12:38 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:03 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -12534,23 +11059,23 @@ entry(
     label = "r00002499",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12572,10 +11097,11 @@ as reaction C#[C] + [H][H] <=> C#C + [H]
 with kinetics Arrhenius(A=(1.08e+13,"cm**3/mol/s"), n=0, Ea=(2.17,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Ct_rad , H2 ]	deltaHrxn(T=298K) = -28.93 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002499/rk00000009.xml"""),
-        ("Thu Jul  7 16:12:38 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:03 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -13554,28 +12080,28 @@ entry(
     reactant1 = 
 """
 1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *1 C     0 {1,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
-1     C     0 {2,S} {3,S}
 2  *1 C     0 {1,S} {4,S}
 3     C     0 {1,S}
 4  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {3,S}
 2     C     0 {3,S}
 3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *1 C     0 {1,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -13597,10 +12123,11 @@ as reaction C(C)C + C[CH]C <=> C(C)[CH2] + C(C)C
 with kinetics Arrhenius(A=(282.6,"cm**3/mol/s"), n=3.23, Ea=(12.27,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (C/H3/Cs C_rad/H/NonDeC))  [ C/H3/Cs , InChI=1/C3H7/c1-3-2/h3H,1-2H3 ]	deltaHrxn(T=298K) = -0.80 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002707/rk00000004.xml"""),
-        ("Thu Jul  7 16:12:39 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:04 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -13610,28 +12137,28 @@ entry(
     reactant1 = 
 """
 1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *1 C     0 {1,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
-1     C     0 {2,S} {3,S}
 2  *1 C     0 {1,S} {4,S}
 3     C     0 {1,S}
 4  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {3,S}
 2     C     0 {3,S}
 3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *1 C     0 {1,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -13653,10 +12180,11 @@ as reaction C(C)C + C[CH]C <=> C(C)[CH2] + C(C)C
 with kinetics Arrhenius(A=(282.6,"cm**3/mol/s"), n=3.23, Ea=(12.27,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (C/H3/Cs C_rad/H/NonDeC))  [ C/H3/Cs , InChI=1/C3H7/c1-3-2/h3H,1-2H3 ]	deltaHrxn(T=298K) = -0.80 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002707/rk00000005.xml"""),
-        ("Thu Jul  7 16:12:39 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:04 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -13665,27 +12193,27 @@ entry(
     label = "r00002710",
     reactant1 = 
 """
+1  *1 C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 C     0 {1,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *3 C     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -13707,10 +12235,11 @@ as reaction C(C)[CH2] + CC <=> C(C)C + C[CH2]
 with kinetics Arrhenius(A=(1.926e-05,"cm**3/mol/s"), n=5.28, Ea=(7.78,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H2/Cs , InChI=1/C2H6/c1-2/h1-2H3 ]	deltaHrxn(T=298K) = -0.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002710/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:39 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:04 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -13773,29 +12302,29 @@ entry(
     label = "r00002716",
     reactant1 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *1 C     0 {1,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3  *3 O     1 {2,S}
-""",
-    product1 = 
-"""
 1     C     0 {2,S}
 2     O     0 {1,S} {3,S}
 3  *1 O     0 {2,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {3,S}
 2     C     0 {3,S}
 3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *1 C     0 {1,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3  *3 O     1 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -13817,10 +12346,11 @@ as reaction C[CH]C + COO <=> C(C)C + CO[O]
 with kinetics Arrhenius(A=(0.9205,"cm**3/mol/s"), n=3.34, Ea=(1.14,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3)))))  [ InChI=1/C3H7/c1-3-2/h3H,1-2H3 , O/H/NonDeO ]	deltaHrxn(T=298K) = -16.07 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002716/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:39 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:04 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -13829,29 +12359,29 @@ entry(
     label = "r00002717",
     reactant1 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *1 C     0 {1,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3  *3 O     1 {2,S}
-""",
-    product1 = 
-"""
 1     C     0 {2,S}
 2     O     0 {1,S} {3,S}
 3  *1 O     0 {2,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *1 C     0 {1,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3  *3 O     1 {2,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -13873,10 +12403,11 @@ as reaction C(C)[CH2] + COO <=> C(C)C + CO[O]
 with kinetics Arrhenius(A=(0.1335,"cm**3/mol/s"), n=3.76, Ea=(5.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2))))  [ C_rad/H2/Cs , O/H/NonDeO ]	deltaHrxn(T=298K) = -15.27 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002717/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:39 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -13939,27 +12470,27 @@ entry(
     label = "r00002719",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {3,S}
-2     C     0 {3,S}
-3  *3 C     1 {1,S} {2,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {3,S}
+2     C     0 {3,S}
+3  *3 C     1 {1,S} {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -13981,10 +12512,11 @@ as reaction C(C)C + C[O] <=> C[CH]C + CO
 with kinetics Arrhenius(A=(1.45e+11,"cm**3/mol/s"), n=0, Ea=(4.57,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (C/H2/NonDeC O_rad/NonDeC))  [ InChI=1/C3H8/c1-3-2/h3H2,1-2H3 , O_rad/NonDeC ]	deltaHrxn(T=298K) = -3.06 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002719/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:39 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -14047,27 +12579,27 @@ entry(
     label = "r00002720",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1     C     0 {2,S} {3,S}
 2  *1 C     0 {1,S} {4,S}
 3     C     0 {1,S}
 4  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *3 C     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14089,10 +12621,11 @@ as reaction C(C)C + C[O] <=> C(C)[CH2] + CO
 with kinetics Arrhenius(A=(3.162e+11,"cm**3/mol/s"), n=0, Ea=(7,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H3/Cs , O_rad/NonDeC ]	deltaHrxn(T=298K) = -3.86 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002720/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:39 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -14257,25 +12790,25 @@ entry(
     label = "r00002724",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1     C     0 {2,S} {3,S}
 2  *1 C     0 {1,S} {4,S}
 3     C     0 {1,S}
 4  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *3 C     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -14297,10 +12830,11 @@ as reaction C(C)C + [CH3] <=> C(C)[CH2] + C
 with kinetics Arrhenius(A=(1.668e+06,"cm**3/mol/s"), n=1.9, Ea=(11.05,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H3/Cs , C_methyl ]	deltaHrxn(T=298K) = -3.30 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002724/rk00000008.xml"""),
-        ("Thu Jul  7 16:12:40 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -14309,27 +12843,27 @@ entry(
     label = "r00002728",
     reactant1 = 
 """
+1  *1 C     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {3,S}
+2     C     0 {3,S}
+3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 C     0 {1,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1  *3 C     1 {2,S}
 2     O     0 {1,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2     O     0 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {3,S}
-2     C     0 {3,S}
-3  *3 C     1 {1,S} {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -14351,10 +12885,11 @@ as reaction CO + C[CH]C <=> [CH2]O + C(C)C
 with kinetics Arrhenius(A=(31.42,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/O , InChI=1/C3H7/c1-3-2/h3H,1-2H3 ]	deltaHrxn(T=298K) = -5.65 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002728/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:40 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -14417,27 +12952,27 @@ entry(
     label = "r00002729",
     reactant1 = 
 """
+1  *1 C     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 C     0 {1,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1  *3 C     1 {2,S}
 2     O     0 {1,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2     O     0 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *3 C     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -14459,10 +12994,11 @@ as reaction CO + C(C)[CH2] <=> [CH2]O + C(C)C
 with kinetics Arrhenius(A=(31.42,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C/H3/O , C_rad/H2/Cs ]	deltaHrxn(T=298K) = -4.85 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002729/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:40 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -14525,27 +13061,27 @@ entry(
     label = "r00002730",
     reactant1 = 
 """
+1  *1 C     0 {2,D} {3,S}
+2     O     0 {1,D}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {3,S}
+2     C     0 {3,S}
+3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 C     0 {1,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1  *3 C     1 {2,D}
 2     O     0 {1,D}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {3,S}
-2     C     0 {3,S}
-3  *3 C     1 {1,S} {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -14567,10 +13103,11 @@ as reaction C[CH]C + C=O <=> C(C)C + [CH]=O
 with kinetics Arrhenius(A=(1.08e+11,"cm**3/mol/s"), n=0, Ea=(6.96,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (CO_pri C_rad/H/NonDeC))  [ InChI=1/C3H7/c1-3-2/h3H,1-2H3 , CO_pri ]	deltaHrxn(T=298K) = -13.98 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002730/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:40 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -14633,27 +13170,27 @@ entry(
     label = "r00002731",
     reactant1 = 
 """
+1  *1 C     0 {2,D} {3,S}
+2     O     0 {1,D}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 C     0 {1,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1  *3 C     1 {2,D}
 2     O     0 {1,D}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *3 C     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -14675,10 +13212,11 @@ as reaction C(C)[CH2] + C=O <=> C(C)C + [CH]=O
 with kinetics Arrhenius(A=(5500,"cm**3/mol/s"), n=2.81, Ea=(5.86,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H2/Cs , CO_pri ]	deltaHrxn(T=298K) = -13.18 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002731/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:40 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -15011,29 +13549,29 @@ entry(
     label = "r00002734",
     reactant1 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *1 C     0 {1,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S} {3,D}
-3     O     0 {2,D}
-""",
-    product1 = 
-"""
 1     C     0 {2,S}
 2  *1 C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
 4  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {3,S}
 2     C     0 {3,S}
 3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *1 C     0 {1,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,D}
+3     O     0 {2,D}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15055,10 +13593,11 @@ as reaction C[CH]C + CC=O <=> C(C)C + C[C]=O
 with kinetics Arrhenius(A=(29200,"cm**3/mol/s"), n=2.29, Ea=(5.44,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (CO/H/NonDe C_methyl)))  [ InChI=1/C3H7/c1-3-2/h3H,1-2H3 , CO/H/NonDe ]	deltaHrxn(T=298K) = -12.99 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002734/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:07 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -15067,29 +13606,29 @@ entry(
     label = "r00002735",
     reactant1 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *1 C     0 {1,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S} {3,D}
-3     O     0 {2,D}
-""",
-    product1 = 
-"""
 1     C     0 {2,S}
 2  *1 C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
 4  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *1 C     0 {1,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,D}
+3     O     0 {2,D}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -15111,10 +13650,11 @@ as reaction C(C)[CH2] + CC=O <=> C(C)C + C[C]=O
 with kinetics Arrhenius(A=(29200,"cm**3/mol/s"), n=2.29, Ea=(5.44,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (CO/H/NonDe C_methyl)))  [ C_rad/H2/Cs , CO/H/NonDe ]	deltaHrxn(T=298K) = -12.19 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002735/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:07 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -15123,27 +13663,27 @@ entry(
     label = "r00002740",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {3,S}
+2     C     0 {3,S}
+3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 C     0 {1,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {3,S}
-2     C     0 {3,S}
-3  *3 C     1 {1,S} {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15165,10 +13705,11 @@ as reaction C[CH]C + OO <=> C(C)C + O[O]
 with kinetics Arrhenius(A=(1.141,"cm**3/mol/s"), n=3.28, Ea=(0.88,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3)))  [ InChI=1/C3H7/c1-3-2/h3H,1-2H3 , H2O2 ]	deltaHrxn(T=298K) = -14.66 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002740/rk00000003.xml"""),
-        ("Thu Jul  7 16:12:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:07 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -15177,27 +13718,27 @@ entry(
     label = "r00002740",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {3,S}
+2     C     0 {3,S}
+3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 C     0 {1,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {3,S}
-2     C     0 {3,S}
-3  *3 C     1 {1,S} {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15219,10 +13760,11 @@ as reaction C[CH]C + OO <=> C(C)C + O[O]
 with kinetics Arrhenius(A=(1.141,"cm**3/mol/s"), n=3.28, Ea=(0.88,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3)))  [ InChI=1/C3H7/c1-3-2/h3H,1-2H3 , H2O2 ]	deltaHrxn(T=298K) = -14.66 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002740/rk00000004.xml"""),
-        ("Thu Jul  7 16:12:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:07 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -15910,27 +14452,27 @@ entry(
     label = "r00002766",
     reactant1 = 
 """
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {3,S}
+2     C     0 {3,S}
+3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 C     0 {1,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     1 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {3,S}
-2     C     0 {3,S}
-3  *3 C     1 {1,S} {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -15952,10 +14494,11 @@ as reaction C[CH]C + O[O] <=> C(C)C + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C3H7/c1-3-2/h3H,1-2H3 , Orad_O_H ]	deltaHrxn(T=298K) = -53.35 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002766/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:42 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:08 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -15964,27 +14507,27 @@ entry(
     label = "r00002767",
     reactant1 = 
 """
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 C     0 {1,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     1 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *3 C     1 {1,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
@@ -16006,10 +14549,11 @@ as reaction C(C)[CH2] + O[O] <=> C(C)C + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C_rad/H2/Cs , Orad_O_H ]	deltaHrxn(T=298K) = -52.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002767/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:43 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:08 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -16174,29 +14718,29 @@ entry(
     label = "r00003004",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,D} {3,S}
-2     C     0 {1,D}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {4,S}
 2     C     0 {1,S} {3,D}
 3     C     0 {2,D}
 4  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S} {3,D}
 3     O     0 {2,D}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3  *3 C     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -16218,10 +14762,11 @@ as reaction C[C]=O + CC=C <=> CC=O + C(=C)[CH2]
 with kinetics Arrhenius(A=(23460,"cm**3/mol/s"), n=2.72, Ea=(18.24,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs CO_pri_rad)))  [ CO_rad/NonDe , InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 ]	deltaHrxn(T=298K) = -1.49 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003004/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:43 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:09 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -16397,26 +14942,26 @@ entry(
     reactant1 = 
 """
 1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S} {3,D}
-3     O     0 {2,D}
-""",
-    product1 = 
-"""
-1     C     0 {2,S}
 2  *1 C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
 4  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,D}
+3     O     0 {2,D}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -16438,10 +14983,11 @@ as reaction CC=O + C[CH2] <=> C[C]=O + CC
 with kinetics Arrhenius(A=(29200,"cm**3/mol/s"), n=2.29, Ea=(5.44,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (CO/H/NonDe C_methyl)))  [ CO/H/NonDe , InChI=1/C2H5/c1-2/h1H2,2H3 ]	deltaHrxn(T=298K) = -11.64 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003005/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:44 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:10 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -17022,25 +15568,25 @@ entry(
     label = "r00003010",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S} {3,D}
-3     O     0 {2,D}
-""",
-    product1 = 
-"""
 1     C     0 {2,S}
 2  *1 C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
 4  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,D}
+3     O     0 {2,D}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -17062,10 +15608,11 @@ as reaction CC=O + [CH3] <=> C[C]=O + C
 with kinetics Arrhenius(A=(29200,"cm**3/mol/s"), n=2.29, Ea=(5.44,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ CO/H/NonDe , C_methyl ]	deltaHrxn(T=298K) = -15.49 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003010/rk00000019.xml"""),
-        ("Thu Jul  7 16:12:45 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:10 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -17509,27 +16056,27 @@ entry(
     label = "r00003032",
     reactant1 = 
 """
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,D}
+3     O     0 {2,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2  *1 C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
 4  *2 H     0 {2,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     1 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S} {3,D}
-3     O     0 {2,D}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -17551,10 +16098,11 @@ as reaction C[C]=O + O[O] <=> CC=O + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ CO_rad/NonDe , Orad_O_H ]	deltaHrxn(T=298K) = -40.36 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003032/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:46 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -17773,7 +16321,7 @@ and comment "Estimated by RMG-Java:
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003205/rk00000005.xml"""),
-        ("Thu Jul  7 16:12:46 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -17825,7 +16373,7 @@ and comment "Estimated by RMG-Java:
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003205/rk00000006.xml"""),
-        ("Thu Jul  7 16:12:46 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -17877,7 +16425,7 @@ and comment "Estimated by RMG-Java:
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003205/rk00000007.xml"""),
-        ("Thu Jul  7 16:12:46 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -17886,25 +16434,25 @@ entry(
     label = "r00003213",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {3,S}
+3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S} {3,S}
 3  *1 C     0 {1,S} {2,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S} {3,S}
-3  *3 C     1 {1,S} {2,S}
+1  *3 H     1
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -17926,10 +16474,11 @@ as reaction C1C[CH]1 + [H][H] <=> C1CC1 + [H]
 with kinetics Arrhenius(A=(6.08e+11,"cm**3/mol/s"), n=0, Ea=(15.1,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H/NonDeC , H2 ]	deltaHrxn(T=298K) = -4.73 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003213/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:47 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:13 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -18308,31 +16857,31 @@ entry(
     label = "r00003271",
     reactant1 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *1 C     0 {1,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S} {4,S} {5,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4     C     0 {1,S}
 5  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {3,S}
 2     C     0 {3,S}
 3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *1 C     0 {1,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -18354,10 +16903,11 @@ as reaction C(C)(C)C + C[CH]C <=> C(C)C + C[C](C)C
 with kinetics Arrhenius(A=(55.8,"cm**3/mol/s"), n=3.01, Ea=(7.34,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (C/H/Cs3 C_rad/H/NonDeC))  [ C/H/Cs3 , InChI=1/C3H7/c1-3-2/h3H,1-2H3 ]	deltaHrxn(T=298K) = -5.31 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003271/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:47 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:13 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -18424,31 +16974,31 @@ entry(
     label = "r00003272",
     reactant1 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *1 C     0 {1,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1     C     0 {2,S} {3,S} {4,S}
 2  *1 C     0 {1,S} {5,S}
 3     C     0 {1,S}
 4     C     0 {1,S}
 5  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {3,S}
 2     C     0 {3,S}
 3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *1 C     0 {1,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -18470,10 +17020,11 @@ as reaction C(C)(C)C + C[CH]C <=> C(C)(C)[CH2] + C(C)C
 with kinetics Arrhenius(A=(423.9,"cm**3/mol/s"), n=3.23, Ea=(12.27,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (C/H3/Cs C_rad/H/NonDeC))  [ C/H3/Cs , InChI=1/C3H7/c1-3-2/h3H,1-2H3 ]	deltaHrxn(T=298K) = -0.46 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003272/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:47 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:14 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -18538,29 +17089,29 @@ entry(
     label = "r00003275",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S} {4,S} {5,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4     C     0 {1,S}
 5  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -18582,10 +17133,11 @@ as reaction C(C)(C)C + C[CH2] <=> CC + C[C](C)C
 with kinetics Arrhenius(A=(4220,"cm**3/mol/s"), n=2.51, Ea=(8.06,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C/H/Cs3 , InChI=1/C2H5/c1-2/h1H2,2H3 ]	deltaHrxn(T=298K) = -3.96 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003275/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:48 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:14 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -18594,29 +17146,29 @@ entry(
     label = "r00003276",
     reactant1 = 
 """
+1  *1 C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *3 C     1 {1,S}
 """,
     degeneracy = 9,
     kinetics = Arrhenius(
@@ -18638,10 +17190,11 @@ as reaction C(C)(C)[CH2] + CC <=> C(C)(C)C + C[CH2]
 with kinetics Arrhenius(A=(1.926e-05,"cm**3/mol/s"), n=5.28, Ea=(7.78,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H2/Cs , InChI=1/C2H6/c1-2/h1-2H3 ]	deltaHrxn(T=298K) = -0.89 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003276/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:48 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:14 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -18706,31 +17259,31 @@ entry(
     label = "r00003281",
     reactant1 = 
 """
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3  *1 O     0 {2,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     C     0 {2,S}
 2     O     0 {1,S} {3,S}
 3  *3 O     1 {2,S}
-""",
-    product1 = 
-"""
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3  *1 O     0 {2,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    product2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18752,10 +17305,11 @@ as reaction COO + C[C](C)C <=> C(C)(C)C + CO[O]
 with kinetics Arrhenius(A=(17.3,"cm**3/mol/s"), n=3.05, Ea=(1.02,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3)))))  [ O/H/NonDeO , C_rad/Cs3 ]	deltaHrxn(T=298K) = -10.76 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003281/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:48 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:14 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -18764,31 +17318,31 @@ entry(
     label = "r00003282",
     reactant1 = 
 """
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3  *1 O     0 {2,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     C     0 {2,S}
 2     O     0 {1,S} {3,S}
 3  *3 O     1 {2,S}
-""",
-    product1 = 
-"""
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3  *1 O     0 {2,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *3 C     1 {1,S}
 """,
     degeneracy = 9,
     kinetics = Arrhenius(
@@ -18810,10 +17364,11 @@ as reaction C(C)(C)[CH2] + COO <=> C(C)(C)C + CO[O]
 with kinetics Arrhenius(A=(0.1335,"cm**3/mol/s"), n=3.76, Ea=(5.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2))))  [ C_rad/H2/Cs , O/H/NonDeO ]	deltaHrxn(T=298K) = -15.61 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003282/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:48 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:14 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -18880,31 +17435,31 @@ entry(
     label = "r00003283",
     reactant1 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *1 C     0 {1,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S} {4,S} {5,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4     C     0 {1,S}
 5  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *1 C     0 {1,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -18926,10 +17481,11 @@ as reaction C(C)[CH2] + C(C)(C)C <=> C(C)C + C[C](C)C
 with kinetics Arrhenius(A=(4220,"cm**3/mol/s"), n=2.51, Ea=(8.06,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H2/Cs , C/H/Cs3 ]	deltaHrxn(T=298K) = -4.51 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003283/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:49 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:15 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -18996,31 +17552,31 @@ entry(
     label = "r00003284",
     reactant1 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *1 C     0 {1,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1     C     0 {2,S} {3,S} {4,S}
 2  *1 C     0 {1,S} {5,S}
 3     C     0 {1,S}
 4     C     0 {1,S}
 5  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *1 C     0 {1,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *3 C     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -19042,10 +17598,11 @@ as reaction C(C)(C)C + C(C)[CH2] <=> C(C)(C)[CH2] + C(C)C
 with kinetics Arrhenius(A=(5931,"cm**3/mol/s"), n=2.71, Ea=(12.92,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H3/Cs , C_rad/H2/Cs ]	deltaHrxn(T=298K) = 0.34 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003284/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:49 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:15 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -19222,29 +17779,29 @@ entry(
     label = "r00003287",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S} {4,S} {5,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4     C     0 {1,S}
 5  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19266,10 +17823,11 @@ as reaction C(C)(C)C + C[O] <=> CO + C[C](C)C
 with kinetics Arrhenius(A=(2.29e+10,"cm**3/mol/s"), n=0, Ea=(2.88,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H/Cs3 , O_rad/NonDeC ]	deltaHrxn(T=298K) = -8.37 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003287/rk00000004.xml"""),
-        ("Thu Jul  7 16:12:49 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:16 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -19334,29 +17892,29 @@ entry(
     label = "r00003288",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1     C     0 {2,S} {3,S} {4,S}
 2  *1 C     0 {1,S} {5,S}
 3     C     0 {1,S}
 4     C     0 {1,S}
 5  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *3 C     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19378,10 +17936,11 @@ as reaction C(C)(C)C + C[O] <=> C(C)(C)[CH2] + CO
 with kinetics Arrhenius(A=(4.743e+11,"cm**3/mol/s"), n=0, Ea=(7,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H3/Cs , O_rad/NonDeC ]	deltaHrxn(T=298K) = -3.52 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003288/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:50 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:16 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -19606,27 +18165,27 @@ entry(
     label = "r00003291",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S} {4,S} {5,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4     C     0 {1,S}
 5  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -19648,10 +18207,11 @@ as reaction C(C)(C)C + [CH3] <=> C + C[C](C)C
 with kinetics Arrhenius(A=(574000,"cm**3/mol/s"), n=1.83, Ea=(6.94,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H/Cs3 , C_methyl ]	deltaHrxn(T=298K) = -7.81 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003291/rk00000007.xml"""),
-        ("Thu Jul  7 16:12:50 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:16 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -19877,27 +18437,27 @@ entry(
     label = "r00003292",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1     C     0 {2,S} {3,S} {4,S}
 2  *1 C     0 {1,S} {5,S}
 3     C     0 {1,S}
 4     C     0 {1,S}
 5  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *3 C     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -19919,10 +18479,11 @@ as reaction C(C)(C)C + [CH3] <=> C(C)(C)[CH2] + C
 with kinetics Arrhenius(A=(2.502e+06,"cm**3/mol/s"), n=1.9, Ea=(11.05,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H3/Cs , C_methyl ]	deltaHrxn(T=298K) = -2.96 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003292/rk00000005.xml"""),
-        ("Thu Jul  7 16:12:51 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:17 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -20051,29 +18612,29 @@ entry(
     label = "r00003298",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S} {4,S} {5,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4     C     0 {1,S}
 5  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1 {2,S}
 2     O     0 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -20095,10 +18656,11 @@ as reaction [CH2]O + C(C)(C)C <=> CO + C[C](C)C
 with kinetics Arrhenius(A=(1.881e+10,"cm**3/mol/s"), n=0.84, Ea=(15.19,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (C/H/Cs3 C_rad/H2/Cs && C/H/Cs3 C_rad/H2/Cd && C/H/Cs3 C_rad/H2/Ct)))  [ C_rad/H2/O , C/H/Cs3 ]	deltaHrxn(T=298K) = 0.34 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003298/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:51 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:17 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -20107,29 +18669,29 @@ entry(
     label = "r00003299",
     reactant1 = 
 """
+1  *1 C     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1  *3 C     1 {2,S}
 2     O     0 {1,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2     O     0 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *3 C     1 {1,S}
 """,
     degeneracy = 9,
     kinetics = Arrhenius(
@@ -20151,10 +18713,11 @@ as reaction C(C)(C)[CH2] + CO <=> C(C)(C)C + [CH2]O
 with kinetics Arrhenius(A=(31.42,"cm**3/mol/s"), n=3.29, Ea=(7.68,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (C/H3/Cs C_methyl && Average of: (Average of: (InChI=1/C2H6/c1-2/h1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H3/Cd C_methyl && Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3))) && Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3)) && Average of: (Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && C/H3/Ct C_methyl && C/H3/Cb C_methyl && C/H3/O C_methyl)))  [ C_rad/H2/Cs , C/H3/O ]	deltaHrxn(T=298K) = -5.19 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003299/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:51 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:18 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -20219,29 +18782,29 @@ entry(
     label = "r00003300",
     reactant1 = 
 """
+1  *1 C     0 {2,D} {3,S}
+2     O     0 {1,D}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1  *3 C     1 {2,D}
 2     O     0 {1,D}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20263,10 +18826,11 @@ as reaction C=O + C[C](C)C <=> C(C)(C)C + [CH]=O
 with kinetics Arrhenius(A=(3.26e+09,"cm**3/mol/s"), n=0, Ea=(3.56,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ CO_pri , C_rad/Cs3 ]	deltaHrxn(T=298K) = -8.67 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003300/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:51 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:18 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -20331,29 +18895,29 @@ entry(
     label = "r00003301",
     reactant1 = 
 """
+1  *1 C     0 {2,D} {3,S}
+2     O     0 {1,D}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1  *3 C     1 {2,D}
 2     O     0 {1,D}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *3 C     1 {1,S}
 """,
     degeneracy = 9,
     kinetics = Arrhenius(
@@ -20375,10 +18939,11 @@ as reaction C(C)(C)[CH2] + C=O <=> C(C)(C)C + [CH]=O
 with kinetics Arrhenius(A=(5500,"cm**3/mol/s"), n=2.81, Ea=(5.86,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H2/Cs , CO_pri ]	deltaHrxn(T=298K) = -13.52 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003301/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:52 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:18 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -20741,31 +19306,31 @@ entry(
     label = "r00003307",
     reactant1 = 
 """
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S} {3,D}
 3     O     0 {2,D}
-""",
-    product1 = 
-"""
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20787,10 +19352,11 @@ as reaction CC=O + C[C](C)C <=> C(C)(C)C + C[C]=O
 with kinetics Arrhenius(A=(29200,"cm**3/mol/s"), n=2.29, Ea=(5.44,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (CO/H/NonDe C_methyl)))  [ CO/H/NonDe , C_rad/Cs3 ]	deltaHrxn(T=298K) = -7.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003307/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:19 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -20799,31 +19365,31 @@ entry(
     label = "r00003308",
     reactant1 = 
 """
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S} {3,D}
 3     O     0 {2,D}
-""",
-    product1 = 
-"""
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,D} {4,S}
-3     O     0 {2,D}
-4  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *3 C     1 {1,S}
 """,
     degeneracy = 9,
     kinetics = Arrhenius(
@@ -20849,12 +19415,13 @@ as reaction C(C)(C)[CH2] + CC=O <=> C(C)(C)C + C[C]=O
 with kinetics Arrhenius(A=(29200,"cm**3/mol/s"), n=2.29, Ea=(5.44,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (CO/H/NonDe C_methyl)))  [ C_rad/H2/Cs , CO/H/NonDe ]	deltaHrxn(T=298K) = -12.53 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003308/rk00000001.xml"""),
         ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units of the preexponential factor."""),
         ("Tue May 17 17:31:23 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in this entry's n parameter."""),
-        ("Thu Jul  7 16:12:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:19 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -20863,29 +19430,29 @@ entry(
     label = "r00003313",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20907,10 +19474,11 @@ as reaction OO + C[C](C)C <=> C(C)(C)C + O[O]
 with kinetics Arrhenius(A=(34.6,"cm**3/mol/s"), n=3.05, Ea=(1.02,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))))  [ H2O2 , C_rad/Cs3 ]	deltaHrxn(T=298K) = -9.35 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003313/rk00000003.xml"""),
-        ("Thu Jul  7 16:12:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:20 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -20919,29 +19487,29 @@ entry(
     label = "r00003313",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20963,10 +19531,11 @@ as reaction OO + C[C](C)C <=> C(C)(C)C + O[O]
 with kinetics Arrhenius(A=(34.6,"cm**3/mol/s"), n=3.05, Ea=(1.02,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))))  [ H2O2 , C_rad/Cs3 ]	deltaHrxn(T=298K) = -9.35 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003313/rk00000004.xml"""),
-        ("Thu Jul  7 16:12:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:20 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -21739,33 +20308,33 @@ entry(
     label = "r00003324",
     reactant1 = 
 """
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *1 C     0 {1,S} {5,S}
-5  *2 H     0 {4,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S} {4,S} {5,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4     C     0 {1,S}
 5  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *1 C     0 {1,S} {5,S}
+5  *2 H     0 {4,S}
+""",
+    product2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 9,
     kinetics = Arrhenius(
@@ -21787,10 +20356,11 @@ as reaction C(C)(C)C + C(C)(C)[CH2] <=> C(C)(C)C + C[C](C)C
 with kinetics Arrhenius(A=(4220,"cm**3/mol/s"), n=2.51, Ea=(8.06,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H/Cs3 , C_rad/H2/Cs ]	deltaHrxn(T=298K) = -4.85 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003324/rk00000002.xml"""),
-        ("Thu Jul  7 16:12:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:21 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -21799,29 +20369,29 @@ entry(
     label = "r00003329",
     reactant1 = 
 """
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     1 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -21843,10 +20413,11 @@ as reaction O[O] + C[C](C)C <=> C(C)(C)C + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ Orad_O_H , C_rad/Cs3 ]	deltaHrxn(T=298K) = -48.04 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003329/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:22 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -21855,29 +20426,29 @@ entry(
     label = "r00003330",
     reactant1 = 
 """
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     1 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *3 C     1 {1,S}
 """,
     degeneracy = 18,
     kinetics = Arrhenius(
@@ -21899,10 +20470,11 @@ as reaction C(C)(C)[CH2] + O[O] <=> C(C)(C)C + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C_rad/H2/Cs , Orad_O_H ]	deltaHrxn(T=298K) = -52.89 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003330/rk00000001.xml"""),
-        ("Thu Jul  7 16:12:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:22 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -23335,6 +21907,23 @@ entry(
     label = "r00004365",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {8,S}
+2     C     0 {1,S} {3,B} {4,B}
+3     C     0 {2,B} {6,B}
+4     C     0 {2,B} {7,B}
+5     C     0 {6,B} {7,B}
+6     C     0 {3,B} {5,B}
+7     C     0 {4,B} {5,B}
+8  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3     C     0 {1,S} {4,B} {5,B}
@@ -23345,27 +21934,10 @@ entry(
 8  *1 C     0 {5,B} {6,B} {9,S}
 9  *2 H     0 {8,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {8,S}
-2     C     0 {1,S} {3,B} {4,B}
-3     C     0 {2,B} {6,B}
-4     C     0 {2,B} {7,B}
-5     C     0 {6,B} {7,B}
-6     C     0 {3,B} {5,B}
-7     C     0 {4,B} {5,B}
-8  *3 C     1 {1,S}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -23387,10 +21959,11 @@ as reaction C(c1ccccc1)[CH2] + OO <=> C(C)c1ccccc1 + O[O]
 with kinetics Arrhenius(A=(2.03,"cm**3/mol/s"), n=3.29, Ea=(1.07,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H2/Cs , H2O2 ]	deltaHrxn(T=298K) = -13.38 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:42 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004365/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:28 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -23881,29 +22454,29 @@ entry(
     label = "r00004604",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {3,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S} {4,S}
 3     C     0 {1,S}
 4  *1 C     0 {2,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {3,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -23925,10 +22498,11 @@ as reaction C(C)[CH]C + OO <=> C(CC)C + O[O]
 with kinetics Arrhenius(A=(1.141,"cm**3/mol/s"), n=3.28, Ea=(0.88,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H/NonDeC , H2O2 ]	deltaHrxn(T=298K) = -10.67 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:46 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004604/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:30 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -23937,29 +22511,29 @@ entry(
     label = "r00004605",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S}
+4  *3 C     1 {2,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S} {4,S}
 3     C     0 {1,S}
 4  *1 C     0 {2,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S} {4,S}
-3     C     0 {1,S}
-4  *3 C     1 {2,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -23981,10 +22555,11 @@ as reaction C(C[CH2])C + OO <=> C(CC)C + O[O]
 with kinetics Arrhenius(A=(2.03,"cm**3/mol/s"), n=3.29, Ea=(1.07,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H2/Cs , H2O2 ]	deltaHrxn(T=298K) = -13.31 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:46 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004605/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:30 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -24695,27 +23270,27 @@ entry(
     label = "r00004743",
     reactant1 = 
 """
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4  *3 C     1 {2,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,D}
 2     C     0 {1,S} {4,D}
 3     C     0 {1,D}
 4  *1 C     0 {2,D} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,S} {3,D}
-2     C     0 {1,S} {4,D}
-3     C     0 {1,D}
-4  *3 C     1 {2,D}
+1  *3 C     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -24737,10 +23312,11 @@ as reaction C(=C)C=[CH] + C <=> C(=C)C=C + [CH3]
 with kinetics Arrhenius(A=(6.36e+14,"cm**3/mol/s"), n=0, Ea=(13.7,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Cd_pri_rad , C_methane ]	deltaHrxn(T=298K) = -3.45 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:47 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004743/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:04 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -24749,31 +23325,31 @@ entry(
     label = "r00004761",
     reactant1 = 
 """
+1  *1 C     0 {3,D} {4,S}
+2     C     0 {3,D}
+3     C     0 {1,D} {2,D}
+4  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4  *3 C     1 {2,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,D}
 2     C     0 {1,S} {4,D}
 3     C     0 {1,D}
 4  *1 C     0 {2,D} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     C     0 {2,D}
 2     C     0 {1,D} {3,D}
 3  *3 C     1 {2,D}
-""",
-    product1 = 
-"""
-1  *1 C     0 {3,D} {4,S}
-2     C     0 {3,D}
-3     C     0 {1,D} {2,D}
-4  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,D}
-2     C     0 {1,S} {4,D}
-3     C     0 {1,D}
-4  *3 C     1 {2,D}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -24795,10 +23371,11 @@ as reaction C(=C)C=[CH] + C=C=C <=> C(=C)C=C + C=C=[CH]
 with kinetics Arrhenius(A=(5.88e+13,"cm**3/mol/s"), n=0, Ea=(13.1,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Cd_pri_rad , Cd_pri ]	deltaHrxn(T=298K) = -17.13 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:48 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004761/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:04 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -24807,27 +23384,27 @@ entry(
     label = "r00004785",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,D}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,D}
+4  *3 C     1 {2,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,D}
 2     C     0 {1,S} {4,D}
 3     C     0 {1,D}
 4  *1 C     0 {2,D} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,S} {3,D}
-2     C     0 {1,S} {4,D}
-3     C     0 {1,D}
-4  *3 C     1 {2,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -24849,10 +23426,11 @@ as reaction C(=C)C=[CH] + [H][H] <=> C(=C)C=C + [H]
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Cd_pri_rad , H2 ]	deltaHrxn(T=298K) = -4.13 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:48 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004785/rk00000002.xml"""),
-        ("Thu Jul  7 16:13:04 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:33 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -25018,63 +23596,7 @@ and comment "Estimated by RMG-Java:
 """,
     history = [
         ("Tue May 17 14:33:48 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004844/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 481,
-    label = "r00004932",
-    reactant1 = 
-"""
-1     C     0 {2,S} {4,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D}
-4  *1 O     0 {1,S} {5,S}
-5  *2 H     0 {4,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,D}
-2  *3 C     1 {1,S} {4,S}
-3     C     0 {1,D}
-4     O     0 {2,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (0.000312,"cm**3/mol/s"),
-        n = 4.31,
-        Ea = (3.39,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "C(C=C)O"> + <Molecule "C[CH2]"> <=> <Molecule "CC"> + <Molecule "C(=C)[CH]O">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004932/rk00000001.xml"
-and kinetics Arrhenius(A=(3.39e+11,"cm^3/(mol*s)"), n=0, Ea=(36168,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction C(C=C)O + C[CH2] <=> C(=CO)[CH2] + CC
-with kinetics Arrhenius(A=(0.000312,"cm**3/mol/s"), n=4.31, Ea=(3.39,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (Average of: (InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3/beta InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3))))  [ C/H2/OneDeO , InChI=1/C2H5/c1-2/h1H2,2H3 ]	deltaHrxn(T=298K) = -21.38 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:49 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004932/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -25633,6 +24155,25 @@ entry(
     label = "r00005225",
     reactant1 = 
 """
+1  *1 C     0 {2,S} {3,S} {6,S}
+2     C     0 {1,S} {4,D}
+3     C     0 {1,S} {5,D}
+4     C     0 {2,D} {5,S}
+5     C     0 {3,D} {4,S}
+6  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,B} {3,B} {7,S}
+2     C     0 {1,B} {5,B}
+3     C     0 {1,B} {6,B}
+4     C     0 {5,B} {6,B}
+5     C     0 {2,B} {4,B}
+6     C     0 {3,B} {4,B}
+7  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,B} {3,B} {7,S}
 2     C     0 {1,B} {5,B}
 3     C     0 {1,B} {6,B}
@@ -25642,32 +24183,13 @@ entry(
 7  *1 O     0 {1,S} {8,S}
 8  *2 H     0 {7,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     C     0 {2,D} {3,S}
 2     C     0 {1,D} {4,S}
 3     C     0 {1,S} {5,D}
 4  *3 C     1 {2,S} {5,S}
 5     C     0 {3,D} {4,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S} {6,S}
-2     C     0 {1,S} {4,D}
-3     C     0 {1,S} {5,D}
-4     C     0 {2,D} {5,S}
-5     C     0 {3,D} {4,S}
-6  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,B} {3,B} {7,S}
-2     C     0 {1,B} {5,B}
-3     C     0 {1,B} {6,B}
-4     C     0 {5,B} {6,B}
-5     C     0 {2,B} {4,B}
-6     C     0 {3,B} {4,B}
-7  *3 O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25689,10 +24211,11 @@ as reaction c1(ccccc1)[O] + C1C=CC=C1 <=> c1(ccccc1)O + C1=C[CH]C=C1
 with kinetics Arrhenius(A=(63.35,"cm**3/mol/s"), n=3.25, Ea=(3.66,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (C/H2/NonDeC O_pri_rad && Average of: (C/H2/OneDeC O_rad/NonDeO))))  [ O_rad/OneDe , C/H2/TwoDe ]	deltaHrxn(T=298K) = -28.06 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:51 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005225/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -25700,6 +24223,21 @@ entry(
     index = 493,
     label = "r00005226",
     reactant1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,B} {3,B} {7,S}
+2     C     0 {1,B} {5,B}
+3     C     0 {1,B} {6,B}
+4     C     0 {5,B} {6,B}
+5     C     0 {2,B} {4,B}
+6     C     0 {3,B} {4,B}
+7  *3 O     1 {1,S}
+""",
+    product1 = 
 """
 1     C     0 {2,B} {3,B} {7,S}
 2     C     0 {1,B} {5,B}
@@ -25710,24 +24248,9 @@ entry(
 7  *1 O     0 {1,S} {8,S}
 8  *2 H     0 {7,S}
 """,
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,B} {3,B} {7,S}
-2     C     0 {1,B} {5,B}
-3     C     0 {1,B} {6,B}
-4     C     0 {5,B} {6,B}
-5     C     0 {2,B} {4,B}
-6     C     0 {3,B} {4,B}
-7  *3 O     1 {1,S}
+1  *3 C     1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -25749,10 +24272,11 @@ as reaction c1(ccccc1)[O] + C <=> c1(ccccc1)O + [CH3]
 with kinetics Arrhenius(A=(10600,"cm**3/mol/s"), n=2.5, Ea=(12.08,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (C_methane O_rad/NonDeC && C_methane O_rad/NonDeO)))  [ O_rad/OneDe , C_methane ]	deltaHrxn(T=298K) = 0.82 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:51 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005226/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:07 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -27377,6 +25901,21 @@ entry(
     label = "r00005489",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,S}
+4     C     0 {2,S} {6,S}
+5     C     0 {3,S} {6,S}
+6  *3 C     1 {4,S} {5,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S} {4,S}
 3     C     0 {1,S} {5,S}
@@ -27385,25 +25924,10 @@ entry(
 6  *1 C     0 {4,S} {5,S} {7,S}
 7  *2 H     0 {6,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S} {4,S}
-3     C     0 {1,S} {5,S}
-4     C     0 {2,S} {6,S}
-5     C     0 {3,S} {6,S}
-6  *3 C     1 {4,S} {5,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
@@ -27425,10 +25949,11 @@ as reaction C1CC[CH]CC1 + OO <=> C1CCCCC1 + O[O]
 with kinetics Arrhenius(A=(1.141,"cm**3/mol/s"), n=3.28, Ea=(0.88,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H/NonDeC , H2O2 ]	deltaHrxn(T=298K) = -10.73 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005489/rk00000002.xml"""),
-        ("Thu Jul  7 16:13:14 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:45 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -28945,31 +27470,31 @@ entry(
     label = "r00005634",
     reactant1 = 
 """
+1  *1 C     0 {2,S} {4,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D}
+4  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     C     0 {2,D} {3,S}
 2     C     0 {1,D}
 3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {4,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D}
-4  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28991,10 +27516,11 @@ as reaction CC=C + C[C](C)C <=> C(=C)[CH2] + C(C)(C)C
 with kinetics Arrhenius(A=(4.92e-06,"cm**3/mol/s"), n=4.98, Ea=(3.18,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 , C_rad/Cs3 ]	deltaHrxn(T=298K) = -9.17 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005634/rk00000002.xml"""),
-        ("Thu Jul  7 16:13:21 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -29115,29 +27641,29 @@ entry(
     label = "r00005638",
     reactant1 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *1 C     0 {1,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,D} {3,S}
-2     C     0 {1,D}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {4,S}
 2     C     0 {1,S} {3,D}
 3     C     0 {2,D}
 4  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {3,S}
 2     C     0 {3,S}
 3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *1 C     0 {1,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -29159,10 +27685,11 @@ as reaction CC=C + C[CH]C <=> C(=C)[CH2] + C(C)C
 with kinetics Arrhenius(A=(8.61e+11,"cm**3/mol/s"), n=0, Ea=(12.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (C/H3/Cd C_rad/H/NonDeC))  [ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 , InChI=1/C3H7/c1-3-2/h3H,1-2H3 ]	deltaHrxn(T=298K) = -14.48 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005638/rk00000004.xml"""),
-        ("Thu Jul  7 16:13:21 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -29171,29 +27698,29 @@ entry(
     label = "r00005638",
     reactant1 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *1 C     0 {1,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,D} {3,S}
-2     C     0 {1,D}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {4,S}
 2     C     0 {1,S} {3,D}
 3     C     0 {2,D}
 4  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {3,S}
 2     C     0 {3,S}
 3  *3 C     1 {1,S} {2,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *1 C     0 {1,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -29215,10 +27742,11 @@ as reaction CC=C + C[CH]C <=> C(=C)[CH2] + C(C)C
 with kinetics Arrhenius(A=(8.61e+11,"cm**3/mol/s"), n=0, Ea=(12.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (C/H3/Cd C_rad/H/NonDeC))  [ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 , InChI=1/C3H7/c1-3-2/h3H,1-2H3 ]	deltaHrxn(T=298K) = -14.48 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005638/rk00000005.xml"""),
-        ("Thu Jul  7 16:13:22 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -29335,27 +27863,27 @@ entry(
     label = "r00005641",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,D} {3,S}
-2     C     0 {1,D}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {4,S}
 2     C     0 {1,S} {3,D}
 3     C     0 {2,D}
 4  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3  *3 C     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -29377,10 +27905,11 @@ as reaction CC=C + C[CH2] <=> C(=C)[CH2] + CC
 with kinetics Arrhenius(A=(0.0001008,"cm**3/mol/s"), n=4.75, Ea=(4.13,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 , InChI=1/C2H5/c1-2/h1H2,2H3 ]	deltaHrxn(T=298K) = -13.13 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005641/rk00000003.xml"""),
-        ("Thu Jul  7 16:13:22 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:56 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -29389,27 +27918,27 @@ entry(
     label = "r00005641",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,D} {3,S}
-2     C     0 {1,D}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {4,S}
 2     C     0 {1,S} {3,D}
 3     C     0 {2,D}
 4  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3  *3 C     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -29431,10 +27960,11 @@ as reaction CC=C + C[CH2] <=> C(=C)[CH2] + CC
 with kinetics Arrhenius(A=(0.0001008,"cm**3/mol/s"), n=4.75, Ea=(4.13,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 , InChI=1/C2H5/c1-2/h1H2,2H3 ]	deltaHrxn(T=298K) = -13.13 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005641/rk00000004.xml"""),
-        ("Thu Jul  7 16:13:22 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -29444,28 +27974,28 @@ entry(
     reactant1 = 
 """
 1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3  *1 C     0 {2,D} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3  *3 O     1 {2,S}
-""",
-    product1 = 
-"""
-1     C     0 {2,S}
 2     O     0 {1,S} {3,S}
 3  *1 O     0 {2,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S} {3,D}
 2  *3 C     1 {1,S}
 3     C     0 {1,D}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2     C     0 {1,S} {3,D}
+3  *1 C     0 {2,D} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3  *3 O     1 {2,S}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -29487,10 +28017,11 @@ as reaction C(=C)[CH2] + COO <=> CC=C + CO[O]
 with kinetics Arrhenius(A=(0.1335,"cm**3/mol/s"), n=3.76, Ea=(5.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2))))  [ InChI=1/C3H5/c1-3-2/h3H,1-2H2 , O/H/NonDeO ]	deltaHrxn(T=298K) = -1.59 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005652/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:22 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -29611,28 +28142,28 @@ entry(
     label = "r00005653",
     reactant1 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *1 C     0 {1,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,D} {3,S}
-2     C     0 {1,D}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {4,S}
 2     C     0 {1,S} {3,D}
 3     C     0 {2,D}
 4  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
+3  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *1 C     0 {1,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
 3  *3 C     1 {1,S}
 """,
     degeneracy = 6,
@@ -29655,10 +28186,11 @@ as reaction C(C)[CH2] + CC=C <=> C(C)C + C(=C)[CH2]
 with kinetics Arrhenius(A=(0.0001008,"cm**3/mol/s"), n=4.75, Ea=(4.13,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H2/Cs , InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 ]	deltaHrxn(T=298K) = -13.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005653/rk00000003.xml"""),
-        ("Thu Jul  7 16:13:23 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -29667,28 +28199,28 @@ entry(
     label = "r00005653",
     reactant1 = 
 """
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *1 C     0 {1,S} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,D} {3,S}
-2     C     0 {1,D}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {4,S}
 2     C     0 {1,S} {3,D}
 3     C     0 {2,D}
 4  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
+3  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *1 C     0 {1,S} {4,S}
+4  *2 H     0 {3,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
 3  *3 C     1 {1,S}
 """,
     degeneracy = 6,
@@ -29711,10 +28243,11 @@ as reaction C(C)[CH2] + CC=C <=> C(C)C + C(=C)[CH2]
 with kinetics Arrhenius(A=(0.0001008,"cm**3/mol/s"), n=4.75, Ea=(4.13,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H2/Cs , InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 ]	deltaHrxn(T=298K) = -13.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005653/rk00000004.xml"""),
-        ("Thu Jul  7 16:13:23 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:33:58 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -30142,25 +28675,25 @@ entry(
     label = "r00005661",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,D} {3,S}
-2     C     0 {1,D}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {4,S}
 2     C     0 {1,S} {3,D}
 3     C     0 {2,D}
 4  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3  *3 C     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -30182,10 +28715,11 @@ as reaction CC=C + [CH3] <=> C(=C)[CH2] + C
 with kinetics Arrhenius(A=(241.2,"cm**3/mol/s"), n=2.92, Ea=(7.16,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 , C_methyl ]	deltaHrxn(T=298K) = -16.98 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005661/rk00000010.xml"""),
-        ("Thu Jul  7 16:13:24 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -30194,25 +28728,25 @@ entry(
     label = "r00005661",
     reactant1 = 
 """
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,D} {3,S}
-2     C     0 {1,D}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {4,S}
 2     C     0 {1,S} {3,D}
 3     C     0 {2,D}
 4  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1
+""",
+    product1 = 
+"""
+1  *1 C     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3  *3 C     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -30234,10 +28768,11 @@ as reaction CC=C + [CH3] <=> C(=C)[CH2] + C
 with kinetics Arrhenius(A=(241.2,"cm**3/mol/s"), n=2.92, Ea=(7.16,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 , C_methyl ]	deltaHrxn(T=298K) = -16.98 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005661/rk00000011.xml"""),
-        ("Thu Jul  7 16:13:24 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -30300,27 +28835,27 @@ entry(
     label = "r00005669",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,D} {3,S}
-2     C     0 {1,D}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {4,S}
 2     C     0 {1,S} {3,D}
 3     C     0 {2,D}
 4  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 C     1 {2,S}
 2     O     0 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3  *3 C     1 {1,S}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -30342,10 +28877,11 @@ as reaction CC=C + [CH2]O <=> C(=C)[CH2] + CO
 with kinetics Arrhenius(A=(5.037e-05,"cm**3/mol/s"), n=4.82, Ea=(4.23,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3))))  [ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 , C_rad/H2/O ]	deltaHrxn(T=298K) = -8.83 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005669/rk00000002.xml"""),
-        ("Thu Jul  7 16:13:25 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -30354,27 +28890,27 @@ entry(
     label = "r00005671",
     reactant1 = 
 """
+1  *1 C     0 {2,D} {3,S}
+2     O     0 {1,D}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,D}
+2  *3 C     1 {1,S}
+3     C     0 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2     C     0 {1,S} {3,D}
 3  *1 C     0 {2,D} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1  *3 C     1 {2,D}
 2     O     0 {1,D}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,D} {3,S}
-2     O     0 {1,D}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,D}
-2  *3 C     1 {1,S}
-3     C     0 {1,D}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -30396,10 +28932,11 @@ as reaction C(=C)[CH2] + C=O <=> CC=C + [CH]=O
 with kinetics Arrhenius(A=(0.0613,"cm**3/mol/s"), n=3.95, Ea=(12.22,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (CO_pri InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3)))  [ InChI=1/C3H5/c1-3-2/h3H,1-2H2 , CO_pri ]	deltaHrxn(T=298K) = 0.50 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005671/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:25 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -30507,123 +29044,7 @@ and comment "Estimated by RMG-Java:
 """,
     history = [
         ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005672/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:25 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 577,
-    label = "r00005677",
-    reactant1 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3  *1 C     0 {2,D} {4,S}
-4  *2 H     0 {3,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    product1 = 
-"""
-1  *1 C     0 {3,S} {4,S}
-2     C     0 {3,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {1,S}
-5     O     0 {3,D}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,D}
-2  *3 C     1 {1,S}
-3     C     0 {1,D}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (5.037e-05,"cm**3/mol/s"),
-        n = 4.82,
-        Ea = (4.23,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC=C"> + <Molecule "CC(=O)[CH2]"> <=> <Molecule "CC(=O)C"> + <Molecule "C(=C)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005677/rk00000001.xml"
-and kinetics Arrhenius(A=(2.59e+10,"cm^3/(mol*s)"), n=0, Ea=(18873.9,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC=C + CC(=C)[O] <=> C(=C)[CH2] + CC(=O)C
-with kinetics Arrhenius(A=(5.037e-05,"cm**3/mol/s"), n=4.82, Ea=(4.23,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3))))  [ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 , C_rad/H2/CO ]	deltaHrxn(T=298K) = -9.26 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005677/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:26 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 578,
-    label = "r00005677",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2  *1 C     0 {3,S} {4,S}
-3     C     0 {1,S} {2,S} {5,D}
-4  *2 H     0 {2,S}
-5     O     0 {3,D}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,D} {3,S}
-2     C     0 {1,D}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {4,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D}
-4  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     O     0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (5.037e-05,"cm**3/mol/s"),
-        n = 4.82,
-        Ea = (4.23,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC(=O)C"> + <Molecule "C(=C)[CH2]"> <=> <Molecule "CC=C"> + <Molecule "CC(=O)[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005677/rk00000002.xml"
-and kinetics Arrhenius(A=(7.08e+11,"cm^3/(mol*s)"), n=0, Ea=(69010.1,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC=C + CC(=C)[O] <=> C(=C)[CH2] + CC(=O)C
-with kinetics Arrhenius(A=(5.037e-05,"cm**3/mol/s"), n=4.82, Ea=(4.23,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3))))  [ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 , C_rad/H2/CO ]	deltaHrxn(T=298K) = -9.26 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005677/rk00000002.xml"""),
-        ("Thu Jul  7 16:13:26 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -30958,31 +29379,31 @@ entry(
     label = "r00005700",
     reactant1 = 
 """
+1  *1 C     0 {2,S} {4,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D}
+4  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     C     0 {2,D} {3,S}
 2     C     0 {1,D}
 3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {4,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D}
-4  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *3 C     1 {1,S}
 """,
     degeneracy = 9,
     kinetics = Arrhenius(
@@ -31004,10 +29425,11 @@ as reaction C(C)(C)[CH2] + CC=C <=> C(C)(C)C + C(=C)[CH2]
 with kinetics Arrhenius(A=(0.0001008,"cm**3/mol/s"), n=4.75, Ea=(4.13,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H2/Cs , InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 ]	deltaHrxn(T=298K) = -14.02 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005700/rk00000002.xml"""),
-        ("Thu Jul  7 16:13:27 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:04 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -31172,25 +29594,25 @@ entry(
     label = "r00005745",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,D} {3,S}
-2     C     0 {1,D}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {4,S}
 2     C     0 {1,S} {3,D}
 3     C     0 {2,D}
 4  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -31212,10 +29634,11 @@ as reaction CC=C + [H] <=> C(=C)[CH2] + [H][H]
 with kinetics Arrhenius(A=(1.299e+06,"cm**3/mol/s"), n=2.38, Ea=(2.8,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (C/H3/Cd H_rad))  [ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 , H_rad ]	deltaHrxn(T=298K) = -16.30 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005745/rk00000010.xml"""),
-        ("Thu Jul  7 16:13:28 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -31224,25 +29647,25 @@ entry(
     label = "r00005745",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,D} {3,S}
-2     C     0 {1,D}
-3  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {4,S}
 2     C     0 {1,S} {3,D}
 3     C     0 {2,D}
 4  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -31264,10 +29687,11 @@ as reaction CC=C + [H] <=> C(=C)[CH2] + [H][H]
 with kinetics Arrhenius(A=(1.299e+06,"cm**3/mol/s"), n=2.38, Ea=(2.8,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (C/H3/Cd H_rad))  [ InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 , H_rad ]	deltaHrxn(T=298K) = -16.30 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005745/rk00000011.xml"""),
-        ("Thu Jul  7 16:13:28 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -31276,25 +29700,25 @@ entry(
     label = "r00005746",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S}
+2     C     0 {1,S} {3,D}
+3  *3 C     1 {2,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2     C     0 {1,S} {3,D}
 3  *1 C     0 {2,D} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3  *3 C     1 {2,D}
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -31316,10 +29740,11 @@ as reaction CC=[CH] + [H][H] <=> CC=C + [H]
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Cd_pri_rad , H2 ]	deltaHrxn(T=298K) = -7.17 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005746/rk00000002.xml"""),
-        ("Thu Jul  7 16:13:28 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -31328,25 +29753,25 @@ entry(
     label = "r00005747",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {3,S}
+2     C     0 {3,D}
+3  *3 C     1 {1,S} {2,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2     C     0 {1,S} {3,D}
 3  *1 C     0 {2,D} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {3,S}
-2     C     0 {3,D}
-3  *3 C     1 {1,S} {2,D}
+1  *3 H     1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -31368,10 +29793,11 @@ as reaction C[C]=C + [H][H] <=> CC=C + [H]
 with kinetics Arrhenius(A=(6.02e+12,"cm**3/mol/s"), n=0, Ea=(10.6,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H2 Cd_rad/NonDeC))  [ InChI=1/C3H5/c1-3-2/h1H2,2H3 , H2 ]	deltaHrxn(T=298K) = -3.62 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005747/rk00000002.xml"""),
-        ("Thu Jul  7 16:13:28 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -32754,29 +31180,29 @@ entry(
     label = "r00005864",
     reactant1 = 
 """
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {4,D}
+3  *3 C     1 {2,S}
+4     C     0 {2,D}
+""",
+    product1 = 
+"""
 1     C     0 {3,S}
 2     C     0 {3,S}
 3     C     0 {1,S} {2,S} {4,D}
 4  *1 C     0 {3,D} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     1 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S} {4,D}
-3  *3 C     1 {2,S}
-4     C     0 {2,D}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
@@ -32798,10 +31224,11 @@ as reaction CC(=C)[CH2] + O[O] <=> CC(=C)C + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3 , Orad_O_H ]	deltaHrxn(T=298K) = -40.49 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005864/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:30 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:08 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -32978,29 +31405,29 @@ entry(
     label = "r00006062",
     reactant1 = 
 """
+1  *1 C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S}
+2  *3 C     1 {1,S}
+3     C     0 {1,S} {4,D}
+4     O     0 {3,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 C     0 {1,S} {4,D} {5,S}
 4     O     0 {3,D}
 5  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S}
-2  *3 C     1 {1,S}
-3     C     0 {1,S} {4,D}
-4     O     0 {3,D}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -33022,10 +31449,11 @@ as reaction C([CH2])C=O + CC <=> C(C)C=O + C[CH2]
 with kinetics Arrhenius(A=(1.926e-05,"cm**3/mol/s"), n=5.28, Ea=(7.78,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H2/Cs , InChI=1/C2H6/c1-2/h1-2H3 ]	deltaHrxn(T=298K) = -2.10 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:33:56 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006062/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:31 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:09 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -34108,24 +32536,24 @@ entry(
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S} {4,S}
 3     C     0 {1,S} {4,S}
-4  *3 C     1 {2,S} {3,S}
+4  *1 C     0 {2,S} {3,S} {5,S}
+5  *2 H     0 {4,S}
 """,
     reactant2 = 
 """
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
+1  *3 O     1
 """,
     product1 = 
 """
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S} {4,S}
 3     C     0 {1,S} {4,S}
-4  *1 C     0 {2,S} {3,S} {5,S}
-5  *2 H     0 {4,S}
+4  *3 C     1 {2,S} {3,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -34147,10 +32575,11 @@ as reaction C1CCC1 + [OH] <=> C1C[CH]C1 + O
 with kinetics Arrhenius(A=(3.16e+07,"cm**3/mol/s"), n=1.9, Ea=(0.16,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H2/NonDeC , O_pri_rad ]	deltaHrxn(T=298K) = -21.51 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006461/rk00000010.xml"""),
-        ("Thu Jul  7 16:13:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:16 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -34339,6 +32768,20 @@ entry(
     label = "r00006485",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,S}
+4     C     0 {2,S} {5,S}
+5  *3 C     1 {3,S} {4,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S} {4,S}
 3     C     0 {1,S} {5,S}
@@ -34346,24 +32789,10 @@ entry(
 5  *1 C     0 {3,S} {4,S} {6,S}
 6  *2 H     0 {5,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S} {4,S}
-3     C     0 {1,S} {5,S}
-4     C     0 {2,S} {5,S}
-5  *3 C     1 {3,S} {4,S}
 """,
     degeneracy = 10,
     kinetics = Arrhenius(
@@ -34385,10 +32814,11 @@ as reaction C1CC[CH]C1 + OO <=> C1CCCC1 + O[O]
 with kinetics Arrhenius(A=(1.141,"cm**3/mol/s"), n=3.28, Ea=(0.88,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H/NonDeC , H2O2 ]	deltaHrxn(T=298K) = -10.73 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006485/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:17 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -34397,6 +32827,20 @@ entry(
     label = "r00006485",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S} {4,S}
+3     C     0 {1,S} {5,S}
+4     C     0 {2,S} {5,S}
+5  *3 C     1 {3,S} {4,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S} {4,S}
 3     C     0 {1,S} {5,S}
@@ -34404,24 +32848,10 @@ entry(
 5  *1 C     0 {3,S} {4,S} {6,S}
 6  *2 H     0 {5,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S} {4,S}
-3     C     0 {1,S} {5,S}
-4     C     0 {2,S} {5,S}
-5  *3 C     1 {3,S} {4,S}
 """,
     degeneracy = 10,
     kinetics = Arrhenius(
@@ -34443,10 +32873,11 @@ as reaction C1CC[CH]C1 + OO <=> C1CCCC1 + O[O]
 with kinetics Arrhenius(A=(1.141,"cm**3/mol/s"), n=3.28, Ea=(0.88,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H/NonDeC , H2O2 ]	deltaHrxn(T=298K) = -10.73 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006485/rk00000002.xml"""),
-        ("Thu Jul  7 16:13:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:17 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -37525,67 +35956,7 @@ and comment "Estimated by RMG-Java:
 """,
     history = [
         ("Tue May 17 14:34:07 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007435/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:51 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 701,
-    label = "r00007436",
-    reactant1 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S} {4,D}
-3     C     0 {1,S} {5,D}
-4     C     0 {2,D} {5,S}
-5  *1 C     0 {3,D} {4,S} {6,S}
-6  *2 H     0 {5,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {4,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T}
-4  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1  *3 C     1 {2,S} {3,S}
-2     C     0 {1,S} {4,D}
-3     C     0 {1,S} {5,D}
-4     C     0 {2,D} {5,S}
-5     C     0 {3,D} {4,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (193.6,"cm**3/mol/s"),
-        n = 2.96,
-        Ea = (6.79,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "C1C=CC=C1"> + <Molecule "[CH2]C#C"> <=> <Molecule "CC#C"> + <Molecule "[CH]1C=CC=C1">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007436/rk00000001.xml"
-and kinetics Arrhenius(A=(1.1e+11,"cm^3/(mol*s)"), n=0, Ea=(23031.1,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction C1C=CC=C1 + C=C=[CH] <=> C1=C[CH]C=C1 + CC#C
-with kinetics Arrhenius(A=(193.6,"cm**3/mol/s"), n=2.96, Ea=(6.79,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (C/H2/NonDeC C_methyl && Average of: (Average of: (Average of: (InChI=1/C3H8/c1-3-2/h3H2,1-2H3 InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3))) && Average of: (Average of: (InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha InChI=1/C2H5/c1-2/h1H2,2H3)) && Average of: (Average of: (InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha InChI=1/C3H7/c1-3-2/h3H,1-2H3) && Average of: (Average of: (InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c))) && Average of: (C/H2/OneDeC C_methyl) && Average of: (Average of: (InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3/beta InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3)) && C/H2/TwoDe C_methyl)))  [ C/H2/TwoDe , C_rad/H2/Ct ]	deltaHrxn(T=298K) = -16.15 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:34:08 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007436/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:51 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:34 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -37901,169 +36272,7 @@ and comment "Estimated by RMG-Java:
 """,
     history = [
         ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007664/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 707,
-    label = "r00007720",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {4,D}
-4  *1 C     0 {2,S} {3,D} {5,S}
-5  *2 H     0 {4,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D} {4,S}
-4  *3 C     1 {3,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (482.4,"cm**3/mol/s"),
-        n = 2.92,
-        Ea = (7.16,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC=CC"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC=C[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007720/rk00000001.xml"
-and kinetics Arrhenius(A=(1.6e+10,"cm^3/(mol*s)"), n=0, Ea=(30514.1,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC=CC + [CH3] <=> C[CH]C=C + C
-with kinetics Arrhenius(A=(482.4,"cm**3/mol/s"), n=2.92, Ea=(7.16,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ , C_methyl ]	deltaHrxn(T=298K) = -17.16 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007720/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 708,
-    label = "r00007720",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {4,D}
-4  *1 C     0 {2,S} {3,D} {5,S}
-5  *2 H     0 {4,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D} {4,S}
-4  *3 C     1 {3,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (482.4,"cm**3/mol/s"),
-        n = 2.92,
-        Ea = (7.16,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC=CC"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC=C[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007720/rk00000002.xml"
-and kinetics Arrhenius(A=(1.8e+11,"cm^3/(mol*s)"), n=0, Ea=(33923,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC=CC + [CH3] <=> C[CH]C=C + C
-with kinetics Arrhenius(A=(482.4,"cm**3/mol/s"), n=2.92, Ea=(7.16,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ , C_methyl ]	deltaHrxn(T=298K) = -17.16 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007720/rk00000002.xml"""),
-        ("Thu Jul  7 16:13:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 709,
-    label = "r00007720",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {4,D}
-4  *1 C     0 {2,S} {3,D} {5,S}
-5  *2 H     0 {4,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D} {4,S}
-4  *3 C     1 {3,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (482.4,"cm**3/mol/s"),
-        n = 2.92,
-        Ea = (7.16,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC=CC"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC=C[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007720/rk00000004.xml"
-and kinetics Arrhenius(A=(3.09e+11,"cm^3/(mol*s)"), n=0, Ea=(34920.8,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC=CC + [CH3] <=> C[CH]C=C + C
-with kinetics Arrhenius(A=(482.4,"cm**3/mol/s"), n=2.92, Ea=(7.16,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ , C_methyl ]	deltaHrxn(T=298K) = -17.16 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007720/rk00000004.xml"""),
-        ("Thu Jul  7 16:13:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -38072,33 +36281,33 @@ entry(
     label = "r00007723",
     reactant1 = 
 """
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {4,D}
-4  *1 C     0 {2,S} {3,D} {5,S}
-5  *2 H     0 {4,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {3,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S} {5,S}
 2     C     0 {1,S} {4,S}
 3     C     0 {1,S}
 4     C     0 {2,S}
 5  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {3,S}
 2     C     0 {4,S}
 3     C     0 {1,S} {4,D}
 4  *3 C     1 {2,S} {3,D}
+""",
+    product1 = 
+"""
+1     C     0 {3,S}
+2     C     0 {4,S}
+3     C     0 {1,S} {4,D}
+4  *1 C     0 {2,S} {3,D} {5,S}
+5  *2 H     0 {4,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -38120,132 +36329,11 @@ as reaction CC=[C]C + C(CC)C <=> CC=CC + C(C)[CH]C
 with kinetics Arrhenius(A=(10.22,"cm**3/mol/s"), n=3.59, Ea=(5.07,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (C/H2/NonDeC Cd_pri_rad && Average of: (Average of: (InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha InChI=1/C3H5/c1-3-2/h1H2,2H3)))))  [ InChI=1/C4H7/c1-3-4-2/h3H,1-2H3 , C/H2/NonDeC ]	deltaHrxn(T=298K) = -8.23 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007723/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 711,
-    label = "r00007724",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {4,D}
-4  *1 C     0 {2,S} {3,D} {5,S}
-5  *2 H     0 {4,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S} {5,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4     C     0 {1,S}
-5  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     C     0 {2,S} {3,S} {4,S} {5,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4     C     0 {1,S}
-5  *1 O     0 {1,S} {6,S}
-6  *2 H     0 {5,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D} {4,S}
-4  *3 C     1 {3,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (0.007908,"cm**3/mol/s"),
-        n = 4.52,
-        Ea = (6.27,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC=CC"> + <Molecule "C(C)(C)(C)[O]"> <=> <Molecule "C(C)(C)(C)O"> + <Molecule "CC=C[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007724/rk00000001.xml"
-and kinetics Arrhenius(A=(1.17e+13,"cm^3/(mol*s)"), n=0, Ea=(25026.6,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC=CC + C(C)(C)(C)[O] <=> C[CH]C=C + C(C)(C)(C)O
-with kinetics Arrhenius(A=(0.007908,"cm**3/mol/s"), n=4.52, Ea=(6.27,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3) && InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ O_rad/NonDeO && Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/o))))  [ InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ , O_rad/NonDeC ]	deltaHrxn(T=298K) = -16.34 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007724/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 712,
-    label = "r00007758",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {4,D}
-4  *1 C     0 {2,S} {3,D} {5,S}
-5  *2 H     0 {4,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S} {3,S}
-3     C     0 {2,S} {4,D}
-4     C     0 {3,D}
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S} {3,S} {5,S}
-2     C     0 {1,S}
-3     C     0 {1,S} {4,D}
-4     C     0 {3,D}
-5  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D} {4,S}
-4  *3 C     1 {3,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (0.000312,"cm**3/mol/s"),
-        n = 4.31,
-        Ea = (3.39,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC=CC"> + <Molecule "C[CH]C=C"> <=> <Molecule "C(C)C=C"> + <Molecule "CC=C[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007758/rk00000001.xml"
-and kinetics Arrhenius(A=(3.98e+13,"cm^3/(mol*s)"), n=0, Ea=(66100.1,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction C[CH]C=C + C(C)C=C <=> CC=CC + C[CH]C=C
-with kinetics Arrhenius(A=(0.000312,"cm**3/mol/s"), n=4.31, Ea=(3.39,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (Average of: (InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3/beta InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3))))  [ InChI=1/C3H5/c1-3-2/h3H,1-2H2 , InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3 ]	deltaHrxn(T=298K) = -2.72 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007758/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:38 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -38367,67 +36455,7 @@ and comment "Estimated by RMG-Java:
 """,
     history = [
         ("Tue May 17 14:34:10 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007798/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:56 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 715,
-    label = "r00007911",
-    reactant1 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S} {4,S}
-3     C     0 {1,S} {5,D}
-4     C     0 {2,S} {6,D}
-5     C     0 {3,D} {6,S}
-6  *1 C     0 {4,D} {5,S} {7,S}
-7  *2 H     0 {6,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S}
-2  *3 C     1 {1,S} {4,S}
-3     C     0 {1,S} {5,D}
-4     C     0 {2,S} {6,D}
-5     C     0 {3,D} {6,S}
-6     C     0 {4,D} {5,S}
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (1.75e+10,"cm**3/mol/s"),
-        n = 0,
-        Ea = (-3.28,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "C1CC=CC=C1"> + <Molecule "[O][O]"> <=> <Molecule "O[O]"> + <Molecule "C1[CH]C=CC=C1">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007911/rk00000001.xml"
-and kinetics Arrhenius(A=(8.13e+11,"cm^3/(mol*s)"), n=0, Ea=(103931,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction C1C=C[CH]C=C1 + O[O] <=> C1CC=CC=C1 + [O][O]
-with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ C_rad/H/OneDeC , Orad_O_H ]	deltaHrxn(T=298K) = -28.27 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:34:11 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007911/rk00000001.xml"""),
-        ("Thu Jul  7 16:13:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:40 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -39342,123 +37370,7 @@ and comment "Estimated by RMG-Java:
 """,
     history = [
         ("Tue May 17 14:34:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008153/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:03 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 731,
-    label = "r00008211",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {4,D}
-4  *1 C     0 {2,S} {3,D} {5,S}
-5  *2 H     0 {4,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1
-""",
-    product1 = 
-"""
-1  *1 C     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D} {4,S}
-4  *3 C     1 {3,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (482.4,"cm**3/mol/s"),
-        n = 2.92,
-        Ea = (7.16,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC=CC"> + <Molecule "[CH3]"> <=> <Molecule "C"> + <Molecule "CC=C[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008211/rk00000002.xml"
-and kinetics Arrhenius(A=(1e+12,"cm^3/(mol*s)"), n=0, Ea=(40242,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC=CC + [CH3] <=> C[CH]C=C + C
-with kinetics Arrhenius(A=(482.4,"cm**3/mol/s"), n=2.92, Ea=(7.16,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ , C_methyl ]	deltaHrxn(T=298K) = -17.16 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:34:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008211/rk00000002.xml"""),
-        ("Thu Jul  7 16:14:03 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
-    ],
-)
-
-entry(
-    index = 732,
-    label = "r00008214",
-    reactant1 = 
-"""
-1     C     0 {3,S}
-2     C     0 {4,S}
-3     C     0 {1,S} {4,D}
-4  *1 C     0 {2,S} {3,D} {5,S}
-5  *2 H     0 {4,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S} {5,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4     C     0 {1,S}
-5  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     C     0 {2,S} {3,S} {4,S} {5,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4     C     0 {1,S}
-5  *1 O     0 {1,S} {6,S}
-6  *2 H     0 {5,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {2,D} {4,S}
-4  *3 C     1 {3,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (0.007908,"cm**3/mol/s"),
-        n = 4.52,
-        Ea = (6.27,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""Rate estimated by RMG-Java""",
-    longDesc = 
-u"""
-The PrIMe reaction <Molecule "CC=CC"> + <Molecule "C(C)(C)(C)[O]"> <=> <Molecule "C(C)(C)(C)O"> + <Molecule "CC=C[CH2]">
-with description "Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008214/rk00000001.xml"
-and kinetics Arrhenius(A=(1.95e+13,"cm^3/(mol*s)"), n=0, Ea=(26523.2,"J/mol"), T0=(1,"K"))
-was predicted by RMG-Java
-as reaction CC=CC + C(C)(C)(C)[O] <=> C[CH]C=C + C(C)(C)(C)O
-with kinetics Arrhenius(A=(0.007908,"cm**3/mol/s"), n=4.52, Ea=(6.27,"kcal/mol"), T0=(1,"K"))
-and comment "Estimated by RMG-Java:
-!H_Abstraction estimate: (Average of: (Average of: (Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3) && Average of: (InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3) && InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ O_rad/NonDeO && Average of: (InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/o))))  [ InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ , O_rad/NonDeC ]	deltaHrxn(T=298K) = -16.34 kcal/mol"
-""",
-    history = [
-        ("Tue May 17 14:34:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008214/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:03 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:49 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -39647,27 +37559,27 @@ entry(
     label = "r00009456",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {4,S}
-2     C     0 {4,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {2,S} {3,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S} {4,S} {5,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4     C     0 {1,S}
 5  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {4,S}
+2     C     0 {4,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {2,S} {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -39689,10 +37601,11 @@ as reaction [H] + C(C)(C)C <=> [H][H] + C[C](C)C
 with kinetics Arrhenius(A=(4.83e+08,"cm**3/mol/s"), n=1.54, Ea=(2.98,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , C/H/Cs3 ]	deltaHrxn(T=298K) = -7.13 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009456/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:04 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:51 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -39854,7 +37767,7 @@ and comment "Estimated by RMG-Java:
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009456/rk00000004.xml"""),
-        ("Thu Jul  7 16:14:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:52 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -39908,7 +37821,7 @@ and comment "Estimated by RMG-Java:
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009456/rk00000007.xml"""),
-        ("Thu Jul  7 16:14:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:52 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -39917,25 +37830,25 @@ entry(
     label = "r00009459",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {3,S}
-2     C     0 {3,S}
-3  *3 C     1 {1,S} {2,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {3,S}
+2     C     0 {3,S}
+3  *3 C     1 {1,S} {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -39957,10 +37870,11 @@ as reaction C(C)C + [H] <=> C[CH]C + [H][H]
 with kinetics Arrhenius(A=(2.6e+08,"cm**3/mol/s"), n=1.69, Ea=(4.78,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ InChI=1/C3H8/c1-3-2/h3H2,1-2H3 , H_rad ]	deltaHrxn(T=298K) = -1.82 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009459/rk00000002.xml"""),
-        ("Thu Jul  7 16:14:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:52 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -40281,23 +38195,23 @@ entry(
     label = "r00009460",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -40319,10 +38233,11 @@ as reaction [H] + CC <=> [H][H] + C[CH2]
 with kinetics Arrhenius(A=(3.768e+08,"cm**3/mol/s"), n=1.75, Ea=(7.51,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H_rad , InChI=1/C2H6/c1-2/h1-2H3 ]	deltaHrxn(T=298K) = -3.17 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009460/rk00000003.xml"""),
-        ("Thu Jul  7 16:14:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -40331,23 +38246,23 @@ entry(
     label = "r00009460",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -40369,10 +38284,11 @@ as reaction [H] + CC <=> [H][H] + C[CH2]
 with kinetics Arrhenius(A=(3.768e+08,"cm**3/mol/s"), n=1.75, Ea=(7.51,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H_rad , InChI=1/C2H6/c1-2/h1-2H3 ]	deltaHrxn(T=298K) = -3.17 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009460/rk00000004.xml"""),
-        ("Thu Jul  7 16:14:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -40381,23 +38297,23 @@ entry(
     label = "r00009460",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -40419,10 +38335,11 @@ as reaction [H] + CC <=> [H][H] + C[CH2]
 with kinetics Arrhenius(A=(3.768e+08,"cm**3/mol/s"), n=1.75, Ea=(7.51,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H_rad , InChI=1/C2H6/c1-2/h1-2H3 ]	deltaHrxn(T=298K) = -3.17 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009460/rk00000008.xml"""),
-        ("Thu Jul  7 16:14:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -40431,23 +38348,23 @@ entry(
     label = "r00009460",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -40469,10 +38386,11 @@ as reaction [H] + CC <=> [H][H] + C[CH2]
 with kinetics Arrhenius(A=(3.768e+08,"cm**3/mol/s"), n=1.75, Ea=(7.51,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H_rad , InChI=1/C2H6/c1-2/h1-2H3 ]	deltaHrxn(T=298K) = -3.17 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009460/rk00000010.xml"""),
-        ("Thu Jul  7 16:14:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -40481,23 +38399,23 @@ entry(
     label = "r00009460",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -40519,10 +38437,11 @@ as reaction [H] + CC <=> [H][H] + C[CH2]
 with kinetics Arrhenius(A=(3.768e+08,"cm**3/mol/s"), n=1.75, Ea=(7.51,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H_rad , InChI=1/C2H6/c1-2/h1-2H3 ]	deltaHrxn(T=298K) = -3.17 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009460/rk00000011.xml"""),
-        ("Thu Jul  7 16:14:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -40531,23 +38450,23 @@ entry(
     label = "r00009460",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -40569,10 +38488,11 @@ as reaction [H] + CC <=> [H][H] + C[CH2]
 with kinetics Arrhenius(A=(3.768e+08,"cm**3/mol/s"), n=1.75, Ea=(7.51,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H_rad , InChI=1/C2H6/c1-2/h1-2H3 ]	deltaHrxn(T=298K) = -3.17 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009460/rk00000012.xml"""),
-        ("Thu Jul  7 16:14:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -41833,25 +39753,25 @@ entry(
     label = "r00009465",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2     O     0 {1,S} {3,S}
-3  *3 O     1 {2,S}
-""",
-    product1 = 
-"""
 1     C     0 {2,S}
 2     O     0 {1,S} {3,S}
 3  *1 O     0 {2,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3  *3 O     1 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -41873,10 +39793,11 @@ as reaction [H] + COO <=> [H][H] + CO[O]
 with kinetics Arrhenius(A=(1.063e+10,"cm**3/mol/s"), n=1.11, Ea=(8.91,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad)))  [ H_rad , O/H/NonDeO ]	deltaHrxn(T=298K) = -17.89 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009465/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:08 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -41936,23 +39857,23 @@ entry(
     label = "r00009467",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S}
+2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,S}
-2  *3 O     1 {1,S}
+1  *3 H     1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -41974,10 +39895,11 @@ as reaction [H][H] + C[O] <=> [H] + CO
 with kinetics Arrhenius(A=(0.1264,"cm**3/mol/s"), n=4, Ea=(4.91,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H2 , O_rad/NonDeC ]	deltaHrxn(T=298K) = -1.24 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009467/rk00000002.xml"""),
-        ("Thu Jul  7 16:14:09 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -41986,23 +39908,23 @@ entry(
     label = "r00009467",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S}
+2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,S}
-2  *3 O     1 {1,S}
+1  *3 H     1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42024,10 +39946,11 @@ as reaction [H][H] + C[O] <=> [H] + CO
 with kinetics Arrhenius(A=(0.1264,"cm**3/mol/s"), n=4, Ea=(4.91,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H2 , O_rad/NonDeC ]	deltaHrxn(T=298K) = -1.24 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009467/rk00000003.xml"""),
-        ("Thu Jul  7 16:14:09 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -42036,23 +39959,23 @@ entry(
     label = "r00009467",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S}
+2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,S}
-2  *3 O     1 {1,S}
+1  *3 H     1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -42074,11 +39997,12 @@ as reaction [H][H] + C[O] <=> [H] + CO
 with kinetics Arrhenius(A=(0.1264,"cm**3/mol/s"), n=4, Ea=(4.91,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H2 , O_rad/NonDeC ]	deltaHrxn(T=298K) = -1.24 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009467/rk00000005.xml"""),
         ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
-        ("Thu Jul  7 16:14:09 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:55 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -42087,27 +40011,27 @@ entry(
     label = "r00009474",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {4,S}
-4  *3 C     1 {1,S} {3,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S} {5,S}
 2     C     0 {1,S} {4,S}
 3     C     0 {1,S}
 4     C     0 {2,S}
 5  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {4,S}
+4  *3 C     1 {1,S} {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -42129,10 +40053,11 @@ as reaction C(CC)C + [H] <=> C(C)[CH]C + [H][H]
 with kinetics Arrhenius(A=(5.2e+08,"cm**3/mol/s"), n=1.69, Ea=(4.78,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H2/NonDeC , H_rad ]	deltaHrxn(T=298K) = -5.81 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009474/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:09 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:56 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -42357,23 +40282,23 @@ entry(
     label = "r00009476",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1 {2,S}
-2     O     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     O     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1 {2,S}
+2     O     0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -42395,10 +40320,11 @@ as reaction CO + [H] <=> [CH2]O + [H][H]
 with kinetics Arrhenius(A=(1353,"cm**3/mol/s"), n=3.2, Ea=(3.49,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H3/O , H_rad ]	deltaHrxn(T=298K) = -7.47 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009476/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:09 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:56 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -42407,23 +40333,23 @@ entry(
     label = "r00009476",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1 {2,S}
-2     O     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     O     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1 {2,S}
+2     O     0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -42445,11 +40371,12 @@ as reaction CO + [H] <=> [CH2]O + [H][H]
 with kinetics Arrhenius(A=(1353,"cm**3/mol/s"), n=3.2, Ea=(3.49,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H3/O , H_rad ]	deltaHrxn(T=298K) = -7.47 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009476/rk00000002.xml"""),
         ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
-        ("Thu Jul  7 16:14:09 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:56 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -42809,23 +40736,23 @@ entry(
     label = "r00009477",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *3 C     1 {2,D}
-2     O     0 {1,D}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,D} {3,S}
 2     O     0 {1,D}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1  *3 C     1 {2,D}
+2     O     0 {1,D}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -42847,10 +40774,11 @@ as reaction [H] + C=O <=> [H][H] + [CH]=O
 with kinetics Arrhenius(A=(1.096e+08,"cm**3/mol/s"), n=1.82, Ea=(2.44,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , CO_pri ]	deltaHrxn(T=298K) = -15.80 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009477/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:10 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:57 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44259,23 +42187,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44297,10 +42225,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000013.xml"""),
-        ("Thu Jul  7 16:14:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44309,23 +42238,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44347,10 +42276,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000014.xml"""),
-        ("Thu Jul  7 16:14:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44359,23 +42289,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44397,10 +42327,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000016.xml"""),
-        ("Thu Jul  7 16:14:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:34:59 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44409,23 +42340,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44447,10 +42378,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000017.xml"""),
-        ("Thu Jul  7 16:14:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44459,23 +42391,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44497,10 +42429,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000018.xml"""),
-        ("Thu Jul  7 16:14:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44509,23 +42442,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44547,10 +42480,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000019.xml"""),
-        ("Thu Jul  7 16:14:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44559,23 +42493,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44597,10 +42531,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000021.xml"""),
-        ("Thu Jul  7 16:14:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44609,23 +42544,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44647,10 +42582,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000022.xml"""),
-        ("Thu Jul  7 16:14:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44659,23 +42595,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44697,10 +42633,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000023.xml"""),
-        ("Thu Jul  7 16:14:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44709,23 +42646,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44747,10 +42684,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000024.xml"""),
-        ("Thu Jul  7 16:14:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44759,23 +42697,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44797,10 +42735,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000025.xml"""),
-        ("Thu Jul  7 16:14:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44809,23 +42748,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44847,10 +42786,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000026.xml"""),
-        ("Thu Jul  7 16:14:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44859,23 +42799,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44897,10 +42837,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000028.xml"""),
-        ("Thu Jul  7 16:14:12 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44909,23 +42850,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44947,10 +42888,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000029.xml"""),
-        ("Thu Jul  7 16:14:13 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:00 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -44959,23 +42901,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -44997,10 +42939,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000030.xml"""),
-        ("Thu Jul  7 16:14:13 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -45009,23 +42952,23 @@ entry(
     label = "r00009480",
     reactant1 = 
 """
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,D}
+2  *3 C     1 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,D}
 2  *1 C     0 {1,D} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 H     1
-""",
-    product1 = 
-"""
-1  *1 H     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,D}
-2  *3 C     1 {1,D}
+1  *3 H     1
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -45047,10 +42990,11 @@ as reaction [H][H] + C=[CH] <=> [H] + C=C
 with kinetics Arrhenius(A=(8.98e+12,"cm**3/mol/s"), n=0, Ea=(10.3,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2 , InChI=1/C2H3/c1-2/h1H,2H2 ]	deltaHrxn(T=298K) = -6.55 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000031.xml"""),
-        ("Thu Jul  7 16:14:13 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -45059,25 +43003,25 @@ entry(
     label = "r00009482",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S} {3,D}
-3     O     0 {2,D}
-""",
-    product1 = 
-"""
 1     C     0 {2,S}
 2  *1 C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
 4  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,D}
+3     O     0 {2,D}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -45099,10 +43043,11 @@ as reaction [H] + CC=O <=> [H][H] + C[C]=O
 with kinetics Arrhenius(A=(8.07e+07,"cm**3/mol/s"), n=1.76, Ea=(0.67,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H_rad , CO/H/NonDe ]	deltaHrxn(T=298K) = -14.81 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009482/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:13 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -45267,23 +43212,23 @@ entry(
     label = "r00009484",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -45305,10 +43250,11 @@ as reaction [H] + OO <=> [H][H] + O[O]
 with kinetics Arrhenius(A=(2.127e+10,"cm**3/mol/s"), n=1.11, Ea=(8.91,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad)))  [ H_rad , H2O2 ]	deltaHrxn(T=298K) = -16.48 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009484/rk00000002.xml"""),
-        ("Thu Jul  7 16:14:13 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -45317,23 +43263,23 @@ entry(
     label = "r00009484",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -45355,10 +43301,11 @@ as reaction [H] + OO <=> [H][H] + O[O]
 with kinetics Arrhenius(A=(2.127e+10,"cm**3/mol/s"), n=1.11, Ea=(8.91,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad)))  [ H_rad , H2O2 ]	deltaHrxn(T=298K) = -16.48 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009484/rk00000003.xml"""),
-        ("Thu Jul  7 16:14:13 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -45367,23 +43314,23 @@ entry(
     label = "r00009484",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -45405,10 +43352,11 @@ as reaction [H] + OO <=> [H][H] + O[O]
 with kinetics Arrhenius(A=(2.127e+10,"cm**3/mol/s"), n=1.11, Ea=(8.91,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad)))  [ H_rad , H2O2 ]	deltaHrxn(T=298K) = -16.48 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009484/rk00000004.xml"""),
-        ("Thu Jul  7 16:14:13 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -45417,23 +43365,23 @@ entry(
     label = "r00009484",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -45455,10 +43403,11 @@ as reaction [H] + OO <=> [H][H] + O[O]
 with kinetics Arrhenius(A=(2.127e+10,"cm**3/mol/s"), n=1.11, Ea=(8.91,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad)))  [ H_rad , H2O2 ]	deltaHrxn(T=298K) = -16.48 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009484/rk00000006.xml"""),
-        ("Thu Jul  7 16:14:13 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -45467,23 +43416,23 @@ entry(
     label = "r00009484",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -45505,10 +43454,11 @@ as reaction [H] + OO <=> [H][H] + O[O]
 with kinetics Arrhenius(A=(2.127e+10,"cm**3/mol/s"), n=1.11, Ea=(8.91,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad)))  [ H_rad , H2O2 ]	deltaHrxn(T=298K) = -16.48 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009484/rk00000007.xml"""),
-        ("Thu Jul  7 16:14:13 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:01 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -45817,27 +43767,27 @@ entry(
     label = "r00009496",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1     C     0 {2,S} {3,S} {4,S}
 2  *1 C     0 {1,S} {5,S}
 3     C     0 {1,S}
 4     C     0 {1,S}
 5  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -45859,10 +43809,11 @@ as reaction C(C)(C)C + [H] <=> C(C)(C)[CH2] + [H][H]
 with kinetics Arrhenius(A=(5.652e+08,"cm**3/mol/s"), n=1.75, Ea=(7.51,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H3/Cs , H_rad ]	deltaHrxn(T=298K) = -2.28 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009496/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:14 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -45871,27 +43822,27 @@ entry(
     label = "r00009496",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1     C     0 {2,S} {3,S} {4,S}
 2  *1 C     0 {1,S} {5,S}
 3     C     0 {1,S}
 4     C     0 {1,S}
 5  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -45913,10 +43864,11 @@ as reaction C(C)(C)C + [H] <=> C(C)(C)[CH2] + [H][H]
 with kinetics Arrhenius(A=(5.652e+08,"cm**3/mol/s"), n=1.75, Ea=(7.51,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H3/Cs , H_rad ]	deltaHrxn(T=298K) = -2.28 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009496/rk00000002.xml"""),
-        ("Thu Jul  7 16:14:14 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -46033,23 +43985,23 @@ entry(
     label = "r00009509",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -46071,10 +44023,11 @@ as reaction [H] + O[O] <=> [H][H] + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H_rad , Orad_O_H ]	deltaHrxn(T=298K) = -55.17 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009509/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:14 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -46083,23 +44036,23 @@ entry(
     label = "r00009509",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -46121,10 +44074,11 @@ as reaction [H] + O[O] <=> [H][H] + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H_rad , Orad_O_H ]	deltaHrxn(T=298K) = -55.17 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009509/rk00000002.xml"""),
-        ("Thu Jul  7 16:14:14 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -46133,23 +44087,23 @@ entry(
     label = "r00009509",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -46171,10 +44125,11 @@ as reaction [H] + O[O] <=> [H][H] + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H_rad , Orad_O_H ]	deltaHrxn(T=298K) = -55.17 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009509/rk00000004.xml"""),
-        ("Thu Jul  7 16:14:14 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -46183,23 +44138,23 @@ entry(
     label = "r00009509",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -46221,10 +44176,11 @@ as reaction [H] + O[O] <=> [H][H] + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H_rad , Orad_O_H ]	deltaHrxn(T=298K) = -55.17 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009509/rk00000005.xml"""),
-        ("Thu Jul  7 16:14:14 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -46233,23 +44189,23 @@ entry(
     label = "r00009509",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -46271,10 +44227,11 @@ as reaction [H] + O[O] <=> [H][H] + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H_rad , Orad_O_H ]	deltaHrxn(T=298K) = -55.17 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009509/rk00000006.xml"""),
-        ("Thu Jul  7 16:14:14 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:02 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -46683,27 +44640,27 @@ entry(
     label = "r00009557",
     reactant1 = 
 """
-1  *2 H     0 {2,S}
-2  *1 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2     C     0 {1,S} {3,D} {4,S}
-3     C     0 {2,D}
-4  *3 C     1 {2,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {3,S} {5,S}
 2     C     0 {3,S}
 3     C     0 {1,S} {2,S} {4,D}
 4     C     0 {3,D}
 5  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 H     1
+""",
+    product1 = 
+"""
+1  *2 H     0 {2,S}
+2  *1 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     C     0 {2,D}
+4  *3 C     1 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -46725,10 +44682,11 @@ as reaction [H] + CC(=C)C <=> [H][H] + CC(=C)[CH2]
 with kinetics Arrhenius(A=(2.598e+06,"cm**3/mol/s"), n=2.38, Ea=(2.8,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (C/H3/Cd H_rad))  [ H_rad , InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 ]	deltaHrxn(T=298K) = -14.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009557/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:15 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:03 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -47071,27 +45029,27 @@ entry(
     label = "r00010120",
     reactant1 = 
 """
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,D}
+2  *3 C     1 {1,S}
+3     C     0 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2     C     0 {1,S} {3,D}
 3  *1 C     0 {2,D} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     1 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,D}
-2  *3 C     1 {1,S}
-3     C     0 {1,D}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -47113,10 +45071,11 @@ as reaction O[O] + C(=C)[CH2] <=> CC=C + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ Orad_O_H , InChI=1/C3H5/c1-3-2/h3H,1-2H2 ]	deltaHrxn(T=298K) = -38.87 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010120/rk00000004.xml"""),
-        ("Thu Jul  7 16:14:16 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -47125,27 +45084,27 @@ entry(
     label = "r00010120",
     reactant1 = 
 """
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,D}
+2  *3 C     1 {1,S}
+3     C     0 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2     C     0 {1,S} {3,D}
 3  *1 C     0 {2,D} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     1 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,D}
-2  *3 C     1 {1,S}
-3     C     0 {1,D}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -47167,10 +45126,11 @@ as reaction O[O] + C(=C)[CH2] <=> CC=C + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ Orad_O_H , InChI=1/C3H5/c1-3-2/h3H,1-2H2 ]	deltaHrxn(T=298K) = -38.87 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010120/rk00000005.xml"""),
-        ("Thu Jul  7 16:14:16 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:05 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -47179,27 +45139,27 @@ entry(
     label = "r00010120",
     reactant1 = 
 """
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,D}
+2  *3 C     1 {1,S}
+3     C     0 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2     C     0 {1,S} {3,D}
 3  *1 C     0 {2,D} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     1 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,D}
-2  *3 C     1 {1,S}
-3     C     0 {1,D}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -47221,10 +45181,11 @@ as reaction O[O] + C(=C)[CH2] <=> CC=C + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ Orad_O_H , InChI=1/C3H5/c1-3-2/h3H,1-2H2 ]	deltaHrxn(T=298K) = -38.87 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010120/rk00000006.xml"""),
-        ("Thu Jul  7 16:14:16 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -47233,27 +45194,27 @@ entry(
     label = "r00010120",
     reactant1 = 
 """
+1  *1 O     0 {2,S} {3,S}
+2     O     1 {1,S}
+3  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,D}
+2  *3 C     1 {1,S}
+3     C     0 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2     C     0 {1,S} {3,D}
 3  *1 C     0 {2,D} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     1 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3  *2 H     0 {1,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,D}
-2  *3 C     1 {1,S}
-3     C     0 {1,D}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -47275,10 +45236,11 @@ as reaction O[O] + C(=C)[CH2] <=> CC=C + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ Orad_O_H , InChI=1/C3H5/c1-3-2/h3H,1-2H2 ]	deltaHrxn(T=298K) = -38.87 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010120/rk00000007.xml"""),
-        ("Thu Jul  7 16:14:17 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -47341,27 +45303,27 @@ entry(
     label = "r00010128",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,D}
+2  *3 C     1 {1,S}
+3     C     0 {1,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2     C     0 {1,S} {3,D}
 3  *1 C     0 {2,D} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,D}
-2  *3 C     1 {1,S}
-3     C     0 {1,D}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -47383,10 +45345,11 @@ as reaction OO + C(=C)[CH2] <=> O[O] + CC=C
 with kinetics Arrhenius(A=(0.0351,"cm**3/mol/s"), n=4.22, Ea=(9.86,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ H2O2 , InChI=1/C3H5/c1-3-2/h3H,1-2H2 ]	deltaHrxn(T=298K) = -0.18 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010128/rk00000003.xml"""),
-        ("Thu Jul  7 16:14:17 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -47395,25 +45358,25 @@ entry(
     label = "r00010391",
     reactant1 = 
 """
-1     C     0 {2,T}
-2  *1 C     0 {1,T} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,T}
 2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
+1     C     0 {2,T}
+2  *1 C     0 {1,T} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -47435,10 +45398,11 @@ as reaction C#[C] + O[O] <=> C#C + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ Ct_rad , Orad_O_H ]	deltaHrxn(T=298K) = -84.10 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010391/rk00000002.xml"""),
-        ("Thu Jul  7 16:14:17 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -47498,23 +45462,23 @@ entry(
     label = "r00010403",
     reactant1 = 
 """
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 O     1
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 O     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -47536,10 +45500,11 @@ as reaction O + C#[C] <=> [OH] + C#C
 with kinetics Arrhenius(A=(626500,"cm**3/mol/s"), n=1.98, Ea=(13.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (O_pri O2b) && Average of: (O/H/NonDeC O2b) && O_pri H_rad && Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad) && Average of: (O_pri C_methyl && Average of: (O_pri C_rad/H2/Cs)) && Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl) && Average of: (O_pri Cd_pri_rad) && Average of: (O/H/NonDeC Cd_pri_rad && Average of: (H2O2 InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3) && Average of: (H2O2 Cd_rad/NonDeC)) && Average of: (O/H/NonDeC Ct_rad) && Average of: (O_pri CO_pri_rad) && Average of: (O_pri O_pri_rad && Average of: (O_pri O_rad/NonDeC)) && Average of: (O/H/NonDeC O_pri_rad && Average of: (H2O2 O_rad/NonDeO && H2O2 O_rad/OneDe)))))  [ O_pri , Ct_rad ] Ea computed using Evans-Polanyi dHrxn(298K)=-13.2 kcal/mol and alpha=0.08.	deltaHrxn(T=298K) = -13.18 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010403/rk00000004.xml"""),
-        ("Thu Jul  7 16:14:17 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:06 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -47548,23 +45513,23 @@ entry(
     label = "r00010403",
     reactant1 = 
 """
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 O     1
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 O     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -47586,10 +45551,11 @@ as reaction O + C#[C] <=> [OH] + C#C
 with kinetics Arrhenius(A=(626500,"cm**3/mol/s"), n=1.98, Ea=(13.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (O_pri O2b) && Average of: (O/H/NonDeC O2b) && O_pri H_rad && Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad) && Average of: (O_pri C_methyl && Average of: (O_pri C_rad/H2/Cs)) && Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl) && Average of: (O_pri Cd_pri_rad) && Average of: (O/H/NonDeC Cd_pri_rad && Average of: (H2O2 InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3) && Average of: (H2O2 Cd_rad/NonDeC)) && Average of: (O/H/NonDeC Ct_rad) && Average of: (O_pri CO_pri_rad) && Average of: (O_pri O_pri_rad && Average of: (O_pri O_rad/NonDeC)) && Average of: (O/H/NonDeC O_pri_rad && Average of: (H2O2 O_rad/NonDeO && H2O2 O_rad/OneDe)))))  [ O_pri , Ct_rad ] Ea computed using Evans-Polanyi dHrxn(298K)=-13.2 kcal/mol and alpha=0.08.	deltaHrxn(T=298K) = -13.18 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010403/rk00000005.xml"""),
-        ("Thu Jul  7 16:14:17 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:07 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -47598,23 +45564,23 @@ entry(
     label = "r00010403",
     reactant1 = 
 """
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 O     1
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 O     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -47636,10 +45602,11 @@ as reaction O + C#[C] <=> [OH] + C#C
 with kinetics Arrhenius(A=(626500,"cm**3/mol/s"), n=1.98, Ea=(13.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (O_pri O2b) && Average of: (O/H/NonDeC O2b) && O_pri H_rad && Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad) && Average of: (O_pri C_methyl && Average of: (O_pri C_rad/H2/Cs)) && Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl) && Average of: (O_pri Cd_pri_rad) && Average of: (O/H/NonDeC Cd_pri_rad && Average of: (H2O2 InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3) && Average of: (H2O2 Cd_rad/NonDeC)) && Average of: (O/H/NonDeC Ct_rad) && Average of: (O_pri CO_pri_rad) && Average of: (O_pri O_pri_rad && Average of: (O_pri O_rad/NonDeC)) && Average of: (O/H/NonDeC O_pri_rad && Average of: (H2O2 O_rad/NonDeO && H2O2 O_rad/OneDe)))))  [ O_pri , Ct_rad ] Ea computed using Evans-Polanyi dHrxn(298K)=-13.2 kcal/mol and alpha=0.08.	deltaHrxn(T=298K) = -13.18 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010403/rk00000007.xml"""),
-        ("Thu Jul  7 16:14:17 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:07 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -47648,23 +45615,23 @@ entry(
     label = "r00010403",
     reactant1 = 
 """
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 O     1
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 O     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -47686,10 +45653,11 @@ as reaction O + C#[C] <=> [OH] + C#C
 with kinetics Arrhenius(A=(626500,"cm**3/mol/s"), n=1.98, Ea=(13.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (O_pri O2b) && Average of: (O/H/NonDeC O2b) && O_pri H_rad && Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad) && Average of: (O_pri C_methyl && Average of: (O_pri C_rad/H2/Cs)) && Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl) && Average of: (O_pri Cd_pri_rad) && Average of: (O/H/NonDeC Cd_pri_rad && Average of: (H2O2 InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3) && Average of: (H2O2 Cd_rad/NonDeC)) && Average of: (O/H/NonDeC Ct_rad) && Average of: (O_pri CO_pri_rad) && Average of: (O_pri O_pri_rad && Average of: (O_pri O_rad/NonDeC)) && Average of: (O/H/NonDeC O_pri_rad && Average of: (H2O2 O_rad/NonDeO && H2O2 O_rad/OneDe)))))  [ O_pri , Ct_rad ] Ea computed using Evans-Polanyi dHrxn(298K)=-13.2 kcal/mol and alpha=0.08.	deltaHrxn(T=298K) = -13.18 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010403/rk00000009.xml"""),
-        ("Thu Jul  7 16:14:17 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:07 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -47698,23 +45666,23 @@ entry(
     label = "r00010403",
     reactant1 = 
 """
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 O     1
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 O     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -47736,10 +45704,11 @@ as reaction O + C#[C] <=> [OH] + C#C
 with kinetics Arrhenius(A=(626500,"cm**3/mol/s"), n=1.98, Ea=(13.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (O_pri O2b) && Average of: (O/H/NonDeC O2b) && O_pri H_rad && Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad) && Average of: (O_pri C_methyl && Average of: (O_pri C_rad/H2/Cs)) && Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl) && Average of: (O_pri Cd_pri_rad) && Average of: (O/H/NonDeC Cd_pri_rad && Average of: (H2O2 InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3) && Average of: (H2O2 Cd_rad/NonDeC)) && Average of: (O/H/NonDeC Ct_rad) && Average of: (O_pri CO_pri_rad) && Average of: (O_pri O_pri_rad && Average of: (O_pri O_rad/NonDeC)) && Average of: (O/H/NonDeC O_pri_rad && Average of: (H2O2 O_rad/NonDeO && H2O2 O_rad/OneDe)))))  [ O_pri , Ct_rad ] Ea computed using Evans-Polanyi dHrxn(298K)=-13.2 kcal/mol and alpha=0.08.	deltaHrxn(T=298K) = -13.18 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010403/rk00000010.xml"""),
-        ("Thu Jul  7 16:14:17 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:07 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -47748,23 +45717,23 @@ entry(
     label = "r00010403",
     reactant1 = 
 """
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 O     1
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 O     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -47786,10 +45755,11 @@ as reaction O + C#[C] <=> [OH] + C#C
 with kinetics Arrhenius(A=(626500,"cm**3/mol/s"), n=1.98, Ea=(13.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (O_pri O2b) && Average of: (O/H/NonDeC O2b) && O_pri H_rad && Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad) && Average of: (O_pri C_methyl && Average of: (O_pri C_rad/H2/Cs)) && Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl) && Average of: (O_pri Cd_pri_rad) && Average of: (O/H/NonDeC Cd_pri_rad && Average of: (H2O2 InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3) && Average of: (H2O2 Cd_rad/NonDeC)) && Average of: (O/H/NonDeC Ct_rad) && Average of: (O_pri CO_pri_rad) && Average of: (O_pri O_pri_rad && Average of: (O_pri O_rad/NonDeC)) && Average of: (O/H/NonDeC O_pri_rad && Average of: (H2O2 O_rad/NonDeO && H2O2 O_rad/OneDe)))))  [ O_pri , Ct_rad ] Ea computed using Evans-Polanyi dHrxn(298K)=-13.2 kcal/mol and alpha=0.08.	deltaHrxn(T=298K) = -13.18 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010403/rk00000011.xml"""),
-        ("Thu Jul  7 16:14:17 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:07 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -47798,23 +45768,23 @@ entry(
     label = "r00010403",
     reactant1 = 
 """
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 O     1
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 O     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -47836,10 +45806,11 @@ as reaction O + C#[C] <=> [OH] + C#C
 with kinetics Arrhenius(A=(626500,"cm**3/mol/s"), n=1.98, Ea=(13.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (O_pri O2b) && Average of: (O/H/NonDeC O2b) && O_pri H_rad && Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad) && Average of: (O_pri C_methyl && Average of: (O_pri C_rad/H2/Cs)) && Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl) && Average of: (O_pri Cd_pri_rad) && Average of: (O/H/NonDeC Cd_pri_rad && Average of: (H2O2 InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3) && Average of: (H2O2 Cd_rad/NonDeC)) && Average of: (O/H/NonDeC Ct_rad) && Average of: (O_pri CO_pri_rad) && Average of: (O_pri O_pri_rad && Average of: (O_pri O_rad/NonDeC)) && Average of: (O/H/NonDeC O_pri_rad && Average of: (H2O2 O_rad/NonDeO && H2O2 O_rad/OneDe)))))  [ O_pri , Ct_rad ] Ea computed using Evans-Polanyi dHrxn(298K)=-13.2 kcal/mol and alpha=0.08.	deltaHrxn(T=298K) = -13.18 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010403/rk00000012.xml"""),
-        ("Thu Jul  7 16:14:18 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:07 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -47848,23 +45819,23 @@ entry(
     label = "r00010403",
     reactant1 = 
 """
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,T}
+2  *3 C     1 {1,T}
+""",
+    product1 = 
+"""
 1     C     0 {2,T}
 2  *1 C     0 {1,T} {3,S}
 3  *2 H     0 {2,S}
 """,
-    reactant2 = 
-"""
-1  *3 O     1
-""",
-    product1 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
     product2 = 
 """
-1     C     0 {2,T}
-2  *3 C     1 {1,T}
+1  *3 O     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -47886,10 +45857,11 @@ as reaction O + C#[C] <=> [OH] + C#C
 with kinetics Arrhenius(A=(626500,"cm**3/mol/s"), n=1.98, Ea=(13.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (O_pri O2b) && Average of: (O/H/NonDeC O2b) && O_pri H_rad && Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad) && Average of: (O_pri C_methyl && Average of: (O_pri C_rad/H2/Cs)) && Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl) && Average of: (O_pri Cd_pri_rad) && Average of: (O/H/NonDeC Cd_pri_rad && Average of: (H2O2 InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3) && Average of: (H2O2 Cd_rad/NonDeC)) && Average of: (O/H/NonDeC Ct_rad) && Average of: (O_pri CO_pri_rad) && Average of: (O_pri O_pri_rad && Average of: (O_pri O_rad/NonDeC)) && Average of: (O/H/NonDeC O_pri_rad && Average of: (H2O2 O_rad/NonDeO && H2O2 O_rad/OneDe)))))  [ O_pri , Ct_rad ] Ea computed using Evans-Polanyi dHrxn(298K)=-13.2 kcal/mol and alpha=0.08.	deltaHrxn(T=298K) = -13.18 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010403/rk00000013.xml"""),
-        ("Thu Jul  7 16:14:18 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:07 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -48387,25 +46359,25 @@ entry(
 """
 1     C     0 {2,S}
 2     O     0 {1,S} {3,S}
-3  *3 O     1 {2,S}
+3  *1 O     0 {2,S} {4,S}
+4  *2 H     0 {3,S}
 """,
     reactant2 = 
 """
 1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     product1 = 
 """
 1     C     0 {2,S}
 2     O     0 {1,S} {3,S}
-3  *1 O     0 {2,S} {4,S}
-4  *2 H     0 {3,S}
+3  *3 O     1 {2,S}
 """,
     product2 = 
 """
 1     O     0 {2,S}
-2  *3 O     1 {1,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -48427,10 +46399,11 @@ as reaction O[O] + COO <=> OO + CO[O]
 with kinetics Arrhenius(A=(0.0567,"cm**3/mol/s"), n=3.86, Ea=(8.76,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (H2O2 O_rad/NonDeO && H2O2 O_rad/OneDe)))  [ O_rad/NonDeO , O/H/NonDeO ]	deltaHrxn(T=298K) = -1.41 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010450/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:19 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:08 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -48621,27 +46594,27 @@ entry(
     label = "r00010539",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *1 C     0 {1,S} {4,S}
 4  *2 H     0 {3,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S}
-2     C     0 {1,S}
-3  *3 C     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -48663,10 +46636,11 @@ as reaction C(C)[CH2] + OO <=> C(C)C + O[O]
 with kinetics Arrhenius(A=(2.03,"cm**3/mol/s"), n=3.29, Ea=(1.07,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H2/Cs , H2O2 ]	deltaHrxn(T=298K) = -13.86 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010539/rk00000003.xml"""),
-        ("Thu Jul  7 16:14:20 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:09 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -48676,22 +46650,22 @@ entry(
     reactant1 = 
 """
 1     C     0 {2,S}
-2  *3 O     1 {1,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
 """,
     reactant2 = 
 """
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
+1  *3 O     1
 """,
     product1 = 
 """
 1     C     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -48713,11 +46687,12 @@ as reaction [OH] + CO <=> O + C[O]
 with kinetics Arrhenius(A=(17.3,"cm**3/mol/s"), n=3.4, Ea=(-1.14,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , O/H/NonDeC ]	deltaHrxn(T=298K) = -14.52 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010587/rk00000001.xml"""),
         ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
-        ("Thu Jul  7 16:14:20 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:10 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -49242,21 +47217,21 @@ entry(
     label = "r00010849",
     reactant1 = 
 """
-1  *3 C     1
-""",
-    reactant2 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 O     1
+""",
+    product1 = 
+"""
+1  *3 C     1
+""",
+    product2 = 
+"""
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -49278,10 +47253,11 @@ as reaction [OH] + C <=> O + [CH3]
 with kinetics Arrhenius(A=(1.54,"cm**3/mol/s"), n=3.95, Ea=(0.55,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , C_methane ]	deltaHrxn(T=298K) = -15.08 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010849/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:21 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:11 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -49290,21 +47266,21 @@ entry(
     label = "r00010849",
     reactant1 = 
 """
-1  *3 C     1
-""",
-    reactant2 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 O     1
+""",
+    product1 = 
+"""
+1  *3 C     1
+""",
+    product2 = 
+"""
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -49326,10 +47302,11 @@ as reaction [OH] + C <=> O + [CH3]
 with kinetics Arrhenius(A=(1.54,"cm**3/mol/s"), n=3.95, Ea=(0.55,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , C_methane ]	deltaHrxn(T=298K) = -15.08 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010849/rk00000002.xml"""),
-        ("Thu Jul  7 16:14:21 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:11 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -49338,21 +47315,21 @@ entry(
     label = "r00010849",
     reactant1 = 
 """
-1  *3 C     1
-""",
-    reactant2 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 O     1
+""",
+    product1 = 
+"""
+1  *3 C     1
+""",
+    product2 = 
+"""
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -49374,10 +47351,11 @@ as reaction [OH] + C <=> O + [CH3]
 with kinetics Arrhenius(A=(1.54,"cm**3/mol/s"), n=3.95, Ea=(0.55,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , C_methane ]	deltaHrxn(T=298K) = -15.08 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010849/rk00000003.xml"""),
-        ("Thu Jul  7 16:14:21 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:11 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -49386,21 +47364,21 @@ entry(
     label = "r00010849",
     reactant1 = 
 """
-1  *3 C     1
-""",
-    reactant2 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S}
 2  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 O     1
+""",
+    product1 = 
+"""
+1  *3 C     1
+""",
+    product2 = 
+"""
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -49422,10 +47400,11 @@ as reaction [OH] + C <=> O + [CH3]
 with kinetics Arrhenius(A=(1.54,"cm**3/mol/s"), n=3.95, Ea=(0.55,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , C_methane ]	deltaHrxn(T=298K) = -15.08 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010849/rk00000004.xml"""),
-        ("Thu Jul  7 16:14:21 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:11 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -52649,25 +50628,25 @@ entry(
     label = "r00011302",
     reactant1 = 
 """
-1     C     0 {2,S}
+1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
     reactant2 = 
 """
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
+1  *3 C     1 {2,S}
+2     O     0 {1,S}
 """,
     product1 = 
 """
-1     O     0 {2,S}
+1     C     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
     product2 = 
 """
-1  *3 C     1 {2,S}
-2     O     0 {1,S}
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -52689,10 +50668,11 @@ as reaction OO + [CH2]O <=> O[O] + CO
 with kinetics Arrhenius(A=(0.267,"cm**3/mol/s"), n=3.76, Ea=(5.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2))))  [ H2O2 , C_rad/H2/O ]	deltaHrxn(T=298K) = -9.01 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:46 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011302/rk00000003.xml"""),
-        ("Thu Jul  7 16:14:25 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:21 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -52701,25 +50681,25 @@ entry(
     label = "r00011302",
     reactant1 = 
 """
-1     C     0 {2,S}
+1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
     reactant2 = 
 """
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
+1  *3 C     1 {2,S}
+2     O     0 {1,S}
 """,
     product1 = 
 """
-1     O     0 {2,S}
+1     C     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
     product2 = 
 """
-1  *3 C     1 {2,S}
-2     O     0 {1,S}
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
@@ -52741,10 +50721,11 @@ as reaction OO + [CH2]O <=> O[O] + CO
 with kinetics Arrhenius(A=(0.267,"cm**3/mol/s"), n=3.76, Ea=(5.47,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2))))  [ H2O2 , C_rad/H2/O ]	deltaHrxn(T=298K) = -9.01 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:46 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011302/rk00000004.xml"""),
-        ("Thu Jul  7 16:14:25 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:21 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -52753,23 +50734,23 @@ entry(
     label = "r00011303",
     reactant1 = 
 """
-1  *3 C     1 {2,S}
-2     O     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     O     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 O     1
+""",
+    product1 = 
+"""
+1  *3 C     1 {2,S}
+2     O     0 {1,S}
+""",
+    product2 = 
+"""
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -52791,10 +50772,11 @@ as reaction CO + [OH] <=> [CH2]O + O
 with kinetics Arrhenius(A=(24420,"cm**3/mol/s"), n=2.8, Ea=(-0.42,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H3/O , O_pri_rad ]	deltaHrxn(T=298K) = -23.23 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:46 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011303/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:25 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:21 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -52803,23 +50785,23 @@ entry(
     label = "r00011303",
     reactant1 = 
 """
-1  *3 C     1 {2,S}
-2     O     0 {1,S}
-""",
-    reactant2 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     O     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 O     1
+""",
+    product1 = 
+"""
+1  *3 C     1 {2,S}
+2     O     0 {1,S}
+""",
+    product2 = 
+"""
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -52841,11 +50823,12 @@ as reaction CO + [OH] <=> [CH2]O + O
 with kinetics Arrhenius(A=(24420,"cm**3/mol/s"), n=2.8, Ea=(-0.42,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C/H3/O , O_pri_rad ]	deltaHrxn(T=298K) = -23.23 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:46 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011303/rk00000002.xml"""),
         ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units and T0 of the preexponential factor."""),
-        ("Thu Jul  7 16:14:25 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:21 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -53257,25 +51240,25 @@ entry(
     label = "r00011339",
     reactant1 = 
 """
-1  *3 C     1 {2,D}
-2     O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,D} {3,S}
 2     O     0 {1,D}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
+1  *3 C     1 {2,D}
+2     O     0 {1,D}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -53297,10 +51280,11 @@ as reaction O[O] + C=O <=> OO + [CH]=O
 with kinetics Arrhenius(A=(41200,"cm**3/mol/s"), n=2.5, Ea=(10.21,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_rad/NonDeO , CO_pri ]	deltaHrxn(T=298K) = 0.68 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:46 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011339/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:26 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:22 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -53829,23 +51813,23 @@ entry(
     label = "r00011341",
     reactant1 = 
 """
-1  *3 C     1 {2,D}
-2     O     0 {1,D}
-""",
-    reactant2 = 
-"""
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,D} {3,S}
 2     O     0 {1,D}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 O     1
+""",
+    product1 = 
+"""
+1  *3 C     1 {2,D}
+2     O     0 {1,D}
+""",
+    product2 = 
+"""
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -53867,10 +51851,11 @@ as reaction [OH] + C=O <=> O + [CH]=O
 with kinetics Arrhenius(A=(3.44e+09,"cm**3/mol/s"), n=1.18, Ea=(-0.45,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , CO_pri ]	deltaHrxn(T=298K) = -31.56 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011341/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:27 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:23 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -55183,22 +53168,22 @@ entry(
     reactant1 = 
 """
 1     C     0 {2,D}
-2  *3 C     1 {1,D}
+2  *1 C     0 {1,D} {3,S}
+3  *2 H     0 {2,S}
 """,
     reactant2 = 
 """
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
+1  *3 O     1
 """,
     product1 = 
 """
 1     C     0 {2,D}
-2  *1 C     0 {1,D} {3,S}
-3  *2 H     0 {2,S}
+2  *3 C     1 {1,D}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -55220,10 +53205,11 @@ as reaction [OH] + C=C <=> O + C=[CH]
 with kinetics Arrhenius(A=(2.052e+13,"cm**3/mol/s"), n=0, Ea=(5.94,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , Cd_pri ]	deltaHrxn(T=298K) = -9.21 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011431/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:28 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:26 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -56495,27 +54481,27 @@ entry(
     label = "r00011760",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,D}
+3     O     0 {2,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2  *1 C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
 4  *2 H     0 {2,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S} {3,D}
-3     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -56537,10 +54523,11 @@ as reaction OO + C[C]=O <=> O[O] + CC=O
 with kinetics Arrhenius(A=(626500,"cm**3/mol/s"), n=1.98, Ea=(14.43,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (O_pri O2b) && Average of: (O/H/NonDeC O2b) && O_pri H_rad && Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad) && Average of: (O_pri C_methyl && Average of: (O_pri C_rad/H2/Cs)) && Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl) && Average of: (O_pri Cd_pri_rad) && Average of: (O/H/NonDeC Cd_pri_rad && Average of: (H2O2 InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3) && Average of: (H2O2 Cd_rad/NonDeC)) && Average of: (O/H/NonDeC Ct_rad) && Average of: (O_pri CO_pri_rad) && Average of: (O_pri O_pri_rad && Average of: (O_pri O_rad/NonDeC)) && Average of: (O/H/NonDeC O_pri_rad && Average of: (H2O2 O_rad/NonDeO && H2O2 O_rad/OneDe)))))  [ H2O2 , CO_rad/NonDe ] Ea computed using Evans-Polanyi dHrxn(298K)=-1.7 kcal/mol and alpha=0.08.	deltaHrxn(T=298K) = -1.67 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011760/rk00000002.xml"""),
-        ("Thu Jul  7 16:14:31 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:30 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -56549,27 +54536,27 @@ entry(
     label = "r00011760",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,D}
+3     O     0 {2,D}
+""",
+    product1 = 
+"""
 1     C     0 {2,S}
 2  *1 C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
 4  *2 H     0 {2,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S} {3,D}
-3     O     0 {2,D}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -56591,10 +54578,11 @@ as reaction OO + C[C]=O <=> O[O] + CC=O
 with kinetics Arrhenius(A=(626500,"cm**3/mol/s"), n=1.98, Ea=(14.43,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (O_pri O2b) && Average of: (O/H/NonDeC O2b) && O_pri H_rad && Average of: (O/H/NonDeC H_rad && O/H/OneDe H_rad) && Average of: (O_pri C_methyl && Average of: (O_pri C_rad/H2/Cs)) && Average of: (O/H/NonDeC C_methyl && Average of: (O/H/NonDeC C_rad/H2/Cs) && Average of: (O/H/NonDeC C_rad/H/NonDeC) && Average of: (Average of: (O/H/NonDeC C_rad/Cs3)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3 && H2O2 InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3) && Average of: (H2O2 InChI=1/C3H5/c1-3-2/h3H,1-2H2)) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3 && H2O2 InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3 && H2O2 InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3) && Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3))) && Average of: (Average of: (Average of: (H2O2 InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3))) && O/H/OneDe C_methyl) && Average of: (O_pri Cd_pri_rad) && Average of: (O/H/NonDeC Cd_pri_rad && Average of: (H2O2 InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3) && Average of: (H2O2 Cd_rad/NonDeC)) && Average of: (O/H/NonDeC Ct_rad) && Average of: (O_pri CO_pri_rad) && Average of: (O_pri O_pri_rad && Average of: (O_pri O_rad/NonDeC)) && Average of: (O/H/NonDeC O_pri_rad && Average of: (H2O2 O_rad/NonDeO && H2O2 O_rad/OneDe)))))  [ H2O2 , CO_rad/NonDe ] Ea computed using Evans-Polanyi dHrxn(298K)=-1.7 kcal/mol and alpha=0.08.	deltaHrxn(T=298K) = -1.67 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011760/rk00000003.xml"""),
-        ("Thu Jul  7 16:14:31 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:30 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -56670,22 +54658,22 @@ entry(
     reactant1 = 
 """
 1     O     0 {2,S}
-2  *3 O     1 {1,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
 """,
     reactant2 = 
 """
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
+1  *3 O     1
 """,
     product1 = 
 """
 1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -56707,10 +54695,11 @@ as reaction [OH] + OO <=> O + O[O]
 with kinetics Arrhenius(A=(1.981,"cm**3/mol/s"), n=3.63, Ea=(3.81,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (O/H/NonDeC O_pri_rad && Average of: (H2O2 O_rad/NonDeO && H2O2 O_rad/OneDe))))  [ O_pri_rad , H2O2 ]	deltaHrxn(T=298K) = -32.24 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011842/rk00000002.xml"""),
-        ("Thu Jul  7 16:14:32 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:30 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -58547,29 +56536,29 @@ entry(
     label = "r00012776",
     reactant1 = 
 """
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    reactant2 = 
+"""
+1     C     0 {2,S} {3,S} {4,S}
+2     C     0 {1,S}
+3     C     0 {1,S}
+4  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
 1     C     0 {2,S} {3,S} {4,S}
 2     C     0 {1,S}
 3     C     0 {1,S}
 4  *1 C     0 {1,S} {5,S}
 5  *2 H     0 {4,S}
 """,
-    reactant2 = 
+    product2 = 
 """
 1     O     0 {2,S}
 2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    product2 = 
-"""
-1     C     0 {2,S} {3,S} {4,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4  *3 C     1 {1,S}
 """,
     degeneracy = 9,
     kinetics = Arrhenius(
@@ -58591,10 +56580,11 @@ as reaction C(C)(C)[CH2] + OO <=> C(C)(C)C + O[O]
 with kinetics Arrhenius(A=(2.03,"cm**3/mol/s"), n=3.29, Ea=(1.07,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ C_rad/H2/Cs , H2O2 ]	deltaHrxn(T=298K) = -14.20 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:34:58 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012776/rk00000003.xml"""),
-        ("Thu Jul  7 16:14:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:42 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -58655,25 +56645,25 @@ entry(
     label = "r00013691",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -58695,10 +56685,11 @@ as reaction OO + C[CH2] <=> O[O] + CC
 with kinetics Arrhenius(A=(2.03,"cm**3/mol/s"), n=3.29, Ea=(1.07,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2O2 , InChI=1/C2H5/c1-2/h1H2,2H3 ]	deltaHrxn(T=298K) = -13.31 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000002.xml"""),
-        ("Thu Jul  7 16:14:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:42 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -58707,25 +56698,25 @@ entry(
     label = "r00013691",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -58747,10 +56738,11 @@ as reaction OO + C[CH2] <=> O[O] + CC
 with kinetics Arrhenius(A=(2.03,"cm**3/mol/s"), n=3.29, Ea=(1.07,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2O2 , InChI=1/C2H5/c1-2/h1H2,2H3 ]	deltaHrxn(T=298K) = -13.31 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000003.xml"""),
-        ("Thu Jul  7 16:14:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:42 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -58759,25 +56751,25 @@ entry(
     label = "r00013691",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -58799,10 +56791,11 @@ as reaction OO + C[CH2] <=> O[O] + CC
 with kinetics Arrhenius(A=(2.03,"cm**3/mol/s"), n=3.29, Ea=(1.07,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2O2 , InChI=1/C2H5/c1-2/h1H2,2H3 ]	deltaHrxn(T=298K) = -13.31 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000006.xml"""),
-        ("Thu Jul  7 16:14:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:42 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -58811,25 +56804,25 @@ entry(
     label = "r00013691",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -58851,10 +56844,11 @@ as reaction OO + C[CH2] <=> O[O] + CC
 with kinetics Arrhenius(A=(2.03,"cm**3/mol/s"), n=3.29, Ea=(1.07,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2O2 , InChI=1/C2H5/c1-2/h1H2,2H3 ]	deltaHrxn(T=298K) = -13.31 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000008.xml"""),
-        ("Thu Jul  7 16:14:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:42 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -58863,25 +56857,25 @@ entry(
     label = "r00013691",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -58903,10 +56897,11 @@ as reaction OO + C[CH2] <=> O[O] + CC
 with kinetics Arrhenius(A=(2.03,"cm**3/mol/s"), n=3.29, Ea=(1.07,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2O2 , InChI=1/C2H5/c1-2/h1H2,2H3 ]	deltaHrxn(T=298K) = -13.31 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000009.xml"""),
-        ("Thu Jul  7 16:14:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:43 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -58915,25 +56910,25 @@ entry(
     label = "r00013691",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -58955,10 +56950,11 @@ as reaction OO + C[CH2] <=> O[O] + CC
 with kinetics Arrhenius(A=(2.03,"cm**3/mol/s"), n=3.29, Ea=(1.07,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2O2 , InChI=1/C2H5/c1-2/h1H2,2H3 ]	deltaHrxn(T=298K) = -13.31 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000010.xml"""),
-        ("Thu Jul  7 16:14:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:43 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -58967,25 +56963,25 @@ entry(
     label = "r00013691",
     reactant1 = 
 """
-1     C     0 {2,S}
-2  *1 C     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1     O     0 {2,S}
 2  *1 O     0 {1,S} {3,S}
 3  *2 H     0 {2,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     C     0 {2,S}
 2  *3 C     1 {1,S}
+""",
+    product1 = 
+"""
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -59007,10 +57003,11 @@ as reaction OO + C[CH2] <=> O[O] + CC
 with kinetics Arrhenius(A=(2.03,"cm**3/mol/s"), n=3.29, Ea=(1.07,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ H2O2 , InChI=1/C2H5/c1-2/h1H2,2H3 ]	deltaHrxn(T=298K) = -13.31 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000011.xml"""),
-        ("Thu Jul  7 16:14:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:43 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -59019,24 +57016,24 @@ entry(
     label = "r00013692",
     reactant1 = 
 """
-1     O     0 {2,S}
-2  *1 O     0 {1,S} {3,S}
-3  *2 H     0 {2,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1     O     0 {2,S}
+2  *3 O     1 {1,S}
+""",
+    product1 = 
+"""
+1     O     0 {2,S}
+2  *1 O     0 {1,S} {3,S}
+3  *2 H     0 {2,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
 2  *3 O     1 {1,S}
 """,
     degeneracy = 4,
@@ -59059,10 +57056,11 @@ as reaction O[O] + O[O] <=> OO + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ Orad_O_H , O_rad/NonDeO ]	deltaHrxn(T=298K) = -38.69 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:36 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:43 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -60217,23 +58215,23 @@ entry(
     label = "r00013765",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 O     1
+""",
+    product1 = 
+"""
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -60255,10 +58253,11 @@ as reaction [OH] + CC <=> O + C[CH2]
 with kinetics Arrhenius(A=(7.2e+06,"cm**3/mol/s"), n=2, Ea=(0.86,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ O_pri_rad , InChI=1/C2H6/c1-2/h1-2H3 ]	deltaHrxn(T=298K) = -18.93 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013765/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:37 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:47 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -60267,23 +58266,23 @@ entry(
     label = "r00013765",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     C     0 {2,S}
-2  *3 C     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 C     0 {2,S} {3,S}
 2     C     0 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 O     1
+""",
+    product1 = 
+"""
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     C     0 {2,S}
+2  *3 C     1 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -60305,10 +58304,11 @@ as reaction [OH] + CC <=> O + C[CH2]
 with kinetics Arrhenius(A=(7.2e+06,"cm**3/mol/s"), n=2, Ea=(0.86,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (H_Abstraction exact: ))  [ O_pri_rad , InChI=1/C2H6/c1-2/h1-2H3 ]	deltaHrxn(T=298K) = -18.93 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013765/rk00000002.xml"""),
-        ("Thu Jul  7 16:14:38 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:47 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -62068,23 +60068,23 @@ entry(
     label = "r00013767",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
-2  *2 H     0 {1,S}
-""",
-    reactant2 = 
-"""
-1     O     1 {2,S}
-2  *3 O     1 {1,S}
-""",
-    product1 = 
-"""
 1  *1 O     0 {2,S} {3,S}
 2     O     1 {1,S}
 3  *2 H     0 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 1  *3 O     1
+""",
+    product1 = 
+"""
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    product2 = 
+"""
+1     O     1 {2,S}
+2  *3 O     1 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -62106,10 +60106,11 @@ as reaction [OH] + O[O] <=> O + [O][O]
 with kinetics Arrhenius(A=(1.75e+10,"cm**3/mol/s"), n=0, Ea=(-3.28,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction estimate: (Average of: (Average of: (Average of: (Orad_O_H O_rad/NonDeO))))  [ O_pri_rad , Orad_O_H ]	deltaHrxn(T=298K) = -70.93 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013767/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:40 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:52 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -62720,21 +60721,21 @@ entry(
     label = "r00013781",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
+1  *1 H     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 H     1
+1  *3 O     1
 """,
     product1 = 
 """
-1  *1 H     0 {2,S}
+1  *1 O     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -62756,10 +60757,11 @@ as reaction [OH] + [H][H] <=> O + [H]
 with kinetics Arrhenius(A=(1.82e+09,"cm**3/mol/s"), n=1.21, Ea=(4.71,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , H2 ]	deltaHrxn(T=298K) = -15.76 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000001.xml"""),
-        ("Thu Jul  7 16:14:40 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -62768,21 +60770,21 @@ entry(
     label = "r00013781",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
+1  *1 H     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 H     1
+1  *3 O     1
 """,
     product1 = 
 """
-1  *1 H     0 {2,S}
+1  *1 O     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -62804,10 +60806,11 @@ as reaction [OH] + [H][H] <=> O + [H]
 with kinetics Arrhenius(A=(1.82e+09,"cm**3/mol/s"), n=1.21, Ea=(4.71,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , H2 ]	deltaHrxn(T=298K) = -15.76 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000004.xml"""),
-        ("Thu Jul  7 16:14:40 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -62816,21 +60819,21 @@ entry(
     label = "r00013781",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
+1  *1 H     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 H     1
+1  *3 O     1
 """,
     product1 = 
 """
-1  *1 H     0 {2,S}
+1  *1 O     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -62852,10 +60855,11 @@ as reaction [OH] + [H][H] <=> O + [H]
 with kinetics Arrhenius(A=(1.82e+09,"cm**3/mol/s"), n=1.21, Ea=(4.71,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , H2 ]	deltaHrxn(T=298K) = -15.76 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000005.xml"""),
-        ("Thu Jul  7 16:14:40 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -62864,21 +60868,21 @@ entry(
     label = "r00013781",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
+1  *1 H     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 H     1
+1  *3 O     1
 """,
     product1 = 
 """
-1  *1 H     0 {2,S}
+1  *1 O     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -62900,10 +60904,11 @@ as reaction [OH] + [H][H] <=> O + [H]
 with kinetics Arrhenius(A=(1.82e+09,"cm**3/mol/s"), n=1.21, Ea=(4.71,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , H2 ]	deltaHrxn(T=298K) = -15.76 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000006.xml"""),
-        ("Thu Jul  7 16:14:40 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -62912,21 +60917,21 @@ entry(
     label = "r00013781",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
+1  *1 H     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 H     1
+1  *3 O     1
 """,
     product1 = 
 """
-1  *1 H     0 {2,S}
+1  *1 O     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -62948,10 +60953,11 @@ as reaction [OH] + [H][H] <=> O + [H]
 with kinetics Arrhenius(A=(1.82e+09,"cm**3/mol/s"), n=1.21, Ea=(4.71,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , H2 ]	deltaHrxn(T=298K) = -15.76 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000007.xml"""),
-        ("Thu Jul  7 16:14:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -62960,21 +60966,21 @@ entry(
     label = "r00013781",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
+1  *1 H     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 H     1
+1  *3 O     1
 """,
     product1 = 
 """
-1  *1 H     0 {2,S}
+1  *1 O     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -62996,10 +61002,11 @@ as reaction [OH] + [H][H] <=> O + [H]
 with kinetics Arrhenius(A=(1.82e+09,"cm**3/mol/s"), n=1.21, Ea=(4.71,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , H2 ]	deltaHrxn(T=298K) = -15.76 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000008.xml"""),
-        ("Thu Jul  7 16:14:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -63008,21 +61015,21 @@ entry(
     label = "r00013781",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
+1  *1 H     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 H     1
+1  *3 O     1
 """,
     product1 = 
 """
-1  *1 H     0 {2,S}
+1  *1 O     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -63044,10 +61051,11 @@ as reaction [OH] + [H][H] <=> O + [H]
 with kinetics Arrhenius(A=(1.82e+09,"cm**3/mol/s"), n=1.21, Ea=(4.71,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , H2 ]	deltaHrxn(T=298K) = -15.76 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000009.xml"""),
-        ("Thu Jul  7 16:14:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:53 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -63056,21 +61064,21 @@ entry(
     label = "r00013781",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
+1  *1 H     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 H     1
+1  *3 O     1
 """,
     product1 = 
 """
-1  *1 H     0 {2,S}
+1  *1 O     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -63092,10 +61100,11 @@ as reaction [OH] + [H][H] <=> O + [H]
 with kinetics Arrhenius(A=(1.82e+09,"cm**3/mol/s"), n=1.21, Ea=(4.71,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , H2 ]	deltaHrxn(T=298K) = -15.76 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000010.xml"""),
-        ("Thu Jul  7 16:14:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -63104,21 +61113,21 @@ entry(
     label = "r00013781",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
+1  *1 H     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 H     1
+1  *3 O     1
 """,
     product1 = 
 """
-1  *1 H     0 {2,S}
+1  *1 O     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -63140,10 +61149,11 @@ as reaction [OH] + [H][H] <=> O + [H]
 with kinetics Arrhenius(A=(1.82e+09,"cm**3/mol/s"), n=1.21, Ea=(4.71,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , H2 ]	deltaHrxn(T=298K) = -15.76 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000011.xml"""),
-        ("Thu Jul  7 16:14:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -63152,21 +61162,21 @@ entry(
     label = "r00013781",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
+1  *1 H     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 H     1
+1  *3 O     1
 """,
     product1 = 
 """
-1  *1 H     0 {2,S}
+1  *1 O     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -63188,10 +61198,11 @@ as reaction [OH] + [H][H] <=> O + [H]
 with kinetics Arrhenius(A=(1.82e+09,"cm**3/mol/s"), n=1.21, Ea=(4.71,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , H2 ]	deltaHrxn(T=298K) = -15.76 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000012.xml"""),
-        ("Thu Jul  7 16:14:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -63200,21 +61211,21 @@ entry(
     label = "r00013781",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
+1  *1 H     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 H     1
+1  *3 O     1
 """,
     product1 = 
 """
-1  *1 H     0 {2,S}
+1  *1 O     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -63236,10 +61247,11 @@ as reaction [OH] + [H][H] <=> O + [H]
 with kinetics Arrhenius(A=(1.82e+09,"cm**3/mol/s"), n=1.21, Ea=(4.71,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , H2 ]	deltaHrxn(T=298K) = -15.76 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000013.xml"""),
-        ("Thu Jul  7 16:14:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
@@ -63248,21 +61260,21 @@ entry(
     label = "r00013781",
     reactant1 = 
 """
-1  *1 O     0 {2,S}
+1  *1 H     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 H     1
+1  *3 O     1
 """,
     product1 = 
 """
-1  *1 H     0 {2,S}
+1  *1 O     0 {2,S}
 2  *2 H     0 {1,S}
 """,
     product2 = 
 """
-1  *3 O     1
+1  *3 H     1
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -63284,10 +61296,11 @@ as reaction [OH] + [H][H] <=> O + [H]
 with kinetics Arrhenius(A=(1.82e+09,"cm**3/mol/s"), n=1.21, Ea=(4.71,"kcal/mol"), T0=(1,"K"))
 and comment "Estimated by RMG-Java:
 !H_Abstraction exact:   [ O_pri_rad , H2 ]	deltaHrxn(T=298K) = -15.76 kcal/mol"
+The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000014.xml"""),
-        ("Thu Jul  7 16:14:41 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
+        ("Thu Jul  7 19:35:54 2011","Richard West <rwest@mit.edu>","action","""Replaced kinetics with those estimated using RMG-Java."""),
     ],
 )
 
