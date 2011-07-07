@@ -611,6 +611,7 @@ def getRatesFromRMGjava(family_label, database, testSetLabels):
                 reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family.label, thermoDatabase=database.thermo)
                 
                 reaction_from_java = tools.getRMGJavaKineticsFromReaction(reaction)
+                # make the longDesc before reversing entry.item
                 longDesc = """
 The PrIMe reaction {0!s}
 with description "{1}"
@@ -624,13 +625,27 @@ and comment "{5!s}"\n""".format(entry.item,
                            reaction_from_java,
                            reaction_from_java.kinetics,
                            reaction_from_java.kinetics.comment)
+                if not reaction_from_java.isIsomorphic(entry.item):
+                    print """
+ Reaction {0} from java is not the same as reaction sent to java.
+ Probably this is just a resonance isomer and it is in fact the same,
+ but if we can't pass the isomorphism check then we can't safely tell which
+ direction it should be in, so we will skip the reaction entirely.
+ """.format(entry.index)
+                    continue #skip to next entry
+                if not reaction_from_java.isIsomorphic(entry.item, eitherDirection=False):
+                    # reverse the entry.item so the kinetics from the java represent it in the direction as written.
+                    temporary = entry.item.reactants
+                    entry.item.reactants = entry.item.products
+                    entry.item.products = temporary
+                    longDesc += "The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics\n"
+                    
                 entry.data = reaction_from_java.kinetics
                 entry.longDesc = longDesc
                 entry.reference = None
                 entry.referenceType = ''
                 entry.history.append([time.asctime(),user,'action','Replaced kinetics with those estimated using RMG-Java.'])
                 entry.shortDesc = "Rate estimated by RMG-Java"
-                
                 output.entries[entry.index] = entry
                 print longDesc
         finally:
