@@ -315,7 +315,7 @@ def getRateCoefficientUnits(family):
         raise ValueError('Unable to determine units of rate coefficient for reaction family "{0}".'.format(family))
 
 def getKineticsSet(family, label):
-    if label in ['rules','training','test','PrIMe']:
+    if label in ['rules','training','test','PrIMe','PrIMe_RMG_Java']:
         return getattr(family,label)
     else:
         raise ValueError('Invalid value "{0}" for label parameter.'.format(label))
@@ -692,7 +692,7 @@ def evaluate(args, database):
         family = family,
         Tdata = Tdata,
         trainingSetLabels = ['rules', 'training'],
-        testSetLabels = ['PrIMe', 'test'],
+        testSetLabels = ['PrIMe', 'test', 'PrIMe_RMG_Java'],
         plot = plot,
     )
 
