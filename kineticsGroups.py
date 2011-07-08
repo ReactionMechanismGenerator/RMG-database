@@ -2,10 +2,10 @@
 # encoding: utf-8
 
 """
-This script will generate the kinetics group additivity values for a single
-reaction family, using the entries in that family's kinetics depository as a
-training or test set. You can change the reaction family and the training and
-test sets at the bottom of the file.
+This script is used for working with the kinetics group additivity values in
+RMG. There are several different types of operations this script can do, and
+each of these has a number of required and optional command-line arguments.
+Use the "-h" flag to get more information.
 """
 
 import os.path
@@ -27,36 +27,98 @@ user = getUsername()
 
 ################################################################################
 
-def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, method):
+def loadDatabase():
+    print 'Loading RMG database...'
+    from rmgpy.data.rmg import RMGDatabase
+    database = RMGDatabase()
+    database.load('input')
+    return database
+
+def getRateCoefficientUnits(family):
     """
-    Fit group additivity values based on a matrix of rate coefficient
-    data `kdata` corresponding to a list of reaction `templates` and a
-    set of temperatures `Tdata`. The provided rate coefficient data should
-    be for the high-pressure limit and should be given on a per-site basis.
-    The groups in the templates should also be in this reaction family's
-    tree.
+    For the given reaction `family`, return the units of its forward kinetics.
+    This is hardcoding of reaction families, but at least it will fail loudly
+    if it encounters an unexpected family.
+    """
+    if family.label in ['H_Abstraction', 'R_Addition_MultipleBond', 'R_Recombination', 'HO2_Elimination_from_PeroxyRadical', 'Disproportionation', '1+2_Cycloaddition', '2+2_cycloaddition_Cd', '2+2_cycloaddition_CO', '2+2_cycloaddition_CCO', 'Diels_alder_addition', '1,2_Insertion', '1,3_Insertion_CO2', '1,3_Insertion_ROR', 'R_Addition_COm', 'Oa_R_Recombination']:
+        return 'm^3/(mol*s)'
+    elif family.label in ['intra_H_migration', 'Birad_recombination', 'intra_OH_migration', 'Cyclic_Ether_Formation', 'Intra_R_Add_Exocyclic', 'Intra_R_Add_Endocyclic', '1,2-Birad_to_alkene', 'Intra_Disproportionation']:
+        return 's^-1'
+    else:
+        raise ValueError('Unable to determine units of rate coefficient for reaction family "{0}".'.format(family.label))
+
+def createDataSet(labels, family, database):
+    dataset = []
+    for label in labels:
+        data = []
+        
+        if label in ['rules','training','test','PrIMe','PrIMe_RMG_Java']:
+            depository = getattr(family,label)
+        else:
+            raise ValueError('Invalid value "{0}" for label parameter.'.format(label))
+        
+        for entry in depository.entries.values():
+            if isinstance(entry.data, ArrheniusEP):
+                if entry.data.alpha.value != 0:
+                    continue # skip things with Evans-Polanyi values
+            reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family.label, thermoDatabase=database.thermo)
+            data.append([reaction, template, entry])
+        
+        if len(data) > 0:
+            dataset.append([label, data])
+    return dataset
+    
+################################################################################
+
+def generateKineticsGroupValues(family, database, trainingSetLabels, method):
+    """
+    Evaluate the kinetics group additivity values for the given reaction 
+    `family` using the specified lists of depository components 
+    `trainingSetLabels` as the training set. The already-loaded RMG database 
+    should be given as the `database` parameter.
     """
     
-    kmodel = numpy.zeros_like(kdata)
+    kunits = getRateCoefficientUnits(family)
+    
+    print 'Categorizing reactions in training sets for {0}'.format(family.label)
+    trainingSets = createDataSet(trainingSetLabels, family, database)
+    trainingSet = []
+    for label, data in trainingSets:
+        trainingSet.extend(data)
+    #reactions = [reaction for label, trainingSet in trainingSets for reaction, template, entry in trainingSet]
+    #templates = [template for label, trainingSet in trainingSets for reaction, template, entry in trainingSet]
+    #entries = [entry for label, trainingSet in trainingSets for reaction, template, entry in trainingSet]
+    
+    print 'Fitting new group additivity values for {0}...'.format(family.label)
+    
+    # keep track of previous values so we can detect if they change
+    old_entries = dict()
+    for label,entry in family.groups.entries.iteritems():
+        if entry.data is not None:
+            old_entries[label] = entry.data
     
     # Determine a complete list of the entries in the database, sorted as in the tree
-    groupEntries = groupDatabase.top[:]
-    for entry in groupDatabase.top:
-        groupEntries.extend(groupDatabase.descendants(entry))
+    groupEntries = family.groups.top[:]
+    for entry in family.groups.top:
+        groupEntries.extend(family.groups.descendants(entry))
     
     # Determine a unique list of the groups we will be able to fit parameters for
     groupList = []
-    for template in templates:
+    for reaction, template, entry in trainingSet:
         for group in template:
-            if group not in groupDatabase.top:
+            if group not in family.groups.top:
                 groupList.append(group)
-                groupList.extend(groupDatabase.ancestors(group)[:-1])
+                groupList.extend(family.groups.ancestors(group)[:-1])
     groupList = list(set(groupList))
     groupList.sort(key=lambda x: x.index)
     
-    ######## KineticsData Training ########
-    # Fit the group values
     if method == 'KineticsData':
+        # Fit a discrete set of k(T) data points by training against k(T) data
+        
+        Tdata = [300,400,500,600,800,1000,1500,2000]
+        
+        #kmodel = numpy.zeros_like(kdata)
+        
         # Initialize dictionaries of fitted group values and uncertainties
         groupValues = {}; groupUncertainties = {}; groupCounts = {}; groupComments = {}
         for entry in groupEntries:
@@ -65,52 +127,63 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
             groupCounts[entry] = []
             groupComments[entry] = set()
         
-        # Fit group values at each temperature
-        for t, T in enumerate(Tdata):
+        # Generate least-squares matrix and vector
+        A = []; b = []
+        
+        kdata = []
+        for reaction, template, entry in trainingSet:
             
-            # Generate least-squares matrix and vector
-            A = []; b = []
-            for index, template in enumerate(templates):
+            if isinstance(reaction.kinetics, Arrhenius) or isinstance(reaction.kinetics, KineticsData):
+                kd = [reaction.kinetics.getRateCoefficient(T) / reaction.degeneracy for T in Tdata]
+            elif isinstance(reaction.kinetics, ArrheniusEP):
+                kd = [reaction.kinetics.getRateCoefficient(T, 0) / reaction.degeneracy for T in Tdata]
+            else:
+                raise Exception('Unexpected kinetics model of type {0} for reaction {1}.'.format(reaction.kinetics.__class__, reaction))
+            kdata.append(kd)
                 
-                # Create every combination of each group and its ancestors with each other
-                combinations = []
-                for group in template:
-                    groups = [group]; groups.extend(groupDatabase.ancestors(group))
-                    combinations.append(groups)
-                combinations = getAllCombinations(combinations)
-                # Add a row to the matrix for each combination
-                for groups in combinations:
-                    Arow = [1 if group in groups else 0 for group in groupList]
-                    Arow.append(1)
-                    brow = math.log10(kdata[index,t])
-                    A.append(Arow); b.append(brow)
-                    
-                    for group in groups:
-                        groupComments[group].add("{0!s}".format(template))
+            # Create every combination of each group and its ancestors with each other
+            combinations = []
+            for group in template:
+                groups = [group]; groups.extend(family.groups.ancestors(group))
+                combinations.append(groups)
+            combinations = getAllCombinations(combinations)
+            # Add a row to the matrix for each combination
+            for groups in combinations:
+                Arow = [1 if group in groups else 0 for group in groupList]
+                Arow.append(1)
+                brow = [math.log10(k) for k in kd]
+                A.append(Arow); b.append(brow)
+                
+                for group in groups:
+                    groupComments[group].add("{0!s}".format(template))
             
-            if len(A) == 0:
-                logging.warning('Unable to fit kinetics groups for family "{0}"; no valid data found.'.format(groupDatabase.label))
-                return
-            A = numpy.array(A)
-            b = numpy.array(b)
-            
-            x, residues, rank, s = numpy.linalg.lstsq(A, b)
+        if len(A) == 0:
+            logging.warning('Unable to fit kinetics groups for family "{0}"; no valid data found.'.format(family.groups.label))
+            return
+        A = numpy.array(A)
+        b = numpy.array(b)
+        kdata = numpy.array(kdata)
+        
+        x, residues, rank, s = numpy.linalg.lstsq(A, b)
+        
+        for t, T in enumerate(Tdata):
             
             # Determine error in each group (on log scale)
             stdev = numpy.zeros(len(groupList)+1, numpy.float64)
             count = numpy.zeros(len(groupList)+1, numpy.int)
-            for index, template in enumerate(templates):
+            
+            for index in range(len(trainingSet)):
+                reaction, template, entry = trainingSet[index]
                 kd = math.log10(kdata[index,t])
-                km = x[-1] + sum([x[groupList.index(group)] for group in template if group in groupList])
-                kmodel[index,t] = 10**km
+                km = x[-1,t] + sum([x[groupList.index(group),t] for group in template if group in groupList])
                 variance = (km - kd)**2
                 for group in template:
-                    groups = [group]; groups.extend(groupDatabase.ancestors(group))
+                    groups = [group]; groups.extend(family.groups.ancestors(group))
                     for g in groups:
-                        if g not in groupDatabase.top:
-                            index = groupList.index(g)
-                            stdev[index] += variance
-                            count[index] += 1
+                        if g not in family.groups.top:
+                            ind = groupList.index(g)
+                            stdev[ind] += variance
+                            count[ind] += 1
                 stdev[-1] += variance
                 count[-1] += 1
             stdev = numpy.sqrt(stdev / (count - 1))
@@ -118,13 +191,13 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
             
             # Update dictionaries of fitted group values and uncertainties
             for entry in groupEntries:
-                if entry == groupDatabase.top[0]:
-                    groupValues[entry].append(10**x[-1])
+                if entry == family.groups.top[0]:
+                    groupValues[entry].append(10**x[-1,t])
                     groupUncertainties[entry].append(10**ci[-1])
                     groupCounts[entry].append(count[-1])
                 elif entry in groupList:
                     index = groupList.index(entry)
-                    groupValues[entry].append(10**x[index])
+                    groupValues[entry].append(10**x[index,t])
                     groupUncertainties[entry].append(10**ci[index])
                     groupCounts[entry].append(count[index])
                 else:
@@ -142,7 +215,6 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
                 entry.shortDesc = "Group additive kinetics."
                 entry.longDesc = "Fitted to {0} rates.\n".format(groupCounts[entry])
                 entry.longDesc += "\n".join(groupComments[entry])
-                import ipdb; ipdb.set_trace()
             else:
                 entry.data = None
         
@@ -150,9 +222,9 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
         print '=============================== =========== =========== =========== ======='
         print 'Group                           T (K)       k(T) (SI)   CI (95%)    Count'
         print '=============================== =========== =========== =========== ======='
-        entry = groupDatabase.top[0]
+        entry = family.groups.top[0]
         for i in range(len(entry.data.Tdata.values)):
-            label = ', '.join(['%s' % (top.label) for top in groupDatabase.top]) if i == 0 else ''
+            label = ', '.join(['%s' % (top.label) for top in family.groups.top]) if i == 0 else ''
             T = Tdata[i]
             value = groupValues[entry][i]
             uncertainty = groupUncertainties[entry][i]
@@ -170,100 +242,57 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
                     print '%-31s %-11g %-11.4e %-11.4e %-7i' % (label, T, value, uncertainty, count)
         print '=============================== =========== =========== =========== ======='
     
-    ######## Arrhenius Training ########
     elif method == 'Arrhenius':
+        # Fit Arrhenius parameters (A, n, Ea) by training against k(T) data
         
-        # Generate least-squares matrix and vector
+        Tdata = [300,400,500,600,800,1000,1500,2000]
+        
         A = []; b = []
         
-        for index in range(len(templates)):
+        kdata = []
+        for reaction, template, entry in trainingSet:
             
-            template = templates[index]
-            entry = entries[index]
+            if isinstance(reaction.kinetics, Arrhenius) or isinstance(reaction.kinetics, KineticsData):
+                kd = [reaction.kinetics.getRateCoefficient(T) / reaction.degeneracy for T in Tdata]
+            elif isinstance(reaction.kinetics, ArrheniusEP):
+                kd = [reaction.kinetics.getRateCoefficient(T, 0) / reaction.degeneracy for T in Tdata]
+            else:
+                raise Exception('Unexpected kinetics model of type {0} for reaction {1}.'.format(reaction.kinetics.__class__, reaction))
+            kdata.append(kd)
             
             # Create every combination of each group and its ancestors with each other
             combinations = []
             for group in template:
-                groups = [group]; groups.extend(groupDatabase.ancestors(group))
+                groups = [group]; groups.extend(family.groups.ancestors(group))
                 combinations.append(groups)
             combinations = getAllCombinations(combinations)
             
-#            # Add a row to the matrix for each combination at each temperature
-#            for t, T in enumerate(Tdata):
-#                logT = math.log(T)
-#                Tinv = 1000.0 / (constants.R * T)
-#                for groups in combinations:
-#                    Arow = []
-#                    for group in groupList:
-#                        if group in groups:
-#                            Arow.extend([1,logT,-Tinv])
-#                        else:
-#                            Arow.extend([0,0,0])
-#                    Arow.extend([1,logT,-Tinv])
-#                    brow = math.log(kdata[index,t])
-#                    A.append(Arow); b.append(brow)
-            
-            # Add a row to the matrix for each parameter
-            if isinstance(entry.data, Arrhenius) or (isinstance(entry.data, ArrheniusEP) and entry.data.alpha.value == 0):
+            # Add a row to the matrix for each combination at each temperature
+            for t, T in enumerate(Tdata):
+                logT = math.log(T)
+                Tinv = 1000.0 / (constants.R * T)
                 for groups in combinations:
-                    # Preexponential
                     Arow = []
                     for group in groupList:
                         if group in groups:
-                            Arow.extend([1,0,0])
+                            Arow.extend([1,logT,-Tinv])
                         else:
                             Arow.extend([0,0,0])
-                    Arow.extend([1,0,0])
-                    brow = math.log(entry.data.A.value)
+                    Arow.extend([1,logT,-Tinv])
+                    brow = math.log(kd[t])
                     A.append(Arow); b.append(brow)
-                    # Temperature exponent
-                    Arow = []
-                    for group in groupList:
-                        if group in groups:
-                            Arow.extend([0,1,0])
-                        else:
-                            Arow.extend([0,0,0])
-                    Arow.extend([0,1,0])
-                    brow = entry.data.n.value
-                    A.append(Arow); b.append(brow)
-                    # Activation energy
-                    Arow = []
-                    for group in groupList:
-                        if group in groups:
-                            Arow.extend([0,0,1])
-                        else:
-                            Arow.extend([0,0,0])
-                    Arow.extend([0,0,1])
-                    if isinstance(entry.data, Arrhenius):
-                        brow = entry.data.Ea.value / 1000.
-                    if isinstance(entry.data, ArrheniusEP):
-                        brow = entry.data.E0.value / 1000.
-                    A.append(Arow); b.append(brow)
-                    
-#            # Add a row to the matrix for each parameter
-#            if isinstance(entry.data, Arrhenius) or (isinstance(entry.data, ArrheniusEP) and entry.data.alpha.value == 0):
-#                for groups in combinations:
-#                    Arow = []
-#                    for group in groupList:
-#                        if group in groups:
-#                            Arow.append(1)
-#                        else:
-#                            Arow.append(0)
-#                    Arow.append(1)
-#                    Ea = entry.data.E0.value if isinstance(entry.data, ArrheniusEP) else entry.data.Ea.value
-#                    brow = [math.log(entry.data.A.value), entry.data.n.value, Ea / 1000.]
-#                    A.append(Arow); b.append(brow)
         
         if len(A) == 0:
-            logging.warning('Unable to fit kinetics groups for family "{0}"; no valid data found.'.format(groupDatabase.label))
+            logging.warning('Unable to fit kinetics groups for family "{0}"; no valid data found.'.format(family.groups.label))
             return
         A = numpy.array(A)
         b = numpy.array(b)
+        kdata = numpy.array(kdata)
         
         x, residues, rank, s = numpy.linalg.lstsq(A, b)
         
         # Store the results
-        groupDatabase.top[0].data = Arrhenius(
+        family.groups.top[0].data = Arrhenius(
             A = (math.exp(x[-3]),kunits),
             n = x[-2],
             Ea = (x[-1]*1000.,"J/mol"),
@@ -281,8 +310,8 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
         print '======================================= =========== =========== ==========='
         print 'Group                                   log A (SI)  n           Ea (kJ/mol)   '
         print '======================================= =========== =========== ==========='
-        entry = groupDatabase.top[0]
-        label = ', '.join(['%s' % (top.label) for top in groupDatabase.top])
+        entry = family.groups.top[0]
+        label = ', '.join(['%s' % (top.label) for top in family.groups.top])
         logA = math.log10(entry.data.A.value)
         n = entry.data.n.value
         Ea = entry.data.Ea.value / 1000.
@@ -296,100 +325,81 @@ def fitGroupValues(groupDatabase, templates, Tdata, kdata, kunits, entries, meth
             print '%-39s %11.3f %11.3f %11.3f' % (label, logA, n, Ea)
         print '======================================= =========== =========== ==========='
         
-    else:
-        raise ValueError('Unexpected value "{0}" for method parameter.'.format(method))
-
-################################################################################
-
-def getRateCoefficientUnits(family):
-    """
-    For the given reaction `family`, return the units of its forward kinetics.
-    This is hardcoding of reaction families, but at least it will fail loudly
-    if it encounters an unexpected family.
-    """
-    if family in ['H_Abstraction', 'R_Addition_MultipleBond', 'R_Recombination', 'HO2_Elimination_from_PeroxyRadical', 'Disproportionation', '1+2_Cycloaddition', '2+2_cycloaddition_Cd', '2+2_cycloaddition_CO', '2+2_cycloaddition_CCO', 'Diels_alder_addition', '1,2_Insertion', '1,3_Insertion_CO2', '1,3_Insertion_ROR', 'R_Addition_COm', 'Oa_R_Recombination']:
-        return 'm^3/(mol*s)'
-    elif family in ['intra_H_migration', 'Birad_recombination', 'intra_OH_migration', 'Cyclic_Ether_Formation', 'Intra_R_Add_Exocyclic', 'Intra_R_Add_Endocyclic', '1,2-Birad_to_alkene', 'Intra_Disproportionation']:
-        return 's^-1'
-    else:
-        raise ValueError('Unable to determine units of rate coefficient for reaction family "{0}".'.format(family))
-
-def getKineticsSet(family, label):
-    if label in ['rules','training','test','PrIMe','PrIMe_RMG_Java']:
-        return getattr(family,label)
-    else:
-        raise ValueError('Invalid value "{0}" for label parameter.'.format(label))
-
-def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, testSetLabels=None, plot=False):
-    """
-    Evaluate the kinetics group additivity values for the given reaction 
-    `family` using the specified lists of depository components 
-    `trainingSetLabels` as the training set and `testSetLabels` as the test 
-    set. The already-loaded RMG database should be given as the `database` 
-    parameter.
-    """
-    testSetLabels = testSetLabels or []
     
-    family = database.kinetics.families[family]
-    groups = family.groups
-    
-    print 'Categorizing reactions in training and test sets for {0}'.format(family.label)
-    trainingSets = []
-    for label in trainingSetLabels:
-        trainingSet = []
-        depository = getKineticsSet(family, label)
-        for entry in depository.entries.values():
-            if isinstance(entry.data, ArrheniusEP):
-                if entry.data.alpha.value != 0:
-                    continue # skip things with Evans-Polanyi values
-            reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family.label, thermoDatabase=database.thermo)
-            trainingSet.append([reaction, template, entry])
-        if len(trainingSet) > 0:
-            trainingSets.append([label, trainingSet])
-    testSets = []
-    for label in testSetLabels:
-        testSet = []
-        depository = getKineticsSet(family, label)
-        for entry in depository.entries.values():
-            reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family.label, thermoDatabase=database.thermo)
-            testSet.append([reaction, template, entry])
-        if len(testSet) > 0:
-            testSets.append([label, testSet])
-    
-    print 'Fitting new group additivity values for {0}...'.format(family.label)
-    kdata_training = []
-    for label, trainingSet in trainingSets:
-        kdata = []
+    elif method == 'Arrhenius2':
+        # Fit Arrhenius parameters (A, n, Ea) by training against (A, n, Ea) values
+        
+        A = []; b = []
+        
         for reaction, template, entry in trainingSet:
-            if isinstance(reaction.kinetics, Arrhenius) or isinstance(reaction.kinetics, KineticsData):
-                kdata.append([(reaction.kinetics.getRateCoefficient(T) / reaction.degeneracy) for T in Tdata])
-            elif isinstance(reaction.kinetics, ArrheniusEP):
-                kdata.append([(reaction.kinetics.getRateCoefficient(T, 0) / reaction.degeneracy) for T in Tdata])
-            else:
-                raise Exception('Unexpected kinetics model of type {0} for reaction {1}.'.format(reaction.kinetics.__class__, reaction))
-        kdata = numpy.array(kdata, numpy.float64)
-        kdata_training.append(kdata)
-    
-    kunits = getRateCoefficientUnits(family.label)
-    trainingKinetics = []
-    for kdata in kdata_training:
-        trainingKinetics.extend(list(kdata))
-    trainingKinetics = numpy.array(trainingKinetics, numpy.float64)
-    trainingTemplates = [template for label, trainingSet in trainingSets for reaction, template, entry in trainingSet]
-    trainingEntries = [entry for label, trainingSet in trainingSets for reaction, template, entry in trainingSet]
-   
-    # keep track of previous values so we can detect if they change
-    old_entries = dict()
-    for label,entry in groups.entries.iteritems():
-        if entry.data is not None:
-            old_entries[label] = entry.data
-    
-    # Fit group values!
-    fitGroupValues(groups, trainingTemplates, Tdata, trainingKinetics, kunits, trainingEntries, method='Arrhenius')
+            
+            # Create every combination of each group and its ancestors with each other
+            combinations = []
+            for group in template:
+                groups = [group]; groups.extend(family.groups.ancestors(group))
+                combinations.append(groups)
+            combinations = getAllCombinations(combinations)
+                    
+            # Add a row to the matrix for each parameter
+            if isinstance(entry.data, Arrhenius) or (isinstance(entry.data, ArrheniusEP) and entry.data.alpha.value == 0):
+                for groups in combinations:
+                    Arow = []
+                    for group in groupList:
+                        if group in groups:
+                            Arow.append(1)
+                        else:
+                            Arow.append(0)
+                    Arow.append(1)
+                    Ea = entry.data.E0.value if isinstance(entry.data, ArrheniusEP) else entry.data.Ea.value
+                    brow = [math.log(entry.data.A.value), entry.data.n.value, Ea / 1000.]
+                    A.append(Arow); b.append(brow)
+        
+        if len(A) == 0:
+            logging.warning('Unable to fit kinetics groups for family "{0}"; no valid data found.'.format(family.groups.label))
+            return
+        A = numpy.array(A)
+        b = numpy.array(b)
+        
+        x, residues, rank, s = numpy.linalg.lstsq(A, b)
+        
+        # Store the results
+        family.groups.top[0].data = Arrhenius(
+            A = (math.exp(x[-1,0]),kunits),
+            n = x[-1,1],
+            Ea = (x[-1,2]*1000.,"J/mol"),
+            T0 = (1,"K"),
+        )
+        for i, group in enumerate(groupList):
+            group.data = Arrhenius(
+                A = (math.exp(x[i,0]),kunits),
+                n = x[i,1],
+                Ea = (x[i,2]*1000.,"J/mol"),
+                T0 = (1,"K"),
+            )
+        
+        # Print the results
+        print '======================================= =========== =========== ==========='
+        print 'Group                                   log A (SI)  n           Ea (kJ/mol)   '
+        print '======================================= =========== =========== ==========='
+        entry = family.groups.top[0]
+        label = ', '.join(['%s' % (top.label) for top in family.groups.top])
+        logA = math.log10(entry.data.A.value)
+        n = entry.data.n.value
+        Ea = entry.data.Ea.value / 1000.
+        print '%-39s %11.3f %11.3f %11.3f' % (label, logA, n, Ea)
+        print '--------------------------------------- ----------- ----------- -----------'
+        for i, group in enumerate(groupList):
+            label = group.label
+            logA = math.log10(group.data.A.value)
+            n = group.data.n.value
+            Ea = group.data.Ea.value / 1000.
+            print '%-39s %11.3f %11.3f %11.3f' % (label, logA, n, Ea)
+        print '======================================= =========== =========== ==========='
     
     # Add a note to the history of each changed item indicating that we've generated new group values
+    changed = False
     event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
-    for label, entry in groups.entries.iteritems():
+    for label, entry in family.groups.entries.iteritems():
         if entry.data is not None and old_entries.has_key(label):
             if (isinstance(entry.data, KineticsData) and 
                 isinstance(old_entries[label], KineticsData) and
@@ -406,106 +416,150 @@ def generateKineticsGroupValues(family, database, Tdata, trainingSetLabels, test
                 #print "New group values within 1% of old."
                 pass
             else:
+                changed = True
                 entry.history.append(event)
     
-    # Evaluate kmodel for the training set
-    kmodel_training = []
-    for label, trainingSet in trainingSets:
-        kmodel = []
-        for reaction, template, entry in trainingSet:
-            kinetics = family.getKineticsForTemplate(template, degeneracy=1)
-            kmodel.append([kinetics.getRateCoefficient(T) for T in Tdata])
-        kmodel = numpy.array(kmodel, numpy.float64)
-        kmodel_training.append(kmodel)
-    
-    # Evaluate kdata and kmodel for the test set
-    kdata_test = []; kmodel_test = []
-    for label, testSet in testSets:
-        kdata = []; kmodel = []
-        for reaction, template, entry in testSet:
-            kinetics = family.getKineticsForTemplate(template, degeneracy=1)
-            kmodel.append([kinetics.getRateCoefficient(T) for T in Tdata])
-            if isinstance(reaction.kinetics, Arrhenius) or isinstance(reaction.kinetics, KineticsData):
-                kdata.append([(reaction.kinetics.getRateCoefficient(T) / reaction.degeneracy) for T in Tdata])
-            elif isinstance(reaction.kinetics, ArrheniusEP):
-                kdata.append([(reaction.kinetics.getRateCoefficient(T, 0) / reaction.degeneracy) for T in Tdata])
-            else:
-                raise Exception('Unexpected kinetics model of type {0} for reaction {1}.'.format(reaction.kinetics.__class__, reaction))
-        kdata = numpy.array(kdata, numpy.float64)
-        kdata_test.append(kdata)
-        kmodel = numpy.array(kmodel, numpy.float64)
-        kmodel_test.append(kmodel)
-    
-    if plot:
-        # Generate plots
-        generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmodel_test, groups, trainingSets, testSets, family, plot)
-    
+    return changed
+
 ################################################################################
 
-def generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmodel_test, groups, trainingSets, testSets, family, plot):
+def evaluateKineticsGroupValues(family, database, testSetLabels, mode, plot):
     """
-    Generate and show a set of parity plots of the predicted and actual values 
-    of k(T) at various temperature. The predicted (model) and actual (data) k(T)
-    values are split into a training set (used to train the model) and a test
-    set (not used to train the model).
+    Evaluate the kinetics group additivity values for the given reaction 
+    `family` using the specified lists of depository components 
+    `testSetLabels` as the test set. The already-loaded RMG database should be 
+    given as the `database` parameter.
     """
+    kunits = getRateCoefficientUnits(family)
+    
+    print 'Categorizing reactions in test sets for {0}'.format(family.label)
+    testSets = createDataSet(testSetLabels, family, database)
+    
+    # For each entry in each test set, determine the kinetics as predicted by
+    # RMG-Py and as given by the entry in the test set
+    # Note that this is done on a per-site basis!
+    if mode == 'python':
+    
+        kineticsModels = []; kineticsData = []
+        for testSetLabel, testSet in testSets:
+            for index in range(len(testSet)):
+                reaction, template, entry = testSet[index]
+                
+                kmodel = family.getKineticsForTemplate(template, degeneracy=1)
+                kdata = entry.data
+                
+                if isinstance(kdata, KineticsData):
+                    kdata.kdata.values /= reaction.degeneracy
+                elif isinstance(kdata, Arrhenius):
+                    kdata.A.value /= reaction.degeneracy
+                elif isinstance(kdata, ArrheniusEP):
+                    kdata.A.value /= reaction.degeneracy
+                
+                testSet[index] = reaction, template, entry, kmodel, kdata
+    
+    elif mode == 'java':
+        raise NotImplementedError
+    
+    # Generate parity plots at several temperatures
+    print 'Generating parity plots for {0}'.format(family.label)
+    
     import matplotlib.pyplot as plt
     from matplotlib.widgets import CheckButtons
     
-    for t, T in enumerate(Tdata):
+    Tdata = [500,1000,1500,2000]
+    
+    if kunits == 'm^3/(mol*s)':
+        kunits = 'cm^3/mol*s'; kfactor = 1.0e6
+    elif kunits == 's^-1':
+        kunits = 's^{-1}'; kfactor = 1.0
+    
+    for T in Tdata:
         
-        # Evaluate confidence interval for training set
-        stdev_training = 0; ci_training = 0; count_training = 0
-        for index in range(len(kdata_training)):
-            for kdata, kmodel in zip(numpy.log10(kdata_training[index][:,t]), numpy.log10(kmodel_training[index][:,t])):
-                stdev_training += (kmodel - kdata) * (kmodel - kdata)
-                count_training += 1
-        stdev_training = numpy.sqrt(stdev_training / (count_training - 1))
-        ci_training = scipy.stats.t.ppf(0.975, count_training - 1) * stdev_training
-        print 'Confidence interval at T = {0:g} K for training set = 10^{1:g}'.format(T, ci_training)
-        # Evaluate confidence interval for test set
-        stdev_test = 0; ci_test = 0; count_test = 0
-        for index in range(len(kdata_test)):
-            for kdata, kmodel in zip(numpy.log10(kdata_test[index][:,t]), numpy.log10(kmodel_test[index][:,t])):
-                stdev_test += (kmodel - kdata) * (kmodel - kdata)
-                count_test += 1
-        stdev_test = numpy.sqrt(stdev_test / (count_test - 1))
-        ci_test = scipy.stats.t.ppf(0.975, count_test - 1) * stdev_test
-        print 'Confidence interval at T = {0:g} K for test set = 10^{1:g}'.format(T, ci_test)
+        stdev_total = 0; ci_total = 0; count_total = 0
         
-        # Plot the training set confidence interval
-        ci = ci_training
-        
+        # Initialize plot
         if plot == 'interactive':
-        
             fig = pylab.figure(figsize=(10,8))
             ax = plt.subplot(1, 1, 1)
+        else:
+            fig = pylab.figure(figsize=(6,5))
+            ax = plt.subplot(1, 1, 1) 
+        ax = plt.subplot(1, 1, 1)
+        lines = []
+        legend = []
+        
+        # Iterate through the test sets, plotting each
+        for testSetLabel, testSet in testSets:
             
-            lines = []
-            for index in range(len(kdata_training)):
-                lines.append(ax.loglog(kdata_training[index][:,t], kmodel_training[index][:,t], 'o', picker=5)[0])
-            for index in range(len(kdata_test)):
-                lines.append(ax.loglog(kdata_test[index][:,t], kmodel_test[index][:,t], 's', picker=5)[0])
+            kmodel = []; kdata = []
+            stdev = 0; ci = 0; count = 0
+                
+            for reaction, template, entry, kineticsModel, kineticsData in testSet:
+                
+                # Evaluate k(T) for both model and data at this temperature
+                if isinstance(kineticsModel, ArrheniusEP):
+                    km = kineticsModel.getRateCoefficient(T, 0) * kfactor
+                else:
+                    km = kineticsModel.getRateCoefficient(T) * kfactor
+                kmodel.append(km)
+                if isinstance(kineticsData, ArrheniusEP):
+                    kd = kineticsData.getRateCoefficient(T, 0) * kfactor
+                else:
+                    kd = kineticsData.getRateCoefficient(T) * kfactor
+                kdata.append(kd)
+                
+                # Evaluate variance
+                stdev += (math.log10(km) - math.log10(kd))**2
+                count += 1
             
-            legend = []
-            for label, trainingSet in trainingSets:
-                legend.append(label)
-            for label, testSet in testSets:
-                legend.append(label)
+            stdev_total += stdev
+            count_total += count
+            stdev = math.sqrt(stdev / (count - 1))
+            ci = scipy.stats.t.ppf(0.975, count - 1) * stdev
             
-            xlim = pylab.xlim()
-            ylim = pylab.ylim()
-            lim = (min(xlim[0], ylim[0])*0.1, max(xlim[1], ylim[1])*10)
-            ax.loglog(lim, lim, '-k')
-            ax.loglog(lim, [lim[0] * 10**ci, lim[1] * 10**ci], '--k')
-            ax.loglog(lim, [lim[0] / 10**ci, lim[1] / 10**ci], '--k')
-            pylab.xlabel('Actual rate coefficient')
-            pylab.ylabel('Predicted rate coefficient')
-            pylab.legend(legend, loc=4)
-            pylab.title('%s, T = %g K' % (family.label, T))
-            pylab.xlim(lim)
-            pylab.ylim(lim)
+            print 'Confidence interval at T = {0:g} K for test set "{1}" = 10^{2:g}'.format(T, testSetLabel, ci)
+        
+            # Add this test set to the plot
+            lines.append(ax.loglog(kdata, kmodel, 'o', picker=5)[0])
+            legend.append(testSetLabel)
+        
+        stdev_total = math.sqrt(stdev_total / (count_total - 1))
+        ci_total = scipy.stats.t.ppf(0.975, count_total - 1) * stdev_total
+        
+        print 'Total confidence interval at T = {0:g} K for all test sets = 10^{1:g}'.format(T, ci_total)
+                
+        # Finish plots
+        xlim = pylab.xlim()
+        ylim = pylab.ylim()
+        lim = (min(xlim[0], ylim[0])*0.1, max(xlim[1], ylim[1])*10)
+        ax.loglog(lim, lim, '-k')
+        ax.loglog(lim, [lim[0] * 10**ci_total, lim[1] * 10**ci_total], '--k')
+        ax.loglog(lim, [lim[0] / 10**ci_total, lim[1] / 10**ci_total], '--k')
+        pylab.xlabel('Actual rate coefficient ({0})'.format(kunits))
+        pylab.ylabel('Predicted rate coefficient ({0})'.format(kunits))
+        pylab.legend(legend, loc=4)
+        pylab.title('%s, T = %g K' % (family.label, T))
+        pylab.xlim(lim)
+        pylab.ylim(lim)
+        
+        def onpick(event):
+            index = lines.index(event.artist)
+            xdata = event.artist.get_xdata()
+            ydata = event.artist.get_ydata()
+            testSetLabel, testSet = testSets[index]
+            for ind in event.ind:
+                reaction, template, entry, kmodel, kdata = testSet[ind]
+                kunits = 'm^3/(mol*s)' if len(reaction.reactants) == 2 else 's^-1'
+                print label
+                print 'template = [%s]' % (', '.join([g.label for g in template]))
+                print 'entry = %r' % (entry)
+                print '%s' % (reaction)
+                print 'k_data   = %9.2e %s' % (xdata[ind], kunits)
+                print 'k_model  = %9.2e %s' % (ydata[ind], kunits)
             
+        connection_id = fig.canvas.mpl_connect('pick_event', onpick)
+        
+        if plot == 'interactive':
             rax = plt.axes([0.15, 0.65, 0.2, 0.2])
             check = CheckButtons(rax, legend, [True for label in legend])
             
@@ -516,72 +570,15 @@ def generateParityPlots(Tdata, kdata_training, kmodel_training, kdata_test, kmod
                 plt.draw()
             check.on_clicked(func)
             
-            def onpick(event):
-                index = lines.index(event.artist)
-                if index < len(trainingSets):
-                    label, data = trainingSets[index]
-                    kdata = kdata_training[index][:,t]
-                    kmodel = kmodel_training[index][:,t]
-                else:
-                    index = index - len(trainingSets)
-                    label, data = testSets[index]
-                    kdata = kdata_test[index][:,t]
-                    kmodel = kmodel_test[index][:,t]
-                for ind in event.ind:
-                    reaction, template, entry = data[ind]
-                    kunits = 'm^3/(mol*s)' if len(reaction.reactants) == 2 else 's^-1'
-                    print label
-                    print 'template = [%s]' % (', '.join([g.label for g in template]))
-                    print 'entry = %r' % (entry)
-                    print '%s' % (reaction)
-                    print 'k_data   = %9.2e %s' % (kdata[ind], kunits)
-                    print 'k_model  = %9.2e %s' % (kmodel[ind], kunits)
-            
-            connection_id = fig.canvas.mpl_connect('pick_event', onpick)
-        
         else:
-        
-            if len(family.forwardTemplate.reactants) == 1:
-                kunits = 's^-1'; kfactor = 1.0
-            elif len(family.forwardTemplate.reactants) == 2:
-                # Actual units are m^3/mol*s, but convert them to cm^3/mol*s just for the plot
-                kunits = 'cm^3/mol*s'; kfactor = 1.0e6
-            else:
-                raise Exception('Could not determine units of forward kinetics for reaction family "{0}".'.format(family.label))
-            
-            for istraining in [True, False]:
-                
-                fig = pylab.figure(figsize=(6,5))
-                ax = plt.subplot(1, 1, 1)
-                
-                lines = []
-                if istraining:
-                    for index in range(len(kdata_training)):
-                        lines.append(ax.loglog(kdata_training[index][:,t] * kfactor, kmodel_training[index][:,t] * 1e6, 'ob', picker=5)[0])
-                else:
-                    for index in range(len(kdata_test)):
-                        lines.append(ax.loglog(kdata_test[index][:,t] * kfactor, kmodel_test[index][:,t] * 1e6, 'sr', picker=5)[0])
-                
-                xlim = pylab.xlim()
-                ylim = pylab.ylim()
-                lim = (min(xlim[0], ylim[0])*0.1, max(xlim[1], ylim[1])*10)
-                ax.loglog(lim, lim, '-k')
-                ax.loglog(lim, [lim[0] * 10**ci, lim[1] * 10**ci], '--k')
-                ax.loglog(lim, [lim[0] / 10**ci, lim[1] / 10**ci], '--k')
-                pylab.xlabel('Actual rate coefficient (${0}$)'.format(kunits))
-                pylab.ylabel('Predicted rate coefficient (${0}$)'.format(kunits))
-                pylab.title('%s, T = %g K' % (family.label, T))
-                pylab.xlim(lim)
-                pylab.ylim(lim)
-                
-                fig.subplots_adjust(left=0.15, bottom=0.12, right=0.95, top=0.93, wspace=0.20, hspace=0.20)
-                pylab.savefig('%s_%g_%s.pdf' % (family.label, T, 'training' if istraining else 'test'))
+            fig.subplots_adjust(left=0.15, bottom=0.12, right=0.95, top=0.93, wspace=0.20, hspace=0.20)
+            pylab.savefig('%s_%g_test.pdf' % (family.label, T))
           
         pylab.show()
-        
+
 ################################################################################
 
-def getRatesFromRMGjava(family_label, database, testSetLabels):
+def getRatesFromRMGJava(family_label, database, testSetLabels):
     """
     Get rates from RMG java for the given reaction `family` using the
     specified lists of depository components `testSetLabels` as the test sets.
@@ -652,51 +649,98 @@ and comment "{5!s}"\n""".format(entry.item,
             filename = 'input/kinetics/families/{0}/{1}_RMG_Java.py'.format(family_label,set_label)
             print "Saving results (so far) in "+filename
             output.save(filename)
-    
-    
+
 ################################################################################
 
-def generate(args, database):
+class ArgumentError(Exception):
     """
-    This function is called when the "generate" command is given on the command
-    line. It causes group additivity kinetics values to be generated and saved
-    for all reaction families.
+    An exception raised when the command-line arguments given to the script are
+    invalid. Pass a string describing why the arguments are invalid.
     """
-    Tdata = numpy.array([300,400,500,600,800,1000,1500,2000], numpy.float64)
-    for family in database.kinetics.groups:
-        generateKineticsGroupValues(
+    pass
+
+################################################################################
+
+def generate(args):
+    """
+    Generate kinetics group additivity values for one (or more) reaction
+    families. The `args` parameter provides the results of parsing the 
+    command-line arguments using argparse.
+    """
+    # Make sure we have at least one family to generate values for
+    if len(args.family) == 0 and not args.all:
+        raise ArgumentError('No reaction families specified')
+    
+    # Make sure the method is valid
+    method = args.method
+    if method not in ['KineticsData', 'Arrhenius', 'Arrhenius2']:
+        raise ArgumentError('Invalid method "{0}" specified'.format(method))
+    
+    # If training sets are not specified, 'training' and 'rules' are used
+    trainingSets = args.training
+    if not trainingSets:
+        trainingSets = ['rules', 'training']
+        
+    # Load the database
+    database = loadDatabase()
+    
+    # If --all flag was specified, use all reaction families
+    families = []
+    if args.all:
+        families = database.kinetics.families.keys()
+    else:
+        families = args.family
+    
+    # Iterate over each family, generating and saving group values
+    for label in families:
+        family = database.kinetics.families[label]
+        changed = generateKineticsGroupValues(
             database = database,
             family = family,
-            Tdata = Tdata,
-            trainingSetLabels = ['rules', 'training'],
-            testSetLabels = [],
-            plot = False,
+            trainingSetLabels = trainingSets,
+            method = method,
         )
-    print 'Saving new kinetics group values...'
-    database.kinetics.saveGroups(os.path.join('input', 'kinetics', 'groups'))
+        if changed:
+            family.saveGroups(os.path.join('input', 'kinetics', 'families', label, 'groups.py'))
     
-def evaluate(args, database):
+def evaluate(args):
     """
-    This function is called when the "evaluate" command is given on the command
-    line. It causes group additivity kinetics values to be generated and 
-    evaluated for one reaction family.
+    Evaluate kinetics group additivity values for one (or more) reaction
+    families. The `args` parameter provides the results of parsing the 
+    command-line arguments using argparse.
     """
-    if args.interactive:
-        plot = 'interactive'
+    
+    mode = 'java' if args.java else 'python'
+    plot = 'interactive' if args.interactive else 'normal'
+    
+    # If test sets are not specified, choose some
+    testSets = args.test
+    if not testSets:
+        testSets = ['rules', 'training', 'PrIMe', 'test']
+    
+    # Load the database
+    database = loadDatabase()
+    
+    # If --all flag was specified, use all reaction families
+    families = []
+    if args.all:
+        families = database.kinetics.families.keys()
     else:
-        plot = True
-    family = args.family[0]
-    Tdata = numpy.array([500,1000,1500,2000], numpy.float64)
-    generateKineticsGroupValues(
-        database = database,
-        family = family,
-        Tdata = Tdata,
-        trainingSetLabels = ['rules', 'training'],
-        testSetLabels = ['PrIMe', 'test', 'PrIMe_RMG_Java'],
-        plot = plot,
-    )
+        families = args.family
+    
+    # Iterate over each family, generating and saving group values
+    for label in families:
+        family = database.kinetics.families[label]
+        changed = evaluateKineticsGroupValues(
+            database = database,
+            family = family,
+            testSetLabels = testSets,
+            mode = mode,
+            plot = plot,
+        )
+        
 
-def get_from_java(args, database):
+def getFromJava(args):
     """
     This function is called when the "java" command is given on the command
     line. It causes group additivity kinetics values to be estimated by
@@ -706,7 +750,7 @@ def get_from_java(args, database):
     failures = []
     for family in database.kinetics.families.keys():
         try: 
-         getRatesFromRMGjava(
+         getRatesFromRMGJava(
             database = database,
             family_label = family,
             testSetLabels = ['PrIMe'],
@@ -735,23 +779,35 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(dest='command', help='')
     
-    generateParser = subparsers.add_parser('generate', help='generate and save kinetics group values for all families')
+    # generate - generate and save kinetics group additivity values
+    generateParser = subparsers.add_parser('generate', help='generate and save kinetics group values for one or more families')
+    generateParser.add_argument('family', metavar='<family>', type=str, nargs='*', help='the family to generate, or --all for all families')
+    generateParser.add_argument('-a', '--all', action='store_true', help='generate for all families')
+    generateParser.add_argument('-m', '--method', metavar='<method>', type=str, nargs='?', default='Arrhenius', help='the method to use')
+    generateParser.add_argument('--training', metavar='<trainingset>', type=str, nargs='*', help='the training set(s) to use')
     generateParser.set_defaults(run=generate)
     
+    # evaluate - load and evaluate kinetics group additivity values
     evaluateParser = subparsers.add_parser('evaluate', help='evaluate kinetics group values for one family')
     evaluateParser.add_argument('family', metavar='<family>', type=str, nargs=1, help='the family to evaluate')
-    evaluateParser.set_defaults(run=evaluate)
+    evaluateParser.add_argument('-a', '--all', action='store_true', help='generate for all families')
+    evaluateParser.add_argument('--test', metavar='<testset>', type=str, nargs='*', help='the test set(s) to use')
     evaluateParser.add_argument('-i', '--interactive', action='store_true', help='evaluate using interactive plots')
+    evaluateParser.add_argument('--java', action='store_true', help='use RMG-Java estimates instead of RMG-Py estimates')
+    evaluateParser.set_defaults(run=evaluate)
     
+    # java - generate kinetics estimates from RMG-Java
     javaParser = subparsers.add_parser('java', help='evaluate kinetics from RMG java for all families')
-    javaParser.set_defaults(run=get_from_java)
+    javaParser.set_defaults(run=getFromJava)
     
     args = parser.parse_args()
-    
-    print 'Loading RMG database...'
-    from rmgpy.data.rmg import RMGDatabase
-    database = RMGDatabase()
-    database.load('input')
-
-    args.run(args, database)
-    
+    try:
+        args.run(args)
+    except ArgumentError, e:
+        for choice, subparser in subparsers.choices.iteritems():
+            if args.command == choice:
+                subparser.print_help()
+                break
+        else:
+            parser.print_help()
+        print 'ArgumentError: {0}'.format(e)
