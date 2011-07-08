@@ -47,6 +47,21 @@ def getRateCoefficientUnits(family):
     else:
         raise ValueError('Unable to determine units of rate coefficient for reaction family "{0}".'.format(family.label))
 
+def convertKineticsToPerSiteBasis(kinetics, degeneracy):
+    """
+    Given high-pressure-limit `kinetics` which includes reaction-path
+    `degeneracy`, convert the kinetics to be on a per-site basis.
+    """
+    if isinstance(kinetics, KineticsData):
+        kinetics.kdata.values /= degeneracy
+    elif isinstance(kinetics, Arrhenius):
+        kinetics.A.value /= degeneracy
+    elif isinstance(kinetics, ArrheniusEP):
+        kinetics.A.value /= degeneracy
+    else:
+        raise Exception('Unable to convert kinetics of type {0} to per-site basis.'.format(kinetics.__class__))
+    return kinetics
+    
 def createDataSet(labels, family, database):
     dataset = []
     for label in labels:
@@ -444,17 +459,8 @@ def evaluateKineticsGroupValues(family, database, testSetLabels, mode, plot):
         for testSetLabel, testSet in testSets:
             for index in range(len(testSet)):
                 reaction, template, entry = testSet[index]
-                
                 kmodel = family.getKineticsForTemplate(template, degeneracy=1)
-                kdata = entry.data
-                
-                if isinstance(kdata, KineticsData):
-                    kdata.kdata.values /= reaction.degeneracy
-                elif isinstance(kdata, Arrhenius):
-                    kdata.A.value /= reaction.degeneracy
-                elif isinstance(kdata, ArrheniusEP):
-                    kdata.A.value /= reaction.degeneracy
-                
+                kdata = convertKineticsToPerSiteBasis(entry.data, reaction.degeneracy)
                 testSet[index] = reaction, template, entry, kmodel, kdata
     
     elif mode == 'java':
