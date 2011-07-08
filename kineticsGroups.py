@@ -447,6 +447,15 @@ def evaluateKineticsGroupValues(family, database, testSetLabels, mode, plot):
     """
     kunits = getRateCoefficientUnits(family)
     
+    # If in Java mode, only keep test sets with RMG-Java data
+    if mode == 'java':
+        testSetLabels0 = testSetLabels; testSetLabels = []
+        for label in testSetLabels0:
+            if os.path.exists(os.path.join('input', 'kinetics', 'families', family.label, '{0}_RMG_Java.py'.format(label))):
+                # Okay, we've found RMG-Java data
+                testSetLabels.append(label)
+                testSetLabels.append('{0}_RMG_Java'.format(label))
+                
     print 'Categorizing reactions in test sets for {0}'.format(family.label)
     testSets = createDataSet(testSetLabels, family, database)
     
@@ -464,7 +473,24 @@ def evaluateKineticsGroupValues(family, database, testSetLabels, mode, plot):
                 testSet[index] = reaction, template, entry, kmodel, kdata
     
     elif mode == 'java':
-        raise NotImplementedError
+        testSets0 = testSets; testSets = []
+        # Every other item in the test sets should be an RMG-Java library
+        for index in range(len(testSets0)/2):
+            
+            testSetLabel, testSet0 = testSets0[2*index]
+            testSet0JavaLabel, testSet0Java = testSets0[2*index+1]
+            
+            testSet = []
+            
+            for reaction0, template0, entry0 in testSet0:
+                for reaction, template, entry in testSet0Java:
+                    if entry0.index == entry.index and entry0.label == entry.label:
+                        kmodel = convertKineticsToPerSiteBasis(entry.data, reaction.degeneracy)
+                        kdata = convertKineticsToPerSiteBasis(entry0.data, reaction0.degeneracy)
+                        testSet.append([reaction, template, entry, kmodel, kdata])
+                        break
+            
+            testSets.append([testSetLabel, testSet])
     
     # Generate parity plots at several temperatures
     print 'Generating parity plots for {0}'.format(family.label)
