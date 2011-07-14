@@ -2658,3 +2658,560 @@ in good agreement with this expression (within a factor of 3.5 over the valid te
     ],
 )
 
+entry(
+    index = 1003,
+    reactant1 =
+"""
+1  *1 C     0 {2,S} {5,S} {6,S} {7,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4     C     0 {2,S} {8,S} {9,S} {10,S}
+5  *2 H     0 {1,S}
+6     H     0 {1,S}
+7     H     0 {1,S}
+8     H     0 {4,S}
+9     H     0 {4,S}
+10    H     0 {4,S}
+""",
+    reactant2 =
+"""
+1  *3 O 1 {2,S}
+2     H 0 {1,S}
+""",
+    product1 =
+"""
+1  *3 C     1 {2,S} {6,S} {7,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4     C     0 {2,S} {8,S} {9,S} {10,S}
+6     H     0 {1,S}
+7     H     0 {1,S}
+8     H     0 {4,S}
+9     H     0 {4,S}
+10    H     0 {4,S}
+"""
+    ,
+    product2 = 
+"""
+1  *1 O     0 {2,S} {3,S}
+2     H     0 {1,S}
+3  *2 H     0 {1,S}
+"""    ,
+    kinetics = Arrhenius(
+        A = (22.1*6,"cm^3/(mol*s)"),
+        n = 3.29,
+        Ea = (-1.00,"kcal/mol"),
+        T0 = (1,"K"),
+        Tmin = (500,"K"),
+        Tmax = (2000,"K"),
+    ),
+    degeneracy = 6,
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
+    longDesc =
+u"""
+CC(=O)C + OH --> CJC(=O)C + H2O
+
+G3 PES calculations using Variflex including tunneling corrections.
+
+High-pressure limit rate constants of the title reactions have been calculated in the temperature range
+of 500–2000 K using the Variflex code including Eckart tunneling corrections. Variable reaction coordinate
+transition state theory (VRC-TST) has been used for the rate constants of the barrier-less entrance channel.
+
+Chong-Wen Zhou, John M. Simmie and Henry J. Curran
+Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
+DOI: 10.1039/C0CP02754E
+
+""",
+    history = [
+        ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
+    ],
+)
+
+entry(
+    index = 1004,
+    reactant1 =
+"""
+1  *1 C     0 {2,S} {6,S} {7,S} {8,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4     C     0 {2,S} {5,S} {9,S} {10,S}
+5     C     0 {4,S} {11,S} {12,S} {13,S}
+6  *2 H     0 {1,S}
+7     H     0 {1,S}
+8     H     0 {1,S}
+9     H     0 {4,S}
+10    H     0 {4,S}
+11    H     0 {5,S}
+12    H     0 {5,S}
+13    H     0 {5,S}
+""",
+    reactant2 =
+"""
+1  *3 O 1 {2,S}
+2     H 0 {1,S}
+""",
+    product1 =
+"""
+1  *3 C     1 {2,S} {7,S} {8,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4     C     0 {2,S} {5,S} {9,S} {10,S}
+5     C     0 {4,S} {11,S} {12,S} {13,S}
+7     H     0 {1,S}
+8     H     0 {1,S}
+9     H     0 {4,S}
+10    H     0 {4,S}
+11    H     0 {5,S}
+12    H     0 {5,S}
+13    H     0 {5,S}
+"""
+    ,
+    product2 =
+"""
+1  *1 O     0 {2,S} {3,S}
+2     H     0 {1,S}
+3  *2 H     0 {1,S}
+"""    ,
+    kinetics = Arrhenius(
+        A = (133*3,"cm^3/(mol*s)"),
+        n = 3.08,
+        Ea = (-0.9433,"kcal/mol"),
+        T0 = (1,"K"),
+        Tmin = (500,"K"),
+        Tmax = (2000,"K"),
+    ),
+    degeneracy = 3,
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
+    longDesc =
+u"""
+CC(=O)CC + OH --> CJC(=O)CC + H2O
+
+G3 PES calculations using Variflex including tunneling corrections.
+
+High-pressure limit rate constants of the title reactions have been calculated in the temperature range
+of 500–2000 K using the Variflex code including Eckart tunneling corrections. Variable reaction coordinate
+transition state theory (VRC-TST) has been used for the rate constants of the barrier-less entrance channel.
+
+Chong-Wen Zhou, John M. Simmie and Henry J. Curran
+Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
+DOI: 10.1039/C0CP02754E
+
+""",
+    history = [
+        ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
+    ],
+)
+
+entry(
+    index = 1005,
+    reactant1 =
+"""
+1     C     0 {2,S} {6,S} {7,S} {8,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4  *1 C     0 {2,S} {5,S} {9,S} {10,S}
+5     C     0 {4,S} {11,S} {12,S} {13,S}
+6     H     0 {1,S}
+7     H     0 {1,S}
+8     H     0 {1,S}
+9  *2 H     0 {4,S}
+10    H     0 {4,S}
+11    H     0 {5,S}
+12    H     0 {5,S}
+13    H     0 {5,S}
+""",
+    reactant2 =
+"""
+1  *3 O 1 {2,S}
+2     H 0 {1,S}
+""",
+    product1 =
+"""
+1     C     0 {2,S} {6,S} {7,S} {8,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4  *3 C     1 {2,S} {5,S} {10,S}
+5     C     0 {4,S} {11,S} {12,S} {13,S}
+6     H     0 {1,S}
+7     H     0 {1,S}
+8     H     0 {1,S}
+10    H     0 {4,S}
+11    H     0 {5,S}
+12    H     0 {5,S}
+13    H     0 {5,S}
+"""
+    ,
+    product2 =
+"""
+1  *1 O     0 {2,S} {3,S}
+2     H     0 {1,S}
+3  *2 H     0 {1,S}
+"""    ,
+    kinetics = Arrhenius(
+        A = (118*2,"cm^3/(mol*s)"),
+        n = 3.15,        
+        Ea = (-3.048,"kcal/mol"),
+        T0 = (1,"K"),
+        Tmin = (500,"K"),
+        Tmax = (2000,"K"),
+    ),
+    degeneracy = 2,
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
+    longDesc =
+u"""
+CC(=O)CC + OH --> CC(=)CJC + H2O
+
+G3 PES calculations using Variflex including tunneling corrections.
+
+High-pressure limit rate constants of the title reactions have been calculated in the temperature range
+of 500–2000 K using the Variflex code including Eckart tunneling corrections. Variable reaction coordinate
+transition state theory (VRC-TST) has been used for the rate constants of the barrier-less entrance channel.
+
+Chong-Wen Zhou, John M. Simmie and Henry J. Curran
+Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
+DOI: 10.1039/C0CP02754E
+
+""",
+    history = [
+        ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
+    ],
+)
+
+entry(
+    index = 1006,
+    reactant1 =
+"""
+1     C     0 {2,S} {6,S} {7,S} {8,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4     C     0 {2,S} {5,S} {9,S} {10,S}
+5  *1 C     0 {4,S} {11,S} {12,S} {13,S}
+6     H     0 {1,S}
+7     H     0 {1,S}
+8     H     0 {1,S}
+9     H     0 {4,S}
+10    H     0 {4,S}
+11 *2 H     0 {5,S}
+12    H     0 {5,S}
+13    H     0 {5,S}
+""",
+    reactant2 =
+"""
+1  *3 O 1 {2,S}
+2     H 0 {1,S}
+""",
+    product1 =
+"""
+1     C     0 {2,S} {6,S} {7,S} {8,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4     C     0 {2,S} {5,S} {9,S} {10,S}
+5  *3 C     1 {4,S} {12,S} {13,S}
+6     H     0 {1,S}
+7     H     0 {1,S}
+8     H     0 {1,S}
+9     H     0 {4,S}
+10    H     0 {4,S}
+12    H     0 {5,S}
+13    H     0 {5,S}
+"""
+    ,
+    product2 =
+"""
+1  *1 O     0 {2,S} {3,S}
+2     H     0 {1,S}
+3  *2 H     0 {1,S}
+"""    ,
+    kinetics = Arrhenius(
+        A = (.45*3,"cm^3/(mol*s)"),
+        n = 3.81,        
+        Ea = (-2.897,"kcal/mol"),
+        T0 = (1,"K"),
+        Tmin = (500,"K"),
+        Tmax = (2000,"K"),
+    ),
+    degeneracy = 3,
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
+    longDesc =
+u"""
+CC(=O)CC + OH --> CC(=O)CCJ + H2O
+
+G3 PES calculations using Variflex including tunneling corrections.
+
+High-pressure limit rate constants of the title reactions have been calculated in the temperature range
+of 500–2000 K using the Variflex code including Eckart tunneling corrections. Variable reaction coordinate
+transition state theory (VRC-TST) has been used for the rate constants of the barrier-less entrance channel.
+
+Chong-Wen Zhou, John M. Simmie and Henry J. Curran
+Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
+DOI: 10.1039/C0CP02754E
+
+""",
+    history = [
+        ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
+    ],
+)
+
+entry(
+    index = 1007,
+    reactant1 =
+"""
+1  *1 C     0 {2,S} {7,S} {8,S} {9,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4     C     0 {2,S} {5,S} {6,S} {10,S}
+5     C     0 {4,S} {11,S} {12,S} {13,S}
+6     C     0 {4,S} {14,S} {15,S} {16,S}
+7  *2 H     0 {1,S}
+8     H     0 {1,S}
+9     H     0 {1,S}
+10    H     0 {4,S}
+11    H     0 {5,S}
+12    H     0 {5,S}
+13    H     0 {5,S}
+14    H     0 {6,S}
+15    H     0 {6,S}
+16    H     0 {6,S}
+""",
+    reactant2 =
+"""
+1  *3 O 1 {2,S}
+2     H 0 {1,S}
+""",
+    product1 =
+"""
+1  *3 C     1 {2,S} {8,S} {9,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4     C     0 {2,S} {5,S} {6,S} {10,S}
+5     C     0 {4,S} {11,S} {12,S} {13,S}
+6     C     0 {4,S} {14,S} {15,S} {16,S}
+8     H     0 {1,S}
+9     H     0 {1,S}
+10    H     0 {4,S}
+11    H     0 {5,S}
+12    H     0 {5,S}
+13    H     0 {5,S}
+14    H     0 {6,S}
+15    H     0 {6,S}
+16    H     0 {6,S}
+"""
+    ,
+    product2 =
+"""
+1  *1 O     0 {2,S} {3,S}
+2     H     0 {1,S}
+3  *2 H     0 {1,S}
+"""    ,
+    kinetics = Arrhenius(
+        A = (856*3,"cm^3/(mol*s)"),
+        n = 2.90,        
+        Ea = (-1.0505,"kcal/mol"),
+        T0 = (1,"K"),
+        Tmin = (500,"K"),
+        Tmax = (2000,"K"),
+    ),
+    degeneracy = 3,
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
+    longDesc =
+u"""
+CC(=O)C(C)C + OH --> CJC(=O)C(C)C
+
+G3 PES calculations using Variflex including tunneling corrections.
+
+High-pressure limit rate constants of the title reactions have been calculated in the temperature range
+of 500–2000 K using the Variflex code including Eckart tunneling corrections. Variable reaction coordinate
+transition state theory (VRC-TST) has been used for the rate constants of the barrier-less entrance channel.
+
+Chong-Wen Zhou, John M. Simmie and Henry J. Curran
+Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
+DOI: 10.1039/C0CP02754E
+
+""",
+    history = [
+        ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
+    ],
+)
+
+entry(
+    index = 1008,
+    reactant1 =
+"""
+1     C     0 {2,S} {7,S} {8,S} {9,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4  *1 C     0 {2,S} {5,S} {6,S} {10,S}
+5     C     0 {4,S} {11,S} {12,S} {13,S}
+6     C     0 {4,S} {14,S} {15,S} {16,S}
+7     H     0 {1,S}
+8     H     0 {1,S}
+9     H     0 {1,S}
+10 *2 H     0 {4,S}
+11    H     0 {5,S}
+12    H     0 {5,S}
+13    H     0 {5,S}
+14    H     0 {6,S}
+15    H     0 {6,S}
+16    H     0 {6,S}
+""",
+    reactant2 =
+"""
+1  *3 O 1 {2,S}
+2     H 0 {1,S}
+""",
+    product1 =
+"""
+1     C     0 {2,S} {7,S} {8,S} {9,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4  *3 C     1 {2,S} {5,S} {6,S}
+5     C     0 {4,S} {11,S} {12,S} {13,S}
+6     C     0 {4,S} {14,S} {15,S} {16,S}
+7     H     0 {1,S}
+8     H     0 {1,S}
+9     H     0 {1,S}
+11    H     0 {5,S}
+12    H     0 {5,S}
+13    H     0 {5,S}
+14    H     0 {6,S}
+15    H     0 {6,S}
+16    H     0 {6,S}
+"""
+    ,
+    product2 =
+"""
+1  *1 O     0 {2,S} {3,S}
+2     H     0 {1,S}
+3  *2 H     0 {1,S}
+"""    ,
+    kinetics = Arrhenius(
+        A = (4920,"cm^3/(mol*s)"),
+        n = 2.70,        
+        Ea = (-4.033,"kcal/mol"),
+        T0 = (1,"K"),
+        Tmin = (500,"K"),
+        Tmax = (2000,"K"),
+    ),
+    degeneracy = 1,
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
+    longDesc =
+u"""
+CC(=O)C(C)C + OH --> CC(=O)CJ(C)C
+
+G3 PES calculations using Variflex including tunneling corrections.
+
+High-pressure limit rate constants of the title reactions have been calculated in the temperature range
+of 500–2000 K using the Variflex code including Eckart tunneling corrections. Variable reaction coordinate
+transition state theory (VRC-TST) has been used for the rate constants of the barrier-less entrance channel.
+
+Chong-Wen Zhou, John M. Simmie and Henry J. Curran
+Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
+DOI: 10.1039/C0CP02754E
+
+""",
+    history = [
+        ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
+    ],
+)
+
+entry(
+    index = 1009,
+    reactant1 =
+"""
+1     C     0 {2,S} {7,S} {8,S} {9,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4     C     0 {2,S} {5,S} {6,S} {10,S}
+5     C     0 {4,S} {11,S} {12,S} {13,S}
+6  *1 C     0 {4,S} {14,S} {15,S} {16,S}
+7     H     0 {1,S}
+8     H     0 {1,S}
+9     H     0 {1,S}
+10    H     0 {4,S}
+11    H     0 {5,S}
+12    H     0 {5,S}
+13    H     0 {5,S}
+14 *2 H     0 {6,S}
+15    H     0 {6,S}
+16    H     0 {6,S}
+""",
+    reactant2 =
+"""
+1  *3 O 1 {2,S}
+2     H 0 {1,S}
+""",
+    product1 =
+"""
+1     C     0 {2,S} {7,S} {8,S} {9,S}
+2     C     0 {1,S} {3,D} {4,S}
+3     O     0 {2,D}
+4     C     0 {2,S} {5,S} {6,S} {10,S}
+5     C     0 {4,S} {11,S} {12,S} {13,S}
+6  *3 C     1 {4,S} {15,S} {16,S}
+7     H     0 {1,S}
+8     H     0 {1,S}
+9     H     0 {1,S}
+10    H     0 {4,S}
+11    H     0 {5,S}
+12    H     0 {5,S}
+13    H     0 {5,S}
+15    H     0 {6,S}
+16    H     0 {6,S}
+"""
+    ,
+    product2 =
+"""
+1  *1 O     0 {2,S} {3,S}
+2     H     0 {1,S}
+3  *2 H     0 {1,S}
+"""    ,
+    kinetics = Arrhenius(
+        A = (2.59*6,"cm^3/(mol*s)"),
+        n = 3.54,
+        Ea = (-2.907,"kcal/mol"),
+        T0 = (1,"K"),
+        Tmin = (500,"K"),
+        Tmax = (2000,"K"),
+    ),
+    degeneracy = 6,
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
+    longDesc =
+u"""
+CC(=O)C(C)C + OH --> CC(=O)C(C)CJ + H2O
+
+G3 PES calculations using Variflex including tunneling corrections.
+
+High-pressure limit rate constants of the title reactions have been calculated in the temperature range
+of 500–2000 K using the Variflex code including Eckart tunneling corrections. Variable reaction coordinate
+transition state theory (VRC-TST) has been used for the rate constants of the barrier-less entrance channel.
+
+Chong-Wen Zhou, John M. Simmie and Henry J. Curran
+Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
+DOI: 10.1039/C0CP02754E
+
+""",
+    history = [
+        ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
+    ],
+)
