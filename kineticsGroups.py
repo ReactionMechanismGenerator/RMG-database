@@ -786,7 +786,13 @@ def evaluate(args):
             mode = mode,
             plot = plot,
         )
-        
+
+class VerySpecificException(Exception):
+    """
+    This is just so that you can have an except block catch something that is never thrown,
+    so that you can disable the try/except thing without changing the code much.
+    """
+    pass
 
 def getFromJava(args):
     """
@@ -803,7 +809,7 @@ def getFromJava(args):
             family_label = family,
             testSetLabels = ['PrIMe'],
          )
-        except Exception as e:
+        except (VerySpecificException, Exception) as e:
             print "FAILED on "+family
             print "EXCEPTION: "+str(e)
             failures.append(family)
