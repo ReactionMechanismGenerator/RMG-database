@@ -16,7 +16,7 @@ import pylab
 import scipy.stats
 import matplotlib
 matplotlib.rc('mathtext', fontset='stixsans', default='regular')
-
+import re
 import rmgpy
 from rmgpy.quantity import constants
 from rmgpy.kinetics import Arrhenius, ArrheniusEP, KineticsData
@@ -485,7 +485,22 @@ def evaluateKineticsGroupValues(family, database, testSetLabels, mode, plot):
             for reaction0, template0, entry0 in testSet0:
                 for reaction, template, entry in testSet0Java:
                     if entry0.index == entry.index and entry0.label == entry.label:
-                        kmodel = convertKineticsToPerSiteBasis(entry.data, reaction.degeneracy)
+                        # The java-estimated rates:
+                        assert reaction.isIsomorphic(reaction0)
+                        if not re.search('Average of:',entry.longDesc):
+                            # exact match - unfair advantage. skip it
+                            break
+                        if reaction.isIsomorphic(reaction0, eitherDirection=False):
+                            # it's in the right direction
+                            kmodel = entry.data
+                            # The following line replaces it with the python-estimated rate (so that you can compare the parity plots)
+                            #kmodel = family.getKineticsForTemplate(template, degeneracy=reaction.degeneracy)
+                        else:
+                            # it's in the wrong direction
+                            break # for now, skip it, because generating the reverse doesn't seem to work
+                            kmodel = reaction.generateReverseRateCoefficient()
+                        kmodel = convertKineticsToPerSiteBasis(kmodel, reaction.degeneracy)
+                        # The prime database rates:
                         kdata = convertKineticsToPerSiteBasis(entry0.data, reaction0.degeneracy)
                         testSet.append([reaction, template, entry, kmodel, kdata])
                         break
@@ -549,6 +564,7 @@ def evaluateKineticsGroupValues(family, database, testSetLabels, mode, plot):
             stdev = math.sqrt(stdev / (count - 1))
             ci = scipy.stats.t.ppf(0.975, count - 1) * stdev
             
+            print "Test set {0} contained {1} rates.".format(testSetLabel, count)
             print 'Confidence interval at T = {0:g} K for test set "{1}" = 10^{2:g}'.format(T, testSetLabel, ci)
         
             # Add this test set to the plot
@@ -770,7 +786,13 @@ def evaluate(args):
             mode = mode,
             plot = plot,
         )
-        
+
+class VerySpecificException(Exception):
+    """
+    This is just so that you can have an except block catch something that is never thrown,
+    so that you can disable the try/except thing without changing the code much.
+    """
+    pass
 
 def getFromJava(args):
     """
@@ -787,7 +809,7 @@ def getFromJava(args):
             family_label = family,
             testSetLabels = ['PrIMe'],
          )
-        except Exception as e:
+        except (VerySpecificException, Exception) as e:
             print "FAILED on "+family
             print "EXCEPTION: "+str(e)
             failures.append(family)
