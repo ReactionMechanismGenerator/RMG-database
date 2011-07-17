@@ -72883,7 +72883,7 @@ C2H6
         efficiencies = {"C(=O)=O": 3, "O": 5, "[C]=O": 2},
         alpha = 0,
         T3 = (570,"K"),
-        T1 = (0,"K"),
+        T1 = (1e-10,"K"),
         T2 = (1e+30,"K"),
     ),
     reference = None,
