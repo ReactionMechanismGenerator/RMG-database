@@ -10,6 +10,7 @@ or in a section(s) titled 'General'
 
 .. the ID must match those in the rateLibrary AS A STRING (ie. '2' is different from '02')
 """
+recommended = False
 
 entry(
     index = 807,

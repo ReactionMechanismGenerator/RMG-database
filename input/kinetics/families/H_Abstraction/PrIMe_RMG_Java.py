@@ -6,6 +6,7 @@ shortDesc = u"Reactions from H_Abstraction/PrIMe with kinetics estimated by RMG-
 longDesc = u"""
 Reactions from H_Abstraction/PrIMe with kinetics estimated by RMG-Java.
 """
+recommended = False
 
 entry(
     index = 5,

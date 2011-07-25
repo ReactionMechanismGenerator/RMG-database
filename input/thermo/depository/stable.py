@@ -6,4 +6,5 @@ shortDesc = u""
 longDesc = u"""
 
 """
+recommended = False
 

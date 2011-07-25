@@ -6,6 +6,7 @@ shortDesc = u""
 longDesc = u"""
 
 """
+recommended = False
 
 entry(
     index = 416,
@@ -541,7 +542,7 @@ entry(
 7     H 0 {4,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.70e+07,"cm^3/(mol*s)","*|/",3),
+        A = (7.7e+07,"cm^3/(mol*s)","*|/",3),
         n = 1.37,
         alpha = 0,
         E0 = (5.69,"kcal/mol","+|-",2),
@@ -652,7 +653,7 @@ entry(
         A = (8.61e+07,"cm^3/(mol*s)","*|/",3),
         n = 1.36,
         alpha = 0,
-        E0 = (4.80,"kcal/mol","+|-",2),
+        E0 = (4.8,"kcal/mol","+|-",2),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),

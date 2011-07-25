@@ -10,6 +10,7 @@ or in a section(s) titled 'General'
 
 .. the ID must match those in the rateLibrary AS A STRING (ie. '2' is different from '02')
 """
+recommended = False
 
 entry(
     index = 835,
@@ -468,22 +469,22 @@ TS (and it is certainly better than leaving RMG to estimate via "Average of Aver
 entry(
     index = 847,
     label = "HOCH[OO]CH3",
-    group1 =
+    group1 = 
 """
-1 *1 O 0 {2,S} {5,S}
-2 *2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 *3 O 0 {2,S} {4,S}
-4 *4 O 1 {3,S}
-5 *5 H 0 {1,S}
-6 H 0 {2,S}
-7 C 0 {2,S} {8,S} {9,S} {10,S}
-8 H 0 {7,S}
-9 H 0 {7,S}
-10 H 0 {7,S}
+1  *1 O 0 {2,S} {5,S}
+2  *2 C 0 {1,S} {3,S} {6,S} {7,S}
+3  *3 O 0 {2,S} {4,S}
+4  *4 O 1 {3,S}
+5  *5 H 0 {1,S}
+6     H 0 {2,S}
+7     C 0 {2,S} {8,S} {9,S} {10,S}
+8     H 0 {7,S}
+9     H 0 {7,S}
+10    H 0 {7,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.813e+10,"cm^3/(mol*s)","*|/",10),
-        n = .439,
+        n = 0.439,
         alpha = 0,
         E0 = (11.894,"kcal/mol","+|-",2),
         Tmin = (600,"K"),
@@ -493,7 +494,7 @@ entry(
     referenceType = "",
     rank = 5,
     shortDesc = u"""MRH CBS-QB3 calculations with 1d h.r. corrections.""",
-    longDesc =
+    longDesc = 
 u"""
 MRH CBS-QB3 calculations for the reaction CH3-CH(OO)-OH => CH3-CH=O + HO2
 
@@ -537,19 +538,19 @@ k(T) = 6.813e+10 * (T/1K)^0.493 * exp(-11.894 kcal/mol / RT) cm3/mol/s.
 entry(
     index = 848,
     label = "OCOO",
-    group1 =
+    group1 = 
 """
-1 *1 O 0 {2,S} {5,S}
-2 *2 C 0 {1,S} {3,S} {6,S} {7,S}
-3 *3 O 0 {2,S} {4,S}
-4 *4 O 1 {3,S}
-5 *5 H 0 {1,S}
-6 R 0 {2,S}
-7 R 0 {2,S}
+1  *1 O 0 {2,S} {5,S}
+2  *2 C 0 {1,S} {3,S} {6,S} {7,S}
+3  *3 O 0 {2,S} {4,S}
+4  *4 O 1 {3,S}
+5  *5 H 0 {1,S}
+6     R 0 {2,S}
+7     R 0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.813e+10,"cm^3/(mol*s)","*|/",10),
-        n = .439,
+        n = 0.439,
         alpha = 0,
         E0 = (11.894,"kcal/mol","+|-",2),
         Tmin = (600,"K"),
@@ -559,7 +560,7 @@ entry(
     referenceType = "",
     rank = 3,
     shortDesc = u"""Same as node 847 (MRH assumption)""",
-    longDesc =
+    longDesc = 
 u"""
 MRH approximation for the general OCOO node
 

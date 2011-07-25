@@ -6,6 +6,7 @@ shortDesc = u""
 longDesc = u"""
 
 """
+recommended = False
 
 entry(
     index = 1,

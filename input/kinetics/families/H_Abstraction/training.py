@@ -7,51 +7,47 @@ longDesc = u"""
 Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
+recommended = False
 
 entry(
     index = 301,
     reactant1 = 
 """
-H2O2
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-butan-1-ol-4-yl
-1  *3 C 1 {2,S}
-2     C 0 {1,S} {3,S}
-3     C 0 {2,S} {4,S}
-4     C 0 {3,S} {5,S}
-5     O 0 {4,S}
+1  *3 C     1 {2,S}
+2     C     0 {1,S} {3,S}
+3     C     0 {2,S} {4,S}
+4     C     0 {3,S} {5,S}
+5     O     0 {4,S}
 """,
     product1 = 
 """
-HO2
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-n-butanol
-1  *1 C 0 {2,S} {6,S}
-2     C 0 {1,S} {3,S}
-3     C 0 {2,S} {4,S}
-4     C 0 {3,S} {5,S}
-5     O 0 {4,S}
-6  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {6,S}
+2     C     0 {1,S} {3,S}
+3     C     0 {2,S} {4,S}
+4     C     0 {3,S} {5,S}
+5     O     0 {4,S}
+6  *2 H     0 {1,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (2.88*2,"cm^3/(mol*s)"),
+        A = (5.76,"cm^3/(mol*s)"),
         n = 3.16,
         Ea = (0.75,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -84,46 +80,41 @@ entry(
     index = 302,
     reactant1 = 
 """
-H2O2
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-butan-1-ol-3-yl
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S}
-3     C 0 {2,S} {4,S}
-4     C 0 {3,S} {5,S}
-5     O 0 {4,S}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S}
+3     C     0 {2,S} {4,S}
+4     C     0 {3,S} {5,S}
+5     O     0 {4,S}
 """,
     product1 = 
 """
-HO2
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-n-butanol
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {6,S}
-3     C 0 {2,S} {4,S}
-4     C 0 {3,S} {5,S}
-5     O 0 {4,S}
-6  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {6,S}
+3     C     0 {2,S} {4,S}
+4     C     0 {3,S} {5,S}
+5     O     0 {4,S}
+6  *2 H     0 {2,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (0.675*2,"cm^3/(mol*s)"),
+        A = (1.35,"cm^3/(mol*s)"),
         n = 3.42,
         Ea = (1.43,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -156,46 +147,41 @@ entry(
     index = 303,
     reactant1 = 
 """
-H2O2
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-butan-1-ol-2-yl
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S}
-3  *3 C 1 {2,S} {4,S}
-4     C 0 {3,S} {5,S}
-5     O 0 {4,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S}
+3  *3 C     1 {2,S} {4,S}
+4     C     0 {3,S} {5,S}
+5     O     0 {4,S}
 """,
     product1 = 
 """
-HO2
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-n-butanol
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S}
-3  *1 C 0 {2,S} {4,S} {6,S}
-4     C 0 {3,S} {5,S}
-5     O 0 {4,S}
-6  *2 H 0 {3,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S}
+3  *1 C     0 {2,S} {4,S} {6,S}
+4     C     0 {3,S} {5,S}
+5     O     0 {4,S}
+6  *2 H     0 {3,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (0.3145*2,"cm^3/(mol*s)"),
+        A = (0.629,"cm^3/(mol*s)"),
         n = 3.52,
         Ea = (1.61,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -228,46 +214,41 @@ entry(
     index = 304,
     reactant1 = 
 """
-H2O2
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-butan-1-ol-2-yl
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S}
-3     C 0 {2,S} {4,S}
-4  *3 C 1 {3,S} {5,S}
-5     O 0 {4,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S}
+3     C     0 {2,S} {4,S}
+4  *3 C     1 {3,S} {5,S}
+5     O     0 {4,S}
 """,
     product1 = 
 """
-HO2
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-n-butanol
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S}
-3     C 0 {2,S} {4,S}
-4  *1 C 0 {3,S} {5,S} {6,S}
-5     O 0 {4,S}
-6  *2 H 0 {4,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S}
+3     C     0 {2,S} {4,S}
+4  *1 C     0 {3,S} {5,S} {6,S}
+5     O     0 {4,S}
+6  *2 H     0 {4,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.485*2,"cm^3/(mol*s)"),
+        A = (2.97,"cm^3/(mol*s)"),
         n = 3.39,
         Ea = (1.4,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -300,46 +281,41 @@ entry(
     index = 305,
     reactant1 = 
 """
-H2O2
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-butan-2-ol-4-yl
-1  *3 C 1 {2,S}
-2     C 0 {1,S} {3,S}
-3     C 0 {2,S} {4,S} {5,S}
-4     C 0 {3,S}
-5     O 0 {3,S}
+1  *3 C     1 {2,S}
+2     C     0 {1,S} {3,S}
+3     C     0 {2,S} {4,S} {5,S}
+4     C     0 {3,S}
+5     O     0 {3,S}
 """,
     product1 = 
 """
-HO2
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-2-butanol
-1  *1 C 0 {2,S} {6,S}
-2     C 0 {1,S} {3,S}
-3     C 0 {2,S} {4,S} {5,S}
-4     C 0 {3,S}
-5     O 0 {3,S}
-6  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {6,S}
+2     C     0 {1,S} {3,S}
+3     C     0 {2,S} {4,S} {5,S}
+4     C     0 {3,S}
+5     O     0 {3,S}
+6  *2 H     0 {1,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (5.75*2,"cm^3/(mol*s)"),
+        A = (11.5,"cm^3/(mol*s)"),
         n = 2.94,
         Ea = (0.46,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -364,46 +340,41 @@ entry(
     index = 306,
     reactant1 = 
 """
-H2O2
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-butan-2-ol-3-yl
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S}
-3     C 0 {2,S} {4,S} {5,S}
-4     C 0 {3,S}
-5     O 0 {3,S}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S}
+3     C     0 {2,S} {4,S} {5,S}
+4     C     0 {3,S}
+5     O     0 {3,S}
 """,
     product1 = 
 """
-HO2
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-2-butanol
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {6,S}
-3     C 0 {2,S} {4,S} {5,S}
-4     C 0 {3,S}
-5     O 0 {3,S}
-6  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {6,S}
+3     C     0 {2,S} {4,S} {5,S}
+4     C     0 {3,S}
+5     O     0 {3,S}
+6  *2 H     0 {2,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (0.875*2,"cm^3/(mol*s)"),
+        A = (1.75,"cm^3/(mol*s)"),
         n = 2.91,
         Ea = (-0.41,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -428,46 +399,41 @@ entry(
     index = 307,
     reactant1 = 
 """
-H2O2
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-butan-2-ol-2-yl
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S}
-3  *3 C 1 {2,S} {4,S} {5,S}
-4     C 0 {3,S}
-5     O 0 {3,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S}
+3  *3 C     1 {2,S} {4,S} {5,S}
+4     C     0 {3,S}
+5     O     0 {3,S}
 """,
     product1 = 
 """
-HO2
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-2-butanol
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S}
-3  *1 C 0 {2,S} {4,S} {5,S} {6,S}
-4     C 0 {3,S}
-5     O 0 {3,S}
-6  *2 H 0 {3,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S}
+3  *1 C     0 {2,S} {4,S} {5,S} {6,S}
+4     C     0 {3,S}
+5     O     0 {3,S}
+6  *2 H     0 {3,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (17.3*2,"cm^3/(mol*s)"),
+        A = (34.6,"cm^3/(mol*s)"),
         n = 3.05,
         Ea = (1.02,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -492,46 +458,41 @@ entry(
     index = 308,
     reactant1 = 
 """
-H2O2
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-butan-2-ol-1-yl
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S}
-3     C 0 {2,S} {4,S} {5,S}
-4  *3 C 1 {3,S}
-5     O 0 {3,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S}
+3     C     0 {2,S} {4,S} {5,S}
+4  *3 C     1 {3,S}
+5     O     0 {3,S}
 """,
     product1 = 
 """
-HO2
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-2-butanol
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S}
-3     C 0 {2,S} {4,S} {5,S}
-4  *1 C 0 {3,S} {6,S}
-5     O 0 {3,S}
-6  *2 H 0 {4,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S}
+3     C     0 {2,S} {4,S} {5,S}
+4  *1 C     0 {3,S} {6,S}
+5     O     0 {3,S}
+6  *2 H     0 {4,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (0.3055*2,"cm^3/(mol*s)"),
+        A = (0.611,"cm^3/(mol*s)"),
         n = 3.53,
         Ea = (1.52,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -556,46 +517,41 @@ entry(
     index = 309,
     reactant1 = 
 """
-H2O2
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-t-butanol-yl
-1     C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 C 1 {1,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     O 0 {1,S}
+1     C     0 {2,S} {3,S} {4,S} {5,S}
+2  *3 C     1 {1,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {1,S}
 """,
     product1 = 
 """
-HO2
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-t-butanol
-1     C 0 {2,S} {3,S} {4,S} {5,S}
-2  *1 C 0 {1,S} {6,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     O 0 {1,S}
-6  *2 H 0 {2,S}
+1     C     0 {2,S} {3,S} {4,S} {5,S}
+2  *1 C     0 {1,S} {6,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {1,S}
+6  *2 H     0 {2,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (0.21*2,"cm^3/(mol*s)"),
+        A = (0.42,"cm^3/(mol*s)"),
         n = 3.53,
         Ea = (1.56,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -620,35 +576,31 @@ entry(
     index = 500,
     reactant1 = 
 """
-formaldehyde
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1  *1 C     0 {2,D} {3,S}
+2     O     0 {1,D}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-isobuten-1-yl
-1     C 0 {2,D}
-2     C 0 {1,D} {3,S} {4,S}
-3  *3 C 1 {2,S}
-4     C 0 {2,S}
+1     C     0 {2,D}
+2     C     0 {1,D} {3,S} {4,S}
+3  *3 C     1 {2,S}
+4     C     0 {2,S}
 """,
     product1 = 
 """
-formyl
-1  *3 C 1 {2,D}
-2     O 0 {1,D}
+1  *3 C     1 {2,D}
+2     O     0 {1,D}
 """,
     product2 = 
 """
-isobutene
-1     C 0 {2,D}
-2     C 0 {1,D} {3,S} {4,S}
-3  *1 C 0 {2,S} {5,S}
-4     C 0 {2,S}
-5  *2 H 0 {3,S}
+1     C     0 {2,D}
+2     C     0 {1,D} {3,S} {4,S}
+3  *1 C     0 {2,S} {5,S}
+4     C     0 {2,S}
+5  *2 H     0 {3,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (0.0613,"cm^3/(mol*s)"),
         n = 3.95,
@@ -657,7 +609,6 @@ isobutene
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -691,43 +642,43 @@ entry(
     index = 501,
     reactant1 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {4,S}
-3     C 0 {2,S}
-4  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {4,S}
+3     C     0 {2,S}
+4  *2 H     0 {2,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product1 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S}
-3     C 0 {2,S}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S}
+3     C     0 {2,S}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {5,S} {6,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {5,S} {6,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {2,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (9.11e-07*2,"cm^3/(mol*s)"),
+        A = (1.822e-06,"cm^3/(mol*s)"),
         n = 5.11,
         Ea = (5.69,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -753,43 +704,43 @@ entry(
     index = 502,
     reactant1 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3  *1 C 0 {2,S} {4,S} {6,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {3,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3  *1 C     0 {2,S} {4,S} {6,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {3,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S}
-3     C 0 {2,S}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S}
+3     C     0 {2,S}
 """,
     product1 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3  *3 C 1 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3  *3 C     1 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {4,S}
-3     C 0 {2,S}
-4  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {4,S}
+3     C     0 {2,S}
+4  *2 H     0 {2,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.06e-06*2,"cm^3/(mol*s)"),
+        A = (2.12e-06,"cm^3/(mol*s)"),
         n = 5.06,
         Ea = (4.89,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -815,45 +766,45 @@ entry(
     index = 503,
     reactant1 = 
 """
-1     C 0 {2,D}
-2     C 0 {1,D} {3,S} {4,S}
-3  *1 C 0 {2,S} {5,S}
-4     C 0 {2,S}
-5  *2 H 0 {3,S}
+1     C     0 {2,D}
+2     C     0 {1,D} {3,S} {4,S}
+3  *1 C     0 {2,S} {5,S}
+4     C     0 {2,S}
+5  *2 H     0 {3,S}
 """,
     reactant2 = 
 """
-1  *3 C 1 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1  *3 C     1 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product1 = 
 """
-1     C 0 {2,D}
-2     C 0 {1,D} {3,S} {4,S}
-3  *3 C 1 {2,S}
-4     C 0 {2,S}
+1     C     0 {2,D}
+2     C     0 {1,D} {3,S} {4,S}
+3  *3 C     1 {2,S}
+4     C     0 {2,S}
 """,
     product2 = 
 """
-1  *1 C 0 {2,S} {6,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {6,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {1,S}
 """,
+    degeneracy = 6,
     kinetics = Arrhenius(
-        A = (8.39e-06*6,"cm^3/(mol*s)"),
+        A = (5.034e-05,"cm^3/(mol*s)"),
         n = 4.89,
         Ea = (4.32,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 6,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -879,45 +830,45 @@ entry(
     index = 504,
     reactant1 = 
 """
-1     C 0 {2,D}
-2     C 0 {1,D} {3,S} {4,S}
-3  *1 C 0 {2,S} {5,S}
-4     C 0 {2,S}
-5  *2 H 0 {3,S}
+1     C     0 {2,D}
+2     C     0 {1,D} {3,S} {4,S}
+3  *1 C     0 {2,S} {5,S}
+4     C     0 {2,S}
+5  *2 H     0 {3,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product1 = 
 """
-1     C 0 {2,D}
-2     C 0 {1,D} {3,S} {4,S}
-3  *3 C 1 {2,S}
-4     C 0 {2,S}
+1     C     0 {2,D}
+2     C     0 {1,D} {3,S} {4,S}
+3  *3 C     1 {2,S}
+4     C     0 {2,S}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {5,S} {6,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {5,S} {6,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {2,S}
 """,
+    degeneracy = 6,
     kinetics = Arrhenius(
-        A = (1.44e-05*6,"cm^3/(mol*s)"),
+        A = (8.64e-05,"cm^3/(mol*s)"),
         n = 4.52,
         Ea = (1.46,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 6,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -943,45 +894,45 @@ entry(
     index = 505,
     reactant1 = 
 """
-1     C 0 {2,D}
-2     C 0 {1,D} {3,S} {4,S}
-3  *1 C 0 {2,S} {5,S}
-4     C 0 {2,S}
-5  *2 H 0 {3,S}
+1     C     0 {2,D}
+2     C     0 {1,D} {3,S} {4,S}
+3  *1 C     0 {2,S} {5,S}
+4     C     0 {2,S}
+5  *2 H     0 {3,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3  *3 C 1 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3  *3 C     1 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product1 = 
 """
-1     C 0 {2,D}
-2     C 0 {1,D} {3,S} {4,S}
-3  *3 C 1 {2,S}
-4     C 0 {2,S}
+1     C     0 {2,D}
+2     C     0 {1,D} {3,S} {4,S}
+3  *3 C     1 {2,S}
+4     C     0 {2,S}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3  *1 C 0 {2,S} {4,S} {6,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {3,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3  *1 C     0 {2,S} {4,S} {6,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {3,S}
 """,
+    degeneracy = 6,
     kinetics = Arrhenius(
-        A = (4.91e-06*6,"cm^3/(mol*s)"),
+        A = (2.946e-05,"cm^3/(mol*s)"),
         n = 5.07,
         Ea = (3.66,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 6,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1007,45 +958,45 @@ entry(
     index = 506,
     reactant1 = 
 """
-1     C 0 {2,D}
-2     C 0 {1,D} {3,S} {4,S}
-3  *1 C 0 {2,S} {5,S}
-4     C 0 {2,S}
-5  *2 H 0 {3,S}
+1     C     0 {2,D}
+2     C     0 {1,D} {3,S} {4,S}
+3  *1 C     0 {2,S} {5,S}
+4     C     0 {2,S}
+5  *2 H     0 {3,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4  *3 O 1 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4  *3 O     1 {3,S}
+5     C     0 {2,S}
 """,
     product1 = 
 """
-1     C 0 {2,D}
-2     C 0 {1,D} {3,S} {4,S}
-3  *3 C 1 {2,S}
-4     C 0 {2,S}
+1     C     0 {2,D}
+2     C     0 {1,D} {3,S} {4,S}
+3  *3 C     1 {2,S}
+4     C     0 {2,S}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4  *1 O 0 {3,S} {6,S}
-5     C 0 {2,S}
-6  *2 H 0 {4,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4  *1 O     0 {3,S} {6,S}
+5     C     0 {2,S}
+6  *2 H     0 {4,S}
 """,
+    degeneracy = 6,
     kinetics = Arrhenius(
-        A = (0.583*6,"cm^3/(mol*s)"),
+        A = (3.498,"cm^3/(mol*s)"),
         n = 3.74,
         Ea = (1.45,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 6,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1071,43 +1022,43 @@ entry(
     index = 507,
     reactant1 = 
 """
-1  *1 C 0 {2,S} {4,S}
-2     C 0 {1,S} {3,D}
-3     C 0 {2,D}
-4  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {4,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D}
+4  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 C 1 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1  *3 C     1 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product1 = 
 """
-1  *3 C 1 {2,S}
-2     C 0 {1,S} {3,D}
-3     C 0 {2,D}
+1  *3 C     1 {2,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D}
 """,
     product2 = 
 """
-1  *1 C 0 {2,S} {6,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {6,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {1,S}
 """,
+    degeneracy = 3,
     kinetics = Arrhenius(
-        A = (3.36e-05*3,"cm^3/(mol*s)"),
+        A = (0.0001008,"cm^3/(mol*s)"),
         n = 4.75,
         Ea = (4.13,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 3,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1137,43 +1088,43 @@ entry(
     index = 508,
     reactant1 = 
 """
-1  *1 C 0 {2,S} {4,S}
-2     C 0 {1,S} {3,D}
-3     C 0 {2,D}
-4  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {4,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D}
+4  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product1 = 
 """
-1  *3 C 1 {2,S}
-2     C 0 {1,S} {3,D}
-3     C 0 {2,D}
+1  *3 C     1 {2,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {5,S} {6,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {5,S} {6,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {2,S}
 """,
+    degeneracy = 3,
     kinetics = Arrhenius(
-        A = (1.64e-06*3,"cm^3/(mol*s)"),
+        A = (4.92e-06,"cm^3/(mol*s)"),
         n = 4.98,
         Ea = (3.18,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 3,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1203,43 +1154,43 @@ entry(
     index = 509,
     reactant1 = 
 """
-1  *1 C 0 {2,S} {4,S}
-2     C 0 {1,S} {3,D}
-3     C 0 {2,D}
-4  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {4,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D}
+4  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3  *3 C 1 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3  *3 C     1 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product1 = 
 """
-1  *3 C 1 {2,S}
-2     C 0 {1,S} {3,D}
-3     C 0 {2,D}
+1  *3 C     1 {2,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3  *1 C 0 {2,S} {4,S} {6,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {3,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3  *1 C     0 {2,S} {4,S} {6,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {3,S}
 """,
+    degeneracy = 3,
     kinetics = Arrhenius(
-        A = (3.11e-06*3,"cm^3/(mol*s)"),
+        A = (9.33e-06,"cm^3/(mol*s)"),
         n = 4.97,
         Ea = (3.64,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 3,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1265,43 +1216,43 @@ entry(
     index = 510,
     reactant1 = 
 """
-1  *1 C 0 {2,S} {4,S}
-2     C 0 {1,S} {3,D}
-3     C 0 {2,D}
-4  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {4,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D}
+4  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4  *3 O 1 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4  *3 O     1 {3,S}
+5     C     0 {2,S}
 """,
     product1 = 
 """
-1  *3 C 1 {2,S}
-2     C 0 {1,S} {3,D}
-3     C 0 {2,D}
+1  *3 C     1 {2,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4  *1 O 0 {3,S} {6,S}
-5     C 0 {2,S}
-6  *2 H 0 {4,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4  *1 O     0 {3,S} {6,S}
+5     C     0 {2,S}
+6  *2 H     0 {4,S}
 """,
+    degeneracy = 3,
     kinetics = Arrhenius(
-        A = (0.119*3,"cm^3/(mol*s)"),
+        A = (0.357,"cm^3/(mol*s)"),
         n = 3.9,
         Ea = (1.81,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 3,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1327,41 +1278,41 @@ entry(
     index = 511,
     reactant1 = 
 """
-1  *1 C 0 {2,S} {3,S}
-2     C 0 {1,S}
-3  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 C 1 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1  *3 C     1 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product1 = 
 """
-1  *3 C 1 {2,S}
-2     C 0 {1,S}
+1  *3 C     1 {2,S}
+2     C     0 {1,S}
 """,
     product2 = 
 """
-1  *1 C 0 {2,S} {6,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {6,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {1,S}
 """,
+    degeneracy = 6,
     kinetics = Arrhenius(
-        A = (3.21e-06*6,"cm^3/(mol*s)"),
+        A = (1.926e-05,"cm^3/(mol*s)"),
         n = 5.28,
         Ea = (7.78,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 6,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1391,32 +1342,33 @@ entry(
     index = 512,
     reactant1 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {5,S} {6,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {5,S} {6,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {2,S}
 """,
     reactant2 = 
 """
-1  *3 C 1 {2,S}
-2     C 0 {1,S}
+1  *3 C     1 {2,S}
+2     C     0 {1,S}
 """,
     product1 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product2 = 
 """
-1  *1 C 0 {2,S} {3,S}
-2     C 0 {1,S}
-3  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *2 H     0 {1,S}
 """,
+    degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.41e-05,"cm^3/(mol*s)"),
         n = 4.83,
@@ -1425,7 +1377,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 1,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1455,41 +1406,41 @@ entry(
     index = 513,
     reactant1 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3  *1 C 0 {2,S} {4,S} {6,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {3,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3  *1 C     0 {2,S} {4,S} {6,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {3,S}
 """,
     reactant2 = 
 """
-1  *3 C 1 {2,S}
-2     C 0 {1,S}
+1  *3 C     1 {2,S}
+2     C     0 {1,S}
 """,
     product1 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3  *3 C 1 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3  *3 C     1 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product2 = 
 """
-1  *1 C 0 {2,S} {3,S}
-2     C 0 {1,S}
-3  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *2 H     0 {1,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (4.25e-06*2,"cm^3/(mol*s)"),
+        A = (8.5e-06,"cm^3/(mol*s)"),
         n = 5.01,
         Ea = (5.01,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1515,41 +1466,41 @@ entry(
     index = 514,
     reactant1 = 
 """
-1  *1 C 0 {2,S} {3,S}
-2     C 0 {1,S}
-3  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4  *3 O 1 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4  *3 O     1 {3,S}
+5     C     0 {2,S}
 """,
     product1 = 
 """
-1  *3 C 1 {2,S}
-2     C 0 {1,S}
+1  *3 C     1 {2,S}
+2     C     0 {1,S}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4  *1 O 0 {3,S} {6,S}
-5     C 0 {2,S}
-6  *2 H 0 {4,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4  *1 O     0 {3,S} {6,S}
+5     C     0 {2,S}
+6  *2 H     0 {4,S}
 """,
+    degeneracy = 6,
     kinetics = Arrhenius(
-        A = (0.00507*6,"cm^3/(mol*s)"),
+        A = (0.03042,"cm^3/(mol*s)"),
         n = 4.52,
         Ea = (2.34,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 6,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1575,32 +1526,33 @@ entry(
     index = 515,
     reactant1 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {5,S} {6,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {5,S} {6,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {2,S}
 """,
     reactant2 = 
 """
-1  *3 C 1 {2,D}
-2     C 0 {1,D}
+1  *3 C     1 {2,D}
+2     C     0 {1,D}
 """,
     product1 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product2 = 
 """
-1  *1 C 0 {2,D} {3,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
+1  *1 C     0 {2,D} {3,S}
+2     C     0 {1,D}
+3  *2 H     0 {1,S}
 """,
+    degeneracy = 1,
     kinetics = Arrhenius(
         A = (5.49,"cm^3/(mol*s)"),
         n = 3.33,
@@ -1609,7 +1561,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 1,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1639,43 +1590,43 @@ entry(
     index = 516,
     reactant1 = 
 """
-1  *1 C 0 {2,S} {6,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {6,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,D}
-2  *3 C 1 {1,D} {3,S}
-3     C 0 {2,S}
+1     C     0 {2,D}
+2  *3 C     1 {1,D} {3,S}
+3     C     0 {2,S}
 """,
     product1 = 
 """
-1  *3 C 1 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1  *3 C     1 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product2 = 
 """
-1     C 0 {2,D}
-2  *1 C 0 {1,D} {3,S} {4,S}
-3     C 0 {2,S}
-4  *2 H 0 {2,S}
+1     C     0 {2,D}
+2  *1 C     0 {1,D} {3,S} {4,S}
+3     C     0 {2,S}
+4  *2 H     0 {2,S}
 """,
+    degeneracy = 6,
     kinetics = Arrhenius(
-        A = (3.11e-05*6,"cm^3/(mol*s)"),
+        A = (0.0001866,"cm^3/(mol*s)"),
         n = 4.87,
         Ea = (3.5,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 6,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1701,43 +1652,43 @@ entry(
     index = 517,
     reactant1 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3  *1 C 0 {2,S} {4,S} {6,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {3,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3  *1 C     0 {2,S} {4,S} {6,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {3,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,D}
-2  *3 C 1 {1,D} {3,S}
-3     C 0 {2,S}
+1     C     0 {2,D}
+2  *3 C     1 {1,D} {3,S}
+3     C     0 {2,S}
 """,
     product1 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3  *3 C 1 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3  *3 C     1 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product2 = 
 """
-1     C 0 {2,D}
-2  *1 C 0 {1,D} {3,S} {4,S}
-3     C 0 {2,S}
-4  *2 H 0 {2,S}
+1     C     0 {2,D}
+2  *1 C     0 {1,D} {3,S} {4,S}
+3     C     0 {2,S}
+4  *2 H     0 {2,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (0.0128*2,"cm^3/(mol*s)"),
+        A = (0.0256,"cm^3/(mol*s)"),
         n = 4.09,
         Ea = (1.31,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1763,45 +1714,45 @@ entry(
     index = 518,
     reactant1 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,D}
-4     O 0 {3,D}
-5  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,D}
+4     O     0 {3,D}
+5  *2 H     0 {2,S}
 """,
     reactant2 = 
 """
-1  *3 C 1 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1  *3 C     1 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product1 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S}
-3     C 0 {2,S} {4,D}
-4     O 0 {3,D}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S}
+3     C     0 {2,S} {4,D}
+4     O     0 {3,D}
 """,
     product2 = 
 """
-1  *1 C 0 {2,S} {6,S}
-2     C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {6,S}
+2     C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {1,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (0.000156*2,"cm^3/(mol*s)"),
+        A = (0.000312,"cm^3/(mol*s)"),
         n = 4.31,
         Ea = (3.39,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1827,36 +1778,37 @@ entry(
     index = 519,
     reactant1 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {5,S} {6,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {5,S} {6,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {2,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S}
-3     C 0 {2,S} {4,D}
-4     O 0 {3,D}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S}
+3     C     0 {2,S} {4,D}
+4     O     0 {3,D}
 """,
     product1 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,D}
-4     O 0 {3,D}
-5  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,D}
+4     O     0 {3,D}
+5  *2 H     0 {2,S}
 """,
+    degeneracy = 1,
     kinetics = Arrhenius(
         A = (0.000485,"cm^3/(mol*s)"),
         n = 4.37,
@@ -1865,7 +1817,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 1,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1891,45 +1842,45 @@ entry(
     index = 520,
     reactant1 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3  *1 C 0 {2,S} {4,S} {6,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {3,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3  *1 C     0 {2,S} {4,S} {6,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {3,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S}
-3     C 0 {2,S} {4,D}
-4     O 0 {3,D}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S}
+3     C     0 {2,S} {4,D}
+4     O     0 {3,D}
 """,
     product1 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S} {5,S}
-3  *3 C 1 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S} {5,S}
+3  *3 C     1 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,D}
-4     O 0 {3,D}
-5  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,D}
+4     O     0 {3,D}
+5  *2 H     0 {2,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (0.00184*2,"cm^3/(mol*s)"),
+        A = (0.00368,"cm^3/(mol*s)"),
         n = 4.02,
         Ea = (7.92,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -1955,30 +1906,31 @@ entry(
     index = 521,
     reactant1 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {5,S} {6,S}
-3     C 0 {2,S} {4,D}
-4     O 0 {3,D}
-5     C 0 {2,S}
-6  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {5,S} {6,S}
+3     C     0 {2,S} {4,D}
+4     O     0 {3,D}
+5     C     0 {2,S}
+6  *2 H     0 {2,S}
 """,
     reactant2 = 
 """
-1  *3 H 1
+1  *3 H     1
 """,
     product1 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,D}
-4     O 0 {3,D}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,D}
+4     O     0 {3,D}
+5     C     0 {2,S}
 """,
     product2 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1  *1 H     0 {2,S}
+2  *2 H     0 {1,S}
 """,
+    degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.08e+07,"cm^3/(mol*s)"),
         n = 1.84,
@@ -1987,7 +1939,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 1,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -2013,43 +1964,43 @@ entry(
     index = 522,
     reactant1 = 
 """
-1     C 0 {2,D}
-2     C 0 {1,D} {3,S} {4,S}
-3  *1 C 0 {2,S} {5,S}
-4     C 0 {2,S}
-5  *2 H 0 {3,S}
+1     C     0 {2,D}
+2     C     0 {1,D} {3,S} {4,S}
+3  *1 C     0 {2,S} {5,S}
+4     C     0 {2,S}
+5  *2 H     0 {3,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,D}
-3     C 0 {2,D} {4,S}
-4  *3 O 1 {3,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D} {4,S}
+4  *3 O     1 {3,S}
 """,
     product1 = 
 """
-1     C 0 {2,D}
-2     C 0 {1,D} {3,S} {4,S}
-3  *3 C 1 {2,S}
-4     C 0 {2,S}
+1     C     0 {2,D}
+2     C     0 {1,D} {3,S} {4,S}
+3  *3 C     1 {2,S}
+4     C     0 {2,S}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,D}
-3     C 0 {2,D} {4,S}
-4  *1 O 0 {3,S} {5,S}
-5  *2 H 0 {4,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D} {4,S}
+4  *1 O     0 {3,S} {5,S}
+5  *2 H     0 {4,S}
 """,
+    degeneracy = 6,
     kinetics = Arrhenius(
-        A = (7.52e-08*6,"cm^3/(mol*s)"),
+        A = (4.512e-07,"cm^3/(mol*s)"),
         n = 5.77,
         Ea = (12.04,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 6,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -2075,39 +2026,39 @@ entry(
     index = 525,
     reactant1 = 
 """
-1  *1 C 0 {2,S} {5,S}
-2     C 0 {1,S} {3,D}
-3     C 0 {2,D} {4,S}
-4     C 0 {3,S}
-5  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {5,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D} {4,S}
+4     C     0 {3,S}
+5  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product1 = 
 """
-1  *3 C 1 {2,S}
-2     C 0 {1,S} {3,D}
-3     C 0 {2,D} {4,S}
-4     C 0 {3,S}
+1  *3 C     1 {2,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D} {4,S}
+4     C     0 {3,S}
 """,
     product2 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S}
-3  *2 H 0 {1,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
+    degeneracy = 6,
     kinetics = Arrhenius(
-        A = (0.00057833*6,"cm^3/(mol*s)"),
+        A = (0.00346998,"cm^3/(mol*s)"),
         n = 4.65,
         Ea = (9.78,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (1500,"K"),
     ),
-    degeneracy = 6,
     reference = None,
     referenceType = "",
     rank = 5,
@@ -2133,41 +2084,39 @@ entry(
     index = 527,
     reactant1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,D}
-3     C 0 {2,D} {4,S}
-4     C 0 {3,S}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,D}
+3     C     0 {2,D} {4,S}
+4     C     0 {3,S}
 """,
     product1 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S} {3,S}
-3     H 0 {2,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,D} {5,S}
-3     C 0 {2,D} {4,S}
-4     C 0 {3,S}
-5  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,D} {5,S}
+3     C     0 {2,D} {4,S}
+4     C     0 {3,S}
+5  *2 H     0 {2,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (0.4375*2,"cm^3/(mol*s)"),
+        A = (0.875,"cm^3/(mol*s)"),
         n = 3.59,
         Ea = (-4.03,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (1500,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 5,
@@ -2195,39 +2144,39 @@ entry(
     index = 529,
     reactant1 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,D}
-4     C 0 {3,D}
-5  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,D}
+4     C     0 {3,D}
+5  *2 H     0 {2,S}
 """,
     reactant2 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product1 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S}
-3     C 0 {2,S} {4,D}
-4     C 0 {3,D}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S}
+3     C     0 {2,S} {4,D}
+4     C     0 {3,D}
 """,
     product2 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S}
-3  *2 H 0 {1,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (0.000254*2,"cm^3/(mol*s)"),
+        A = (0.000508,"cm^3/(mol*s)"),
         n = 4.59,
         Ea = (7.16,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (1500,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 5,
@@ -2255,32 +2204,31 @@ entry(
     index = 531,
     reactant1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S}
-3     C 0 {2,S} {4,D}
-4  *3 C 1 {3,D}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S}
+3     C     0 {2,S} {4,D}
+4  *3 C     1 {3,D}
 """,
     product1 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S} {3,S}
-3     H 0 {2,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S}
-3     C 0 {2,S} {4,D}
-4  *1 C 0 {3,D} {5,S}
-5  *2 H 0 {4,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S}
+3     C     0 {2,S} {4,D}
+4  *1 C     0 {3,D} {5,S}
+5  *2 H     0 {4,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (2,"cm^3/(mol*s)"),
         n = 3.52,
@@ -2289,7 +2237,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (1500,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 5,
@@ -2317,43 +2264,41 @@ entry(
     index = 534,
     reactant1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S}
-3     C 0 {2,S} {4,D}
-4     C 0 {3,D} {5,S}
-5  *3 O 1 {4,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S}
+3     C     0 {2,S} {4,D}
+4     C     0 {3,D} {5,S}
+5  *3 O     1 {4,S}
 """,
     product1 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S} {3,S}
-3     H 0 {2,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2     C 0 {1,S} {3,S}
-3     C 0 {2,S} {4,D}
-4     C 0 {3,D} {5,S}
-5  *1 O 0 {4,S} {6,S}
-6  *2 H 0 {5,S}
+1     C     0 {2,S}
+2     C     0 {1,S} {3,S}
+3     C     0 {2,S} {4,D}
+4     C     0 {3,D} {5,S}
+5  *1 O     0 {4,S} {6,S}
+6  *2 H     0 {5,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (0.03495*2,"cm^3/(mol*s)","*|/",3),
+        A = (0.0699,"cm^3/(mol*s)","*|/",3),
         n = 3.75,
         Ea = (10.89,"kcal/mol","+|-",2),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -2386,39 +2331,37 @@ entry(
     index = 536,
     reactant1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S} {3,S}
-3     C 0 {2,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
 """,
     product1 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S} {3,S}
-3     H 0 {2,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-1  *1 O 0 {2,S} {4,S}
-2     O 0 {1,S} {3,S}
-3     C 0 {2,S}
-4  *2 H 0 {1,S}
+1  *1 O     0 {2,S} {4,S}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4  *2 H     0 {1,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (0.092*2,"cm^3/(mol*s)","*|/",3),
+        A = (0.184,"cm^3/(mol*s)","*|/",3),
         n = 3.96,
         Ea = (6.63,"kcal/mol","+|-",2),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -2451,41 +2394,41 @@ entry(
     index = 538,
     reactant1 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,D}
-4     C 0 {3,D}
-5  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,D}
+4     C     0 {3,D}
+5  *2 H     0 {2,S}
 """,
     reactant2 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S} {3,S}
-3     C 0 {2,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
 """,
     product1 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S}
-3     C 0 {2,S} {4,D}
-4     C 0 {3,D}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S}
+3     C     0 {2,S} {4,D}
+4     C     0 {3,D}
 """,
     product2 = 
 """
-1  *1 O 0 {2,S} {4,S}
-2     O 0 {1,S} {3,S}
-3     C 0 {2,S}
-4  *2 H 0 {1,S}
+1  *1 O     0 {2,S} {4,S}
+2     O     0 {1,S} {3,S}
+3     C     0 {2,S}
+4  *2 H     0 {1,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (0.00741*2,"cm^3/(mol*s)","*|/",3),
+        A = (0.01482,"cm^3/(mol*s)","*|/",3),
         n = 4.313,
         Ea = (8.016,"kcal/mol","+|-",2),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -2527,43 +2470,37 @@ entry(
     index = 539,
     reactant1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1  *1 O     0 {2,S} {3,S}
+2     O     0 {1,S}
+3  *2 H     0 {1,S}
 """,
     reactant2 = 
 """
-1  *3 C 1 {2,S} {4,S} {5,S}
-2     C 0 {1,S} {3,D}
-3     C 0 {2,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1  *3 C     1 {2,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D}
 """,
     product1 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S} {3,S}
-3     H 0 {2,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-1  *1 C 0 {2,S} {4,S} {5,S} {6,S}
-2     C 0 {1,S} {3,D}
-3     C 0 {2,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6  *2 H 0 {1,S}
+1  *1 C     0 {2,S} {4,S}
+2     C     0 {1,S} {3,D}
+3     C     0 {2,D}
+4  *2 H     0 {1,S}
 """,
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (0.01755*2,"cm^3/(mol*s)","*|/",3),
+        A = (0.0351,"cm^3/(mol*s)","*|/",3),
         n = 4.22,
         Ea = (9.86,"kcal/mol","+|-",2),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -2596,34 +2533,35 @@ entry(
     index = 1002,
     reactant1 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {5,S} {6,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
-6  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {5,S} {6,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
+6  *2 H     0 {2,S}
 """,
     reactant2 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S}
-3     C 0 {2,S}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S}
+3     C     0 {2,S}
 """,
     product1 = 
 """
-1     C 0 {2,S}
-2  *3 C 1 {1,S} {3,S} {5,S}
-3     C 0 {2,S} {4,S}
-4     O 0 {3,S}
-5     C 0 {2,S}
+1     C     0 {2,S}
+2  *3 C     1 {1,S} {3,S} {5,S}
+3     C     0 {2,S} {4,S}
+4     O     0 {3,S}
+5     C     0 {2,S}
 """,
     product2 = 
 """
-1     C 0 {2,S}
-2  *1 C 0 {1,S} {3,S} {4,S}
-3     C 0 {2,S}
-4  *2 H 0 {2,S}
+1     C     0 {2,S}
+2  *1 C     0 {1,S} {3,S} {4,S}
+3     C     0 {2,S}
+4  *2 H     0 {2,S}
 """,
+    degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.35e-06,"cm^3/(mol*s)"),
         n = 4.84,
@@ -2632,7 +2570,6 @@ entry(
         Tmin = (300,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 1,
     reference = None,
     referenceType = "",
     rank = 3,
@@ -2660,57 +2597,44 @@ in good agreement with this expression (within a factor of 3.5 over the valid te
 
 entry(
     index = 1003,
-    reactant1 =
+    reactant1 = 
 """
-1  *1 C     0 {2,S} {5,S} {6,S} {7,S}
+1  *1 C     0 {2,S} {5,S}
 2     C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
-4     C     0 {2,S} {8,S} {9,S} {10,S}
+4     C     0 {2,S}
 5  *2 H     0 {1,S}
-6     H     0 {1,S}
-7     H     0 {1,S}
-8     H     0 {4,S}
-9     H     0 {4,S}
-10    H     0 {4,S}
 """,
-    reactant2 =
+    reactant2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1  *3 O     1
 """,
-    product1 =
+    product1 = 
 """
-1  *3 C     1 {2,S} {6,S} {7,S}
+1  *3 C     1 {2,S}
 2     C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
-4     C     0 {2,S} {8,S} {9,S} {10,S}
-6     H     0 {1,S}
-7     H     0 {1,S}
-8     H     0 {4,S}
-9     H     0 {4,S}
-10    H     0 {4,S}
-"""
-    ,
+4     C     0 {2,S}
+""",
     product2 = 
 """
-1  *1 O     0 {2,S} {3,S}
-2     H     0 {1,S}
-3  *2 H     0 {1,S}
-"""    ,
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    degeneracy = 6,
     kinetics = Arrhenius(
-        A = (22.1*6,"cm^3/(mol*s)"),
+        A = (132.6,"cm^3/(mol*s)"),
         n = 3.29,
-        Ea = (-1.00,"kcal/mol"),
+        Ea = (-1,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (500,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 6,
     reference = None,
     referenceType = "",
     rank = 3,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
-    longDesc =
+    longDesc = 
 u"""
 CC(=O)C + OH --> CJC(=O)C + H2O
 
@@ -2723,7 +2647,6 @@ transition state theory (VRC-TST) has been used for the rate constants of the ba
 Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
-
 """,
     history = [
         ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
@@ -2732,63 +2655,46 @@ DOI: 10.1039/C0CP02754E
 
 entry(
     index = 1004,
-    reactant1 =
+    reactant1 = 
 """
-1  *1 C     0 {2,S} {6,S} {7,S} {8,S}
+1  *1 C     0 {2,S} {6,S}
 2     C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
-4     C     0 {2,S} {5,S} {9,S} {10,S}
-5     C     0 {4,S} {11,S} {12,S} {13,S}
+4     C     0 {2,S} {5,S}
+5     C     0 {4,S}
 6  *2 H     0 {1,S}
-7     H     0 {1,S}
-8     H     0 {1,S}
-9     H     0 {4,S}
-10    H     0 {4,S}
-11    H     0 {5,S}
-12    H     0 {5,S}
-13    H     0 {5,S}
 """,
-    reactant2 =
+    reactant2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1  *3 O     1
 """,
-    product1 =
+    product1 = 
 """
-1  *3 C     1 {2,S} {7,S} {8,S}
+1  *3 C     1 {2,S}
 2     C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
-4     C     0 {2,S} {5,S} {9,S} {10,S}
-5     C     0 {4,S} {11,S} {12,S} {13,S}
-7     H     0 {1,S}
-8     H     0 {1,S}
-9     H     0 {4,S}
-10    H     0 {4,S}
-11    H     0 {5,S}
-12    H     0 {5,S}
-13    H     0 {5,S}
+4     C     0 {2,S} {5,S}
+5     C     0 {4,S}
+""",
+    product2 = 
 """
-    ,
-    product2 =
-"""
-1  *1 O     0 {2,S} {3,S}
-2     H     0 {1,S}
-3  *2 H     0 {1,S}
-"""    ,
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    degeneracy = 3,
     kinetics = Arrhenius(
-        A = (133*3,"cm^3/(mol*s)"),
+        A = (399,"cm^3/(mol*s)"),
         n = 3.08,
         Ea = (-0.9433,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (500,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 3,
     reference = None,
     referenceType = "",
     rank = 3,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
-    longDesc =
+    longDesc = 
 u"""
 CC(=O)CC + OH --> CJC(=O)CC + H2O
 
@@ -2801,7 +2707,6 @@ transition state theory (VRC-TST) has been used for the rate constants of the ba
 Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
-
 """,
     history = [
         ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
@@ -2810,63 +2715,46 @@ DOI: 10.1039/C0CP02754E
 
 entry(
     index = 1005,
-    reactant1 =
+    reactant1 = 
 """
-1     C     0 {2,S} {6,S} {7,S} {8,S}
+1     C     0 {2,S}
 2     C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
-4  *1 C     0 {2,S} {5,S} {9,S} {10,S}
-5     C     0 {4,S} {11,S} {12,S} {13,S}
-6     H     0 {1,S}
-7     H     0 {1,S}
-8     H     0 {1,S}
-9  *2 H     0 {4,S}
-10    H     0 {4,S}
-11    H     0 {5,S}
-12    H     0 {5,S}
-13    H     0 {5,S}
+4  *1 C     0 {2,S} {5,S} {6,S}
+5     C     0 {4,S}
+6  *2 H     0 {4,S}
 """,
-    reactant2 =
+    reactant2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1  *3 O     1
 """,
-    product1 =
+    product1 = 
 """
-1     C     0 {2,S} {6,S} {7,S} {8,S}
+1     C     0 {2,S}
 2     C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
-4  *3 C     1 {2,S} {5,S} {10,S}
-5     C     0 {4,S} {11,S} {12,S} {13,S}
-6     H     0 {1,S}
-7     H     0 {1,S}
-8     H     0 {1,S}
-10    H     0 {4,S}
-11    H     0 {5,S}
-12    H     0 {5,S}
-13    H     0 {5,S}
+4  *3 C     1 {2,S} {5,S}
+5     C     0 {4,S}
+""",
+    product2 = 
 """
-    ,
-    product2 =
-"""
-1  *1 O     0 {2,S} {3,S}
-2     H     0 {1,S}
-3  *2 H     0 {1,S}
-"""    ,
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    degeneracy = 2,
     kinetics = Arrhenius(
-        A = (118*2,"cm^3/(mol*s)"),
-        n = 3.15,        
+        A = (236,"cm^3/(mol*s)"),
+        n = 3.15,
         Ea = (-3.048,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (500,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 2,
     reference = None,
     referenceType = "",
     rank = 3,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
-    longDesc =
+    longDesc = 
 u"""
 CC(=O)CC + OH --> CC(=)CJC + H2O
 
@@ -2879,7 +2767,6 @@ transition state theory (VRC-TST) has been used for the rate constants of the ba
 Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
-
 """,
     history = [
         ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
@@ -2888,63 +2775,46 @@ DOI: 10.1039/C0CP02754E
 
 entry(
     index = 1006,
-    reactant1 =
+    reactant1 = 
 """
-1     C     0 {2,S} {6,S} {7,S} {8,S}
+1     C     0 {2,S}
 2     C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
-4     C     0 {2,S} {5,S} {9,S} {10,S}
-5  *1 C     0 {4,S} {11,S} {12,S} {13,S}
-6     H     0 {1,S}
-7     H     0 {1,S}
-8     H     0 {1,S}
-9     H     0 {4,S}
-10    H     0 {4,S}
-11 *2 H     0 {5,S}
-12    H     0 {5,S}
-13    H     0 {5,S}
+4     C     0 {2,S} {5,S}
+5  *1 C     0 {4,S} {6,S}
+6  *2 H     0 {5,S}
 """,
-    reactant2 =
+    reactant2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1  *3 O     1
 """,
-    product1 =
+    product1 = 
 """
-1     C     0 {2,S} {6,S} {7,S} {8,S}
+1     C     0 {2,S}
 2     C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
-4     C     0 {2,S} {5,S} {9,S} {10,S}
-5  *3 C     1 {4,S} {12,S} {13,S}
-6     H     0 {1,S}
-7     H     0 {1,S}
-8     H     0 {1,S}
-9     H     0 {4,S}
-10    H     0 {4,S}
-12    H     0 {5,S}
-13    H     0 {5,S}
+4     C     0 {2,S} {5,S}
+5  *3 C     1 {4,S}
+""",
+    product2 = 
 """
-    ,
-    product2 =
-"""
-1  *1 O     0 {2,S} {3,S}
-2     H     0 {1,S}
-3  *2 H     0 {1,S}
-"""    ,
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    degeneracy = 3,
     kinetics = Arrhenius(
-        A = (.45*3,"cm^3/(mol*s)"),
-        n = 3.81,        
+        A = (1.35,"cm^3/(mol*s)"),
+        n = 3.81,
         Ea = (-2.897,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (500,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 3,
     reference = None,
     referenceType = "",
     rank = 3,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
-    longDesc =
+    longDesc = 
 u"""
 CC(=O)CC + OH --> CC(=O)CCJ + H2O
 
@@ -2957,7 +2827,6 @@ transition state theory (VRC-TST) has been used for the rate constants of the ba
 Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
-
 """,
     history = [
         ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
@@ -2966,69 +2835,48 @@ DOI: 10.1039/C0CP02754E
 
 entry(
     index = 1007,
-    reactant1 =
+    reactant1 = 
 """
-1  *1 C     0 {2,S} {7,S} {8,S} {9,S}
+1  *1 C     0 {2,S} {7,S}
 2     C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
-4     C     0 {2,S} {5,S} {6,S} {10,S}
-5     C     0 {4,S} {11,S} {12,S} {13,S}
-6     C     0 {4,S} {14,S} {15,S} {16,S}
+4     C     0 {2,S} {5,S} {6,S}
+5     C     0 {4,S}
+6     C     0 {4,S}
 7  *2 H     0 {1,S}
-8     H     0 {1,S}
-9     H     0 {1,S}
-10    H     0 {4,S}
-11    H     0 {5,S}
-12    H     0 {5,S}
-13    H     0 {5,S}
-14    H     0 {6,S}
-15    H     0 {6,S}
-16    H     0 {6,S}
 """,
-    reactant2 =
+    reactant2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1  *3 O     1
 """,
-    product1 =
+    product1 = 
 """
-1  *3 C     1 {2,S} {8,S} {9,S}
+1  *3 C     1 {2,S}
 2     C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
-4     C     0 {2,S} {5,S} {6,S} {10,S}
-5     C     0 {4,S} {11,S} {12,S} {13,S}
-6     C     0 {4,S} {14,S} {15,S} {16,S}
-8     H     0 {1,S}
-9     H     0 {1,S}
-10    H     0 {4,S}
-11    H     0 {5,S}
-12    H     0 {5,S}
-13    H     0 {5,S}
-14    H     0 {6,S}
-15    H     0 {6,S}
-16    H     0 {6,S}
+4     C     0 {2,S} {5,S} {6,S}
+5     C     0 {4,S}
+6     C     0 {4,S}
+""",
+    product2 = 
 """
-    ,
-    product2 =
-"""
-1  *1 O     0 {2,S} {3,S}
-2     H     0 {1,S}
-3  *2 H     0 {1,S}
-"""    ,
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    degeneracy = 3,
     kinetics = Arrhenius(
-        A = (856*3,"cm^3/(mol*s)"),
-        n = 2.90,        
+        A = (2568,"cm^3/(mol*s)"),
+        n = 2.9,
         Ea = (-1.0505,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (500,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 3,
     reference = None,
     referenceType = "",
     rank = 3,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
-    longDesc =
+    longDesc = 
 u"""
 CC(=O)C(C)C + OH --> CJC(=O)C(C)C
 
@@ -3041,7 +2889,6 @@ transition state theory (VRC-TST) has been used for the rate constants of the ba
 Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
-
 """,
     history = [
         ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
@@ -3050,69 +2897,48 @@ DOI: 10.1039/C0CP02754E
 
 entry(
     index = 1008,
-    reactant1 =
+    reactant1 = 
 """
-1     C     0 {2,S} {7,S} {8,S} {9,S}
+1     C     0 {2,S}
 2     C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
-4  *1 C     0 {2,S} {5,S} {6,S} {10,S}
-5     C     0 {4,S} {11,S} {12,S} {13,S}
-6     C     0 {4,S} {14,S} {15,S} {16,S}
-7     H     0 {1,S}
-8     H     0 {1,S}
-9     H     0 {1,S}
-10 *2 H     0 {4,S}
-11    H     0 {5,S}
-12    H     0 {5,S}
-13    H     0 {5,S}
-14    H     0 {6,S}
-15    H     0 {6,S}
-16    H     0 {6,S}
+4  *1 C     0 {2,S} {5,S} {6,S} {7,S}
+5     C     0 {4,S}
+6     C     0 {4,S}
+7  *2 H     0 {4,S}
 """,
-    reactant2 =
+    reactant2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1  *3 O     1
 """,
-    product1 =
+    product1 = 
 """
-1     C     0 {2,S} {7,S} {8,S} {9,S}
+1     C     0 {2,S}
 2     C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
 4  *3 C     1 {2,S} {5,S} {6,S}
-5     C     0 {4,S} {11,S} {12,S} {13,S}
-6     C     0 {4,S} {14,S} {15,S} {16,S}
-7     H     0 {1,S}
-8     H     0 {1,S}
-9     H     0 {1,S}
-11    H     0 {5,S}
-12    H     0 {5,S}
-13    H     0 {5,S}
-14    H     0 {6,S}
-15    H     0 {6,S}
-16    H     0 {6,S}
+5     C     0 {4,S}
+6     C     0 {4,S}
+""",
+    product2 = 
 """
-    ,
-    product2 =
-"""
-1  *1 O     0 {2,S} {3,S}
-2     H     0 {1,S}
-3  *2 H     0 {1,S}
-"""    ,
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    degeneracy = 1,
     kinetics = Arrhenius(
         A = (4920,"cm^3/(mol*s)"),
-        n = 2.70,        
+        n = 2.7,
         Ea = (-4.033,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (500,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 1,
     reference = None,
     referenceType = "",
     rank = 3,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
-    longDesc =
+    longDesc = 
 u"""
 CC(=O)C(C)C + OH --> CC(=O)CJ(C)C
 
@@ -3125,7 +2951,6 @@ transition state theory (VRC-TST) has been used for the rate constants of the ba
 Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
-
 """,
     history = [
         ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
@@ -3134,69 +2959,48 @@ DOI: 10.1039/C0CP02754E
 
 entry(
     index = 1009,
-    reactant1 =
+    reactant1 = 
 """
-1     C     0 {2,S} {7,S} {8,S} {9,S}
+1     C     0 {2,S}
 2     C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
-4     C     0 {2,S} {5,S} {6,S} {10,S}
-5     C     0 {4,S} {11,S} {12,S} {13,S}
-6  *1 C     0 {4,S} {14,S} {15,S} {16,S}
-7     H     0 {1,S}
-8     H     0 {1,S}
-9     H     0 {1,S}
-10    H     0 {4,S}
-11    H     0 {5,S}
-12    H     0 {5,S}
-13    H     0 {5,S}
-14 *2 H     0 {6,S}
-15    H     0 {6,S}
-16    H     0 {6,S}
+4     C     0 {2,S} {5,S} {6,S}
+5     C     0 {4,S}
+6  *1 C     0 {4,S} {7,S}
+7  *2 H     0 {6,S}
 """,
-    reactant2 =
+    reactant2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1  *3 O     1
 """,
-    product1 =
+    product1 = 
 """
-1     C     0 {2,S} {7,S} {8,S} {9,S}
+1     C     0 {2,S}
 2     C     0 {1,S} {3,D} {4,S}
 3     O     0 {2,D}
-4     C     0 {2,S} {5,S} {6,S} {10,S}
-5     C     0 {4,S} {11,S} {12,S} {13,S}
-6  *3 C     1 {4,S} {15,S} {16,S}
-7     H     0 {1,S}
-8     H     0 {1,S}
-9     H     0 {1,S}
-10    H     0 {4,S}
-11    H     0 {5,S}
-12    H     0 {5,S}
-13    H     0 {5,S}
-15    H     0 {6,S}
-16    H     0 {6,S}
+4     C     0 {2,S} {5,S} {6,S}
+5     C     0 {4,S}
+6  *3 C     1 {4,S}
+""",
+    product2 = 
 """
-    ,
-    product2 =
-"""
-1  *1 O     0 {2,S} {3,S}
-2     H     0 {1,S}
-3  *2 H     0 {1,S}
-"""    ,
+1  *1 O     0 {2,S}
+2  *2 H     0 {1,S}
+""",
+    degeneracy = 6,
     kinetics = Arrhenius(
-        A = (2.59*6,"cm^3/(mol*s)"),
+        A = (15.54,"cm^3/(mol*s)"),
         n = 3.54,
         Ea = (-2.907,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (500,"K"),
         Tmax = (2000,"K"),
     ),
-    degeneracy = 6,
     reference = None,
     referenceType = "",
     rank = 3,
     shortDesc = u"""John Simmie, G3 calculations. Rate constant per H atom.""",
-    longDesc =
+    longDesc = 
 u"""
 CC(=O)C(C)C + OH --> CC(=O)C(C)CJ + H2O
 
@@ -3209,9 +3013,9 @@ transition state theory (VRC-TST) has been used for the rate constants of the ba
 Chong-Wen Zhou, John M. Simmie and Henry J. Curran
 Phys. Chem. Chem. Phys., 2011, 13, 11175-11192
 DOI: 10.1039/C0CP02754E
-
 """,
     history = [
         ("Wed Jun  14 13:17:47 2011","Connie Gao <connieg@mit.edu>","action","""connieg added this entry."""),
     ],
 )
+
