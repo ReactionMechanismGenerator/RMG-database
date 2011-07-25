@@ -6,6 +6,7 @@ shortDesc = ""
 longDesc = """
 
 """
+recommended = True
 
 template(reactants=["COm", "Y_rad"], products=["YC.=O"], ownReverse=False)
 

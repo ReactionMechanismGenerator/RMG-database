@@ -7,7 +7,7 @@ longDesc = u"""
 Put kinetic parameters for reactions to use as a training set for fitting
 group additivity values in this file.
 """
-recommended = False
+recommended = True
 
 entry(
     index = 301,

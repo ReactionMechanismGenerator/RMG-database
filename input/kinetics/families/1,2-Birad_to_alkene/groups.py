@@ -6,6 +6,7 @@ shortDesc = ""
 longDesc = """
 
 """
+recommended = True
 
 template(reactants=["Y_12birad"], products=["Y_alkene"], ownReverse=False)
 

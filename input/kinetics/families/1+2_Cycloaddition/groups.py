@@ -6,6 +6,7 @@ shortDesc = ""
 longDesc = """
 
 """
+recommended = True
 
 template(reactants=["multiplebond", "elec_def"], products=["cycle"], ownReverse=False)
 

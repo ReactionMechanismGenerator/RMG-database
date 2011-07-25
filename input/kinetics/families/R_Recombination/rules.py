@@ -18,7 +18,7 @@ which is not mutually exclusive from its L2 siblings such as::
 
 is apparently not causing a problem
 """
-recommended = False
+recommended = True
 
 entry(
     index = 424,

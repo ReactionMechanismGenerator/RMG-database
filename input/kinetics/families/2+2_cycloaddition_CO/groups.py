@@ -6,6 +6,7 @@ shortDesc = ""
 longDesc = """
 
 """
+recommended = True
 
 template(reactants=["CO", "doublebond"], products=["four_ring"], ownReverse=False)
 

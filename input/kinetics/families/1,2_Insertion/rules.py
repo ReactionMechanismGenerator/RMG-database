@@ -8,7 +8,7 @@ longDesc = u"""
 
 transition states are treated as free rotations as they are relatively loose TSs.
 """
-recommended = False
+recommended = True
 
 entry(
     index = 553,

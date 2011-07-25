@@ -6,6 +6,7 @@ shortDesc = ""
 longDesc = """
 
 """
+recommended = True
 
 template(reactants=["ene", "diene_out"], products=["Six_Ring"], ownReverse=False)
 
