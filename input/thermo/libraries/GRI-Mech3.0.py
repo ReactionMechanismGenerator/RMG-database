@@ -14,7 +14,7 @@ GRI-Mech is the result of collaborative research of the Gas Research Institute
 and carried out at The University of California at Berkeley, Stanford 
 University, The University of Texas at Austin, and SRI International.
 """
-recommended = False
+recommended = True
 
 entry(
     index = 1,
