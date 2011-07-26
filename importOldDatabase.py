@@ -60,7 +60,8 @@ def setHistory(database, user):
     indicating the import event and its time.
     """
     # Add history item to each entry in each database
-    event = [time.asctime(),user,'action','{0} imported this entry from the old RMG database.'.format(user)]
+    # was time.asctime()
+    event = [time.strftime('%Y-%m-%d'),user,'action','{0} imported this entry from the old RMG database.'.format(user)]
     
     for depository in database.thermo.depository.values():
         for label, entry in depository.entries.iteritems():
@@ -72,19 +73,19 @@ def setHistory(database, user):
         for label, entry in groups.entries.iteritems():
             entry.history.append(event)
     
-    for depository in database.kinetics.depository.values():
-        for label, entry in depository.entries.iteritems():
-            entry.history.append(event)
+    #for depository in database.kinetics.depository.values():
+    #    for label, entry in depository.entries.iteritems():
+    #        entry.history.append(event)
     for library in database.kinetics.libraries.values():
         for label, entry in library.entries.iteritems():
             entry.history.append(event)
-    for groups in database.kinetics.groups.values():
-        for label, entry in groups.entries.iteritems():
-            entry.history.append(event)
+    #for groups in database.kinetics.groups.values():
+    #    for label, entry in groups.entries.iteritems():
+    #        entry.history.append(event)
     
-    groups = database.states.groups
-    for label, entry in groups.entries.iteritems():
-        entry.history.append(event)
+    #groups = database.states.groups
+    #for label, entry in groups.entries.iteritems():
+    #    entry.history.append(event)
     
     for label, entry in database.forbiddenStructures.entries.iteritems():
         entry.history.append(event)
@@ -97,7 +98,7 @@ if __name__ == '__main__':
     user = getUsername()
 
     # Set the import and export paths
-    oldPath = 'output/RMG_database'
+    oldPath = os.path.expandvars('$RMG/databases/RMG_database')
     newPath = 'input'
     
     print 'Loading old RMG-Java database...'
