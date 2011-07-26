@@ -7779,6 +7779,213 @@ u"""
     ],
 )
 
+entry(
+    index = 214,
+    label = "R5H_CCCC_O",
+    group = 
+"""
+1     C 0 {2,S} {3,S}
+2  *5 C 0 {1,S} {4,S}
+3  *4 C 0 {1,S} {5,S}
+4  *2 C 0 {2,S} {6,S}
+5  *1 O 1 {3,S}
+6  *3 H 0 {4,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 215,
+    label = "R6H_SSSSS_OO(Cs/Cs)Cs",
+    group = 
+"""
+1     Cs 0 {2,S} {4,S} {6,S}
+2     Cs 0 {1,S} {3,S}
+3  *5 Cs 0 {2,S} {5,S}
+4  *4 Os 0 {1,S} {7,S}
+5  *2 Cs 0 {3,S} {8,S}
+6     Cs 0 {1,S}
+7  *1 Os 1 {4,S}
+8  *3 H 0 {5,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 216,
+    label = "R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs)",
+    group = 
+"""
+1     Cs 0 {3,S} {5,S} {6,S}
+2  *2 Cs 0 {4,S} {7,S} {8,S}
+3     Cs 0 {1,S} {4,S}
+4  *5 Cs 0 {2,S} {3,S}
+5  *4 Os 0 {1,S} {9,S}
+6     Cs 0 {1,S}
+7  *3 H 0 {2,S}
+8     Cs 0 {2,S}
+9  *1 Os 1 {5,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 217,
+    label = "R6H_SSSSS_OOCCC(Cs/Cs)",
+    group = 
+"""
+1  *2 Cs 0 {2,S} {6,S} {7,S}
+2  *5 Cs 0 {1,S} {3,S}
+3     Cs 0 {2,S} {4,S}
+4     Cs 0 {3,S} {5,S}
+5  *4 Os 0 {4,S} {8,S}
+6  *3 H 0 {1,S}
+7     Cs 0 {1,S}
+8  *1 Os 1 {5,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 218,
+    label = "R7H_OOCCCC(Cs/Cs)",
+    group = 
+"""
+1  *2 R!H 0 {2,{S,D,T,B}} {7,S} {8,S}
+2  *5 R!H 0 {1,{S,D,T,B}} {3,{S,D,T,B}}
+3     R!H 0 {2,{S,D,T,B}} {4,{S,D,T,B}}
+4     R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
+5     R!H 0 {4,{S,D,T,B}} {6,S}
+6  *4 Os 0 {5,S} {9,S}
+7  *3 H 0 {1,S}
+8     Cs 0 {1,S}
+9  *1 Os 1 {6,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 219,
+    label = "Cs_H_out_OOH/H",
+    group = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     H 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 220,
+    label = "Cs_H_out_OOH",
+    group = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     R 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 221,
+    label = "Cs_H_out_OOH/Cs",
+    group = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     Cs 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
 tree(
 """
 L1: RnH
@@ -7848,6 +8055,7 @@ L1: RnH
         L3: R5H_RSSR
             L4: R5H_SSSR
                 L5: R5H_SSSS
+                    L6: R5H_CCCC_O
                     L6: R5H_SSSS_OOCCC
                         L7: R5H_SSSS_OO(Cs/Cs)Cs
                             L8: R5H_SSSS_OO(Cs/Cs/Cs)Cs
@@ -7900,6 +8108,9 @@ L1: RnH
             L4: R6H_SSSSR
                 L5: R6H_SSSSS
                     L6: R6H_SSSSS_OO
+                        L7: R6H_SSSSS_OO(Cs/Cs)Cs
+                            L8: R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs)
+                        L7: R6H_SSSSS_OOCCC(Cs/Cs)
                 L5: R6H_SSSSD
                 L5: R6H_SSSST
                 L5: R6H_SSSSB
@@ -7935,6 +8146,7 @@ L1: RnH
         L3: R6H_BBBBB
     L2: R7H
         L3: R7H_OOCs4
+            L4: R7H_OOCCCC(Cs/Cs)
 L1: Y_rad_out
     L2: O_rad_out
     L2: Cd_rad_out_double
@@ -7983,7 +8195,10 @@ L1: XH_out
                     L6: Cs_H_out_H/(NonDeC/Cs/Cs)
                         L7: Cs_H_out_H/(NonDeC/Cs/Cs/Cs)
             L4: Cs_H_out_H/NonDeO
+                L5: Cs_H_out_OOH/H
             L4: Cs_H_out_H/OneDe
+        L3: Cs_H_out_OOH
+            L4: Cs_H_out_OOH/Cs
         L3: Cs_H_out_noH
             L4: Cs_H_out_NonDe
                 L5: Cs_H_out_Cs2

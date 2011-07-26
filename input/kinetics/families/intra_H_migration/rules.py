@@ -10400,6 +10400,828 @@ The number appearing in the database has been divided by two to account for the 
 )
 
 entry(
+    index = 878,
+    label = "R4H_SSS_OOCsCs;O_rad_out;Cs_H_out_OOH/H",
+    group1 = 
+"""
+1  *5 Cs 0 {2,S} {3,S}
+2  *4 Os 0 {1,S} {4,S}
+3  *2 Cs 0 {1,S} {5,S}
+4  *1 Os 1 {2,S}
+5  *3 H 0 {3,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     H 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2.47e+12,"s^-1"),
+        n = -0.24,
+        alpha = 0,
+        E0 = (28,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 879,
+    label = "R4H_SSS_OOCsCs;O_rad_out;Cs_H_out_OOH/Cs",
+    group1 = 
+"""
+1  *5 Cs 0 {2,S} {3,S}
+2  *4 Os 0 {1,S} {4,S}
+3  *2 Cs 0 {1,S} {5,S}
+4  *1 Os 1 {2,S}
+5  *3 H 0 {3,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     Cs 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2.76e+08,"s^-1"),
+        n = 1.2,
+        alpha = 0,
+        E0 = (25.7,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 880,
+    label = "R4H_SSS_OO(Cs/Cs)Cs;O_rad_out;Cs_H_out_OOH/H",
+    group1 = 
+"""
+1  *5 Cs 0 {2,S} {3,S} {4,S}
+2  *4 Os 0 {1,S} {5,S}
+3  *2 Cs 0 {1,S} {6,S}
+4     Cs 0 {1,S}
+5  *1 Os 1 {2,S}
+6  *3 H 0 {3,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     H 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.22e+07,"s^-1"),
+        n = 1.6,
+        alpha = 0,
+        E0 = (27.9,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 881,
+    label = "R4H_SSS_OO(Cs/Cs)Cs;O_rad_out;Cs_H_out_OOH/Cs",
+    group1 = 
+"""
+1  *5 Cs 0 {2,S} {3,S} {4,S}
+2  *4 Os 0 {1,S} {5,S}
+3  *2 Cs 0 {1,S} {6,S}
+4     Cs 0 {1,S}
+5  *1 Os 1 {2,S}
+6  *3 H 0 {3,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     Cs 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.75e+08,"s^-1"),
+        n = 1.7,
+        alpha = 0,
+        E0 = (26,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 882,
+    label = "R5H_SSSS_OOCCC;O_rad_out;Cs_H_out_OOH/H",
+    group1 = 
+"""
+1     Cs 0 {2,S} {3,S}
+2  *5 Cs 0 {1,S} {4,S}
+3  *4 Os 0 {1,S} {5,S}
+4  *2 Cs 0 {2,S} {6,S}
+5  *1 Os 1 {3,S}
+6  *3 H 0 {4,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     H 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (25900,"s^-1"),
+        n = 1.9,
+        alpha = 0,
+        E0 = (18.8,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 883,
+    label = "R5H_SSSS_OO(Cs/Cs)Cs;O_rad_out;Cs_H_out_OOH/H",
+    group1 = 
+"""
+1     Cs 0 {2,S} {3,S} {5,S}
+2  *5 Cs 0 {1,S} {4,S}
+3  *4 Os 0 {1,S} {6,S}
+4  *2 Cs 0 {2,S} {7,S}
+5     Cs 0 {1,S}
+6  *1 Os 1 {3,S}
+7  *3 H 0 {4,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     H 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (5490,"s^-1"),
+        n = 2.4,
+        alpha = 0,
+        E0 = (19.9,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 884,
+    label = "R5H_SSSS_OOCs(Cs/Cs/Cs);O_rad_out;Cs_H_out_OOH/H",
+    group1 = 
+"""
+1  *5 Cs 0 {2,S} {3,S} {5,S} {6,S}
+2     Cs 0 {1,S} {4,S}
+3  *2 Cs 0 {1,S} {7,S}
+4  *4 Os 0 {2,S} {8,S}
+5     Cs 0 {1,S}
+6     Cs 0 {1,S}
+7  *3 H 0 {3,S}
+8  *1 Os 1 {4,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     H 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (6.5,"s^-1"),
+        n = 3.6,
+        alpha = 0,
+        E0 = (17.7,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 885,
+    label = "R5H_SSSS_OOCCC;O_rad_out;Cs_H_out_OOH/Cs",
+    group1 = 
+"""
+1     Cs 0 {2,S} {3,S}
+2  *5 Cs 0 {1,S} {4,S}
+3  *4 Os 0 {1,S} {5,S}
+4  *2 Cs 0 {2,S} {6,S}
+5  *1 Os 1 {3,S}
+6  *3 H 0 {4,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     Cs 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (57.9,"s^-1"),
+        n = 2.9,
+        alpha = 0,
+        E0 = (17,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 886,
+    label = "R5H_SSSS_OO(Cs/Cs)Cs;O_rad_out;Cs_H_out_OOH/Cs",
+    group1 = 
+"""
+1     Cs 0 {2,S} {3,S} {5,S}
+2  *5 Cs 0 {1,S} {4,S}
+3  *4 Os 0 {1,S} {6,S}
+4  *2 Cs 0 {2,S} {7,S}
+5     Cs 0 {1,S}
+6  *1 Os 1 {3,S}
+7  *3 H 0 {4,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     Cs 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (175,"s^-1"),
+        n = 3.1,
+        alpha = 0,
+        E0 = (17.5,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 887,
+    label = "R6H_SSSSS_OO;O_rad_out;Cs_H_out_OOH/H",
+    group1 = 
+"""
+1     Cs 0 {2,S} {3,S}
+2     Cs 0 {1,S} {4,S}
+3  *5 Cs 0 {1,S} {5,S}
+4  *4 Os 0 {2,S} {6,S}
+5  *2 Cs 0 {3,S} {7,S}
+6  *1 Os 1 {4,S}
+7  *3 H 0 {5,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     H 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2380,"s^-1"),
+        n = 1.7,
+        alpha = 0,
+        E0 = (16.6,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 888,
+    label = "R6H_SSSSS_OO(Cs/Cs)Cs;O_rad_out;Cs_H_out_OOH/H",
+    group1 = 
+"""
+1     Cs 0 {2,S} {4,S} {6,S}
+2     Cs 0 {1,S} {3,S}
+3  *5 Cs 0 {2,S} {5,S}
+4  *4 Os 0 {1,S} {7,S}
+5  *2 Cs 0 {3,S} {8,S}
+6     Cs 0 {1,S}
+7  *1 Os 1 {4,S}
+8  *3 H 0 {5,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     H 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (628,"s^-1"),
+        n = 2.2,
+        alpha = 0,
+        E0 = (17.4,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 889,
+    label = "R6H_SSSSS_OOCCC(Cs/Cs);O_rad_out;Cs_H_out_OOH/Cs",
+    group1 = 
+"""
+1  *2 Cs 0 {2,S} {6,S} {7,S}
+2  *5 Cs 0 {1,S} {3,S}
+3     Cs 0 {2,S} {4,S}
+4     Cs 0 {3,S} {5,S}
+5  *4 Os 0 {4,S} {8,S}
+6  *3 H 0 {1,S}
+7     Cs 0 {1,S}
+8  *1 Os 1 {5,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     Cs 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (377,"s^-1"),
+        n = 2.2,
+        alpha = 0,
+        E0 = (15.3,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 890,
+    label = "R6H_SSSSS_OO(Cs/Cs)C(Cs/Cs);O_rad_out;Cs_H_out_OOH/Cs",
+    group1 = 
+"""
+1     Cs 0 {3,S} {5,S} {6,S}
+2  *2 Cs 0 {4,S} {7,S} {8,S}
+3     Cs 0 {1,S} {4,S}
+4  *5 Cs 0 {2,S} {3,S}
+5  *4 Os 0 {1,S} {9,S}
+6     Cs 0 {1,S}
+7  *3 H 0 {2,S}
+8     Cs 0 {2,S}
+9  *1 Os 1 {5,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     Cs 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (254,"s^-1"),
+        n = 2.6,
+        alpha = 0,
+        E0 = (16.2,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 891,
+    label = "R7H_OOCs4;O_rad_out;Cs_H_out_OOH/H",
+    group1 = 
+"""
+1     R!H 0 {2,{S,D,T,B}} {3,{S,D,T,B}}
+2     R!H 0 {1,{S,D,T,B}} {4,{S,D,T,B}}
+3     R!H 0 {1,{S,D,T,B}} {5,S}
+4  *5 R!H 0 {2,{S,D,T,B}} {6,{S,D,T,B}}
+5  *4 Os 0 {3,S} {7,S}
+6  *2 R!H 0 {4,{S,D,T,B}} {8,S}
+7  *1 Os 1 {5,S}
+8  *3 H 0 {6,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     H 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (557,"s^-1"),
+        n = 1.8,
+        alpha = 0,
+        E0 = (16.6,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 892,
+    label = "R7H_OOCCCC(Cs/Cs);O_rad_out;Cs_H_out_OOH/Cs",
+    group1 = 
+"""
+1  *2 R!H 0 {2,{S,D,T,B}} {7,S} {8,S}
+2  *5 R!H 0 {1,{S,D,T,B}} {3,{S,D,T,B}}
+3     R!H 0 {2,{S,D,T,B}} {4,{S,D,T,B}}
+4     R!H 0 {3,{S,D,T,B}} {5,{S,D,T,B}}
+5     R!H 0 {4,{S,D,T,B}} {6,S}
+6  *4 Os 0 {5,S} {9,S}
+7  *3 H 0 {1,S}
+8     Cs 0 {1,S}
+9  *1 Os 1 {6,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2     O 0 {1,S} {5,S}
+3  *3 H 0 {1,S}
+4     Cs 0 {1,S}
+5     O 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2000,"s^-1"),
+        n = 1.9,
+        alpha = 0,
+        E0 = (14.9,"kcal/mol"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Sandeep's DFT/CBSB7 level of calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 893,
+    label = "R5H_CCCC_O;O_rad_out;Cs_H_out_2H",
+    group1 = 
+"""
+1     C 0 {2,S} {3,S}
+2  *5 C 0 {1,S} {4,S}
+3  *4 C 0 {1,S} {5,S}
+4  *2 C 0 {2,S} {6,S}
+5  *1 O 1 {3,S}
+6  *3 H 0 {4,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2  *3 H 0 {1,S}
+3     H 0 {1,S}
+4     H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4e+10,"s^-1"),
+        n = 0,
+        alpha = 0,
+        E0 = (7.61,"kcal/mol"),
+        Tmin = (200,"K"),
+        Tmax = (1000,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Atkinson recommendation for 1,5 shifts of primary H (per H atom)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 894,
+    label = "R5H_CCCC_O;O_rad_out;Cs_H_out_H/NonDeC",
+    group1 = 
+"""
+1     C 0 {2,S} {3,S}
+2  *5 C 0 {1,S} {4,S}
+3  *4 C 0 {1,S} {5,S}
+4  *2 C 0 {2,S} {6,S}
+5  *1 O 1 {3,S}
+6  *3 H 0 {4,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2  *3 H 0 {1,S}
+3     Cs 0 {1,S}
+4     H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4e+10,"s^-1"),
+        n = 0,
+        alpha = 0,
+        E0 = (6.15,"kcal/mol"),
+        Tmin = (200,"K"),
+        Tmax = (1000,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Atkinson recommendation for 1,5 shifts of secondary H (per H atom)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 895,
+    label = "R5H_CCCC_O;O_rad_out;Cs_H_out",
+    group1 = 
+"""
+1     C 0 {2,S} {3,S}
+2  *5 C 0 {1,S} {4,S}
+3  *4 C 0 {1,S} {5,S}
+4  *2 C 0 {2,S} {6,S}
+5  *1 O 1 {3,S}
+6  *3 H 0 {4,S}
+""",
+    group2 = 
+"""
+1  *1 O 1
+""",
+    group3 = 
+"""
+1  *2 Cs 0 {2,S} {3,S} {4,S}
+2  *3 H 0 {1,S}
+3     R 0 {1,S}
+4     R 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4e+10,"s^-1"),
+        n = 0,
+        alpha = 0,
+        E0 = (5.1,"kcal/mol"),
+        Tmin = (200,"K"),
+        Tmax = (1000,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[AJ]Atkinson recommendation for 1,5 shifts of tertiary H""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep  8 16:00:31 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 8441,
     label = "R4H_SSS;C_rad_out_2H;Cs_H_out_H/NonDeC",
     group1 = 
