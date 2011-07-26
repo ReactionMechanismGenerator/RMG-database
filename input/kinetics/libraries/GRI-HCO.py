@@ -49,10 +49,11 @@ H2O
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+This is a selection from GRI-Mech3.0 seed mechanism.
+It's purpose is to selectively over-rule parts of a different seed mechanism.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -85,10 +86,11 @@ CO
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+This is a selection from GRI-Mech3.0 seed mechanism.
+It's purpose is to selectively over-rule parts of a different seed mechanism.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

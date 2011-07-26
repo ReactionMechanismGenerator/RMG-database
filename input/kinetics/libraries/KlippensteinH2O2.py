@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-name = "Glarborg/C0"
+name = "KlippensteinH2O2"
 shortDesc = u""
 longDesc = u"""
 
@@ -33,9 +33,9 @@ OH
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (3.6e+15,"cm^3/(mol*s)"),
-        n = -0.41,
-        Ea = (16600,"cal/mol"),
+        A = (1.04e+14,"cm^3/(mol*s)"),
+        n = 0,
+        Ea = (15286,"cal/mol"),
         T0 = (1,"K"),
     ),
     reference = None,
@@ -43,7 +43,75 @@ OH
     shortDesc = u"""""",
     longDesc = 
 u"""
-CFG
+!<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>!
+!
+!                     ----- H2 Kinetic Mechanism -----
+!                     -----   Version 6-10-2011  -----
+!
+! (c) Burke, Chaos, Ju, Dryer, and Klippenstein; Princeton University, 2011.
+!
+!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+!  HOW TO USE THIS MECHANISM:
+!
+! (*) Due to limitations of CHEMKIN-II format (specifically, an inability to
+!     implement temperature-dependent collision efficiencies in falloff
+!     reactions) and the lack of fundamental understanding of the mixing rules
+!     for the falloff reactions with the bath gases that have different
+!     broadening factors, the present implementation represents a compromise
+!     (approximate) formulation.  As a consequence,
+!
+!     PRIOR TO ITS USE IN THE CALCULATIONS, THIS FILE HAS TO BE MODIFIED.
+!     DEPENDING ON WHAT BATH GAS (DILUTANT) IS MOST ABUNDANT IN YOUR SYSTEM
+!     (THE PRESENT CHOICES ARE N2, AR, OR HE),  YOU  SHOULD UNCOMMENT THE
+!     CORRESPONDING BLOCK FOR THE REACTION H+O2(+M)=HO2(+M), AND COMMENT THE
+!     BLOCK FOR OTHER DILUTANT(S).  AS GIVEN, THE MAIN DILUTANT IS SET TO BE N2.
+!
+!
+!  HOW TO REFERENCE THIS MECHANISM:
+!
+!     M.P. Burke, M. Chaos, Y. Ju, F.L. Dryer, S.J. Klippenstein
+!        "Comprehensive H2/O2 Kinetic Model for High-Pressure Combustion,"
+!        Int. J. Chem. Kinet. (2011).
+!
+!  FUTURE REVISIONS/UPDATES MAY BE FOUND ON THE FUELS AND COMBUSTION RESEARCH LABORATORY
+!  WEBSITE: < http://www.princeton.edu/mae/people/faculty/dryer/homepage/combustion_lab/ >
+!
+!
+!  HOW TO CONTACT THE AUTHORS:
+!
+!     Dr. Michael P. Burke
+!     R122 Building 200
+!     Chemical Sciences and Engineering Division
+!     Argonne National Laboratory
+!     Argonne, IL 60439
+!     Email: mpburke@anl.gov
+!
+!     Prof. Frederick L. Dryer
+!     D-329D Engineering Quadrangle
+!     Mechanical and Aerospace Engineering
+!     Princeton University
+!     Princeton, NJ 08544
+!     Phone: 609-258-5206
+!     Lab:   609-258-0316
+!     FAX:   609-258-1939
+!     Email: fldryer@princeton.edu
+!
+!
+!<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>!
+!
+ELEMENTS
+H O N AR HE C
+END
+
+
+!======================
+!H2-O2 Chain Reactions
+!======================
+! Hong et al., Proc. Comb. Inst. 33:309-316 (2011)
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
@@ -54,15 +122,10 @@ entry(
     index = 2,
     reactant1 = 
 """
-H
-1     H     1
+O
+1     O     2T
 """,
     reactant2 = 
-"""
-H
-1     H     1
-""",
-    reactant3 = 
 """
 H2
 1     H     0 {2,S}
@@ -70,76 +133,28 @@ H2
 """,
     product1 = 
 """
-H2
-1     H     0 {2,S}
-2     H     0 {1,S}
+H
+1     H     1
 """,
     product2 = 
 """
-H2
-1     H     0 {2,S}
-2     H     0 {1,S}
+OH
+1     O     1
 """,
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+17,"cm^6/(mol^2*s)"),
-        n = -0.6,
-        Ea = (0,"cal/mol"),
-        T0 = (1,"K"),
+    duplicate = True,
+    kinetics = MultiKinetics(
+        kineticsList = [
+            Arrhenius(A=(3.818e+12,"cm^3/(mol*s)"), n=0, Ea=(7948,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(8.792e+14,"cm^3/(mol*s)"), n=0, Ea=(19170,"cal/mol"), T0=(1,"K"))
+        ],
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
-""",
-    history = [
-        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 3,
-    reactant1 = 
-"""
-H
-1     H     1
-""",
-    reactant2 = 
-"""
-H
-1     H     1
-""",
-    reactant3 = 
-"""
-H2O
-1     O     0
-""",
-    product1 = 
-"""
-H2
-1     H     0 {2,S}
-2     H     0 {1,S}
-""",
-    product2 = 
-"""
-H2O
-1     O     0
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+19,"cm^6/(mol^2*s)"),
-        n = -1,
-        Ea = (0,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
+! Baulch et al., J. Phys. Chem. Ref. Data, 21:411 (1992)
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
@@ -150,19 +165,19 @@ entry(
     index = 4,
     reactant1 = 
 """
-O
-1     O     2T
-""",
-    reactant2 = 
-"""
 H2
 1     H     0 {2,S}
 2     H     0 {1,S}
 """,
-    product1 = 
+    reactant2 = 
 """
 OH
 1     O     1
+""",
+    product1 = 
+"""
+H2O
+1     O     0
 """,
     product2 = 
 """
@@ -170,19 +185,59 @@ H
 1     H     1
 """,
     degeneracy = 1,
-    duplicate = True,
-    kinetics = MultiKinetics(
-        kineticsList = [
-            Arrhenius(A=(3.8e+12,"cm^3/(mol*s)"), n=0, Ea=(7948,"cal/mol"), T0=(1,"K")),
-            Arrhenius(A=(8.8e+14,"cm^3/(mol*s)"), n=0, Ea=(19175,"cal/mol"), T0=(1,"K"))
-        ],
+    kinetics = Arrhenius(
+        A = (2.16e+08,"cm^3/(mol*s)"),
+        n = 1.51,
+        Ea = (3430,"cal/mol"),
+        T0 = (1,"K"),
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
+! Michael and Sutherland, J. Phys. Chem. 92:3853 (1988)
+""",
+    history = [
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
 
+entry(
+    index = 5,
+    reactant1 = 
+"""
+OH
+1     O     1
+""",
+    reactant2 = 
+"""
+OH
+1     O     1
+""",
+    product1 = 
+"""
+O
+1     O     2T
+""",
+    product2 = 
+"""
+H2O
+1     O     0
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (33400,"cm^3/(mol*s)"),
+        n = 2.42,
+        Ea = (-1930,"cal/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+! Baulch et al., J. Phys. Chem. Ref. Data, 21:411 (1992)
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
@@ -193,29 +248,34 @@ entry(
     index = 6,
     reactant1 = 
 """
-OH
-1     O     1
+H2O
+1     O     0
 """,
     reactant2 = 
 """
-OH
-1     O     1
+H2O
+1     O     0
 """,
     product1 = 
 """
-O
-1     O     2T
+H
+1     H     1
 """,
     product2 = 
+"""
+OH
+1     O     1
+""",
+    product3 = 
 """
 H2O
 1     O     0
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (4300,"cm^3/(mol*s)"),
-        n = 2.7,
-        Ea = (-1822,"cal/mol"),
+        A = (1.006e+26,"cm^3/(mol*s)"),
+        n = -2.44,
+        Ea = (120180,"cal/mol"),
         T0 = (1,"K"),
     ),
     reference = None,
@@ -223,7 +283,16 @@ H2O
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+!============================
+!H2-O2 Dissociation Reactions
+!============================
+! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
+H2+AR = H+H+AR                              	5.840E+18 -1.10  1.0438E+05
+H2+HE = H+H+HE                              	5.840E+18 -1.10  1.0438E+05
+! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
+O+O+AR = O2+AR                              	1.886E+13  0.00 -1.788E+03
+O+O+HE = O2+HE                              	1.886E+13  0.00 -1.788E+03
+! Srinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
@@ -234,30 +303,32 @@ entry(
     index = 7,
     reactant1 = 
 """
-OH
-1     O     1
+HO2
+1     O     0 {2,S}
+2     O     1 {1,S}
 """,
     reactant2 = 
+"""
+H
+1     H     1
+""",
+    product1 = 
 """
 H2
 1     H     0 {2,S}
 2     H     0 {1,S}
 """,
-    product1 = 
-"""
-H
-1     H     1
-""",
     product2 = 
 """
-H2O
-1     O     0
+O2
+1     O     1 {2,S}
+2     O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.1e+08,"cm^3/(mol*s)"),
-        n = 1.52,
-        Ea = (3449,"cal/mol"),
+        A = (2.75e+06,"cm^3/(mol*s)"),
+        n = 2.09,
+        Ea = (-1451,"cal/mol"),
         T0 = (1,"K"),
     ),
     reference = None,
@@ -265,7 +336,17 @@ H2O
     shortDesc = u"""""",
     longDesc = 
 u"""
+!=================================
+! Formation and consumption of HO2
+!=================================
 
+! High-pressure limit from Troe, Proc. Comb. Inst. 28:1463-1469 (2000)
+! Low-pressure  limit from Michael et al., J. Phys. Chem. A 106:5297-5313
+! Centering factors from Fernandes et al., Phys. Chem. Chem. Phys. 10:4313-4321 (2008)
+!=================================================================================
+! Michael et al., Proc. Comb. Inst. 28:1471 (2000)
+!HO2+H = H2+O2                                 	3.659E+06  2.09 -1.451E+03
+!Scaled by 0.75
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
@@ -276,32 +357,30 @@ entry(
     index = 8,
     reactant1 = 
 """
-H2
-1     H     0 {2,S}
-2     H     0 {1,S}
-""",
-    reactant2 = 
-"""
-O2
-1     O     1 {2,S}
-2     O     1 {1,S}
-""",
-    product1 = 
-"""
 HO2
 1     O     0 {2,S}
 2     O     1 {1,S}
 """,
-    product2 = 
+    reactant2 = 
 """
 H
 1     H     1
 """,
+    product1 = 
+"""
+OH
+1     O     1
+""",
+    product2 = 
+"""
+OH
+1     O     1
+""",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (740000,"cm^3/(mol*s)"),
-        n = 2.433,
-        Ea = (53502,"cal/mol"),
+        A = (7.079e+13,"cm^3/(mol*s)"),
+        n = 0,
+        Ea = (295,"cal/mol"),
         T0 = (1,"K"),
     ),
     reference = None,
@@ -309,7 +388,7 @@ H
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+! Mueller et al., Int. J. Chem. Kinetic. 31:113 (1999)
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
@@ -326,13 +405,14 @@ HO2
 """,
     reactant2 = 
 """
-H
-1     H     1
+O
+1     O     2T
 """,
     product1 = 
 """
-OH
-1     O     1
+O2
+1     O     1 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -341,9 +421,9 @@ OH
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (8.4e+13,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (400,"cal/mol"),
+        A = (2.85e+10,"cm^3/(mol*s)"),
+        n = 1,
+        Ea = (-723.93,"cal/mol"),
         T0 = (1,"K"),
     ),
     reference = None,
@@ -351,7 +431,9 @@ OH
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+! Fernandez-Ramos and Varandas, J. Phys. Chem. A 106:4077-4083 (2002)
+!HO2+O = O2+OH                               	4.750E+11  1.00 -7.2393E+02
+!Scaled by 0.60
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
@@ -368,91 +450,6 @@ HO2
 """,
     reactant2 = 
 """
-H
-1     H     1
-""",
-    product1 = 
-"""
-H2O
-1     O     0
-""",
-    product2 = 
-"""
-O
-1     O     2T
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.4e+12,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (0,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 11,
-    reactant1 = 
-"""
-HO2
-1     O     0 {2,S}
-2     O     1 {1,S}
-""",
-    reactant2 = 
-"""
-O
-1     O     2T
-""",
-    product1 = 
-"""
-OH
-1     O     1
-""",
-    product2 = 
-"""
-O2
-1     O     1 {2,S}
-2     O     1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.6e+13,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-445,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 12,
-    reactant1 = 
-"""
-HO2
-1     O     0 {2,S}
-2     O     1 {1,S}
-""",
-    reactant2 = 
-"""
 OH
 1     O     1
 """,
@@ -469,7 +466,7 @@ O2
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.89e+13,"cm^3/(mol*s)","*|/",1.58),
+        A = (2.89e+13,"cm^3/(mol*s)"),
         n = 0,
         Ea = (-497,"cal/mol"),
         T0 = (1,"K"),
@@ -479,17 +476,7 @@ O2
     shortDesc = u"""""",
     longDesc = 
 u"""
-These three add up to give Glarborg's preferred rate, but the third of them
-has a negative A which RMG does not like:
-HO2 + OH = H2O + O2                        3.6E21  -2.100    9000  0.0 0.0 0.0
-//  DUPLICATE
-HO2 + OH = H2O + O2                        2.0E15  -0.600       0  0.0 0.0 0.0
-//  DUPLICATE
-HO2 + OH = H2O + O2                       -2.2E96 -24.000   49000 0.0 0.0 0.0
-//  DUPLICATE
-Instead here is a rate from Baulch et al JPCRF 1994 as reported by
-http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:91
-although the valid temperature range is not very large...
+! Keyser, J. Phys. Chem. 92:1193 (1988)
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
@@ -497,7 +484,7 @@ although the valid temperature range is not very large...
 )
 
 entry(
-    index = 13,
+    index = 11,
     reactant1 = 
 """
 HO2
@@ -526,9 +513,98 @@ O2
     duplicate = True,
     kinetics = MultiKinetics(
         kineticsList = [
-            Arrhenius(A=(1.9e+11,"cm^3/(mol*s)"), n=0, Ea=(-1408,"cal/mol"), T0=(1,"K")),
-            Arrhenius(A=(1e+14,"cm^3/(mol*s)"), n=0, Ea=(11034,"cal/mol"), T0=(1,"K"))
+            Arrhenius(A=(4.2e+14,"cm^3/(mol*s)"), n=0, Ea=(11982,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(1.3e+11,"cm^3/(mol*s)"), n=0, Ea=(-1629.3,"cal/mol"), T0=(1,"K"))
         ],
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+!=====================================
+!Formation and Consumption of H2O2
+!=====================================
+! Hippler et al., J. Chem. Phys. 93:1755 (1990)
+""",
+    history = [
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 13,
+    reactant1 = 
+"""
+H2O2
+1     O     0 {2,S}
+2     O     0 {1,S}
+""",
+    reactant2 = 
+"""
+H
+1     H     1
+""",
+    product1 = 
+"""
+H2O
+1     O     0
+""",
+    product2 = 
+"""
+OH
+1     O     1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.41e+13,"cm^3/(mol*s)"),
+        n = 0,
+        Ea = (3970,"cal/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
+""",
+    history = [
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 14,
+    reactant1 = 
+"""
+H2O2
+1     O     0 {2,S}
+2     O     0 {1,S}
+""",
+    reactant2 = 
+"""
+H
+1     H     1
+""",
+    product1 = 
+"""
+HO2
+1     O     0 {2,S}
+2     O     1 {1,S}
+""",
+    product2 = 
+"""
+H2
+1     H     0 {2,S}
+2     H     0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.82e+13,"cm^3/(mol*s)"),
+        n = 0,
+        Ea = (7950,"cal/mol"),
+        T0 = (1,"K"),
     ),
     reference = None,
     referenceType = "",
@@ -552,24 +628,25 @@ H2O2
 """,
     reactant2 = 
 """
-H
-1     H     1
+O
+1     O     2T
 """,
     product1 = 
-"""
-H2O
-1     O     0
-""",
-    product2 = 
 """
 OH
 1     O     1
 """,
+    product2 = 
+"""
+HO2
+1     O     0 {2,S}
+2     O     1 {1,S}
+""",
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1e+13,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (3580,"cal/mol"),
+        A = (9.55e+06,"cm^3/(mol*s)"),
+        n = 2,
+        Ea = (3970,"cal/mol"),
         T0 = (1,"K"),
     ),
     reference = None,
@@ -594,77 +671,34 @@ H2O2
 """,
     reactant2 = 
 """
-H
-1     H     1
-""",
-    product1 = 
-"""
-HO2
-1     O     0 {2,S}
-2     O     1 {1,S}
-""",
-    product2 = 
-"""
-H2
-1     H     0 {2,S}
-2     H     0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.7e+12,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (3760,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 17,
-    reactant1 = 
-"""
-H2O2
-1     O     0 {2,S}
-2     O     0 {1,S}
-""",
-    reactant2 = 
-"""
-O
-1     O     2T
-""",
-    product1 = 
-"""
-HO2
-1     O     0 {2,S}
-2     O     1 {1,S}
-""",
-    product2 = 
-"""
 OH
 1     O     1
 """,
+    product1 = 
+"""
+HO2
+1     O     0 {2,S}
+2     O     1 {1,S}
+""",
+    product2 = 
+"""
+H2O
+1     O     0
+""",
     degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (9.6e+06,"cm^3/(mol*s)"),
-        n = 2,
-        Ea = (3970,"cal/mol"),
-        T0 = (1,"K"),
+    duplicate = True,
+    kinetics = MultiKinetics(
+        kineticsList = [
+            Arrhenius(A=(1.74e+12,"cm^3/(mol*s)"), n=0, Ea=(318,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(7.59e+13,"cm^3/(mol*s)"), n=0, Ea=(7270,"cal/mol"), T0=(1,"K"))
+        ],
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+! Hong et al., J. Phys. Chem. A  114 (2010) 5718-5727
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
@@ -675,40 +709,66 @@ entry(
     index = 18,
     reactant1 = 
 """
-H2O2
-1     O     0 {2,S}
-2     O     0 {1,S}
-""",
-    reactant2 = 
-"""
-OH
-1     O     1
+H2
+1     H     0 {2,S}
+2     H     0 {1,S}
 """,
     product1 = 
 """
-H2O
-1     O     0
+H
+1     H     1
 """,
     product2 = 
 """
-HO2
-1     O     0 {2,S}
-2     O     1 {1,S}
+H
+1     H     1
 """,
     degeneracy = 1,
-    duplicate = True,
-    kinetics = MultiKinetics(
-        kineticsList = [
-            Arrhenius(A=(1.9e+12,"cm^3/(mol*s)"), n=0, Ea=(427,"cal/mol"), T0=(1,"K")),
-            Arrhenius(A=(1.6e+18,"cm^3/(mol*s)"), n=0, Ea=(29410,"cal/mol"), T0=(1,"K"))
-        ],
+    kinetics = ThirdBody(
+        arrheniusHigh = Arrhenius(A=(4.577e+19,"s^-1"), n=-1.4, Ea=(104380,"cal/mol"), T0=(1,"K")),
+        efficiencies = {"C(=O)=O": 3.8, "O": 12, "[Ar]": 0, "[C]=O": 1.9, "[H][H]": 2.5, "[He]": 0},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
+! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
+""",
+    history = [
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
 
+entry(
+    index = 19,
+    reactant1 = 
+"""
+O
+1     O     2T
+""",
+    reactant2 = 
+"""
+O
+1     O     2T
+""",
+    product1 = 
+"""
+O2
+1     O     1 {2,S}
+2     O     1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = ThirdBody(
+        arrheniusHigh = Arrhenius(A=(6.165e+15,"cm^3/(mol*s)"), n=-0.5, Ea=(0,"cal/mol"), T0=(1,"K")),
+        efficiencies = {"C(=O)=O": 3.8, "O": 12, "[Ar]": 0, "[C]=O": 1.9, "[H][H]": 2.5, "[He]": 0},
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
@@ -719,36 +779,30 @@ entry(
     index = 20,
     reactant1 = 
 """
-H
-1     H     1
+O
+1     O     2T
 """,
     reactant2 = 
 """
-O2
-1     O     1 {2,S}
-2     O     1 {1,S}
+H
+1     H     1
 """,
     product1 = 
 """
-HO2
-1     O     0 {2,S}
-2     O     1 {1,S}
+OH
+1     O     1
 """,
     degeneracy = 1,
-    kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(1.5e+12,"cm^3/(mol*s)"), n=0.6, Ea=(0,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(3.5e+16,"cm^3/(mol*s)"), n=-0.41, Ea=(-1116,"cal/mol"), T0=1),
-        efficiencies = {"N#N": 0, "O": 11, "[Ar]": 0, "[H][H]": 2, "[O][O]": 0.78},
-        alpha = 0.5,
-        T3 = (1e-30,"K"),
-        T1 = (1e+30,"K"),
+    kinetics = ThirdBody(
+        arrheniusHigh = Arrhenius(A=(4.714e+18,"cm^3/(mol*s)"), n=-1, Ea=(0,"cal/mol"), T0=(1,"K")),
+        efficiencies = {"C(=O)=O": 3.8, "O": 12, "[Ar]": 0.75, "[C]=O": 1.9, "[H][H]": 2.5, "[He]": 0.75},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-CFG from Glarborg; extra collision efficiencies taken from Leeds
+! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
@@ -759,14 +813,13 @@ entry(
     index = 21,
     reactant1 = 
 """
-H2O2
-1     O     0 {2,S}
-2     O     0 {1,S}
+H2O
+1     O     0
 """,
     product1 = 
 """
-OH
-1     O     1
+H
+1     H     1
 """,
     product2 = 
 """
@@ -774,27 +827,17 @@ OH
 1     O     1
 """,
     degeneracy = 1,
-    kinetics = Troe(
-        arrheniusHigh = Arrhenius(A=(4e+11,"s^-1"), n=0, Ea=(37137,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(2.291e+16,"s^-1"), n=0, Ea=(43638,"cal/mol"), T0=1),
-        efficiencies = {"O": 12, "[Ar]": 0.64, "[H][H]": 2.5},
-        alpha = 0.5,
-        T3 = (1e-30,"K"),
-        T1 = (1e+30,"K"),
-        T2 = (1e+30,"K"),
+    kinetics = ThirdBody(
+        arrheniusHigh = Arrhenius(A=(6.064e+27,"s^-1"), n=-3.322, Ea=(120790,"cal/mol"), T0=(1,"K")),
+        efficiencies = {"C(=O)=O": 3.8, "N#N": 2, "O": 0, "[C]=O": 1.9, "[H][H]": 3, "[He]": 1.1, "[O][O]": 1.5},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-H + O2 (+AR) = HO2 (+AR)                   1.5E12   0.600       0  0.0 0.0 0.0
-LOW  / 9.04E19 -1.500 490 /
-TROE / 0.5 1.0E-30 1.0E30 /
-
-H + O2 (+N2) = HO2 (+N2)                   1.5E12   0.600       0  0.0 0.0 0.0
-LOW  / 6.37E20 -1.720 520 /
-TROE / 0.8 1.0E-30 1.0E30 /
+! Srinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)
+! Rate constant is for Ar with efficiencies from Michael et al., J. Phys. Chem. A, 106 (2002)
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
@@ -810,26 +853,33 @@ H
 """,
     reactant2 = 
 """
-H
-1     H     1
+O2
+1     O     1 {2,S}
+2     O     1 {1,S}
 """,
     product1 = 
 """
-H2
-1     H     0 {2,S}
-2     H     0 {1,S}
+HO2
+1     O     0 {2,S}
+2     O     1 {1,S}
 """,
     degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusHigh = Arrhenius(A=(7e+17,"cm^3/(mol*s)"), n=-1, Ea=(0,"cal/mol"), T0=(1,"K")),
-        efficiencies = {"N#N": 0, "O": 0, "[H][H]": 0},
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(4.65084e+12,"cm^3/(mol*s)"), n=0.44, Ea=(0,"cal/mol"), T0=(1,"K")),
+        arrheniusLow = Arrhenius(A=(9.042e+19,"cm^3/(mol*s)"), n=-1.5, Ea=(492.2,"cal/mol"), T0=1),
+        efficiencies = {"C(=O)=O": 3.8, "O": 14, "[Ar]": 0.67, "[C]=O": 1.9, "[H][H]": 2, "[He]": 0.8, "[O][O]": 0.78},
+        alpha = 0.5,
+        T3 = (1e-30,"K"),
+        T1 = (1e+30,"K"),
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-reduced by cfg
+! Efficiencies for CO and CO2 taken from Li et al., Int. J. Chem. Kinet. 36:566-575 (2004)
+! MAIN BATH GAS IS N2 (comment this reaction otherwise)
+!
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
@@ -840,99 +890,43 @@ entry(
     index = 23,
     reactant1 = 
 """
-H
-1     H     1
-""",
-    reactant2 = 
-"""
-O
-1     O     2T
+H2O2
+1     O     0 {2,S}
+2     O     0 {1,S}
 """,
     product1 = 
 """
 OH
 1     O     1
 """,
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusHigh = Arrhenius(A=(6.2e+16,"cm^3/(mol*s)"), n=-0.6, Ea=(0,"cal/mol"), T0=(1,"K")),
-        efficiencies = {"O": 5},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 24,
-    reactant1 = 
-"""
-O
-1     O     2T
-""",
-    reactant2 = 
-"""
-O
-1     O     2T
-""",
-    product1 = 
-"""
-O2
-1     O     1 {2,S}
-2     O     1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusHigh = Arrhenius(A=(1.9e+13,"cm^3/(mol*s)"), n=0, Ea=(-1788,"cal/mol"), T0=(1,"K")),
-        efficiencies = {"N#N": 1.5, "O": 10, "[O][O]": 1.5},
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 25,
-    reactant1 = 
+    product2 = 
 """
 OH
 1     O     1
 """,
-    reactant2 = 
-"""
-H
-1     H     1
-""",
-    product1 = 
-"""
-H2O
-1     O     0
-""",
     degeneracy = 1,
-    kinetics = ThirdBody(
-        arrheniusHigh = Arrhenius(A=(4.5e+22,"cm^3/(mol*s)"), n=-2, Ea=(0,"cal/mol"), T0=(1,"K")),
-        efficiencies = {"O": 12, "[Ar]": 0.38, "[H][H]": 0.73},
+    kinetics = Troe(
+        arrheniusHigh = Arrhenius(A=(2e+12,"s^-1"), n=0.9, Ea=(48749,"cal/mol"), T0=(1,"K")),
+        arrheniusLow = Arrhenius(A=(2.49e+24,"s^-1"), n=-2.3, Ea=(48749,"cal/mol"), T0=1),
+        efficiencies = {"C(=O)=O": 1.6, "N#N": 1.5, "O": 7.5, "OO": 7.7, "[C]=O": 2.8, "[H][H]": 3.7, "[He]": 0.65, "[O][O]": 1.2},
+        alpha = 0.43,
+        T3 = (1e-30,"K"),
+        T1 = (1e+30,"K"),
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+!=================================================================================
+! MAIN BATH GAS IS AR OR HE (comment this reaction otherwise)
+!
+!H + O2 (+M) <=> HO2 (+M)      4.65084E+12  0.44  0.000E+00	0.0 0.0 0.0
+!H2/ 3.0/ H2O/ 21/ O2/ 1.1/ CO/ 2.7/ CO2/ 5.4/ HE/ 1.2/ N2/ 1.5/
+!=================================================================================
+! Troe, Combust. Flame,  158:594-601 (2011)
+! Rate constant is for Ar
+! Efficiencies for H2 and CO taken from Li et al., Int. J. Chem. Kinet. 36:566-575 (2004)
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
