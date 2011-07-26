@@ -43,10 +43,20 @@ OH
     shortDesc = u"""""",
     longDesc = 
 u"""
+CFG
 
+
+
+
+
+Glarborg,
+
+*****************************************************************************
+H2/O2 subset                                                             *
+*****************************************************************************
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -95,7 +105,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -142,7 +152,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -171,11 +181,11 @@ H
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = Arrhenius(
-        A = (3.8e+12,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (7948,"cal/mol"),
-        T0 = (1,"K"),
+    kinetics = MultiKinetics(
+        kineticsList = [
+            Arrhenius(A=(3.8e+12,"cm^3/(mol*s)"), n=0, Ea=(7948,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(8.8e+14,"cm^3/(mol*s)"), n=0, Ea=(19175,"cal/mol"), T0=(1,"K"))
+        ],
     ),
     reference = None,
     referenceType = "",
@@ -185,50 +195,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 5,
-    reactant1 = 
-"""
-O
-1     O     2T
-""",
-    reactant2 = 
-"""
-H2
-1     H     0 {2,S}
-2     H     0 {1,S}
-""",
-    product1 = 
-"""
-OH
-1     O     1
-""",
-    product2 = 
-"""
-H
-1     H     1
-""",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = Arrhenius(
-        A = (8.8e+14,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (19175,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -269,7 +236,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -311,7 +278,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -355,7 +322,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -397,7 +364,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -439,7 +406,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -482,7 +449,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -522,10 +489,20 @@ O2
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+These three add up to give Glarborg's preferred rate, but the third of them
+has a negative A which RMG does not like:
+HO2 + OH = H2O + O2                        3.6E21  -2.100    9000  0.0 0.0 0.0
+//  DUPLICATE
+HO2 + OH = H2O + O2                        2.0E15  -0.600       0  0.0 0.0 0.0
+//  DUPLICATE
+HO2 + OH = H2O + O2                       -2.2E96 -24.000   49000 0.0 0.0 0.0
+//  DUPLICATE
+Instead here is a rate from Baulch et al JPCRF 1994 as reported by
+http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:91
+although the valid temperature range is not very large...
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -557,11 +534,11 @@ O2
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = Arrhenius(
-        A = (1.9e+11,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-1408,"cal/mol"),
-        T0 = (1,"K"),
+    kinetics = MultiKinetics(
+        kineticsList = [
+            Arrhenius(A=(1.9e+11,"cm^3/(mol*s)"), n=0, Ea=(-1408,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(1e+14,"cm^3/(mol*s)"), n=0, Ea=(11034,"cal/mol"), T0=(1,"K"))
+        ],
     ),
     reference = None,
     referenceType = "",
@@ -571,53 +548,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 14,
-    reactant1 = 
-"""
-HO2
-1     O     0 {2,S}
-2     O     1 {1,S}
-""",
-    reactant2 = 
-"""
-HO2
-1     O     0 {2,S}
-2     O     1 {1,S}
-""",
-    product1 = 
-"""
-H2O2
-1     O     0 {2,S}
-2     O     0 {1,S}
-""",
-    product2 = 
-"""
-O2
-1     O     1 {2,S}
-2     O     1 {1,S}
-""",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = Arrhenius(
-        A = (1e+14,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (11034,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -659,7 +590,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -703,7 +634,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -746,7 +677,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -776,11 +707,11 @@ HO2
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = Arrhenius(
-        A = (1.9e+12,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (427,"cal/mol"),
-        T0 = (1,"K"),
+    kinetics = MultiKinetics(
+        kineticsList = [
+            Arrhenius(A=(1.9e+12,"cm^3/(mol*s)"), n=0, Ea=(427,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(1.6e+18,"cm^3/(mol*s)"), n=0, Ea=(29410,"cal/mol"), T0=(1,"K"))
+        ],
     ),
     reference = None,
     referenceType = "",
@@ -790,51 +721,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 19,
-    reactant1 = 
-"""
-H2O2
-1     O     0 {2,S}
-2     O     0 {1,S}
-""",
-    reactant2 = 
-"""
-OH
-1     O     1
-""",
-    product1 = 
-"""
-H2O
-1     O     0
-""",
-    product2 = 
-"""
-HO2
-1     O     0 {2,S}
-2     O     1 {1,S}
-""",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = Arrhenius(
-        A = (1.6e+18,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (29410,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -876,10 +763,12 @@ O
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+*****************************************************************************
+CO/CO2 subset                                                            *
+*****************************************************************************
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -924,7 +813,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -956,11 +845,11 @@ H2O
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = Arrhenius(
-        A = (4.6e+12,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-89,"cal/mol"),
-        T0 = (1,"K"),
+    kinetics = MultiKinetics(
+        kineticsList = [
+            Arrhenius(A=(4.6e+12,"cm^3/(mol*s)"), n=0, Ea=(-89,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(9.5e+06,"cm^3/(mol*s)"), n=2, Ea=(-89,"cal/mol"), T0=(1,"K"))
+        ],
     ),
     reference = None,
     referenceType = "",
@@ -970,53 +859,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 23,
-    reactant1 = 
-"""
-HOCO
-1     C     1 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S}
-""",
-    reactant2 = 
-"""
-OH
-1     O     1
-""",
-    product1 = 
-"""
-CO2
-1     C     0 {2,D} {3,D}
-2     O     0 {1,D}
-3     O     0 {1,D}
-""",
-    product2 = 
-"""
-H2O
-1     O     0
-""",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = Arrhenius(
-        A = (9.5e+06,"cm^3/(mol*s)"),
-        n = 2,
-        Ea = (-89,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1061,7 +904,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1108,7 +951,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1149,10 +992,12 @@ H2
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+*****************************************************************************
+CH2O subset                                                              *
+*****************************************************************************
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1195,7 +1040,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1240,7 +1085,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1280,10 +1125,10 @@ H2O
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+SCRATCH: RMG doesn't like this rate; cfg replaced it with baulch
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1325,10 +1170,10 @@ H2O2
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+CH2O + OH = HCO + H2O			      4.9E12   0.0     -79.5  0.0 0.0 0.0
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1371,7 +1216,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1415,7 +1260,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1458,7 +1303,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1502,7 +1347,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1545,7 +1390,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1590,7 +1435,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1640,7 +1485,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1685,7 +1530,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1724,10 +1569,12 @@ H2
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+*****************************************************************************
+CH4 subset                                                               *
+*****************************************************************************
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1768,7 +1615,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1809,7 +1656,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1852,7 +1699,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1890,10 +1737,10 @@ CH3
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+CH4 + O2 = CH3 + HO2                               see reverse
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1934,7 +1781,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1976,7 +1823,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2018,7 +1865,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2060,7 +1907,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2108,7 +1955,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2149,7 +1996,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2190,7 +2037,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2233,7 +2080,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2273,10 +2120,14 @@ OH
     shortDesc = u"""""",
     longDesc = 
 u"""
+RMG dislikes!  replaced with Jasper
+CH3 + HO2 = CH4 + O2                       2.5E08   1.250   -1630  0.0 0.0 0.0
+CH3 + HO2 = CH4 + O2                       1.8E03   2.830   -3730  0.0 0.0 0.0
 
+replace with Jasper
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2316,10 +2167,10 @@ O
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+CH3 + HO2 = CH3O + OH                      2.0E13   0.000    1075  0.0 0.0 0.0
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2362,7 +2213,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2405,7 +2256,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2447,7 +2298,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2491,10 +2342,10 @@ H
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+CH2 + H = CH + H2                          1.0E18 -1.560        0  0.0 0.0 0.0
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2537,7 +2388,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2579,7 +2430,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2619,10 +2470,10 @@ H2O
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+CH2 + OH = CH + H2O                        1.1E07  2.000     3000  0.0 0.0 0.0
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2671,7 +2522,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2714,7 +2565,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2759,7 +2610,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2807,7 +2658,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2852,7 +2703,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2893,7 +2744,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2937,10 +2788,10 @@ H
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+CH2(S) + H = CH + H2                       3.0E13  0.000        0  0.0 0.0 0.0
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2982,7 +2833,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3030,7 +2881,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3071,7 +2922,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3116,7 +2967,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3157,10 +3008,18 @@ H2
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+CH + H = C + H2                            1.5E14  0.000        0  0.0 0.0 0.0
+CH + O = CO + H                            5.7E13  0.000        0  0.0 0.0 0.0
+CH + OH = HCO + H                          3.0E13  0.000        0  0.0 0.0 0.0
+CH + OH = C + H2O                          4.0E07  2.000     3000  0.0 0.0 0.0
+CH + O2 = HCO + O                          3.3E13  0.000        0  0.0 0.0 0.0
+CH + H2O = CH2O + H                        5.7E12  0.000     -755  0.0 0.0 0.0
+CH + CO2 = HCO + CO                        8.8E06  1.750    -1040  0.0 0.0 0.0
+C + OH = CO + H                            5.0E13  0.000        0  0.0 0.0 0.0
+C + O2 = CO + O                            2.0E13  0.000        0  0.0 0.0 0.0
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3204,7 +3063,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3247,7 +3106,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3290,7 +3149,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3333,7 +3192,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3376,7 +3235,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3421,7 +3280,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3466,7 +3325,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3511,7 +3370,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3555,7 +3414,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3597,7 +3456,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3640,7 +3499,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3683,7 +3542,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3728,7 +3587,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3760,11 +3619,11 @@ HO2
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = Arrhenius(
-        A = (7.2e+13,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (3736,"cal/mol"),
-        T0 = (1,"K"),
+    kinetics = MultiKinetics(
+        kineticsList = [
+            Arrhenius(A=(7.2e+13,"cm^3/(mol*s)"), n=0, Ea=(3736,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(2.9e+16,"cm^3/(mol*s)"), n=-1.5, Ea=(0,"cal/mol"), T0=(1,"K"))
+        ],
     ),
     reference = None,
     referenceType = "",
@@ -3774,53 +3633,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 87,
-    reactant1 = 
-"""
-CH2OH
-1     C     1 {2,S}
-2     O     0 {1,S}
-""",
-    reactant2 = 
-"""
-O2
-1     O     1 {2,S}
-2     O     1 {1,S}
-""",
-    product1 = 
-"""
-CH2O
-1     C     0 {2,D}
-2     O     0 {1,D}
-""",
-    product2 = 
-"""
-HO2
-1     O     0 {2,S}
-2     O     1 {1,S}
-""",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = Arrhenius(
-        A = (2.9e+16,"cm^3/(mol*s)"),
-        n = -1.5,
-        Ea = (0,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3865,7 +3678,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3910,7 +3723,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3955,7 +3768,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4000,7 +3813,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4045,7 +3858,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4088,7 +3901,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4132,7 +3945,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4174,7 +3987,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4217,7 +4030,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4260,7 +4073,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4305,7 +4118,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4350,7 +4163,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4395,7 +4208,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4438,7 +4251,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4481,7 +4294,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4526,7 +4339,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4571,7 +4384,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4621,7 +4434,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4667,7 +4480,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4711,7 +4524,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4760,7 +4573,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4805,7 +4618,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4850,7 +4663,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4899,7 +4712,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4946,7 +4759,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4990,7 +4803,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5035,7 +4848,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5080,7 +4893,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5125,7 +4938,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5172,7 +4985,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5217,7 +5030,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5262,7 +5075,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5314,7 +5127,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5361,7 +5174,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5408,7 +5221,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5455,7 +5268,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5502,7 +5315,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5542,11 +5355,11 @@ O2
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = Arrhenius(
-        A = (1.1e+18,"cm^3/(mol*s)"),
-        n = -2.4,
-        Ea = (1800,"cal/mol"),
-        T0 = (1,"K"),
+    kinetics = MultiKinetics(
+        kineticsList = [
+            Arrhenius(A=(1.1e+18,"cm^3/(mol*s)"), n=-2.4, Ea=(1800,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(7e+10,"cm^3/(mol*s)"), n=0, Ea=(800,"cal/mol"), T0=(1,"K"))
+        ],
     ),
     reference = None,
     referenceType = "",
@@ -5556,61 +5369,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 126,
-    reactant1 = 
-"""
-CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
-""",
-    reactant2 = 
-"""
-CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
-""",
-    product1 = 
-"""
-CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
-""",
-    product2 = 
-"""
-CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
-""",
-    product3 = 
-"""
-O2
-1     O     1 {2,S}
-2     O     1 {1,S}
-""",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = Arrhenius(
-        A = (7e+10,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (800,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5663,7 +5422,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5691,9 +5450,9 @@ CH3O
     product2 = 
 """
 CH3CH2O
-1     C     0 {2,S}
-2     C     0 {1,S} {3,S}
-3     O     1 {2,S}
+1     C     0 {2,S} {3,S}
+2     C     0 {1,S}
+3     O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5710,7 +5469,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5757,7 +5516,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5791,10 +5550,14 @@ H
     shortDesc = u"""""",
     longDesc = 
 u"""
+CFG from Glarborg
 
+
+
+C1
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5832,7 +5595,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5869,10 +5632,10 @@ HO2
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+CFG from Glarborg; extra collision efficiencies taken from Leeds
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5909,10 +5672,16 @@ OH
     shortDesc = u"""""",
     longDesc = 
 u"""
+H + O2 (+AR) = HO2 (+AR)                   1.5E12   0.600       0  0.0 0.0 0.0
+LOW  / 9.04E19 -1.500 490 /
+TROE / 0.5 1.0E-30 1.0E30 /
 
+H + O2 (+N2) = HO2 (+N2)                   1.5E12   0.600       0  0.0 0.0 0.0
+LOW  / 6.37E20 -1.720 520 /
+TROE / 0.8 1.0E-30 1.0E30 /
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5954,7 +5723,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5990,10 +5759,10 @@ CH4
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+C1 system
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6032,7 +5801,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6072,7 +5841,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6112,7 +5881,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6153,7 +5922,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6194,7 +5963,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6234,7 +6003,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6275,7 +6044,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6307,10 +6076,10 @@ H2
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+reduced by cfg
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6344,7 +6113,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6379,7 +6148,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6413,7 +6182,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6439,10 +6208,13 @@ CH2
     shortDesc = u"""""",
     longDesc = 
 u"""
+C1
 
+CH2 + M = CH + H + M                         5.6E15  0.000    89000  0.0 0.0 0.0
+CH2 + M = C + H2 + M                         5.8E12  0.500    68500  0.0 0.0 0.0
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6473,19 +6245,38 @@ H
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = PDepArrhenius(
-        pressures = ([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
-        arrhenius = [
-            Arrhenius(A=(9.3e+10,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(8e+10,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(7e+10,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(3.7e+12,"cm^3/(mol*s)"), n=0, Ea=(12518,"cal/mol"), T0=1),
-            Arrhenius(A=(2.9e+12,"cm^3/(mol*s)"), n=0, Ea=(11922,"cal/mol"), T0=1),
-            Arrhenius(A=(1.5e+12,"cm^3/(mol*s)"), n=0, Ea=(13909,"cal/mol"), T0=1),
-            Arrhenius(A=(1.5e+11,"cm^3/(mol*s)"), n=0, Ea=(1987,"cal/mol"), T0=1),
-            Arrhenius(A=(1.5e+11,"cm^3/(mol*s)"), n=0, Ea=(1987,"cal/mol"), T0=1),
-            Arrhenius(A=(2.3e+11,"cm^3/(mol*s)"), n=0.2, Ea=(4968,"cal/mol"), T0=1),
-            Arrhenius(A=(3.7e+07,"cm^3/(mol*s)"), n=1.34, Ea=(2186,"cal/mol"), T0=1),
+    kinetics = MultiKinetics(
+        kineticsList = [
+            PDepArrhenius(
+             pressures=([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
+             arrhenius=[
+              Arrhenius(A=(9.3e+10,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(8e+10,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(7e+10,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(3.7e+12,"cm^3/(mol*s)"), n=0, Ea=(12518,"cal/mol"), T0=1),
+              Arrhenius(A=(2.9e+12,"cm^3/(mol*s)"), n=0, Ea=(11922,"cal/mol"), T0=1),
+              Arrhenius(A=(1.5e+12,"cm^3/(mol*s)"), n=0, Ea=(13909,"cal/mol"), T0=1),
+              Arrhenius(A=(1.5e+11,"cm^3/(mol*s)"), n=0, Ea=(1987,"cal/mol"), T0=1),
+              Arrhenius(A=(1.5e+11,"cm^3/(mol*s)"), n=0, Ea=(1987,"cal/mol"), T0=1),
+              Arrhenius(A=(2.3e+11,"cm^3/(mol*s)"), n=0.2, Ea=(4968,"cal/mol"), T0=1),
+              Arrhenius(A=(3.7e+07,"cm^3/(mol*s)"), n=1.34, Ea=(2186,"cal/mol"), T0=1)],
+             highPlimit=Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(1,"cal/mol"), T0=(1,"K"))
+            ),
+            PDepArrhenius(
+             pressures=([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
+             arrhenius=[
+              Arrhenius(A=(710000,"cm^3/(mol*s)"), n=1.8, Ea=(1133,"cal/mol"), T0=1),
+              Arrhenius(A=(880000,"cm^3/(mol*s)"), n=1.77, Ea=(954,"cal/mol"), T0=1),
+              Arrhenius(A=(290000,"cm^3/(mol*s)"), n=1.9, Ea=(397,"cal/mol"), T0=1),
+              Arrhenius(A=(9.3e+07,"cm^3/(mol*s)"), n=1.1, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(4.5e+07,"cm^3/(mol*s)"), n=1.2, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(5.8e+06,"cm^3/(mol*s)"), n=1.5, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(250000,"cm^3/(mol*s)"), n=1.9, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(190000,"cm^3/(mol*s)"), n=1.94, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(700000,"cm^3/(mol*s)"), n=1.7, Ea=(298,"cal/mol"), T0=1),
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1)],
+             highPlimit=Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(2,"cal/mol"), T0=(1,"K"))
+            )
         ],
     ),
     reference = None,
@@ -6493,64 +6284,18 @@ H
     shortDesc = u"""""",
     longDesc = 
 u"""
+*****************************************************************************
+PLOG Reactions: CO/CO2 subset                                            *
+*****************************************************************************
 
+(0.001-2000 bar, 300<T<2000K)
+Well-skipping reaction, so high-P limit is zero.
+
+
+(0.001-2000 bar, 300<T<2000K)
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 149,
-    reactant1 = 
-"""
-CO
-1     C     2T {2,D}
-2     O     0 {1,D}
-""",
-    reactant2 = 
-"""
-OH
-1     O     1
-""",
-    product1 = 
-"""
-CO2
-1     C     0 {2,D} {3,D}
-2     O     0 {1,D}
-3     O     0 {1,D}
-""",
-    product2 = 
-"""
-H
-1     H     1
-""",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = PDepArrhenius(
-        pressures = ([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
-        arrhenius = [
-            Arrhenius(A=(710000,"cm^3/(mol*s)"), n=1.8, Ea=(1133,"cal/mol"), T0=1),
-            Arrhenius(A=(880000,"cm^3/(mol*s)"), n=1.77, Ea=(954,"cal/mol"), T0=1),
-            Arrhenius(A=(290000,"cm^3/(mol*s)"), n=1.9, Ea=(397,"cal/mol"), T0=1),
-            Arrhenius(A=(9.3e+07,"cm^3/(mol*s)"), n=1.1, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(4.5e+07,"cm^3/(mol*s)"), n=1.2, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(5.8e+06,"cm^3/(mol*s)"), n=1.5, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(250000,"cm^3/(mol*s)"), n=1.9, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(190000,"cm^3/(mol*s)"), n=1.94, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(700000,"cm^3/(mol*s)"), n=1.7, Ea=(298,"cal/mol"), T0=1),
-            Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-        ],
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6576,19 +6321,53 @@ HOCO
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = PDepArrhenius(
-        pressures = ([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
-        arrhenius = [
-            Arrhenius(A=(1e+25,"cm^3/(mol*s)"), n=-6, Ea=(2981,"cal/mol"), T0=1),
-            Arrhenius(A=(6e+26,"cm^3/(mol*s)"), n=-5.6, Ea=(2881,"cal/mol"), T0=1),
-            Arrhenius(A=(2.2e+27,"cm^3/(mol*s)"), n=-5.6, Ea=(3239,"cal/mol"), T0=1),
-            Arrhenius(A=(1.5e+25,"cm^3/(mol*s)"), n=-5, Ea=(1987,"cal/mol"), T0=1),
-            Arrhenius(A=(4.2e+26,"cm^3/(mol*s)"), n=-5.7, Ea=(1927,"cal/mol"), T0=1),
-            Arrhenius(A=(4.9e+25,"cm^3/(mol*s)"), n=-5.2, Ea=(1987,"cal/mol"), T0=1),
-            Arrhenius(A=(5.2e+25,"cm^3/(mol*s)"), n=-5.2, Ea=(1987,"cal/mol"), T0=1),
-            Arrhenius(A=(1.1e+28,"cm^3/(mol*s)"), n=-6, Ea=(2384,"cal/mol"), T0=1),
-            Arrhenius(A=(3.2e+41,"cm^3/(mol*s)"), n=-10, Ea=(6955,"cal/mol"), T0=1),
-            Arrhenius(A=(5.5e+44,"cm^3/(mol*s)"), n=-11, Ea=(7948,"cal/mol"), T0=1),
+    kinetics = MultiKinetics(
+        kineticsList = [
+            PDepArrhenius(
+             pressures=([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
+             arrhenius=[
+              Arrhenius(A=(1e+25,"cm^3/(mol*s)"), n=-6, Ea=(2981,"cal/mol"), T0=1),
+              Arrhenius(A=(6e+26,"cm^3/(mol*s)"), n=-5.6, Ea=(2881,"cal/mol"), T0=1),
+              Arrhenius(A=(2.2e+27,"cm^3/(mol*s)"), n=-5.6, Ea=(3239,"cal/mol"), T0=1),
+              Arrhenius(A=(1.5e+25,"cm^3/(mol*s)"), n=-5, Ea=(1987,"cal/mol"), T0=1),
+              Arrhenius(A=(4.2e+26,"cm^3/(mol*s)"), n=-5.7, Ea=(1927,"cal/mol"), T0=1),
+              Arrhenius(A=(4.9e+25,"cm^3/(mol*s)"), n=-5.2, Ea=(1987,"cal/mol"), T0=1),
+              Arrhenius(A=(5.2e+25,"cm^3/(mol*s)"), n=-5.2, Ea=(1987,"cal/mol"), T0=1),
+              Arrhenius(A=(1.1e+28,"cm^3/(mol*s)"), n=-6, Ea=(2384,"cal/mol"), T0=1),
+              Arrhenius(A=(3.2e+41,"cm^3/(mol*s)"), n=-10, Ea=(6955,"cal/mol"), T0=1),
+              Arrhenius(A=(5.5e+44,"cm^3/(mol*s)"), n=-11, Ea=(7948,"cal/mol"), T0=1)],
+             highPlimit=Arrhenius(A=(5.5e+44,"cm^3/(mol*s)"), n=-11, Ea=(7948,"cal/mol"), T0=(1,"K"))
+            ),
+            PDepArrhenius(
+             pressures=([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
+             arrhenius=[
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(1.3e+37,"cm^3/(mol*s)"), n=-8.4, Ea=(7948,"cal/mol"), T0=1),
+              Arrhenius(A=(7.5e+28,"cm^3/(mol*s)"), n=-6, Ea=(3775,"cal/mol"), T0=1),
+              Arrhenius(A=(4e+38,"cm^3/(mol*s)"), n=-9, Ea=(6955,"cal/mol"), T0=1),
+              Arrhenius(A=(7.7e+35,"cm^3/(mol*s)"), n=-8, Ea=(6557,"cal/mol"), T0=1),
+              Arrhenius(A=(1.8e+36,"cm^3/(mol*s)"), n=-8, Ea=(7153,"cal/mol"), T0=1),
+              Arrhenius(A=(2.9e+66,"cm^3/(mol*s)"), n=-17.1, Ea=(19870,"cal/mol"), T0=1),
+              Arrhenius(A=(2.7e+67,"cm^3/(mol*s)"), n=-17, Ea=(22851,"cal/mol"), T0=1)],
+             highPlimit=Arrhenius(A=(2.7e+67,"cm^3/(mol*s)"), n=-17, Ea=(22851,"cal/mol"), T0=(1,"K"))
+            ),
+            PDepArrhenius(
+             pressures=([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
+             arrhenius=[
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(4e+39,"cm^3/(mol*s)"), n=-9, Ea=(9935,"cal/mol"), T0=1),
+              Arrhenius(A=(5e+43,"cm^3/(mol*s)"), n=-10, Ea=(13015,"cal/mol"), T0=1),
+              Arrhenius(A=(9e+47,"cm^3/(mol*s)"), n=-11.2, Ea=(15499,"cal/mol"), T0=1),
+              Arrhenius(A=(2e+54,"cm^3/(mol*s)"), n=-13, Ea=(19671,"cal/mol"), T0=1),
+              Arrhenius(A=(2e+63,"cm^3/(mol*s)"), n=-15.2, Ea=(27421,"cal/mol"), T0=1),
+              Arrhenius(A=(1e+74,"cm^3/(mol*s)"), n=-18, Ea=(37157,"cal/mol"), T0=1)],
+             highPlimit=Arrhenius(A=(1e+74,"cm^3/(mol*s)"), n=-18, Ea=(37157,"cal/mol"), T0=(1,"K"))
+            )
         ],
     ),
     reference = None,
@@ -6596,108 +6375,16 @@ HOCO
     shortDesc = u"""""",
     longDesc = 
 u"""
+(0.001-2000 bar, 300<T<2000K)
 
+
+(0.001 bar, 300<T<2000K)
+
+
+(0.001 bar, 300<T<2000K)
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 151,
-    reactant1 = 
-"""
-CO
-1     C     2T {2,D}
-2     O     0 {1,D}
-""",
-    reactant2 = 
-"""
-OH
-1     O     1
-""",
-    product1 = 
-"""
-HOCO
-1     C     1 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S}
-""",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = PDepArrhenius(
-        pressures = ([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
-        arrhenius = [
-            Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(1.3e+37,"cm^3/(mol*s)"), n=-8.4, Ea=(7948,"cal/mol"), T0=1),
-            Arrhenius(A=(7.5e+28,"cm^3/(mol*s)"), n=-6, Ea=(3775,"cal/mol"), T0=1),
-            Arrhenius(A=(4e+38,"cm^3/(mol*s)"), n=-9, Ea=(6955,"cal/mol"), T0=1),
-            Arrhenius(A=(7.7e+35,"cm^3/(mol*s)"), n=-8, Ea=(6557,"cal/mol"), T0=1),
-            Arrhenius(A=(1.8e+36,"cm^3/(mol*s)"), n=-8, Ea=(7153,"cal/mol"), T0=1),
-            Arrhenius(A=(2.9e+66,"cm^3/(mol*s)"), n=-17.1, Ea=(19870,"cal/mol"), T0=1),
-            Arrhenius(A=(2.7e+67,"cm^3/(mol*s)"), n=-17, Ea=(22851,"cal/mol"), T0=1),
-        ],
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 152,
-    reactant1 = 
-"""
-CO
-1     C     2T {2,D}
-2     O     0 {1,D}
-""",
-    reactant2 = 
-"""
-OH
-1     O     1
-""",
-    product1 = 
-"""
-HOCO
-1     C     1 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S}
-""",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = PDepArrhenius(
-        pressures = ([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
-        arrhenius = [
-            Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(4e+39,"cm^3/(mol*s)"), n=-9, Ea=(9935,"cal/mol"), T0=1),
-            Arrhenius(A=(5e+43,"cm^3/(mol*s)"), n=-10, Ea=(13015,"cal/mol"), T0=1),
-            Arrhenius(A=(9e+47,"cm^3/(mol*s)"), n=-11.2, Ea=(15499,"cal/mol"), T0=1),
-            Arrhenius(A=(2e+54,"cm^3/(mol*s)"), n=-13, Ea=(19671,"cal/mol"), T0=1),
-            Arrhenius(A=(2e+63,"cm^3/(mol*s)"), n=-15.2, Ea=(27421,"cal/mol"), T0=1),
-            Arrhenius(A=(1e+74,"cm^3/(mol*s)"), n=-18, Ea=(37157,"cal/mol"), T0=1),
-        ],
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6724,14 +6411,28 @@ H
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = PDepArrhenius(
-        pressures = ([1,10,20,50,100],"atm"),
-        arrhenius = [
-            Arrhenius(A=(3.5e+56,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1),
-            Arrhenius(A=(3.2e+57,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1),
-            Arrhenius(A=(6e+57,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1),
-            Arrhenius(A=(1.4e+58,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1),
-            Arrhenius(A=(2.8e+58,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1),
+    kinetics = MultiKinetics(
+        kineticsList = [
+            PDepArrhenius(
+             pressures=([1,10,20,50,100],"atm"),
+             arrhenius=[
+              Arrhenius(A=(3.5e+56,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1),
+              Arrhenius(A=(3.2e+57,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1),
+              Arrhenius(A=(6e+57,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1),
+              Arrhenius(A=(1.4e+58,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1),
+              Arrhenius(A=(2.8e+58,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1)],
+             highPlimit=Arrhenius(A=(2.8e+58,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=(1,"K"))
+            ),
+            PDepArrhenius(
+             pressures=([1,10,20,50,100],"atm"),
+             arrhenius=[
+              Arrhenius(A=(2.5e+69,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1),
+              Arrhenius(A=(2.2e+70,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1),
+              Arrhenius(A=(4.3e+70,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1),
+              Arrhenius(A=(1e+71,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1),
+              Arrhenius(A=(2e+71,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1)],
+             highPlimit=Arrhenius(A=(2e+71,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=(1,"K"))
+            )
         ],
     ),
     reference = None,
@@ -6739,55 +6440,16 @@ H
     shortDesc = u"""""",
     longDesc = 
 u"""
+(1-100 bar, 300<T<2000K)
+HOCO = CO2 + H         3.5E56*P[bar]^0.95 -15.000   46500
 
+
+
+(1-100 bar, 300<T<2000K)
+HOCO = CO2 + H               2.5E69*P[bar]^0.95 -18.000   60000
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 154,
-    reactant1 = 
-"""
-HOCO
-1     C     1 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S}
-""",
-    product1 = 
-"""
-CO2
-1     C     0 {2,D} {3,D}
-2     O     0 {1,D}
-3     O     0 {1,D}
-""",
-    product2 = 
-"""
-H
-1     H     1
-""",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = PDepArrhenius(
-        pressures = ([1,10,20,50,100],"atm"),
-        arrhenius = [
-            Arrhenius(A=(2.5e+69,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1),
-            Arrhenius(A=(2.2e+70,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1),
-            Arrhenius(A=(4.3e+70,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1),
-            Arrhenius(A=(1e+71,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1),
-            Arrhenius(A=(2e+71,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1),
-        ],
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6820,16 +6482,23 @@ CO
             Arrhenius(A=(2.9e+13,"s^-1"), n=-0.865, Ea=(16755,"cal/mol"), T0=1),
             Arrhenius(A=(5.3e+13,"s^-1"), n=-0.865, Ea=(16755,"cal/mol"), T0=1),
         ],
+        highPlimit = Arrhenius(A=(5.3e+13,"s^-1"), n=-0.865, Ea=(16755,"cal/mol"), T0=(1,"K")),
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
+*****************************************************************************
+PLOG Reactions: CH2O subset                                              *
+*****************************************************************************
 
+
+General pressure dependency
+HCO = H + CO               9.83E11*P[bar]^0.865  -0.865   16755  0.0 0.0 0.0
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6855,14 +6524,28 @@ CH3OO
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = PDepArrhenius(
-        pressures = ([1,10,20,50,100],"atm"),
-        arrhenius = [
-            Arrhenius(A=(5e+22,"cm^3/(mol*s)"), n=-3.85, Ea=(2000,"cal/mol"), T0=1),
-            Arrhenius(A=(3.4e+21,"cm^3/(mol*s)"), n=-3.2, Ea=(2300,"cal/mol"), T0=1),
-            Arrhenius(A=(4.1e+20,"cm^3/(mol*s)"), n=-2.94, Ea=(1900,"cal/mol"), T0=1),
-            Arrhenius(A=(2.8e+18,"cm^3/(mol*s)"), n=-2.2, Ea=(1400,"cal/mol"), T0=1),
-            Arrhenius(A=(1.1e+19,"cm^3/(mol*s)"), n=-2.3, Ea=(1800,"cal/mol"), T0=1),
+    kinetics = MultiKinetics(
+        kineticsList = [
+            PDepArrhenius(
+             pressures=([1,10,20,50,100],"atm"),
+             arrhenius=[
+              Arrhenius(A=(5e+22,"cm^3/(mol*s)"), n=-3.85, Ea=(2000,"cal/mol"), T0=1),
+              Arrhenius(A=(3.4e+21,"cm^3/(mol*s)"), n=-3.2, Ea=(2300,"cal/mol"), T0=1),
+              Arrhenius(A=(4.1e+20,"cm^3/(mol*s)"), n=-2.94, Ea=(1900,"cal/mol"), T0=1),
+              Arrhenius(A=(2.8e+18,"cm^3/(mol*s)"), n=-2.2, Ea=(1400,"cal/mol"), T0=1),
+              Arrhenius(A=(1.1e+19,"cm^3/(mol*s)"), n=-2.3, Ea=(1800,"cal/mol"), T0=1)],
+             highPlimit=Arrhenius(A=(1.1e+19,"cm^3/(mol*s)"), n=-2.3, Ea=(1800,"cal/mol"), T0=(1,"K"))
+            ),
+            PDepArrhenius(
+             pressures=([1,10,20,50,100],"atm"),
+             arrhenius=[
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
+              Arrhenius(A=(3.3e+29,"cm^3/(mol*s)"), n=-5.6, Ea=(6850,"cal/mol"), T0=1),
+              Arrhenius(A=(5.6e+28,"cm^3/(mol*s)"), n=-5.25, Ea=(6850,"cal/mol"), T0=1),
+              Arrhenius(A=(4.1e+30,"cm^3/(mol*s)"), n=-5.7, Ea=(8750,"cal/mol"), T0=1)],
+             highPlimit=Arrhenius(A=(4.1e+30,"cm^3/(mol*s)"), n=-5.7, Ea=(8750,"cal/mol"), T0=(1,"K"))
+            )
         ],
     ),
     reference = None,
@@ -6870,54 +6553,15 @@ CH3OO
     shortDesc = u"""""",
     longDesc = 
 u"""
+*****************************************************************************
+PLOG Reactions:  CH4 subset                                              *
+*****************************************************************************
 
+
+fit to FER/TRO06
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 157,
-    reactant1 = 
-"""
-CH3
-1     C     1
-""",
-    reactant2 = 
-"""
-O2
-1     O     1 {2,S}
-2     O     1 {1,S}
-""",
-    product1 = 
-"""
-CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
-""",
-    degeneracy = 1,
-    duplicate = True,
-    kinetics = PDepArrhenius(
-        pressures = ([1,10,20,50,100],"atm"),
-        arrhenius = [
-            Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-            Arrhenius(A=(3.3e+29,"cm^3/(mol*s)"), n=-5.6, Ea=(6850,"cal/mol"), T0=1),
-            Arrhenius(A=(5.6e+28,"cm^3/(mol*s)"), n=-5.25, Ea=(6850,"cal/mol"), T0=1),
-            Arrhenius(A=(4.1e+30,"cm^3/(mol*s)"), n=-5.7, Ea=(8750,"cal/mol"), T0=1),
-        ],
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6950,16 +6594,17 @@ OH
             Arrhenius(A=(2.8e+26,"s^-1"), n=-3.5, Ea=(46340,"cal/mol"), T0=1),
             Arrhenius(A=(2.2e+17,"s^-1"), n=-0.42, Ea=(44622,"cal/mol"), T0=1),
         ],
+        highPlimit = Arrhenius(A=(2.2e+17,"s^-1"), n=-0.42, Ea=(44622,"cal/mol"), T0=(1,"K")),
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+High-P limit rate is Garborg's high-PL rate
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
