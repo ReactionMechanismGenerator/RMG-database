@@ -16420,31 +16420,31 @@ H
             PDepArrhenius(
              pressures=([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
              arrhenius=[
-              Arrhenius(A=(9.3e+10,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(8e+10,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(7e+10,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(3.7e+12,"cm^3/(mol*s)"), n=0, Ea=(12518,"cal/mol"), T0=1),
-              Arrhenius(A=(2.9e+12,"cm^3/(mol*s)"), n=0, Ea=(11922,"cal/mol"), T0=1),
-              Arrhenius(A=(1.5e+12,"cm^3/(mol*s)"), n=0, Ea=(13909,"cal/mol"), T0=1),
-              Arrhenius(A=(1.5e+11,"cm^3/(mol*s)"), n=0, Ea=(1987,"cal/mol"), T0=1),
-              Arrhenius(A=(1.5e+11,"cm^3/(mol*s)"), n=0, Ea=(1987,"cal/mol"), T0=1),
-              Arrhenius(A=(2.3e+11,"cm^3/(mol*s)"), n=0.2, Ea=(4968,"cal/mol"), T0=1),
-              Arrhenius(A=(3.7e+07,"cm^3/(mol*s)"), n=1.34, Ea=(2186,"cal/mol"), T0=1)],
+              Arrhenius(A=(9.3e+10,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(8e+10,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(7e+10,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(3.7e+12,"cm^3/(mol*s)"), n=0, Ea=(12518,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(2.9e+12,"cm^3/(mol*s)"), n=0, Ea=(11922,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(1.5e+12,"cm^3/(mol*s)"), n=0, Ea=(13909,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(1.5e+11,"cm^3/(mol*s)"), n=0, Ea=(1987,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(1.5e+11,"cm^3/(mol*s)"), n=0, Ea=(1987,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(2.3e+11,"cm^3/(mol*s)"), n=0.2, Ea=(4968,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(3.7e+07,"cm^3/(mol*s)"), n=1.34, Ea=(2186,"cal/mol"), T0=(1,"K"))],
              highPlimit=Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(1,"cal/mol"), T0=(1,"K"))
             ),
             PDepArrhenius(
              pressures=([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
              arrhenius=[
-              Arrhenius(A=(710000,"cm^3/(mol*s)"), n=1.8, Ea=(1133,"cal/mol"), T0=1),
-              Arrhenius(A=(880000,"cm^3/(mol*s)"), n=1.77, Ea=(954,"cal/mol"), T0=1),
-              Arrhenius(A=(290000,"cm^3/(mol*s)"), n=1.9, Ea=(397,"cal/mol"), T0=1),
-              Arrhenius(A=(9.3e+07,"cm^3/(mol*s)"), n=1.1, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(4.5e+07,"cm^3/(mol*s)"), n=1.2, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(5.8e+06,"cm^3/(mol*s)"), n=1.5, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(250000,"cm^3/(mol*s)"), n=1.9, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(190000,"cm^3/(mol*s)"), n=1.94, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(700000,"cm^3/(mol*s)"), n=1.7, Ea=(298,"cal/mol"), T0=1),
-              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1)],
+              Arrhenius(A=(710000,"cm^3/(mol*s)"), n=1.8, Ea=(1133,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(880000,"cm^3/(mol*s)"), n=1.77, Ea=(954,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(290000,"cm^3/(mol*s)"), n=1.9, Ea=(397,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(9.3e+07,"cm^3/(mol*s)"), n=1.1, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(4.5e+07,"cm^3/(mol*s)"), n=1.2, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(5.8e+06,"cm^3/(mol*s)"), n=1.5, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(250000,"cm^3/(mol*s)"), n=1.9, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(190000,"cm^3/(mol*s)"), n=1.94, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(700000,"cm^3/(mol*s)"), n=1.7, Ea=(298,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=(1,"K"))],
              highPlimit=Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(2,"cal/mol"), T0=(1,"K"))
             )
         ],
@@ -16496,46 +16496,46 @@ HOCO
             PDepArrhenius(
              pressures=([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
              arrhenius=[
-              Arrhenius(A=(1e+25,"cm^3/(mol*s)"), n=-6, Ea=(2981,"cal/mol"), T0=1),
-              Arrhenius(A=(6e+26,"cm^3/(mol*s)"), n=-5.6, Ea=(2881,"cal/mol"), T0=1),
-              Arrhenius(A=(2.2e+27,"cm^3/(mol*s)"), n=-5.6, Ea=(3239,"cal/mol"), T0=1),
-              Arrhenius(A=(1.5e+25,"cm^3/(mol*s)"), n=-5, Ea=(1987,"cal/mol"), T0=1),
-              Arrhenius(A=(4.2e+26,"cm^3/(mol*s)"), n=-5.7, Ea=(1927,"cal/mol"), T0=1),
-              Arrhenius(A=(4.9e+25,"cm^3/(mol*s)"), n=-5.2, Ea=(1987,"cal/mol"), T0=1),
-              Arrhenius(A=(5.2e+25,"cm^3/(mol*s)"), n=-5.2, Ea=(1987,"cal/mol"), T0=1),
-              Arrhenius(A=(1.1e+28,"cm^3/(mol*s)"), n=-6, Ea=(2384,"cal/mol"), T0=1),
-              Arrhenius(A=(3.2e+41,"cm^3/(mol*s)"), n=-10, Ea=(6955,"cal/mol"), T0=1),
-              Arrhenius(A=(5.5e+44,"cm^3/(mol*s)"), n=-11, Ea=(7948,"cal/mol"), T0=1)],
+              Arrhenius(A=(1e+25,"cm^3/(mol*s)"), n=-6, Ea=(2981,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(6e+26,"cm^3/(mol*s)"), n=-5.6, Ea=(2881,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(2.2e+27,"cm^3/(mol*s)"), n=-5.6, Ea=(3239,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(1.5e+25,"cm^3/(mol*s)"), n=-5, Ea=(1987,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(4.2e+26,"cm^3/(mol*s)"), n=-5.7, Ea=(1927,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(4.9e+25,"cm^3/(mol*s)"), n=-5.2, Ea=(1987,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(5.2e+25,"cm^3/(mol*s)"), n=-5.2, Ea=(1987,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(1.1e+28,"cm^3/(mol*s)"), n=-6, Ea=(2384,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(3.2e+41,"cm^3/(mol*s)"), n=-10, Ea=(6955,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(5.5e+44,"cm^3/(mol*s)"), n=-11, Ea=(7948,"cal/mol"), T0=(1,"K"))],
              highPlimit=Arrhenius(A=(5.5e+44,"cm^3/(mol*s)"), n=-11, Ea=(7948,"cal/mol"), T0=(1,"K"))
             ),
             PDepArrhenius(
              pressures=([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
              arrhenius=[
-              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(1.3e+37,"cm^3/(mol*s)"), n=-8.4, Ea=(7948,"cal/mol"), T0=1),
-              Arrhenius(A=(7.5e+28,"cm^3/(mol*s)"), n=-6, Ea=(3775,"cal/mol"), T0=1),
-              Arrhenius(A=(4e+38,"cm^3/(mol*s)"), n=-9, Ea=(6955,"cal/mol"), T0=1),
-              Arrhenius(A=(7.7e+35,"cm^3/(mol*s)"), n=-8, Ea=(6557,"cal/mol"), T0=1),
-              Arrhenius(A=(1.8e+36,"cm^3/(mol*s)"), n=-8, Ea=(7153,"cal/mol"), T0=1),
-              Arrhenius(A=(2.9e+66,"cm^3/(mol*s)"), n=-17.1, Ea=(19870,"cal/mol"), T0=1),
-              Arrhenius(A=(2.7e+67,"cm^3/(mol*s)"), n=-17, Ea=(22851,"cal/mol"), T0=1)],
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(1.3e+37,"cm^3/(mol*s)"), n=-8.4, Ea=(7948,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(7.5e+28,"cm^3/(mol*s)"), n=-6, Ea=(3775,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(4e+38,"cm^3/(mol*s)"), n=-9, Ea=(6955,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(7.7e+35,"cm^3/(mol*s)"), n=-8, Ea=(6557,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(1.8e+36,"cm^3/(mol*s)"), n=-8, Ea=(7153,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(2.9e+66,"cm^3/(mol*s)"), n=-17.1, Ea=(19870,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(2.7e+67,"cm^3/(mol*s)"), n=-17, Ea=(22851,"cal/mol"), T0=(1,"K"))],
              highPlimit=Arrhenius(A=(2.7e+67,"cm^3/(mol*s)"), n=-17, Ea=(22851,"cal/mol"), T0=(1,"K"))
             ),
             PDepArrhenius(
              pressures=([0.001,1,3,10,20,50,80,100,650,2000],"atm"),
              arrhenius=[
-              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(4e+39,"cm^3/(mol*s)"), n=-9, Ea=(9935,"cal/mol"), T0=1),
-              Arrhenius(A=(5e+43,"cm^3/(mol*s)"), n=-10, Ea=(13015,"cal/mol"), T0=1),
-              Arrhenius(A=(9e+47,"cm^3/(mol*s)"), n=-11.2, Ea=(15499,"cal/mol"), T0=1),
-              Arrhenius(A=(2e+54,"cm^3/(mol*s)"), n=-13, Ea=(19671,"cal/mol"), T0=1),
-              Arrhenius(A=(2e+63,"cm^3/(mol*s)"), n=-15.2, Ea=(27421,"cal/mol"), T0=1),
-              Arrhenius(A=(1e+74,"cm^3/(mol*s)"), n=-18, Ea=(37157,"cal/mol"), T0=1)],
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(4e+39,"cm^3/(mol*s)"), n=-9, Ea=(9935,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(5e+43,"cm^3/(mol*s)"), n=-10, Ea=(13015,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(9e+47,"cm^3/(mol*s)"), n=-11.2, Ea=(15499,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(2e+54,"cm^3/(mol*s)"), n=-13, Ea=(19671,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(2e+63,"cm^3/(mol*s)"), n=-15.2, Ea=(27421,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(1e+74,"cm^3/(mol*s)"), n=-18, Ea=(37157,"cal/mol"), T0=(1,"K"))],
              highPlimit=Arrhenius(A=(1e+74,"cm^3/(mol*s)"), n=-18, Ea=(37157,"cal/mol"), T0=(1,"K"))
             )
         ],
@@ -16586,21 +16586,21 @@ H
             PDepArrhenius(
              pressures=([1,10,20,50,100],"atm"),
              arrhenius=[
-              Arrhenius(A=(3.5e+56,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1),
-              Arrhenius(A=(3.2e+57,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1),
-              Arrhenius(A=(6e+57,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1),
-              Arrhenius(A=(1.4e+58,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1),
-              Arrhenius(A=(2.8e+58,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=1)],
+              Arrhenius(A=(3.5e+56,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(3.2e+57,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(6e+57,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(1.4e+58,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(2.8e+58,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=(1,"K"))],
              highPlimit=Arrhenius(A=(2.8e+58,"s^-1"), n=-15, Ea=(46500,"cal/mol"), T0=(1,"K"))
             ),
             PDepArrhenius(
              pressures=([1,10,20,50,100],"atm"),
              arrhenius=[
-              Arrhenius(A=(2.5e+69,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1),
-              Arrhenius(A=(2.2e+70,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1),
-              Arrhenius(A=(4.3e+70,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1),
-              Arrhenius(A=(1e+71,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1),
-              Arrhenius(A=(2e+71,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=1)],
+              Arrhenius(A=(2.5e+69,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(2.2e+70,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(4.3e+70,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(1e+71,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(2e+71,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=(1,"K"))],
              highPlimit=Arrhenius(A=(2e+71,"s^-1"), n=-18, Ea=(60000,"cal/mol"), T0=(1,"K"))
             )
         ],
@@ -16646,11 +16646,11 @@ CO
     kinetics = PDepArrhenius(
         pressures = ([1,10,20,50,100],"atm"),
         arrhenius = [
-            Arrhenius(A=(9.9e+11,"s^-1"), n=-0.865, Ea=(16755,"cal/mol"), T0=1),
-            Arrhenius(A=(7.2e+12,"s^-1"), n=-0.865, Ea=(16755,"cal/mol"), T0=1),
-            Arrhenius(A=(1.3e+13,"s^-1"), n=-0.865, Ea=(16755,"cal/mol"), T0=1),
-            Arrhenius(A=(2.9e+13,"s^-1"), n=-0.865, Ea=(16755,"cal/mol"), T0=1),
-            Arrhenius(A=(5.3e+13,"s^-1"), n=-0.865, Ea=(16755,"cal/mol"), T0=1),
+            Arrhenius(A=(9.9e+11,"s^-1"), n=-0.865, Ea=(16755,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(7.2e+12,"s^-1"), n=-0.865, Ea=(16755,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(1.3e+13,"s^-1"), n=-0.865, Ea=(16755,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(2.9e+13,"s^-1"), n=-0.865, Ea=(16755,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(5.3e+13,"s^-1"), n=-0.865, Ea=(16755,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(5.3e+13,"s^-1"), n=-0.865, Ea=(16755,"cal/mol"), T0=(1,"K")),
     ),
@@ -16699,21 +16699,21 @@ CH3OO
             PDepArrhenius(
              pressures=([1,10,20,50,100],"atm"),
              arrhenius=[
-              Arrhenius(A=(5e+22,"cm^3/(mol*s)"), n=-3.85, Ea=(2000,"cal/mol"), T0=1),
-              Arrhenius(A=(3.4e+21,"cm^3/(mol*s)"), n=-3.2, Ea=(2300,"cal/mol"), T0=1),
-              Arrhenius(A=(4.1e+20,"cm^3/(mol*s)"), n=-2.94, Ea=(1900,"cal/mol"), T0=1),
-              Arrhenius(A=(2.8e+18,"cm^3/(mol*s)"), n=-2.2, Ea=(1400,"cal/mol"), T0=1),
-              Arrhenius(A=(1.1e+19,"cm^3/(mol*s)"), n=-2.3, Ea=(1800,"cal/mol"), T0=1)],
+              Arrhenius(A=(5e+22,"cm^3/(mol*s)"), n=-3.85, Ea=(2000,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(3.4e+21,"cm^3/(mol*s)"), n=-3.2, Ea=(2300,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(4.1e+20,"cm^3/(mol*s)"), n=-2.94, Ea=(1900,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(2.8e+18,"cm^3/(mol*s)"), n=-2.2, Ea=(1400,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(1.1e+19,"cm^3/(mol*s)"), n=-2.3, Ea=(1800,"cal/mol"), T0=(1,"K"))],
              highPlimit=Arrhenius(A=(1.1e+19,"cm^3/(mol*s)"), n=-2.3, Ea=(1800,"cal/mol"), T0=(1,"K"))
             ),
             PDepArrhenius(
              pressures=([1,10,20,50,100],"atm"),
              arrhenius=[
-              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=1),
-              Arrhenius(A=(3.3e+29,"cm^3/(mol*s)"), n=-5.6, Ea=(6850,"cal/mol"), T0=1),
-              Arrhenius(A=(5.6e+28,"cm^3/(mol*s)"), n=-5.25, Ea=(6850,"cal/mol"), T0=1),
-              Arrhenius(A=(4.1e+30,"cm^3/(mol*s)"), n=-5.7, Ea=(8750,"cal/mol"), T0=1)],
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(0,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(3.3e+29,"cm^3/(mol*s)"), n=-5.6, Ea=(6850,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(5.6e+28,"cm^3/(mol*s)"), n=-5.25, Ea=(6850,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(4.1e+30,"cm^3/(mol*s)"), n=-5.7, Ea=(8750,"cal/mol"), T0=(1,"K"))],
              highPlimit=Arrhenius(A=(4.1e+30,"cm^3/(mol*s)"), n=-5.7, Ea=(8750,"cal/mol"), T0=(1,"K"))
             )
         ],
@@ -16759,10 +16759,10 @@ OH
     kinetics = PDepArrhenius(
         pressures = ([1,10,50,1000],"atm"),
         arrhenius = [
-            Arrhenius(A=(2e+35,"s^-1"), n=-6.7, Ea=(47450,"cal/mol"), T0=1),
-            Arrhenius(A=(1.1e+28,"s^-1"), n=-4.15, Ea=(46190,"cal/mol"), T0=1),
-            Arrhenius(A=(2.8e+26,"s^-1"), n=-3.5, Ea=(46340,"cal/mol"), T0=1),
-            Arrhenius(A=(2.2e+17,"s^-1"), n=-0.42, Ea=(44622,"cal/mol"), T0=1),
+            Arrhenius(A=(2e+35,"s^-1"), n=-6.7, Ea=(47450,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(1.1e+28,"s^-1"), n=-4.15, Ea=(46190,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(2.8e+26,"s^-1"), n=-3.5, Ea=(46340,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(2.2e+17,"s^-1"), n=-0.42, Ea=(44622,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(2.2e+17,"s^-1"), n=-0.42, Ea=(44622,"cal/mol"), T0=(1,"K")),
     ),
@@ -16807,9 +16807,9 @@ CH2O
     kinetics = PDepArrhenius(
         pressures = ([1,10,100],"atm"),
         arrhenius = [
-            Arrhenius(A=(1.8e+06,"cm^3/(mol*s)"), n=1.68, Ea=(2061,"cal/mol"), T0=1),
-            Arrhenius(A=(2.4e+09,"cm^3/(mol*s)"), n=0.56, Ea=(6007,"cal/mol"), T0=1),
-            Arrhenius(A=(2.8e+13,"cm^3/(mol*s)"), n=-0.5, Ea=(11455,"cal/mol"), T0=1),
+            Arrhenius(A=(1.8e+06,"cm^3/(mol*s)"), n=1.68, Ea=(2061,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(2.4e+09,"cm^3/(mol*s)"), n=0.56, Ea=(6007,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(2.8e+13,"cm^3/(mol*s)"), n=-0.5, Ea=(11455,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(2.8e+13,"cm^3/(mol*s)"), n=-0.5, Ea=(11455,"cal/mol"), T0=(1,"K")),
     ),
@@ -16876,9 +16876,9 @@ H
     kinetics = PDepArrhenius(
         pressures = ([1,10,100],"atm"),
         arrhenius = [
-            Arrhenius(A=(0.024,"cm^3/(mol*s)"), n=3.91, Ea=(1723,"cal/mol"), T0=1),
-            Arrhenius(A=(8.2e+08,"cm^3/(mol*s)"), n=1.01, Ea=(10507,"cal/mol"), T0=1),
-            Arrhenius(A=(6.8e+09,"cm^3/(mol*s)"), n=0.81, Ea=(13867,"cal/mol"), T0=1),
+            Arrhenius(A=(0.024,"cm^3/(mol*s)"), n=3.91, Ea=(1723,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(8.2e+08,"cm^3/(mol*s)"), n=1.01, Ea=(10507,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(6.8e+09,"cm^3/(mol*s)"), n=0.81, Ea=(13867,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(6.8e+09,"cm^3/(mol*s)"), n=0.81, Ea=(13867,"cal/mol"), T0=(1,"K")),
     ),
@@ -16925,9 +16925,9 @@ H
     kinetics = PDepArrhenius(
         pressures = ([1,10,100],"atm"),
         arrhenius = [
-            Arrhenius(A=(320000,"cm^3/(mol*s)"), n=2.19, Ea=(5256,"cal/mol"), T0=1),
-            Arrhenius(A=(1.9e+08,"cm^3/(mol*s)"), n=1.43, Ea=(7829,"cal/mol"), T0=1),
-            Arrhenius(A=(8.5e+10,"cm^3/(mol*s)"), n=0.75, Ea=(11491,"cal/mol"), T0=1),
+            Arrhenius(A=(320000,"cm^3/(mol*s)"), n=2.19, Ea=(5256,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(1.9e+08,"cm^3/(mol*s)"), n=1.43, Ea=(7829,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(8.5e+10,"cm^3/(mol*s)"), n=0.75, Ea=(11491,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(8.5e+10,"cm^3/(mol*s)"), n=0.75, Ea=(11491,"cal/mol"), T0=(1,"K")),
     ),
@@ -16972,17 +16972,17 @@ CH2CH2OH
             PDepArrhenius(
              pressures=([1,10,100],"atm"),
              arrhenius=[
-              Arrhenius(A=(6e+37,"cm^3/(mol*s)"), n=-8.14, Ea=(8043,"cal/mol"), T0=1),
-              Arrhenius(A=(6e+37,"cm^3/(mol*s)"), n=-7.77, Ea=(10736,"cal/mol"), T0=1),
-              Arrhenius(A=(6e+37,"cm^3/(mol*s)"), n=-7.44, Ea=(14269,"cal/mol"), T0=1)],
+              Arrhenius(A=(6e+37,"cm^3/(mol*s)"), n=-8.14, Ea=(8043,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(6e+37,"cm^3/(mol*s)"), n=-7.77, Ea=(10736,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(6e+37,"cm^3/(mol*s)"), n=-7.44, Ea=(14269,"cal/mol"), T0=(1,"K"))],
              highPlimit=Arrhenius(A=(6e+37,"cm^3/(mol*s)"), n=-7.44, Ea=(14269,"cal/mol"), T0=(1,"K"))
             ),
             PDepArrhenius(
              pressures=([1,10,100],"atm"),
              arrhenius=[
-              Arrhenius(A=(7.3e+23,"cm^3/(mol*s)"), n=-6.91, Ea=(2855,"cal/mol"), T0=1),
-              Arrhenius(A=(3e+26,"cm^3/(mol*s)"), n=-4.87, Ea=(2297,"cal/mol"), T0=1),
-              Arrhenius(A=(2.8e+19,"cm^3/(mol*s)"), n=-2.41, Ea=(1011,"cal/mol"), T0=1)],
+              Arrhenius(A=(7.3e+23,"cm^3/(mol*s)"), n=-6.91, Ea=(2855,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(3e+26,"cm^3/(mol*s)"), n=-4.87, Ea=(2297,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(2.8e+19,"cm^3/(mol*s)"), n=-2.41, Ea=(1011,"cal/mol"), T0=(1,"K"))],
              highPlimit=Arrhenius(A=(2.8e+19,"cm^3/(mol*s)"), n=-2.41, Ea=(1011,"cal/mol"), T0=(1,"K"))
             )
         ],
@@ -17030,9 +17030,9 @@ CO
     kinetics = PDepArrhenius(
         pressures = ([1,10,100],"atm"),
         arrhenius = [
-            Arrhenius(A=(1.3e+09,"cm^3/(mol*s)"), n=0.73, Ea=(2579,"cal/mol"), T0=1),
-            Arrhenius(A=(4.3e+08,"cm^3/(mol*s)"), n=0.92, Ea=(3736,"cal/mol"), T0=1),
-            Arrhenius(A=(830000,"cm^3/(mol*s)"), n=1.77, Ea=(4697,"cal/mol"), T0=1),
+            Arrhenius(A=(1.3e+09,"cm^3/(mol*s)"), n=0.73, Ea=(2579,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(4.3e+08,"cm^3/(mol*s)"), n=0.92, Ea=(3736,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(830000,"cm^3/(mol*s)"), n=1.77, Ea=(4697,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(830000,"cm^3/(mol*s)"), n=1.77, Ea=(4697,"cal/mol"), T0=(1,"K")),
     ),
@@ -17077,9 +17077,9 @@ H
     kinetics = PDepArrhenius(
         pressures = ([1,10,100],"atm"),
         arrhenius = [
-            Arrhenius(A=(2.4e+06,"cm^3/(mol*s)"), n=2, Ea=(12713,"cal/mol"), T0=1),
-            Arrhenius(A=(3.2e+06,"cm^3/(mol*s)"), n=1.97, Ea=(12810,"cal/mol"), T0=1),
-            Arrhenius(A=(7.3e+06,"cm^3/(mol*s)"), n=1.89, Ea=(13603,"cal/mol"), T0=1),
+            Arrhenius(A=(2.4e+06,"cm^3/(mol*s)"), n=2, Ea=(12713,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(3.2e+06,"cm^3/(mol*s)"), n=1.97, Ea=(12810,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(7.3e+06,"cm^3/(mol*s)"), n=1.89, Ea=(13603,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(7.3e+06,"cm^3/(mol*s)"), n=1.89, Ea=(13603,"cal/mol"), T0=(1,"K")),
     ),
@@ -17122,19 +17122,19 @@ CHCHOH
             PDepArrhenius(
              pressures=([1,10,100,1000],"atm"),
              arrhenius=[
-              Arrhenius(A=(1.9e+44,"cm^3/(mol*s)"), n=-11.38, Ea=(6299,"cal/mol"), T0=1),
-              Arrhenius(A=(1.5e+24,"cm^3/(mol*s)"), n=-4.06, Ea=(3261,"cal/mol"), T0=1),
-              Arrhenius(A=(6.2e+20,"cm^3/(mol*s)"), n=-2.8, Ea=(2831,"cal/mol"), T0=1),
-              Arrhenius(A=(1.1e+08,"cm^3/(mol*s)"), n=1.34, Ea=(332,"cal/mol"), T0=1)],
+              Arrhenius(A=(1.9e+44,"cm^3/(mol*s)"), n=-11.38, Ea=(6299,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(1.5e+24,"cm^3/(mol*s)"), n=-4.06, Ea=(3261,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(6.2e+20,"cm^3/(mol*s)"), n=-2.8, Ea=(2831,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(1.1e+08,"cm^3/(mol*s)"), n=1.34, Ea=(332,"cal/mol"), T0=(1,"K"))],
              highPlimit=Arrhenius(A=(1.1e+08,"cm^3/(mol*s)"), n=1.34, Ea=(332,"cal/mol"), T0=(1,"K"))
             ),
             PDepArrhenius(
              pressures=([1,10,100,1000],"atm"),
              arrhenius=[
-              Arrhenius(A=(3.5e+31,"cm^3/(mol*s)"), n=-6.2, Ea=(6635,"cal/mol"), T0=1),
-              Arrhenius(A=(4.5e+31,"cm^3/(mol*s)"), n=-5.92, Ea=(8761,"cal/mol"), T0=1),
-              Arrhenius(A=(1.6e+29,"cm^3/(mol*s)"), n=-4.91, Ea=(9734,"cal/mol"), T0=1),
-              Arrhenius(A=(6e+07,"cm^3/(mol*s)"), n=1.62, Ea=(240,"cal/mol"), T0=1)],
+              Arrhenius(A=(3.5e+31,"cm^3/(mol*s)"), n=-6.2, Ea=(6635,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(4.5e+31,"cm^3/(mol*s)"), n=-5.92, Ea=(8761,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(1.6e+29,"cm^3/(mol*s)"), n=-4.91, Ea=(9734,"cal/mol"), T0=(1,"K")),
+              Arrhenius(A=(6e+07,"cm^3/(mol*s)"), n=1.62, Ea=(240,"cal/mol"), T0=(1,"K"))],
              highPlimit=Arrhenius(A=(6e+07,"cm^3/(mol*s)"), n=1.62, Ea=(240,"cal/mol"), T0=(1,"K"))
             )
         ],
@@ -17185,9 +17185,9 @@ H
     kinetics = PDepArrhenius(
         pressures = ([1,10,100],"atm"),
         arrhenius = [
-            Arrhenius(A=(7.5e+06,"cm^3/(mol*s)"), n=1.55, Ea=(2106,"cal/mol"), T0=1),
-            Arrhenius(A=(5.1e+06,"cm^3/(mol*s)"), n=1.65, Ea=(3400,"cal/mol"), T0=1),
-            Arrhenius(A=(15000,"cm^3/(mol*s)"), n=2.45, Ea=(4477,"cal/mol"), T0=1),
+            Arrhenius(A=(7.5e+06,"cm^3/(mol*s)"), n=1.55, Ea=(2106,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(5.1e+06,"cm^3/(mol*s)"), n=1.65, Ea=(3400,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(15000,"cm^3/(mol*s)"), n=2.45, Ea=(4477,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(15000,"cm^3/(mol*s)"), n=2.45, Ea=(4477,"cal/mol"), T0=(1,"K")),
     ),
@@ -17228,9 +17228,9 @@ H
     kinetics = PDepArrhenius(
         pressures = ([1,10,100],"atm"),
         arrhenius = [
-            Arrhenius(A=(1.1e+31,"s^-1"), n=-6.153, Ea=(51383,"cal/mol"), T0=1),
-            Arrhenius(A=(1.5e+32,"s^-1"), n=-6.168, Ea=(52239,"cal/mol"), T0=1),
-            Arrhenius(A=(5.5e+29,"s^-1"), n=-5.057, Ea=(52377,"cal/mol"), T0=1),
+            Arrhenius(A=(1.1e+31,"s^-1"), n=-6.153, Ea=(51383,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(1.5e+32,"s^-1"), n=-6.168, Ea=(52239,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(5.5e+29,"s^-1"), n=-5.057, Ea=(52377,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(5.5e+29,"s^-1"), n=-5.057, Ea=(52377,"cal/mol"), T0=(1,"K")),
     ),
@@ -17271,11 +17271,11 @@ H
     kinetics = PDepArrhenius(
         pressures = ([0.01,0.1,1,10,100],"atm"),
         arrhenius = [
-            Arrhenius(A=(2.4e+25,"s^-1"), n=-4.8, Ea=(43424,"cal/mol"), T0=1),
-            Arrhenius(A=(2.4e+30,"s^-1"), n=-5.86, Ea=(46114,"cal/mol"), T0=1),
-            Arrhenius(A=(1.3e+34,"s^-1"), n=-6.57, Ea=(49454,"cal/mol"), T0=1),
-            Arrhenius(A=(3.5e+36,"s^-1"), n=-6.92, Ea=(52979,"cal/mol"), T0=1),
-            Arrhenius(A=(1.2e+36,"s^-1"), n=-6.48, Ea=(55171,"cal/mol"), T0=1),
+            Arrhenius(A=(2.4e+25,"s^-1"), n=-4.8, Ea=(43424,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(2.4e+30,"s^-1"), n=-5.86, Ea=(46114,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(1.3e+34,"s^-1"), n=-6.57, Ea=(49454,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(3.5e+36,"s^-1"), n=-6.92, Ea=(52979,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(1.2e+36,"s^-1"), n=-6.48, Ea=(55171,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(1.4e+15,"s^-1"), n=-0.15, Ea=(45606,"cal/mol"), T0=(1,"K")),
     ),
@@ -17315,11 +17315,11 @@ CO
     kinetics = PDepArrhenius(
         pressures = ([0.01,0.1,1,10,100],"atm"),
         arrhenius = [
-            Arrhenius(A=(1.2e+30,"s^-1"), n=-6.07, Ea=(41332,"cal/mol"), T0=1),
-            Arrhenius(A=(6.4e+32,"s^-1"), n=-6.57, Ea=(44282,"cal/mol"), T0=1),
-            Arrhenius(A=(6.5e+34,"s^-1"), n=-6.87, Ea=(47191,"cal/mol"), T0=1),
-            Arrhenius(A=(2.2e+35,"s^-1"), n=-6.76, Ea=(49548,"cal/mol"), T0=1),
-            Arrhenius(A=(2.2e+33,"s^-1"), n=-5.97, Ea=(50448,"cal/mol"), T0=1),
+            Arrhenius(A=(1.2e+30,"s^-1"), n=-6.07, Ea=(41332,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(6.4e+32,"s^-1"), n=-6.57, Ea=(44282,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(6.5e+34,"s^-1"), n=-6.87, Ea=(47191,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(2.2e+35,"s^-1"), n=-6.76, Ea=(49548,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(2.2e+33,"s^-1"), n=-5.97, Ea=(50448,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(2.9e+12,"s^-1"), n=0.29, Ea=(40326,"cal/mol"), T0=(1,"K")),
     ),
@@ -17371,9 +17371,9 @@ OH
     kinetics = PDepArrhenius(
         pressures = ([1,10,100],"atm"),
         arrhenius = [
-            Arrhenius(A=(5.7e+17,"cm^3/(mol*s)"), n=-1.757, Ea=(11067,"cal/mol"), T0=1),
-            Arrhenius(A=(1.1e+14,"cm^3/(mol*s)"), n=-0.61, Ea=(11422,"cal/mol"), T0=1),
-            Arrhenius(A=(1.5e-10,"cm^3/(mol*s)"), n=6.69, Ea=(4868,"cal/mol"), T0=1),
+            Arrhenius(A=(5.7e+17,"cm^3/(mol*s)"), n=-1.757, Ea=(11067,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(1.1e+14,"cm^3/(mol*s)"), n=-0.61, Ea=(11422,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(1.5e-10,"cm^3/(mol*s)"), n=6.69, Ea=(4868,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(1.5e-10,"cm^3/(mol*s)"), n=6.69, Ea=(4868,"cal/mol"), T0=(1,"K")),
     ),
@@ -17413,11 +17413,11 @@ CO
     kinetics = PDepArrhenius(
         pressures = ([0.01,0.1,1,10,100],"atm"),
         arrhenius = [
-            Arrhenius(A=(6.9e+14,"s^-1"), n=-1.97, Ea=(14584,"cal/mol"), T0=1),
-            Arrhenius(A=(2e+16,"s^-1"), n=-2.09, Ea=(15197,"cal/mol"), T0=1),
-            Arrhenius(A=(6.5e+18,"s^-1"), n=-2.52, Ea=(16436,"cal/mol"), T0=1),
-            Arrhenius(A=(8.2e+19,"s^-1"), n=-2.55, Ea=(17263,"cal/mol"), T0=1),
-            Arrhenius(A=(1.3e+20,"s^-1"), n=-2.32, Ea=(18012,"cal/mol"), T0=1),
+            Arrhenius(A=(6.9e+14,"s^-1"), n=-1.97, Ea=(14584,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(2e+16,"s^-1"), n=-2.09, Ea=(15197,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(6.5e+18,"s^-1"), n=-2.52, Ea=(16436,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(8.2e+19,"s^-1"), n=-2.55, Ea=(17263,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(1.3e+20,"s^-1"), n=-2.32, Ea=(18012,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(1.1e+12,"s^-1"), n=0.63, Ea=(16895,"cal/mol"), T0=(1,"K")),
     ),
@@ -17459,9 +17459,9 @@ OH
     kinetics = PDepArrhenius(
         pressures = ([1,10,50],"atm"),
         arrhenius = [
-            Arrhenius(A=(2e+35,"s^-1"), n=-6.7, Ea=(47450,"cal/mol"), T0=1),
-            Arrhenius(A=(1.1e+28,"s^-1"), n=-4.15, Ea=(46190,"cal/mol"), T0=1),
-            Arrhenius(A=(2.8e+26,"s^-1"), n=-3.5, Ea=(46340,"cal/mol"), T0=1),
+            Arrhenius(A=(2e+35,"s^-1"), n=-6.7, Ea=(47450,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(1.1e+28,"s^-1"), n=-4.15, Ea=(46190,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(2.8e+26,"s^-1"), n=-3.5, Ea=(46340,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(2.2e+17,"s^-1"), n=-0.42, Ea=(44622,"cal/mol"), T0=(1,"K")),
     ),
@@ -17508,9 +17508,9 @@ OH
     kinetics = PDepArrhenius(
         pressures = ([1,10,100],"atm"),
         arrhenius = [
-            Arrhenius(A=(3.5e+12,"cm^3/(mol*s)"), n=-0.947, Ea=(979,"cal/mol"), T0=1),
-            Arrhenius(A=(3.5e+13,"cm^3/(mol*s)"), n=-0.947, Ea=(980,"cal/mol"), T0=1),
-            Arrhenius(A=(5.8e+14,"cm^3/(mol*s)"), n=-1.012, Ea=(1068,"cal/mol"), T0=1),
+            Arrhenius(A=(3.5e+12,"cm^3/(mol*s)"), n=-0.947, Ea=(979,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(3.5e+13,"cm^3/(mol*s)"), n=-0.947, Ea=(980,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(5.8e+14,"cm^3/(mol*s)"), n=-1.012, Ea=(1068,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(5.8e+14,"cm^3/(mol*s)"), n=-1.012, Ea=(1068,"cal/mol"), T0=(1,"K")),
     ),
@@ -17552,9 +17552,9 @@ OH
     kinetics = PDepArrhenius(
         pressures = ([1,10,50],"atm"),
         arrhenius = [
-            Arrhenius(A=(2e+35,"s^-1"), n=-6.7, Ea=(47450,"cal/mol"), T0=1),
-            Arrhenius(A=(1.1e+28,"s^-1"), n=-4.15, Ea=(46190,"cal/mol"), T0=1),
-            Arrhenius(A=(2.8e+26,"s^-1"), n=-3.5, Ea=(46340,"cal/mol"), T0=1),
+            Arrhenius(A=(2e+35,"s^-1"), n=-6.7, Ea=(47450,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(1.1e+28,"s^-1"), n=-4.15, Ea=(46190,"cal/mol"), T0=(1,"K")),
+            Arrhenius(A=(2.8e+26,"s^-1"), n=-3.5, Ea=(46340,"cal/mol"), T0=(1,"K")),
         ],
         highPlimit = Arrhenius(A=(2.2e+17,"s^-1"), n=-0.42, Ea=(44622,"cal/mol"), T0=(1,"K")),
     ),
