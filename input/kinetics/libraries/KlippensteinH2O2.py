@@ -114,7 +114,7 @@ END
 ! Hong et al., Proc. Comb. Inst. 33:309-316 (2011)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -157,7 +157,7 @@ u"""
 ! Baulch et al., J. Phys. Chem. Ref. Data, 21:411 (1992)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -199,7 +199,7 @@ u"""
 ! Michael and Sutherland, J. Phys. Chem. 92:3853 (1988)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -240,7 +240,7 @@ u"""
 ! Baulch et al., J. Phys. Chem. Ref. Data, 21:411 (1992)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -295,7 +295,7 @@ O+O+HE = O2+HE                              	1.886E+13  0.00 -1.788E+03
 ! Srinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -349,7 +349,7 @@ u"""
 !Scaled by 0.75
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -391,7 +391,7 @@ u"""
 ! Mueller et al., Int. J. Chem. Kinetic. 31:113 (1999)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -436,7 +436,7 @@ u"""
 !Scaled by 0.60
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -479,7 +479,7 @@ u"""
 ! Keyser, J. Phys. Chem. 92:1193 (1988)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -528,7 +528,7 @@ u"""
 ! Hippler et al., J. Chem. Phys. 93:1755 (1990)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -570,7 +570,7 @@ u"""
 ! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -614,7 +614,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -657,7 +657,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -701,7 +701,7 @@ u"""
 ! Hong et al., J. Phys. Chem. A  114 (2010) 5718-5727
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -736,7 +736,7 @@ u"""
 ! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -771,7 +771,7 @@ u"""
 ! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -805,7 +805,7 @@ u"""
 ! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -840,7 +840,7 @@ u"""
 ! Rate constant is for Ar with efficiencies from Michael et al., J. Phys. Chem. A, 106 (2002)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -882,7 +882,7 @@ u"""
 !
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -929,7 +929,7 @@ u"""
 ! Efficiencies for H2 and CO taken from Li et al., Int. J. Chem. Kinet. 36:566-575 (2004)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

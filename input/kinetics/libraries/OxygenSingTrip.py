@@ -38,7 +38,7 @@ Oxygen singlet-triplet interconversion library.
 Rates from, in general, C. Schweitzer and R. Schmidt.  Physical mechanisms of generation and deactivation of singlet oxygen.  Chemical Reviews 103:1685-1757, 2003.
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -74,7 +74,7 @@ Rates from, in general, C. Schweitzer and R. Schmidt.  Physical mechanisms of ge
 Irreversible, radiative deactivation
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -105,7 +105,7 @@ u"""
 Reversible, electronic-to-vibrational energy transfer
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

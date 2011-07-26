@@ -53,7 +53,7 @@ This is a selection from GRI-Mech3.0 seed mechanism.
 It's purpose is to selectively over-rule parts of a different seed mechanism.
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -90,7 +90,7 @@ This is a selection from GRI-Mech3.0 seed mechanism.
 It's purpose is to selectively over-rule parts of a different seed mechanism.
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

@@ -56,7 +56,7 @@ H2/O2 subset                                                             *
 *****************************************************************************
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -105,7 +105,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -152,7 +152,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -195,7 +195,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -236,7 +236,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -278,7 +278,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -322,7 +322,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -364,7 +364,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -406,7 +406,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -449,7 +449,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -502,7 +502,7 @@ http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:91
 although the valid temperature range is not very large...
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -548,7 +548,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -590,7 +590,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -634,7 +634,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -677,7 +677,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -721,7 +721,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -768,7 +768,7 @@ CO/CO2 subset                                                            *
 *****************************************************************************
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -813,7 +813,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -822,9 +822,9 @@ entry(
     reactant1 = 
 """
 HOCO
-1     C     1 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S}
+1     C     1 {2,S} {3,D}
+2     O     0 {1,S}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -859,7 +859,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -868,9 +868,9 @@ entry(
     reactant1 = 
 """
 HOCO
-1     C     1 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S}
+1     C     1 {2,S} {3,D}
+2     O     0 {1,S}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -904,7 +904,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -913,9 +913,9 @@ entry(
     reactant1 = 
 """
 HOCO
-1     C     1 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S}
+1     C     1 {2,S} {3,D}
+2     O     0 {1,S}
+3     O     0 {1,D}
 """,
     reactant2 = 
 """
@@ -951,7 +951,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -997,7 +997,7 @@ CH2O subset                                                              *
 *****************************************************************************
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1040,7 +1040,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1085,7 +1085,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1128,7 +1128,7 @@ u"""
 SCRATCH: RMG doesn't like this rate; cfg replaced it with baulch
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1173,7 +1173,7 @@ u"""
 CH2O + OH = HCO + H2O			      4.9E12   0.0     -79.5  0.0 0.0 0.0
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1216,7 +1216,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1260,7 +1260,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1303,7 +1303,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1347,7 +1347,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1390,7 +1390,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1435,7 +1435,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1485,7 +1485,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1530,7 +1530,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1574,7 +1574,7 @@ CH4 subset                                                               *
 *****************************************************************************
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1615,7 +1615,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1656,7 +1656,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1699,7 +1699,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1740,7 +1740,7 @@ u"""
 CH4 + O2 = CH3 + HO2                               see reverse
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1781,7 +1781,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1823,7 +1823,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1865,7 +1865,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1907,7 +1907,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1955,7 +1955,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1996,7 +1996,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2037,7 +2037,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2080,7 +2080,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2100,8 +2100,8 @@ HO2
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -2127,7 +2127,7 @@ CH3 + HO2 = CH4 + O2                       1.8E03   2.830   -3730  0.0 0.0 0.0
 replace with Jasper
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2147,8 +2147,8 @@ O2
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -2170,7 +2170,7 @@ u"""
 CH3 + HO2 = CH3O + OH                      2.0E13   0.000    1075  0.0 0.0 0.0
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2213,7 +2213,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2256,7 +2256,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2275,8 +2275,8 @@ CH3
     product1 = 
 """
 C2H5
-1     C     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     C     1 {1,S}
 """,
     product2 = 
 """
@@ -2298,7 +2298,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2345,7 +2345,7 @@ u"""
 CH2 + H = CH + H2                          1.0E18 -1.560        0  0.0 0.0 0.0
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2388,7 +2388,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2430,7 +2430,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2473,7 +2473,7 @@ u"""
 CH2 + OH = CH + H2O                        1.1E07  2.000     3000  0.0 0.0 0.0
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2522,7 +2522,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2565,7 +2565,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2610,7 +2610,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2658,7 +2658,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2703,7 +2703,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2744,7 +2744,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2791,7 +2791,7 @@ u"""
 CH2(S) + H = CH + H2                       3.0E13  0.000        0  0.0 0.0 0.0
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2833,7 +2833,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2881,7 +2881,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2922,7 +2922,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2967,7 +2967,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3019,7 +3019,7 @@ C + OH = CO + H                            5.0E13  0.000        0  0.0 0.0 0.0
 C + O2 = CO + O                            2.0E13  0.000        0  0.0 0.0 0.0
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3039,8 +3039,8 @@ H
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -3063,7 +3063,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3106,7 +3106,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3126,8 +3126,8 @@ O
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -3149,7 +3149,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3192,7 +3192,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3212,8 +3212,8 @@ OH
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -3235,7 +3235,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3280,7 +3280,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3325,7 +3325,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3346,8 +3346,8 @@ O2
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -3370,7 +3370,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3414,7 +3414,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3456,7 +3456,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3499,7 +3499,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3542,7 +3542,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3587,7 +3587,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3633,7 +3633,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3678,7 +3678,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3723,7 +3723,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3768,7 +3768,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3813,7 +3813,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3828,8 +3828,8 @@ CH2OH
     reactant2 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product1 = 
 """
@@ -3858,7 +3858,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3901,7 +3901,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3910,8 +3910,8 @@ entry(
     reactant1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -3945,7 +3945,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3954,8 +3954,8 @@ entry(
     reactant1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -3987,7 +3987,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3996,8 +3996,8 @@ entry(
     reactant1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -4030,7 +4030,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4039,8 +4039,8 @@ entry(
     reactant1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -4073,7 +4073,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4082,8 +4082,8 @@ entry(
     reactant1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -4118,7 +4118,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4127,8 +4127,8 @@ entry(
     reactant1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -4163,7 +4163,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4172,8 +4172,8 @@ entry(
     reactant1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -4208,7 +4208,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4217,8 +4217,8 @@ entry(
     reactant1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -4251,7 +4251,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4260,8 +4260,8 @@ entry(
     reactant1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -4294,7 +4294,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4303,8 +4303,8 @@ entry(
     reactant1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -4339,7 +4339,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4348,14 +4348,14 @@ entry(
     reactant1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     reactant2 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product1 = 
 """
@@ -4384,7 +4384,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4393,9 +4393,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -4434,7 +4434,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4443,9 +4443,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -4455,9 +4455,9 @@ H
     product1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     product2 = 
 """
@@ -4480,7 +4480,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4489,9 +4489,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -4501,8 +4501,8 @@ H
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -4524,7 +4524,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4533,9 +4533,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -4573,7 +4573,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4582,9 +4582,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -4594,9 +4594,9 @@ O
     product1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     product2 = 
 """
@@ -4618,7 +4618,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4627,9 +4627,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -4639,9 +4639,9 @@ OH
     product1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     product2 = 
 """
@@ -4663,7 +4663,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4672,9 +4672,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -4712,7 +4712,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4721,9 +4721,9 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     reactant2 = 
 """
@@ -4734,9 +4734,9 @@ HO2
     product1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     product2 = 
 """
@@ -4759,7 +4759,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4768,9 +4768,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -4780,8 +4780,8 @@ H
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -4803,7 +4803,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4812,9 +4812,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -4824,8 +4824,8 @@ O
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -4848,7 +4848,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4857,9 +4857,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -4893,7 +4893,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4902,9 +4902,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -4914,8 +4914,8 @@ OH
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -4938,7 +4938,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4947,9 +4947,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -4960,9 +4960,9 @@ HO2
     product1 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     product2 = 
 """
@@ -4985,7 +4985,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4994,9 +4994,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -5006,14 +5006,14 @@ CH3
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5030,7 +5030,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5039,9 +5039,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -5051,9 +5051,9 @@ CH4
     product1 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     product2 = 
 """
@@ -5075,7 +5075,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5084,9 +5084,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -5097,8 +5097,8 @@ HCO
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -5127,7 +5127,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5136,9 +5136,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -5149,8 +5149,8 @@ CO
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -5174,7 +5174,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5183,9 +5183,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -5196,9 +5196,9 @@ CH2O
     product1 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     product2 = 
 """
@@ -5221,7 +5221,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5230,15 +5230,15 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product1 = 
 """
@@ -5249,9 +5249,9 @@ CH2O
     product2 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5268,7 +5268,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5277,9 +5277,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -5290,9 +5290,9 @@ CH3OH
     product1 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     product2 = 
 """
@@ -5315,7 +5315,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5324,28 +5324,28 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product3 = 
 """
@@ -5369,7 +5369,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5378,16 +5378,16 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     product1 = 
 """
@@ -5422,7 +5422,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5431,21 +5431,21 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
 C2H5
-1     C     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     C     1 {1,S}
 """,
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -5469,7 +5469,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5478,9 +5478,9 @@ entry(
     reactant1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     reactant2 = 
 """
@@ -5491,15 +5491,15 @@ C2H6
     product1 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     product2 = 
 """
 C2H5
-1     C     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     C     1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -5516,7 +5516,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5557,7 +5557,7 @@ CFG from Glarborg
 C1
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5595,7 +5595,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5635,7 +5635,7 @@ u"""
 CFG from Glarborg; extra collision efficiencies taken from Leeds
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5681,7 +5681,7 @@ LOW  / 6.37E20 -1.720 520 /
 TROE / 0.8 1.0E-30 1.0E30 /
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5723,7 +5723,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5762,7 +5762,7 @@ u"""
 C1 system
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5801,7 +5801,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5841,7 +5841,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5881,7 +5881,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5922,7 +5922,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5963,7 +5963,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5972,8 +5972,8 @@ entry(
     reactant1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product1 = 
 """
@@ -6003,7 +6003,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6012,8 +6012,8 @@ entry(
     reactant1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     reactant2 = 
 """
@@ -6044,7 +6044,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6079,7 +6079,7 @@ u"""
 reduced by cfg
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6113,7 +6113,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6148,7 +6148,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6182,7 +6182,7 @@ u"""
 
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6214,7 +6214,7 @@ CH2 + M = CH + H + M                         5.6E15  0.000    89000  0.0 0.0 0.0
 CH2 + M = C + H2 + M                         5.8E12  0.500    68500  0.0 0.0 0.0
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6295,7 +6295,7 @@ Well-skipping reaction, so high-P limit is zero.
 (0.001-2000 bar, 300<T<2000K)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6315,9 +6315,9 @@ OH
     product1 = 
 """
 HOCO
-1     C     1 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S}
+1     C     1 {2,S} {3,D}
+2     O     0 {1,S}
+3     O     0 {1,D}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -6384,7 +6384,7 @@ u"""
 (0.001 bar, 300<T<2000K)
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6393,9 +6393,9 @@ entry(
     reactant1 = 
 """
 HOCO
-1     C     1 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S}
+1     C     1 {2,S} {3,D}
+2     O     0 {1,S}
+3     O     0 {1,D}
 """,
     product1 = 
 """
@@ -6449,7 +6449,7 @@ HOCO = CO2 + H         3.5E56*P[bar]^0.95 -15.000   46500
 HOCO = CO2 + H               2.5E69*P[bar]^0.95 -18.000   60000
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6498,7 +6498,7 @@ General pressure dependency
 HCO = H + CO               9.83E11*P[bar]^0.865  -0.865   16755  0.0 0.0 0.0
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6518,9 +6518,9 @@ O2
     product1 = 
 """
 CH3OO
-1     O     0 {2,S} {3,S}
-2     O     1 {1,S}
-3     C     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     1 {2,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -6561,7 +6561,7 @@ PLOG Reactions:  CH4 subset                                              *
 fit to FER/TRO06
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6570,15 +6570,15 @@ entry(
     reactant1 = 
 """
 CH3OOH
-1     O     0 {2,S} {3,S}
-2     C     0 {1,S}
-3     O     0 {1,S}
+1     C     0 {2,S}
+2     O     0 {1,S} {3,S}
+3     O     0 {2,S}
 """,
     product1 = 
 """
 CH3O
-1     O     1 {2,S}
-2     C     0 {1,S}
+1     C     0 {2,S}
+2     O     1 {1,S}
 """,
     product2 = 
 """
@@ -6604,7 +6604,7 @@ u"""
 High-P limit rate is Garborg's high-PL rate
 """,
     history = [
-        ("Tue Jul 26 01:01:49 2011","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
+        ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
