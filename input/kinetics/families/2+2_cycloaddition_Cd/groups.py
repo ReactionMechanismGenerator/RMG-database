@@ -27,7 +27,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=3 label="db_2H">, <Entry index=96 label="mb_OC">]
 [<Entry index=1 label="db">, <Entry index=2 label="doublebond">]
 """,
@@ -70,7 +70,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=3 label="db_2H">, <Entry index=96 label="mb_OC">]
 """,
     history = [
@@ -2352,7 +2352,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=3 label="db_2H">, <Entry index=96 label="mb_OC">]
 """,
     history = [

@@ -29,7 +29,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=1 label="Y_rad">, <Entry index=2 label="Oa">]
 """,
     history = [

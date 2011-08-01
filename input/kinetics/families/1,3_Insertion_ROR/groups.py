@@ -27,7 +27,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [11, 11, 11, 11, 11, 11, 11, 11] rates.
+Fitted to 11 rates.
 [<Entry index=4 label="cco_2H">, <Entry index=63 label="H_OH">]
 [<Entry index=18 label="Cd/unsub_Cd/unsub">, <Entry index=65 label="H_OCmethyl">]
 [<Entry index=1 label="doublebond">, <Entry index=2 label="R_OR">]
@@ -78,7 +78,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=5 label="cco_HNd">, <Entry index=63 label="H_OH">]
 [<Entry index=4 label="cco_2H">, <Entry index=63 label="H_OH">]
 [<Entry index=7 label="cco_Nd2">, <Entry index=63 label="H_OH">]
@@ -106,7 +106,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=4 label="cco_2H">, <Entry index=63 label="H_OH">]
 """,
     history = [
@@ -132,7 +132,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=5 label="cco_HNd">, <Entry index=63 label="H_OH">]
 """,
     history = [
@@ -182,7 +182,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=7 label="cco_Nd2">, <Entry index=63 label="H_OH">]
 """,
     history = [
@@ -423,7 +423,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [7, 7, 7, 7, 7, 7, 7, 7] rates.
+Fitted to 7 rates.
 [<Entry index=18 label="Cd/unsub_Cd/unsub">, <Entry index=63 label="H_OH">]
 [<Entry index=18 label="Cd/unsub_Cd/unsub">, <Entry index=65 label="H_OCmethyl">]
 [<Entry index=23 label="Cd/H/Nd_Cd/H2">, <Entry index=63 label="H_OH">]
@@ -456,7 +456,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=18 label="Cd/unsub_Cd/unsub">, <Entry index=63 label="H_OH">]
 [<Entry index=18 label="Cd/unsub_Cd/unsub">, <Entry index=65 label="H_OCmethyl">]
 """,
@@ -484,7 +484,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=20 label="Cd/H2_Cd/H/Nd">, <Entry index=63 label="H_OH">]
 [<Entry index=20 label="Cd/H2_Cd/H/Nd">, <Entry index=65 label="H_OCmethyl">]
 """,
@@ -512,7 +512,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=20 label="Cd/H2_Cd/H/Nd">, <Entry index=63 label="H_OH">]
 [<Entry index=20 label="Cd/H2_Cd/H/Nd">, <Entry index=65 label="H_OCmethyl">]
 """,
@@ -565,7 +565,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=23 label="Cd/H/Nd_Cd/H2">, <Entry index=63 label="H_OH">]
 """,
     history = [
@@ -592,7 +592,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=23 label="Cd/H/Nd_Cd/H2">, <Entry index=63 label="H_OH">]
 """,
     history = [
@@ -644,7 +644,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=26 label="Cd/H2_Cd/Nd2">, <Entry index=65 label="H_OCmethyl">]
 [<Entry index=26 label="Cd/H2_Cd/Nd2">, <Entry index=63 label="H_OH">]
 """,
@@ -672,7 +672,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=26 label="Cd/H2_Cd/Nd2">, <Entry index=65 label="H_OCmethyl">]
 [<Entry index=26 label="Cd/H2_Cd/Nd2">, <Entry index=63 label="H_OH">]
 """,
@@ -1572,7 +1572,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [10, 10, 10, 10, 10, 10, 10, 10] rates.
+Fitted to 10 rates.
 [<Entry index=4 label="cco_2H">, <Entry index=63 label="H_OH">]
 [<Entry index=18 label="Cd/unsub_Cd/unsub">, <Entry index=65 label="H_OCmethyl">]
 [<Entry index=23 label="Cd/H/Nd_Cd/H2">, <Entry index=63 label="H_OH">]
@@ -1605,7 +1605,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [7, 7, 7, 7, 7, 7, 7, 7] rates.
+Fitted to 7 rates.
 [<Entry index=18 label="Cd/unsub_Cd/unsub">, <Entry index=63 label="H_OH">]
 [<Entry index=23 label="Cd/H/Nd_Cd/H2">, <Entry index=63 label="H_OH">]
 [<Entry index=26 label="Cd/H2_Cd/Nd2">, <Entry index=63 label="H_OH">]
@@ -1635,7 +1635,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=26 label="Cd/H2_Cd/Nd2">, <Entry index=65 label="H_OCmethyl">]
 [<Entry index=18 label="Cd/unsub_Cd/unsub">, <Entry index=65 label="H_OCmethyl">]
 [<Entry index=20 label="Cd/H2_Cd/H/Nd">, <Entry index=65 label="H_OCmethyl">]
@@ -1664,7 +1664,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=26 label="Cd/H2_Cd/Nd2">, <Entry index=65 label="H_OCmethyl">]
 [<Entry index=18 label="Cd/unsub_Cd/unsub">, <Entry index=65 label="H_OCmethyl">]
 [<Entry index=20 label="Cd/H2_Cd/H/Nd">, <Entry index=65 label="H_OCmethyl">]

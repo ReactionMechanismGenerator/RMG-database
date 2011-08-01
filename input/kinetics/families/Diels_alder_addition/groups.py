@@ -29,7 +29,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [24, 24, 24, 24, 24, 24, 24, 24] rates.
+Fitted to 24 rates.
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=28 label="diene_in_HNd">, <Entry index=36 label="ene_unsub_unsub">]
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=27 label="diene_in_2H">, <Entry index=39 label="ene_2H_HDe">]
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=30 label="diene_in_NdH">, <Entry index=39 label="ene_2H_HDe">]
@@ -115,7 +115,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [8, 8, 8, 8, 8, 8, 8, 8] rates.
+Fitted to 8 rates.
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=28 label="diene_in_HNd">, <Entry index=36 label="ene_unsub_unsub">]
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=27 label="diene_in_2H">, <Entry index=39 label="ene_2H_HDe">]
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=30 label="diene_in_NdH">, <Entry index=39 label="ene_2H_HDe">]
@@ -340,7 +340,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [15, 15, 15, 15, 15, 15, 15, 15] rates.
+Fitted to 15 rates.
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=46 label="ene_HDe_HNd">]
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=39 label="ene_2H_HDe">]
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=38 label="ene_2H_HNd">]
@@ -375,7 +375,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [15, 15, 15, 15, 15, 15, 15, 15] rates.
+Fitted to 15 rates.
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=46 label="ene_HDe_HNd">]
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=39 label="ene_2H_HDe">]
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=38 label="ene_2H_HNd">]
@@ -757,7 +757,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [19, 19, 19, 19, 19, 19, 19, 19] rates.
+Fitted to 19 rates.
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=27 label="diene_in_2H">, <Entry index=39 label="ene_2H_HDe">]
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=46 label="ene_HDe_HNd">]
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=27 label="diene_in_2H">, <Entry index=46 label="ene_HDe_HNd">]
@@ -792,7 +792,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=28 label="diene_in_HNd">, <Entry index=36 label="ene_unsub_unsub">]
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=28 label="diene_in_HNd">, <Entry index=42 label="ene_HDe_2H">]
 """,
@@ -841,7 +841,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=30 label="diene_in_NdH">, <Entry index=36 label="ene_unsub_unsub">]
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=30 label="diene_in_NdH">, <Entry index=39 label="ene_2H_HDe">]
 """,
@@ -984,7 +984,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=30 label="diene_in_NdH">, <Entry index=36 label="ene_unsub_unsub">]
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=28 label="diene_in_HNd">, <Entry index=36 label="ene_unsub_unsub">]
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=36 label="ene_unsub_unsub">]
@@ -1013,7 +1013,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [12, 12, 12, 12, 12, 12, 12, 12] rates.
+Fitted to 12 rates.
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=27 label="diene_in_2H">, <Entry index=39 label="ene_2H_HDe">]
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=30 label="diene_in_NdH">, <Entry index=39 label="ene_2H_HDe">]
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=38 label="ene_2H_HNd">]
@@ -1043,7 +1043,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=38 label="ene_2H_HNd">]
 """,
     history = [
@@ -1070,7 +1070,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=27 label="diene_in_2H">, <Entry index=39 label="ene_2H_HDe">]
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=30 label="diene_in_NdH">, <Entry index=39 label="ene_2H_HDe">]
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=39 label="ene_2H_HDe">]
@@ -1099,7 +1099,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [4, 4, 4, 4, 4, 4, 4, 4] rates.
+Fitted to 4 rates.
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=27 label="diene_in_2H">, <Entry index=42 label="ene_HDe_2H">]
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=28 label="diene_in_HNd">, <Entry index=42 label="ene_HDe_2H">]
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=42 label="ene_HDe_2H">]
@@ -1129,7 +1129,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=41 label="ene_HNd_2H">]
 """,
     history = [
@@ -1156,7 +1156,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=27 label="diene_in_2H">, <Entry index=42 label="ene_HDe_2H">]
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=28 label="diene_in_HNd">, <Entry index=42 label="ene_HDe_2H">]
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=42 label="ene_HDe_2H">]
@@ -1185,7 +1185,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [4, 4, 4, 4, 4, 4, 4, 4] rates.
+Fitted to 4 rates.
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=46 label="ene_HDe_HNd">]
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=45 label="ene_HNd_HDe">]
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=27 label="diene_in_2H">, <Entry index=45 label="ene_HNd_HDe">]
@@ -1240,7 +1240,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=27 label="diene_in_2H">, <Entry index=45 label="ene_HNd_HDe">]
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=45 label="ene_HNd_HDe">]
 """,
@@ -1268,7 +1268,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=13 label="diene_monosubNd_monosubNd_out">, <Entry index=27 label="diene_in_2H">, <Entry index=46 label="ene_HDe_HNd">]
 [<Entry index=4 label="diene_unsub_unsub_out">, <Entry index=27 label="diene_in_2H">, <Entry index=46 label="ene_HDe_HNd">]
 """,

@@ -27,7 +27,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [262, 262, 262, 262, 262, 262, 262, 262] rates.
+Fitted to 262 rates.
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
 [<Entry index=8 label="R2H_S_cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -327,7 +327,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [70, 70, 70, 70, 70, 70, 70, 70] rates.
+Fitted to 70 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=167 label="C_rad_out_2H">, <Entry index=212 label="Cs_H_out_OneDe">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=171 label="C_rad_out_H/OneDe">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -409,7 +409,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [66, 66, 66, 66, 66, 66, 66, 66] rates.
+Fitted to 66 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=167 label="C_rad_out_2H">, <Entry index=212 label="Cs_H_out_OneDe">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=171 label="C_rad_out_H/OneDe">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -488,7 +488,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=6 label="R2H_S_cy3">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=6 label="R2H_S_cy3">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=6 label="R2H_S_cy3">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -516,7 +516,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=7 label="R2H_S_cy4">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=7 label="R2H_S_cy4">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 """,
@@ -544,7 +544,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=8 label="R2H_S_cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=8 label="R2H_S_cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=8 label="R2H_S_cy5">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
@@ -565,7 +565,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [56, 56, 56, 56, 56, 56, 56, 56] rates.
+Fitted to 56 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=167 label="C_rad_out_2H">, <Entry index=212 label="Cs_H_out_OneDe">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=171 label="C_rad_out_H/OneDe">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -633,7 +633,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [4, 4, 4, 4, 4, 4, 4, 4] rates.
+Fitted to 4 rates.
 [<Entry index=10 label="R2H_D">, <Entry index=161 label="Cd_rad_out_singleNd">, <Entry index=193 label="Cd_H_out_singleNd">]
 [<Entry index=10 label="R2H_D">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=192 label="Cd_H_out_singleH">]
 [<Entry index=10 label="R2H_D">, <Entry index=161 label="Cd_rad_out_singleNd">, <Entry index=192 label="Cd_H_out_singleH">]
@@ -677,7 +677,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [128, 128, 128, 128, 128, 128, 128, 128] rates.
+Fitted to 128 rates.
 [<Entry index=21 label="R3H_SS_23cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=20 label="R3H_SS_12cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=15 label="R3H_SS_12cy3">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -817,7 +817,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [121, 121, 121, 121, 121, 121, 121, 121] rates.
+Fitted to 121 rates.
 [<Entry index=21 label="R3H_SS_23cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=20 label="R3H_SS_12cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=15 label="R3H_SS_12cy3">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -950,7 +950,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [114, 114, 114, 114, 114, 114, 114, 114] rates.
+Fitted to 114 rates.
 [<Entry index=21 label="R3H_SS_23cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=20 label="R3H_SS_12cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=15 label="R3H_SS_12cy3">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -1077,7 +1077,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=15 label="R3H_SS_12cy3">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=15 label="R3H_SS_12cy3">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=15 label="R3H_SS_12cy3">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
@@ -1108,7 +1108,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=16 label="R3H_SS_23cy3">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=16 label="R3H_SS_23cy3">, <Entry index=167 label="C_rad_out_2H">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=16 label="R3H_SS_23cy3">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
@@ -1140,7 +1140,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=17 label="R3H_SS_12cy4">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=17 label="R3H_SS_12cy4">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=17 label="R3H_SS_12cy4">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -1172,7 +1172,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=18 label="R3H_SS_23cy4">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=18 label="R3H_SS_23cy4">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=18 label="R3H_SS_23cy4">, <Entry index=167 label="C_rad_out_2H">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -1203,7 +1203,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [4, 4, 4, 4, 4, 4, 4, 4] rates.
+Fitted to 4 rates.
 [<Entry index=19 label="R3H_SS_13cy4">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=19 label="R3H_SS_13cy4">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=19 label="R3H_SS_13cy4">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -1234,7 +1234,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=20 label="R3H_SS_12cy5">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=20 label="R3H_SS_12cy5">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=20 label="R3H_SS_12cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=196 label="Cs_H_out_2H">]
@@ -1267,7 +1267,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=21 label="R3H_SS_23cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=21 label="R3H_SS_23cy5">, <Entry index=167 label="C_rad_out_2H">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=21 label="R3H_SS_23cy5">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
@@ -1299,7 +1299,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [4, 4, 4, 4, 4, 4, 4, 4] rates.
+Fitted to 4 rates.
 [<Entry index=22 label="R3H_SS_13cy5">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=22 label="R3H_SS_13cy5">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=22 label="R3H_SS_13cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
@@ -1327,7 +1327,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [9, 9, 9, 9, 9, 9, 9, 9] rates.
+Fitted to 9 rates.
 [<Entry index=23 label="R3H_SS_2Cd">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=23 label="R3H_SS_2Cd">, <Entry index=167 label="C_rad_out_2H">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=23 label="R3H_SS_2Cd">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -1360,7 +1360,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [8, 8, 8, 8, 8, 8, 8, 8] rates.
+Fitted to 8 rates.
 [<Entry index=24 label="R3H_SS_OC">, <Entry index=157 label="O_rad_out">, <Entry index=202 label="Cs_H_out_H/NonDeO">]
 [<Entry index=24 label="R3H_SS_OC">, <Entry index=157 label="O_rad_out">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=24 label="R3H_SS_OC">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
@@ -1386,7 +1386,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [51, 51, 51, 51, 51, 51, 51, 51] rates.
+Fitted to 51 rates.
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=203 label="Cs_H_out_H/OneDe">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=176 label="C_rad_out_Cs2_cy4">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
@@ -1449,7 +1449,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [7, 7, 7, 7, 7, 7, 7, 7] rates.
+Fitted to 7 rates.
 [<Entry index=26 label="R3H_SD">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=192 label="Cd_H_out_singleH">]
 [<Entry index=26 label="R3H_SD">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=193 label="Cd_H_out_singleNd">]
 [<Entry index=26 label="R3H_SD">, <Entry index=167 label="C_rad_out_2H">, <Entry index=193 label="Cd_H_out_singleNd">]
@@ -1526,7 +1526,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [7, 7, 7, 7, 7, 7, 7, 7] rates.
+Fitted to 7 rates.
 [<Entry index=30 label="R3H_DS">, <Entry index=161 label="Cd_rad_out_singleNd">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=30 label="R3H_DS">, <Entry index=161 label="Cd_rad_out_singleNd">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=30 label="R3H_DS">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=196 label="Cs_H_out_2H">]
@@ -1557,7 +1557,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [7, 7, 7, 7, 7, 7, 7, 7] rates.
+Fitted to 7 rates.
 [<Entry index=30 label="R3H_DS">, <Entry index=161 label="Cd_rad_out_singleNd">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=30 label="R3H_DS">, <Entry index=161 label="Cd_rad_out_singleNd">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=30 label="R3H_DS">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=196 label="Cs_H_out_2H">]
@@ -1651,7 +1651,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [27, 27, 27, 27, 27, 27, 27, 27] rates.
+Fitted to 27 rates.
 [<Entry index=37 label="R4H_SSS">, <Entry index=166 label="C_rad_out_single">, <Entry index=204 label="Cs_H_out_noH">]
 [<Entry index=38 label="R4H_SSS_OOCsCs">, <Entry index=157 label="O_rad_out">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=38 label="R4H_SSS_OOCsCs">, <Entry index=157 label="O_rad_out">, <Entry index=202 label="Cs_H_out_H/NonDeO">]
@@ -1700,7 +1700,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [24, 24, 24, 24, 24, 24, 24, 24] rates.
+Fitted to 24 rates.
 [<Entry index=37 label="R4H_SSS">, <Entry index=166 label="C_rad_out_single">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=37 label="R4H_SSS">, <Entry index=167 label="C_rad_out_2H">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=37 label="R4H_SSS">, <Entry index=166 label="C_rad_out_single">, <Entry index=197 label="Cs_H_out_1H">]
@@ -1746,7 +1746,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [24, 24, 24, 24, 24, 24, 24, 24] rates.
+Fitted to 24 rates.
 [<Entry index=37 label="R4H_SSS">, <Entry index=166 label="C_rad_out_single">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=37 label="R4H_SSS">, <Entry index=167 label="C_rad_out_2H">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=37 label="R4H_SSS">, <Entry index=166 label="C_rad_out_single">, <Entry index=197 label="Cs_H_out_1H">]
@@ -1792,7 +1792,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [24, 24, 24, 24, 24, 24, 24, 24] rates.
+Fitted to 24 rates.
 [<Entry index=37 label="R4H_SSS">, <Entry index=166 label="C_rad_out_single">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=37 label="R4H_SSS">, <Entry index=167 label="C_rad_out_2H">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=37 label="R4H_SSS">, <Entry index=166 label="C_rad_out_single">, <Entry index=197 label="Cs_H_out_1H">]
@@ -1838,7 +1838,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [12, 12, 12, 12, 12, 12, 12, 12] rates.
+Fitted to 12 rates.
 [<Entry index=40 label="R4H_SSS_OO(Cs/Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=39 label="R4H_SSS_OO(Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=40 label="R4H_SSS_OO(Cs/Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
@@ -1876,7 +1876,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [8, 8, 8, 8, 8, 8, 8, 8] rates.
+Fitted to 8 rates.
 [<Entry index=40 label="R4H_SSS_OO(Cs/Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=39 label="R4H_SSS_OO(Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=40 label="R4H_SSS_OO(Cs/Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
@@ -1911,7 +1911,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=40 label="R4H_SSS_OO(Cs/Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=40 label="R4H_SSS_OO(Cs/Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=40 label="R4H_SSS_OO(Cs/Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
@@ -2371,7 +2371,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=60 label="R4H_SDS">, <Entry index=158 label="Cd_rad_out_double">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=60 label="R4H_SDS">, <Entry index=167 label="C_rad_out_2H">, <Entry index=189 label="Cd_H_out_doubleC">]
 [<Entry index=60 label="R4H_SDS">, <Entry index=157 label="O_rad_out">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
@@ -2399,7 +2399,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=60 label="R4H_SDS">, <Entry index=158 label="Cd_rad_out_double">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=60 label="R4H_SDS">, <Entry index=167 label="C_rad_out_2H">, <Entry index=189 label="Cd_H_out_doubleC">]
 [<Entry index=60 label="R4H_SDS">, <Entry index=157 label="O_rad_out">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
@@ -2550,7 +2550,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [20, 20, 20, 20, 20, 20, 20, 20] rates.
+Fitted to 20 rates.
 [<Entry index=95 label="R5H_DSMS">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=100 label="R5H_SMSD">, <Entry index=167 label="C_rad_out_2H">, <Entry index=192 label="Cd_H_out_singleH">]
 [<Entry index=75 label="R5H_SSSD">, <Entry index=157 label="O_rad_out">, <Entry index=192 label="Cd_H_out_singleH">]
@@ -2596,7 +2596,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [18, 18, 18, 18, 18, 18, 18, 18] rates.
+Fitted to 18 rates.
 [<Entry index=75 label="R5H_SSSD">, <Entry index=157 label="O_rad_out">, <Entry index=192 label="Cd_H_out_singleH">]
 [<Entry index=71 label="R5H_SSSS_OO(Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=72 label="R5H_SSSS_OO(Cs/Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
@@ -2640,7 +2640,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [18, 18, 18, 18, 18, 18, 18, 18] rates.
+Fitted to 18 rates.
 [<Entry index=75 label="R5H_SSSD">, <Entry index=157 label="O_rad_out">, <Entry index=192 label="Cd_H_out_singleH">]
 [<Entry index=71 label="R5H_SSSS_OO(Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=72 label="R5H_SSSS_OO(Cs/Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
@@ -2684,7 +2684,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [17, 17, 17, 17, 17, 17, 17, 17] rates.
+Fitted to 17 rates.
 [<Entry index=71 label="R5H_SSSS_OO(Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=72 label="R5H_SSSS_OO(Cs/Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=73 label="R5H_SSSS_OOCs(Cs/Cs)">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
@@ -2727,7 +2727,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [12, 12, 12, 12, 12, 12, 12, 12] rates.
+Fitted to 12 rates.
 [<Entry index=71 label="R5H_SSSS_OO(Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=72 label="R5H_SSSS_OO(Cs/Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=73 label="R5H_SSSS_OOCs(Cs/Cs)">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
@@ -2766,7 +2766,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [5, 5, 5, 5, 5, 5, 5, 5] rates.
+Fitted to 5 rates.
 [<Entry index=71 label="R5H_SSSS_OO(Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=72 label="R5H_SSSS_OO(Cs/Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=71 label="R5H_SSSS_OO(Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=202 label="Cs_H_out_H/NonDeO">]
@@ -2799,7 +2799,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=72 label="R5H_SSSS_OO(Cs/Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
 """,
     history = [
@@ -2827,7 +2827,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=73 label="R5H_SSSS_OOCs(Cs/Cs)">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=74 label="R5H_SSSS_OOCs(Cs/Cs/Cs)">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
 """,
@@ -2857,7 +2857,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=74 label="R5H_SSSS_OOCs(Cs/Cs/Cs)">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
 """,
     history = [
@@ -2884,7 +2884,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=75 label="R5H_SSSD">, <Entry index=157 label="O_rad_out">, <Entry index=192 label="Cd_H_out_singleH">]
 """,
     history = [
@@ -3336,7 +3336,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=95 label="R5H_DSMS">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=196 label="Cs_H_out_2H">]
 """,
     history = [
@@ -3388,7 +3388,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=95 label="R5H_DSMS">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=196 label="Cs_H_out_2H">]
 """,
     history = [
@@ -3465,7 +3465,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=100 label="R5H_SMSD">, <Entry index=167 label="C_rad_out_2H">, <Entry index=192 label="Cd_H_out_singleH">]
 """,
     history = [
@@ -3517,7 +3517,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=100 label="R5H_SMSD">, <Entry index=167 label="C_rad_out_2H">, <Entry index=192 label="Cd_H_out_singleH">]
 """,
     history = [
@@ -3969,7 +3969,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [8, 8, 8, 8, 8, 8, 8, 8] rates.
+Fitted to 8 rates.
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=202 label="Cs_H_out_H/NonDeO">]
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
@@ -4004,7 +4004,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [8, 8, 8, 8, 8, 8, 8, 8] rates.
+Fitted to 8 rates.
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=202 label="Cs_H_out_H/NonDeO">]
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
@@ -4039,7 +4039,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [8, 8, 8, 8, 8, 8, 8, 8] rates.
+Fitted to 8 rates.
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=202 label="Cs_H_out_H/NonDeO">]
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
@@ -4074,7 +4074,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [8, 8, 8, 8, 8, 8, 8, 8] rates.
+Fitted to 8 rates.
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=202 label="Cs_H_out_H/NonDeO">]
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
@@ -4109,7 +4109,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [5, 5, 5, 5, 5, 5, 5, 5] rates.
+Fitted to 5 rates.
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=202 label="Cs_H_out_H/NonDeO">]
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=211 label="Cs_H_out_NDMustO">]
@@ -5000,7 +5000,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [8, 8, 8, 8, 8, 8, 8, 8] rates.
+Fitted to 8 rates.
 [<Entry index=155 label="R7H">, <Entry index=157 label="O_rad_out">, <Entry index=204 label="Cs_H_out_noH">]
 [<Entry index=155 label="R7H">, <Entry index=157 label="O_rad_out">, <Entry index=197 label="Cs_H_out_1H">]
 [<Entry index=156 label="R7H_OOCs4">, <Entry index=157 label="O_rad_out">, <Entry index=211 label="Cs_H_out_NDMustO">]
@@ -5036,7 +5036,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [5, 5, 5, 5, 5, 5, 5, 5] rates.
+Fitted to 5 rates.
 [<Entry index=156 label="R7H_OOCs4">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=156 label="R7H_OOCs4">, <Entry index=157 label="O_rad_out">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=156 label="R7H_OOCs4">, <Entry index=157 label="O_rad_out">, <Entry index=196 label="Cs_H_out_2H">]
@@ -5062,7 +5062,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [56, 56, 56, 56, 56, 56, 56, 56] rates.
+Fitted to 56 rates.
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=156 label="R7H_OOCs4">, <Entry index=157 label="O_rad_out">, <Entry index=211 label="Cs_H_out_NDMustO">]
 [<Entry index=71 label="R5H_SSSS_OO(Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=202 label="Cs_H_out_H/NonDeO">]
@@ -5140,7 +5140,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [7, 7, 7, 7, 7, 7, 7, 7] rates.
+Fitted to 7 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=158 label="Cd_rad_out_double">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=158 label="Cd_rad_out_double">, <Entry index=203 label="Cs_H_out_H/OneDe">]
 [<Entry index=60 label="R4H_SDS">, <Entry index=158 label="Cd_rad_out_double">, <Entry index=196 label="Cs_H_out_2H">]
@@ -5169,7 +5169,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [12, 12, 12, 12, 12, 12, 12, 12] rates.
+Fitted to 12 rates.
 [<Entry index=10 label="R2H_D">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=192 label="Cd_H_out_singleH">]
 [<Entry index=95 label="R5H_DSMS">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=10 label="R2H_D">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=193 label="Cd_H_out_singleNd">]
@@ -5203,7 +5203,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=10 label="R2H_D">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=192 label="Cd_H_out_singleH">]
 [<Entry index=95 label="R5H_DSMS">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=10 label="R2H_D">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=193 label="Cd_H_out_singleNd">]
@@ -5231,7 +5231,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [5, 5, 5, 5, 5, 5, 5, 5] rates.
+Fitted to 5 rates.
 [<Entry index=30 label="R3H_DS">, <Entry index=161 label="Cd_rad_out_singleNd">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=30 label="R3H_DS">, <Entry index=161 label="Cd_rad_out_singleNd">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=10 label="R2H_D">, <Entry index=161 label="Cd_rad_out_singleNd">, <Entry index=193 label="Cd_H_out_singleNd">]
@@ -5258,7 +5258,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=30 label="R3H_DS">, <Entry index=162 label="Cd_rad_out_singleDe">, <Entry index=196 label="Cs_H_out_2H">]
 """,
     history = [
@@ -5345,7 +5345,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [186, 186, 186, 186, 186, 186, 186, 186] rates.
+Fitted to 186 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
 [<Entry index=8 label="R2H_S_cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=171 label="C_rad_out_H/OneDe">, <Entry index=189 label="Cd_H_out_doubleC">]
@@ -5528,7 +5528,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [41, 41, 41, 41, 41, 41, 41, 41] rates.
+Fitted to 41 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=167 label="C_rad_out_2H">, <Entry index=212 label="Cs_H_out_OneDe">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=167 label="C_rad_out_2H">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=167 label="C_rad_out_2H">, <Entry index=207 label="Cs_H_out_Cs2_cy3">]
@@ -5583,7 +5583,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [62, 62, 62, 62, 62, 62, 62, 62] rates.
+Fitted to 62 rates.
 [<Entry index=19 label="R3H_SS_13cy4">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=203 label="Cs_H_out_H/OneDe">]
 [<Entry index=8 label="R2H_S_cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -5659,7 +5659,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [55, 55, 55, 55, 55, 55, 55, 55] rates.
+Fitted to 55 rates.
 [<Entry index=19 label="R3H_SS_13cy4">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=203 label="Cs_H_out_H/OneDe">]
 [<Entry index=8 label="R2H_S_cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -5750,7 +5750,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [7, 7, 7, 7, 7, 7, 7, 7] rates.
+Fitted to 7 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=171 label="C_rad_out_H/OneDe">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=171 label="C_rad_out_H/OneDe">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=171 label="C_rad_out_H/OneDe">, <Entry index=196 label="Cs_H_out_2H">]
@@ -5780,7 +5780,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [74, 74, 74, 74, 74, 74, 74, 74] rates.
+Fitted to 74 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
 [<Entry index=20 label="R3H_SS_12cy5">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
@@ -5869,7 +5869,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [70, 70, 70, 70, 70, 70, 70, 70] rates.
+Fitted to 70 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
 [<Entry index=20 label="R3H_SS_12cy5">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
@@ -5954,7 +5954,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [70, 70, 70, 70, 70, 70, 70, 70] rates.
+Fitted to 70 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
 [<Entry index=20 label="R3H_SS_12cy5">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
@@ -6039,7 +6039,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=175 label="C_rad_out_Cs2_cy3">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=175 label="C_rad_out_Cs2_cy3">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=175 label="C_rad_out_Cs2_cy3">, <Entry index=196 label="Cs_H_out_2H">]
@@ -6069,7 +6069,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=176 label="C_rad_out_Cs2_cy4">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=176 label="C_rad_out_Cs2_cy4">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=176 label="C_rad_out_Cs2_cy4">, <Entry index=196 label="Cs_H_out_2H">]
@@ -6100,7 +6100,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=177 label="C_rad_out_Cs2_cy5">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=177 label="C_rad_out_Cs2_cy5">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=177 label="C_rad_out_Cs2_cy5">, <Entry index=196 label="Cs_H_out_2H">]
@@ -6124,7 +6124,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [52, 52, 52, 52, 52, 52, 52, 52] rates.
+Fitted to 52 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
 [<Entry index=26 label="R3H_SD">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=192 label="Cd_H_out_singleH">]
@@ -6213,7 +6213,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [4, 4, 4, 4, 4, 4, 4, 4] rates.
+Fitted to 4 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_OneDe/Cs">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_OneDe/Cs">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_OneDe/Cs">, <Entry index=189 label="Cd_H_out_doubleC">]
@@ -6240,7 +6240,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [4, 4, 4, 4, 4, 4, 4, 4] rates.
+Fitted to 4 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_OneDe/Cs">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_OneDe/Cs">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=181 label="C_rad_out_OneDe/Cs">, <Entry index=189 label="Cd_H_out_doubleC">]
@@ -6395,7 +6395,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [7, 7, 7, 7, 7, 7, 7, 7] rates.
+Fitted to 7 rates.
 [<Entry index=60 label="R4H_SDS">, <Entry index=167 label="C_rad_out_2H">, <Entry index=189 label="Cd_H_out_doubleC">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=167 label="C_rad_out_2H">, <Entry index=189 label="Cd_H_out_doubleC">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=189 label="Cd_H_out_doubleC">]
@@ -6425,7 +6425,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [7, 7, 7, 7, 7, 7, 7, 7] rates.
+Fitted to 7 rates.
 [<Entry index=60 label="R4H_SDS">, <Entry index=167 label="C_rad_out_2H">, <Entry index=189 label="Cd_H_out_doubleC">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=167 label="C_rad_out_2H">, <Entry index=189 label="Cd_H_out_doubleC">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=189 label="Cd_H_out_doubleC">]
@@ -6477,7 +6477,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [13, 13, 13, 13, 13, 13, 13, 13] rates.
+Fitted to 13 rates.
 [<Entry index=10 label="R2H_D">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=192 label="Cd_H_out_singleH">]
 [<Entry index=26 label="R3H_SD">, <Entry index=167 label="C_rad_out_2H">, <Entry index=193 label="Cd_H_out_singleNd">]
 [<Entry index=26 label="R3H_SD">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=193 label="Cd_H_out_singleNd">]
@@ -6513,7 +6513,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [7, 7, 7, 7, 7, 7, 7, 7] rates.
+Fitted to 7 rates.
 [<Entry index=10 label="R2H_D">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=192 label="Cd_H_out_singleH">]
 [<Entry index=75 label="R5H_SSSD">, <Entry index=157 label="O_rad_out">, <Entry index=192 label="Cd_H_out_singleH">]
 [<Entry index=26 label="R3H_SD">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=192 label="Cd_H_out_singleH">]
@@ -6543,7 +6543,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [5, 5, 5, 5, 5, 5, 5, 5] rates.
+Fitted to 5 rates.
 [<Entry index=26 label="R3H_SD">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=193 label="Cd_H_out_singleNd">]
 [<Entry index=26 label="R3H_SD">, <Entry index=167 label="C_rad_out_2H">, <Entry index=193 label="Cd_H_out_singleNd">]
 [<Entry index=10 label="R2H_D">, <Entry index=161 label="Cd_rad_out_singleNd">, <Entry index=193 label="Cd_H_out_singleNd">]
@@ -6571,7 +6571,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=26 label="R3H_SD">, <Entry index=167 label="C_rad_out_2H">, <Entry index=194 label="Cd_H_out_singleDe">]
 """,
     history = [
@@ -6596,7 +6596,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [241, 241, 241, 241, 241, 241, 241, 241] rates.
+Fitted to 241 rates.
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
 [<Entry index=8 label="R2H_S_cy5">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -6835,7 +6835,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [50, 50, 50, 50, 50, 50, 50, 50] rates.
+Fitted to 50 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=176 label="C_rad_out_Cs2_cy4">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=95 label="R5H_DSMS">, <Entry index=160 label="Cd_rad_out_singleH">, <Entry index=196 label="Cs_H_out_2H">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=167 label="C_rad_out_2H">, <Entry index=196 label="Cs_H_out_2H">]
@@ -6909,7 +6909,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [107, 107, 107, 107, 107, 107, 107, 107] rates.
+Fitted to 107 rates.
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=203 label="Cs_H_out_H/OneDe">]
 [<Entry index=71 label="R5H_SSSS_OO(Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=202 label="Cs_H_out_H/NonDeO">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=158 label="Cd_rad_out_double">, <Entry index=203 label="Cs_H_out_H/OneDe">]
@@ -7014,7 +7014,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [85, 85, 85, 85, 85, 85, 85, 85] rates.
+Fitted to 85 rates.
 [<Entry index=19 label="R3H_SS_13cy4">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=22 label="R3H_SS_13cy5">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=198 label="Cs_H_out_H/NonDeC">]
 [<Entry index=24 label="R3H_SS_OC">, <Entry index=157 label="O_rad_out">, <Entry index=199 label="Cs_H_out_H/(NonDeC/Cs)">]
@@ -7098,7 +7098,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=24 label="R3H_SS_OC">, <Entry index=157 label="O_rad_out">, <Entry index=199 label="Cs_H_out_H/(NonDeC/Cs)">]
 [<Entry index=24 label="R3H_SS_OC">, <Entry index=157 label="O_rad_out">, <Entry index=201 label="Cs_H_out_H/(NonDeC/Cs/Cs/Cs)">]
 [<Entry index=24 label="R3H_SS_OC">, <Entry index=157 label="O_rad_out">, <Entry index=200 label="Cs_H_out_H/(NonDeC/Cs/Cs)">]
@@ -7127,7 +7127,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=24 label="R3H_SS_OC">, <Entry index=157 label="O_rad_out">, <Entry index=201 label="Cs_H_out_H/(NonDeC/Cs/Cs/Cs)">]
 [<Entry index=24 label="R3H_SS_OC">, <Entry index=157 label="O_rad_out">, <Entry index=200 label="Cs_H_out_H/(NonDeC/Cs/Cs)">]
 """,
@@ -7156,7 +7156,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=24 label="R3H_SS_OC">, <Entry index=157 label="O_rad_out">, <Entry index=201 label="Cs_H_out_H/(NonDeC/Cs/Cs/Cs)">]
 """,
     history = [
@@ -7181,7 +7181,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [7, 7, 7, 7, 7, 7, 7, 7] rates.
+Fitted to 7 rates.
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=202 label="Cs_H_out_H/NonDeO">]
 [<Entry index=156 label="R7H_OOCs4">, <Entry index=157 label="O_rad_out">, <Entry index=202 label="Cs_H_out_H/NonDeO">]
 [<Entry index=24 label="R3H_SS_OC">, <Entry index=157 label="O_rad_out">, <Entry index=202 label="Cs_H_out_H/NonDeO">]
@@ -7212,7 +7212,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [7, 7, 7, 7, 7, 7, 7, 7] rates.
+Fitted to 7 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=167 label="C_rad_out_2H">, <Entry index=203 label="Cs_H_out_H/OneDe">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=158 label="Cd_rad_out_double">, <Entry index=203 label="Cs_H_out_H/OneDe">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=203 label="Cs_H_out_H/OneDe">]
@@ -7244,7 +7244,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [84, 84, 84, 84, 84, 84, 84, 84] rates.
+Fitted to 84 rates.
 [<Entry index=19 label="R3H_SS_13cy4">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=167 label="C_rad_out_2H">, <Entry index=212 label="Cs_H_out_OneDe">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
@@ -7353,7 +7353,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [75, 75, 75, 75, 75, 75, 75, 75] rates.
+Fitted to 75 rates.
 [<Entry index=19 label="R3H_SS_13cy4">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
@@ -7453,7 +7453,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [69, 69, 69, 69, 69, 69, 69, 69] rates.
+Fitted to 69 rates.
 [<Entry index=19 label="R3H_SS_13cy4">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
@@ -7547,7 +7547,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=167 label="C_rad_out_2H">, <Entry index=207 label="Cs_H_out_Cs2_cy3">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=207 label="Cs_H_out_Cs2_cy3">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=207 label="Cs_H_out_Cs2_cy3">]
@@ -7579,7 +7579,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=167 label="C_rad_out_2H">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=167 label="C_rad_out_2H">, <Entry index=208 label="Cs_H_out_Cs2_cy4">]
@@ -7612,7 +7612,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=25 label="Others-R3H_SS">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=209 label="Cs_H_out_Cs2_cy5">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=167 label="C_rad_out_2H">, <Entry index=209 label="Cs_H_out_Cs2_cy5">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=209 label="Cs_H_out_Cs2_cy5">]
@@ -7636,7 +7636,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [51, 51, 51, 51, 51, 51, 51, 51] rates.
+Fitted to 51 rates.
 [<Entry index=19 label="R3H_SS_13cy4">, <Entry index=169 label="C_rad_out_H/NonDeC">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=171 label="C_rad_out_H/OneDe">, <Entry index=210 label="Others-Cs_H_out_Cs2">]
@@ -7712,7 +7712,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=39 label="R4H_SSS_OO(Cs/Cs)Cs">, <Entry index=157 label="O_rad_out">, <Entry index=211 label="Cs_H_out_NDMustO">]
 [<Entry index=156 label="R7H_OOCs4">, <Entry index=157 label="O_rad_out">, <Entry index=211 label="Cs_H_out_NDMustO">]
 [<Entry index=121 label="R6H_SSSSS_OO">, <Entry index=157 label="O_rad_out">, <Entry index=211 label="Cs_H_out_NDMustO">]
@@ -7743,7 +7743,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [4, 4, 4, 4, 4, 4, 4, 4] rates.
+Fitted to 4 rates.
 [<Entry index=9 label="Others-R2H_S">, <Entry index=178 label="Others-C_rad_out_Cs2">, <Entry index=212 label="Cs_H_out_OneDe">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=167 label="C_rad_out_2H">, <Entry index=212 label="Cs_H_out_OneDe">]
 [<Entry index=9 label="Others-R2H_S">, <Entry index=158 label="Cd_rad_out_double">, <Entry index=212 label="Cs_H_out_OneDe">]

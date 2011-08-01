@@ -27,7 +27,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [9, 9, 9, 9, 9, 9, 9, 9] rates.
+Fitted to 9 rates.
 [<Entry index=3 label="o_atom">, <Entry index=18 label="mb_db_monosub_Nd">]
 [<Entry index=3 label="o_atom">, <Entry index=25 label="mb_db_twocdisub_Nd">]
 [<Entry index=1 label="elec_def">, <Entry index=2 label="multiplebond">]
@@ -76,7 +76,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [7, 7, 7, 7, 7, 7, 7, 7] rates.
+Fitted to 7 rates.
 [<Entry index=3 label="o_atom">, <Entry index=18 label="mb_db_monosub_Nd">]
 [<Entry index=3 label="o_atom">, <Entry index=36 label="mb_db_tetrasub_Nd">]
 [<Entry index=3 label="o_atom">, <Entry index=25 label="mb_db_twocdisub_Nd">]
@@ -104,7 +104,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=4 label="carbene">, <Entry index=16 label="mb_db_unsub">]
 """,
     history = [
@@ -366,7 +366,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [8, 8, 8, 8, 8, 8, 8, 8] rates.
+Fitted to 8 rates.
 [<Entry index=3 label="o_atom">, <Entry index=18 label="mb_db_monosub_Nd">]
 [<Entry index=3 label="o_atom">, <Entry index=25 label="mb_db_twocdisub_Nd">]
 [<Entry index=4 label="carbene">, <Entry index=16 label="mb_db_unsub">]
@@ -398,7 +398,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=4 label="carbene">, <Entry index=16 label="mb_db_unsub">]
 [<Entry index=3 label="o_atom">, <Entry index=16 label="mb_db_unsub">]
 """,
@@ -426,7 +426,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=3 label="o_atom">, <Entry index=18 label="mb_db_monosub_Nd">]
 """,
     history = [
@@ -453,7 +453,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=3 label="o_atom">, <Entry index=18 label="mb_db_monosub_Nd">]
 """,
     history = [
@@ -505,7 +505,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=3 label="o_atom">, <Entry index=21 label="mb_db_onecdisub_Nd">]
 """,
     history = [
@@ -532,7 +532,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=3 label="o_atom">, <Entry index=21 label="mb_db_onecdisub_Nd">]
 """,
     history = [
@@ -609,7 +609,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=3 label="o_atom">, <Entry index=25 label="mb_db_twocdisub_Nd">]
 """,
     history = [
@@ -636,7 +636,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=3 label="o_atom">, <Entry index=25 label="mb_db_twocdisub_Nd">]
 """,
     history = [
@@ -888,7 +888,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=3 label="o_atom">, <Entry index=36 label="mb_db_tetrasub_Nd">]
 """,
     history = [
@@ -915,7 +915,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=3 label="o_atom">, <Entry index=36 label="mb_db_tetrasub_Nd">]
 """,
     history = [

@@ -36,7 +36,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [14, 14, 14, 14, 14, 14, 14, 14] rates.
+Fitted to 14 rates.
 [<Entry index=3 label="R2OO_2H_2H">]
 [<Entry index=28 label="R2OO_NdNd_NdNd">]
 [<Entry index=25 label="R2OO_NdNd_2H">]
@@ -79,7 +79,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [5, 5, 5, 5, 5, 5, 5, 5] rates.
+Fitted to 5 rates.
 [<Entry index=5 label="R2OO_2H_HDe">]
 [<Entry index=3 label="R2OO_2H_2H">]
 [<Entry index=6 label="CH3CH(OO)CHCH2">]
@@ -114,7 +114,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=3 label="R2OO_2H_2H">]
 """,
     history = [
@@ -145,7 +145,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=4 label="R2OO_2H_HNd">]
 """,
     history = [
@@ -176,7 +176,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=6 label="CH3CH(OO)CHCH2">]
 [<Entry index=5 label="R2OO_2H_HDe">]
 """,
@@ -212,7 +212,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=6 label="CH3CH(OO)CHCH2">]
 """,
     history = [
@@ -243,7 +243,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=7 label="R2OO_2H_NdNd">]
 """,
     history = [
@@ -328,7 +328,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=12 label="R2OO_HNd_HNd">]
 [<Entry index=11 label="R2OO_HNd_2H">]
 [<Entry index=14 label="R2OO_HNd_NdNd">]
@@ -361,7 +361,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=11 label="R2OO_HNd_2H">]
 """,
     history = [
@@ -392,7 +392,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=12 label="R2OO_HNd_HNd">]
 """,
     history = [
@@ -451,7 +451,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=14 label="R2OO_HNd_NdNd">]
 """,
     history = [
@@ -730,7 +730,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=26 label="R2OO_NdNd_HNd">]
 [<Entry index=28 label="R2OO_NdNd_NdNd">]
 [<Entry index=25 label="R2OO_NdNd_2H">]
@@ -763,7 +763,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=25 label="R2OO_NdNd_2H">]
 """,
     history = [
@@ -794,7 +794,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=26 label="R2OO_NdNd_HNd">]
 """,
     history = [
@@ -853,7 +853,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=28 label="R2OO_NdNd_NdNd">]
 """,
     history = [
@@ -1326,7 +1326,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=45 label="OCOO">]
 [<Entry index=46 label="HOCH[OO]CH3">]
 """,
@@ -1358,7 +1358,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=46 label="HOCH[OO]CH3">]
 """,
     history = [

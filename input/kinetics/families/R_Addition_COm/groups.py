@@ -30,7 +30,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [12, 12, 12, 12, 12, 12, 12, 12] rates.
+Fitted to 12 rates.
 [<Entry index=1 label="COm">, <Entry index=32 label="CH[CH3]2">]
 [<Entry index=1 label="COm">, <Entry index=23 label="CH2CH3">]
 [<Entry index=1 label="COm">, <Entry index=18 label="Cb_rad">]
@@ -82,7 +82,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=1 label="COm">, <Entry index=3 label="H_rad">]
 """,
     history = [
@@ -105,7 +105,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=1 label="COm">, <Entry index=7 label="O_rad/NonDe">]
 """,
     history = [
@@ -150,7 +150,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=1 label="COm">, <Entry index=7 label="O_rad/NonDe">]
 """,
     history = [
@@ -174,7 +174,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=1 label="COm">, <Entry index=7 label="O_rad/NonDe">]
 """,
     history = [
@@ -306,7 +306,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=1 label="COm">, <Entry index=14 label="Cd_pri_rad">]
 """,
     history = [
@@ -331,7 +331,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=1 label="COm">, <Entry index=14 label="Cd_pri_rad">]
 """,
     history = [
@@ -422,7 +422,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=1 label="COm">, <Entry index=18 label="Cb_rad">]
 """,
     history = [
@@ -448,7 +448,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6, 6, 6, 6, 6, 6] rates.
+Fitted to 6 rates.
 [<Entry index=1 label="COm">, <Entry index=20 label="C_methyl">]
 [<Entry index=1 label="COm">, <Entry index=32 label="CH[CH3]2">]
 [<Entry index=1 label="COm">, <Entry index=22 label="C_rad/H2/Cs">]
@@ -478,7 +478,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2, 2, 2, 2, 2, 2] rates.
+Fitted to 2 rates.
 [<Entry index=1 label="COm">, <Entry index=20 label="C_methyl">]
 """,
     history = [
@@ -504,7 +504,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=1 label="COm">, <Entry index=22 label="C_rad/H2/Cs">]
 [<Entry index=1 label="COm">, <Entry index=24 label="CH2CH2CH3">]
 [<Entry index=1 label="COm">, <Entry index=23 label="CH2CH3">]
@@ -532,7 +532,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3, 3, 3, 3, 3, 3] rates.
+Fitted to 3 rates.
 [<Entry index=1 label="COm">, <Entry index=22 label="C_rad/H2/Cs">]
 [<Entry index=1 label="COm">, <Entry index=24 label="CH2CH2CH3">]
 [<Entry index=1 label="COm">, <Entry index=23 label="CH2CH3">]
@@ -563,7 +563,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=1 label="COm">, <Entry index=23 label="CH2CH3">]
 """,
     history = [
@@ -594,7 +594,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=1 label="COm">, <Entry index=24 label="CH2CH2CH3">]
 """,
     history = [
@@ -734,7 +734,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=1 label="COm">, <Entry index=32 label="CH[CH3]2">]
 """,
     history = [
@@ -759,7 +759,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=1 label="COm">, <Entry index=32 label="CH[CH3]2">]
 """,
     history = [
@@ -790,7 +790,7 @@ entry(
     shortDesc = u"""Group additive kinetics.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1, 1, 1, 1, 1, 1] rates.
+Fitted to 1 rates.
 [<Entry index=1 label="COm">, <Entry index=32 label="CH[CH3]2">]
 """,
     history = [
