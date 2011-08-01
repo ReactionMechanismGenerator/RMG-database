@@ -307,3 +307,69 @@ u"""
     ],
 )
 
+entry(
+    index = 13,
+    label = "Ar",
+    molecule = 
+"""
+1     Ar    0
+""",
+    thermo = MultiNASA(
+        polynomials = [
+            NASA(Tmin=(298,"K"), Tmax=(1000,"K"), coeffs=[2.5,0,0,0,0,-745.375,4.366]),
+            NASA(Tmin=(1000,"K"), Tmax=(5000,"K"), coeffs=[2.5,0,0,0,0,-745.375,4.366]),
+        ],
+        Tmin = (298,"K"),
+        Tmax = (5000,"K"),
+    ),
+    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    referenceType = "review",
+    shortDesc = u"""Copied from GRI-Mech 3.0""",
+    longDesc = 
+u"""
+This was copied from the GRI-Mech3.0 library.
+The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
+This prevents it from being used to evaluate the standard properties at 298K as required
+by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range probably
+introduces less error than not using the thermo at all, so the range has been extended
+to 298K.
+""",
+    history = [
+        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
+    ],
+)
+
+entry(
+    index = 14,
+    label = "N2",
+    molecule = 
+"""
+1     N     0 {2,T}
+2     N     0 {1,T}
+""",
+    thermo = MultiNASA(
+        polynomials = [
+            NASA(Tmin=(298,"K"), Tmax=(1000,"K"), coeffs=[3.29868,0.00140824,-3.96322e-06,5.64152e-09,-2.44485e-12,-1020.9,3.95037]),
+            NASA(Tmin=(1000,"K"), Tmax=(5000,"K"), coeffs=[2.92664,0.00148798,-5.68476e-07,1.0097e-10,-6.75335e-15,-922.798,5.98053]),
+        ],
+        Tmin = (298,"K"),
+        Tmax = (5000,"K"),
+    ),
+    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    referenceType = "review",
+    shortDesc = u"""Copied from GRI-Mech 3.0""",
+    longDesc = 
+u"""
+This was copied from the GRI-Mech3.0 library.
+The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
+This prevents it from being used to evaluate the standard properties at 298K as required
+by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range probably
+introduces less error than not using the thermo at all, so the range has been extended
+to 298K.
+""",
+    history = [
+        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
+    ],
+)
