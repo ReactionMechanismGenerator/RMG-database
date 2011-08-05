@@ -5170,9 +5170,9 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (6e-14,"cm^3/(mol*s)"),
+        A = (6e-14,"cm^3/(molecule*s)"),
         n = 0,
-        Ea = (4572.96,"J/mol"),
+        Ea = (4572.96,"J/mol","+|-",4157),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Atkinson, R.", "Baulch, D.L.", "Cox, R.A.", "Crowley, J.N.", "Hampson, R.F, Jr.", "Kerr, J.A.", "Rossi, M.J.", "Troe, J."], title=u'Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry', journal="Not in System", pages="""1-56""", year="2001", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013972/rk00000004.xml"),
@@ -5181,9 +5181,12 @@ entry(
     longDesc = 
 u"""
 Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013972/rk00000004.xml
+Units A corrected from moles to molecules, and uncertainty added to Ea, according to NIST kinetics database at 
+http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:133
 """,
     history = [
         ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013972/rk00000004.xml"""),
+        ("2011-08-05","Richard West <rwest@mit.edu>","action","""Corrected units from moles to molecules and added uncertainty to Ea based on NIST database."""),
     ],
 )
 
