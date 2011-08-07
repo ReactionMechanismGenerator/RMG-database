@@ -162,9 +162,9 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.77e+07,"cm^3/(mol*s)"),
+        A = (20.1,"cm^3/(mol*s)"),
         n = 2.48142,
-        Ea = (323.842,"J/mol"),
+        Ea = (19.6,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Chen, C.-J.", "Bozzelli, J.W."], title=u'Analysis of Tertiary Butyl Radical + O_2, Isobutene + HO_2, Isobutene + OH, and Isobutene-OH Adducts + O_2: A Detailed Tertiary Butyl Oxidation Mechanism', journal="J. Phys. Chem. A", volume="103", pages="""9731-9769""", year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml"),
@@ -173,9 +173,12 @@ entry(
     longDesc = 
 u"""
 Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml
+Values corrected according to current NIST database and original publication at http://dx.doi.org/10.1021/jp991227n Table 9.
+The PrIMe data had assumed T0=298K (hence the incorrect A) but I cannot explain the discrepancy in the Ea.
 """,
     history = [
         ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml"""),
+        ("2011-08-07","Richard West <rwest@mit.edu>","action","""Corrected values based on NIST database and original publication. T0 was wrong, and Ea."""),
     ],
 )
 
