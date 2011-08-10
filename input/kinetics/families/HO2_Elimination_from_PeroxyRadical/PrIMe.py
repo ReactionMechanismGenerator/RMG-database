@@ -162,9 +162,9 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.77e+07,"cm^3/(mol*s)"),
+        A = (20.1,"cm^3/(mol*s)"),
         n = 2.48142,
-        Ea = (323.842,"J/mol"),
+        Ea = (19.6,"kcal/mol"),
         T0 = (1,"K"),
     ),
     reference = Article(authors=["Chen, C.-J.", "Bozzelli, J.W."], title=u'Analysis of Tertiary Butyl Radical + O_2, Isobutene + HO_2, Isobutene + OH, and Isobutene-OH Adducts + O_2: A Detailed Tertiary Butyl Oxidation Mechanism', journal="J. Phys. Chem. A", volume="103", pages="""9731-9769""", year="1999", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml"),
@@ -173,9 +173,12 @@ entry(
     longDesc = 
 u"""
 Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml
+Values corrected according to current NIST database and original publication at http://dx.doi.org/10.1021/jp991227n Table 9.
+The PrIMe data had assumed T0=298K (hence the incorrect A) but I cannot explain the discrepancy in the Ea.
 """,
     history = [
         ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml"""),
+        ("2011-08-07","Richard West <rwest@mit.edu>","action","""Corrected values based on NIST database and original publication. T0 was wrong, and Ea."""),
     ],
 )
 
@@ -208,7 +211,7 @@ entry(
         A = (9.38e+16,"s^-1"),
         n = -7.86,
         Ea = (153236,"J/mol"),
-        T0 = (1,"K"),
+        T0 = (298,"K"),
     ),
     reference = Article(authors=["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."], title=u'Measurements, Theory, and Modeling of OH Formation in Ethyl + O_2 and Propyl + O_2 Reactions', journal="J. Phys. Chem. A", volume="107", pages="""4415-4427""", year="2003", url="http://warehouse.primekinetics.org/depository/reactions/data/r00012692/rk00000001.xml"),
     referenceType = "",
@@ -216,9 +219,11 @@ entry(
     longDesc = 
 u"""
 Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012692/rk00000001.xml
+Referece T0 corrected from 1 to 298K according to NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:6
 """,
     history = [
         ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012692/rk00000001.xml"""),
+        ("2011-08-05","Richard West <rwest@mit.edu>","action","""Corrected T0 from 1K to 298K according to NIST database"""),
     ],
 )
 
