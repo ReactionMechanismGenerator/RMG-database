@@ -8411,23 +8411,29 @@ entry(
         A = (2.57e+06,"cm^3/(mol*s)"),
         n = 1.9,
         alpha = 0,
-        E0 = (1.45,"kcal/mol"),
+        E0 = (-1.45,"kcal/mol"),
         Tmin = (298,"K"),
         Tmax = (1150,"K"),
     ),
-    reference = None,
+    reference = Article(authors=["Cohen, N."], year="1991", doi="10.1002/kin.550230506", url="http://dx.doi.org/10.1002/kin.550230506"),
     referenceType = "",
     rank = 3,
     shortDesc = u"""Cohen et al. [101] Transition state theory.""",
     longDesc = 
 u"""
 [101] Cohen, N. Int. J. Chem. Kinet. 1991, 23, 397.
+http://dx.doi.org/10.1002/kin.550230506
 Iso-C4H10 + OH --> tert-C4H9 + H2O
 
-Not yet checked
+E0 changed from +1.45 kcal/mol to -1.45 kcal/mol based on NIST database 
+http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:7
+(original paper still not checked)
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("2011-08-11","Richard West <rwest@mit.edu>","action","""Added link to reference."""),
+        ("2011-08-11","Richard West <rwest@mit.edu>","action","""Added more detail to the reference"""),
+        ("2011-08-11","Richard West <rwest@mit.edu>","action","""Sign error in Ea corrected based on NIST database."""),
     ],
 )
 
