@@ -1911,6 +1911,45 @@ C2H2 + Iso-C3H7 --> (CH3)2CHCH=CH
 )
 
 entry(
+    index = 328,
+    label = "Ct/H_Ct/H;C_rad/Cs3",
+    group1 = 
+"""
+1  *1 Ct 0 {2,T} {3,S}
+2  *2 Ct 0 {1,T} {4,S}
+3     H 0 {1,S}
+4     H 0 {2,S}
+""",
+    group2 = 
+"""
+1  *3 C 1 {2,S} {3,S} {4,S}
+2     Cs 0 {1,S}
+3     Cs 0 {1,S}
+4     Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2.505e+10,"cm^3/(mol*s)"),
+        n = 0,
+        alpha = 0,
+        E0 = (5.31,"kcal/mol"),
+        Tmin = (373,"K"),
+        Tmax = (493,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Dominguez et al. [164] Data derived from fitting a complex mechanism.""",
+    longDesc = 
+u"""
+[164] Dominguez et al. Data derived from fitting to a complex mechanism. Pressure 0.01-0.32 atm. Excitation : direct photolysis, analysis : GC. 
+C2H2 + Tert-C4H9 --> (CH3)3CCH=CH C.D.W divided rate expression by 2, to get rate of addition per site.
+""",
+    history = [
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 329,
     label = "Ct/H_Ct/H;Cd_pri_rad",
     group1 = 
