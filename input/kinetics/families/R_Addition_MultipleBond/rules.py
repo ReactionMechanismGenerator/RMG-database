@@ -1943,9 +1943,14 @@ entry(
 u"""
 [164] Dominguez et al. Data derived from fitting to a complex mechanism. Pressure 0.01-0.32 atm. Excitation : direct photolysis, analysis : GC. 
 C2H2 + Tert-C4H9 --> (CH3)3CCH=CH C.D.W divided rate expression by 2, to get rate of addition per site.
+
+Richard checked this and added it to the training database. It should therefore be removed from the rules database,
+However, for now, rules get preference if we hit them exactly and we don't derive such rules from the training database,
+so for now I'm leaving it here because it helps.
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("2011-08-09","Richard West <rwest@mit.edu>","action","""Made a copy of this in the training depository. This rule should be retired."""),
     ],
 )
 
