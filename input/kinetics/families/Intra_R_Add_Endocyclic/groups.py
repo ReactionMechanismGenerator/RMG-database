@@ -48,7 +48,7 @@ entry(
     group = 
 """
 1  *2 {Cd,Ct,CO} 0 {2,{D,T}}
-2  *3 {Cd,Ct,Od} 0 {1,{D,T}}
+2  *3 {Cd,Cdd,Ct,Od} 0 {1,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -90,7 +90,7 @@ entry(
 """
 1  *1 R!H 1 {2,S}
 2  *2 {Cd,Ct,CO} 0 {1,S} {3,{D,T}}
-3  *3 {Cd,Ct,Od} 0 {2,{D,T}}
+3  *3 {Cd,Cdd,Ct,Od} 0 {2,{D,T}}
 """,
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([5.71294e-15,2.62918e-11,4.18044e-09,1.23376e-07,8.5709e-06,0.000110085,0.00337086,0.0189164],"s^-1","*|/",[1.49158e+93,2.15349e+69,9.86039e+54,2.57742e+45,2.4629e+33,1.39522e+26,2.55592e+16,3.02144e+11])),
     reference = None,
@@ -186,7 +186,7 @@ entry(
 1  *1 R!H 1 {2,{S,D,T,B}}
 2  *4 R!H 0 {1,{S,D,T,B}} {3,S}
 3  *2 {Cd,Ct,CO} 0 {2,S} {4,{D,T}}
-4  *3 {Cd,Ct,Od} 0 {3,{D,T}}
+4  *3 {Cd,Cdd,Ct,Od} 0 {3,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -209,7 +209,7 @@ entry(
 1  *1 R!H 1 {2,S}
 2  *4 R!H 0 {1,S} {3,S}
 3  *2 {Cd,Ct,CO} 0 {2,S} {4,{D,T}}
-4  *3 {Cd,Ct,Od} 0 {3,{D,T}}
+4  *3 {Cd,Cdd,Ct,Od} 0 {3,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -301,7 +301,7 @@ entry(
 1  *1 Cd 1 {2,D}
 2  *4 Cd 0 {1,D} {3,S}
 3  *2 {Cd,Ct,CO} 0 {2,S} {4,{D,T}}
-4  *3 {Cd,Ct,Od} 0 {3,{D,T}}
+4  *3 {Cd,Cdd,Ct,Od} 0 {3,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -393,7 +393,7 @@ entry(
 1  *1 Ct 1 {2,T}
 2  *4 Ct 0 {1,T} {3,S}
 3  *2 {Cd,Ct,CO} 0 {2,S} {4,{D,T}}
-4  *3 {Cd,Ct,Od} 0 {3,{D,T}}
+4  *3 {Cd,Cdd,Ct,Od} 0 {3,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -485,7 +485,7 @@ entry(
 1  *1 Cb 1 {2,B}
 2  *4 Cb 0 {1,B} {3,S}
 3  *2 {Cd,Ct,CO} 0 {2,S} {4,{D,T}}
-4  *3 {Cd,Ct,Od} 0 {3,{D,T}}
+4  *3 {Cd,Cdd,Ct,Od} 0 {3,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -599,7 +599,7 @@ entry(
 2  *4 R!H 0 {1,S} {3,S}
 3  *5 R!H 0 {2,S} {4,S}
 4  *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5  *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5  *3 {Cd,Cdd,Ct,Od} 0 {4,{D,T}}
 """,
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([8.65713e+08,5.62642e+06,274843,36791,2988.2,664.274,89.9556,33.2492],"s^-1")),
     reference = None,
@@ -699,7 +699,7 @@ entry(
 2  *4 Cd 0 {1,S} {3,D}
 3  *5 Cd 0 {2,D} {4,S}
 4  *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5  *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5  *3 {Cd,Cdd,Ct,Od} 0 {4,{D,T}}
 """,
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([2.07027e-06,4.20348e-05,0.000258471,0.000873183,0.0040458,0.0102518,0.0361641,0.0690507],"s^-1")),
     reference = None,
@@ -799,7 +799,7 @@ entry(
 2  *4 Cd 0 {1,D} {3,S}
 3  *5 R!H 0 {2,S} {4,S}
 4  *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5  *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5  *3 {Cd,Cdd,Ct,Od} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -895,7 +895,7 @@ entry(
 2  *4 Cd 0 {1,D} {3,S}
 3  *5 R!H 0 {2,S} {4,D}
 4  *2 {Cd,Ct,CO} 0 {3,D} {5,{D,T}}
-5  *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5  *3 {Cd,Cdd,Ct,Od} 0 {4,{D,T}}
 """,
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([79133.7,5560.64,1112.32,376.427,95.3385,41.1592,12.9781,7.09405],"s^-1")),
     reference = None,
@@ -971,7 +971,7 @@ entry(
 2  *4 Ct 0 {1,S} {3,T}
 3  *5 Ct 0 {2,T} {4,S}
 4  *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5  *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5  *3 {Cd,Cdd,Ct,Od} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1067,7 +1067,7 @@ entry(
 2  *4 Ct 0 {1,T} {3,S}
 3  *5 R!H 0 {2,S} {4,S}
 4  *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5  *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5  *3 {Cd,Cdd,Ct,Od} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1163,7 +1163,7 @@ entry(
 2  *4 Cb 0 {1,S} {3,B}
 3  *5 Cb 0 {2,B} {4,S}
 4  *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5  *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5  *3 {Cd,Cdd,Ct,Od} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1259,7 +1259,7 @@ entry(
 2  *4 Cb 0 {1,B} {3,S}
 3  *5 R!H 0 {2,S} {4,S}
 4  *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5  *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5  *3 {Cd,Cdd,Ct,Od} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1355,7 +1355,7 @@ entry(
 2  *4 Cbf 0 {1,B} {3,B}
 3  *5 Cb 0 {2,B} {4,S}
 4  *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5  *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5  *3 {Cd,Cdd,Ct,Od} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1471,7 +1471,7 @@ entry(
 3     R!H 0 {2,S} {4,{S,D,T,B}}
 4  *5 R!H 0 {3,{S,D,T,B}} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([3.93131e+15,3.77044e+11,1.45332e+09,3.55568e+07,341120,20842.8,493.904,75.1112],"s^-1")),
     reference = None,
@@ -1498,7 +1498,7 @@ entry(
 3     R!H 0 {2,S} {4,{S,D,T,B}}
 4  *5 R!H 0 {3,{S,D,T,B}} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([3.93131e+15,3.77044e+11,1.45332e+09,3.55568e+07,341120,20842.8,493.904,75.1112],"s^-1")),
     reference = None,
@@ -1525,7 +1525,7 @@ entry(
 3     R!H 0 {2,S} {4,S}
 4  *5 R!H 0 {3,S} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([3.93131e+15,3.77044e+11,1.45332e+09,3.55568e+07,341120,20842.8,493.904,75.1112],"s^-1")),
     reference = None,
@@ -1629,7 +1629,7 @@ entry(
 3     {Cd,Ct,Cb} 0 {2,S} {4,{D,T,B}}
 4  *5 {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1729,7 +1729,7 @@ entry(
 3     R!H 0 {2,S} {4,{S,D,T,B}}
 4  *5 R!H 0 {3,{S,D,T,B}} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1754,7 +1754,7 @@ entry(
 3     R!H 0 {2,S} {4,S}
 4  *5 R!H 0 {3,S} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1854,7 +1854,7 @@ entry(
 3     {Cd,Ct,Cb} 0 {2,S} {4,{D,T,B}}
 4  *5 {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1954,7 +1954,7 @@ entry(
 3     R!H 0 {2,S} {4,{S,D,T,B}}
 4  *5 R!H 0 {3,{S,D,T,B}} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1979,7 +1979,7 @@ entry(
 3     R!H 0 {2,S} {4,S}
 4  *5 R!H 0 {3,S} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2079,7 +2079,7 @@ entry(
 3     {Cd,Ct,Cb} 0 {2,S} {4,{D,T,B}}
 4  *5 {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2179,7 +2179,7 @@ entry(
 3     R!H 0 {2,S} {4,{S,D,T,B}}
 4  *5 R!H 0 {3,{S,D,T,B}} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2204,7 +2204,7 @@ entry(
 3     R!H 0 {2,S} {4,S}
 4  *5 R!H 0 {3,S} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2304,7 +2304,7 @@ entry(
 3     {Cd,Ct,Cb} 0 {2,S} {4,{D,T,B}}
 4  *5 {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2404,7 +2404,7 @@ entry(
 3     {Cd,Ct,Cb} 0 {2,{D,T,B}} {4,S}
 4  *5 R!H 0 {3,S} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2504,7 +2504,7 @@ entry(
 3     Cbf 0 {2,B} {4,B}
 4  *5 Cb 0 {3,B} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2604,7 +2604,7 @@ entry(
 3     Cb 0 {2,B} {4,S}
 4  *5 R!H 0 {3,S} {5,S}
 5  *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6  *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6  *3 {Cd,Cdd,Ct,Od} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
