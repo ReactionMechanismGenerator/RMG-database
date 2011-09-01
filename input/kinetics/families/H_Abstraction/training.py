@@ -524,24 +524,24 @@ entry(
     reactant2 = 
 """
 1     C     0 {2,S} {3,S} {4,S} {5,S}
-2     C     0 {1,S}
+2  *3 C     1 {1,S}
 3     C     0 {1,S}
-4  *3 C     1 {1,S}
+4     C     0 {1,S}
 5     O     0 {1,S}
 """,
     product1 = 
 """
-1     C     0 {2,S} {3,S} {4,S} {5,S}
-2     C     0 {1,S}
-3     C     0 {1,S}
-4     C     0 {1,S}
-5  *1 O     0 {1,S} {6,S}
-6  *2 H     0 {5,S}
+1  *3 O     1 {2,S}
+2     O     0 {1,S}
 """,
     product2 = 
 """
-1     O     0 {2,S}
-2  *3 O     1 {1,S}
+1     C     0 {2,S} {3,S} {4,S} {5,S}
+2  *1 C     0 {1,S} {6,S}
+3     C     0 {1,S}
+4     C     0 {1,S}
+5     O     0 {1,S}
+6  *2 H     0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -569,7 +569,6 @@ for the remaining species and TS were set to 1.  The rate coefficient was comput
 """,
     history = [
         ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("2011-08-09","Richard West <rwest@mit.edu>","action","""Atoms were mislabeled!  *1 moved from an O to a C, and *3 from a C to an O."""),
     ],
 )
 
