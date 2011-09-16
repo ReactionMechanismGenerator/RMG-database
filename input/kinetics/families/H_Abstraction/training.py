@@ -2530,6 +2530,79 @@ than calculations of MHS.
 )
 
 entry(
+    index = 540,
+    reactant1 = 
+"""
+1     C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4  *1 C 0 {2,S} {12,D} {13,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    O 0 {4,D}
+13 *2 H 0 {4,S}
+""",
+    reactant2 = 
+"""
+1  *3 O 1 {2,S}
+2     O 0 {1,S}
+""",
+    product1 = 
+"""
+1     C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4  *3 C 1 {2,S} {12,D}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    O 0 {4,D}
+""",
+    product2 = 
+"""
+1  *1 O 0 {2,S} {3,S}
+2     O 0 {1,S}
+3  *2 H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000191,"cm^3/(mol*s)","*|/",3),
+        n = 4.25,
+        alpha = 0,
+        E0 = (0.81,"kcal/mol","+|-",2),
+        Tmin = (600,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MHS CBS-QB3 w/o 1dHR calculations""",
+    longDesc = 
+u"""
+MHS CBS-QB3 calculations without 1d hindered rotor correction (due to presence of hydrogen bond interactions)
+Exact reaction: HO2 + CH3-CH2-CH2-CH=O = H2O2 + CH3-CH2-CH2-C*=O
+
+MHS computed rate coefficient using CBS-QB3 method, see _[MRHCBSQB3RRHO] for general algorithm
+employed.  With the difference that the k(T) was calculated from 600 to 2000 K, in 200 K increments.
+
+MHS computed the fitted Arrhenius expression to be: k(T) = 1.91e-4 (T/1K)^4.25 exp(-0.81 kcal mol-1 / RT) cm3 mol-1 s-1.
+The uncertainty in the E0 was estimated to be 2 kcal mol-1 (general accuracy of CBS-QB3 calculations) and the uncertainty
+in the A parameter was MRH guess.
+""",
+    history = [
+        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 1002,
     reactant1 = 
 """

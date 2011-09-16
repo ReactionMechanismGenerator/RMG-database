@@ -5591,6 +5591,38 @@ u"""
     ],
 )
 
+entry(
+    index = 145,
+    label = "InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3",
+    group = 
+"""
+1 *1 C 0 {2,D} {3,S} {6,S}
+2 O 0 {1,D}
+3 C 0 {1,S} {4,S} {7,S} {8,S}
+4 C 0 {3,S} {5,S} {9,S} {10,S}
+5 C 0 {4,S} {11,S} {12,S} {13,S}
+6 *2 H 0 {1,S}
+7 H 0 {3,S}
+8 H 0 {3,S}
+9 H 0 {4,S}
+10 H 0 {4,S} 
+11 H 0 {5,S} 
+12 H 0 {5,S}
+13 H 0 {5,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+    ],
+)
+
 tree(
 """
 L1: X_H
@@ -5615,6 +5647,7 @@ L1: X_H
         L3: CO_pri
         L3: CO_sec
             L4: CO/H/NonDe
+                L5: InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3
             L4: CO/H/OneDe
     L2: Cs_H
         L3: C_methane

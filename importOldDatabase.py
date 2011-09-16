@@ -72,14 +72,16 @@ def setHistory(database, user):
         for label, entry in groups.entries.iteritems():
             entry.history.append(event)
     
-    for depository in database.kinetics.depository.values():
-        for label, entry in depository.entries.iteritems():
+    for family in database.kinetics.families.values():
+        for label, entry in family.groups.entries.iteritems():
             entry.history.append(event)
+        for label, entry in family.rules.entries.iteritems():
+            entry.history.append(event)
+        for depository in family.depositories.values():
+            for label, entry in depository.entries.iteritems():
+                entry.history.append(event)
     for library in database.kinetics.libraries.values():
         for label, entry in library.entries.iteritems():
-            entry.history.append(event)
-    for groups in database.kinetics.groups.values():
-        for label, entry in groups.entries.iteritems():
             entry.history.append(event)
     
     groups = database.states.groups

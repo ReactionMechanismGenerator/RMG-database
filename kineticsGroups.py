@@ -67,10 +67,15 @@ def createDataSet(labels, family, database):
     for label in labels:
         data = []
         
-        if label in ['rules','training','test','PrIMe','PrIMe_RMG_Java']:
+        if label in ['rules']:
             depository = getattr(family,label)
         else:
-            raise ValueError('Invalid value "{0}" for label parameter.'.format(label))
+            label = '{0}/{1}'.format(family.label, label)
+            for depository in family.depositories:
+                if depository.label == label:
+                    break
+            else:
+                raise ValueError('Invalid value "{0}" for label parameter.'.format(label))
         
         for entry in depository.entries.values():
             if isinstance(entry.data, ArrheniusEP):
