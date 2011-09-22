@@ -373,3 +373,31 @@ to 298K.
         ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
     ],
 )
+
+entry(
+    index = 15,
+    label = "He",
+    molecule = 
+"""
+1     He    0
+""",
+    thermo = MultiNASA(
+        polynomials = [
+            NASA(Tmin=(200,"K"), Tmax=(1000,"K"), coeffs=[2.5,0,0,0,0,-745.375,0.9287]),
+            NASA(Tmin=(1000,"K"), Tmax=(6000,"K"), coeffs=[2.5,0,0,0,0,-745.375,0.9287]),
+        ],
+        Tmin = (200,"K"),
+        Tmax = (6000,"K"),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Sep 22 15:44:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+    ],
+)
+
