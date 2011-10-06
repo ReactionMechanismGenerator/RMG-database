@@ -24,7 +24,7 @@ entry(
 5  *5 H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1e+10,"cm^3/(mol*s)"),
+        A = (1e+10,"s^-1"),
         n = 1,
         alpha = 0,
         E0 = (30,"kcal/mol"),
@@ -60,7 +60,7 @@ entry(
 9     H 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.56e+07,"cm^3/(mol*s)"),
+        A = (1.56e+07,"s^-1"),
         n = 1.69,
         alpha = 0,
         E0 = (29.8,"kcal/mol"),
@@ -96,7 +96,7 @@ entry(
 9     H 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.79e+07,"cm^3/(mol*s)"),
+        A = (4.79e+07,"s^-1"),
         n = 1.46,
         alpha = 0,
         E0 = (29.4,"kcal/mol"),
@@ -132,7 +132,7 @@ entry(
 9     H 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.06e+08,"cm^3/(mol*s)"),
+        A = (5.06e+08,"s^-1"),
         n = 1.19,
         alpha = 0,
         E0 = (29.9,"kcal/mol"),
@@ -168,7 +168,7 @@ entry(
 9     {Cs,O} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (9.79e+08,"cm^3/(mol*s)"),
+        A = (9.79e+08,"s^-1"),
         n = 1.17,
         alpha = 0,
         E0 = (30.1,"kcal/mol"),
@@ -204,7 +204,7 @@ entry(
 9     {Cs,O} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.65e+09,"cm^3/(mol*s)"),
+        A = (1.65e+09,"s^-1"),
         n = 1.01,
         alpha = 0,
         E0 = (29.6,"kcal/mol"),
@@ -240,7 +240,7 @@ entry(
 9     {Cs,O} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.48e+10,"cm^3/(mol*s)"),
+        A = (6.48e+10,"s^-1"),
         n = 0.57,
         alpha = 0,
         E0 = (29.9,"kcal/mol"),
@@ -276,7 +276,7 @@ entry(
 9     {Cs,O} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.48e+09,"cm^3/(mol*s)"),
+        A = (7.48e+09,"s^-1"),
         n = 1.08,
         alpha = 0,
         E0 = (29.7,"kcal/mol"),
@@ -312,7 +312,7 @@ entry(
 9     {Cs,O} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (8.11e+14,"cm^3/(mol*s)"),
+        A = (8.11e+14,"s^-1"),
         n = -0.78,
         alpha = 0,
         E0 = (30.4,"kcal/mol"),
@@ -348,7 +348,7 @@ entry(
 9     {Cs,O} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.1e+19,"cm^3/(mol*s)"),
+        A = (3.1e+19,"s^-1"),
         n = -1.78,
         alpha = 0,
         E0 = (31.7,"kcal/mol"),
@@ -388,7 +388,7 @@ entry(
 13    H 0 {11,S}
 """,
     kinetics = ArrheniusEP(
-        A = (825300,"cm^3/(mol*s)","*|/",5),
+        A = (825300,"s^-1","*|/",5),
         n = 1.829,
         alpha = 0,
         E0 = (24.247,"kcal/mol","+|-",2),
@@ -440,7 +440,7 @@ entry(
 9     {Cd,Ct,Cb,CO} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (825300,"cm^3/(mol*s)","*|/",5),
+        A = (825300,"s^-1","*|/",5),
         n = 1.829,
         alpha = 0,
         E0 = (24.247,"kcal/mol","+|-",2),
@@ -483,7 +483,7 @@ entry(
 10    H 0 {7,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.813e+10,"cm^3/(mol*s)","*|/",10),
+        A = (6.813e+10,"s^-1","*|/",10),
         n = 0.439,
         alpha = 0,
         E0 = (11.894,"kcal/mol","+|-",2),
@@ -549,7 +549,7 @@ entry(
 7     R 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.813e+10,"cm^3/(mol*s)","*|/",10),
+        A = (6.813e+10,"s^-1","*|/",10),
         n = 0.439,
         alpha = 0,
         E0 = (11.894,"kcal/mol","+|-",2),
