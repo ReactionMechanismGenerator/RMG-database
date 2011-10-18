@@ -2573,11 +2573,11 @@ entry(
 2     O 0 {1,S}
 3  *2 H 0 {1,S}
 """,
-    kinetics = ArrheniusEP(
+    kinetics = Arrhenius(
         A = (0.000191,"cm^3/(mol*s)","*|/",3),
         n = 4.25,
-        alpha = 0,
-        E0 = (0.81,"kcal/mol","+|-",2),
+        Ea = (0.81,"kcal/mol","+|-",2),
+        T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (2000,"K"),
     ),
