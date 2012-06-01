@@ -439,24 +439,19 @@ def save(reactionIndex, reactionLabel, forwardReaction, reverseReaction, forward
         f.write('reaction(\n')
         f.write('    index = {0:d},\n'.format(reactionIndex))
         f.write('    label = "{0!s}",\n'.format(reactionLabel))
-        f.write('    reactant1 = \n')
-        f.write('"""\n')
-        f.write(forwardReaction.reactants[0].toAdjacencyList())
-        f.write('""",\n')
-        if len(forwardReaction.reactants) > 1:
-            f.write('    reactant2 = \n')
+
+        for index in range(len(forwardReaction.reactants)):
+            f.write('    reactant{0} = \n'.format(index+1))
             f.write('"""\n')
-            f.write(forwardReaction.reactants[1].toAdjacencyList())
+            f.write(forwardReaction.reactants[index].toAdjacencyList())
             f.write('""",\n')
-        f.write('    product1 = \n')
-        f.write('"""\n')
-        f.write(forwardReaction.products[0].toAdjacencyList())
-        f.write('""",\n')
-        if len(forwardReaction.products) > 1:
-            f.write('    product2 = \n')
+
+        for index in range(len(forwardReaction.products)):
+            f.write('    product{0} = \n'.format(index+1))
             f.write('"""\n')
-            f.write(forwardReaction.products[1].toAdjacencyList())
+            f.write(forwardReaction.products[index].toAdjacencyList())
             f.write('""",\n')
+
         f.write('    forwardDegeneracy = {0:d},\n'.format(forwardReaction.degeneracy))
         f.write('    reverseDegeneracy = {0:d},\n'.format(reverseReaction.degeneracy))
         f.write(')\n\n')
@@ -532,5 +527,3 @@ if __name__ == '__main__':
         reactionIndex, reactionLabel, forwardReaction, reverseReaction = loadReaction(filename)
         filename = 'input/kinetics/families/{0!s}/training/{1:d}.py'.format(family, index)
         searchReaction(reactionIndex, reactionLabel, forwardReaction, reverseReaction, filename)
-    
-    

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-import sys
+import sys, os
 
 from rmgpy.data.kinetics import KineticsDatabase
 from rmgpy.data.rmg import RMGDatabase
@@ -54,10 +54,13 @@ def convertPrIMe(family):
         else:
             reverseDegeneracy = reactions[0].degeneracy
         
-        saveReaction('input/kinetics/families/{0}/training/{0}.py'.format(family, index+1), index+1, label, reaction, forwardDegeneracy, reverseDegeneracy)
+        saveReaction('input/kinetics/families/{0}/training/{1}.py'.format(family, index+1), index+1, label, reaction, forwardDegeneracy, reverseDegeneracy)
 
 def saveReaction(filename, index, label, reaction, forwardDegeneracy, reverseDegeneracy):
     
+    dirname = os.path.split(filename)[0]
+    os.path.exists(dirname) or os.makedirs(dirname)
+
     with open(filename, 'w') as f:
 
         f.write('#!/usr/bin/env python\n')
@@ -66,22 +69,19 @@ def saveReaction(filename, index, label, reaction, forwardDegeneracy, reverseDeg
         f.write('reaction(\n')
         f.write('    index = {0:d},\n'.format(index))
         f.write('    label = "{0!s}",\n'.format(label))
-        f.write('    reactant1 = \n')
-        f.write('"""\n')
-        f.write(reaction.reactants[0].toAdjacencyList())
-        f.write('""",\n')
-        f.write('    reactant2 = \n')
-        f.write('"""\n')
-        f.write(reaction.reactants[1].toAdjacencyList())
-        f.write('""",\n')
-        f.write('    product1 = \n')
-        f.write('"""\n')
-        f.write(reaction.products[0].toAdjacencyList())
-        f.write('""",\n')
-        f.write('    product2 = \n')
-        f.write('"""\n')
-        f.write(reaction.products[1].toAdjacencyList())
-        f.write('""",\n')
+
+        for index in range(len(reaction.reactants)):
+            f.write('    reactant{0} = \n'.format(index+1))
+            f.write('"""\n')
+            f.write(reaction.reactants[index].toAdjacencyList())
+            f.write('""",\n')
+
+        for index in range(len(reaction.products)):
+            f.write('    product{0} = \n'.format(index+1))
+            f.write('"""\n')
+            f.write(reaction.products[index].toAdjacencyList())
+            f.write('""",\n')
+
         f.write('    forwardDegeneracy = {0:d},\n'.format(forwardDegeneracy))
         f.write('    reverseDegeneracy = {0:d},\n'.format(reverseDegeneracy))
         f.write(')\n\n')
@@ -94,4 +94,3 @@ if __name__ == '__main__':
         raise Exception('You must provide the name of the reaction family as the lone command-line argument.')
     
     convertPrIMe(family=sys.argv[1])
-    
