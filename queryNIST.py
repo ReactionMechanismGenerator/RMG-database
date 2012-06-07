@@ -292,7 +292,7 @@ def queryNISTKinetics(reactants, products, cookiejar):
             # Create an entry for this result and append it to the list of entries
             entry = Entry(
                 data = Arrhenius(
-                    A = (float(A),"cm^3/(mol*s)" if len(reactants) == 2 else "s^-1"),
+                    A = (float(A.split(';')[-1]),"cm^3/(mol*s)" if len(reactants) == 2 else "s^-1"),
                     n = float(n),
                     Ea = (float(Ea),"kJ/mol"),
                     T0 = (1.0,"K"),
