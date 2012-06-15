@@ -695,7 +695,7 @@ entry(
         Ea = (51466.6,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Foucaut, J.-F.", "Martin, R."], title=u"No. 18. - Etude analytique et cinetique de la pyrolyse de l'ether ethylique vers 500 \xb0C et a faible avancement", journal="J. Chim. Phys.", volume="75", pages="""132""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001560/rk00000002.xml"),
+    reference = Article(authors=["Foucaut, J.-F.", "Martin, R."], title=u"No. 18. - Etude analytique et cinetique de la pyrolyse de l'ether ethylique vers 500 C et a faible avancement", journal="J. Chim. Phys.", volume="75", pages="""132""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001560/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -849,7 +849,7 @@ entry(
         Ea = (53960.9,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Foucaut, J.-F.", "Martin, R."], title=u"No. 18. - Etude analytique et cinetique de la pyrolyse de l'ether ethylique vers 500 \xb0C et a faible avancement", journal="J. Chim. Phys.", volume="75", pages="""132""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001564/rk00000001.xml"),
+    reference = Article(authors=["Foucaut, J.-F.", "Martin, R."], title=u"No. 18. - Etude analytique et cinetique de la pyrolyse de l'ether ethylique vers 500 C et a faible avancement", journal="J. Chim. Phys.", volume="75", pages="""132""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001564/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -6066,7 +6066,7 @@ entry(
         Ea = (103099,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baldwin, R.R.", "Jones, P.N.", "Walker, R.W."], title=u'Determination of the rate constant for HO_2 + CH_4 \u2192 H_2O_2 \u2192 H_2O_2 + CH_3 at 443\xb0C', journal="J. Chem. Soc. Faraday Trans. 2", volume="84", pages="""199""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001973/rk00000002.xml"),
+    reference = Article(authors=["Baldwin, R.R.", "Jones, P.N.", "Walker, R.W."], title=u'Determination of the rate constant for HO_2 + CH_4 \u2192 H_2O_2 \u2192 H_2O_2 + CH_3 at 443C', journal="J. Chem. Soc. Faraday Trans. 2", volume="84", pages="""199""", year="1988", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001973/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -11337,7 +11337,7 @@ entry(
         Ea = (73250.5,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Leathard, D.A.", "Purnell, J.H."], title=u'Propyl radical isomerization and heterogeneous effects in the pyrolysis of propane below 500\xb0C', journal="Proc. R. Soc. London A", volume="306", pages="""553""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002707/rk00000001.xml"),
+    reference = Article(authors=["Leathard, D.A.", "Purnell, J.H."], title=u'Propyl radical isomerization and heterogeneous effects in the pyrolysis of propane below 500C', journal="Proc. R. Soc. London A", volume="306", pages="""553""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002707/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -11945,7 +11945,7 @@ entry(
         Ea = (73250.5,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Leathard, D.A.", "Purnell, J.H."], title=u'Propyl radical isomerization and heterogeneous effects in the pyrolysis of propane below 500\xb0C', journal="Proc. R. Soc. London A", volume="306", pages="""553""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002724/rk00000003.xml"),
+    reference = Article(authors=["Leathard, D.A.", "Purnell, J.H."], title=u'Propyl radical isomerization and heterogeneous effects in the pyrolysis of propane below 500C', journal="Proc. R. Soc. London A", volume="306", pages="""553""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002724/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -12953,7 +12953,7 @@ entry(
         Ea = (10642.5,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baker, R.R.", "Baldwin, R.R.", "Walker, R.W."], title=u'Addition of C_3H_8, n- and i-C_4H_1_0 to slowly reacting mixtures of hydrogen and oxygen at 480\xb0C', journal="Trans. Faraday Soc.", volume="66", pages="""2812""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002745/rk00000001.xml"),
+    reference = Article(authors=["Baker, R.R.", "Baldwin, R.R.", "Walker, R.W."], title=u'Addition of C_3H_8, n- and i-C_4H_1_0 to slowly reacting mixtures of hydrogen and oxygen at 480C', journal="Trans. Faraday Soc.", volume="66", pages="""2812""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002745/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -12997,7 +12997,7 @@ entry(
         Ea = (3558.59,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002745/rk00000003.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002745/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -13306,7 +13306,7 @@ entry(
         Ea = (6842.81,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002746/rk00000001.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00002746/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -17861,7 +17861,7 @@ entry(
         Ea = (9977.37,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baker, R.R.", "Baldwin, R.R.", "Walker, R.W."], title=u'Addition of C_3H_8, n- and i-C_4H_1_0 to slowly reacting mixtures of hydrogen and oxygen at 480\xb0C', journal="Trans. Faraday Soc.", volume="66", pages="""2812""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00003317/rk00000001.xml"),
+    reference = Article(authors=["Baker, R.R.", "Baldwin, R.R.", "Walker, R.W."], title=u'Addition of C_3H_8, n- and i-C_4H_1_0 to slowly reacting mixtures of hydrogen and oxygen at 480C', journal="Trans. Faraday Soc.", volume="66", pages="""2812""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00003317/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -17907,7 +17907,7 @@ entry(
         Ea = (-798.189,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00003317/rk00000002.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00003317/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -18229,7 +18229,7 @@ entry(
         Ea = (6842.81,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00003318/rk00000001.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00003318/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -19591,7 +19591,7 @@ entry(
         Ea = (-798.189,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004048/rk00000001.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004048/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -20407,7 +20407,7 @@ entry(
         Ea = (3558.59,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004608/rk00000001.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004608/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -20637,7 +20637,7 @@ entry(
         Ea = (6842.81,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004609/rk00000001.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004609/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -21433,7 +21433,7 @@ entry(
         Ea = (796.718,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Good, D.A.", "Francisco, LJ.S."], title=u'A Computational Study of the Reaction of Methyl Formate with \xb7H and \xb7CH_3 Radicals', journal="J. Phys. Chem. A", volume="106", pages="""1733-1738""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004962/rk00000001.xml"),
+    reference = Article(authors=["Good, D.A.", "Francisco, LJ.S."], title=u'A Computational Study of the Reaction of Methyl Formate with H and CH_3 Radicals', journal="J. Phys. Chem. A", volume="106", pages="""1733-1738""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004962/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -21572,7 +21572,7 @@ entry(
         Ea = (691.8,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Good, D.A.", "Francisco, LJ.S."], title=u'A Computational Study of the Reaction of Methyl Formate with \xb7H and \xb7CH_3 Radicals', journal="J. Phys. Chem. A", volume="106", pages="""1733-1738""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004963/rk00000003.xml"),
+    reference = Article(authors=["Good, D.A.", "Francisco, LJ.S."], title=u'A Computational Study of the Reaction of Methyl Formate with H and CH_3 Radicals', journal="J. Phys. Chem. A", volume="106", pages="""1733-1738""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004963/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -21619,7 +21619,7 @@ entry(
         Ea = (100.788,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Good, D.A.", "Francisco, LJ.S."], title=u'A Computational Study of the Reaction of Methyl Formate with \xb7H and \xb7CH_3 Radicals', journal="J. Phys. Chem. A", volume="106", pages="""1733-1738""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004966/rk00000001.xml"),
+    reference = Article(authors=["Good, D.A.", "Francisco, LJ.S."], title=u'A Computational Study of the Reaction of Methyl Formate with H and CH_3 Radicals', journal="J. Phys. Chem. A", volume="106", pages="""1733-1738""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004966/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -21666,7 +21666,7 @@ entry(
         Ea = (1.81748,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Good, D.A.", "Francisco, LJ.S."], title=u'A Computational Study of the Reaction of Methyl Formate with \xb7H and \xb7CH_3 Radicals', journal="J. Phys. Chem. A", volume="106", pages="""1733-1738""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004967/rk00000001.xml"),
+    reference = Article(authors=["Good, D.A.", "Francisco, LJ.S."], title=u'A Computational Study of the Reaction of Methyl Formate with H and CH_3 Radicals', journal="J. Phys. Chem. A", volume="106", pages="""1733-1738""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004967/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -21713,7 +21713,7 @@ entry(
         Ea = (614.144,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Good, D.A.", "Francisco, LJ.S."], title=u'A Computational Study of the Reaction of Methyl Formate with \xb7H and \xb7CH_3 Radicals', journal="J. Phys. Chem. A", volume="106", pages="""1733-1738""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004969/rk00000001.xml"),
+    reference = Article(authors=["Good, D.A.", "Francisco, LJ.S."], title=u'A Computational Study of the Reaction of Methyl Formate with H and CH_3 Radicals', journal="J. Phys. Chem. A", volume="106", pages="""1733-1738""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004969/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -21760,7 +21760,7 @@ entry(
         Ea = (544.749,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Good, D.A.", "Francisco, LJ.S."], title=u'A Computational Study of the Reaction of Methyl Formate with \xb7H and \xb7CH_3 Radicals', journal="J. Phys. Chem. A", volume="106", pages="""1733-1738""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004970/rk00000001.xml"),
+    reference = Article(authors=["Good, D.A.", "Francisco, LJ.S."], title=u'A Computational Study of the Reaction of Methyl Formate with H and CH_3 Radicals', journal="J. Phys. Chem. A", volume="106", pages="""1733-1738""", year="2002", url="http://warehouse.primekinetics.org/depository/reactions/data/r00004970/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -23426,7 +23426,7 @@ entry(
         Ea = (2652.32,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005493/rk00000003.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005493/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -23933,7 +23933,7 @@ entry(
         Ea = (3558.59,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005578/rk00000001.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005578/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -24095,7 +24095,7 @@ entry(
         Ea = (6842.81,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005579/rk00000001.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005579/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -24257,7 +24257,7 @@ entry(
         Ea = (3558.59,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005581/rk00000001.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005581/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -24419,7 +24419,7 @@ entry(
         Ea = (3558.59,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005582/rk00000001.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00005582/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -30668,7 +30668,7 @@ entry(
         Ea = (7017.41,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007065/rk00000004.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007065/rk00000004.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -31200,7 +31200,7 @@ entry(
         Ea = (-798.189,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000001.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -31512,7 +31512,7 @@ entry(
         Ea = (6842.81,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007084/rk00000001.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007084/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -32516,7 +32516,7 @@ entry(
         Ea = (33507.3,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Collongues, C.", "Richard, C.", "Martin, R."], title=u'Thermal reaction of hydrogen-butene-2-cis mixtures at 500\xb0C: Hydrogenation, hydrogenolysis, and thermal reaction of the olefin', journal="Int. J. Chem. Kinet.", volume="15", pages="""5""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007723/rk00000001.xml"),
+    reference = Article(authors=["Collongues, C.", "Richard, C.", "Martin, R."], title=u'Thermal reaction of hydrogen-butene-2-cis mixtures at 500C: Hydrogenation, hydrogenolysis, and thermal reaction of the olefin', journal="Int. J. Chem. Kinet.", volume="15", pages="""5""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00007723/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -32888,7 +32888,7 @@ entry(
         Ea = (6668.21,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008065/rk00000001.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00008065/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -33923,7 +33923,7 @@ entry(
         Ea = (29266.9,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baker, R.R.", "Baldwin, R.R.", "Walker, R.W."], title=u'Addition of C_3H_8, n- and i-C_4H_1_0 to slowly reacting mixtures of hydrogen and oxygen at 480\xb0C', journal="Trans. Faraday Soc.", volume="66", pages="""2812""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009456/rk00000002.xml"),
+    reference = Article(authors=["Baker, R.R.", "Baldwin, R.R.", "Walker, R.W."], title=u'Addition of C_3H_8, n- and i-C_4H_1_0 to slowly reacting mixtures of hydrogen and oxygen at 480C', journal="Trans. Faraday Soc.", volume="66", pages="""2812""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009456/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -34149,7 +34149,7 @@ entry(
         Ea = (34754.5,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baker, R.R.", "Baldwin, R.R.", "Walker, R.W."], title=u'Addition of C_3H_8, n- and i-C_4H_1_0 to slowly reacting mixtures of hydrogen and oxygen at 480\xb0C', journal="Trans. Faraday Soc.", volume="66", pages="""2812""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009459/rk00000003.xml"),
+    reference = Article(authors=["Baker, R.R.", "Baldwin, R.R.", "Walker, R.W."], title=u'Addition of C_3H_8, n- and i-C_4H_1_0 to slowly reacting mixtures of hydrogen and oxygen at 480C', journal="Trans. Faraday Soc.", volume="66", pages="""2812""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009459/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -35933,7 +35933,7 @@ entry(
         Ea = (74081.9,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Collongues, C.", "Richard, C.", "Martin, R."], title=u'Thermal reaction of hydrogen-butene-2-cis mixtures at 500\xb0C: Hydrogenation, hydrogenolysis, and thermal reaction of the olefin', journal="Int. J. Chem. Kinet.", volume="15", pages="""5""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009474/rk00000001.xml"),
+    reference = Article(authors=["Collongues, C.", "Richard, C.", "Martin, R."], title=u'Thermal reaction of hydrogen-butene-2-cis mixtures at 500C: Hydrogenation, hydrogenolysis, and thermal reaction of the olefin', journal="Int. J. Chem. Kinet.", volume="15", pages="""5""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009474/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -35979,7 +35979,7 @@ entry(
         Ea = (35170.2,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baker, R.R.", "Baldwin, R.R.", "Walker, R.W."], title=u'Addition of C_3H_8, n- and i-C_4H_1_0 to slowly reacting mixtures of hydrogen and oxygen at 480\xb0C', journal="Trans. Faraday Soc.", volume="66", pages="""2812""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009474/rk00000002.xml"),
+    reference = Article(authors=["Baker, R.R.", "Baldwin, R.R.", "Walker, R.W."], title=u'Addition of C_3H_8, n- and i-C_4H_1_0 to slowly reacting mixtures of hydrogen and oxygen at 480C', journal="Trans. Faraday Soc.", volume="66", pages="""2812""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009474/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -39893,7 +39893,7 @@ entry(
         Ea = (101437,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Collongues, C.", "Richard, C.", "Martin, R."], title=u'Thermal reaction of hydrogen-butene-2-cis mixtures at 500\xb0C: Hydrogenation, hydrogenolysis, and thermal reaction of the olefin', journal="Int. J. Chem. Kinet.", volume="15", pages="""5""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009579/rk00000001.xml"),
+    reference = Article(authors=["Collongues, C.", "Richard, C.", "Martin, R."], title=u'Thermal reaction of hydrogen-butene-2-cis mixtures at 500C: Hydrogenation, hydrogenolysis, and thermal reaction of the olefin', journal="Int. J. Chem. Kinet.", volume="15", pages="""5""", year="1983", url="http://warehouse.primekinetics.org/depository/reactions/data/r00009579/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -40087,7 +40087,7 @@ entry(
         Ea = (14467.2,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Lodhi, Z.H.", "Walker, R.W."], title=u'Oxidation of allyl radicals: kinetic parameters for the reactions of allyl radicals with HO_2 and O_2 between 400 and 480\xb0C', journal="J. Chem. Soc. Faraday Trans.", volume="87", pages="""2361-2365""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010120/rk00000001.xml"),
+    reference = Article(authors=["Lodhi, Z.H.", "Walker, R.W."], title=u'Oxidation of allyl radicals: kinetic parameters for the reactions of allyl radicals with HO_2 and O_2 between 400 and 480C', journal="J. Chem. Soc. Faraday Trans.", volume="87", pages="""2361-2365""", year="1991", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010120/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -42370,7 +42370,7 @@ entry(
         Ea = (15797.5,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010849/rk00000017.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010849/rk00000017.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -48392,7 +48392,7 @@ entry(
         Ea = (5013.63,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. III. Reactions with H_2O_2 in the range 300-458\xb0K', journal="J. Phys. Chem.", volume="72", pages="""406""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011842/rk00000010.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. III. Reactions with H_2O_2 in the range 300-458K', journal="J. Phys. Chem.", volume="72", pages="""406""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011842/rk00000010.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -49907,7 +49907,7 @@ entry(
         Ea = (54376.6,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Knox, J.H.", "Wells, C.H.J."], title=u'Slow oxidation of ethane and ethylene in the gas phase. Part 1. General features at 362\xb0C', journal="Trans. Faraday Soc.", volume="59", pages="""2786-2800""", year="1963", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000002.xml"),
+    reference = Article(authors=["Knox, J.H.", "Wells, C.H.J."], title=u'Slow oxidation of ethane and ethylene in the gas phase. Part 1. General features at 362C', journal="Trans. Faraday Soc.", volume="59", pages="""2786-2800""", year="1963", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -49951,7 +49951,7 @@ entry(
         Ea = (54376.6,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Sampson, R.J."], title=u'976. The reaction between ethane and oxygen at 600-630\xb0', journal="J. Chem. Soc.", pages="""5095-5106""", year="1963", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000003.xml"),
+    reference = Article(authors=["Sampson, R.J."], title=u'976. The reaction between ethane and oxygen at 600-630', journal="J. Chem. Soc.", pages="""5095-5106""", year="1963", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000003.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -50083,7 +50083,7 @@ entry(
         Ea = (85639.1,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baldwin, R.R.", "Dean, C.E.", "(the late) Honeyman, M.R.", "Walker, R.W."], title=u'Arrhenius parameters for the reaction HO_2 + C_2H_6 \u2192 C_2H_5 + H_2O_2 over the temperature range 400-500 \xb0C', journal="J. Chem. Soc. Faraday Trans. 1", volume="82", pages="""89""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000009.xml"),
+    reference = Article(authors=["Baldwin, R.R.", "Dean, C.E.", "(the late) Honeyman, M.R.", "Walker, R.W."], title=u'Arrhenius parameters for the reaction HO_2 + C_2H_6 \u2192 C_2H_5 + H_2O_2 over the temperature range 400-500 C', journal="J. Chem. Soc. Faraday Trans. 1", volume="82", pages="""89""", year="1986", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000009.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -51521,7 +51521,7 @@ entry(
         Ea = (14716.6,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Baldwin, R.R.", "Hopkins, D.E.", "Walker, R.W."], title=u'Addition of ethane to slowly reacting mixtures of hydrogen and oxygen at 500\xb0C', journal="Trans. Faraday Soc.", volume="66", pages="""189""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013765/rk00000013.xml"),
+    reference = Article(authors=["Baldwin, R.R.", "Hopkins, D.E.", "Walker, R.W."], title=u'Addition of ethane to slowly reacting mixtures of hydrogen and oxygen at 500C', journal="Trans. Faraday Soc.", volume="66", pages="""189""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013765/rk00000013.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -51563,7 +51563,7 @@ entry(
         Ea = (10226.8,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013765/rk00000014.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K', journal="J. Chem. Phys.", volume="53", pages="""1070""", year="1970", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013765/rk00000014.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -54129,7 +54129,7 @@ entry(
         Ea = (16795.2,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. V. Reactions with H_2 and CO in the range 300-500\xb0K', journal="J. Chem. Phys.", volume="51", pages="""5049""", year="1969", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000033.xml"),
+    reference = Article(authors=["Greiner, N.R."], title=u'Hydroxyl radical kinetics by kinetic spectroscopy. V. Reactions with H_2 and CO in the range 300-500K', journal="J. Chem. Phys.", volume="51", pages="""5049""", year="1969", url="http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000033.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 

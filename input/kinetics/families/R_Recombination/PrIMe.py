@@ -641,7 +641,7 @@ entry(
         Ea = (320939,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Foucaut, J.-F.", "Martin, R."], title=u"No. 18. - Etude analytique et cinetique de la pyrolyse de l'ether ethylique vers 500 \xb0C et a faible avancement", journal="J. Chim. Phys.", volume="75", pages="""132""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000005.xml"),
+    reference = Article(authors=["Foucaut, J.-F.", "Martin, R."], title=u"No. 18. - Etude analytique et cinetique de la pyrolyse de l'ether ethylique vers 500 C et a faible avancement", journal="J. Chim. Phys.", volume="75", pages="""132""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00001558/rk00000005.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 

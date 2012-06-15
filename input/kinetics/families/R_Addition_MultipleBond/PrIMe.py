@@ -2769,7 +2769,7 @@ entry(
         Ea = (175435,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Leathard, D.A.", "Purnell, J.H."], title=u'Propyl radical isomerization and heterogeneous effects in the pyrolysis of propane below 500\xb0C', journal="Proc. R. Soc. London A", volume="306", pages="""553""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010166/rk00000002.xml"),
+    reference = Article(authors=["Leathard, D.A.", "Purnell, J.H."], title=u'Propyl radical isomerization and heterogeneous effects in the pyrolysis of propane below 500C', journal="Proc. R. Soc. London A", volume="306", pages="""553""", year="1968", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010166/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -5649,7 +5649,7 @@ entry(
         Ea = (73250.5,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["East, R.L.", "Phillips, L."], title=u'Pressure-dependence of the gas-phase pyrolysis of the s-butoxyl radical at 150-190\xb0', journal="J. Chem. Soc. A", pages="""1939""", year="1967", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010737/rk00000001.xml"),
+    reference = Article(authors=["East, R.L.", "Phillips, L."], title=u'Pressure-dependence of the gas-phase pyrolysis of the s-butoxyl radical at 150-190', journal="J. Chem. Soc. A", pages="""1939""", year="1967", url="http://warehouse.primekinetics.org/depository/reactions/data/r00010737/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -9252,7 +9252,7 @@ entry(
         Ea = (100605,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Foucaut, J.-F.", "Martin, R."], title=u"No. 18. - Etude analytique et cinetique de la pyrolyse de l'ether ethylique vers 500 \xb0C et a faible avancement", journal="J. Chim. Phys.", volume="75", pages="""132""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011972/rk00000001.xml"),
+    reference = Article(authors=["Foucaut, J.-F.", "Martin, R."], title=u"No. 18. - Etude analytique et cinetique de la pyrolyse de l'ether ethylique vers 500 C et a faible avancement", journal="J. Chim. Phys.", volume="75", pages="""132""", year="1978", url="http://warehouse.primekinetics.org/depository/reactions/data/r00011972/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -9826,7 +9826,7 @@ entry(
         Ea = (66931.5,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Ferguson, J.M.", "Phillips, L."], title=u'Reactions of the isopropoxyl radical. Part I. Pyrolysis of isopropyl nitrite in a static system at 175-200\xb0', journal="J. Chem. Soc.", pages="""4416""", year="1965", url="http://warehouse.primekinetics.org/depository/reactions/data/r00012571/rk00000001.xml"),
+    reference = Article(authors=["Ferguson, J.M.", "Phillips, L."], title=u'Reactions of the isopropoxyl radical. Part I. Pyrolysis of isopropyl nitrite in a static system at 175-200', journal="J. Chem. Soc.", pages="""4416""", year="1965", url="http://warehouse.primekinetics.org/depository/reactions/data/r00012571/rk00000001.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
@@ -9865,7 +9865,7 @@ entry(
         Ea = (72335.9,"J/mol"),
         T0 = (1,"K"),
     ),
-    reference = Article(authors=["Cox, D.L.", "Livermore, R.A.", "Phillips, L."], title=u'Reactions of the isopropoxyl radical. Part II. Pressure dependence and kinetics of pyrolysis at 160-200\xb0 in the gas phase', journal="J. Chem. Soc. London B", pages="""245-249""", year="1966", url="http://warehouse.primekinetics.org/depository/reactions/data/r00012571/rk00000002.xml"),
+    reference = Article(authors=["Cox, D.L.", "Livermore, R.A.", "Phillips, L."], title=u'Reactions of the isopropoxyl radical. Part II. Pressure dependence and kinetics of pyrolysis at 160-200 in the gas phase', journal="J. Chem. Soc. London B", pages="""245-249""", year="1966", url="http://warehouse.primekinetics.org/depository/reactions/data/r00012571/rk00000002.xml"),
     referenceType = "",
     shortDesc = u"""""",
     longDesc = 
