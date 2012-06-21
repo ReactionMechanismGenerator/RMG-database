@@ -410,6 +410,8 @@ def queryNIST(reaction, cookiejar):
                 reference = url,
             )
             entries.append(entry)
+        elif len(tdlist) == 3 and 'Reference reaction' in tdlist[1].text and len(entries) > 0:
+            entries.pop()
     
     return entries
 
