@@ -382,6 +382,9 @@ def queryNIST(reaction, cookiejar):
             # Reject results whose reaction order does not match the number of reactants
             if int(order) != len(reaction.reactants):
                 continue
+            # Reject results without a valid temperature range
+            if ';' in Trange:
+                continue
             
             # Many times n is not given, so set it to zero if that happens
             if n == '&nbsp;':
