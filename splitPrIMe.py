@@ -434,6 +434,7 @@ def queryReference(entry, cookiejar):
     
     reftype = soup.table.findAll(text='Reference type:')[0].parent.nextSibling[13:].lower()
     if reftype == 'technical report': reftype = 'journal article'
+    if reftype == 'book': reftype = 'book chapter'
     assert reftype in ['journal article', 'book chapter'], 'Unexpected reference type "{0}" from squib "{1}".'.format(reftype, squib)
     
     # Extract the authors and process each author name to the preferred format
