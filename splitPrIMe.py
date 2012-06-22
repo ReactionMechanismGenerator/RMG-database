@@ -435,8 +435,16 @@ def queryReference(entry, cookiejar):
     soup = BeautifulSoup(referenceHTML)
     
     squib = soup.table.findAll(text='Squib:')[0].parent.nextSibling[13:]
-    category = soup.table.findAll(text='Category:')[0].parent.nextSibling[7:].lower()
-    datatype = soup.table.findAll(text='Data type:')[0].parent.nextSibling[13:]
+    
+    try:
+        category = soup.table.findAll(text='Category:')[0].parent.nextSibling[7:].lower()
+    except IndexError:
+        category = ''
+    
+    try:
+        datatype = soup.table.findAll(text='Data type:')[0].parent.nextSibling[13:]
+    except IndexError:
+        datatype = ''
     
     reftype = soup.table.findAll(text='Reference type:')[0].parent.nextSibling[13:].lower()
     if reftype == 'technical report': reftype = 'journal article'
