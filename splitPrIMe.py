@@ -263,13 +263,12 @@ def processUniqueEntries(entries):
                             degeneracy = entry.item.degeneracy
                           )
         
-        setNISTUnits(cookiejar)
-        
         print '\n   Searching NIST for reaction #{0} ({1} -> {2})...'.format(count, ' + '.join([str(getCAS(r)) for r in forwardReaction.reactants]), ' + '.join([str(getCAS(p)) for p in forwardReaction.products])),
+        setNISTUnits(cookiejar)
         forwardEntries = queryNIST(forwardReaction, cookiejar)
         cookiejar.clear_session_cookies()
-        reverseEntries = queryNIST(reverseReaction, cookiejar)
         setNISTUnits(cookiejar)
+        reverseEntries = queryNIST(reverseReaction, cookiejar)
         cookiejar.clear_session_cookies()
         print '{0} forward, {1} reverse results found.'.format(len(forwardEntries), len(reverseEntries)),
         
