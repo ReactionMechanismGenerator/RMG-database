@@ -386,7 +386,7 @@ def queryNIST(reaction, cookiejar):
             order = tdlist[16].text
             
             # Reject results that don't have a valid A, Ea, and Trange
-            if ';' in A or ';' in Ea or ';' in Trange:
+            if ';' in A or ';' in Ea or ';' in Trange or ';' in order:
                 continue
             # Reject results whose reaction order does not match the number of reactants
             if int(order) != len(reaction.reactants):
