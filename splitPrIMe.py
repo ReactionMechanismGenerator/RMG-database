@@ -376,14 +376,11 @@ def queryNIST(reaction, cookiejar):
             k300 = tdlist[14].text
             order = tdlist[16].text
             
-            # Reject results that don't have a valid preexponential or activation energy
-            if ';' in A or ';' in Ea:
+            # Reject results that don't have a valid A, Ea, and Trange
+            if ';' in A or ';' in Ea or ';' in Trange:
                 continue
             # Reject results whose reaction order does not match the number of reactants
             if int(order) != len(reaction.reactants):
-                continue
-            # Reject results without a valid temperature range
-            if ';' in Trange:
                 continue
             
             # Many times n is not given, so set it to zero if that happens
