@@ -363,6 +363,8 @@ def queryNIST(reaction, cookiejar):
         tdlist = tr.findAll(name='td')
         if len(tdlist) == 17:
             
+            added = False
+            
             # Some extra effort is needed to extract the squib from the BeautifulSoup DOM tree
             
             squib = re.search('\d\d\d\d\w\w\w?(/\w\w\w?)?\w+(-\w+)?:\d+', unicode(tdlist[2].a))
@@ -410,7 +412,9 @@ def queryNIST(reaction, cookiejar):
                 reference = url,
             )
             entries.append(entry)
-        elif len(tdlist) == 3 and 'Reference reaction' in tdlist[1].text and len(entries) > 0:
+            
+            added = True
+        elif len(tdlist) == 3 and 'Reference reaction' in tdlist[1].text and added:
             entries.pop()
     
     return entries
