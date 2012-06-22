@@ -182,7 +182,7 @@ def sortIdentified(entries0):
 
 ################################################################################
 
-def saveNIST(entries, family):
+def saveNIST((entries, lost), family):
     
     if entries:
         
@@ -243,6 +243,9 @@ def saveNIST(entries, family):
                 index += 1
     
         print '\n   ... saved {0} identified entries to {1}/NIST.'.format(len(entries), family)
+        
+        if lost:
+            print '   ... lost {0} identified reactions.'.format(lost)
 
 ################################################################################
 
@@ -253,6 +256,8 @@ def processUniqueEntries(entries):
     processedEntries = []
     
     count = 1
+    
+    lost = 0
     
     for entry in entries:
         
@@ -281,8 +286,11 @@ def processUniqueEntries(entries):
         for entry in reverseEntries:
             queryReference(entry, cookiejar)
             processedEntries.append(entry)
+        
+        if len(forwardEntries) == 0 and len(reverseEntries) == 0:
+            lost += 1
     
-    return processedEntries
+    return processedEntries, lost
 
 ################################################################################
 
