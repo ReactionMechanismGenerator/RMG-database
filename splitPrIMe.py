@@ -479,6 +479,10 @@ def saveNIST(entries, family):
                 
                 f.write('    referenceType = "{0}",\n'.format(entry.referenceType))
                 f.write('    shortDesc = u"""{0}""",\n'.format(entry.shortDesc))
+                try:
+                    entry.longDesc.encode()
+                except UnicodeEncodeError:
+                    from ipdb import set_trace; set_trace()
                 f.write('    longDesc = \nu"""\n{0}\n""",\n'.format(entry.longDesc))
                 f.write('    history = {0},\n'.format(entry.history))
                 f.write(')\n')
