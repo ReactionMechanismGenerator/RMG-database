@@ -332,9 +332,7 @@ def queryReference(entry, cookiejar):
             volume = ''
         pages   = soup.table.findAll(text='Page(s):')[0].parent.nextSibling[13:]
         if pages == '':
-            squib_pages = squib[11:]
-            if squib_pages.isdigit():
-                pages = squib_pages
+            pages = squib[11:]
         year    = soup.table.findAll(text='Year:')[0].parent.nextSibling[13:]
         entry.reference = Article(
             authors = authors,
