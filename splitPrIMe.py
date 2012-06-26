@@ -308,11 +308,6 @@ def queryReference(entry, cookiejar):
     except IndexError:
         category = ''
     
-    try:
-        datatype = soup.table.findAll(text='Data type:')[0].parent.nextSibling[13:]
-    except IndexError:
-        datatype = ''
-    
     reftype = soup.table.findAll(text='Reference type:')[0].parent.nextSibling[13:].lower()
     if reftype == 'technical report': reftype = 'journal article'
     if reftype == 'book': reftype = 'book chapter'
@@ -378,7 +373,7 @@ def queryReference(entry, cookiejar):
     # Reference metadata common to all reference types
     entry.reference.url = url
     entry.referenceType = category
-    entry.shortDesc = datatype
+    entry.shortDesc = ''
     entry.longDesc += longDesc.rstrip()
 
     try:
