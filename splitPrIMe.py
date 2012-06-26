@@ -55,18 +55,24 @@ def splitEntries(entries):
         foundOriginal = False
         setNISTUnits(cookiejar)
         
-        print '   Querying NIST for entry #{0}...'.format(entry.index),
-        
-        forwardEntries = queryKinetics(entry, cookiejar)
+        query = entry
+        print '   Querying NIST for entry #{0} ({1} -> {2})...'.format(entry.index,
+                                                                       ' + '.join([str(getCAS(r)) for r in entry.item.reactants]),
+                                                                       ' + '.join([str(getCAS(p)) for p in entry.item.products])
+                                                                      ),
+        forwardEntries = queryKinetics(query, cookiejar)
+        print '{0} forward,'.format(len(forwardEntries)),
         for found_entry in forwardEntries:
             queriedEntries.append(found_entry)
         
-        reverseEntries = queryKinetics(reverseEntry(entry), cookiejar)
+        query = reverseEntry(entry)
+        reverseEntries = queryKinetics(query, cookiejar)
+        print '{0} reverse results'.format(len(reverseEntries)),
         for found_entry in reverseEntries:
             queriedEntries.append(found_entry)
         
         cookiejar.clear_session_cookies()
-        output = 'found {0} forward, {1} reverse results'.format(len(forwardEntries), len(reverseEntries))
+        output = ''
         if queriedEntries:
             for entry0 in queriedEntries:
                 foundEntries.append(entry0)
@@ -78,7 +84,7 @@ def splitEntries(entries):
             
             if not foundOriginal:
                 primeEntries.append(entry)
-                output += ' (failed to find original)'
+                output += '(failed to find original)'
         else:
             primeEntries.append(entry)
         
@@ -112,9 +118,6 @@ def setNISTUnits(cookiejar):
 ################################################################################
 
 def reverseEntry(entry):
-    
-    reactants = entry.item.products
-    products = entry.item.reactants
     
     newEntry = Entry(
                     item = Reaction(
@@ -554,4 +557,4 @@ if __name__ == '__main__':
     saveNIST(nistEntries, family)
     savePrIMe(primeEntries, family)
     
-    print 'Found {0} NIST entries; retained {1} PrIMe entries'.format(len(nistEntries), len(primeEntries))
+    print 'Found {0} NIST entries; retained {1} PrIMe entries.'.format(len(nistEntries), len(primeEntries))
