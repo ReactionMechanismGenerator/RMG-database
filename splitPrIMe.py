@@ -183,8 +183,11 @@ def queryKinetics(entry, cookiejar):
         return []
     
     soup = BeautifulSoup(searchHTML)
+    try:
+        form = soup.findAll(name='form', attrs={'name': 'KineticsResults'})[0]
+    except IndexError:
+        return entries
     
-    form = soup.findAll(name='form', attrs={'name': 'KineticsResults'})[0]
     for tr in form.findAll(name='tr'):
         tdlist = tr.findAll(name='td')
         if len(tdlist) == 17:
