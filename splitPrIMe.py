@@ -457,7 +457,7 @@ def saveNIST(entries, family):
                     count += 1
                 
                 f.write('    degeneracy = {0},\n'.format(entry.item.degeneracy))
-                f.write('    kinetics = Arrhenius(\n'.format(entry.data.toPrettyRepr()))
+                f.write('    kinetics = Arrhenius(\n')
                 f.write('        A = ({0},"{1}"),\n'.format(entry.data.A.value, entry.data.A.units))
                 f.write('        n = ({0},""),\n'.format(entry.data.n.value))
                 f.write('        Ea = ({0},"{1}"),\n'.format(entry.data.Ea.value, entry.data.Ea.units))
@@ -505,7 +505,7 @@ def savePrIMe(entries, family):
             f.write('longDesc = u"""\n\n')
             f.write('"""\n')
             f.write('recommended = False\n')
-                
+            
             for entry in entries:
                 f.write('\nentry(\n')
                 f.write('    index = {0},\n'.format(entry.index))
@@ -522,7 +522,7 @@ def savePrIMe(entries, family):
                     count += 1
                 
                 f.write('    degeneracy = {0},\n'.format(entry.item.degeneracy))
-                f.write('    kinetics = Arrhenius(\n'.format(entry.data.toPrettyRepr()))
+                f.write('    kinetics = Arrhenius(\n')
                 f.write('        A = ({0},"{1}"),\n'.format(entry.data.A.value, entry.data.A.units))
                 f.write('        n = ({0},""),\n'.format(entry.data.n.value))
                 f.write('        Ea = ({0},"{1}"),\n'.format(entry.data.Ea.value, entry.data.Ea.units))
