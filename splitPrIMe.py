@@ -408,8 +408,6 @@ def consolidateFound(entries0):
     
     entries = []
     
-    index = 1
-    
     print '   ...consolidating {0} NIST results...'.format(len(entries0)),
     for entry0 in entries0:
         for entry in entries:
