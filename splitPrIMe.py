@@ -356,11 +356,11 @@ def queryReference(entry, cookiejar):
         )
     
     # Pass miscellaneous data from reference page to longDesc
-    miscellaneous = soup.table.findAll(text='Category:')[0].parent
+    miscellaneous = soup.table.findAll(text='Rate expression:')[0].parent
     gen = miscellaneous.nextSiblingGenerator()
     output=[]
-    item = gen.next()
-    item = gen.next()
+    for i in range(0,7):
+        item = gen.next()
     while item:
         try:
             text = item.text
@@ -478,10 +478,10 @@ def saveNIST(entries, family):
                 f.write('    referenceType = "{0}",\n'.format(entry.referenceType))
                 f.write('    shortDesc = u"""{0}""",\n'.format(entry.shortDesc))
                 try:
-                    entry.longDesc.encode()
+                    entry.longDesc.encode('utf-8')
                 except UnicodeEncodeError:
                     from ipdb import set_trace; set_trace()
-                f.write('    longDesc = \nu"""\n{0}\n""",\n'.format(entry.longDesc))
+                f.write('    longDesc = \nu"""\n{0}\n""",\n'.format(entry.longDesc.encode('utf-8')))
                 f.write('    history = {0},\n'.format(entry.history))
                 f.write(')\n')
                 
