@@ -1,6 +1,17 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+"""
+This script will cross-reference NIST for all PrIMe kinetics entries in a given
+family, pulling in data (T & P range, comments, etc.) not present in the PrIMe
+database. It first performs a NIST kinetics search for each entry's reaction;
+any results found are passed to a list of NIST entries, which is then stripped
+of duplicates and queried again to pull in references and other information.
+If the PrIMe entry is not found (tested by matching squibs), it is returned to
+a list of PrIMe entries and saved to a new PrIMe database; these entries will
+need to be manually cross-checked to find the corresponding NIST entry.
+"""
+
 import os
 import re
 import sys
@@ -22,6 +33,9 @@ from BeautifulSoup import BeautifulSoup
 ################################################################################
 
 def loadEntries(family):
+    """
+    Load all PrIMe entries for the given family.
+    """
     
     database = RMGDatabase()
     database.kinetics = KineticsDatabase()
@@ -43,6 +57,9 @@ def loadEntries(family):
 ################################################################################
 
 def splitEntries(entries):
+    """
+    Split PrIMe entries into NIST and PrIMe counterparts.
+    """
     
     foundEntries = []
     primeEntries = []
@@ -105,6 +122,9 @@ def splitEntries(entries):
 ################################################################################
 
 def setNISTUnits(cookiejar):
+    """
+    Set kinetics search to pull data in SI units.
+    """
     
     post = {
         'energyUnits': 'J',
@@ -124,6 +144,9 @@ def setNISTUnits(cookiejar):
 ################################################################################
 
 def reverseEntry(entry):
+    """
+    Generate a barebones entry for querying reverse kinetics.
+    """
     
     newEntry = Entry(
                     item = Reaction(
@@ -139,6 +162,9 @@ def reverseEntry(entry):
 ################################################################################
 
 def queryKinetics(entry, cookiejar):
+    """
+    Perform a NIST Kinetics search for the given entry.
+    """
     
     entries = []
     
@@ -200,8 +226,6 @@ def queryKinetics(entry, cookiejar):
             
             added = False
             
-            # Some extra effort is needed to extract the squib from the BeautifulSoup DOM tree
-            
             squib = re.search('\d\d\d\d\w\w\w?(/\w\w\w?)?\w+(-\w+)?:\d+', unicode(tdlist[2].a))
             url = 'http://kinetics.nist.gov/kinetics/Detail?id={0}'.format(squib.group()).encode()
             
@@ -213,7 +237,7 @@ def queryKinetics(entry, cookiejar):
             k300 = tdlist[14].text
             order = tdlist[16].text
             
-            # Reject results that don't have a valid A, Ea, and Trange
+            # Reject results that don't have a valid A, Ea, Trange, and order
             if ';' in A or ';' in Ea or ';' in Trange or ';' in order:
                 continue
             # Reject results whose reaction order does not match the number of reactants
@@ -266,6 +290,11 @@ def queryKinetics(entry, cookiejar):
 ################################################################################
 
 def getCAS(species):
+    """
+    Use a molecule's InChI code to find CAS numbers from either NIST or NIH. A
+    chemical formula may help to find results if no CAS number is found, but
+    this is not entirely reliable so a blank CAS is returned in this case.
+    """
     
     inchi = species.toInChI()
     
@@ -301,6 +330,10 @@ def getCAS(species):
 ################################################################################
 
 def queryReference(entry, cookiejar):
+    """
+    For a NIST entry that has already been found, grab reference information and
+    any further data that may be useful to have (including pressure range).
+    """
     
     url = entry.reference
     opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookiejar))
@@ -415,6 +448,9 @@ def queryReference(entry, cookiejar):
 ################################################################################
 
 def consolidateFound(entries0):
+    """
+    Remove duplicates from a list of NIST entries.
+    """
     
     entries = []
     
@@ -434,6 +470,9 @@ def consolidateFound(entries0):
 ################################################################################
 
 def saveNIST(entries, family):
+    """
+    Save a list of NIST entries to the appropriate database file.
+    """
     
     if entries:
         
@@ -500,6 +539,10 @@ def saveNIST(entries, family):
 ################################################################################
 
 def savePrIMe(entries, family):
+    """
+    Overwrite the original PrIMe database with only entries that were not found
+    in the NIST kinetics search.
+    """
     
     filename = 'input/kinetics/families/{0}/PrIMe.py'.format(family)
     os.remove(filename)
