@@ -91,8 +91,14 @@ def splitEntries(entries):
         print(output)
     
     setNISTUnits(cookiejar)
+    count = 0
     for entry in consolidateFound(foundEntries):
+        if count == 0:
+            print '\nGrabbing reference information from NIST...'
+        count += 1
+        print '    Getting reference for entry #{0} ({1})...'.format(count, entry.label),
         nistEntries.append(queryReference(entry, cookiejar))
+        print 'found.'
     
     return primeEntries, nistEntries
 
@@ -356,7 +362,11 @@ def queryReference(entry, cookiejar):
         )
     
     # Pass miscellaneous data from reference page to longDesc
-    miscellaneous = soup.table.findAll(text='Rate expression:')[0].parent
+    try:
+        miscellaneous = soup.table.findAll(text='Rate expression:')[0].parent
+    except IndexError:
+        from ipdb import set_trace; set_trace()
+    
     gen = miscellaneous.nextSiblingGenerator()
     output=[]
     for i in range(0,7):
