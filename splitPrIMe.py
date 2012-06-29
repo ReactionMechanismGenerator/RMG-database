@@ -325,7 +325,7 @@ def getCAS(species):
         if len(caslist) > 0:
             return str(min(caslist))
     
-    return ''
+    return species.getFormula()
 
 ################################################################################
 
@@ -461,7 +461,7 @@ def consolidateFound(entries0):
                 break
         else:
             entries.append(entry0)
-    print 'found {0} unique entries.\n'.format(len(entries))
+    print 'found {0} unique entries.'.format(len(entries))
     
     entries.sort(key=lambda entry: sum([1 for r in entry.item.reactants for a in r.atoms if a.isNonHydrogen()]))
     
@@ -610,4 +610,4 @@ if __name__ == '__main__':
     saveNIST(nistEntries, family)
     savePrIMe(primeEntries, family)
     
-    print 'Found {0} NIST entries; retained {1} PrIMe entries.'.format(len(nistEntries), len(primeEntries))
+    print '\nFound {0} NIST entries; retained {1} PrIMe entries.'.format(len(nistEntries), len(primeEntries))
