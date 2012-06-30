@@ -402,8 +402,14 @@ def queryReference(entry, cookiejar):
     
     gen = miscellaneous.nextSiblingGenerator()
     output=[]
-    for i in range(0,7):
+    item = gen.next()
+    foundMisc = False
+    while not foundMisc:
         item = gen.next()
+        try:
+            foundMisc = 'br' in item.name
+        except AttributeError:
+            foundMisc = False
     while item:
         try:
             text = item.text
