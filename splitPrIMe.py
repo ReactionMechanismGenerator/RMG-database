@@ -458,6 +458,7 @@ def queryReference(entry, cookiejar):
     longDesc = ''.join(output)
     longDesc = longDesc.replace('&nbsp;&nbsp;\n',' ')
     longDesc = longDesc.replace('&nbsp;',' ')
+    longDesc = longDesc.replace('Category:  ','Category: ')
     
     # Reference metadata common to all reference types
     entry.reference.url = url
