@@ -365,6 +365,25 @@ def queryReference(entry, cookiejar):
     # Create a reference object describing the reference based on the type in reftype
     if reftype == 'journal article':
         title   = soup.table.findAll(text='Title:')[0].parent.nextSibling[13:]
+        gen = soup.table.findAll(text='Title:')[0].parent.nextSibling.nextSiblingGenerator()
+        output = []
+        foundTitle = False
+        while not foundTitle:
+            item = gen.next()
+            try:
+                foundTitle = 'br' in item.name
+            except AttributeError:
+                foundTitle = False
+            if foundTitle:
+                break
+            try:
+                text = item.text
+            except AttributeError:
+                text = item
+            output.append(text)
+        title += ''.join(output)
+
+        gen = soup.table.findAll(text='Title:')[0].parent.nextSibling[13:]
         journal = soup.table.findAll(text='Journal:')[0].parent.nextSibling[13:]
         try:
             volume  = soup.table.findAll(text='Volume:')[0].parent.nextSibling[13:]
@@ -385,6 +404,24 @@ def queryReference(entry, cookiejar):
     
     elif reftype == 'book chapter':
         title   = soup.table.findAll(text='Title:')[0].parent.nextSibling[13:]
+        gen = soup.table.findAll(text='Title:')[0].parent.nextSibling.nextSiblingGenerator()
+        output = []
+        foundTitle = False
+        while not foundTitle:
+            item = gen.next()
+            try:
+                foundTitle = 'br' in item.name
+            except AttributeError:
+                foundTitle = False
+            if foundTitle:
+                break
+            try:
+                text = item.text
+            except AttributeError:
+                text = item
+            output.append(text)
+        title += ''.join(output)
+
         publisher = soup.table.findAll(text='Publisher address:')[0].parent.nextSibling[13:]
         year    = soup.table.findAll(text='Year:')[0].parent.nextSibling[13:]
         entry.reference = Book(
