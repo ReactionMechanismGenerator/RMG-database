@@ -29,6 +29,7 @@ import urllib
 import urllib2
 import cookielib
 from BeautifulSoup import BeautifulSoup
+from ipdb import set_trace
 
 ################################################################################
 
@@ -115,7 +116,7 @@ def splitEntries(entries):
         count += 1
         print '    Getting reference for entry #{0} ({1})...'.format(count, entry.label),
         nistEntries.append(queryReference(entry, cookiejar))
-        print 'found.'
+        print 'found (Ea = {0})'.format(nistEntries[-1].data.Ea.value)
     
     return primeEntries, nistEntries
 
@@ -364,7 +365,7 @@ def queryReference(entry, cookiejar):
         
     # Create a reference object describing the reference based on the type in reftype
     if reftype == 'journal article':
-        title   = soup.table.findAll(text='Title:')[0].parent.nextSibling[13:]
+        title = soup.table.findAll(text='Title:')[0].parent.nextSibling[13:]
         gen = soup.table.findAll(text='Title:')[0].parent.nextSibling.nextSiblingGenerator()
         output = []
         foundTitle = False
@@ -386,13 +387,16 @@ def queryReference(entry, cookiejar):
         gen = soup.table.findAll(text='Title:')[0].parent.nextSibling[13:]
         journal = soup.table.findAll(text='Journal:')[0].parent.nextSibling[13:]
         try:
-            volume  = soup.table.findAll(text='Volume:')[0].parent.nextSibling[13:]
+            volume = soup.table.findAll(text='Volume:')[0].parent.nextSibling[13:]
         except IndexError:
             volume = ''
-        pages   = soup.table.findAll(text='Page(s):')[0].parent.nextSibling[13:]
-        if pages == '':
-            pages = squib[11:]
-        year    = soup.table.findAll(text='Year:')[0].parent.nextSibling[13:]
+        pages = soup.table.findAll(text='Page(s):')[0].parent.nextSibling[13:]
+        if not pages:
+            if '/' in squib:
+                pages = squib[11:]
+            else:
+                pages = squib[7:]
+        year = soup.table.findAll(text='Year:')[0].parent.nextSibling[13:]
         entry.reference = Article(
             authors = authors,
             title = title,
@@ -403,7 +407,7 @@ def queryReference(entry, cookiejar):
         )
     
     elif reftype == 'book chapter':
-        title   = soup.table.findAll(text='Title:')[0].parent.nextSibling[13:]
+        title = soup.table.findAll(text='Title:')[0].parent.nextSibling[13:]
         gen = soup.table.findAll(text='Title:')[0].parent.nextSibling.nextSiblingGenerator()
         output = []
         foundTitle = False
@@ -423,7 +427,7 @@ def queryReference(entry, cookiejar):
         title += ''.join(output)
 
         publisher = soup.table.findAll(text='Publisher address:')[0].parent.nextSibling[13:]
-        year    = soup.table.findAll(text='Year:')[0].parent.nextSibling[13:]
+        year = soup.table.findAll(text='Year:')[0].parent.nextSibling[13:]
         entry.reference = Book(
             authors = authors,
             title = title,
@@ -431,11 +435,20 @@ def queryReference(entry, cookiejar):
             year = year,
         )
     
+    # Grab better activation energy data
+    for item in soup('sup'):
+        if 'J/mole]/RT' in item.text:
+            break
+    if item.text:
+        entry.data.Ea.value = -float(item.text.split(' ')[0])
+    else:
+        set_trace()
+    
     # Pass miscellaneous data from reference page to longDesc
     try:
         miscellaneous = soup.table.findAll(text='Rate expression:')[0].parent
     except IndexError:
-        from ipdb import set_trace; set_trace()
+        set_trace()
     
     gen = miscellaneous.nextSiblingGenerator()
     output=[]
@@ -573,7 +586,7 @@ def saveNIST(entries, family):
                 try:
                     entry.longDesc.encode('utf-8')
                 except UnicodeEncodeError:
-                    from ipdb import set_trace; set_trace()
+                    set_trace()
                 f.write('    longDesc = \nu"""\n{0}\n""",\n'.format(entry.longDesc.encode('utf-8')))
                 f.write('    history = {0},\n'.format(entry.history))
                 f.write(')\n')
