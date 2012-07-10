@@ -57,7 +57,7 @@ def loadEntries(family):
 
 ################################################################################
 
-def splitEntries(entries):
+def splitEntries(entries, family):
     """
     Split PrIMe entries into NIST and PrIMe counterparts.
     """
@@ -115,8 +115,8 @@ def splitEntries(entries):
             print '\nGrabbing reference information from NIST...'
         count += 1
         print '    Getting reference for entry #{0} ({1})...'.format(count, entry.label),
-        nistEntries.append(queryReference(entry, cookiejar))
-        print 'found (Ea = {0})'.format(nistEntries[-1].data.Ea.value)
+        nistEntries.append(queryReference(entry, cookiejar, family))
+        print 'done'
     
     return primeEntries, nistEntries
 
@@ -265,7 +265,7 @@ def queryKinetics(entry, cookiejar):
                 data = Arrhenius(
                     A = (float(A) / 1.0e6,"m^3/(mol*s)") if len(entry.item.reactants) == 2 else (float(A),"s^-1"),
                     n = (float(n),""),
-                    Ea = (float(Ea),"J/mol"),
+                    Ea = (float(Ea) / 1.0e3,"kJ/mol"),
                     T0 = (1.0,"K"),
                     Tmin = (float(Tmin),"K"),
                     Tmax = (float(Tmax),"K"),
@@ -330,7 +330,9 @@ def getCAS(species):
 
 ################################################################################
 
-def queryReference(entry, cookiejar):
+nistIndex = 0
+
+def queryReference(entry, cookiejar, family):
     """
     For a NIST entry that has already been found, grab reference information and
     any further data that may be useful to have (including pressure range).
@@ -350,6 +352,11 @@ def queryReference(entry, cookiejar):
         category = soup.table.findAll(text='Category:')[0].parent.nextSibling[7:].lower()
     except IndexError:
         category = ''
+    
+    try:
+        datatype = soup.table.findAll(text='Data type:')[0].parent.nextSibling[13:]
+    except IndexError:
+        datatype = ''
     
     reftype = soup.table.findAll(text='Reference type:')[0].parent.nextSibling[13:].lower()
     if reftype == 'technical report': reftype = 'journal article'
@@ -439,10 +446,47 @@ def queryReference(entry, cookiejar):
     for item in soup('sup'):
         if 'J/mole]/RT' in item.text:
             break
-    if item.text:
-        entry.data.Ea.value = -float(item.text.split(' ')[0])
-    else:
+    entry.data.Ea.value = -float(item.text.split(' ')[0]) / 1.0e3
+    
+    # Grab activation energy uncertainty if possible
+    if not '[J/mole]/RT' in item.text and '[&plusmn;' in item.text:
+        entry.data.Ea.uncertainty = float(item.text.split('&plusmn;')[1].split(' ')[0]) / 1.0e3
+        entry.data.Ea.uncertaintyType = '+|-'
+    
+    # Grab uncertainty for n value if possible
+    for item in soup('sup'):
+        if '(' in item.text and ')' and '&plusmn;' in item.text:
+            try:
+                entry.data.n.uncertainty = float(item.text.split('&plusmn;')[1].split(')')[0])
+            except ValueError:
+                set_trace()
+            entry.data.n.uncertaintyType = '+|-'
+    
+    # Grab additive uncertainty in A value if possible
+    entry.data.A.uncertainty = False
+    entry.data.A.uncertaintyType = ''
+    try:
+        start = soup.table.findAll(text='Rate expression:')[0].parent
+    except IndexError:
         set_trace()
+        start = False
+    
+    if start:
+        item = start
+        text = ''
+        while not '[' in text:
+            item = item.nextSibling
+            try:
+                text = item.text
+            except AttributeError:
+                text = item
+        if '&plusmn;' in text:
+            text = text.split('&plusmn;')[1].split(' ')[0]
+            entry.data.A.uncertaintyType = '+|-'
+            if text.isdigit():
+                entry.data.A.uncertainty = float(text) / 1.0e6
+            elif 'x' in text:
+                entry.data.A.uncertainty = float(text.split('x')[0] + 'e' + item.nextSibling.text) / 1.0e6
     
     # Pass miscellaneous data from reference page to longDesc
     try:
@@ -473,11 +517,35 @@ def queryReference(entry, cookiejar):
     longDesc = longDesc.replace('&nbsp;',' ')
     longDesc = longDesc.replace('Category:  ','Category: ')
     
+    # longDesc may contain an uncertainty factor; try to add it to A.uncertainty
+    conflict = False
+    for line in longDesc.splitlines():
+        if 'Uncertainty:' in line:
+            if not entry.data.A.uncertainty == 0.0:
+                conflict = True
+                break
+            else:
+                entry.data.A.uncertainty = float(line.split(' ')[1])
+                entry.data.A.uncertaintyType = '*|/'
+    if conflict:
+        set_trace()
+    
     # Reference metadata common to all reference types
     entry.reference.url = url
     entry.referenceType = category
-    entry.shortDesc = ''
+    entry.shortDesc = datatype
     entry.longDesc += longDesc.rstrip()
+
+    # Check that uncertainties do not exceed values
+    if entry.data.A.uncertaintyType is '+|-' and abs(entry.data.A.uncertainty) > abs(entry.data.A.value):
+        entry.longDesc += '\nNote: Invalid preexponential uncertainty ({0}) found and ignored'.format(entry.data.A.uncertainty)
+        entry.data.A.uncertainty = 0.0
+    if entry.data.n.uncertaintyType is '+|-' and abs(entry.data.n.uncertainty) > abs(entry.data.n.value):
+        entry.longDesc += '\nNote: Invalid temperature exponent uncertainty ({0}) found and ignored'.format(entry.data.n.uncertainty)
+        entry.data.n.uncertainty = 0.0
+    if entry.data.Ea.uncertaintyType is '+|-' and abs(entry.data.Ea.uncertainty) > abs(entry.data.Ea.value):
+        entry.longDesc += '\nNote: Invalid activation energy uncertainty ({0}) found and ignored'.format(entry.data.Ea.uncertainty)
+        entry.data.Ea.uncertainty = 0.0
 
     try:
         Prange = soup.table.findAll(text='Pressure:')[0].parent.nextSibling[12:]
@@ -499,6 +567,24 @@ def queryReference(entry, cookiejar):
         entry.data.Pmin.value = float(Pmin)
     if Pmax:
         entry.data.Pmax.value = float(Pmax)
+    
+    # Grab NIST entry as html page for faster lookup later
+    page = '<B>Author(s):</B>' + referenceHTML.split('<B>Author(s):</B>')[1]
+    nistHTML = page.split('\n<p><a href="/kinetics/Detail')[0]
+    
+    # Write NIST page to file
+    global nistIndex
+    nistIndex += 1
+    filename = 'input/nist/{0}/{1} - {2}.html'.format(family, nistIndex, squib.replace('/','-'))
+    dirname = os.path.split(filename)[0]
+    os.path.exists(dirname) or os.makedirs(dirname)
+    with open(filename,'w') as f:
+        f.write('<html>\n<head><title>{0}</title></head>\n<body>\n'.format(squib))
+        f.write('<h3><a href="{0}">{1}</a></h3>'.format(url, squib))
+        for line in nistHTML.splitlines():
+            f.write('\n{0}'.format(line))
+        f.write('\n</body>\n</html>')
+    f.close()
     
     return entry
 
@@ -564,9 +650,22 @@ def saveNIST(entries, family):
                 
                 f.write('    degeneracy = {0},\n'.format(entry.item.degeneracy))
                 f.write('    kinetics = Arrhenius(\n')
-                f.write('        A = ({0},"{1}"),\n'.format(entry.data.A.value, entry.data.A.units))
-                f.write('        n = ({0},""),\n'.format(entry.data.n.value))
-                f.write('        Ea = ({0},"{1}"),\n'.format(entry.data.Ea.value, entry.data.Ea.units))
+                
+                if not entry.data.A.uncertainty == 0.0:
+                    f.write('        A = ({0},"{1}","{2}",{3}),\n'.format(entry.data.A.value, entry.data.A.units, entry.data.A.uncertaintyType, entry.data.A.uncertainty))
+                else:
+                    f.write('        A = ({0},"{1}"),\n'.format(entry.data.A.value, entry.data.A.units))
+                
+                if not entry.data.n.uncertainty == 0.0:
+                    f.write('        n = ({0},"","{1}",{2}),\n'.format(entry.data.n.value, entry.data.n.uncertaintyType, entry.data.n.uncertainty))
+                else:
+                    f.write('        n = ({0},""),\n'.format(entry.data.n.value))
+                
+                if not entry.data.Ea.uncertainty == 0.0:
+                    f.write('        Ea = ({0},"{1}","{2}",{3}),\n'.format(entry.data.Ea.value, entry.data.Ea.units, entry.data.Ea.uncertaintyType, entry.data.Ea.uncertainty))
+                else:
+                    f.write('        Ea = ({0},"{1}"),\n'.format(entry.data.Ea.value, entry.data.Ea.units))
+                
                 f.write('        T0 = ({0},"{1}"),\n'.format(entry.data.T0.value, entry.data.T0.units))
                 f.write('        Tmin = ({0},"{1}"),\n'.format(entry.data.Tmin.value, entry.data.Tmin.units))
                 f.write('        Tmax = ({0},"{1}"),\n'.format(entry.data.Tmax.value, entry.data.Tmax.units))
@@ -655,16 +754,22 @@ def savePrIMe(entries, family):
 
 ################################################################################
 
-if __name__ == '__main__':
+def main():
     
     if len(sys.argv) != 2:
         raise Exception('You must provide the name of the reaction family as the lone command-line argument.')
     
     family = sys.argv[1]
     
-    primeEntries, nistEntries = splitEntries(loadEntries(family))
+    primeEntries, nistEntries = splitEntries(loadEntries(family), family)
     
     saveNIST(nistEntries, family)
     savePrIMe(primeEntries, family)
     
     print '\nFound {0} NIST entries; retained {1} PrIMe entries.'.format(len(nistEntries), len(primeEntries))
+
+################################################################################
+
+if __name__ == '__main__':
+    
+    main()
