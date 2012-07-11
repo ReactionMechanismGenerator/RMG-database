@@ -33,6 +33,8 @@ from ipdb import set_trace
 
 ################################################################################
 
+log = None
+
 def loadEntries(family):
     """
     Load all PrIMe entries for the given family.
@@ -49,6 +51,11 @@ def loadEntries(family):
     else:
         raise Exception('Could not find PrIMe depository in {0} family.'.format(family))
     
+    global log
+    os.path.exists('nist/{0}'.format(family)) or os.makedirs('nist/{0}'.format(family))
+    log = open('nist/{0}/{0}.txt'.format(family),'w')
+    
+    print >>log, 'Found {0} entries in {1}.'.format(len(depository.entries), depository.label)
     print 'Found {0} entries in {1}.'.format(len(depository.entries), depository.label)
     
     entries = []
@@ -65,6 +72,7 @@ def splitEntries(entries, family):
     foundEntries = []
     primeEntries = []
     nistEntries = []
+    global log
     
     cookiejar = cookielib.CookieJar()
     
@@ -74,23 +82,27 @@ def splitEntries(entries, family):
         setNISTUnits(cookiejar)
         
         query = entry
+        print >>log, '   Querying NIST for entry #{0} ({1} -> {2})...'.format(entry.index,
+                                                                       ' + '.join([str(getCAS(r)) for r in entry.item.reactants]),
+                                                                       ' + '.join([str(getCAS(p)) for p in entry.item.products])
+                                                                      ),
         print '   Querying NIST for entry #{0} ({1} -> {2})...'.format(entry.index,
                                                                        ' + '.join([str(getCAS(r)) for r in entry.item.reactants]),
                                                                        ' + '.join([str(getCAS(p)) for p in entry.item.products])
                                                                       ),
         forwardEntries = queryKinetics(query, cookiejar)
+        print >>log, '{0} forward,'.format(len(forwardEntries)),
         print '{0} forward,'.format(len(forwardEntries)),
         for found_entry in forwardEntries:
             queriedEntries.append(found_entry)
         
         query = reverseEntry(entry)
         reverseEntries = queryKinetics(query, cookiejar)
-        print '{0} reverse results'.format(len(reverseEntries)),
+        output = '{0} reverse results'.format(len(reverseEntries))
         for found_entry in reverseEntries:
             queriedEntries.append(found_entry)
         
         cookiejar.clear_session_cookies()
-        output = ''
         if queriedEntries:
             for entry0 in queriedEntries:
                 foundEntries.append(entry0)
@@ -102,20 +114,24 @@ def splitEntries(entries, family):
             
             if not foundOriginal:
                 primeEntries.append(entry)
-                output += '(failed to find original)'
+                output += ' (failed to find original)'
         else:
             primeEntries.append(entry)
         
-        print(output)
+        print >>log, output
+        print output
     
     setNISTUnits(cookiejar)
     count = 0
     for entry in consolidateFound(foundEntries):
         if count == 0:
+            print >>log, '\nGrabbing reference information from NIST...'
             print '\nGrabbing reference information from NIST...'
         count += 1
+        print >>log, '    Getting reference for entry #{0} ({1})...'.format(count, entry.label),
         print '    Getting reference for entry #{0} ({1})...'.format(count, entry.label),
         nistEntries.append(queryReference(entry, cookiejar, family))
+        print >>log, 'done'
         print 'done'
     
     return primeEntries, nistEntries
@@ -329,8 +345,6 @@ def getCAS(species):
     return species.getFormula()
 
 ################################################################################
-
-nistIndex = 0
 
 def queryReference(entry, cookiejar, family):
     """
@@ -573,18 +587,17 @@ def queryReference(entry, cookiejar, family):
     nistHTML = page.split('\n<p><a href="/kinetics/Detail')[0]
     
     # Write NIST page to file
-    global nistIndex
-    nistIndex += 1
-    filename = 'input/nist/{0}/{1} - {2}.html'.format(family, nistIndex, squib.replace('/','-'))
-    dirname = os.path.split(filename)[0]
-    os.path.exists(dirname) or os.makedirs(dirname)
-    with open(filename,'w') as f:
-        f.write('<html>\n<head><title>{0}</title></head>\n<body>\n'.format(squib))
-        f.write('<h3><a href="{0}">{1}</a></h3>'.format(url, squib))
-        for line in nistHTML.splitlines():
-            f.write('\n{0}'.format(line))
-        f.write('\n</body>\n</html>')
-    f.close()
+    filename = 'nist/{0}/{1}.html'.format(family, url.split('=')[1].replace('/','-'))
+    if not os.path.exists(filename):
+        dirname = os.path.split(filename)[0]
+        os.path.exists(dirname) or os.makedirs(dirname)
+        with open(filename,'w') as f:
+            f.write('<html>\n<head><title>{0}</title></head>\n<body>\n'.format(url.split('=')[1]))
+            f.write('<h3><a href="{0}">{1}</a></h3>'.format(url, url.split('=')[1]))
+            for line in nistHTML.splitlines():
+                f.write('\n{0}'.format(line))
+            f.write('\n</body>\n</html>')
+        f.close()
     
     return entry
 
@@ -597,6 +610,7 @@ def consolidateFound(entries0):
     
     entries = []
     
+    print >>log, '   ...consolidating {0} NIST results...'.format(len(entries0)),
     print '   ...consolidating {0} NIST results...'.format(len(entries0)),
     for entry0 in entries0:
         for entry in entries:
@@ -604,6 +618,7 @@ def consolidateFound(entries0):
                 break
         else:
             entries.append(entry0)
+    print >>log, 'found {0} unique entries.'.format(len(entries))
     print 'found {0} unique entries.'.format(len(entries))
     
     entries.sort(key=lambda entry: sum([1 for r in entry.item.reactants for a in r.atoms if a.isNonHydrogen()]))
@@ -766,6 +781,7 @@ def main():
     saveNIST(nistEntries, family)
     savePrIMe(primeEntries, family)
     
+    print >>log, '\nFound {0} NIST entries; retained {1} PrIMe entries.'.format(len(nistEntries), len(primeEntries))
     print '\nFound {0} NIST entries; retained {1} PrIMe entries.'.format(len(nistEntries), len(primeEntries))
 
 ################################################################################
