@@ -320,6 +320,8 @@ def getCAS(species):
         f = urllib2.urlopen(url, timeout=5)
     except urllib2.URLError, e:
         pass
+    except socket.timeout:
+        pass
     else:
         searcher = re.compile('<li><a href="/cgi/inchi\?GetInChI=C(\d+)')
         for line in f:
@@ -331,6 +333,8 @@ def getCAS(species):
     try:
         f = urllib2.urlopen(url, timeout=5)
     except urllib2.URLError, e:
+        pass
+    except socket.timeout:
         pass
     else:
         searcher = re.compile('(\d+)-(\d+)-(\d+)')
@@ -482,8 +486,7 @@ def queryReference(entry, cookiejar, family):
     try:
         start = soup.table.findAll(text='Rate expression:')[0].parent
     except IndexError:
-        set_trace()
-        start = False
+        start = None
     
     if start:
         item = start
@@ -498,9 +501,11 @@ def queryReference(entry, cookiejar, family):
             text = text.split('&plusmn;')[1].split(' ')[0]
             entry.data.A.uncertaintyType = '+|-'
             if text.isdigit():
-                entry.data.A.uncertainty = float(text) / 1.0e6
+                entry.data.A.uncertainty = float(text)
             elif 'x' in text:
-                entry.data.A.uncertainty = float(text.split('x')[0] + 'e' + item.nextSibling.text) / 1.0e6
+                entry.data.A.uncertainty = float(text.split('x')[0] + 'e' + item.nextSibling.text)
+            if len(entry.item.reactants) == 2:
+                entry.data.A.uncertainty /= 1.0e6
     
     # Pass miscellaneous data from reference page to longDesc
     try:
@@ -530,24 +535,18 @@ def queryReference(entry, cookiejar, family):
     longDesc = longDesc.replace('&nbsp;&nbsp;\n',' ')
     longDesc = longDesc.replace('&nbsp;',' ')
     longDesc = longDesc.replace('Category:  ','Category: ')
+    longDesc = longDesc.replace('Estimated:  ', 'Estimated: ')
     
     # longDesc may contain an uncertainty factor; try to add it to A.uncertainty
-    conflict = False
     for line in longDesc.splitlines():
-        if 'Uncertainty:' in line:
-            if not entry.data.A.uncertainty == 0.0:
-                conflict = True
-                break
-            else:
-                entry.data.A.uncertainty = float(line.split(' ')[1])
-                entry.data.A.uncertaintyType = '*|/'
-    if conflict:
-        set_trace()
+        if 'Uncertainty:' in line and entry.data.A.uncertainty == 0.0:
+            entry.data.A.uncertainty = float(line.split(' ')[1])
+            entry.data.A.uncertaintyType = '*|/'
     
     # Reference metadata common to all reference types
     entry.reference.url = url
     entry.referenceType = category
-    entry.shortDesc = datatype
+    entry.shortDesc = datatype.replace('Estimated:  ', 'Estimated: ')
     entry.longDesc += longDesc.rstrip()
 
     # Check that uncertainties do not exceed values
