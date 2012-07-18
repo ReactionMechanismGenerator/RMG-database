@@ -14859,6 +14859,8 @@ entry(
         T0 = (1.0,"K"),
         Tmin = (195.0,"K"),
         Tmax = (2025.0,"K"),
+        Pmin = (1443.9,"Pa"),
+        Pmax = (2133.2,"Pa"),
     ),
     reference = Article(
         authors = ["Srinivasan, N.K.", "Su, M.C.", "Sutherland, J.W.", "Michael, J.V."],
@@ -14880,7 +14882,8 @@ Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure independent
 Comments: The reflected shock tube technique with multipass absorption spectrometric detection of OH radicals at 308 nm was used to study the CH4 + OH reaction.  OH was generated from thermal decomposition of t-butyl hydroperoxide at temperatures less than 1300 K and from HNO3 at higher temperatures.
 """,
-    history = [('Thu Jul 12 20:41:47 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SRI/SU1857-1863:2')],
+    history = [('Thu Jul 12 20:41:47 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SRI/SU1857-1863:2'),
+               ('Wed Jul 18 14:47:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Fixed pressure range according to http://pubs.acs.org/doi/full/10.1021/jp040679j')],
 )
 
 entry(
@@ -15831,8 +15834,8 @@ entry(
         T0 = (1.0,"K"),
         Tmin = (840.0,"K"),
         Tmax = (2025.0,"K"),
-        Pmin = (2.38e-06,"Pa"),
-        Pmax = (5.64e-06,"Pa"),
+        Pmin = (1443.9,"Pa"),
+        Pmax = (2133.2,"Pa"),
     ),
     reference = Article(
         authors = ["Srinivasan, N.K.", "Su, M.C.", "Sutherland, J.W.", "Michael, J.V."],
@@ -15857,7 +15860,8 @@ Time resolution: In real time
 Analytical technique: Vis-UV absorption
 Comments: The reflected shock tube technique with multipass absorption spectrometric detection of OH radicals at 308 nm was used to study the CH4 + OH reaction.  OH was generated from thermal decomposition of t-butyl hydroperoxide at temperatures less than 1300 K and from HNO3 at higher temperatures.
 """,
-    history = [('Thu Jul 12 20:41:47 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SRI/SU1857-1863:1')],
+    history = [('Thu Jul 12 20:41:47 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SRI/SU1857-1863:1'),
+               ('Wed Jul 18 14:47:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Fixed pressure range according to http://pubs.acs.org/doi/full/10.1021/jp040679j')],
 )
 
 entry(
