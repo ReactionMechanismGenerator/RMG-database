@@ -338,10 +338,6 @@ entry(
         n = (0.0,""),
         Ea = (89.913,"kJ/mol"),
         T0 = (1.0,"K"),
-        Tmin = (1269.0,"K"),
-        Tmax = (1806.0,"K"),
-        Pmin = (3.14e-06,"Pa"),
-        Pmax = (3.77e-06,"Pa"),
     ),
     reference = Article(
         authors = ["Sutherland, J.W.", "Su, M.-C.", "Michael, J.V."],
@@ -365,7 +361,8 @@ Time resolution: In real time
 Analytical technique: Vis-UV absorption
 Comments: Excimer laser photolysis-shock tube technique coupled with H-atom atomic resonance absorption spectromtry has been used. The real time H atom profiles were fit with a complex mechanism to derive the best fit rate constants for the reactions, H+CH4 -> CH3+H2, CH3 +H2 ->H+CH4, as well as the reaction CH4+Kr->CH3+H+Kr
 """,
-    history = [('Thu Jul 12 19:42:59 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:2')],
+    history = [('Thu Jul 12 19:42:59 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:2'),
+               ('Wed Jul 18 14:38:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Removed incorrect T and P ranges according to http://onlinelibrary.wiley.com/doi/10.1002/kin.20560/full')],
 )
 
 entry(
@@ -1235,8 +1232,6 @@ entry(
         n = (3.16,""),
         Ea = (36.634,"kJ/mol"),
         T0 = (1.0,"K"),
-        Tmin = (348.0,"K"),
-        Tmax = (1950.0,"K"),
     ),
     reference = Article(
         authors = ["Sutherland, J.W.", "Su, M.-C.", "Michael, J.V."],
@@ -1260,7 +1255,8 @@ Time resolution: In real time
 Analytical technique: Vis-UV absorption
 Comments: Excimer laser photolysis-shock tube technique coupled with H-atom atomic resonance absorption spectromtry has been used. The real time H atom profiles were fit with a complex mechanism to derive the best fit rate constants for the reactions, H+CH4 -> CH3+H2, CH3 +H2 ->H+CH4, as well as the reaction CH4+Kr->CH3+H+Kr
 """,
-    history = [('Thu Jul 12 19:43:01 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:1')],
+    history = [('Thu Jul 12 19:43:01 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:1'),
+               ('Wed Jul 18 14:38:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Removed incorrect T and P ranges according to http://onlinelibrary.wiley.com/doi/10.1002/kin.20560/full')],
 )
 
 entry(
@@ -1652,10 +1648,6 @@ entry(
         n = (0.0,""),
         Ea = (57.653,"kJ/mol"),
         T0 = (1.0,"K"),
-        Tmin = (913.0,"K"),
-        Tmax = (1697.0,"K"),
-        Pmin = (2.41e-06,"Pa"),
-        Pmax = (5.22e-06,"Pa"),
     ),
     reference = Article(
         authors = ["Sutherland, J.W.", "Su, M.-C.", "Michael, J.V."],
@@ -1679,7 +1671,8 @@ Time resolution: In real time
 Analytical technique: Vis-UV absorption
 Comments: Excimer laser photolysis-shock tube technique coupled with H-atom atomic resonance absorption spectromtry has been used. The real time H atom profiles were fit with a complex mechanism to derive the best fit rate constants for the reactions, H+CH4 -> CH3+H2, CH3 +H2 ->H+CH4, as well as the reaction CH4+Kr->CH3+H+Kr
 """,
-    history = [('Thu Jul 12 19:43:01 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:4')],
+    history = [('Thu Jul 12 19:43:01 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:4'),
+               ('Wed Jul 18 14:38:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Removed incorrect T and P ranges according to http://onlinelibrary.wiley.com/doi/10.1002/kin.20560/full')],
 )
 
 entry(
