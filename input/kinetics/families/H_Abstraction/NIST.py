@@ -32161,8 +32161,8 @@ entry(
         T0 = (1.0,"K"),
         Tmin = (1600.0,"K"),
         Tmax = (2100.0,"K"),
-        Pmin = (2.21e-06,"Pa"),
-        Pmax = (4.37e-06,"Pa"),
+        Pmin = (789.3,"Pa"),
+        Pmax = (1465.2,"Pa"),
     ),
     reference = Article(
         authors = ["Michael, J.V.", "Kumaran, S.S.", "Su, M.-C."],
@@ -32185,7 +32185,8 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 """,
-    history = [('Thu Jul 12 19:34:29 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999MIC/KUM5942-5948:2')],
+    history = [('Thu Jul 12 19:34:29 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999MIC/KUM5942-5948:2'),
+               ('Wed Jul 18 15:13:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Fixed pressure range according to http://pubs.acs.org/doi/full/10.1021/jp9909457')],
 )
 
 entry(
@@ -32279,8 +32280,10 @@ entry(
         n = (2.05,""),
         Ea = (158.715,"kJ/mol"),
         T0 = (1.0,"K"),
-        Tmin = (300.0,"K"),
-        Tmax = (2200.0,"K"),
+        Tmin = (1600.0,"K"),
+        Tmax = (2100.0,"K"),
+        Pmin = (789.3,"Pa"),
+        Pmax = (1465.2,"Pa"),
     ),
     reference = Article(
         authors = ["Michael, J.V.", "Kumaran, S.S.", "Su, M.-C."],
@@ -32299,7 +32302,8 @@ PrIMe Reaction: r00001370
 Category: Theory
 Data type: Transition state theory
 """,
-    history = [('Thu Jul 12 19:34:29 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999MIC/KUM5942-5948:3')],
+    history = [('Thu Jul 12 19:34:29 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999MIC/KUM5942-5948:3'),
+               ('Wed Jul 18 15:13:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Fixed T and P ranges according to http://pubs.acs.org/doi/full/10.1021/jp9909457')],
 )
 
 entry(
