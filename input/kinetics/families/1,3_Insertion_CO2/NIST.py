@@ -38,8 +38,8 @@ entry(
         T0 = (1.0,"K"),
         Tmin = (1350.0,"K"),
         Tmax = (1700.0,"K"),
-        Pmin = (6.3e-06,"Pa"),
-        Pmax = (6.3e-06,"Pa"),
+        Pmin = (121590.0,"Pa"),
+        Pmax = (243180.0,"Pa"),
     ),
     reference = Article(
         authors = ["Saito, K.", "Shiose, T.", "Takahashi, O.", "Hidaka, Y.", "Aiba, F.", "Tabayashi, F."],
@@ -64,7 +64,8 @@ Time resolution: In both real time and by end product analysis
 Analytical technique: Other (IR)
 Comments: Formic acid was produced via thermal (shock induced) dissociation of the dimer. Reaction of the monomer was followed by monitoring CO formation in real time via IR emission at 4.63 um and CO2 formation at 4.23 um. CO2 formation was more difficult to follow as it was produced in only about 2 to 8% of the CO. CO, CO2, and H2 products were also determined via GC analysis.
 """,
-    history = [('Fri Jul 13 08:14:02 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SAI/SHI5352-5357:5')],
+    history = [('Fri Jul 13 08:14:02 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SAI/SHI5352-5357:5'),
+               ('Wed Jul 18 12:58:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Fixed pressure range according to http://pubs.acs.org/doi/abs/10.1021/jp045072h')],
 )
 
 entry(
@@ -97,8 +98,8 @@ entry(
         T0 = (1.0,"K"),
         Tmin = (1350.0,"K"),
         Tmax = (1600.0,"K"),
-        Pmin = (2.5e-05,"Pa"),
-        Pmax = (2.5e-05,"Pa"),
+        Pmin = (121590.0,"Pa"),
+        Pmax = (243180.0,"Pa"),
     ),
     reference = Article(
         authors = ["Saito, K.", "Shiose, T.", "Takahashi, O.", "Hidaka, Y.", "Aiba, F.", "Tabayashi, F."],
@@ -123,7 +124,8 @@ Time resolution: In both real time and by end product analysis
 Analytical technique: Other (IR)
 Comments: Formic acid was produced via thermal (shock induced) dissociation of the dimer. Reaction of the monomer was followed by monitoring CO formation in real time via IR emission at 4.63 um and CO2 formation at 4.23 um. CO2 formation was more difficult to follow as it was produced in only about 2 to 8% of the CO. CO, CO2, and H2 products were also determined via GC analysis.
 """,
-    history = [('Fri Jul 13 08:14:02 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SAI/SHI5352-5357:4')],
+    history = [('Fri Jul 13 08:14:02 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SAI/SHI5352-5357:4'),
+               ('Wed Jul 18 12:58:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Fixed pressure range according to http://pubs.acs.org/doi/abs/10.1021/jp045072h')],
 )
 
 entry(
