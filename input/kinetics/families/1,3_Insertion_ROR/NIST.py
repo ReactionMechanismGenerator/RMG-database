@@ -34,10 +34,10 @@ entry(
         n = (-3.68,""),
         Ea = (296.22,"kJ/mol"),
         T0 = (1.0,"K"),
-        Tmin = (300.0,"K"),
-        Tmax = (2500.0,"K"),
-        Pmin = (101000.0,"Pa"),
-        Pmax = (101000.0,"Pa"),
+        Tmin = (1045.0,"K"),
+        Tmax = (1080.0,"K"),
+        Pmin = (172252.5,"Pa"),
+        Pmax = (303975.0,"Pa"),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -58,7 +58,8 @@ Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
 """,
-    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:4')],
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:4'),
+               ('Wed Jul 18 14:10:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Fixed T and P ranges according to comments in long description')],
 )
 
 entry(
@@ -87,10 +88,10 @@ entry(
         n = (1.25,""),
         Ea = (263.111,"kJ/mol"),
         T0 = (1.0,"K"),
-        Tmin = (300.0,"K"),
-        Tmax = (2500.0,"K"),
-        Pmin = (10100000.0,"Pa"),
-        Pmax = (10100000.0,"Pa"),
+        Tmin = (1045.0,"K"),
+        Tmax = (1080.0,"K"),
+        Pmin = (172252.5,"Pa"),
+        Pmax = (303975.0,"Pa"),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -111,7 +112,8 @@ Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
 """,
-    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:6')],
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:6'),
+               ('Wed Jul 18 14:10:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Fixed T and P ranges according to comments in long description')],
 )
 
 entry(
@@ -140,8 +142,10 @@ entry(
         n = (2.52,""),
         Ea = (253.841,"kJ/mol"),
         T0 = (1.0,"K"),
-        Tmin = (300.0,"K"),
-        Tmax = (2500.0,"K"),
+        Tmin = (1045.0,"K"),
+        Tmax = (1080.0,"K"),
+        Pmin = (172252.5,"Pa"),
+        Pmax = (303975.0,"Pa"),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -162,7 +166,8 @@ Data type: Experimental value and limited review
 Pressure dependence: Rate constant is high pressure limit
 Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
 """,
-    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:7')],
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:7'),
+               ('Wed Jul 18 14:10:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Fixed T and P ranges according to comments in long description')],
 )
 
 entry(
@@ -191,10 +196,10 @@ entry(
         n = (-0.74,""),
         Ea = (277.055,"kJ/mol"),
         T0 = (1.0,"K"),
-        Tmin = (300.0,"K"),
-        Tmax = (2500.0,"K"),
-        Pmin = (1010000.0,"Pa"),
-        Pmax = (1010000.0,"Pa"),
+        Tmin = (1045.0,"K"),
+        Tmax = (1080.0,"K"),
+        Pmin = (172252.5,"Pa"),
+        Pmax = (303975.0,"Pa"),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -215,7 +220,8 @@ Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
 """,
-    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:5')],
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:5'),
+               ('Wed Jul 18 14:10:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Fixed T and P ranges according to comments in long description')],
 )
 
 entry(
@@ -244,10 +250,10 @@ entry(
         n = (-11.92,""),
         Ea = (262.13,"kJ/mol"),
         T0 = (1.0,"K"),
-        Tmin = (300.0,"K"),
-        Tmax = (2500.0,"K"),
-        Pmin = (1.01e-05,"Pa"),
-        Pmax = (1.01e-05,"Pa"),
+        Tmin = (1045.0,"K"),
+        Tmax = (1080.0,"K"),
+        Pmin = (172252.5,"Pa"),
+        Pmax = (303975.0,"Pa"),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -268,7 +274,8 @@ Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
 """,
-    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:1')],
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:1'),
+               ('Wed Jul 18 14:10:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Fixed T and P ranges according to comments in long description')],
 )
 
 entry(
@@ -297,10 +304,10 @@ entry(
         n = (-9.69,""),
         Ea = (325.919,"kJ/mol"),
         T0 = (1.0,"K"),
-        Tmin = (300.0,"K"),
-        Tmax = (2500.0,"K"),
-        Pmin = (1013.0,"Pa"),
-        Pmax = (1013.0,"Pa"),
+        Tmin = (1045.0,"K"),
+        Tmax = (1080.0,"K"),
+        Pmin = (172252.5,"Pa"),
+        Pmax = (303975.0,"Pa"),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -321,7 +328,8 @@ Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
 """,
-    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:2')],
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:2'),
+               ('Wed Jul 18 14:10:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Fixed T and P ranges according to comments in long description')],
 )
 
 entry(
@@ -350,10 +358,10 @@ entry(
         n = (-6.95,""),
         Ea = (314.744,"kJ/mol"),
         T0 = (1.0,"K"),
-        Tmin = (300.0,"K"),
-        Tmax = (2500.0,"K"),
-        Pmin = (10100.0,"Pa"),
-        Pmax = (10100.0,"Pa"),
+        Tmin = (1045.0,"K"),
+        Tmax = (1080.0,"K"),
+        Pmin = (172252.5,"Pa"),
+        Pmax = (303975.0,"Pa"),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -374,7 +382,8 @@ Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
 """,
-    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:3')],
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:3'),
+               ('Wed Jul 18 14:10:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Fixed T and P ranges according to comments in long description')],
 )
 
 entry(
