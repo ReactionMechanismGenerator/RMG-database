@@ -27883,8 +27883,6 @@ entry(
         T0 = (1.0,"K"),
         Tmin = (96.0,"K"),
         Tmax = (296.0,"K"),
-        Pmin = (3.16e-08,"Pa"),
-        Pmax = (1.64e-07,"Pa"),
     ),
     reference = Article(
         authors = ["Vakhtin, A.B.", "McCabe, D.C.", "Ravishankara, A.R.", "Leone, S.R."],
@@ -27908,7 +27906,8 @@ Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Laser induced fluorescence
 """,
-    history = [('Thu Jul 12 20:51:56 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VAK/MCC10642-10647:1')],
+    history = [('Thu Jul 12 20:51:56 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VAK/MCC10642-10647:1'),
+               ('Wed Jul 18 15:09:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Removed invalid pressure range according to http://pubs.acs.org/doi/full/10.1021/jp030424q')],
 )
 
 entry(
