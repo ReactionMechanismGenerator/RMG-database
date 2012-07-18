@@ -16354,8 +16354,6 @@ entry(
         T0 = (1.0,"K"),
         Tmin = (1040.0,"K"),
         Tmax = (1270.0,"K"),
-        Pmin = (3e-05,"Pa"),
-        Pmax = (3e-05,"Pa"),
     ),
     reference = Article(
         authors = ["Lifshitz, A.", "Suslensky, A.", "Tamburu, C."],
@@ -16377,7 +16375,8 @@ Experimental procedure: Shock tube
 Time resolution: In real time
 Analytical technique: GC-MS
 """,
-    history = [('Thu Jul 12 16:18:02 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000LIF/SUS1733-1739:5')],
+    history = [('Thu Jul 12 16:18:02 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000LIF/SUS1733-1739:5'),
+               ('Wed Jul 18 15:28:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Removed invalid pressure range according to http://www.sciencedirect.com/science/article/pii/S0082078400805743')],
 )
 
 entry(
