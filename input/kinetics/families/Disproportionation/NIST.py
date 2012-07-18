@@ -2655,8 +2655,6 @@ entry(
         T0 = (1.0,"K"),
         Tmin = (296.0,"K"),
         Tmax = (700.0,"K"),
-        Pmin = (6.06e-07,"Pa"),
-        Pmax = (6.06e-07,"Pa"),
     ),
     reference = Article(
         authors = ["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."],
@@ -2677,7 +2675,8 @@ Category: Theory
 Data type: Ab initio
 Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
 """,
-    history = [('Thu Jul 12 23:19:15 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:2')],
+    history = [('Thu Jul 12 23:19:15 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:2'),
+               ('Wed Jul 18 13:27:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Removed invalid pressure range according to http://pubs.acs.org/doi/abs/10.1021/jp0221946')],
 )
 
 entry(
@@ -3527,8 +3526,6 @@ entry(
         T0 = (1.0,"K"),
         Tmin = (296.0,"K"),
         Tmax = (700.0,"K"),
-        Pmin = (6.06e-07,"Pa"),
-        Pmax = (6.06e-07,"Pa"),
     ),
     reference = Article(
         authors = ["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."],
@@ -3549,7 +3546,8 @@ Category: Theory
 Data type: Ab initio
 Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
 """,
-    history = [('Thu Jul 12 23:13:01 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:5')],
+    history = [('Thu Jul 12 23:13:01 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:5'),
+               ('Wed Jul 18 13:27:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Removed invalid pressure range according to http://pubs.acs.org/doi/abs/10.1021/jp0221946')],
 )
 
 entry(
@@ -3701,8 +3699,6 @@ entry(
         T0 = (1.0,"K"),
         Tmin = (296.0,"K"),
         Tmax = (700.0,"K"),
-        Pmin = (6.06e-07,"Pa"),
-        Pmax = (6.06e-07,"Pa"),
     ),
     reference = Article(
         authors = ["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."],
@@ -3723,7 +3719,8 @@ Category: Theory
 Data type: Ab initio
 Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
 """,
-    history = [('Thu Jul 12 23:13:59 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:8')],
+    history = [('Thu Jul 12 23:13:59 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:8'),
+               ('Wed Jul 18 13:27:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Removed invalid pressure range according to http://pubs.acs.org/doi/abs/10.1021/jp0221946')],
 )
 
 entry(
