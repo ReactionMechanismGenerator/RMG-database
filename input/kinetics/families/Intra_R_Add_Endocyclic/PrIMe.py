@@ -36,9 +36,9 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (8.91e+12,"s^-1"),
-        n = (0.26,""),
+        n = 0.26,
         Ea = (624.223,"J/mol"),
-        T0 = (1.0,"K"),
+        T0 = (1,"K"),
     ),
     reference = Article(
         authors = ["Tokmakov, I.V.", "Lin, M.C."],
@@ -55,5 +55,8 @@ entry(
 u"""
 Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00017190/rk00000001.xml
 """,
-    history = [('Tue May 17 14:36:12 2011', 'Josh Allen <jwallen@mit.edu>', 'action', 'Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00017190/rk00000001.xml')],
+    history = [
+        ("Tue May 17 14:36:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00017190/rk00000001.xml"""),
+    ],
 )
+

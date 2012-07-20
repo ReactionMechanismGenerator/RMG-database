@@ -35,9 +35,9 @@ entry(
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (9.38e+16,"s^-1"),
-        n = (-7.86,""),
-        Ea = (153236.0,"J/mol"),
-        T0 = (298.0,"K"),
+        n = -7.86,
+        Ea = (153236,"J/mol"),
+        T0 = (298,"K"),
     ),
     reference = Article(
         authors = ["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."],
@@ -55,5 +55,9 @@ u"""
 Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012692/rk00000001.xml
 Referece T0 corrected from 1 to 298K according to NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:6
 """,
-    history = [('Tue May 17 14:34:57 2011', 'Josh Allen <jwallen@mit.edu>', 'action', 'Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012692/rk00000001.xml'), ('2011-08-05', 'Richard West <rwest@mit.edu>', 'action', 'Corrected T0 from 1K to 298K according to NIST database')],
+    history = [
+        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012692/rk00000001.xml"""),
+        ("2011-08-05","Richard West <rwest@mit.edu>","action","""Corrected T0 from 1K to 298K according to NIST database"""),
+    ],
 )
+

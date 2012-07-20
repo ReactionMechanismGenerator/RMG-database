@@ -34,14 +34,14 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (178.0,"m^3/(mol*s)"),
-        n = (0.0,""),
+        A = (178,"m^3/(mol*s)"),
+        n = 0,
         Ea = (73.999,"kJ/mol","+|-",0.74),
-        T0 = (1.0,"K"),
-        Tmin = (498.0,"K"),
-        Tmax = (596.0,"K"),
-        Pmin = (800.0,"Pa"),
-        Pmax = (15300.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (498,"K"),
+        Tmax = (596,"K"),
+        Pmin = (800,"Pa"),
+        Pmax = (15300,"Pa"),
     ),
     reference = Article(
         authors = ["Blake, P.G.", "Davis, H.H."],
@@ -64,7 +64,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
-    history = [('Fri Jul 13 08:21:49 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972BLA/DAV491:1')],
+    history = [
+        ("Fri Jul 13 08:21:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972BLA/DAV491:1"""),
+    ],
 )
 
 entry(
@@ -102,11 +104,11 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (6.03e+13,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (202.873,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (656.0,"K"),
-        Tmax = (793.0,"K"),
+        T0 = (1,"K"),
+        Tmin = (656,"K"),
+        Tmax = (793,"K"),
     ),
     reference = Article(
         authors = ["Vala, M.", "Baiardo, J.", "Latham, D.", "Mukherjee, R.", "Pascyz, S."],
@@ -128,5 +130,8 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Fourier transform (FTIR)
 """,
-    history = [('Fri Jul 13 08:21:51 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986VAL/BAI16:2')],
+    history = [
+        ("Fri Jul 13 08:21:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986VAL/BAI16:2"""),
+    ],
 )
+

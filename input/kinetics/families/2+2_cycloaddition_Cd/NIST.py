@@ -31,11 +31,11 @@ entry(
     degeneracy = 16,
     kinetics = Arrhenius(
         A = (3.16e+16,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (274.378,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (969.0,"K"),
-        Tmax = (1280.0,"K"),
+        T0 = (1,"K"),
+        Tmin = (969,"K"),
+        Tmax = (1280,"K"),
         Pmin = (26.66,"Pa"),
         Pmax = (26.66,"Pa"),
     ),
@@ -57,7 +57,9 @@ Bath gas: Ar
 Category: Review
 Data type: Experimental value and limited review
 """,
-    history = [('Fri Jul 13 07:55:49 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972BEA/GOL2943:2')],
+    history = [
+        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972BEA/GOL2943:2"""),
+    ],
 )
 
 entry(
@@ -83,13 +85,13 @@ entry(
     degeneracy = 16,
     kinetics = Arrhenius(
         A = (3.98e+15,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (261.906,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (644.0,"K"),
-        Tmax = (1089.0,"K"),
-        Pmin = (2133.0,"Pa"),
-        Pmax = (307000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (644,"K"),
+        Tmax = (1089,"K"),
+        Pmin = (2133,"Pa"),
+        Pmax = (307000,"Pa"),
     ),
     reference = Article(
         authors = ["Lewis, D.K.", "Bergmann, J.", "Manjoney, R.", "Paddock, R.", "Kaira, B.L."],
@@ -115,7 +117,9 @@ Time resolution: By end product analysis
 Analytical technique: Gas chromatography
 Comments: Two experimental set-ups were used: experiments at 644-750 K and 16-25 torr were performed in a static reactor, while the shock tube methodology was used at 939-1089 K with shock pressures of about 2-3 atm. The rate parameters are from the literature but provide an excellent  fit to the present data.
 """,
-    history = [('Fri Jul 13 07:55:49 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984LEW/BER4112:4')],
+    history = [
+        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984LEW/BER4112:4"""),
+    ],
 )
 
 entry(
@@ -141,13 +145,13 @@ entry(
     degeneracy = 16,
     kinetics = Arrhenius(
         A = (1.52e+14,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (229.479,"kJ/mol","+|-",11.474),
-        T0 = (1.0,"K"),
-        Tmin = (891.0,"K"),
-        Tmax = (1080.0,"K"),
-        Pmin = (18000.0,"Pa"),
-        Pmax = (110000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (891,"K"),
+        Tmax = (1080,"K"),
+        Pmin = (18000,"Pa"),
+        Pmax = (110000,"Pa"),
     ),
     reference = Article(
         authors = ["Barnard, J.A.", "Cocks, A.T.", "Lee, R.K.Y."],
@@ -169,7 +173,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:55:49 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974BAR/COC1782:4')],
+    history = [
+        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974BAR/COC1782:4"""),
+    ],
 )
 
 entry(
@@ -195,11 +201,11 @@ entry(
     degeneracy = 16,
     kinetics = Arrhenius(
         A = (2.63e+15,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (259.412,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (969.0,"K"),
-        Tmax = (1280.0,"K"),
+        T0 = (1,"K"),
+        Tmin = (969,"K"),
+        Tmax = (1280,"K"),
         Pmin = (26.66,"Pa"),
         Pmax = (26.66,"Pa"),
     ),
@@ -223,7 +229,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [('Fri Jul 13 07:55:49 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972BEA/GOL2943:1')],
+    history = [
+        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972BEA/GOL2943:1"""),
+    ],
 )
 
 entry(
@@ -249,13 +257,13 @@ entry(
     degeneracy = 16,
     kinetics = Arrhenius(
         A = (7.01e+15,"s^-1","+|-",7e+13),
-        n = (0.0,""),
+        n = 0,
         Ea = (264.4,"kJ/mol","+|-",1.255),
-        T0 = (1.0,"K"),
-        Tmin = (683.0,"K"),
-        Tmax = (773.0,"K"),
+        T0 = (1,"K"),
+        Tmin = (683,"K"),
+        Tmax = (773,"K"),
         Pmin = (13.33,"Pa"),
-        Pmax = (2666.0,"Pa"),
+        Pmax = (2666,"Pa"),
     ),
     reference = Article(
         authors = ["Vreeland, R.W.", "Swinehart, D.F."],
@@ -277,7 +285,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [('Fri Jul 13 07:55:49 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963VRE/SWI3349-3353:1')],
+    history = [
+        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963VRE/SWI3349-3353:1"""),
+    ],
 )
 
 entry(
@@ -303,13 +313,13 @@ entry(
     degeneracy = 16,
     kinetics = Arrhenius(
         A = (4.2e+15,"s^-1","+|-",8.4e+13),
-        n = (0.0,""),
+        n = 0,
         Ea = (261.906,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (690.0,"K"),
-        Tmax = (733.0,"K"),
-        Pmin = (86700.0,"Pa"),
-        Pmax = (200000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (690,"K"),
+        Tmax = (733,"K"),
+        Pmin = (86700,"Pa"),
+        Pmax = (200000,"Pa"),
     ),
     reference = Article(
         authors = ["Carr, R.W., Jr.", "Walters, W.D."],
@@ -331,7 +341,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [('Fri Jul 13 07:55:49 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963CAR/WAL1370-1372:1')],
+    history = [
+        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963CAR/WAL1370-1372:1"""),
+    ],
 )
 
 entry(
@@ -356,14 +368,14 @@ entry(
 """,
     degeneracy = 16,
     kinetics = Arrhenius(
-        A = (2e+15,"s^-1","*|/",10.0),
-        n = (0.0,""),
+        A = (2e+15,"s^-1","*|/",10),
+        n = 0,
         Ea = (257.749,"kJ/mol","+|-",10.31),
-        T0 = (1.0,"K"),
-        Tmin = (671.0,"K"),
-        Tmax = (723.0,"K"),
+        T0 = (1,"K"),
+        Tmin = (671,"K"),
+        Tmax = (723,"K"),
         Pmin = (13.33,"Pa"),
-        Pmax = (5733.0,"Pa"),
+        Pmax = (5733,"Pa"),
     ),
     reference = Article(
         authors = ["Butler, J.N.", "Ogawa, R.B."],
@@ -386,7 +398,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:55:49 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963BUT/OGA3346-3349:1')],
+    history = [
+        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963BUT/OGA3346-3349:1"""),
+    ],
 )
 
 entry(
@@ -412,13 +426,13 @@ entry(
     degeneracy = 16,
     kinetics = Arrhenius(
         A = (4e+15,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (261.906,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (693.0,"K"),
-        Tmax = (741.0,"K"),
-        Pmin = (133.0,"Pa"),
-        Pmax = (133000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (693,"K"),
+        Tmax = (741,"K"),
+        Pmin = (133,"Pa"),
+        Pmax = (133000,"Pa"),
     ),
     reference = Article(
         authors = ["Genaux, C.T.", "Kern, F.", "Walters, W.D."],
@@ -441,7 +455,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [('Fri Jul 13 07:55:49 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1953GEN/KER6196-6199:1')],
+    history = [
+        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1953GEN/KER6196-6199:1"""),
+    ],
 )
 
 entry(
@@ -467,13 +483,13 @@ entry(
     degeneracy = 16,
     kinetics = Arrhenius(
         A = (1.95e+20,"s^-1"),
-        n = (-1.26,""),
+        n = -1.26,
         Ea = (283.215,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (600.0,"K"),
-        Tmax = (2000.0,"K"),
-        Pmin = (101000.0,"Pa"),
-        Pmax = (101000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (600,"K"),
+        Tmax = (2000,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
     ),
     reference = Article(
         authors = ["Sirjean, B.", "Glaude, P.A.", "Ruiz-Lopez, M.F.", "Fournet, R."],
@@ -494,7 +510,9 @@ Data type: Transition state theory
 Pressure dependence: None reported
 Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory. This is the rate expression for the "global" reaction proceeding via formation of a biradical intermediate.
 """,
-    history = [('Fri Jul 13 07:55:49 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SIR/GLA12693-12704:17')],
+    history = [
+        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SIR/GLA12693-12704:17"""),
+    ],
 )
 
 entry(
@@ -520,13 +538,13 @@ entry(
     degeneracy = 16,
     kinetics = Arrhenius(
         A = (3.31e+21,"s^-1"),
-        n = (-1.61,""),
+        n = -1.61,
         Ea = (285.181,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (600.0,"K"),
-        Tmax = (2000.0,"K"),
-        Pmin = (101000.0,"Pa"),
-        Pmax = (101000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (600,"K"),
+        Tmax = (2000,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
     ),
     reference = Article(
         authors = ["Sirjean, B.", "Glaude, P.A.", "Ruiz-Lopez, M.F.", "Fournet, R."],
@@ -547,7 +565,9 @@ Data type: Transition state theory
 Pressure dependence: None reported
 Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory. This is the rate expression for the "global" reaction proceeding via formation of a biradical intermediate.
 """,
-    history = [('Fri Jul 13 07:55:49 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SIR/GLA12693-12704:18')],
+    history = [
+        ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SIR/GLA12693-12704:18"""),
+    ],
 )
 
 entry(
@@ -572,14 +592,14 @@ entry(
 """,
     degeneracy = 16,
     kinetics = Arrhenius(
-        A = (69200.0,"m^3/(mol*s)"),
-        n = (0.0,""),
+        A = (69200,"m^3/(mol*s)"),
+        n = 0,
         Ea = (182.918,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (723.0,"K"),
-        Tmax = (786.0,"K"),
-        Pmin = (40000.0,"Pa"),
-        Pmax = (173000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (723,"K"),
+        Tmax = (786,"K"),
+        Pmin = (40000,"Pa"),
+        Pmax = (173000,"Pa"),
     ),
     reference = Article(
         authors = ["Quick, L.M.", "Knecht, D.A.", "Back, M.H."],
@@ -601,7 +621,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [('Fri Jul 13 07:55:50 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972QUI/KNE61:1')],
+    history = [
+        ("Fri Jul 13 07:55:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972QUI/KNE61:1"""),
+    ],
 )
 
 entry(
@@ -627,13 +649,13 @@ entry(
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (2.63e+15,"s^-1","*|/",2.04),
-        n = (0.0,""),
+        n = 0,
         Ea = (259.412,"kJ/mol","+|-",2.594),
-        T0 = (1.0,"K"),
-        Tmin = (668.0,"K"),
-        Tmax = (758.0,"K"),
+        T0 = (1,"K"),
+        Tmin = (668,"K"),
+        Tmax = (758,"K"),
         Pmin = (99.99,"Pa"),
-        Pmax = (6999.0,"Pa"),
+        Pmax = (6999,"Pa"),
     ),
     reference = Article(
         authors = ["Zalotai, L.", "Hunyadi-Zoltan, Zs.", "Berces, T.", "Marta, F."],
@@ -656,7 +678,9 @@ Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:56:16 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983ZAL/HUN505:1')],
+    history = [
+        ("Fri Jul 13 07:56:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983ZAL/HUN505:1"""),
+    ],
 )
 
 entry(
@@ -682,13 +706,13 @@ entry(
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (5.13e+15,"s^-1","*|/",2.04),
-        n = (0.0,""),
+        n = 0,
         Ea = (263.569,"kJ/mol","+|-",2.636),
-        T0 = (1.0,"K"),
-        Tmin = (693.0,"K"),
-        Tmax = (753.0,"K"),
+        T0 = (1,"K"),
+        Tmin = (693,"K"),
+        Tmax = (753,"K"),
         Pmin = (53.33,"Pa"),
-        Pmax = (15600.0,"Pa"),
+        Pmax = (15600,"Pa"),
     ),
     reference = Article(
         authors = ["Holbrook, K.A.", "Scott, R.A."],
@@ -711,7 +735,9 @@ Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:56:16 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975HOL/SCO1849:1')],
+    history = [
+        ("Fri Jul 13 07:56:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975HOL/SCO1849:1"""),
+    ],
 )
 
 entry(
@@ -739,13 +765,13 @@ entry(
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (1.06e+16,"s^-1","+|-",9.5e+14),
-        n = (0.0,""),
+        n = 0,
         Ea = (264.4,"kJ/mol","+|-",1.255),
-        T0 = (1.0,"K"),
-        Tmin = (683.0,"K"),
-        Tmax = (763.0,"K"),
+        T0 = (1,"K"),
+        Tmin = (683,"K"),
+        Tmax = (763,"K"),
         Pmin = (1.33,"Pa"),
-        Pmax = (1333.0,"Pa"),
+        Pmax = (1333,"Pa"),
     ),
     reference = Article(
         authors = ["Thomas, T.F.", "Conn, P.J.", "Swinehart, D.F."],
@@ -767,7 +793,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [('Fri Jul 13 07:56:23 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969THO/CON7611-7616:1')],
+    history = [
+        ("Fri Jul 13 07:56:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969THO/CON7611-7616:1"""),
+    ],
 )
 
 entry(
@@ -795,13 +823,13 @@ entry(
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (1.9e+15,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (254.423,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (693.0,"K"),
-        Tmax = (703.0,"K"),
-        Pmin = (933.0,"Pa"),
-        Pmax = (55600.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (693,"K"),
+        Tmax = (703,"K"),
+        Pmin = (933,"Pa"),
+        Pmax = (55600,"Pa"),
     ),
     reference = Article(
         authors = ["Pataracchia, A.F.", "Walters, W.D."],
@@ -823,7 +851,9 @@ Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:56:23 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964PAT/WAL3894-3899:1')],
+    history = [
+        ("Fri Jul 13 07:56:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964PAT/WAL3894-3899:1"""),
+    ],
 )
 
 entry(
@@ -851,13 +881,13 @@ entry(
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (2.4e+15,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (256.086,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (683.0,"K"),
-        Tmax = (723.0,"K"),
-        Pmin = (933.0,"Pa"),
-        Pmax = (55600.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (683,"K"),
+        Tmax = (723,"K"),
+        Pmin = (933,"Pa"),
+        Pmax = (55600,"Pa"),
     ),
     reference = Article(
         authors = ["Das, M.N.", "Walters, W.D."],
@@ -880,7 +910,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [('Fri Jul 13 07:56:23 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1958DAS/WAL22-33:1')],
+    history = [
+        ("Fri Jul 13 07:56:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1958DAS/WAL22-33:1"""),
+    ],
 )
 
 entry(
@@ -908,13 +940,13 @@ entry(
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (5e+14,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (220.334,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (650.0,"K"),
-        Tmax = (1250.0,"K"),
-        Pmin = (440.0,"Pa"),
-        Pmax = (1307.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (650,"K"),
+        Tmax = (1250,"K"),
+        Pmin = (440,"Pa"),
+        Pmax = (1307,"Pa"),
     ),
     reference = Article(
         authors = ["Braun, W.", "McNesby, J.R.", "Scheer, M.D."],
@@ -936,7 +968,9 @@ Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:56:46 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984BRA/MCN1846:1')],
+    history = [
+        ("Fri Jul 13 07:56:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984BRA/MCN1846:1"""),
+    ],
 )
 
 entry(
@@ -964,13 +998,13 @@ entry(
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (3.6e+14,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (217.008,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (633.0,"K"),
-        Tmax = (679.0,"K"),
-        Pmin = (200.0,"Pa"),
-        Pmax = (5066.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (633,"K"),
+        Tmax = (679,"K"),
+        Pmin = (200,"Pa"),
+        Pmax = (5066,"Pa"),
     ),
     reference = Article(
         authors = ["McGee, T.H.", "Schleifer, A."],
@@ -992,7 +1026,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:56:46 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972MCG/SCH963:1')],
+    history = [
+        ("Fri Jul 13 07:56:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972MCG/SCH963:1"""),
+    ],
 )
 
 entry(
@@ -1020,13 +1056,13 @@ entry(
     degeneracy = 8,
     kinetics = Arrhenius(
         A = (3.6e+14,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (217.839,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (606.0,"K"),
-        Tmax = (646.0,"K"),
-        Pmin = (1333.0,"Pa"),
-        Pmax = (11700.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (606,"K"),
+        Tmax = (646,"K"),
+        Pmin = (1333,"Pa"),
+        Pmax = (11700,"Pa"),
     ),
     reference = Article(
         authors = ["Das, M.N.", "Kern, F.", "Coyle, T.D.", "Walters, W.D."],
@@ -1049,7 +1085,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [('Fri Jul 13 07:56:46 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1954DAS/KER6271-6274:1')],
+    history = [
+        ("Fri Jul 13 07:56:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1954DAS/KER6271-6274:1"""),
+    ],
 )
 
 entry(
@@ -1077,13 +1115,13 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.39e+14,"s^-1","*|/",1.45),
-        n = (0.0,""),
+        n = 0,
         Ea = (249.434,"kJ/mol","+|-",2.494),
-        T0 = (1.0,"K"),
-        Tmin = (659.0,"K"),
-        Tmax = (757.0,"K"),
-        Pmin = (1400.0,"Pa"),
-        Pmax = (1400.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (659,"K"),
+        Tmax = (757,"K"),
+        Pmin = (1400,"Pa"),
+        Pmax = (1400,"Pa"),
     ),
     reference = Article(
         authors = ["Zalotai, L.", "Berces, T.", "Marta, F."],
@@ -1105,7 +1143,9 @@ Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:57:13 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER79:2')],
+    history = [
+        ("Fri Jul 13 07:57:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER79:2"""),
+    ],
 )
 
 entry(
@@ -1132,14 +1172,14 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (3.39e+14,"s^-1","*|/",1.3200001),
-        n = (0.0,""),
+        A = (3.39e+14,"s^-1","*|/",1.32),
+        n = 0,
         Ea = (249.434,"kJ/mol","+|-",2.494),
-        T0 = (1.0,"K"),
-        Tmin = (660.0,"K"),
-        Tmax = (760.0,"K"),
-        Pmin = (1400.0,"Pa"),
-        Pmax = (3000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (660,"K"),
+        Tmax = (760,"K"),
+        Pmin = (1400,"Pa"),
+        Pmax = (3000,"Pa"),
     ),
     reference = Article(
         authors = ["Zalotai, L.", "Berces, T.", "Marta, F."],
@@ -1161,7 +1201,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:57:13 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER21:2')],
+    history = [
+        ("Fri Jul 13 07:57:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER21:2"""),
+    ],
 )
 
 entry(
@@ -1189,13 +1231,13 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (4.4e+14,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (249.434,"kJ/mol","+|-",4.997),
-        T0 = (1.0,"K"),
-        Tmin = (730.0,"K"),
-        Tmax = (756.0,"K"),
-        Pmin = (800.0,"Pa"),
-        Pmax = (1893.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (730,"K"),
+        Tmax = (756,"K"),
+        Pmin = (800,"Pa"),
+        Pmax = (1893,"Pa"),
     ),
     reference = Article(
         authors = ["Hammonds, P.", "Holbrook, K.A."],
@@ -1218,7 +1260,9 @@ Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:57:13 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HAM/HOL2195:2')],
+    history = [
+        ("Fri Jul 13 07:57:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HAM/HOL2195:2"""),
+    ],
 )
 
 entry(
@@ -1246,13 +1290,13 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (4.68e+15,"s^-1","*|/",1.48),
-        n = (0.0,""),
+        n = 0,
         Ea = (269.389,"kJ/mol","+|-",2.702),
-        T0 = (1.0,"K"),
-        Tmin = (659.0,"K"),
-        Tmax = (757.0,"K"),
-        Pmin = (1400.0,"Pa"),
-        Pmax = (1400.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (659,"K"),
+        Tmax = (757,"K"),
+        Pmin = (1400,"Pa"),
+        Pmax = (1400,"Pa"),
     ),
     reference = Article(
         authors = ["Zalotai, L.", "Berces, T.", "Marta, F."],
@@ -1274,7 +1318,9 @@ Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:57:25 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER79:3')],
+    history = [
+        ("Fri Jul 13 07:57:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER79:3"""),
+    ],
 )
 
 entry(
@@ -1302,13 +1348,13 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (4.68e+15,"s^-1","*|/",1.48),
-        n = (0.0,""),
+        n = 0,
         Ea = (269.389,"kJ/mol","+|-",2.702),
-        T0 = (1.0,"K"),
-        Tmin = (660.0,"K"),
-        Tmax = (760.0,"K"),
-        Pmin = (1400.0,"Pa"),
-        Pmax = (3000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (660,"K"),
+        Tmax = (760,"K"),
+        Pmin = (1400,"Pa"),
+        Pmax = (3000,"Pa"),
     ),
     reference = Article(
         authors = ["Zalotai, L.", "Berces, T.", "Marta, F."],
@@ -1330,7 +1376,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:57:25 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER21:3')],
+    history = [
+        ("Fri Jul 13 07:57:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER21:3"""),
+    ],
 )
 
 entry(
@@ -1358,13 +1406,13 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (3.36e+14,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (249.434,"kJ/mol","+|-",4.997),
-        T0 = (1.0,"K"),
-        Tmin = (703.0,"K"),
-        Tmax = (756.0,"K"),
-        Pmin = (800.0,"Pa"),
-        Pmax = (1893.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (703,"K"),
+        Tmax = (756,"K"),
+        Pmin = (800,"Pa"),
+        Pmax = (1893,"Pa"),
     ),
     reference = Article(
         authors = ["Hammonds, P.", "Holbrook, K.A."],
@@ -1387,7 +1435,9 @@ Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:57:25 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HAM/HOL2195:4')],
+    history = [
+        ("Fri Jul 13 07:57:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HAM/HOL2195:4"""),
+    ],
 )
 
 entry(
@@ -1417,13 +1467,13 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (3.74e+14,"s^-1","*|/",1.12),
-        n = (0.0,""),
+        n = 0,
         Ea = (200.379,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (552.0,"K"),
-        Tmax = (606.0,"K"),
-        Pmin = (120.0,"Pa"),
-        Pmax = (1880.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (552,"K"),
+        Tmax = (606,"K"),
+        Pmin = (120,"Pa"),
+        Pmax = (1880,"Pa"),
     ),
     reference = Article(
         authors = ["Frey, H.M.", "Watts, H.P.", "Stevens, I.D.R."],
@@ -1446,7 +1496,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:56:56 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987FRE/WAT601:1')],
+    history = [
+        ("Fri Jul 13 07:56:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987FRE/WAT601:1"""),
+    ],
 )
 
 entry(
@@ -1476,13 +1528,13 @@ entry(
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (3.16e+14,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (208.693,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (839.0,"K"),
-        Tmax = (965.0,"K"),
-        Pmin = (14700.0,"Pa"),
-        Pmax = (26700.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (839,"K"),
+        Tmax = (965,"K"),
+        Pmin = (14700,"Pa"),
+        Pmax = (26700,"Pa"),
     ),
     reference = Article(
         authors = ["Lewis, D.K.", "Charney, D.J.", "Kalra, B.L.", "Plate, A-M.", "Woodard, M.H."],
@@ -1504,7 +1556,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:57:38 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997LEW/CHA4097-4102:3')],
+    history = [
+        ("Fri Jul 13 07:57:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997LEW/CHA4097-4102:3"""),
+    ],
 )
 
 entry(
@@ -1534,13 +1588,13 @@ entry(
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (7.41e+14,"s^-1","*|/",1.17),
-        n = (0.0,""),
+        n = 0,
         Ea = (212.019,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (569.0,"K"),
-        Tmax = (639.0,"K"),
-        Pmin = (133.0,"Pa"),
-        Pmax = (1800.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (569,"K"),
+        Tmax = (639,"K"),
+        Pmin = (133,"Pa"),
+        Pmax = (1800,"Pa"),
     ),
     reference = Article(
         authors = ["Frey, H.M.", "Pottinger, R."],
@@ -1564,7 +1618,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:57:38 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978FRE/POT1827:1')],
+    history = [
+        ("Fri Jul 13 07:57:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978FRE/POT1827:1"""),
+    ],
 )
 
 entry(
@@ -1593,14 +1649,14 @@ entry(
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (1.51e+15,"s^-1","*|/",3.3099999),
-        n = (0.0,""),
+        A = (1.51e+15,"s^-1","*|/",3.31),
+        n = 0,
         Ea = (256.086,"kJ/mol","+|-",7.683),
-        T0 = (1.0,"K"),
-        Tmin = (692.0,"K"),
-        Tmax = (735.0,"K"),
-        Pmin = (133.0,"Pa"),
-        Pmax = (2133.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (692,"K"),
+        Tmax = (735,"K"),
+        Pmin = (133,"Pa"),
+        Pmax = (2133,"Pa"),
     ),
     reference = Article(
         authors = ["Dirjal, N.K.", "Holbrook, K.A."],
@@ -1624,7 +1680,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [('Fri Jul 13 07:58:12 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991DIR/HOL691-693:1')],
+    history = [
+        ("Fri Jul 13 07:58:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991DIR/HOL691-693:1"""),
+    ],
 )
 
 entry(
@@ -1654,13 +1712,13 @@ entry(
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (3.6e+15,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (259.412,"kJ/mol","+|-",5.188),
-        T0 = (1.0,"K"),
-        Tmin = (693.0,"K"),
-        Tmax = (733.0,"K"),
-        Pmin = (1333.0,"Pa"),
-        Pmax = (26700.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (693,"K"),
+        Tmax = (733,"K"),
+        Pmin = (1333,"Pa"),
+        Pmax = (26700,"Pa"),
     ),
     reference = Article(
         authors = ["Wellman, R.E.", "Walters, W.D."],
@@ -1683,7 +1741,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
-    history = [('Fri Jul 13 07:58:15 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1957WEL/WAL1542-1546:1')],
+    history = [
+        ("Fri Jul 13 07:58:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1957WEL/WAL1542-1546:1"""),
+    ],
 )
 
 entry(
@@ -1713,13 +1773,13 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.02e+13,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (221.996,"kJ/mol","+|-",2.22),
-        T0 = (1.0,"K"),
-        Tmin = (675.0,"K"),
-        Tmax = (744.0,"K"),
-        Pmin = (960.0,"Pa"),
-        Pmax = (1227.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (675,"K"),
+        Tmax = (744,"K"),
+        Pmin = (960,"Pa"),
+        Pmax = (1227,"Pa"),
     ),
     reference = Article(
         authors = ["Hammonds, P.", "Holbrook, K.A."],
@@ -1742,7 +1802,9 @@ Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:58:23 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HAM/HOL2195:6')],
+    history = [
+        ("Fri Jul 13 07:58:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HAM/HOL2195:6"""),
+    ],
 )
 
 entry(
@@ -1772,13 +1834,13 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (3.63e+15,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (270.22,"kJ/mol","+|-",5.413),
-        T0 = (1.0,"K"),
-        Tmin = (675.0,"K"),
-        Tmax = (744.0,"K"),
-        Pmin = (960.0,"Pa"),
-        Pmax = (1227.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (675,"K"),
+        Tmax = (744,"K"),
+        Pmin = (960,"Pa"),
+        Pmax = (1227,"Pa"),
     ),
     reference = Article(
         authors = ["Hammonds, P.", "Holbrook, K.A."],
@@ -1801,7 +1863,9 @@ Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:58:29 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HAM/HOL2195:7')],
+    history = [
+        ("Fri Jul 13 07:58:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HAM/HOL2195:7"""),
+    ],
 )
 
 entry(
@@ -1831,13 +1895,13 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (3.8e+15,"s^-1","+|-",1.1e+14),
-        n = (0.0,""),
+        n = 0,
         Ea = (253.591,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (673.0,"K"),
-        Tmax = (723.0,"K"),
-        Pmin = (1333.0,"Pa"),
-        Pmax = (9733.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (673,"K"),
+        Tmax = (723,"K"),
+        Pmin = (1333,"Pa"),
+        Pmax = (9733,"Pa"),
     ),
     reference = Article(
         authors = ["Cohoe, G.F.", "Walters, W.D."],
@@ -1860,7 +1924,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:58:37 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967COH/WAL2326-2331:1')],
+    history = [
+        ("Fri Jul 13 07:58:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967COH/WAL2326-2331:1"""),
+    ],
 )
 
 entry(
@@ -1892,13 +1958,13 @@ entry(
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (6.92e+14,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (254.423,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (699.0,"K"),
-        Tmax = (737.0,"K"),
-        Pmin = (267.0,"Pa"),
-        Pmax = (2666.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (699,"K"),
+        Tmax = (737,"K"),
+        Pmin = (267,"Pa"),
+        Pmax = (2666,"Pa"),
     ),
     reference = Article(
         authors = ["Ellis, R.J.", "Frey, H.M."],
@@ -1920,7 +1986,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:55:47 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964ELL/FRE4184-4187:2')],
+    history = [
+        ("Fri Jul 13 07:55:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964ELL/FRE4184-4187:2"""),
+    ],
 )
 
 entry(
@@ -1952,13 +2020,13 @@ entry(
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (4.3e+15,"s^-1","+|-",8.6e+13),
-        n = (0.0,""),
+        n = 0,
         Ea = (261.906,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (683.0,"K"),
-        Tmax = (1130.0,"K"),
-        Pmin = (1200.0,"Pa"),
-        Pmax = (7333.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (683,"K"),
+        Tmax = (1130,"K"),
+        Pmin = (1200,"Pa"),
+        Pmax = (7333,"Pa"),
     ),
     reference = Article(
         authors = ["Zupan, M.", "Walters, W.D."],
@@ -1982,7 +2050,9 @@ Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
 """,
-    history = [('Fri Jul 13 07:56:44 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963ZUP/WAL1845-1848:1')],
+    history = [
+        ("Fri Jul 13 07:56:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963ZUP/WAL1845-1848:1"""),
+    ],
 )
 
 entry(
@@ -2014,13 +2084,13 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (3.74e+14,"s^-1","*|/",1.66),
-        n = (0.0,""),
+        n = 0,
         Ea = (192.896,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (534.0,"K"),
-        Tmax = (586.0,"K"),
+        T0 = (1,"K"),
+        Tmin = (534,"K"),
+        Tmax = (586,"K"),
         Pmin = (66.66,"Pa"),
-        Pmax = (1067.0,"Pa"),
+        Pmax = (1067,"Pa"),
     ),
     reference = Article(
         authors = ["Frey, H.M.", "Smith, R.A."],
@@ -2043,7 +2113,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [('Fri Jul 13 07:57:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977FRE/SMI752:1')],
+    history = [
+        ("Fri Jul 13 07:57:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977FRE/SMI752:1"""),
+    ],
 )
 
 entry(
@@ -2074,14 +2146,14 @@ entry(
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (132000.0,"m^3/(mol*s)"),
-        n = (0.0,""),
+        A = (132000,"m^3/(mol*s)"),
+        n = 0,
         Ea = (123.886,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (1000.0,"K"),
-        Tmax = (1180.0,"K"),
-        Pmin = (253000.0,"Pa"),
-        Pmax = (253000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (1180,"K"),
+        Pmin = (253000,"Pa"),
+        Pmax = (253000,"Pa"),
     ),
     reference = Article(
         authors = ["Simmie, J.M."],
@@ -2103,7 +2175,9 @@ Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:57:56 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978SIM227:1')],
+    history = [
+        ("Fri Jul 13 07:57:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978SIM227:1"""),
+    ],
 )
 
 entry(
@@ -2135,13 +2209,13 @@ entry(
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (3.4e+14,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (227.817,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (633.0,"K"),
-        Tmax = (683.0,"K"),
-        Pmin = (1333.0,"Pa"),
-        Pmax = (8666.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (633,"K"),
+        Tmax = (683,"K"),
+        Pmin = (1333,"Pa"),
+        Pmax = (8666,"Pa"),
     ),
     reference = Article(
         authors = ["Daignault, L.G.", "Walters, W.D."],
@@ -2164,7 +2238,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: IR absorption
 """,
-    history = [('Fri Jul 13 07:58:03 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1958DAI/WAL541-545:1')],
+    history = [
+        ("Fri Jul 13 07:58:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1958DAI/WAL541-545:1"""),
+    ],
 )
 
 entry(
@@ -2196,13 +2272,13 @@ entry(
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (3.4e+15,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (257.749,"kJ/mol","+|-",2.577),
-        T0 = (1.0,"K"),
-        Tmin = (673.0,"K"),
-        Tmax = (729.0,"K"),
-        Pmin = (720.0,"Pa"),
-        Pmax = (66000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (673,"K"),
+        Tmax = (729,"K"),
+        Pmin = (720,"Pa"),
+        Pmax = (66000,"Pa"),
     ),
     reference = Article(
         authors = ["Kellner, S.M.E.", "Walters, W.D."],
@@ -2225,7 +2301,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [('Fri Jul 13 07:58:19 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961KEL/WAL466-469:1')],
+    history = [
+        ("Fri Jul 13 07:58:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961KEL/WAL466-469:1"""),
+    ],
 )
 
 entry(
@@ -2256,14 +2334,14 @@ entry(
 """,
     degeneracy = 5,
     kinetics = Arrhenius(
-        A = (7.94e+15,"s^-1","*|/",2.1400001),
-        n = (0.0,""),
+        A = (7.94e+15,"s^-1","*|/",2.14),
+        n = 0,
         Ea = (222.828,"kJ/mol","+|-",4.465),
-        T0 = (1.0,"K"),
-        Tmin = (580.0,"K"),
-        Tmax = (626.0,"K"),
-        Pmin = (5000.0,"Pa"),
-        Pmax = (5000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (580,"K"),
+        Tmax = (626,"K"),
+        Pmin = (5000,"Pa"),
+        Pmax = (5000,"Pa"),
     ),
     reference = Article(
         authors = ["Cocks, A.T.", "Frey, H.M."],
@@ -2286,7 +2364,9 @@ Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:58:40 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971COC/FRE2564:2')],
+    history = [
+        ("Fri Jul 13 07:58:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971COC/FRE2564:2"""),
+    ],
 )
 
 entry(
@@ -2318,13 +2398,13 @@ entry(
     degeneracy = 6,
     kinetics = Arrhenius(
         A = (8.51e+15,"s^-1","*|/",1.15),
-        n = (0.0,""),
+        n = 0,
         Ea = (266.895,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (660.0,"K"),
-        Tmax = (728.0,"K"),
-        Pmin = (667.0,"Pa"),
-        Pmax = (1600.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (660,"K"),
+        Tmax = (728,"K"),
+        Pmin = (667,"Pa"),
+        Pmax = (1600,"Pa"),
     ),
     reference = Article(
         authors = ["Cocks, A.T.", "Frey, H.M."],
@@ -2347,7 +2427,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:59:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971COC/FRE1437:1')],
+    history = [
+        ("Fri Jul 13 07:59:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971COC/FRE1437:1"""),
+    ],
 )
 
 entry(
@@ -2379,13 +2461,13 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (2.28e+15,"s^-1","*|/",1.42),
-        n = (0.0,""),
+        n = 0,
         Ea = (251.097,"kJ/mol","+|-",2.511),
-        T0 = (1.0,"K"),
-        Tmin = (680.0,"K"),
-        Tmax = (721.0,"K"),
-        Pmin = (960.0,"Pa"),
-        Pmax = (1667.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (680,"K"),
+        Tmax = (721,"K"),
+        Pmin = (960,"Pa"),
+        Pmax = (1667,"Pa"),
     ),
     reference = Article(
         authors = ["Clements, A.D.", "Frey, H.M.", "Frey, J.G."],
@@ -2408,7 +2490,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [('Fri Jul 13 07:59:51 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975CLE/FRE2485:2')],
+    history = [
+        ("Fri Jul 13 07:59:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975CLE/FRE2485:2"""),
+    ],
 )
 
 entry(
@@ -2442,13 +2526,13 @@ entry(
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (7e+14,"s^-1","+|-",7e+12),
-        n = (0.0,""),
+        n = 0,
         Ea = (239.457,"kJ/mol","+|-",2.395),
-        T0 = (1.0,"K"),
-        Tmin = (653.0,"K"),
-        Tmax = (693.0,"K"),
-        Pmin = (840.0,"Pa"),
-        Pmax = (1520.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (653,"K"),
+        Tmax = (693,"K"),
+        Pmin = (840,"Pa"),
+        Pmax = (1520,"Pa"),
     ),
     reference = Article(
         authors = ["Zupan, M.", "Walters, W.D."],
@@ -2471,7 +2555,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:56:35 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964ZUP/WAL173-176:1')],
+    history = [
+        ("Fri Jul 13 07:56:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964ZUP/WAL173-176:1"""),
+    ],
 )
 
 entry(
@@ -2505,13 +2591,13 @@ entry(
     degeneracy = 12,
     kinetics = Arrhenius(
         A = (3.4e+14,"s^-1","+|-",1e+13),
-        n = (0.0,""),
+        n = 0,
         Ea = (226.985,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (643.0,"K"),
-        Tmax = (683.0,"K"),
-        Pmin = (533.0,"Pa"),
-        Pmax = (2266.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (643,"K"),
+        Tmax = (683,"K"),
+        Pmin = (533,"Pa"),
+        Pmax = (2266,"Pa"),
     ),
     reference = Article(
         authors = ["Roquitte, B.C.", "Walters, W.D."],
@@ -2534,7 +2620,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: IR absorption
 """,
-    history = [('Fri Jul 13 07:58:34 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964ROQ/WAL1606-1609:1')],
+    history = [
+        ("Fri Jul 13 07:58:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964ROQ/WAL1606-1609:1"""),
+    ],
 )
 
 entry(
@@ -2568,13 +2656,13 @@ entry(
     degeneracy = 4,
     kinetics = Arrhenius(
         A = (1.98e+15,"s^-1","*|/",1.16),
-        n = (0.0,""),
+        n = 0,
         Ea = (250.266,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (675.0,"K"),
-        Tmax = (736.0,"K"),
-        Pmin = (960.0,"Pa"),
-        Pmax = (1667.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (675,"K"),
+        Tmax = (736,"K"),
+        Pmin = (960,"Pa"),
+        Pmax = (1667,"Pa"),
     ),
     reference = Article(
         authors = ["Clements, A.D.", "Frey, H.M.", "Frey, J.G."],
@@ -2597,7 +2685,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
-    history = [('Fri Jul 13 07:58:43 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975CLE/FRE2485:1')],
+    history = [
+        ("Fri Jul 13 07:58:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975CLE/FRE2485:1"""),
+    ],
 )
 
 entry(
@@ -2631,13 +2721,13 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.45e+13,"s^-1","*|/",1.29),
-        n = (0.0,""),
+        n = 0,
         Ea = (157.144,"kJ/mol","+|-",1.571),
-        T0 = (1.0,"K"),
-        Tmin = (471.0,"K"),
-        Tmax = (534.0,"K"),
-        Pmin = (2000.0,"Pa"),
-        Pmax = (66700.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (471,"K"),
+        Tmax = (534,"K"),
+        Pmin = (2000,"Pa"),
+        Pmax = (66700,"Pa"),
     ),
     reference = Article(
         authors = ["Egger, K.W.", "Cocks, A.T."],
@@ -2660,7 +2750,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:58:46 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972EGG/COC211:1')],
+    history = [
+        ("Fri Jul 13 07:58:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972EGG/COC211:1"""),
+    ],
 )
 
 entry(
@@ -2694,13 +2786,13 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.62e+14,"s^-1","*|/",1.26),
-        n = (0.0,""),
+        n = 0,
         Ea = (202.873,"kJ/mol","+|-",2.029),
-        T0 = (1.0,"K"),
-        Tmin = (546.0,"K"),
-        Tmax = (652.0,"K"),
-        Pmin = (547.0,"Pa"),
-        Pmax = (5333.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (546,"K"),
+        Tmax = (652,"K"),
+        Pmin = (547,"Pa"),
+        Pmax = (5333,"Pa"),
     ),
     reference = Article(
         authors = ["Cocks, A.T.", "Egger, K.W."],
@@ -2722,7 +2814,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:58:50 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972COC/EGG2014:1')],
+    history = [
+        ("Fri Jul 13 07:58:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972COC/EGG2014:1"""),
+    ],
 )
 
 entry(
@@ -2755,14 +2849,14 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (1.22e+15,"s^-1","*|/",2.0),
-        n = (0.0,""),
+        A = (1.22e+15,"s^-1","*|/",2),
+        n = 0,
         Ea = (199.547,"kJ/mol","+|-",1.995),
-        T0 = (1.0,"K"),
-        Tmin = (536.0,"K"),
-        Tmax = (574.0,"K"),
-        Pmin = (3306.0,"Pa"),
-        Pmax = (3306.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (536,"K"),
+        Tmax = (574,"K"),
+        Pmin = (3306,"Pa"),
+        Pmax = (3306,"Pa"),
     ),
     reference = Article(
         authors = ["Chickos, J.S.", "Frey, H.M."],
@@ -2785,7 +2879,9 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 08:00:18 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987CHI/FRE365:2')],
+    history = [
+        ("Fri Jul 13 08:00:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987CHI/FRE365:2"""),
+    ],
 )
 
 entry(
@@ -2820,14 +2916,14 @@ entry(
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (7.23e+14,"s^-1","*|/",1.0700001),
-        n = (0.0,""),
+        A = (7.23e+14,"s^-1","*|/",1.07),
+        n = 0,
         Ea = (234.468,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (637.0,"K"),
-        Tmax = (700.0,"K"),
-        Pmin = (907.0,"Pa"),
-        Pmax = (907.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (637,"K"),
+        Tmax = (700,"K"),
+        Pmin = (907,"Pa"),
+        Pmax = (907,"Pa"),
     ),
     reference = Article(
         authors = ["Frey, H.M.", "Hopf, H."],
@@ -2849,7 +2945,9 @@ Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:58:08 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973FRE/HOP2016:1')],
+    history = [
+        ("Fri Jul 13 07:58:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973FRE/HOP2016:1"""),
+    ],
 )
 
 entry(
@@ -2887,13 +2985,13 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (7.94e+12,"s^-1","*|/",1.66),
-        n = (0.0,""),
+        n = 0,
         Ea = (157.975,"kJ/mol","+|-",1.58),
-        T0 = (1.0,"K"),
-        Tmin = (470.0,"K"),
-        Tmax = (550.0,"K"),
-        Pmin = (987.0,"Pa"),
-        Pmax = (9333.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (470,"K"),
+        Tmax = (550,"K"),
+        Pmin = (987,"Pa"),
+        Pmax = (9333,"Pa"),
     ),
     reference = Article(
         authors = ["Egger, K.W."],
@@ -2916,5 +3014,8 @@ Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 07:56:40 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973EGG285:1')],
+    history = [
+        ("Fri Jul 13 07:56:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973EGG285:1"""),
+    ],
 )
+

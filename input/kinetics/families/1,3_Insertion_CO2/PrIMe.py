@@ -47,9 +47,9 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.41e+14,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (3349.13,"J/mol"),
-        T0 = (1.0,"K"),
+        T0 = (1,"K"),
     ),
     reference = Article(
         authors = ["Chuchani, G.", "Martin, I."],
@@ -66,7 +66,9 @@ entry(
 u"""
 Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008130/rk00000001.xml
 """,
-    history = [('Tue May 17 14:34:12 2011', 'Josh Allen <jwallen@mit.edu>', 'action', 'Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008130/rk00000001.xml')],
+    history = [
+        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008130/rk00000001.xml"""),
+    ],
 )
 
 entry(
@@ -103,10 +105,10 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (26500000000.0,"s^-1"),
-        n = (0.0,""),
-        Ea = (133863.0,"J/mol"),
-        T0 = (1.0,"K"),
+        A = (2.65e+10,"s^-1"),
+        n = 0,
+        Ea = (133863,"J/mol"),
+        T0 = (1,"K"),
     ),
     reference = Article(
         authors = ["Bigley, D.B.", "May, R.W."],
@@ -122,7 +124,9 @@ entry(
 u"""
 Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000001.xml
 """,
-    history = [('Tue May 17 14:34:56 2011', 'Josh Allen <jwallen@mit.edu>', 'action', 'Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000001.xml')],
+    history = [
+        ("Tue May 17 14:34:56 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000001.xml"""),
+    ],
 )
 
 entry(
@@ -160,9 +164,9 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.04e+11,"s^-1"),
-        n = (0.0,""),
-        Ea = (143009.0,"J/mol"),
-        T0 = (1.0,"K"),
+        n = 0,
+        Ea = (143009,"J/mol"),
+        T0 = (1,"K"),
     ),
     reference = Article(
         authors = ["Al-Borno, A.", "Bigley, D.B."],
@@ -178,7 +182,9 @@ entry(
 u"""
 Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000002.xml
 """,
-    history = [('Tue May 17 14:34:56 2011', 'Josh Allen <jwallen@mit.edu>', 'action', 'Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000002.xml')],
+    history = [
+        ("Tue May 17 14:34:56 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000002.xml"""),
+    ],
 )
 
 entry(
@@ -214,9 +220,9 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.03e+11,"s^-1"),
-        n = (0.0,""),
-        Ea = (154649.0,"J/mol"),
-        T0 = (1.0,"K"),
+        n = 0,
+        Ea = (154649,"J/mol"),
+        T0 = (1,"K"),
     ),
     reference = Article(
         authors = ["Al-Borno, A.", "Bigley, D.B."],
@@ -232,7 +238,9 @@ entry(
 u"""
 Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00014891/rk00000002.xml
 """,
-    history = [('Tue May 17 14:35:16 2011', 'Josh Allen <jwallen@mit.edu>', 'action', 'Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00014891/rk00000002.xml')],
+    history = [
+        ("Tue May 17 14:35:16 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00014891/rk00000002.xml"""),
+    ],
 )
 
 entry(
@@ -274,9 +282,9 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (1.07e+11,"s^-1"),
-        n = (0.0,""),
-        Ea = (146335.0,"J/mol"),
-        T0 = (1.0,"K"),
+        n = 0,
+        Ea = (146335,"J/mol"),
+        T0 = (1,"K"),
     ),
     reference = Article(
         authors = ["Bigley, D.B.", "May, R.W."],
@@ -292,5 +300,8 @@ entry(
 u"""
 Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015736/rk00000001.xml
 """,
-    history = [('Tue May 17 14:35:27 2011', 'Josh Allen <jwallen@mit.edu>', 'action', 'Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015736/rk00000001.xml')],
+    history = [
+        ("Tue May 17 14:35:27 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015736/rk00000001.xml"""),
+    ],
 )
+

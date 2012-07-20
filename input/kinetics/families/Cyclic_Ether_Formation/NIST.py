@@ -37,13 +37,13 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2e+11,"s^-1"),
-        n = (0.0,""),
+        n = 0,
         Ea = (73.001,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (653.0,"K"),
-        Tmax = (793.0,"K"),
-        Pmin = (66700.0,"Pa"),
-        Pmax = (66700.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (653,"K"),
+        Tmax = (793,"K"),
+        Pmin = (66700,"Pa"),
+        Pmax = (66700,"Pa"),
     ),
     reference = Article(
         authors = ["Baldwin, R.R.", "Hisham, M.W.M.", "Walker, R.W."],
@@ -66,7 +66,9 @@ Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
-    history = [('Fri Jul 13 08:21:18 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982BAL/HIS1615:8')],
+    history = [
+        ("Fri Jul 13 08:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982BAL/HIS1615:8"""),
+    ],
 )
 
 entry(
@@ -98,13 +100,13 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (3.05e+35,"s^-1"),
-        n = (-7.46,""),
+        n = -7.46,
         Ea = (100.362,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (300.0,"K"),
-        Tmax = (900.0,"K"),
-        Pmin = (101000.0,"Pa"),
-        Pmax = (101000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (900,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
     ),
     reference = Article(
         authors = ["Sun, H.", "Bozzelli, J.W."],
@@ -124,7 +126,9 @@ Category: Theory
 Data type: Ab initio
 Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways).  This includes primary reaction pathways as well as subsequent secondary reactions.  Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules.  Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures.  For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
 """,
-    history = [('Fri Jul 13 08:21:18 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004SUN/BOZ1694-1711:23')],
+    history = [
+        ("Fri Jul 13 08:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004SUN/BOZ1694-1711:23"""),
+    ],
 )
 
 entry(
@@ -156,13 +160,13 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (4.78e+17,"s^-1"),
-        n = (-2.45,""),
+        n = -2.45,
         Ea = (48.103,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (900.0,"K"),
-        Tmax = (2500.0,"K"),
-        Pmin = (101000.0,"Pa"),
-        Pmax = (101000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (900,"K"),
+        Tmax = (2500,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
     ),
     reference = Article(
         authors = ["Sun, H.", "Bozzelli, J.W."],
@@ -182,5 +186,8 @@ Category: Theory
 Data type: Ab initio
 Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways).  This includes primary reaction pathways as well as subsequent secondary reactions.  Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules.  Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures.  For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
 """,
-    history = [('Fri Jul 13 08:21:18 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004SUN/BOZ1694-1711:24')],
+    history = [
+        ("Fri Jul 13 08:21:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004SUN/BOZ1694-1711:24"""),
+    ],
 )
+

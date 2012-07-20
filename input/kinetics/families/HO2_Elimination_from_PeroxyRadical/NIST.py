@@ -33,13 +33,13 @@ entry(
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (6.93e+14,"s^-1"),
-        n = (-0.63,""),
+        n = -0.63,
         Ea = (-132.2,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (300.0,"K"),
-        Tmax = (1000.0,"K"),
-        Pmin = (1013.0,"Pa"),
-        Pmax = (1010000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1000,"K"),
+        Pmin = (1013,"Pa"),
+        Pmax = (1.01e+06,"Pa"),
     ),
     reference = Article(
         authors = ["Wagner, A.F.", "Slagle, I.R.", "Sarzynski, D.", "Gutman, D."],
@@ -62,7 +62,9 @@ Data type: High or low pressure extrapolation
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Mass spectrometry
 """,
-    history = [('Fri Jul 13 08:20:43 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990WAG/SLA1853-1868:1')],
+    history = [
+        ("Fri Jul 13 08:20:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990WAG/SLA1853-1868:1"""),
+    ],
 )
 
 entry(
@@ -90,11 +92,11 @@ entry(
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (9.12e+31,"s^-1"),
-        n = (-6.88,""),
+        n = -6.88,
         Ea = (141.845,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (296.0,"K"),
-        Tmax = (700.0,"K"),
+        T0 = (1,"K"),
+        Tmin = (296,"K"),
+        Tmax = (700,"K"),
     ),
     reference = Article(
         authors = ["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."],
@@ -116,8 +118,10 @@ Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
 Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
 """,
-    history = [('Fri Jul 13 08:20:43 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:3'),
-               ('Wed Jul 18 13:27:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Removed invalid pressure range according to http://pubs.acs.org/doi/abs/10.1021/jp0221946')],
+    history = [
+        ("Fri Jul 13 08:20:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:3"""),
+        ("Wed Jul 18 13:27:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Removed invalid pressure range according to http://pubs.acs.org/doi/abs/10.1021/jp0221946"""),
+    ],
 )
 
 entry(
@@ -144,14 +148,14 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (71400.0,"s^-1"),
-        n = (2.32,""),
+        A = (71400,"s^-1"),
+        n = 2.32,
         Ea = (116.964,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (298.0,"K"),
-        Tmax = (2000.0,"K"),
-        Pmin = (133.0,"Pa"),
-        Pmax = (133000.0,"Pa"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (2000,"K"),
+        Pmin = (133,"Pa"),
+        Pmax = (133000,"Pa"),
     ),
     reference = Article(
         authors = ["Miller, J.A.", "Klippenstein, S.J."],
@@ -172,7 +176,9 @@ Data type: Transition state theory
 Pressure dependence: Rate constant is pressure dependent
 Comments: Potential energy diagrams for various product channels have been computed.Three different regimes of the reaction (low-temperature, transition, and high-temperature) have been discussed in terms of eigenvectors and eigenvalues of the transition matrix of the master equation.Low pressure rate constant; k(0) = 1.38E-2 T^(-0.651) exp(-22890/RT) cm^3 / molecule s  with F(cent)=exp (-T/106).
 """,
-    history = [('Fri Jul 13 08:20:43 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001MIL/KLI654-668:3')],
+    history = [
+        ("Fri Jul 13 08:20:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001MIL/KLI654-668:3"""),
+    ],
 )
 
 entry(
@@ -202,11 +208,11 @@ entry(
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.45e+25,"s^-1"),
-        n = (-4.48,""),
+        n = -4.48,
         Ea = (136.44,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (296.0,"K"),
-        Tmax = (700.0,"K"),
+        T0 = (1,"K"),
+        Tmin = (296,"K"),
+        Tmax = (700,"K"),
     ),
     reference = Article(
         authors = ["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."],
@@ -229,8 +235,10 @@ Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
 Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
 """,
-    history = [('Fri Jul 13 08:20:59 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:9'),
-               ('Wed Jul 18 13:27:00 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Removed invalid pressure range according to http://pubs.acs.org/doi/abs/10.1021/jp0221946')],
+    history = [
+        ("Fri Jul 13 08:20:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:9"""),
+        ("Wed Jul 18 13:27:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Removed invalid pressure range according to http://pubs.acs.org/doi/abs/10.1021/jp0221946"""),
+    ],
 )
 
 entry(
@@ -262,11 +270,11 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (2.01e-05,"m^3/(mol*s)"),
-        n = (2.48,""),
+        n = 2.48,
         Ea = (82.006,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (300.0,"K"),
-        Tmax = (2000.0,"K"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2000,"K"),
     ),
     reference = Article(
         authors = ["Chen, C.-J.", "Bozzelli, J.W."],
@@ -287,7 +295,9 @@ Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 """,
-    history = [('Fri Jul 13 08:20:50 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:8')],
+    history = [
+        ("Fri Jul 13 08:20:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:8"""),
+    ],
 )
 
 entry(
@@ -319,11 +329,11 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(
         A = (4.04e+12,"s^-1"),
-        n = (0.82,""),
+        n = 0.82,
         Ea = (114.767,"kJ/mol"),
-        T0 = (1.0,"K"),
-        Tmin = (300.0,"K"),
-        Tmax = (2000.0,"K"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2000,"K"),
     ),
     reference = Article(
         authors = ["Chen, C.-J.", "Bozzelli, J.W."],
@@ -344,5 +354,8 @@ Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 """,
-    history = [('Fri Jul 13 08:20:51 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:2')],
+    history = [
+        ("Fri Jul 13 08:20:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:2"""),
+    ],
 )
+
