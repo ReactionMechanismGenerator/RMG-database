@@ -9,69 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 12,
-    label = "r00008130",
-    reactant1 = 
-"""
-1  *3 C 0 {2,S} {8,S} {9,S}
-2     C 0 {1,S} {3,B} {4,B}
-3     C 0 {2,B} {6,B}
-4     C 0 {2,B} {7,B}
-5     C 0 {6,B} {7,B}
-6     C 0 {3,B} {5,B}
-7     C 0 {4,B} {5,B}
-8  *1 C 0 {1,S} {10,S} {11,D}
-9     O 0 {1,S}
-10 *2 O 0 {8,S} {12,S}
-11    O 0 {8,D}
-12 *4 H 0 {10,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,D} {3,D}
-2 *2 O 0 {1,D}
-3    O 0 {1,D}
-""",
-    product2 = 
-"""
-1 *3 C 0 {2,S} {8,S} {9,S}
-2    C 0 {1,S} {3,B} {4,B}
-3    C 0 {2,B} {5,B}
-4    C 0 {2,B} {6,B}
-5    C 0 {3,B} {7,B}
-6    C 0 {4,B} {7,B}
-7    C 0 {5,B} {6,B}
-8    O 0 {1,S}
-9 *4 H 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.41e+14,"s^-1"),
-        n = 0,
-        Ea = (3349.13,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Chuchani, G.", "Martin, I."],
-        title = u'ELIMINATION KINETICS OF DL-MANDELIC ACID IN THE GAS PHASE',
-        journal = "J. Phys. Org. Chem.",
-        volume = "10",
-        pages = """121-124""",
-        year = "1997",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00008130/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008130/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008130/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 16,
     label = "r00012640",
     reactant1 = 

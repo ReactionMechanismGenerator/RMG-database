@@ -1353,3 +1353,79 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 23,
+    label = "1997CHU/MAR121-124:2",
+    reactant1 = 
+"""
+1  *3 C 0 {2,S} {8,S} {9,S}
+2     C 0 {1,S} {3,B} {4,B}
+3     C 0 {2,B} {6,B}
+4     C 0 {2,B} {7,B}
+5     C 0 {6,B} {7,B}
+6     C 0 {3,B} {5,B}
+7     C 0 {4,B} {5,B}
+8  *1 C 0 {1,S} {10,S} {11,D}
+9     O 0 {1,S}
+10 *2 O 0 {8,S} {12,S}
+11    O 0 {8,D}
+12 *4 H 0 {10,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D} {3,D}
+2 *2 O 0 {1,D}
+3    O 0 {1,D}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,S} {8,S} {9,S}
+2    C 0 {1,S} {3,B} {4,B}
+3    C 0 {2,B} {5,B}
+4    C 0 {2,B} {6,B}
+5    C 0 {3,B} {7,B}
+6    C 0 {4,B} {7,B}
+7    C 0 {5,B} {6,B}
+8    O 0 {1,S}
+9 *4 H 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.41e+14,"s^-1","+|-",1.15e+14),
+        n = 0,
+        Ea = (202.7,"kJ/mol","+|-",4.6),
+        T0 = (1,"K"),
+        Tmin = (583,"K"),
+        Tmax = (613,"K"),
+        Pmin = (2026,"Pa"),
+        Pmax = (6946,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Chuchani, G.", "Martin, I."],
+        title = u'ELIMINATION KINETICS OF DL-MANDELIC ACID IN THE GAS PHASE',
+        journal = "J. Phys. Org. Chem.",
+        volume = "10",
+        pages = """121-124""",
+        year = "1997",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1997CHU/MAR121-124:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008130
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008130/rk00000001.xml
+Category: Experiment
+Data type: Absolute value measured directly
+Pressure dependence: None reported
+Experimental procedure: Static or low flow - Data taken vs time
+Excitation technique: Thermal
+Time resolution: By end product analysis
+Analytical technique: Pressure measurement
+Comments: The A-factor given in the paper (1.41x1013 s-1) is one order of magnitude smaller than required to reproduce the reported rate constants, apparently due to a typographical error. The value listed here closely reproduces the actual rate data listed by the authors and our least squares analysis of their reported rate data.
+""",
+    history = [
+        ("Fri Jul 20 17:40:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997CHU/MAR121-124:0"""),
+    ],
+)
+
