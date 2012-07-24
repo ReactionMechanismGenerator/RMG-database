@@ -3697,3 +3697,64 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 62,
+    label = "1974HOL/SCO43:2",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2 *4 C 0 {1,S} {5,S} {6,S}
+3 *1 C 0 {1,S} {6,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6 *3 O 0 {2,S} {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *4 C 0 {1,S} {3,D}
+3 *3 O 0 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (8.13e+15,"s^-1","*|/",1.78),
+        n = 0,
+        Ea = (270.22,"kJ/mol","+|-",2.702),
+        T0 = (1,"K"),
+        Tmin = (688,"K"),
+        Tmax = (756,"K"),
+        Pmin = (267,"Pa"),
+        Pmax = (4266,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Holbrook, K.A.", "Scott, R.A."],
+        title = u'Gas-phase Unimolecular Pyrolyses of cis- and trans-2,3-Dimethyloxetan',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "70",
+        pages = """43""",
+        year = "1974",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016232
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016232/rk00000001.xml
+Uncertainty: 1.78
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 17:59:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:2"""),
+    ],
+)
+
