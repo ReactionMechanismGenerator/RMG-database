@@ -7062,3 +7062,72 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 117,
+    label = "1960KER/TRO1602:5",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4 *1 C 1 {2,S}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *2 C 0 {1,S} {4,S} {5,S}
+3    C 0 {1,S}
+4 *3 C 1 {2,S}
+5 *4 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4 *1 C 0 {2,S} {5,S}
+5 *4 H 0 {4,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *2 C 0 {1,S} {4,D}
+4 *3 C 0 {3,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.98e+08,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (5.438,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (334,"K"),
+        Tmax = (502,"K"),
+        Pmin = (1600,"Pa"),
+        Pmax = (2800,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kerr, J.A.", "Trotman-Dickenson, A.F."],
+        title = u'The reactions of alkyl radicals. Part III. n-Butyl radicals from the photolysis of n-Valeraldehyde',
+        journal = "J. Chem. Soc.",
+        pages = """1602""",
+        year = "1960",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1960KER/TRO1602:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011216
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011216/rk00000001.xml
+Bath gas: n-C4H9CHO
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 17:23:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960KER/TRO1602:5"""),
+    ],
+)
+
