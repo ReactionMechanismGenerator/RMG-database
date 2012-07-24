@@ -1575,3 +1575,73 @@ Analytical technique: Pressure measurement
     ],
 )
 
+entry(
+    index = 26,
+    label = "1967BIG/MAY557-559:5",
+    reactant1 = 
+"""
+1  *3 C 0 {3,S} {4,S} {7,S} {9,S}
+2     C 0 {5,S} {7,S}
+3     C 0 {1,S}
+4     C 0 {1,S}
+5     C 0 {2,S}
+6     C 0 {8,S}
+7     C 0 {1,S} {2,S} {8,D}
+8     C 0 {6,S} {7,D}
+9  *1 C 0 {1,S} {10,S} {11,D}
+10 *2 O 0 {9,S} {12,S}
+11    O 0 {9,D}
+12 *4 H 0 {10,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D} {3,D}
+2 *2 O 0 {1,D}
+3    O 0 {1,D}
+""",
+    product2 = 
+"""
+1 *3 C 0 {3,S} {4,S} {7,S} {9,S}
+2    C 0 {5,S} {7,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6    C 0 {8,S}
+7    C 0 {1,S} {2,S} {8,D}
+8    C 0 {6,S} {7,D}
+9 *4 H 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.07e+11,"s^-1"),
+        n = 0,
+        Ea = (146.335,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (467,"K"),
+        Tmax = (502,"K"),
+    ),
+    reference = Article(
+        authors = ["Bigley, D.B.", "May, R.W."],
+        title = u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids',
+        journal = "J. Chem. Soc. B",
+        pages = """557-559""",
+        year = "1967",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015736
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015736/rk00000001.xml
+Bath gas: CH3CH=C(C2H5)C(CH3)2COOH
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 15:01:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:5"""),
+    ],
+)
+
