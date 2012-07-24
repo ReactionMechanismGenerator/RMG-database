@@ -3819,3 +3819,66 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 64,
+    label = "1971COC/FRE1437:2",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
+2 *4 C 0 {1,S} {4,S} {7,S}
+3 *1 C 0 {1,S} {4,S}
+4 *3 C 0 {2,S} {3,S}
+5    C 0 {1,S}
+6    C 0 {1,S}
+7    C 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *4 C 0 {1,S} {3,D}
+3 *3 C 0 {2,D}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (5.62e+15,"s^-1","*|/",1.17),
+        n = 0,
+        Ea = (251.929,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (660,"K"),
+        Tmax = (728,"K"),
+        Pmin = (667,"Pa"),
+        Pmax = (1600,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Cocks, A.T.", "Frey, H.M."],
+        title = u'The Thermal Unimolecular Decomposition of 1,1,2-Trimethylcyclobutane',
+        journal = "J. Phys. Chem.",
+        volume = "75",
+        pages = """1437""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971COC/FRE1437:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016300
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016300/rk00000001.xml
+Uncertainty: 1.17
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 18:02:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971COC/FRE1437:2"""),
+    ],
+)
+
