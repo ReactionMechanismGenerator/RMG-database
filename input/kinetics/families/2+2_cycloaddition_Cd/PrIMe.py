@@ -9,57 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 51,
-    label = "r00015649",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {5,S}
-2 *4 C 0 {1,S} {4,S} {6,S}
-3 *1 C 0 {1,S} {4,S}
-4 *3 C 0 {2,S} {3,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3 *1 C 0 {2,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2 *4 C 0 {1,S} {3,D}
-3 *3 C 0 {2,D}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (3e+15,"s^-1"),
-        n = 0,
-        Ea = (252760,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Gerberich, H.R.", "Walters, W.D."],
-        title = u'The thermal decomposition of cis-1,2-dimethylcyclobutane',
-        journal = "J. Am. Chem. Soc.",
-        volume = "83",
-        pages = """3935-3939""",
-        year = "1961",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00015649/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015649/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:35:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015649/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 53,
     label = "r00015652",
     reactant1 = 
