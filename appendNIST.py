@@ -69,12 +69,13 @@ def main():
             return
 
     nistEntry = queryNIST(primeEntry, squib)
-    nistEntry.index = nistEntries[-1].index + 1
 
-    if match(nistEntry.data, primeEntry.data):
-        appendToNIST(nistEntry, family)
-        rewritePrIMe(primeDepo.entries.values(), family, primeIndex)
-        gitCommit(family, primeIndex, nistEntry.index, squib)
+    if nistEntry is not None:
+        nistEntry.index = nistEntries[-1].index + 1
+        if match(nistEntry.data, primeEntry.data):
+            appendToNIST(nistEntry, family)
+            rewritePrIMe(primeDepo.entries.values(), family, primeIndex)
+            gitCommit(family, primeIndex, nistEntry.index, squib)
 
 
 ###############################################################################
@@ -119,6 +120,7 @@ def queryNIST(entry, squib):
         assert isinstance(result, Entry)
     except:
         print result
+        return None
 
     return getReference(result, squib, cookiejar)
 
