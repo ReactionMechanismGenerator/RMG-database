@@ -3447,3 +3447,76 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 54,
+    label = "1971DEM/HUY1397:4",
+    reactant1 = 
+"""
+1  *1 C 0 {2,S} {3,S} {5,S}
+2  *2 C 0 {1,S} {4,S} {9,S}
+3  *3 C 0 {1,S} {7,S} {11,S}
+4  *6 C 0 {2,S} {6,S} {10,S}
+5     C 0 {1,S} {8,S}
+6     C 0 {4,S} {7,S}
+7     C 0 {3,S} {6,S}
+8     C 0 {5,S} {12,S}
+9     C 0 {2,S} {12,D}
+10 *5 C 0 {4,S} {11,D}
+11 *4 C 0 {3,S} {10,D}
+12    C 0 {8,S} {9,D}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *1 C 0 {1,S} {5,D}
+4    C 0 {2,S} {6,D}
+5 *2 C 0 {3,D} {6,S}
+6    C 0 {4,D} {5,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *3 C 0 {1,S} {5,D}
+4 *6 C 0 {2,S} {6,D}
+5 *4 C 0 {3,D} {6,S}
+6 *5 C 0 {4,D} {5,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.51e+14,"s^-1","*|/",5),
+        n = 0,
+        Ea = (217.839,"kJ/mol","+|-",8.73),
+        T0 = (1,"K"),
+        Tmin = (554,"K"),
+        Tmax = (631,"K"),
+        Pmin = (533,"Pa"),
+        Pmax = (2666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["De Mare, G.R.", "Huybrechts, G.", "Toth, M.", "Goldfinger, P."],
+        title = u'Thermal Dimerization of 1,3-Cyclohexadiene in the Gas Phase',
+        journal = "Trans. Faraday Soc.",
+        volume = "67",
+        pages = """1397""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971DEM/HUY1397:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008812
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008812/rk00000001.xml
+Uncertainty: 5.0
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 16:13:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971DEM/HUY1397:4"""),
+    ],
+)
+
