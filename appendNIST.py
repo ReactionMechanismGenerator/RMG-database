@@ -180,13 +180,17 @@ def getKinetics(entry, squib, cookiejar):
     order = tdlist[16].text
 
     if ';' in A:
-        return 'Invalid pre-exponential.'
+        print 'Invalid pre-exponential.'
+        set_trace()
     if ';' in Ea:
-        return 'Invalid activation energy.'
+        print 'Invalid activation energy.'
+        set_trace()
     if ';' in order:
-        return 'Invalid reaction order.'
+        print 'Invalid reaction order.'
+        set_trace()
     if int(order) != len(entry.item.reactants):
-        return 'Order does not match number of reactants.'
+        print 'Order does not match number of reactants.'
+        set_trace()
 
     if n == '&nbsp;':
         n = 0.0
