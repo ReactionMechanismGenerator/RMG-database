@@ -376,3 +376,69 @@ Pressure dependence: Rate constant is high pressure limit
     ],
 )
 
+entry(
+    index = 7,
+    label = "2003DES/KLI4415-4427:6",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2 *1 C 0 {1,S} {5,S}
+3    C 0 {1,S}
+4 *3 O 0 {1,S} {6,S}
+5 *5 H 0 {2,S}
+6 *4 O 1 {4,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S} {3,S}
+2 *3 O 1 {1,S}
+3 *5 H 0 {1,S}
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (2.63e+36,"s^-1"),
+        n = -7.86,
+        Ea = (153.236,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (296,"K"),
+        Tmax = (700,"K"),
+    ),
+    reference = Article(
+        authors = ["DeSain, J.D.", "Klippenstein, S.J.", "Miller, J.A.", "Taatjes, C.A."],
+        title = u'Measurements, Theory, and Modeling of OH Formation in Ethyl + O2 and Propyl + O2 Reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "107",
+        pages = """4415-4427""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:6",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012692
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012692/rk00000001.xml
+Bath gas: He
+Category: Theory
+Data type: Ab initio
+
+Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
+
+Employed earlier quantum calculations (see references below) combined with master equation modeling to provide rate expressions for many reactions in this system. Only a few rate expressions are abstracted here.
+
+Miller and Klippenstein, IJCK 33, 654 (2001)
+DeSain et al, Farad. Disc. 119, 101 (2001)
+""",
+    history = [
+        ("Tue Jul 24 16:31:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:6"""),
+    ],
+)
+
