@@ -3166,3 +3166,73 @@ Analytical technique: Other (direct)
     ],
 )
 
+entry(
+    index = 50,
+    label = "1982HUY/HUB259:3",
+    reactant1 = 
+"""
+1 *4 C 0 {2,S} {3,D}
+2 *5 C 0 {1,S} {4,D}
+3 *3 C 0 {1,D}
+4 *6 C 0 {2,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *1 C 0 {1,S} {5,D}
+4    C 0 {2,S} {6,D}
+5 *2 C 0 {3,D} {6,S}
+6    C 0 {4,D} {5,S}
+""",
+    product1 = 
+"""
+1  *1 C 0 {2,S} {3,S} {4,S}
+2  *2 C 0 {1,S} {5,S} {7,S}
+3     C 0 {1,S} {6,S}
+4  *3 C 0 {1,S} {8,S}
+5  *6 C 0 {2,S} {9,S}
+6     C 0 {3,S} {10,S}
+7     C 0 {2,S} {10,D}
+8  *4 C 0 {4,S} {9,D}
+9  *5 C 0 {5,S} {8,D}
+10    C 0 {6,S} {7,D}
+""",
+    degeneracy = 32,
+    kinetics = Arrhenius(
+        A = (10500,"m^3/(mol*s)","*|/",1.07),
+        n = 0,
+        Ea = (106.425,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (437,"K"),
+        Tmax = (526,"K"),
+        Pmin = (14800,"Pa"),
+        Pmax = (65300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Huybrechts, G.", "Hubin, Y.", "Narmon, M.", "Van Mele, B."],
+        title = u'Kinetics and Mechanism of the Addition of 1,3-Butadiene to Cyclohexa-1,3-diene in the Gas Phase',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "14",
+        pages = """259""",
+        year = "1982",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1982HUY/HUB259:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004737
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004737/rk00000001.xml
+Uncertainty: 1.0700001
+Bath gas: 1,3-Butadiene
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 15:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HUY/HUB259:3"""),
+    ],
+)
+
