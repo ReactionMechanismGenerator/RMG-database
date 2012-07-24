@@ -170,8 +170,11 @@ def getKinetics(entry, squib, cookiejar):
     else:
         return 'No results found for {0}.'.format(squib)
 
-    if 'Reference reaction' in tr.findNext(name='tr').text:
-        return 'Result is a reference reaction.'
+    try:
+        if 'Reference reaction' in tr.findNext(name='tr').text:
+            return 'Result is a reference reaction.'
+    except AttributeError:
+        pass
 
     Trange = tdlist[6].text
     A = tdlist[8].text
