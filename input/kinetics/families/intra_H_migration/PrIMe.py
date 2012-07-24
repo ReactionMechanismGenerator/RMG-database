@@ -9,58 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 3,
-    label = "r00000087",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {7,S}
-2 *5 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,S}
-4    C 0 {2,S} {6,S}
-5    C 0 {3,S}
-6 *4 C 0 {4,S} {8,S}
-7 *3 H 0 {1,S}
-8 *1 O 1 {6,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {4,S}
-2 *4 C 0 {1,S} {6,S}
-3    C 0 {5,S} {6,S}
-4 *5 C 0 {1,S} {7,S}
-5    C 0 {3,S}
-6 *1 C 1 {2,S} {3,S}
-7 *2 O 0 {4,S} {8,S}
-8 *3 H 0 {7,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.4e+12,"s^-1"),
-        n = 0,
-        Ea = (127.224,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
-        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
-        journal = "Phys. Chem. Chem. Phys.",
-        volume = "5",
-        pages = """4828-4833""",
-        year = "2003",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00000087/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00000087/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:24 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00000087/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 4,
     label = "r00000088",
     reactant1 = 
