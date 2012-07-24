@@ -9,57 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 34,
-    label = "r00011611",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {5,S}
-2 *1 C 0 {1,S} {4,S}
-3 *4 C 0 {1,S} {4,S}
-4 *3 C 0 {2,S} {3,S}
-5    C 0 {1,S} {6,D}
-6    O 0 {5,D}
-""",
-    product1 = 
-"""
-1 *2 C 0 {2,S} {3,D}
-2    C 0 {1,S} {4,D}
-3 *1 C 0 {1,D}
-4    O 0 {2,D}
-""",
-    product2 = 
-"""
-1 *4 C 0 {2,D}
-2 *3 C 0 {1,D}
-""",
-    degeneracy = 12,
-    kinetics = Arrhenius(
-        A = (2.7e+14,"s^-1"),
-        n = 0,
-        Ea = (222828,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Roquitte, B.C.", "Walters, W.D."],
-        title = u'The thermal decomposition of cyclobutanecarboxaldehyde',
-        journal = "J. Am. Chem. Soc.",
-        volume = "84",
-        pages = """4049-4052""",
-        year = "1962",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011611/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011611/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:48 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011611/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 35,
     label = "r00011630",
     reactant1 = 
