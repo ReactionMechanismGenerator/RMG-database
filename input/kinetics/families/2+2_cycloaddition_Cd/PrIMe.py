@@ -9,57 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 55,
-    label = "r00016231",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3 *3 C 0 {1,S} {6,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6 *4 O 0 {2,S} {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *2 C 0 {1,S} {4,D}
-4 *1 C 0 {2,S} {3,D}
-""",
-    product2 = 
-"""
-1 *3 C 0 {2,D}
-2 *4 O 0 {1,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (3.09e+15,"s^-1"),
-        n = 0,
-        Ea = (266063,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Holbrook, K.A.", "Scott, R.A."],
-        title = u'Gas-phase Unimolecular Pyrolyses of cis- and trans-2,3-Dimethyloxetan',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "70",
-        pages = """43""",
-        year = "1974",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00016231/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016231/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:35:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016231/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 56,
     label = "r00016232",
     reactant1 = 
