@@ -7660,9 +7660,6 @@ PrIMe Reaction: r00002499
 Category: Review
 Data type: Extensive literature review
 Comments: A factor and sign on Ea given in table in paper are incorrect
-
-
-
 Note: Invalid activation energy uncertainty (1.164) found and ignored
 """,
     history = [
@@ -11525,10 +11522,6 @@ Excitation technique: Discharge
 Time resolution: In real time
 Analytical technique: Electron spin resonance (ESR or EPR)
 Comments: At pressures of a few millibars using the discharge flow method with electron paramagnetic resonance (EPR) for the detection of H and D atoms and laser-induced fluorescence (LIF) for the
-measurement of HCO.
-
-
-
 measurement of HCO.
 """,
     history = [
@@ -18183,9 +18176,6 @@ PrIMe Reaction: r00010849
 Category: Theory
 Data type: Ab initio
 Comments: Rate constants calculated at several temperatures using the VTST-ISPE mapped interpolation scheme at the multicoefficient correlation method (MMCM) at the CCSD(T) level of theory. Parameters are from a fit by the abstractor to these data.
-Calculations at several other levels of theory also presented.
-
-
 
 Calculations at several other levels of theory also presented.
 """,
@@ -62411,13 +62401,6 @@ Category: Theory
 Data type: Ab initio
 Pressure dependence: None reported
 Comments: Ab initio study, using density functional theory (DFT) and transition state theory (TST) coupled with Eckart tunneling correction factors. Geometries are optimized by B3-LYP/6-311G(d,p) geometries, followed by BMK/6-311+G-(3df,2p) single-point energies. 
-
-Ea = 71.8kJ/mol
-DrH = 30.6kJ/mol
-no uncertainties reported.
-
-
-
 
 Ea = 71.8kJ/mol
 DrH = 30.6kJ/mol
