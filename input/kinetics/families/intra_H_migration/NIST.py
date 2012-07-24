@@ -164,7 +164,8 @@ PrIMe Reaction: r00011212
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
+
+Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
 
 1,3 Hydrogen shift
 """,
@@ -218,7 +219,8 @@ PrIMe Reaction: r00011212
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
+
+Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
 
 1,2 Hydrogen shift
 """,
@@ -557,7 +559,8 @@ PrIMe Reaction: r00011467
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
+
+Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
 
 1,2 Hydrogen shift
 """,
@@ -613,7 +616,8 @@ PrIMe Reaction: r00011467
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
+
+Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
 
 1,4 Hydrogen shift
 """,
@@ -776,7 +780,8 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
+
+Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
 
 1,3 Hydrogen shift
 """,
@@ -841,7 +846,8 @@ Experimental procedure: Shock tube
 Excitation technique: Thermal
 Time resolution: By end product analysis
 Analytical technique: Gas chromatography
-Comments: The high pressure rate expression is based on an RRKM/Master Equation analysis of the the data taken at 1.5 to 5 bar and 890-1020 K. Absolute values were derived assuming
+
+The high pressure rate expression is based on an RRKM/Master Equation analysis of the the data taken at 1.5 to 5 bar and 890-1020 K. Absolute values were derived assuming
 k(1-hexyl -> n-butyl + ethene)/s-1= 1.02x1012T0.30exp(-13726/T)
 This expression was derived via detailed balance and low temperature data on the reverse addition 
 (Kerr&Parsonage;, Evaluated Kinetic Data ..., Butterworth, London, 1972).
@@ -1319,7 +1325,8 @@ u"""
 PrIMe Reaction: r00016217
 Category: Theory
 Data type: Ab initio
-Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+
+Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
 
 Rate expressions reported are derived from ab initio transition states using QRRK analysis of the chemically activated reaction pathways. We have only abstracted rate expressions from the paper for 1 atm and 300-900 K. For other pressures and at higher temperatures see paper.
 """,
@@ -1380,7 +1387,8 @@ u"""
 PrIMe Reaction: r00016217
 Category: Theory
 Data type: Ab initio
-Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+
+Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
 
 Rate expressions reported are derived from ab initio transition states using QRRK analysis of the chemically activated reaction pathways. We have only abstracted rate expressions from the paper for 1 atm and 300-900 K. For other pressures and at higher temperatures see paper.
 """,

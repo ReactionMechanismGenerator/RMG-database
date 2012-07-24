@@ -301,7 +301,8 @@ Pressure dependence: None reported
 Excitation technique: Thermal
 Time resolution: By end product analysis
 Analytical technique: Gas chromatography
-Comments: Two experimental set-ups were used: experiments at 710-748 K and 37-53 torr were performed in a static reactor, while the shock tube methodology was used at 966-1190 K with shock pressures of about 2 atm. The rate parameters are from the literature but provide a reasonable fit to the present data.
+
+Two experimental set-ups were used: experiments at 710-748 K and 37-53 torr were performed in a static reactor, while the shock tube methodology was used at 966-1190 K with shock pressures of about 2 atm. The rate parameters are from the literature but provide a reasonable fit to the present data.
 """,
     history = [
         ("Fri Jul 13 07:33:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984LEW/BER4112:2"""),

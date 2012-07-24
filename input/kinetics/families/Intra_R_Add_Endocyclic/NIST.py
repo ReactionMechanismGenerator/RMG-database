@@ -152,7 +152,8 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate expressions derived from transition states from CBS-Q calculations of Sumathi.
+
+Rate expressions derived from transition states from CBS-Q calculations of Sumathi.
 """,
     history = [
         ("Fri Jul 13 08:17:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:1"""),
@@ -259,7 +260,8 @@ PrIMe Reaction: r00013098
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
 Pressure dependence: Rate constant is high pressure limit
-Comments: The log(k∞/k) values at various pressures were presented in four parameters form
+
+The log(k∞/k) values at various pressures were presented in four parameters form
 """,
     history = [
         ("Fri Jul 13 08:17:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006TSA8501-8509:11"""),
@@ -311,7 +313,8 @@ PrIMe Reaction: r00013098
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate expressions derived from transition states from CBS-Q calculations of Sumathi.
+
+Rate expressions derived from transition states from CBS-Q calculations of Sumathi.
 """,
     history = [
         ("Fri Jul 13 08:17:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:2"""),
@@ -474,7 +477,8 @@ PrIMe Reaction: r00013098
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
 Pressure dependence: Rate constant is high pressure limit
-Comments: The log(k∞/k) values at various pressures were presented in four parameters form
+
+The log(k∞/k) values at various pressures were presented in four parameters form
 """,
     history = [
         ("Fri Jul 13 08:17:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006TSA8501-8509:9"""),
@@ -528,7 +532,8 @@ PrIMe Reaction: r00015692
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate expressions derived from transition states from B3LYP/cc-pVTZ calculations of Sumathi.
+
+Rate expressions derived from transition states from B3LYP/cc-pVTZ calculations of Sumathi.
 """,
     history = [
         ("Fri Jul 13 08:17:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:3"""),

@@ -113,7 +113,8 @@ PrIMe Reaction: r00010601
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure independent
-Comments: The authors calculated the potential energy surface at several levels of theory, up to UQCISD(T)/aug-cc-pVTZ//UQCISD/cc-pVDZ, and then used canonical variational transition-state theory to calculate the rate constants. At the highest level of theory employed the rate constants are within a factor of about 2.5 of the experimental values, while deviations are much larger (ca 10x at low and high T) at lower levels of theory. The kinetic isotope effect is also calculated.
+
+The authors calculated the potential energy surface at several levels of theory, up to UQCISD(T)/aug-cc-pVTZ//UQCISD/cc-pVDZ, and then used canonical variational transition-state theory to calculate the rate constants. At the highest level of theory employed the rate constants are within a factor of about 2.5 of the experimental values, while deviations are much larger (ca 10x at low and high T) at lower levels of theory. The kinetic isotope effect is also calculated.
 """,
     history = [
         ("Thu Jul 12 23:16:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/ZHA9474-9480:1"""),
@@ -2765,7 +2766,8 @@ PrIMe Reaction: r00013871
 Bath gas: He
 Category: Theory
 Data type: Ab initio
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
 
 Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
 
@@ -2833,7 +2835,8 @@ PrIMe Reaction: r00013871
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is pressure dependent
-Comments: Potential energy diagrams for various product channels have been computed.Three different regimes of the reaction (low-temperature, transition, and high-temperature) have been discussed in terms of eigenvectors and eigenvalues of the transition matrix of the master equation.Low pressure rate constant; k(0) = 2.34E-17 T^(1.09) exp(1975/RT) cm^3 / molecule s with F(cent)=0.45.
+
+Potential energy diagrams for various product channels have been computed.Three different regimes of the reaction (low-temperature, transition, and high-temperature) have been discussed in terms of eigenvectors and eigenvalues of the transition matrix of the master equation.Low pressure rate constant; k(0) = 2.34E-17 T^(1.09) exp(1975/RT) cm^3 / molecule s with F(cent)=0.45.
 """,
     history = [
         ("Thu Jul 12 23:19:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001MIL/KLI654-668:2"""),
@@ -3373,7 +3376,8 @@ u"""
 PrIMe Reaction: r00010133
 Category: Theory
 Data type: Transition state theory
-Comments: Reaction potential energy surface was studied using quantum chemistry, product pathways were analyzed, and rate constants were calculated using QRRK / master equation method. Rate constants were calculated for a wide range of temperatures; Arrhenius expressions for the pressure of 1 atm are given in a table in the Supplementary Data (online).
+
+Reaction potential energy surface was studied using quantum chemistry, product pathways were analyzed, and rate constants were calculated using QRRK / master equation method. Rate constants were calculated for a wide range of temperatures; Arrhenius expressions for the pressure of 1 atm are given in a table in the Supplementary Data (online).
 """,
     history = [
         ("Thu Jul 12 23:12:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005LEE/BOZ1015-1022:3"""),
@@ -3673,7 +3677,8 @@ PrIMe Reaction: r00010209
 Bath gas: He
 Category: Theory
 Data type: Ab initio
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
 
 Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
 
@@ -3859,7 +3864,8 @@ PrIMe Reaction: r00010543
 Bath gas: He
 Category: Theory
 Data type: Ab initio
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
 
 Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
 

@@ -52,7 +52,8 @@ PrIMe Reaction: r00010238
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:21:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:14"""),
@@ -1000,7 +1001,8 @@ PrIMe Reaction: r00010238
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:21:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:1"""),
@@ -1055,7 +1057,8 @@ Experimental procedure: Shock tube
 Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Other (direct)
-Comments: Rate constant was dervived from theory by the authors following an analysis of theoretical and experimental results from this paper and the literature.
+
+Rate constant was dervived from theory by the authors following an analysis of theoretical and experimental results from this paper and the literature.
 """,
     history = [
         ("Thu Jul 12 21:21:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005MIC/SU965-973:2"""),
@@ -1844,7 +1847,8 @@ PrIMe Reaction: r00010564
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:24:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:43"""),
@@ -1997,7 +2001,8 @@ Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Laser induced fluorescence
-Comments: The reaction was studied at pressures between 1 and 90 bar using helium as the bath gas. The rate constant increased by about an order of magnitude over this pressure range. At the highest pressures studied the reaction was a factor of 2 to 3 under the high pressure limit, which was obtained by an RRKM extrapolation.
+
+The reaction was studied at pressures between 1 and 90 bar using helium as the bath gas. The rate constant increased by about an order of magnitude over this pressure range. At the highest pressures studied the reaction was a factor of 2 to 3 under the high pressure limit, which was obtained by an RRKM extrapolation.
 """,
     history = [
         ("Thu Jul 12 21:24:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001HIP/STR2450-2458:1"""),
@@ -2206,7 +2211,8 @@ u"""
 PrIMe Reaction: r00010564
 Category: Theory
 Data type: Ab initio
-Comments: The authors presented the Arrhenius expressions for rate constant using erroneous units for activation energy [kcal/mol]
+
+The authors presented the Arrhenius expressions for rate constant using erroneous units for activation energy [kcal/mol]
 """,
     history = [
         ("Thu Jul 12 21:24:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008HUY/VIO94-101:15"""),
@@ -2257,7 +2263,8 @@ PrIMe Reaction: r00010564
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: This high pressure limiting rate constant derived from theory is in excellent agreement with the present experimental data (678 - 808 K) and literature data (297 - 605 K ) on the isotope exchange reaction
+
+This high pressure limiting rate constant derived from theory is in excellent agreement with the present experimental data (678 - 808 K) and literature data (297 - 605 K ) on the isotope exchange reaction
 H2CO + D -> HDCO + H
 which can be related to the high pressure rate of methoxy radical decomposition.
 """,
@@ -2310,7 +2317,8 @@ PrIMe Reaction: r00010564
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:24:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:29"""),
@@ -2360,7 +2368,8 @@ u"""
 PrIMe Reaction: r00010564
 Category: Theory
 Data type: Ab initio
-Comments: The authors presented the Arrhenius expressions for rate constant using erroneous units [cm3molecule-1s-1)] and activation energy [kcal/mol]
+
+The authors presented the Arrhenius expressions for rate constant using erroneous units [cm3molecule-1s-1)] and activation energy [kcal/mol]
 """,
     history = [
         ("Thu Jul 12 21:24:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008HUY/VIO94-101:16"""),
@@ -3393,7 +3402,8 @@ PrIMe Reaction: r00002218
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:17:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:7"""),
@@ -3753,7 +3763,8 @@ PrIMe Reaction: r00002218
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:17"""),
@@ -4429,7 +4440,8 @@ PrIMe Reaction: r00002218
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM theory. A simple parameterization of rate constants suitable for use in engineering applications is presented.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM theory. A simple parameterization of rate constants suitable for use in engineering applications is presented.
 """,
     history = [
         ("Thu Jul 12 21:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006ZHE/BLO530-535:1"""),
@@ -4799,7 +4811,8 @@ Uncertainty: 0.30000001
 Category: Experiment
 Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is pressure dependent
-Comments: Master equation / RRKM modeling was performed. Model parameters were adjusted to reproduce experimental k(T) dependences in the 0.25 - 4.5 Bar pressure range and 1125 - 1570 K temperature range.
+
+Master equation / RRKM modeling was performed. Model parameters were adjusted to reproduce experimental k(T) dependences in the 0.25 - 4.5 Bar pressure range and 1125 - 1570 K temperature range.
 """,
     history = [
         ("Thu Jul 12 21:19:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005FER/GIR1063-1070:3"""),
@@ -4855,7 +4868,8 @@ Uncertainty: 0.30000001
 Category: Experiment
 Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is pressure dependent
-Comments: Master equation / RRKM modeling was performed. Model parameters were adjusted to reproduce experimental k(T) dependences in the 0.25 - 4.5 Bar pressure range and 1125 - 1570 K temperature range.
+
+Master equation / RRKM modeling was performed. Model parameters were adjusted to reproduce experimental k(T) dependences in the 0.25 - 4.5 Bar pressure range and 1125 - 1570 K temperature range.
 """,
     history = [
         ("Thu Jul 12 21:19:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005FER/GIR1063-1070:4"""),
@@ -5069,7 +5083,8 @@ PrIMe Reaction: r00006986
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate constants were calculated using a potential energy surface based on quantum chemical calculations published elsewhere.
+
+Rate constants were calculated using a potential energy surface based on quantum chemical calculations published elsewhere.
 """,
     history = [
         ("Thu Jul 12 21:19:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005FER/GIR1063-1070:2"""),
@@ -5122,7 +5137,8 @@ PrIMe Reaction: r00010166
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:20:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:15"""),
@@ -5661,7 +5677,8 @@ PrIMe Reaction: r00010166
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:20:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:2"""),
@@ -6087,7 +6104,8 @@ PrIMe Reaction: r00010504
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:24:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:16"""),
@@ -6458,7 +6476,8 @@ PrIMe Reaction: r00010504
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:24:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:3"""),
@@ -6770,7 +6789,8 @@ PrIMe Reaction: r00010632
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:25:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:34"""),
@@ -6821,7 +6841,8 @@ PrIMe Reaction: r00010632
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Quantum calculations of reaction of CH3 with CH2O. Calculated geometries at B3LYP/6-311+G(d,p) and energies at CCSD(T)/6-311G(2df,p). Also calculated energetics at B3LYP and G2 levels. Use Truhlars Polyrate program to calculate rate expressions using CVT/SCT tunneling corrections.
+
+Quantum calculations of reaction of CH3 with CH2O. Calculated geometries at B3LYP/6-311+G(d,p) and energies at CCSD(T)/6-311G(2df,p). Also calculated energetics at B3LYP and G2 levels. Use Truhlars Polyrate program to calculate rate expressions using CVT/SCT tunneling corrections.
 
 Considered abstraction, carbon addition, and oxygen addition channels. Abstraction dominates over addition channels by factor of 10 over carbon addition and many orders of magnitude over oxygen addition channel.  Found carbon addition channel can contribute at lower temperatures. Agreement with experimental measurements is good (factor of 2 higher) with some and only fair with others (factor of 5-10 higher). Depends on temperature range and the specific measurement.
 
@@ -6880,7 +6901,8 @@ PrIMe Reaction: r00010633
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:25:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:44"""),
@@ -7040,7 +7062,8 @@ PrIMe Reaction: r00010633
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Variational transition state theory calculations based on quantum chemical calculations of the potential energy surface
+
+Variational transition state theory calculations based on quantum chemical calculations of the potential energy surface
 """,
     history = [
         ("Thu Jul 12 21:25:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004ZHA/ZHA79-86:1"""),
@@ -7255,7 +7278,8 @@ PrIMe Reaction: r00010633
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:25:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:30"""),
@@ -7308,7 +7332,8 @@ PrIMe Reaction: r00012710
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM theory. Rate constants were calculated for wide ranges of temperatures and pressures.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM theory. Rate constants were calculated for wide ranges of temperatures and pressures.
 """,
     history = [
         ("Thu Jul 12 21:33:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SEN/KLI5772-5781:1"""),
@@ -7416,7 +7441,8 @@ PrIMe Reaction: r00012710
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM theory.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM theory.
 """,
     history = [
         ("Thu Jul 12 21:33:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SEN/KLI5772-5781:5"""),
@@ -7522,7 +7548,8 @@ PrIMe Reaction: r00012720
 Category: Experiment
 Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using master equation modeling. Model parameters were adjusted to reproduce a large body of experimental falloff and high-pressure-limit data. Rate constants were calculated for wide ranges of temperatures and pressures.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using master equation modeling. Model parameters were adjusted to reproduce a large body of experimental falloff and high-pressure-limit data. Rate constants were calculated for wide ranges of temperatures and pressures.
 """,
     history = [
         ("Thu Jul 12 21:33:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CLE/ROM5633-5642:4"""),
@@ -7890,7 +7917,8 @@ PrIMe Reaction: r00012720
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory / RRKM.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory / RRKM.
 """,
     history = [
         ("Thu Jul 12 21:33:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005ZHU/PAR25-30:2"""),
@@ -7941,7 +7969,8 @@ PrIMe Reaction: r00012720
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory / RRKM.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory / RRKM.
 """,
     history = [
         ("Thu Jul 12 21:33:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005ZHU/PAR25-30:1"""),
@@ -8101,7 +8130,8 @@ u"""
 PrIMe Reaction: r00015716
 Category: Theory
 Data type: Ab initio
-Comments: Ab initio and DFT study of the unimolecular decomposition of CH3OCH2. A variety of different ab initio and DFT methods were used.  The highest level was QCSID(T)/aug-cc-pVTZ energies using MP21K/6-31+G(d,p) geometries. Microcanonical variational transition state theory using the VKLab program was used to calculate rate expressions using transition state potential energy surface.  Agreement with experimental data was fair with the calculated rate constants about 1.5-2.0 higher than experimental values. See Sehested et al, IJCK 29, 627 (1997) and Loucks and Laidler, Can J Chem 45, 2767 (1967).
+
+Ab initio and DFT study of the unimolecular decomposition of CH3OCH2. A variety of different ab initio and DFT methods were used.  The highest level was QCSID(T)/aug-cc-pVTZ energies using MP21K/6-31+G(d,p) geometries. Microcanonical variational transition state theory using the VKLab program was used to calculate rate expressions using transition state potential energy surface.  Agreement with experimental data was fair with the calculated rate constants about 1.5-2.0 higher than experimental values. See Sehested et al, IJCK 29, 627 (1997) and Loucks and Laidler, Can J Chem 45, 2767 (1967).
 """,
     history = [
         ("Thu Jul 12 21:36:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/ZHA2014-2019:1"""),
@@ -8800,7 +8830,8 @@ PrIMe Reaction: r00009777
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:19:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:18"""),
@@ -9135,7 +9166,8 @@ PrIMe Reaction: r00009777
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:20:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:4"""),
@@ -9248,7 +9280,8 @@ Pressure dependence: None reported
 Experimental procedure: Flow tube - Data taken vs distance
 Excitation technique: Discharge
 Analytical technique: Resonance fluorescence
-Comments: Error limits are 2 sigma and reflect only statistical contributions.
+
+Error limits are 2 sigma and reflect only statistical contributions.
 """,
     history = [
         ("Thu Jul 12 21:20:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA3107-3122:6"""),
@@ -9650,7 +9683,8 @@ PrIMe Reaction: r00011104
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:26:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:21"""),
@@ -9870,7 +9904,8 @@ PrIMe Reaction: r00011105
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:26:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:22"""),
@@ -9977,7 +10012,8 @@ PrIMe Reaction: r00011106
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:26:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:25"""),
@@ -10458,7 +10494,8 @@ PrIMe Reaction: r00011106
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:26:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:8"""),
@@ -10728,7 +10765,8 @@ PrIMe Reaction: r00011209
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:27:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:23"""),
@@ -11106,7 +11144,8 @@ PrIMe Reaction: r00011209
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
-Comments: Ab initio study, using canonical transition state theory. (CTST)
+
+Ab initio study, using canonical transition state theory. (CTST)
 
 Rate expressions calculated when P(pressure) is greater or equal to P0(switching pressure)
 
@@ -11223,7 +11262,8 @@ PrIMe Reaction: r00011209
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:27:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:13"""),
@@ -11549,7 +11589,8 @@ PrIMe Reaction: r00011210
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:28:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:20"""),
@@ -11773,7 +11814,8 @@ PrIMe Reaction: r00011210
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:28:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:6"""),
@@ -11828,7 +11870,8 @@ PrIMe Reaction: r00012570
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:32:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:48"""),
@@ -12054,7 +12097,8 @@ PrIMe Reaction: r00012570
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:32:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:33"""),
@@ -12107,7 +12151,8 @@ PrIMe Reaction: r00012571
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:32:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:49"""),
@@ -12592,7 +12637,8 @@ PrIMe Reaction: r00012571
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:32:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:39"""),
@@ -12645,7 +12691,8 @@ PrIMe Reaction: r00012768
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:24"""),
@@ -12969,7 +13016,8 @@ u"""
 PrIMe Reaction: r00012768
 Category: Theory
 Data type: Transition state theory
-Comments: An analysis and exptrapolation of experimental literature data of Slater et al. and Trotman-Dickenson covering ca. 550- 690 K.
+
+An analysis and exptrapolation of experimental literature data of Slater et al. and Trotman-Dickenson covering ca. 550- 690 K.
 """,
     history = [
         ("Thu Jul 12 21:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996KNY/SLA5318-5328:7"""),
@@ -13022,7 +13070,8 @@ PrIMe Reaction: r00012768
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:34:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:11"""),
@@ -13240,7 +13289,8 @@ PrIMe Reaction: r00012769
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:34:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:19"""),
@@ -13408,7 +13458,8 @@ PrIMe Reaction: r00012769
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:34:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:5"""),
@@ -13576,7 +13627,8 @@ PrIMe Reaction: r00015595
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
 """,
     history = [
         ("Thu Jul 12 21:36:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005ZHE/SUN9044-9053:1"""),
@@ -13684,7 +13736,8 @@ PrIMe Reaction: r00015701
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:36:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:47"""),
@@ -13738,7 +13791,8 @@ u"""
 PrIMe Reaction: r00015701
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
-Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+
+The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
 
 The temperature range over which the estimates are intended to be useful is not given, but the results are derived for atmospheric chemistry occurring in the troposphere through lower stratosphere. This is assumed by us to approimately cover 190 K to 330 K.
 
@@ -13900,7 +13954,8 @@ PrIMe Reaction: r00015701
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:36:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:35"""),
@@ -13955,7 +14010,8 @@ PrIMe Reaction: r00015702
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:36:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:46"""),
@@ -14010,7 +14066,8 @@ PrIMe Reaction: r00015702
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:36:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:31"""),
@@ -14381,7 +14438,8 @@ PrIMe Reaction: r00001349
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:16:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:36"""),
@@ -14495,7 +14553,8 @@ PrIMe Reaction: r00001349
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:16:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:50"""),
@@ -14716,7 +14775,8 @@ PrIMe Reaction: r00001349
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is pressure dependent
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition RRKM and master equation analysis. Rate constants were calculated for wide ranges of temperatures and pressures.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition RRKM and master equation analysis. Rate constants were calculated for wide ranges of temperatures and pressures.
 """,
     history = [
         ("Thu Jul 12 21:16:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SOM/ZEL1029-1048:6"""),
@@ -14771,7 +14831,8 @@ PrIMe Reaction: r00001349
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition RRKM and master equation analysis. Rate constants were calculated for wide ranges of temperatures and pressures.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition RRKM and master equation analysis. Rate constants were calculated for wide ranges of temperatures and pressures.
 """,
     history = [
         ("Thu Jul 12 21:16:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SOM/ZEL1029-1048:5"""),
@@ -14827,7 +14888,8 @@ u"""
 PrIMe Reaction: r00001349
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
-Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+
+The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
 
 The temperature range over which the estimates are intended to be useful is not given, but the results are derived for atmospheric chemistry occurring in the troposphere through lower stratosphere. This is assumed by us to approimately cover 190 K to 330 K.
 
@@ -15332,7 +15394,8 @@ u"""
 PrIMe Reaction: r00002210
 Category: Theory
 Data type: Transition state theory
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory with tunneling correction. The temperature interval for which the Arrhenius parameters are given is not specified but probably is the same as for the other eeaction studied in the same work, that of n-C3H7 decomposition.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory with tunneling correction. The temperature interval for which the Arrhenius parameters are given is not specified but probably is the same as for the other eeaction studied in the same work, that of n-C3H7 decomposition.
 """,
     history = [
         ("Thu Jul 12 21:16:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001JIT/WAN2459-2466:2"""),
@@ -15386,7 +15449,8 @@ u"""
 PrIMe Reaction: r00002210
 Category: Theory
 Data type: Transition state theory
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory with tunneling correction. The temperature interval for which the Arrhenius parameters are given is not specified but probably is the same as for the other eeaction studied in the same work, that of n-C3H7 decomposition.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory with tunneling correction. The temperature interval for which the Arrhenius parameters are given is not specified but probably is the same as for the other eeaction studied in the same work, that of n-C3H7 decomposition.
 """,
     history = [
         ("Thu Jul 12 21:16:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001JIT/WAN2459-2466:3"""),
@@ -15660,7 +15724,8 @@ PrIMe Reaction: r00004745
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
 Pressure dependence: Rate constant is high pressure limit
-Comments: The log(k∞/k) values at various pressures were presented in four parameters form
+
+The log(k∞/k) values at various pressures were presented in four parameters form
 """,
     history = [
         ("Thu Jul 12 21:18:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006TSA8501-8509:1"""),
@@ -15715,7 +15780,8 @@ PrIMe Reaction: r00005827
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:18:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:9"""),
@@ -15827,7 +15893,8 @@ PrIMe Reaction: r00005827
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:18:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:27"""),
@@ -15882,7 +15949,8 @@ PrIMe Reaction: r00010737
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:26:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:40"""),
@@ -15937,7 +16005,8 @@ PrIMe Reaction: r00011689
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:30:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:53"""),
@@ -16051,7 +16120,8 @@ Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Laser induced fluorescence
-Comments: Fc=0.87-T/870(K)
+
+Fc=0.87-T/870(K)
 """,
     history = [
         ("Thu Jul 12 21:30:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000FIT/HIP1677-1683:2"""),
@@ -16801,7 +16871,8 @@ PrIMe Reaction: r00011689
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
 """,
     history = [
         ("Thu Jul 12 21:30:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005BUB/KLI1205-1222:1"""),
@@ -17075,7 +17146,8 @@ PrIMe Reaction: r00011689
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:30:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:42"""),
@@ -17305,7 +17377,8 @@ PrIMe Reaction: r00012477
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:31:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:26"""),
@@ -17763,7 +17836,8 @@ PrIMe Reaction: r00012477
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+
+Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
 
 Rate expressions reported are derived from ab initio transition states using QRRK analysis of the chemically activated reaction pathways. We have only abstracted rate expressions from the paper for 1 atm and 300-900 K. For other pressures and at higher temperatures see paper.
 """,
@@ -17820,7 +17894,8 @@ PrIMe Reaction: r00012477
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:32:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:10"""),
@@ -17931,7 +18006,8 @@ PrIMe Reaction: r00016186
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:37:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:54"""),
@@ -17987,7 +18063,8 @@ u"""
 PrIMe Reaction: r00016186
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
-Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+
+The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
 
 The temperature range over which the estimates are intended to be useful is not given, but the results are derived for atmospheric chemistry occurring in the troposphere through lower stratosphere. This is assumed by us to approimately cover 190 K to 330 K.
 
@@ -18100,7 +18177,8 @@ PrIMe Reaction: r00016186
 Category: Review
 Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
+
+Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
 """,
     history = [
         ("Thu Jul 12 21:37:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CUR250-275:37"""),
@@ -18569,7 +18647,8 @@ u"""
 PrIMe Reaction: r00005528
 Category: Experiment
 Data type: Derived from fitting to a complex mechanism
-Comments: The detailed rate coefficients for all experimental conditions, carried out using the final adjusted stationary point energies, are given as electronic supplementary information.
+
+The detailed rate coefficients for all experimental conditions, carried out using the final adjusted stationary point energies, are given as electronic supplementary information.
 """,
     history = [
         ("Thu Jul 12 21:18:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007KNE/MEL4315-4331:2"""),
@@ -18862,7 +18941,8 @@ PrIMe Reaction: r00015135
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
 """,
     history = [
         ("Thu Jul 12 21:35:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005BUB/KLI1205-1222:4"""),
@@ -18919,7 +18999,8 @@ PrIMe Reaction: r00015136
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
 """,
     history = [
         ("Thu Jul 12 21:35:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005BUB/KLI1205-1222:3"""),
@@ -19161,7 +19242,8 @@ u"""
 PrIMe Reaction: r00016551
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
-Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+
+The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
 
 The temperature range over which the estimates are intended to be useful is not specifically given, but the results are derived for atmospheric chemistry occurring in the troposphere through lower stratosphere. This is assumed by us to approimately cover 190 K to 330 K.
 
@@ -19279,7 +19361,8 @@ u"""
 PrIMe Reaction: r00016689
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
-Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+
+The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
 
 The temperature range over which the estimates are intended to be useful is not specifically given, but the results are derived for atmospheric chemistry occurring in the troposphere through lower stratosphere. This is assumed by us to approimately cover 190 K to 330 K.
 
@@ -19823,7 +19906,8 @@ PrIMe Reaction: r00016871
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016871/rk00000001.xml
 Category: Theory
 Data type: Ab initio
-Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+
+Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
 
 Rate expressions reported are derived from ab initio transition states using QRRK analysis of the chemically activated reaction pathways. We have only abstracted rate expressions from the paper for 1 atm and 300-900 K. For other pressures and at higher temperatures see paper.
 """,
@@ -19886,7 +19970,8 @@ PrIMe Reaction: r00016871
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016871/rk00000001.xml
 Category: Theory
 Data type: Ab initio
-Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+
+Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
 
 Rate expressions reported are derived from ab initio transition states using QRRK analysis of the chemically activated reaction pathways. We have only abstracted rate expressions from the paper for 1 atm and 300-900 K. For other pressures and at higher temperatures see paper.
 """,
@@ -19951,7 +20036,8 @@ PrIMe Reaction: r00016107
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016107/rk00000001.xml
 Category: Theory
 Data type: Ab initio
-Comments: Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Used G2M(CC5) method (see paper for details). Calculated many different reaction pathways and intermediates. Only a few of the more important ones are abstracted here. Rate expressions for different pressures for some of the channels are also given in the paper. See paper for further details. Used NIST ChemRate program to calculated rate expressions from ab initio transition states. In paper also provide DfHo heats of formation for many of the intermediates.
+
+Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Used G2M(CC5) method (see paper for details). Calculated many different reaction pathways and intermediates. Only a few of the more important ones are abstracted here. Rate expressions for different pressures for some of the channels are also given in the paper. See paper for further details. Used NIST ChemRate program to calculated rate expressions from ab initio transition states. In paper also provide DfHo heats of formation for many of the intermediates.
 """,
     history = [
         ("Thu Jul 12 21:37:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003TOK/LIN11397-11408:3"""),
@@ -20145,7 +20231,8 @@ PrIMe Reaction: r00011160
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011160/rk00000001.xml
 Category: Theory
 Data type: Ab initio
-Comments: Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl + Acetylene. Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies. RRKM/Master equation methods to calculate rate expressions. Too complicated to abstract all reaction pathways. Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details. Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material. For more details, see article and companion article.
+
+Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl + Acetylene. Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies. RRKM/Master equation methods to calculate rate expressions. Too complicated to abstract all reaction pathways. Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details. Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material. For more details, see article and companion article.
 """,
     history = [
         ("Thu Jul 12 21:27:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE2807-2817:5"""),
@@ -20277,7 +20364,8 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
-Comments: Rate expressions derived from density functional theory (DFT) quantum calculations of transition states, and reactants and products. Transition state theory and QRRK methods were used to provide rate expressions bases on the calculated transition states. The geometries and energies of the molecules and transition states were calculated at the B3LYP/6-31G(d,p) level.
+
+Rate expressions derived from density functional theory (DFT) quantum calculations of transition states, and reactants and products. Transition state theory and QRRK methods were used to provide rate expressions bases on the calculated transition states. The geometries and energies of the molecules and transition states were calculated at the B3LYP/6-31G(d,p) level.
 """,
     history = [
         ("Thu Jul 12 21:40:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004CAV/FAS705-720:20"""),

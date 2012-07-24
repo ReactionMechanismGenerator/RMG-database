@@ -56,7 +56,8 @@ PrIMe Reaction: r00001601
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
 
 The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
@@ -114,7 +115,8 @@ PrIMe Reaction: r00001601
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
 
 The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
@@ -172,7 +174,8 @@ PrIMe Reaction: r00001601
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is high pressure limit
-Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
 
 The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
@@ -230,7 +233,8 @@ PrIMe Reaction: r00001601
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
 
 The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
@@ -288,7 +292,8 @@ PrIMe Reaction: r00001601
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
 
 The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
@@ -346,7 +351,8 @@ PrIMe Reaction: r00001601
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
 
 The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
@@ -404,7 +410,8 @@ PrIMe Reaction: r00001601
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
 
 The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
@@ -460,7 +467,8 @@ PrIMe Reaction: r00001601
 Category: Experiment
 Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is high pressure limit
-Comments: Results are based on a review and analysis of the literature data. The article discusses the multi-channel nature of ethanol decomposition and difficulties associated with expressing the rate constants in a convenient analytical form over extended temperature and pressure ranges.
+
+Results are based on a review and analysis of the literature data. The article discusses the multi-channel nature of ethanol decomposition and difficulties associated with expressing the rate constants in a convenient analytical form over extended temperature and pressure ranges.
 
 Some analytical formats for intermediate pressures are also given in the paper but are too complex to reproduce here.
 """,
@@ -566,7 +574,8 @@ u"""
 PrIMe Reaction: r00001601
 Category: Theory
 Data type: Ab initio
-Comments: NOTE This is speculative reaction to explain formation of C2H4. Authors imply that C-OH bond fission channel (with identical rate expression) may be more likely.
+
+NOTE This is speculative reaction to explain formation of C2H4. Authors imply that C-OH bond fission channel (with identical rate expression) may be more likely.
 
 Combined experimental and quantum chemical study of the thermal decomposition of 2-Fluoroethanol or CH2F-CH2OH. Measured decomposition of 2-Fluoroethanol in a shock tube at temperatures of 1000-1200 K and pressures of 13-23 atm. Typical concentrations of 500-1000 ppm 2-Fluoroethanol in Argon. Products detected with GC/FID. Quantum calculations using density functional theory (DFT) with B3LYP/6-311++G(d,p) method. Rate expressions from transition state using TST calculations.
 
@@ -979,7 +988,8 @@ Bath gas: Ar
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+
+The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
 
 Calculated structures, energetics, and molecular properties of reactant, products, and transition states are provided.
 """,
@@ -1039,7 +1049,8 @@ Bath gas: Ar
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+
+The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
 
 Calculated structures, energetics, and molecular properties of reactant, products, and transition states are provided.
 """,
@@ -1097,7 +1108,8 @@ Bath gas: Ar
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+
+The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
 
 Calculated structures, energetics, and molecular properties of reactant, products, and transition states are provided.
 """,
@@ -2675,7 +2687,8 @@ Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Thermal
 Time resolution: By end product analysis
 Analytical technique: Gas chromatography
-Comments: Reactor surface seasoned with allyl bromide.No effect of change in surface to volume by factor of 6.
+
+Reactor surface seasoned with allyl bromide.No effect of change in surface to volume by factor of 6.
 """,
     history = [
         ("Fri Jul 13 08:15:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHU/ROT401-407:3"""),
