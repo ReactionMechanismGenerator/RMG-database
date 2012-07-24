@@ -9,55 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 24,
-    label = "r00010716",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {4,S}
-2 *1 C 0 {1,S} {5,S}
-3 *4 C 0 {1,S} {5,S}
-4    C 0 {1,S}
-5 *3 O 0 {2,S} {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3 *1 C 0 {2,D}
-""",
-    product2 = 
-"""
-1 *4 C 0 {2,D}
-2 *3 O 0 {1,D}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (2.4e+15,"s^-1"),
-        n = 0,
-        Ea = (258580,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Zalotai, L.", "Berces, T.", "Marta, F."],
-        title = u'Kinetics and energy transfer in the thermal decomposition of 2-methyloxetane and 3-methyloxetane',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "86",
-        pages = """21""",
-        year = "1990",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010716/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010716/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010716/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 25,
     label = "r00010716",
     reactant1 = 
