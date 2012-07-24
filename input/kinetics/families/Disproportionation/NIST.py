@@ -6998,3 +6998,67 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 116,
+    label = "1978ARR/KIR3016:1",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *1 C 1 {1,S} {2,S}
+""",
+    reactant2 = 
+"""
+1 *2 C 0 {3,S} {4,S}
+2    C 0 {3,S}
+3 *3 C 1 {1,S} {2,S}
+4 *4 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 0 {1,S} {3,D}
+3 *2 C 0 {2,D}
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (3.01e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-0.208,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (301,"K"),
+        Tmax = (424,"K"),
+    ),
+    reference = Article(
+        authors = ["Arrowsmith, P.", "Kirsch, L.J."],
+        title = u'Mutual Reaction of Isopropyl Radicals',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "74",
+        pages = """3016""",
+        year = "1978",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1978ARR/KIR3016:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010168
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010168/rk00000013.xml
+Bath gas: N2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Tue Jul 24 17:13:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978ARR/KIR3016:1"""),
+    ],
+)
+

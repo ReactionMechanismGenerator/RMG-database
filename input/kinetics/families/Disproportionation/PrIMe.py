@@ -103,62 +103,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 39,
-    label = "r00010168",
-    reactant1 = 
-"""
-1    C 0 {3,S}
-2    C 0 {3,S}
-3 *1 C 1 {1,S} {2,S}
-""",
-    reactant2 = 
-"""
-1 *2 C 0 {3,S} {4,S}
-2    C 0 {3,S}
-3 *3 C 1 {1,S} {2,S}
-4 *4 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4 *4 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2 *3 C 0 {1,S} {3,D}
-3 *2 C 0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (3.01e+06,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-207.862,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Arrowsmith, P.", "Kirsch, L.J."],
-        title = u'Mutual Reaction of Isopropyl Radicals',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "74",
-        pages = """3016""",
-        year = "1978",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010168/rk00000013.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010168/rk00000013.xml
-""",
-    history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010168/rk00000013.xml"""),
-    ],
-)
-
-entry(
     index = 49,
     label = "r00010580",
     reactant1 = 
