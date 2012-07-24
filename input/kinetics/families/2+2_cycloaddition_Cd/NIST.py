@@ -4014,3 +4014,68 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 67,
+    label = "1980CAR/MAI1849:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {6,S}
+2 *1 C 0 {1,S} {4,S} {8,S}
+3 *4 C 0 {1,S} {5,S} {8,S}
+4    C 0 {2,S}
+5    C 0 {3,S}
+6    C 0 {1,S} {7,D}
+7    C 0 {6,D}
+8 *3 O 0 {2,S} {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,D}
+3 *2 C 0 {2,D} {4,S}
+4    C 0 {3,S} {5,D}
+5    C 0 {4,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *4 C 0 {1,S} {3,D}
+3 *3 O 0 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.63e+13,"s^-1","*|/",5),
+        n = 0,
+        Ea = (200.379,"kJ/mol","+|-",8.015),
+        T0 = (1,"K"),
+        Tmin = (599,"K"),
+        Tmax = (657,"K"),
+        Pmin = (467,"Pa"),
+        Pmax = (4000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Carless, H.A.J.", "Maitra, A.K.", "Pottinger, R.", "Frey, H.M."],
+        title = u'Thermal decomposition of cis-2,4-dimethyl-trans-3-vinyloxetan',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "76",
+        pages = """1849""",
+        year = "1980",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1980CAR/MAI1849:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016669
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016669/rk00000001.xml
+Uncertainty: 5.0
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Tue Jul 24 18:06:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980CAR/MAI1849:1"""),
+    ],
+)
+
