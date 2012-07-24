@@ -285,8 +285,10 @@ def getReference(entry, squib, cookiejar):
         if not pages:
             if '/' in squib:
                 pages = squib[11:]
+                pages = pages.split(':')[0]
             else:
                 pages = squib[7:]
+                pages = pages.split(':')[0]
         year = soup.table.findAll(text='Year:')[0].parent.nextSibling[13:]
         entry.reference = Article(
             authors=authors,
