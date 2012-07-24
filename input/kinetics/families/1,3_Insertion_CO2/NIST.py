@@ -62,7 +62,9 @@ Experimental procedure: Shock tube
 Excitation technique: Thermal
 Time resolution: In both real time and by end product analysis
 Analytical technique: Other (IR)
-Comments: Formic acid was produced via thermal (shock induced) dissociation of the dimer. Reaction of the monomer was followed by monitoring CO formation in real time via IR emission at 4.63 um and CO2 formation at 4.23 um. CO2 formation was more difficult to follow as it was produced in only about 2 to 8% of the CO. CO, CO2, and H2 products were also determined via GC analysis.
+Comments: Formic acid was produced via thermal (shock induced) dissociation of the dimer. Reaction of the monomer was followed by monitoring CO formation in real time via IR emission at 4.63 um and CO2 formation at 4.23 um. CO2 formation was more difficult to follow as it was produced in only about 2 to 8% of the CO. CO, CO2, and H2products were also determined via GC analysis.
+
+The precise temperature range is not reported in the paper. The listed values are approximate and were derived from the Arrhenius plots given in Figure 4 of the paper.
 """,
     history = [
         ("Fri Jul 13 08:14:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SAI/SHI5352-5357:5"""),
@@ -125,6 +127,8 @@ Excitation technique: Thermal
 Time resolution: In both real time and by end product analysis
 Analytical technique: Other (IR)
 Comments: Formic acid was produced via thermal (shock induced) dissociation of the dimer. Reaction of the monomer was followed by monitoring CO formation in real time via IR emission at 4.63 um and CO2 formation at 4.23 um. CO2 formation was more difficult to follow as it was produced in only about 2 to 8% of the CO. CO, CO2, and H2 products were also determined via GC analysis.
+
+The precise temperature range is not reported in the paper. The listed values are approximate and were derived from the Arrhenius plots given in Figure 4 of the paper.
 """,
     history = [
         ("Fri Jul 13 08:14:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SAI/SHI5352-5357:4"""),
@@ -1422,7 +1426,11 @@ Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Thermal
 Time resolution: By end product analysis
 Analytical technique: Pressure measurement
-Comments: The A-factor given in the paper (1.41x1013 s-1) is one order of magnitude smaller than required to reproduce the reported rate constants, apparently due to a typographical error. The value listed here closely reproduces the actual rate data listed by the authors and our least squares analysis of their reported rate data.
+Comments: The A-factor given in the paper (1.41E13 s-1) is one order of magnitude smaller than required to reproduce the reported rate constants, apparently due to a typographical error. The value listed here closely reproduces the actual rate data listed by the authors and our least squares analysis of their reported rate data.
+
+Kinetics were determined by following pressure vs. time. Products were determined by GC product analysis.
+
+Uncertainties are precision only and are at the 90% confidence level.
 """,
     history = [
         ("Fri Jul 20 17:40:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997CHU/MAR121-124:0"""),

@@ -113,7 +113,7 @@ PrIMe Reaction: r00010601
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure independent
-Comments: The authors calculated  the potential energy surface at several levels of theory, up to UQCISD(T)/aug-cc-pVTZ//UQCISD/cc-pVDZ, and then used canonical variational transition-state theory to calculate the rate constants.  At the highest level of theory employed the rate constants are within a factor of about 2.5 of the experimental values, while deviations are much larger (ca 10x at low and high T) at lower levels of theory.  The kinetic isotope effect is also calculated.
+Comments: The authors calculated the potential energy surface at several levels of theory, up to UQCISD(T)/aug-cc-pVTZ//UQCISD/cc-pVDZ, and then used canonical variational transition-state theory to calculate the rate constants. At the highest level of theory employed the rate constants are within a factor of about 2.5 of the experimental values, while deviations are much larger (ca 10x at low and high T) at lower levels of theory. The kinetic isotope effect is also calculated.
 """,
     history = [
         ("Thu Jul 12 23:16:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/ZHA9474-9480:1"""),
@@ -2765,7 +2765,14 @@ PrIMe Reaction: r00013871
 Bath gas: He
 Category: Theory
 Data type: Ab initio
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
+Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
+
+Employed earlier quantum calculations (see references below) combined with master equation modeling to provide rate expressions for many reactions in this system. Only a few rate expressions are abstracted here.
+
+Miller and Klippenstein, IJCK 33, 654 (2001)
+DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
     history = [
         ("Thu Jul 12 23:19:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:2"""),
@@ -3666,7 +3673,14 @@ PrIMe Reaction: r00010209
 Bath gas: He
 Category: Theory
 Data type: Ab initio
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
+Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
+
+Employed earlier quantum calculations (see references below) combined with master equation modeling to provide rate expressions for many reactions in this system. Only a few rate expressions are abstracted here.
+
+Miller and Klippenstein, IJCK 33, 654 (2001)
+DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
     history = [
         ("Thu Jul 12 23:13:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:5"""),
@@ -3845,7 +3859,14 @@ PrIMe Reaction: r00010543
 Bath gas: He
 Category: Theory
 Data type: Ab initio
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
+Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
+
+Employed earlier quantum calculations (see references below) combined with master equation modeling to provide rate expressions for many reactions in this system. Only a few rate expressions are abstracted here.
+
+Miller and Klippenstein, IJCK 33, 654 (2001)
+DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
     history = [
         ("Thu Jul 12 23:13:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:8"""),

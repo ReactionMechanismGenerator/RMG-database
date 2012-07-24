@@ -115,7 +115,7 @@ Experimental procedure: Other
 Excitation technique: Thermal
 Time resolution: By end product analysis
 Analytical technique: Gas chromatography
-Comments: Two experimental set-ups were used: experiments at 644-750 K and 16-25 torr were performed in a static reactor, while the shock tube methodology was used at 939-1089 K with shock pressures of about 2-3 atm. The rate parameters are from the literature but provide an excellent  fit to the present data.
+Comments: Two experimental set-ups were used: experiments at 644-750 K and 16-25 torr were performed in a static reactor, while the shock tube methodology was used at 939-1089 K with shock pressures of about 2-3 atm. The rate parameters are from the literature but provide an excellent fit to the present data.
 """,
     history = [
         ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984LEW/BER4112:4"""),

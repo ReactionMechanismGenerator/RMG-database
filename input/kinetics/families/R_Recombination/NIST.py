@@ -348,7 +348,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Combined experimental, ab initio, and modeling study. Rate constants abstracted here are based on ab initio calculations.   CBS-Q//B3LYP/6-31G(d,p) and CBS-APNO ab initio methods were used.  Rate constants for reactions with barrier were determined from the ab initio transition states using TST.  For barrierless reactions variational TST was used.   Rate constants listed here are for high pressure limit.  Pressure dependent rate expressions and full detailed chemical kinetic model can be obtained from the authors.
+Comments: Combined experimental, ab initio, and modeling study. Rate constants abstracted here are based on ab initio calculations.  CBS-Q//B3LYP/6-31G(d,p) and CBS-APNO ab initio methods were used. Rate constants for reactions with barrier were determined from the ab initio transition states using TST. For barrierless reactions variational TST was used.  Rate constants listed here are for high pressure limit. Pressure dependent rate expressions and full detailed chemical kinetic model can be obtained from the authors.
 """,
     history = [
         ("Thu Jul 12 15:44:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ING/SHE111-145:4"""),
@@ -547,7 +547,7 @@ PrIMe Reaction: r00001661
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Combined experimental, ab initio, and modeling study. Rate constants abstracted here are based on ab initio calculations.   CBS-Q//B3LYP/6-31G(d,p) and CBS-APNO ab initio methods were used.  Rate constants for reactions with barrier were determined from the ab initio transition states using TST.  For barrierless reactions variational TST was used.   Rate constants listed here are for high pressure limit.  Pressure dependent rate expressions and full detailed chemical kinetic model can be obtained from the authors.
+Comments: Combined experimental, ab initio, and modeling study. Rate constants abstracted here are based on ab initio calculations.  CBS-Q//B3LYP/6-31G(d,p) and CBS-APNO ab initio methods were used. Rate constants for reactions with barrier were determined from the ab initio transition states using TST. For barrierless reactions variational TST was used.  Rate constants listed here are for high pressure limit. Pressure dependent rate expressions and full detailed chemical kinetic model can be obtained from the authors.
 """,
     history = [
         ("Thu Jul 12 15:45:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ING/SHE111-145:1"""),
@@ -650,7 +650,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Combined experimental, ab initio, and modeling study. Rate constants abstracted here are based on ab initio calculations.   CBS-Q//B3LYP/6-31G(d,p) and CBS-APNO ab initio methods were used.  Rate constants for reactions with barrier were determined from the ab initio transition states using TST.  For barrierless reactions variational TST was used.   Rate constants listed here are for high pressure limit.  Pressure dependent rate expressions and full detailed chemical kinetic model can be obtained from the authors.
+Comments: Combined experimental, ab initio, and modeling study. Rate constants abstracted here are based on ab initio calculations.  CBS-Q//B3LYP/6-31G(d,p) and CBS-APNO ab initio methods were used. Rate constants for reactions with barrier were determined from the ab initio transition states using TST. For barrierless reactions variational TST was used.  Rate constants listed here are for high pressure limit. Pressure dependent rate expressions and full detailed chemical kinetic model can be obtained from the authors.
 """,
     history = [
         ("Thu Jul 12 15:47:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ING/SHE111-145:3"""),
@@ -2064,6 +2064,8 @@ Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 Comments: The CH3 + C2H5 reaction was investigated by the modified Gaussian-2 method with variational transition state or Rice-Ramsperger-Kassel-Marcus calculations. Vibrational frequencies and moments of inertia of all species used in RRKM calculations were computed at the B3LYP/6-311G(3df,2p) level and are reported.
+
+The results suggest the combination process dominates below 600 K and is pressure independent under typical experimental conditions. The disproportionation process producing CH4 and C2H4 is suggested to occur via a loose hydrogen-bonded precursor, H3C---HC2H4 , which fragments with a small ~1.9 kcal/mol! barrier giving rise to the products. The disproportionation and combination reactions are concluded to occur with entirely different transition states. Calculated rate constants are in ggod agreement with experimental values.
 """,
     history = [
         ("Thu Jul 12 15:59:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004ZHU/XU6566-6573:4"""),
@@ -2480,6 +2482,8 @@ Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 Comments: The CH3 + C2H5 reaction was investigated by the modified Gaussian-2 method with variational transition state or Rice-Ramsperger-Kassel-Marcus calculations. Vibrational frequencies and moments of inertia of all species used in RRKM calculations were computed at the B3LYP/6-311G(3df,2p) level and are reported.
+
+The results suggest the combination process dominates below 600 K and is pressure independent under typical experimental conditions. The disproportionation process producing CH4 and C2H4 is suggested to occur via a loose hydrogen-bonded precursor, H3C---HC2H4 , which fragments with a small ~1.9 kcal/mol! barrier giving rise to the products. The disproportionation and combination reactions are concluded to occur with entirely different transition states. Calculated rate constants are in ggod agreement with experimental values.
 """,
     history = [
         ("Thu Jul 12 15:59:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004ZHU/XU6566-6573:3"""),
@@ -3335,6 +3339,8 @@ Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:12"""),
@@ -3389,6 +3395,8 @@ Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:13"""),
@@ -3443,6 +3451,8 @@ Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is high pressure limit
 Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:14"""),
@@ -3497,6 +3507,8 @@ Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:9"""),
@@ -3551,6 +3563,8 @@ Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:10"""),
@@ -3605,6 +3619,8 @@ Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:8"""),
@@ -3659,6 +3675,8 @@ Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:11"""),
@@ -3711,6 +3729,8 @@ Category: Experiment
 Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is high pressure limit
 Comments: Results are based on a review and analysis of the literature data. The article discusses the multi-channel nature of ethanol decomposition and difficulties associated with expressing the rate constants in a convenient analytical form over extended temperature and pressure ranges.
+
+Some analytical formats for intermediate pressures are also given in the paper but are too complex to reproduce here.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004TSA456-465:2"""),
@@ -5091,6 +5111,8 @@ Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
 Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+
+Calculated structures, energetics, and molecular properties of reactant, products, and transition states are provided.
 """,
     history = [
         ("Thu Jul 12 15:48:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:2"""),
@@ -5147,6 +5169,8 @@ Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
 Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+
+Calculated structures, energetics, and molecular properties of reactant, products, and transition states are provided.
 """,
     history = [
         ("Thu Jul 12 15:48:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:3"""),
@@ -5201,6 +5225,8 @@ Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+
+Calculated structures, energetics, and molecular properties of reactant, products, and transition states are provided.
 """,
     history = [
         ("Thu Jul 12 15:48:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:4"""),
@@ -5860,7 +5886,9 @@ Experimental procedure: Shock tube
 Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Laser schlieren
-Comments: The primary reaction is suggested by the authors to be C-H bond fission iso-C4H8 = H2C=C(CH3)CH2 + H although other channels were considered. A restricted-rotor, Gorin-model RRKM model of the reaction was developed and was able to describe the measured rates using the known bond-energy as barrier and < Delta Edown> = 680 cm-1. The reaction was well into the fall-off region under the experimental conditions with rate constants 1 to 3 orders of maginitude under the high pressure limit derived from the RRKM extrapolation. Measured rate constants are shown graphically but individual values are unfortunately not reported in the paper. The analysis included the development of a 32-step mechanism to describe iso-butene pyrolysis and possible secondary chemistry in their system. The derived high pressure limiting rate constant for dissociation is in good agreement with previous lower temperature studies.
+Comments: The primary reaction is suggested by the authors to be C-H bond fission iso-C4H8 = H2C=C(CH3)CH2+ H although other channels were considered. A restricted-rotor, Gorin-model RRKM model of the reaction was developed and was able to describe the measured rates using the known bond-energy as barrier and < Delta Edown> = 680 cm-1. The reaction was well into the fall-off region under the experimental conditions with rate constants 1 to 3 orders of maginitude under the high pressure limit derived from the RRKM extrapolation. Measured rate constants are shown graphically but individual values are unfortunately not reported in the paper. The analysis included the development of a 32-step mechanism to describe iso-butene pyrolysis and possible secondary chemistry in their system. The derived high pressure limiting rate constant for dissociation is in good agreement with previous lower temperature studies.
+
+An unexpected feature of the study was the observation of vibrational relaxation, and at high temperatures, a consequent incubation delay in the unimolecular dissociation.
 """,
     history = [
         ("Thu Jul 12 16:08:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003SAN/KIE381-390:1"""),
@@ -6631,7 +6659,11 @@ Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 Comments: Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
-coordinate transition state theory (VRC-TST).  Results were compared with experiment for a series of alkyl radicals and the good quantitative agreement was found.
+coordinate transition state theory (VRC-TST). Results were compared with experiment for a series of alkyl radicals and the good quantitative agreement was found.
+
+Each methyl substituent adjacent to a radical site was found to reduce the rate coefficient by about a factor of two. Rate constants are predicted to decrease substantially with increasing temperature, with the more sterically hindered reactants having a more rapid decrease. The geometric mean rule was found to be in good agreement with the detailed calculations.
+
+The authors state the rate parameters are strictly applicable between 200-2000 K but that they should provide reasonable predictions up to about 2700 K.
 """,
     history = [
         ("Thu Jul 12 16:15:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006KLI/GEO1133-1147:3"""),
@@ -8811,7 +8843,14 @@ PrIMe Reaction: r00013875
 Bath gas: He
 Category: Theory
 Data type: Ab initio
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
+Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
+
+Employed earlier quantum calculations (see references below) combined with master equation modeling to provide rate expressions for many reactions in this system. Only a few rate expressions are abstracted here.
+
+Miller and Klippenstein, IJCK 33, 654 (2001)
+DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
     history = [
         ("Thu Jul 12 16:28:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:1"""),
@@ -9953,7 +9992,11 @@ Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 Comments: Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
-coordinate transition state theory (VRC-TST).  Results were compared with experiment for a series of alkyl radicals and the good quantitative agreement was found.
+coordinate transition state theory (VRC-TST). Results were compared with experiment for a series of alkyl radicals and the good quantitative agreement was found.
+
+Each methyl substituent adjacent to a radical site was found to reduce the rate coefficient by about a factor of two. Rate constants are predicted to decrease substantially with increasing temperature, with the more sterically hindered reactants having a more rapid decrease. The geometric mean rule was found to be in good agreement with the detailed calculations.
+
+The authors state the rate parameters are strictly applicable between 200-2000 K but that they should provide reasonable predictions up to about 2700 K.
 """,
     history = [
         ("Thu Jul 12 16:12:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006KLI/GEO1133-1147:4"""),
@@ -10757,7 +10800,14 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Bath gas: He
 Category: Theory
 Data type: Ab initio
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
+Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
+
+Employed earlier quantum calculations (see references below) combined with master equation modeling to provide rate expressions for many reactions in this system. Only a few rate expressions are abstracted here.
+
+Miller and Klippenstein, IJCK 33, 654 (2001)
+DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
     history = [
         ("Thu Jul 12 16:16:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:4"""),
@@ -10816,10 +10866,8 @@ u"""
 PrIMe Reaction: r00010419
 Category: Review
 Data type: Extensive literature review
-Comments: 1) No formal statistical deviation presented.  
-
+Comments: 1) No formal statistical deviation presented.
 2) The data are used in a 3rd law derivation of the heat of formation for cyclopentadienyl radical of Delta Hf,0=65.4 kJ/mole and Delta Hf,298=62.4 kJ/mole.
-
 3) Extensive discussion of the fall-off behavior is given.
 """,
     history = [
@@ -11109,7 +11157,14 @@ Bath gas: He
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
+Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
+
+Employed earlier quantum calculations (see references below) combined with master equation modeling to provide rate expressions for many reactions in this system. Only a few rate expressions are abstracted here.
+
+Miller and Klippenstein, IJCK 33, 654 (2001)
+DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
     history = [
         ("Thu Jul 12 16:17:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:7"""),
@@ -12954,7 +13009,11 @@ Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 Comments: Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
-coordinate transition state theory (VRC-TST).  Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+coordinate transition state theory (VRC-TST). Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+
+Each methyl substituent adjacent to a radical site was found to reduce the rate coefficient by about a factor of two. Rate constants are predicted to decrease substantially with increasing temperature, with the more sterically hindered reactants having a more rapid decrease. The geometric mean rule was found to be in good agreement with the detailed calculations.
+
+The authors state the rate parameters are strictly applicable between 200-2000 K but that they should provide reasonable predictions up to about 2700 K.
 """,
     history = [
         ("Thu Jul 12 16:12:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006KLI/GEO1133-1147:7"""),
@@ -14239,7 +14298,11 @@ Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 Comments: Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
-coordinate transition state theory (VRC-TST).  Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+coordinate transition state theory (VRC-TST). Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+
+Each methyl substituent adjacent to a radical site was found to reduce the rate coefficient by about a factor of two. Rate constants are predicted to decrease substantially with increasing temperature, with the more sterically hindered reactants having a more rapid decrease. The geometric mean rule was found to be in good agreement with the detailed calculations.
+
+The authors state the rate parameters are strictly applicable between 200-2000 K but that they should provide reasonable predictions up to about 2700 K.
 """,
     history = [
         ("Thu Jul 12 16:15:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006KLI/GEO1133-1147:8"""),
@@ -15927,7 +15990,11 @@ Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 Comments: Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
-coordinate transition state theory (VRC-TST).  Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+coordinate transition state theory (VRC-TST). Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+
+Each methyl substituent adjacent to a radical site was found to reduce the rate coefficient by about a factor of two. Rate constants are predicted to decrease substantially with increasing temperature, with the more sterically hindered reactants having a more rapid decrease. The geometric mean rule was found to be in good agreement with the detailed calculations.
+
+The authors state the rate parameters are strictly applicable between 200-2000 K but that they should provide reasonable predictions up to about 2700 K.
 """,
     history = [
         ("Thu Jul 12 16:09:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006KLI/GEO1133-1147:9"""),
@@ -16669,7 +16736,7 @@ PrIMe Reaction: r00010358
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments:  Extensive thermochemical data for reactants, products, and transition states are presented.
+Comments: Extensive thermochemical data for reactants, products, and transition states are presented.
 """,
     history = [
         ("Thu Jul 12 16:17:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ZHU/BOZ3696-3703:4"""),
@@ -16731,7 +16798,7 @@ u"""
 PrIMe Reaction: r00010358
 Category: Theory
 Data type: Ab initio
-Comments:  Extensive thermochemical data for reactants, products, and transition states are presented.
+Comments: Extensive thermochemical data for reactants, products, and transition states are presented.
 """,
     history = [
         ("Thu Jul 12 16:17:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ZHU/BOZ3696-3703:7"""),
@@ -17398,7 +17465,9 @@ PrIMe Reaction: r00016216
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016216/rk00000003.xml
 Category: Theory
 Data type: Ab initio
-Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways).  This includes primary reaction pathways as well as subsequent secondary reactions.  Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules.  Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures.  For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+
+Rate expressions reported are derived from ab initio transition states using QRRK analysis of the chemically activated reaction pathways. We have only abstracted rate expressions from the paper for 1 atm and 300-900 K. For other pressures and at higher temperatures see paper.
 """,
     history = [
         ("Thu Jul 12 16:30:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004SUN/BOZ1694-1711:1"""),
@@ -18864,7 +18933,11 @@ Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 Comments: Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
-coordinate transition state theory (VRC-TST).  Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+coordinate transition state theory (VRC-TST). Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+
+Each methyl substituent adjacent to a radical site was found to reduce the rate coefficient by about a factor of two. Rate constants are predicted to decrease substantially with increasing temperature, with the more sterically hindered reactants having a more rapid decrease. The geometric mean rule was found to be in good agreement with the detailed calculations.
+
+The authors state the rate parameters are strictly applicable between 200-2000 K but that they should provide reasonable predictions up to about 2700 K.
 """,
     history = [
         ("Thu Jul 12 16:12:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006KLI/GEO1133-1147:10"""),

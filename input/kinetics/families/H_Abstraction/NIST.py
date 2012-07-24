@@ -371,7 +371,9 @@ Experimental procedure: Shock tube
 Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
-Comments: Excimer laser photolysis-shock tube technique coupled with H-atom atomic resonance absorption spectromtry has been used. The real time H atom profiles were fit with a complex mechanism to derive the best fit rate constants for the reactions, H+CH4 -> CH3+H2, CH3 +H2 ->H+CH4, as well as the reaction CH4+Kr->CH3+H+Kr
+Comments: Excimer laser photolysis-shock tube technique coupled with H-atom atomic resonance absorption spectromtry has been used. The real time H atom profiles were fit with a complex mechanism to derive the best fit rate constants for the reactions, H+CH4-> CH3+H2, CH3+H2->H+CH4, as well as the reaction CH4+Kr->CH3+H+Kr
+
+Results of this study and seven previous experimental studies have been evaluated. Results from theory are also discussed.
 """,
     history = [
         ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:2"""),
@@ -822,7 +824,7 @@ u"""
 PrIMe Reaction: r00002017
 Category: Theory
 Data type: Other theoretical
-Comments: Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference.  Transition state geometry and barriers were computed at the UMP2/6-31G(d,p) level.  Eckart-level tunneling contributions are applied.
+Comments: Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference. Transition state geometry and barriers were computed at the UMP2/6-31G(d,p) level. Eckart-level tunneling contributions are applied.
 """,
     history = [
         ("Thu Jul 12 19:42:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA3107-3122:22"""),
@@ -1299,7 +1301,9 @@ Experimental procedure: Shock tube
 Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
-Comments: Excimer laser photolysis-shock tube technique coupled with H-atom atomic resonance absorption spectromtry has been used. The real time H atom profiles were fit with a complex mechanism to derive the best fit rate constants for the reactions, H+CH4 -> CH3+H2, CH3 +H2 ->H+CH4, as well as the reaction CH4+Kr->CH3+H+Kr
+Comments: Excimer laser photolysis-shock tube technique coupled with H-atom atomic resonance absorption spectromtry has been used. The real time H atom profiles were fit with a complex mechanism to derive the best fit rate constants for the reactions, H+CH4-> CH3+H2, CH3+H2->H+CH4, as well as the reaction CH4+Kr->CH3+H+Kr
+
+Results of this study and seven previous experimental studies have been evaluated. Results from theory are also discussed.
 """,
     history = [
         ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:1"""),
@@ -1731,7 +1735,9 @@ Experimental procedure: Shock tube
 Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
-Comments: Excimer laser photolysis-shock tube technique coupled with H-atom atomic resonance absorption spectromtry has been used. The real time H atom profiles were fit with a complex mechanism to derive the best fit rate constants for the reactions, H+CH4 -> CH3+H2, CH3 +H2 ->H+CH4, as well as the reaction CH4+Kr->CH3+H+Kr
+Comments: Excimer laser photolysis-shock tube technique coupled with H-atom atomic resonance absorption spectromtry has been used. The real time H atom profiles were fit with a complex mechanism to derive the best fit rate constants for the reactions, H+CH4-> CH3+H2, CH3+H2->H+CH4, as well as the reaction CH4+Kr->CH3+H+Kr
+
+Results of this study and seven previous experimental studies have been evaluated. Results from theory are also discussed.
 """,
     history = [
         ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:4"""),
@@ -2854,7 +2860,7 @@ PrIMe Reaction: r00002017
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Variational transition state theory (VTST) with microcanonically optimized multidimensional tunneling corrections used to validate theory to accurate quantum dynamics (QD) calculations.  Ratio of VTST to QD calculations varies from 0.86 to 0.99 over stated temperature range.  Rate constants fit to modified Arrhenius expression by abstracter.
+Comments: Variational transition state theory (VTST) with microcanonically optimized multidimensional tunneling corrections used to validate theory to accurate quantum dynamics (QD) calculations. Ratio of VTST to QD calculations varies from 0.86 to 0.99 over stated temperature range. Rate constants fit to modified Arrhenius expression by abstracter.
 """,
     history = [
         ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002PU/TRU1479-1481:1"""),
@@ -2907,7 +2913,7 @@ u"""
 PrIMe Reaction: r00002017
 Category: Theory
 Data type: Other theoretical
-Comments: Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference.  Transition state geometry and barriers were computed at the UMP2/6-31G(d,p) level.  Eckart-level tunneling contributions are applied.
+Comments: Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference. Transition state geometry and barriers were computed at the UMP2/6-31G(d,p) level. Eckart-level tunneling contributions are applied.
 """,
     history = [
         ("Thu Jul 12 19:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA3107-3122:21"""),
@@ -7654,6 +7660,9 @@ PrIMe Reaction: r00002499
 Category: Review
 Data type: Extensive literature review
 Comments: A factor and sign on Ea given in table in paper are incorrect
+
+
+
 Note: Invalid activation energy uncertainty (1.164) found and ignored
 """,
     history = [
@@ -7709,7 +7718,9 @@ u"""
 PrIMe Reaction: r00002499
 Category: Review
 Data type: Extensive literature review
-Comments: No direct measurements of rate constants.  Rate constants reported are either from estimates or optimization fits.  Enthalpies of formation were also allowed to be varied in fits.  This paper is combined experimental and modeling.  These measurements consist of shock tube oxidation of C2H2 at temperatures of 1150-2130 K, pressures of 0.9-1.9 atm in Argon, with lean to rich conditions (Phi = 0.06 to 1.7).  CO produced was detected using CO laser absorption at 2077.1 cm-1
+Comments: No direct measurements of rate constants. Rate constants reported are either from estimates or optimization fits. Enthalpies of formation were also allowed to be varied in fits. This paper is combined experimental and modeling. These measurements consist of shock tube oxidation of C2H2 at temperatures of 1150-2130 K, pressures of 0.9-1.9 atm in Argon, with lean to rich conditions (Phi = 0.06 to 1.7). CO produced was detected using CO laser absorption at 2077.1 cm-1
+
+Rate expressions for C2H + H2 -> C2H2 + H and C2H + C2H2 -> C4H2 + H were reported based on fits to data in the literature.
 """,
     history = [
         ("Thu Jul 12 19:51:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003EIT/FRE391-414:8"""),
@@ -8732,7 +8743,7 @@ u"""
 PrIMe Reaction: r00009460
 Category: Theory
 Data type: Other theoretical
-Comments: Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference.  Transition state geometry and barriers were computed at several levels and Eckart-level tunneling contributions were applied.
+Comments: Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference. Transition state geometry and barriers were computed at several levels and Eckart-level tunneling contributions were applied.
 """,
     history = [
         ("Thu Jul 12 20:28:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA6900-6909:8"""),
@@ -8787,7 +8798,7 @@ u"""
 PrIMe Reaction: r00009460
 Category: Theory
 Data type: Other theoretical
-Comments: Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference.  Transition state geometry and barriers were computed at several levels and Eckart-level tunneling contributions were applied.
+Comments: Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference. Transition state geometry and barriers were computed at several levels and Eckart-level tunneling contributions were applied.
 """,
     history = [
         ("Thu Jul 12 20:28:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA6900-6909:9"""),
@@ -8952,7 +8963,7 @@ u"""
 PrIMe Reaction: r00009460
 Category: Review
 Data type: Extensive literature review
-Comments: Fit of the combined data of 2001BRY/SLA6900-6909 and 1977JON/MOR1311 . Conditions under which this expression is valid are not specified but were assumed to encompass the temperature ranges of the two studies.
+Comments: Fit of the combined data of 2001BRY/SLA6900-6909 and 1977JON/MOR1311. Conditions under which this expression is valid are not specified but were assumed to encompass the temperature ranges of the two studies.
 """,
     history = [
         ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA6900-6909:10"""),
@@ -10270,7 +10281,7 @@ u"""
 PrIMe Reaction: r00009460
 Category: Theory
 Data type: Other theoretical
-Comments: Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference.  Transition state geometry and barriers were computed at several levels and Eckart-level tunneling contributions were applied.
+Comments: Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference. Transition state geometry and barriers were computed at several levels and Eckart-level tunneling contributions were applied.
 """,
     history = [
         ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA6900-6909:7"""),
@@ -10325,7 +10336,7 @@ u"""
 PrIMe Reaction: r00009460
 Category: Theory
 Data type: Other theoretical
-Comments: Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference.  Transition state geometry and barriers were computed at several levels and Eckart-level tunneling contributions were applied.
+Comments: Derived from fits of a transition state theory model, the Marcus expression for correlation between reaction barriers and energetics, and analysis of experimental data reported in this reference. Transition state geometry and barriers were computed at several levels and Eckart-level tunneling contributions were applied.
 """,
     history = [
         ("Thu Jul 12 20:28:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BRY/SLA6900-6909:6"""),
@@ -11514,6 +11525,10 @@ Excitation technique: Discharge
 Time resolution: In real time
 Analytical technique: Electron spin resonance (ESR or EPR)
 Comments: At pressures of a few millibars using the discharge flow method with electron paramagnetic resonance (EPR) for the detection of H and D atoms and laser-induced fluorescence (LIF) for the
+measurement of HCO.
+
+
+
 measurement of HCO.
 """,
     history = [
@@ -15434,7 +15449,13 @@ Uncertainty: 1.2
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure independent
-Comments: The reflected shock tube technique with multipass absorption spectrometric detection of OH radicals at 308 nm was used to study the CH4 + OH reaction.  OH was generated from thermal decomposition of t-butyl hydroperoxide at temperatures less than 1300 K and from HNO3 at higher temperatures.
+Comments: The reflected shock tube technique with multipass absorption spectrometric detection of OH radicals at 308 nm was used to study the CH4+ OH reaction. OH was generated from thermal decomposition of t-butyl hydroperoxide at temperatures less than 1300 K and from HNO3at higher temperatures.
+
+The temperature dependent cross section for OH was measured and is reported as
+sigma(OH ) = (4.516 - 0.00118 T) x 10-17cm2molecule-1;
+where T is in Kelvin.
+
+Literature results are discussed and compared and a rate expression covering the temperature range of 195-2025 K is given.
 """,
     history = [
         ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SRI/SU1857-1863:2"""),
@@ -16450,7 +16471,13 @@ Experimental procedure: Shock tube
 Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
-Comments: The reflected shock tube technique with multipass absorption spectrometric detection of OH radicals at 308 nm was used to study the CH4 + OH reaction.  OH was generated from thermal decomposition of t-butyl hydroperoxide at temperatures less than 1300 K and from HNO3 at higher temperatures.
+Comments: The reflected shock tube technique with multipass absorption spectrometric detection of OH radicals at 308 nm was used to study the CH4+ OH reaction. OH was generated from thermal decomposition of t-butyl hydroperoxide at temperatures less than 1300 K and from HNO3at higher temperatures.
+
+The temperature dependent cross section for OH was measured and is reported as
+sigma(OH ) = (4.516 - 0.00118 T) x 10-17cm2molecule-1;
+where T is in Kelvin.
+
+Literature results are discussed and compared and a rate expression covering the temperature range of 195-2025 K is given.
 """,
     history = [
         ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SRI/SU1857-1863:1"""),
@@ -16511,7 +16538,7 @@ Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Laser induced fluorescence
-Comments: OH produced through 193 nm photolysis of N2O -> N2 + O(1D), then O(1D) + H2O -> 2OH.  OH detected using LIF at 282 nm excitation monitoring fluor. at 308-316 nm.  Typical conc. CH4 1-4E16, C3H8 1-3E15, Cl2 1-5E15 molecules/cm3.
+Comments: OH produced through 193 nm photolysis of N2O -> N2 + O(1D), then O(1D) + H2O -> 2OH. OH detected using LIF at 282 nm excitation monitoring fluor. at 308-316 nm. Typical conc. CH4 1-4E16, C3H8 1-3E15, Cl2 1-5E15 molecules/cm3.
 """,
     history = [
         ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004BRY/KNY10464-10472:3"""),
@@ -18100,9 +18127,9 @@ u"""
 PrIMe Reaction: r00010849
 Category: Theory
 Data type: Transition state theory
-Comments: 1) The rate coefficent is the result of BHandHLYP/6-311G(d,p)  calculations. The paper also lists rate coeffients computed at the MP2/6-311G(d,p) level.
+Comments: 1) The rate coefficent is the result of BHandHLYP/6-311G(d,p) calculations. The paper also lists rate coeffients computed at the MP2/6-311G(d,p) level.
 
-The title reactions was modeled using ab initio MP2 and a hybrid density functional method (BHandHLYP) methods, and the 6-311G(d,p) basis set. Single-point calculations at the CCSD(T) level were carried out at the optimized geometries.  Hindered Internal Rotation partition functions calculations were explicitly carried out and included in the total partition functions. The explicit participation of the tunnel effect was taken into account.
+The title reaction was modeled using ab initio MP2 and a hybrid density functional method (BHandHLYP) methods, and the 6-311G(d,p) basis set. Single-point calculations at the CCSD(T) level were carried out at the optimized geometries. Hindered Internal Rotation partition functions calculations were explicitly carried out and included in the total partition functions. The explicit participation of the tunnel effect was taken into account.
 """,
     history = [
         ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005BRA/ALV213-223:3"""),
@@ -18157,6 +18184,10 @@ Category: Theory
 Data type: Ab initio
 Comments: Rate constants calculated at several temperatures using the VTST-ISPE mapped interpolation scheme at the multicoefficient correlation method (MMCM) at the CCSD(T) level of theory. Parameters are from a fit by the abstractor to these data.
 Calculations at several other levels of theory also presented.
+
+
+
+Calculations at several other levels of theory also presented.
 """,
     history = [
         ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001MAS/GON4515-4526:1"""),
@@ -18209,7 +18240,7 @@ u"""
 PrIMe Reaction: r00010849
 Category: Theory
 Data type: Ab initio
-Comments: Rate constants calculated at several temperatures using the VTST-ISPE mapped interpolation scheme at the CCSD(T)-SAC//MP2cc-pVTZ level of theory.  Parameters are from a fit by the abstractor to these data.
+Comments: Rate constants calculated at several temperatures using the VTST-ISPE mapped interpolation scheme at the CCSD(T)-SAC//MP2cc-pVTZ level of theory. Parameters are from a fit by the abstractor to these data.
 Rate constants were also calculated at other levels of theory and at this level of theory but with a single-point energy approach.
 """,
     history = [
@@ -18367,7 +18398,9 @@ u"""
 PrIMe Reaction: r00010849
 Category: Theory
 Data type: Ab initio
-Comments: Rate constant was computed using transition state theory employing a transition state from ab initio calculationsGeometriesUMP2/TZ+2P+fFrequenciesUMP2/TZ+2P+fEnergiesQCISD(T)/CC  TunnelingWigner correctionTorsionFree rotor approximationMiscCC are Dunnings correlation consistent basis sets (Ref 1)
+Comments: Rate constants in this work were computed using transition state theory employing transition states from ab initio calculations. A range of levels of theory and different basis sets were used. A Wigner correction was used to account for tunneling. Both the free rotor and harmonic oscillator approximation were used to treat the CH3 rotor. The highest level calculations were QCISD(T)/CC (Dunnings correlation consistent basis sets). Use of TZ+2P+f basis sets gave barriers that were about 0.50 kcal/mol lower than the QCISD(T)/CC values. Use of PUMP4 theory gave barriers that were about 0.24 kcal/mol lower than the QCISD(T)/CC values. The best agreement of the calculated values with experimental data was found using the free rotor approximation where the calculated values were about a factor of two higher at 400 K and about a factor of three higher at 1500 K than the experimental data.
+
+Extended Arrhenius expression fit by NIST to authors reported calculated data when they employed a free rotor approximation for the torsional mode.
 """,
     history = [
         ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/DIX8852-8858:3"""),
@@ -18420,7 +18453,9 @@ u"""
 PrIMe Reaction: r00010849
 Category: Theory
 Data type: Ab initio
-Comments: Rate constant was computed using transition state theory employing a transition state from ab initio calculationsGeometriesUMP2/TZ+2P+fFrequenciesUMP2/TZ+2P+fEnergiesQCISD(T)/CC  TunnelingWigner correctionTorsionHarmonic oscillator approximationMiscCC are Dunnings correlation consistent basis sets (Ref 1)
+Comments: Rate constants in this work were computed using transition state theory employing transition states from ab initio calculations. A range of levels of theory and different basis sets were used. A Wigner correction was used to account for tunneling. Both the free rotor and harmonic oscillator approximation were used to treat the CH3 rotor. The highest level calculations were QCISD(T)/CC (Dunnings correlation consistent basis sets). Use of TZ+2P+f basis sets gave barriers that were about 0.50 kcal/mol lower than the QCISD(T)/CC values. Use of PUMP4 theory gave barriers that were about 0.24 kcal/mol lower than the QCISD(T)/CC values. The best agreement of the calculated values with experimental data was found using the free rotor approximation where the calculated values were about a factor of two higher at 400 K and about a factor of three higher at 1500 K than the experimental data.
+
+Extended Arrhenius expression fit by NIST to authors reported calculated data when they employed a harmonic oscillator approximation for the torsional mode.
 """,
     history = [
         ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/DIX8852-8858:2"""),
@@ -18473,7 +18508,9 @@ u"""
 PrIMe Reaction: r00010849
 Category: Theory
 Data type: Ab initio
-Comments: Rate constant was computed using transition state theory employing a transition state from ab initio calculationsGeometriesUMP2/TZ+2P+fFrequenciesUMP2/TZ+2P+fEnergiesQCISD(T)/CC  TunnelingWigner correctionTorsionHarmonic oscillator approximationMiscCC are Dunnings correlation consistent basis sets (Ref 1)
+Comments: Rate constants in this work were computed using transition state theory employing transition states from ab initio calculations. A range of levels of theory and different basis sets were used. A Wigner correction was used to account for tunneling. Both the free rotor and harmonic oscillator approximation were used to treat the CH3 rotor. The highest level calculations were QCISD(T)/CC (Dunnings correlation consistent basis sets). Use of TZ+2P+f basis sets gave barriers that were about 0.50 kcal/mol lower than the QCISD(T)/CC values. Use of PUMP4 theory gave barriers that were about 0.24 kcal/mol lower than the QCISD(T)/CC values. The best agreement of the calculated values with experimental data was found using the free rotor approximation where the calculated values were about a factor of two higher at 400 K and about a factor of three higher at 1500 K than the experimental data.
+
+Extended Arrhenius expression fit by NIST to authors reported calculated data when they employed a harmonic oscillator approximation for the torsional mode.
 """,
     history = [
         ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/DIX8852-8858:4"""),
@@ -18526,7 +18563,9 @@ u"""
 PrIMe Reaction: r00010849
 Category: Theory
 Data type: Ab initio
-Comments: Extended Arrhenius expression fit by NIST to authors reported calculated data when they employed a free rotor approximation for the torsional mode.
+Comments: Rate constants in this work were computed using transition state theory employing transition states from ab initio calculations. A range of levels of theory and different basis sets were used. A Wigner correction was used to account for tunneling. Both the free rotor and harmonic oscillator approximation were used to treat the CH3 rotor. The highest level calculations were QCISD(T)/CC (Dunnings correlation consistent basis sets). Use of TZ+2P+f basis sets gave barriers that were about 0.50 kcal/mol lower than the QCISD(T)/CC values. Use of PUMP4 theory gave barriers that were about 0.24 kcal/mol lower than the QCISD(T)/CC values. The best agreement of the calculated values with experimental data was found using the free rotor approximation where the calculated values were about a factor of two higher at 400 K and about a factor of three higher at 1500 K than the experimental data.
+
+Extended Arrhenius expression fit by NIST to authors reported calculated data when they employed a free rotor approximation for the torsional mode.
 """,
     history = [
         ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/DIX8852-8858:5"""),
@@ -18579,7 +18618,9 @@ u"""
 PrIMe Reaction: r00010849
 Category: Theory
 Data type: Ab initio
-Comments: Extended Arrhenius expression fit by NIST to authors reported calculated data when they employed an harmoninc oscillator approximation  for the torsional mode.
+Comments: Rate constants in this work were computed using transition state theory employing transition states from ab initio calculations. A range of levels of theory and different basis sets were used. A Wigner correction was used to account for tunneling. Both the free rotor and harmonic oscillator approximation were used to treat the CH3 rotor. The highest level calculations were QCISD(T)/CC (Dunnings correlation consistent basis sets). Use of TZ+2P+f basis sets gave barriers that were about 0.50 kcal/mol lower than the QCISD(T)/CC values. Use of PUMP4 theory gave barriers that were about 0.24 kcal/mol lower than the QCISD(T)/CC values. The best agreement of the calculated values with experimental data was found using the free rotor approximation where the calculated values were about a factor of two higher at 400 K and about a factor of three higher at 1500 K than the experimental data.
+
+Extended Arrhenius expression fit by NIST to authors reported calculated data when they employed a harmonic oscillator approximation for the torsional mode.
 """,
     history = [
         ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/DIX8852-8858:6"""),
@@ -18632,7 +18673,9 @@ u"""
 PrIMe Reaction: r00010849
 Category: Theory
 Data type: Ab initio
-Comments: Rate constant was computed using transition state theory employing a transition state from ab initio calculationsGeometriesUMP2/TZ+2P+fFrequenciesUMP2/TZ+2P+fEnergiesQCISD(T)/CC  TunnelingWigner correctionTorsionFree rotor approximationMiscCC are Dunnings correlation consistent basis sets (Ref 1)
+Comments: Rate constants in this work were computed using transition state theory employing transition states from ab initio calculations. A range of levels of theory and different basis sets were used. A Wigner correction was used to account for tunneling. Both the free rotor and harmonic oscillator approximation were used to treat the CH3 rotor. The highest level calculations were QCISD(T)/CC (Dunnings correlation consistent basis sets). Use of TZ+2P+f basis sets gave barriers that were about 0.50 kcal/mol lower than the QCISD(T)/CC values. Use of PUMP4 theory gave barriers that were about 0.24 kcal/mol lower than the QCISD(T)/CC values. The best agreement of the calculated values with experimental data was found using the free rotor approximation where the calculated values were about a factor of two higher at 400 K and about a factor of three higher at 1500 K than the experimental data.
+
+Extended Arrhenius expression fit by NIST to authors reported calculated data when they employed a free rotor approximation for the torsional mode.
 """,
     history = [
         ("Thu Jul 12 20:41:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/DIX8852-8858:1"""),
@@ -19055,7 +19098,16 @@ PrIMe Reaction: r00001618
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001618/rk00000001.xml
 Category: Theory
 Data type: Ab initio
-Comments: Ab initio study of Ethanol + H reaction channels.  Rate constants based on ab initio transition states.  Ab initio energies calculated using G2M method with B3LYP/6-311+G(d,p).  Rate expressions calculated using Truhlars Polyrate program using SCT/CVT method (small curvature tunnelling correction/canonical variational transition state theory).
+Comments: Ab initio study of Ethanol + H reaction channels. Rate constants based on ab initio transition states. Ab initio energies calculated using G2M method with B3LYP/6-311+G(d,p). Rate expressions calculated using Truhlars Polyrate program using SCT/CVT method (small curvature tunnelling correction/canonical variational transition state theory).
+
+Found barriers of
+7.2 kcal/mol for CH3CH(OH)* + H2 channel
+13.3 kcal/mol for CH2OHCH2* + H2 channel
+15.0 kcal/mol for CH3CH2O* + H2 channel
+27.2 kcal/mol for CH3CH2* + H2O channel
+The first channel dominates at all temperatures, the second channel begins to contribute at about 1000 K and is roughly equal at 3000 K, the third channel is <5% even at 3000 K. The fourth channel is kinetically insignificant.
+
+NOTE The rate expression given for the CH3CH2O+H2 channel (k3) in Table II of the paper appears to be incorrect. The correct rate expressions can be found in the text.
 """,
     history = [
         ("Thu Jul 12 19:35:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003PAR/XU9990-9996:4"""),
@@ -19113,7 +19165,16 @@ PrIMe Reaction: r00001618
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001618/rk00000001.xml
 Category: Theory
 Data type: Ab initio
-Comments: Ab initio study of Ethanol + H reaction channels.  Rate constants based on ab initio transition states.  Ab initio energies calculated using G2M method with B3LYP/6-311+G(d,p).  Rate expressions calculated using Truhlars Polyrate program using SCT/CVT method (small curvature tunnelling correction/canonical variational transition state theory).
+Comments: Ab initio study of Ethanol + H reaction channels. Rate constants based on ab initio transition states. Ab initio energies calculated using G2M method with B3LYP/6-311+G(d,p). Rate expressions calculated using Truhlars Polyrate program using SCT/CVT method (small curvature tunnelling correction/canonical variational transition state theory).
+
+Found barriers of
+7.2 kcal/mol for CH3CH(OH)* + H2 channel
+13.3 kcal/mol for CH2OHCH2* + H2 channel
+15.0 kcal/mol for CH3CH2O* + H2 channel
+27.2 kcal/mol for CH3CH2* + H2O channel
+The first channel dominates at all temperatures, the second channel begins to contribute at about 1000 K and is roughly equal at 3000 K, the third channel is <5% even at 3000 K. The fourth channel is kinetically insignificant.
+
+NOTE The rate expression given for the CH3CH2O+H2 channel (k3) in Table II of the paper appears to be incorrect. The correct rate expressions can be found in the text.
 """,
     history = [
         ("Thu Jul 12 19:35:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003PAR/XU9990-9996:5"""),
@@ -19233,7 +19294,16 @@ u"""
 PrIMe Reaction: r00001619
 Category: Theory
 Data type: Ab initio
-Comments: Ab initio study of Ethanol + H reaction channels.  Rate constants based on ab initio transition states.  Ab initio energies calculated using G2M method with B3LYP/6-311+G(d,p).  Rate expressions calculated using Truhlars Polyrate program using SCT/CVT method (small curvature tunnelling correction/canonical variational transition state theory).
+Comments: Ab initio study of Ethanol + H reaction channels. Rate constants based on ab initio transition states. Ab initio energies calculated using G2M method with B3LYP/6-311+G(d,p). Rate expressions calculated using Truhlars Polyrate program using SCT/CVT method (small curvature tunnelling correction/canonical variational transition state theory).
+
+Found barriers of
+7.2 kcal/mol for CH3CH(OH)* + H2 channel
+13.3 kcal/mol for CH2OHCH2* + H2 channel
+15.0 kcal/mol for CH3CH2O* + H2 channel
+27.2 kcal/mol for CH3CH2* + H2O channel
+The first channel dominates at all temperatures, the second channel begins to contribute at about 1000 K and is roughly equal at 3000 K, the third channel is <5% even at 3000 K. The fourth channel is kinetically insignificant.
+
+There is a disagreement between the calculated value for the total rate with experimental measurements by Adler and Wagner Ber. Buns. Phys. Chem. 77, 712 (1973), the calc values being 2-3 times lower. The current authors attribute the difference to incorrect assumptions regarding secondary reactions in the experimental measurements, and they employing modeling to demonstrate such.
 """,
     history = [
         ("Thu Jul 12 19:35:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003PAR/XU9990-9996:2"""),
@@ -19291,7 +19361,14 @@ PrIMe Reaction: r00001620
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001620/rk00000001.xml
 Category: Theory
 Data type: Ab initio
-Comments: Ab initio study of Ethanol + H reaction channels.  Rate constants based on ab initio transition states.  Ab initio energies calculated using G2M method with B3LYP/6-311+G(d,p).  Rate expressions calculated using Truhlars Polyrate program using SCT/CVT method (small curvature tunnelling correction/canonical variational transition state theory).
+Comments: Ab initio study of Ethanol + H reaction channels. Rate constants based on ab initio transition states. Ab initio energies calculated using G2M method with B3LYP/6-311+G(d,p). Rate expressions calculated using Truhlars Polyrate program using SCT/CVT method (small curvature tunnelling correction/canonical variational transition state theory).
+
+Found barriers of
+7.2 kcal/mol for CH3CH(OH)* + H2 channel
+13.3 kcal/mol for CH2OHCH2* + H2 channel
+15.0 kcal/mol for CH3CH2O* + H2 channel
+27.2 kcal/mol for CH3CH2* + H2O channel
+The first channel dominates at all temperatures, the second channel begins to contribute at about 1000 K and is roughly equal at 3000 K, the third channel is <5% even at 3000 K. The fourth channel is kinetically insignificant.
 """,
     history = [
         ("Thu Jul 12 19:35:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003PAR/XU9990-9996:3"""),
@@ -21383,7 +21460,7 @@ PrIMe Reaction: r00001966
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure independent
-Comments: The authors calculated  the potential energy surface at theUQCISD/6-311G(d,p) level., and then used canonical variational transition-state theory with small-curvature tunneling correction to calculate the rate constants.  The theoretical rate constants are a factor of 14 smaller than experiment at 300 K and a factor of 4 smaller at 2000K. In the temperature range 600-1500 K the deviations are < 2.5x.
+Comments: The authors calculated the potential energy surface at theUQCISD/6-311G(d,p) level., and then used canonical variational transition-state theory with small-curvature tunneling correction to calculate the rate constants. The theoretical rate constants are a factor of 14 smaller than experiment at 300 K and a factor of 4 smaller at 2000K. In the temperature range 600-1500 K the deviations are < 2.5x.
 """,
     history = [
         ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/PU35-43:1"""),
@@ -21440,6 +21517,8 @@ Category: Theory
 Data type: Ab initio
 Pressure dependence: None reported
 Comments: The authors have calculated the potential energy surface of the CH2O1CH3 reaction at the MP2/6-31111G(d,p), MP4SDQ/6-311G(d,p), and QCISD(T)/6-3111G(3d f ,2p) single point levels oftheory. The calculations suggest that the major product channel is hydrogen abstraction with addition of CH3 being negligibly small. Energies were refined with the interpolated single-point energies method at the QCISD(T)//MP2 level. Rate constants were evaluated by canonical variational transition-state theory including the small-curvature tunneling correction. Tunneling is shown to play a significant role in the results below about 700 K.
+
+Energies, frequencies, and bond length information for the intermediates and transition states are presented.
 """,
     history = [
         ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003LIU/LI7214-7221:1"""),
@@ -21494,7 +21573,13 @@ u"""
 PrIMe Reaction: r00001966
 Category: Theory
 Data type: Ab initio
-Comments: Quantum calculations of reaction of CH3 with CH2O.  Calculated geometries at B3LYP/6-311+G(d,p) and energies at CCSD(T)/6-311G(2df,p).  Also calculated energetics at B3LYP and G2 levels.  Use Truhlars Polyrate program to calculate rate expressions using CVT/SCT tunneling corrections.
+Comments: Quantum calculations of reaction of CH3 with CH2O. Calculated geometries at B3LYP/6-311+G(d,p) and energies at CCSD(T)/6-311G(2df,p). Also calculated energetics at B3LYP and G2 levels. Use Truhlars Polyrate program to calculate rate expressions using CVT/SCT tunneling corrections.
+
+Considered abstraction, carbon addition, and oxygen addition channels. Abstraction dominates over addition channels by factor of 10 over carbon addition and many orders of magnitude over oxygen addition channel.  Found carbon addition channel can contribute at lower temperatures. Agreement with experimental measurements is good (factor of 2 higher) with some and only fair with others (factor of 5-10 higher). Depends on temperature range and the specific measurement.
+
+Calculated barriers are 40 kcal/mol for abstraction, 34 kcal/mol for C addition, and 69 kcal/mol for O addition channels. Although abstraction has higher barrier than C addition, it also has larger prefactor.
+
+Fits given here in database are NIST fits to curves in Figure 3 in paper.  Rate expressions NOT given in paper.
 """,
     history = [
         ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003CHE/ZHA2929-2933:1"""),
@@ -22799,7 +22884,7 @@ Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Chemiluminescence
-Comments: Chemiluminescence from CCH + O2 -> CH + CO2 used to monitor CCH.
+Comments: Chemiluminescence from CCH + O2-> CH + CO2used to monitor CCH.
 """,
     history = [
         ("Thu Jul 12 19:51:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000CEU/NGU412-420:1"""),
@@ -24984,7 +25069,7 @@ Experimental procedure: Shock tube
 Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: IR absorption
-Comments: No direct measurements of rate constants.  Rate constants reported are either from estimates or optimization fits.  Enthalpies of formation were also allowed to be varied in fits.  This paper is combined experimental and modeling.  These measurements consist of shock tube oxidation of C2H2 at temperatures of 1150-2130 K, pressures of 0.9-1.9 atm, with lean to rich conditions (Phi = 0.06 to 1.7).  CO produced was detected using CO laser absorption at 2077.1 cm-1
+Comments: No direct measurements of rate constants. Rate constants reported are either from estimates or optimization fits. Enthalpies of formation were also allowed to be varied in fits. This paper is combined experimental and modeling. These measurements consist of shock tube oxidation of C2H2 at temperatures of 1150-2130 K, pressures of 0.9-1.9 atm, with lean to rich conditions (Phi = 0.06 to 1.7). CO produced was detected using CO laser absorption at 2077.1 cm-1
 """,
     history = [
         ("Thu Jul 12 20:39:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003EIT/FRE391-414:4"""),
@@ -26674,6 +26759,8 @@ Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 Comments: Equation was derived at NIST and is an unweighted fit to the data reported by the authors in Table 1 of the paper. The equation fits the experimental rate constants within 2.3%.
+
+The authors estimate the uncertainty in their absolute rates to be +/- 15% at 1229 K and +/- 25% at 1595 K, taking into account both experimental and mechanism-induced contributions.
 """,
     history = [
         ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005VAS/DAV98-109:2"""),
@@ -27255,7 +27342,7 @@ PrIMe Reaction: r00011341
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure independent
-Comments: The authors calculated  the potential energy surface at theUQCISD/6-311G(d,p) level., and then used canonical variational transition-state theory with small-curvature tunneling correction to calculate the rate constants.  The theoretical rate constants are within about 25% of the experimental values except at temperaures near 300 K where the deviations are larger.
+Comments: The authors calculated the potential energy surface at theUQCISD/6-311G(d,p) level., and then used canonical variational transition-state theory with small-curvature tunneling correction to calculate the rate constants. The theoretical rate constants are within about 25% of the experimental values except at temperaures near 300 K where the deviations are larger.
 """,
     history = [
         ("Thu Jul 12 20:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/PU35-43:2"""),
@@ -27421,7 +27508,7 @@ PrIMe Reaction: r00011431
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Abstracter fit reported rate constants to modified Arrhenius expression.  Small tunneling corrections (not included in calculations of present rate constants) indicate that tunneling makes a significant contribution at low temperatures (see text).
+Comments: Abstracter fit reported rate constants to modified Arrhenius expression. Small tunneling corrections (not included in calculations of present rate constants) indicate that tunneling makes a significant contribution at low temperatures (see text).
 """,
     history = [
         ("Thu Jul 12 20:50:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002LIU/DIN1021-1027:1"""),
@@ -27991,7 +28078,7 @@ PrIMe Reaction: r00011431
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Abstracter fit reported rate constants to modified Arrhenius expression.  Small tunneling corrections (not included in calculations of present rate constants) indicate that tunneling makes a >7% contribution to the rate constant for temperatures <730 K (see text).
+Comments: Abstracter fit reported rate constants to modified Arrhenius expression. Small tunneling corrections (not included in calculations of present rate constants) indicate that tunneling makes a >7% contribution to the rate constant for temperatures <730 K (see text).
 """,
     history = [
         ("Thu Jul 12 20:50:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002LIU/DIN1021-1027:2"""),
@@ -31857,9 +31944,9 @@ u"""
 PrIMe Reaction: r00013765
 Category: Theory
 Data type: Transition state theory
-Comments: 1) The rate coefficent is the result of BHandHLYP/6-311G(d,p)  calculations. The paper also lists rate coeffients computed at the MP2/6-311G(d,p) level.
+Comments: 1) The rate coefficent is the result of BHandHLYP/6-311G(d,p) calculations. The paper also lists rate coeffients computed at the MP2/6-311G(d,p) level.
 
-The title reactions was modeled using ab initio MP2 and a hybrid density functional method (BHandHLYP) methods, and the 6-311G(d,p) basis set. Single-point calculations at the CCSD(T) level were carried out at the optimized geometries.  Hindered Internal Rotation partition functions calculations were explicitly carried out and included in the total partition functions. The explicit participation of the tunnel effect was taken into account.
+The title reaction was modeled using ab initio MP2 and a hybrid density functional method (BHandHLYP) methods, and the 6-311G(d,p) basis set. Single-point calculations at the CCSD(T) level were carried out at the optimized geometries. Hindered Internal Rotation partition functions calculations were explicitly carried out and included in the total partition functions. The explicit participation of the tunnel effect was taken into account.
 """,
     history = [
         ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005BRA/ALV213-223:2"""),
@@ -31914,7 +32001,7 @@ u"""
 PrIMe Reaction: r00013765
 Category: Theory
 Data type: Transition state theory
-Comments: Evaluated rate expression derived by fitting a theoretical extrapolation based on conventional transition state theory (computed with B3LYP/6-31G* calculations) with experimental data reported in previous reaction rate measurements and wtih the shock tube data reported in this manuscript.  Wigner tunneling corrections were included in the fit model.
+Comments: Evaluated rate expression derived by fitting a theoretical extrapolation based on conventional transition state theory (computed with B3LYP/6-31G* calculations) with experimental data reported in previous reaction rate measurements and wtih the shock tube data reported in this manuscript. Wigner tunneling corrections were included in the fit model.
 """,
     history = [
         ("Thu Jul 12 20:56:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004KRA/MIC5643-5648:4"""),
@@ -40804,7 +40891,7 @@ u"""
 PrIMe Reaction: r00005795
 Category: Theory
 Data type: Ab initio
-Comments: The reactions of CH3OCH3 + OH  and CF3OCH3 + OH  via two hydrogen abstractionchannels are investigated theoretically using the dual-level direct dynamics approach. The minimumenergy path calculation is carried out at the MP2/6-311G(d,p) level, and energetic information isfurther refined by the G3 theory. For each reaction hydrogen abstraction is favored for theout-of-plane hydrogen, while the abstraction from the in-plane hydrogen is a minor channel.Hydrogen-bonded complexes are present on the reactants and products sides of the primary channel, indicating that the reactions may proceed via an indirect mechanism. By means of variational transition state theory with interpolated single-point energies method the dynamic results of all channels are obtained, and the small-curvature tunneling is included.
+Comments: The reactions of CH3OCH3 + OH and CF3OCH3 + OH via two hydrogen abstractionchannels are investigated theoretically using the dual-level direct dynamics approach. The minimumenergy path calculation is carried out at the MP2/6-311G(d,p) level, and energetic information isfurther refined by the G3 theory. For each reaction hydrogen abstraction is favored for theout-of-plane hydrogen, while the abstraction from the in-plane hydrogen is a minor channel.Hydrogen-bonded complexes are present on the reactants and products sides of the primary channel, indicating that the reactions may proceed via an indirect mechanism. By means of variational transition state theory with interpolated single-point energies method the dynamic results of all channels are obtained, and the small-curvature tunneling is included.
 """,
     history = [
         ("Thu Jul 12 20:17:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003WU/LIU10986-10995:1"""),
@@ -42765,7 +42852,7 @@ PrIMe Reaction: r00011339
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is pressure independent
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory with tunneling correction. The article incorrectly reports the units of the preexponential factor as cm3 mol-1 s-1. The correct units are cm3 molecule-1 s-1, as can be seen from the rate constant values given in tables and plots.
+Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory with tunneling correction. The article incorrectly reports the units of the preexponential factor as cm3mol-1s-1. The correct units are cm3molecule-1s-1, as can be seen from the rate constant values given in tables and plots.
 """,
     history = [
         ("Thu Jul 12 20:47:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005LI/ZHA12027-12035:1"""),
@@ -45469,7 +45556,13 @@ entry(
 u"""
 PrIMe Reaction: r00001778
 Category: Uncategorized
-Comments: Abstraction channel 2.  No rate expressions given in paper, only rate constants.  Rate expression given here is NIST fit to rate constants in tables in paper.
+Comments: Abstraction channel 2. No rate expressions given in paper, only rate constants. Rate expression given here is NIST fit to rate constants in tables in paper.
+
+Studied reaction of CH3C(O)CH3 acetone + OH. Two possible product channels abstraction going to CH3COCH2 + H2O, and the other addition of OH followed by beta scission of CH3. Addition/beta scission channel is small compared to abstraction. Also studied isotope effect using CD3C(O)CD3.
+
+Used ab initio potential surfaces from earlier work by the authors PCCP 5, 333 (2003) and JCP 119, 10600 (2003). Used RRKM theory to derive rate constants. Including tunneling correction zero curvature tunneling WKB approximation.
+
+All reaction channels proceed through weakly bound adducts. The abstraction channel is the sum of two configurations with different hydrogen bonding arrangements. Tunneling correction is very important at low temperatures. The calculated rate constants agree well (20-30%) with experimental values including describing curvature in temperature dependence.
 """,
     history = [
         ("Thu Jul 12 19:37:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CAR/FOR1072-1078:2"""),
@@ -45527,7 +45620,13 @@ entry(
 u"""
 PrIMe Reaction: r00001778
 Category: Uncategorized
-Comments: Total Abstraction (two channels). No rate expressions given in paper, only rate constants.  Rate expression given here is NIST fit to rate constants in tables in paper.
+Comments: Total Abstraction (two channels). No rate expressions given in paper, only rate constants. Rate expression given here is NIST fit to rate constants in tables in paper.
+
+Studied reaction of CH3C(O)CH3 acetone + OH. Two possible product channels abstraction going to CH3COCH2 + H2O, and the other addition of OH followed by beta scission of CH3. Addition/beta scission channel is small compared to abstraction. Also studied isotope effect using CD3C(O)CD3.
+
+Used ab initio potential surfaces from earlier work by the authors PCCP 5, 333 (2003) and JCP 119, 10600 (2003). Used RRKM theory to derive rate constants. Including tunneling correction zero curvature tunneling WKB approximation.
+
+All reaction channels proceed through weakly bound adducts. The abstraction channel is the sum of two configurations with different hydrogen bonding arrangements. Tunneling correction is very important at low temperatures. The calculated rate constants agree well (20-30%) with experimental values including describing curvature in temperature dependence.
 """,
     history = [
         ("Thu Jul 12 19:37:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CAR/FOR1072-1078:3"""),
@@ -45585,7 +45684,13 @@ entry(
 u"""
 PrIMe Reaction: r00001778
 Category: Uncategorized
-Comments: Abstraction channel 1.  No rate expressions given in paper, only rate constants.  Rate expression given here is NIST fit to rate constants in tables in paper.
+Comments: Abstraction channel 1. No rate expressions given in paper, only rate constants. Rate expression given here is NIST fit to rate constants in tables in paper.
+
+Studied reaction of CH3C(O)CH3 acetone + OH. Two possible product channels abstraction going to CH3COCH2 + H2O, and the other addition of OH followed by beta scission of CH3. Addition/beta scission channel is small compared to abstraction. Also studied isotope effect using CD3C(O)CD3.
+
+Used ab initio potential surfaces from earlier work by the authors PCCP 5, 333 (2003) and JCP 119, 10600 (2003). Used RRKM theory to derive rate constants. Including tunneling correction zero curvature tunneling WKB approximation.
+
+All reaction channels proceed through weakly bound adducts. The abstraction channel is the sum of two configurations with different hydrogen bonding arrangements. Tunneling correction is very important at low temperatures. The calculated rate constants agree well (20-30%) with experimental values including describing curvature in temperature dependence.
 """,
     history = [
         ("Thu Jul 12 19:37:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006CAR/FOR1072-1078:1"""),
@@ -46006,7 +46111,7 @@ PrIMe Reaction: r00001778
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure independent
-Comments: The authors used CCSD(T)//BHandHLYP/6-311G(d,p) calculations to study the OH hydrogen abstraction reaction from acetone, 2-pentanone, and methyl butanone (3-methyl-2-butanone).  The calulations appear to confirm the formation of a hydogen-bonded transition-state complex involving the carbonyl  oxygen for some H abstractions, particularly those beta to the carbonyl, which result in a 6-center transition state. Good agreement between calculated and experimental k at 298 K has been obtained.
+Comments: The authors used CCSD(T)//BHandHLYP/6-311G(d,p) calculations to study the OH hydrogen abstraction reaction from acetone, 2-pentanone, and methyl butanone (3-methyl-2-butanone). The calulations appear to confirm the formation of a hydogen-bonded transition-state complex involving the carbonyl oxygen for some H abstractions, particularly those beta to the carbonyl, which result in a 6-center transition state. Good agreement between calculated and experimental k at 298 K has been obtained.
 """,
     history = [
         ("Thu Jul 12 19:37:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004ALV/CRU2740-2749:1"""),
@@ -53536,10 +53641,8 @@ PrIMe Reaction: r00010441
 Category: Theory
 Data type: Transition state theory
 Comments: Geometries of stationary points of both singlet and triplet surfaces optimized at MCSCG/CASSCF level of theory with the 6-311+(3df,2p) basis set.
-
-The lowest energy pathway is on the triplet PES and leads to CH3OOH and O2.  The strong negative temperature dependence is due to the formation of a hydrogen-bonded diradical complex.
-
-Reported rate constants for all reaction channels and include an Eckart tunneling factor.  Parameters are abstractor fit to the reported data.
+The lowest energy pathway is on the triplet PES and leads to CH3OOH and O2. The strong negative temperature dependence is due to the formation of a hydrogen-bonded diradical complex.
+Reported rate constants for all reaction channels and include an Eckart tunneling factor. Parameters are abstractor fit to the reported data.
 """,
     history = [
         ("Thu Jul 12 20:40:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006ANG/OLI6073-6082:1"""),
@@ -54285,7 +54388,7 @@ PrIMe Reaction: r00001912
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Authors reported rate constant for forward reaction at 298.15 K (units assumed to cm3 molecule-1 s-1 from the magnitude) and the temperature exponent (n) and activation energy (Ea) in a modified Arrhenius expression calculated from transition state theory rate constants (not reported) at 298-2000 K.  Abstracter used the reported rate constant at 298.15 K to calculate the A-factor, which is abstracted without error bounds.  Error bounds on n and Ea are assumed to be one sigma from the least-squares fit.
+Comments: Authors reported rate constant for forward reaction at 298.15 K (units assumed to cm3molecule-1s-1from the magnitude) and the temperature exponent (n) and activation energy (Ea) in a modified Arrhenius expression calculated from transition state theory rate constants (not reported) at 298-2000 K. Abstracter used the reported rate constant at 298.15 K to calculate the A-factor, which is abstracted without error bounds. Error bounds on n and Eaare assumed to be one sigma from the least-squares fit.
 """,
     history = [
         ("Thu Jul 12 19:38:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001BAR/BAR140-152:1"""),
@@ -57300,6 +57403,10 @@ PrIMe Reaction: r00003940
 Category: Theory
 Data type: Ab initio
 Comments: A theoretical study of the kinetics of the hydrogen abstractions from glyoxal and methylglyoxal by OH at several levels of theory is reported. Geometries, frequencies, and gradients were calculated at the BHandHLYP/6-311++G(d,p) level of theory with PES energies obtained using CCSD(T)/6-311++G(d,p) calculations. Rate coefficients were calculated using CVT/SCT methodology.
+
+Only abstraction of the aldehydic H is found to be important over the studied range of 200-500 K. Results suggest the formation of a reactive complex and are in excellent agreement with experimental data. Calculations performed assuming a direct abstacion (no complex) are in significantly poorer agreement..
+
+Uncertainties represent 2 standard deviations of the analytical expression from the actual calculated values.
 """,
     history = [
         ("Thu Jul 12 20:06:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004GAL/ALV1379-1388:2"""),
@@ -62308,6 +62415,13 @@ Comments: Ab initio study, using density functional theory (DFT) and transition 
 Ea = 71.8kJ/mol
 DrH = 30.6kJ/mol
 no uncertainties reported.
+
+
+
+
+Ea = 71.8kJ/mol
+DrH = 30.6kJ/mol
+no uncertainties reported.
 """,
     history = [
         ("Thu Jul 12 19:39:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006HEM/VAN13624-13631:1"""),
@@ -65115,7 +65229,15 @@ Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Thermal
 Time resolution: By end product analysis
 Analytical technique: Gas chromatography
-Comments: HO2 was generated in the reaction t-C4H9 + O2 = HO2 + C4H8, where t-C4H9 was formed from the thermal decomposition of tetramethylbutane. Rate constants were determined using a detailed kinetic model to match observed products formed when the HO2 was generated in the presence of the target substrates in aged, coated pyrex reactors.  Rate constants for(12p)     HO2 + C3H8 -> H2O2 + C3H7 and(12c)          HO2 + c-C5H10 -> H2O2 + c-C5H9 were determined relative to(7)     2 HO2 = H2O2 + O2, for which the k7 = 1.87E+9exp(-775/T) liter mol-1 s-1 was used. The reported relative values are E12p ?1/2E7 = 75.6?.8 kJ mol-1, log[(A12p = A71/2)/(dm3 mol-1 s-1)1/2] = (5.53?.52) and E12c ?1/2E7 = 71.2 ?3.9 kJ mol-1, log[(A12c = A71/2)/(dm3 mol-1 s-1)1/2] = (5.58?.40).
+Comments: HO2was generated in the reaction t-C4H9+ O2= HO2+ C4H8, where t-C4H9was formed from the thermal decomposition of tetramethylbutane. Rate constants were determined using a detailed kinetic model to match observed products formed when the HO2was generated in the presence of the target substrates in aged, coated pyrex reactors. Rate constants for
+(12p)   HO2+ C3H8-> H2O2+ C3H7and
+(12c)     HO2+ c-C5H10-> H2O2+ c-C5H9
+were determined relative to
+(7)   2 HO2= H2O2+ O2,
+for which the k7= 1.87E+9exp(-775/T) liter mol-1s-1was used. The reported relative values are
+E12p?1/2E7= 75.6?.8 kJ mol-1, log[(A12p= A71/2)/(dm3mol-1s-1)1/2] = (5.53?.52)
+and
+E12c?1/2E7= 71.2 ?3.9 kJ mol-1, log[(A12c= A71/2)/(dm3mol-1s-1)1/2] = (5.58?.40).
 """,
     history = [
         ("Thu Jul 12 20:20:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002HAN/WAL620-627:2"""),
@@ -65184,7 +65306,8 @@ Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Thermal
 Time resolution: By end product analysis
 Analytical technique: Gas chromatography
-Comments: The listed rate expression is recommended by authors for extrapolation of their data outside of their experimental temperature range of 673 to 783 K. The value of n = 2.5 was estimated by the authors on the basis of values for related reactions reported in the literature. No specific range of validity was given by the authors, but an approximate temperature range was inferred by us from the discussion in the paper. Uncertainties in the rate constant derived from this expression are suggested by the authors to be about 40% at 600 to 800 K and a factor of 2 at 1200 K.The authors also suggest generic values of the RH + OOH reaction for primary, secondary, and tertiary hydrogens in this paper.
+Comments: The listed rate expression is recommended by authors for extrapolation of their data outside of their experimental temperature range of 673 to 783 K. The value of n = 2.5 was estimated by the authors on the basis of values for related reactions reported in the literature. No specific range of validity was given by the authors, but an approximate temperature range was inferred by us from the discussion in the paper. Uncertainties in the rate constant derived from this expression are suggested by the authors to be about 40% at 600 to 800 K and a factor of 2 at 1200 K.
+The authors also suggest generic values of the RH + OOH reaction for primary, secondary, and tertiary hydrogens in this paper.
 """,
     history = [
         ("Thu Jul 12 20:20:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002HAN/WAL620-627:4"""),
@@ -66259,6 +66382,8 @@ Category: Theory
 Data type: Transition state theory
 Pressure dependence: None reported
 Comments: The listed rate constants are those recommended in the paper on the basis of transition-state theory (TST) calculations as fitted to their experimental data on the overall rate of reaction. The quantum chemically predicted energetics were adjusted to fit the observed rate constants. To fit the experimental tempoerature dependence, the authors found it necessary to apply anharmonic corrections to two bending and one torsional vibration of the transition state.
+
+The estimated uncertainty factor of 1.35 applies to the overall rate of reaction and the major reaction channels. The minor channels are estimated by the authors to have uncertainty factors of up to 2.
 """,
     history = [
         ("Thu Jul 12 20:46:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SET/NAK5081-5090:4"""),
@@ -66458,6 +66583,10 @@ Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
 Comments: Bath gas was [O2[=2.0-2.4E19 and [N2] 0.1-4.6 molecules/cm3. Flash photolysis of Cl2 in presence CH3CHO and CH3OH forming products CH3C(O)O2 and HO2. Absorption signal as a function of time was measured at 207 and 250 nm. HO2 absorption at 250 nm is low. Used known absorption cross-sections for various molecules at the two wavelengths and a relatively simple kinetic model to describe the chemistry in order to determine k1 (also determined branching ratio). Quoted error limits are 2 sigma. Reported global uncertainty of 15%.
+
+calc equil const k2 1.9E-(27?) exp[+(6925?40 K)/T] at 298-373 K;DrH298 = -64? kJ/mol; So = -157? J/K*mol; DrH is essentially same as for CH2O + HO2 = CH2(OH)O2 from 1989Veryret
+
+Note: Table 2 should be k-2 (k2reverse) = 2.3E13 exp(-6925 K/T). Calculated using assumed temperature dependence by analogy to CH2O + HO2
 """,
     history = [
         ("Thu Jul 12 20:54:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001TOM/VIL3505-3514:7"""),
@@ -67289,7 +67418,8 @@ Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Thermal
 Time resolution: By end product analysis
 Analytical technique: Gas chromatography
-Comments: Rate constant used for the reference reaction HO2 + HO2 -> H2O2 + O2 wask/(cm3 mol-1s-1 = 1.87x1012exp(-775/T)
+Comments: Rate constant used for the reference reaction HO2+ HO2-> H2O2+ O2was
+k/(cm3mol-1s-1= 1.87x1012exp(-775/T)
 """,
     history = [
         ("Thu Jul 12 20:12:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001HAN/WAL2043-2052:1"""),
@@ -67360,7 +67490,10 @@ Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Thermal
 Time resolution: By end product analysis
 Analytical technique: Gas chromatography
-Comments: Rate constant used for the reference reaction HO2 + HO2 -> H2O2 + O2 wask/(cm3 mol-1s-1 = 1.87x1012exp(-775/T)
+Comments: Rate constant used for the reference reaction HO2+ HO2-> H2O2+ O2was
+k/(cm3mol-1s-1= 1.87x1012exp(-775/T)
+
+Authors do not specifically indicate the temperature range over which they recommend this rate expression. The indicated range is approximate and was inferred by us from their discussion.
 """,
     history = [
         ("Thu Jul 12 20:12:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001HAN/WAL2043-2052:2"""),
@@ -69521,7 +69654,7 @@ PrIMe Reaction: r00006974
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006974/rk00000001.xml
 Category: Theory
 Data type: Ab initio
-Comments: Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl +  Acetylene.  Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies.  RRKM/Master equation methods to calculate rate expressions.  Too complicated to abstract all reaction pathways.  Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details.  Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material.  For more details, see article and companion article.
+Comments: Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl + Acetylene. Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies. RRKM/Master equation methods to calculate rate expressions. Too complicated to abstract all reaction pathways. Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details. Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material. For more details, see article and companion article.
 """,
     history = [
         ("Thu Jul 12 20:21:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE2807-2817:11"""),
@@ -70339,7 +70472,7 @@ PrIMe Reaction: r00011159
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011159/rk00000001.xml
 Category: Theory
 Data type: Ab initio
-Comments: Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl +  Acetylene.  Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies.  RRKM/Master equation methods to calculate rate expressions.  Too complicated to abstract all reaction pathways.  Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details.  Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material.  For more details, see article and companion article.
+Comments: Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl + Acetylene. Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies. RRKM/Master equation methods to calculate rate expressions. Too complicated to abstract all reaction pathways. Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details. Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material. For more details, see article and companion article.
 """,
     history = [
         ("Thu Jul 12 20:46:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE2807-2817:7"""),
@@ -70771,7 +70904,11 @@ Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Other (Vis-UV)
-Comments: Combined experimental and quantum study.  C6H5 produced by 248 nm KrF excimer laser photolysis of C6H5NO.  C6H5 detected using cavity ring down spectroscopy at 504.8 nm versus time.  Typical acetone 0-0.35 torr in 20-75 torr Argon.  Used both acetone and deuterated acetone (d6).
+Comments: Combined experimental and quantum study. C6H5 produced by 248 nm KrF excimer laser photolysis of C6H5NO. C6H5 detected using cavity ring down spectroscopy at 504.8 nm versus time. Typical acetone 0-0.35 torr in 20-75 torr Argon. Used both acetone and deuterated acetone (d6).
+
+DFT quantum calculations B3LYP/aug-cc-pvTZ energies. Rate expressions calculated using Truhlars Polyrate program. Tunneling correction CVT/SCT employed.
+
+Quantum calculations found abstraction barrier of about 3.9 kcal/mol, C addition channel with barrier of about 9.4 kcal/mol, and O addition channel with barrier of about 12.4 kcal/mol. Thus, abstraction dominates. C addition channel can lead to beta scission of CH3 and formation of methyl phenyl ketone with calculated barrier of about 8.1 kcal/mol
 """,
     history = [
         ("Thu Jul 12 19:37:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003CHO/PAR7755-7761:1"""),
@@ -70844,7 +70981,13 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Bath gas: Ar
 Category: Theory
 Data type: Transition state theory
-Comments: Combined experimental and quantum study.  C6H5 produced by 248 nm KrF excimer laser photolysis of C6H5NO.  C6H5 detected using cavity ring down spectroscopy at 504.8 nm versus time.  Typical acetone 0-0.35 torr in 20-75 torr Argon.  Used both acetone and deuterated acetone (d6).
+Comments: Combined experimental and quantum study. C6H5 produced by 248 nm KrF excimer laser photolysis of C6H5NO. C6H5 detected using cavity ring down spectroscopy at 504.8 nm versus time. Typical acetone 0-0.35 torr in 20-75 torr Argon. Used both acetone and deuterated acetone (d6).
+
+DFT quantum calculations B3LYP/aug-cc-pvTZ energies. Rate expressions calculated using Truhlars Polyrate program. Tunneling correction CVT/SCT employed.
+
+Quantum calculations found abstraction barrier of about 3.9 kcal/mol, C addition channel with barrier of about 9.4 kcal/mol, and O addition channel with barrier of about 12.4 kcal/mol. Thus, abstraction dominates. C addition channel can lead to beta scission of CH3 and formation of methyl phenyl ketone with calculated barrier of about 8.1 kcal/mol
+
+Used transition states from quantum calculations to get functional form of rate expression in order to provide expression over a range of temperatures (298-1200 K). Adjusted calculated barrier of 3.9 kcal/mol to 3.3 kcal/mol to get rate expression to agree with experimental rate constants.
 """,
     history = [
         ("Thu Jul 12 19:37:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003CHO/PAR7755-7761:3"""),
@@ -70920,7 +71063,7 @@ Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Mass spectrometry
-Comments: The rate constant is higher than the only measurement by 1962DUN/TRO4672.  However, the previous rate constant  is obtained from the assumed C6H5 recombination rate, and the study was carried out at unspecified wavelengths.
+Comments: The rate constant is higher than the only measurement by 1962DUN/TRO4672. However, the previous rate constant is obtained from the assumed C6H5 recombination rate, and the study was carried out at unspecified wavelengths.
 """,
     history = [
         ("Thu Jul 12 20:00:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999PAR/GHE645-653:1"""),

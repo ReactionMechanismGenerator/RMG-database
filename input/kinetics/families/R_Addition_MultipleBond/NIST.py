@@ -2257,7 +2257,9 @@ PrIMe Reaction: r00010564
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: This high pressure limiting rate constant derived from theory is in excellent agreement with the present experimental data (678 - 808 K) and literature data (297 - 605 K ) on the isotope exchange reaction H2CO + D -> HDCO + Hwhich can be related to the high pressure rate of methoxy radical decomposition.
+Comments: This high pressure limiting rate constant derived from theory is in excellent agreement with the present experimental data (678 - 808 K) and literature data (297 - 605 K ) on the isotope exchange reaction
+H2CO + D -> HDCO + H
+which can be related to the high pressure rate of methoxy radical decomposition.
 """,
     history = [
         ("Thu Jul 12 21:24:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001HIP/STR2450-2458:4"""),
@@ -2358,7 +2360,7 @@ u"""
 PrIMe Reaction: r00010564
 Category: Theory
 Data type: Ab initio
-Comments: The authors presented the Arrhenius expressions for rate constant using erroneous units [cm3 molecule-1 s-1)] and activation energy [kcal/mol]
+Comments: The authors presented the Arrhenius expressions for rate constant using erroneous units [cm3molecule-1s-1)] and activation energy [kcal/mol]
 """,
     history = [
         ("Thu Jul 12 21:24:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008HUY/VIO94-101:16"""),
@@ -6819,7 +6821,13 @@ PrIMe Reaction: r00010632
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Quantum calculations of reaction of CH3 with CH2O.  Calculated geometries at B3LYP/6-311+G(d,p) and energies at CCSD(T)/6-311G(2df,p).  Also calculated energetics at B3LYP and G2 levels.  Use Truhlars Polyrate program to calculate rate expressions using CVT/SCT tunneling corrections.
+Comments: Quantum calculations of reaction of CH3 with CH2O. Calculated geometries at B3LYP/6-311+G(d,p) and energies at CCSD(T)/6-311G(2df,p). Also calculated energetics at B3LYP and G2 levels. Use Truhlars Polyrate program to calculate rate expressions using CVT/SCT tunneling corrections.
+
+Considered abstraction, carbon addition, and oxygen addition channels. Abstraction dominates over addition channels by factor of 10 over carbon addition and many orders of magnitude over oxygen addition channel.  Found carbon addition channel can contribute at lower temperatures. Agreement with experimental measurements is good (factor of 2 higher) with some and only fair with others (factor of 5-10 higher). Depends on temperature range and the specific measurement.
+
+Calculated barriers are 40 kcal/mol for abstraction, 34 kcal/mol for C addition, and 69 kcal/mol for O addition channels. Although abstraction has higher barrier than C addition, it also has larger prefactor.
+
+Fits given here in database are NIST fits to curves in Figure 3 in paper.  Rate expressions NOT given in paper.
 """,
     history = [
         ("Thu Jul 12 21:25:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003CHE/ZHA2929-2933:2"""),
@@ -8093,7 +8101,7 @@ u"""
 PrIMe Reaction: r00015716
 Category: Theory
 Data type: Ab initio
-Comments: Ab initio and DFT study of the unimolecular decomposition of CH3OCH2.  A variety of different ab initio and DFT methods were used.   The highest level was QCSID(T)/aug-cc-pVTZ energies using MP21K/6-31+G(d,p) geometries.  Microcanonical variational transition state theory using the VKLab program was used to calculate rate expressions using transition state potential energy surface.   Agreement with experimental data was fair with the calculated rate constants about 1.5-2.0 higher than experimental values.  See Sehested et al, IJCK 29, 627 (1997) and Loucks and Laidler, Can J Chem 45, 2767 (1967).
+Comments: Ab initio and DFT study of the unimolecular decomposition of CH3OCH2. A variety of different ab initio and DFT methods were used.  The highest level was QCSID(T)/aug-cc-pVTZ energies using MP21K/6-31+G(d,p) geometries. Microcanonical variational transition state theory using the VKLab program was used to calculate rate expressions using transition state potential energy surface.  Agreement with experimental data was fair with the calculated rate constants about 1.5-2.0 higher than experimental values. See Sehested et al, IJCK 29, 627 (1997) and Loucks and Laidler, Can J Chem 45, 2767 (1967).
 """,
     history = [
         ("Thu Jul 12 21:36:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/ZHA2014-2019:1"""),
@@ -13730,7 +13738,11 @@ u"""
 PrIMe Reaction: r00015701
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
-Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,.  The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+
+The temperature range over which the estimates are intended to be useful is not given, but the results are derived for atmospheric chemistry occurring in the troposphere through lower stratosphere. This is assumed by us to approimately cover 190 K to 330 K.
+
+For the 10 simple and 11 heteroatom-substituted RO: species used to construct the correlations, 18(85%) of the room temperature rate coefficients predicted using the present method are within a factor of two of their measured (or theoretically calculated) values, and 100% are within a factor of three. The average ratio of measured to calculated rate coefficients is 0.9.
 """,
     history = [
         ("Thu Jul 12 21:36:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004JOH/CAS1755-1765:1"""),
@@ -14815,7 +14827,11 @@ u"""
 PrIMe Reaction: r00001349
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
-Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,.  The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+
+The temperature range over which the estimates are intended to be useful is not given, but the results are derived for atmospheric chemistry occurring in the troposphere through lower stratosphere. This is assumed by us to approimately cover 190 K to 330 K.
+
+For the 10 simple and 11 heteroatom-substituted RO: species used to construct the correlations, 18(85%) of the room temperature rate coefficients predicted using the present method are within a factor of two of their measured (or theoretically calculated) values, and 100% are within a factor of three. The average ratio of measured to calculated rate coefficients is 0.9.
 """,
     history = [
         ("Thu Jul 12 21:16:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004JOH/CAS1755-1765:2"""),
@@ -17747,7 +17763,9 @@ PrIMe Reaction: r00012477
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways).  This includes primary reaction pathways as well as subsequent secondary reactions.  Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules.  Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures.  For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+
+Rate expressions reported are derived from ab initio transition states using QRRK analysis of the chemically activated reaction pathways. We have only abstracted rate expressions from the paper for 1 atm and 300-900 K. For other pressures and at higher temperatures see paper.
 """,
     history = [
         ("Thu Jul 12 21:31:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004SUN/BOZ1694-1711:31"""),
@@ -17969,7 +17987,11 @@ u"""
 PrIMe Reaction: r00016186
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
-Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,.  The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+
+The temperature range over which the estimates are intended to be useful is not given, but the results are derived for atmospheric chemistry occurring in the troposphere through lower stratosphere. This is assumed by us to approimately cover 190 K to 330 K.
+
+For the 10 simple and 11 heteroatom-substituted RO: species used to construct the correlations, 18(85%) of the room temperature rate coefficients predicted using the present method are within a factor of two of their measured (or theoretically calculated) values, and 100% are within a factor of three. The average ratio of measured to calculated rate coefficients is 0.9.
 """,
     history = [
         ("Thu Jul 12 21:37:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004JOH/CAS1755-1765:3"""),
@@ -19139,7 +19161,11 @@ u"""
 PrIMe Reaction: r00016551
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
-Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,.  The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+
+The temperature range over which the estimates are intended to be useful is not specifically given, but the results are derived for atmospheric chemistry occurring in the troposphere through lower stratosphere. This is assumed by us to approimately cover 190 K to 330 K.
+
+For the 10 simple and 11 heteroatom-substituted RO: species used to construct the correlations, 18(85%) of the room temperature rate coefficients predicted using the present method are within a factor of two of their measured (or theoretically calculated) values, and 100% are within a factor ofthree. The average ratio of measured to calculated rate coefficients is 0.9.
 """,
     history = [
         ("Thu Jul 12 21:39:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004JOH/CAS1755-1765:11"""),
@@ -19253,7 +19279,11 @@ u"""
 PrIMe Reaction: r00016689
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
-Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,.  The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+Comments: The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
+
+The temperature range over which the estimates are intended to be useful is not specifically given, but the results are derived for atmospheric chemistry occurring in the troposphere through lower stratosphere. This is assumed by us to approimately cover 190 K to 330 K.
+
+For the 10 simple and 11 heteroatom-substituted RO: species used to construct the correlations, 18(85%) of the room temperature rate coefficients predicted using the present method are within a factor of two of their measured (or theoretically calculated) values, and 100% are within a factor ofthree. The average ratio of measured to calculated rate coefficients is 0.9.
 """,
     history = [
         ("Thu Jul 12 21:39:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004JOH/CAS1755-1765:17"""),
@@ -19793,7 +19823,9 @@ PrIMe Reaction: r00016871
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016871/rk00000001.xml
 Category: Theory
 Data type: Ab initio
-Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways).  This includes primary reaction pathways as well as subsequent secondary reactions.  Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules.  Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures.  For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+
+Rate expressions reported are derived from ab initio transition states using QRRK analysis of the chemically activated reaction pathways. We have only abstracted rate expressions from the paper for 1 atm and 300-900 K. For other pressures and at higher temperatures see paper.
 """,
     history = [
         ("Thu Jul 12 21:40:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004SUN/BOZ1694-1711:27"""),
@@ -19854,7 +19886,9 @@ PrIMe Reaction: r00016871
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016871/rk00000001.xml
 Category: Theory
 Data type: Ab initio
-Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways).  This includes primary reaction pathways as well as subsequent secondary reactions.  Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules.  Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures.  For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+
+Rate expressions reported are derived from ab initio transition states using QRRK analysis of the chemically activated reaction pathways. We have only abstracted rate expressions from the paper for 1 atm and 300-900 K. For other pressures and at higher temperatures see paper.
 """,
     history = [
         ("Thu Jul 12 21:40:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004SUN/BOZ1694-1711:28"""),
@@ -19917,7 +19951,7 @@ PrIMe Reaction: r00016107
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016107/rk00000001.xml
 Category: Theory
 Data type: Ab initio
-Comments: Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene).  Used G2M(CC5) method (see paper for details).  Calculated many different reaction pathways and intermediates.  Only a few of the more important ones are abstracted here.  Rate expressions for different pressures for some of the channels are also given in the paper.  See paper for further details.  Used NIST ChemRate program to calculated rate expressions from ab initio transition states.  In paper also provide DfHo heats of formation for many of the intermediates.
+Comments: Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Used G2M(CC5) method (see paper for details). Calculated many different reaction pathways and intermediates. Only a few of the more important ones are abstracted here. Rate expressions for different pressures for some of the channels are also given in the paper. See paper for further details. Used NIST ChemRate program to calculated rate expressions from ab initio transition states. In paper also provide DfHo heats of formation for many of the intermediates.
 """,
     history = [
         ("Thu Jul 12 21:37:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003TOK/LIN11397-11408:3"""),
@@ -20111,7 +20145,7 @@ PrIMe Reaction: r00011160
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011160/rk00000001.xml
 Category: Theory
 Data type: Ab initio
-Comments: Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl +  Acetylene.  Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies.  RRKM/Master equation methods to calculate rate expressions.  Too complicated to abstract all reaction pathways.  Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details.  Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material.  For more details, see article and companion article.
+Comments: Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl + Acetylene. Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies. RRKM/Master equation methods to calculate rate expressions. Too complicated to abstract all reaction pathways. Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details. Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material. For more details, see article and companion article.
 """,
     history = [
         ("Thu Jul 12 21:27:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE2807-2817:5"""),
@@ -20243,7 +20277,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
-Comments: Rate expressions derived from density functional theory (DFT) quantum calculations of transition states, and reactants and products.  Transition state theory and QRRK methods were used to provide rate expressions bases on the calculated transition states.  The geometries and energies of the molecules and transition states were calculated at the B3LYP/6-31G(d,p) level.
+Comments: Rate expressions derived from density functional theory (DFT) quantum calculations of transition states, and reactants and products. Transition state theory and QRRK methods were used to provide rate expressions bases on the calculated transition states. The geometries and energies of the molecules and transition states were calculated at the B3LYP/6-31G(d,p) level.
 """,
     history = [
         ("Thu Jul 12 21:40:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004CAV/FAS705-720:20"""),
