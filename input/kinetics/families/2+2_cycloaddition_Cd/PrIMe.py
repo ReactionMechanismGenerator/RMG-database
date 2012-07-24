@@ -9,61 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 63,
-    label = "r00016568",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {4,S} {5,S} {8,S}
-2 *1 C 0 {1,S} {3,S} {6,S}
-3 *3 C 0 {2,S} {7,S} {8,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {3,S}
-8 *4 O 0 {1,S} {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {4,S}
-2    C 0 {4,S}
-3    C 0 {5,S}
-4 *2 C 0 {1,S} {2,S} {5,D}
-5 *1 C 0 {3,S} {4,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2 *3 C 0 {1,S} {3,D}
-3 *4 O 0 {2,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (7.94e+13,"s^-1"),
-        n = 0,
-        Ea = (228648,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Hammonds, P.", "Holbrook, K.A.", "Carless, H.A.J."],
-        title = u'Thermolyses of cis- and trans-2,2,3,4-tetramethyloxetane',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "80",
-        pages = """691""",
-        year = "1984",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00016568/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016568/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:35:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016568/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 64,
     label = "r00016669",
     reactant1 = 

@@ -3948,3 +3948,69 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 66,
+    label = "1984HAM/HOL691:3",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {4,S} {5,S} {8,S}
+2 *1 C 0 {1,S} {3,S} {6,S}
+3 *3 C 0 {2,S} {7,S} {8,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+7    C 0 {3,S}
+8 *4 O 0 {1,S} {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {4,S}
+2    C 0 {4,S}
+3    C 0 {5,S}
+4 *2 C 0 {1,S} {2,S} {5,D}
+5 *1 C 0 {3,S} {4,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 0 {1,S} {3,D}
+3 *4 O 0 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (7.94e+13,"s^-1","*|/",5),
+        n = 0,
+        Ea = (228.648,"kJ/mol","+|-",9.146),
+        T0 = (1,"K"),
+        Tmin = (682,"K"),
+        Tmax = (751,"K"),
+        Pmin = (667,"Pa"),
+        Pmax = (1333,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hammonds, P.", "Holbrook, K.A.", "Carless, H.A.J."],
+        title = u'Thermolyses of cis- and trans-2,2,3,4-tetramethyloxetane',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "80",
+        pages = """691""",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984HAM/HOL691:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016568
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016568/rk00000001.xml
+Uncertainty: 5.0
+Bath gas: Oxetane, 2,2,3,4-tetramethyl-,(Z)-
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 18:05:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984HAM/HOL691:3"""),
+    ],
+)
+
