@@ -50,8 +50,23 @@ def main():
 
     for entry in nistEntries:
         if entry.label == squib:
-            raise Exception('{0} already exists '.format(family) +
-                            'in NIST depository.')
+            print ('{0}/{1} already exists '.format(family, squib) +
+                   'in NIST depository.\n')
+            remove = None
+            while remove is None:
+                ans = raw_input('Remove PrIMe entry? ')
+                if ans.lower() == 'y':
+                    remove = True
+                elif ans.lower() == 'n':
+                    remove = False
+                else:
+                    print 'please enter y or n\n'
+            if remove:
+                rewritePrIMe(primeDepo.entries.values(), family, primeIndex)
+                gitCommit(family, primeIndex, entry.index, squib)
+            else:
+                print 'PrIMe to NIST conversion canceled.\n'
+            return
 
     nistEntry = queryNIST(primeEntry, squib)
     nistEntry.index = nistEntries[-1].index + 1
