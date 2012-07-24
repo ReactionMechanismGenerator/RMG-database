@@ -3594,3 +3594,73 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 56,
+    label = "1987VAN/TYB1063:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,D} {3,S}
+2 *2 C 0 {1,D}
+3    C 0 {1,S} {4,D}
+4    O 0 {3,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *3 C 0 {1,S} {5,D}
+4 *6 C 0 {2,S} {6,D}
+5 *4 C 0 {3,D} {6,S}
+6 *5 C 0 {4,D} {5,S}
+""",
+    product1 = 
+"""
+1  *3 C 0 {2,S} {5,S} {7,S}
+2  *1 C 0 {1,S} {4,S} {9,S}
+3  *6 C 0 {4,S} {6,S} {8,S}
+4  *2 C 0 {2,S} {3,S}
+5     C 0 {1,S} {6,S}
+6     C 0 {3,S} {5,S}
+7  *4 C 0 {1,S} {8,D}
+8  *5 C 0 {3,S} {7,D}
+9     C 0 {2,S} {10,D}
+10    O 0 {9,D}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (603,"m^3/(mol*s)","*|/",1.07),
+        n = 0,
+        Ea = (87.302,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (379,"K"),
+        Tmax = (581,"K"),
+        Pmin = (5733,"Pa"),
+        Pmax = (26900,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Van Mele, B.", "Tybaert, C.", "Huybrechts, G."],
+        title = u'Kinetics, mechanism, and stereochemistry of Diels-Alder reactions of carbonyl-substituted ethenes with cyclohexa-1,3-diene in the gas phase',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "19",
+        pages = """1063""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987VAN/TYB1063:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016478
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016478/rk00000003.xml
+Uncertainty: 1.0700001
+Bath gas: 1,3-Cyclohexadiene
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 16:21:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987VAN/TYB1063:1"""),
+    ],
+)
+
