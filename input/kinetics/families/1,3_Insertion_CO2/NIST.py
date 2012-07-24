@@ -1437,7 +1437,7 @@ Kinetics were determined by following pressure vs. time. Products were determine
 Uncertainties are precision only and are at the 90% confidence level.
 """,
     history = [
-        ("Fri Jul 20 17:40:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997CHU/MAR121-124:0"""),
+        ("Fri Jul 20 17:40:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997CHU/MAR121-124:2"""),
     ],
 )
 
