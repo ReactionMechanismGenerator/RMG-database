@@ -9,59 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 35,
-    label = "r00011630",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {6,S}
-2 *1 C 0 {1,S} {4,S}
-3 *4 C 0 {1,S} {4,S}
-4 *3 C 0 {2,S} {3,S}
-5    C 0 {6,S}
-6    C 0 {1,S} {5,S} {7,D}
-7    C 0 {6,D}
-""",
-    product1 = 
-"""
-1    C 0 {2,S}
-2    C 0 {1,S} {3,S} {4,D}
-3 *2 C 0 {2,S} {5,D}
-4    C 0 {2,D}
-5 *1 C 0 {3,D}
-""",
-    product2 = 
-"""
-1 *4 C 0 {2,D}
-2 *3 C 0 {1,D}
-""",
-    degeneracy = 12,
-    kinetics = Arrhenius(
-        A = (4.37e+14,"s^-1"),
-        n = 0,
-        Ea = (213682,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Ellis, R.J.", "Frey, H.M."],
-        title = u'Thermal unimolecular decomposition of isopropenylcyclobutane',
-        journal = "Trans. Faraday Soc.",
-        volume = "59",
-        pages = """2076-2079""",
-        year = "1963",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011630/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011630/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011630/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 36,
     label = "r00011630",
     reactant1 = 

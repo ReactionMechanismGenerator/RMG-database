@@ -3142,3 +3142,64 @@ Analytical technique: IR absorption
     ],
 )
 
+entry(
+    index = 53,
+    label = "1963ELL/FRE2076-2079:2",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {6,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 C 0 {1,S} {4,S}
+4 *3 C 0 {2,S} {3,S}
+5    C 0 {6,S}
+6    C 0 {1,S} {5,S} {7,D}
+7    C 0 {6,D}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,S} {4,D}
+3 *2 C 0 {2,S} {5,D}
+4    C 0 {2,D}
+5 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1 *4 C 0 {2,D}
+2 *3 C 0 {1,D}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (4.37e+14,"s^-1"),
+        n = 0,
+        Ea = (213.682,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (577,"K"),
+        Tmax = (621,"K"),
+    ),
+    reference = Article(
+        authors = ["Ellis, R.J.", "Frey, H.M."],
+        title = u'Thermal unimolecular decomposition of isopropenylcyclobutane',
+        journal = "Trans. Faraday Soc.",
+        volume = "59",
+        pages = """2076-2079""",
+        year = "1963",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1963ELL/FRE2076-2079:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011630
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011630/rk00000001.xml
+Bath gas: Cyclobutane,(1-methylethenyl)-
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 17:38:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963ELL/FRE2076-2079:2"""),
+    ],
+)
+
