@@ -3203,3 +3203,66 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 54,
+    label = "1978FRE/POT1827:3",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {6,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 C 0 {1,S} {4,S}
+4 *3 C 0 {2,S} {3,S}
+5    C 0 {6,S}
+6    C 0 {1,S} {5,S} {7,D}
+7    C 0 {6,D}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,S} {4,D}
+3 *2 C 0 {2,S} {5,D}
+4    C 0 {2,D}
+5 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1 *4 C 0 {2,D}
+2 *3 C 0 {1,D}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (1.66e+15,"s^-1","*|/",1.42),
+        n = 0,
+        Ea = (218.671,"kJ/mol","+|-",2.187),
+        T0 = (1,"K"),
+        Tmin = (574,"K"),
+        Tmax = (624,"K"),
+        Pmin = (133,"Pa"),
+        Pmax = (1800,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Frey, H.M.", "Pottinger, R."],
+        title = u'Thermal unimolecular reactions of vinylcyclobutane and isopropenylcyclobutane',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "74",
+        pages = """1827""",
+        year = "1978",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1978FRE/POT1827:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011630
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011630/rk00000002.xml
+Uncertainty: 1.42
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 17:40:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978FRE/POT1827:3"""),
+    ],
+)
+
