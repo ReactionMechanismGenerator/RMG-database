@@ -182,6 +182,9 @@ def getKinetics(entry, squib, cookiejar):
         Tmin = Trange
         Tmax = Trange
 
+    url = ('http://kinetics.nist.gov/kinetics/'
+           'Detail?id={0}'.format(squib))
+
     return Entry(item=entry.item,
                  label=squib,
                  data=Arrhenius(A=((float(A) / 1.0e6, "m^3/(mol*s)")
@@ -214,7 +217,8 @@ def getReference(entry, squib, cookiejar):
     url = 'http://kinetics.nist.gov/kinetics/Detail?id={0}'.format(squib)
     opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookiejar))
     request = opener.open(url)
-    soup = BeautifulSoup(request.read())
+    html = request.read()
+    soup = BeautifulSoup(html)
     request.close()
 
     try:
@@ -450,6 +454,55 @@ def getReference(entry, squib, cookiejar):
         entry.data.Pmin = Quantity(float(Pmin), "Pa")
     if Pmax:
         entry.data.Pmax = Quantity(float(Pmax), "Pa")
+
+    html2 = html.replace('<P>', '<BR><BR>')
+    html2 = html2.replace('<p>', '<BR><BR>')
+
+    soup2 = BeautifulSoup(html2)
+
+    if len(soup2.table.findAll(text='Comments:')) == 1:
+        comm = soup2.table.findAll(text='Comments:')[0].parent
+        gen = comm.nextSiblingGenerator()
+        item = ''
+        text = ''
+        output = []
+        foundEnd = False
+
+        while not foundEnd:
+            item = gen.next()
+            try:
+                foundEnd = 'hr' in item.name
+            except AttributeError:
+                pass
+            if not foundEnd:
+                try:
+                    if 'br' in item.name:
+                        text = '\n'
+                    else:
+                        text = item.text.strip()
+                except AttributeError:
+                    try:
+                        text = item.strip()
+                    except:
+                        text = item
+                output.append(text)
+
+        comments = ('Comments:' +
+                    ''.join(output[:-4]).replace('&nbsp;&nbsp;\n', ' '))
+
+        newLongDesc = ''
+        for line in entry.longDesc.splitlines():
+            if 'Comments: ' not in line:
+                newLongDesc += line + '\n'
+            else:
+                newLongDesc += comments + '\n'
+
+        entry.longDesc = newLongDesc.replace('  ', ' ').strip()
+        entry.longDesc = entry.longDesc.replace('Comments: ', '\n')
+    elif len(soup2.table.findAll(text='Comments:')) > 1:
+        set_trace()
+    else:
+        pass
 
     return entry
 
