@@ -3327,3 +3327,64 @@ Analytical technique: Pressure measurement
     ],
 )
 
+entry(
+    index = 56,
+    label = "1961GER/WAL4884-4888:2",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S} {3,S} {5,S}
+2 *4 C 0 {1,S} {4,S} {6,S}
+3 *1 C 0 {1,S} {4,S}
+4 *2 C 0 {2,S} {3,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 C 0 {1,D}
+""",
+    product2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *4 C 0 {1,S} {4,D}
+4 *3 C 0 {2,S} {3,D}
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (2.9e+15,"s^-1"),
+        n = 0,
+        Ea = (265.232,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (663,"K"),
+        Tmax = (713,"K"),
+        Pmin = (1733,"Pa"),
+        Pmax = (50000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Gerberich, H.R.", "Walters, W.D."],
+        title = u'The thermal decomposition of trans-1,2-dimethylcyclobutane',
+        journal = "J. Am. Chem. Soc.",
+        volume = "83",
+        pages = """4884-4888""",
+        year = "1961",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL4884-4888:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015651
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015651/rk00000001.xml
+Bath gas: Cyclobutane, 1,2-dimethyl-, trans-
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Tue Jul 24 17:48:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL4884-4888:2"""),
+    ],
+)
+
