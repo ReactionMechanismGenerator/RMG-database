@@ -3510,3 +3510,68 @@ Analytical technique: Pressure measurement
     ],
 )
 
+entry(
+    index = 59,
+    label = "1969COC/FRE1671-1673:1",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {4,S} {5,S} {6,S}
+2 *3 C 0 {3,S} {4,S} {7,S} {8,S}
+3 *1 C 0 {1,S} {2,S}
+4 *4 C 0 {1,S} {2,S}
+5    C 0 {1,S}
+6    C 0 {1,S}
+7    C 0 {2,S}
+8    C 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *3 C 0 {1,S} {2,S} {4,D}
+4 *4 C 0 {3,D}
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (2.04e+16,"s^-1","*|/",1.12),
+        n = 0,
+        Ea = (272.715,"kJ/mol","+|-",0.673),
+        T0 = (1,"K"),
+        Tmin = (683,"K"),
+        Tmax = (6800,"K"),
+        Pmin = (933,"Pa"),
+        Pmax = (6666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Cocks, A.T.", "Frey, H.M."],
+        title = u'Thermal unimolecular decomposition of 1,1,3,3-tetramethylcyclobutane',
+        journal = "J. Chem. Soc. A",
+        pages = """1671-1673""",
+        year = "1969",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1969COC/FRE1671-1673:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016155
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016155/rk00000001.xml
+Uncertainty: 1.12
+Bath gas: Cyclobutane, 1,1,3,3-tetramethyl-
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 17:53:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969COC/FRE1671-1673:1"""),
+    ],
+)
+

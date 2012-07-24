@@ -9,60 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 54,
-    label = "r00016155",
-    reactant1 = 
-"""
-1 *2 C 0 {3,S} {4,S} {5,S} {6,S}
-2 *3 C 0 {3,S} {4,S} {7,S} {8,S}
-3 *1 C 0 {1,S} {2,S}
-4 *4 C 0 {1,S} {2,S}
-5    C 0 {1,S}
-6    C 0 {1,S}
-7    C 0 {2,S}
-8    C 0 {2,S}
-""",
-    product1 = 
-"""
-1    C 0 {3,S}
-2    C 0 {3,S}
-3 *2 C 0 {1,S} {2,S} {4,D}
-4 *1 C 0 {3,D}
-""",
-    product2 = 
-"""
-1    C 0 {3,S}
-2    C 0 {3,S}
-3 *3 C 0 {1,S} {2,S} {4,D}
-4 *4 C 0 {3,D}
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (2.04e+16,"s^-1"),
-        n = 0,
-        Ea = (272715,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Cocks, A.T.", "Frey, H.M."],
-        title = u'Thermal unimolecular decomposition of 1,1,3,3-tetramethylcyclobutane',
-        journal = "J. Chem. Soc. A",
-        pages = """1671-1673""",
-        year = "1969",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00016155/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016155/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:35:38 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016155/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 55,
     label = "r00016231",
     reactant1 = 
