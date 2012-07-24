@@ -9,63 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 14,
-    label = "r00004794",
-    reactant1 = 
-"""
-1 *4 C 0 {2,S} {3,D}
-2 *5 C 0 {1,S} {4,D}
-3 *3 C 0 {1,D}
-4 *6 C 0 {2,D}
-""",
-    reactant2 = 
-"""
-1    C 0 {2,S}
-2 *1 C 0 {1,S} {3,D}
-3 *2 C 0 {2,D} {4,S}
-4    C 0 {3,S} {5,D}
-5    O 0 {4,D}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {5,S}
-2 *2 C 0 {1,S} {4,S} {8,S}
-3 *3 C 0 {1,S} {6,S}
-4 *6 C 0 {2,S} {7,S}
-5    C 0 {1,S}
-6 *4 C 0 {3,S} {7,D}
-7 *5 C 0 {4,S} {6,D}
-8    C 0 {2,S} {9,D}
-9    O 0 {8,D}
-""",
-    degeneracy = 16,
-    kinetics = Arrhenius(
-        A = (899,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (92290.6,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Kistiakowsky, G.B.", "Lacher, J.R."],
-        title = u'The kinetics of some gaseous diels-alder reactions',
-        journal = "J. Am. Chem. Soc.",
-        volume = "58",
-        pages = """123-133""",
-        year = "1936",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00004794/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004794/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:48 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004794/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 16,
     label = "r00004843",
     reactant1 = 

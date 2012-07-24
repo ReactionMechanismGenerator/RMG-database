@@ -3236,3 +3236,70 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 51,
+    label = "1936KIS/LAC123-133:3",
+    reactant1 = 
+"""
+1 *4 C 0 {2,S} {3,D}
+2 *5 C 0 {1,S} {4,D}
+3 *3 C 0 {1,D}
+4 *6 C 0 {2,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,D}
+3 *2 C 0 {2,D} {4,S}
+4    C 0 {3,S} {5,D}
+5    O 0 {4,D}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {5,S}
+2 *2 C 0 {1,S} {4,S} {8,S}
+3 *3 C 0 {1,S} {6,S}
+4 *6 C 0 {2,S} {7,S}
+5    C 0 {1,S}
+6 *4 C 0 {3,S} {7,D}
+7 *5 C 0 {4,S} {6,D}
+8    C 0 {2,S} {9,D}
+9    O 0 {8,D}
+""",
+    degeneracy = 16,
+    kinetics = Arrhenius(
+        A = (899,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (92.291,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (515,"K"),
+        Tmax = (572,"K"),
+        Pmin = (64500,"Pa"),
+        Pmax = (78900,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kistiakowsky, G.B.", "Lacher, J.R."],
+        title = u'The kinetics of some gaseous diels-alder reactions',
+        journal = "J. Am. Chem. Soc.",
+        volume = "58",
+        pages = """123-133""",
+        year = "1936",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1936KIS/LAC123-133:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004794
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004794/rk00000001.xml
+Bath gas: (Z)-CH3CH=CHCHO
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Tue Jul 24 15:52:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1936KIS/LAC123-133:3"""),
+    ],
+)
+
