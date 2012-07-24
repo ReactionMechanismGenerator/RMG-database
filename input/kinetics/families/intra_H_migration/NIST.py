@@ -2339,3 +2339,55 @@ Derived from end product yields in the overall reaction of cyclohexyl + O2.
     ],
 )
 
+entry(
+    index = 38,
+    label = "2003MAT/GRE95-119:4",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3 *1 C 1 {1,S}
+4 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2 *2 C 0 {3,S} {4,S}
+3 *1 C 1 {1,S} {2,S}
+4 *3 H 0 {2,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.56e+10,"s^-1"),
+        n = 0.88,
+        Ea = (156.063,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."],
+        title = u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "35",
+        pages = """95-119""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:4",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010505
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010505/rk00000001.xml
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
+""",
+    history = [
+        ("Tue Jul 24 19:06:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:4"""),
+    ],
+)
+
