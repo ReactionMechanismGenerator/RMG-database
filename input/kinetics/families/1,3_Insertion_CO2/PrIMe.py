@@ -9,64 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 16,
-    label = "r00012640",
-    reactant1 = 
-"""
-1  *3 C 0 {2,S} {3,S} {5,S} {6,S}
-2     C 0 {1,S}
-3     C 0 {1,S}
-4     C 0 {5,S}
-5     C 0 {1,S} {4,S} {7,D}
-6  *1 C 0 {1,S} {8,S} {9,D}
-7     C 0 {5,D}
-8  *2 O 0 {6,S} {10,S}
-9     O 0 {6,D}
-10 *4 H 0 {8,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,D} {3,D}
-2 *2 O 0 {1,D}
-3    O 0 {1,D}
-""",
-    product2 = 
-"""
-1 *3 C 0 {2,S} {3,S} {5,S} {7,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {5,S}
-5    C 0 {1,S} {4,S} {6,D}
-6    C 0 {5,D}
-7 *4 H 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.65e+10,"s^-1"),
-        n = 0,
-        Ea = (133863,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Bigley, D.B.", "May, R.W."],
-        title = u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids',
-        journal = "J. Chem. Soc. B",
-        pages = """557-559""",
-        year = "1967",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:56 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 17,
     label = "r00012640",
     reactant1 = 
