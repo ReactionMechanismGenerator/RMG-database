@@ -21980,3 +21980,57 @@ Data type: Derived from detailed balance/reverse rate
     ],
 )
 
+entry(
+    index = 401,
+    label = "1985TSA2872-2880:7",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {4,S}
+4 *2 C 1 {1,S} {3,S}
+5 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *2 C 0 {1,S} {4,D}
+4 *1 C 0 {2,S} {3,D}
+""",
+    product2 = 
+"""
+1 *3 H 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (4.57e+12,"s^-1"),
+        n = 0,
+        Ea = (142.177,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (800,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'The stability of alkyl radicals',
+        journal = "J. Am. Chem. Soc.",
+        volume = "107",
+        pages = """2872-2880""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985TSA2872-2880:7",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from detailed balance/reverse rate""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011108
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011108/rk00000001.xml
+Category: Experiment
+Data type: Derived from detailed balance/reverse rate
+""",
+    history = [
+        ("Wed Jul 25 17:10:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985TSA2872-2880:7"""),
+    ],
+)
+
