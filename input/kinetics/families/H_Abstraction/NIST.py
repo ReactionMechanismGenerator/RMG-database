@@ -73634,3 +73634,69 @@ Data type: Transition state theory
     ],
 )
 
+entry(
+    index = 1234,
+    label = "1988KER/SIN731:4",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,D}
+2    C 0 {1,S} {4,D}
+3 *1 C 0 {1,D} {5,S}
+4    C 0 {2,D}
+5 *2 H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,D}
+2    C 0 {1,D} {3,D}
+3 *3 C 1 {2,D}
+""",
+    product1 = 
+"""
+1 *1 C 0 {3,D} {4,S}
+2    C 0 {3,D}
+3    C 0 {1,D} {2,D}
+4 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,D}
+2    C 0 {1,S} {4,D}
+3    C 0 {1,D}
+4 *3 C 1 {2,D}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1e+07,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (93.954,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1300,"K"),
+        Tmax = (2000,"K"),
+        Pmin = (20300,"Pa"),
+        Pmax = (55700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kern, R.D.", "Singh, H.J.", "Wu, C.H."],
+        title = u'Thermal decomposition of 1,2 butadiene',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "20",
+        pages = """731""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988KER/SIN731:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from detailed balance/reverse rate""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004761
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004761/rk00000001.xml
+Bath gas: Ne
+Category: Experiment
+Data type: Derived from detailed balance/reverse rate
+""",
+    history = [
+        ("Wed Jul 25 12:50:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988KER/SIN731:4"""),
+    ],
+)
+
