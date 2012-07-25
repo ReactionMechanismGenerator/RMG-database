@@ -216,51 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 318,
-    label = "r00012935",
-    reactant1 = 
-"""
-1 *1 C 0 {2,T}
-2 *2 C 0 {1,T}
-""",
-    reactant2 = 
-"""
-1 *3 C 1
-""",
-    product1 = 
-"""
-1 *3 C 0 {2,S}
-2 *1 C 0 {1,S} {3,D}
-3 *2 C 1 {2,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.61048e+34,"cm^3/(mol*s)"),
-        n = -8.58,
-        Ea = (84807.6,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Dean, A.M.", "Westmoreland, P.R."],
-        title = u'Bimolecular QRRK analyss of methyl radical reactions',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "19",
-        pages = """207""",
-        year = "1987",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000004.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000004.xml
-""",
-    history = [
-        ("Tue May 17 14:35:04 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000004.xml"""),
-    ],
-)
-
-entry(
     index = 319,
     label = "r00012935",
     reactant1 = 

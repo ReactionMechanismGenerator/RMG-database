@@ -22949,3 +22949,56 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 418,
+    label = "1987DEA/WES207:4",
+    reactant1 = 
+"""
+1 *1 C 0 {2,T}
+2 *2 C 0 {1,T}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *3 C 0 {2,S}
+2 *1 C 0 {1,S} {3,D}
+3 *2 C 1 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.61e+34,"m^3/(mol*s)"),
+        n = -8.58,
+        Ea = (84.808,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (600,"K"),
+        Tmax = (2500,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Dean, A.M.", "Westmoreland, P.R."],
+        title = u'Bimolecular QRRK analyss of methyl radical reactions',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "19",
+        pages = """207""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987DEA/WES207:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012935
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000004.xml
+Bath gas: N2
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Jul 25 18:46:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987DEA/WES207:4"""),
+    ],
+)
+
