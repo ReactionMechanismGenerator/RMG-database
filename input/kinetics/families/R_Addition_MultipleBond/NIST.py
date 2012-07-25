@@ -20600,3 +20600,61 @@ Rate expression does not contain tunneling contributions. Temperature range not 
     ],
 )
 
+entry(
+    index = 376,
+    label = "1960BIR/TRO4218:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 C 0 {1,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {4,S}
+2    C 0 {4,S}
+3    C 0 {4,S}
+4 *3 C 1 {1,S} {2,S} {3,S}
+""",
+    product1 = 
+"""
+1 *3 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *1 C 0 {1,S} {6,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6 *2 C 1 {2,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (158000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (29.683,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (370,"K"),
+        Tmax = (455,"K"),
+    ),
+    reference = Article(
+        authors = ["Birrell, R.N.", "Trotman-Dickenson, A.F."],
+        title = u'The reactions of alkyl radicals. Part VII. t-butyl radicals from the photolysis of pivalaldehyde',
+        journal = "J. Chem. Soc.",
+        pages = """4218""",
+        year = "1960",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1960BIR/TRO4218:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002194
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002194/rk00000001.xml
+Bath gas: 2,2-dimethylpropanal
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Jul 25 14:51:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960BIR/TRO4218:1"""),
+    ],
+)
+

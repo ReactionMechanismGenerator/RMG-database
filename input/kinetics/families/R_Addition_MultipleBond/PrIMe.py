@@ -9,56 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 7,
-    label = "r00002194",
-    reactant1 = 
-"""
-1 *1 C 0 {2,D}
-2 *2 C 0 {1,D}
-""",
-    reactant2 = 
-"""
-1    C 0 {4,S}
-2    C 0 {4,S}
-3    C 0 {4,S}
-4 *3 C 1 {1,S} {2,S} {3,S}
-""",
-    product1 = 
-"""
-1 *3 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *1 C 0 {1,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6 *2 C 1 {2,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (158000,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (29682.7,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Birrell, R.N.", "Trotman-Dickenson, A.F."],
-        title = u'The reactions of alkyl radicals. Part VII. t-butyl radicals from the photolysis of pivalaldehyde',
-        journal = "J. Chem. Soc.",
-        pages = """4218""",
-        year = "1960",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002194/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002194/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002194/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 20,
     label = "r00002226",
     reactant1 = 
