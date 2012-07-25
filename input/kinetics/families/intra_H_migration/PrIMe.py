@@ -9,54 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 48,
-    label = "r00015924",
-    reactant1 = 
-"""
-1 *5 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S} {6,S}
-4 *4 C 0 {2,S} {5,S}
-5 *1 O 1 {4,S}
-6 *3 H 0 {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *4 C 0 {1,S} {4,S}
-3 *5 C 0 {1,S} {5,S}
-4 *1 C 1 {2,S}
-5 *2 O 0 {3,S} {6,S}
-6 *3 H 0 {5,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (1.43e+11,"s^-1"),
-        n = 0,
-        Ea = (134.989,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Vereecken, L.", "Peeters, J."],
-        title = u'The 1,5-H-shift in 1-butoxy: A case study in the rigorous implementation of transition state theory for a multirotamer system',
-        journal = "J. Chem. Phys.",
-        volume = "119",
-        pages = """5159-5170""",
-        year = "2003",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000010.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000010.xml
-""",
-    history = [
-        ("Tue May 17 14:35:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000010.xml"""),
-    ],
-)
-
-entry(
     index = 53,
     label = "r00016683",
     reactant1 = 

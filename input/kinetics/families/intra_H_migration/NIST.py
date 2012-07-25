@@ -3172,3 +3172,59 @@ The authors estimate uncertainties in calculated rates to be a factor of 5
     ],
 )
 
+entry(
+    index = 53,
+    label = "2003VER/PEE5159-5170:2",
+    reactant1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *2 C 0 {1,S} {6,S}
+4 *4 C 0 {2,S} {5,S}
+5 *1 O 1 {4,S}
+6 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *4 C 0 {1,S} {4,S}
+3 *5 C 0 {1,S} {5,S}
+4 *1 C 1 {2,S}
+5 *2 O 0 {3,S} {6,S}
+6 *3 H 0 {5,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.43e+11,"s^-1"),
+        n = 0,
+        Ea = (34.183,"kJ/mol"),
+        T0 = (1,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Vereecken, L.", "Peeters, J."],
+        title = u'The 1,5-H-shift in 1-butoxy: A case study in the rigorous implementation of transition state theory for a multirotamer system',
+        journal = "J. Chem. Phys.",
+        volume = "119",
+        pages = """5159-5170""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE5159-5170:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015924
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000010.xml
+Category: Theory
+Data type: Transition state theory
+Pressure dependence: Rate constant is pressure dependent
+
+The authors have studied the 1-butoxy H-shift reaction, exploring several approaches for deriving rate constants for a reaction system with multiple reactant rotamers and multiple transition state conformers. It is shown that the various treatments are fully consistent, even if the TST expressions themselves appear different. Rate constants are derived at 298 K and 1 atm pressure and compared with the literature.
+""",
+    history = [
+        ("Wed Jul 25 13:24:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE5159-5170:2"""),
+    ],
+)
+
