@@ -3415,3 +3415,64 @@ The authors estimate uncertainties in calculated rates to be a factor of 5
     ],
 )
 
+entry(
+    index = 57,
+    label = "1986DOB/BER329:3",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *5 C 0 {1,S} {4,S}
+3 *4 C 0 {1,S} {5,S} {6,S}
+4 *2 C 0 {2,S} {7,S}
+5    C 0 {3,S}
+6 *1 O 1 {3,S}
+7 *3 H 0 {4,S}
+""",
+    product1 = 
+"""
+1 *5 C 0 {2,S} {4,S} {6,S}
+2    C 0 {1,S} {3,S}
+3 *4 C 0 {2,S} {5,S}
+4    C 0 {1,S}
+5 *1 C 1 {3,S}
+6 *2 O 0 {1,S} {7,S}
+7 *3 H 0 {6,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.26e+11,"s^-1","*|/",5),
+        n = 0,
+        Ea = (39.743,"kJ/mol","+|-",4.773),
+        T0 = (1,"K"),
+        Tmin = (279,"K"),
+        Tmax = (385,"K"),
+        Pmin = (15100,"Pa"),
+        Pmax = (15100,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Dobe, S.", "Berces, T.", "Marta, F."],
+        title = u'Gas phase decomposition and isomerization reactions of 2-pentoxy radicals',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "18",
+        pages = """329""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986DOB/BER329:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00017157
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017157/rk00000005.xml
+Uncertainty: 5.0
+Bath gas: CO2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Jul 25 13:32:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986DOB/BER329:3"""),
+    ],
+)
+
