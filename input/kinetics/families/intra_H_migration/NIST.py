@@ -3476,3 +3476,66 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 58,
+    label = "2003TOK/LIN11397-11408:7",
+    reactant1 = 
+"""
+1 *4 C 0 {2,B} {4,S} {8,B}
+2    C 0 {1,B} {3,B}
+3    C 0 {2,B} {5,B}
+4 *5 C 0 {1,S} {7,D}
+5    C 0 {3,B} {6,B}
+6    C 0 {5,B} {8,B}
+7 *2 C 0 {4,D} {9,S}
+8 *1 C 1 {1,B} {6,B}
+9 *3 H 0 {7,S}
+""",
+    product1 = 
+"""
+1 *5 C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B}
+3 *2 C 0 {1,B} {6,B} {9,S}
+4    C 0 {2,B} {5,B}
+5    C 0 {4,B} {6,B}
+6    C 0 {3,B} {5,B}
+7 *4 C 0 {1,S} {8,D}
+8 *1 C 1 {7,D}
+9 *3 H 0 {3,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (4.57e+09,"s^-1"),
+        n = 0.81,
+        Ea = (109.914,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (250,"K"),
+        Tmax = (2000,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Tokmakov, I.V.", "Lin, M.C."],
+        title = u'Reaction of phenyl radicals with acetylene: Quantum chemical investigation of the mechanism and master equation analysis of the kinetics',
+        journal = "J. Am. Chem. Soc.",
+        volume = "125",
+        pages = """11397-11408""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003TOK/LIN11397-11408:7",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00017124
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017124/rk00000001.xml
+Category: Theory
+Data type: Ab initio
+
+Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Used G2M(CC5) method (see paper for details). Calculated many different reaction pathways and intermediates. Only a few of the more important ones are abstracted here. Rate expressions for different pressures for some of the channels are also given in the paper. See paper for further details. Used NIST ChemRate program to calculated rate expressions from ab initio transition states. In paper also provide DfHo heats of formation for many of the intermediates.
+""",
+    history = [
+        ("Wed Jul 25 13:35:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003TOK/LIN11397-11408:7"""),
+    ],
+)
+
