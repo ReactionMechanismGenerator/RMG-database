@@ -216,51 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 322,
-    label = "r00012935",
-    reactant1 = 
-"""
-1 *1 C 0 {2,T}
-2 *2 C 0 {1,T}
-""",
-    reactant2 = 
-"""
-1 *3 C 1
-""",
-    product1 = 
-"""
-1 *3 C 0 {2,S}
-2 *1 C 0 {1,S} {3,D}
-3 *2 C 1 {2,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (375000,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (32509.6,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Diau, E.W.", "Lin, M.C."],
-        title = u'Kinetic modeling of the CH_3 + C_2H_2 reaction data with sensitivity analyses',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "27",
-        pages = """855-866""",
-        year = "1995",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000008.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000008.xml
-""",
-    history = [
-        ("Tue May 17 14:35:04 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000008.xml"""),
-    ],
-)
-
-entry(
     index = 324,
     label = "r00013096",
     reactant1 = 

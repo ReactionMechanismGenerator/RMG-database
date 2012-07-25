@@ -23159,3 +23159,53 @@ Data type: Transition state theory
     ],
 )
 
+entry(
+    index = 422,
+    label = "1995DIA/LIN855-866:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,T}
+2 *2 C 0 {1,T}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *3 C 0 {2,S}
+2 *1 C 0 {1,S} {3,D}
+3 *2 C 1 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (375000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (32.51,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (370,"K"),
+        Tmax = (478,"K"),
+    ),
+    reference = Article(
+        authors = ["Diau, E.W.", "Lin, M.C."],
+        title = u'Kinetic modeling of the CH3 + C2H2 reaction data with sensitivity analyses',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "27",
+        pages = """855-866""",
+        year = "1995",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995DIA/LIN855-866:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012935
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000008.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Jul 25 18:50:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995DIA/LIN855-866:1"""),
+    ],
+)
+
