@@ -2667,3 +2667,52 @@ Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations 
     ],
 )
 
+entry(
+    index = 44,
+    label = "1986OND/ZIE1127:2",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {4,S}
+2    C 0 {3,D}
+3 *1 C 1 {1,S} {2,D}
+4 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,S} {3,D} {4,S}
+2 *1 C 1 {1,S}
+3    C 0 {1,D}
+4 *3 H 0 {1,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (2e+13,"s^-1"),
+        n = 0,
+        Ea = (197.053,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (302,"K"),
+    ),
+    reference = Article(
+        authors = ["Ondruschka, B.", "Ziegler, U.", "Zimmermann, G."],
+        title = u'Zu moglichen umlagerungen zwischen isomeren C3H5-radikalen',
+        journal = "Z. Phys. Chem. (Leipzig)",
+        volume = "267",
+        pages = """1127""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Other theoretical""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015630
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015630/rk00000001.xml
+Category: Theory
+Data type: Other theoretical
+""",
+    history = [
+        ("Wed Jul 25 12:57:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:2"""),
+    ],
+)
+
