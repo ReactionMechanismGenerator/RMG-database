@@ -446,18 +446,20 @@ def getReference(entry, squib, cookiejar):
     if entry.data.A.uncertaintyType is '+|-':
         if abs(entry.data.A.uncertainty) > abs(entry.data.A.value):
             u = entry.data.A.uncertainty
-            entry.longDesc += '\nNote: Invalid preexponential '
-            'uncertainty ({0}) found and ignored'.format(u)
+            entry.longDesc += ('\nNote: Invalid A value uncertainty '
+                               '({0}) found and ignored'.format(u))
             entry.data.A.uncertainty = 0.0
     if entry.data.n.uncertaintyType is '+|-':
         if abs(entry.data.n.uncertainty) > abs(entry.data.n.value):
-            entry.longDesc += '\nNote: Invalid temperature exponent '
-            'uncertainty ({0}) found and ignored'.format(u)
+            u = entry.data.n.uncertainty
+            entry.longDesc += ('\nNote: Invalid n value uncertainty '
+                               '({0}) found and ignored'.format(u))
             entry.data.n.uncertainty = 0.0
     if entry.data.Ea.uncertaintyType is '+|-':
         if abs(entry.data.Ea.uncertainty) > abs(entry.data.Ea.value):
-            entry.longDesc += '\nNote: Invalid activation energy '
-            'uncertainty ({0}) found and ignored'.format(u)
+            u = entry.data.Ea.uncertainty
+            entry.longDesc += ('\nNote: Invalid Ea value uncertainty '
+                               '({0}) found and ignored'.format(u))
             entry.data.Ea.uncertainty = 0.0
 
     try:
