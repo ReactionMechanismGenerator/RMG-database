@@ -72856,3 +72856,66 @@ Data type: Transition state theory
     ],
 )
 
+entry(
+    index = 1222,
+    label = "1991COH397-417:11",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S}
+3 *1 C 0 {1,S} {7,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+7 *2 H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1 *3 O 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {6,S}
+2    C 0 {1,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6 *3 C 1 {1,S}
+""",
+    degeneracy = 9,
+    kinetics = Arrhenius(
+        A = (29.5,"m^3/(mol*s)"),
+        n = 1.8,
+        Ea = (1.164,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (500,"K"),
+    ),
+    reference = Article(
+        authors = ["Cohen, N."],
+        title = u'Are reaction rate coefficients additive? Revised transition state theory calculations for OH + alkane reactions',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "23",
+        pages = """397-417""",
+        year = "1991",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:11",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00003725
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003725/rk00000001.xml
+Category: Theory
+Data type: Transition state theory
+""",
+    history = [
+        ("Wed Jul 25 12:21:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:11"""),
+    ],
+)
+
