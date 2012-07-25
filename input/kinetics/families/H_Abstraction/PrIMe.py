@@ -58,60 +58,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 71,
-    label = "r00001845",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *1 C 0 {1,S} {5,S}
-4    O 0 {2,S}
-5 *2 H 0 {3,S}
-""",
-    reactant2 = 
-"""
-1 *3 H 1
-""",
-    product1 = 
-"""
-1 *1 H 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *3 C 1 {1,S}
-4    O 0 {2,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (2.77e+07,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (27188.3,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Oganesyan, K.T.", "Nalbandyan, A.B."],
-        title = u'Determination of rate constants of reactions of atomic hydrogen with propyl and butyl alcohols',
-        journal = "Izv. Akad. Nauk Arm. SSR, Khim. Nauki",
-        volume = "18",
-        pages = """237""",
-        year = "1965",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00001845/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001845/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001845/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 81,
     label = "r00001950",
     reactant1 = 

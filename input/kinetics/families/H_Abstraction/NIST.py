@@ -72729,3 +72729,67 @@ Analytical technique: Mass spectrometry
     ],
 )
 
+entry(
+    index = 1220,
+    label = "1965OGA/NAL237:2",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *1 C 0 {1,S} {5,S}
+4    O 0 {2,S}
+5 *2 H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *3 C 1 {1,S}
+4    O 0 {2,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (2.77e+07,"m^3/(mol*s)","+|-",6.1e+06),
+        n = 0,
+        Ea = (27.188,"kJ/mol","+|-",2.178),
+        T0 = (1,"K"),
+        Tmin = (843,"K"),
+        Tmax = (963,"K"),
+        Pmin = (1107,"Pa"),
+        Pmax = (2200,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Oganesyan, K.T.", "Nalbandyan, A.B."],
+        title = u'Determination of rate constants of reactions of atomic hydrogen with propyl and butyl alcohols',
+        journal = "Izv. Akad. Nauk Arm. SSR, Khim. Nauki",
+        volume = "18",
+        pages = """237""",
+        year = "1965",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1965OGA/NAL237:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001845
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001845/rk00000001.xml
+Bath gas: H2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Wed Jul 25 11:55:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965OGA/NAL237:2"""),
+    ],
+)
+
