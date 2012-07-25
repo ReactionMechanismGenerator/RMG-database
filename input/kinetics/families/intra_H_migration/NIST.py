@@ -2481,7 +2481,7 @@ entry(
         url = "http://kinetics.nist.gov/kinetics/Detail?id=1981BAT/BUR467:1",
     ),
     referenceType = "theory",
-    shortDesc = u"""Estimated:  thermochemical, kinetic, or other""",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
     longDesc = 
 u"""
 PrIMe Reaction: r00010565
@@ -2489,7 +2489,7 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Rate constant is an upper limit.
 Bath gas: N2
 Category: Theory
-Data type: Estimated:  thermochemical, kinetic, or other
+Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Tue Jul 24 19:26:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BAT/BUR467:1"""),
@@ -2599,14 +2599,14 @@ entry(
         url = "http://kinetics.nist.gov/kinetics/Detail?id=1975COL/NAE223:3",
     ),
     referenceType = "theory",
-    shortDesc = u"""Estimated:  thermochemical, kinetic, or other""",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
     longDesc = 
 u"""
 PrIMe Reaction: r00012711
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012711/rk00000001.xml
 Bath gas: N2
 Category: Theory
-Data type: Estimated:  thermochemical, kinetic, or other
+Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 12:54:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975COL/NAE223:3"""),
@@ -2762,6 +2762,64 @@ Data type: Other theoretical
 """,
     history = [
         ("Wed Jul 25 12:58:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:1"""),
+    ],
+)
+
+entry(
+    index = 46,
+    label = "1995HAN/WAL1431-1438:10",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *5 C 0 {1,S} {4,S}
+3 *4 C 0 {1,S} {5,S}
+4 *2 C 0 {2,S} {6,D} {7,S}
+5 *1 C 1 {3,S}
+6    C 0 {4,D}
+7 *3 H 0 {4,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *5 C 0 {1,S} {4,S}
+3 *4 C 0 {1,S} {6,S}
+4 *2 C 0 {2,S} {7,S}
+5    C 0 {6,D}
+6 *1 C 1 {3,S} {5,D}
+7 *3 H 0 {4,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1e+11,"s^-1"),
+        n = 0,
+        Ea = (84.808,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (600,"K"),
+        Tmax = (1300,"K"),
+        Pmin = (23300,"Pa"),
+        Pmax = (66700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Handford-Styring, S.M.", "Walker, R.W."],
+        title = u'Addition of cyclopentane to slowly reacting mixtures of H2 + O2 between 673 and 783 K: reactions of H and OH with cyclopentane and of cyclopentyl radicals',
+        journal = "J. Chem. Soc. Faraday Trans.",
+        volume = "91",
+        pages = """1431-1438""",
+        year = "1995",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:10",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015688
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015688/rk00000001.xml
+Bath gas: O2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 12:59:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:10"""),
     ],
 )
 
