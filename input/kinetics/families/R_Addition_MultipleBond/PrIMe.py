@@ -216,51 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 315,
-    label = "r00012935",
-    reactant1 = 
-"""
-1 *3 C 0 {2,S}
-2 *1 C 0 {1,S} {3,D}
-3 *2 C 1 {2,D}
-""",
-    product1 = 
-"""
-1 *2 C 0 {2,T}
-2 *1 C 0 {1,T}
-""",
-    product2 = 
-"""
-1 *3 C 1
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.26e+13,"s^-1"),
-        n = 0,
-        Ea = (139683,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Dean, A.M."],
-        title = u'Predictions of pressure and temperature effects upon radical addition and recombination reactions',
-        journal = "J. Phys. Chem.",
-        volume = "89",
-        pages = """4600""",
-        year = "1985",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:35:04 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 316,
     label = "r00012935",
     reactant1 = 

@@ -22795,3 +22795,53 @@ Pressure dependence: Rate constant is high pressure limit
     ],
 )
 
+entry(
+    index = 415,
+    label = "1985DEA4600-4608:37",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S}
+2 *1 C 0 {1,S} {3,D}
+3 *2 C 1 {2,D}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,T}
+2 *1 C 0 {1,T}
+""",
+    product2 = 
+"""
+1 *3 C 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.26e+13,"s^-1"),
+        n = 0,
+        Ea = (139.683,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Dean, A.M."],
+        title = u'Predictions of pressure and temperature effects upon radical addition and recombination reactions',
+        journal = "J. Phys. Chem.",
+        volume = "89",
+        pages = """4600-4608""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:37",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012935
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000001.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Jul 25 18:42:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:37"""),
+    ],
+)
+
