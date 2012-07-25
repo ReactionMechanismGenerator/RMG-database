@@ -9,53 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 27,
-    label = "r00002857",
-    reactant1 = 
-"""
-1    C 0 {2,S}
-2 *1 C 0 {1,S} {3,D} {4,S}
-3 *2 C 1 {2,D}
-4 *3 H 0 {2,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S}
-2 *1 C 0 {1,S} {3,T}
-3 *2 C 0 {2,T}
-""",
-    product2 = 
-"""
-1 *3 H 1
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (3.98e+12,"s^-1"),
-        n = 0,
-        Ea = (152986,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Dean, A.M."],
-        title = u'Predictions of pressure and temperature effects upon radical addition and recombination reactions',
-        journal = "J. Phys. Chem.",
-        volume = "89",
-        pages = """4600""",
-        year = "1985",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002857/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002857/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002857/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 28,
     label = "r00002857",
     reactant1 = 
