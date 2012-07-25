@@ -22093,3 +22093,62 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 403,
+    label = "1982HAR/PIT3994:5",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *1 C 0 {1,S} {4,D}
+4 *2 C 0 {2,S} {3,D}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {4,S}
+4 *2 C 1 {1,S} {3,S}
+5 *3 H 0 {1,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.08e+07,"m^3/(mol*s)","+|-",2.1e+06),
+        n = 0,
+        Ea = (8.647,"kJ/mol","+|-",0.52),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (445,"K"),
+        Pmin = (6666,"Pa"),
+        Pmax = (6666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Harris, G.W.", "Pitts, J.N., Jr."],
+        title = u'Absolute Rate Constants and Temperature Dependences for the Gas Phase Reactions of H Atoms with Propene and the Butenes in the Temperature Range 298 to 445 K',
+        journal = "J. Chem. Phys.",
+        volume = "77",
+        pages = """3994""",
+        year = "1982",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1982HAR/PIT3994:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011108
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011108/rk00000013.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Resonance fluorescence
+""",
+    history = [
+        ("Wed Jul 25 17:36:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HAR/PIT3994:5"""),
+    ],
+)
+
