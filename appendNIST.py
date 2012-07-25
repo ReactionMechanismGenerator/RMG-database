@@ -429,7 +429,7 @@ def getReference(entry, squib, cookiejar):
     longDesc = longDesc.replace('&nbsp;&nbsp;\n', ' ')
     longDesc = longDesc.replace('&nbsp;', ' ')
     longDesc = longDesc.replace('Category:  ', 'Category: ')
-    longDesc = longDesc.replace('Estimated: ', 'Estimated: ')
+    longDesc = longDesc.replace('Estimated:  ', 'Estimated: ')
 
     for line in longDesc.splitlines():
         if 'Uncertainty:' in line and entry.data.A.uncertainty == 0.0:
@@ -438,7 +438,7 @@ def getReference(entry, squib, cookiejar):
 
     entry.reference.url = url
     entry.referenceType = category
-    entry.shortDesc = datatype.replace('Estimated: ', 'Estimated: ')
+    entry.shortDesc = datatype.replace('Estimated:  ', 'Estimated: ')
     entry.longDesc += longDesc.strip().encode('utf-8')
 
     if entry.data.A.uncertaintyType is '+|-':

@@ -73557,14 +73557,14 @@ entry(
         url = "http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:7",
     ),
     referenceType = "theory",
-    shortDesc = u"""Estimated:  thermochemical, kinetic, or other""",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
     longDesc = 
 u"""
 PrIMe Reaction: r00004048
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004048/rk00000004.xml
 Bath gas: N2
 Category: Theory
-Data type: Estimated:  thermochemical, kinetic, or other
+Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 12:42:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:7"""),
