@@ -22895,3 +22895,57 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 417,
+    label = "1962GAR/TRO940-944:3",
+    reactant1 = 
+"""
+1 *1 C 0 {2,T}
+2 *2 C 0 {1,T}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *3 C 0 {2,S}
+2 *1 C 0 {1,S} {3,D}
+3 *2 C 1 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (251000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (32.177,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (644,"K"),
+        Tmax = (752,"K"),
+        Pmin = (3200,"Pa"),
+        Pmax = (56500,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Garcia Dominguez, J.A.", "Trotman-Dickenson, A.F."],
+        title = u'The reactions of alkyl radicals. Part IX. The addition of methyl, ethyl, isopropyl, and t-butyl radicals to acetylene and the isomerization of alkenyl radicals',
+        journal = "J. Chem. Soc.",
+        pages = """940-944""",
+        year = "1962",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1962GAR/TRO940-944:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012935
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000003.xml
+Bath gas: C2H2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Jul 25 18:45:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962GAR/TRO940-944:3"""),
+    ],
+)
+
