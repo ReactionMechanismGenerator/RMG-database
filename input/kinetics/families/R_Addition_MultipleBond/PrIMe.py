@@ -9,58 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 30,
-    label = "r00003846",
-    reactant1 = 
-"""
-1    C 0 {2,S}
-2    C 0 {1,S} {3,S} {4,D}
-3 *1 C 0 {2,S} {5,D}
-4    C 0 {2,D}
-5 *2 C 0 {3,D}
-""",
-    reactant2 = 
-"""
-1 *3 O 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {3,S} {4,S} {6,S}
-2    C 0 {3,S}
-3    C 0 {1,S} {2,S} {5,D}
-4 *2 C 1 {1,S}
-5    C 0 {3,D}
-6 *3 O 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.09001e+06,"cm^3/(molecule*s)"),
-        n = 0,
-        Ea = (13028.8,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Francisco-Marquez, M.", "Alvarez-Idaboy, J.R.", "Galano, A.", "Vivier-Bunge, A."],
-        title = u'Theoretical study of the initial reaction between OH and isoprene in tropospheric conditions',
-        journal = "Phys. Chem. Chem. Phys.",
-        volume = "5",
-        pages = """1392-1399""",
-        year = "2003",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00003846/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003846/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:38 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003846/rk00000001.xml"""),
-        ("Fri Jun  3 15:27:24 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed units error on preexponential factor."""),
-    ],
-)
-
-entry(
     index = 31,
     label = "r00003847",
     reactant1 = 
