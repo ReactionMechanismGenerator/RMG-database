@@ -216,57 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 326,
-    label = "r00015135",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S} {6,S}
-2 *3 C 0 {1,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6 *2 O 1 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {3,S}
-2    C 0 {3,S}
-3 *1 C 0 {1,S} {2,S} {4,D}
-4 *2 O 0 {3,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2 *3 C 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (6.31e+14,"s^-1"),
-        n = 0,
-        Ea = (57702.4,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Batt, L."],
-        title = u'The Gas-Phase Decomposition of Alkoxy Radicals',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "11",
-        pages = """977""",
-        year = "1979",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00015135/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015135/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:35:17 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015135/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 327,
     label = "r00015135",
     reactant1 = 
