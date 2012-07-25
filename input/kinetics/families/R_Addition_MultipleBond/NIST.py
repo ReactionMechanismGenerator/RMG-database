@@ -22347,3 +22347,66 @@ Rate expressions based on ab inito transition states using G2MP2//B3LYP/6-31G(d,
     ],
 )
 
+entry(
+    index = 407,
+    label = "1983KYO/WAT19-21:1",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *1 C 0 {1,S} {4,D}
+4 *2 C 0 {3,D}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S} {5,S}
+3    C 0 {1,S}
+4 *2 C 1 {2,S}
+5 *3 H 0 {2,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.49e+07,"m^3/(mol*s)","+|-",2.5e+06),
+        n = 0,
+        Ea = (6.244,"kJ/mol","+|-",0.375),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (500,"K"),
+        Pmin = (80000,"Pa"),
+        Pmax = (80000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kyogoku, T.", "Watanabe, T.", "Tsunashima, S.", "Sato, S."],
+        title = u'Arrhenius parameters for the reactions of hydrogen and deuterium atoms with four butenes',
+        journal = "Bull. Chem. Soc. Jpn.",
+        volume = "56",
+        pages = """19-21""",
+        year = "1983",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1983KYO/WAT19-21:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011210
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011210/rk00000004.xml
+Category: Experiment
+Data type: Absolute value measured directly
+Pressure dependence: None reported
+Experimental procedure: Static or low flow - Data taken vs time
+Excitation technique: Electron beam
+Time resolution: In real time
+Analytical technique: Vis-UV absorption
+
+In agreement with the literature, the authors state that addition of H will preferentially occur at the terminal carbon to form 2-C4H9. Their experiment, however, provides no direct information on the branching ratio.
+""",
+    history = [
+        ("Wed Jul 25 18:07:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983KYO/WAT19-21:1"""),
+    ],
+)
+
