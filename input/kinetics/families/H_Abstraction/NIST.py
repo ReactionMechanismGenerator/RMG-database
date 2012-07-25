@@ -73442,3 +73442,66 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 1231,
+    label = "1985WAL573:8",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2    C 0 {1,S} {5,S} {6,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6    C 0 {2,S}
+7 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *3 O 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {6,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {6,S}
+5    C 0 {6,S}
+6 *3 C 1 {1,S} {4,S} {5,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2400,"m^3/(mol*s)"),
+        n = 1,
+        Ea = (-2.037,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1000,"K"),
+    ),
+    reference = Article(
+        authors = ["Walker, R.W."],
+        title = u'Temperature coefficients for reactions of OH radicals with alkanes between 300 and 1000 K',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "17",
+        pages = """573""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:8",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004048
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004048/rk00000003.xml
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Jul 25 12:41:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:8"""),
+    ],
+)
+

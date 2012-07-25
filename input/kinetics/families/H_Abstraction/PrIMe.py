@@ -577,64 +577,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 446,
-    label = "r00004048",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S} {7,S}
-2    C 0 {1,S} {5,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
-7 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1 *3 O 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S} {6,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {6,S}
-5    C 0 {6,S}
-6 *3 C 1 {1,S} {4,S} {5,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (2395.97,"cm^3/(mol*s)"),
-        n = 1,
-        Ea = (-2037.05,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Walker, R.W."],
-        title = u'Temperature coefficients for reactions of OH radicals with alkanes between 300 and 1000 K',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "17",
-        pages = """573""",
-        year = "1985",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00004048/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004048/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:33:39 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004048/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 447,
     label = "r00004048",
     reactant1 = 
