@@ -73109,3 +73109,70 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 1226,
+    label = "1979ART/NEW1697:2",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2 *1 C 0 {4,S} {5,S}
+3    C 0 {1,S} {4,S} {6,D}
+4    O 0 {2,S} {3,S}
+5 *2 H 0 {2,S}
+6    O 0 {3,D}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {4,S} {5,D}
+3 *3 C 1 {4,S}
+4    O 0 {2,S} {3,S}
+5    O 0 {2,D}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (275000,"m^3/(mol*s)","*|/",1.45),
+        n = 0,
+        Ea = (46.977,"kJ/mol","+|-",1.413),
+        T0 = (1,"K"),
+        Tmin = (389,"K"),
+        Tmax = (497,"K"),
+        Pmin = (8133,"Pa"),
+        Pmax = (10500,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Arthur, N.L.", "Newitt, P.J."],
+        title = u'Reactions of Methyl Radicals. III. Hydrogen Abstraction from Methyl Acetate and Methyl [2H3] Acetate',
+        journal = "Aust. J. Chem.",
+        volume = "32",
+        pages = """1697""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979ART/NEW1697:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004000
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004000/rk00000002.xml
+Uncertainty: 1.45
+Bath gas: CH3C(O)OCH3
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Direct photolysis
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Wed Jul 25 12:29:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979ART/NEW1697:2"""),
+    ],
+)
+
