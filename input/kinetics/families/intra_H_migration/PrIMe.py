@@ -9,60 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 54,
-    label = "r00017030",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S} {6,S}
-4    C 0 {2,S} {8,S}
-5 *2 C 0 {7,S} {8,S} {9,S}
-6    C 0 {3,S}
-7    C 0 {5,S}
-8 *1 C 1 {4,S} {5,S}
-9 *3 H 0 {5,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {4,S}
-2    C 0 {1,S} {3,S}
-3    C 0 {2,S} {5,S}
-4    C 0 {1,S} {6,S}
-5 *2 C 0 {3,S} {8,S} {9,S}
-6    C 0 {4,S}
-7    C 0 {8,S}
-8 *1 C 1 {5,S} {7,S}
-9 *3 H 0 {5,S}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (2.51e+09,"s^-1"),
-        n = 0,
-        Ea = (46893.6,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Dobe, S.", "Berces, T.", "Reti, F.", "Marta, F."],
-        title = u'Isomerization of n-hexyl and s-octyl radicals by 1,5 and 1,4 intramolecular hydrogen atom transfer reactions',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "19",
-        pages = """895""",
-        year = "1987",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00017030/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00017030/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:36:11 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00017030/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 55,
     label = "r00017124",
     reactant1 = 
