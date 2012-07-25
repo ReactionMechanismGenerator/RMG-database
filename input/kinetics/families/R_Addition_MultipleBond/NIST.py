@@ -20490,3 +20490,59 @@ Rate expression does not contain tunneling contributions. Temperature range not 
     ],
 )
 
+entry(
+    index = 374,
+    label = "2003RAU/BOY431-442:7",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S}
+3    C 0 {1,S} {4,D}
+4    C 0 {3,D}
+5 *2 O 1 {1,S}
+6 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,S} {5,D}
+3    C 0 {2,S} {4,D}
+4    C 0 {3,D}
+5 *2 O 0 {2,D}
+""",
+    product2 = 
+"""
+1 *3 H 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9.77e+12,"s^-1"),
+        n = 0,
+        Ea = (72.2,"kJ/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."],
+        title = u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds',
+        journal = "Can. J. Chem.",
+        volume = "81",
+        pages = """431-442""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003RAU/BOY431-442:7",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00000051
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000051/rk00000001.xml
+Category: Theory
+Data type: Transition state theory
+
+Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
+""",
+    history = [
+        ("Wed Jul 25 14:46:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003RAU/BOY431-442:7"""),
+    ],
+)
+
