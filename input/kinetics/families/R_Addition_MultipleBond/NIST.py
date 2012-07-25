@@ -21346,3 +21346,53 @@ Used quantum calculations to compute many, many possible pathways for reactions 
     ],
 )
 
+entry(
+    index = 389,
+    label = "2003RAU/BOY431-442:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2 *2 O 1 {1,S}
+3 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 O 0 {1,D}
+""",
+    product2 = 
+"""
+1 *3 H 1
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (5.5e+13,"s^-1"),
+        n = 0,
+        Ea = (101.1,"kJ/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."],
+        title = u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds',
+        journal = "Can. J. Chem.",
+        volume = "81",
+        pages = """431-442""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003RAU/BOY431-442:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010564
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010564/rk00000022.xml
+Category: Theory
+Data type: Transition state theory
+
+Rate expression does not contain tunneling contributions.
+""",
+    history = [
+        ("Wed Jul 25 16:36:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003RAU/BOY431-442:1"""),
+    ],
+)
+
