@@ -21047,3 +21047,63 @@ NOTE Main product channels (adding to terminal carbon) are resonance stabilized 
     ],
 )
 
+entry(
+    index = 384,
+    label = "2003FRA/ALV1392-1399:5",
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,S} {4,D}
+3 *2 C 0 {2,S} {5,D}
+4    C 0 {2,D}
+5 *1 C 0 {3,D}
+""",
+    reactant2 = 
+"""
+1 *3 O 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {4,S} {6,S}
+2    C 0 {3,S}
+3    C 0 {2,S} {4,S} {5,D}
+4 *2 C 1 {1,S} {3,S}
+5    C 0 {3,D}
+6 *3 O 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.44e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-5.621,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (500,"K"),
+    ),
+    reference = Article(
+        authors = ["Francisco-Marquez, M.", "Alvarez-Idaboy, J.R.", "Galano, A.", "Vivier-Bunge, A."],
+        title = u'Theoretical study of the initial reaction between OH and isoprene in tropospheric conditions',
+        journal = "Phys. Chem. Chem. Phys.",
+        volume = "5",
+        pages = """1392-1399""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003FRA/ALV1392-1399:5",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00003848
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003848/rk00000001.xml
+Category: Theory
+Data type: Ab initio
+
+A quantum chemical study of the reaction of OH with isoprene (2-Methyl-1,3-butadiene). Used ab initio MP2/cc-pVTZ and CCSD(T)/6-311+G(d,p) methods, also DFT BHandHLYP/6-311G(d,p) methods. Computed rate constants from transtion states using Truongs TST The Rate program. Found good agreement with experimental measurements for total and site specific rate constants. Addition to double bonds at terminal sites is barrierless, while addition to internal sites has a barrier of 10-20 kJ/mol using the DFT method. The CCSD(T)/6-311+G(d,p)//MP2/6-311G(d,p) barriers were significantly higher (9-11 kJ/mol for terminal addition and 27-35 kJ/mol for internal addition). Rate constants reported here are using the DFT energetics.
+
+NOTE Main product channels (adding to terminal carbon) are resonance stabilized radicals. They can be drawn with several Lewis structures. The ones drawn here are with "radical" located on terminal carbon.
+""",
+    history = [
+        ("Wed Jul 25 15:20:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003FRA/ALV1392-1399:5"""),
+    ],
+)
+
