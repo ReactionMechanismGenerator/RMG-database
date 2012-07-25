@@ -3228,3 +3228,59 @@ The authors have studied the 1-butoxy H-shift reaction, exploring several approa
     ],
 )
 
+entry(
+    index = 54,
+    label = "1977BAL/BAR2483:9",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S} {5,S}
+4 *2 C 0 {2,S} {6,S} {7,S}
+5    O 0 {3,S}
+6 *1 O 1 {4,S}
+7 *3 H 0 {4,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S} {5,S}
+4 *1 C 1 {2,S} {6,S}
+5    O 0 {3,S}
+6 *2 O 0 {4,S} {7,S}
+7 *3 H 0 {6,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.58e+11,"s^-1"),
+        n = 0,
+        Ea = (27.188,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (450,"K"),
+    ),
+    reference = Article(
+        authors = ["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."],
+        title = u'Photochemical smog. Rate parameter estimates and computer simulations',
+        journal = "J. Phys. Chem.",
+        volume = "81",
+        pages = """2483""",
+        year = "1977",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:9",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016683
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016683/rk00000001.xml
+Bath gas: N2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 13:26:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:9"""),
+    ],
+)
+
