@@ -21866,3 +21866,63 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 399,
+    label = "1970HOH/FRE6118:3",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {4,S}
+4 *2 C 1 {3,S} {5,S}
+5 *1 O 0 {1,S} {4,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 O 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.01e+09,"s^-1","*|/",5),
+        n = 0,
+        Ea = (66.931,"kJ/mol","+|-",8.032),
+        T0 = (1,"K"),
+        Tmin = (357,"K"),
+        Tmax = (676,"K"),
+        Pmin = (4666,"Pa"),
+        Pmax = (280000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hohlein, G.", "Freeman, G.R."],
+        title = u'Radiation-sensitized pyrolysis of diethyl ether. Free-radical reaction rate parameters',
+        journal = "J. Am. Chem. Soc.",
+        volume = "92",
+        pages = """6118""",
+        year = "1970",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1970HOH/FRE6118:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010737
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010737/rk00000003.xml
+Uncertainty: 5.0
+Bath gas: (C2H5)2O
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Jul 25 17:07:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970HOH/FRE6118:3"""),
+    ],
+)
+
