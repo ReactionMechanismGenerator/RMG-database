@@ -23266,3 +23266,65 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 424,
+    label = "1978BAT/ISL931:3",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {6,S}
+2 *3 C 0 {1,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6 *2 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *1 C 0 {1,S} {2,S} {4,D}
+4 *2 O 0 {3,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.01e+14,"s^-1","*|/",1.58),
+        n = 0,
+        Ea = (59.864,"kJ/mol","+|-",4.19),
+        T0 = (1,"K"),
+        Tmin = (433,"K"),
+        Tmax = (463,"K"),
+        Pmin = (267,"Pa"),
+        Pmax = (267,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Batt, L.", "Islam, T.S.A.", "Rattray, G.N."],
+        title = u'The Gas-Phase Pyrolysis of Alkyl Nitrites. VI. t-Amyl Nitrite',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "10",
+        pages = """931""",
+        year = "1978",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1978BAT/ISL931:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015135
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015135/rk00000001.xml
+Uncertainty: 1.58
+Bath gas: NO
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Jul 25 18:58:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978BAT/ISL931:3"""),
+    ],
+)
+
