@@ -21657,3 +21657,54 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 395,
+    label = "1992BAU/COB411-429:122",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S}
+2 *1 C 0 {1,S} {3,S}
+3 *2 O 1 {2,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 O 0 {1,D}
+""",
+    product2 = 
+"""
+1 *3 C 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (8e+13,"s^-1","*|/",10),
+        n = 0,
+        Ea = (89.796,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (600,"K"),
+    ),
+    reference = Article(
+        authors = ["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."],
+        title = u'Evaluated kinetic data for combustion modelling',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "21",
+        pages = """411-429""",
+        year = "1992",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:122",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010632
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000007.xml
+Uncertainty: 10.0
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 16:54:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:122"""),
+    ],
+)
+
