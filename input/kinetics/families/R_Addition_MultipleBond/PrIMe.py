@@ -9,53 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 26,
-    label = "r00002857",
-    reactant1 = 
-"""
-1    C 0 {2,S}
-2 *1 C 0 {1,S} {3,T}
-3 *2 C 0 {2,T}
-""",
-    reactant2 = 
-"""
-1 *3 H 1
-""",
-    product1 = 
-"""
-1    C 0 {2,S}
-2 *1 C 0 {1,S} {3,D} {4,S}
-3 *2 C 1 {2,D}
-4 *3 H 0 {2,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (5.79e+06,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (12970.6,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Wagner, H.Gg.", "Zellner, R."],
-        title = u'Reaktionen von Wasserstoffatomen mit ungesaettigten C_3-Kohlenwasserstoffen. II. Die Reaktion von H-Atomen mit Methylacetylen',
-        journal = "Ber. Bunsenges. Phys. Chem.",
-        volume = "76",
-        pages = """518""",
-        year = "1972",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002857/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002857/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002857/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 27,
     label = "r00002857",
     reactant1 = 

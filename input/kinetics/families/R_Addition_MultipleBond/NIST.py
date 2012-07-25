@@ -20710,3 +20710,60 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 378,
+    label = "1972WAG/ZEL518:1",
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,T}
+3 *2 C 0 {2,T}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,D} {4,S}
+3 *2 C 1 {2,D}
+4 *3 H 0 {2,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.79e+06,"m^3/(mol*s)","+|-",1.2e+06),
+        n = 0,
+        Ea = (12.971,"kJ/mol","+|-",1.039),
+        T0 = (1,"K"),
+        Tmin = (195,"K"),
+        Tmax = (503,"K"),
+        Pmin = (133,"Pa"),
+        Pmax = (2400,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Wagner, H.Gg.", "Zellner, R."],
+        title = u'Reaktionen von Wasserstoffatomen mit ungesaettigten C3-Kohlenwasserstoffen. II. Die Reaktion von H-Atomen mit Methylacetylen',
+        journal = "Ber. Bunsenges. Phys. Chem.",
+        volume = "76",
+        pages = """518""",
+        year = "1972",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1972WAG/ZEL518:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002857
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002857/rk00000001.xml
+Bath gas: He
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Electron beam
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Jul 25 14:56:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972WAG/ZEL518:1"""),
+    ],
+)
+
