@@ -216,55 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 324,
-    label = "r00013096",
-    reactant1 = 
-"""
-1 *3 C 0 {2,S} {3,S}
-2 *1 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4 *2 C 1 {2,S}
-5    C 0 {3,D}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,D}
-2 *2 C 0 {1,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,D} {3,S}
-2    C 0 {1,D}
-3 *3 C 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (3.31e+13,"s^-1"),
-        n = 0,
-        Ea = (93953.5,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Gierczak, T.", "Gawlowski, J.", "Niedzielski, J."],
-        title = u'Mutual isomerization of cyclopentyl and 1-penten-5-yl radicals',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "18",
-        pages = """623-637""",
-        year = "1986",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013096/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013096/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:35:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013096/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 325,
     label = "r00015135",
     reactant1 = 

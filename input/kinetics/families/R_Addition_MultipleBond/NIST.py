@@ -23209,3 +23209,60 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 423,
+    label = "1986GIE/GAW623-637:3",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3    C 0 {1,S} {5,D}
+4 *2 C 1 {2,S}
+5    C 0 {3,D}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 C 0 {1,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,D} {3,S}
+2    C 0 {1,D}
+3 *3 C 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.31e+13,"s^-1"),
+        n = 0,
+        Ea = (93.954,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (290,"K"),
+        Tmax = (310,"K"),
+        Pmin = (1013,"Pa"),
+        Pmax = (4026,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Gierczak, T.", "Gawlowski, J.", "Niedzielski, J."],
+        title = u'Mutual isomerization of cyclopentyl and 1-penten-5-yl radicals',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "18",
+        pages = """623-637""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986GIE/GAW623-637:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013096
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013096/rk00000001.xml
+Bath gas: H2S
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Jul 25 18:56:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986GIE/GAW623-637:3"""),
+    ],
+)
+
