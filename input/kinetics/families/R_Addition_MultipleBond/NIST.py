@@ -21107,3 +21107,60 @@ NOTE Main product channels (adding to terminal carbon) are resonance stabilized 
     ],
 )
 
+entry(
+    index = 385,
+    label = "1988PER/RIC621:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,D}
+2    C 0 {1,S} {4,D}
+3 *1 C 0 {1,D}
+4    C 0 {2,D}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2 *3 C 0 {1,S}
+3 *2 C 1 {1,S} {4,S}
+4    C 0 {3,S} {5,D}
+5    C 0 {4,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (63100,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (31.346,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (743,"K"),
+        Tmax = (772,"K"),
+        Pmin = (1333,"Pa"),
+        Pmax = (13300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Perrin, D.", "Richard, C.", "Martin, R."],
+        title = u'H2S-promoted thermal isomerization of Cis-2-pentene to 1-pentene and trans-2-pentene around 800 K',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "20",
+        pages = """621""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988PER/RIC621:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004745
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004745/rk00000001.xml
+Bath gas: 2-(Z)-C5H10
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 15:31:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988PER/RIC621:1"""),
+    ],
+)
+
