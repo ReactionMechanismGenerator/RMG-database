@@ -22410,3 +22410,58 @@ In agreement with the literature, the authors state that addition of H will pref
     ],
 )
 
+entry(
+    index = 408,
+    label = "1971BAC2199:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,D} {5,S}
+2    C 0 {1,S} {4,T}
+3 *2 C 1 {1,D}
+4    C 0 {2,T}
+5 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,T}
+2 *1 C 0 {1,S} {4,T}
+3    C 0 {1,T}
+4 *2 C 0 {2,T}
+""",
+    product2 = 
+"""
+1 *3 H 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1e+14,"s^-1"),
+        n = 0,
+        Ea = (167.121,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (700,"K"),
+        Tmax = (2400,"K"),
+    ),
+    reference = Article(
+        authors = ["Back, M.H."],
+        title = u'Mechanism of the pyrolysis of acetylene',
+        journal = "Can. J. Chem.",
+        volume = "49",
+        pages = """2199""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971BAC2199:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011527
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011527/rk00000001.xml
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+Note: Invalid activation energy uncertainty (8314472.0) found and ignored
+""",
+    history = [
+        ("Wed Jul 25 18:21:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971BAC2199:2"""),
+    ],
+)
+
