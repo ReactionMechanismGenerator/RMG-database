@@ -9,50 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 37,
-    label = "r00012711",
-    reactant1 = 
-"""
-1 *1 C 1 {2,S}
-2 *2 C 0 {1,S} {3,D} {4,S}
-3    O 0 {2,D}
-4 *3 H 0 {2,S}
-""",
-    product1 = 
-"""
-1 *2 C 0 {2,S} {3,S}
-2 *1 C 1 {1,S} {4,D}
-3 *3 H 0 {1,S}
-4    O 0 {2,D}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13,"s^-1"),
-        n = 0,
-        Ea = (197053,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Colket, M.B., III", "Naegeli, D.W.", "Glassman, I."],
-        title = u'High-Temperature Pyrolysis of Acetaldehyde',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "7",
-        pages = """223""",
-        year = "1975",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00012711/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012711/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012711/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 38,
     label = "r00012770",
     reactant1 = 

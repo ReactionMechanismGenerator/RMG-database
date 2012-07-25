@@ -2561,3 +2561,55 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 42,
+    label = "1975COL/NAE223:3",
+    reactant1 = 
+"""
+1 *1 C 1 {2,S}
+2 *2 C 0 {1,S} {3,D} {4,S}
+3    O 0 {2,D}
+4 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *1 C 1 {1,S} {4,D}
+3 *3 H 0 {1,S}
+4    O 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1e+13,"s^-1"),
+        n = 0,
+        Ea = (197.053,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (800,"K"),
+        Tmax = (1220,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Colket, M.B., III", "Naegeli, D.W.", "Glassman, I."],
+        title = u'High-Temperature Pyrolysis of Acetaldehyde',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "7",
+        pages = """223""",
+        year = "1975",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1975COL/NAE223:3",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated:  thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012711
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012711/rk00000001.xml
+Bath gas: N2
+Category: Theory
+Data type: Estimated:  thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 12:54:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975COL/NAE223:3"""),
+    ],
+)
+
