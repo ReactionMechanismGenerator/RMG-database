@@ -21282,3 +21282,67 @@ Used quantum calculations to compute many, many possible pathways for reactions 
     ],
 )
 
+entry(
+    index = 388,
+    label = "2003VER/PEE2807-2817:8",
+    reactant1 = 
+"""
+1 *1 C 0 {3,D}
+2    C 0 {3,D}
+3 *2 C 0 {1,D} {2,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,B} {3,B}
+2    C 0 {1,B} {4,B}
+3    C 0 {1,B} {5,B}
+4    C 0 {2,B} {6,B}
+5    C 0 {3,B} {6,B}
+6 *3 C 1 {4,B} {5,B}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {9,S}
+2 *3 C 0 {1,S} {3,B} {4,B}
+3    C 0 {2,B} {6,B}
+4    C 0 {2,B} {7,B}
+5    C 0 {6,B} {7,B}
+6    C 0 {3,B} {5,B}
+7    C 0 {4,B} {5,B}
+8    C 0 {9,D}
+9 *2 C 1 {1,S} {8,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (0.0179,"m^3/(mol*s)"),
+        n = 2.53,
+        Ea = (11.92,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Vereecken, L.", "Peeters, J."],
+        title = u'Reactions of chemically activated C9H9 species II: The reaction of phenyl radicals with allene and cyclopropene, and of benzyl radicals with acetylene',
+        journal = "Phys. Chem. Chem. Phys.",
+        volume = "5",
+        pages = """2807-2817""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE2807-2817:8",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00006976
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006976/rk00000001.xml
+Category: Theory
+Data type: Ab initio
+
+Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl + Acetylene. Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies. RRKM/Master equation methods to calculate rate expressions. Too complicated to abstract all reaction pathways. Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details. Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material. For more details, see article and companion article.
+""",
+    history = [
+        ("Wed Jul 25 15:51:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE2807-2817:8"""),
+    ],
+)
+
