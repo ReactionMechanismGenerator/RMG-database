@@ -91,51 +91,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 146,
-    label = "r00010632",
-    reactant1 = 
-"""
-1 *3 C 0 {2,S}
-2 *1 C 0 {1,S} {3,S}
-3 *2 O 1 {2,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,D}
-2 *2 O 0 {1,D}
-""",
-    product2 = 
-"""
-1 *3 C 1
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+15,"s^-1"),
-        n = 0,
-        Ea = (90627.7,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Batt, L.", "Milne, R.T."],
-        title = u'The Gas-Phase Pyrolysis of Alkyl Nitrites. IV. Ethyl Nitrite',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "9",
-        pages = """549""",
-        year = "1977",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 147,
     label = "r00010632",
     reactant1 = 
