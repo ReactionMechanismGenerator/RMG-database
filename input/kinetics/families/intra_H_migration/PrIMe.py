@@ -9,54 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 45,
-    label = "r00015924",
-    reactant1 = 
-"""
-1 *5 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S} {6,S}
-4 *4 C 0 {2,S} {5,S}
-5 *1 O 1 {4,S}
-6 *3 H 0 {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *4 C 0 {1,S} {4,S}
-3 *5 C 0 {1,S} {5,S}
-4 *1 C 1 {2,S}
-5 *2 O 0 {3,S} {6,S}
-6 *3 H 0 {5,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (2.51e+11,"s^-1"),
-        n = 0,
-        Ea = (32260.2,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Baldwin, A.C.", "Golden, D.M."],
-        title = u'Alkoxy Radical Reactions: The Isomerization of n-Butoxy Radicals Generated from the Pyrolysis of n-Butyl Nitrite',
-        journal = "Chem. Phys. Lett.",
-        volume = "60",
-        pages = """108""",
-        year = "1978",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:35:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 46,
     label = "r00015924",
     reactant1 = 

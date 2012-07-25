@@ -2995,3 +2995,57 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 50,
+    label = "1978BAL/GOL108:3",
+    reactant1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *2 C 0 {1,S} {6,S}
+4 *4 C 0 {2,S} {5,S}
+5 *1 O 1 {4,S}
+6 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *4 C 0 {1,S} {4,S}
+3 *5 C 0 {1,S} {5,S}
+4 *1 C 1 {2,S}
+5 *2 O 0 {3,S} {6,S}
+6 *3 H 0 {5,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (2.51e+11,"s^-1"),
+        n = 0,
+        Ea = (32.26,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (590,"K"),
+        Tmax = (750,"K"),
+    ),
+    reference = Article(
+        authors = ["Baldwin, A.C.", "Golden, D.M."],
+        title = u'Alkoxy Radical Reactions: The Isomerization of n-Butoxy Radicals Generated from the Pyrolysis of n-Butyl Nitrite',
+        journal = "Chem. Phys. Lett.",
+        volume = "60",
+        pages = """108""",
+        year = "1978",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1978BAL/GOL108:3",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015924
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000002.xml
+Bath gas: n-C4H9ONO
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 13:16:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978BAL/GOL108:3"""),
+    ],
+)
+
