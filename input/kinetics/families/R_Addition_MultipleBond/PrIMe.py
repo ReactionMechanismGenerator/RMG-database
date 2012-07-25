@@ -91,55 +91,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 177,
-    label = "r00011107",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {4,S}
-4 *2 C 1 {1,S} {3,S}
-5 *3 H 0 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *2 C 0 {1,S} {4,D}
-4 *1 C 0 {2,S} {3,D}
-""",
-    product2 = 
-"""
-1 *3 H 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (4.17e+12,"s^-1"),
-        n = 0,
-        Ea = (145503,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Tsang, W."],
-        title = u'The stability of alkyl radicals',
-        journal = "J. Am. Chem. Soc.",
-        volume = "107",
-        pages = """2872""",
-        year = "1985",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011107/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011107/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:43 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011107/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 178,
     label = "r00011107",
     reactant1 = 
