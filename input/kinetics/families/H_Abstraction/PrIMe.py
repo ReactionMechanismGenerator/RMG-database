@@ -577,64 +577,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 428,
-    label = "r00003726",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6 *1 C 0 {2,S} {7,S}
-7 *2 H 0 {6,S}
-""",
-    reactant2 = 
-"""
-1 *3 O 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6 *3 C 1 {2,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (9.57149,"cm^3/(mol*s)"),
-        n = 1.8,
-        Ea = (4074.09,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Cohen, N."],
-        title = u'Are reaction rate coefficients additive? Revised transition state theory calculations for OH + alkane reactions',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "23",
-        pages = """397-417""",
-        year = "1991",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00003726/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003726/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003726/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 436,
     label = "r00003835",
     reactant1 = 
