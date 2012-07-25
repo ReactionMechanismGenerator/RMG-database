@@ -577,62 +577,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 436,
-    label = "r00003835",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S} {4,S}
-2    C 0 {1,S} {5,S}
-3 *1 C 0 {1,S} {6,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6 *2 H 0 {3,S}
-""",
-    reactant2 = 
-"""
-1 *3 H 1
-""",
-    product1 = 
-"""
-1 *1 H 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S} {5,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5 *3 C 1 {1,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (1.32e+08,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (39244.3,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Baldwin, R.F.", "Walker, R.W."],
-        title = u'Rate Constants for Hydrogen + Oxygen System, and for H Atoms and OH Radicals + Alkanes',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "75",
-        pages = """140""",
-        year = "1979",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00003835/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003835/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:38 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003835/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 440,
     label = "r00004000",
     reactant1 = 

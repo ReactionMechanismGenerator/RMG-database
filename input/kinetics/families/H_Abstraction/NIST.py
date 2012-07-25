@@ -72982,3 +72982,64 @@ Data type: Transition state theory
     ],
 )
 
+entry(
+    index = 1224,
+    label = "1979BAL/WAL140:18",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S} {5,S}
+3 *1 C 0 {1,S} {6,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6 *2 H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {5,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4    C 0 {2,S}
+5 *3 C 1 {1,S}
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (1.32e+08,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (39.244,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (753,"K"),
+        Tmax = (773,"K"),
+    ),
+    reference = Article(
+        authors = ["Baldwin, R.F.", "Walker, R.W."],
+        title = u'Rate Constants for Hydrogen + Oxygen System, and for H Atoms and OH Radicals + Alkanes',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "75",
+        pages = """140""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:18",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from detailed balance/reverse rate""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00003835
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003835/rk00000001.xml
+Category: Experiment
+Data type: Derived from detailed balance/reverse rate
+""",
+    history = [
+        ("Wed Jul 25 12:25:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAL/WAL140:18"""),
+    ],
+)
+
