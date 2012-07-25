@@ -2613,3 +2613,57 @@ Data type: Estimated:  thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 43,
+    label = "2003MAT/GRE95-119:5",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *1 C 1 {1,S}
+5 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {4,S}
+2    C 0 {4,S}
+3 *2 C 0 {4,S} {5,S}
+4 *1 C 1 {1,S} {2,S} {3,S}
+5 *3 H 0 {3,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.56e+10,"s^-1"),
+        n = 0.88,
+        Ea = (144.766,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."],
+        title = u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "35",
+        pages = """95-119""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:5",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012770
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012770/rk00000001.xml
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
+""",
+    history = [
+        ("Wed Jul 25 12:56:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:5"""),
+    ],
+)
+

@@ -9,52 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 38,
-    label = "r00012770",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4 *1 C 1 {1,S}
-5 *3 H 0 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {4,S}
-2    C 0 {4,S}
-3 *2 C 0 {4,S} {5,S}
-4 *1 C 1 {1,S} {2,S} {3,S}
-5 *3 H 0 {3,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (3.56e+10,"s^-1"),
-        n = 0.88,
-        Ea = (571.681,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."],
-        title = u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "35",
-        pages = """95-119""",
-        year = "2003",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00012770/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012770/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012770/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 39,
     label = "r00015630",
     reactant1 = 
