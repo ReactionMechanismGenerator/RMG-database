@@ -577,62 +577,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 444,
-    label = "r00004001",
-    reactant1 = 
-"""
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {4,S}
-3    C 0 {1,S} {4,S} {6,D}
-4    O 0 {2,S} {3,S}
-5 *2 H 0 {1,S}
-6    O 0 {3,D}
-""",
-    reactant2 = 
-"""
-1 *3 C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {4,S}
-2    C 0 {3,S} {4,S} {5,D}
-3 *3 C 1 {2,S}
-4    O 0 {1,S} {2,S}
-5    O 0 {2,D}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (162000,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (42902.7,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Arthur, N.L.", "Newitt, P.J."],
-        title = u'Hydrogen Abstraction from (^2H_3) Methyl Acetate by Methyl and Trifluoromethyl Radicals',
-        journal = "Aust. J. Chem.",
-        volume = "34",
-        pages = """727""",
-        year = "1981",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00004001/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004001/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:33:38 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004001/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 445,
     label = "r00004048",
     reactant1 = 

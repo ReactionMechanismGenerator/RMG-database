@@ -73309,3 +73309,68 @@ Analytical technique: Mass spectrometry
     ],
 )
 
+entry(
+    index = 1229,
+    label = "1981ART/NEW727:1",
+    reactant1 = 
+"""
+1 *1 C 0 {3,S} {5,S}
+2    C 0 {4,S}
+3    C 0 {1,S} {4,S} {6,D}
+4    O 0 {2,S} {3,S}
+5 *2 H 0 {1,S}
+6    O 0 {3,D}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {4,S}
+2    C 0 {3,S} {4,S} {5,D}
+3 *3 C 1 {2,S}
+4    O 0 {1,S} {2,S}
+5    O 0 {2,D}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (162000,"m^3/(mol*s)","*|/",1.78),
+        n = 0,
+        Ea = (42.903,"kJ/mol","+|-",2.145),
+        T0 = (1,"K"),
+        Tmin = (386,"K"),
+        Tmax = (505,"K"),
+        Pmin = (6666,"Pa"),
+        Pmax = (7999,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Arthur, N.L.", "Newitt, P.J."],
+        title = u'Hydrogen Abstraction from (2H3) Methyl Acetate by Methyl and Trifluoromethyl Radicals',
+        journal = "Aust. J. Chem.",
+        volume = "34",
+        pages = """727""",
+        year = "1981",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981ART/NEW727:1",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004001
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004001/rk00000003.xml
+Uncertainty: 1.78
+Bath gas: CH3C(O)OCH3
+Category: Review
+Data type: Experimental value and limited review
+""",
+    history = [
+        ("Wed Jul 25 12:36:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981ART/NEW727:1"""),
+    ],
+)
+
