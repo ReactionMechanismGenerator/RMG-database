@@ -3049,3 +3049,62 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 51,
+    label = "1987MOR/HEI2641:3",
+    reactant1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *2 C 0 {1,S} {6,S}
+4 *4 C 0 {2,S} {5,S}
+5 *1 O 1 {4,S}
+6 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *4 C 0 {1,S} {4,S}
+3 *5 C 0 {1,S} {5,S}
+4 *1 C 1 {2,S}
+5 *2 O 0 {3,S} {6,S}
+6 *3 H 0 {5,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.78e+11,"s^-1","*|/",5),
+        n = 0,
+        Ea = (33.341,"kJ/mol","+|-",4.34),
+        T0 = (1,"K"),
+        Tmin = (265,"K"),
+        Tmax = (393,"K"),
+        Pmin = (53300,"Pa"),
+        Pmax = (53300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Morabito, P.", "Heicklen, J."],
+        title = u'The reactions of alkoxyl radicals with O2. IV. n-C4H9O radicals',
+        journal = "Bull. Chem. Soc. Jpn.",
+        volume = "60",
+        pages = """2641""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987MOR/HEI2641:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015924
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000003.xml
+Uncertainty: 5.0
+Bath gas: N2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Jul 25 13:17:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987MOR/HEI2641:3"""),
+    ],
+)
+
