@@ -2496,3 +2496,68 @@ Data type: Estimated:  thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 41,
+    label = "1987DOB/BER895:2",
+    reactant1 = 
+"""
+1    C 0 {2,S} {4,S}
+2    C 0 {1,S} {3,S}
+3 *2 C 0 {2,S} {5,S} {9,S}
+4    C 0 {1,S} {6,S}
+5 *4 C 0 {3,S} {8,S}
+6    C 0 {4,S}
+7    C 0 {8,S}
+8 *1 C 1 {5,S} {7,S}
+9 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {4,S}
+2    C 0 {1,S} {6,S}
+3 *2 C 0 {5,S} {7,S} {9,S}
+4    C 0 {1,S} {8,S}
+5 *4 C 0 {3,S} {8,S}
+6    C 0 {2,S}
+7    C 0 {3,S}
+8 *1 C 1 {4,S} {5,S}
+9 *3 H 0 {3,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (3.16e+10,"s^-1","*|/",5),
+        n = 0,
+        Ea = (71.172,"kJ/mol","+|-",8.564),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (385,"K"),
+        Pmin = (6666,"Pa"),
+        Pmax = (100000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Dobe, S.", "Berces, T.", "Reti, F.", "Marta, F."],
+        title = u'Isomerization of n-hexyl and s-octyl radicals by 1,5 and 1,4 intramolecular hydrogen atom transfer reactions',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "19",
+        pages = """895""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987DOB/BER895:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011969
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011969/rk00000001.xml
+Uncertainty: 5.0
+Bath gas: N2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Jul 25 12:52:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987DOB/BER895:2"""),
+    ],
+)
+
