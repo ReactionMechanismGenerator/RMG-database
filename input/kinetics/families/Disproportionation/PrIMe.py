@@ -387,54 +387,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 107,
-    label = "r00013871",
-    reactant1 = 
-"""
-1 *1 O 1 {2,S}
-2    O 1 {1,S}
-""",
-    reactant2 = 
-"""
-1 *2 C 0 {2,S} {3,S}
-2 *3 C 1 {1,S}
-3 *4 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S} {3,S}
-2    O 1 {1,S}
-3 *4 H 0 {1,S}
-""",
-    product2 = 
-"""
-1 *3 C 0 {2,D}
-2 *2 C 0 {1,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (840000,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (16213,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(
-        authors = ["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."],
-        year = "1999",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013871/rk00000035.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013871/rk00000035.xml
-""",
-    history = [
-        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013871/rk00000035.xml"""),
-    ],
-)
-
-entry(
     index = 116,
     label = "r00017290",
     reactant1 = 
