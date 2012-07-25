@@ -9,56 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 42,
-    label = "r00015689",
-    reactant1 = 
-"""
-1 *5 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S} {7,S}
-3 *4 C 0 {1,S} {5,S}
-4    C 0 {2,S} {6,D}
-5 *1 C 1 {3,S}
-6    C 0 {4,D}
-7 *3 H 0 {2,S}
-""",
-    product1 = 
-"""
-1 *5 C 0 {2,S} {3,S}
-2 *4 C 0 {1,S} {4,S}
-3 *2 C 0 {1,S} {7,S}
-4 *1 C 1 {2,S} {5,S}
-5    C 0 {4,S} {6,D}
-6    C 0 {5,D}
-7 *3 H 0 {3,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1e+12,"s^-1"),
-        n = 0,
-        Ea = (124717,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Handford-Styring, S.M.", "Walker, R.W."],
-        title = u'Addition of cyclopentane to slowly reacting mixtures of H_2 + O_2 between 673 and 783 K: reactions of H and OH with cyclopentane and of cyclopentyl radicals',
-        journal = "J. Chem. Soc. Faraday Trans.",
-        volume = "91",
-        pages = """1431-1438""",
-        year = "1995",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00015689/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015689/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:35:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015689/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 43,
     label = "r00015689",
     reactant1 = 

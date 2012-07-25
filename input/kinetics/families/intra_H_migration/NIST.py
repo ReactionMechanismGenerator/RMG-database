@@ -2823,3 +2823,61 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 47,
+    label = "1995HAN/WAL1431-1438:9",
+    reactant1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2 *2 C 0 {1,S} {4,S} {7,S}
+3 *4 C 0 {1,S} {5,S}
+4    C 0 {2,S} {6,D}
+5 *1 C 1 {3,S}
+6    C 0 {4,D}
+7 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2 *4 C 0 {1,S} {4,S}
+3 *2 C 0 {1,S} {7,S}
+4 *1 C 1 {2,S} {5,S}
+5    C 0 {4,S} {6,D}
+6    C 0 {5,D}
+7 *3 H 0 {3,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+12,"s^-1"),
+        n = 0,
+        Ea = (124.717,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (600,"K"),
+        Tmax = (1300,"K"),
+        Pmin = (23300,"Pa"),
+        Pmax = (66700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Handford-Styring, S.M.", "Walker, R.W."],
+        title = u'Addition of cyclopentane to slowly reacting mixtures of H2 + O2 between 673 and 783 K: reactions of H and OH with cyclopentane and of cyclopentyl radicals',
+        journal = "J. Chem. Soc. Faraday Trans.",
+        volume = "91",
+        pages = """1431-1438""",
+        year = "1995",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:9",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015689
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015689/rk00000001.xml
+Bath gas: O2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 13:06:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:9"""),
+    ],
+)
+
