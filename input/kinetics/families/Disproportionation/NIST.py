@@ -7131,3 +7131,61 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 118,
+    label = "1986TSA/HAM1087:209",
+    reactant1 = 
+"""
+1 *1 O 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,D}
+2 *2 C 0 {1,D} {3,S} {4,S}
+3 *3 O 1 {2,S}
+4 *4 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,D}
+2 *2 C 0 {1,D} {3,D}
+3 *3 O 0 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.21e+07,"m^3/(mol*s)","*|/",3),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W.", "Hampson, R.F."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "15",
+        pages = """1087""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:209",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00017303
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017303/rk00000001.xml
+Uncertainty: 3.0
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Jul 25 13:45:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:209"""),
+    ],
+)
+
