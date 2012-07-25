@@ -58,67 +58,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 66,
-    label = "r00001774",
-    reactant1 = 
-"""
-1 *1 C 0 {3,S} {4,S}
-2    C 0 {3,S}
-3    C 0 {1,S} {2,S} {5,D}
-4 *2 H 0 {1,S}
-5    O 0 {3,D}
-""",
-    reactant2 = 
-"""
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *3 O 1 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *1 O 0 {1,S} {6,S}
-6 *2 H 0 {5,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2    C 0 {1,S} {3,S} {4,D}
-3 *3 C 1 {2,S}
-4    O 0 {2,D}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (1.26e+07,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (25691.7,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Al Akeel, N.Y.", "Selby, K.", "Waddington, D.J."],
-        title = u'Reactions of Oxygenated Radicals in the Gas Phase. Part 8. Reactions of Alkoxyl Radicals with Aldehydes and Ketones',
-        journal = "J. Chem. Soc. Perkin Trans. 2",
-        pages = """1036""",
-        year = "1981",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00001774/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001774/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:32 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001774/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 71,
     label = "r00001845",
     reactant1 = 
