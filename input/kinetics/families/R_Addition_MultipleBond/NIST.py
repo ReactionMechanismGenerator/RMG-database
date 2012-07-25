@@ -21164,3 +21164,57 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 386,
+    label = "1967GET/KER979-982:2",
+    reactant1 = 
+"""
+1 *1 C 0 {3,D}
+2    C 0 {3,D}
+3 *2 C 0 {1,D} {2,D}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {4,S}
+2 *3 C 0 {1,S}
+3    C 0 {4,D}
+4 *2 C 1 {1,S} {3,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (200000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (33.923,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (373,"K"),
+        Tmax = (483,"K"),
+    ),
+    reference = Article(
+        authors = ["Getty, R.R.", "Kerr, J.A.", "Trotman-Dickenson, A.F."],
+        title = u'The reactions of alkyl radicals. Part XII. The additions of methyl, ethyl, and isopropyl radicals to allene',
+        journal = "J. Chem. Soc. A",
+        pages = """979-982""",
+        year = "1967",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1967GET/KER979-982:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00006972
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006972/rk00000001.xml
+Bath gas: H2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Jul 25 15:44:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967GET/KER979-982:2"""),
+    ],
+)
+
