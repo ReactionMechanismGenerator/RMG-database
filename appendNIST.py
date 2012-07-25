@@ -202,6 +202,8 @@ def getKinetics(entry, squib, cookiejar):
     Tmax = None
     if '-' in Trange:
         Tmin, Tmax = Trange.split('-')
+    elif ';' in Trange:
+        pass
     else:
         Tmin = Trange
         Tmax = Trange
