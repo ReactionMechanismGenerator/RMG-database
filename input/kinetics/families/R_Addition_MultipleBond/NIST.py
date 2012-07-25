@@ -23390,3 +23390,59 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 426,
+    label = "1981CHO/BEN833:4",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {6,S}
+2 *3 C 0 {1,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6 *2 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *1 C 0 {1,S} {2,S} {4,D}
+4 *2 O 0 {3,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.98e+13,"s^-1"),
+        n = 0,
+        Ea = (51.882,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (450,"K"),
+    ),
+    reference = Article(
+        authors = ["Choo, K.Y.", "Benson, S.W."],
+        title = u'Arrhenius Parameters for the Alkoxy Radical Decomposition Reactions',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "13",
+        pages = """833""",
+        year = "1981",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981CHO/BEN833:4",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Other theoretical""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015135
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015135/rk00000004.xml
+Category: Theory
+Data type: Other theoretical
+""",
+    history = [
+        ("Wed Jul 25 19:00:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981CHO/BEN833:4"""),
+    ],
+)
+
