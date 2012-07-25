@@ -23106,3 +23106,56 @@ Data type: Transition state theory
     ],
 )
 
+entry(
+    index = 421,
+    label = "1994DIA/LIN3923-3927:6",
+    reactant1 = 
+"""
+1 *1 C 0 {2,T}
+2 *2 C 0 {1,T}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *3 C 0 {2,S}
+2 *1 C 0 {1,S} {3,D}
+3 *2 C 1 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.29e+24,"m^3/(mol*s)"),
+        n = -5.98,
+        Ea = (55.79,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1000,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Diau, E.W.", "Lin, M.C."],
+        title = u'A theoretical study of the CH3 + C2H2 reaction',
+        journal = "J. Chem. Phys.",
+        volume = "101",
+        pages = """3923-3927""",
+        year = "1994",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1994DIA/LIN3923-3927:6",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012935
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000007.xml
+Bath gas: Ar
+Category: Theory
+Data type: Transition state theory
+""",
+    history = [
+        ("Wed Jul 25 18:49:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DIA/LIN3923-3927:6"""),
+    ],
+)
+
