@@ -73176,3 +73176,69 @@ Analytical technique: Mass spectrometry
     ],
 )
 
+entry(
+    index = 1227,
+    label = "1970FER/PEA910:4",
+    reactant1 = 
+"""
+1 *1 C 0 {3,S} {5,S}
+2    C 0 {4,S}
+3    C 0 {1,S} {4,S} {6,D}
+4    O 0 {2,S} {3,S}
+5 *2 H 0 {1,S}
+6    O 0 {3,D}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {4,S}
+2    C 0 {3,S} {4,S} {5,D}
+3 *3 C 1 {2,S}
+4    O 0 {1,S} {2,S}
+5    O 0 {2,D}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (200000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (41.24,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (393,"K"),
+        Tmax = (553,"K"),
+        Pmin = (3200,"Pa"),
+        Pmax = (13300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Ferguson, K.C.", "Pearson, J.T."],
+        title = u'Methyl and trifluoromethyl radical rections with methyl acetate and deuterated methyl acetates',
+        journal = "Trans. Faraday Soc.",
+        volume = "66",
+        pages = """910""",
+        year = "1970",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1970FER/PEA910:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004001
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004001/rk00000001.xml
+Bath gas: (CH3)2CO
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Jul 25 12:32:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970FER/PEA910:4"""),
+    ],
+)
+
