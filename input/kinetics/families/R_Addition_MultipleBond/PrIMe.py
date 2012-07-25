@@ -9,53 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 20,
-    label = "r00002226",
-    reactant1 = 
-"""
-1 *1 C 0 {2,D}
-2 *2 C 0 {1,D}
-""",
-    reactant2 = 
-"""
-1 *3 C 1 {2,S}
-2    O 0 {1,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S} {3,S}
-2 *3 C 0 {1,S} {4,S}
-3 *2 C 1 {1,S}
-4    O 0 {2,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (48200,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (29100.7,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Tsang, W."],
-        title = u'Chemical kinetic data base for combustion chemistry. Part 2. Methanol',
-        journal = "J. Phys. Chem. Ref. Data",
-        volume = "16",
-        pages = """471""",
-        year = "1987",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002226/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002226/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002226/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 26,
     label = "r00002857",
     reactant1 = 

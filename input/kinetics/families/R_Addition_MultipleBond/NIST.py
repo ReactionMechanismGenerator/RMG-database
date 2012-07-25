@@ -20658,3 +20658,55 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 377,
+    label = "1987TSA471:25",
+    reactant1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 C 0 {1,D}
+""",
+    reactant2 = 
+"""
+1 *3 C 1 {2,S}
+2    O 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2 *3 C 0 {1,S} {4,S}
+3 *2 C 1 {1,S}
+4    O 0 {2,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (48200,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (29.101,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 2. Methanol',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "16",
+        pages = """471""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:25",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002226
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002226/rk00000001.xml
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Jul 25 14:53:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:25"""),
+    ],
+)
+
