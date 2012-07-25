@@ -2881,3 +2881,63 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 48,
+    label = "2003MAT/GRE95-119:13",
+    reactant1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2 *2 C 0 {1,S} {4,S} {7,S}
+3 *4 C 0 {1,S} {5,S}
+4    C 0 {2,S} {6,D}
+5 *1 C 1 {3,S}
+6    C 0 {4,D}
+7 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2 *4 C 0 {1,S} {4,S}
+3 *2 C 0 {1,S} {7,S}
+4 *1 C 1 {2,S} {5,S}
+5    C 0 {4,S} {6,D}
+6    C 0 {5,D}
+7 *3 H 0 {3,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.67e+12,"s^-1"),
+        n = -0.6,
+        Ea = (64.015,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."],
+        title = u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "35",
+        pages = """95-119""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:13",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015689
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015689/rk00000002.xml
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
+
+1,4 Hydrogen shift
+""",
+    history = [
+        ("Wed Jul 25 13:13:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:13"""),
+    ],
+)
+
