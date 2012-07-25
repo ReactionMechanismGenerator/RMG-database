@@ -22281,3 +22281,69 @@ Rate expressions based on ab inito transition states using G2MP2//B3LYP/6-31G(d,
     ],
 )
 
+entry(
+    index = 406,
+    label = "2004FAS/CAV3829-3843:2",
+    reactant1 = 
+"""
+1  *1 C 0 {2,S} {3,S}
+2  *3 C 0 {1,S} {4,B} {5,B}
+3  *2 C 1 {1,S} {9,S}
+4     C 0 {2,B} {7,B}
+5     C 0 {2,B} {8,B}
+6     C 0 {7,B} {8,B}
+7     C 0 {4,B} {6,B}
+8     C 0 {5,B} {6,B}
+9     C 0 {3,S} {10,D}
+10    C 0 {9,D}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,D}
+2 *2 C 0 {1,S} {4,D}
+3    C 0 {1,D}
+4 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,B} {3,B}
+2    C 0 {1,B} {4,B}
+3    C 0 {1,B} {5,B}
+4    C 0 {2,B} {6,B}
+5    C 0 {3,B} {6,B}
+6 *3 C 1 {4,B} {5,B}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (8.3e+17,"s^-1"),
+        n = -1,
+        Ea = (204.598,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (500,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."],
+        title = u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene',
+        journal = "J. Phys. Chem. A",
+        volume = "108",
+        pages = """3829-3843""",
+        year = "2004",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004FAS/CAV3829-3843:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011148
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011148/rk00000004.xml
+Category: Theory
+Data type: Ab initio
+
+Rate expressions based on ab inito transition states using G2MP2//B3LYP/6-31G(d,p) method. Also computed B3LYP/6-31G(d,p) energies (not as good). Rate expressions computed using conventional transition state theory or QRRK methods. Treated hindered rotors. All rate expressions abstracted from paper, including those using different assumptions for stabilization of C10H11 intermediates. See paper for more discussion.
+""",
+    history = [
+        ("Wed Jul 25 18:04:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004FAS/CAV3829-3843:2"""),
+    ],
+)
+
