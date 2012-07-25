@@ -91,55 +91,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 181,
-    label = "r00011108",
-    reactant1 = 
-"""
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *1 C 0 {1,S} {4,D}
-4 *2 C 0 {2,S} {3,D}
-""",
-    reactant2 = 
-"""
-1 *3 H 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {4,S}
-4 *2 C 1 {1,S} {3,S}
-5 *3 H 0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (2.39e+07,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (8813.34,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Kyogoku, T.", "Watanabe, T.", "Tsunashima, S.", "Sato, S."],
-        title = u'Arrhenius parameters for the reactions of hydrogen and deuterium atoms with four butenes',
-        journal = "Bull. Chem. Soc. Jpn.",
-        volume = "56",
-        pages = """19""",
-        year = "1983",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011108/rk00000014.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011108/rk00000014.xml
-""",
-    history = [
-        ("Tue May 17 14:34:43 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011108/rk00000014.xml"""),
-    ],
-)
-
-entry(
     index = 182,
     label = "r00011148",
     reactant1 = 

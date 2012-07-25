@@ -22152,3 +22152,62 @@ Analytical technique: Resonance fluorescence
     ],
 )
 
+entry(
+    index = 404,
+    label = "1983KYO/WAT19-21:5",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *1 C 0 {1,S} {4,D}
+4 *2 C 0 {2,S} {3,D}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {4,S}
+4 *2 C 1 {1,S} {3,S}
+5 *3 H 0 {1,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.39e+07,"m^3/(mol*s)","+|-",1.7e+06),
+        n = 0,
+        Ea = (8.813,"kJ/mol","+|-",0.175),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (500,"K"),
+        Pmin = (80000,"Pa"),
+        Pmax = (80000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kyogoku, T.", "Watanabe, T.", "Tsunashima, S.", "Sato, S."],
+        title = u'Arrhenius parameters for the reactions of hydrogen and deuterium atoms with four butenes',
+        journal = "Bull. Chem. Soc. Jpn.",
+        volume = "56",
+        pages = """19-21""",
+        year = "1983",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1983KYO/WAT19-21:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011108
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011108/rk00000014.xml
+Bath gas: H2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Chemical activation
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Jul 25 17:38:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983KYO/WAT19-21:5"""),
+    ],
+)
+
