@@ -188,53 +188,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 164,
-    label = "r00011106",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {4,S}
-2 *3 C 0 {1,S}
-3    C 0 {4,S}
-4 *2 C 1 {1,S} {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3 *1 C 0 {2,D}
-""",
-    product2 = 
-"""
-1 *3 C 1
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (6.5e+11,"s^-1"),
-        n = 0,
-        Ea = (100605,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Gruver, J.T.", "Calvert, J.C."],
-        title = u'The vapor phase photolysis of 2-methylbutanal at wave length 3130 A',
-        journal = "J. Am. Chem. Soc.",
-        volume = "78",
-        pages = """5208""",
-        year = "1956",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011106/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011106/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:43 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011106/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 177,
     label = "r00011107",
     reactant1 = 

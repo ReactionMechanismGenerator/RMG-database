@@ -21810,3 +21810,59 @@ Rate expression does not contain tunneling contributions. Temperature range not 
     ],
 )
 
+entry(
+    index = 398,
+    label = "1956GRU/CAL5208:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {4,S}
+2 *3 C 0 {1,S}
+3    C 0 {4,S}
+4 *2 C 1 {1,S} {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1 *3 C 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (6.5e+11,"s^-1"),
+        n = 0,
+        Ea = (100.605,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (500,"K"),
+        Tmax = (625,"K"),
+        Pmin = (2400,"Pa"),
+        Pmax = (3466,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Gruver, J.T.", "Calvert, J.C."],
+        title = u'The vapor phase photolysis of 2-methylbutanal at wave length 3130 A',
+        journal = "J. Am. Chem. Soc.",
+        volume = "78",
+        pages = """5208""",
+        year = "1956",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1956GRU/CAL5208:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011106
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011106/rk00000001.xml
+Rate constant is an upper limit.
+Bath gas: sec-C4H9CHO
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 17:03:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1956GRU/CAL5208:2"""),
+    ],
+)
+
