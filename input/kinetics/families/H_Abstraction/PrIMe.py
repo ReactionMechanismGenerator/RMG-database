@@ -470,58 +470,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 314,
-    label = "r00002746",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *1 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4 *2 H 0 {2,S}
-""",
-    reactant2 = 
-"""
-1 *3 O 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3 *3 C 1 {1,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (2.28e+06,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (10892,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Hu, W-P.", "Rossi, I.", "Corchado, J.C.", "Truhlar, D.G."],
-        title = u'Molecular modeling of combustion kinetics. The abstraction of primary and secondary hydrogens by hydroxyl radical',
-        journal = "J. Phys. Chem. A",
-        volume = "101",
-        pages = """6911-6921""",
-        year = "1997",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002746/rk00000011.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002746/rk00000011.xml
-""",
-    history = [
-        ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002746/rk00000011.xml"""),
-    ],
-)
-
-entry(
     index = 338,
     label = "r00003017",
     reactant1 = 
