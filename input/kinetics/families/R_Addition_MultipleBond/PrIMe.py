@@ -9,53 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 28,
-    label = "r00002857",
-    reactant1 = 
-"""
-1    C 0 {2,S}
-2 *1 C 0 {1,S} {3,D} {4,S}
-3 *2 C 1 {2,D}
-4 *3 H 0 {2,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S}
-2 *1 C 0 {1,S} {3,T}
-3 *2 C 0 {2,T}
-""",
-    product2 = 
-"""
-1 *3 H 1
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.24e+13,"s^-1"),
-        n = 0,
-        Ea = (182087,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Naroznik, M.", "Niedzielski, J."],
-        title = u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes',
-        journal = "J. Photochem.",
-        volume = "32",
-        pages = """281""",
-        year = "1986",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002857/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002857/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:33:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002857/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 29,
     label = "r00003845",
     reactant1 = 
