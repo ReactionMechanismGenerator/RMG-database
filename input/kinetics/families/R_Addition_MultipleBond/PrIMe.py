@@ -173,61 +173,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 263,
-    label = "r00011862",
-    reactant1 = 
-"""
-1    O 0 {2,S}
-2 *3 O 1 {1,S}
-""",
-    reactant2 = 
-"""
-1    C 0 {3,S}
-2    C 0 {3,S}
-3 *1 C 0 {1,S} {2,S} {4,D}
-4 *2 C 0 {3,D}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4 *2 C 1 {1,S}
-5 *3 O 0 {1,S} {6,S}
-6    O 0 {5,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (0.0131,"cm^3/(mol*s)"),
-        n = 2.10058,
-        Ea = (31547.4,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Chen, C.-J.", "Bozzelli, J.W."],
-        title = u'Analysis of Tertiary Butyl Radical + O_2, Isobutene + HO_2, Isobutene + OH, and Isobutene-OH Adducts + O_2: A Detailed Tertiary Butyl Oxidation Mechanism',
-        journal = "J. Phys. Chem. A",
-        volume = "103",
-        pages = """9731-9769""",
-        year = "1999",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011862/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011862/rk00000001.xml
-Table 9 rate k1 in doi:10.1021/jp991227n
-Fitting with two parameter modified Arrhenius equation; A estimated using TST- and MP2-determined entropies, Ea evaluated from CBS-q//MP2(full)/6-31G* calculation.
-""",
-    history = [
-        ("Tue May 17 14:34:51 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011862/rk00000001.xml"""),
-        ("Wed Jun 15 13:08:15 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect values of preexponential and activation energy."""),
-        ("2011-06-20","Richard West <rwest@mit.edu>","action","""Fixed typo in A and added detail to longDesc."""),
-    ],
-)
-
-entry(
     index = 296,
     label = "r00012710",
     reactant1 = 

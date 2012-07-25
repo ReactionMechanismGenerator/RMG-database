@@ -22738,3 +22738,60 @@ Rate expression does not contain tunneling contributions. Temperature range not 
     ],
 )
 
+entry(
+    index = 414,
+    label = "1999CHE/BOZ9731-9769:7",
+    reactant1 = 
+"""
+1    O 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    reactant2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *1 C 0 {1,S} {2,S} {4,D}
+4 *2 C 0 {3,D}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *2 C 1 {1,S}
+5 *3 O 0 {1,S} {6,S}
+6    O 0 {5,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (0.0131,"m^3/(mol*s)"),
+        n = 2.1,
+        Ea = (31.547,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Chen, C.-J.", "Bozzelli, J.W."],
+        title = u'Analysis of Tertiary Butyl Radical + O2, Isobutene + HO2, Isobutene + OH, and Isobutene-OH Adducts + O2: A Detailed Tertiary Butyl Oxidation Mechanism',
+        journal = "J. Phys. Chem. A",
+        volume = "103",
+        pages = """9731-9769""",
+        year = "1999",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:7",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011862
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011862/rk00000001.xml
+Category: Theory
+Data type: Transition state theory
+Pressure dependence: Rate constant is high pressure limit
+""",
+    history = [
+        ("Wed Jul 25 18:40:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:7"""),
+    ],
+)
+
