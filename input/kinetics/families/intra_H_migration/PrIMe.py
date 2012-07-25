@@ -117,56 +117,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 57,
-    label = "r00017157",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *5 C 0 {1,S} {4,S}
-3 *4 C 0 {1,S} {5,S} {6,S}
-4 *2 C 0 {2,S} {7,S}
-5    C 0 {3,S}
-6 *1 O 1 {3,S}
-7 *3 H 0 {4,S}
-""",
-    product1 = 
-"""
-1 *5 C 0 {2,S} {4,S} {6,S}
-2    C 0 {1,S} {3,S}
-3 *4 C 0 {2,S} {5,S}
-4    C 0 {1,S}
-5 *1 C 1 {3,S}
-6 *2 O 0 {1,S} {7,S}
-7 *3 H 0 {6,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (2.4e+12,"s^-1"),
-        n = 0,
-        Ea = (153.66,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
-        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
-        journal = "Phys. Chem. Chem. Phys.",
-        volume = "5",
-        pages = """4828-4833""",
-        year = "2003",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00017157/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00017157/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:36:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00017157/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 58,
     label = "r00017157",
     reactant1 = 

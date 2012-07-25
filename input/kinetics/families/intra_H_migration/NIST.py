@@ -3349,3 +3349,69 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 56,
+    label = "2003MER/RAY4828-4833:3",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *5 C 0 {1,S} {4,S}
+3 *4 C 0 {1,S} {5,S} {6,S}
+4 *2 C 0 {2,S} {7,S}
+5    C 0 {3,S}
+6 *1 O 1 {3,S}
+7 *3 H 0 {4,S}
+""",
+    product1 = 
+"""
+1 *5 C 0 {2,S} {4,S} {6,S}
+2    C 0 {1,S} {3,S}
+3 *4 C 0 {2,S} {5,S}
+4    C 0 {1,S}
+5 *1 C 1 {3,S}
+6 *2 O 0 {1,S} {7,S}
+7 *3 H 0 {6,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (2.4e+12,"s^-1","*|/",5),
+        n = 0,
+        Ea = (38.911,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (298,"K"),
+    ),
+    reference = Article(
+        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
+        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
+        journal = "Phys. Chem. Chem. Phys.",
+        volume = "5",
+        pages = """4828-4833""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:3",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00017157
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017157/rk00000001.xml
+Uncertainty: 5.0
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
+
+Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
+kisom(primary) = 6.2E5 s^-1
+kisom(secondary) = 9.3E8 s^-1
+kisom(tertiary) = 4.5E8 s^-1
+
+The authors estimate uncertainties in calculated rates to be a factor of 5
+""",
+    history = [
+        ("Wed Jul 25 13:30:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:3"""),
+    ],
+)
+
