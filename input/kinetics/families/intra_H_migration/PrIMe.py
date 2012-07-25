@@ -9,50 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 40,
-    label = "r00015630",
-    reactant1 = 
-"""
-1 *2 C 0 {2,D} {3,S} {4,S}
-2    C 0 {1,D}
-3 *1 C 1 {1,S}
-4 *3 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 *2 C 0 {3,S} {4,S}
-2    C 0 {3,D}
-3 *1 C 1 {1,S} {2,D}
-4 *3 H 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (7.94e+12,"s^-1"),
-        n = 0,
-        Ea = (147166,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Ondruschka, B.", "Ziegler, U.", "Zimmermann, G."],
-        title = u'Zu moglichen umlagerungen zwischen isomeren C_3H_5-radikalen',
-        journal = "Z. Phys. Chem. (Leipzig)",
-        volume = "267",
-        pages = """1127""",
-        year = "1986",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00015630/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015630/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:35:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015630/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 41,
     label = "r00015688",
     reactant1 = 
