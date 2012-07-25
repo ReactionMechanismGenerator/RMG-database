@@ -22465,3 +22465,59 @@ Note: Invalid activation energy uncertainty (8314472.0) found and ignored
     ],
 )
 
+entry(
+    index = 409,
+    label = "1984WEI/BEN307-333:15",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,D} {5,S}
+2    C 0 {1,S} {4,T}
+3 *2 C 1 {1,D}
+4    C 0 {2,T}
+5 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,T}
+2 *1 C 0 {1,S} {4,T}
+3    C 0 {1,T}
+4 *2 C 0 {2,T}
+""",
+    product2 = 
+"""
+1 *3 H 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1e+14,"s^-1"),
+        n = 0,
+        Ea = (170.447,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1260,"K"),
+        Tmax = (1310,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Weissman, M.", "Benson, S.W."],
+        title = u'Pyrolysis of methyl chloride, a pathway in the chlorine-catalyzed polymerization of methane',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "16",
+        pages = """307-333""",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984WEI/BEN307-333:15",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011527
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011527/rk00000003.xml
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 18:28:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WEI/BEN307-333:15"""),
+    ],
+)
+
