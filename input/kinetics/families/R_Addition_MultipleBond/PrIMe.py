@@ -216,56 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 366,
-    label = "r00016188",
-    reactant1 = 
-"""
-1 *3 C 0 {2,S} {3,S}
-2 *1 C 0 {1,S} {4,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5 *2 O 1 {2,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S}
-2 *1 C 0 {1,S} {3,D}
-3 *2 O 0 {2,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2 *3 C 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (5.25e+13,"s^-1"),
-        n = 0,
-        Ea = (48900,"kJ/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."],
-        title = u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds',
-        journal = "Can. J. Chem.",
-        volume = "81",
-        pages = """431-442""",
-        year = "2003",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000009.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000009.xml
-""",
-    history = [
-        ("Tue May 17 14:35:39 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000009.xml"""),
-        ("Fri Jun  3 17:09:42 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect value of activation energy."""),
-    ],
-)
-
-entry(
     index = 367,
     label = "r00016189",
     reactant1 = 
