@@ -525,61 +525,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 491,
-    label = "r00004970",
-    reactant1 = 
-"""
-1    C 0 {3,S}
-2 *1 C 0 {3,S} {4,D} {5,S}
-3    O 0 {1,S} {2,S}
-4    O 0 {2,D}
-5 *2 H 0 {2,S}
-""",
-    reactant2 = 
-"""
-1 *3 H 1
-""",
-    product1 = 
-"""
-1 *1 H 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2    O 0 {1,S} {3,S}
-3 *3 C 1 {2,S} {4,D}
-4    O 0 {3,D}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (27.1599,"cm^3/(molecule*s)"),
-        n = 1.937,
-        Ea = (544.749,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Good, D.A.", "Francisco, LJ.S."],
-        title = u'A Computational Study of the Reaction of Methyl Formate with H and CH_3 Radicals',
-        journal = "J. Phys. Chem. A",
-        volume = "106",
-        pages = """1733-1738""",
-        year = "2002",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00004970/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004970/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:49 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004970/rk00000001.xml"""),
-        ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units of the preexponential factor."""),
-    ],
-)
-
-entry(
     index = 495,
     label = "r00005240",
     reactant1 = 
