@@ -525,68 +525,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 543,
-    label = "r00005582",
-    reactant1 = 
-"""
-1 *1 C 0 {3,S} {5,S} {9,S}
-2    C 0 {4,S} {6,S}
-3    C 0 {1,S} {4,S}
-4    C 0 {2,S} {3,S}
-5    C 0 {1,S} {7,S}
-6    C 0 {2,S} {8,S}
-7    C 0 {5,S}
-8    C 0 {6,S}
-9 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1 *3 O 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S} {6,S}
-4    C 0 {2,S} {8,S}
-5    C 0 {7,S} {8,S}
-6    C 0 {3,S}
-7    C 0 {5,S}
-8 *3 C 1 {4,S} {5,S}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (5.64e+06,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (3558.59,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Greiner, N.R."],
-        title = u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500K',
-        journal = "J. Chem. Phys.",
-        volume = "53",
-        pages = """1070""",
-        year = "1970",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00005582/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005582/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:53 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005582/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 544,
     label = "r00005582",
     reactant1 = 

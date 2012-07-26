@@ -74744,3 +74744,75 @@ Data type: Transition state theory
     ],
 )
 
+entry(
+    index = 1251,
+    label = "1970GRE1070:19",
+    reactant1 = 
+"""
+1 *1 C 0 {3,S} {5,S} {9,S}
+2    C 0 {4,S} {6,S}
+3    C 0 {1,S} {4,S}
+4    C 0 {2,S} {3,S}
+5    C 0 {1,S} {7,S}
+6    C 0 {2,S} {8,S}
+7    C 0 {5,S}
+8    C 0 {6,S}
+9 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *3 O 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S} {6,S}
+4    C 0 {2,S} {8,S}
+5    C 0 {7,S} {8,S}
+6    C 0 {3,S}
+7    C 0 {5,S}
+8 *3 C 1 {4,S} {5,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (5.64e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (3.559,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (296,"K"),
+        Tmax = (497,"K"),
+        Pmin = (13300,"Pa"),
+        Pmax = (13300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Greiner, N.R."],
+        title = u'Hydroxyl radical kinetics by kinetic spectroscopy. VI. Reactions with alkanes in the range 300-500\xb0K',
+        journal = "J. Chem. Phys.",
+        volume = "53",
+        pages = """1070""",
+        year = "1970",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:19",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00005582
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005582/rk00000001.xml
+Bath gas: He
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Thu Jul 26 18:31:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970GRE1070:19"""),
+    ],
+)
+
