@@ -499,7 +499,13 @@ def getReference(entry, squib, cookiejar):
         foundEnd = False
 
         while not foundEnd:
-            item = gen.next()
+            try:
+                item = gen.next()
+            except:
+                output.pop()
+                output.pop()
+                output.pop()
+                break
             try:
                 foundEnd = 'hr' in item.name
             except AttributeError:
