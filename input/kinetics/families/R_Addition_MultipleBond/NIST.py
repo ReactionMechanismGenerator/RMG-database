@@ -25296,3 +25296,57 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 459,
+    label = "1988HEI177:32",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S} {5,S}
+3    C 0 {1,S}
+4 *3 C 0 {2,S}
+5 *2 O 1 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *1 C 0 {1,S} {4,D}
+4 *2 O 0 {3,D}
+""",
+    product2 = 
+"""
+1 *3 C 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1e+15,"s^-1"),
+        n = 0,
+        Ea = (79.902,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (450,"K"),
+    ),
+    reference = Article(
+        authors = ["Heicklen, J."],
+        title = u'The decomposition of alkyl nitrites and the reactions of alkoxyl radicals',
+        journal = "Adv. Photochem.",
+        volume = "14",
+        pages = """177""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:32",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016190
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016190/rk00000002.xml
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Thu Jul 26 17:25:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:32"""),
+    ],
+)
+

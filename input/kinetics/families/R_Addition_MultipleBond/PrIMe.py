@@ -216,55 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 369,
-    label = "r00016190",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *1 C 0 {1,S} {4,S} {5,S}
-3    C 0 {1,S}
-4 *3 C 0 {2,S}
-5 *2 O 1 {2,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3 *1 C 0 {1,S} {4,D}
-4 *2 O 0 {3,D}
-""",
-    product2 = 
-"""
-1 *3 C 1
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+15,"s^-1"),
-        n = 0,
-        Ea = (79902.1,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Heicklen, J."],
-        title = u'The decomposition of alkyl nitrites and the reactions of alkoxyl radicals',
-        journal = "Adv. Photochem.",
-        volume = "14",
-        pages = """177""",
-        year = "1988",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00016190/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016190/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:35:39 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016190/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 370,
     label = "r00016190",
     reactant1 = 
