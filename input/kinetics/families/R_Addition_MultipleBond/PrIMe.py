@@ -216,60 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 405,
-    label = "r00017013",
-    reactant1 = 
-"""
-1    C 0 {2,D} {3,S}
-2    C 0 {1,D} {4,S}
-3 *1 C 0 {1,S} {5,D} {7,S}
-4    C 0 {2,S} {6,T}
-5 *2 C 1 {3,D}
-6    C 0 {4,T}
-7 *3 H 0 {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,D} {3,S}
-2    C 0 {1,D} {4,S}
-3    C 0 {1,S} {5,T}
-4 *1 C 0 {2,S} {6,T}
-5    C 0 {3,T}
-6 *2 C 0 {4,T}
-""",
-    product2 = 
-"""
-1 *3 H 1
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.51189e+58,"s^-1"),
-        n = -13.8,
-        Ea = (208363,"kcal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Braun-Unkhoff, M.", "Frank, P.", "Just, Th."],
-        title = u'A shock tube study on the thermal decomposition of toluene and of the phenyl radical at high temperatures',
-        journal = "Symp. Int. Combust. Proc.",
-        volume = "22",
-        pages = """1053""",
-        year = "1989",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00017013/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00017013/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:36:10 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00017013/rk00000001.xml"""),
-        ("Fri Jun  3 14:55:12 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed incorrect values of the kinetic parameters."""),
-    ],
-)
-
-entry(
     index = 406,
     label = "r00017118",
     reactant1 = 
