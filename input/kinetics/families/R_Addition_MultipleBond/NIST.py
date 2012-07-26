@@ -24139,3 +24139,55 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 439,
+    label = "1986NAR/NIE281:10",
+    reactant1 = 
+"""
+1 *1 C 0 {3,S} {4,S}
+2    C 0 {3,D}
+3 *2 C 1 {1,S} {2,D}
+4 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,D}
+2 *1 C 0 {3,D}
+3 *2 C 0 {1,D} {2,D}
+""",
+    product2 = 
+"""
+1 *3 H 1
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.32e+13,"s^-1"),
+        n = 0,
+        Ea = (199.547,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (302,"K"),
+    ),
+    reference = Article(
+        authors = ["Naroznik, M.", "Niedzielski, J."],
+        title = u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes',
+        journal = "J. Photochem.",
+        volume = "32",
+        pages = """281""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986NAR/NIE281:10",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015629
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015629/rk00000001.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Thu Jul 26 16:47:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986NAR/NIE281:10"""),
+    ],
+)
+

@@ -216,53 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 336,
-    label = "r00015629",
-    reactant1 = 
-"""
-1 *1 C 0 {3,S} {4,S}
-2    C 0 {3,D}
-3 *2 C 1 {1,S} {2,D}
-4 *3 H 0 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {3,D}
-2 *1 C 0 {3,D}
-3 *2 C 0 {1,D} {2,D}
-""",
-    product2 = 
-"""
-1 *3 H 1
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (1.32e+13,"s^-1"),
-        n = 0,
-        Ea = (199547,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Naroznik, M.", "Niedzielski, J."],
-        title = u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes',
-        journal = "J. Photochem.",
-        volume = "32",
-        pages = """281""",
-        year = "1986",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00015629/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015629/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:35:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015629/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 337,
     label = "r00015629",
     reactant1 = 
