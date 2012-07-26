@@ -216,52 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 382,
-    label = "r00016804",
-    reactant1 = 
-"""
-1    C 0 {2,S}
-2 *2 C 0 {1,S} {3,T}
-3 *1 C 0 {2,T}
-""",
-    reactant2 = 
-"""
-1 *3 C 1
-""",
-    product1 = 
-"""
-1 *3 C 0 {3,S}
-2    C 0 {4,S}
-3 *1 C 0 {1,S} {4,D}
-4 *2 C 1 {2,S} {3,D}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (501000,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (36833.1,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Getty, R.R.", "Kerr, J.A.", "Trotman-Dickenson, A.F."],
-        title = u'The reactions of alkyl radicals. Part XIII. The additions of methyl, isopropyl, and t-butyl radicals to propyne and the isomerisation of alkenyl radicals',
-        journal = "J. Chem. Soc. A",
-        pages = """1360""",
-        year = "1967",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00016804/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016804/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:36:00 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016804/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 394,
     label = "r00016901",
     reactant1 = 

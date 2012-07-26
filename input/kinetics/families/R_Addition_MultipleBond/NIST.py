@@ -25807,3 +25807,58 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 468,
+    label = "1967GET/KER1360:3",
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,T}
+3 *1 C 0 {2,T}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *3 C 0 {3,S}
+2    C 0 {4,S}
+3 *1 C 0 {1,S} {4,D}
+4 *2 C 1 {2,S} {3,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (501000,"m^3/(mol*s)","*|/",1.26),
+        n = 0,
+        Ea = (36.833,"kJ/mol","+|-",0.737),
+        T0 = (1,"K"),
+        Tmin = (379,"K"),
+        Tmax = (465,"K"),
+    ),
+    reference = Article(
+        authors = ["Getty, R.R.", "Kerr, J.A.", "Trotman-Dickenson, A.F."],
+        title = u'The reactions of alkyl radicals. Part XIII. The additions of methyl, isopropyl, and t-butyl radicals to propyne and the isomerisation of alkenyl radicals',
+        journal = "J. Chem. Soc. A",
+        pages = """1360""",
+        year = "1967",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1967GET/KER1360:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016804
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016804/rk00000002.xml
+Uncertainty: 1.26
+Bath gas: CH3CHO
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Thu Jul 26 17:43:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967GET/KER1360:3"""),
+    ],
+)
+
