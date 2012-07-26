@@ -24191,3 +24191,60 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 440,
+    label = "1972WAG/ZEL667:2",
+    reactant1 = 
+"""
+1 *1 C 0 {3,D}
+2    C 0 {3,D}
+3 *2 C 0 {1,D} {2,D}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {3,S} {4,S}
+2    C 0 {3,D}
+3 *2 C 1 {1,S} {2,D}
+4 *3 H 0 {1,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (8.49e+06,"m^3/(mol*s)","+|-",2e+06),
+        n = 0,
+        Ea = (8.398,"kJ/mol","+|-",0.84),
+        T0 = (1,"K"),
+        Tmin = (273,"K"),
+        Tmax = (470,"K"),
+        Pmin = (133,"Pa"),
+        Pmax = (2666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Wagner, H.Gg.", "Zellner, R."],
+        title = u'Reaktionen von Wasserstoffatomen mit ungesaettigten C3-Kohlenwasserstoffen. III. Die Reaktion von H-Atomen mit Allen',
+        journal = "Ber. Bunsenges. Phys. Chem.",
+        volume = "76",
+        pages = """667""",
+        year = "1972",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1972WAG/ZEL667:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015629
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015629/rk00000002.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Electron beam
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Thu Jul 26 16:48:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972WAG/ZEL667:2"""),
+    ],
+)
+

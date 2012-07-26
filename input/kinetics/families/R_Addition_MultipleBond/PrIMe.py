@@ -216,53 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 337,
-    label = "r00015629",
-    reactant1 = 
-"""
-1 *1 C 0 {3,D}
-2    C 0 {3,D}
-3 *2 C 0 {1,D} {2,D}
-""",
-    reactant2 = 
-"""
-1 *3 H 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {3,S} {4,S}
-2    C 0 {3,D}
-3 *2 C 1 {1,S} {2,D}
-4 *3 H 0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (8.49e+06,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (8397.62,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Wagner, H.Gg.", "Zellner, R."],
-        title = u'Reaktionen von Wasserstoffatomen mit ungesaettigten C_3-Kohlenwasserstoffen. III. Die Reaktion von H-Atomen mit Allen',
-        journal = "Ber. Bunsenges. Phys. Chem.",
-        volume = "76",
-        pages = """667""",
-        year = "1972",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00015629/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015629/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:35:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015629/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 341,
     label = "r00015702",
     reactant1 = 
