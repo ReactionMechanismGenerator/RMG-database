@@ -50,8 +50,8 @@ def main():
 
     for entry in nistEntries:
         if entry.label == squib:
-            print ('{0}/{1} already exists '.format(family, squib) +
-                   'in NIST depository.\n')
+            print ('{0} already exists in '.format(squib) +
+                   '{0}/NIST depository.\n'.format(family))
             remove = None
             while remove is None:
                 ans = raw_input('Remove PrIMe entry? ')
