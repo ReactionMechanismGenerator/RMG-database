@@ -24663,3 +24663,66 @@ Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Us
     ],
 )
 
+entry(
+    index = 448,
+    label = "1984BRE/LIT1053:5",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {8,S} {9,S}
+2    C 0 {1,S} {3,B} {4,B}
+3    C 0 {2,B} {6,B}
+4    C 0 {2,B} {7,B}
+5    C 0 {6,B} {7,B}
+6    C 0 {3,B} {5,B}
+7    C 0 {4,B} {5,B}
+8 *2 O 1 {1,S}
+9 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B}
+3    C 0 {1,B} {6,B}
+4    C 0 {2,B} {5,B}
+5    C 0 {4,B} {6,B}
+6    C 0 {3,B} {5,B}
+7 *1 C 0 {1,S} {8,D}
+8 *2 O 0 {7,D}
+""",
+    product2 = 
+"""
+1 *3 H 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.27e+14,"s^-1"),
+        n = 0,
+        Ea = (4.615,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1180,"K"),
+    ),
+    reference = Article(
+        authors = ["Brezinsky, K.", "Litzinger, T.A.", "Glassman, I."],
+        title = u'The high temperature oxidation of the methyl side chain of toluene',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "16",
+        pages = """1053""",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984BRE/LIT1053:5",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016187
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016187/rk00000001.xml
+Bath gas: N2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Thu Jul 26 17:12:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984BRE/LIT1053:5"""),
+    ],
+)
+

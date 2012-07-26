@@ -216,63 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 358,
-    label = "r00016187",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {8,S} {9,S}
-2    C 0 {1,S} {3,B} {4,B}
-3    C 0 {2,B} {6,B}
-4    C 0 {2,B} {7,B}
-5    C 0 {6,B} {7,B}
-6    C 0 {3,B} {5,B}
-7    C 0 {4,B} {5,B}
-8 *2 O 1 {1,S}
-9 *3 H 0 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {4,B}
-3    C 0 {1,B} {6,B}
-4    C 0 {2,B} {5,B}
-5    C 0 {4,B} {6,B}
-6    C 0 {3,B} {5,B}
-7 *1 C 0 {1,S} {8,D}
-8 *2 O 0 {7,D}
-""",
-    product2 = 
-"""
-1 *3 H 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.27e+14,"s^-1"),
-        n = 0,
-        Ea = (4614.53,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Brezinsky, K.", "Litzinger, T.A.", "Glassman, I."],
-        title = u'The high temperature oxidation of the methyl side chain of toluene',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "16",
-        pages = """1053""",
-        year = "1984",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00016187/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016187/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:35:39 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016187/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 359,
     label = "r00016188",
     reactant1 = 
