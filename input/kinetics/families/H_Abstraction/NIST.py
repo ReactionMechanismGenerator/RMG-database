@@ -74953,3 +74953,65 @@ Data type: Transition state theory
     ],
 )
 
+entry(
+    index = 1254,
+    label = "1985BAL/HIS743:2",
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,D}
+3 *1 C 0 {2,D} {4,S}
+4 *2 H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1 *3 O 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,D}
+3 *3 C 1 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (7.6e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (723,"K"),
+        Tmax = (723,"K"),
+        Pmin = (7999,"Pa"),
+        Pmax = (7999,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Baldwin, R.R.", "Hisham, M.W.M.", "Walker, R.W."],
+        title = u'Elementary reactions involved in the oxidation of propene: Arrhenius parameters for the reaction HO2 + C3H6 = C3H6O + OH',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "20",
+        pages = """743""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985BAL/HIS743:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00005689
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005689/rk00000002.xml
+Bath gas: N2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Thu Jul 26 18:39:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985BAL/HIS743:2"""),
+    ],
+)
+

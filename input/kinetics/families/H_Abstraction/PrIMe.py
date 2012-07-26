@@ -525,58 +525,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 581,
-    label = "r00005689",
-    reactant1 = 
-"""
-1    C 0 {2,S}
-2    C 0 {1,S} {3,D}
-3 *1 C 0 {2,D} {4,S}
-4 *2 H 0 {3,S}
-""",
-    reactant2 = 
-"""
-1 *3 O 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2    C 0 {1,S} {3,D}
-3 *3 C 1 {2,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (8.99e+07,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (27022,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Baldwin, R.R.", "Hisham, M.W.M.", "Walker, R.W."],
-        title = u'Elementary reactions involved in the oxidation of propene: Arrhenius parameters for the reaction HO_2 + C_3H_6 = C_3H_6O + OH',
-        journal = "Symp. Int. Combust. Proc.",
-        volume = "20",
-        pages = """743""",
-        year = "1985",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00005689/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005689/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005689/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 582,
     label = "r00005689",
     reactant1 = 
