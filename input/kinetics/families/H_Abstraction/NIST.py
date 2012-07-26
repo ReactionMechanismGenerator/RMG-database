@@ -75015,3 +75015,73 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 1255,
+    label = "1985BAL/HIS743:4",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3 *1 C 0 {1,S} {9,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+7    C 0 {2,S}
+8    C 0 {2,S}
+9 *2 H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1 *3 O 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3 *3 C 1 {1,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+7    C 0 {2,S}
+8    C 0 {2,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (8.99e+07,"m^3/(mol*s)","+|-",5e+07),
+        n = 0,
+        Ea = (27.022,"kJ/mol","+|-",5.13),
+        T0 = (1,"K"),
+        Tmin = (673,"K"),
+        Tmax = (773,"K"),
+        Pmin = (7999,"Pa"),
+        Pmax = (7999,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Baldwin, R.R.", "Hisham, M.W.M.", "Walker, R.W."],
+        title = u'Elementary reactions involved in the oxidation of propene: Arrhenius parameters for the reaction HO2 + C3H6 = C3H6O + OH',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "20",
+        pages = """743""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985BAL/HIS743:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+Bath gas: N2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Thu Jul 26 18:50:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985BAL/HIS743:4"""),
+    ],
+)
+
