@@ -23793,3 +23793,66 @@ Reference reaction: *CH3 + *CH3 -> C2H6
     ],
 )
 
+entry(
+    index = 433,
+    label = "1995SER/FIS1303-1312:2",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *1 C 0 {1,S} {4,D}
+4 *2 C 0 {2,S} {3,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *3 C 1 {1,S} {2,S}
+""",
+    product1 = 
+"""
+1 *3 C 0 {2,S} {3,S} {4,S}
+2 *1 C 0 {1,S} {5,S} {7,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6    C 0 {7,S}
+7 *2 C 1 {2,S} {6,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (63100,"m^3/(mol*s)","*|/",3.2),
+        n = 0,
+        Ea = (39.494,"kJ/mol","+|-",5.138),
+        T0 = (1,"K"),
+        Tmin = (489,"K"),
+        Tmax = (542,"K"),
+    ),
+    reference = Article(
+        authors = ["Seres, L.", "Fischer, R.", "Scherzer, K.", "Gorgenyl, M."],
+        title = u'Thermal reaction of azoisopropane in the presence of (E)-CH3CH = CHCH3: reactions of the radical 2-C3H7',
+        journal = "J. Chem. Soc. Faraday Trans.",
+        volume = "91",
+        pages = """1303-1312""",
+        year = "1995",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995SER/FIS1303-1312:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008207
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008207/rk00000001.xml
+Uncertainty: 3.2
+Bath gas: (iso-C3H7)-N=N-(iso-C3H7)
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+Reference reaction: iso-C3H7 + iso-C3H7 -> (CH3)2CHCH(CH3)2
+""",
+    history = [
+        ("Thu Jul 26 16:31:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995SER/FIS1303-1312:2"""),
+    ],
+)
+
