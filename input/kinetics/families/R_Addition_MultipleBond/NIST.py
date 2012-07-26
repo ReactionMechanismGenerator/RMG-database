@@ -26151,3 +26151,59 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 474,
+    label = "1985DEA4600-4608:44",
+    reactant1 = 
+"""
+1    C 0 {2,D} {3,S}
+2 *3 C 0 {1,D} {4,S}
+3    C 0 {1,S} {5,D}
+4 *1 C 0 {2,S} {6,D}
+5    C 0 {3,D}
+6 *2 C 1 {4,D}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,T}
+2 *1 C 0 {1,T}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,D}
+2    C 0 {1,S} {4,D}
+3    C 0 {1,D}
+4 *3 C 1 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.16e+13,"s^-1"),
+        n = 0,
+        Ea = (180.424,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Dean, A.M."],
+        title = u'Predictions of pressure and temperature effects upon radical addition and recombination reactions',
+        journal = "J. Phys. Chem.",
+        volume = "89",
+        pages = """4600-4608""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:44",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00017118
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017118/rk00000001.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Thu Jul 26 17:51:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:44"""),
+    ],
+)
+
