@@ -470,61 +470,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 388,
-    label = "r00003292",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S} {4,S}
-2 *1 C 0 {1,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 H 0 {2,S}
-""",
-    reactant2 = 
-"""
-1 *3 C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S} {4,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4 *3 C 1 {1,S}
-""",
-    degeneracy = 9,
-    kinetics = Arrhenius(
-        A = (5.4e-06,"cm^3/(mol*s)"),
-        n = 3.65,
-        Ea = (29900,"kJ/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Goos, E.", "Hippler, H.", "Hoyermann, K.", "Jurges, B."],
-        title = u'Reactions of Methyl Radicals with Isobutane at Temperatures Between 800 and 950 Kelvin',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "33",
-        pages = """732-740""",
-        year = "2001",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00003292/rk00000004.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003292/rk00000004.xml
-""",
-    history = [
-        ("Tue May 17 14:33:37 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00003292/rk00000004.xml"""),
-        ("Tue May 18 09:43:35 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed errors in values of kinetics parameters."""),
-    ],
-)
-
-entry(
     index = 474,
     label = "r00004666",
     reactant1 = 
