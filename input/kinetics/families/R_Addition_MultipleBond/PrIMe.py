@@ -216,57 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 404,
-    label = "r00017011",
-    reactant1 = 
-"""
-1 *1 C 0 {2,T}
-2 *2 C 0 {1,T}
-""",
-    reactant2 = 
-"""
-1    C 0 {2,S} {3,D}
-2    C 0 {1,S} {4,T}
-3 *3 C 1 {1,D}
-4    C 0 {2,T}
-""",
-    product1 = 
-"""
-1 *3 C 0 {2,D} {3,S}
-2    C 0 {1,D} {4,S}
-3 *1 C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,T}
-5 *2 C 1 {3,D}
-6    C 0 {4,T}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (6.15382e+09,"cm^3/(mol*s)"),
-        n = -1.51,
-        Ea = (20204.2,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Westmoreland, P.R.", "Dean, A.M.", "Howard, J.B.", "Longwell, J.P."],
-        title = u'Forming benzene in flames by chemically activated isomerization',
-        journal = "J. Phys. Chem.",
-        volume = "93",
-        pages = """8171""",
-        year = "1989",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00017011/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00017011/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:36:10 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00017011/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 405,
     label = "r00017013",
     reactant1 = 

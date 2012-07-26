@@ -26031,3 +26031,62 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 472,
+    label = "1989WES/DEA8171-8180:5",
+    reactant1 = 
+"""
+1 *1 C 0 {2,T}
+2 *2 C 0 {1,T}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,D}
+2    C 0 {1,S} {4,T}
+3 *3 C 1 {1,D}
+4    C 0 {2,T}
+""",
+    product1 = 
+"""
+1 *3 C 0 {2,D} {3,S}
+2    C 0 {1,D} {4,S}
+3 *1 C 0 {1,S} {5,D}
+4    C 0 {2,S} {6,T}
+5 *2 C 1 {3,D}
+6    C 0 {4,T}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (6.15e+09,"m^3/(mol*s)"),
+        n = -1.51,
+        Ea = (20.204,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (400,"K"),
+        Tmax = (1600,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Westmoreland, P.R.", "Dean, A.M.", "Howard, J.B.", "Longwell, J.P."],
+        title = u'Forming benzene in flames by chemically activated isomerization',
+        journal = "J. Phys. Chem.",
+        volume = "93",
+        pages = """8171-8180""",
+        year = "1989",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1989WES/DEA8171-8180:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00017011
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017011/rk00000002.xml
+Bath gas: N2
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Thu Jul 26 17:48:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989WES/DEA8171-8180:5"""),
+    ],
+)
+
