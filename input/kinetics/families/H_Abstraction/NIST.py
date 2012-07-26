@@ -74137,3 +74137,66 @@ The listed rate expression is a fit derived at NIST to the calculated rate const
     ],
 )
 
+entry(
+    index = 1242,
+    label = "2002GOO/FRA1733-1738:1",
+    reactant1 = 
+"""
+1 *1 C 0 {3,S} {4,S}
+2    C 0 {3,S} {5,D}
+3    O 0 {1,S} {2,S}
+4 *2 H 0 {1,S}
+5    O 0 {2,D}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *3 C 1 {3,S}
+2    C 0 {3,S} {4,D}
+3    O 0 {1,S} {2,S}
+4    O 0 {2,D}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (14.2,"m^3/(mol*s)"),
+        n = 2.05,
+        Ea = (37.17,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Good, D.A.", "Francisco, LJ.S."],
+        title = u'A Computational Study of the Reaction of Methyl Formate with \xb7H and \xb7CH3 Radicals',
+        journal = "J. Phys. Chem. A",
+        volume = "106",
+        pages = """1733-1738""",
+        year = "2002",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2002GOO/FRA1733-1738:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004969
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004969/rk00000001.xml
+Category: Theory
+Data type: Ab initio
+
+The authors used ab initio molecular orbital theory to examine the kinetics and mechanism of the reaction of hydrogen and methyl radicals with methyl formate. Structures, energies, and molecular properties of the species and transition-states are reported. The branching ratios for abstraction of the hydrogens are calculated. Abstraction of the carbonyl hydrogen of methyl formate is significantly favored (85% for H atom) at 298 K, becoming relatively less favored as the temperature increases. Results are compared with previous calculations and experiments on the reaction OH with methyl formate.
+
+The listed rate expression is a fit derived at NIST to the calculated rate constants reported by the authors at 298, 600, 1000, 1500, 2000, and 2500 K. The fitted expression reproduces the calculated rates within 2.5%.
+""",
+    history = [
+        ("Thu Jul 26 18:17:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002GOO/FRA1733-1738:1"""),
+    ],
+)
+
