@@ -25972,3 +25972,62 @@ Data type: Derived from fitting to a complex mechanism
     ],
 )
 
+entry(
+    index = 471,
+    label = "1989BRA/FRA1053-1061:12",
+    reactant1 = 
+"""
+1 *3 C 0 {2,D} {3,S}
+2    C 0 {1,D} {4,S}
+3 *1 C 0 {1,S} {5,D}
+4    C 0 {2,S} {6,T}
+5 *2 C 1 {3,D}
+6    C 0 {4,T}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,T}
+2 *2 C 0 {1,T}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,D}
+2    C 0 {1,S} {4,T}
+3 *3 C 1 {1,D}
+4    C 0 {2,T}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.97e+62,"s^-1"),
+        n = -14.7,
+        Ea = (240.288,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1380,"K"),
+        Tmax = (1700,"K"),
+        Pmin = (149000,"Pa"),
+        Pmax = (607000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Braun-Unkhoff, M.", "Frank, P.", "Just, Th."],
+        title = u'A shock tube study on the thermal decomposition of toluene and of the phenyl radical at high temperatures',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "22",
+        pages = """1053-1061""",
+        year = "1989",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1989BRA/FRA1053-1061:12",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00017011
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017011/rk00000001.xml
+Bath gas: Toluene
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Thu Jul 26 17:47:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989BRA/FRA1053-1061:12"""),
+    ],
+)
+
