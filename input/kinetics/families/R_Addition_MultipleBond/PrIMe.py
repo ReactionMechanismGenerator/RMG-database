@@ -216,51 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 345,
-    label = "r00015716",
-    reactant1 = 
-"""
-1 *3 C 0 {3,S}
-2 *2 C 1 {3,S}
-3 *1 O 0 {1,S} {2,S}
-""",
-    product1 = 
-"""
-1 *2 C 0 {2,D}
-2 *1 O 0 {1,D}
-""",
-    product2 = 
-"""
-1 *3 C 1
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (4.45e+14,"s^-1"),
-        n = -0.22,
-        Ea = (113908,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Li, Q.S.", "Zhang, Y.", "Zhang, S.W."],
-        title = u'Dual level direct ab initio and density-functional theory dynamics study on the unimolecular decomposition of CH_3OCH_2 radical',
-        journal = "J. Phys. Chem. A:",
-        volume = "108",
-        pages = """2014-2019""",
-        year = "2004",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00015716/rk00000005.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015716/rk00000005.xml
-""",
-    history = [
-        ("Tue May 17 14:35:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015716/rk00000005.xml"""),
-    ],
-)
-
-entry(
     index = 346,
     label = "r00015756",
     reactant1 = 
