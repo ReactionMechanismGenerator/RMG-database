@@ -24900,3 +24900,62 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 452,
+    label = "1979BAT977:8",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {2,S}
+5 *2 O 1 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,D}
+3 *2 O 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.94e+14,"s^-1"),
+        n = 0,
+        Ea = (64.021,"kJ/mol","+|-",4.482),
+        T0 = (1,"K"),
+        Tmin = (393,"K"),
+        Tmax = (433,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Batt, L."],
+        title = u'The Gas-Phase Decomposition of Alkoxy Radicals',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "11",
+        pages = """977""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979BAT977:8",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016188
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000004.xml
+Bath gas: NO
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Thu Jul 26 17:16:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979BAT977:8"""),
+    ],
+)
+
