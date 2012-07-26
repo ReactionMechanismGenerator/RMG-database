@@ -25521,3 +25521,62 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 463,
+    label = "1986DOB/BER329:2",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *1 C 0 {1,S} {5,S} {6,S}
+4    C 0 {2,S}
+5 *3 C 0 {3,S}
+6 *2 O 1 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4 *1 C 0 {2,S} {5,D}
+5 *2 O 0 {4,D}
+""",
+    product2 = 
+"""
+1 *3 C 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.58e+14,"s^-1"),
+        n = 0,
+        Ea = (72.835,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (363,"K"),
+        Tmax = (413,"K"),
+    ),
+    reference = Article(
+        authors = ["Dobe, S.", "Berces, T.", "Marta, F."],
+        title = u'Gas phase decomposition and isomerization reactions of 2-pentoxy radicals',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "18",
+        pages = """329""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986DOB/BER329:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016657
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016657/rk00000001.xml
+Bath gas: CO2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Thu Jul 26 17:33:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986DOB/BER329:2"""),
+    ],
+)
+
