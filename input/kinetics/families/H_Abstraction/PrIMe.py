@@ -525,64 +525,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 516,
-    label = "r00005484",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {7,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,S}
-4    C 0 {2,S} {6,S}
-5    C 0 {3,S} {6,S}
-6    C 0 {4,S} {5,S}
-7 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1 *3 C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,S}
-4    C 0 {2,S} {6,S}
-5    C 0 {3,S} {6,S}
-6 *3 C 1 {4,S} {5,S}
-""",
-    degeneracy = 12,
-    kinetics = Arrhenius(
-        A = (851000,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (37082.5,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Al-Niami, K.", "Holbrook, K.A.", "Oldershaw, G.A."],
-        title = u'Reactions of methyl radicals with cyclohexane and methyl-substituted cyclohexanes',
-        journal = "J. Chem. Soc. Faraday Trans. 2",
-        volume = "85",
-        pages = """1601""",
-        year = "1989",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00005484/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005484/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:52 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005484/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 518,
     label = "r00005486",
     reactant1 = 
