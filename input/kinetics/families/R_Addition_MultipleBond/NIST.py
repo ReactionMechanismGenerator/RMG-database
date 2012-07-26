@@ -24529,3 +24529,71 @@ Rate expressions based on ab inito transition states using G2MP2//B3LYP/6-31G(d,
     ],
 )
 
+entry(
+    index = 446,
+    label = "2004FAS/CAV3829-3843:9",
+    reactant1 = 
+"""
+1  *1 C 0 {2,S} {3,S} {11,S}
+2     C 0 {1,S} {4,B} {5,B}
+3  *2 C 1 {1,S} {9,S}
+4     C 0 {2,B} {7,B}
+5     C 0 {2,B} {8,B}
+6     C 0 {7,B} {8,B}
+7     C 0 {4,B} {6,B}
+8     C 0 {5,B} {6,B}
+9     C 0 {3,S} {10,D}
+10    C 0 {9,D}
+11 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1     C 0 {2,S} {3,B} {4,B}
+2  *1 C 0 {1,S} {5,D}
+3     C 0 {1,B} {6,B}
+4     C 0 {1,B} {7,B}
+5  *2 C 0 {2,D} {9,S}
+6     C 0 {3,B} {8,B}
+7     C 0 {4,B} {8,B}
+8     C 0 {6,B} {7,B}
+9     C 0 {5,S} {10,D}
+10    C 0 {9,D}
+""",
+    product2 = 
+"""
+1 *3 H 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.4e+12,"s^-1"),
+        n = 0,
+        Ea = (195.811,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (500,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Fascella, S.", "Cavallotti, C.", "Rota, R.", "Carra, S."],
+        title = u'Quantum chemistry investigation of key reactions involved in the formation of naphthalene and indene',
+        journal = "J. Phys. Chem. A",
+        volume = "108",
+        pages = """3829-3843""",
+        year = "2004",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004FAS/CAV3829-3843:9",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015756
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015756/rk00000002.xml
+Category: Theory
+Data type: Ab initio
+
+Rate expressions based on ab inito transition states using G2MP2//B3LYP/6-31G(d,p) method. Also computed B3LYP/6-31G(d,p) energies (not as good). Rate expressions computed using conventional transition state theory or QRRK methods. Treated hindered rotors. All rate expressions abstracted from paper, including those using different assumptions for stabilization of C10H11 intermediates. See paper for more discussion.
+""",
+    history = [
+        ("Thu Jul 26 17:09:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004FAS/CAV3829-3843:9"""),
+    ],
+)
+
