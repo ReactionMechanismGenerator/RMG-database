@@ -23674,3 +23674,62 @@ Reference reaction: H2S + CH2CH=CHCH2CH3 -> 2-(Z)-C5H10 + SH
     ],
 )
 
+entry(
+    index = 431,
+    label = "1983SCH/CLA680:1",
+    reactant1 = 
+"""
+1 *1 C 0 {3,D}
+2    C 0 {3,D}
+3 *2 C 0 {1,D} {2,D}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {4,S}
+2 *3 C 0 {1,S}
+3    C 0 {4,D}
+4 *2 C 1 {1,S} {3,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (57500,"m^3/(mol*s)","*|/",1.58),
+        n = 0,
+        Ea = (28.602,"kJ/mol","+|-",0.856),
+        T0 = (1,"K"),
+        Tmin = (573,"K"),
+        Tmax = (595,"K"),
+        Pmin = (3800,"Pa"),
+        Pmax = (3800,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Scherzer, K.", "Claus, P.", "Dabbagh, M."],
+        title = u'Kinetische untersuchungen der reaktionen von methylradikalen mit allen',
+        journal = "J. Prakt. Chem.",
+        volume = "325",
+        pages = """680""",
+        year = "1983",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1983SCH/CLA680:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00006972
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006972/rk00000003.xml
+Uncertainty: 1.58
+Bath gas: (E)-CH3N=NCH3
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+Reference reaction: *CH3 + (E)-CH3N=NCH3 -> Other Products + CH4
+""",
+    history = [
+        ("Thu Jul 26 16:24:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983SCH/CLA680:1"""),
+    ],
+)
+

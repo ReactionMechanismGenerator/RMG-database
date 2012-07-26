@@ -9,53 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 42,
-    label = "r00006972",
-    reactant1 = 
-"""
-1 *1 C 0 {3,D}
-2    C 0 {3,D}
-3 *2 C 0 {1,D} {2,D}
-""",
-    reactant2 = 
-"""
-1 *3 C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S} {4,S}
-2 *3 C 0 {1,S}
-3    C 0 {4,D}
-4 *2 C 1 {1,S} {3,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (57500,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (28601.8,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Scherzer, K.", "Claus, P.", "Dabbagh, M."],
-        title = u'Kinetische untersuchungen der reaktionen von methylradikalen mit allen',
-        journal = "J. Prakt. Chem.",
-        volume = "325",
-        pages = """680""",
-        year = "1983",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00006972/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006972/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006972/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 52,
     label = "r00007721",
     reactant1 = 
