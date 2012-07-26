@@ -216,57 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 378,
-    label = "r00016682",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *3 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,S}
-4 *1 C 0 {2,S} {6,S}
-5    O 0 {3,S}
-6 *2 O 1 {4,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,D}
-2 *2 O 0 {1,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *3 C 1 {1,S}
-4    O 0 {2,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2e+13,"s^-1"),
-        n = 0,
-        Ea = (79486.4,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."],
-        title = u'Photochemical smog. Rate parameter estimates and computer simulations',
-        journal = "J. Phys. Chem.",
-        volume = "81",
-        pages = """2483""",
-        year = "1977",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00016682/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016682/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:35:53 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016682/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 381,
     label = "r00016804",
     reactant1 = 
