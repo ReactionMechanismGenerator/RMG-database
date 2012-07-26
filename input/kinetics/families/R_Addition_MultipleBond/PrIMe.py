@@ -9,6 +9,204 @@ longDesc = u"""
 recommended = False
 
 entry(
+    index = 34,
+    label = "r00004745",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2 *3 C 0 {1,S}
+3 *2 C 1 {1,S} {4,S}
+4    C 0 {3,S} {5,D}
+5    C 0 {4,D}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,D}
+2 *2 C 0 {1,S} {4,D}
+3    C 0 {1,D}
+4 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1 *3 C 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.26e+13,"s^-1"),
+        n = 0,
+        Ea = (159638,"J/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["Perrin, D.", "Richard, C.", "Martin, R."],
+        title = u'H_2S-promoted thermal isomerization of Cis-2-pentene to 1-pentene and trans-2-pentene around 800 K',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "20",
+        pages = """621""",
+        year = "1988",
+        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00004745/rk00000004.xml",
+    ),
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004745/rk00000004.xml
+""",
+    history = [
+        ("Tue May 17 14:33:48 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004745/rk00000004.xml"""),
+    ],
+)
+
+entry(
+    index = 42,
+    label = "r00006972",
+    reactant1 = 
+"""
+1 *1 C 0 {3,D}
+2    C 0 {3,D}
+3 *2 C 0 {1,D} {2,D}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {4,S}
+2 *3 C 0 {1,S}
+3    C 0 {4,D}
+4 *2 C 1 {1,S} {3,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (57500,"cm^3/(mol*s)"),
+        n = 0,
+        Ea = (28601.8,"J/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["Scherzer, K.", "Claus, P.", "Dabbagh, M."],
+        title = u'Kinetische untersuchungen der reaktionen von methylradikalen mit allen',
+        journal = "J. Prakt. Chem.",
+        volume = "325",
+        pages = """680""",
+        year = "1983",
+        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00006972/rk00000003.xml",
+    ),
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006972/rk00000003.xml
+""",
+    history = [
+        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006972/rk00000003.xml"""),
+    ],
+)
+
+entry(
+    index = 52,
+    label = "r00007721",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *1 C 0 {1,S} {4,D}
+4 *2 C 0 {2,S} {3,D}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {5,S}
+2    C 0 {1,S}
+3 *3 C 0 {1,S}
+4    C 0 {5,S}
+5 *2 C 1 {1,S} {4,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (45000,"cm^3/(mol*s)"),
+        n = 0,
+        Ea = (29266.9,"J/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["Yokoyama, N.", "Brinton, R.K."],
+        title = u'Reaction of methyl radicals with cis-butene-2',
+        journal = "Can. J. Chem.",
+        volume = "47",
+        pages = """2987""",
+        year = "1969",
+        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00007721/rk00000002.xml",
+    ),
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007721/rk00000002.xml
+""",
+    history = [
+        ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007721/rk00000002.xml"""),
+    ],
+)
+
+entry(
+    index = 54,
+    label = "r00008207",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *1 C 0 {1,S} {4,D}
+4 *2 C 0 {2,S} {3,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *3 C 1 {1,S} {2,S}
+""",
+    product1 = 
+"""
+1 *3 C 0 {2,S} {3,S} {4,S}
+2 *1 C 0 {1,S} {5,S} {7,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6    C 0 {7,S}
+7 *2 C 1 {2,S} {6,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (63100,"cm^3/(mol*s)"),
+        n = 0,
+        Ea = (39493.7,"J/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["Seres, L.", "Fischer, R.", "Scherzer, K.", "Gorgenyl, M."],
+        title = u'Thermal reaction of azoisopropane in the presence of (E)-CH_3CH = CHCH_3: reactions of the radical 2-C_3H_7',
+        journal = "J. Chem. Soc. Faraday Trans.",
+        volume = "91",
+        pages = """1303-1312""",
+        year = "1995",
+        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00008207/rk00000001.xml",
+    ),
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008207/rk00000001.xml
+""",
+    history = [
+        ("Tue May 17 14:34:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008207/rk00000001.xml"""),
+    ],
+)
+
+entry(
     index = 105,
     label = "r00010238",
     reactant1 = 
@@ -87,6 +285,98 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 """,
     history = [
         ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010564/rk00000030.xml"""),
+    ],
+)
+
+entry(
+    index = 144,
+    label = "r00010632",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S}
+2 *1 C 0 {1,S} {3,S}
+3 *2 O 1 {2,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 O 0 {1,D}
+""",
+    product2 = 
+"""
+1 *3 C 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.41e+12,"s^-1"),
+        n = 0,
+        Ea = (92290.6,"J/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["Leggett, C.", "Thynne, J.C.J."],
+        title = u'Decomposition of ethoxyl radicals',
+        journal = "J. Chem. Soc. A",
+        pages = """1188""",
+        year = "1970",
+        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000001.xml",
+    ),
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000001.xml
+""",
+    history = [
+        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000001.xml"""),
+    ],
+)
+
+entry(
+    index = 158,
+    label = "r00010737",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {4,S}
+4 *2 C 1 {3,S} {5,S}
+5 *1 O 0 {1,S} {4,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 O 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.5e+13,"s^-1"),
+        n = 0,
+        Ea = (73250.5,"J/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["East, R.L.", "Phillips, L."],
+        title = u'Pressure-dependence of the gas-phase pyrolysis of the s-butoxyl radical at 150-190',
+        journal = "J. Chem. Soc. A",
+        pages = """1939""",
+        year = "1967",
+        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010737/rk00000001.xml",
+    ),
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010737/rk00000001.xml
+""",
+    history = [
+        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010737/rk00000001.xml"""),
     ],
 )
 
@@ -212,6 +502,57 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 """,
     history = [
         ("Tue May 17 14:34:57 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00012710/rk00000010.xml"""),
+    ],
+)
+
+entry(
+    index = 329,
+    label = "r00015136",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {6,S}
+2    C 0 {1,S} {5,S}
+3 *3 C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6 *2 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {4,S}
+2    C 0 {1,S}
+3    C 0 {4,S}
+4 *1 C 0 {1,S} {3,S} {5,D}
+5 *2 O 0 {4,D}
+""",
+    product2 = 
+"""
+1 *3 C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+15,"s^-1"),
+        n = 0,
+        Ea = (78239.2,"J/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["Batt, L.", "Islam, T.S.A.", "Rattray, G.N."],
+        title = u'The Gas-Phase Pyrolysis of Alkyl Nitrites. VI. t-Amyl Nitrite',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "10",
+        pages = """931""",
+        year = "1978",
+        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00015136/rk00000001.xml",
+    ),
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015136/rk00000001.xml
+""",
+    history = [
+        ("Tue May 17 14:35:17 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015136/rk00000001.xml"""),
     ],
 )
 
