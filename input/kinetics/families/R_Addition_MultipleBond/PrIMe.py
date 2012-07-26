@@ -91,50 +91,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 144,
-    label = "r00010632",
-    reactant1 = 
-"""
-1 *3 C 0 {2,S}
-2 *1 C 0 {1,S} {3,S}
-3 *2 O 1 {2,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,D}
-2 *2 O 0 {1,D}
-""",
-    product2 = 
-"""
-1 *3 C 1
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.41e+12,"s^-1"),
-        n = 0,
-        Ea = (92290.6,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Leggett, C.", "Thynne, J.C.J."],
-        title = u'Decomposition of ethoxyl radicals',
-        journal = "J. Chem. Soc. A",
-        pages = """1188""",
-        year = "1970",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:36 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 158,
     label = "r00010737",
     reactant1 = 

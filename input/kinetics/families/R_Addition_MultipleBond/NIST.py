@@ -23856,3 +23856,56 @@ Reference reaction: iso-C3H7 + iso-C3H7 -> (CH3)2CHCH(CH3)2
     ],
 )
 
+entry(
+    index = 434,
+    label = "1970LEG/THY1188:1",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S}
+2 *1 C 0 {1,S} {3,S}
+3 *2 O 1 {2,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 O 0 {1,D}
+""",
+    product2 = 
+"""
+1 *3 C 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.41e+12,"s^-1","*|/",5),
+        n = 0,
+        Ea = (92.291,"kJ/mol","+|-",7.4),
+        T0 = (1,"K"),
+        Tmin = (422,"K"),
+        Tmax = (449,"K"),
+    ),
+    reference = Article(
+        authors = ["Leggett, C.", "Thynne, J.C.J."],
+        title = u'Decomposition of ethoxyl radicals',
+        journal = "J. Chem. Soc. A",
+        pages = """1188""",
+        year = "1970",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1970LEG/THY1188:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010632
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000001.xml
+Uncertainty: 5.0
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+Reference reaction: CH3CH2O* + CH3CH2O* -> C2H5OH + CH3CHO
+""",
+    history = [
+        ("Thu Jul 26 16:33:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970LEG/THY1188:1"""),
+    ],
+)
+
