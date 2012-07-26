@@ -23968,3 +23968,65 @@ Reference reaction: 2-C4H9O + NO -> C2H5COCH3 + HNO
     ],
 )
 
+entry(
+    index = 436,
+    label = "1978BAT/ISL931:5",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {6,S}
+2    C 0 {1,S} {5,S}
+3 *3 C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6 *2 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {4,S}
+2    C 0 {1,S}
+3    C 0 {4,S}
+4 *1 C 0 {1,S} {3,S} {5,D}
+5 *2 O 0 {4,D}
+""",
+    product2 = 
+"""
+1 *3 C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+15,"s^-1"),
+        n = 0,
+        Ea = (78.239,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (433,"K"),
+        Tmax = (463,"K"),
+        Pmin = (267,"Pa"),
+        Pmax = (267,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Batt, L.", "Islam, T.S.A.", "Rattray, G.N."],
+        title = u'The Gas-Phase Pyrolysis of Alkyl Nitrites. VI. t-Amyl Nitrite',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "10",
+        pages = """931""",
+        year = "1978",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1978BAT/ISL931:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015136
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015136/rk00000001.xml
+Bath gas: NO
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+Reference reaction: C2H5C(CH3)2O(*) -> (CH3)2CO + *C2H5
+""",
+    history = [
+        ("Thu Jul 26 16:39:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978BAT/ISL931:5"""),
+    ],
+)
+
