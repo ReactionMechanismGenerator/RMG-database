@@ -73700,3 +73700,66 @@ Data type: Derived from detailed balance/reverse rate
     ],
 )
 
+entry(
+    index = 1235,
+    label = "1998CLA/KRO9847-9857:3",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S} {3,S}
+3    C 0 {1,S} {2,S}
+4 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *3 O 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {3,S}
+3 *3 C 1 {1,S} {2,S}
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (39100,"m^3/(mol*s)","+|-",2770),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (298,"K"),
+    ),
+    reference = Article(
+        authors = ["Clarke, J.S.", "Kroll, J.H.", "Donahue, N.M.", "Anderson, J.G."],
+        title = u'Testing frontier orbital control: kinetics of OH with ethane, propane, and cyclopropane from 180 to 360K',
+        journal = "J. Phys. Chem. A",
+        volume = "102",
+        pages = """9847-9857""",
+        year = "1998",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1998CLA/KRO9847-9857:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00003205
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003205/rk00000006.xml
+Category: Experiment
+Data type: Absolute value measured directly
+Experimental procedure: Static or low flow - Data taken vs time
+Excitation technique: Thermal
+Time resolution: In real time
+Analytical technique: Fourier transform (FTIR)
+
+All data sets were fit to a modified Arrhenius expression k=(1.25±0.06)x10-14e(-733±14/T)/T/(1-e(-1.44x280/T))2/(1-e(-1.44x500/T)) cm3molecule-1s-1at 200-360 K.
+""",
+    history = [
+        ("Thu Jul 26 17:57:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998CLA/KRO9847-9857:3"""),
+    ],
+)
+
