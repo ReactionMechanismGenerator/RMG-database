@@ -25634,3 +25634,66 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 465,
+    label = "2003EIT/FRE391-414:5",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,T}
+2    C 0 {1,S} {4,T}
+3 *1 C 0 {1,T}
+4    C 0 {2,T}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D} {5,S}
+2 *2 C 1 {1,D} {3,S}
+3    C 0 {2,S} {4,T}
+4    C 0 {3,T}
+5 *3 H 0 {1,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.3e+24,"m^3/(mol*s)"),
+        n = -4.92,
+        Ea = (45.189,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1150,"K"),
+        Tmax = (2130,"K"),
+        Pmin = (91200,"Pa"),
+        Pmax = (193000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Eiteneer, B.", "Frenklach, M."],
+        title = u'Experimental and Modeling Study of Shock-Tube Oxidation of Acetylene',
+        journal = "Int J. Chem. Kinet.",
+        volume = "35",
+        pages = """391-414""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003EIT/FRE391-414:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016678
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016678/rk00000003.xml
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Pressure dependence: None reported
+Experimental procedure: Shock tube
+Excitation technique: Thermal
+Time resolution: In real time
+Analytical technique: IR absorption
+
+No direct measurements of rate constants. Rate constants reported are either from estimates or optimization fits. Enthalpies of formation were also allowed to be varied in fits. This paper is combined experimental and modeling. These measurements consist of shock tube oxidation of C2H2 at temperatures of 1150-2130 K, pressures of 0.9-1.9 atm in Argon, with lean to rich conditions (Phi = 0.06 to 1.7). CO produced was detected using CO laser absorption at 2077.1 cm-1
+""",
+    history = [
+        ("Thu Jul 26 17:37:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003EIT/FRE391-414:5"""),
+    ],
+)
+

@@ -216,55 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 377,
-    label = "r00016678",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,T}
-2    C 0 {1,S} {4,T}
-3 *1 C 0 {1,T}
-4    C 0 {2,T}
-""",
-    reactant2 = 
-"""
-1 *3 H 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,D} {5,S}
-2 *2 C 1 {1,D} {3,S}
-3    C 0 {2,S} {4,T}
-4    C 0 {3,T}
-5 *3 H 0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (3.3e+24,"cm^3/(mol*s)"),
-        n = -4.92,
-        Ea = (45189.2,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Eiteneer, B.", "Frenklach, M."],
-        title = u'Experimental and Modeling Study of Shock-Tube Oxidation of Acetylene',
-        journal = "Int J. Chem. Kinet.",
-        volume = "35",
-        pages = """391-414""",
-        year = "2003",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00016678/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016678/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:35:53 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016678/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 378,
     label = "r00016682",
     reactant1 = 
