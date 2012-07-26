@@ -73821,3 +73821,67 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 1237,
+    label = "1962THY676:2",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2 *1 C 0 {3,S} {4,D} {5,S}
+3    O 0 {1,S} {2,S}
+4    O 0 {2,D}
+5 *2 H 0 {2,S}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2    O 0 {1,S} {3,S}
+3 *3 C 1 {2,S} {4,D}
+4    O 0 {3,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (79400,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (37.665,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (382,"K"),
+        Tmax = (510,"K"),
+        Pmin = (7333,"Pa"),
+        Pmax = (17300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Thynne, J.C.j."],
+        title = u'Reactions of alkyl radicals. Part 1.-Methyl radical photosensitized decomposition of ethyl formate',
+        journal = "Trans. Faraday Soc.",
+        volume = "58",
+        pages = """676""",
+        year = "1962",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1962THY676:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004963
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004963/rk00000001.xml
+Bath gas: HC(O)OCH3
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Sensitized photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Thu Jul 26 18:09:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962THY676:2"""),
+    ],
+)
+

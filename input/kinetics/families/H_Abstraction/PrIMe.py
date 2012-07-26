@@ -525,60 +525,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 485,
-    label = "r00004963",
-    reactant1 = 
-"""
-1    C 0 {3,S}
-2 *1 C 0 {3,S} {4,D} {5,S}
-3    O 0 {1,S} {2,S}
-4    O 0 {2,D}
-5 *2 H 0 {2,S}
-""",
-    reactant2 = 
-"""
-1 *3 C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2    O 0 {1,S} {3,S}
-3 *3 C 1 {2,S} {4,D}
-4    O 0 {3,D}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (79400,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (37664.6,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Thynne, J.C.j."],
-        title = u'Reactions of alkyl radicals. Part 1.-Methyl radical photosensitized decomposition of ethyl formate',
-        journal = "Trans. Faraday Soc.",
-        volume = "58",
-        pages = """676""",
-        year = "1962",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00004963/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004963/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:49 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00004963/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 486,
     label = "r00004963",
     reactant1 = 
