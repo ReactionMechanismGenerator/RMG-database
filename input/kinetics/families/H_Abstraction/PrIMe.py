@@ -525,66 +525,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 495,
-    label = "r00005240",
-    reactant1 = 
-"""
-1    C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {5,B}
-3    C 0 {1,B} {6,B}
-4    C 0 {5,B} {6,B}
-5    C 0 {2,B} {4,B}
-6    C 0 {3,B} {4,B}
-7 *1 O 0 {1,S} {8,S}
-8 *2 H 0 {7,S}
-""",
-    reactant2 = 
-"""
-1 *3 H 1
-""",
-    product1 = 
-"""
-1 *1 H 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {5,B}
-3    C 0 {1,B} {6,B}
-4    C 0 {5,B} {6,B}
-5    C 0 {2,B} {4,B}
-6    C 0 {3,B} {4,B}
-7 *3 O 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.15e+08,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (51882.3,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["He, Y.Z.", "Mallard, W.G.", "Tsang, W."],
-        title = u'Kinetics of hydrogen and hydroxyl radical attack on phenol at high temperatures',
-        journal = "J. Phys. Chem.",
-        volume = "92",
-        pages = """2196""",
-        year = "1988",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00005240/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005240/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:51 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005240/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 511,
     label = "r00005442",
     reactant1 = 
