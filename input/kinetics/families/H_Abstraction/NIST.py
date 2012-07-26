@@ -73885,3 +73885,66 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 1238,
+    label = "1971DON/DOR828:4",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2 *1 C 0 {3,S} {4,D} {5,S}
+3    O 0 {1,S} {2,S}
+4    O 0 {2,D}
+5 *2 H 0 {2,S}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2    O 0 {1,S} {3,S}
+3 *3 C 1 {2,S} {4,D}
+4    O 0 {3,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (501000,"m^3/(mol*s)","*|/",1.41),
+        n = 0,
+        Ea = (43.069,"kJ/mol","+|-",0.865),
+        T0 = (1,"K"),
+        Tmin = (400,"K"),
+        Tmax = (519,"K"),
+    ),
+    reference = Article(
+        authors = ["Donovan, T.R.", "Dorko, W.", "Harrison, A.G."],
+        title = u'Hydrogen Abstraction from Methyl Formate by Methyl Radicals',
+        journal = "Can. J. Chem.",
+        volume = "49",
+        pages = """828""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971DON/DOR828:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004963
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004963/rk00000002.xml
+Uncertainty: 1.41
+Bath gas: (CH3)2CO
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Thu Jul 26 18:10:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971DON/DOR828:4"""),
+    ],
+)
+
