@@ -24785,3 +24785,62 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 450,
+    label = "1976BAT/MCC911:6",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {2,S}
+5 *2 O 1 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,D}
+3 *2 O 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (6.31e+14,"s^-1"),
+        n = 0,
+        Ea = (64.021,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (433,"K"),
+        Tmax = (473,"K"),
+        Pmin = (10100,"Pa"),
+        Pmax = (91200,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Batt, L.", "McCulloch, R.D."],
+        title = u'The Gas-Phase Pyrolysis of Alkyl Nitrites. II. s-Butyl Nitrite',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "8",
+        pages = """911""",
+        year = "1976",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1976BAT/MCC911:6",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016188
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000002.xml
+Bath gas: NO
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Thu Jul 26 17:14:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976BAT/MCC911:6"""),
+    ],
+)
+

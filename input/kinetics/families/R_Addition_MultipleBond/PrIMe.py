@@ -216,55 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 360,
-    label = "r00016188",
-    reactant1 = 
-"""
-1 *3 C 0 {2,S} {3,S}
-2 *1 C 0 {1,S} {4,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5 *2 O 1 {2,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S}
-2 *1 C 0 {1,S} {3,D}
-3 *2 O 0 {2,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2 *3 C 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (6.31e+14,"s^-1"),
-        n = 0,
-        Ea = (64021.4,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Batt, L.", "McCulloch, R.D."],
-        title = u'The Gas-Phase Pyrolysis of Alkyl Nitrites. II. s-Butyl Nitrite',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "8",
-        pages = """911""",
-        year = "1976",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:35:39 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 361,
     label = "r00016188",
     reactant1 = 
