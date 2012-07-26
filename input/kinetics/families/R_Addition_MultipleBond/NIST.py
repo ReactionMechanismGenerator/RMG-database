@@ -23614,3 +23614,63 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 430,
+    label = "1988PER/RIC621:6",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2 *3 C 0 {1,S}
+3 *2 C 1 {1,S} {4,S}
+4    C 0 {3,S} {5,D}
+5    C 0 {4,D}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,D}
+2 *2 C 0 {1,S} {4,D}
+3    C 0 {1,D}
+4 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1 *3 C 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.26e+13,"s^-1"),
+        n = 0,
+        Ea = (159.638,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (743,"K"),
+        Tmax = (772,"K"),
+        Pmin = (1333,"Pa"),
+        Pmax = (13300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Perrin, D.", "Richard, C.", "Martin, R."],
+        title = u'H2S-promoted thermal isomerization of Cis-2-pentene to 1-pentene and trans-2-pentene around 800 K',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "20",
+        pages = """621""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988PER/RIC621:6",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004745
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004745/rk00000004.xml
+Bath gas: 2-(Z)-C5H10
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+Reference reaction: H2S + CH2CH=CHCH2CH3 -> 2-(Z)-C5H10 + SH
+""",
+    history = [
+        ("Thu Jul 26 16:17:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988PER/RIC621:6"""),
+    ],
+)
+
