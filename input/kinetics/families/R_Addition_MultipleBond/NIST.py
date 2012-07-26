@@ -25918,3 +25918,57 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 470,
+    label = "1989COL/SEE343-366:4",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,D}
+2 *1 C 0 {1,S} {4,D} {5,S}
+3    C 0 {1,D}
+4 *2 C 1 {2,D}
+5 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,D} {3,S}
+2    C 0 {1,D}
+3 *1 C 0 {1,S} {4,T}
+4 *2 C 0 {3,T}
+""",
+    product2 = 
+"""
+1 *3 H 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.6e+14,"s^-1"),
+        n = 0,
+        Ea = (172.941,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (900,"K"),
+        Tmax = (1100,"K"),
+    ),
+    reference = Article(
+        authors = ["Colket, M.B., III", "Seery, D.J.", "Palmer, H.B."],
+        title = u'The pyrolysis of acetylene initiated by acetone',
+        journal = "Combust. Flame",
+        volume = "75",
+        pages = """343-366""",
+        year = "1989",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1989COL/SEE343-366:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016901
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016901/rk00000002.xml
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+""",
+    history = [
+        ("Thu Jul 26 17:46:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989COL/SEE343-366:4"""),
+    ],
+)
+
