@@ -25350,3 +25350,57 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 460,
+    label = "2003RAU/BOY431-442:10",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S} {5,S}
+3    C 0 {1,S}
+4 *3 C 0 {2,S}
+5 *2 O 1 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *1 C 0 {1,S} {4,D}
+4 *2 O 0 {3,D}
+""",
+    product2 = 
+"""
+1 *3 C 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.78e+13,"s^-1"),
+        n = 0,
+        Ea = (62.3,"kJ/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["Rauk, A.", "Boyd, R.J.", "Boyd, S.L.", "Henry, D.J.", "Radom, L."],
+        title = u'Alkoxy radicals in the gaseous phase: beta-scission reactions and formation by radical addition to carbonyl compounds',
+        journal = "Can. J. Chem.",
+        volume = "81",
+        pages = """431-442""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003RAU/BOY431-442:10",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016190
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016190/rk00000003.xml
+Category: Theory
+Data type: Transition state theory
+
+Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
+""",
+    history = [
+        ("Thu Jul 26 17:26:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003RAU/BOY431-442:10"""),
+    ],
+)
+
