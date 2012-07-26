@@ -23909,3 +23909,62 @@ Reference reaction: CH3CH2O* + CH3CH2O* -> C2H5OH + CH3CHO
     ],
 )
 
+entry(
+    index = 435,
+    label = "1967EAS/PHI1939:3",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {4,S}
+4 *2 C 1 {3,S} {5,S}
+5 *1 O 0 {1,S} {4,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 O 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.5e+13,"s^-1"),
+        n = 0,
+        Ea = (73.25,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (423,"K"),
+        Tmax = (463,"K"),
+        Pmin = (1600,"Pa"),
+        Pmax = (26700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["East, R.L.", "Phillips, L."],
+        title = u'Pressure-dependence of the gas-phase pyrolysis of the s-butoxyl radical at 150-190\xb0',
+        journal = "J. Chem. Soc. A",
+        pages = """1939""",
+        year = "1967",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1967EAS/PHI1939:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010737
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010737/rk00000001.xml
+Bath gas: sec-C4H9NO2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+Reference reaction: 2-C4H9O + NO -> C2H5COCH3 + HNO
+""",
+    history = [
+        ("Thu Jul 26 16:37:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967EAS/PHI1939:3"""),
+    ],
+)
+

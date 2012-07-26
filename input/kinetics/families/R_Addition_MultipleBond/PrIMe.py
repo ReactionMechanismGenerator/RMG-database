@@ -91,54 +91,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 158,
-    label = "r00010737",
-    reactant1 = 
-"""
-1 *3 C 0 {2,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {4,S}
-4 *2 C 1 {3,S} {5,S}
-5 *1 O 0 {1,S} {4,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3 *1 O 0 {2,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2 *3 C 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.5e+13,"s^-1"),
-        n = 0,
-        Ea = (73250.5,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["East, R.L.", "Phillips, L."],
-        title = u'Pressure-dependence of the gas-phase pyrolysis of the s-butoxyl radical at 150-190',
-        journal = "J. Chem. Soc. A",
-        pages = """1939""",
-        year = "1967",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010737/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010737/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:40 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010737/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 214,
     label = "r00011282",
     reactant1 = 
