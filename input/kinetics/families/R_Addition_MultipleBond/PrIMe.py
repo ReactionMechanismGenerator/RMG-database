@@ -9,55 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 52,
-    label = "r00007721",
-    reactant1 = 
-"""
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *1 C 0 {1,S} {4,D}
-4 *2 C 0 {2,S} {3,D}
-""",
-    reactant2 = 
-"""
-1 *3 C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {5,S}
-2    C 0 {1,S}
-3 *3 C 0 {1,S}
-4    C 0 {5,S}
-5 *2 C 1 {1,S} {4,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (45000,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (29266.9,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Yokoyama, N.", "Brinton, R.K."],
-        title = u'Reaction of methyl radicals with cis-butene-2',
-        journal = "Can. J. Chem.",
-        volume = "47",
-        pages = """2987""",
-        year = "1969",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00007721/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007721/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007721/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 54,
     label = "r00008207",
     reactant1 = 
