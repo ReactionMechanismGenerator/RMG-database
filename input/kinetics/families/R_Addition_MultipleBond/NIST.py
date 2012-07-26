@@ -25465,3 +25465,59 @@ Reference reaction: NO + CH3(CH2)2CH(CH3)O -> CH3(CH2)2CH(CH3)ONO
     ],
 )
 
+entry(
+    index = 462,
+    label = "1988HEI177:33",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *1 C 0 {1,S} {5,S} {6,S}
+4    C 0 {2,S}
+5    C 0 {3,S}
+6 *2 O 1 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,D}
+3 *2 O 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *3 C 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1e+15,"s^-1"),
+        n = 0,
+        Ea = (64.437,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (450,"K"),
+    ),
+    reference = Article(
+        authors = ["Heicklen, J."],
+        title = u'The decomposition of alkyl nitrites and the reactions of alkoxyl radicals',
+        journal = "Adv. Photochem.",
+        volume = "14",
+        pages = """177""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:33",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016656
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016656/rk00000002.xml
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Thu Jul 26 17:32:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:33"""),
+    ],
+)
+
