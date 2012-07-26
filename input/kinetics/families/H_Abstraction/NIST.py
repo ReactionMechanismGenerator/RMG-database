@@ -73763,3 +73763,61 @@ All data sets were fit to a modified Arrhenius expression k=(1.25±0.06)x10-14e(
     ],
 )
 
+entry(
+    index = 1236,
+    label = "1984WAR197C:68",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S} {4,D}
+4    C 0 {3,D}
+5 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S} {3,S}
+3    C 0 {2,S} {4,D}
+4    C 0 {3,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (250000,"m^3/(mol*s)","*|/",2),
+        n = 0,
+        Ea = (34.838,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (700,"K"),
+    ),
+    reference = Book(
+        authors = ["Warnatz, J."],
+        title = u'Rate coefficients in the C/H/O system',
+        publisher = "ed. W.C. Gardiner,Jr., pub. Springer-Verlag,NY",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:68",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004666
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004666/rk00000002.xml
+Uncertainty: 2.0
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Thu Jul 26 18:06:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:68"""),
+    ],
+)
+
