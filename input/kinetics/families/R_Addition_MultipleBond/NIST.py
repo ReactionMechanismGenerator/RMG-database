@@ -24726,3 +24726,62 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 449,
+    label = "1975BAT/MCC441:18",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {2,S}
+5 *2 O 1 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,D}
+3 *2 O 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1e+16,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (73.25,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (393,"K"),
+        Tmax = (473,"K"),
+        Pmin = (91200,"Pa"),
+        Pmax = (91200,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Batt, L.", "McCulloch, R.D.", "Milne, R.T."],
+        title = u'Thermochemical and Kinetic Studies of Alkyl Nitrites (RONO)-D(RO-NO), The Reactions between RO. and NO, and the Decomposition RO.',
+        journal = "Proc. Symp. Chem. Kinet. Data Upper Lower Atmos. 1974",
+        pages = """441""",
+        year = "1975",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1975BAT/MCC441:18",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016188
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000001.xml
+Uncertainty: 3.1600001
+Bath gas: CF4
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Thu Jul 26 17:13:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975BAT/MCC441:18"""),
+    ],
+)
+
