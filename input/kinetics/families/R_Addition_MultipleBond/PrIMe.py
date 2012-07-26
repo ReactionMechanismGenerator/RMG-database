@@ -216,57 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 373,
-    label = "r00016656",
-    reactant1 = 
-"""
-1 *3 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *1 C 0 {1,S} {5,S} {6,S}
-4    C 0 {2,S}
-5    C 0 {3,S}
-6 *2 O 1 {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S}
-2 *1 C 0 {1,S} {3,D}
-3 *2 O 0 {2,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3 *3 C 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.58e+14,"s^-1"),
-        n = 0,
-        Ea = (57702.4,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Dobe, S.", "Berces, T.", "Marta, F."],
-        title = u'Gas phase decomposition and isomerization reactions of 2-pentoxy radicals',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "18",
-        pages = """329""",
-        year = "1986",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00016656/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016656/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:35:51 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016656/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 374,
     label = "r00016656",
     reactant1 = 
