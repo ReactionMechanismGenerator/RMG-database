@@ -216,55 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 394,
-    label = "r00016901",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,D}
-2 *1 C 0 {1,S} {4,D} {5,S}
-3    C 0 {1,D}
-4 *2 C 1 {2,D}
-5 *3 H 0 {2,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,D} {3,S}
-2    C 0 {1,D}
-3 *1 C 0 {1,S} {4,T}
-4 *2 C 0 {3,T}
-""",
-    product2 = 
-"""
-1 *3 H 1
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+14,"s^-1"),
-        n = 0,
-        Ea = (172941,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Weissman, M.", "Benson, S.W."],
-        title = u'Pyrolysis of methyl chloride, a pathway in the chlorine-catalyzed polymerization of methane',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "16",
-        pages = """307""",
-        year = "1984",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00016901/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016901/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:36:03 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00016901/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 395,
     label = "r00016901",
     reactant1 = 

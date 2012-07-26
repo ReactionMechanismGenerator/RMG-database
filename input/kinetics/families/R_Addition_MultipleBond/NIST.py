@@ -25862,3 +25862,59 @@ Analytical technique: Other (direct)
     ],
 )
 
+entry(
+    index = 469,
+    label = "1984WEI/BEN307-333:19",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,D}
+2 *1 C 0 {1,S} {4,D} {5,S}
+3    C 0 {1,D}
+4 *2 C 1 {2,D}
+5 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,D} {3,S}
+2    C 0 {1,D}
+3 *1 C 0 {1,S} {4,T}
+4 *2 C 0 {3,T}
+""",
+    product2 = 
+"""
+1 *3 H 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1e+14,"s^-1"),
+        n = 0,
+        Ea = (172.941,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1260,"K"),
+        Tmax = (1310,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Weissman, M.", "Benson, S.W."],
+        title = u'Pyrolysis of methyl chloride, a pathway in the chlorine-catalyzed polymerization of methane',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "16",
+        pages = """307-333""",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984WEI/BEN307-333:19",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016901
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016901/rk00000001.xml
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Thu Jul 26 17:45:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WEI/BEN307-333:19"""),
+    ],
+)
+
