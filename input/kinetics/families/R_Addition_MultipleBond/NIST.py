@@ -24300,3 +24300,58 @@ Data type: Transition state theory
     ],
 )
 
+entry(
+    index = 442,
+    label = "1988LAR/STE27:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 O 1 {1,S}
+4 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D} {3,D}
+2    O 0 {1,D}
+3 *2 O 0 {1,D}
+""",
+    product2 = 
+"""
+1 *3 H 1
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.74e+12,"s^-1"),
+        n = 0.31,
+        Ea = (138.02,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (2200,"K"),
+        Pmin = (13.33,"Pa"),
+        Pmax = (133000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Larson, c.W.", "Stewart, P.H.", "Golden, D.M."],
+        title = u'Pressure and temperature dependence of reactions proceeding via a bound complex. An approach for combustion and atmospheric chemistry modelers. Application to HO + CO \u2192\x92 [HOCO] \u2192\x92 H + CO2',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "20",
+        pages = """27""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988LAR/STE27:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015704
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015704/rk00000001.xml
+Bath gas: N2
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Thu Jul 26 16:55:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988LAR/STE27:2"""),
+    ],
+)
+

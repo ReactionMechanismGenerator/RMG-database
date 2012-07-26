@@ -216,53 +216,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 342,
-    label = "r00015704",
-    reactant1 = 
-"""
-1 *1 C 0 {2,D} {3,S} {4,S}
-2    O 0 {1,D}
-3 *2 O 1 {1,S}
-4 *3 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,D} {3,D}
-2    O 0 {1,D}
-3 *2 O 0 {1,D}
-""",
-    product2 = 
-"""
-1 *3 H 1
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13,"s^-1"),
-        n = 0.307,
-        Ea = (138020,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Larson, c.W.", "Stewart, P.H.", "Golden, D.M."],
-        title = u'Pressure and temperature dependence of reactions proceeding via a bound complex. An approach for combustion and atmospheric chemistry modelers. Application to HO + CO \u2192 [HOCO] \u2192 H + CO_2',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "20",
-        pages = """27""",
-        year = "1988",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00015704/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015704/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:35:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00015704/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 345,
     label = "r00015716",
     reactant1 = 
