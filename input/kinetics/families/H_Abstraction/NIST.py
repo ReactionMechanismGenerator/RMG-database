@@ -78601,3 +78601,61 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 1310,
+    label = "1986PIT/WES113-133:2",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    O 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    O 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1e+07,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (4.182,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Pitz, W.J.", "Westbrook, C.K."],
+        title = u'Chemical kinetics of the high pressure oxidation of n-butane and its relation to engine knock',
+        journal = "Combust. Flame",
+        volume = "63",
+        pages = """113-133""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986PIT/WES113-133:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013692
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000030.xml
+Bath gas: N2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Fri Jul 27 11:59:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986PIT/WES113-133:2"""),
+    ],
+)
+

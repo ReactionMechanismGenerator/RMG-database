@@ -1276,58 +1276,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 1131,
-    label = "r00013692",
-    reactant1 = 
-"""
-1 *1 O 0 {2,S} {3,S}
-2    O 1 {1,S}
-3 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1    O 0 {2,S}
-2 *3 O 1 {1,S}
-""",
-    product1 = 
-"""
-1    O 0 {2,S}
-2 *1 O 0 {1,S} {3,S}
-3 *2 H 0 {2,S}
-""",
-    product2 = 
-"""
-1 *3 O 1 {2,S}
-2    O 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+07,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (4182.18,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Pitz, W.J.", "Westbrook, C.K."],
-        title = u'Chemical kinetics of the high pressure oxidation of n-butane and its relation to engine knock',
-        journal = "Combust. Flame",
-        volume = "63",
-        pages = """113-133""",
-        year = "1986",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000030.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000030.xml
-""",
-    history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000030.xml"""),
-    ],
-)
-
-entry(
     index = 1132,
     label = "r00013692",
     reactant1 = 
