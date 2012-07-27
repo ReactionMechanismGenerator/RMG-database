@@ -470,58 +470,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 583,
-    label = "r00005691",
-    reactant1 = 
-"""
-1    C 0 {2,S}
-2 *1 C 0 {1,S} {3,D} {4,S}
-3    C 0 {2,D}
-4 *2 H 0 {2,S}
-""",
-    reactant2 = 
-"""
-1 *3 O 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {3,S}
-2    C 0 {3,D}
-3 *3 C 1 {1,S} {2,D}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.10806,"cm^3/(mol*s)"),
-        n = 2,
-        Ea = (6069.56,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Tsang, W."],
-        title = u'Chemical kinetic data base for combustion chemistry. Part V. Propene',
-        journal = "J. Phys. Chem. Ref. Data",
-        volume = "20",
-        pages = """221-273""",
-        year = "1991",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00005691/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005691/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:54 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005691/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 591,
     label = "r00005746",
     reactant1 = 
