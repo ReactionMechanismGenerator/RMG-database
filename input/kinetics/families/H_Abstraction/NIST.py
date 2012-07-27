@@ -77616,3 +77616,67 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 1294,
+    label = "1983COL/RIC5:4",
+    reactant1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3    C 0 {1,S} {4,D}
+4 *3 C 1 {2,S} {3,D}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3    C 0 {1,S} {4,D}
+4 *1 C 0 {2,S} {3,D} {5,S}
+5 *2 H 0 {4,S}
+""",
+    product2 = 
+"""
+1 *3 H 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.26e+07,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (101.437,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (773,"K"),
+        Tmax = (794,"K"),
+        Pmin = (1333,"Pa"),
+        Pmax = (80000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Collongues, C.", "Richard, C.", "Martin, R."],
+        title = u'Thermal reaction of hydrogen-butene-2-cis mixtures at 500\xb0C: Hydrogenation, hydrogenolysis, and thermal reaction of the olefin',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "15",
+        pages = """5""",
+        year = "1983",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1983COL/RIC5:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00009579
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009579/rk00000001.xml
+Bath gas: H2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Fri Jul 27 10:50:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COL/RIC5:4"""),
+    ],
+)
+

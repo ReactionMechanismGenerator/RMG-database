@@ -840,60 +840,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 881,
-    label = "r00009579",
-    reactant1 = 
-"""
-1 *1 H 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1    C 0 {3,S}
-2    C 0 {4,S}
-3    C 0 {1,S} {4,D}
-4 *3 C 1 {2,S} {3,D}
-""",
-    product1 = 
-"""
-1    C 0 {3,S}
-2    C 0 {4,S}
-3    C 0 {1,S} {4,D}
-4 *1 C 0 {2,S} {3,D} {5,S}
-5 *2 H 0 {4,S}
-""",
-    product2 = 
-"""
-1 *3 H 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.26e+07,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (101437,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Collongues, C.", "Richard, C.", "Martin, R."],
-        title = u'Thermal reaction of hydrogen-butene-2-cis mixtures at 500C: Hydrogenation, hydrogenolysis, and thermal reaction of the olefin',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "15",
-        pages = """5""",
-        year = "1983",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00009579/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009579/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:26 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009579/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 893,
     label = "r00010403",
     reactant1 = 
