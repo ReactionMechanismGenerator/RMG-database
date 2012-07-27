@@ -518,66 +518,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 687,
-    label = "r00007083",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2 *1 C 0 {1,S} {6,S} {7,S} {8,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
-8 *2 H 0 {2,S}
-""",
-    reactant2 = 
-"""
-1 *3 O 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S} {4,S} {7,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {7,S}
-6    C 0 {7,S}
-7 *3 C 1 {1,S} {5,S} {6,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.7e+06,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-956.164,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Baldwin, R.R.", "Walker, R.W.", "Walker, R.W."],
-        title = u'Addition of 2,2,3-Trimethylbutane to Slowly Reacting Mixtures of Hydrogen and Oxygen at 480^oC',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "77",
-        pages = """2157""",
-        year = "1981",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:34:02 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 688,
     label = "r00007083",
     reactant1 = 

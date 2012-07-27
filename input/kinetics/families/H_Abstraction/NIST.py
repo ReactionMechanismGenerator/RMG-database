@@ -76348,3 +76348,71 @@ Note: Invalid Ea value uncertainty (948.0) found and ignored
     ],
 )
 
+entry(
+    index = 1275,
+    label = "1981BAL/WAL2157:7",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2 *1 C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+7    C 0 {2,S}
+8 *2 H 0 {2,S}
+""",
+    reactant2 = 
+"""
+1 *3 O 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {7,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {7,S}
+6    C 0 {7,S}
+7 *3 C 1 {1,S} {5,S} {6,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.7e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-0.956,"kJ/mol","+|-",0.793),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (500,"K"),
+        Pmin = (66700,"Pa"),
+        Pmax = (66700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Baldwin, R.R.", "Walker, R.W.", "Walker, R.W."],
+        title = u'Addition of 2,2,3-Trimethylbutane to Slowly Reacting Mixtures of Hydrogen and Oxygen at 480oC',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "77",
+        pages = """2157""",
+        year = "1981",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981BAL/WAL2157:7",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00007083
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000003.xml
+Bath gas: N2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Fri Jul 27 10:06:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BAL/WAL2157:7"""),
+    ],
+)
+
