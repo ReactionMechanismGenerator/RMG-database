@@ -78233,3 +78233,65 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 1304,
+    label = "1980LII/GOR813:1",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    O 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    O 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (53600,"m^3/(mol*s)","+|-",1600),
+        n = 0,
+        Ea = (-8.813,"kJ/mol","+|-",0.352),
+        T0 = (1,"K"),
+        Tmin = (290,"K"),
+        Tmax = (400,"K"),
+        Pmin = (160000,"Pa"),
+        Pmax = (160000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Lii, R.-R.", "Gorse, R.A., Jr.", "Sauer, M.C., Jr.", "Gordon, S."],
+        title = u'Temperature Dependence of the Gas-Phase Self-Reaction of HO2 in the Presence of NH3',
+        journal = "J. Phys. Chem.",
+        volume = "84",
+        pages = """813""",
+        year = "1980",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1980LII/GOR813:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013692
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000018.xml
+Bath gas: H2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Chemical activation
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Fri Jul 27 11:50:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980LII/GOR813:1"""),
+    ],
+)
+
