@@ -886,56 +886,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 1005,
-    label = "r00011303",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S}
-2    O 0 {1,S}
-3 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1 *3 O 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1 *3 C 1 {2,S}
-2    O 0 {1,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (1.44138,"cm^3/(mol*s)"),
-        n = 2,
-        Ea = (-3517.02,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Li, S.C.", "Williams, F.A."],
-        title = u'Experimental and numerical studies of two-stage methanol flames',
-        journal = "Symp. Int. Combust. Proc.",
-        volume = "26",
-        pages = """1017-1024""",
-        year = "1996",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011303/rk00000010.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011303/rk00000010.xml
-""",
-    history = [
-        ("Tue May 17 14:34:46 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011303/rk00000010.xml"""),
-    ],
-)
-
-entry(
     index = 1009,
     label = "r00011339",
     reactant1 = 
