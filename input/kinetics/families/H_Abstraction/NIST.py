@@ -76481,3 +76481,71 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 1277,
+    label = "1986ATK555:16",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2 *1 C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+7    C 0 {2,S}
+8 *2 H 0 {2,S}
+""",
+    reactant2 = 
+"""
+1 *3 O 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {7,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {7,S}
+6    C 0 {7,S}
+7 *3 C 1 {1,S} {5,S} {6,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.14,"m^3/(mol*s)"),
+        n = 2,
+        Ea = (-6.543,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (250,"K"),
+        Tmax = (1000,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Atkinson, R."],
+        title = u'Estimations of OH radical rate constants from H-atom abstraction from C-H and O-H bonds over the temperature range 250-1000K',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "18",
+        pages = """555""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:16",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00007083
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000005.xml
+Bath gas: N2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Fri Jul 27 10:16:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986ATK555:16"""),
+    ],
+)
+
