@@ -518,66 +518,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 712,
-    label = "r00007758",
-    reactant1 = 
-"""
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {4,S}
-3    C 0 {1,S} {4,D}
-4    C 0 {2,S} {3,D}
-5 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1    C 0 {2,S}
-2 *3 C 1 {1,S} {3,S}
-3    C 0 {2,S} {4,D}
-4    C 0 {3,D}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S} {4,D}
-4    C 0 {3,D}
-5 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2    C 0 {1,S} {3,D}
-3    C 0 {2,D} {4,S}
-4 *3 C 1 {3,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (3.98e+07,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (66100.1,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Richard, C.", "Boiveaut, A.", "Martin, R."],
-        title = u'H_2S-Promoted Therm al Isomerization of Butene-2 cis to Butene-1 or Butene-2 trans around 500^oC',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "12",
-        pages = """921""",
-        year = "1980",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00007758/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007758/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:09 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007758/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 731,
     label = "r00008211",
     reactant1 = 

@@ -77490,3 +77490,71 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 1292,
+    label = "1980RIC/BOI921:4",
+    reactant1 = 
+"""
+1 *1 C 0 {3,S} {5,S}
+2    C 0 {4,S}
+3    C 0 {1,S} {4,D}
+4    C 0 {2,S} {3,D}
+5 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S} {3,S}
+3    C 0 {2,S} {4,D}
+4    C 0 {3,D}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S} {4,D}
+4    C 0 {3,D}
+5 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,D}
+3    C 0 {2,D} {4,S}
+4 *3 C 1 {3,S}
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (3.98e+07,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (66.1,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (750,"K"),
+        Tmax = (816,"K"),
+        Pmin = (1333,"Pa"),
+        Pmax = (13300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Richard, C.", "Boiveaut, A.", "Martin, R."],
+        title = u'H2S-Promoted Therm al Isomerization of Butene-2 cis to Butene-1 or Butene-2 trans around 500oC',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "12",
+        pages = """921""",
+        year = "1980",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1980RIC/BOI921:4",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00007758
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007758/rk00000001.xml
+Bath gas: (Z)-2-C4H8
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Fri Jul 27 10:46:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980RIC/BOI921:4"""),
+    ],
+)
+
