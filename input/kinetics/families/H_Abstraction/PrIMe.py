@@ -470,59 +470,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 609,
-    label = "r00005795",
-    reactant1 = 
-"""
-1 *1 C 0 {3,S} {4,S}
-2    C 0 {3,S}
-3    O 0 {1,S} {2,S}
-4 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1 *3 O 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {3,S}
-2 *3 C 1 {3,S}
-3    O 0 {1,S} {2,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (0.0200537,"cm^3/(molecule*s)"),
-        n = 2.91,
-        Ea = (3406.44,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Wu, J.Y.", "Liu, J.Y.", "Li, Z.S.", "Sun, C.C."],
-        title = u'Dual-level direct dynamics studies for the reactions of CH_3OCH_3 and CF_3OCH_3 with the OH radical',
-        journal = "J. Chem. Phys.",
-        volume = "118",
-        pages = """10986-10995""",
-        year = "2003",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00005795/rk00000013.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005795/rk00000013.xml
-""",
-    history = [
-        ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005795/rk00000013.xml"""),
-        ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units of the preexponential factor."""),
-    ],
-)
-
-entry(
     index = 622,
     label = "r00006061",
     reactant1 = 
