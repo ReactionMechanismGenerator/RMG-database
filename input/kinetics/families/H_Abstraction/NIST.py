@@ -77091,3 +77091,67 @@ Data type: Transition state theory
     ],
 )
 
+entry(
+    index = 1286,
+    label = "1969YOK/BRI2987:1",
+    reactant1 = 
+"""
+1 *1 C 0 {3,S} {5,S}
+2    C 0 {4,S}
+3    C 0 {1,S} {4,D}
+4    C 0 {2,S} {3,D}
+5 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,D}
+3    C 0 {2,D} {4,S}
+4 *3 C 1 {3,S}
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (16000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (30.514,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (399,"K"),
+        Tmax = (436,"K"),
+        Pmin = (5466,"Pa"),
+        Pmax = (8666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Yokoyama, N.", "Brinton, R.K."],
+        title = u'Reaction of methyl radicals with cis-butene-2',
+        journal = "Can. J. Chem.",
+        volume = "47",
+        pages = """2987""",
+        year = "1969",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1969YOK/BRI2987:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00007720
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007720/rk00000001.xml
+Bath gas: CH3CHO
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Fri Jul 27 10:30:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969YOK/BRI2987:1"""),
+    ],
+)
+
