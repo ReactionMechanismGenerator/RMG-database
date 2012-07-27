@@ -470,58 +470,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 602,
-    label = "r00005795",
-    reactant1 = 
-"""
-1 *1 C 0 {3,S} {4,S}
-2    C 0 {3,S}
-3    O 0 {1,S} {2,S}
-4 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1 *3 O 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {3,S}
-2 *3 C 1 {3,S}
-3    O 0 {1,S} {2,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (6.27e+06,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (3092.98,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Tully, F.P.", "Droege, A.T."],
-        title = u'Kinetics of the reactions of the hydroxyl radical with dimethyl ether and diethyl ether',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "19",
-        pages = """251""",
-        year = "1987",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00005795/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005795/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005795/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 609,
     label = "r00005795",
     reactant1 = 
