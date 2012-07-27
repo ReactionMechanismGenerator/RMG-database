@@ -77213,3 +77213,66 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 1288,
+    label = "1990SWA900-902:5",
+    reactant1 = 
+"""
+1 *1 C 0 {3,S} {5,S}
+2    C 0 {4,S}
+3    C 0 {1,S} {4,D}
+4    C 0 {2,S} {3,D}
+5 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *3 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,D}
+3    C 0 {2,D} {4,S}
+4 *3 C 1 {3,S}
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (309000,"m^3/(mol*s)","*|/",1.58),
+        n = 0,
+        Ea = (34.921,"kJ/mol","+|-",2.444),
+        T0 = (1,"K"),
+        Tmin = (399,"K"),
+        Tmax = (434,"K"),
+    ),
+    reference = Article(
+        authors = ["Sway, M.I."],
+        title = u'Arrhenius parameters for reactions of methyl radicals with alkenes',
+        journal = "Ber. Bunsenges. Phys. Chem.",
+        volume = "29",
+        pages = """900-902""",
+        year = "1990",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1990SWA900-902:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00007720
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007720/rk00000004.xml
+Uncertainty: 1.58
+Bath gas: (tert-C4H9O)2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Laser magnetic resonance (LMR)
+""",
+    history = [
+        ("Fri Jul 27 10:32:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990SWA900-902:5"""),
+    ],
+)
+
