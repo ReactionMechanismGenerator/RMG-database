@@ -79021,3 +79021,59 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 1317,
+    label = "1997DEM/SAN1-266:307",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    O 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    O 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (139000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-4.989,"kJ/mol","+|-",1.646),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (300,"K"),
+    ),
+    reference = Article(
+        authors = ["DeMore, W.B.", "Sander, S.P.", "Golden, D.M.", "Hampson, R.F.", "Kurylo, M.J.", "Howard, C.J.", "Ravishankara, A.R.", "Kolb, C.E.", "Molina, M.J."],
+        title = u'Chemical kinetics and photochemical data for use in stratospheric modeling. Evaluation number 12',
+        journal = "JPL Publication 97-4",
+        pages = """1-266""",
+        year = "1997",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:307",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013692
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000043.xml
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Fri Jul 27 12:08:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:307"""),
+    ],
+)
+
