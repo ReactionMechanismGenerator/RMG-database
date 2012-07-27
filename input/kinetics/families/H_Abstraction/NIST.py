@@ -76416,3 +76416,68 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 1276,
+    label = "1985WAL573:16",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2 *1 C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+7    C 0 {2,S}
+8 *2 H 0 {2,S}
+""",
+    reactant2 = 
+"""
+1 *3 O 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {7,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {7,S}
+6    C 0 {7,S}
+7 *3 C 1 {1,S} {5,S} {6,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2200,"m^3/(mol*s)"),
+        n = 1,
+        Ea = (-2.744,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1000,"K"),
+    ),
+    reference = Article(
+        authors = ["Walker, R.W."],
+        title = u'Temperature coefficients for reactions of OH radicals with alkanes between 300 and 1000 K',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "17",
+        pages = """573""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:16",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00007083
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000004.xml
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Fri Jul 27 10:08:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985WAL573:16"""),
+    ],
+)
+
