@@ -78051,3 +78051,61 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 1301,
+    label = "1974LLO169-228:11",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    O 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    O 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1e+07,"m^3/(mol*s)","*|/",2),
+        n = 0,
+        Ea = (4.182,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1000,"K"),
+    ),
+    reference = Article(
+        authors = ["Lloyd, A.C."],
+        title = u'Evaluated and estimated kinetic data for phase reactions of the hydroperoxyl radical',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "6",
+        pages = """169-228""",
+        year = "1974",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974LLO169-228:11",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013692
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000006.xml
+Uncertainty: 2.0
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Fri Jul 27 11:46:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974LLO169-228:11"""),
+    ],
+)
+
