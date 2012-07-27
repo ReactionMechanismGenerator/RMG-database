@@ -78171,3 +78171,65 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 1303,
+    label = "1979LII/GOR1803:1",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    O 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    O 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (68700,"m^3/(mol*s)","+|-",9600),
+        n = 0,
+        Ea = (-8.813,"kJ/mol","+|-",0.352),
+        T0 = (1,"K"),
+        Tmin = (276,"K"),
+        Tmax = (400,"K"),
+        Pmin = (160000,"Pa"),
+        Pmax = (160000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Lii, R.-R.", "Gorse, R.A., Jr.", "Sauer, M.C., Jr.", "Gordon, S."],
+        title = u'Negative Activation Energy for the Self-Reaction of HO2 in the Gas Phase. Dimerization ofHO2',
+        journal = "J. Phys. Chem.",
+        volume = "83",
+        pages = """1803""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979LII/GOR1803:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013692
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000012.xml
+Bath gas: H2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Ultrasonics
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Fri Jul 27 11:49:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979LII/GOR1803:1"""),
+    ],
+)
+
