@@ -78841,3 +78841,64 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 1314,
+    label = "1993DOB/BEN8798-8809:1",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    O 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    O 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (271000,"m^3/(mol*s)","+|-",33000),
+        n = 0,
+        Ea = (-4.324,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (243,"K"),
+        Tmax = (368,"K"),
+    ),
+    reference = Article(
+        authors = ["Dobis, O.", "Benson, S.W."],
+        title = u'Reaction of the ethyl radical with oxygen at millitorr pressures at 243-368 K and a study of the Cl + HO2, ethyl + HO2, and HO2 + HO2 reactions',
+        journal = "J. Am. Chem. Soc.",
+        volume = "115",
+        pages = """8798-8809""",
+        year = "1993",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/BEN8798-8809:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013692
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000039.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Electron beam
+Analytical technique: Mass spectrometry
+Note: Invalid Ea value uncertainty (8314472.0) found and ignored
+""",
+    history = [
+        ("Fri Jul 27 12:02:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DOB/BEN8798-8809:1"""),
+    ],
+)
+
