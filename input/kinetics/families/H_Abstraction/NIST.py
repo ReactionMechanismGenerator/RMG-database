@@ -75377,3 +75377,70 @@ Data type: Experimental value and limited review
     ],
 )
 
+entry(
+    index = 1261,
+    label = "1981PET/ACS235:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3    C 0 {1,S} {5,D}
+4 *2 H 0 {1,S}
+5    O 0 {3,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S} {3,S}
+3    C 0 {2,S} {4,D}
+4    O 0 {3,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (100000,"m^3/(mol*s)","*|/",1.26),
+        n = 0,
+        Ea = (34.838,"kJ/mol","+|-",1.048),
+        T0 = (1,"K"),
+        Tmin = (538,"K"),
+        Tmax = (596,"K"),
+        Pmin = (13300,"Pa"),
+        Pmax = (13300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Peter, A.", "Acs, G.", "Horvath, I.", "Huhn, P."],
+        title = u'Decomposition of propionaldehyde initiated by the thermal decomposition of azoethane',
+        journal = "Acta Chim. Hung.",
+        volume = "108",
+        pages = """235""",
+        year = "1981",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981PET/ACS235:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00006061
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006061/rk00000001.xml
+Uncertainty: 1.26
+Bath gas: C2H5CHO
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Electron spin resonance (ESR or EPR)
+""",
+    history = [
+        ("Fri Jul 27 09:41:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981PET/ACS235:2"""),
+    ],
+)
+
