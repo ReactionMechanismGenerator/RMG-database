@@ -77921,3 +77921,75 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 1299,
+    label = "1996BOY/LES6594-6603:4",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    O 0 {1,S}
+6    O 0 {2,S} {7,S}
+7 *3 O 1 {6,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {6,S}
+2    C 0 {1,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    O 0 {2,S} {7,S}
+6    O 0 {1,S}
+7 *1 O 0 {5,S} {8,S}
+8 *2 H 0 {7,S}
+""",
+    product2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (33700,"m^3/(mol*s)","+|-",12000),
+        n = 0,
+        Ea = (-13.719,"kJ/mol","+|-",1.098),
+        T0 = (1,"K"),
+        Tmin = (306,"K"),
+        Tmax = (398,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Boyd, A.A.", "Lesclaux, R.", "Jenkin, M.E.", "Wallington, T.J."],
+        title = u'A spectroscopic, kinetic, and product study of the (CH3)2C(OH)CH2O2 radical self reaction and reaction with HO2',
+        journal = "J. Phys. Chem.",
+        volume = "100",
+        pages = """6594-6603""",
+        year = "1996",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1996BOY/LES6594-6603:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011918
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011918/rk00000001.xml
+Bath gas: N2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Fri Jul 27 11:40:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996BOY/LES6594-6603:4"""),
+    ],
+)
+
