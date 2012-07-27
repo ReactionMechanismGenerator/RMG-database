@@ -1276,58 +1276,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 1127,
-    label = "r00013692",
-    reactant1 = 
-"""
-1 *1 O 0 {2,S} {3,S}
-2    O 1 {1,S}
-3 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1    O 0 {2,S}
-2 *3 O 1 {1,S}
-""",
-    product1 = 
-"""
-1    O 0 {2,S}
-2 *1 O 0 {1,S} {3,S}
-3 *2 H 0 {2,S}
-""",
-    product2 = 
-"""
-1 *3 O 1 {2,S}
-2    O 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (55500,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-8813.34,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Lii, R.-R.", "Sauer, M.C., Jr.", "Gordon, S."],
-        title = u'Temperature Dependence of the Gas-Phase Self-Reaction of HO_2 in the Presence of H_2O',
-        journal = "J. Phys. Chem.",
-        volume = "85",
-        pages = """2833""",
-        year = "1981",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000020.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000020.xml
-""",
-    history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000020.xml"""),
-    ],
-)
-
-entry(
     index = 1128,
     label = "r00013692",
     reactant1 = 
