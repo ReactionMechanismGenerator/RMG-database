@@ -77993,3 +77993,61 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 1300,
+    label = "1994BAU/COB847-1033:90",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    O 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    O 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.22e+08,"m^3/(mol*s)","*|/",2.51),
+        n = 0,
+        Ea = (50.136,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (850,"K"),
+        Tmax = (1250,"K"),
+    ),
+    reference = Article(
+        authors = ["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."],
+        title = u'Evaluated kinetic data for combusion modelling. Supplement I',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "23",
+        pages = """847-1033""",
+        year = "1994",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:90",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013692
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000003.xml
+Uncertainty: 2.51
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Fri Jul 27 11:45:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:90"""),
+    ],
+)
+
