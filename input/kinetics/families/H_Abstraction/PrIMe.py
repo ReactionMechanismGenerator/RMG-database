@@ -470,62 +470,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 623,
-    label = "r00006062",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *1 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4 *2 H 0 {2,S}
-5    O 0 {3,D}
-""",
-    reactant2 = 
-"""
-1    C 0 {2,S}
-2 *3 C 1 {1,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *3 C 1 {1,S}
-3    C 0 {1,S} {4,D}
-4    O 0 {3,D}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (126000,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (53295.8,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Peter, A.", "Acs, G.", "Horvath, I.", "Huhn, P."],
-        title = u'Decomposition of propionaldehyde initiated by the thermal decomposition of azoethane',
-        journal = "Acta Chim. Hung.",
-        volume = "108",
-        pages = """235""",
-        year = "1981",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00006062/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006062/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:56 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006062/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 624,
     label = "r00006095",
     reactant1 = 
