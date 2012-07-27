@@ -75581,3 +75581,74 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 1264,
+    label = "1979FOR/BER219:1",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4 *1 C 0 {2,S} {5,D} {6,S}
+5    O 0 {4,D}
+6 *2 H 0 {4,S}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *3 C 1 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4 *3 C 1 {2,S} {5,D}
+5    O 0 {4,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (100000,"m^3/(mol*s)","*|/",2),
+        n = 0,
+        Ea = (27.604,"kJ/mol","+|-",2.212),
+        T0 = (1,"K"),
+        Tmin = (273,"K"),
+        Tmax = (529,"K"),
+        Pmin = (13300,"Pa"),
+        Pmax = (13300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Forgeteg, S.", "Berces, T.", "Dobe, S."],
+        title = u'The kinetics and mechanism of n-butyraldehyde photolysis in the vapor phase at 313 nm',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "11",
+        pages = """219""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979FOR/BER219:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00006095
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006095/rk00000003.xml
+Uncertainty: 2.0
+Bath gas: n-C3H7CHO
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Fri Jul 27 09:45:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979FOR/BER219:1"""),
+    ],
+)
+

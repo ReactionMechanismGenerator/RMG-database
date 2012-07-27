@@ -470,66 +470,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 625,
-    label = "r00006095",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4 *1 C 0 {2,S} {5,D} {6,S}
-5    O 0 {4,D}
-6 *2 H 0 {4,S}
-""",
-    reactant2 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3 *3 C 1 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *1 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4 *2 H 0 {2,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4 *3 C 1 {2,S} {5,D}
-5    O 0 {4,D}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (100000,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (27604,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Forgeteg, S.", "Berces, T.", "Dobe, S."],
-        title = u'The kinetics and mechanism of n-butyraldehyde photolysis in the vapor phase at 313 nm',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "11",
-        pages = """219""",
-        year = "1979",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00006095/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006095/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:33:57 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006095/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 626,
     label = "r00006096",
     reactant1 = 
