@@ -78964,3 +78964,60 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 1316,
+    label = "1997ATK/BAU1329-1499:50",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    O 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    O 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (132000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-4.989,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (230,"K"),
+        Tmax = (420,"K"),
+    ),
+    reference = Article(
+        authors = ["Atkinson, R.", "Baulch, D.L.", "Cox, R.A.", "Hampson, R.F., Jr.", "Kerr, J.A.", "Rossi, M.J.", "Troe, J."],
+        title = u'Evaluated kinetic and photochemical data for atmospheric chemistry: supplement VI. IUPAC subcommittee on gas kinetic data evaluation for atmospheric chemistry',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "26",
+        pages = """1329-1499""",
+        year = "1997",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU1329-1499:50",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013692
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000042.xml
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Fri Jul 27 12:06:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU1329-1499:50"""),
+    ],
+)
+
