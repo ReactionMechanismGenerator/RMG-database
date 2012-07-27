@@ -78481,3 +78481,66 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 1308,
+    label = "1982THR/TYN232:1",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    O 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    O 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (145000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-4.656,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (358,"K"),
+        Pmin = (933,"Pa"),
+        Pmax = (2666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Thrush, B.A.", "Tyndall, G.S."],
+        title = u'The Rate of Reaction between HO2 Radicals at Low Pressures',
+        journal = "Chem. Phys. Lett.",
+        volume = "92",
+        pages = """232""",
+        year = "1982",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1982THR/TYN232:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013692
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000023.xml
+Bath gas: O2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: IR absorption
+Note: Invalid Ea value uncertainty (8314472.0) found and ignored
+""",
+    history = [
+        ("Fri Jul 27 11:53:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982THR/TYN232:1"""),
+    ],
+)
+
