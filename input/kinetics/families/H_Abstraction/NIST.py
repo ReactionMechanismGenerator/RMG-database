@@ -78902,3 +78902,65 @@ Note: Invalid Ea value uncertainty (8314472.0) found and ignored
     ],
 )
 
+entry(
+    index = 1315,
+    label = "1994MAR/SZE2078-2082:3",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    O 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    O 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (169000,"m^3/(mol*s)","+|-",30000),
+        n = 0,
+        Ea = (-4.939,"kJ/mol","+|-",0.445),
+        T0 = (1,"K"),
+        Tmin = (210,"K"),
+        Tmax = (363,"K"),
+        Pmin = (26700,"Pa"),
+        Pmax = (26700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Maricq, M.M.", "Szente, J.J."],
+        title = u'A kinetic study of the reaction between ethylperoxy radicals and HO2',
+        journal = "J. Phys. Chem.",
+        volume = "98",
+        pages = """2078-2082""",
+        year = "1994",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1994MAR/SZE2078-2082:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013692
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000041.xml
+Bath gas: N2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Fri Jul 27 12:04:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994MAR/SZE2078-2082:3"""),
+    ],
+)
+
