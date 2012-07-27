@@ -77276,3 +77276,73 @@ Analytical technique: Laser magnetic resonance (LMR)
     ],
 )
 
+entry(
+    index = 1289,
+    label = "1983COL/RIC5:1",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *1 C 0 {1,S} {4,D} {5,S}
+4    C 0 {2,S} {3,D}
+5 *2 H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {4,S}
+2    C 0 {1,S}
+3    C 0 {4,S}
+4 *3 C 1 {1,S} {3,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {5,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4    C 0 {2,S}
+5 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3    C 0 {1,S} {4,D}
+4 *3 C 1 {2,S} {3,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (251000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (33.507,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (773,"K"),
+        Tmax = (794,"K"),
+        Pmin = (1333,"Pa"),
+        Pmax = (80000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Collongues, C.", "Richard, C.", "Martin, R."],
+        title = u'Thermal reaction of hydrogen-butene-2-cis mixtures at 500\xb0C: Hydrogenation, hydrogenolysis, and thermal reaction of the olefin',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "15",
+        pages = """5""",
+        year = "1983",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1983COL/RIC5:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00007723
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007723/rk00000001.xml
+Bath gas: H2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Fri Jul 27 10:34:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983COL/RIC5:1"""),
+    ],
+)
+
