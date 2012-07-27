@@ -77864,3 +77864,60 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 1298,
+    label = "1997ATK/BAU521-1011:243",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {4,S}
+2    O 0 {1,S} {3,S}
+3    O 0 {2,S}
+4 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *3 O 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *3 C 1 {2,S}
+2    O 0 {1,S} {3,S}
+3    O 0 {2,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (603000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-1.58,"kJ/mol","+|-",1.247),
+        T0 = (1,"K"),
+        Tmin = (220,"K"),
+        Tmax = (430,"K"),
+    ),
+    reference = Article(
+        authors = ["Atkinson, R.", "Baulch, D.L.", "Cox, R.A.", "Hampson, R.F., Jr.", "Kerr, J.A.", "Rossi, M.J.", "Troe, J."],
+        title = u'Evaluated kinetic, photochemical and heterogeneous data for atmospheric chemistry: supplement V, IUPAC subcommittee on gas kinetic data evaluation for atmospheric chemistry',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "26",
+        pages = """521-1011""",
+        year = "1997",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:243",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011639
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000007.xml
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Fri Jul 27 11:31:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:243"""),
+    ],
+)
+
