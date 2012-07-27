@@ -1276,58 +1276,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 1128,
-    label = "r00013692",
-    reactant1 = 
-"""
-1 *1 O 0 {2,S} {3,S}
-2    O 1 {1,S}
-3 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1    O 0 {2,S}
-2 *3 O 1 {1,S}
-""",
-    product1 = 
-"""
-1    O 0 {2,S}
-2 *1 O 0 {1,S} {3,S}
-3 *2 H 0 {2,S}
-""",
-    product2 = 
-"""
-1 *3 O 1 {2,S}
-2    O 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (249000,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-5238.12,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Patrick, R.", "Pilling, M.J."],
-        title = u'The Temperature Dependence of the HO_2 + HO_2 Reaction',
-        journal = "Chem. Phys. Lett.",
-        volume = "91",
-        pages = """343""",
-        year = "1982",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000021.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000021.xml
-""",
-    history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000021.xml"""),
-    ],
-)
-
-entry(
     index = 1129,
     label = "r00013692",
     reactant1 = 
