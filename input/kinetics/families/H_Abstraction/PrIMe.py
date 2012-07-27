@@ -1030,58 +1030,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 1062,
-    label = "r00011639",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {4,S}
-2    O 0 {1,S} {3,S}
-3    O 0 {2,S}
-4 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1 *3 O 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1 *3 C 1 {2,S}
-2    O 0 {1,S} {3,S}
-3    O 0 {2,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (602214,"cm^3/(molecule*s)"),
-        n = 0,
-        Ea = (-1579.75,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Atkinson, R.", "Baulch, D.L.", "Cox, R.A.", "Crowley, J.N.", "Hampson, R.F, Jr.", "Kerr, J.A.", "Rossi, M.J.", "Troe, J."],
-        title = u'Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry',
-        journal = "Not in System",
-        pages = """1-56""",
-        year = "2001",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000008.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000008.xml
-""",
-    history = [
-        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000008.xml"""),
-        ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units of the preexponential factor."""),
-    ],
-)
-
-entry(
     index = 1075,
     label = "r00011842",
     reactant1 = 

@@ -79191,3 +79191,60 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 1320,
+    label = "2001ATK/BAU1-56:78",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {4,S}
+2    O 0 {1,S} {3,S}
+3    O 0 {2,S}
+4 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *3 O 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *3 C 1 {2,S}
+2    O 0 {1,S} {3,S}
+3    O 0 {2,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (602000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-1.58,"kJ/mol","+|-",1.247),
+        T0 = (1,"K"),
+        Tmin = (220,"K"),
+        Tmax = (430,"K"),
+    ),
+    reference = Article(
+        authors = ["Atkinson, R.", "Baulch, D.L.", "Cox, R.A.", "Crowley, J.N.", "Hampson, R.F, Jr.", "Kerr, J.A.", "Rossi, M.J.", "Troe, J."],
+        title = u'Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry',
+        journal = "Not in System",
+        pages = """1-56""",
+        year = "2001",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:78",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011639
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000008.xml
+Category: Review
+Data type: Extensive literature review
+Pressure dependence: None reported
+""",
+    history = [
+        ("Fri Jul 27 12:22:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:78"""),
+    ],
+)
+
