@@ -75652,3 +75652,73 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 1265,
+    label = "1959KER/TRO572:3",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {2,S} {6,D}
+5 *2 H 0 {2,S}
+6    O 0 {4,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *3 C 1 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *3 C 1 {1,S} {4,S}
+4    C 0 {3,S} {5,D}
+5    O 0 {4,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (200000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (28.02,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (371,"K"),
+        Tmax = (634,"K"),
+        Pmin = (1200,"Pa"),
+        Pmax = (4400,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kerr, J.A.", "Trotman-Dickenson, A.F."],
+        title = u'The reactions of alkyl radicals. Part 1.-n-Propyl radicals from the photolysis of n-butyraldehyde',
+        journal = "Trans. Faraday Soc.",
+        volume = "55",
+        pages = """572""",
+        year = "1959",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1959KER/TRO572:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00006096
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006096/rk00000001.xml
+Bath gas: n-C3H7CHO
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Fri Jul 27 09:46:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1959KER/TRO572:3"""),
+    ],
+)
+

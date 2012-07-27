@@ -470,66 +470,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 626,
-    label = "r00006096",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *1 C 0 {1,S} {4,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {2,S} {6,D}
-5 *2 H 0 {2,S}
-6    O 0 {4,D}
-""",
-    reactant2 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3 *3 C 1 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *1 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4 *2 H 0 {2,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3 *3 C 1 {1,S} {4,S}
-4    C 0 {3,S} {5,D}
-5    O 0 {4,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (200000,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (28019.8,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Kerr, J.A.", "Trotman-Dickenson, A.F."],
-        title = u'The reactions of alkyl radicals. Part 1.-n-Propyl radicals from the photolysis of n-butyraldehyde',
-        journal = "Trans. Faraday Soc.",
-        volume = "55",
-        pages = """572""",
-        year = "1959",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00006096/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006096/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:57 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006096/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 627,
     label = "r00006096",
     reactant1 = 
