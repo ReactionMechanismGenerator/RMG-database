@@ -77680,3 +77680,60 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 1295,
+    label = "2001DIN/ZHA8206-8215:1",
+    reactant1 = 
+"""
+1    C 0 {2,T}
+2 *3 C 1 {1,T}
+""",
+    reactant2 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,T}
+2 *1 C 0 {1,T} {3,S}
+3 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 O 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.26e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (18.225,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (295,"K"),
+        Tmax = (451,"K"),
+    ),
+    reference = Article(
+        authors = ["Ding, Y.", "Zhang, X.", "Li, Z.", "Huang, X.", "Sun, C."],
+        title = u'Is the C2H + H2O Reaction Anomalous?',
+        journal = "J. Phys. Chem. A",
+        volume = "105",
+        pages = """8206-8215""",
+        year = "2001",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2001DIN/ZHA8206-8215:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010403
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010403/rk00000003.xml
+Category: Theory
+Data type: Transition state theory
+
+The rate constant was calculated by CCSD(T)/6-311+G(3df,2p)/QCISD/6-311G(d,p)+ZPVE CVT/SCT. The results of this theoretical study indicate that the C2H+H2O ->C2H2+OH reaction is slow.
+""",
+    history = [
+        ("Fri Jul 27 10:53:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001DIN/ZHA8206-8215:1"""),
+    ],
+)
+

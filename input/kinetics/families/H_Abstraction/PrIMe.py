@@ -840,57 +840,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 893,
-    label = "r00010403",
-    reactant1 = 
-"""
-1    C 0 {2,T}
-2 *3 C 1 {1,T}
-""",
-    reactant2 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,T}
-2 *1 C 0 {1,T} {3,S}
-3 *2 H 0 {2,S}
-""",
-    product2 = 
-"""
-1 *3 O 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.26465e+06,"cm^3/(molecule*s)"),
-        n = 0,
-        Ea = (-18225.3,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Ding, Y.", "Zhang, X.", "Li, Z.", "Huang, X.", "Sun, C."],
-        title = u'Is the C_2H + H_2O Reaction Anomalous?',
-        journal = "J. Phys. Chem. A",
-        volume = "105",
-        pages = """8206-8215""",
-        year = "2001",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010403/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010403/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010403/rk00000003.xml"""),
-        ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units of the preexponential factor."""),
-    ],
-)
-
-entry(
     index = 894,
     label = "r00010403",
     reactant1 = 
