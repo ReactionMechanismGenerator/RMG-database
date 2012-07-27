@@ -75263,3 +75263,60 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 1259,
+    label = "1992TSA3-8:2",
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,D}
+3 *1 C 0 {2,D} {4,S}
+4 *2 H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,D}
+3 *3 C 1 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (0.783,"m^3/(mol*s)"),
+        n = 2.5,
+        Ea = (51.383,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (950,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for hydrocarbon pyrolysis',
+        journal = "Ind. Eng. Chem.",
+        volume = "31",
+        pages = """3-8""",
+        year = "1992",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1992TSA3-8:2",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00005746
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005746/rk00000002.xml
+Category: Review
+Data type: Experimental value and limited review
+""",
+    history = [
+        ("Fri Jul 27 09:33:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992TSA3-8:2"""),
+    ],
+)
+

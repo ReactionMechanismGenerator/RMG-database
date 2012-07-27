@@ -470,58 +470,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 591,
-    label = "r00005746",
-    reactant1 = 
-"""
-1    C 0 {2,S}
-2    C 0 {1,S} {3,D}
-3 *1 C 0 {2,D} {4,S}
-4 *2 H 0 {3,S}
-""",
-    reactant2 = 
-"""
-1 *3 H 1
-""",
-    product1 = 
-"""
-1 *1 H 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2    C 0 {1,S} {3,D}
-3 *3 C 1 {2,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (0.782782,"cm^3/(mol*s)"),
-        n = 2.5,
-        Ea = (51383.4,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Tsang, W."],
-        title = u'Chemical kinetic data base for hydrocarbon pyrolysis',
-        journal = "Ind. Eng. Chem.",
-        volume = "31",
-        pages = """3-8""",
-        year = "1992",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00005746/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005746/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:33:55 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00005746/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 592,
     label = "r00005747",
     reactant1 = 
