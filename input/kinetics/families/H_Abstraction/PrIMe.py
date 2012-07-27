@@ -1030,58 +1030,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 1060,
-    label = "r00011639",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {4,S}
-2    O 0 {1,S} {3,S}
-3    O 0 {2,S}
-4 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1 *3 O 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1 *3 C 1 {2,S}
-2    O 0 {1,S} {3,S}
-3    O 0 {2,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (1.08e+06,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-1829.18,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."],
-        title = u'Evaluated kinetic data for combustion modelling',
-        journal = "J. Phys. Chem. Ref. Data",
-        volume = "21",
-        pages = """411-429""",
-        year = "1992",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000006.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000006.xml
-""",
-    history = [
-        ("Tue May 17 14:34:49 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000006.xml"""),
-    ],
-)
-
-entry(
     index = 1061,
     label = "r00011639",
     reactant1 = 

@@ -77806,3 +77806,61 @@ Used quantum calculations to compute many, many possible pathways for reactions 
     ],
 )
 
+entry(
+    index = 1297,
+    label = "1992BAU/COB411-429:163",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {4,S}
+2    O 0 {1,S} {3,S}
+3    O 0 {2,S}
+4 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *3 O 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *3 C 1 {2,S}
+2    O 0 {1,S} {3,S}
+3    O 0 {2,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.08e+06,"m^3/(mol*s)","*|/",2),
+        n = 0,
+        Ea = (-1.829,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1000,"K"),
+    ),
+    reference = Article(
+        authors = ["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."],
+        title = u'Evaluated kinetic data for combustion modelling',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "21",
+        pages = """411-429""",
+        year = "1992",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:163",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011639
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000006.xml
+Uncertainty: 2.0
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Fri Jul 27 11:25:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:163"""),
+    ],
+)
+
