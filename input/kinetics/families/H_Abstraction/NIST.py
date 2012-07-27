@@ -78659,3 +78659,65 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 1311,
+    label = "1986TAK/HOW687:1",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    O 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    O 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (121000,"m^3/(mol*s)","+|-",36000),
+        n = 0,
+        Ea = (-4.947,"kJ/mol","+|-",0.989),
+        T0 = (1,"K"),
+        Tmin = (253,"K"),
+        Tmax = (390,"K"),
+        Pmin = (133,"Pa"),
+        Pmax = (800,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Takacs, G.A.", "Howard, C.J."],
+        title = u'Temperature dependence of the reaction HO2 + HO2 at low pressures',
+        journal = "J. Phys. Chem.",
+        volume = "90",
+        pages = """687""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986TAK/HOW687:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013692
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000031.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Electron beam
+Analytical technique: Laser magnetic resonance (LMR)
+""",
+    history = [
+        ("Fri Jul 27 12:00:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TAK/HOW687:1"""),
+    ],
+)
+

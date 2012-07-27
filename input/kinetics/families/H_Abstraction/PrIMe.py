@@ -1276,58 +1276,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 1132,
-    label = "r00013692",
-    reactant1 = 
-"""
-1 *1 O 0 {2,S} {3,S}
-2    O 1 {1,S}
-3 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1    O 0 {2,S}
-2 *3 O 1 {1,S}
-""",
-    product1 = 
-"""
-1    O 0 {2,S}
-2 *1 O 0 {1,S} {3,S}
-3 *2 H 0 {2,S}
-""",
-    product2 = 
-"""
-1 *3 O 1 {2,S}
-2    O 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (121000,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-4947.11,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Takacs, G.A.", "Howard, C.J."],
-        title = u'Temperature dependence of the reaction HO_2 + HO_2 at low pressures',
-        journal = "J. Phys. Chem.",
-        volume = "90",
-        pages = """687""",
-        year = "1986",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000031.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000031.xml
-""",
-    history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000031.xml"""),
-    ],
-)
-
-entry(
     index = 1133,
     label = "r00013692",
     reactant1 = 
