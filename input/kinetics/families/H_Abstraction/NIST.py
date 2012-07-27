@@ -78295,3 +78295,65 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 1305,
+    label = "1981BUR/COX147:1",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    O 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    O 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (46300,"m^3/(mol*s)","+|-",1400),
+        n = 0,
+        Ea = (-8.481,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (308,"K"),
+        Tmax = (348,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Burrows, J.P.", "Cox, R.a.", "Derwent, R.G."],
+        title = u'Modulated Photolysis of the Ozone-Water Vapour System: Kinetics of the Reaction of OH with HO2',
+        journal = "J. Photochem.",
+        volume = "16",
+        pages = """147""",
+        year = "1981",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981BUR/COX147:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013692
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000019.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Direct photolysis
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Fri Jul 27 11:51:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BUR/COX147:1"""),
+    ],
+)
+
