@@ -1276,59 +1276,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 1141,
-    label = "r00013692",
-    reactant1 = 
-"""
-1 *1 O 0 {2,S} {3,S}
-2    O 1 {1,S}
-3 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1    O 0 {2,S}
-2 *3 O 1 {1,S}
-""",
-    product1 = 
-"""
-1    O 0 {2,S}
-2 *1 O 0 {1,S} {3,S}
-3 *2 H 0 {2,S}
-""",
-    product2 = 
-"""
-1 *3 O 1 {2,S}
-2    O 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (132487,"cm^3/(molecule*s)"),
-        n = 0,
-        Ea = (-4988.68,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Atkinson, R.", "Baulch, D.L.", "Cox, R.A.", "Crowley, J.N.", "Hampson, R.F.", "Hynes, R.G.", "Jenkin, M.E.", "Rossi, M.J.", "Troe, J."],
-        title = u'Evaluated kinetic and photochemical data for atmospheric chemistry: Volume I - gas phase reactions of Ox, HOx, NOx and SOx species',
-        journal = "Atmos. Chem. Phys.",
-        volume = "4",
-        pages = """1461-1738""",
-        year = "2004",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000046.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000046.xml
-""",
-    history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000046.xml"""),
-        ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units of the preexponential factor."""),
-    ],
-)
-
-entry(
     index = 1144,
     label = "r00013765",
     reactant1 = 
