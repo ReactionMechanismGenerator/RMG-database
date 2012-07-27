@@ -78109,3 +78109,65 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 1302,
+    label = "1979COX/BUR2560:1",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    O 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    O 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (22900,"m^3/(mol*s)","+|-",8500),
+        n = 0,
+        Ea = (-10.393,"kJ/mol","+|-",1.663),
+        T0 = (1,"K"),
+        Tmin = (273,"K"),
+        Tmax = (339,"K"),
+        Pmin = (400,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Cox, R.A.", "Burrows, J.P."],
+        title = u'Kinetics and Mechanism of the Disproportionation of HO2 in the Gas Phase',
+        journal = "J. Phys. Chem.",
+        volume = "83",
+        pages = """2560""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979COX/BUR2560:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013692
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000010.xml
+Bath gas: O2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Direct photolysis
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Fri Jul 27 11:48:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979COX/BUR2560:1"""),
+    ],
+)
+
