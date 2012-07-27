@@ -886,69 +886,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 987,
-    label = "r00011158",
-    reactant1 = 
-"""
-1    C 0 {2,B} {3,B}
-2    C 0 {1,B} {4,B}
-3    C 0 {1,B} {5,B}
-4    C 0 {2,B} {6,B}
-5    C 0 {3,B} {6,B}
-6 *3 C 1 {4,B} {5,B}
-""",
-    reactant2 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *1 C 0 {1,S} {3,D} {4,S}
-3    C 0 {1,S} {2,D}
-4 *2 H 0 {2,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,B} {3,B}
-2    C 0 {1,B} {4,B}
-3    C 0 {1,B} {5,B}
-4    C 0 {2,B} {6,B}
-5    C 0 {3,B} {6,B}
-6 *1 C 0 {4,B} {5,B} {7,S}
-7 *2 H 0 {6,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {3,D}
-3 *3 C 1 {1,S} {2,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (0.000594385,"cm^3/(molecule*s)"),
-        n = 3.13,
-        Ea = (493.694,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Vereecken, L.", "Peeters, J."],
-        title = u'Reactions of chemically activated C9H9 species II: The reaction of phenyl radicals with allene and cyclopropene, and of benzyl radicals with acetylene',
-        journal = "Phys. Chem. Chem. Phys.",
-        volume = "5",
-        pages = """2807-2817""",
-        year = "2003",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011158/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011158/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011158/rk00000001.xml"""),
-        ("Tue May 17 16:45:41 2011","Josh Allen <jwallen@mit.edu>","action","""Fixed a typo in the units of the preexponential factor."""),
-    ],
-)
-
-entry(
     index = 1000,
     label = "r00011303",
     reactant1 = 
