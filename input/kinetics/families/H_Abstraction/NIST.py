@@ -77418,3 +77418,75 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 1291,
+    label = "1984SWA/WAD63:10",
+    reactant1 = 
+"""
+1 *1 C 0 {3,S} {5,S}
+2    C 0 {4,S}
+3    C 0 {1,S} {4,D}
+4    C 0 {2,S} {3,D}
+5 *2 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *3 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *1 O 0 {1,S} {6,S}
+6 *2 H 0 {5,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,D}
+3    C 0 {2,D} {4,S}
+4 *3 C 1 {3,S}
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (1.95e+07,"m^3/(mol*s)","*|/",1.7),
+        n = 0,
+        Ea = (26.523,"kJ/mol","+|-",1.854),
+        T0 = (1,"K"),
+        Tmin = (399,"K"),
+        Tmax = (434,"K"),
+        Pmin = (26700,"Pa"),
+        Pmax = (93300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Sway, M.I.", "Waddington, D.J."],
+        title = u'Reactons of oxygenated radicals in the gas phase. Part 13. Reactions of t-Butoxyl radicals with alkanes and alkenes',
+        journal = "J. Chem. Soc. Perkin Trans. 2",
+        pages = """63""",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984SWA/WAD63:10",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008214
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008214/rk00000001.xml
+Uncertainty: 1.7
+Bath gas: N2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Fri Jul 27 10:45:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984SWA/WAD63:10"""),
+    ],
+)
+

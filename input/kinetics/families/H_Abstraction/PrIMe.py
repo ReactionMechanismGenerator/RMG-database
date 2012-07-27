@@ -628,67 +628,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 732,
-    label = "r00008214",
-    reactant1 = 
-"""
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {4,S}
-3    C 0 {1,S} {4,D}
-4    C 0 {2,S} {3,D}
-5 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *3 O 1 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *1 O 0 {1,S} {6,S}
-6 *2 H 0 {5,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2    C 0 {1,S} {3,D}
-3    C 0 {2,D} {4,S}
-4 *3 C 1 {3,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (1.95e+07,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (26523.2,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Sway, M.I.", "Waddington, D.J."],
-        title = u'Reactons of oxygenated radicals in the gas phase. Part 13. Reactions of t-Butoxyl radicals with alkanes and alkenes',
-        journal = "J. Chem. Soc. Perkin Trans. 2",
-        pages = """63""",
-        year = "1984",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00008214/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008214/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008214/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 756,
     label = "r00009460",
     reactant1 = 
