@@ -706,49 +706,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 32,
-    label = "r00001661",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 O 0 {1,S}
-""",
-    product1 = 
-"""
-1 * O 1
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.9e+16,"s^-1"),
-        n = 0,
-        Ea = (384129,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Tsang, W."],
-        title = u'Chemical kinetic data base for combustion chemistry. Part 2. Methanol',
-        journal = "J. Phys. Chem. Ref. Data",
-        volume = "16",
-        pages = """471""",
-        year = "1987",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000011.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000011.xml
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000011.xml"""),
-    ],
-)
-
-entry(
     index = 33,
     label = "r00001661",
     reactant1 = 
