@@ -24553,3 +24553,55 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 423,
+    label = "1983KAN/PUR845:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (4.27e+16,"s^-1","*|/",1.51),
+        n = 0,
+        Ea = (369.994,"kJ/mol","+|-",3.7),
+        T0 = (1,"K"),
+        Tmin = (841,"K"),
+        Tmax = (913,"K"),
+        Pmin = (133,"Pa"),
+        Pmax = (2666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kanan, K.", "Purnell, H.", "Sepherad, A."],
+        title = u'Induced heterogeneity, a novel technique for the study of gas-phase reactions. 2. Direct study of C-C bond scission in ethane',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "15",
+        pages = """845""",
+        year = "1983",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1983KAN/PUR845:2",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000035.xml
+Uncertainty: 1.51
+Bath gas: C2H6
+Category: Review
+Data type: Experimental value and limited review
+""",
+    history = [
+        ("Mon Jul 30 18:46:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983KAN/PUR845:2"""),
+    ],
+)
+
