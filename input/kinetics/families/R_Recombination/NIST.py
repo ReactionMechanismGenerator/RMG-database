@@ -25004,3 +25004,54 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 432,
+    label = "1995DAV/HAN305-308:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (7.94e+11,"s^-1"),
+        n = 0,
+        Ea = (251.929,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1450,"K"),
+        Tmax = (1940,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Davidson, D.F.", "Hanson, R.K.", "Bowman, C.T."],
+        title = u'Communication: revised values for the rate coefficients of ethane and methane decomposition',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "27",
+        pages = """305-308""",
+        year = "1995",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995DAV/HAN305-308:2",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000054.xml
+Bath gas: Ar
+Category: Review
+Data type: Experimental value and limited review
+""",
+    history = [
+        ("Mon Jul 30 19:02:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995DAV/HAN305-308:2"""),
+    ],
+)
+
