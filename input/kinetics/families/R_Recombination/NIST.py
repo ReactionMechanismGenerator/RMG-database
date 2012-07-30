@@ -24652,3 +24652,51 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 425,
+    label = "1985DEA4600-4608:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (7.94e+16,"s^-1"),
+        n = 0,
+        Ea = (374.151,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Dean, A.M."],
+        title = u'Predictions of pressure and temperature effects upon radical addition and recombination reactions',
+        journal = "J. Phys. Chem.",
+        volume = "89",
+        pages = """4600-4608""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000040.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Mon Jul 30 18:47:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:2"""),
+    ],
+)
+
