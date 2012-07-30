@@ -1346,49 +1346,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 60,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (197000,"s^-1"),
-        n = 0,
-        Ea = (62691.1,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Skinner, G.B.", "Ball, W.E."],
-        title = u'Shock tube experiments on the pyrolysis of ethane',
-        journal = "J. Phys. Chem.",
-        volume = "64",
-        pages = """1025""",
-        year = "1960",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 61,
     label = "r00002085",
     reactant1 = 

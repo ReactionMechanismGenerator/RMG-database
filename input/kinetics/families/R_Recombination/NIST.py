@@ -23291,3 +23291,54 @@ Analytical technique: Mass spectrometry
     ],
 )
 
+entry(
+    index = 399,
+    label = "1960SKI/BAL1025:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (197000,"s^-1"),
+        n = 0,
+        Ea = (62.691,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1330,"K"),
+        Tmax = (1740,"K"),
+    ),
+    reference = Article(
+        authors = ["Skinner, G.B.", "Ball, W.E."],
+        title = u'Shock tube experiments on the pyrolysis of ethane',
+        journal = "J. Phys. Chem.",
+        volume = "64",
+        pages = """1025""",
+        year = "1960",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1960SKI/BAL1025:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000003.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 17:56:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960SKI/BAL1025:1"""),
+    ],
+)
+
