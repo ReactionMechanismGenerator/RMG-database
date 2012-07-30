@@ -24134,3 +24134,56 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 415,
+    label = "1979ROT/JUS1339:5",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2e+15,"s^-1"),
+        n = 0,
+        Ea = (349.208,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1450,"K"),
+        Tmax = (2100,"K"),
+        Pmin = (175000,"Pa"),
+        Pmax = (185000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Roth, P.", "Just, T.H."],
+        title = u'Measurements of Some Elementary Hydrocarbon Reactions at High Temperatures',
+        journal = "NBS Spec. Publ. (U.S.)",
+        volume = "10",
+        pages = """1339""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979ROT/JUS1339:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000024.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Mon Jul 30 18:35:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979ROT/JUS1339:5"""),
+    ],
+)
+
