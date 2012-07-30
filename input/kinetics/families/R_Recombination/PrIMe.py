@@ -9,51 +9,6 @@ longDesc = u"""
 recommended = False
 
 entry(
-    index = 1,
-    label = "r00001337",
-    reactant1 = 
-"""
-1 *1 C 0 {2,D} {3,S}
-2    O 0 {1,D}
-3 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1 {2,D}
-2   O 0 {1,D}
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (1e+14,"s^-1"),
-        n = 0,
-        Ea = (364174,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Aronowitz, D.", "Naegeli, D.W.", "Glassman, I."],
-        title = u'Kinetics of the pyrolysis of methanol',
-        journal = "J. Phys. Chem.",
-        volume = "81",
-        pages = """2555""",
-        year = "1977",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:33:30 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 2,
     label = "r00001337",
     reactant1 = 

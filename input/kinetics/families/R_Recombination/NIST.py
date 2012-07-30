@@ -22884,3 +22884,56 @@ Analytical technique: Other (direct)
     ],
 )
 
+entry(
+    index = 391,
+    label = "1977ARO/NAE471:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,D} {3,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1 {2,D}
+2   O 0 {1,D}
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1e+14,"s^-1"),
+        n = 0,
+        Ea = (364.174,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1060,"K"),
+        Tmax = (1220,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Aronowitz, D.", "Naegeli, D."],
+        title = u'High-Temperature Pyrolysis of Dimethyl Ether',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "9",
+        pages = """471""",
+        year = "1977",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1977ARO/NAE471:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001337
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000003.xml
+Bath gas: N2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Mon Jul 30 15:58:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977ARO/NAE471:1"""),
+    ],
+)
+
