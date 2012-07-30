@@ -1346,49 +1346,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 70,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (5.01e+16,"s^-1"),
-        n = 0,
-        Ea = (369994,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Pacey, P.D.", "Purnell, J.H."],
-        title = u'Arrhenius Parameters of the Reaction CH_3^. + C_2H_6 \u2192 CH_4 + C_2H_5^.',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "68",
-        pages = """1462""",
-        year = "1972",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000017.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000017.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000017.xml"""),
-    ],
-)
-
-entry(
     index = 71,
     label = "r00002085",
     reactant1 = 

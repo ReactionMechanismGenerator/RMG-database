@@ -23816,3 +23816,56 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 409,
+    label = "1972PAC/PUR1462:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (5.01e+16,"s^-1"),
+        n = 0,
+        Ea = (369.994,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (920,"K"),
+        Tmax = (1040,"K"),
+        Pmin = (13.33,"Pa"),
+        Pmax = (26700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Pacey, P.D.", "Purnell, J.H."],
+        title = u'Arrhenius Parameters of the Reaction CH3. + C2H6 \u2192\x92 CH4 + C2H5.',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "68",
+        pages = """1462""",
+        year = "1972",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1972PAC/PUR1462:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000017.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:04:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972PAC/PUR1462:1"""),
+    ],
+)
+
