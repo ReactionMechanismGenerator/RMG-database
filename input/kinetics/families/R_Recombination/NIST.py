@@ -24901,3 +24901,52 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 430,
+    label = "1992BAU/COB411-429:32",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.8e+21,"s^-1","*|/",2),
+        n = -1.24,
+        Ea = (379.971,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."],
+        title = u'Evaluated kinetic data for combustion modelling',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "21",
+        pages = """411-429""",
+        year = "1992",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:32",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000046.xml
+Uncertainty: 2.0
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Mon Jul 30 19:00:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:32"""),
+    ],
+)
+
