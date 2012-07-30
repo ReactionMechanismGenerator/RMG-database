@@ -23768,3 +23768,51 @@ Analytical technique: Other (direct)
     ],
 )
 
+entry(
+    index = 408,
+    label = "1971WAA/RAB105-125:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.26e+18,"s^-1"),
+        n = 0,
+        Ea = (379.14,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (860,"K"),
+        Tmax = (890,"K"),
+    ),
+    reference = Article(
+        authors = ["Waage, E.V.", "Rabinovitch, B.S."],
+        title = u'Some aspects of theory and experiment in the ethane-methyl radical system',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "3",
+        pages = """105-125""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971WAA/RAB105-125:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000016.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Mon Jul 30 18:03:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971WAA/RAB105-125:1"""),
+    ],
+)
+
