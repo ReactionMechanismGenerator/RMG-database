@@ -23501,3 +23501,58 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 403,
+    label = "1963QUI190:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.82e+17,"s^-1","*|/",10),
+        n = 0,
+        Ea = (384.129,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (837,"K"),
+        Tmax = (881,"K"),
+        Pmin = (8133,"Pa"),
+        Pmax = (26900,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Quinn, C.P."],
+        title = u'The thermal dissociation and pyrolysis of ethane',
+        journal = "Proc. R. Soc. London A",
+        volume = "275",
+        pages = """190""",
+        year = "1963",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1963QUI190:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000008.xml
+Uncertainty: 10.0
+Bath gas: C2H6
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+Note: Invalid Ea value uncertainty (8314472.0) found and ignored
+""",
+    history = [
+        ("Mon Jul 30 18:00:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963QUI190:1"""),
+    ],
+)
+

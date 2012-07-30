@@ -1346,49 +1346,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 64,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (2.82e+17,"s^-1"),
-        n = 0,
-        Ea = (384129,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Quinn, C.P."],
-        title = u'The thermal dissociation and pyrolysis of ethane',
-        journal = "Proc. R. Soc. London A",
-        volume = "275",
-        pages = """190""",
-        year = "1963",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000008.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000008.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000008.xml"""),
-    ],
-)
-
-entry(
     index = 65,
     label = "r00002085",
     reactant1 = 
