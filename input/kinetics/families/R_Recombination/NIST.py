@@ -22988,3 +22988,56 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 393,
+    label = "1981TSU/KAT985:3",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2e+18,"s^-1"),
+        n = 0,
+        Ea = (394.937,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1500,"K"),
+        Tmax = (1900,"K"),
+        Pmin = (933,"Pa"),
+        Pmax = (933,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Tsuboi, T.", "Katoh, M.", "Kikuchi, S.", "Hashimoto, K."],
+        title = u'Thermal Decomposition of Methanol behind Shock Waves',
+        journal = "Jpn. J. Appl. Phys.",
+        volume = "20",
+        pages = """985""",
+        year = "1981",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981TSU/KAT985:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001661
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000005.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Mon Jul 30 16:06:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981TSU/KAT985:3"""),
+    ],
+)
+
