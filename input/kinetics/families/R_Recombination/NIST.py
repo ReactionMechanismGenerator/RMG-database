@@ -24080,3 +24080,57 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 414,
+    label = "1979PRA/ROG1089:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (7.94e+15,"s^-1","*|/",2),
+        n = 0,
+        Ea = (326.759,"kJ/mol","+|-",6.543),
+        T0 = (1,"K"),
+        Tmin = (941,"K"),
+        Tmax = (1070,"K"),
+        Pmin = (80000,"Pa"),
+        Pmax = (80000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Pratt, G.", "Rogers, D."],
+        title = u'Wall-less Reactor Studies. Part 1. - Ethane Pyrolysis',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "75",
+        pages = """1089""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979PRA/ROG1089:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000023.xml
+Uncertainty: 2.0
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:35:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979PRA/ROG1089:1"""),
+    ],
+)
+
