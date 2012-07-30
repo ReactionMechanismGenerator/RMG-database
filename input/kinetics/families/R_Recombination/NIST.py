@@ -23239,3 +23239,55 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 398,
+    label = "1958KEN/ROB660-666:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+13,"s^-1"),
+        n = 0,
+        Ea = (263.569,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (803,"K"),
+        Tmax = (943,"K"),
+        Pmin = (3333,"Pa"),
+        Pmax = (33300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kenwright, R.", "Robinson, P.L.", "Trenwith, A.B."],
+        title = u'The kinetics of the oxidation of ethane by nitrous oxide',
+        journal = "J. Chem. Soc.",
+        pages = """660-666""",
+        year = "1958",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1958KEN/ROB660-666:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000001.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Mon Jul 30 17:55:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1958KEN/ROB660-666:1"""),
+    ],
+)
+
