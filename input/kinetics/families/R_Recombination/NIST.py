@@ -23715,3 +23715,56 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 407,
+    label = "1966TRE1538:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2e+16,"s^-1"),
+        n = 0,
+        Ea = (368.331,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (839,"K"),
+        Tmax = (873,"K"),
+        Pmin = (267,"Pa"),
+        Pmax = (1467,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Trenwith, A.B."],
+        title = u'Dissociation and kinetics of thermal decomposition of ethane',
+        journal = "J. Chem. Soc. Faraday Trans.",
+        volume = "62",
+        pages = """1538""",
+        year = "1966",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1966TRE1538:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000014.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Mon Jul 30 18:03:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966TRE1538:1"""),
+    ],
+)
+
