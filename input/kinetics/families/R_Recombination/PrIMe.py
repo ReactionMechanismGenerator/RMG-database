@@ -1346,49 +1346,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 67,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1e+16,"s^-1"),
-        n = 0,
-        Ea = (360017,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Lin, M.C.", "Back, M.H."],
-        title = u'The thermal decomposition of ethane. Part I. Initiation and termination steps',
-        journal = "Can. J. Chem.",
-        volume = "44",
-        pages = """505-514""",
-        year = "1966",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000012.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000012.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000012.xml"""),
-    ],
-)
-
-entry(
     index = 68,
     label = "r00002085",
     reactant1 = 

@@ -23661,3 +23661,57 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 406,
+    label = "1966LIN/BAC505-514:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+16,"s^-1","*|/",1.16),
+        n = 0,
+        Ea = (360.017,"kJ/mol","+|-",1.546),
+        T0 = (1,"K"),
+        Tmin = (823,"K"),
+        Tmax = (893,"K"),
+        Pmin = (5333,"Pa"),
+        Pmax = (80000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Lin, M.C.", "Back, M.H."],
+        title = u'The thermal decomposition of ethane. Part I. Initiation and termination steps',
+        journal = "Can. J. Chem.",
+        volume = "44",
+        pages = """505-514""",
+        year = "1966",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1966LIN/BAC505-514:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000012.xml
+Uncertainty: 1.16
+Bath gas: C2H6
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:02:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966LIN/BAC505-514:2"""),
+    ],
+)
+
