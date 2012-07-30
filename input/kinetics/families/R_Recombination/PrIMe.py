@@ -1346,49 +1346,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 90,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.31e+19,"s^-1"),
-        n = -2.79,
-        Ea = (389949,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Stewart, P.H.", "Larson, C.W.", "Golden, D.M."],
-        title = u'Pressure and temperature dependence of reactions proceeding via a bound complex. 2. Application to 2CH\u2083 \u2192 C\u2082H\u2085 + H',
-        journal = "Combust. Flame",
-        volume = "75",
-        pages = """25-31""",
-        year = "1989",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000044.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000044.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000044.xml"""),
-    ],
-)
-
-entry(
     index = 91,
     label = "r00002085",
     reactant1 = 

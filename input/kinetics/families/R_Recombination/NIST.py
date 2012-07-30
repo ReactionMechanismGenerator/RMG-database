@@ -24803,3 +24803,52 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 428,
+    label = "1989STE/LAR25-31:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.05e+26,"s^-1"),
+        n = -2.79,
+        Ea = (389.949,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Stewart, P.H.", "Larson, C.W.", "Golden, D.M."],
+        title = u'Pressure and temperature dependence of reactions proceeding via a bound complex. 2. Application to 2CH3 \u2192\x92 C2H5 + H',
+        journal = "Combust. Flame",
+        volume = "75",
+        pages = """25-31""",
+        year = "1989",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1989STE/LAR25-31:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000044.xml
+Bath gas: Ar
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Mon Jul 30 18:50:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989STE/LAR25-31:1"""),
+    ],
+)
+
