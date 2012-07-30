@@ -24446,3 +24446,56 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 421,
+    label = "1981SKI/ROG481:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.58e+17,"s^-1"),
+        n = 0,
+        Ea = (380.803,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (1300,"K"),
+        Pmin = (304000,"Pa"),
+        Pmax = (912000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Skinner, G.B.", "Rogers, D.", "Patel, K.B."],
+        title = u'Consistency of theory and experiment in the ethane-methyl radical system',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "13",
+        pages = """481""",
+        year = "1981",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981SKI/ROG481:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000033.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:45:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981SKI/ROG481:1"""),
+    ],
+)
+
