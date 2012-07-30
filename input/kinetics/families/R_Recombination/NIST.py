@@ -24240,3 +24240,54 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 417,
+    label = "1979TRE614:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (6.31e+16,"s^-1"),
+        n = 0,
+        Ea = (372.488,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (840,"K"),
+        Tmax = (913,"K"),
+        Pmin = (87700,"Pa"),
+        Pmax = (92300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Trenwith, A.B."],
+        title = u'Re-examination of the Thermal Dissociation of Ethane',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "75",
+        pages = """614""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979TRE614:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000027.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Mon Jul 30 18:37:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979TRE614:2"""),
+    ],
+)
+
