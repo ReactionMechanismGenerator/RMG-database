@@ -24753,3 +24753,53 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 427,
+    label = "1986TSA/HAM1087:28",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.17e+22,"s^-1","*|/",2),
+        n = -1.79,
+        Ea = (380.803,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W.", "Hampson, R.F."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "15",
+        pages = """1087""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:28",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000043.xml
+Uncertainty: 2.0
+Bath gas: Ar
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Mon Jul 30 18:49:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:28"""),
+    ],
+)
+

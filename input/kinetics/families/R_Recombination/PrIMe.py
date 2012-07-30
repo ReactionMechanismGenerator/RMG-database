@@ -1346,49 +1346,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 89,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.18e+18,"s^-1"),
-        n = -1.79,
-        Ea = (380803,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Tsang, W.", "Hampson, R.F."],
-        title = u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds',
-        journal = "J. Phys. Chem. Ref. Data",
-        volume = "15",
-        pages = """1087""",
-        year = "1986",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000043.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000043.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000043.xml"""),
-    ],
-)
-
-entry(
     index = 90,
     label = "r00002085",
     reactant1 = 
