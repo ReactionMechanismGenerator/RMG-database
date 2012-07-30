@@ -1346,49 +1346,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 78,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (5.25e+16,"s^-1"),
-        n = 0,
-        Ea = (371657,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Trenwith, A.B."],
-        title = u'Re-examination of the Thermal Dissociation of Ethane',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "75",
-        pages = """614""",
-        year = "1979",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000026.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000026.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000026.xml"""),
-    ],
-)
-
-entry(
     index = 79,
     label = "r00002085",
     reactant1 = 
