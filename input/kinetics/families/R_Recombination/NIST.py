@@ -23395,3 +23395,56 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 401,
+    label = "1961TOW/MAR693-698:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.6e+12,"s^-1"),
+        n = 0,
+        Ea = (280.198,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1040,"K"),
+        Tmax = (1340,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Towell, g.D.", "Martin, J.J."],
+        title = u'Kinetic data from nonisothermal experiments: thermal decomposition of ethane, ethylene, and acetylene',
+        journal = "AIChE J.",
+        volume = "7",
+        pages = """693-698""",
+        year = "1961",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1961TOW/MAR693-698:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000005.xml
+Bath gas: N2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Mon Jul 30 17:58:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961TOW/MAR693-698:1"""),
+    ],
+)
+

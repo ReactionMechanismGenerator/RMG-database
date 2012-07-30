@@ -1346,49 +1346,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 62,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.6e+12,"s^-1"),
-        n = 0,
-        Ea = (280198,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Towell, g.D.", "Martin, J.J."],
-        title = u'Kinetic data from nonisothermal experiments: thermal decomposition of ethane, ethylene, and acetylene',
-        journal = "AIChE J.",
-        volume = "7",
-        pages = """693-698""",
-        year = "1961",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000005.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000005.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000005.xml"""),
-    ],
-)
-
-entry(
     index = 63,
     label = "r00002085",
     reactant1 = 
