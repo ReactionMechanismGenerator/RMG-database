@@ -22937,3 +22937,54 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 392,
+    label = "1977ARO/NAE2555:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2e+16,"s^-1"),
+        n = 0,
+        Ea = (380.803,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1070,"K"),
+        Tmax = (1220,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Aronowitz, D.", "Naegeli, D.W.", "Glassman, I."],
+        title = u'Kinetics of the pyrolysis of methanol',
+        journal = "J. Phys. Chem.",
+        volume = "81",
+        pages = """2555""",
+        year = "1977",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1977ARO/NAE2555:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001661
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000002.xml
+Bath gas: N2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Mon Jul 30 16:05:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977ARO/NAE2555:2"""),
+    ],
+)
+
