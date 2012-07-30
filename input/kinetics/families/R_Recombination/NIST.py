@@ -23922,3 +23922,57 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 411,
+    label = "1976CLA/QUI706:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.35e+16,"s^-1","*|/",1.21),
+        n = 0,
+        Ea = (362.511,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (778,"K"),
+        Tmax = (878,"K"),
+        Pmin = (1300,"Pa"),
+        Pmax = (215000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Clark, J.A.", "Quinn, C.P."],
+        title = u'Kinetic Isotope Effect in the Thermal Dissociation of Ethane',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "72",
+        pages = """706""",
+        year = "1976",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1976CLA/QUI706:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000020.xml
+Uncertainty: 1.21
+Bath gas: C2H6
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:32:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976CLA/QUI706:1"""),
+    ],
+)
+
