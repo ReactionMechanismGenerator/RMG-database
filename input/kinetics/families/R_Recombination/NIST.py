@@ -24950,3 +24950,57 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 431,
+    label = "1993DAV/DIR969-982:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (4.85e+75,"s^-1","*|/",1.25),
+        n = -17.6,
+        Ea = (488.891,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1350,"K"),
+        Tmax = (2110,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Davidson, D.F.", "DiRosa, M.D.", "Hanson, R.K.", "Bowman, C.T."],
+        title = u'A study of ethane decomposition in a shock tube using laser absorption of CH3',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "25",
+        pages = """969-982""",
+        year = "1993",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1993DAV/DIR969-982:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000049.xml
+Uncertainty: 1.25
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Mon Jul 30 19:01:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DAV/DIR969-982:1"""),
+    ],
+)
+

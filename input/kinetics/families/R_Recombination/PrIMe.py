@@ -1346,49 +1346,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 93,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.38e+32,"s^-1"),
-        n = -17.6,
-        Ea = (488891,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Davidson, D.F.", "DiRosa, M.D.", "Hanson, R.K.", "Bowman, C.T."],
-        title = u'A study of ethane decomposition in a shock tube using laser absorption of CH_3',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "25",
-        pages = """969-982""",
-        year = "1993",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000049.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000049.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000049.xml"""),
-    ],
-)
-
-entry(
     index = 94,
     label = "r00002085",
     reactant1 = 
