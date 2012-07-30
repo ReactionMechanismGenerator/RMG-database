@@ -23976,3 +23976,56 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 412,
+    label = "1979OLS/GAR922:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (7.08e+16,"s^-1"),
+        n = 0,
+        Ea = (377.477,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1330,"K"),
+        Tmax = (2500,"K"),
+        Pmin = (2720,"Pa"),
+        Pmax = (10900,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Olson, D.B.", "Gardiner, W.C., Jr."],
+        title = u'Thermal Dissociation Rate of Ethane at the High Pressure Limit from 250 to 2500 K',
+        journal = "J. Phys. Chem.",
+        volume = "83",
+        pages = """922""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979OLS/GAR922:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000021.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Laser schlieren
+""",
+    history = [
+        ("Mon Jul 30 18:33:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979OLS/GAR922:1"""),
+    ],
+)
+
