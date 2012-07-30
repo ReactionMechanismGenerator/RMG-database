@@ -24029,3 +24029,54 @@ Analytical technique: Laser schlieren
     ],
 )
 
+entry(
+    index = 413,
+    label = "1979OLS/GAR922:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.04e+16,"s^-1"),
+        n = 0,
+        Ea = (367.5,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (250,"K"),
+        Tmax = (2500,"K"),
+        Pmin = (2720,"Pa"),
+        Pmax = (10900,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Olson, D.B.", "Gardiner, W.C., Jr."],
+        title = u'Thermal Dissociation Rate of Ethane at the High Pressure Limit from 250 to 2500 K',
+        journal = "J. Phys. Chem.",
+        volume = "83",
+        pages = """922""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979OLS/GAR922:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000022.xml
+Bath gas: Ar
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Mon Jul 30 18:34:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979OLS/GAR922:2"""),
+    ],
+)
+

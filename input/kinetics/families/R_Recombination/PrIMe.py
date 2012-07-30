@@ -1346,49 +1346,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 74,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (2.04e+16,"s^-1"),
-        n = 0,
-        Ea = (367500,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Olson, D.B.", "Gardiner, W.C., Jr."],
-        title = u'Thermal Dissociation Rate of Ethane at the High Pressure Limit from 250 to 2500 K',
-        journal = "J. Phys. Chem.",
-        volume = "83",
-        pages = """922""",
-        year = "1979",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000022.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000022.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000022.xml"""),
-    ],
-)
-
-entry(
     index = 75,
     label = "r00002085",
     reactant1 = 
