@@ -23041,3 +23041,56 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 394,
+    label = "1982SPI/WAG2:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (9.4e+15,"s^-1"),
+        n = 0,
+        Ea = (375.814,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1600,"K"),
+        Tmax = (2100,"K"),
+        Pmin = (2800,"Pa"),
+        Pmax = (92900,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Spindler, K.", "Wagner, H.Gg."],
+        title = u'Zum thermischen unimolekularen Zerfall von Methanol',
+        journal = "Ber. Bunsenges. Phys. Chem.",
+        volume = "86",
+        pages = """2""",
+        year = "1982",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1982SPI/WAG2:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001661
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000007.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Mon Jul 30 16:07:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982SPI/WAG2:1"""),
+    ],
+)
+

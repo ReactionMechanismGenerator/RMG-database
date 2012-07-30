@@ -706,49 +706,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 30,
-    label = "r00001661",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 O 0 {1,S}
-""",
-    product1 = 
-"""
-1 * O 1
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (9.4e+15,"s^-1"),
-        n = 0,
-        Ea = (375814,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Spindler, K.", "Wagner, H.Gg."],
-        title = u'Zum thermischen unimolekularen Zerfall von Methanol',
-        journal = "Ber. Bunsenges. Phys. Chem.",
-        volume = "86",
-        pages = """2""",
-        year = "1982",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000007.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000007.xml
-""",
-    history = [
-        ("Tue May 17 14:33:31 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000007.xml"""),
-    ],
-)
-
-entry(
     index = 31,
     label = "r00001661",
     reactant1 = 
