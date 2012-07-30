@@ -1346,49 +1346,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 88,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (7e+14,"s^-1"),
-        n = 0,
-        Ea = (335073,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Hidaka, Y.", "Shiba, S.", "Takuma, H.", "Suga, M."],
-        title = u'Thermal decomposition of ethane in shock waves',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "17",
-        pages = """441""",
-        year = "1985",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000041.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000041.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000041.xml"""),
-    ],
-)
-
-entry(
     index = 89,
     label = "r00002085",
     reactant1 = 

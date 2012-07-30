@@ -24700,3 +24700,56 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 426,
+    label = "1985HID/SHI441:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (7e+14,"s^-1"),
+        n = 0,
+        Ea = (335.073,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1200,"K"),
+        Tmax = (1700,"K"),
+        Pmin = (172000,"Pa"),
+        Pmax = (253000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hidaka, Y.", "Shiba, S.", "Takuma, H.", "Suga, M."],
+        title = u'Thermal decomposition of ethane in shock waves',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "17",
+        pages = """441""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985HID/SHI441:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000041.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:48:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985HID/SHI441:1"""),
+    ],
+)
+
