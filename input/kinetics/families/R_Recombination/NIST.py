@@ -24605,3 +24605,50 @@ Data type: Experimental value and limited review
     ],
 )
 
+entry(
+    index = 424,
+    label = "1984WAR197C:16",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.4e+16,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (365.837,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (750,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Book(
+        authors = ["Warnatz, J."],
+        title = u'Rate coefficients in the C/H/O system',
+        publisher = "ed. W.C. Gardiner,Jr., pub. Springer-Verlag,NY",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:16",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000038.xml
+Uncertainty: 3.1600001
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Mon Jul 30 18:47:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:16"""),
+    ],
+)
+
