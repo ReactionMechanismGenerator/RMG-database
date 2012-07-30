@@ -23342,3 +23342,56 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 400,
+    label = "1961LAI/WOJ91-102:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.07e+15,"s^-1"),
+        n = 0,
+        Ea = (305.973,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (823,"K"),
+        Tmax = (903,"K"),
+        Pmin = (4266,"Pa"),
+        Pmax = (84000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Laidler, K.J.", "Wojciechowski, B.W."],
+        title = u'Kinetics and mechanisms of the thermal decomposition of ethane. I. The uninhibited reaction',
+        journal = "Proc. R. Soc. London",
+        volume = "260",
+        pages = """91-102""",
+        year = "1961",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1961LAI/WOJ91-102:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000004.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 17:57:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961LAI/WOJ91-102:1"""),
+    ],
+)
+
