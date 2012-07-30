@@ -24393,3 +24393,56 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 420,
+    label = "1981CHI/SKI3126:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.8e+15,"s^-1"),
+        n = 0,
+        Ea = (352.534,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1240,"K"),
+        Tmax = (1700,"K"),
+        Pmin = (203000,"Pa"),
+        Pmax = (304000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Chiang, C.C.", "Skinner, G.B."],
+        title = u'Resonance Absorption Measurements of Atom Concentrations in Reacting Gas Mixtures. 7. Pyrolysis of C2H6 and C2D6 behind Shock Waves',
+        journal = "J. Phys. Chem.",
+        volume = "85",
+        pages = """3126""",
+        year = "1981",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981CHI/SKI3126:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000031.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Mon Jul 30 18:40:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981CHI/SKI3126:1"""),
+    ],
+)
+

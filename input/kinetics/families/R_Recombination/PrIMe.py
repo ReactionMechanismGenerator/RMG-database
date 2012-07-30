@@ -1346,49 +1346,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 82,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (2.8e+15,"s^-1"),
-        n = 0,
-        Ea = (352534,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Chiang, C.C.", "Skinner, G.B."],
-        title = u'Resonance Absorption Measurements of Atom Concentrations in Reacting Gas Mixtures. 7. Pyrolysis of C_2H_6 and C_2D_6 behind Shock Waves',
-        journal = "J. Phys. Chem.",
-        volume = "85",
-        pages = """3126""",
-        year = "1981",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000031.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000031.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000031.xml"""),
-    ],
-)
-
-entry(
     index = 83,
     label = "r00002085",
     reactant1 = 
