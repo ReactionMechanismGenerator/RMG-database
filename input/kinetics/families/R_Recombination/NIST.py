@@ -23448,3 +23448,56 @@ Analytical technique: Mass spectrometry
     ],
 )
 
+entry(
+    index = 402,
+    label = "1962KOZ/KNO253:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+14,"s^-1"),
+        n = 0,
+        Ea = (288.512,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1160,"K"),
+        Tmax = (1580,"K"),
+        Pmin = (267,"Pa"),
+        Pmax = (800,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kozlov, G.I.", "Knorre, V.G."],
+        title = u'Single-pulse shock tube studies on the kinetics of the thermal decomposition of methane',
+        journal = "Combust. Flame",
+        volume = "6",
+        pages = """253""",
+        year = "1962",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1962KOZ/KNO253:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000007.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 17:59:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962KOZ/KNO253:2"""),
+    ],
+)
+
