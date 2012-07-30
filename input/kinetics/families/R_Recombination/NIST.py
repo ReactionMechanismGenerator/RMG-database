@@ -24852,3 +24852,52 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 429,
+    label = "1989TSA71-86:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.01e+22,"s^-1"),
+        n = -1.79,
+        Ea = (380.803,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (843,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Rate constants for the decomposition and formation of simple alkanes over extended temperature and pressure ranges',
+        journal = "Combust. Flame",
+        volume = "78",
+        pages = """71-86""",
+        year = "1989",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1989TSA71-86:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000045.xml
+Bath gas: Ar
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Mon Jul 30 18:59:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989TSA71-86:2"""),
+    ],
+)
+
