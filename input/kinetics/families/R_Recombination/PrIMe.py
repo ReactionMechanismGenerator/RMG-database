@@ -3446,53 +3446,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 399,
-    label = "r00010242",
-    reactant1 = 
-"""
-1   C 0 {2,S}
-2 * C 1 {1,S}
-""",
-    reactant2 = 
-"""
-1   C 0 {2,S}
-2 * C 1 {1,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (7.59e+06,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (798.189,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Teng, L.", "Jones, W.E."],
-        title = u'Kinetics of the Reactions of Hydrogen Atoms with Ethylene and Vinyl Fluoride',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "68",
-        pages = """1267""",
-        year = "1972",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000009.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000009.xml
-""",
-    history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000009.xml"""),
-    ],
-)
-
-entry(
     index = 411,
     label = "r00010419",
     reactant1 = 
