@@ -3797,61 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 504,
-    label = "r00011168",
-    reactant1 = 
-"""
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
-""",
-    reactant2 = 
-"""
-1 * O 1 {2,S}
-2   O 1 {1,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {5,B}
-3    C 0 {1,B} {6,B}
-4    C 0 {5,B} {6,B}
-5    C 0 {2,B} {4,B}
-6    C 0 {3,B} {4,B}
-7 *2 O 0 {1,S} {8,S}
-8    O 1 {7,S}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (6.03e+06,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (1338.63,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Yu, T.", "Lin, M.C."],
-        title = u'Kinetics of the C_6H_5 + O_2 reaction at low temperatures',
-        journal = "J. Am. Chem. Soc.",
-        volume = "116",
-        pages = """9571-9576""",
-        year = "1994",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011168/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011168/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011168/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 512,
     label = "r00011415",
     reactant1 = 

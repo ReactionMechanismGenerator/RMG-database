@@ -28730,3 +28730,69 @@ Analytical technique: Mass spectrometry
     ],
 )
 
+entry(
+    index = 501,
+    label = "1994YU/LIN9571-9576:1",
+    reactant1 = 
+"""
+1   C 0 {2,B} {3,B}
+2   C 0 {1,B} {4,B}
+3   C 0 {1,B} {5,B}
+4   C 0 {2,B} {6,B}
+5   C 0 {3,B} {6,B}
+6 * C 1 {4,B} {5,B}
+""",
+    reactant2 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {5,B}
+3    C 0 {1,B} {6,B}
+4    C 0 {5,B} {6,B}
+5    C 0 {2,B} {4,B}
+6    C 0 {3,B} {4,B}
+7 *2 O 0 {1,S} {8,S}
+8    O 1 {7,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (6.03e+06,"m^3/(mol*s)","*|/",1.2),
+        n = 0,
+        Ea = (1.339,"kJ/mol","+|-",0.549),
+        T0 = (1,"K"),
+        Tmin = (297,"K"),
+        Tmax = (473,"K"),
+        Pmin = (2666,"Pa"),
+        Pmax = (10700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Yu, T.", "Lin, M.C."],
+        title = u'Kinetics of the C6H5 + O2 reaction at low temperatures',
+        journal = "J. Am. Chem. Soc.",
+        volume = "116",
+        pages = """9571-9576""",
+        year = "1994",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1994YU/LIN9571-9576:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011168
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011168/rk00000002.xml
+Uncertainty: 1.2
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 12:23:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994YU/LIN9571-9576:1"""),
+    ],
+)
+
