@@ -1697,49 +1697,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 109,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 * C 1
-""",
-    reactant2 = 
-"""
-1 * C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.67e+07,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-1280.43,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["MacPherson, M.T.", "Pilling, M.J.", "Smith, M.J.C."],
-        title = u'The pressure and temperature dependence of the rate constant for methyl radical recombination over the temperature range 296-577 K',
-        journal = "Chem. Phys. Lett.",
-        volume = "94",
-        pages = """430""",
-        year = "1983",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000105.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000105.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000105.xml"""),
-    ],
-)
-
-entry(
     index = 110,
     label = "r00002085",
     reactant1 = 

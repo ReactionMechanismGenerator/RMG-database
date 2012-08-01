@@ -25263,3 +25263,57 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 437,
+    label = "1983MAC/PIL430:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.67e+07,"m^3/(mol*s)","+|-",1e+06),
+        n = 0,
+        Ea = (-1.28,"kJ/mol","+|-",0.18),
+        T0 = (1,"K"),
+        Tmin = (296,"K"),
+        Tmax = (577,"K"),
+        Pmin = (667,"Pa"),
+        Pmax = (66700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["MacPherson, M.T.", "Pilling, M.J.", "Smith, M.J.C."],
+        title = u'The pressure and temperature dependence of the rate constant for methyl radical recombination over the temperature range 296-577 K',
+        journal = "Chem. Phys. Lett.",
+        volume = "94",
+        pages = """430""",
+        year = "1983",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1983MAC/PIL430:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000105.xml
+Uncertainty: 1.3
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 10:17:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983MAC/PIL430:1"""),
+    ],
+)
+
