@@ -28608,3 +28608,52 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 499,
+    label = "1995DAV/HAN305-308:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1.04e+18,"s^-1"),
+        n = 0,
+        Ea = (403.252,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1780,"K"),
+        Tmax = (2320,"K"),
+    ),
+    reference = Article(
+        authors = ["Davidson, D.F.", "Hanson, R.K.", "Bowman, C.T."],
+        title = u'Communication: revised values for the rate coefficients of ethane and methane decomposition',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "27",
+        pages = """305-308""",
+        year = "1995",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995DAV/HAN305-308:1",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000069.xml
+Bath gas: Ar
+Category: Review
+Data type: Experimental value and limited review
+""",
+    history = [
+        ("Wed Aug 01 12:18:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995DAV/HAN305-308:1"""),
+    ],
+)
+

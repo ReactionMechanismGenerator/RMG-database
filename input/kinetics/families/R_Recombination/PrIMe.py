@@ -3797,49 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 501,
-    label = "r00010887",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (1.04e+18,"s^-1"),
-        n = 0,
-        Ea = (403252,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Davidson, D.F.", "Hanson, R.K.", "Bowman, C.T."],
-        title = u'Communication: revised values for the rate coefficients of ethane and methane decomposition',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "27",
-        pages = """305-308""",
-        year = "1995",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000069.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000069.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000069.xml"""),
-    ],
-)
-
-entry(
     index = 503,
     label = "r00011156",
     reactant1 = 
