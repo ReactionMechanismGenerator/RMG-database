@@ -26216,3 +26216,65 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 455,
+    label = "1975SCH/PLA660:2",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *1 C 0 {1,S} {4,S} {5,D}
+4 *2 C 0 {2,S} {3,S} {6,D}
+5    O 0 {3,D}
+6    O 0 {4,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,D}
+3   O 0 {2,D}
+""",
+    product2 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,D}
+3   O 0 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (6.31e+15,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (279.366,"kJ/mol","+|-",8.398),
+        T0 = (1,"K"),
+        Tmin = (822,"K"),
+        Tmax = (905,"K"),
+        Pmin = (79.99,"Pa"),
+        Pmax = (57300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Scherzer, K.", "Plarre, D."],
+        title = u'Der Thermische Zerfall von Diacetyl. II. Mitteilung: Untersuchungen bei hohen Temperaturen',
+        journal = "Z. Phys. Chem. (Leipzig)",
+        volume = "256",
+        pages = """660""",
+        year = "1975",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1975SCH/PLA660:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00006863
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000004.xml
+Uncertainty: 3.1600001
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:05:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975SCH/PLA660:2"""),
+    ],
+)
+
