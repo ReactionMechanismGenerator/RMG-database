@@ -26338,3 +26338,65 @@ Analytical technique: Other (direct)
     ],
 )
 
+entry(
+    index = 457,
+    label = "1980TRE266:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S} {4,D}
+4    C 0 {3,D} {5,S}
+5    C 0 {4,S} {6,D}
+6    C 0 {5,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,S} {3,D}
+2   C 0 {1,S} {4,D}
+3   C 0 {1,D} {5,S}
+4   C 0 {2,D}
+5 * C 1 {3,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (8.32e+15,"s^-1","*|/",1.48),
+        n = 0,
+        Ea = (277.703,"kJ/mol","+|-",2.777),
+        T0 = (1,"K"),
+        Tmin = (694,"K"),
+        Tmax = (759,"K"),
+        Pmin = (3333,"Pa"),
+        Pmax = (26700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Trenwith, A.B."],
+        title = u'Dissociation of 1,3-Hexadiene and the Resonance Energy of the Pentadienyl Radical',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "76",
+        pages = """266""",
+        year = "1980",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1980TRE266:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00007893
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007893/rk00000001.xml
+Uncertainty: 1.48
+Bath gas: C2H5CH=CHCH=CH2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Wed Aug 01 11:08:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980TRE266:1"""),
+    ],
+)
+
