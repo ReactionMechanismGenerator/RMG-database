@@ -29351,3 +29351,56 @@ Analytical technique: Other (direct)
     ],
 )
 
+entry(
+    index = 512,
+    label = "1949MCL379-385:2",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * O 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (9.14e+10,"s^-1"),
+        n = 0,
+        Ea = (167.952,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (762,"K"),
+        Tmax = (815,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["McLane, C.K."],
+        title = u'Hydrogen peroxide in the thermal hydrogen oxygen reaction. I. Thermal decomposition of hydrogen peroxide',
+        journal = "J. Chem. Phys.",
+        volume = "17",
+        pages = """379-385""",
+        year = "1949",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1949MCL379-385:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013690
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000002.xml
+Bath gas: O2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Wed Aug 01 13:12:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1949MCL379-385:2"""),
+    ],
+)
+

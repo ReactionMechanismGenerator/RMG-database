@@ -4260,49 +4260,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 552,
-    label = "r00013690",
-    reactant1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 O 0 {1,S}
-""",
-    product1 = 
-"""
-1 * O 1
-""",
-    product2 = 
-"""
-1 * O 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (9.14e+10,"s^-1"),
-        n = 0,
-        Ea = (167952,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["McLane, C.K."],
-        title = u'Hydrogen peroxide in the thermal hydrogen oxygen reaction. I. Thermal decomposition of hydrogen peroxide',
-        journal = "J. Chem. Phys.",
-        volume = "17",
-        pages = """379-385""",
-        year = "1949",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 553,
     label = "r00013690",
     reactant1 = 
