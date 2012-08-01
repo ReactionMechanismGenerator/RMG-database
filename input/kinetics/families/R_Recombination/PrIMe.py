@@ -3173,55 +3173,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 297,
-    label = "r00008084",
-    reactant1 = 
-"""
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
-3 *2 C 0 {1,S} {2,S} {5,D}
-4    C 0 {5,D}
-5    C 0 {3,D} {4,D}
-""",
-    product1 = 
-"""
-1   C 0 {3,S}
-2   C 0 {4,D}
-3 * C 1 {1,S} {4,D}
-4   C 0 {2,D} {3,D}
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (2e+16,"s^-1"),
-        n = 0,
-        Ea = (315118,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Nguyen, T.T.", "King, K.D."],
-        title = u'Kinetics of Decomposition and Interconversion of 3-Methylbut-1-yne and 3-Methylbuta-1,2-diene. Resonance Stabilization Energies of Propargylic Radicals',
-        journal = "J. Phys. Chem.",
-        volume = "85",
-        pages = """3130""",
-        year = "1981",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00008084/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008084/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008084/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 307,
     label = "r00008727",
     reactant1 = 

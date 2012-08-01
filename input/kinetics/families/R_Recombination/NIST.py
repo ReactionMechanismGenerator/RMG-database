@@ -26400,3 +26400,61 @@ Analytical technique: Pressure measurement
     ],
 )
 
+entry(
+    index = 458,
+    label = "1981NGU/KIN3130:4",
+    reactant1 = 
+"""
+1 *1 C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {5,D}
+4    C 0 {5,D}
+5    C 0 {3,D} {4,D}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {4,D}
+3 * C 1 {1,S} {4,D}
+4   C 0 {2,D} {3,D}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (2e+16,"s^-1","*|/",2),
+        n = 0,
+        Ea = (315.118,"kJ/mol","+|-",3.151),
+        T0 = (1,"K"),
+        Tmin = (940,"K"),
+        Tmax = (1220,"K"),
+    ),
+    reference = Article(
+        authors = ["Nguyen, T.T.", "King, K.D."],
+        title = u'Kinetics of Decomposition and Interconversion of 3-Methylbut-1-yne and 3-Methylbuta-1,2-diene. Resonance Stabilization Energies of Propargylic Radicals',
+        journal = "J. Phys. Chem.",
+        volume = "85",
+        pages = """3130""",
+        year = "1981",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981NGU/KIN3130:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008084
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008084/rk00000001.xml
+Uncertainty: 2.0
+Bath gas: CH2=C=C(CH3)2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Wed Aug 01 11:09:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981NGU/KIN3130:4"""),
+    ],
+)
+
