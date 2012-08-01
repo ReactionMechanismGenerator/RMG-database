@@ -3446,53 +3446,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 455,
-    label = "r00010784",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {4,D}
-3    C 0 {4,D}
-4    C 0 {2,D} {3,D}
-""",
-    product1 = 
-"""
-1   C 0 {2,D}
-2   C 0 {1,D} {3,D}
-3 * C 1 {2,D}
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (2e+15,"s^-1"),
-        n = 0,
-        Ea = (313456,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oshita, H.", "Kawano, H."],
-        title = u'Thermal isomerization and decomposition of 2-butyne in shock waves',
-        journal = "J. Phys. Chem.",
-        volume = "97",
-        pages = """10977-10983""",
-        year = "1993",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000004.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000004.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000004.xml"""),
-    ],
-)
-
-entry(
     index = 456,
     label = "r00010784",
     reactant1 = 

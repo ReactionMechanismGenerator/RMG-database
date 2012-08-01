@@ -27530,3 +27530,56 @@ Data type: Derived from detailed balance/reverse rate
     ],
 )
 
+entry(
+    index = 478,
+    label = "1993HID/HIG10977-10983:10",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S} {4,D}
+3    C 0 {4,D}
+4    C 0 {2,D} {3,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,D}
+2   C 0 {1,D} {3,D}
+3 * C 1 {2,D}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2e+15,"s^-1"),
+        n = 0,
+        Ea = (313.456,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1100,"K"),
+        Tmax = (1600,"K"),
+    ),
+    reference = Article(
+        authors = ["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oshita, H.", "Kawano, H."],
+        title = u'Thermal isomerization and decomposition of 2-butyne in shock waves',
+        journal = "J. Phys. Chem.",
+        volume = "97",
+        pages = """10977-10983""",
+        year = "1993",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1993HID/HIG10977-10983:10",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010784
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000004.xml
+Bath gas: Ar
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Aug 01 11:44:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993HID/HIG10977-10983:10"""),
+    ],
+)
+
