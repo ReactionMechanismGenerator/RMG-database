@@ -26914,3 +26914,60 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 467,
+    label = "1974BRA199:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (8.71e+09,"s^-1"),
+        n = 0,
+        Ea = (202.042,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1200,"K"),
+        Tmax = (1500,"K"),
+        Pmin = (65100,"Pa"),
+        Pmax = (90000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Bradley, J.N."],
+        title = u'A general mechanism for the high-temperature pyrolysis of alkanes. The pyrolysis of isobutane',
+        journal = "Proc. R. Soc. London A",
+        volume = "337",
+        pages = """199""",
+        year = "1974",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974BRA199:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000009.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:27:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974BRA199:1"""),
+    ],
+)
+
