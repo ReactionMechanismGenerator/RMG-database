@@ -29684,3 +29684,69 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 518,
+    label = "1968WAL/PHI2103-2106:1",
+    reactant1 = 
+"""
+1     C 0 {3,S} {5,S} {9,S}
+2     C 0 {4,S} {6,S} {10,S}
+3     C 0 {1,S} {7,S}
+4     C 0 {2,S} {8,S}
+5     C 0 {1,S}
+6     C 0 {2,S}
+7     C 0 {3,S}
+8     C 0 {4,S}
+9  *1 O 0 {1,S} {10,S}
+10 *2 O 0 {2,S} {9,S}
+""",
+    product1 = 
+"""
+1   C 0 {2,S} {3,S} {5,S}
+2   C 0 {1,S} {4,S}
+3   C 0 {1,S}
+4   C 0 {2,S}
+5 * O 1 {1,S}
+""",
+    product2 = 
+"""
+1   C 0 {2,S} {3,S} {5,S}
+2   C 0 {1,S} {4,S}
+3   C 0 {1,S}
+4   C 0 {2,S}
+5 * O 1 {1,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.8e+15,"s^-1"),
+        n = 0,
+        Ea = (152.155,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (373,"K"),
+        Tmax = (413,"K"),
+    ),
+    reference = Article(
+        authors = ["Walker, R.F.", "Phillips, L."],
+        title = u'The kinetics of disproportionation-combination reactions between the s-butoxy-radical and nitric oxide, and of the pyrolysis of the O-O bond in di-s-butyl peroxide in the gas phase',
+        journal = "J. Chem. Soc. London A",
+        pages = """2103-2106""",
+        year = "1968",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1968WAL/PHI2103-2106:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016191
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016191/rk00000002.xml
+Bath gas: Peroxide, bis(1-methylpropyl)
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Wed Aug 01 13:30:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968WAL/PHI2103-2106:1"""),
+    ],
+)
+
