@@ -26093,3 +26093,64 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 453,
+    label = "1969HOL/MUL177:2",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *1 C 0 {1,S} {4,S} {5,D}
+4 *2 C 0 {2,S} {3,S} {6,D}
+5    O 0 {3,D}
+6    O 0 {4,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,D}
+3   O 0 {2,D}
+""",
+    product2 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,D}
+3   O 0 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+10,"s^-1"),
+        n = 0,
+        Ea = (281.029,"kJ/mol","+|-",14.051),
+        T0 = (1,"K"),
+        Tmin = (677,"K"),
+        Tmax = (776,"K"),
+        Pmin = (79.99,"Pa"),
+        Pmax = (5999,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hole, K.J.", "Mulcahy, M.F.R."],
+        title = u'The pyrolysis of biacetyl and the third-body effect on the combination of methyl radicals',
+        journal = "J. Phys. Chem.",
+        volume = "73",
+        pages = """177""",
+        year = "1969",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1969HOL/MUL177:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00006863
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000001.xml
+Bath gas: (CH3CO)2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:01:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969HOL/MUL177:2"""),
+    ],
+)
+
