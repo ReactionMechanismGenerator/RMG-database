@@ -25624,3 +25624,52 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 444,
+    label = "1991WAL/GRO107-114:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9.03e+10,"m^3/(mol*s)"),
+        n = -1.17,
+        Ea = (2.661,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Walter, D.", "Grotheer, H-H."],
+        title = u'Experimental and theoretical study of the recombination reaction CH3 + CH3 \u2192\x92 C2H6',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "23",
+        pages = """107-114""",
+        year = "1991",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1991WAL/GRO107-114:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000124.xml
+Bath gas: Ar
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 10:30:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991WAL/GRO107-114:1"""),
+    ],
+)
+

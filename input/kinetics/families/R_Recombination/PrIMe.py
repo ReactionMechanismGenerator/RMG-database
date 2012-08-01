@@ -1697,49 +1697,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 117,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 * C 1
-""",
-    reactant2 = 
-"""
-1 * C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (9.02674e+10,"cm^3/(mol*s)"),
-        n = -1.17,
-        Ea = (2660.63,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Walter, D.", "Grotheer, H-H."],
-        title = u'Experimental and theoretical study of the recombination reaction CH_3 + CH_3 \u2192 C_2H_6',
-        journal = "Symp. Int. Combust. Proc.",
-        volume = "23",
-        pages = """107-114""",
-        year = "1991",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000124.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000124.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000124.xml"""),
-    ],
-)
-
-entry(
     index = 118,
     label = "r00002085",
     reactant1 = 
