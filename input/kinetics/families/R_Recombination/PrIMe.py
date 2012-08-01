@@ -3797,53 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 514,
-    label = "r00011415",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,D}
-2 *2 C 0 {1,S} {4,D}
-3    C 0 {1,D}
-4    C 0 {2,D}
-""",
-    product1 = 
-"""
-1   C 0 {2,D}
-2 * C 1 {1,D}
-""",
-    product2 = 
-"""
-1   C 0 {2,D}
-2 * C 1 {1,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.07e+17,"s^-1"),
-        n = 0,
-        Ea = (393275,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Kiefer, J.H.", "Mitchell, K.I.", "Wei, H.C."],
-        title = u'The high temperature pyrolysis of 1,3-butadiene II: Pulsed laser flash absorption rate constants, and consideration of possible molecular dissociation pathways',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "20",
-        pages = """787""",
-        year = "1988",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000011.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000011.xml
-""",
-    history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000011.xml"""),
-    ],
-)
-
-entry(
     index = 515,
     label = "r00011415",
     reactant1 = 

@@ -28908,3 +28908,61 @@ Data type: Derived from detailed balance/reverse rate
     ],
 )
 
+entry(
+    index = 504,
+    label = "1988KIE/MIT787:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,D}
+2 *2 C 0 {1,S} {4,D}
+3    C 0 {1,D}
+4    C 0 {2,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    product2 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.07e+17,"s^-1","*|/",2),
+        n = 0,
+        Ea = (393.275,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1660,"K"),
+        Tmax = (2220,"K"),
+        Pmin = (6666,"Pa"),
+        Pmax = (93300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kiefer, J.H.", "Mitchell, K.I.", "Wei, H.C."],
+        title = u'The high temperature pyrolysis of 1,3-butadiene II: Pulsed laser flash absorption rate constants, and consideration of possible molecular dissociation pathways',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "20",
+        pages = """787""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988KIE/MIT787:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011415
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000011.xml
+Uncertainty: 2.0
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 12:29:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988KIE/MIT787:1"""),
+    ],
+)
+
