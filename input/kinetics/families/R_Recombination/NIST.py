@@ -27199,3 +27199,54 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 472,
+    label = "1984WAR197C:55",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (4e+16,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (346.713,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (500,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Book(
+        authors = ["Warnatz, J."],
+        title = u'Rate coefficients in the C/H/O system',
+        publisher = "ed. W.C. Gardiner,Jr., pub. Springer-Verlag,NY",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:55",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000014.xml
+Uncertainty: 3.1600001
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Aug 01 11:32:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:55"""),
+    ],
+)
+
