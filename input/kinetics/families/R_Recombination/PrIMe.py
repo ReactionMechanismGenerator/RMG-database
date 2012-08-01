@@ -3173,55 +3173,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 307,
-    label = "r00008727",
-    reactant1 = 
-"""
-1 *1 C 0 {2,D} {3,S} {5,S}
-2    C 0 {1,D}
-3    C 0 {1,S} {4,T}
-4    C 0 {3,T}
-5 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1   C 0 {2,D}
-2 * C 1 {1,D} {3,S}
-3   C 0 {2,S} {4,T}
-4   C 0 {3,T}
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.58e+15,"s^-1"),
-        n = 0,
-        Ea = (414061,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Ghibaudi, E.", "Colussi, A.J."],
-        title = u'Kinetics and thermochemistry of the equilibrium 2 (acetylene) = vinylacetylene. Direct evidence against a chain mechanism',
-        journal = "J. Phys. Chem.",
-        volume = "92",
-        pages = """5839""",
-        year = "1988",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:17 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 308,
     label = "r00008727",
     reactant1 = 

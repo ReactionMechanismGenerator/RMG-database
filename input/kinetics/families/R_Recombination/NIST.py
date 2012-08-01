@@ -26458,3 +26458,57 @@ Analytical technique: Mass spectrometry
     ],
 )
 
+entry(
+    index = 459,
+    label = "1988GHI/COL5839:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {5,S}
+2    C 0 {1,D}
+3    C 0 {1,S} {4,T}
+4    C 0 {3,T}
+5 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D} {3,S}
+3   C 0 {2,S} {4,T}
+4   C 0 {3,T}
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.58e+15,"s^-1"),
+        n = 0,
+        Ea = (414.061,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1400,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Ghibaudi, E.", "Colussi, A.J."],
+        title = u'Kinetics and thermochemistry of the equilibrium 2 (acetylene) = vinylacetylene. Direct evidence against a chain mechanism',
+        journal = "J. Phys. Chem.",
+        volume = "92",
+        pages = """5839""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988GHI/COL5839:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008727
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000001.xml
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Aug 01 11:10:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988GHI/COL5839:1"""),
+    ],
+)
+
