@@ -28796,3 +28796,60 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 502,
+    label = "1985KIE/WEI225-253:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,D}
+2 *2 C 0 {1,S} {4,D}
+3    C 0 {1,D}
+4    C 0 {2,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    product2 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (4.1e+16,"s^-1"),
+        n = 0,
+        Ea = (390.78,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1600,"K"),
+        Tmax = (1900,"K"),
+        Pmin = (14700,"Pa"),
+        Pmax = (78000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kiefer, J.H.", "Wei, H.C.", "Kern, R.D.", "Wu, C.H."],
+        title = u'The high temperature pyrolysis of 1,3-butadiene: Heat of formation and rate of dissociation of vinyl radical',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "17",
+        pages = """225-253""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985KIE/WEI225-253:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011415
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000009.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Laser schlieren
+""",
+    history = [
+        ("Wed Aug 01 12:25:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985KIE/WEI225-253:1"""),
+    ],
+)
+

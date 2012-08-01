@@ -3797,53 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 512,
-    label = "r00011415",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,D}
-2 *2 C 0 {1,S} {4,D}
-3    C 0 {1,D}
-4    C 0 {2,D}
-""",
-    product1 = 
-"""
-1   C 0 {2,D}
-2 * C 1 {1,D}
-""",
-    product2 = 
-"""
-1   C 0 {2,D}
-2 * C 1 {1,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (4.1e+16,"s^-1"),
-        n = 0,
-        Ea = (390780,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Kiefer, J.H.", "Wei, H.C.", "Kern, R.D.", "Wu, C.H."],
-        title = u'The high temperature pyrolysis of 1,3-butadiene: Heat of formation and rate of dissociation of vinyl radical',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "17",
-        pages = """225""",
-        year = "1985",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000009.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000009.xml
-""",
-    history = [
-        ("Tue May 17 14:34:47 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000009.xml"""),
-    ],
-)
-
-entry(
     index = 513,
     label = "r00011415",
     reactant1 = 
