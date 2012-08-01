@@ -3173,57 +3173,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 317,
-    label = "r00009347",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {1,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
-""",
-    product1 = 
-"""
-1 * C 1 {2,S} {3,S}
-2   C 0 {1,S} {4,D}
-3   C 0 {1,S} {5,D}
-4   C 0 {2,D}
-5   C 0 {3,D}
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (2.29e+15,"s^-1"),
-        n = 0,
-        Ea = (271883,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Trenwith, A.B."],
-        title = u'Dissociation of 3-Methylpenta-1,4-diene and the Resonance Energy of the Pentadienyl Radical',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "78",
-        pages = """3131""",
-        year = "1982",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00009347/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009347/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:24 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009347/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 319,
     label = "r00009454",
     reactant1 = 

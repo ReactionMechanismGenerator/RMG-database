@@ -26686,3 +26686,65 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 463,
+    label = "1982TRE3131:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S} {5,D}
+4    C 0 {1,S} {6,D}
+5    C 0 {3,D}
+6    C 0 {4,D}
+""",
+    product1 = 
+"""
+1 * C 1 {2,S} {3,S}
+2   C 0 {1,S} {4,D}
+3   C 0 {1,S} {5,D}
+4   C 0 {2,D}
+5   C 0 {3,D}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.29e+15,"s^-1","*|/",1.26),
+        n = 0,
+        Ea = (271.883,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (653,"K"),
+        Tmax = (716,"K"),
+        Pmin = (2000,"Pa"),
+        Pmax = (26700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Trenwith, A.B."],
+        title = u'Dissociation of 3-Methylpenta-1,4-diene and the Resonance Energy of the Pentadienyl Radical',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "78",
+        pages = """3131""",
+        year = "1982",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1982TRE3131:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00009347
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009347/rk00000001.xml
+Uncertainty: 1.26
+Bath gas: CH2=CHCH(CH3)CH=CH2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:14:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982TRE3131:1"""),
+    ],
+)
+
