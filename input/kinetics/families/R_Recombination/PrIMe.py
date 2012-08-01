@@ -4767,49 +4767,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 571,
-    label = "r00013764",
-    reactant1 = 
-"""
-1 * O 1
-""",
-    reactant2 = 
-"""
-1 * H 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.62e+08,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (623.585,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Cobos, C.J.", "Troe, J."],
-        title = u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results',
-        journal = "J. Chem. Phys.",
-        volume = "83",
-        pages = """1010-1015""",
-        year = "1985",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000016.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000016.xml
-""",
-    history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000016.xml"""),
-    ],
-)
-
-entry(
     index = 579,
     label = "r00013891",
     reactant1 = 
