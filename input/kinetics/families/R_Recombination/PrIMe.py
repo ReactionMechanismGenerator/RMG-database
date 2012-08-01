@@ -3797,49 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 486,
-    label = "r00010887",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (2.66e+16,"s^-1"),
-        n = 0,
-        Ea = (427364,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Placzek, D.W.", "Rabinovitch, B.S.", "Whitten, G.Z."],
-        title = u'Some comparisons of the classical RRK and the RRKM theoretical rate formulations',
-        journal = "J. Chem. Phys.",
-        volume = "43",
-        pages = """4071-4080""",
-        year = "1965",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000054.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000054.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000054.xml"""),
-    ],
-)
-
-entry(
     index = 487,
     label = "r00010887",
     reactant1 = 
