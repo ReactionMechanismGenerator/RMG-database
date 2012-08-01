@@ -27634,3 +27634,54 @@ Data type: Transition state theory
     ],
 )
 
+entry(
+    index = 480,
+    label = "1986TSA/HAM1087:167",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3    O 1 {2,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (8.51e+52,"m^3/(mol*s)","*|/",3),
+        n = -15,
+        Ea = (71.255,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (700,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W.", "Hampson, R.F."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "15",
+        pages = """1087""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:167",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010854
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000031.xml
+Uncertainty: 3.0
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Aug 01 11:48:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:167"""),
+    ],
+)
+
