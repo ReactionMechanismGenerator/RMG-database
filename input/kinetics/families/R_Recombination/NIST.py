@@ -28966,3 +28966,60 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 505,
+    label = "1988RAO/TAK153:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,D}
+2 *2 C 0 {1,S} {4,D}
+3    C 0 {1,D}
+4    C 0 {2,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    product2 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.8e+13,"s^-1"),
+        n = 0,
+        Ea = (355.859,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1560,"K"),
+        Tmax = (2210,"K"),
+        Pmin = (273000,"Pa"),
+        Pmax = (273000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Rao, V.S.", "Takeda, K.", "Skinner, G.B."],
+        title = u'Formation of H and D atoms in pyrolysis of 1,3-butadiene and 1,3 butadiene-1,1,4,4,-d4 behind shock waves',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "20",
+        pages = """153""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988RAO/TAK153:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011415
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000012.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 12:30:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988RAO/TAK153:1"""),
+    ],
+)
+
