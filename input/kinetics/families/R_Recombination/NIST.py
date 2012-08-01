@@ -28505,3 +28505,56 @@ Data type: Experimental value and limited review
     ],
 )
 
+entry(
+    index = 497,
+    label = "1991ARU/VED234-240:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (3.01e+12,"s^-1","+|-",9.9e+11),
+        n = 0,
+        Ea = (343.388,"kJ/mol","+|-",10.31),
+        T0 = (1,"K"),
+        Tmin = (1100,"K"),
+        Tmax = (1700,"K"),
+        Pmin = (14800,"Pa"),
+        Pmax = (93300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Arutyunov, V.S.", "Vedeneev, V.I.", "Moshkina, R.I.", "Ushakov, V.A."],
+        title = u'Pyrolysis of methane under static conditions at 1100-1400 K',
+        journal = "Kinet. Catal.",
+        volume = "32",
+        pages = """234-240""",
+        year = "1991",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1991ARU/VED234-240:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000064.xml
+Bath gas: CH4
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 12:12:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991ARU/VED234-240:1"""),
+    ],
+)
+

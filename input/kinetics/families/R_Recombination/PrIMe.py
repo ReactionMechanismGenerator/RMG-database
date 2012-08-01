@@ -3797,49 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 496,
-    label = "r00010887",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (3.01e+12,"s^-1"),
-        n = 0,
-        Ea = (343388,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Arutyunov, V.S.", "Vedeneev, V.I.", "Moshkina, R.I.", "Ushakov, V.A."],
-        title = u'Pyrolysis of methane under static conditions at 1100-1400 K',
-        journal = "Kinet. Catal.",
-        volume = "32",
-        pages = """234-240""",
-        year = "1991",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000064.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000064.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000064.xml"""),
-    ],
-)
-
-entry(
     index = 497,
     label = "r00010887",
     reactant1 = 
