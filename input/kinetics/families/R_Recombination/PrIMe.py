@@ -3446,53 +3446,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 387,
-    label = "r00010181",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-""",
-    product1 = 
-"""
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (6.31e+16,"s^-1"),
-        n = 0,
-        Ea = (341725,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Konar, R.S.", "Marshall, R.M.", "Purnell, J.H."],
-        title = u'The Self-Inhibited Pyrolysis of Isobutane',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "5",
-        pages = """1007""",
-        year = "1973",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000008.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000008.xml
-""",
-    history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000008.xml"""),
-    ],
-)
-
-entry(
     index = 388,
     label = "r00010181",
     reactant1 = 

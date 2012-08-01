@@ -26857,3 +26857,60 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 466,
+    label = "1968KON/MAR405-413:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (6.31e+07,"s^-1"),
+        n = 0,
+        Ea = (345.051,"kJ/mol","+|-",13.802),
+        T0 = (1,"K"),
+        Tmin = (713,"K"),
+        Tmax = (814,"K"),
+        Pmin = (6666,"Pa"),
+        Pmax = (20000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Konar, R.S.", "Marshall, R.M.", "Purnell, J.H."],
+        title = u'Initiation of isobutane pyrolysis',
+        journal = "Trans. Faraday Soc.",
+        volume = "64",
+        pages = """405-413""",
+        year = "1968",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1968KON/MAR405-413:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000008.xml
+Bath gas: iso-C4H10
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:25:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968KON/MAR405-413:1"""),
+    ],
+)
+
