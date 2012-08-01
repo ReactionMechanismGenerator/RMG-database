@@ -28152,3 +28152,56 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 490,
+    label = "1971HAR/TRO147:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1.26e+15,"s^-1"),
+        n = 0,
+        Ea = (434.847,"kJ/mol","+|-",8.73),
+        T0 = (1,"K"),
+        Tmin = (1850,"K"),
+        Tmax = (2500,"K"),
+        Pmin = (507000,"Pa"),
+        Pmax = (2.23e+07,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hartig, R.", "Troe, J.", "Wagner, H.GG."],
+        title = u'Thermal Decomposition of Methane Behind Reflected Shock Waves',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "13",
+        pages = """147""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971HAR/TRO147:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000056.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 12:04:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971HAR/TRO147:1"""),
+    ],
+)
+

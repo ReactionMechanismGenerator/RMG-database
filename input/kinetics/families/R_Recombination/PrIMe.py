@@ -3797,49 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 488,
-    label = "r00010887",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (1.26e+15,"s^-1"),
-        n = 0,
-        Ea = (434847,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Hartig, R.", "Troe, J.", "Wagner, H.GG."],
-        title = u'Thermal Decomposition of Methane Behind Reflected Shock Waves',
-        journal = "Symp. Int. Combust. Proc.",
-        volume = "13",
-        pages = """147""",
-        year = "1971",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000056.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000056.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000056.xml"""),
-    ],
-)
-
-entry(
     index = 489,
     label = "r00010887",
     reactant1 = 
