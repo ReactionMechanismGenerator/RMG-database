@@ -3446,53 +3446,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 454,
-    label = "r00010784",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {4,D}
-3    C 0 {4,D}
-4    C 0 {2,D} {3,D}
-""",
-    product1 = 
-"""
-1   C 0 {2,D}
-2   C 0 {1,D} {3,D}
-3 * C 1 {2,D}
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1e+12,"s^-1"),
-        n = 0,
-        Ea = (248603,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Kern, R.D.", "Singh, H.J.", "Wu, C.H."],
-        title = u'Thermal decomposition of 1,2 butadiene',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "20",
-        pages = """731""",
-        year = "1988",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 455,
     label = "r00010784",
     reactant1 = 
