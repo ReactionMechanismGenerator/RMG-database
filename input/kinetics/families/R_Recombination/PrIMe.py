@@ -1697,49 +1697,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 113,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 * C 1
-""",
-    reactant2 = 
-"""
-1 * C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (9.05736e+10,"cm^3/(mol*s)"),
-        n = -1.18,
-        Ea = (2735.46,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Slagle, I.R.", "Gutman, D.", "Davies, J.W.", "Pilling, M.J."],
-        title = u'Study of the recombination reaction CH_3 + CH_3 \u2192 C_2H_6. 1. Experiment',
-        journal = "J. Phys. Chem.",
-        volume = "92",
-        pages = """2455""",
-        year = "1988",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000118.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000118.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000118.xml"""),
-    ],
-)
-
-entry(
     index = 115,
     label = "r00002085",
     reactant1 = 
