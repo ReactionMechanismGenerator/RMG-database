@@ -29184,3 +29184,54 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 509,
+    label = "1985COB/TRO1010-1015:17",
+    reactant1 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    reactant2 = 
+"""
+1 * H 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.63e+07,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (3.184,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Cobos, C.J.", "Troe, J."],
+        title = u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results',
+        journal = "J. Chem. Phys.",
+        volume = "83",
+        pages = """1010-1015""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985COB/TRO1010-1015:17",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011821
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000020.xml
+Bath gas: Products
+Category: Theory
+Data type: Transition state theory
+""",
+    history = [
+        ("Wed Aug 01 13:03:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985COB/TRO1010-1015:17"""),
+    ],
+)
+
