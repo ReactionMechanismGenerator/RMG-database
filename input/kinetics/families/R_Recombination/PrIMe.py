@@ -3173,57 +3173,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 272,
-    label = "r00006863",
-    reactant1 = 
-"""
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *1 C 0 {1,S} {4,S} {5,D}
-4 *2 C 0 {2,S} {3,S} {6,D}
-5    O 0 {3,D}
-6    O 0 {4,D}
-""",
-    product1 = 
-"""
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,D}
-3   O 0 {2,D}
-""",
-    product2 = 
-"""
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,D}
-3   O 0 {2,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (3.16e+16,"s^-1"),
-        n = 0,
-        Ea = (283523,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Knoll, H.", "Scherzer, K.", "Geiseler, G."],
-        title = u'The Thermal Decomposition of Biacetyl',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "5",
-        pages = """271""",
-        year = "1973",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:34:01 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 273,
     label = "r00006863",
     reactant1 = 

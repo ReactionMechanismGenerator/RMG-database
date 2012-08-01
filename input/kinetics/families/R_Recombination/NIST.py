@@ -26154,3 +26154,65 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 454,
+    label = "1973KNO/SCH271:3",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *1 C 0 {1,S} {4,S} {5,D}
+4 *2 C 0 {2,S} {3,S} {6,D}
+5    O 0 {3,D}
+6    O 0 {4,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,D}
+3   O 0 {2,D}
+""",
+    product2 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,D}
+3   O 0 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.16e+16,"s^-1","*|/",5),
+        n = 0,
+        Ea = (283.523,"kJ/mol","+|-",16.962),
+        T0 = (1,"K"),
+        Tmin = (240,"K"),
+        Tmax = (550,"K"),
+        Pmin = (4133,"Pa"),
+        Pmax = (24400,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Knoll, H.", "Scherzer, K.", "Geiseler, G."],
+        title = u'The Thermal Decomposition of Biacetyl',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "5",
+        pages = """271""",
+        year = "1973",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1973KNO/SCH271:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00006863
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000003.xml
+Uncertainty: 5.0
+Bath gas: (CH3CO)2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:03:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973KNO/SCH271:3"""),
+    ],
+)
+
