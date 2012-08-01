@@ -2435,51 +2435,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 145,
-    label = "r00002385",
-    reactant1 = 
-"""
-1 *1 C 0 {2,T} {3,S}
-2    C 0 {1,T}
-3 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1   C 0 {2,T}
-2 * C 1 {1,T}
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (1e+15,"s^-1"),
-        n = 0,
-        Ea = (460622,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Al'tshuler, B.N."],
-        title = u'Investigation of the High Temperature Pyrolysis of Acetylene',
-        journal = "Kinet. Catal.",
-        volume = "15",
-        pages = """835""",
-        year = "1974",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:33:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002385/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 147,
     label = "r00002385",
     reactant1 = 
