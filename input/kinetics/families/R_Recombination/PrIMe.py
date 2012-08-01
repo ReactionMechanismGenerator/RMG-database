@@ -3446,57 +3446,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 411,
-    label = "r00010419",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {6,S}
-2    C 0 {1,S} {4,D}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,D} {5,S}
-5    C 0 {3,D} {4,S}
-6 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D} {4,S}
-3   C 0 {1,S} {5,D}
-4 * C 1 {2,S} {5,S}
-5   C 0 {3,D} {4,S}
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (2.7e+14,"s^-1"),
-        n = 0,
-        Ea = (-312042,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Roy, K.", "Braun-Unkhoff, M.", "Frank, P.", "Just, Th."],
-        title = u'Erratum: "Kinetics of the Cyclopentadiene Decay and the Recombination of Cyclopentadienyl Radicals with H-Atoms:  Enthalpy of Formation of the Cyclopentadienyl Radical:, Int. J. Chem. Kinet 2001, 33, 821',
-        journal = "Int J. Chem. Kinet.",
-        volume = "34",
-        pages = """209-209""",
-        year = "2002",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010419/rk00000005.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010419/rk00000005.xml
-""",
-    history = [
-        ("Tue May 17 14:34:34 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010419/rk00000005.xml"""),
-    ],
-)
-
-entry(
     index = 454,
     label = "r00010784",
     reactant1 = 
