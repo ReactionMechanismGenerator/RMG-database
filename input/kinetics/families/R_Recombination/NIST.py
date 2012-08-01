@@ -25317,3 +25317,52 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 438,
+    label = "1985COB/TRO1010-1015:4",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.39e+07,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (0.449,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1300,"K"),
+    ),
+    reference = Article(
+        authors = ["Cobos, C.J.", "Troe, J."],
+        title = u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results',
+        journal = "J. Chem. Phys.",
+        volume = "83",
+        pages = """1010-1015""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985COB/TRO1010-1015:4",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000109.xml
+Bath gas: Products
+Category: Theory
+Data type: Transition state theory
+""",
+    history = [
+        ("Wed Aug 01 10:18:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985COB/TRO1010-1015:4"""),
+    ],
+)
+
