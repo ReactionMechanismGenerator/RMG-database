@@ -4377,45 +4377,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 559,
-    label = "r00013690",
-    reactant1 = 
-"""
-1 * O 1
-""",
-    reactant2 = 
-"""
-1 * O 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 O 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (4.6e+12,"cm^3/(mol*s)"),
-        n = -0.9,
-        Ea = (-7112.8,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(
-        authors = ["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."],
-        year = "1999",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000025.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000025.xml
-""",
-    history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000025.xml"""),
-    ],
-)
-
-entry(
     index = 560,
     label = "r00013690",
     reactant1 = 
@@ -4451,45 +4412,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 """,
     history = [
         ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000026.xml"""),
-    ],
-)
-
-entry(
-    index = 561,
-    label = "r00013690",
-    reactant1 = 
-"""
-1 * O 1
-""",
-    reactant2 = 
-"""
-1 * O 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 O 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (4.6e+12,"cm^3/(mol*s)"),
-        n = -0.9,
-        Ea = (-7112.8,"cal/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(
-        authors = ["Smith, G.P.", "Golden, D.M.", "Frenklach, M.", "Moriarty, N.W.", "Eiteneer, B.", "Goldenberg, M.", "Bowman, C.T.", "Hanson, R.K.", "Song, S.", "Gardiner, W.C., Jr.", "Lissianski, V.V.", "Qin, Z."],
-        year = "1999",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000027.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000027.xml
-""",
-    history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000027.xml"""),
     ],
 )
 
