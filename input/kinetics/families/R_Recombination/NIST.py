@@ -25366,3 +25366,56 @@ Data type: Transition state theory
     ],
 )
 
+entry(
+    index = 439,
+    label = "1985MAC/PIL2268-2274:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.47e+07,"m^3/(mol*s)","+|-",2.2e+06),
+        n = 0,
+        Ea = (-1.139,"kJ/mol","+|-",0.274),
+        T0 = (1,"K"),
+        Tmin = (296,"K"),
+        Tmax = (577,"K"),
+        Pmin = (6666,"Pa"),
+        Pmax = (6666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Macpherson, M.T.", "Pilling, M.J.", "Smith, M.J.C."],
+        title = u'Determination of the absorption cross section for CH3 at 216.36 nm and the absolute rate constant for methyl radical recombination over the temperature range 296-577 K',
+        journal = "J. Phys. Chem.",
+        volume = "89",
+        pages = """2268-2274""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985MAC/PIL2268-2274:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000110.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 10:19:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985MAC/PIL2268-2274:1"""),
+    ],
+)
+

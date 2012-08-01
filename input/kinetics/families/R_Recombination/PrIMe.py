@@ -1697,49 +1697,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 111,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 * C 1
-""",
-    reactant2 = 
-"""
-1 * C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.47e+07,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-1139.08,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Macpherson, M.T.", "Pilling, M.J.", "Smith, M.J.C."],
-        title = u'Determination of the absorption cross section for CH_3 at 216.36 nm and the absolute rate constant for methyl radical recombination over the temperature range 296-577 K',
-        journal = "J. Phys. Chem.",
-        volume = "89",
-        pages = """2268""",
-        year = "1985",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000110.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000110.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000110.xml"""),
-    ],
-)
-
-entry(
     index = 112,
     label = "r00002085",
     reactant1 = 
