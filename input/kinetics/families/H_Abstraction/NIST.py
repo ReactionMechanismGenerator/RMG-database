@@ -21448,63 +21448,6 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 385,
-    label = "2004LI/PU35-43:1",
-    reactant1 = 
-"""
-1 *1 C 0 {2,D} {3,S}
-2    O 0 {1,D}
-3 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1 *3 C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1 *3 C 1 {2,D}
-2    O 0 {1,D}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (4.09e-31,"m^3/(mol*s)"),
-        n = 3.92,
-        Ea = (19.329,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (300,"K"),
-        Tmax = (3000,"K"),
-    ),
-    reference = Article(
-        authors = ["Li, H.Y.", "Pu, M.", "Ji, Y.Q.", "Xu, Z.F.", "Feng, W.L."],
-        title = u'Theoretical study on the reaction path and rate constants of the hydrogen atom abstraction reaction of CH2O with CH3/OH',
-        journal = "Chem. Phys.",
-        volume = "307",
-        pages = """35-43""",
-        year = "2004",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004LI/PU35-43:1",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Ab initio""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00001966
-Category: Theory
-Data type: Ab initio
-Pressure dependence: Rate constant is pressure independent
-
-The authors calculated the potential energy surface at theUQCISD/6-311G(d,p) level., and then used canonical variational transition-state theory with small-curvature tunneling correction to calculate the rate constants. The theoretical rate constants are a factor of 14 smaller than experiment at 300 K and a factor of 4 smaller at 2000K. In the temperature range 600-1500 K the deviations are < 2.5x.
-""",
-    history = [
-        ("Thu Jul 12 19:40:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/PU35-43:1"""),
-    ],
-)
-
-entry(
     index = 386,
     label = "2003LIU/LI7214-7221:1",
     reactant1 = 
