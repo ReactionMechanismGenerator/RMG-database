@@ -29023,3 +29023,62 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 506,
+    label = "1989WES/DEA8171-8180:20",
+    reactant1 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    reactant2 = 
+"""
+1   C 0 {2,S} {3,D}
+2   C 0 {1,S} {4,D}
+3   C 0 {1,D}
+4 * C 1 {2,D}
+""",
+    product1 = 
+"""
+1    C 0 {2,D} {4,S}
+2 *2 C 0 {1,D} {3,S}
+3 *1 C 0 {2,S} {5,D}
+4    C 0 {1,S} {6,D}
+5    C 0 {3,D}
+6    C 0 {4,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.5e+07,"m^3/(mol*s)"),
+        n = -0.08,
+        Ea = (0.416,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (400,"K"),
+        Tmax = (1600,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Westmoreland, P.R.", "Dean, A.M.", "Howard, J.B.", "Longwell, J.P."],
+        title = u'Forming benzene in flames by chemically activated isomerization',
+        journal = "J. Phys. Chem.",
+        volume = "93",
+        pages = """8171-8180""",
+        year = "1989",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1989WES/DEA8171-8180:20",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011454
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011454/rk00000001.xml
+Bath gas: N2
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 12:33:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989WES/DEA8171-8180:20"""),
+    ],
+)
+
