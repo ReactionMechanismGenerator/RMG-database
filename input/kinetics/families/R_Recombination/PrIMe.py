@@ -1697,49 +1697,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 107,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 * C 1
-""",
-    reactant2 = 
-"""
-1 * C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.41e+08,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (5903.28,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Waage, E.V.", "Rabinovitch, B.S."],
-        title = u'Some aspects of theory and experiment in the ethane-methyl radical system',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "3",
-        pages = """105-125""",
-        year = "1971",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000081.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000081.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000081.xml"""),
-    ],
-)
-
-entry(
     index = 108,
     label = "r00002085",
     reactant1 = 
