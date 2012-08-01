@@ -28403,3 +28403,56 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 495,
+    label = "1989BAR/PRA229-238:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1.75e+16,"s^-1","+|-",2.4e+15),
+        n = 0,
+        Ea = (440.667,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1070,"K"),
+        Tmax = (1150,"K"),
+        Pmin = (500000,"Pa"),
+        Pmax = (5e+06,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Barnes, r.W.", "Pratt, G.L."],
+        title = u'Pressure dependence of methane dissociation',
+        journal = "J. Chem. Soc. Faraday Trans. 2",
+        volume = "85",
+        pages = """229-238""",
+        year = "1989",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1989BAR/PRA229-238:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000061.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 12:10:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989BAR/PRA229-238:1"""),
+    ],
+)
+

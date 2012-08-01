@@ -3797,49 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 493,
-    label = "r00010887",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (1.75e+16,"s^-1"),
-        n = 0,
-        Ea = (440667,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Barnes, r.W.", "Pratt, G.L."],
-        title = u'Pressure dependence of methane dissociation',
-        journal = "J. Chem. Soc. Faraday Trans. 2",
-        volume = "85",
-        pages = """229""",
-        year = "1989",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000061.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000061.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000061.xml"""),
-    ],
-)
-
-entry(
     index = 495,
     label = "r00010887",
     reactant1 = 
