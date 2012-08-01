@@ -27361,3 +27361,60 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 475,
+    label = "1957SHE/KUT1020-1028:1",
+    reactant1 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S}
+""",
+    reactant2 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2 *2 C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4    C 0 {2,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9.59e+08,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (11.391,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (323,"K"),
+        Tmax = (423,"K"),
+        Pmin = (1107,"Pa"),
+        Pmax = (6066,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Shepp, A.", "Kutschke, K.O."],
+        title = u'Rate of recombination of radicals. III. Rate of recombination of ethyl radicals',
+        journal = "J. Chem. Phys.",
+        volume = "26",
+        pages = """1020-1028""",
+        year = "1957",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1957SHE/KUT1020-1028:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010242
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000002.xml
+Bath gas: (C2H5)2CO
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Direct photolysis
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Wed Aug 01 11:39:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1957SHE/KUT1020-1028:1"""),
+    ],
+)
+
