@@ -26799,3 +26799,61 @@ Analytical technique: Other (direct)
     ],
 )
 
+entry(
+    index = 465,
+    label = "1966BRO935-944:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (7.94e+18,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (335.073,"kJ/mol","+|-",10.061),
+        T0 = (1,"K"),
+        Tmin = (823,"K"),
+        Tmax = (853,"K"),
+        Pmin = (2.03e+06,"Pa"),
+        Pmax = (7.09e+06,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Brooks, C.T."],
+        title = u'Gas-phase high-pressure decomposition of isobutane in the presence of hydrogen',
+        journal = "Trans. Faraday Soc.",
+        volume = "62",
+        pages = """935-944""",
+        year = "1966",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1966BRO935-944:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000005.xml
+Uncertainty: 3.1600001
+Bath gas: iso-C4H10
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:24:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966BRO935-944:1"""),
+    ],
+)
+
