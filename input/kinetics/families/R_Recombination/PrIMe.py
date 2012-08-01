@@ -1697,49 +1697,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 112,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 * C 1
-""",
-    reactant2 = 
-"""
-1 * C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (200000,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-29932.1,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Moller, W.", "Mozzhukhin, E.", "Wagner, H.Gg."],
-        title = u'High temperature reactions of CH_3. 1. The reactions CH_3 + H_2 ? CH_4 + H',
-        journal = "Ber. Bunsenges. Phys. Chem.",
-        volume = "90",
-        pages = """854""",
-        year = "1986",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000114.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000114.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000114.xml"""),
-    ],
-)
-
-entry(
     index = 113,
     label = "r00002085",
     reactant1 = 

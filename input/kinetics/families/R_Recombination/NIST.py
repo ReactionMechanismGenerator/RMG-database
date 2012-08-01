@@ -25419,3 +25419,56 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 440,
+    label = "1986MOL/MOZ854:4",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (200000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-29.932,"kJ/mol","+|-",5.687),
+        T0 = (1,"K"),
+        Tmin = (1270,"K"),
+        Tmax = (2210,"K"),
+        Pmin = (72000,"Pa"),
+        Pmax = (72000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Moller, W.", "Mozzhukhin, E.", "Wagner, H.Gg."],
+        title = u'High temperature reactions of CH3. 1. The reactions CH3 + H2 \u2192\x92 CH4 + H',
+        journal = "Ber. Bunsenges. Phys. Chem.",
+        volume = "90",
+        pages = """854""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986MOL/MOZ854:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000114.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 10:24:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986MOL/MOZ854:4"""),
+    ],
+)
+
