@@ -3797,49 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 489,
-    label = "r00010887",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (2.8e+16,"s^-1"),
-        n = 0,
-        Ea = (449813,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Chen, C.J.", "Back, M.H.", "Back, R.A."],
-        title = u'The Thermal Decomposition of Methane. I.Kinetics of the Promary Decomposition to C_2H_6 + H_2; Rate Constant for the Homogeneous Unimolecular Dissociation of Methane and its Pressure Dependence',
-        journal = "Can. J. Chem.",
-        volume = "53",
-        pages = """3580""",
-        year = "1975",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000057.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000057.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000057.xml"""),
-    ],
-)
-
-entry(
     index = 490,
     label = "r00010887",
     reactant1 = 
