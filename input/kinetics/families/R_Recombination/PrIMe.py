@@ -4170,51 +4170,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 538,
-    label = "r00011821",
-    reactant1 = 
-"""
-1 * O 1 {2,S}
-2   O 1 {1,S}
-""",
-    reactant2 = 
-"""
-1 * H 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S} {3,S}
-2    O 1 {1,S}
-3 *2 H 0 {1,S}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (87919.5,"cm^3/(mol*s)"),
-        n = 1,
-        Ea = (1862.44,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Duchovic, R.J.", "Pettigrew, J.D.", "Welling, B.", "Shipchandler, T."],
-        title = u'Conventional transition state theory/Rice-Ramsperger-Kassel-Marcus theory calculations of thermal termolecular rate coefficients for H(D)+O_2+M',
-        journal = "J. Chem. Phys.",
-        volume = "105",
-        pages = """10367-10379""",
-        year = "1996",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000022.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000022.xml
-""",
-    history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000022.xml"""),
-    ],
-)
-
-entry(
     index = 539,
     label = "r00011821",
     reactant1 = 

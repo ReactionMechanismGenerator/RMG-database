@@ -29133,3 +29133,54 @@ Data type: Experimental value and limited review
     ],
 )
 
+entry(
+    index = 508,
+    label = "1996DUC/PET10367-10379:1",
+    reactant1 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    reactant2 = 
+"""
+1 * H 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (87900,"m^3/(mol*s)"),
+        n = 1,
+        Ea = (1.862,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (6000,"K"),
+    ),
+    reference = Article(
+        authors = ["Duchovic, R.J.", "Pettigrew, J.D.", "Welling, B.", "Shipchandler, T."],
+        title = u'Conventional transition state theory/Rice-Ramsperger-Kassel-Marcus theory calculations of thermal termolecular rate coefficients for H(D)+O2+M',
+        journal = "J. Chem. Phys.",
+        volume = "105",
+        pages = """10367-10379""",
+        year = "1996",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1996DUC/PET10367-10379:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011821
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000022.xml
+Bath gas: Ar
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 13:02:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996DUC/PET10367-10379:1"""),
+    ],
+)
+
