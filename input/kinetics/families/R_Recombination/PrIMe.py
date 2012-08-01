@@ -4260,49 +4260,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 555,
-    label = "r00013690",
-    reactant1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 O 0 {1,S}
-""",
-    product1 = 
-"""
-1 * O 1
-""",
-    product2 = 
-"""
-1 * O 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (3e+14,"s^-1"),
-        n = 0,
-        Ea = (202873,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."],
-        title = u'Evaluated kinetic data for combustion modelling',
-        journal = "J. Phys. Chem. Ref. Data",
-        volume = "21",
-        pages = """411-429""",
-        year = "1992",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000019.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000019.xml
-""",
-    history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000019.xml"""),
-    ],
-)
-
-entry(
     index = 556,
     label = "r00013690",
     reactant1 = 
