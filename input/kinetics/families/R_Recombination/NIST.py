@@ -29082,3 +29082,54 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 507,
+    label = "1967BAL/JAC1676-1686:10",
+    reactant1 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    reactant2 = 
+"""
+1 * H 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (5e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-5.438,"kJ/mol","+|-",2.07),
+        T0 = (1,"K"),
+        Tmin = (733,"K"),
+        Tmax = (803,"K"),
+    ),
+    reference = Article(
+        authors = ["Baldwin, R.R.", "Jackson, D.", "Walker, R.W.", "Webster, S.J."],
+        title = u'Interpretation of the slow reaction and second limit of hydrogen oxygen mixtures by computer methods',
+        journal = "Trans. Faraday Soc.",
+        volume = "63",
+        pages = """1676-1686""",
+        year = "1967",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1967BAL/JAC1676-1686:10",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011821
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000017.xml
+Bath gas: H2
+Category: Review
+Data type: Experimental value and limited review
+""",
+    history = [
+        ("Wed Aug 01 12:37:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BAL/JAC1676-1686:10"""),
+    ],
+)
+

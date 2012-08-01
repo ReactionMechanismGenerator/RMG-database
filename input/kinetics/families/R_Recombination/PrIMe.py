@@ -4125,51 +4125,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 536,
-    label = "r00011821",
-    reactant1 = 
-"""
-1 * O 1 {2,S}
-2   O 1 {1,S}
-""",
-    reactant2 = 
-"""
-1 * H 1
-""",
-    product1 = 
-"""
-1 *1 O 0 {2,S} {3,S}
-2    O 1 {1,S}
-3 *2 H 0 {1,S}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (5e+06,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-5437.66,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Baldwin, R.R.", "Jackson, D.", "Walker, R.W.", "Webster, S.J."],
-        title = u'Interpretation of the slow reaction and second limit of hydrogen oxygen mixtures by computer methods',
-        journal = "Trans. Faraday Soc.",
-        volume = "63",
-        pages = """1676-1686""",
-        year = "1967",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000017.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000017.xml
-""",
-    history = [
-        ("Tue May 17 14:34:50 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000017.xml"""),
-    ],
-)
-
-entry(
     index = 537,
     label = "r00011821",
     reactant1 = 
