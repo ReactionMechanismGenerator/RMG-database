@@ -27141,3 +27141,61 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 471,
+    label = "1982KOI/MOR690:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (6.31e+12,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (254.423,"kJ/mol","+|-",20.37),
+        T0 = (1,"K"),
+        Tmin = (1300,"K"),
+        Tmax = (1800,"K"),
+        Pmin = (50700,"Pa"),
+        Pmax = (50700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Koike, T.", "Morinaga, K."],
+        title = u'UV Absorption Studies of the Pyrolysis of Isobutane in Shock Waves',
+        journal = "Bull. Chem. Soc. Jpn.",
+        volume = "55",
+        pages = """690""",
+        year = "1982",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1982KOI/MOR690:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000013.xml
+Uncertainty: 3.1600001
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 11:31:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982KOI/MOR690:1"""),
+    ],
+)
+
