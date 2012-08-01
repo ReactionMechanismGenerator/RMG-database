@@ -28258,3 +28258,50 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 492,
+    label = "1984WAR197C:11",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1e+15,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (419.881,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (3000,"K"),
+    ),
+    reference = Book(
+        authors = ["Warnatz, J."],
+        title = u'Rate coefficients in the C/H/O system',
+        publisher = "ed. W.C. Gardiner,Jr., pub. Springer-Verlag,NY",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:11",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000058.xml
+Uncertainty: 3.1600001
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Aug 01 12:06:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:11"""),
+    ],
+)
+

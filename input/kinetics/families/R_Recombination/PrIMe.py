@@ -3797,45 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 490,
-    label = "r00010887",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (1e+15,"s^-1"),
-        n = 0,
-        Ea = (419881,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Reference(
-        authors = ["Warnatz, J."],
-        year = "1984",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000058.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000058.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000058.xml"""),
-    ],
-)
-
-entry(
     index = 491,
     label = "r00010887",
     reactant1 = 
