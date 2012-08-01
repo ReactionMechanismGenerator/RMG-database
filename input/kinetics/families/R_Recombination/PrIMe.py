@@ -1697,49 +1697,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 105,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 * C 1
-""",
-    reactant2 = 
-"""
-1 * C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.39e+06,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-6343.94,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Ingold, K.U.", "Lossing, F.P."],
-        title = u'Free radicals by mass spectrometry. IV. The rate of combination of methyl radicals',
-        journal = "J. Chem. Phys.",
-        volume = "21",
-        pages = """1135-1144""",
-        year = "1953",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000067.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000067.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000067.xml"""),
-    ],
-)
-
-entry(
     index = 106,
     label = "r00002085",
     reactant1 = 
