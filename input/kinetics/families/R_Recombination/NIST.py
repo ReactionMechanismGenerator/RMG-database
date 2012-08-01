@@ -27791,3 +27791,60 @@ Data type: Other theoretical
     ],
 )
 
+entry(
+    index = 483,
+    label = "2001SUT/SU669-684:5",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (5.09e+19,"s^-1"),
+        n = -0.86,
+        Ea = (456.598,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1600,"K"),
+        Tmax = (4500,"K"),
+    ),
+    reference = Article(
+        authors = ["Sutherland, J.W.", "Su, M.-C.", "Michael, J.V."],
+        title = u'Rate Constants for H + CH4, CH3 + H2, and CH4 Dissociation at High Temperature',
+        journal = "Int J. Chem. Kinet.",
+        volume = "33",
+        pages = """669-684""",
+        year = "2001",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000048.xml
+Category: Experiment
+Data type: High or low pressure extrapolation
+Pressure dependence: Rate constant is high pressure limit
+Experimental procedure: Shock tube
+Excitation technique: Flash photolysis (laser or conventional)
+Time resolution: In real time
+Analytical technique: Vis-UV absorption
+
+Excimer laser photolysis-shock tube technique coupled with H-atom atomic resonance absorption spectromtry has been used. The real time H atom profiles were fit with a complex mechanism to derive the best fit rate constants for the reactions, H+CH4-> CH3+H2, CH3+H2->H+CH4, as well as the reaction CH4+Kr->CH3+H+Kr. The derived rate constants for the latter reaction were not sensitive to the H+CH4reaction within expermental error.
+
+Results of this study and seven previous experimental studies have been evaluated. Results from theory are also discussed.
+""",
+    history = [
+        ("Wed Aug 01 11:57:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:5"""),
+    ],
+)
+

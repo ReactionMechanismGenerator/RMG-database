@@ -3797,49 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 481,
-    label = "r00010887",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (1.08e-13,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-362619,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Sutherland, J.W.", "Su, M.-C.", "Michael, J.V."],
-        title = u'Rate Constants for H + CH_4, CH_3 + H_2, and CH_4 Dissociation at High Temperature',
-        journal = "Int J. Chem. Kinet.",
-        volume = "33",
-        pages = """669-684""",
-        year = "2001",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000048.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000048.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000048.xml"""),
-    ],
-)
-
-entry(
     index = 482,
     label = "r00010887",
     reactant1 = 
