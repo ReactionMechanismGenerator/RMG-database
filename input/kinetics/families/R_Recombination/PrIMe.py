@@ -3446,53 +3446,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 395,
-    label = "r00010181",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-""",
-    product1 = 
-"""
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (3.84e+19,"s^-1"),
-        n = -2.61,
-        Ea = (378308,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Tsang, W."],
-        title = u'Rate constants for the decomposition and formation of simple alkanes over extended temperature and pressure ranges',
-        journal = "Combust. Flame",
-        volume = "78",
-        pages = """71-86""",
-        year = "1989",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000016.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000016.xml
-""",
-    history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000016.xml"""),
-    ],
-)
-
-entry(
     index = 396,
     label = "r00010181",
     reactant1 = 

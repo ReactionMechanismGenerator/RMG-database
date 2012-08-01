@@ -27308,3 +27308,56 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 474,
+    label = "1990TSA1-68:20",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (1.1e+26,"s^-1","*|/",2),
+        n = -2.61,
+        Ea = (378.308,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 4. Isobutane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "19",
+        pages = """1-68""",
+        year = "1990",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:20",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000016.xml
+Uncertainty: 2.0
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Aug 01 11:37:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:20"""),
+    ],
+)
+
