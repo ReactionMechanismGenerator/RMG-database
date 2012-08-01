@@ -29235,3 +29235,66 @@ Data type: Transition state theory
     ],
 )
 
+entry(
+    index = 510,
+    label = "1969TSA245:4",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S} {5,S} {6,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6    C 0 {2,S} {7,D}
+7    C 0 {6,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,S}
+3   C 0 {2,S} {4,D}
+4   C 0 {3,D}
+""",
+    product2 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (5.01e+15,"s^-1"),
+        n = 0,
+        Ea = (270.22,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1030,"K"),
+        Tmax = (1090,"K"),
+        Pmin = (69300,"Pa"),
+        Pmax = (167000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Thermal decomposition of 3,4-dimethylpentene-1,2,3,3-trimethylpentane, 3,3-dimethylpentane, and isobutylbenzene in a single pulse shock tube',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "1",
+        pages = """245""",
+        year = "1969",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1969TSA245:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013101
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013101/rk00000001.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 13:10:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969TSA245:4"""),
+    ],
+)
+

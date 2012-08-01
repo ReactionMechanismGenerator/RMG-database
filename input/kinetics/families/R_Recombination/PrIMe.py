@@ -4260,59 +4260,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 550,
-    label = "r00013101",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S} {7,D}
-7    C 0 {6,D}
-""",
-    product1 = 
-"""
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,S}
-3   C 0 {2,S} {4,D}
-4   C 0 {3,D}
-""",
-    product2 = 
-"""
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (5.01e+15,"s^-1"),
-        n = 0,
-        Ea = (270220,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Tsang, W."],
-        title = u'Thermal decomposition of 3,4-dimethylpentene-1,2,3,3-trimethylpentane, 3,3-dimethylpentane, and isobutylbenzene in a single pulse shock tube',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "1",
-        pages = """245""",
-        year = "1969",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013101/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013101/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:35:12 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013101/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 551,
     label = "r00013690",
     reactant1 = 
