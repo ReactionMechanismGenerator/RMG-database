@@ -25523,3 +25523,51 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 442,
+    label = "1991FOR3612-3620:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.69e+10,"m^3/(mol*s)"),
+        n = -1.11,
+        Ea = (2.453,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Forst, W."],
+        title = u'Microcanonical variational theory of radical recombination by inversion of interpolated partition function, with examples: CH3 + H, CH3 + CH3',
+        journal = "J. Phys. Chem.",
+        volume = "95",
+        pages = """3612-3620""",
+        year = "1991",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1991FOR3612-3620:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000122.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 10:28:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991FOR3612-3620:1"""),
+    ],
+)
+
