@@ -25472,3 +25472,54 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 441,
+    label = "1988WAG/WAR2462-2471:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9.06e+10,"m^3/(mol*s)"),
+        n = -1.18,
+        Ea = (2.735,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (296,"K"),
+        Tmax = (2000,"K"),
+        Pmin = (133,"Pa"),
+        Pmax = (60000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Wagner, A.F.", "Wardlaw, D.M."],
+        title = u'Study of the recombination reaction CH3 + CH3 \u2192\x92 C2H6. 2. Theory',
+        journal = "J. Phys. Chem.",
+        volume = "92",
+        pages = """2462-2471""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988WAG/WAR2462-2471:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000119.xml
+Bath gas: Ar
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 10:27:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988WAG/WAR2462-2471:1"""),
+    ],
+)
+
