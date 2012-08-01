@@ -29750,3 +29750,74 @@ Analytical technique: Mass spectrometry
     ],
 )
 
+entry(
+    index = 519,
+    label = "1973PER/GOL55:2",
+    reactant1 = 
+"""
+1     C 0 {3,S} {5,S} {6,S} {11,S}
+2     C 0 {4,S} {7,S} {8,S} {12,S}
+3     C 0 {1,S} {9,S}
+4     C 0 {2,S} {10,S}
+5     C 0 {1,S}
+6     C 0 {1,S}
+7     C 0 {2,S}
+8     C 0 {2,S}
+9     C 0 {3,S}
+10    C 0 {4,S}
+11 *1 O 0 {1,S} {12,S}
+12 *2 O 0 {2,S} {11,S}
+""",
+    product1 = 
+"""
+1   C 0 {2,S} {3,S} {4,S} {6,S}
+2   C 0 {1,S} {5,S}
+3   C 0 {1,S}
+4   C 0 {1,S}
+5   C 0 {2,S}
+6 * O 1 {1,S}
+""",
+    product2 = 
+"""
+1   C 0 {2,S} {3,S} {4,S} {6,S}
+2   C 0 {1,S} {5,S}
+3   C 0 {1,S}
+4   C 0 {1,S}
+5   C 0 {2,S}
+6 * O 1 {1,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (6.31e+15,"s^-1","*|/",5),
+        n = 0,
+        Ea = (152.155,"kJ/mol","+|-",4.573),
+        T0 = (1,"K"),
+        Tmin = (500,"K"),
+        Tmax = (650,"K"),
+    ),
+    reference = Article(
+        authors = ["Perona, M.J.", "Golden, D.M."],
+        title = u'Very Low-Pressure Pyrolysis. VIII. The Decomposition of Di-t-Amyl Peroxide',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "5",
+        pages = """55""",
+        year = "1973",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1973PER/GOL55:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00014912
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00014912/rk00000001.xml
+Uncertainty: 5.0
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Wed Aug 01 15:06:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973PER/GOL55:2"""),
+    ],
+)
+
