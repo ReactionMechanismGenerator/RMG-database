@@ -2804,51 +2804,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 166,
-    label = "r00002700",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-""",
-    product1 = 
-"""
-1   C 0 {2,S}
-2 * C 1 {1,S}
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (1.48e+17,"s^-1"),
-        n = 0,
-        Ea = (361680,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Al-Alami, M.Z.", "Kiefer, J.H."],
-        title = u'Shock-tube study of propane pyrolysis. Rate of initial dissociation from 1400 to 2300 K',
-        journal = "J. Phys. Chem.",
-        volume = "87",
-        pages = """499""",
-        year = "1983",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000011.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000011.xml
-""",
-    history = [
-        ("Tue May 17 14:33:35 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002700/rk00000011.xml"""),
-    ],
-)
-
-entry(
     index = 167,
     label = "r00002700",
     reactant1 = 
