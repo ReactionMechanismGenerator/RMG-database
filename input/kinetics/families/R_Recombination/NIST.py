@@ -25722,3 +25722,56 @@ Data type: Extensive literature review
     ],
 )
 
+entry(
+    index = 446,
+    label = "1996DU/HES974-983:2",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9.06e+10,"m^3/(mol*s)"),
+        n = -1.2,
+        Ea = (2.453,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (296,"K"),
+        Tmax = (1800,"K"),
+        Pmin = (122000,"Pa"),
+        Pmax = (122000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Du, H.", "Hessler, J.P.", "Ogren, P.J."],
+        title = u'Recombination of methyl radicals. 1. New data between 1175 and 1750 K in the falloff region',
+        journal = "J. Phys. Chem.",
+        volume = "100",
+        pages = """974-983""",
+        year = "1996",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1996DU/HES974-983:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000129.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 10:33:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996DU/HES974-983:2"""),
+    ],
+)
+
