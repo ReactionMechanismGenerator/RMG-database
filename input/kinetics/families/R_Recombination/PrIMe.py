@@ -3446,49 +3446,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 326,
-    label = "r00009454",
-    reactant1 = 
-"""
-1 * H 1
-""",
-    reactant2 = 
-"""
-1 * H 1
-""",
-    product1 = 
-"""
-1 *1 H 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (109000,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (6269.11,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Dingle, J.R.", "Le Roy, D.J."],
-        title = u'Kinetics of the reaction of atomic hydrogen with acetylene',
-        journal = "J. Chem. Phys.",
-        volume = "18",
-        pages = """1632-1637""",
-        year = "1950",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000026.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000026.xml
-""",
-    history = [
-        ("Tue May 17 14:34:25 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000026.xml"""),
-    ],
-)
-
-entry(
     index = 385,
     label = "r00010181",
     reactant1 = 

@@ -26748,3 +26748,54 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 464,
+    label = "1950DIN/LER1632-1637:1",
+    reactant1 = 
+"""
+1 * H 1
+""",
+    reactant2 = 
+"""
+1 * H 1
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (109000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (6.269,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (278,"K"),
+        Tmax = (372,"K"),
+    ),
+    reference = Article(
+        authors = ["Dingle, J.R.", "Le Roy, D.J."],
+        title = u'Kinetics of the reaction of atomic hydrogen with acetylene',
+        journal = "J. Chem. Phys.",
+        volume = "18",
+        pages = """1632-1637""",
+        year = "1950",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1950DIN/LER1632-1637:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00009454
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000026.xml
+Bath gas: C2H2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Wed Aug 01 11:16:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1950DIN/LER1632-1637:1"""),
+    ],
+)
+
