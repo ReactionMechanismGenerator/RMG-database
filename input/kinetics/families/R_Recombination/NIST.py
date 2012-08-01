@@ -29404,3 +29404,56 @@ Analytical technique: Other (direct)
     ],
 )
 
+entry(
+    index = 513,
+    label = "1957GIG/LIU283-293:1",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * O 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+13,"s^-1"),
+        n = 0,
+        Ea = (201.21,"kJ/mol","+|-",12.056),
+        T0 = (1,"K"),
+        Tmin = (673,"K"),
+        Tmax = (773,"K"),
+        Pmin = (1333,"Pa"),
+        Pmax = (2666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Giguere, P.A.", "Liu, I.D."],
+        title = u'Kinetics of the thermal decomposition of hydrogen peroxide vapor',
+        journal = "Can. J. Chem.",
+        volume = "35",
+        pages = """283-293""",
+        year = "1957",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1957GIG/LIU283-293:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013690
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000003.xml
+Bath gas: H2O2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Wed Aug 01 13:12:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1957GIG/LIU283-293:1"""),
+    ],
+)
+

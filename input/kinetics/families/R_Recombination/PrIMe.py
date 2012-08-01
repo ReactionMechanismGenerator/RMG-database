@@ -4260,49 +4260,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 553,
-    label = "r00013690",
-    reactant1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 O 0 {1,S}
-""",
-    product1 = 
-"""
-1 * O 1
-""",
-    product2 = 
-"""
-1 * O 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1e+13,"s^-1"),
-        n = 0,
-        Ea = (201210,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Giguere, P.A.", "Liu, I.D."],
-        title = u'Kinetics of the thermal decomposition of hydrogen peroxide vapor',
-        journal = "Can. J. Chem.",
-        volume = "35",
-        pages = """283-293""",
-        year = "1957",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 554,
     label = "r00013690",
     reactant1 = 
