@@ -29554,3 +29554,68 @@ Data type: Transition state theory
     ],
 )
 
+entry(
+    index = 516,
+    label = "1996LAY/BOZ6543-6554:4",
+    reactant1 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    reactant2 = 
+"""
+1   C 0 {2,S} {3,S} {7,S}
+2 * C 1 {1,S} {4,S}
+3   C 0 {1,S} {5,D}
+4   C 0 {2,S} {6,D}
+5   C 0 {3,D} {6,S}
+6   C 0 {4,D} {5,S}
+7   O 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S} {8,S}
+2 *2 C 0 {1,S} {4,S} {7,S}
+3    C 0 {1,S} {5,D}
+4    C 0 {2,S} {6,D}
+5    C 0 {3,D} {6,S}
+6    C 0 {4,D} {5,S}
+7 *1 O 0 {2,S} {9,S}
+8    O 0 {1,S}
+9    O 1 {7,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (2.14e+09,"m^3/(mol*s)"),
+        n = -2.05,
+        Ea = (19.622,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (400,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Lay, T.H.", "Bozzelli, J.W.", "Seinfeld, J.H."],
+        title = u'Atmospheric photochemical oxidation of benzene: benzene + OH and the benzene-OH adduct (hydroxyl-2,4-cyclohexadienyl) + O2',
+        journal = "J. Phys. Chem.",
+        volume = "100",
+        pages = """6543-6554""",
+        year = "1996",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1996LAY/BOZ6543-6554:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013891
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013891/rk00000002.xml
+Bath gas: N2
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 13:27:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996LAY/BOZ6543-6554:4"""),
+    ],
+)
+
