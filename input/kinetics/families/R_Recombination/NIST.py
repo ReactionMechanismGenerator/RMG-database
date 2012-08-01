@@ -25209,3 +25209,57 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 436,
+    label = "1972TEN/JON1267:2",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.62e+07,"m^3/(mol*s)","*|/",2),
+        n = 0,
+        Ea = (1.796,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (303,"K"),
+        Tmax = (603,"K"),
+        Pmin = (160,"Pa"),
+        Pmax = (267,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Teng, L.", "Jones, W.E."],
+        title = u'Kinetics of the Reactions of Hydrogen Atoms with Ethylene and Vinyl Fluoride',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "68",
+        pages = """1267""",
+        year = "1972",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1972TEN/JON1267:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000082.xml
+Uncertainty: 2.0
+Bath gas: H2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Electron beam
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 10:16:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972TEN/JON1267:2"""),
+    ],
+)
+
