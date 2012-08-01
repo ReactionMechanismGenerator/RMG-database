@@ -28103,3 +28103,52 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 489,
+    label = "1969PAL588:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1e+15,"s^-1"),
+        n = 0,
+        Ea = (434.847,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1250,"K"),
+        Tmax = (1670,"K"),
+    ),
+    reference = Article(
+        authors = ["Palmer, H.B."],
+        title = u'Discussion',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "12",
+        pages = """588""",
+        year = "1969",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1969PAL588:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000055.xml
+Bath gas: He
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Aug 01 12:02:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969PAL588:1"""),
+    ],
+)
+

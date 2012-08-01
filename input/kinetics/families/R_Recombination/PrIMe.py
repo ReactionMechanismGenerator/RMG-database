@@ -3797,49 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 487,
-    label = "r00010887",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (1e+15,"s^-1"),
-        n = 0,
-        Ea = (434847,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Palmer, H.B."],
-        title = u'Discussion',
-        journal = "Symp. Int. Combust. Proc.",
-        volume = "12",
-        pages = """588""",
-        year = "1969",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000055.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000055.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000055.xml"""),
-    ],
-)
-
-entry(
     index = 488,
     label = "r00010887",
     reactant1 = 
