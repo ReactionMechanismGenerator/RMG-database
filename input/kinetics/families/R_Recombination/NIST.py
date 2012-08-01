@@ -28853,3 +28853,58 @@ Analytical technique: Laser schlieren
     ],
 )
 
+entry(
+    index = 503,
+    label = "1988KER/SIN731:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,D}
+2 *2 C 0 {1,S} {4,D}
+3    C 0 {1,D}
+4    C 0 {2,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    product2 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.07e+12,"s^-1"),
+        n = 0,
+        Ea = (278.535,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1300,"K"),
+        Tmax = (2000,"K"),
+        Pmin = (20300,"Pa"),
+        Pmax = (55700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kern, R.D.", "Singh, H.J.", "Wu, C.H."],
+        title = u'Thermal decomposition of 1,2 butadiene',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "20",
+        pages = """731""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988KER/SIN731:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from detailed balance/reverse rate""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011415
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000010.xml
+Bath gas: Ne
+Category: Experiment
+Data type: Derived from detailed balance/reverse rate
+""",
+    history = [
+        ("Wed Aug 01 12:28:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988KER/SIN731:2"""),
+    ],
+)
+
