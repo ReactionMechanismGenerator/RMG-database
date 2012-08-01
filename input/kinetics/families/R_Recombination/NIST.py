@@ -28657,3 +28657,76 @@ Data type: Experimental value and limited review
     ],
 )
 
+entry(
+    index = 500,
+    label = "1997PAR/LIN14-18:2",
+    reactant1 = 
+"""
+1   C 0 {2,B} {3,B}
+2   C 0 {1,B} {4,B}
+3   C 0 {1,B} {5,B}
+4   C 0 {2,B} {6,B}
+5   C 0 {3,B} {6,B}
+6 * C 1 {4,B} {5,B}
+""",
+    reactant2 = 
+"""
+1   C 0 {2,B} {3,B}
+2   C 0 {1,B} {4,B}
+3   C 0 {1,B} {5,B}
+4   C 0 {2,B} {6,B}
+5   C 0 {3,B} {6,B}
+6 * C 1 {4,B} {5,B}
+""",
+    product1 = 
+"""
+1  *1 C 0 {2,S} {3,B} {4,B}
+2  *2 C 0 {1,S} {5,B} {6,B}
+3     C 0 {1,B} {8,B}
+4     C 0 {1,B} {9,B}
+5     C 0 {2,B} {11,B}
+6     C 0 {2,B} {12,B}
+7     C 0 {8,B} {9,B}
+8     C 0 {3,B} {7,B}
+9     C 0 {4,B} {7,B}
+10    C 0 {11,B} {12,B}
+11    C 0 {5,B} {10,B}
+12    C 0 {6,B} {10,B}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.39e+07,"m^3/(mol*s)","+|-",1.1e+06),
+        n = 0,
+        Ea = (0.466,"kJ/mol","+|-",0.298),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (500,"K"),
+        Pmin = (6666,"Pa"),
+        Pmax = (6666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Park, J.", "Lin, M.C."],
+        title = u'Kinetics for the recombination of phenyl radicals',
+        journal = "J. Phys. Chem. A",
+        volume = "101",
+        pages = """14-18""",
+        year = "1997",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1997PAR/LIN14-18:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011156
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011156/rk00000002.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Wed Aug 01 12:21:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997PAR/LIN14-18:2"""),
+    ],
+)
+

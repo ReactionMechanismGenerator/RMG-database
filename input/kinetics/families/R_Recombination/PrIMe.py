@@ -3797,69 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 503,
-    label = "r00011156",
-    reactant1 = 
-"""
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
-""",
-    reactant2 = 
-"""
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
-""",
-    product1 = 
-"""
-1  *1 C 0 {2,S} {3,B} {4,B}
-2  *2 C 0 {1,S} {5,B} {6,B}
-3     C 0 {1,B} {8,B}
-4     C 0 {1,B} {9,B}
-5     C 0 {2,B} {11,B}
-6     C 0 {2,B} {12,B}
-7     C 0 {8,B} {9,B}
-8     C 0 {3,B} {7,B}
-9     C 0 {4,B} {7,B}
-10    C 0 {11,B} {12,B}
-11    C 0 {5,B} {10,B}
-12    C 0 {6,B} {10,B}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.39e+07,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (465.61,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Park, J.", "Lin, M.C."],
-        title = u'Kinetics for the recombination of phenyl radicals',
-        journal = "J. Phys. Chem. A",
-        volume = "101",
-        pages = """14-18""",
-        year = "1997",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00011156/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011156/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:34:45 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00011156/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 504,
     label = "r00011168",
     reactant1 = 
