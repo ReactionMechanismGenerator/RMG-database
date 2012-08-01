@@ -3446,53 +3446,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 456,
-    label = "r00010784",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {4,D}
-3    C 0 {4,D}
-4    C 0 {2,D} {3,D}
-""",
-    product1 = 
-"""
-1   C 0 {2,D}
-2   C 0 {1,D} {3,D}
-3 * C 1 {2,D}
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (2e+15,"s^-1"),
-        n = 0,
-        Ea = (313456,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oki, T.", "Kawano, H."],
-        title = u'Thermal isomerization and decomposition of 1,2-butadiene in shock waves',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "27",
-        pages = """331-341""",
-        year = "1995",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000005.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000005.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000005.xml"""),
-    ],
-)
-
-entry(
     index = 463,
     label = "r00010854",
     reactant1 = 
