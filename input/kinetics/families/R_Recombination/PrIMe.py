@@ -4260,49 +4260,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 554,
-    label = "r00013690",
-    reactant1 = 
-"""
-1 *1 O 0 {2,S}
-2 *2 O 0 {1,S}
-""",
-    product1 = 
-"""
-1 * O 1
-""",
-    product2 = 
-"""
-1 * O 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (2.95e+14,"s^-1"),
-        n = 0,
-        Ea = (202873,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Brouwer, L.", "Cobos, C.J.", "Troe, J.", "Dubal, H.-R.", "Crim, F.F."],
-        title = u'Specific rate constants k(E,J) and product state distributions in simple bond fission reactions. II. Application to HOOH \u2192 OH + OH',
-        journal = "J. Chem. Phys.",
-        volume = "86",
-        pages = """6171""",
-        year = "1987",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000018.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000018.xml
-""",
-    history = [
-        ("Tue May 17 14:35:13 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000018.xml"""),
-    ],
-)
-
-entry(
     index = 555,
     label = "r00013690",
     reactant1 = 

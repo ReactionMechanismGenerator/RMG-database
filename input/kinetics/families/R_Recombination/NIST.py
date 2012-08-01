@@ -29457,3 +29457,51 @@ Analytical technique: Pressure measurement
     ],
 )
 
+entry(
+    index = 514,
+    label = "1987BRO/COB6171:2",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * O 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.95e+14,"s^-1"),
+        n = 0,
+        Ea = (202.873,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Brouwer, L.", "Cobos, C.J.", "Troe, J.", "Dubal, H.-R.", "Crim, F.F."],
+        title = u'Specific rate constants k(E,J) and product state distributions in simple bond fission reactions. II. Application to HOOH \u2192\x92 OH + OH',
+        journal = "J. Chem. Phys.",
+        volume = "86",
+        pages = """6171""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987BRO/COB6171:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Other theoretical""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013690
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000018.xml
+Category: Theory
+Data type: Other theoretical
+""",
+    history = [
+        ("Wed Aug 01 13:13:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987BRO/COB6171:2"""),
+    ],
+)
+
