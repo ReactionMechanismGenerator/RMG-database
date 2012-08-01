@@ -4767,63 +4767,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 580,
-    label = "r00013891",
-    reactant1 = 
-"""
-1 * O 1 {2,S}
-2   O 1 {1,S}
-""",
-    reactant2 = 
-"""
-1   C 0 {2,S} {3,S} {7,S}
-2 * C 1 {1,S} {4,S}
-3   C 0 {1,S} {5,D}
-4   C 0 {2,S} {6,D}
-5   C 0 {3,D} {6,S}
-6   C 0 {4,D} {5,S}
-7   O 0 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S} {8,S}
-2 *2 C 0 {1,S} {4,S} {7,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D} {6,S}
-6    C 0 {4,D} {5,S}
-7 *1 O 0 {2,S} {9,S}
-8    O 0 {1,S}
-9    O 1 {7,S}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (3.55603e+30,"cm^3/(mol*s)"),
-        n = -8.86,
-        Ea = (15880.6,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Lay, T.H.", "Bozzelli, J.W.", "Seinfeld, J.H."],
-        title = u'Atmospheric photochemical oxidation of benzene: benzene + OH and the benzene-OH adduct (hydroxyl-2,4-cyclohexadienyl) + O_2',
-        journal = "J. Phys. Chem.",
-        volume = "100",
-        pages = """6543-6554""",
-        year = "1996",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00013891/rk00000003.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013891/rk00000003.xml
-""",
-    history = [
-        ("Tue May 17 14:35:14 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00013891/rk00000003.xml"""),
-    ],
-)
-
-entry(
     index = 584,
     label = "r00014912",
     reactant1 = 
