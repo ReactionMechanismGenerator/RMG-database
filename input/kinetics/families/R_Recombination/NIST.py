@@ -26627,3 +26627,62 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 462,
+    label = "1992HID/MAS871-885:1",
+    reactant1 = 
+"""
+1    C 0 {2,D} {3,S}
+2    C 0 {1,D}
+3    C 0 {1,S} {4,T}
+4 *1 C 0 {3,T} {5,S}
+5 *2 H 0 {4,S}
+""",
+    product1 = 
+"""
+1 * H 1
+""",
+    product2 = 
+"""
+1   C 0 {2,D} {3,S}
+2   C 0 {1,D}
+3   C 0 {1,S} {4,T}
+4 * C 1 {3,T}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (6.3e+13,"s^-1"),
+        n = 0,
+        Ea = (364.174,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1170,"K"),
+        Tmax = (1690,"K"),
+        Pmin = (132000,"Pa"),
+        Pmax = (233000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hidaka, Y.", "Masaoka, H.", "Oshita, H.", "Nakamura, T.", "Tanaka, K.", "Kawano, H."],
+        title = u'Thermal decomposition of vinylacetylene in shock waves',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "24",
+        pages = """871-885""",
+        year = "1992",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1992HID/MAS871-885:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008728
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008728/rk00000002.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:13:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992HID/MAS871-885:1"""),
+    ],
+)
+
