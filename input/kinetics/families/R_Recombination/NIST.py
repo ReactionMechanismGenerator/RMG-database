@@ -27083,3 +27083,61 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 470,
+    label = "1980SHE/IVA837:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (1.66e+11,"s^-1","*|/",3.08),
+        n = 0,
+        Ea = (202.042,"kJ/mol","+|-",10.144),
+        T0 = (1,"K"),
+        Tmin = (973,"K"),
+        Tmax = (1120,"K"),
+        Pmin = (13300,"Pa"),
+        Pmax = (13300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Shevel'kova, L.V.", "Ivanvuk, A.V.", "Nametkin, N.S."],
+        title = u'Comparative Study of the Pyrolysis of n-Butane and Isobutane',
+        journal = "Neftekhimiya",
+        volume = "20",
+        pages = """837""",
+        year = "1980",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1980SHE/IVA837:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000012.xml
+Uncertainty: 3.0799999
+Bath gas: H2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 11:29:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980SHE/IVA837:1"""),
+    ],
+)
+
