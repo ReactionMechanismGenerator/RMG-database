@@ -25775,3 +25775,52 @@ Analytical technique: Vis-UV absorption
     ],
 )
 
+entry(
+    index = 447,
+    label = "1998PES/PIL8526-8536:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (8.7e+11,"m^3/(mol*s)"),
+        n = -1.41,
+        Ea = (4.177,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Pesa, M.", "Pilling, M.J.", "Robertson, S.H.", "Wardlaw, D.M."],
+        title = u'Application of the canonical flexible transition state theory to CH3, CF3, and CCl3',
+        journal = "J. Phys. Chem. A",
+        volume = "102",
+        pages = """8526-8536""",
+        year = "1998",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1998PES/PIL8526-8536:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000131.xml
+Category: Theory
+Data type: Transition state theory
+Pressure dependence: Rate constant is high pressure limit
+""",
+    history = [
+        ("Wed Aug 01 10:34:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998PES/PIL8526-8536:1"""),
+    ],
+)
+
