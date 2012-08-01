@@ -3446,53 +3446,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 394,
-    label = "r00010181",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-""",
-    product1 = 
-"""
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (4.5e+16,"s^-1"),
-        n = 0,
-        Ea = (339230,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Hidaka, Y.", "Fujiwara, M.", "Oki, T.", "Kawano, H."],
-        title = u'Thermal decomposition of isobutane in shock waves. Rate constant of initiation reaction',
-        journal = "Chem. Phys. Lett.",
-        volume = "144",
-        pages = """570""",
-        year = "1988",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000015.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000015.xml
-""",
-    history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000015.xml"""),
-    ],
-)
-
-entry(
     index = 395,
     label = "r00010181",
     reactant1 = 
