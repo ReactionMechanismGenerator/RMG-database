@@ -3797,49 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 485,
-    label = "r00010887",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (1e+15,"s^-1"),
-        n = 0,
-        Ea = (430690,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Kondratiev, V.N."],
-        title = u'Determination of the rate constant for thermal cracking of methane by means of adiabatic compression and expansion',
-        journal = "Symp. Int. Combust. Proc.",
-        volume = "10",
-        pages = """319""",
-        year = "1965",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000053.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000053.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000053.xml"""),
-    ],
-)
-
-entry(
     index = 486,
     label = "r00010887",
     reactant1 = 

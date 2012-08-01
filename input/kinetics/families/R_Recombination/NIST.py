@@ -28002,3 +28002,56 @@ Analytical technique: Other
     ],
 )
 
+entry(
+    index = 487,
+    label = "1965KON319:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1e+15,"s^-1"),
+        n = 0,
+        Ea = (430.69,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1590,"K"),
+        Tmax = (1750,"K"),
+        Pmin = (2.03e+06,"Pa"),
+        Pmax = (2.03e+06,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kondratiev, V.N."],
+        title = u'Determination of the rate constant for thermal cracking of methane by means of adiabatic compression and expansion',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "10",
+        pages = """319""",
+        year = "1965",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1965KON319:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000053.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Wed Aug 01 12:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965KON319:1"""),
+    ],
+)
+
