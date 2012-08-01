@@ -3173,55 +3173,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 308,
-    label = "r00008727",
-    reactant1 = 
-"""
-1 * H 1
-""",
-    reactant2 = 
-"""
-1   C 0 {2,D}
-2 * C 1 {1,D} {3,S}
-3   C 0 {2,S} {4,T}
-4   C 0 {3,T}
-""",
-    product1 = 
-"""
-1 *2 C 0 {2,D} {3,S} {5,S}
-2    C 0 {1,D}
-3    C 0 {1,S} {4,T}
-4    C 0 {3,T}
-5 *1 H 0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (5.15e+08,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (3367.36,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Duran, R.P.", "Amorebieta, V.T.", "Colussi, A.J."],
-        title = u'Is the homogeneous thermal dimerization of acetylene a free-radical chain reaction? Kinetic and thermochemical analysis',
-        journal = "J. Phys. Chem.",
-        volume = "92",
-        pages = """636""",
-        year = "1988",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000002.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000002.xml
-""",
-    history = [
-        ("Tue May 17 14:34:17 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000002.xml"""),
-    ],
-)
-
-entry(
     index = 309,
     label = "r00008728",
     reactant1 = 

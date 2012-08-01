@@ -26512,3 +26512,59 @@ Data type: Estimated: thermochemical, kinetic, or other
     ],
 )
 
+entry(
+    index = 460,
+    label = "1988DUR/AMO636:11",
+    reactant1 = 
+"""
+1 * H 1
+""",
+    reactant2 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D} {3,S}
+3   C 0 {2,S} {4,T}
+4   C 0 {3,T}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D} {3,S} {5,S}
+2    C 0 {1,D}
+3    C 0 {1,S} {4,T}
+4    C 0 {3,T}
+5 *1 H 0 {1,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (5.15e+08,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (3.367,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (700,"K"),
+        Tmax = (1300,"K"),
+        Pmin = (10100,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Duran, R.P.", "Amorebieta, V.T.", "Colussi, A.J."],
+        title = u'Is the homogeneous thermal dimerization of acetylene a free-radical chain reaction? Kinetic and thermochemical analysis',
+        journal = "J. Phys. Chem.",
+        volume = "92",
+        pages = """636""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988DUR/AMO636:11",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008727
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000002.xml
+Category: Theory
+Data type: Ab initio
+""",
+    history = [
+        ("Wed Aug 01 11:11:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988DUR/AMO636:11"""),
+    ],
+)
+
