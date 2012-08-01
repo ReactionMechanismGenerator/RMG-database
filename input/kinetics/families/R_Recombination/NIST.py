@@ -25571,3 +25571,56 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 443,
+    label = "1991HWA/WAG99-105:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.37e+10,"m^3/(mol*s)"),
+        n = -1.1,
+        Ea = (2.661,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1200,"K"),
+        Tmax = (1600,"K"),
+        Pmin = (1.01e+06,"Pa"),
+        Pmax = (2.43e+07,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hwang, S.M.", "Wagner, H.GG.", "Wolff, Th."],
+        title = u'Recombination of CH3 radicals at elevated pressures and temperatures',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "23",
+        pages = """99-105""",
+        year = "1991",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1991HWA/WAG99-105:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000123.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 10:30:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991HWA/WAG99-105:1"""),
+    ],
+)
+
