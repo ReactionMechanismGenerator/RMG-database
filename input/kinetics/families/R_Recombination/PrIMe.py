@@ -3797,49 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 482,
-    label = "r00010887",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (5.13e+14,"s^-1"),
-        n = 0,
-        Ea = (422375,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Skinner, G.B.", "Ruehrwein, R.A."],
-        title = u'Shock tube studies on the pyrolysis and oxidation of methane',
-        journal = "J. Phys. Chem.",
-        volume = "63",
-        pages = """1736""",
-        year = "1959",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000050.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000050.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000050.xml"""),
-    ],
-)
-
-entry(
     index = 483,
     label = "r00010887",
     reactant1 = 

@@ -27848,3 +27848,56 @@ Results of this study and seven previous experimental studies have been evaluate
     ],
 )
 
+entry(
+    index = 484,
+    label = "1959SKI/RUE1736:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (5.13e+14,"s^-1"),
+        n = 0,
+        Ea = (422.375,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1430,"K"),
+        Tmax = (1780,"K"),
+        Pmin = (507000,"Pa"),
+        Pmax = (507000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Skinner, G.B.", "Ruehrwein, R.A."],
+        title = u'Shock tube studies on the pyrolysis and oxidation of methane',
+        journal = "J. Phys. Chem.",
+        volume = "63",
+        pages = """1736""",
+        year = "1959",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1959SKI/RUE1736:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000050.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:57:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1959SKI/RUE1736:1"""),
+    ],
+)
+
