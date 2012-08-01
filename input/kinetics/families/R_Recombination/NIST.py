@@ -26971,3 +26971,58 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 468,
+    label = "1974GOL/ALF359:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (2.51e+16,"s^-1"),
+        n = 0,
+        Ea = (346.713,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1100,"K"),
+        Tmax = (1280,"K"),
+    ),
+    reference = Article(
+        authors = ["Golden, D.M.", "Alfassi, Z.B.", "Beadle, P.C."],
+        title = u"Very Low-Pressure Pyrolysis (VLPP) of Alkanes: n-Butane, 2,3-Dimethylbutane, 2,2',3,3'-Tetramethylbutane, and Isobutane",
+        journal = "Int. J. Chem. Kinet.",
+        volume = "6",
+        pages = """359""",
+        year = "1974",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974GOL/ALF359:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000010.xml
+Bath gas: iso-C4H10
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Wed Aug 01 11:28:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974GOL/ALF359:1"""),
+    ],
+)
+

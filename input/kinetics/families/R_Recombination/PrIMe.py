@@ -3446,53 +3446,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 389,
-    label = "r00010181",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-""",
-    product1 = 
-"""
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (2.51e+16,"s^-1"),
-        n = 0,
-        Ea = (346713,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Golden, D.M.", "Alfassi, Z.B.", "Beadle, P.C."],
-        title = u"Very Low-Pressure Pyrolysis (VLPP) of Alkanes: n-Butane, 2,3-Dimethylbutane, 2,2',3,3'-Tetramethylbutane, and Isobutane",
-        journal = "Int. J. Chem. Kinet.",
-        volume = "6",
-        pages = """359""",
-        year = "1974",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000010.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000010.xml
-""",
-    history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000010.xml"""),
-    ],
-)
-
-entry(
     index = 390,
     label = "r00010181",
     reactant1 = 
