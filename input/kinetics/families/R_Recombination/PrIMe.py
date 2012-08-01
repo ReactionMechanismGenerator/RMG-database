@@ -1697,49 +1697,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 118,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 * C 1
-""",
-    reactant2 = 
-"""
-1 * C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (3.25556e+10,"cm^3/(mol*s)"),
-        n = -1.1,
-        Ea = (1330.32,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Robertson, S.H.", "Pilling, M.J.", "Baulch, D.L.", "Green, N.J.B."],
-        title = u'Fitting of pressure-dependent kinetic rate data by master equation/inverse laplace transform analysis',
-        journal = "J. Phys. Chem.",
-        volume = "99",
-        pages = """13452-13460""",
-        year = "1995",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000128.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000128.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000128.xml"""),
-    ],
-)
-
-entry(
     index = 119,
     label = "r00002085",
     reactant1 = 

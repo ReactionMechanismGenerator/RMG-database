@@ -25673,3 +25673,52 @@ Data type: RRK(M) extrapolation
     ],
 )
 
+entry(
+    index = 445,
+    label = "1995ROB/PIL13452-13460:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.26e+10,"m^3/(mol*s)"),
+        n = -1.1,
+        Ea = (1.33,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (296,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Robertson, S.H.", "Pilling, M.J.", "Baulch, D.L.", "Green, N.J.B."],
+        title = u'Fitting of pressure-dependent kinetic rate data by master equation/inverse laplace transform analysis',
+        journal = "J. Phys. Chem.",
+        volume = "99",
+        pages = """13452-13460""",
+        year = "1995",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995ROB/PIL13452-13460:1",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000128.xml
+Bath gas: Ar
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Aug 01 10:31:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995ROB/PIL13452-13460:1"""),
+    ],
+)
+
