@@ -26568,3 +26568,62 @@ Data type: Ab initio
     ],
 )
 
+entry(
+    index = 461,
+    label = "1986HID/TAN195:1",
+    reactant1 = 
+"""
+1    C 0 {2,D} {3,S}
+2    C 0 {1,D}
+3    C 0 {1,S} {4,T}
+4 *1 C 0 {3,T} {5,S}
+5 *2 H 0 {4,S}
+""",
+    product1 = 
+"""
+1 * H 1
+""",
+    product2 = 
+"""
+1   C 0 {2,D} {3,S}
+2   C 0 {1,D}
+3   C 0 {1,S} {4,T}
+4 * C 1 {3,T}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (6.1e+13,"s^-1"),
+        n = 0,
+        Ea = (335.073,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1200,"K"),
+        Tmax = (1750,"K"),
+        Pmin = (30400,"Pa"),
+        Pmax = (60800,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hidaka, Y.", "Tanaka, K.", "Suga, M."],
+        title = u'Thermal decomposition of vinylacetylene in shock waves. Rate constant of initiation reaction',
+        journal = "Chem. Phys. Lett.",
+        volume = "130",
+        pages = """195""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986HID/TAN195:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008728
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008728/rk00000001.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 11:12:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986HID/TAN195:1"""),
+    ],
+)
+
