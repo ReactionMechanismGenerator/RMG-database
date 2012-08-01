@@ -3446,51 +3446,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 466,
-    label = "r00010854",
-    reactant1 = 
-"""
-1 * C 1
-""",
-    reactant2 = 
-"""
-1 * O 1 {2,S}
-2   O 1 {1,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 O 0 {1,S} {3,S}
-3    O 1 {2,S}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (25300,"cm^3/(mol*s)"),
-        n = 0,
-        Ea = (-5728.67,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Keiffer, M.", "Miscampbell, A.J.", "Pilling, M.J."],
-        title = u'A global technique for analysing multiple decay curves. Application to the CH_3 + O_2 system',
-        journal = "J. Chem. Soc. Faraday Trans. 2",
-        volume = "84",
-        pages = """505""",
-        year = "1988",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000035.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000035.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000035.xml"""),
-    ],
-)
-
-entry(
     index = 472,
     label = "r00010887",
     reactant1 = 
