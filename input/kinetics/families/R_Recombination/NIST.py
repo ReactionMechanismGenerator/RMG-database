@@ -25824,3 +25824,60 @@ Pressure dependence: Rate constant is high pressure limit
     ],
 )
 
+entry(
+    index = 448,
+    label = "2003WAN/HOU11414-11426:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.28e+09,"m^3/(mol*s)"),
+        n = -0.69,
+        Ea = (0.732,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (1350,"K"),
+    ),
+    reference = Article(
+        authors = ["Wang, B.S.", "Hou, H.", "Yoder, L.M.", "Muckerman, J.T.", "Fockenberg, C."],
+        title = u'Experimental and theoretical investigations on the methyl-methyl recombination reaction',
+        journal = "J. Phys. Chem. A:",
+        volume = "107",
+        pages = """11414-11426""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003WAN/HOU11414-11426:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000159.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+Pressure dependence: Rate constant is high pressure limit
+Experimental procedure: Static or low flow - Data taken vs time
+Excitation technique: Flash photolysis (laser or conventional)
+Time resolution: In real time
+Analytical technique: Mass spectrometry
+
+Rate expressions given here are NOT the exact experimental values, but from TST calculations consistent with experimental measurements.  Derived Fcent(T) = exp(-T/570K)
+
+This work is a combined experimental, TST, and ab initio study of recombination of CH3 radicals. Methyl radicals produced by 193 nm photolysis of acetone. Temperature range 300-700 K. Total pressure 0.6-10 torr He. Detected CH3 with time resolved mass spec. Calculated potential energy surface using ab initio MRCISD+Q/aug-cc-pVTZ method. Used variational transition state theory (Variflex program) to derive high pressure and low pressure limits (and falloff parameter Fcent) for this reaction that are consistent with the experimental measurements.
+""",
+    history = [
+        ("Wed Aug 01 10:35:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003WAN/HOU11414-11426:1"""),
+    ],
+)
+

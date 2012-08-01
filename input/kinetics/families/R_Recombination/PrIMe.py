@@ -1697,49 +1697,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 121,
-    label = "r00002085",
-    reactant1 = 
-"""
-1 * C 1
-""",
-    reactant2 = 
-"""
-1 * C 1
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (3.78106e-15,"cm^3/(mol*s)"),
-        n = -0.69,
-        Ea = (731.674,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Wang, B.S.", "Hou, H.", "Yoder, L.M.", "Muckerman, J.T.", "Fockenberg, C."],
-        title = u'Experimental and theoretical investigations on the methyl-methyl recombination reaction',
-        journal = "J. Phys. Chem. A:",
-        volume = "107",
-        pages = """11414-11426""",
-        year = "2003",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000159.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000159.xml
-""",
-    history = [
-        ("Tue May 17 14:33:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000159.xml"""),
-    ],
-)
-
-entry(
     index = 122,
     label = "r00002085",
     reactant1 = 
