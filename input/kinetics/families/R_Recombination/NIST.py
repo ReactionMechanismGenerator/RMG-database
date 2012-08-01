@@ -27950,3 +27950,55 @@ Data type: Experimental value and limited review
     ],
 )
 
+entry(
+    index = 486,
+    label = "1963PAL/HIR709:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1.26e+14,"s^-1","*|/",1.5),
+        n = 0,
+        Ea = (422.375,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1160,"K"),
+        Tmax = (1350,"K"),
+    ),
+    reference = Article(
+        authors = ["Palmer, H.B.", "Hirt, T.J."],
+        title = u'The activation energy for the pyrolysis of methane',
+        journal = "J. Phys. Chem.",
+        volume = "67",
+        pages = """709""",
+        year = "1963",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1963PAL/HIR709:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000052.xml
+Uncertainty: 1.5
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Other
+""",
+    history = [
+        ("Wed Aug 01 12:00:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963PAL/HIR709:2"""),
+    ],
+)
+

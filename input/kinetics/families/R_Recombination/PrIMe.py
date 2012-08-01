@@ -3797,49 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 484,
-    label = "r00010887",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (1.26e+14,"s^-1"),
-        n = 0,
-        Ea = (422375,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Palmer, H.B.", "Hirt, T.J."],
-        title = u'The activation energy for the pyrolysis of methane',
-        journal = "J. Phys. Chem.",
-        volume = "67",
-        pages = """709""",
-        year = "1963",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000052.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000052.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000052.xml"""),
-    ],
-)
-
-entry(
     index = 485,
     label = "r00010887",
     reactant1 = 
