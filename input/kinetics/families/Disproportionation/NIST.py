@@ -2783,67 +2783,6 @@ DeSain et al, Farad. Disc. 119, 101 (2001)
 )
 
 entry(
-    index = 48,
-    label = "2001MIL/KLI654-668:2",
-    reactant1 = 
-"""
-1 *1 O 1 {2,S}
-2    O 1 {1,S}
-""",
-    reactant2 = 
-"""
-1 *2 C 0 {2,S} {3,S}
-2 *3 C 1 {1,S}
-3 *4 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 *2 C 0 {2,D}
-2 *3 C 0 {1,D}
-""",
-    product2 = 
-"""
-1 *1 O 0 {2,S} {3,S}
-2    O 1 {1,S}
-3 *4 H 0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (4.13e+06,"m^3/(mol*s)"),
-        n = 6.53,
-        Ea = (-3.489,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (2000,"K"),
-        Pmin = (133,"Pa"),
-        Pmax = (133000,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Miller, J.A.", "Klippenstein, S.J."],
-        title = u'The Reaction Between Ethyl and Molecular Oxygen II. Further Analysis',
-        journal = "Int J. Chem. Kinet.",
-        volume = "33",
-        pages = """654-668""",
-        year = "2001",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2001MIL/KLI654-668:2",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Transition state theory""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00013871
-Category: Theory
-Data type: Transition state theory
-Pressure dependence: Rate constant is pressure dependent
-
-Potential energy diagrams for various product channels have been computed.Three different regimes of the reaction (low-temperature, transition, and high-temperature) have been discussed in terms of eigenvectors and eigenvalues of the transition matrix of the master equation.Low pressure rate constant; k(0) = 2.34E-17 T^(1.09) exp(1975/RT) cm^3 / molecule s with F(cent)=0.45.
-""",
-    history = [
-        ("Thu Jul 12 23:19:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001MIL/KLI654-668:2"""),
-    ],
-)
-
-entry(
     index = 49,
     label = "1980BAL/PIC2374:1",
     reactant1 = 
