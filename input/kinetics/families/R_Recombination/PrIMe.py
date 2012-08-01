@@ -3797,49 +3797,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 498,
-    label = "r00010887",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 * C 1
-""",
-    product2 = 
-"""
-1 * H 1
-""",
-    degeneracy = 8,
-    kinetics = Arrhenius(
-        A = (2.4e+16,"s^-1"),
-        n = 0,
-        Ea = (439004,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Cobos, C.J.", "Troe, J."],
-        title = u'The dissociation-recombination system CH_4 + M = CH_3 + H + M: II. Evaluation of experiments up to 5000 K and temperature dependence of <\u0394E>',
-        journal = "Z. Phys. Chem. (Munich)",
-        volume = "176",
-        pages = """161-171""",
-        year = "1992",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000066.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000066.xml
-""",
-    history = [
-        ("Tue May 17 14:34:41 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000066.xml"""),
-    ],
-)
-
-entry(
     index = 501,
     label = "r00010887",
     reactant1 = 
