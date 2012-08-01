@@ -26278,3 +26278,63 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 456,
+    label = "1970TRE2805-2811:3",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S} {5,D}
+5    C 0 {4,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,S}
+3   C 0 {2,S} {4,D}
+4   C 0 {3,D}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (7.94e+15,"s^-1","*|/",2),
+        n = 0,
+        Ea = (287.681,"kJ/mol","+|-",2.877),
+        T0 = (1,"K"),
+        Tmin = (685,"K"),
+        Tmax = (740,"K"),
+        Pmin = (2666,"Pa"),
+        Pmax = (46700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Trenwith, A.B."],
+        title = u'Dissociation of 1-butene, 3-methyl-1-butene, and of 3,3-dimethyl-1-butene and the resonance energy of the allyl, methyl allyl and dimethyl allyl radicals',
+        journal = "Trans. Faraday Soc.",
+        volume = "66",
+        pages = """2805-2811""",
+        year = "1970",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1970TRE2805-2811:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00007566
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007566/rk00000001.xml
+Uncertainty: 2.0
+Bath gas: (CH3)2CHCH=CH2
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Wed Aug 01 11:07:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970TRE2805-2811:3"""),
+    ],
+)
+

@@ -3173,55 +3173,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 287,
-    label = "r00007566",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S} {5,D}
-5    C 0 {4,D}
-""",
-    product1 = 
-"""
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,S}
-3   C 0 {2,S} {4,D}
-4   C 0 {3,D}
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (7.94e+15,"s^-1"),
-        n = 0,
-        Ea = (287681,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Trenwith, A.B."],
-        title = u'Dissociation of 1-butene, 3-methyl-1-butene, and of 3,3-dimethyl-1-butene and the resonance energy of the allyl, methyl allyl and dimethyl allyl radicals',
-        journal = "Trans. Faraday Soc.",
-        volume = "66",
-        pages = """2805-2811""",
-        year = "1970",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00007566/rk00000001.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007566/rk00000001.xml
-""",
-    history = [
-        ("Tue May 17 14:34:08 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00007566/rk00000001.xml"""),
-    ],
-)
-
-entry(
     index = 293,
     label = "r00007893",
     reactant1 = 
