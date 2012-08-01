@@ -3446,53 +3446,6 @@ Imported from PrIMe database at http://warehouse.primekinetics.org/depository/re
 )
 
 entry(
-    index = 390,
-    label = "r00010181",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-""",
-    product1 = 
-"""
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
-""",
-    product2 = 
-"""
-1 * C 1
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (8.39e+15,"s^-1"),
-        n = 0,
-        Ea = (357522,"J/mol"),
-        T0 = (1,"K"),
-    ),
-    reference = Article(
-        authors = ["Pratt, G.L.", "Rogers, D."],
-        title = u'Wall-less Reactor Studies. Part 4. - Isobutane Pyrolysis',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "76",
-        pages = """1694""",
-        year = "1980",
-        url = "http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000011.xml",
-    ),
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000011.xml
-""",
-    history = [
-        ("Tue May 17 14:34:33 2011","Josh Allen <jwallen@mit.edu>","action","""Imported from PrIMe database at http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000011.xml"""),
-    ],
-)
-
-entry(
     index = 391,
     label = "r00010181",
     reactant1 = 
