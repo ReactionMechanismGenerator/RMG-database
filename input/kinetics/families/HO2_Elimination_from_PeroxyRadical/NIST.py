@@ -260,124 +260,6 @@ DeSain et al, Farad. Disc. 119, 101 (2001)
 
 entry(
     index = 5,
-    label = "1999CHE/BOZ9731-9769:8",
-    reactant1 = 
-"""
-1 *4 O 0 {2,S} {3,S}
-2 *3 O 1 {1,S}
-3 *5 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1    C 0 {3,S}
-2    C 0 {3,S}
-3 *2 C 0 {1,S} {2,S} {4,D}
-4 *1 C 0 {3,D}
-""",
-    product1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4 *1 C 0 {1,S} {6,S}
-5 *3 O 0 {1,S} {7,S}
-6 *5 H 0 {4,S}
-7 *4 O 1 {5,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.01e-05,"m^3/(mol*s)"),
-        n = 2.48,
-        Ea = (82.006,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
-    ),
-    reference = Article(
-        authors = ["Chen, C.-J.", "Bozzelli, J.W."],
-        title = u'Analysis of Tertiary Butyl Radical + O2, Isobutene + HO2, Isobutene + OH, and Isobutene-OH Adducts + O2: A Detailed Tertiary Butyl Oxidation Mechanism',
-        journal = "J. Phys. Chem. A",
-        volume = "103",
-        pages = """9731-9769""",
-        year = "1999",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:8",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Transition state theory""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00011861
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml
-Category: Theory
-Data type: Transition state theory
-Pressure dependence: Rate constant is high pressure limit
-""",
-    history = [
-        ("Fri Jul 13 08:20:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:8"""),
-    ],
-)
-
-entry(
-    index = 6,
-    label = "1999CHE/BOZ9731-9769:2",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4 *1 C 0 {1,S} {6,S}
-5 *3 O 0 {1,S} {7,S}
-6 *5 H 0 {4,S}
-7 *4 O 1 {5,S}
-""",
-    product1 = 
-"""
-1 *4 O 0 {2,S} {3,S}
-2 *3 O 1 {1,S}
-3 *5 H 0 {1,S}
-""",
-    product2 = 
-"""
-1    C 0 {3,S}
-2    C 0 {3,S}
-3 *2 C 0 {1,S} {2,S} {4,D}
-4 *1 C 0 {3,D}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (4.04e+12,"s^-1"),
-        n = 0.82,
-        Ea = (114.767,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
-    ),
-    reference = Article(
-        authors = ["Chen, C.-J.", "Bozzelli, J.W."],
-        title = u'Analysis of Tertiary Butyl Radical + O2, Isobutene + HO2, Isobutene + OH, and Isobutene-OH Adducts + O2: A Detailed Tertiary Butyl Oxidation Mechanism',
-        journal = "J. Phys. Chem. A",
-        volume = "103",
-        pages = """9731-9769""",
-        year = "1999",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:2",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Transition state theory""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00011861
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml
-Category: Theory
-Data type: Transition state theory
-Pressure dependence: Rate constant is high pressure limit
-""",
-    history = [
-        ("Fri Jul 13 08:20:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:2"""),
-    ],
-)
-
-entry(
-    index = 7,
     label = "2003DES/KLI4415-4427:6",
     reactant1 = 
 """
@@ -439,6 +321,124 @@ DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
     history = [
         ("Tue Jul 24 16:31:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:6"""),
+    ],
+)
+
+entry(
+    index = 6,
+    label = "1999CHE/BOZ9731-9769:8",
+    reactant1 = 
+"""
+1 *4 O 0 {2,S} {3,S}
+2 *3 O 1 {1,S}
+3 *5 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *1 C 0 {1,S} {6,S}
+5 *3 O 0 {1,S} {7,S}
+6 *5 H 0 {4,S}
+7 *4 O 1 {5,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.01e-05,"m^3/(mol*s)"),
+        n = 2.48,
+        Ea = (82.006,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Chen, C.-J.", "Bozzelli, J.W."],
+        title = u'Analysis of Tertiary Butyl Radical + O2, Isobutene + HO2, Isobutene + OH, and Isobutene-OH Adducts + O2: A Detailed Tertiary Butyl Oxidation Mechanism',
+        journal = "J. Phys. Chem. A",
+        volume = "103",
+        pages = """9731-9769""",
+        year = "1999",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:8",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011861
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml
+Category: Theory
+Data type: Transition state theory
+Pressure dependence: Rate constant is high pressure limit
+""",
+    history = [
+        ("Fri Jul 13 08:20:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:8"""),
+    ],
+)
+
+entry(
+    index = 7,
+    label = "1999CHE/BOZ9731-9769:2",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *1 C 0 {1,S} {6,S}
+5 *3 O 0 {1,S} {7,S}
+6 *5 H 0 {4,S}
+7 *4 O 1 {5,S}
+""",
+    product1 = 
+"""
+1 *4 O 0 {2,S} {3,S}
+2 *3 O 1 {1,S}
+3 *5 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.04e+12,"s^-1"),
+        n = 0.82,
+        Ea = (114.767,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Chen, C.-J.", "Bozzelli, J.W."],
+        title = u'Analysis of Tertiary Butyl Radical + O2, Isobutene + HO2, Isobutene + OH, and Isobutene-OH Adducts + O2: A Detailed Tertiary Butyl Oxidation Mechanism',
+        journal = "J. Phys. Chem. A",
+        volume = "103",
+        pages = """9731-9769""",
+        year = "1999",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011861
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml
+Category: Theory
+Data type: Transition state theory
+Pressure dependence: Rate constant is high pressure limit
+""",
+    history = [
+        ("Fri Jul 13 08:20:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHE/BOZ9731-9769:2"""),
     ],
 )
 

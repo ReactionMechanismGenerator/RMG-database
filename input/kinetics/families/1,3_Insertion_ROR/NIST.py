@@ -2422,6 +2422,72 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 
 entry(
     index = 41,
+    label = "1976TSA173:5",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6 *1 C 0 {2,S} {8,S}
+7 *4 O 0 {2,S}
+8 *3 H 0 {6,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *2 C 0 {1,S} {6,D}
+6 *1 C 0 {5,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (1e+14,"s^-1"),
+        n = 0,
+        Ea = (284.355,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1080,"K"),
+        Tmax = (1160,"K"),
+        Pmin = (53300,"Pa"),
+        Pmax = (66700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Thermal Stability of Alcohols',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "8",
+        pages = """173""",
+        year = "1976",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1976TSA173:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00007088
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007088/rk00000001.xml
+Rate constant is an upper limit.
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 15:16:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976TSA173:5"""),
+    ],
+)
+
+entry(
+    index = 42,
     label = "1970DAL/ZIO541:1",
     reactant1 = 
 """
@@ -2489,7 +2555,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 )
 
 entry(
-    index = 42,
+    index = 43,
     label = "1970DAL/ZIO541:2",
     reactant1 = 
 """
@@ -2557,7 +2623,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 )
 
 entry(
-    index = 43,
+    index = 44,
     label = "1996CHU/ROT787-794:5",
     reactant1 = 
 """
@@ -2625,7 +2691,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 44,
+    index = 45,
     label = "1999CHU/ROT401-407:3",
     reactant1 = 
 """
@@ -2692,72 +2758,6 @@ Reactor surface seasoned with allyl bromide.No effect of change in surface to vo
 """,
     history = [
         ("Fri Jul 13 08:15:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHU/ROT401-407:3"""),
-    ],
-)
-
-entry(
-    index = 45,
-    label = "1976TSA173:5",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6 *1 C 0 {2,S} {8,S}
-7 *4 O 0 {2,S}
-8 *3 H 0 {6,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S} {6,D}
-6 *1 C 0 {5,D}
-""",
-    product2 = 
-"""
-1 *4 O 0 {2,S}
-2 *3 H 0 {1,S}
-""",
-    degeneracy = 12,
-    kinetics = Arrhenius(
-        A = (1e+14,"s^-1"),
-        n = 0,
-        Ea = (284.355,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1080,"K"),
-        Tmax = (1160,"K"),
-        Pmin = (53300,"Pa"),
-        Pmax = (66700,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Tsang, W."],
-        title = u'Thermal Stability of Alcohols',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "8",
-        pages = """173""",
-        year = "1976",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1976TSA173:5",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00007088
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007088/rk00000001.xml
-Rate constant is an upper limit.
-Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
-Excitation technique: Thermal
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Tue Jul 24 15:16:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976TSA173:5"""),
     ],
 )
 

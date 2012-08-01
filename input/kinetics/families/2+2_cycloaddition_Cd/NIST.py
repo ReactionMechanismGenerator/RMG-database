@@ -1445,6 +1445,65 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 26,
+    label = "1990ZAL/BER21:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2 *1 C 0 {1,S} {5,S}
+3 *4 C 0 {1,S} {5,S}
+4    C 0 {1,S}
+5 *3 O 0 {2,S} {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1 *4 C 0 {2,D}
+2 *3 O 0 {1,D}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (2.4e+15,"s^-1","*|/",1.86),
+        n = 0,
+        Ea = (258.58,"kJ/mol","+|-",2.586),
+        T0 = (1,"K"),
+        Tmin = (660,"K"),
+        Tmax = (760,"K"),
+        Pmin = (2000,"Pa"),
+        Pmax = (3000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Zalotai, L.", "Berces, T.", "Marta, F."],
+        title = u'Kinetics and energy transfer in the thermal decomposition of 2-methyloxetane and 3-methyloxetane',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "86",
+        pages = """21""",
+        year = "1990",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER21:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010716
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010716/rk00000001.xml
+Uncertainty: 1.86
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 17:32:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER21:1"""),
+    ],
+)
+
+entry(
+    index = 27,
     label = "1987FRE/WAT601:1",
     reactant1 = 
 """
@@ -1505,7 +1564,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 27,
+    index = 28,
     label = "1997LEW/CHA4097-4102:3",
     reactant1 = 
 """
@@ -1565,7 +1624,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 28,
+    index = 29,
     label = "1978FRE/POT1827:1",
     reactant1 = 
 """
@@ -1627,7 +1686,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 29,
+    index = 30,
     label = "1991DIR/HOL691-693:1",
     reactant1 = 
 """
@@ -1689,7 +1748,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 30,
+    index = 31,
     label = "1957WEL/WAL1542-1546:1",
     reactant1 = 
 """
@@ -1750,7 +1809,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 31,
+    index = 32,
     label = "1982HAM/HOL2195:6",
     reactant1 = 
 """
@@ -1811,7 +1870,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 32,
+    index = 33,
     label = "1982HAM/HOL2195:7",
     reactant1 = 
 """
@@ -1872,7 +1931,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 33,
+    index = 34,
     label = "1967COH/WAL2326-2331:1",
     reactant1 = 
 """
@@ -1933,7 +1992,556 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 34,
+    index = 35,
+    label = "1962ROQ/WAL4049-4052:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {5,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 C 0 {1,S} {4,S}
+4 *3 C 0 {2,S} {3,S}
+5    C 0 {1,S} {6,D}
+6    O 0 {5,D}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,S} {3,D}
+2    C 0 {1,S} {4,D}
+3 *1 C 0 {1,D}
+4    O 0 {2,D}
+""",
+    product2 = 
+"""
+1 *4 C 0 {2,D}
+2 *3 C 0 {1,D}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (2.7e+14,"s^-1","+|-",1.1e+13),
+        n = 0,
+        Ea = (222.828,"kJ/mol","+|-",2.228),
+        T0 = (1,"K"),
+        Tmin = (633,"K"),
+        Tmax = (673,"K"),
+        Pmin = (1200,"Pa"),
+        Pmax = (4666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Roquitte, B.C.", "Walters, W.D."],
+        title = u'The thermal decomposition of cyclobutanecarboxaldehyde',
+        journal = "J. Am. Chem. Soc.",
+        volume = "84",
+        pages = """4049-4052""",
+        year = "1962",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1962ROQ/WAL4049-4052:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011611
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011611/rk00000001.xml
+Bath gas: Cyclobutanecarboxaldehyde
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: IR absorption
+""",
+    history = [
+        ("Tue Jul 24 17:35:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962ROQ/WAL4049-4052:1"""),
+    ],
+)
+
+entry(
+    index = 36,
+    label = "1961GER/WAL3935-3939:2",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S} {3,S} {5,S}
+2 *4 C 0 {1,S} {4,S} {6,S}
+3 *1 C 0 {1,S} {4,S}
+4 *2 C 0 {2,S} {3,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 C 0 {1,D}
+""",
+    product2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *4 C 0 {1,S} {4,D}
+4 *3 C 0 {2,S} {3,D}
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (3.7e+15,"s^-1"),
+        n = 0,
+        Ea = (263.569,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (653,"K"),
+        Tmax = (703,"K"),
+        Pmin = (773,"Pa"),
+        Pmax = (52400,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Gerberich, H.R.", "Walters, W.D."],
+        title = u'The thermal decomposition of cis-1,2-dimethylcyclobutane',
+        journal = "J. Am. Chem. Soc.",
+        volume = "83",
+        pages = """3935-3939""",
+        year = "1961",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL3935-3939:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015648
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015648/rk00000001.xml
+Bath gas: Cyclobutane, 1,2-dimethyl-, cis-
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Tue Jul 24 17:42:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL3935-3939:2"""),
+    ],
+)
+
+entry(
+    index = 37,
+    label = "1961GER/WAL4884-4888:2",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S} {3,S} {5,S}
+2 *4 C 0 {1,S} {4,S} {6,S}
+3 *1 C 0 {1,S} {4,S}
+4 *2 C 0 {2,S} {3,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 C 0 {1,D}
+""",
+    product2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *4 C 0 {1,S} {4,D}
+4 *3 C 0 {2,S} {3,D}
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (2.9e+15,"s^-1"),
+        n = 0,
+        Ea = (265.232,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (663,"K"),
+        Tmax = (713,"K"),
+        Pmin = (1733,"Pa"),
+        Pmax = (50000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Gerberich, H.R.", "Walters, W.D."],
+        title = u'The thermal decomposition of trans-1,2-dimethylcyclobutane',
+        journal = "J. Am. Chem. Soc.",
+        volume = "83",
+        pages = """4884-4888""",
+        year = "1961",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL4884-4888:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015651
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015651/rk00000001.xml
+Bath gas: Cyclobutane, 1,2-dimethyl-, trans-
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Tue Jul 24 17:48:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL4884-4888:2"""),
+    ],
+)
+
+entry(
+    index = 38,
+    label = "1961GER/WAL3935-3939:3",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {5,S}
+2 *4 C 0 {1,S} {4,S} {6,S}
+3 *1 C 0 {1,S} {4,S}
+4 *3 C 0 {2,S} {3,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *4 C 0 {1,S} {3,D}
+3 *3 C 0 {2,D}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (3e+15,"s^-1"),
+        n = 0,
+        Ea = (252.76,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (653,"K"),
+        Tmax = (703,"K"),
+        Pmin = (773,"Pa"),
+        Pmax = (52400,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Gerberich, H.R.", "Walters, W.D."],
+        title = u'The thermal decomposition of cis-1,2-dimethylcyclobutane',
+        journal = "J. Am. Chem. Soc.",
+        volume = "83",
+        pages = """3935-3939""",
+        year = "1961",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL3935-3939:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015649
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015649/rk00000001.xml
+Bath gas: Cyclobutane, 1,2-dimethyl-, cis-
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Tue Jul 24 17:50:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL3935-3939:3"""),
+    ],
+)
+
+entry(
+    index = 39,
+    label = "1961GER/WAL4884-4888:3",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {5,S}
+2 *4 C 0 {1,S} {4,S} {6,S}
+3 *1 C 0 {1,S} {4,S}
+4 *3 C 0 {2,S} {3,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *4 C 0 {1,S} {3,D}
+3 *3 C 0 {2,D}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (2.8e+15,"s^-1"),
+        n = 0,
+        Ea = (257.749,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (663,"K"),
+        Tmax = (713,"K"),
+        Pmin = (1733,"Pa"),
+        Pmax = (50000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Gerberich, H.R.", "Walters, W.D."],
+        title = u'The thermal decomposition of trans-1,2-dimethylcyclobutane',
+        journal = "J. Am. Chem. Soc.",
+        volume = "83",
+        pages = """4884-4888""",
+        year = "1961",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL4884-4888:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015652
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015652/rk00000001.xml
+Bath gas: Cyclobutane, 1,2-dimethyl-, trans-
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Tue Jul 24 17:51:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL4884-4888:3"""),
+    ],
+)
+
+entry(
+    index = 40,
+    label = "1974HOL/SCO43:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S} {5,S} {6,S}
+3 *3 C 0 {1,S} {6,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6 *4 O 0 {2,S} {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *2 C 0 {1,S} {4,D}
+4 *1 C 0 {2,S} {3,D}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,D}
+2 *4 O 0 {1,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.09e+15,"s^-1","*|/",1.82),
+        n = 0,
+        Ea = (266.063,"kJ/mol","+|-",2.661),
+        T0 = (1,"K"),
+        Tmin = (688,"K"),
+        Tmax = (756,"K"),
+        Pmin = (267,"Pa"),
+        Pmax = (4266,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Holbrook, K.A.", "Scott, R.A."],
+        title = u'Gas-phase Unimolecular Pyrolyses of cis- and trans-2,3-Dimethyloxetan',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "70",
+        pages = """43""",
+        year = "1974",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016231
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016231/rk00000001.xml
+Uncertainty: 1.8200001
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 17:55:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:1"""),
+    ],
+)
+
+entry(
+    index = 41,
+    label = "1974HOL/SCO43:3",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S} {5,S} {6,S}
+3 *3 C 0 {1,S} {6,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6 *4 O 0 {2,S} {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *2 C 0 {1,S} {4,D}
+4 *1 C 0 {2,S} {3,D}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,D}
+2 *4 O 0 {1,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.74e+15,"s^-1","*|/",1.78),
+        n = 0,
+        Ea = (261.074,"kJ/mol","+|-",2.611),
+        T0 = (1,"K"),
+        Tmin = (688,"K"),
+        Tmax = (756,"K"),
+        Pmin = (267,"Pa"),
+        Pmax = (4266,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Holbrook, K.A.", "Scott, R.A."],
+        title = u'Gas-phase Unimolecular Pyrolyses of cis- and trans-2,3-Dimethyloxetan',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "70",
+        pages = """43""",
+        year = "1974",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016297
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016297/rk00000001.xml
+Uncertainty: 1.78
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 17:56:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:3"""),
+    ],
+)
+
+entry(
+    index = 42,
+    label = "1974HOL/SCO43:2",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2 *4 C 0 {1,S} {5,S} {6,S}
+3 *1 C 0 {1,S} {6,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6 *3 O 0 {2,S} {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *4 C 0 {1,S} {3,D}
+3 *3 O 0 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (8.13e+15,"s^-1","*|/",1.78),
+        n = 0,
+        Ea = (270.22,"kJ/mol","+|-",2.702),
+        T0 = (1,"K"),
+        Tmin = (688,"K"),
+        Tmax = (756,"K"),
+        Pmin = (267,"Pa"),
+        Pmax = (4266,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Holbrook, K.A.", "Scott, R.A."],
+        title = u'Gas-phase Unimolecular Pyrolyses of cis- and trans-2,3-Dimethyloxetan',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "70",
+        pages = """43""",
+        year = "1974",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016232
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016232/rk00000001.xml
+Uncertainty: 1.78
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 17:59:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:2"""),
+    ],
+)
+
+entry(
+    index = 43,
+    label = "1974HOL/SCO43:4",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2 *4 C 0 {1,S} {5,S} {6,S}
+3 *1 C 0 {1,S} {6,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6 *3 O 0 {2,S} {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *4 C 0 {1,S} {3,D}
+3 *3 O 0 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (5.01e+15,"s^-1","*|/",1.66),
+        n = 0,
+        Ea = (264.4,"kJ/mol","+|-",2.644),
+        T0 = (1,"K"),
+        Tmin = (688,"K"),
+        Tmax = (756,"K"),
+        Pmin = (267,"Pa"),
+        Pmax = (4266,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Holbrook, K.A.", "Scott, R.A."],
+        title = u'Gas-phase Unimolecular Pyrolyses of cis- and trans-2,3-Dimethyloxetan',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "70",
+        pages = """43""",
+        year = "1974",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016298
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016298/rk00000001.xml
+Uncertainty: 1.66
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 18:00:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:4"""),
+    ],
+)
+
+entry(
+    index = 44,
     label = "1964ELL/FRE4184-4187:2",
     reactant1 = 
 """
@@ -1995,7 +2603,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 35,
+    index = 45,
     label = "1963ZUP/WAL1845-1848:1",
     reactant1 = 
 """
@@ -2059,7 +2667,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 )
 
 entry(
-    index = 36,
+    index = 46,
     label = "1977FRE/SMI752:1",
     reactant1 = 
 """
@@ -2122,7 +2730,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 37,
+    index = 47,
     label = "1978SIM227:1",
     reactant1 = 
 """
@@ -2184,7 +2792,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 38,
+    index = 48,
     label = "1958DAI/WAL541-545:1",
     reactant1 = 
 """
@@ -2247,7 +2855,7 @@ Analytical technique: IR absorption
 )
 
 entry(
-    index = 39,
+    index = 49,
     label = "1961KEL/WAL466-469:1",
     reactant1 = 
 """
@@ -2310,7 +2918,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 40,
+    index = 50,
     label = "1971COC/FRE2564:2",
     reactant1 = 
 """
@@ -2373,7 +2981,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 41,
+    index = 51,
     label = "1971COC/FRE1437:1",
     reactant1 = 
 """
@@ -2436,7 +3044,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 42,
+    index = 52,
     label = "1975CLE/FRE2485:2",
     reactant1 = 
 """
@@ -2495,650 +3103,6 @@ Analytical technique: Pressure measurement
 """,
     history = [
         ("Fri Jul 13 07:59:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975CLE/FRE2485:2"""),
-    ],
-)
-
-entry(
-    index = 43,
-    label = "1964ZUP/WAL173-176:1",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {6,S}
-2 *1 C 0 {1,S} {4,S}
-3 *4 C 0 {1,S} {4,S}
-4 *3 C 0 {2,S} {3,S}
-5    C 0 {7,S}
-6    C 0 {1,S} {7,S} {8,D}
-7    O 0 {5,S} {6,S}
-8    O 0 {6,D}
-""",
-    product1 = 
-"""
-1    C 0 {5,S}
-2 *2 C 0 {3,S} {4,D}
-3    C 0 {2,S} {5,S} {6,D}
-4 *1 C 0 {2,D}
-5    O 0 {1,S} {3,S}
-6    O 0 {3,D}
-""",
-    product2 = 
-"""
-1 *4 C 0 {2,D}
-2 *3 C 0 {1,D}
-""",
-    degeneracy = 12,
-    kinetics = Arrhenius(
-        A = (7e+14,"s^-1","+|-",7e+12),
-        n = 0,
-        Ea = (239.457,"kJ/mol","+|-",2.395),
-        T0 = (1,"K"),
-        Tmin = (653,"K"),
-        Tmax = (693,"K"),
-        Pmin = (840,"Pa"),
-        Pmax = (1520,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Zupan, M.", "Walters, W.D."],
-        title = u'The kinetics of the thermal decomposition of methyl cyclobutanecarboxylate',
-        journal = "J. Am. Chem. Soc.",
-        volume = "86",
-        pages = """173-176""",
-        year = "1964",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1964ZUP/WAL173-176:1",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00008915
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008915/rk00000001.xml
-Bath gas: Cyclobutanecarboxylic acid methyl ester
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Fri Jul 13 07:56:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964ZUP/WAL173-176:1"""),
-    ],
-)
-
-entry(
-    index = 44,
-    label = "1964ROQ/WAL1606-1609:1",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {7,S}
-2 *1 C 0 {1,S} {4,S}
-3 *4 C 0 {1,S} {4,S}
-4 *3 C 0 {2,S} {3,S}
-5    C 0 {6,S} {7,S}
-6    C 0 {5,S}
-7    C 0 {1,S} {5,S} {8,D}
-8    O 0 {7,D}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3    C 0 {1,S} {4,S} {6,D}
-4 *2 C 0 {3,S} {5,D}
-5 *1 C 0 {4,D}
-6    O 0 {3,D}
-""",
-    product2 = 
-"""
-1 *4 C 0 {2,D}
-2 *3 C 0 {1,D}
-""",
-    degeneracy = 12,
-    kinetics = Arrhenius(
-        A = (3.4e+14,"s^-1","+|-",1e+13),
-        n = 0,
-        Ea = (226.985,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (643,"K"),
-        Tmax = (683,"K"),
-        Pmin = (533,"Pa"),
-        Pmax = (2266,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Roquitte, B.C.", "Walters, W.D."],
-        title = u'The thermal decomposition of ethyl cyclobutyl ketone',
-        journal = "J. Phys. Chem.",
-        volume = "68",
-        pages = """1606-1609""",
-        year = "1964",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1964ROQ/WAL1606-1609:1",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00013004
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013004/rk00000001.xml
-Bath gas: 1-Propanone, 1-cyclobutyl-
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: IR absorption
-""",
-    history = [
-        ("Fri Jul 13 07:58:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964ROQ/WAL1606-1609:1"""),
-    ],
-)
-
-entry(
-    index = 45,
-    label = "1975CLE/FRE2485:1",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S} {6,S}
-3    C 0 {1,S} {7,S}
-4 *1 C 0 {1,S} {8,S}
-5 *4 C 0 {1,S} {8,S}
-6    C 0 {2,S}
-7    C 0 {3,S}
-8 *3 O 0 {4,S} {5,S}
-""",
-    product1 = 
-"""
-1    C 0 {3,S} {5,S}
-2    C 0 {4,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5 *2 C 0 {1,S} {2,S} {6,D}
-6 *1 C 0 {5,D}
-""",
-    product2 = 
-"""
-1 *4 C 0 {2,D}
-2 *3 O 0 {1,D}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (1.98e+15,"s^-1","*|/",1.16),
-        n = 0,
-        Ea = (250.266,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (675,"K"),
-        Tmax = (736,"K"),
-        Pmin = (960,"Pa"),
-        Pmax = (1667,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Clements, A.D.", "Frey, H.M.", "Frey, J.G."],
-        title = u'Thermal Decomposition of 3-Ethyl-3-methyloxetan and 3,3-Diethyloxetan',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "71",
-        pages = """2485""",
-        year = "1975",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1975CLE/FRE2485:1",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00014886
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00014886/rk00000001.xml
-Uncertainty: 1.16
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: Pressure measurement
-""",
-    history = [
-        ("Fri Jul 13 07:58:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975CLE/FRE2485:1"""),
-    ],
-)
-
-entry(
-    index = 46,
-    label = "1972EGG/COC211:1",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {3,S} {6,S}
-3 *4 C 0 {2,S} {5,S}
-4    C 0 {1,S} {7,S}
-5 *3 C 0 {1,S} {3,S} {8,D}
-6    C 0 {2,S} {7,D}
-7    C 0 {4,S} {6,D}
-8    O 0 {5,D}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,D}
-3 *1 C 0 {1,S} {5,D}
-4    C 0 {2,D} {5,S}
-5 *2 C 0 {3,D} {4,S}
-""",
-    product2 = 
-"""
-1 *4 C 0 {2,D}
-2 *3 C 0 {1,D} {3,D}
-3    O 0 {2,D}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.45e+13,"s^-1","*|/",1.29),
-        n = 0,
-        Ea = (157.144,"kJ/mol","+|-",1.571),
-        T0 = (1,"K"),
-        Tmin = (471,"K"),
-        Tmax = (534,"K"),
-        Pmin = (2000,"Pa"),
-        Pmax = (66700,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Egger, K.W.", "Cocks, A.T."],
-        title = u'Kinetics of the Four-centre Elimination of Keten from Bicyclo[3.2.0]hept-2-en-6-one in the Gas Phase',
-        journal = "J. Chem. Soc. Perkin Trans. 2",
-        pages = """211""",
-        year = "1972",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1972EGG/COC211:1",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00015146
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015146/rk00000001.xml
-Uncertainty: 1.29
-Bath gas: CH3CH=CH2
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Fri Jul 13 07:58:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972EGG/COC211:1"""),
-    ],
-)
-
-entry(
-    index = 47,
-    label = "1972COC/EGG2014:1",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {6,S}
-2 *2 C 0 {1,S} {4,S} {7,S}
-3    C 0 {1,S} {5,S}
-4    C 0 {2,S} {5,S}
-5    C 0 {3,S} {4,S}
-6 *3 C 0 {1,S} {7,S}
-7 *4 C 0 {2,S} {6,S} {8,D}
-8    O 0 {7,D}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,S}
-4 *1 C 0 {2,S} {5,D}
-5 *2 C 0 {3,S} {4,D}
-""",
-    product2 = 
-"""
-1 *3 C 0 {2,D}
-2 *4 C 0 {1,D} {3,D}
-3    O 0 {2,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.62e+14,"s^-1","*|/",1.26),
-        n = 0,
-        Ea = (202.873,"kJ/mol","+|-",2.029),
-        T0 = (1,"K"),
-        Tmin = (546,"K"),
-        Tmax = (652,"K"),
-        Pmin = (547,"Pa"),
-        Pmax = (5333,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Cocks, A.T.", "Egger, K.W."],
-        title = u'The Gas-Phase Thermal Unimolecular Elimination of Keten from Bicyclo-[3.2.0]heptan-6-one',
-        journal = "J. Chem. Soc. Perkin Trans. 2",
-        pages = """2014""",
-        year = "1972",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1972COC/EGG2014:1",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00015261
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015261/rk00000001.xml
-Uncertainty: 1.26
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Fri Jul 13 07:58:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972COC/EGG2014:1"""),
-    ],
-)
-
-entry(
-    index = 48,
-    label = "1987CHI/FRE365:2",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
-2 *4 C 0 {1,S} {4,S} {7,S}
-3 *1 C 0 {1,S} {4,S}
-4 *3 C 0 {2,S} {3,S}
-5    C 0 {1,S}
-6    C 0 {1,S}
-7    C 0 {2,S} {8,D}
-8    C 0 {7,D}
-""",
-    product1 = 
-"""
-1    C 0 {3,S}
-2    C 0 {3,S}
-3 *2 C 0 {1,S} {2,S} {4,D}
-4 *1 C 0 {3,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,D}
-2 *4 C 0 {1,S} {4,D}
-3    C 0 {1,D}
-4 *3 C 0 {2,D}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (1.22e+15,"s^-1","*|/",2),
-        n = 0,
-        Ea = (199.547,"kJ/mol","+|-",1.995),
-        T0 = (1,"K"),
-        Tmin = (536,"K"),
-        Tmax = (574,"K"),
-        Pmin = (3306,"Pa"),
-        Pmax = (3306,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Chickos, J.S.", "Frey, H.M."],
-        title = u'The thermolysis of 2,2-dimethyl-1-vinylcyclobutane',
-        journal = "J. Chem. Soc. Perkin Trans. 2",
-        pages = """365""",
-        year = "1987",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987CHI/FRE365:2",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00017015
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017015/rk00000001.xml
-Uncertainty: 2.0
-Bath gas: N2
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Fri Jul 13 08:00:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987CHI/FRE365:2"""),
-    ],
-)
-
-entry(
-    index = 49,
-    label = "1973FRE/HOP2016:1",
-    reactant1 = 
-"""
-1 *2 C 0 {3,S} {4,S} {5,S} {8,S}
-2 *3 C 0 {3,S} {6,S} {7,S} {8,S}
-3 *1 C 0 {1,S} {2,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
-8 *4 C 0 {1,S} {2,S} {9,D}
-9    O 0 {8,D}
-""",
-    product1 = 
-"""
-1    C 0 {3,S}
-2    C 0 {3,S}
-3 *2 C 0 {1,S} {2,S} {4,D}
-4 *1 C 0 {3,D}
-""",
-    product2 = 
-"""
-1    C 0 {3,S}
-2    C 0 {3,S}
-3 *3 C 0 {1,S} {2,S} {4,D}
-4 *4 C 0 {3,D} {5,D}
-5    O 0 {4,D}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (7.23e+14,"s^-1","*|/",1.07),
-        n = 0,
-        Ea = (234.468,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (637,"K"),
-        Tmax = (700,"K"),
-        Pmin = (907,"Pa"),
-        Pmax = (907,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Frey, H.M.", "Hopf, H."],
-        title = u'The thermal unimolecular decomposition of 2,2,4,4-tetramethylcyclobutanone',
-        journal = "J. Chem. Soc. Perkin Trans. 2",
-        pages = """2016""",
-        year = "1973",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1973FRE/HOP2016:1",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00012680
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012680/rk00000001.xml
-Uncertainty: 1.0700001
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
-Excitation technique: Thermal
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Fri Jul 13 07:58:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973FRE/HOP2016:1"""),
-    ],
-)
-
-entry(
-    index = 50,
-    label = "1973EGG285:1",
-    reactant1 = 
-"""
-1  *4 C 0 {2,S} {5,S} {6,S} {7,S}
-2  *2 C 0 {1,S} {3,S} {8,S}
-3  *1 C 0 {2,S} {4,S} {7,S}
-4     C 0 {3,S} {9,S}
-5     C 0 {1,S}
-6     C 0 {1,S}
-7  *3 C 0 {1,S} {3,S} {10,D}
-8     C 0 {2,S} {9,D}
-9     C 0 {4,S} {8,D}
-10    O 0 {7,D}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,D}
-3 *1 C 0 {1,S} {5,D}
-4    C 0 {2,D} {5,S}
-5 *2 C 0 {3,D} {4,S}
-""",
-    product2 = 
-"""
-1    C 0 {3,S}
-2    C 0 {3,S}
-3 *4 C 0 {1,S} {2,S} {4,D}
-4 *3 C 0 {3,D} {5,D}
-5    O 0 {4,D}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (7.94e+12,"s^-1","*|/",1.66),
-        n = 0,
-        Ea = (157.975,"kJ/mol","+|-",1.58),
-        T0 = (1,"K"),
-        Tmin = (470,"K"),
-        Tmax = (550,"K"),
-        Pmin = (987,"Pa"),
-        Pmax = (9333,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Egger, K.W."],
-        title = u'The Gas-Phase Thermal Unimolecular Elimination of 1,1-Dimethylketene from 7,7-Dimethylbicyclo[3.2.0]hept-2-en-6-one',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "5",
-        pages = """285""",
-        year = "1973",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1973EGG285:1",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00008919
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008919/rk00000001.xml
-Uncertainty: 1.66
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Fri Jul 13 07:56:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973EGG285:1"""),
-    ],
-)
-
-entry(
-    index = 51,
-    label = "1990ZAL/BER21:1",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {4,S}
-2 *1 C 0 {1,S} {5,S}
-3 *4 C 0 {1,S} {5,S}
-4    C 0 {1,S}
-5 *3 O 0 {2,S} {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3 *1 C 0 {2,D}
-""",
-    product2 = 
-"""
-1 *4 C 0 {2,D}
-2 *3 O 0 {1,D}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (2.4e+15,"s^-1","*|/",1.86),
-        n = 0,
-        Ea = (258.58,"kJ/mol","+|-",2.586),
-        T0 = (1,"K"),
-        Tmin = (660,"K"),
-        Tmax = (760,"K"),
-        Pmin = (2000,"Pa"),
-        Pmax = (3000,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Zalotai, L.", "Berces, T.", "Marta, F."],
-        title = u'Kinetics and energy transfer in the thermal decomposition of 2-methyloxetane and 3-methyloxetane',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "86",
-        pages = """21""",
-        year = "1990",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER21:1",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00010716
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010716/rk00000001.xml
-Uncertainty: 1.86
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Tue Jul 24 17:32:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990ZAL/BER21:1"""),
-    ],
-)
-
-entry(
-    index = 52,
-    label = "1962ROQ/WAL4049-4052:1",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {5,S}
-2 *1 C 0 {1,S} {4,S}
-3 *4 C 0 {1,S} {4,S}
-4 *3 C 0 {2,S} {3,S}
-5    C 0 {1,S} {6,D}
-6    O 0 {5,D}
-""",
-    product1 = 
-"""
-1 *2 C 0 {2,S} {3,D}
-2    C 0 {1,S} {4,D}
-3 *1 C 0 {1,D}
-4    O 0 {2,D}
-""",
-    product2 = 
-"""
-1 *4 C 0 {2,D}
-2 *3 C 0 {1,D}
-""",
-    degeneracy = 12,
-    kinetics = Arrhenius(
-        A = (2.7e+14,"s^-1","+|-",1.1e+13),
-        n = 0,
-        Ea = (222.828,"kJ/mol","+|-",2.228),
-        T0 = (1,"K"),
-        Tmin = (633,"K"),
-        Tmax = (673,"K"),
-        Pmin = (1200,"Pa"),
-        Pmax = (4666,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Roquitte, B.C.", "Walters, W.D."],
-        title = u'The thermal decomposition of cyclobutanecarboxaldehyde',
-        journal = "J. Am. Chem. Soc.",
-        volume = "84",
-        pages = """4049-4052""",
-        year = "1962",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1962ROQ/WAL4049-4052:1",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00011611
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011611/rk00000001.xml
-Bath gas: Cyclobutanecarboxaldehyde
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: IR absorption
-""",
-    history = [
-        ("Tue Jul 24 17:35:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962ROQ/WAL4049-4052:1"""),
     ],
 )
 
@@ -3268,250 +3232,458 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 55,
-    label = "1961GER/WAL3935-3939:2",
+    label = "1971COC/FRE1437:2",
     reactant1 = 
 """
-1 *3 C 0 {2,S} {3,S} {5,S}
-2 *4 C 0 {1,S} {4,S} {6,S}
+1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
+2 *4 C 0 {1,S} {4,S} {7,S}
 3 *1 C 0 {1,S} {4,S}
-4 *2 C 0 {2,S} {3,S}
+4 *3 C 0 {2,S} {3,S}
 5    C 0 {1,S}
-6    C 0 {2,S}
+6    C 0 {1,S}
+7    C 0 {2,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,D}
-2 *2 C 0 {1,D}
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
 """,
     product2 = 
 """
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *4 C 0 {1,S} {4,D}
-4 *3 C 0 {2,S} {3,D}
+1    C 0 {2,S}
+2 *4 C 0 {1,S} {3,D}
+3 *3 C 0 {2,D}
 """,
-    degeneracy = 6,
+    degeneracy = 4,
     kinetics = Arrhenius(
-        A = (3.7e+15,"s^-1"),
+        A = (5.62e+15,"s^-1","*|/",1.17),
         n = 0,
-        Ea = (263.569,"kJ/mol"),
+        Ea = (251.929,"kJ/mol"),
         T0 = (1,"K"),
-        Tmin = (653,"K"),
-        Tmax = (703,"K"),
-        Pmin = (773,"Pa"),
-        Pmax = (52400,"Pa"),
+        Tmin = (660,"K"),
+        Tmax = (728,"K"),
+        Pmin = (667,"Pa"),
+        Pmax = (1600,"Pa"),
     ),
     reference = Article(
-        authors = ["Gerberich, H.R.", "Walters, W.D."],
-        title = u'The thermal decomposition of cis-1,2-dimethylcyclobutane',
-        journal = "J. Am. Chem. Soc.",
-        volume = "83",
-        pages = """3935-3939""",
-        year = "1961",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL3935-3939:2",
+        authors = ["Cocks, A.T.", "Frey, H.M."],
+        title = u'The Thermal Unimolecular Decomposition of 1,1,2-Trimethylcyclobutane',
+        journal = "J. Phys. Chem.",
+        volume = "75",
+        pages = """1437""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971COC/FRE1437:2",
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
     longDesc = 
 u"""
-PrIMe Reaction: r00015648
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015648/rk00000001.xml
-Bath gas: Cyclobutane, 1,2-dimethyl-, cis-
+PrIMe Reaction: r00016300
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016300/rk00000001.xml
+Uncertainty: 1.17
 Category: Experiment
 Data type: Absolute value measured directly
 Excitation technique: Thermal
-Analytical technique: Pressure measurement
+Analytical technique: Gas chromatography
 """,
     history = [
-        ("Tue Jul 24 17:42:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL3935-3939:2"""),
+        ("Tue Jul 24 18:02:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971COC/FRE1437:2"""),
     ],
 )
 
 entry(
     index = 56,
-    label = "1961GER/WAL4884-4888:2",
+    label = "1964ZUP/WAL173-176:1",
     reactant1 = 
 """
-1 *3 C 0 {2,S} {3,S} {5,S}
-2 *4 C 0 {1,S} {4,S} {6,S}
-3 *1 C 0 {1,S} {4,S}
-4 *2 C 0 {2,S} {3,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
+1 *2 C 0 {2,S} {3,S} {6,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 C 0 {1,S} {4,S}
+4 *3 C 0 {2,S} {3,S}
+5    C 0 {7,S}
+6    C 0 {1,S} {7,S} {8,D}
+7    O 0 {5,S} {6,S}
+8    O 0 {6,D}
 """,
     product1 = 
 """
-1 *1 C 0 {2,D}
-2 *2 C 0 {1,D}
+1    C 0 {5,S}
+2 *2 C 0 {3,S} {4,D}
+3    C 0 {2,S} {5,S} {6,D}
+4 *1 C 0 {2,D}
+5    O 0 {1,S} {3,S}
+6    O 0 {3,D}
 """,
     product2 = 
 """
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *4 C 0 {1,S} {4,D}
-4 *3 C 0 {2,S} {3,D}
+1 *4 C 0 {2,D}
+2 *3 C 0 {1,D}
 """,
-    degeneracy = 6,
+    degeneracy = 12,
     kinetics = Arrhenius(
-        A = (2.9e+15,"s^-1"),
+        A = (7e+14,"s^-1","+|-",7e+12),
         n = 0,
-        Ea = (265.232,"kJ/mol"),
+        Ea = (239.457,"kJ/mol","+|-",2.395),
         T0 = (1,"K"),
-        Tmin = (663,"K"),
-        Tmax = (713,"K"),
-        Pmin = (1733,"Pa"),
-        Pmax = (50000,"Pa"),
+        Tmin = (653,"K"),
+        Tmax = (693,"K"),
+        Pmin = (840,"Pa"),
+        Pmax = (1520,"Pa"),
     ),
     reference = Article(
-        authors = ["Gerberich, H.R.", "Walters, W.D."],
-        title = u'The thermal decomposition of trans-1,2-dimethylcyclobutane',
+        authors = ["Zupan, M.", "Walters, W.D."],
+        title = u'The kinetics of the thermal decomposition of methyl cyclobutanecarboxylate',
         journal = "J. Am. Chem. Soc.",
-        volume = "83",
-        pages = """4884-4888""",
-        year = "1961",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL4884-4888:2",
+        volume = "86",
+        pages = """173-176""",
+        year = "1964",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1964ZUP/WAL173-176:1",
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
     longDesc = 
 u"""
-PrIMe Reaction: r00015651
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015651/rk00000001.xml
-Bath gas: Cyclobutane, 1,2-dimethyl-, trans-
+PrIMe Reaction: r00008915
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008915/rk00000001.xml
+Bath gas: Cyclobutanecarboxylic acid methyl ester
 Category: Experiment
 Data type: Absolute value measured directly
 Excitation technique: Thermal
-Analytical technique: Pressure measurement
+Analytical technique: Gas chromatography
 """,
     history = [
-        ("Tue Jul 24 17:48:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL4884-4888:2"""),
+        ("Fri Jul 13 07:56:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964ZUP/WAL173-176:1"""),
     ],
 )
 
 entry(
     index = 57,
-    label = "1961GER/WAL3935-3939:3",
+    label = "1964ROQ/WAL1606-1609:1",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S} {5,S}
-2 *4 C 0 {1,S} {4,S} {6,S}
-3 *1 C 0 {1,S} {4,S}
+1 *2 C 0 {2,S} {3,S} {7,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 C 0 {1,S} {4,S}
 4 *3 C 0 {2,S} {3,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
+5    C 0 {6,S} {7,S}
+6    C 0 {5,S}
+7    C 0 {1,S} {5,S} {8,D}
+8    O 0 {7,D}
 """,
     product1 = 
 """
-1    C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3 *1 C 0 {2,D}
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3    C 0 {1,S} {4,S} {6,D}
+4 *2 C 0 {3,S} {5,D}
+5 *1 C 0 {4,D}
+6    O 0 {3,D}
 """,
     product2 = 
 """
-1    C 0 {2,S}
-2 *4 C 0 {1,S} {3,D}
-3 *3 C 0 {2,D}
+1 *4 C 0 {2,D}
+2 *3 C 0 {1,D}
 """,
-    degeneracy = 4,
+    degeneracy = 12,
     kinetics = Arrhenius(
-        A = (3e+15,"s^-1"),
+        A = (3.4e+14,"s^-1","+|-",1e+13),
         n = 0,
-        Ea = (252.76,"kJ/mol"),
+        Ea = (226.985,"kJ/mol"),
         T0 = (1,"K"),
-        Tmin = (653,"K"),
-        Tmax = (703,"K"),
-        Pmin = (773,"Pa"),
-        Pmax = (52400,"Pa"),
+        Tmin = (643,"K"),
+        Tmax = (683,"K"),
+        Pmin = (533,"Pa"),
+        Pmax = (2266,"Pa"),
     ),
     reference = Article(
-        authors = ["Gerberich, H.R.", "Walters, W.D."],
-        title = u'The thermal decomposition of cis-1,2-dimethylcyclobutane',
-        journal = "J. Am. Chem. Soc.",
-        volume = "83",
-        pages = """3935-3939""",
-        year = "1961",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL3935-3939:3",
+        authors = ["Roquitte, B.C.", "Walters, W.D."],
+        title = u'The thermal decomposition of ethyl cyclobutyl ketone',
+        journal = "J. Phys. Chem.",
+        volume = "68",
+        pages = """1606-1609""",
+        year = "1964",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1964ROQ/WAL1606-1609:1",
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
     longDesc = 
 u"""
-PrIMe Reaction: r00015649
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015649/rk00000001.xml
-Bath gas: Cyclobutane, 1,2-dimethyl-, cis-
+PrIMe Reaction: r00013004
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013004/rk00000001.xml
+Bath gas: 1-Propanone, 1-cyclobutyl-
 Category: Experiment
 Data type: Absolute value measured directly
 Excitation technique: Thermal
-Analytical technique: Pressure measurement
+Analytical technique: IR absorption
 """,
     history = [
-        ("Tue Jul 24 17:50:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL3935-3939:3"""),
+        ("Fri Jul 13 07:58:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964ROQ/WAL1606-1609:1"""),
     ],
 )
 
 entry(
     index = 58,
-    label = "1961GER/WAL4884-4888:3",
+    label = "1975CLE/FRE2485:1",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S} {5,S}
-2 *4 C 0 {1,S} {4,S} {6,S}
-3 *1 C 0 {1,S} {4,S}
-4 *3 C 0 {2,S} {3,S}
-5    C 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S}
+3    C 0 {1,S} {7,S}
+4 *1 C 0 {1,S} {8,S}
+5 *4 C 0 {1,S} {8,S}
 6    C 0 {2,S}
+7    C 0 {3,S}
+8 *3 O 0 {4,S} {5,S}
 """,
     product1 = 
 """
-1    C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3 *1 C 0 {2,D}
+1    C 0 {3,S} {5,S}
+2    C 0 {4,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {2,S}
+5 *2 C 0 {1,S} {2,S} {6,D}
+6 *1 C 0 {5,D}
 """,
     product2 = 
 """
-1    C 0 {2,S}
-2 *4 C 0 {1,S} {3,D}
-3 *3 C 0 {2,D}
+1 *4 C 0 {2,D}
+2 *3 O 0 {1,D}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
-        A = (2.8e+15,"s^-1"),
+        A = (1.98e+15,"s^-1","*|/",1.16),
         n = 0,
-        Ea = (257.749,"kJ/mol"),
+        Ea = (250.266,"kJ/mol"),
         T0 = (1,"K"),
-        Tmin = (663,"K"),
-        Tmax = (713,"K"),
-        Pmin = (1733,"Pa"),
-        Pmax = (50000,"Pa"),
+        Tmin = (675,"K"),
+        Tmax = (736,"K"),
+        Pmin = (960,"Pa"),
+        Pmax = (1667,"Pa"),
     ),
     reference = Article(
-        authors = ["Gerberich, H.R.", "Walters, W.D."],
-        title = u'The thermal decomposition of trans-1,2-dimethylcyclobutane',
-        journal = "J. Am. Chem. Soc.",
-        volume = "83",
-        pages = """4884-4888""",
-        year = "1961",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL4884-4888:3",
+        authors = ["Clements, A.D.", "Frey, H.M.", "Frey, J.G."],
+        title = u'Thermal Decomposition of 3-Ethyl-3-methyloxetan and 3,3-Diethyloxetan',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "71",
+        pages = """2485""",
+        year = "1975",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1975CLE/FRE2485:1",
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
     longDesc = 
 u"""
-PrIMe Reaction: r00015652
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015652/rk00000001.xml
-Bath gas: Cyclobutane, 1,2-dimethyl-, trans-
+PrIMe Reaction: r00014886
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00014886/rk00000001.xml
+Uncertainty: 1.16
 Category: Experiment
 Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
     history = [
-        ("Tue Jul 24 17:51:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961GER/WAL4884-4888:3"""),
+        ("Fri Jul 13 07:58:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975CLE/FRE2485:1"""),
     ],
 )
 
 entry(
     index = 59,
+    label = "1972EGG/COC211:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {3,S} {6,S}
+3 *4 C 0 {2,S} {5,S}
+4    C 0 {1,S} {7,S}
+5 *3 C 0 {1,S} {3,S} {8,D}
+6    C 0 {2,S} {7,D}
+7    C 0 {4,S} {6,D}
+8    O 0 {5,D}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,D}
+3 *1 C 0 {1,S} {5,D}
+4    C 0 {2,D} {5,S}
+5 *2 C 0 {3,D} {4,S}
+""",
+    product2 = 
+"""
+1 *4 C 0 {2,D}
+2 *3 C 0 {1,D} {3,D}
+3    O 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.45e+13,"s^-1","*|/",1.29),
+        n = 0,
+        Ea = (157.144,"kJ/mol","+|-",1.571),
+        T0 = (1,"K"),
+        Tmin = (471,"K"),
+        Tmax = (534,"K"),
+        Pmin = (2000,"Pa"),
+        Pmax = (66700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Egger, K.W.", "Cocks, A.T."],
+        title = u'Kinetics of the Four-centre Elimination of Keten from Bicyclo[3.2.0]hept-2-en-6-one in the Gas Phase',
+        journal = "J. Chem. Soc. Perkin Trans. 2",
+        pages = """211""",
+        year = "1972",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1972EGG/COC211:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015146
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015146/rk00000001.xml
+Uncertainty: 1.29
+Bath gas: CH3CH=CH2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Fri Jul 13 07:58:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972EGG/COC211:1"""),
+    ],
+)
+
+entry(
+    index = 60,
+    label = "1972COC/EGG2014:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {6,S}
+2 *2 C 0 {1,S} {4,S} {7,S}
+3    C 0 {1,S} {5,S}
+4    C 0 {2,S} {5,S}
+5    C 0 {3,S} {4,S}
+6 *3 C 0 {1,S} {7,S}
+7 *4 C 0 {2,S} {6,S} {8,D}
+8    O 0 {7,D}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S} {5,S}
+4 *1 C 0 {2,S} {5,D}
+5 *2 C 0 {3,S} {4,D}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,D}
+2 *4 C 0 {1,D} {3,D}
+3    O 0 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.62e+14,"s^-1","*|/",1.26),
+        n = 0,
+        Ea = (202.873,"kJ/mol","+|-",2.029),
+        T0 = (1,"K"),
+        Tmin = (546,"K"),
+        Tmax = (652,"K"),
+        Pmin = (547,"Pa"),
+        Pmax = (5333,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Cocks, A.T.", "Egger, K.W."],
+        title = u'The Gas-Phase Thermal Unimolecular Elimination of Keten from Bicyclo-[3.2.0]heptan-6-one',
+        journal = "J. Chem. Soc. Perkin Trans. 2",
+        pages = """2014""",
+        year = "1972",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1972COC/EGG2014:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015261
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015261/rk00000001.xml
+Uncertainty: 1.26
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Fri Jul 13 07:58:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972COC/EGG2014:1"""),
+    ],
+)
+
+entry(
+    index = 61,
+    label = "1987CHI/FRE365:2",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
+2 *4 C 0 {1,S} {4,S} {7,S}
+3 *1 C 0 {1,S} {4,S}
+4 *3 C 0 {2,S} {3,S}
+5    C 0 {1,S}
+6    C 0 {1,S}
+7    C 0 {2,S} {8,D}
+8    C 0 {7,D}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,D}
+2 *4 C 0 {1,S} {4,D}
+3    C 0 {1,D}
+4 *3 C 0 {2,D}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.22e+15,"s^-1","*|/",2),
+        n = 0,
+        Ea = (199.547,"kJ/mol","+|-",1.995),
+        T0 = (1,"K"),
+        Tmin = (536,"K"),
+        Tmax = (574,"K"),
+        Pmin = (3306,"Pa"),
+        Pmax = (3306,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Chickos, J.S.", "Frey, H.M."],
+        title = u'The thermolysis of 2,2-dimethyl-1-vinylcyclobutane',
+        journal = "J. Chem. Soc. Perkin Trans. 2",
+        pages = """365""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987CHI/FRE365:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00017015
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017015/rk00000001.xml
+Uncertainty: 2.0
+Bath gas: N2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Fri Jul 13 08:00:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987CHI/FRE365:2"""),
+    ],
+)
+
+entry(
+    index = 62,
     label = "1969COC/FRE1671-1673:1",
     reactant1 = 
 """
@@ -3576,314 +3748,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 60,
-    label = "1974HOL/SCO43:1",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3 *3 C 0 {1,S} {6,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6 *4 O 0 {2,S} {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *2 C 0 {1,S} {4,D}
-4 *1 C 0 {2,S} {3,D}
-""",
-    product2 = 
-"""
-1 *3 C 0 {2,D}
-2 *4 O 0 {1,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (3.09e+15,"s^-1","*|/",1.82),
-        n = 0,
-        Ea = (266.063,"kJ/mol","+|-",2.661),
-        T0 = (1,"K"),
-        Tmin = (688,"K"),
-        Tmax = (756,"K"),
-        Pmin = (267,"Pa"),
-        Pmax = (4266,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Holbrook, K.A.", "Scott, R.A."],
-        title = u'Gas-phase Unimolecular Pyrolyses of cis- and trans-2,3-Dimethyloxetan',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "70",
-        pages = """43""",
-        year = "1974",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:1",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00016231
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016231/rk00000001.xml
-Uncertainty: 1.8200001
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Tue Jul 24 17:55:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:1"""),
-    ],
-)
-
-entry(
-    index = 61,
-    label = "1974HOL/SCO43:3",
-    reactant1 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3 *3 C 0 {1,S} {6,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6 *4 O 0 {2,S} {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *2 C 0 {1,S} {4,D}
-4 *1 C 0 {2,S} {3,D}
-""",
-    product2 = 
-"""
-1 *3 C 0 {2,D}
-2 *4 O 0 {1,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.74e+15,"s^-1","*|/",1.78),
-        n = 0,
-        Ea = (261.074,"kJ/mol","+|-",2.611),
-        T0 = (1,"K"),
-        Tmin = (688,"K"),
-        Tmax = (756,"K"),
-        Pmin = (267,"Pa"),
-        Pmax = (4266,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Holbrook, K.A.", "Scott, R.A."],
-        title = u'Gas-phase Unimolecular Pyrolyses of cis- and trans-2,3-Dimethyloxetan',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "70",
-        pages = """43""",
-        year = "1974",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:3",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00016297
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016297/rk00000001.xml
-Uncertainty: 1.78
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Tue Jul 24 17:56:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:3"""),
-    ],
-)
-
-entry(
-    index = 62,
-    label = "1974HOL/SCO43:2",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {4,S}
-2 *4 C 0 {1,S} {5,S} {6,S}
-3 *1 C 0 {1,S} {6,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6 *3 O 0 {2,S} {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3 *1 C 0 {2,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2 *4 C 0 {1,S} {3,D}
-3 *3 O 0 {2,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (8.13e+15,"s^-1","*|/",1.78),
-        n = 0,
-        Ea = (270.22,"kJ/mol","+|-",2.702),
-        T0 = (1,"K"),
-        Tmin = (688,"K"),
-        Tmax = (756,"K"),
-        Pmin = (267,"Pa"),
-        Pmax = (4266,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Holbrook, K.A.", "Scott, R.A."],
-        title = u'Gas-phase Unimolecular Pyrolyses of cis- and trans-2,3-Dimethyloxetan',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "70",
-        pages = """43""",
-        year = "1974",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:2",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00016232
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016232/rk00000001.xml
-Uncertainty: 1.78
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Tue Jul 24 17:59:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:2"""),
-    ],
-)
-
-entry(
     index = 63,
-    label = "1974HOL/SCO43:4",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {4,S}
-2 *4 C 0 {1,S} {5,S} {6,S}
-3 *1 C 0 {1,S} {6,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6 *3 O 0 {2,S} {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3 *1 C 0 {2,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2 *4 C 0 {1,S} {3,D}
-3 *3 O 0 {2,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (5.01e+15,"s^-1","*|/",1.66),
-        n = 0,
-        Ea = (264.4,"kJ/mol","+|-",2.644),
-        T0 = (1,"K"),
-        Tmin = (688,"K"),
-        Tmax = (756,"K"),
-        Pmin = (267,"Pa"),
-        Pmax = (4266,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Holbrook, K.A.", "Scott, R.A."],
-        title = u'Gas-phase Unimolecular Pyrolyses of cis- and trans-2,3-Dimethyloxetan',
-        journal = "J. Chem. Soc. Faraday Trans. 1",
-        volume = "70",
-        pages = """43""",
-        year = "1974",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:4",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00016298
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016298/rk00000001.xml
-Uncertainty: 1.66
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Tue Jul 24 18:00:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974HOL/SCO43:4"""),
-    ],
-)
-
-entry(
-    index = 64,
-    label = "1971COC/FRE1437:2",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
-2 *4 C 0 {1,S} {4,S} {7,S}
-3 *1 C 0 {1,S} {4,S}
-4 *3 C 0 {2,S} {3,S}
-5    C 0 {1,S}
-6    C 0 {1,S}
-7    C 0 {2,S}
-""",
-    product1 = 
-"""
-1    C 0 {3,S}
-2    C 0 {3,S}
-3 *2 C 0 {1,S} {2,S} {4,D}
-4 *1 C 0 {3,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2 *4 C 0 {1,S} {3,D}
-3 *3 C 0 {2,D}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (5.62e+15,"s^-1","*|/",1.17),
-        n = 0,
-        Ea = (251.929,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (660,"K"),
-        Tmax = (728,"K"),
-        Pmin = (667,"Pa"),
-        Pmax = (1600,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Cocks, A.T.", "Frey, H.M."],
-        title = u'The Thermal Unimolecular Decomposition of 1,1,2-Trimethylcyclobutane',
-        journal = "J. Phys. Chem.",
-        volume = "75",
-        pages = """1437""",
-        year = "1971",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971COC/FRE1437:2",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00016300
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016300/rk00000001.xml
-Uncertainty: 1.17
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Tue Jul 24 18:02:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971COC/FRE1437:2"""),
-    ],
-)
-
-entry(
-    index = 65,
     label = "1984HAM/HOL691:2",
     reactant1 = 
 """
@@ -3949,7 +3814,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 66,
+    index = 64,
     label = "1984HAM/HOL691:3",
     reactant1 = 
 """
@@ -4015,7 +3880,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 67,
+    index = 65,
     label = "1980CAR/MAI1849:1",
     reactant1 = 
 """
@@ -4076,6 +3941,141 @@ Analytical technique: Pressure measurement
 """,
     history = [
         ("Tue Jul 24 18:06:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980CAR/MAI1849:1"""),
+    ],
+)
+
+entry(
+    index = 66,
+    label = "1973FRE/HOP2016:1",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {4,S} {5,S} {8,S}
+2 *3 C 0 {3,S} {6,S} {7,S} {8,S}
+3 *1 C 0 {1,S} {2,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+7    C 0 {2,S}
+8 *4 C 0 {1,S} {2,S} {9,D}
+9    O 0 {8,D}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *3 C 0 {1,S} {2,S} {4,D}
+4 *4 C 0 {3,D} {5,D}
+5    O 0 {4,D}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (7.23e+14,"s^-1","*|/",1.07),
+        n = 0,
+        Ea = (234.468,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (637,"K"),
+        Tmax = (700,"K"),
+        Pmin = (907,"Pa"),
+        Pmax = (907,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Frey, H.M.", "Hopf, H."],
+        title = u'The thermal unimolecular decomposition of 2,2,4,4-tetramethylcyclobutanone',
+        journal = "J. Chem. Soc. Perkin Trans. 2",
+        pages = """2016""",
+        year = "1973",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1973FRE/HOP2016:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012680
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012680/rk00000001.xml
+Uncertainty: 1.0700001
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Fri Jul 13 07:58:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973FRE/HOP2016:1"""),
+    ],
+)
+
+entry(
+    index = 67,
+    label = "1973EGG285:1",
+    reactant1 = 
+"""
+1  *4 C 0 {2,S} {5,S} {6,S} {7,S}
+2  *2 C 0 {1,S} {3,S} {8,S}
+3  *1 C 0 {2,S} {4,S} {7,S}
+4     C 0 {3,S} {9,S}
+5     C 0 {1,S}
+6     C 0 {1,S}
+7  *3 C 0 {1,S} {3,S} {10,D}
+8     C 0 {2,S} {9,D}
+9     C 0 {4,S} {8,D}
+10    O 0 {7,D}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,D}
+3 *1 C 0 {1,S} {5,D}
+4    C 0 {2,D} {5,S}
+5 *2 C 0 {3,D} {4,S}
+""",
+    product2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *4 C 0 {1,S} {2,S} {4,D}
+4 *3 C 0 {3,D} {5,D}
+5    O 0 {4,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.94e+12,"s^-1","*|/",1.66),
+        n = 0,
+        Ea = (157.975,"kJ/mol","+|-",1.58),
+        T0 = (1,"K"),
+        Tmin = (470,"K"),
+        Tmax = (550,"K"),
+        Pmin = (987,"Pa"),
+        Pmax = (9333,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Egger, K.W."],
+        title = u'The Gas-Phase Thermal Unimolecular Elimination of 1,1-Dimethylketene from 7,7-Dimethylbicyclo[3.2.0]hept-2-en-6-one',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "5",
+        pages = """285""",
+        year = "1973",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1973EGG285:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008919
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008919/rk00000001.xml
+Uncertainty: 1.66
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Fri Jul 13 07:56:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973EGG285:1"""),
     ],
 )
 

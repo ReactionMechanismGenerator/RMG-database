@@ -10,6 +10,259 @@ recommended = False
 
 entry(
     index = 1,
+    label = "1981BAT/BUR467:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *1 O 1 {1,S}
+3 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 1 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3 *3 H 0 {2,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1e+13,"s^-1"),
+        n = 0,
+        Ea = (108.92,"kJ/mol","+|-",9.811),
+        T0 = (1,"K"),
+        Tmin = (393,"K"),
+        Tmax = (473,"K"),
+        Pmin = (66700,"Pa"),
+        Pmax = (66700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Batt, L.", "Burrows, J.P.", "Robinson, G.N."],
+        title = u'On the Isomerisation of the Methoxy Radical: Relevance to Atmospheric Chemistry and Combustion',
+        journal = "Chem. Phys. Lett.",
+        volume = "78",
+        pages = """467""",
+        year = "1981",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981BAT/BUR467:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010565
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010565/rk00000001.xml
+Rate constant is an upper limit.
+Bath gas: N2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Tue Jul 24 19:26:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BAT/BUR467:1"""),
+    ],
+)
+
+entry(
+    index = 2,
+    label = "2003MAT/GRE95-119:4",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3 *1 C 1 {1,S}
+4 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2 *2 C 0 {3,S} {4,S}
+3 *1 C 1 {1,S} {2,S}
+4 *3 H 0 {2,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.56e+10,"s^-1"),
+        n = 0.88,
+        Ea = (156.063,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."],
+        title = u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "35",
+        pages = """95-119""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:4",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010505
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010505/rk00000001.xml
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
+""",
+    history = [
+        ("Tue Jul 24 19:06:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:4"""),
+    ],
+)
+
+entry(
+    index = 3,
+    label = "1975COL/NAE223:3",
+    reactant1 = 
+"""
+1 *1 C 1 {2,S}
+2 *2 C 0 {1,S} {3,D} {4,S}
+3    O 0 {2,D}
+4 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *1 C 1 {1,S} {4,D}
+3 *3 H 0 {1,S}
+4    O 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1e+13,"s^-1"),
+        n = 0,
+        Ea = (197.053,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (800,"K"),
+        Tmax = (1220,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Colket, M.B., III", "Naegeli, D.W.", "Glassman, I."],
+        title = u'High-Temperature Pyrolysis of Acetaldehyde',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "7",
+        pages = """223""",
+        year = "1975",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1975COL/NAE223:3",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012711
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012711/rk00000001.xml
+Bath gas: N2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 12:54:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975COL/NAE223:3"""),
+    ],
+)
+
+entry(
+    index = 4,
+    label = "1986OND/ZIE1127:2",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {4,S}
+2    C 0 {3,D}
+3 *1 C 1 {1,S} {2,D}
+4 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,S} {3,D} {4,S}
+2 *1 C 1 {1,S}
+3    C 0 {1,D}
+4 *3 H 0 {1,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (2e+13,"s^-1"),
+        n = 0,
+        Ea = (197.053,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (302,"K"),
+    ),
+    reference = Article(
+        authors = ["Ondruschka, B.", "Ziegler, U.", "Zimmermann, G."],
+        title = u'Zu moglichen umlagerungen zwischen isomeren C3H5-radikalen',
+        journal = "Z. Phys. Chem. (Leipzig)",
+        volume = "267",
+        pages = """1127""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Other theoretical""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015630
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015630/rk00000001.xml
+Category: Theory
+Data type: Other theoretical
+""",
+    history = [
+        ("Wed Jul 25 12:57:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:2"""),
+    ],
+)
+
+entry(
+    index = 5,
+    label = "1986OND/ZIE1127:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *1 C 1 {1,S}
+4 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {3,S} {4,S}
+2    C 0 {3,D}
+3 *1 C 1 {1,S} {2,D}
+4 *3 H 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.94e+12,"s^-1"),
+        n = 0,
+        Ea = (147.166,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (302,"K"),
+    ),
+    reference = Article(
+        authors = ["Ondruschka, B.", "Ziegler, U.", "Zimmermann, G."],
+        title = u'Zu moglichen umlagerungen zwischen isomeren C3H5-radikalen',
+        journal = "Z. Phys. Chem. (Leipzig)",
+        volume = "267",
+        pages = """1127""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Other theoretical""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015630
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015630/rk00000002.xml
+Category: Theory
+Data type: Other theoretical
+""",
+    history = [
+        ("Wed Jul 25 12:58:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:1"""),
+    ],
+)
+
+entry(
+    index = 6,
     label = "1988GIE/GAW435:4",
     reactant1 = 
 """
@@ -64,7 +317,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 2,
+    index = 7,
     label = "1966LIN/BAC2369:4",
     reactant1 = 
 """
@@ -120,7 +373,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 3,
+    index = 8,
     label = "2003MAT/GRE95-119:8",
     reactant1 = 
 """
@@ -175,7 +428,7 @@ Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations 
 )
 
 entry(
-    index = 4,
+    index = 9,
     label = "2003MAT/GRE95-119:7",
     reactant1 = 
 """
@@ -230,7 +483,7 @@ Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations 
 )
 
 entry(
-    index = 5,
+    index = 10,
     label = "1988GIE/GAW435:2",
     reactant1 = 
 """
@@ -285,7 +538,115 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 6,
+    index = 11,
+    label = "2003MAT/GRE95-119:6",
+    reactant1 = 
+"""
+1 *1 C 1 {2,S}
+2 *2 C 0 {1,S} {3,S} {4,S}
+3 *3 H 0 {2,S}
+4    C 0 {2,S} {5,D}
+5    C 0 {4,D}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2 *2 C 0 {1,S} {4,D}
+3 *3 H 0 {1,S}
+4    C 0 {2,D} {5,S}
+5    C 1 {4,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.56e+10,"s^-1"),
+        n = 0.88,
+        Ea = (123.846,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."],
+        title = u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "35",
+        pages = """95-119""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:6",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010707
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010707/rk00000001.xml
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
+""",
+    history = [
+        ("Tue Jul 24 19:11:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:6"""),
+    ],
+)
+
+entry(
+    index = 12,
+    label = "2003MAT/GRE95-119:5",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *1 C 1 {1,S}
+5 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {4,S}
+2    C 0 {4,S}
+3 *2 C 0 {4,S} {5,S}
+4 *1 C 1 {1,S} {2,S} {3,S}
+5 *3 H 0 {3,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.56e+10,"s^-1"),
+        n = 0.88,
+        Ea = (144.766,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."],
+        title = u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "35",
+        pages = """95-119""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:5",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012770
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012770/rk00000001.xml
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
+""",
+    history = [
+        ("Wed Jul 25 12:56:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:5"""),
+    ],
+)
+
+entry(
+    index = 13,
     label = "1990MAR935-950:3",
     reactant1 = 
 """
@@ -340,7 +701,7 @@ Data type: Experimental value and limited review
 )
 
 entry(
-    index = 7,
+    index = 14,
     label = "1990MAR935-950:4",
     reactant1 = 
 """
@@ -398,7 +759,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 8,
+    index = 15,
     label = "1971WAT6355:4",
     reactant1 = 
 """
@@ -455,7 +816,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 9,
+    index = 16,
     label = "1966END/LER4081:2",
     reactant1 = 
 """
@@ -513,7 +874,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 10,
+    index = 17,
     label = "2003MAT/GRE95-119:9",
     reactant1 = 
 """
@@ -570,7 +931,7 @@ Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations 
 )
 
 entry(
-    index = 11,
+    index = 18,
     label = "2003MAT/GRE95-119:11",
     reactant1 = 
 """
@@ -627,7 +988,7 @@ Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations 
 )
 
 entry(
-    index = 12,
+    index = 19,
     label = "1999YAM/MIY2723-2733:1",
     reactant1 = 
 """
@@ -681,7 +1042,7 @@ Pressure dependence: Rate constant is high pressure limit
 )
 
 entry(
-    index = 13,
+    index = 20,
     label = "1972WAT3738:1",
     reactant1 = 
 """
@@ -733,7 +1094,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 14,
+    index = 21,
     label = "2003MAT/GRE95-119:10",
     reactant1 = 
 """
@@ -791,7 +1152,300 @@ Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations 
 )
 
 entry(
-    index = 15,
+    index = 22,
+    label = "1977BAL/BAR2483:6",
+    reactant1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *2 C 0 {1,S} {6,S}
+4 *4 C 0 {2,S} {5,S}
+5 *1 O 1 {4,S}
+6 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *4 C 0 {1,S} {4,S}
+3 *5 C 0 {1,S} {5,S}
+4 *1 C 1 {2,S}
+5 *2 O 0 {3,S} {6,S}
+6 *3 H 0 {5,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (2.51e+11,"s^-1"),
+        n = 0,
+        Ea = (32.26,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (450,"K"),
+    ),
+    reference = Article(
+        authors = ["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."],
+        title = u'Photochemical smog. Rate parameter estimates and computer simulations',
+        journal = "J. Phys. Chem.",
+        volume = "81",
+        pages = """2483""",
+        year = "1977",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:6",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015924
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000001.xml
+Bath gas: N2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 13:14:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:6"""),
+    ],
+)
+
+entry(
+    index = 23,
+    label = "1978BAL/GOL108:3",
+    reactant1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *2 C 0 {1,S} {6,S}
+4 *4 C 0 {2,S} {5,S}
+5 *1 O 1 {4,S}
+6 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *4 C 0 {1,S} {4,S}
+3 *5 C 0 {1,S} {5,S}
+4 *1 C 1 {2,S}
+5 *2 O 0 {3,S} {6,S}
+6 *3 H 0 {5,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (2.51e+11,"s^-1"),
+        n = 0,
+        Ea = (32.26,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (590,"K"),
+        Tmax = (750,"K"),
+    ),
+    reference = Article(
+        authors = ["Baldwin, A.C.", "Golden, D.M."],
+        title = u'Alkoxy Radical Reactions: The Isomerization of n-Butoxy Radicals Generated from the Pyrolysis of n-Butyl Nitrite',
+        journal = "Chem. Phys. Lett.",
+        volume = "60",
+        pages = """108""",
+        year = "1978",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1978BAL/GOL108:3",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015924
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000002.xml
+Bath gas: n-C4H9ONO
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 13:16:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978BAL/GOL108:3"""),
+    ],
+)
+
+entry(
+    index = 24,
+    label = "1987MOR/HEI2641:3",
+    reactant1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *2 C 0 {1,S} {6,S}
+4 *4 C 0 {2,S} {5,S}
+5 *1 O 1 {4,S}
+6 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *4 C 0 {1,S} {4,S}
+3 *5 C 0 {1,S} {5,S}
+4 *1 C 1 {2,S}
+5 *2 O 0 {3,S} {6,S}
+6 *3 H 0 {5,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.78e+11,"s^-1","*|/",5),
+        n = 0,
+        Ea = (33.341,"kJ/mol","+|-",4.34),
+        T0 = (1,"K"),
+        Tmin = (265,"K"),
+        Tmax = (393,"K"),
+        Pmin = (53300,"Pa"),
+        Pmax = (53300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Morabito, P.", "Heicklen, J."],
+        title = u'The reactions of alkoxyl radicals with O2. IV. n-C4H9O radicals',
+        journal = "Bull. Chem. Soc. Jpn.",
+        volume = "60",
+        pages = """2641""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987MOR/HEI2641:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015924
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000003.xml
+Uncertainty: 5.0
+Bath gas: N2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Jul 25 13:17:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987MOR/HEI2641:3"""),
+    ],
+)
+
+entry(
+    index = 25,
+    label = "2003MER/RAY4828-4833:1",
+    reactant1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *2 C 0 {1,S} {6,S}
+4 *4 C 0 {2,S} {5,S}
+5 *1 O 1 {4,S}
+6 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *4 C 0 {1,S} {4,S}
+3 *5 C 0 {1,S} {5,S}
+4 *1 C 1 {2,S}
+5 *2 O 0 {3,S} {6,S}
+6 *3 H 0 {5,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (2.5e+12,"s^-1","*|/",5),
+        n = 0,
+        Ea = (40.585,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (298,"K"),
+    ),
+    reference = Article(
+        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
+        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
+        journal = "Phys. Chem. Chem. Phys.",
+        volume = "5",
+        pages = """4828-4833""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015924
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000005.xml
+Uncertainty: 5.0
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
+
+Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
+kisom(primary) = 6.2E5 s^-1
+kisom(secondary) = 9.3E8 s^-1
+kisom(tertiary) = 4.5E8 s^-1
+
+The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
+""",
+    history = [
+        ("Wed Jul 25 13:20:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:1"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
+    ],
+)
+
+entry(
+    index = 26,
+    label = "2003VER/PEE5159-5170:2",
+    reactant1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *2 C 0 {1,S} {6,S}
+4 *4 C 0 {2,S} {5,S}
+5 *1 O 1 {4,S}
+6 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *4 C 0 {1,S} {4,S}
+3 *5 C 0 {1,S} {5,S}
+4 *1 C 1 {2,S}
+5 *2 O 0 {3,S} {6,S}
+6 *3 H 0 {5,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.43e+11,"s^-1"),
+        n = 0,
+        Ea = (34.183,"kJ/mol"),
+        T0 = (1,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Vereecken, L.", "Peeters, J."],
+        title = u'The 1,5-H-shift in 1-butoxy: A case study in the rigorous implementation of transition state theory for a multirotamer system',
+        journal = "J. Chem. Phys.",
+        volume = "119",
+        pages = """5159-5170""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE5159-5170:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015924
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000010.xml
+Category: Theory
+Data type: Transition state theory
+Pressure dependence: Rate constant is pressure dependent
+
+The authors have studied the 1-butoxy H-shift reaction, exploring several approaches for deriving rate constants for a reaction system with multiple reactant rotamers and multiple transition state conformers. It is shown that the various treatments are fully consistent, even if the TST expressions themselves appear different. Rate constants are derived at 298 K and 1 atm pressure and compared with the literature.
+""",
+    history = [
+        ("Wed Jul 25 13:24:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE5159-5170:2"""),
+    ],
+)
+
+entry(
+    index = 27,
     label = "2007TSA/WAL141-148:2",
     reactant1 = 
 """
@@ -860,7 +1514,7 @@ This expression was derived via detailed balance and low temperature data on the
 )
 
 entry(
-    index = 16,
+    index = 28,
     label = "1987DOB/BER895:1",
     reactant1 = 
 """
@@ -920,7 +1574,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 17,
+    index = 29,
     label = "1969WAT/OST2080:1",
     reactant1 = 
 """
@@ -980,7 +1634,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 18,
+    index = 30,
     label = "1999YAM/MIY2723-2733:2",
     reactant1 = 
 """
@@ -1036,7 +1690,7 @@ Pressure dependence: Rate constant is high pressure limit
 )
 
 entry(
-    index = 19,
+    index = 31,
     label = "1987IMB/MAR81:6",
     reactant1 = 
 """
@@ -1093,7 +1747,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 20,
+    index = 32,
     label = "1987IMB/MAR81:5",
     reactant1 = 
 """
@@ -1150,7 +1804,511 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 21,
+    index = 33,
+    label = "2003MER/RAY4828-4833:4",
+    reactant1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2 *2 C 0 {1,S} {4,S} {6,S}
+3    C 0 {1,S} {5,S}
+4    C 0 {2,S}
+5 *4 C 0 {3,S} {7,S}
+6 *3 H 0 {2,S}
+7 *1 O 1 {5,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *4 C 0 {1,S} {5,S}
+3 *5 C 0 {1,S} {6,S}
+4    C 0 {5,S}
+5 *1 C 1 {2,S} {4,S}
+6 *2 O 0 {3,S} {7,S}
+7 *3 H 0 {6,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.7e+12,"s^-1","*|/",5),
+        n = 0,
+        Ea = (33.054,"kJ/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
+        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
+        journal = "Phys. Chem. Chem. Phys.",
+        volume = "5",
+        pages = """4828-4833""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:4",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00000088
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000088/rk00000001.xml
+Uncertainty: 5.0
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
+
+Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
+kisom(primary) = 6.2E5 s^-1
+kisom(secondary) = 9.3E8 s^-1
+kisom(tertiary) = 4.5E8 s^-1
+
+The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
+""",
+    history = [
+        ("Tue Jul 24 18:30:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:4"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
+    ],
+)
+
+entry(
+    index = 34,
+    label = "2003MER/RAY4828-4833:2",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S} {4,S}
+2 *5 C 0 {1,S} {5,S}
+3    C 0 {1,S}
+4 *4 C 0 {1,S} {6,S}
+5 *2 C 0 {2,S} {7,S}
+6 *1 O 1 {4,S}
+7 *3 H 0 {5,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S} {4,S}
+2 *4 C 0 {1,S} {5,S}
+3 *5 C 0 {1,S} {6,S}
+4    C 0 {1,S}
+5 *1 C 1 {2,S}
+6 *2 O 0 {3,S} {7,S}
+7 *3 H 0 {6,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (3.1e+12,"s^-1","*|/",5),
+        n = 0,
+        Ea = (40.585,"kJ/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
+        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
+        journal = "Phys. Chem. Chem. Phys.",
+        volume = "5",
+        pages = """4828-4833""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00000089
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000089/rk00000001.xml
+Uncertainty: 5.0
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
+
+Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
+kisom(primary) = 6.2E5 s^-1
+kisom(secondary) = 9.3E8 s^-1
+kisom(tertiary) = 4.5E8 s^-1
+
+The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
+""",
+    history = [
+        ("Tue Jul 24 18:37:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:2"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
+)
+
+entry(
+    index = 35,
+    label = "1995HAN/WAL1431-1438:10",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *5 C 0 {1,S} {4,S}
+3 *4 C 0 {1,S} {5,S}
+4 *2 C 0 {2,S} {6,D} {7,S}
+5 *1 C 1 {3,S}
+6    C 0 {4,D}
+7 *3 H 0 {4,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *5 C 0 {1,S} {4,S}
+3 *4 C 0 {1,S} {6,S}
+4 *2 C 0 {2,S} {7,S}
+5    C 0 {6,D}
+6 *1 C 1 {3,S} {5,D}
+7 *3 H 0 {4,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1e+11,"s^-1"),
+        n = 0,
+        Ea = (84.808,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (600,"K"),
+        Tmax = (1300,"K"),
+        Pmin = (23300,"Pa"),
+        Pmax = (66700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Handford-Styring, S.M.", "Walker, R.W."],
+        title = u'Addition of cyclopentane to slowly reacting mixtures of H2 + O2 between 673 and 783 K: reactions of H and OH with cyclopentane and of cyclopentyl radicals',
+        journal = "J. Chem. Soc. Faraday Trans.",
+        volume = "91",
+        pages = """1431-1438""",
+        year = "1995",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:10",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015688
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015688/rk00000001.xml
+Bath gas: O2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 12:59:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:10"""),
+    ],
+)
+
+entry(
+    index = 36,
+    label = "1995HAN/WAL1431-1438:9",
+    reactant1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2 *2 C 0 {1,S} {4,S} {7,S}
+3 *4 C 0 {1,S} {5,S}
+4    C 0 {2,S} {6,D}
+5 *1 C 1 {3,S}
+6    C 0 {4,D}
+7 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2 *4 C 0 {1,S} {4,S}
+3 *2 C 0 {1,S} {7,S}
+4 *1 C 1 {2,S} {5,S}
+5    C 0 {4,S} {6,D}
+6    C 0 {5,D}
+7 *3 H 0 {3,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+12,"s^-1"),
+        n = 0,
+        Ea = (124.717,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (600,"K"),
+        Tmax = (1300,"K"),
+        Pmin = (23300,"Pa"),
+        Pmax = (66700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Handford-Styring, S.M.", "Walker, R.W."],
+        title = u'Addition of cyclopentane to slowly reacting mixtures of H2 + O2 between 673 and 783 K: reactions of H and OH with cyclopentane and of cyclopentyl radicals',
+        journal = "J. Chem. Soc. Faraday Trans.",
+        volume = "91",
+        pages = """1431-1438""",
+        year = "1995",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:9",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015689
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015689/rk00000001.xml
+Bath gas: O2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 13:06:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:9"""),
+    ],
+)
+
+entry(
+    index = 37,
+    label = "2003MAT/GRE95-119:13",
+    reactant1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2 *2 C 0 {1,S} {4,S} {7,S}
+3 *4 C 0 {1,S} {5,S}
+4    C 0 {2,S} {6,D}
+5 *1 C 1 {3,S}
+6    C 0 {4,D}
+7 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *5 C 0 {2,S} {3,S}
+2 *4 C 0 {1,S} {4,S}
+3 *2 C 0 {1,S} {7,S}
+4 *1 C 1 {2,S} {5,S}
+5    C 0 {4,S} {6,D}
+6    C 0 {5,D}
+7 *3 H 0 {3,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.67e+12,"s^-1"),
+        n = -0.6,
+        Ea = (64.015,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."],
+        title = u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "35",
+        pages = """95-119""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:13",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015689
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015689/rk00000002.xml
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
+
+1,4 Hydrogen shift
+""",
+    history = [
+        ("Wed Jul 25 13:13:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:13"""),
+    ],
+)
+
+entry(
+    index = 38,
+    label = "1977BAL/BAR2483:9",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S} {5,S}
+4 *2 C 0 {2,S} {6,S} {7,S}
+5    O 0 {3,S}
+6 *1 O 1 {4,S}
+7 *3 H 0 {4,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S} {5,S}
+4 *1 C 1 {2,S} {6,S}
+5    O 0 {3,S}
+6 *2 O 0 {4,S} {7,S}
+7 *3 H 0 {6,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.58e+11,"s^-1"),
+        n = 0,
+        Ea = (27.188,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (450,"K"),
+    ),
+    reference = Article(
+        authors = ["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."],
+        title = u'Photochemical smog. Rate parameter estimates and computer simulations',
+        journal = "J. Phys. Chem.",
+        volume = "81",
+        pages = """2483""",
+        year = "1977",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:9",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016683
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016683/rk00000001.xml
+Bath gas: N2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Jul 25 13:26:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:9"""),
+    ],
+)
+
+entry(
+    index = 39,
+    label = "2003MER/RAY4828-4833:3",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *5 C 0 {1,S} {4,S}
+3 *4 C 0 {1,S} {5,S} {6,S}
+4 *2 C 0 {2,S} {7,S}
+5    C 0 {3,S}
+6 *1 O 1 {3,S}
+7 *3 H 0 {4,S}
+""",
+    product1 = 
+"""
+1 *5 C 0 {2,S} {4,S} {6,S}
+2    C 0 {1,S} {3,S}
+3 *4 C 0 {2,S} {5,S}
+4    C 0 {1,S}
+5 *1 C 1 {3,S}
+6 *2 O 0 {1,S} {7,S}
+7 *3 H 0 {6,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (2.4e+12,"s^-1","*|/",5),
+        n = 0,
+        Ea = (38.911,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (298,"K"),
+    ),
+    reference = Article(
+        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
+        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
+        journal = "Phys. Chem. Chem. Phys.",
+        volume = "5",
+        pages = """4828-4833""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:3",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00017157
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017157/rk00000001.xml
+Uncertainty: 5.0
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
+
+Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
+kisom(primary) = 6.2E5 s^-1
+kisom(secondary) = 9.3E8 s^-1
+kisom(tertiary) = 4.5E8 s^-1
+
+The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
+""",
+    history = [
+        ("Wed Jul 25 13:30:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:3"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
+    ],
+)
+
+entry(
+    index = 40,
+    label = "1986DOB/BER329:3",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *5 C 0 {1,S} {4,S}
+3 *4 C 0 {1,S} {5,S} {6,S}
+4 *2 C 0 {2,S} {7,S}
+5    C 0 {3,S}
+6 *1 O 1 {3,S}
+7 *3 H 0 {4,S}
+""",
+    product1 = 
+"""
+1 *5 C 0 {2,S} {4,S} {6,S}
+2    C 0 {1,S} {3,S}
+3 *4 C 0 {2,S} {5,S}
+4    C 0 {1,S}
+5 *1 C 1 {3,S}
+6 *2 O 0 {1,S} {7,S}
+7 *3 H 0 {6,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.26e+11,"s^-1","*|/",5),
+        n = 0,
+        Ea = (39.743,"kJ/mol","+|-",4.773),
+        T0 = (1,"K"),
+        Tmin = (279,"K"),
+        Tmax = (385,"K"),
+        Pmin = (15100,"Pa"),
+        Pmax = (15100,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Dobe, S.", "Berces, T.", "Marta, F."],
+        title = u'Gas phase decomposition and isomerization reactions of 2-pentoxy radicals',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "18",
+        pages = """329""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986DOB/BER329:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00017157
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017157/rk00000005.xml
+Uncertainty: 5.0
+Bath gas: CO2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Jul 25 13:32:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986DOB/BER329:3"""),
+    ],
+)
+
+entry(
+    index = 41,
     label = "1992HUG/HAL645-652:1",
     reactant1 = 
 """
@@ -1212,7 +2370,7 @@ Analytical technique: Laser induced fluorescence
 )
 
 entry(
-    index = 22,
+    index = 42,
     label = "1982BAL/HIS1615:4",
     reactant1 = 
 """
@@ -1274,7 +2432,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 23,
+    index = 43,
     label = "2004SUN/BOZ1694-1711:21",
     reactant1 = 
 """
@@ -1336,7 +2494,7 @@ Rate expressions reported are derived from ab initio transition states using QRR
 )
 
 entry(
-    index = 24,
+    index = 44,
     label = "2004SUN/BOZ1694-1711:22",
     reactant1 = 
 """
@@ -1398,159 +2556,7 @@ Rate expressions reported are derived from ab initio transition states using QRR
 )
 
 entry(
-    index = 25,
-    label = "2003MER/RAY4828-4833:10",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {5,S} {6,S} {8,S}
-2 *5 C 0 {1,S} {3,S}
-3    C 0 {2,S} {4,S}
-4 *4 C 0 {3,S} {7,S} {9,S}
-5    C 0 {1,S}
-6    C 0 {1,S}
-7    C 0 {4,S}
-8 *3 H 0 {1,S}
-9 *1 O 1 {4,S}
-""",
-    product1 = 
-"""
-1 *5 C 0 {2,S} {4,S} {8,S}
-2    C 0 {1,S} {3,S}
-3 *4 C 0 {2,S} {7,S}
-4    C 0 {1,S}
-5    C 0 {7,S}
-6    C 0 {7,S}
-7 *1 C 1 {3,S} {5,S} {6,S}
-8 *2 O 0 {1,S} {9,S}
-9 *3 H 0 {8,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (7.9e+11,"s^-1","*|/",5),
-        n = 0,
-        Ea = (15.481,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (298,"K"),
-    ),
-    reference = Article(
-        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
-        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
-        journal = "Phys. Chem. Chem. Phys.",
-        volume = "5",
-        pages = """4828-4833""",
-        year = "2003",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:10",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Ab initio""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00000033
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000033/rk00000001.xml
-Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
-Pressure dependence: Rate constant is high pressure limit
-
-The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
-
-Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
-kisom(primary) = 6.2E5 s^-1
-kisom(secondary) = 9.3E8 s^-1
-kisom(tertiary) = 4.5E8 s^-1
-
-The authors estimate uncertainties in calculated rates to be a factor of 5
-
-It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
-In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
-with the tunneling corrections included). DOI: 10.1039/b307708j
-""",
-    history = [
-        ("Tue Jul 24 18:13:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:10"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
-)
-
-entry(
-    index = 26,
-    label = "2003MER/RAY4828-4833:11",
-    reactant1 = 
-"""
-1 *4 C 0 {2,S} {5,S} {6,S} {8,S}
-2    C 0 {1,S} {3,S}
-3 *5 C 0 {2,S} {4,S}
-4 *2 C 0 {3,S} {7,S} {9,S}
-5    C 0 {1,S}
-6    C 0 {1,S}
-7    C 0 {4,S}
-8 *1 O 1 {1,S}
-9 *3 H 0 {4,S}
-""",
-    product1 = 
-"""
-1 *5 C 0 {2,S} {4,S} {5,S} {8,S}
-2    C 0 {1,S} {3,S}
-3 *4 C 0 {2,S} {7,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {7,S}
-7 *1 C 1 {3,S} {6,S}
-8 *2 O 0 {1,S} {9,S}
-9 *3 H 0 {8,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.7e+12,"s^-1","*|/",5),
-        n = 0,
-        Ea = (29.288,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (298,"K"),
-    ),
-    reference = Article(
-        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
-        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
-        journal = "Phys. Chem. Chem. Phys.",
-        volume = "5",
-        pages = """4828-4833""",
-        year = "2003",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:11",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Ab initio""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00000034
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000034/rk00000001.xml
-Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
-Pressure dependence: Rate constant is high pressure limit
-
-The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
-
-Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
-kisom(primary) = 6.2E5 s^-1
-kisom(secondary) = 9.3E8 s^-1
-kisom(tertiary) = 4.5E8 s^-1
-
-The authors estimate uncertainties in calculated rates to be a factor of 5
-
-It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
-In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
-with the tunneling corrections included). DOI: 10.1039/b307708j
-""",
-    history = [
-        ("Tue Jul 24 18:22:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:11"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
-)
-
-entry(
-    index = 27,
+    index = 45,
     label = "2003MER/RAY4828-4833:8",
     reactant1 = 
 """
@@ -1580,8 +2586,6 @@ entry(
         n = 0,
         Ea = (32.217,"kJ/mol"),
         T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
@@ -1624,229 +2628,7 @@ with the tunneling corrections included). DOI: 10.1039/b307708j
 )
 
 entry(
-    index = 28,
-    label = "2003MER/RAY4828-4833:4",
-    reactant1 = 
-"""
-1 *5 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S} {6,S}
-3    C 0 {1,S} {5,S}
-4    C 0 {2,S}
-5 *4 C 0 {3,S} {7,S}
-6 *3 H 0 {2,S}
-7 *1 O 1 {5,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *4 C 0 {1,S} {5,S}
-3 *5 C 0 {1,S} {6,S}
-4    C 0 {5,S}
-5 *1 C 1 {2,S} {4,S}
-6 *2 O 0 {3,S} {7,S}
-7 *3 H 0 {6,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.7e+12,"s^-1","*|/",5),
-        n = 0,
-        Ea = (33.054,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (298,"K"),
-    ),
-    reference = Article(
-        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
-        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
-        journal = "Phys. Chem. Chem. Phys.",
-        volume = "5",
-        pages = """4828-4833""",
-        year = "2003",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:4",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Ab initio""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00000088
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000088/rk00000001.xml
-Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
-Pressure dependence: Rate constant is high pressure limit
-
-The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
-
-Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
-kisom(primary) = 6.2E5 s^-1
-kisom(secondary) = 9.3E8 s^-1
-kisom(tertiary) = 4.5E8 s^-1
-
-The authors estimate uncertainties in calculated rates to be a factor of 5
-
-It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
-In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
-with the tunneling corrections included). DOI: 10.1039/b307708j
-""",
-    history = [
-        ("Tue Jul 24 18:30:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:4"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
-)
-
-entry(
-    index = 29,
-    label = "2003MER/RAY4828-4833:2",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S} {4,S}
-2 *5 C 0 {1,S} {5,S}
-3    C 0 {1,S}
-4 *4 C 0 {1,S} {6,S}
-5 *2 C 0 {2,S} {7,S}
-6 *1 O 1 {4,S}
-7 *3 H 0 {5,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S} {4,S}
-2 *4 C 0 {1,S} {5,S}
-3 *5 C 0 {1,S} {6,S}
-4    C 0 {1,S}
-5 *1 C 1 {2,S}
-6 *2 O 0 {3,S} {7,S}
-7 *3 H 0 {6,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (3.1e+12,"s^-1","*|/",5),
-        n = 0,
-        Ea = (40.585,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (298,"K"),
-    ),
-    reference = Article(
-        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
-        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
-        journal = "Phys. Chem. Chem. Phys.",
-        volume = "5",
-        pages = """4828-4833""",
-        year = "2003",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:2",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Ab initio""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00000089
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000089/rk00000001.xml
-Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
-Pressure dependence: Rate constant is high pressure limit
-
-The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
-
-Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
-kisom(primary) = 6.2E5 s^-1
-kisom(secondary) = 9.3E8 s^-1
-kisom(tertiary) = 4.5E8 s^-1
-
-The authors estimate uncertainties in calculated rates to be a factor of 5
-
-It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
-In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
-with the tunneling corrections included). DOI: 10.1039/b307708j
-""",
-    history = [
-        ("Tue Jul 24 18:37:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:2"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
-)
-
-entry(
-    index = 30,
-    label = "2003MER/RAY4828-4833:12",
-    reactant1 = 
-"""
-1  *2 C 0 {3,S} {5,S} {6,S} {10,S}
-2  *4 C 0 {4,S} {7,S} {8,S} {9,S}
-3  *5 C 0 {1,S} {4,S}
-4     C 0 {2,S} {3,S}
-5     C 0 {1,S}
-6     C 0 {1,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
-9  *1 O 1 {2,S}
-10 *3 H 0 {1,S}
-""",
-    product1 = 
-"""
-1  *5 C 0 {2,S} {4,S} {5,S} {9,S}
-2     C 0 {1,S} {3,S}
-3  *4 C 0 {2,S} {8,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {8,S}
-7     C 0 {8,S}
-8  *1 C 1 {3,S} {6,S} {7,S}
-9  *2 O 0 {1,S} {10,S}
-10 *3 H 0 {9,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (8.6e+11,"s^-1","*|/",5),
-        n = 0,
-        Ea = (16.318,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (298,"K"),
-    ),
-    reference = Article(
-        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
-        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
-        journal = "Phys. Chem. Chem. Phys.",
-        volume = "5",
-        pages = """4828-4833""",
-        year = "2003",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:12",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Ab initio""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00000090
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000090/rk00000001.xml
-Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
-Pressure dependence: Rate constant is high pressure limit
-
-The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
-
-Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
-kisom(primary) = 6.2E5 s^-1
-kisom(secondary) = 9.3E8 s^-1
-kisom(tertiary) = 4.5E8 s^-1
-
-The authors estimate uncertainties in calculated rates to be a factor of 5
-
-It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
-In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
-with the tunneling corrections included). DOI: 10.1039/b307708j
-""",
-    history = [
-        ("Tue Jul 24 18:40:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:12"""),
-        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
-    ],
-)
-
-entry(
-    index = 31,
+    index = 46,
     label = "2003MER/RAY4828-4833:7",
     reactant1 = 
 """
@@ -1876,8 +2658,6 @@ entry(
         n = 0,
         Ea = (30.962,"kJ/mol"),
         T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
@@ -1920,7 +2700,7 @@ with the tunneling corrections included). DOI: 10.1039/b307708j
 )
 
 entry(
-    index = 32,
+    index = 47,
     label = "2003MER/RAY4828-4833:9",
     reactant1 = 
 """
@@ -1950,8 +2730,6 @@ entry(
         n = 0,
         Ea = (20.92,"kJ/mol"),
         T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
@@ -1994,7 +2772,7 @@ with the tunneling corrections included). DOI: 10.1039/b307708j
 )
 
 entry(
-    index = 33,
+    index = 48,
     label = "2003MER/RAY4828-4833:6",
     reactant1 = 
 """
@@ -2024,8 +2802,6 @@ entry(
         n = 0,
         Ea = (37.656,"kJ/mol"),
         T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
@@ -2068,7 +2844,7 @@ with the tunneling corrections included). DOI: 10.1039/b307708j
 )
 
 entry(
-    index = 34,
+    index = 49,
     label = "2003MER/RAY4828-4833:5",
     reactant1 = 
 """
@@ -2098,8 +2874,6 @@ entry(
         n = 0,
         Ea = (40.166,"kJ/mol"),
         T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
@@ -2142,7 +2916,155 @@ with the tunneling corrections included). DOI: 10.1039/b307708j
 )
 
 entry(
-    index = 35,
+    index = 50,
+    label = "2003MER/RAY4828-4833:10",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {5,S} {6,S} {8,S}
+2 *5 C 0 {1,S} {3,S}
+3    C 0 {2,S} {4,S}
+4 *4 C 0 {3,S} {7,S} {9,S}
+5    C 0 {1,S}
+6    C 0 {1,S}
+7    C 0 {4,S}
+8 *3 H 0 {1,S}
+9 *1 O 1 {4,S}
+""",
+    product1 = 
+"""
+1 *5 C 0 {2,S} {4,S} {8,S}
+2    C 0 {1,S} {3,S}
+3 *4 C 0 {2,S} {7,S}
+4    C 0 {1,S}
+5    C 0 {7,S}
+6    C 0 {7,S}
+7 *1 C 1 {3,S} {5,S} {6,S}
+8 *2 O 0 {1,S} {9,S}
+9 *3 H 0 {8,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.9e+11,"s^-1","*|/",5),
+        n = 0,
+        Ea = (15.481,"kJ/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
+        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
+        journal = "Phys. Chem. Chem. Phys.",
+        volume = "5",
+        pages = """4828-4833""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:10",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00000033
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000033/rk00000001.xml
+Uncertainty: 5.0
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
+
+Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
+kisom(primary) = 6.2E5 s^-1
+kisom(secondary) = 9.3E8 s^-1
+kisom(tertiary) = 4.5E8 s^-1
+
+The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
+""",
+    history = [
+        ("Tue Jul 24 18:13:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:10"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
+    ],
+)
+
+entry(
+    index = 51,
+    label = "2003MER/RAY4828-4833:11",
+    reactant1 = 
+"""
+1 *4 C 0 {2,S} {5,S} {6,S} {8,S}
+2    C 0 {1,S} {3,S}
+3 *5 C 0 {2,S} {4,S}
+4 *2 C 0 {3,S} {7,S} {9,S}
+5    C 0 {1,S}
+6    C 0 {1,S}
+7    C 0 {4,S}
+8 *1 O 1 {1,S}
+9 *3 H 0 {4,S}
+""",
+    product1 = 
+"""
+1 *5 C 0 {2,S} {4,S} {5,S} {8,S}
+2    C 0 {1,S} {3,S}
+3 *4 C 0 {2,S} {7,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6    C 0 {7,S}
+7 *1 C 1 {3,S} {6,S}
+8 *2 O 0 {1,S} {9,S}
+9 *3 H 0 {8,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.7e+12,"s^-1","*|/",5),
+        n = 0,
+        Ea = (29.288,"kJ/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
+        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
+        journal = "Phys. Chem. Chem. Phys.",
+        volume = "5",
+        pages = """4828-4833""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:11",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00000034
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000034/rk00000001.xml
+Uncertainty: 5.0
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
+
+Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
+kisom(primary) = 6.2E5 s^-1
+kisom(secondary) = 9.3E8 s^-1
+kisom(tertiary) = 4.5E8 s^-1
+
+The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
+""",
+    history = [
+        ("Tue Jul 24 18:22:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:11"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
+    ],
+)
+
+entry(
+    index = 52,
     label = "2001HAN/WAL2043-2052:5",
     reactant1 = 
 """
@@ -2208,7 +3130,7 @@ Derived from end product yields in the overall reaction of cyclohexyl + O2.
 )
 
 entry(
-    index = 36,
+    index = 53,
     label = "2001HAN/WAL2043-2052:4",
     reactant1 = 
 """
@@ -2274,7 +3196,7 @@ Derived from end product yields in the overall reaction of cyclohexyl + O2.
 )
 
 entry(
-    index = 37,
+    index = 54,
     label = "2001HAN/WAL2043-2052:3",
     reactant1 = 
 """
@@ -2340,164 +3262,7 @@ Derived from end product yields in the overall reaction of cyclohexyl + O2.
 )
 
 entry(
-    index = 38,
-    label = "2003MAT/GRE95-119:4",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {4,S}
-2    C 0 {1,S}
-3 *1 C 1 {1,S}
-4 *3 H 0 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {3,S}
-2 *2 C 0 {3,S} {4,S}
-3 *1 C 1 {1,S} {2,S}
-4 *3 H 0 {2,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (3.56e+10,"s^-1"),
-        n = 0.88,
-        Ea = (156.063,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
-    ),
-    reference = Article(
-        authors = ["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."],
-        title = u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "35",
-        pages = """95-119""",
-        year = "2003",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:4",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Ab initio""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00010505
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010505/rk00000001.xml
-Category: Theory
-Data type: Ab initio
-Pressure dependence: Rate constant is high pressure limit
-
-Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
-""",
-    history = [
-        ("Tue Jul 24 19:06:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:4"""),
-    ],
-)
-
-entry(
-    index = 39,
-    label = "2003MAT/GRE95-119:6",
-    reactant1 = 
-"""
-1 *1 C 1 {2,S}
-2 *2 C 0 {1,S} {3,S} {4,S}
-3 *3 H 0 {2,S}
-4    C 0 {2,S} {5,D}
-5    C 0 {4,D}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,D}
-3 *3 H 0 {1,S}
-4    C 0 {2,D} {5,S}
-5    C 1 {4,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (3.56e+10,"s^-1"),
-        n = 0.88,
-        Ea = (123.846,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
-    ),
-    reference = Article(
-        authors = ["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."],
-        title = u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "35",
-        pages = """95-119""",
-        year = "2003",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:6",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Ab initio""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00010707
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010707/rk00000001.xml
-Category: Theory
-Data type: Ab initio
-Pressure dependence: Rate constant is high pressure limit
-
-Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
-""",
-    history = [
-        ("Tue Jul 24 19:11:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:6"""),
-    ],
-)
-
-entry(
-    index = 40,
-    label = "1981BAT/BUR467:1",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S}
-2 *1 O 1 {1,S}
-3 *3 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 *1 C 1 {2,S}
-2 *2 O 0 {1,S} {3,S}
-3 *3 H 0 {2,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (1e+13,"s^-1"),
-        n = 0,
-        Ea = (108.92,"kJ/mol","+|-",9.811),
-        T0 = (1,"K"),
-        Tmin = (393,"K"),
-        Tmax = (473,"K"),
-        Pmin = (66700,"Pa"),
-        Pmax = (66700,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Batt, L.", "Burrows, J.P.", "Robinson, G.N."],
-        title = u'On the Isomerisation of the Methoxy Radical: Relevance to Atmospheric Chemistry and Combustion',
-        journal = "Chem. Phys. Lett.",
-        volume = "78",
-        pages = """467""",
-        year = "1981",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981BAT/BUR467:1",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00010565
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010565/rk00000001.xml
-Rate constant is an upper limit.
-Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
-""",
-    history = [
-        ("Tue Jul 24 19:26:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BAT/BUR467:1"""),
-    ],
-)
-
-entry(
-    index = 41,
+    index = 55,
     label = "1987DOB/BER895:2",
     reactant1 = 
 """
@@ -2562,730 +3327,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 42,
-    label = "1975COL/NAE223:3",
-    reactant1 = 
-"""
-1 *1 C 1 {2,S}
-2 *2 C 0 {1,S} {3,D} {4,S}
-3    O 0 {2,D}
-4 *3 H 0 {2,S}
-""",
-    product1 = 
-"""
-1 *2 C 0 {2,S} {3,S}
-2 *1 C 1 {1,S} {4,D}
-3 *3 H 0 {1,S}
-4    O 0 {2,D}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+13,"s^-1"),
-        n = 0,
-        Ea = (197.053,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (800,"K"),
-        Tmax = (1220,"K"),
-        Pmin = (101000,"Pa"),
-        Pmax = (101000,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Colket, M.B., III", "Naegeli, D.W.", "Glassman, I."],
-        title = u'High-Temperature Pyrolysis of Acetaldehyde',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "7",
-        pages = """223""",
-        year = "1975",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1975COL/NAE223:3",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00012711
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012711/rk00000001.xml
-Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
-""",
-    history = [
-        ("Wed Jul 25 12:54:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975COL/NAE223:3"""),
-    ],
-)
-
-entry(
-    index = 43,
-    label = "2003MAT/GRE95-119:5",
-    reactant1 = 
-"""
-1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4 *1 C 1 {1,S}
-5 *3 H 0 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {4,S}
-2    C 0 {4,S}
-3 *2 C 0 {4,S} {5,S}
-4 *1 C 1 {1,S} {2,S} {3,S}
-5 *3 H 0 {3,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (3.56e+10,"s^-1"),
-        n = 0.88,
-        Ea = (144.766,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
-    ),
-    reference = Article(
-        authors = ["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."],
-        title = u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "35",
-        pages = """95-119""",
-        year = "2003",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:5",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Ab initio""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00012770
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012770/rk00000001.xml
-Category: Theory
-Data type: Ab initio
-Pressure dependence: Rate constant is high pressure limit
-
-Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
-""",
-    history = [
-        ("Wed Jul 25 12:56:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:5"""),
-    ],
-)
-
-entry(
-    index = 44,
-    label = "1986OND/ZIE1127:2",
-    reactant1 = 
-"""
-1 *2 C 0 {3,S} {4,S}
-2    C 0 {3,D}
-3 *1 C 1 {1,S} {2,D}
-4 *3 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 *2 C 0 {2,S} {3,D} {4,S}
-2 *1 C 1 {1,S}
-3    C 0 {1,D}
-4 *3 H 0 {1,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (2e+13,"s^-1"),
-        n = 0,
-        Ea = (197.053,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (302,"K"),
-    ),
-    reference = Article(
-        authors = ["Ondruschka, B.", "Ziegler, U.", "Zimmermann, G."],
-        title = u'Zu moglichen umlagerungen zwischen isomeren C3H5-radikalen',
-        journal = "Z. Phys. Chem. (Leipzig)",
-        volume = "267",
-        pages = """1127""",
-        year = "1986",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:2",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Other theoretical""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00015630
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015630/rk00000001.xml
-Category: Theory
-Data type: Other theoretical
-""",
-    history = [
-        ("Wed Jul 25 12:57:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:2"""),
-    ],
-)
-
-entry(
-    index = 45,
-    label = "1986OND/ZIE1127:1",
-    reactant1 = 
-"""
-1 *2 C 0 {2,D} {3,S} {4,S}
-2    C 0 {1,D}
-3 *1 C 1 {1,S}
-4 *3 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 *2 C 0 {3,S} {4,S}
-2    C 0 {3,D}
-3 *1 C 1 {1,S} {2,D}
-4 *3 H 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (7.94e+12,"s^-1"),
-        n = 0,
-        Ea = (147.166,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (302,"K"),
-    ),
-    reference = Article(
-        authors = ["Ondruschka, B.", "Ziegler, U.", "Zimmermann, G."],
-        title = u'Zu moglichen umlagerungen zwischen isomeren C3H5-radikalen',
-        journal = "Z. Phys. Chem. (Leipzig)",
-        volume = "267",
-        pages = """1127""",
-        year = "1986",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:1",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Other theoretical""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00015630
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015630/rk00000002.xml
-Category: Theory
-Data type: Other theoretical
-""",
-    history = [
-        ("Wed Jul 25 12:58:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:1"""),
-    ],
-)
-
-entry(
-    index = 46,
-    label = "1995HAN/WAL1431-1438:10",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *5 C 0 {1,S} {4,S}
-3 *4 C 0 {1,S} {5,S}
-4 *2 C 0 {2,S} {6,D} {7,S}
-5 *1 C 1 {3,S}
-6    C 0 {4,D}
-7 *3 H 0 {4,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *5 C 0 {1,S} {4,S}
-3 *4 C 0 {1,S} {6,S}
-4 *2 C 0 {2,S} {7,S}
-5    C 0 {6,D}
-6 *1 C 1 {3,S} {5,D}
-7 *3 H 0 {4,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1e+11,"s^-1"),
-        n = 0,
-        Ea = (84.808,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (600,"K"),
-        Tmax = (1300,"K"),
-        Pmin = (23300,"Pa"),
-        Pmax = (66700,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Handford-Styring, S.M.", "Walker, R.W."],
-        title = u'Addition of cyclopentane to slowly reacting mixtures of H2 + O2 between 673 and 783 K: reactions of H and OH with cyclopentane and of cyclopentyl radicals',
-        journal = "J. Chem. Soc. Faraday Trans.",
-        volume = "91",
-        pages = """1431-1438""",
-        year = "1995",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:10",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00015688
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015688/rk00000001.xml
-Bath gas: O2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
-""",
-    history = [
-        ("Wed Jul 25 12:59:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:10"""),
-    ],
-)
-
-entry(
-    index = 47,
-    label = "1995HAN/WAL1431-1438:9",
-    reactant1 = 
-"""
-1 *5 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S} {7,S}
-3 *4 C 0 {1,S} {5,S}
-4    C 0 {2,S} {6,D}
-5 *1 C 1 {3,S}
-6    C 0 {4,D}
-7 *3 H 0 {2,S}
-""",
-    product1 = 
-"""
-1 *5 C 0 {2,S} {3,S}
-2 *4 C 0 {1,S} {4,S}
-3 *2 C 0 {1,S} {7,S}
-4 *1 C 1 {2,S} {5,S}
-5    C 0 {4,S} {6,D}
-6    C 0 {5,D}
-7 *3 H 0 {3,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1e+12,"s^-1"),
-        n = 0,
-        Ea = (124.717,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (600,"K"),
-        Tmax = (1300,"K"),
-        Pmin = (23300,"Pa"),
-        Pmax = (66700,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Handford-Styring, S.M.", "Walker, R.W."],
-        title = u'Addition of cyclopentane to slowly reacting mixtures of H2 + O2 between 673 and 783 K: reactions of H and OH with cyclopentane and of cyclopentyl radicals',
-        journal = "J. Chem. Soc. Faraday Trans.",
-        volume = "91",
-        pages = """1431-1438""",
-        year = "1995",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:9",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00015689
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015689/rk00000001.xml
-Bath gas: O2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
-""",
-    history = [
-        ("Wed Jul 25 13:06:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:9"""),
-    ],
-)
-
-entry(
-    index = 48,
-    label = "2003MAT/GRE95-119:13",
-    reactant1 = 
-"""
-1 *5 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S} {7,S}
-3 *4 C 0 {1,S} {5,S}
-4    C 0 {2,S} {6,D}
-5 *1 C 1 {3,S}
-6    C 0 {4,D}
-7 *3 H 0 {2,S}
-""",
-    product1 = 
-"""
-1 *5 C 0 {2,S} {3,S}
-2 *4 C 0 {1,S} {4,S}
-3 *2 C 0 {1,S} {7,S}
-4 *1 C 1 {2,S} {5,S}
-5    C 0 {4,S} {6,D}
-6    C 0 {5,D}
-7 *3 H 0 {3,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (3.67e+12,"s^-1"),
-        n = -0.6,
-        Ea = (64.015,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
-    ),
-    reference = Article(
-        authors = ["Matheu, D.M.", "Green, W.H.", "Grenda, J.M."],
-        title = u'Capturing pressure-dependence in automated mechanism generation: Reactions through cycloalkyl intermediates',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "35",
-        pages = """95-119""",
-        year = "2003",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:13",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Ab initio""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00015689
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015689/rk00000002.xml
-Category: Theory
-Data type: Ab initio
-Pressure dependence: Rate constant is high pressure limit
-
-Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
-
-1,4 Hydrogen shift
-""",
-    history = [
-        ("Wed Jul 25 13:13:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:13"""),
-    ],
-)
-
-entry(
-    index = 49,
-    label = "1977BAL/BAR2483:6",
-    reactant1 = 
-"""
-1 *5 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S} {6,S}
-4 *4 C 0 {2,S} {5,S}
-5 *1 O 1 {4,S}
-6 *3 H 0 {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *4 C 0 {1,S} {4,S}
-3 *5 C 0 {1,S} {5,S}
-4 *1 C 1 {2,S}
-5 *2 O 0 {3,S} {6,S}
-6 *3 H 0 {5,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (2.51e+11,"s^-1"),
-        n = 0,
-        Ea = (32.26,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (450,"K"),
-    ),
-    reference = Article(
-        authors = ["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."],
-        title = u'Photochemical smog. Rate parameter estimates and computer simulations',
-        journal = "J. Phys. Chem.",
-        volume = "81",
-        pages = """2483""",
-        year = "1977",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:6",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00015924
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000001.xml
-Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
-""",
-    history = [
-        ("Wed Jul 25 13:14:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:6"""),
-    ],
-)
-
-entry(
-    index = 50,
-    label = "1978BAL/GOL108:3",
-    reactant1 = 
-"""
-1 *5 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S} {6,S}
-4 *4 C 0 {2,S} {5,S}
-5 *1 O 1 {4,S}
-6 *3 H 0 {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *4 C 0 {1,S} {4,S}
-3 *5 C 0 {1,S} {5,S}
-4 *1 C 1 {2,S}
-5 *2 O 0 {3,S} {6,S}
-6 *3 H 0 {5,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (2.51e+11,"s^-1"),
-        n = 0,
-        Ea = (32.26,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (590,"K"),
-        Tmax = (750,"K"),
-    ),
-    reference = Article(
-        authors = ["Baldwin, A.C.", "Golden, D.M."],
-        title = u'Alkoxy Radical Reactions: The Isomerization of n-Butoxy Radicals Generated from the Pyrolysis of n-Butyl Nitrite',
-        journal = "Chem. Phys. Lett.",
-        volume = "60",
-        pages = """108""",
-        year = "1978",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1978BAL/GOL108:3",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00015924
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000002.xml
-Bath gas: n-C4H9ONO
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
-""",
-    history = [
-        ("Wed Jul 25 13:16:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978BAL/GOL108:3"""),
-    ],
-)
-
-entry(
-    index = 51,
-    label = "1987MOR/HEI2641:3",
-    reactant1 = 
-"""
-1 *5 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S} {6,S}
-4 *4 C 0 {2,S} {5,S}
-5 *1 O 1 {4,S}
-6 *3 H 0 {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *4 C 0 {1,S} {4,S}
-3 *5 C 0 {1,S} {5,S}
-4 *1 C 1 {2,S}
-5 *2 O 0 {3,S} {6,S}
-6 *3 H 0 {5,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (1.78e+11,"s^-1","*|/",5),
-        n = 0,
-        Ea = (33.341,"kJ/mol","+|-",4.34),
-        T0 = (1,"K"),
-        Tmin = (265,"K"),
-        Tmax = (393,"K"),
-        Pmin = (53300,"Pa"),
-        Pmax = (53300,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Morabito, P.", "Heicklen, J."],
-        title = u'The reactions of alkoxyl radicals with O2. IV. n-C4H9O radicals',
-        journal = "Bull. Chem. Soc. Jpn.",
-        volume = "60",
-        pages = """2641""",
-        year = "1987",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987MOR/HEI2641:3",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00015924
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000003.xml
-Uncertainty: 5.0
-Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
-Excitation technique: Direct photolysis
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Wed Jul 25 13:17:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987MOR/HEI2641:3"""),
-    ],
-)
-
-entry(
-    index = 52,
-    label = "2003MER/RAY4828-4833:1",
-    reactant1 = 
-"""
-1 *5 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S} {6,S}
-4 *4 C 0 {2,S} {5,S}
-5 *1 O 1 {4,S}
-6 *3 H 0 {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *4 C 0 {1,S} {4,S}
-3 *5 C 0 {1,S} {5,S}
-4 *1 C 1 {2,S}
-5 *2 O 0 {3,S} {6,S}
-6 *3 H 0 {5,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (2.5e+12,"s^-1","*|/",5),
-        n = 0,
-        Ea = (40.585,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (298,"K"),
-    ),
-    reference = Article(
-        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
-        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
-        journal = "Phys. Chem. Chem. Phys.",
-        volume = "5",
-        pages = """4828-4833""",
-        year = "2003",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:1",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Ab initio""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00015924
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000005.xml
-Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
-Pressure dependence: Rate constant is high pressure limit
-
-The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
-
-Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
-kisom(primary) = 6.2E5 s^-1
-kisom(secondary) = 9.3E8 s^-1
-kisom(tertiary) = 4.5E8 s^-1
-
-The authors estimate uncertainties in calculated rates to be a factor of 5
-""",
-    history = [
-        ("Wed Jul 25 13:20:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:1"""),
-    ],
-)
-
-entry(
-    index = 53,
-    label = "2003VER/PEE5159-5170:2",
-    reactant1 = 
-"""
-1 *5 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S} {6,S}
-4 *4 C 0 {2,S} {5,S}
-5 *1 O 1 {4,S}
-6 *3 H 0 {3,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *4 C 0 {1,S} {4,S}
-3 *5 C 0 {1,S} {5,S}
-4 *1 C 1 {2,S}
-5 *2 O 0 {3,S} {6,S}
-6 *3 H 0 {5,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (1.43e+11,"s^-1"),
-        n = 0,
-        Ea = (34.183,"kJ/mol"),
-        T0 = (1,"K"),
-        Pmin = (101000,"Pa"),
-        Pmax = (101000,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Vereecken, L.", "Peeters, J."],
-        title = u'The 1,5-H-shift in 1-butoxy: A case study in the rigorous implementation of transition state theory for a multirotamer system',
-        journal = "J. Chem. Phys.",
-        volume = "119",
-        pages = """5159-5170""",
-        year = "2003",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE5159-5170:2",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Transition state theory""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00015924
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000010.xml
-Category: Theory
-Data type: Transition state theory
-Pressure dependence: Rate constant is pressure dependent
-
-The authors have studied the 1-butoxy H-shift reaction, exploring several approaches for deriving rate constants for a reaction system with multiple reactant rotamers and multiple transition state conformers. It is shown that the various treatments are fully consistent, even if the TST expressions themselves appear different. Rate constants are derived at 298 K and 1 atm pressure and compared with the literature.
-""",
-    history = [
-        ("Wed Jul 25 13:24:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003VER/PEE5159-5170:2"""),
-    ],
-)
-
-entry(
-    index = 54,
-    label = "1977BAL/BAR2483:9",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,S}
-4 *2 C 0 {2,S} {6,S} {7,S}
-5    O 0 {3,S}
-6 *1 O 1 {4,S}
-7 *3 H 0 {4,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,S}
-4 *1 C 1 {2,S} {6,S}
-5    O 0 {3,S}
-6 *2 O 0 {4,S} {7,S}
-7 *3 H 0 {6,S}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (1.58e+11,"s^-1"),
-        n = 0,
-        Ea = (27.188,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (450,"K"),
-    ),
-    reference = Article(
-        authors = ["Baldwin, A.C.", "Barker, J.R.", "Golden, D.M.", "Hendry, D.G."],
-        title = u'Photochemical smog. Rate parameter estimates and computer simulations',
-        journal = "J. Phys. Chem.",
-        volume = "81",
-        pages = """2483""",
-        year = "1977",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:9",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00016683
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016683/rk00000001.xml
-Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
-""",
-    history = [
-        ("Wed Jul 25 13:26:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:9"""),
-    ],
-)
-
-entry(
-    index = 55,
+    index = 56,
     label = "1987DOB/BER895:3",
     reactant1 = 
 """
@@ -3350,134 +3392,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 56,
-    label = "2003MER/RAY4828-4833:3",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *5 C 0 {1,S} {4,S}
-3 *4 C 0 {1,S} {5,S} {6,S}
-4 *2 C 0 {2,S} {7,S}
-5    C 0 {3,S}
-6 *1 O 1 {3,S}
-7 *3 H 0 {4,S}
-""",
-    product1 = 
-"""
-1 *5 C 0 {2,S} {4,S} {6,S}
-2    C 0 {1,S} {3,S}
-3 *4 C 0 {2,S} {5,S}
-4    C 0 {1,S}
-5 *1 C 1 {3,S}
-6 *2 O 0 {1,S} {7,S}
-7 *3 H 0 {6,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (2.4e+12,"s^-1","*|/",5),
-        n = 0,
-        Ea = (38.911,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (298,"K"),
-    ),
-    reference = Article(
-        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
-        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
-        journal = "Phys. Chem. Chem. Phys.",
-        volume = "5",
-        pages = """4828-4833""",
-        year = "2003",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:3",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Ab initio""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00017157
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017157/rk00000001.xml
-Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
-Pressure dependence: Rate constant is high pressure limit
-
-The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
-
-Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
-kisom(primary) = 6.2E5 s^-1
-kisom(secondary) = 9.3E8 s^-1
-kisom(tertiary) = 4.5E8 s^-1
-
-The authors estimate uncertainties in calculated rates to be a factor of 5
-""",
-    history = [
-        ("Wed Jul 25 13:30:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:3"""),
-    ],
-)
-
-entry(
     index = 57,
-    label = "1986DOB/BER329:3",
-    reactant1 = 
-"""
-1    C 0 {2,S} {3,S}
-2 *5 C 0 {1,S} {4,S}
-3 *4 C 0 {1,S} {5,S} {6,S}
-4 *2 C 0 {2,S} {7,S}
-5    C 0 {3,S}
-6 *1 O 1 {3,S}
-7 *3 H 0 {4,S}
-""",
-    product1 = 
-"""
-1 *5 C 0 {2,S} {4,S} {6,S}
-2    C 0 {1,S} {3,S}
-3 *4 C 0 {2,S} {5,S}
-4    C 0 {1,S}
-5 *1 C 1 {3,S}
-6 *2 O 0 {1,S} {7,S}
-7 *3 H 0 {6,S}
-""",
-    degeneracy = 3,
-    kinetics = Arrhenius(
-        A = (1.26e+11,"s^-1","*|/",5),
-        n = 0,
-        Ea = (39.743,"kJ/mol","+|-",4.773),
-        T0 = (1,"K"),
-        Tmin = (279,"K"),
-        Tmax = (385,"K"),
-        Pmin = (15100,"Pa"),
-        Pmax = (15100,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Dobe, S.", "Berces, T.", "Marta, F."],
-        title = u'Gas phase decomposition and isomerization reactions of 2-pentoxy radicals',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "18",
-        pages = """329""",
-        year = "1986",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986DOB/BER329:3",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00017157
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017157/rk00000005.xml
-Uncertainty: 5.0
-Bath gas: CO2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
-Excitation technique: Direct photolysis
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Wed Jul 25 13:32:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986DOB/BER329:3"""),
-    ],
-)
-
-entry(
-    index = 58,
     label = "2003TOK/LIN11397-11408:7",
     reactant1 = 
 """
@@ -3540,7 +3455,7 @@ Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Us
 )
 
 entry(
-    index = 59,
+    index = 58,
     label = "2003TOK/LIN11397-11408:6",
     reactant1 = 
 """
@@ -3599,6 +3514,82 @@ Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Us
 """,
     history = [
         ("Wed Jul 25 13:36:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003TOK/LIN11397-11408:6"""),
+    ],
+)
+
+entry(
+    index = 59,
+    label = "2003MER/RAY4828-4833:12",
+    reactant1 = 
+"""
+1  *2 C 0 {3,S} {5,S} {6,S} {10,S}
+2  *4 C 0 {4,S} {7,S} {8,S} {9,S}
+3  *5 C 0 {1,S} {4,S}
+4     C 0 {2,S} {3,S}
+5     C 0 {1,S}
+6     C 0 {1,S}
+7     C 0 {2,S}
+8     C 0 {2,S}
+9  *1 O 1 {2,S}
+10 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1  *5 C 0 {2,S} {4,S} {5,S} {9,S}
+2     C 0 {1,S} {3,S}
+3  *4 C 0 {2,S} {8,S}
+4     C 0 {1,S}
+5     C 0 {1,S}
+6     C 0 {8,S}
+7     C 0 {8,S}
+8  *1 C 1 {3,S} {6,S} {7,S}
+9  *2 O 0 {1,S} {10,S}
+10 *3 H 0 {9,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (8.6e+11,"s^-1","*|/",5),
+        n = 0,
+        Ea = (16.318,"kJ/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
+        title = u'Isomerization reactions of alkoxy radicals: theoretical study and structure-activity relationships',
+        journal = "Phys. Chem. Chem. Phys.",
+        volume = "5",
+        pages = """4828-4833""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:12",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00000090
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000090/rk00000001.xml
+Uncertainty: 5.0
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+
+The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
+
+Generic rate parameters for alkoxy radical 1,5 H transfers from primary, secondary, and tertiary C-Hn groups are suggested for 298 K and 1 atm pressure:
+kisom(primary) = 6.2E5 s^-1
+kisom(secondary) = 9.3E8 s^-1
+kisom(tertiary) = 4.5E8 s^-1
+
+The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
+""",
+    history = [
+        ("Tue Jul 24 18:40:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:12"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
     ],
 )
 

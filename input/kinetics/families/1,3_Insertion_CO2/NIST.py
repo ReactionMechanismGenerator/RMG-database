@@ -1222,6 +1222,140 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 21,
+    label = "1967BIG/MAY557-559:2",
+    reactant1 = 
+"""
+1  *3 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S}
+3     C 0 {1,S}
+4     C 0 {5,S}
+5     C 0 {1,S} {4,S} {7,D}
+6  *1 C 0 {1,S} {8,S} {9,D}
+7     C 0 {5,D}
+8  *2 O 0 {6,S} {10,S}
+9     O 0 {6,D}
+10 *4 H 0 {8,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D} {3,D}
+2 *2 O 0 {1,D}
+3    O 0 {1,D}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,S} {3,S} {5,S} {7,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {5,S}
+5    C 0 {1,S} {4,S} {6,D}
+6    C 0 {5,D}
+7 *4 H 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.65e+10,"s^-1"),
+        n = 0,
+        Ea = (133.863,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (447,"K"),
+        Tmax = (500,"K"),
+    ),
+    reference = Article(
+        authors = ["Bigley, D.B.", "May, R.W."],
+        title = u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids',
+        journal = "J. Chem. Soc. B",
+        pages = """557-559""",
+        year = "1967",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012640
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000001.xml
+Bath gas: CH2=C(CH3)C(CH3)2COOH
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 14:32:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:2"""),
+    ],
+)
+
+entry(
+    index = 22,
+    label = "1982ALB/BIG15:1",
+    reactant1 = 
+"""
+1  *3 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S}
+3     C 0 {1,S}
+4     C 0 {5,S}
+5     C 0 {1,S} {4,S} {7,D}
+6  *1 C 0 {1,S} {8,S} {9,D}
+7     C 0 {5,D}
+8  *2 O 0 {6,S} {10,S}
+9     O 0 {6,D}
+10 *4 H 0 {8,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D} {3,D}
+2 *2 O 0 {1,D}
+3    O 0 {1,D}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,S} {3,S} {5,S} {7,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {5,S}
+5    C 0 {1,S} {4,S} {6,D}
+6    C 0 {5,D}
+7 *4 H 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.04e+11,"s^-1"),
+        n = 0,
+        Ea = (143.009,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (550,"K"),
+        Tmax = (600,"K"),
+        Pmin = (6666,"Pa"),
+        Pmax = (66700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Al-Borno, A.", "Bigley, D.B."],
+        title = u'Studies in Decarboxylation. Par t 15. The Effects of 3-Substitution on the Rate of Decarboxylation of \u03b2\u03b2\u03c0\u03b2-Unsaturated Acids',
+        journal = "J. Chem. Soc. Perkin Trans. 2",
+        pages = """15""",
+        year = "1982",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1982ALB/BIG15:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012640
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000002.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Tue Jul 24 14:39:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982ALB/BIG15:1"""),
+    ],
+)
+
+entry(
+    index = 23,
     label = "1992COL/AMO2125-2127:1",
     reactant1 = 
 """
@@ -1291,7 +1425,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 22,
+    index = 24,
     label = "1967BIG/MAY557-559:6",
     reactant1 = 
 """
@@ -1361,7 +1495,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 23,
+    index = 25,
     label = "1997CHU/MAR121-124:2",
     reactant1 = 
 """
@@ -1438,140 +1572,6 @@ Uncertainties are precision only and are at the 90% confidence level.
 """,
     history = [
         ("Fri Jul 20 17:40:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997CHU/MAR121-124:2"""),
-    ],
-)
-
-entry(
-    index = 24,
-    label = "1967BIG/MAY557-559:2",
-    reactant1 = 
-"""
-1  *3 C 0 {2,S} {3,S} {5,S} {6,S}
-2     C 0 {1,S}
-3     C 0 {1,S}
-4     C 0 {5,S}
-5     C 0 {1,S} {4,S} {7,D}
-6  *1 C 0 {1,S} {8,S} {9,D}
-7     C 0 {5,D}
-8  *2 O 0 {6,S} {10,S}
-9     O 0 {6,D}
-10 *4 H 0 {8,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,D} {3,D}
-2 *2 O 0 {1,D}
-3    O 0 {1,D}
-""",
-    product2 = 
-"""
-1 *3 C 0 {2,S} {3,S} {5,S} {7,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {5,S}
-5    C 0 {1,S} {4,S} {6,D}
-6    C 0 {5,D}
-7 *4 H 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.65e+10,"s^-1"),
-        n = 0,
-        Ea = (133.863,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (447,"K"),
-        Tmax = (500,"K"),
-    ),
-    reference = Article(
-        authors = ["Bigley, D.B.", "May, R.W."],
-        title = u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids',
-        journal = "J. Chem. Soc. B",
-        pages = """557-559""",
-        year = "1967",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:2",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00012640
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000001.xml
-Bath gas: CH2=C(CH3)C(CH3)2COOH
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: Gas chromatography
-""",
-    history = [
-        ("Tue Jul 24 14:32:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:2"""),
-    ],
-)
-
-entry(
-    index = 25,
-    label = "1982ALB/BIG15:1",
-    reactant1 = 
-"""
-1  *3 C 0 {2,S} {3,S} {5,S} {6,S}
-2     C 0 {1,S}
-3     C 0 {1,S}
-4     C 0 {5,S}
-5     C 0 {1,S} {4,S} {7,D}
-6  *1 C 0 {1,S} {8,S} {9,D}
-7     C 0 {5,D}
-8  *2 O 0 {6,S} {10,S}
-9     O 0 {6,D}
-10 *4 H 0 {8,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,D} {3,D}
-2 *2 O 0 {1,D}
-3    O 0 {1,D}
-""",
-    product2 = 
-"""
-1 *3 C 0 {2,S} {3,S} {5,S} {7,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {5,S}
-5    C 0 {1,S} {4,S} {6,D}
-6    C 0 {5,D}
-7 *4 H 0 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (1.04e+11,"s^-1"),
-        n = 0,
-        Ea = (143.009,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (550,"K"),
-        Tmax = (600,"K"),
-        Pmin = (6666,"Pa"),
-        Pmax = (66700,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Al-Borno, A.", "Bigley, D.B."],
-        title = u'Studies in Decarboxylation. Par t 15. The Effects of 3-Substitution on the Rate of Decarboxylation of \u03b2\u03b2\u03c0\u03b2-Unsaturated Acids',
-        journal = "J. Chem. Soc. Perkin Trans. 2",
-        pages = """15""",
-        year = "1982",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1982ALB/BIG15:1",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00012640
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000002.xml
-Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
-Excitation technique: Thermal
-Analytical technique: Pressure measurement
-""",
-    history = [
-        ("Tue Jul 24 14:39:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982ALB/BIG15:1"""),
     ],
 )
 
