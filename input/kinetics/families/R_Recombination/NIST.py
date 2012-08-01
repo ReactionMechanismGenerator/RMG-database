@@ -25108,3 +25108,56 @@ Analytical technique: Mass spectrometry
     ],
 )
 
+entry(
+    index = 434,
+    label = "1953ING/LOS368:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (55200,"m^3/(mol*s)"),
+        n = 0.5,
+        Ea = (-9.063,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (434,"K"),
+        Tmax = (1090,"K"),
+        Pmin = (640,"Pa"),
+        Pmax = (2466,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Ingold, K.U.", "Lossing, F.P."],
+        title = u'The rate of combination of methyl radicals',
+        journal = "J. Chem. Phys.",
+        volume = "21",
+        pages = """368""",
+        year = "1953",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1953ING/LOS368:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000068.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Wed Aug 01 10:14:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1953ING/LOS368:1"""),
+    ],
+)
+
