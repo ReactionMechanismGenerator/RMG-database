@@ -61,8 +61,6 @@ u"""
 PrIMe Reaction: r00016872
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016872/rk00000002.xml
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -122,8 +120,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00016872
-Category: Theory
-Data type: Ab initio
 
 Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
 
@@ -185,8 +181,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00016872
-Category: Theory
-Data type: Ab initio
 
 Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
 

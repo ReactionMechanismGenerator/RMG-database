@@ -57,8 +57,6 @@ u"""
 PrIMe Reaction: r00011720
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011720/rk00000001.xml
 Bath gas: He
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Mass spectrometry
 """,
@@ -113,8 +111,6 @@ entry(
 u"""
 PrIMe Reaction: r00011720
 Bath gas: He
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
 
 Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
@@ -179,8 +175,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011720
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is pressure dependent
 
 Potential energy diagrams for various product channels have been computed.Three different regimes of the reaction (low-temperature, transition, and high-temperature) have been discussed in terms of eigenvectors and eigenvalues of the transition matrix of the master equation.Low pressure rate constant; k(0) = 1.38E-2 T^(-0.651) exp(-22890/RT) cm^3 / molecule s with F(cent)=exp (-T/106).
@@ -239,8 +233,6 @@ u"""
 PrIMe Reaction: r00016504
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016504/rk00000001.xml
 Bath gas: He
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
 
 Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
@@ -307,8 +299,6 @@ u"""
 PrIMe Reaction: r00012692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012692/rk00000001.xml
 Bath gas: He
-Category: Theory
-Data type: Ab initio
 
 Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
 
@@ -374,8 +364,6 @@ entry(
 u"""
 PrIMe Reaction: r00011861
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 """,
     history = [
@@ -433,8 +421,6 @@ entry(
 u"""
 PrIMe Reaction: r00011861
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 """,
     history = [

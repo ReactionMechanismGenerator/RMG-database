@@ -59,8 +59,6 @@ u"""
 PrIMe Reaction: r00007002
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007002/rk00000001.xml
 Bath gas: H2C=C=O
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
@@ -125,8 +123,6 @@ entry(
 u"""
 PrIMe Reaction: r00009168
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009168/rk00000001.xml
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Fourier transform (FTIR)
 """,

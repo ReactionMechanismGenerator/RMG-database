@@ -49,8 +49,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010238
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -103,8 +101,6 @@ u"""
 PrIMe Reaction: r00010238
 Uncertainty: 2.0
 Bath gas: Ar
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:21:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:117"""),
@@ -155,8 +151,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: He
-Category: Review
-Data type: Experimental value and limited review
 """,
     history = [
         ("Thu Jul 12 21:21:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993FEN/NII871-880:1"""),
@@ -206,8 +200,6 @@ u"""
 PrIMe Reaction: r00010238
 Uncertainty: 2.0
 Bath gas: N2
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:21:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:258"""),
@@ -254,8 +246,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:21:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:195"""),
@@ -306,8 +296,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: N2
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:21:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990BOZ/DEA3313-3317:6"""),
@@ -358,8 +346,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: C2H6
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -413,8 +399,6 @@ u"""
 PrIMe Reaction: r00010238
 Uncertainty: 1.58
 Bath gas: C2H6
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -467,8 +451,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
@@ -521,8 +503,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -572,8 +552,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010238
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:21:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:40"""),
@@ -624,8 +602,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -678,8 +654,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: N2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -732,8 +706,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: C2H6
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
@@ -786,8 +758,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: C2H6
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -840,8 +810,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: n-C4H10
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -893,8 +861,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: C2H5CHO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -947,8 +913,6 @@ u"""
 PrIMe Reaction: r00010238
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010238/rk00000001.xml
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -998,8 +962,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010238
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -1050,8 +1012,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010238
-Category: Review
-Data type: Experimental value and limited review
 Pressure dependence: Rate constant is high pressure limit
 Experimental procedure: Shock tube
 Excitation technique: Thermal
@@ -1108,8 +1068,6 @@ u"""
 PrIMe Reaction: r00010238
 Uncertainty: 2.0
 Bath gas: Ar
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:21:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:23"""),
@@ -1160,8 +1118,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: He
-Category: Review
-Data type: Experimental value and limited review
 """,
     history = [
         ("Thu Jul 12 21:21:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987LIG/PIL3373-3379:1"""),
@@ -1211,8 +1167,6 @@ u"""
 PrIMe Reaction: r00010238
 Uncertainty: 3.0
 Bath gas: N2
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:21:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:57"""),
@@ -1259,8 +1213,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:21:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:28"""),
@@ -1309,8 +1261,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: He
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:21:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972KER/PARB:24"""),
@@ -1361,8 +1311,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: He
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
@@ -1415,8 +1363,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
@@ -1469,8 +1415,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: H2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Ultrasonics
 Analytical technique: Vis-UV absorption
 """,
@@ -1523,8 +1467,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: H2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Ultrasonics
 Analytical technique: Vis-UV absorption
 """,
@@ -1577,8 +1519,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: C2H6
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1631,8 +1571,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
@@ -1686,8 +1624,6 @@ u"""
 PrIMe Reaction: r00010238
 Uncertainty: 2.0
 Bath gas: H2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Electron beam
 Analytical technique: Gas chromatography
 """,
@@ -1740,8 +1676,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
@@ -1793,8 +1727,6 @@ entry(
 u"""
 PrIMe Reaction: r00010238
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Ultrasonics
 Analytical technique: Gas chromatography
 """,
@@ -1844,8 +1776,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010564
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -1896,8 +1826,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010564
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:24:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:2"""),
@@ -1944,8 +1872,6 @@ entry(
 u"""
 PrIMe Reaction: r00010564
 Uncertainty: 5.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:24:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:128"""),
@@ -1994,8 +1920,6 @@ entry(
 u"""
 PrIMe Reaction: r00010564
 Uncertainty: 1.3
-Category: Experiment
-Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is high pressure limit
 Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Flash photolysis (laser or conventional)
@@ -2053,8 +1977,6 @@ entry(
 u"""
 PrIMe Reaction: r00010564
 Bath gas: Ar
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Chemiluminescence
 """,
@@ -2104,8 +2026,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010564
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:24:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986GRE/OGR1929:1"""),
@@ -2158,8 +2078,6 @@ PrIMe Reaction: r00010564
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010564/rk00000001.xml
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2209,8 +2127,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010564
-Category: Theory
-Data type: Ab initio
 
 The authors presented the Arrhenius expressions for rate constant using erroneous units for activation energy [kcal/mol]
 """,
@@ -2260,8 +2176,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010564
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 This high pressure limiting rate constant derived from theory is in excellent agreement with the present experimental data (678 - 808 K) and literature data (297 - 605 K ) on the isotope exchange reaction
@@ -2314,8 +2228,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010564
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -2366,8 +2278,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010564
-Category: Theory
-Data type: Ab initio
 
 The authors presented the Arrhenius expressions for rate constant using erroneous units [cm3molecule-1s-1)] and activation energy [kcal/mol]
 """,
@@ -2417,8 +2327,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011282
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:28:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986GRE/OGR1929:3"""),
@@ -2470,8 +2378,6 @@ u"""
 PrIMe Reaction: r00011282
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011282/rk00000001.xml
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Vis-UV absorption
 """,
@@ -2524,8 +2430,6 @@ entry(
 u"""
 PrIMe Reaction: r00011282
 Bath gas: Ar
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:28:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981TSU/KAT985:7"""),
@@ -2576,8 +2480,6 @@ entry(
 u"""
 PrIMe Reaction: r00011282
 Bath gas: Ar
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:28:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981TSU/KAT985:2"""),
@@ -2626,8 +2528,6 @@ entry(
 u"""
 PrIMe Reaction: r00011402
 Uncertainty: 3.1600001
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:29:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:156"""),
@@ -2675,8 +2575,6 @@ u"""
 PrIMe Reaction: r00011402
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011402/rk00000004.xml
 Uncertainty: 5.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:29:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:154"""),
@@ -2727,8 +2625,6 @@ entry(
 u"""
 PrIMe Reaction: r00011402
 Bath gas: He
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Mass spectrometry
 """,
@@ -2778,8 +2674,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011402
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:29:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986NAR/NIE281:6"""),
@@ -2827,8 +2721,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011402
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:29:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:36"""),
@@ -2879,8 +2771,6 @@ entry(
 u"""
 PrIMe Reaction: r00011402
 Bath gas: Ar
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:29:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988RAO/SKI6313:2"""),
@@ -2930,8 +2820,6 @@ entry(
 u"""
 PrIMe Reaction: r00011402
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:29:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988MAN/LOU1547-1555:14"""),
@@ -2981,8 +2869,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011402
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:29:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WEI/BEN307-333:14"""),
@@ -3032,8 +2918,6 @@ u"""
 PrIMe Reaction: r00011402
 Uncertainty: 2.0
 Bath gas: He
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:29:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:59"""),
@@ -3081,8 +2965,6 @@ u"""
 PrIMe Reaction: r00011402
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011402/rk00000004.xml
 Uncertainty: 5.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:29:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:36"""),
@@ -3133,8 +3015,6 @@ entry(
 u"""
 PrIMe Reaction: r00011402
 Bath gas: He
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Mass spectrometry
 """,
@@ -3187,8 +3067,6 @@ entry(
 u"""
 PrIMe Reaction: r00011402
 Bath gas: H2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Ultrasonics
 Analytical technique: Vis-UV absorption
 """,
@@ -3241,8 +3119,6 @@ entry(
 u"""
 PrIMe Reaction: r00011402
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Sensitized photolysis
 Analytical technique: Vis-UV absorption
 """,
@@ -3295,8 +3171,6 @@ entry(
 u"""
 PrIMe Reaction: r00011402
 Bath gas: He
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
@@ -3348,8 +3222,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011402
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 """,
@@ -3398,8 +3270,6 @@ entry(
 u"""
 PrIMe Reaction: r00010564
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010564/rk00000022.xml
-Category: Theory
-Data type: Transition state theory
 
 Rate expression does not contain tunneling contributions.
 """,
@@ -3449,8 +3319,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002218
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -3502,8 +3370,6 @@ entry(
 u"""
 PrIMe Reaction: r00002218
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:17:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:43"""),
@@ -3552,8 +3418,6 @@ entry(
 u"""
 PrIMe Reaction: r00002218
 Uncertainty: 1.3
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:17:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:50"""),
@@ -3605,8 +3469,6 @@ u"""
 PrIMe Reaction: r00002218
 Uncertainty: 3.1600001
 Bath gas: iso-C4H10
-Category: Review
-Data type: Experimental value and limited review
 """,
     history = [
         ("Thu Jul 12 21:17:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977HOL/KER185:3"""),
@@ -3654,8 +3516,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002218
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:17:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972KER/PARB:7"""),
@@ -3706,8 +3566,6 @@ entry(
 u"""
 PrIMe Reaction: r00002218
 Bath gas: C3H8
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3759,8 +3617,6 @@ u"""
 PrIMe Reaction: r00002218
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002218/rk00000001.xml
 Bath gas: (tert-C4H9O)2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3810,8 +3666,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002218
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -3863,8 +3717,6 @@ entry(
 u"""
 PrIMe Reaction: r00002218
 Bath gas: N2
-Category: Review
-Data type: Experimental value and limited review
 """,
     history = [
         ("Thu Jul 12 21:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BEN/KNY629-635:1"""),
@@ -3914,8 +3766,6 @@ u"""
 PrIMe Reaction: r00002218
 Uncertainty: 1.2
 Bath gas: Products
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:93"""),
@@ -3962,8 +3812,6 @@ entry(
 u"""
 PrIMe Reaction: r00002218
 Uncertainty: 3.1600001
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:124"""),
@@ -4011,8 +3859,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002218
-Category: Experiment
-Data type: Derived from detailed balance/reverse rate
 """,
     history = [
         ("Thu Jul 12 21:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985TSA2872-2880:3"""),
@@ -4060,8 +3906,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002218
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:29"""),
@@ -4112,8 +3956,6 @@ entry(
 u"""
 PrIMe Reaction: r00002218
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -4166,8 +4008,6 @@ entry(
 u"""
 PrIMe Reaction: r00002218
 Bath gas: C3H8
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -4220,8 +4060,6 @@ entry(
 u"""
 PrIMe Reaction: r00002218
 Bath gas: C3H8
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
@@ -4274,8 +4112,6 @@ entry(
 u"""
 PrIMe Reaction: r00002218
 Bath gas: C3H8
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -4328,8 +4164,6 @@ entry(
 u"""
 PrIMe Reaction: r00002218
 Bath gas: (n-C3H7)-N=N-(n-C3H7)
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -4382,8 +4216,6 @@ entry(
 u"""
 PrIMe Reaction: r00002218
 Bath gas: n-C3H7CHO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -4436,8 +4268,6 @@ entry(
 u"""
 PrIMe Reaction: r00002218
 Bath gas: (CH3N)2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -4487,8 +4317,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002218
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM theory. A simple parameterization of rate constants suitable for use in engineering applications is presented.
@@ -4539,8 +4367,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002218
-Category: Theory
-Data type: Ab initio
 """,
     history = [
         ("Thu Jul 12 21:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962BLA/HIN36:15"""),
@@ -4588,8 +4414,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002218
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961JAC/MCN4891:3"""),
@@ -4638,8 +4462,6 @@ entry(
 u"""
 PrIMe Reaction: r00006986
 Uncertainty: 2.51
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:19:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:86"""),
@@ -4693,8 +4515,6 @@ u"""
 PrIMe Reaction: r00006986
 Uncertainty: 2.5
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -4750,8 +4570,6 @@ u"""
 PrIMe Reaction: r00006986
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006986/rk00000001.xml
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Electron beam
 Analytical technique: Gas chromatography
 """,
@@ -4804,8 +4622,6 @@ entry(
 u"""
 PrIMe Reaction: r00006986
 Uncertainty: 5.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:19:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:77"""),
@@ -4858,8 +4674,6 @@ entry(
 u"""
 PrIMe Reaction: r00006986
 Uncertainty: 0.30000001
-Category: Experiment
-Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is pressure dependent
 
 Master equation / RRKM modeling was performed. Model parameters were adjusted to reproduce experimental k(T) dependences in the 0.25 - 4.5 Bar pressure range and 1125 - 1570 K temperature range.
@@ -4915,8 +4729,6 @@ entry(
 u"""
 PrIMe Reaction: r00006986
 Uncertainty: 0.30000001
-Category: Experiment
-Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is pressure dependent
 
 Master equation / RRKM modeling was performed. Model parameters were adjusted to reproduce experimental k(T) dependences in the 0.25 - 4.5 Bar pressure range and 1125 - 1570 K temperature range.
@@ -4973,8 +4785,6 @@ u"""
 PrIMe Reaction: r00006986
 Uncertainty: 10.0
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -5026,8 +4836,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00006986
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:19:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986NAR/NIE281:5"""),
@@ -5077,8 +4885,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00006986
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:19:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:27"""),
@@ -5130,8 +4936,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00006986
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 
 Rate constants were calculated using a potential energy surface based on quantum chemical calculations published elsewhere.
@@ -5184,8 +4988,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010166
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -5239,8 +5041,6 @@ entry(
 u"""
 PrIMe Reaction: r00010166
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:20:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:49"""),
@@ -5289,8 +5089,6 @@ entry(
 u"""
 PrIMe Reaction: r00010166
 Uncertainty: 3.1600001
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:20:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:116"""),
@@ -5343,8 +5141,6 @@ entry(
 u"""
 PrIMe Reaction: r00010166
 Bath gas: He
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Mass spectrometry
 """,
@@ -5396,8 +5192,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010166
-Category: Experiment
-Data type: Derived from detailed balance/reverse rate
 """,
     history = [
         ("Thu Jul 12 21:20:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985TSA2872-2880:2"""),
@@ -5447,8 +5241,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010166
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:20:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:28"""),
@@ -5502,8 +5294,6 @@ u"""
 PrIMe Reaction: r00010166
 Uncertainty: 5.0
 Bath gas: C3H8
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -5558,8 +5348,6 @@ entry(
 u"""
 PrIMe Reaction: r00010166
 Bath gas: C3H8
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
@@ -5614,8 +5402,6 @@ entry(
 u"""
 PrIMe Reaction: r00010166
 Bath gas: C3H8
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -5671,8 +5457,6 @@ u"""
 PrIMe Reaction: r00010166
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010166/rk00000001.xml
 Bath gas: (CH3)2CHCHO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -5724,8 +5508,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010166
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -5778,8 +5560,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010166
-Category: Review
-Data type: Experimental value and limited review
 """,
     history = [
         ("Thu Jul 12 21:20:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992TSA3-8:4"""),
@@ -5830,8 +5610,6 @@ entry(
 u"""
 PrIMe Reaction: r00010166
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:20:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:62"""),
@@ -5880,8 +5658,6 @@ entry(
 u"""
 PrIMe Reaction: r00010166
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:20:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:75"""),
@@ -5932,8 +5708,6 @@ entry(
 u"""
 PrIMe Reaction: r00010166
 Bath gas: He
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:20:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972KER/PARB:124"""),
@@ -5986,8 +5760,6 @@ entry(
 u"""
 PrIMe Reaction: r00010166
 Bath gas: He
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Mass spectrometry
 """,
@@ -6042,8 +5814,6 @@ entry(
 u"""
 PrIMe Reaction: r00010166
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Electron beam
 Analytical technique: Gas chromatography
 """,
@@ -6098,8 +5868,6 @@ entry(
 u"""
 PrIMe Reaction: r00010166
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Resonance fluorescence
 """,
@@ -6151,8 +5919,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010504
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -6204,8 +5970,6 @@ entry(
 u"""
 PrIMe Reaction: r00010504
 Uncertainty: 3.1600001
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:24:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:125"""),
@@ -6255,8 +6019,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010504
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:24:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:30"""),
@@ -6309,8 +6071,6 @@ entry(
 u"""
 PrIMe Reaction: r00010504
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -6366,8 +6126,6 @@ u"""
 PrIMe Reaction: r00010504
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010504/rk00000001.xml
 Bath gas: n-C3H7CHO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -6421,8 +6179,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010504
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:24:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WEI/BEN307-333:11"""),
@@ -6472,8 +6228,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010504
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:24:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961JAC/MCN4891:4"""),
@@ -6523,8 +6277,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010504
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -6577,8 +6329,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010504
-Category: Review
-Data type: Experimental value and limited review
 """,
     history = [
         ("Thu Jul 12 21:24:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992TSA3-8:5"""),
@@ -6629,8 +6379,6 @@ entry(
 u"""
 PrIMe Reaction: r00010504
 Uncertainty: 1.5
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:24:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:63"""),
@@ -6679,8 +6427,6 @@ entry(
 u"""
 PrIMe Reaction: r00010504
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:24:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:76"""),
@@ -6731,8 +6477,6 @@ entry(
 u"""
 PrIMe Reaction: r00010504
 Bath gas: He
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:24:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972KER/PARB:125"""),
@@ -6785,8 +6529,6 @@ entry(
 u"""
 PrIMe Reaction: r00010504
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Electron beam
 Analytical technique: Gas chromatography
 """,
@@ -6836,8 +6578,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010632
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -6888,8 +6628,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010632
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 Quantum calculations of reaction of CH3 with CH2O. Calculated geometries at B3LYP/6-311+G(d,p) and energies at CCSD(T)/6-311G(2df,p). Also calculated energetics at B3LYP and G2 levels. Use Truhlars Polyrate program to calculate rate expressions using CVT/SCT tunneling corrections.
@@ -6948,8 +6686,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010633
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -7002,8 +6738,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010633
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:25:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:10"""),
@@ -7056,8 +6790,6 @@ entry(
 u"""
 PrIMe Reaction: r00010633
 Bath gas: N2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -7109,8 +6841,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010633
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 
 Variational transition state theory calculations based on quantum chemical calculations of the potential energy surface
@@ -7163,8 +6893,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010633
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 """,
     history = [
@@ -7218,8 +6946,6 @@ entry(
 u"""
 PrIMe Reaction: r00010633
 Uncertainty: 0.30000001
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 Pressure dependence: Rate constant is high pressure limit
 """,
     history = [
@@ -7274,8 +7000,6 @@ u"""
 PrIMe Reaction: r00010633
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010633/rk00000001.xml
 Bath gas: CF4
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:25:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAT/MIL549:5"""),
@@ -7325,8 +7049,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010633
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -7379,8 +7101,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012710
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM theory. Rate constants were calculated for wide ranges of temperatures and pressures.
@@ -7437,8 +7157,6 @@ u"""
 PrIMe Reaction: r00012710
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012710/rk00000001.xml
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:33:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975COL/NAE223:2"""),
@@ -7488,8 +7206,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012710
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM theory.
@@ -7544,8 +7260,6 @@ u"""
 PrIMe Reaction: r00012720
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012720/rk00000001.xml
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
@@ -7595,8 +7309,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012720
-Category: Experiment
-Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is high pressure limit
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using master equation modeling. Model parameters were adjusted to reproduce a large body of experimental falloff and high-pressure-limit data. Rate constants were calculated for wide ranges of temperatures and pressures.
@@ -7647,8 +7359,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012720
-Category: Experiment
-Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is high pressure limit
 """,
     history = [
@@ -7697,8 +7407,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012720
-Category: Experiment
-Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is high pressure limit
 """,
     history = [
@@ -7751,8 +7459,6 @@ u"""
 PrIMe Reaction: r00012720
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012720/rk00000001.xml
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
@@ -7805,8 +7511,6 @@ entry(
 u"""
 PrIMe Reaction: r00012720
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Chemical activation
 Analytical technique: Vis-UV absorption
 """,
@@ -7859,8 +7563,6 @@ entry(
 u"""
 PrIMe Reaction: r00012720
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Chemical activation
 Analytical technique: Vis-UV absorption
 """,
@@ -7913,8 +7615,6 @@ entry(
 u"""
 PrIMe Reaction: r00012720
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Chemical activation
 Analytical technique: Vis-UV absorption
 """,
@@ -7964,8 +7664,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012720
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory / RRKM.
@@ -8016,8 +7714,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012720
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory / RRKM.
@@ -8071,8 +7767,6 @@ entry(
 u"""
 PrIMe Reaction: r00015716
 Bath gas: SF6
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
@@ -8127,8 +7821,6 @@ u"""
 PrIMe Reaction: r00015716
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015716/rk00000002.xml
 Bath gas: (CH3)2O
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
@@ -8178,8 +7870,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00015716
-Category: Theory
-Data type: Ab initio
 
 Ab initio and DFT study of the unimolecular decomposition of CH3OCH2. A variety of different ab initio and DFT methods were used.  The highest level was QCSID(T)/aug-cc-pVTZ energies using MP21K/6-31+G(d,p) geometries. Microcanonical variational transition state theory using the VKLab program was used to calculate rate expressions using transition state potential energy surface.  Agreement with experimental data was fair with the calculated rate constants about 1.5-2.0 higher than experimental values. See Sehested et al, IJCK 29, 627 (1997) and Loucks and Laidler, Can J Chem 45, 2767 (1967).
 """,
@@ -8233,8 +7923,6 @@ u"""
 PrIMe Reaction: r00017010
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017010/rk00000001.xml
 Bath gas: He
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
@@ -8286,8 +7974,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00017010
-Category: Review
-Data type: Experimental value and limited review
 Pressure dependence: Rate constant is high pressure limit
 Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Flash photolysis (laser or conventional)
@@ -8341,8 +8027,6 @@ entry(
 u"""
 PrIMe Reaction: r00017010
 Uncertainty: 10.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:41:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:56"""),
@@ -8393,8 +8077,6 @@ entry(
 u"""
 PrIMe Reaction: r00017010
 Bath gas: Ar
-Category: Review
-Data type: Experimental value and limited review
 """,
     history = [
         ("Thu Jul 12 21:41:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988LIU/MUL5942:2"""),
@@ -8445,8 +8127,6 @@ entry(
 u"""
 PrIMe Reaction: r00017010
 Bath gas: N2O
-Category: Experiment
-Data type: High or low pressure extrapolation
 Pressure dependence: Rate constant is high pressure limit
 Excitation technique: Flash photolysis (laser or conventional)
 Time resolution: In real time
@@ -8501,8 +8181,6 @@ entry(
 u"""
 PrIMe Reaction: r00017010
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
@@ -8556,8 +8234,6 @@ u"""
 PrIMe Reaction: r00017010
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017010/rk00000001.xml
 Bath gas: He
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
@@ -8610,8 +8286,6 @@ entry(
 u"""
 PrIMe Reaction: r00017010
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Chemical activation
 Analytical technique: Vis-UV absorption
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
@@ -8662,8 +8336,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00017010
-Category: Theory
-Data type: Transition state theory
 """,
     history = [
         ("Thu Jul 12 21:41:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989MIL/MEL1031-1039:5"""),
@@ -8717,8 +8389,6 @@ u"""
 PrIMe Reaction: r00002857
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002857/rk00000001.xml
 Bath gas: He
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Electron beam
 Analytical technique: Gas chromatography
 """,
@@ -8771,8 +8441,6 @@ entry(
 u"""
 PrIMe Reaction: r00002857
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002857/rk00000002.xml
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Wed Jul 25 14:58:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:38"""),
@@ -8823,8 +8491,6 @@ entry(
 u"""
 PrIMe Reaction: r00002857
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002857/rk00000003.xml
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Wed Jul 25 15:00:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986NAR/NIE281:8"""),
@@ -8875,8 +8541,6 @@ PrIMe Reaction: r00010632
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000002.xml
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 16:45:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:1"""),
@@ -8928,8 +8592,6 @@ u"""
 PrIMe Reaction: r00010632
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000003.xml
 Bath gas: CF4
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 16:47:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAT/MIL549:4"""),
@@ -8982,8 +8644,6 @@ PrIMe Reaction: r00010632
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000004.xml
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -9034,8 +8694,6 @@ entry(
 u"""
 PrIMe Reaction: r00010632
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000005.xml
-Category: Theory
-Data type: Other theoretical
 """,
     history = [
         ("Wed Jul 25 16:51:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981CHO/BEN833:1"""),
@@ -9084,8 +8742,6 @@ entry(
 u"""
 PrIMe Reaction: r00010632
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000006.xml
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Wed Jul 25 16:53:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:9"""),
@@ -9135,8 +8791,6 @@ u"""
 PrIMe Reaction: r00010632
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000007.xml
 Uncertainty: 10.0
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 16:54:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:122"""),
@@ -9183,8 +8837,6 @@ entry(
 u"""
 PrIMe Reaction: r00010632
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000010.xml
-Category: Theory
-Data type: Transition state theory
 
 Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
 """,
@@ -9235,8 +8887,6 @@ entry(
 u"""
 PrIMe Reaction: r00010633
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010633/rk00000006.xml
-Category: Theory
-Data type: Transition state theory
 
 Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
 """,
@@ -9287,8 +8937,6 @@ entry(
 u"""
 PrIMe Reaction: r00012935
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000001.xml
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Wed Jul 25 18:42:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:37"""),
@@ -9337,8 +8985,6 @@ entry(
 u"""
 PrIMe Reaction: r00012935
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000002.xml
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Wed Jul 25 18:43:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986NAR/NIE281:7"""),
@@ -9389,8 +9035,6 @@ u"""
 PrIMe Reaction: r00012935
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000003.xml
 Bath gas: C2H2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -9444,8 +9088,6 @@ u"""
 PrIMe Reaction: r00012935
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000004.xml
 Bath gas: N2
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Wed Jul 25 18:46:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987DEA/WES207:4"""),
@@ -9495,8 +9137,6 @@ u"""
 PrIMe Reaction: r00012935
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000005.xml
 Uncertainty: 3.1600001
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Wed Jul 25 18:46:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:53"""),
@@ -9548,8 +9188,6 @@ u"""
 PrIMe Reaction: r00012935
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000006.xml
 Bath gas: Ar
-Category: Theory
-Data type: Transition state theory
 """,
     history = [
         ("Wed Jul 25 18:48:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DIA/LIN3923-3927:5"""),
@@ -9601,8 +9239,6 @@ u"""
 PrIMe Reaction: r00012935
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000007.xml
 Bath gas: Ar
-Category: Theory
-Data type: Transition state theory
 """,
     history = [
         ("Wed Jul 25 18:49:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DIA/LIN3923-3927:6"""),
@@ -9651,8 +9287,6 @@ entry(
 u"""
 PrIMe Reaction: r00012935
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000008.xml
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Wed Jul 25 18:50:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995DIA/LIN855-866:1"""),
@@ -9701,8 +9335,6 @@ u"""
 PrIMe Reaction: r00010632
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010632/rk00000001.xml
 Uncertainty: 5.0
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 Reference reaction: CH3CH2O* + CH3CH2O* -> C2H5OH + CH3CHO
@@ -9756,8 +9388,6 @@ entry(
 u"""
 PrIMe Reaction: r00015628
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015628/rk00000001.xml
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 26 16:45:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986NAR/NIE281:9"""),
@@ -9811,8 +9441,6 @@ u"""
 PrIMe Reaction: r00015628
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015628/rk00000002.xml
 Bath gas: He
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Electron beam
 Analytical technique: Gas chromatography
 """,
@@ -9865,8 +9493,6 @@ entry(
 u"""
 PrIMe Reaction: r00015629
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015629/rk00000001.xml
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 26 16:47:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986NAR/NIE281:10"""),
@@ -9920,8 +9546,6 @@ u"""
 PrIMe Reaction: r00015629
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015629/rk00000002.xml
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Electron beam
 Analytical technique: Gas chromatography
 """,
@@ -9977,8 +9601,6 @@ u"""
 PrIMe Reaction: r00015704
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015704/rk00000001.xml
 Bath gas: N2
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 26 16:55:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988LAR/STE27:2"""),
@@ -10032,8 +9654,6 @@ u"""
 PrIMe Reaction: r00002230
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002230/rk00000001.xml
 Activation energy is a lower limit.
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:17:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WEI/BEN307-333:3"""),
@@ -10083,8 +9703,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002412
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:17:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972KER/PARB:38"""),
@@ -10137,8 +9755,6 @@ u"""
 PrIMe Reaction: r00002412
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002412/rk00000001.xml
 Bath gas: C2H2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -10192,8 +9808,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00009777
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -10249,8 +9863,6 @@ entry(
 u"""
 PrIMe Reaction: r00009777
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:19:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:59"""),
@@ -10305,8 +9917,6 @@ entry(
 u"""
 PrIMe Reaction: r00009777
 Bath gas: He
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -10360,8 +9970,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00009777
-Category: Experiment
-Data type: Derived from detailed balance/reverse rate
 """,
     history = [
         ("Thu Jul 12 21:19:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985TSA2872-2880:1"""),
@@ -10417,8 +10025,6 @@ u"""
 PrIMe Reaction: r00009777
 Uncertainty: 1.29
 Bath gas: N2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
@@ -10473,8 +10079,6 @@ u"""
 PrIMe Reaction: r00009777
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009777/rk00000001.xml
 Bath gas: 2,2-dimethylpropanal
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -10528,8 +10132,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00009777
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -10584,8 +10186,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00009777
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:20:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972KER/PARB:135"""),
@@ -10639,8 +10239,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00009777
-Category: Experiment
-Data type: Absolute value measured directly
 Pressure dependence: None reported
 Experimental procedure: Flow tube - Data taken vs distance
 Excitation technique: Discharge
@@ -10701,8 +10299,6 @@ entry(
 u"""
 PrIMe Reaction: r00009777
 Bath gas: He
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -10759,8 +10355,6 @@ entry(
 u"""
 PrIMe Reaction: r00009777
 Bath gas: H2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Chemical activation
 Analytical technique: Vis-UV absorption
 """,
@@ -10818,8 +10412,6 @@ u"""
 PrIMe Reaction: r00009777
 Uncertainty: 1.29
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 """,
@@ -10876,8 +10468,6 @@ entry(
 u"""
 PrIMe Reaction: r00009777
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -10933,8 +10523,6 @@ entry(
 u"""
 PrIMe Reaction: r00009777
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Electron beam
 Analytical technique: Gas chromatography
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
@@ -10992,8 +10580,6 @@ entry(
 u"""
 PrIMe Reaction: r00010706
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010706/rk00000001.xml
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:26:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WEI/BEN307-333:12"""),
@@ -11045,8 +10631,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011104
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -11101,8 +10685,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011104
-Category: Experiment
-Data type: Derived from detailed balance/reverse rate
 """,
     history = [
         ("Thu Jul 12 21:26:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985TSA2872-2880:4"""),
@@ -11154,8 +10736,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011104
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:26:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:31"""),
@@ -11211,8 +10791,6 @@ u"""
 PrIMe Reaction: r00011104
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011104/rk00000001.xml
 Bath gas: n-C4H10
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -11266,8 +10844,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011105
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -11323,8 +10899,6 @@ entry(
 u"""
 PrIMe Reaction: r00011105
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011105/rk00000001.xml
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:26:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:32"""),
@@ -11374,8 +10948,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011106
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -11427,8 +10999,6 @@ entry(
 u"""
 PrIMe Reaction: r00011106
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:26:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:143"""),
@@ -11481,8 +11051,6 @@ entry(
 u"""
 PrIMe Reaction: r00011106
 Bath gas: He
-Category: Experiment
-Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is high pressure limit
 """,
     history = [
@@ -11536,8 +11104,6 @@ entry(
 u"""
 PrIMe Reaction: r00011106
 Bath gas: Ar
-Category: Experiment
-Data type: High or low pressure extrapolation
 Pressure dependence: Rate constant is high pressure limit
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Mass spectrometry
@@ -11593,8 +11159,6 @@ entry(
 u"""
 PrIMe Reaction: r00011106
 Bath gas: H2S
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -11646,8 +11210,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011106
-Category: Experiment
-Data type: Derived from detailed balance/reverse rate
 """,
     history = [
         ("Thu Jul 12 21:26:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985TSA2872-2880:5"""),
@@ -11697,8 +11259,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011106
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:26:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:33"""),
@@ -11751,8 +11311,6 @@ entry(
 u"""
 PrIMe Reaction: r00011106
 Bath gas: n-C4H10
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -11805,8 +11363,6 @@ entry(
 u"""
 PrIMe Reaction: r00011106
 Uncertainty: 2.1400001
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:26:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990MAR935-950:1"""),
@@ -11856,8 +11412,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011106
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -11911,8 +11465,6 @@ entry(
 u"""
 PrIMe Reaction: r00011106
 Uncertainty: 1.4
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:26:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:40"""),
@@ -11966,8 +11518,6 @@ u"""
 PrIMe Reaction: r00011106
 Uncertainty: 1.78
 Bath gas: H2
-Category: Review
-Data type: Experimental value and limited review
 """,
     history = [
         ("Thu Jul 12 21:26:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987BAL/KEE759:3"""),
@@ -12020,8 +11570,6 @@ entry(
 u"""
 PrIMe Reaction: r00011106
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Mass spectrometry
 """,
@@ -12074,8 +11622,6 @@ entry(
 u"""
 PrIMe Reaction: r00011106
 Bath gas: CH3I
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -12127,8 +11673,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011209
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -12180,8 +11724,6 @@ entry(
 u"""
 PrIMe Reaction: r00011209
 Uncertainty: 5.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:27:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:145"""),
@@ -12234,8 +11776,6 @@ entry(
 u"""
 PrIMe Reaction: r00011209
 Bath gas: He
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -12290,8 +11830,6 @@ entry(
 u"""
 PrIMe Reaction: r00011209
 Bath gas: H2S
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -12343,8 +11881,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011209
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:27:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:34"""),
@@ -12397,8 +11933,6 @@ entry(
 u"""
 PrIMe Reaction: r00011209
 Bath gas: Di-n-butyldiazene
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
@@ -12453,8 +11987,6 @@ u"""
 PrIMe Reaction: r00011209
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011209/rk00000001.xml
 Bath gas: n-C4H9CHO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -12506,8 +12038,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011209
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
 
 Ab initio study, using canonical transition state theory. (CTST)
@@ -12573,8 +12103,6 @@ entry(
 u"""
 PrIMe Reaction: r00011209
 Uncertainty: 5.0
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:27:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990MAR935-950:2"""),
@@ -12624,8 +12152,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011209
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -12678,8 +12204,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011209
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:27:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972KER/PARB:25"""),
@@ -12732,8 +12256,6 @@ entry(
 u"""
 PrIMe Reaction: r00011209
 Bath gas: He
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -12786,8 +12308,6 @@ entry(
 u"""
 PrIMe Reaction: r00011209
 Bath gas: (C2H5)2NN
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -12842,8 +12362,6 @@ u"""
 PrIMe Reaction: r00011209
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011209/rk00000001.xml
 Bath gas: C2H5CHO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -12898,8 +12416,6 @@ entry(
 u"""
 PrIMe Reaction: r00011209
 Bath gas: Di-n-butyldiazene
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:27:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966MOR/CAL5387:1"""),
@@ -12951,8 +12467,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011210
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -13007,8 +12521,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011210
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:28:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:35"""),
@@ -13064,8 +12576,6 @@ u"""
 PrIMe Reaction: r00011210
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011210/rk00000001.xml
 Bath gas: C2H6
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -13123,8 +12633,6 @@ u"""
 PrIMe Reaction: r00011210
 Uncertainty: 3.1600001
 Bath gas: C2H4
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:28:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984MAC/PAC1325:4"""),
@@ -13176,8 +12684,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011210
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -13232,8 +12738,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012570
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -13288,8 +12792,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012570
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:32:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:15"""),
@@ -13345,8 +12847,6 @@ u"""
 PrIMe Reaction: r00012570
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -13404,8 +12904,6 @@ u"""
 PrIMe Reaction: r00012570
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012570/rk00000001.xml
 Bath gas: He
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -13459,8 +12957,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012570
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -13513,8 +13009,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012571
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -13567,8 +13061,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012571
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:32:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:16"""),
@@ -13621,8 +13113,6 @@ entry(
 u"""
 PrIMe Reaction: r00012571
 Bath gas: N2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -13677,8 +13167,6 @@ u"""
 PrIMe Reaction: r00012571
 Uncertainty: 2.51
 Bath gas: CF4
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -13731,8 +13219,6 @@ entry(
 u"""
 PrIMe Reaction: r00012571
 Bath gas: (iso-C3H7O)2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
@@ -13786,8 +13272,6 @@ entry(
 u"""
 PrIMe Reaction: r00012571
 Bath gas: i-C3H7ONO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -13842,8 +13326,6 @@ u"""
 PrIMe Reaction: r00012571
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012571/rk00000001.xml
 Bath gas: i-C3H7ONO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -13895,8 +13377,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012571
-Category: Theory
-Data type: Other theoretical
 """,
     history = [
         ("Thu Jul 12 21:32:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981CHO/BEN833:3"""),
@@ -13948,8 +13428,6 @@ u"""
 PrIMe Reaction: r00012571
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:32:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:3"""),
@@ -13999,8 +13477,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012571
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -14053,8 +13529,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012768
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -14108,8 +13582,6 @@ entry(
 u"""
 PrIMe Reaction: r00012768
 Uncertainty: 5.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:122"""),
@@ -14158,8 +13630,6 @@ entry(
 u"""
 PrIMe Reaction: r00012768
 Uncertainty: 5.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:34:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:175"""),
@@ -14212,8 +13682,6 @@ entry(
 u"""
 PrIMe Reaction: r00012768
 Bath gas: iso-C4H8
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -14268,8 +13736,6 @@ entry(
 u"""
 PrIMe Reaction: r00012768
 Bath gas: (CH3)2CHCH2N=NCH2CH(CH3)2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -14324,8 +13790,6 @@ u"""
 PrIMe Reaction: r00012768
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012768/rk00000001.xml
 Bath gas: iso-C4H9CHO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -14379,8 +13843,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012768
-Category: Theory
-Data type: Transition state theory
 
 An analysis and exptrapolation of experimental literature data of Slater et al. and Trotman-Dickenson covering ca. 550- 690 K.
 """,
@@ -14432,8 +13894,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012768
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -14487,8 +13947,6 @@ entry(
 u"""
 PrIMe Reaction: r00012768
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:34:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:41"""),
@@ -14542,8 +14000,6 @@ u"""
 PrIMe Reaction: r00012768
 Uncertainty: 2.0
 Bath gas: H2
-Category: Review
-Data type: Experimental value and limited review
 """,
     history = [
         ("Thu Jul 12 21:34:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987BAL/KEE759:6"""),
@@ -14596,8 +14052,6 @@ entry(
 u"""
 PrIMe Reaction: r00012768
 Bath gas: He
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -14651,8 +14105,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012769
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -14710,8 +14162,6 @@ u"""
 PrIMe Reaction: r00012769
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012769/rk00000001.xml
 Bath gas: iso-C4H9CHO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -14767,8 +14217,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012769
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:34:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WEI/BEN307-333:16"""),
@@ -14820,8 +14268,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012769
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -14878,8 +14324,6 @@ u"""
 PrIMe Reaction: r00013083
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013083/rk00000001.xml
 Bath gas: He
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 Note: Invalid preexponential uncertainty (5.2e+12) found and ignored
@@ -14936,8 +14380,6 @@ u"""
 PrIMe Reaction: r00015595
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015595/rk00000001.xml
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -14989,8 +14431,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00015595
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
@@ -15047,8 +14487,6 @@ u"""
 PrIMe Reaction: r00015595
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015595/rk00000001.xml
 Bath gas: Ar
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:36:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973TSA929:2"""),
@@ -15098,8 +14536,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00015701
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -15154,8 +14590,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00015701
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 
 The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
 
@@ -15211,8 +14645,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00015701
-Category: Theory
-Data type: Other theoretical
 """,
     history = [
         ("Thu Jul 12 21:36:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981CHO/BEN833:6"""),
@@ -15265,8 +14697,6 @@ PrIMe Reaction: r00015701
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015701/rk00000001.xml
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:36:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:4"""),
@@ -15316,8 +14746,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00015701
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -15372,8 +14800,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00015702
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -15428,8 +14854,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00015702
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -15483,8 +14907,6 @@ entry(
 u"""
 PrIMe Reaction: r00016900
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016900/rk00000001.xml
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:40:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:43"""),
@@ -15537,8 +14959,6 @@ entry(
 u"""
 PrIMe Reaction: r00016900
 Bath gas: H2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
@@ -15590,8 +15010,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00016900
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:40:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989BEN233-243:4"""),
@@ -15641,8 +15059,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00016900
-Category: Theory
-Data type: Transition state theory
 """,
     history = [
         ("Thu Jul 12 21:40:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988WEI/BEN4080:2"""),
@@ -15694,8 +15110,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00016900
-Category: Theory
-Data type: Ab initio
 """,
     history = [
         ("Thu Jul 12 21:40:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988DUR/AMO636:5"""),
@@ -15747,8 +15161,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00016900
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:40:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WEI/BEN307-333:5"""),
@@ -15799,8 +15211,6 @@ entry(
 u"""
 PrIMe Reaction: r00002226
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002226/rk00000001.xml
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Wed Jul 25 14:53:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:25"""),
@@ -15851,8 +15261,6 @@ u"""
 PrIMe Reaction: r00006972
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006972/rk00000001.xml
 Bath gas: H2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -15909,8 +15317,6 @@ PrIMe Reaction: r00011106
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011106/rk00000001.xml
 Rate constant is an upper limit.
 Bath gas: sec-C4H9CHO
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 17:03:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1956GRU/CAL5208:2"""),
@@ -15963,8 +15369,6 @@ entry(
 u"""
 PrIMe Reaction: r00011107
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011107/rk00000001.xml
-Category: Experiment
-Data type: Derived from detailed balance/reverse rate
 """,
     history = [
         ("Wed Jul 25 17:09:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985TSA2872-2880:6"""),
@@ -16017,8 +15421,6 @@ entry(
 u"""
 PrIMe Reaction: r00011108
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011108/rk00000001.xml
-Category: Experiment
-Data type: Derived from detailed balance/reverse rate
 """,
     history = [
         ("Wed Jul 25 17:10:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985TSA2872-2880:7"""),
@@ -16074,8 +15476,6 @@ u"""
 PrIMe Reaction: r00011107
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011107/rk00000007.xml
 Bath gas: H2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Chemical activation
 Analytical technique: Vis-UV absorption
 """,
@@ -16133,8 +15533,6 @@ u"""
 PrIMe Reaction: r00011108
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011108/rk00000013.xml
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Resonance fluorescence
 """,
@@ -16192,8 +15590,6 @@ u"""
 PrIMe Reaction: r00011108
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011108/rk00000014.xml
 Bath gas: H2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Chemical activation
 Analytical technique: Vis-UV absorption
 """,
@@ -16250,8 +15646,6 @@ entry(
 u"""
 PrIMe Reaction: r00011210
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011210/rk00000004.xml
-Category: Experiment
-Data type: Absolute value measured directly
 Pressure dependence: None reported
 Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Electron beam
@@ -16311,8 +15705,6 @@ entry(
 u"""
 PrIMe Reaction: r00011527
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011527/rk00000001.xml
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 Note: Invalid activation energy uncertainty (8314472.0) found and ignored
 """,
     history = [
@@ -16368,8 +15760,6 @@ entry(
 u"""
 PrIMe Reaction: r00011527
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011527/rk00000003.xml
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 18:28:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WEI/BEN307-333:15"""),
@@ -16425,8 +15815,6 @@ u"""
 PrIMe Reaction: r00011527
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011527/rk00000005.xml
 Bath gas: Toluene
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 18:29:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989BRA/FRA1053-1061:9"""),
@@ -16477,8 +15865,6 @@ entry(
 u"""
 PrIMe Reaction: r00012570
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012570/rk00000004.xml
-Category: Theory
-Data type: Transition state theory
 
 Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
 """,
@@ -16529,8 +15915,6 @@ entry(
 u"""
 PrIMe Reaction: r00012571
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012571/rk00000015.xml
-Category: Theory
-Data type: Transition state theory
 
 Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
 """,
@@ -16587,8 +15971,6 @@ PrIMe Reaction: r00006972
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006972/rk00000003.xml
 Uncertainty: 1.58
 Bath gas: (E)-CH3N=NCH3
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Reference reaction: *CH3 + (E)-CH3N=NCH3 -> Other Products + CH4
@@ -16642,8 +16024,6 @@ entry(
 u"""
 PrIMe Reaction: r00015702
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015702/rk00000001.xml
-Category: Theory
-Data type: Transition state theory
 """,
     history = [
         ("Thu Jul 26 16:51:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003RAU/BOY431-442:3"""),
@@ -16692,8 +16072,6 @@ entry(
 u"""
 PrIMe Reaction: r00016184
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016184/rk00000001.xml
-Category: Theory
-Data type: Transition state theory
 
 Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
 """,
@@ -16746,8 +16124,6 @@ entry(
 u"""
 PrIMe Reaction: r00016185
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016185/rk00000001.xml
-Category: Theory
-Data type: Transition state theory
 
 Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
 """,
@@ -16802,8 +16178,6 @@ entry(
 u"""
 PrIMe Reaction: r00016678
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016678/rk00000002.xml
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 26 17:35:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988GHI/COL5839:4"""),
@@ -16858,8 +16232,6 @@ entry(
 u"""
 PrIMe Reaction: r00016678
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016678/rk00000003.xml
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Pressure dependence: None reported
 Experimental procedure: Shock tube
 Excitation technique: Thermal
@@ -16917,8 +16289,6 @@ entry(
 u"""
 PrIMe Reaction: r00016804
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016804/rk00000001.xml
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 26 17:42:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:42"""),
@@ -16970,8 +16340,6 @@ PrIMe Reaction: r00016804
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016804/rk00000002.xml
 Uncertainty: 1.26
 Bath gas: CH3CHO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Other (direct)
 """,
@@ -17028,8 +16396,6 @@ entry(
 u"""
 PrIMe Reaction: r00016901
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016901/rk00000001.xml
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 26 17:45:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WEI/BEN307-333:19"""),
@@ -17082,8 +16448,6 @@ entry(
 u"""
 PrIMe Reaction: r00016901
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016901/rk00000002.xml
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 """,
     history = [
         ("Thu Jul 26 17:46:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989COL/SEE343-366:4"""),
@@ -17135,8 +16499,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001349
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -17195,8 +16557,6 @@ u"""
 PrIMe Reaction: r00001349
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001349/rk00000001.xml
 Bath gas: (n-C3H7)-N=N-(n-C3H7)
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 """,
@@ -17250,8 +16610,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001349
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -17306,8 +16664,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001349
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 """,
     history = [
@@ -17362,8 +16718,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001349
-Category: Theory
-Data type: Ab initio
 """,
     history = [
         ("Thu Jul 12 21:16:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008SOM965-973:6"""),
@@ -17417,8 +16771,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001349
-Category: Theory
-Data type: Ab initio
 """,
     history = [
         ("Thu Jul 12 21:16:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008SOM965-973:5"""),
@@ -17472,8 +16824,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001349
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is pressure dependent
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition RRKM and master equation analysis. Rate constants were calculated for wide ranges of temperatures and pressures.
@@ -17528,8 +16878,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001349
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition RRKM and master equation analysis. Rate constants were calculated for wide ranges of temperatures and pressures.
@@ -17586,8 +16934,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001349
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 
 The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
 
@@ -17646,8 +16992,6 @@ entry(
 u"""
 PrIMe Reaction: r00001349
 Bath gas: n-C4H9ONO
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:16:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978BAL/GOL108:2"""),
@@ -17701,8 +17045,6 @@ u"""
 PrIMe Reaction: r00001349
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:16:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:5"""),
@@ -17754,8 +17096,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002199
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:16:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972KER/PARB:5"""),
@@ -17808,8 +17148,6 @@ entry(
 u"""
 PrIMe Reaction: r00002199
 Bath gas: (iso-C3H7)-N=N-(iso-C3H7)
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -17867,8 +17205,6 @@ u"""
 PrIMe Reaction: r00002199
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002199/rk00000001.xml
 Bath gas: (CH3)2CHCHO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -17922,8 +17258,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002210
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:16:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972KER/PARB:6"""),
@@ -17978,8 +17312,6 @@ entry(
 u"""
 PrIMe Reaction: r00002210
 Bath gas: C2H4
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -18037,8 +17369,6 @@ u"""
 PrIMe Reaction: r00002210
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002210/rk00000001.xml
 Bath gas: n-C3H7CHO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -18092,8 +17422,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002210
-Category: Theory
-Data type: Transition state theory
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory with tunneling correction. The temperature interval for which the Arrhenius parameters are given is not specified but probably is the same as for the other eeaction studied in the same work, that of n-C3H7 decomposition.
 """,
@@ -18147,8 +17475,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002210
-Category: Theory
-Data type: Transition state theory
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory with tunneling correction. The temperature interval for which the Arrhenius parameters are given is not specified but probably is the same as for the other eeaction studied in the same work, that of n-C3H7 decomposition.
 """,
@@ -18204,8 +17530,6 @@ u"""
 PrIMe Reaction: r00002408
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002408/rk00000001.xml
 Uncertainty: 10.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:17:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:12"""),
@@ -18257,8 +17581,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002410
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:17:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972KER/PARB:31"""),
@@ -18313,8 +17635,6 @@ u"""
 PrIMe Reaction: r00002410
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002410/rk00000001.xml
 Bath gas: C2H2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -18368,8 +17688,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00004745
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:18:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972KER/PARB:87"""),
@@ -18421,8 +17739,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00004745
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 Pressure dependence: Rate constant is high pressure limit
 
 The log(k∞/k) values at various pressures were presented in four parameters form
@@ -18477,8 +17793,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00005827
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -18535,8 +17849,6 @@ u"""
 PrIMe Reaction: r00005827
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005827/rk00000001.xml
 Bath gas: (tert-C4H9O)2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -18590,8 +17902,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00005827
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -18646,8 +17956,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010737
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -18702,8 +18010,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011689
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -18758,8 +18064,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011689
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:30:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:13"""),
@@ -18813,8 +18117,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011689
-Category: Experiment
-Data type: Absolute value measured directly
 Pressure dependence: Rate constant is high pressure limit
 Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Flash photolysis (laser or conventional)
@@ -18877,8 +18179,6 @@ u"""
 PrIMe Reaction: r00011689
 Uncertainty: 2.3399999
 Bath gas: CF4
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -18936,8 +18236,6 @@ u"""
 PrIMe Reaction: r00011689
 Uncertainty: 5.0
 Bath gas: CF4
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -18994,8 +18292,6 @@ u"""
 PrIMe Reaction: r00011689
 Uncertainty: 5.0
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -19051,8 +18347,6 @@ entry(
 u"""
 PrIMe Reaction: r00011689
 Bath gas: Ar
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:30:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982BAT/ROB172:3"""),
@@ -19108,8 +18402,6 @@ u"""
 PrIMe Reaction: r00011689
 Uncertainty: 5.0
 Bath gas: CF4
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -19166,8 +18458,6 @@ entry(
 u"""
 PrIMe Reaction: r00011689
 Bath gas: CF4
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 21:30:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982BAT/ROB1053:1"""),
@@ -19223,8 +18513,6 @@ u"""
 PrIMe Reaction: r00011689
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -19281,8 +18569,6 @@ entry(
 u"""
 PrIMe Reaction: r00011689
 Bath gas: NO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -19339,8 +18625,6 @@ u"""
 PrIMe Reaction: r00011689
 Uncertainty: 2.51
 Bath gas: CF4
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -19397,8 +18681,6 @@ u"""
 PrIMe Reaction: r00011689
 Uncertainty: 5.0
 Bath gas: C3H8
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -19455,8 +18737,6 @@ entry(
 u"""
 PrIMe Reaction: r00011689
 Bath gas: NO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -19513,8 +18793,6 @@ entry(
 u"""
 PrIMe Reaction: r00011689
 Bath gas: (tert-C4H9O)2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -19568,8 +18846,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011689
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
@@ -19624,8 +18900,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011689
-Category: Theory
-Data type: Other theoretical
 """,
     history = [
         ("Thu Jul 12 21:30:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981CHO/BEN833:2"""),
@@ -19679,8 +18953,6 @@ u"""
 PrIMe Reaction: r00011689
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:30:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:2"""),
@@ -19735,8 +19007,6 @@ entry(
 u"""
 PrIMe Reaction: r00011689
 Bath gas: (tert-C4H9O)2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:30:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960MCM2422:2"""),
@@ -19790,8 +19060,6 @@ u"""
 PrIMe Reaction: r00011689
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011689/rk00000001.xml
 Bath gas: (tert-C4H9O)2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:30:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1957BIR/DAN154-164:2"""),
@@ -19843,8 +19111,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011689
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -19902,8 +19168,6 @@ entry(
 u"""
 PrIMe Reaction: r00011689
 Uncertainty: 2.51
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -19960,8 +19224,6 @@ u"""
 PrIMe Reaction: r00011689
 Uncertainty: 5.0
 Bath gas: C3H8
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -20019,8 +19281,6 @@ u"""
 PrIMe Reaction: r00011972
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011972/rk00000001.xml
 Bath gas: (C2H5)2O
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -20074,8 +19334,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012477
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -20133,8 +19391,6 @@ entry(
 u"""
 PrIMe Reaction: r00012477
 Bath gas: He
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Mass spectrometry
 """,
@@ -20188,8 +19444,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012477
-Category: Experiment
-Data type: Derived from detailed balance/reverse rate
 """,
     history = [
         ("Thu Jul 12 21:31:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985TSA2872-2880:8"""),
@@ -20244,8 +19498,6 @@ entry(
 u"""
 PrIMe Reaction: r00012477
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -20303,8 +19555,6 @@ u"""
 PrIMe Reaction: r00012477
 Uncertainty: 5.0
 Bath gas: neo-C5H12
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -20361,8 +19611,6 @@ entry(
 u"""
 PrIMe Reaction: r00012477
 Bath gas: neo-C5H12
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -20419,8 +19667,6 @@ entry(
 u"""
 PrIMe Reaction: r00012477
 Bath gas: neo-C5H12
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -20478,8 +19724,6 @@ u"""
 PrIMe Reaction: r00012477
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012477/rk00000002.xml
 Bath gas: neo-C5H12
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Sensitized photolysis
 Analytical technique: Gas chromatography
 """,
@@ -20533,8 +19777,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012477
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
@@ -20591,8 +19833,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012477
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -20650,8 +19890,6 @@ entry(
 u"""
 PrIMe Reaction: r00012477
 Bath gas: He
-Category: Experiment
-Data type: Derived from detailed balance/reverse rate
 """,
     history = [
         ("Thu Jul 12 21:32:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991SLA/BAT7732-7739:1"""),
@@ -20703,8 +19941,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00016186
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -20761,8 +19997,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00016186
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 
 The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
 
@@ -20821,8 +20055,6 @@ entry(
 u"""
 PrIMe Reaction: r00016186
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016186/rk00000001.xml
-Category: Theory
-Data type: Other theoretical
 """,
     history = [
         ("Thu Jul 12 21:37:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981CHO/BEN833:7"""),
@@ -20874,8 +20106,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00016186
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: Rate constant is high pressure limit
 
 Rate coeficients for alkyl and alkoxy radical decomposition reactions, as well as the corresponding reverse adddition reactions, are recommended on the basis of review of large volume of literature and correlations between activation energies and reaction types. The temperature range of recommendations is uncertain. The range cited here (298 - 2000 K) is based on the largest temperature interval used by the author in an Arrhenius plot.
@@ -20933,8 +20163,6 @@ PrIMe Reaction: r00016688
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016688/rk00000001.xml
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:39:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:14"""),
@@ -20985,8 +20213,6 @@ entry(
 u"""
 PrIMe Reaction: r00000050
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000050/rk00000001.xml
-Category: Theory
-Data type: Transition state theory
 
 Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
 """,
@@ -21041,8 +20267,6 @@ entry(
 u"""
 PrIMe Reaction: r00000051
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000051/rk00000001.xml
-Category: Theory
-Data type: Transition state theory
 
 Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
 """,
@@ -21095,8 +20319,6 @@ entry(
 u"""
 PrIMe Reaction: r00000052
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000052/rk00000001.xml
-Category: Theory
-Data type: Transition state theory
 
 Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
 """,
@@ -21154,8 +20376,6 @@ u"""
 PrIMe Reaction: r00004745
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004745/rk00000001.xml
 Bath gas: 2-(Z)-C5H10
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 15:31:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988PER/RIC621:1"""),
@@ -21212,8 +20432,6 @@ PrIMe Reaction: r00010737
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010737/rk00000003.xml
 Uncertainty: 5.0
 Bath gas: (C2H5)2O
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -21266,8 +20484,6 @@ entry(
 u"""
 PrIMe Reaction: r00011689
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011689/rk00000023.xml
-Category: Theory
-Data type: Transition state theory
 
 Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
 """,
@@ -21325,8 +20541,6 @@ u"""
 PrIMe Reaction: r00013096
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013096/rk00000001.xml
 Bath gas: H2S
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Wed Jul 25 18:56:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986GIE/GAW623-637:3"""),
@@ -21382,8 +20596,6 @@ u"""
 PrIMe Reaction: r00004745
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004745/rk00000004.xml
 Bath gas: 2-(Z)-C5H10
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Reference reaction: H2S + CH2CH=CHCH2CH3 -> 2-(Z)-C5H10 + SH
@@ -21442,8 +20654,6 @@ u"""
 PrIMe Reaction: r00007721
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007721/rk00000002.xml
 Bath gas: CH3CHO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Reference reaction: *CH3 + *CH3 -> C2H6
@@ -21501,8 +20711,6 @@ u"""
 PrIMe Reaction: r00010737
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010737/rk00000001.xml
 Bath gas: sec-C4H9NO2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Reference reaction: 2-C4H9O + NO -> C2H5COCH3 + HNO
@@ -21561,8 +20769,6 @@ PrIMe Reaction: r00016188
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000001.xml
 Uncertainty: 3.1600001
 Bath gas: CF4
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -21620,8 +20826,6 @@ u"""
 PrIMe Reaction: r00016188
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000002.xml
 Bath gas: NO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -21678,8 +20882,6 @@ PrIMe Reaction: r00016188
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000003.xml
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 26 17:15:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:7"""),
@@ -21735,8 +20937,6 @@ u"""
 PrIMe Reaction: r00016188
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000004.xml
 Bath gas: NO
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -21791,8 +20991,6 @@ entry(
 u"""
 PrIMe Reaction: r00016188
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000005.xml
-Category: Theory
-Data type: Other theoretical
 """,
     history = [
         ("Thu Jul 26 17:16:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981CHO/BEN833:8"""),
@@ -21845,8 +21043,6 @@ entry(
 u"""
 PrIMe Reaction: r00016188
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000007.xml
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 26 17:17:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:31"""),
@@ -21903,8 +21099,6 @@ PrIMe Reaction: r00016188
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000008.xml
 Uncertainty: 2.0
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -21957,8 +21151,6 @@ entry(
 u"""
 PrIMe Reaction: r00016188
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016188/rk00000009.xml
-Category: Theory
-Data type: Transition state theory
 
 Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
 """,
@@ -22013,8 +21205,6 @@ entry(
 u"""
 PrIMe Reaction: r00016189
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016189/rk00000001.xml
-Category: Theory
-Data type: Transition state theory
 
 Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
 """,
@@ -22072,8 +21262,6 @@ u"""
 PrIMe Reaction: r00016190
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016190/rk00000001.xml
 Bath gas: NO
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -22128,8 +21316,6 @@ entry(
 u"""
 PrIMe Reaction: r00016190
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016190/rk00000002.xml
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 26 17:25:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:32"""),
@@ -22180,8 +21366,6 @@ entry(
 u"""
 PrIMe Reaction: r00016190
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016190/rk00000003.xml
-Category: Theory
-Data type: Transition state theory
 
 Rate expression does not contain tunneling contributions. Temperature range not specified but it does include 298.15 K.
 """,
@@ -22237,8 +21421,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002224
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:17:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972KER/PARB:10"""),
@@ -22293,8 +21475,6 @@ entry(
 u"""
 PrIMe Reaction: r00002224
 Bath gas: (C2H5)2NN
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -22353,8 +21533,6 @@ u"""
 PrIMe Reaction: r00002224
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002224/rk00000001.xml
 Bath gas: n-C4H9CHO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -22413,8 +21591,6 @@ u"""
 PrIMe Reaction: r00002406
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002406/rk00000001.xml
 Bath gas: C2H2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -22472,8 +21648,6 @@ u"""
 PrIMe Reaction: r00004930
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004930/rk00000001.xml
 Bath gas: (C2H5)2CO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -22535,8 +21709,6 @@ u"""
 PrIMe Reaction: r00005528
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005528/rk00000004.xml
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Electron beam
 Analytical technique: Electron spin resonance (ESR or EPR)
 """,
@@ -22594,8 +21766,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00005528
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 
 The detailed rate coefficients for all experimental conditions, carried out using the final adjusted stationary point energies, are given as electronic supplementary information.
 """,
@@ -22655,8 +21825,6 @@ u"""
 PrIMe Reaction: r00005637
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005637/rk00000001.xml
 Bath gas: CH3CH=CH2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:18:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996BAR/MAR829-847:7"""),
@@ -22713,8 +21881,6 @@ entry(
 u"""
 PrIMe Reaction: r00011228
 Bath gas: C2H6
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -22773,8 +21939,6 @@ entry(
 u"""
 PrIMe Reaction: r00011228
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:28:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987IMB/MAR81:4"""),
@@ -22832,8 +21996,6 @@ u"""
 PrIMe Reaction: r00011228
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011228/rk00000001.xml
 Bath gas: C2H6
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:28:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963QUI2543:1"""),
@@ -22887,8 +22049,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00015135
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
@@ -22945,8 +22105,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00015136
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
@@ -23007,8 +22165,6 @@ u"""
 PrIMe Reaction: r00015690
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015690/rk00000001.xml
 Bath gas: O2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:36:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:11"""),
@@ -23066,8 +22222,6 @@ u"""
 PrIMe Reaction: r00016149
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016149/rk00000001.xml
 Bath gas: O2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -23130,8 +22284,6 @@ PrIMe Reaction: r00016150
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016150/rk00000001.xml
 Uncertainty: 3.1600001
 Bath gas: O2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -23189,8 +22341,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00016551
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 
 The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
 
@@ -23251,8 +22401,6 @@ entry(
 u"""
 PrIMe Reaction: r00016551
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016551/rk00000001.xml
-Category: Theory
-Data type: Other theoretical
 """,
     history = [
         ("Thu Jul 12 21:39:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BAL/WAL819:10"""),
@@ -23308,8 +22456,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00016689
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 
 The authors developed a structure activity relationship (SARs) for the estimation of rate data for the decomposition of RO to alkyl radical and carbonyl fragments. The SARs are based upon strong, non-linear, correlations between the logarithm of measured room temperature rate coefficients and the average measured ionisation potential (IP) of the reaction products,. The considered compounds include simple unsubstituted, beta-chlorinated and beta-hydroxylated alkoxylradicals. Chemical activation processes in the decomposition chemistry are briefly discussed.
 
@@ -23372,8 +22518,6 @@ PrIMe Reaction: r00016689
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016689/rk00000001.xml
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 21:39:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:15"""),
@@ -23428,8 +22572,6 @@ u"""
 PrIMe Reaction: r00002194
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002194/rk00000001.xml
 Bath gas: 2,2-dimethylpropanal
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -23486,8 +22628,6 @@ entry(
 u"""
 PrIMe Reaction: r00003845
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003845/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 
 A quantum chemical study of the reaction of OH with isoprene (2-Methyl-1,3-butadiene). Used ab initio MP2/cc-pVTZ and CCSD(T)/6-311+G(d,p) methods, also DFT BHandHLYP/6-311G(d,p) methods. Computed rate constants from transtion states using Truongs TST The Rate program. Found good agreement with experimental measurements for total and site specific rate constants. Addition to double bonds at terminal sites is barrierless, while addition to internal sites has a barrier of 10-20 kJ/mol using the DFT method. The CCSD(T)/6-311+G(d,p)//MP2/6-311G(d,p) barriers were significantly higher (9-11 kJ/mol for terminal addition and 27-35 kJ/mol for internal addition). Rate constants reported here are using the DFT energetics.
 """,
@@ -23544,8 +22684,6 @@ entry(
 u"""
 PrIMe Reaction: r00003846
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003846/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 
 A quantum chemical study of the reaction of OH with isoprene (2-Methyl-1,3-butadiene). Used ab initio MP2/cc-pVTZ and CCSD(T)/6-311+G(d,p) methods, also DFT BHandHLYP/6-311G(d,p) methods. Computed rate constants from transtion states using Truongs TST The Rate program. Found good agreement with experimental measurements for total and site specific rate constants. Addition to double bonds at terminal sites is barrierless, while addition to internal sites has a barrier of 10-20 kJ/mol using the DFT method. The CCSD(T)/6-311+G(d,p)//MP2/6-311G(d,p) barriers were significantly higher (9-11 kJ/mol for terminal addition and 27-35 kJ/mol for internal addition). Rate constants reported here are using the DFT energetics.
 """,
@@ -23602,8 +22740,6 @@ entry(
 u"""
 PrIMe Reaction: r00003847
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003847/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 
 A quantum chemical study of the reaction of OH with isoprene (2-Methyl-1,3-butadiene). Used ab initio MP2/cc-pVTZ and CCSD(T)/6-311+G(d,p) methods, also DFT BHandHLYP/6-311G(d,p) methods. Computed rate constants from transtion states using Truongs TST The Rate program. Found good agreement with experimental measurements for total and site specific rate constants. Addition to double bonds at terminal sites is barrierless, while addition to internal sites has a barrier of 10-20 kJ/mol using the DFT method. The CCSD(T)/6-311+G(d,p)//MP2/6-311G(d,p) barriers were significantly higher (9-11 kJ/mol for terminal addition and 27-35 kJ/mol for internal addition). Rate constants reported here are using the DFT energetics.
 
@@ -23662,8 +22798,6 @@ entry(
 u"""
 PrIMe Reaction: r00003848
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003848/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 
 A quantum chemical study of the reaction of OH with isoprene (2-Methyl-1,3-butadiene). Used ab initio MP2/cc-pVTZ and CCSD(T)/6-311+G(d,p) methods, also DFT BHandHLYP/6-311G(d,p) methods. Computed rate constants from transtion states using Truongs TST The Rate program. Found good agreement with experimental measurements for total and site specific rate constants. Addition to double bonds at terminal sites is barrierless, while addition to internal sites has a barrier of 10-20 kJ/mol using the DFT method. The CCSD(T)/6-311+G(d,p)//MP2/6-311G(d,p) barriers were significantly higher (9-11 kJ/mol for terminal addition and 27-35 kJ/mol for internal addition). Rate constants reported here are using the DFT energetics.
 
@@ -23722,8 +22856,6 @@ entry(
 u"""
 PrIMe Reaction: r00011862
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011862/rk00000001.xml
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 """,
     history = [
@@ -23783,8 +22915,6 @@ PrIMe Reaction: r00015135
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015135/rk00000001.xml
 Uncertainty: 1.58
 Bath gas: NO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -23845,8 +22975,6 @@ PrIMe Reaction: r00015135
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015135/rk00000003.xml
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -23903,8 +23031,6 @@ entry(
 u"""
 PrIMe Reaction: r00015135
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015135/rk00000004.xml
-Category: Theory
-Data type: Other theoretical
 """,
     history = [
         ("Wed Jul 25 19:00:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981CHO/BEN833:4"""),
@@ -23959,8 +23085,6 @@ entry(
 u"""
 PrIMe Reaction: r00015135
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015135/rk00000005.xml
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Wed Jul 25 19:01:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:28"""),
@@ -24015,8 +23139,6 @@ entry(
 u"""
 PrIMe Reaction: r00015136
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015136/rk00000002.xml
-Category: Theory
-Data type: Other theoretical
 """,
     history = [
         ("Wed Jul 25 19:06:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981CHO/BEN833:5"""),
@@ -24071,8 +23193,6 @@ entry(
 u"""
 PrIMe Reaction: r00015136
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015136/rk00000003.xml
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Wed Jul 25 19:07:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:29"""),
@@ -24130,8 +23250,6 @@ u"""
 PrIMe Reaction: r00015136
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015136/rk00000001.xml
 Bath gas: NO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Reference reaction: C2H5C(CH3)2O(*) -> (CH3)2CO + *C2H5
@@ -24191,8 +23309,6 @@ PrIMe Reaction: r00016656
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016656/rk00000001.xml
 Uncertainty: 2.51
 Bath gas: CO2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Reference reaction: NO + CH3(CH2)2CH(CH3)O -> CH3(CH2)2CH(CH3)ONO
@@ -24250,8 +23366,6 @@ entry(
 u"""
 PrIMe Reaction: r00016656
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016656/rk00000002.xml
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 26 17:32:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:33"""),
@@ -24307,8 +23421,6 @@ u"""
 PrIMe Reaction: r00016657
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016657/rk00000001.xml
 Bath gas: CO2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -24367,8 +23479,6 @@ PrIMe Reaction: r00016682
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016682/rk00000001.xml
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 26 17:39:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:8"""),
@@ -24426,8 +23536,6 @@ u"""
 PrIMe Reaction: r00017011
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017011/rk00000001.xml
 Bath gas: Toluene
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 26 17:47:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989BRA/FRA1053-1061:12"""),
@@ -24485,8 +23593,6 @@ u"""
 PrIMe Reaction: r00017011
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017011/rk00000002.xml
 Bath gas: N2
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 26 17:48:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989WES/DEA8171-8180:5"""),
@@ -24546,8 +23652,6 @@ u"""
 PrIMe Reaction: r00017013
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017013/rk00000001.xml
 Bath gas: Toluene
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 26 17:50:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989BRA/FRA1053-1061:13"""),
@@ -24602,8 +23706,6 @@ entry(
 u"""
 PrIMe Reaction: r00017118
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017118/rk00000001.xml
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 26 17:51:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:44"""),
@@ -24661,8 +23763,6 @@ u"""
 PrIMe Reaction: r00017118
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017118/rk00000002.xml
 Bath gas: N2
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 26 17:52:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989WES/DEA8171-8180:10"""),
@@ -24718,8 +23818,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00002223
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:17:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972KER/PARB:9"""),
@@ -24777,8 +23875,6 @@ u"""
 PrIMe Reaction: r00002223
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002223/rk00000001.xml
 Bath gas: (iso-C3H7)-N=N-(iso-C3H7)
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -24838,8 +23934,6 @@ u"""
 PrIMe Reaction: r00005635
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005635/rk00000001.xml
 Uncertainty: 10.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 21:18:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:24"""),
@@ -24899,8 +23993,6 @@ u"""
 PrIMe Reaction: r00005635
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Theory
-Data type: Transition state theory
 """,
     history = [
         ("Thu Jul 12 21:18:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BAL/WAL2157:13"""),
@@ -24961,8 +24053,6 @@ PrIMe Reaction: r00016148
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016148/rk00000001.xml
 Uncertainty: 3.1600001
 Bath gas: N2
-Category: Theory
-Data type: Transition state theory
 """,
     history = [
         ("Thu Jul 12 21:37:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BAL/WAL2157:14"""),
@@ -25019,8 +24109,6 @@ entry(
 u"""
 PrIMe Reaction: r00016227
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016227/rk00000002.xml
-Category: Theory
-Data type: Other theoretical
 """,
     history = [
         ("Thu Jul 12 21:39:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981CHO/BEN833:9"""),
@@ -25080,8 +24168,6 @@ u"""
 PrIMe Reaction: r00016870
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016870/rk00000001.xml
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -25142,8 +24228,6 @@ entry(
 u"""
 PrIMe Reaction: r00016871
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016871/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 
 Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
 
@@ -25206,8 +24290,6 @@ entry(
 u"""
 PrIMe Reaction: r00016871
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016871/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 
 Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
 
@@ -25270,8 +24352,6 @@ PrIMe Reaction: r00008207
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008207/rk00000001.xml
 Uncertainty: 3.2
 Bath gas: (iso-C3H7)-N=N-(iso-C3H7)
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Reference reaction: iso-C3H7 + iso-C3H7 -> (CH3)2CHCH(CH3)2
@@ -25335,8 +24415,6 @@ entry(
 u"""
 PrIMe Reaction: r00016107
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016107/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 
 Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Used G2M(CC5) method (see paper for details). Calculated many different reaction pathways and intermediates. Only a few of the more important ones are abstracted here. Rate expressions for different pressures for some of the channels are also given in the paper. See paper for further details. Used NIST ChemRate program to calculated rate expressions from ab initio transition states. In paper also provide DfHo heats of formation for many of the intermediates.
 """,
@@ -25401,8 +24479,6 @@ entry(
 u"""
 PrIMe Reaction: r00016108
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016108/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 
 Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Used G2M(CC5) method (see paper for details). Calculated many different reaction pathways and intermediates. Only a few of the more important ones are abstracted here. Rate expressions for different pressures for some of the channels are also given in the paper. See paper for further details. Used NIST ChemRate program to calculated rate expressions from ab initio transition states. In paper also provide DfHo heats of formation for many of the intermediates.
 """,
@@ -25466,8 +24542,6 @@ u"""
 PrIMe Reaction: r00016187
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016187/rk00000001.xml
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 26 17:12:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984BRE/LIT1053:5"""),
@@ -25529,8 +24603,6 @@ u"""
 PrIMe Reaction: r00005846
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005846/rk00000001.xml
 Bath gas: (tert-C4H9O)2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -25594,8 +24666,6 @@ u"""
 PrIMe Reaction: r00007920
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007920/rk00000001.xml
 Bath gas: (C2H5)2CO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Mass spectrometry
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
@@ -25659,8 +24729,6 @@ entry(
 u"""
 PrIMe Reaction: r00011160
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011160/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 
 Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl + Acetylene. Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies. RRKM/Master equation methods to calculate rate expressions. Too complicated to abstract all reaction pathways. Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details. Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material. For more details, see article and companion article.
 """,
@@ -25723,8 +24791,6 @@ entry(
 u"""
 PrIMe Reaction: r00006975
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006975/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 
 Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl + Acetylene. Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies. RRKM/Master equation methods to calculate rate expressions. Too complicated to abstract all reaction pathways. Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details. Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material. For more details, see article and companion article.
 """,
@@ -25787,8 +24853,6 @@ entry(
 u"""
 PrIMe Reaction: r00006976
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006976/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 
 Used quantum calculations to compute many, many possible pathways for reactions of Phenyl + Allene, Phenyl + Cyclopropene, and Benzyl + Acetylene. Used B3LYP/6-311+G(d,p) for geometries/frequencies/PES and CCSD(T) or QCISD(T)/6-311G(d,p) for critical energies. RRKM/Master equation methods to calculate rate expressions. Too complicated to abstract all reaction pathways. Article refers reader to companion article by Vereecken et al, JACS 124, 2781 (2002) for more details. Rate expressions for a number of the major reaction pathways are abstracted here from the paper and supplementary material. For more details, see article and companion article.
 """,
@@ -25853,8 +24917,6 @@ entry(
 u"""
 PrIMe Reaction: r00016835
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016835/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 """,
     history = [
         ("Thu Jul 12 21:40:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004FAS/CAV3829-3843:13"""),
@@ -25919,8 +24981,6 @@ entry(
 u"""
 PrIMe Reaction: r00016835
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016835/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
 
 Rate expressions derived from density functional theory (DFT) quantum calculations of transition states, and reactants and products. Transition state theory and QRRK methods were used to provide rate expressions bases on the calculated transition states. The geometries and energies of the molecules and transition states were calculated at the B3LYP/6-31G(d,p) level.
@@ -25986,8 +25046,6 @@ entry(
 u"""
 PrIMe Reaction: r00016835
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016835/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 """,
     history = [
         ("Thu Jul 12 21:40:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004FAS/CAV3829-3843:14"""),
@@ -26052,8 +25110,6 @@ entry(
 u"""
 PrIMe Reaction: r00011148
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011148/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 
 Assuming c10h11-c5, c10h11-c6, and c10h11-1 are STABILIZED products
 
@@ -26120,8 +25176,6 @@ entry(
 u"""
 PrIMe Reaction: r00011148
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011148/rk00000004.xml
-Category: Theory
-Data type: Ab initio
 
 Rate expressions based on ab inito transition states using G2MP2//B3LYP/6-31G(d,p) method. Also computed B3LYP/6-31G(d,p) energies (not as good). Rate expressions computed using conventional transition state theory or QRRK methods. Treated hindered rotors. All rate expressions abstracted from paper, including those using different assumptions for stabilization of C10H11 intermediates. See paper for more discussion.
 """,
@@ -26188,8 +25242,6 @@ entry(
 u"""
 PrIMe Reaction: r00015756
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015756/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 
 Rate expressions based on ab inito transition states using G2MP2//B3LYP/6-31G(d,p) method. Also computed B3LYP/6-31G(d,p) energies (not as good). Rate expressions computed using conventional transition state theory or QRRK methods. Treated hindered rotors. All rate expressions abstracted from paper, including those using different assumptions for stabilization of C10H11 intermediates. See paper for more discussion.
 """,
@@ -26256,8 +25308,6 @@ entry(
 u"""
 PrIMe Reaction: r00015756
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015756/rk00000002.xml
-Category: Theory
-Data type: Ab initio
 
 Rate expressions based on ab inito transition states using G2MP2//B3LYP/6-31G(d,p) method. Also computed B3LYP/6-31G(d,p) energies (not as good). Rate expressions computed using conventional transition state theory or QRRK methods. Treated hindered rotors. All rate expressions abstracted from paper, including those using different assumptions for stabilization of C10H11 intermediates. See paper for more discussion.
 """,

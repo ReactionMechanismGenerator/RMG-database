@@ -55,8 +55,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001636
-Category: Experiment
-Data type: Absolute value measured directly
 Pressure dependence: Rate constant is pressure dependent
 Experimental procedure: Shock tube
 Excitation technique: Thermal
@@ -120,8 +118,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001636
-Category: Experiment
-Data type: Absolute value measured directly
 Pressure dependence: Rate constant is pressure dependent
 Experimental procedure: Shock tube
 Excitation technique: Thermal
@@ -186,8 +182,6 @@ entry(
 u"""
 PrIMe Reaction: r00001636
 Bath gas: HCOOH
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -245,8 +239,6 @@ u"""
 PrIMe Reaction: r00001636
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001636/rk00000001.xml
 Bath gas: HCOOH
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -300,8 +292,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001636
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM .
@@ -360,8 +350,6 @@ u"""
 PrIMe Reaction: r00001645
 Uncertainty: 1.86
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -419,8 +407,6 @@ u"""
 PrIMe Reaction: r00001645
 Uncertainty: 2.0
 Bath gas: Ar
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -477,8 +463,6 @@ u"""
 PrIMe Reaction: r00001645
 Uncertainty: 1.41
 Bath gas: CH3C(O)OH
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
@@ -535,8 +519,6 @@ entry(
 u"""
 PrIMe Reaction: r00001645
 Bath gas: CH3CH=CH2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -593,8 +575,6 @@ u"""
 PrIMe Reaction: r00001645
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000001.xml
 Bath gas: CH3C(O)OH
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
@@ -648,8 +628,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001645
-Category: Theory
-Data type: Transition state theory
 """,
     history = [
         ("Fri Jul 13 08:14:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995DUA/PAG5114-5119:1"""),
@@ -706,8 +684,6 @@ u"""
 PrIMe Reaction: r00003987
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003987/rk00000001.xml
 Bath gas: C2H5COOH
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -766,8 +742,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00008316
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -826,8 +800,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00008316
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -887,8 +859,6 @@ u"""
 PrIMe Reaction: r00008316
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008316/rk00000001.xml
 Bath gas: CH2=CHCH2COOH
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -952,8 +922,6 @@ u"""
 PrIMe Reaction: r00006301
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006301/rk00000001.xml
 Bath gas: CH2(COOH)2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1015,8 +983,6 @@ entry(
 u"""
 PrIMe Reaction: r00012860
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012860/rk00000001.xml
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1080,8 +1046,6 @@ entry(
 u"""
 PrIMe Reaction: r00014891
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -1144,8 +1108,6 @@ u"""
 PrIMe Reaction: r00014891
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00014891/rk00000001.xml
 Bath gas: CH2=CHC(CH3)2COOH
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1210,8 +1172,6 @@ u"""
 PrIMe Reaction: r00015735
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015735/rk00000001.xml
 Bath gas: 3-Pentenoic acid, 2,2-dimethyl-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1276,8 +1236,6 @@ u"""
 PrIMe Reaction: r00012640
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000001.xml
 Bath gas: CH2=C(CH3)C(CH3)2COOH
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1344,8 +1302,6 @@ u"""
 PrIMe Reaction: r00012640
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000002.xml
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -1414,8 +1370,6 @@ PrIMe Reaction: r00004480
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004480/rk00000001.xml
 Uncertainty: 2.0
 Bath gas: Benzeneacetic acid
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -1484,8 +1438,6 @@ u"""
 PrIMe Reaction: r00015737
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015737/rk00000001.xml
 Bath gas: 1-Cyclopentene-1-acetic acid, α,α-dimethyl-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1556,8 +1508,6 @@ entry(
 u"""
 PrIMe Reaction: r00008130
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008130/rk00000001.xml
-Category: Experiment
-Data type: Absolute value measured directly
 Pressure dependence: None reported
 Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Thermal
@@ -1635,8 +1585,6 @@ u"""
 PrIMe Reaction: r00015736
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015736/rk00000001.xml
 Bath gas: CH3CH=C(C2H5)C(CH3)2COOH
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,

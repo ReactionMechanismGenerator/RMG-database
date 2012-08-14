@@ -54,8 +54,6 @@ entry(
 u"""
 PrIMe Reaction: r00006456
 Bath gas: Ar
-Category: Review
-Data type: Experimental value and limited review
 """,
     history = [
         ("Fri Jul 13 07:55:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972BEA/GOL2943:2"""),
@@ -108,8 +106,6 @@ entry(
 u"""
 PrIMe Reaction: r00006456
 Bath gas: Cyclobutane
-Category: Experiment
-Data type: Absolute value measured directly
 Pressure dependence: None reported
 Experimental procedure: Other
 Excitation technique: Thermal
@@ -169,8 +165,6 @@ entry(
 u"""
 PrIMe Reaction: r00006456
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -225,8 +219,6 @@ entry(
 u"""
 PrIMe Reaction: r00006456
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -281,8 +273,6 @@ entry(
 u"""
 PrIMe Reaction: r00006456
 Bath gas: Cyclobutane
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -337,8 +327,6 @@ entry(
 u"""
 PrIMe Reaction: r00006456
 Bath gas: Cyclobutane
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -394,8 +382,6 @@ u"""
 PrIMe Reaction: r00006456
 Uncertainty: 10.0
 Bath gas: Cyclobutane
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -451,8 +437,6 @@ u"""
 PrIMe Reaction: r00006456
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006456/rk00000001.xml
 Bath gas: Cyclobutane
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -506,8 +490,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00006456
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: None reported
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory. This is the rate expression for the "global" reaction proceeding via formation of a biradical intermediate.
@@ -562,8 +544,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00006456
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: None reported
 
 Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory. This is the rate expression for the "global" reaction proceeding via formation of a biradical intermediate.
@@ -619,8 +599,6 @@ entry(
 u"""
 PrIMe Reaction: r00006456
 Bath gas: C2H4
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -676,8 +654,6 @@ u"""
 PrIMe Reaction: r00007176
 Uncertainty: 2.04
 Bath gas: Oxetane
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -733,8 +709,6 @@ u"""
 PrIMe Reaction: r00007176
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007176/rk00000001.xml
 Uncertainty: 2.04
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -791,8 +765,6 @@ entry(
 u"""
 PrIMe Reaction: r00008107
 Bath gas: Methylcyclobutane
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -849,8 +821,6 @@ entry(
 u"""
 PrIMe Reaction: r00008107
 Bath gas: Methylcyclobutane
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -908,8 +878,6 @@ u"""
 PrIMe Reaction: r00008107
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008107/rk00000001.xml
 Bath gas: Methylcyclobutane
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -966,8 +934,6 @@ entry(
 u"""
 PrIMe Reaction: r00009414
 Bath gas: SF6
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1024,8 +990,6 @@ entry(
 u"""
 PrIMe Reaction: r00009414
 Bath gas: Cyclobutanone
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1083,8 +1047,6 @@ u"""
 PrIMe Reaction: r00009414
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009414/rk00000001.xml
 Bath gas: Cyclobutanone
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -1141,8 +1103,6 @@ entry(
 u"""
 PrIMe Reaction: r00010718
 Uncertainty: 1.45
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1199,8 +1159,6 @@ entry(
 u"""
 PrIMe Reaction: r00010718
 Uncertainty: 1.3200001
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1258,8 +1216,6 @@ u"""
 PrIMe Reaction: r00010718
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010718/rk00000001.xml
 Bath gas: Oxetane, 2-methyl-
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1316,8 +1272,6 @@ entry(
 u"""
 PrIMe Reaction: r00010719
 Uncertainty: 1.48
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1374,8 +1328,6 @@ entry(
 u"""
 PrIMe Reaction: r00010719
 Uncertainty: 1.48
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1433,8 +1385,6 @@ u"""
 PrIMe Reaction: r00010719
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010719/rk00000001.xml
 Bath gas: Oxetane, 2-methyl-
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1492,8 +1442,6 @@ u"""
 PrIMe Reaction: r00010716
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010716/rk00000001.xml
 Uncertainty: 1.86
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1553,8 +1501,6 @@ u"""
 PrIMe Reaction: r00009420
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009420/rk00000001.xml
 Uncertainty: 1.12
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1613,8 +1559,6 @@ entry(
 u"""
 PrIMe Reaction: r00011373
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1675,8 +1619,6 @@ PrIMe Reaction: r00011373
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011373/rk00000001.xml
 Uncertainty: 1.17
 Bath gas: Ethenylcyclobutane
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1737,8 +1679,6 @@ PrIMe Reaction: r00012719
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012719/rk00000001.xml
 Uncertainty: 3.3099999
 Bath gas: Cyclobutanemethanol
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -1798,8 +1738,6 @@ u"""
 PrIMe Reaction: r00012797
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012797/rk00000001.xml
 Bath gas: Cyclobutane, ethyl-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -1859,8 +1797,6 @@ u"""
 PrIMe Reaction: r00012962
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012962/rk00000001.xml
 Bath gas: Oxetane, 2,2-dimethyl-
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1920,8 +1856,6 @@ u"""
 PrIMe Reaction: r00012963
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012963/rk00000001.xml
 Bath gas: Oxetane, 2,2-dimethyl-
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1981,8 +1915,6 @@ u"""
 PrIMe Reaction: r00013035
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013035/rk00000001.xml
 Bath gas: Oxetane, 3,3-dimethyl-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2042,8 +1974,6 @@ u"""
 PrIMe Reaction: r00011611
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011611/rk00000001.xml
 Bath gas: Cyclobutanecarboxaldehyde
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: IR absorption
 """,
@@ -2103,8 +2033,6 @@ u"""
 PrIMe Reaction: r00015648
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015648/rk00000001.xml
 Bath gas: Cyclobutane, 1,2-dimethyl-, cis-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -2164,8 +2092,6 @@ u"""
 PrIMe Reaction: r00015651
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015651/rk00000001.xml
 Bath gas: Cyclobutane, 1,2-dimethyl-, trans-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -2225,8 +2151,6 @@ u"""
 PrIMe Reaction: r00015649
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015649/rk00000001.xml
 Bath gas: Cyclobutane, 1,2-dimethyl-, cis-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -2286,8 +2210,6 @@ u"""
 PrIMe Reaction: r00015652
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015652/rk00000001.xml
 Bath gas: Cyclobutane, 1,2-dimethyl-, trans-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -2347,8 +2269,6 @@ u"""
 PrIMe Reaction: r00016231
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016231/rk00000001.xml
 Uncertainty: 1.8200001
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2408,8 +2328,6 @@ u"""
 PrIMe Reaction: r00016297
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016297/rk00000001.xml
 Uncertainty: 1.78
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2469,8 +2387,6 @@ u"""
 PrIMe Reaction: r00016232
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016232/rk00000001.xml
 Uncertainty: 1.78
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2530,8 +2446,6 @@ u"""
 PrIMe Reaction: r00016298
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016298/rk00000001.xml
 Uncertainty: 1.66
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2592,8 +2506,6 @@ u"""
 PrIMe Reaction: r00006431
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006431/rk00000001.xml
 Bath gas: Bicyclo[3.2.0]heptane
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2655,8 +2567,6 @@ u"""
 PrIMe Reaction: r00009049
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009049/rk00000001.xml
 Bath gas: Isopropylcyclobutane
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
@@ -2719,8 +2629,6 @@ PrIMe Reaction: r00009421
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009421/rk00000001.xml
 Uncertainty: 1.66
 Bath gas: Cyclobutanone, 3,3-dimethyl-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -2781,8 +2689,6 @@ entry(
 u"""
 PrIMe Reaction: r00011630
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2844,8 +2750,6 @@ u"""
 PrIMe Reaction: r00011632
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011632/rk00000001.xml
 Bath gas: Ethanone, 1-cyclobutyl)-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: IR absorption
 """,
@@ -2907,8 +2811,6 @@ u"""
 PrIMe Reaction: r00012798
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012798/rk00000001.xml
 Bath gas: Cyclobutane, propyl-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -2970,8 +2872,6 @@ PrIMe Reaction: r00013054
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013054/rk00000001.xml
 Uncertainty: 2.1400001
 Bath gas: Bicyclo[3.2.0]hept-6-ene
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3033,8 +2933,6 @@ u"""
 PrIMe Reaction: r00016299
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016299/rk00000001.xml
 Uncertainty: 1.15
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3096,8 +2994,6 @@ u"""
 PrIMe Reaction: r00016368
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016368/rk00000001.xml
 Uncertainty: 1.42
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -3157,8 +3053,6 @@ u"""
 PrIMe Reaction: r00011630
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011630/rk00000001.xml
 Bath gas: Cyclobutane,(1-methylethenyl)-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3220,8 +3114,6 @@ u"""
 PrIMe Reaction: r00011630
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011630/rk00000002.xml
 Uncertainty: 1.42
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3283,8 +3175,6 @@ u"""
 PrIMe Reaction: r00016300
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016300/rk00000001.xml
 Uncertainty: 1.17
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3348,8 +3238,6 @@ u"""
 PrIMe Reaction: r00008915
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008915/rk00000001.xml
 Bath gas: Cyclobutanecarboxylic acid methyl ester
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3413,8 +3301,6 @@ u"""
 PrIMe Reaction: r00013004
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013004/rk00000001.xml
 Bath gas: 1-Propanone, 1-cyclobutyl-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: IR absorption
 """,
@@ -3478,8 +3364,6 @@ u"""
 PrIMe Reaction: r00014886
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00014886/rk00000001.xml
 Uncertainty: 1.16
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -3543,8 +3427,6 @@ PrIMe Reaction: r00015146
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015146/rk00000001.xml
 Uncertainty: 1.29
 Bath gas: CH3CH=CH2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3607,8 +3489,6 @@ u"""
 PrIMe Reaction: r00015261
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015261/rk00000001.xml
 Uncertainty: 1.26
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3672,8 +3552,6 @@ PrIMe Reaction: r00017015
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017015/rk00000001.xml
 Uncertainty: 2.0
 Bath gas: N2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3737,8 +3615,6 @@ PrIMe Reaction: r00016155
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016155/rk00000001.xml
 Uncertainty: 1.12
 Bath gas: Cyclobutane, 1,1,3,3-tetramethyl-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3803,8 +3679,6 @@ PrIMe Reaction: r00016567
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016567/rk00000001.xml
 Uncertainty: 2.24
 Bath gas: Oxetane, 2,2,3,4-tetramethyl-,(E)-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3869,8 +3743,6 @@ PrIMe Reaction: r00016568
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016568/rk00000001.xml
 Uncertainty: 5.0
 Bath gas: Oxetane, 2,2,3,4-tetramethyl-,(Z)-
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3934,8 +3806,6 @@ u"""
 PrIMe Reaction: r00016669
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016669/rk00000001.xml
 Uncertainty: 5.0
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -4000,8 +3870,6 @@ u"""
 PrIMe Reaction: r00012680
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012680/rk00000001.xml
 Uncertainty: 1.0700001
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -4069,8 +3937,6 @@ u"""
 PrIMe Reaction: r00008919
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008919/rk00000001.xml
 Uncertainty: 1.66
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,

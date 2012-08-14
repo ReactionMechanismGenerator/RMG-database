@@ -53,8 +53,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001601
-Category: Review
-Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 
 The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
@@ -112,8 +110,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001601
-Category: Review
-Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 
 The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
@@ -171,8 +167,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001601
-Category: Review
-Data type: Experimental value and limited review
 Pressure dependence: Rate constant is high pressure limit
 
 The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
@@ -230,8 +224,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001601
-Category: Review
-Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 
 The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
@@ -289,8 +281,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001601
-Category: Review
-Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 
 The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
@@ -348,8 +338,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001601
-Category: Review
-Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 
 The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
@@ -407,8 +395,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001601
-Category: Review
-Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
 
 The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
@@ -464,8 +450,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001601
-Category: Experiment
-Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is high pressure limit
 
 Results are based on a review and analysis of the literature data. The article discusses the multi-channel nature of ethanol decomposition and difficulties associated with expressing the rate constants in a convenient analytical form over extended temperature and pressure ranges.
@@ -521,8 +505,6 @@ entry(
 u"""
 PrIMe Reaction: r00001601
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001601/rk00000001.xml
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Fri Jul 13 08:15:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999MAR183-220:3"""),
@@ -572,8 +554,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001601
-Category: Theory
-Data type: Ab initio
 
 NOTE This is speculative reaction to explain formation of C2H4. Authors imply that C-OH bond fission channel (with identical rate expression) may be more likely.
 
@@ -638,8 +618,6 @@ entry(
 u"""
 PrIMe Reaction: r00001646
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -697,8 +675,6 @@ u"""
 PrIMe Reaction: r00001646
 Uncertainty: 2.0
 Bath gas: Ar
-Category: Experiment
-Data type: High or low pressure extrapolation
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -755,8 +731,6 @@ u"""
 PrIMe Reaction: r00001646
 Uncertainty: 1.91
 Bath gas: CH3C(O)OH
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
@@ -814,8 +788,6 @@ u"""
 PrIMe Reaction: r00001646
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001646/rk00000001.xml
 Bath gas: CH3C(O)OH
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Other (direct)
 """,
@@ -869,8 +841,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00001646
-Category: Theory
-Data type: Transition state theory
 """,
     history = [
         ("Fri Jul 13 08:15:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995DUA/PAG5114-5119:2"""),
@@ -927,8 +897,6 @@ PrIMe Reaction: r00001741
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001741/rk00000002.xml
 Uncertainty: 5.0
 Bath gas: iso-C3H7OH
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -985,8 +953,6 @@ entry(
 u"""
 PrIMe Reaction: r00001741
 Bath gas: Ar
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
 
 The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
@@ -1046,8 +1012,6 @@ entry(
 u"""
 PrIMe Reaction: r00001741
 Bath gas: Ar
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
 
 The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
@@ -1105,8 +1069,6 @@ entry(
 u"""
 PrIMe Reaction: r00001741
 Bath gas: Ar
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
@@ -1168,8 +1130,6 @@ entry(
 u"""
 PrIMe Reaction: r00001557
 Bath gas: (C2H5)2O
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1228,8 +1188,6 @@ entry(
 u"""
 PrIMe Reaction: r00001557
 Bath gas: (C2H5)2O
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1289,8 +1247,6 @@ u"""
 PrIMe Reaction: r00001557
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001557/rk00000001.xml
 Bath gas: (C2H5)2O
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 """,
@@ -1349,8 +1305,6 @@ entry(
 u"""
 PrIMe Reaction: r00003587
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1409,8 +1363,6 @@ entry(
 u"""
 PrIMe Reaction: r00003587
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1466,8 +1418,6 @@ entry(
 u"""
 PrIMe Reaction: r00003587
 Bath gas: tert-C4H9OH
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1527,8 +1477,6 @@ u"""
 PrIMe Reaction: r00003587
 Uncertainty: 1.58
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1587,8 +1535,6 @@ entry(
 u"""
 PrIMe Reaction: r00003587
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1649,8 +1595,6 @@ PrIMe Reaction: r00003587
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003587/rk00000002.xml
 Uncertainty: 2.8199999
 Bath gas: tert-C4H9OH
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
@@ -1711,8 +1655,6 @@ u"""
 PrIMe Reaction: r00008094
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008094/rk00000001.xml
 Uncertainty: 3.1600001
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1775,8 +1717,6 @@ PrIMe Reaction: r00007803
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007803/rk00000001.xml
 Uncertainty: 3.3900001
 Bath gas: Toluene
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -1837,8 +1777,6 @@ entry(
 u"""
 PrIMe Reaction: r00009888
 Bath gas: tert-C4H9OCH3
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1899,8 +1837,6 @@ entry(
 u"""
 PrIMe Reaction: r00009888
 Bath gas: tert-C4H9OCH3
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1958,8 +1894,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00009888
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -2019,8 +1953,6 @@ u"""
 PrIMe Reaction: r00009888
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009888/rk00000002.xml
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2084,8 +2016,6 @@ u"""
 PrIMe Reaction: r00005036
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005036/rk00000001.xml
 Bath gas: (iso-C3H7)2O
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2150,8 +2080,6 @@ PrIMe Reaction: r00006952
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006952/rk00000001.xml
 Uncertainty: 2.8199999
 Bath gas: CH2(OC2H5)2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2215,8 +2143,6 @@ u"""
 PrIMe Reaction: r00008052
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008052/rk00000001.xml
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2280,8 +2206,6 @@ u"""
 PrIMe Reaction: r00008053
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008053/rk00000001.xml
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2343,8 +2267,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00008622
-Category: Experiment
-Data type: Absolute value measured directly
 Pressure dependence: Rate constant is high pressure limit
 Experimental procedure: Shock tube
 Time resolution: In real time
@@ -2409,8 +2331,6 @@ PrIMe Reaction: r00008622
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008622/rk00000003.xml
 Uncertainty: 1.4
 Bath gas: tert-C4H9OC2H5
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Pressure measurement
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
@@ -2476,8 +2396,6 @@ PrIMe Reaction: r00007088
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007088/rk00000001.xml
 Rate constant is an upper limit.
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2543,8 +2461,6 @@ u"""
 PrIMe Reaction: r00015783
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015783/rk00000001.xml
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
@@ -2611,8 +2527,6 @@ u"""
 PrIMe Reaction: r00015784
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015784/rk00000001.xml
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
@@ -2680,8 +2594,6 @@ PrIMe Reaction: r00016319
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016319/rk00000001.xml
 Uncertainty: 2.29
 Bath gas: Cyclohexene
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2746,8 +2658,6 @@ entry(
 u"""
 PrIMe Reaction: r00001556
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001556/rk00000001.xml
-Category: Experiment
-Data type: Absolute value measured directly
 Pressure dependence: None reported
 Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Thermal

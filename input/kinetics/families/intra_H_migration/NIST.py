@@ -51,8 +51,6 @@ PrIMe Reaction: r00010565
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010565/rk00000001.xml
 Rate constant is an upper limit.
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Tue Jul 24 19:26:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981BAT/BUR467:1"""),
@@ -100,8 +98,6 @@ entry(
 u"""
 PrIMe Reaction: r00010505
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010505/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
@@ -155,8 +151,6 @@ u"""
 PrIMe Reaction: r00012711
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012711/rk00000001.xml
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 12:54:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975COL/NAE223:3"""),
@@ -204,8 +198,6 @@ entry(
 u"""
 PrIMe Reaction: r00015630
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015630/rk00000001.xml
-Category: Theory
-Data type: Other theoretical
 """,
     history = [
         ("Wed Jul 25 12:57:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:2"""),
@@ -253,8 +245,6 @@ entry(
 u"""
 PrIMe Reaction: r00015630
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015630/rk00000002.xml
-Category: Theory
-Data type: Other theoretical
 """,
     history = [
         ("Wed Jul 25 12:58:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986OND/ZIE1127:1"""),
@@ -306,8 +296,6 @@ entry(
 u"""
 PrIMe Reaction: r00011212
 Bath gas: H2S
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -362,8 +350,6 @@ u"""
 PrIMe Reaction: r00011212
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011212/rk00000001.xml
 Bath gas: C2H6
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -414,8 +400,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011212
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
@@ -469,8 +453,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011212
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
@@ -527,8 +509,6 @@ entry(
 u"""
 PrIMe Reaction: r00011212
 Bath gas: H2S
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -580,8 +560,6 @@ entry(
 u"""
 PrIMe Reaction: r00010707
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010707/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
@@ -634,8 +612,6 @@ entry(
 u"""
 PrIMe Reaction: r00012770
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012770/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
@@ -692,8 +668,6 @@ entry(
 u"""
 PrIMe Reaction: r00011467
 Bath gas: n-C5H12
-Category: Review
-Data type: Experimental value and limited review
 """,
     history = [
         ("Fri Jul 13 08:02:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990MAR935-950:3"""),
@@ -748,8 +722,6 @@ u"""
 PrIMe Reaction: r00011467
 Uncertainty: 10.0
 Bath gas: n-C5H12
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -805,8 +777,6 @@ entry(
 u"""
 PrIMe Reaction: r00011467
 Bath gas: CO2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -863,8 +833,6 @@ u"""
 PrIMe Reaction: r00011467
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011467/rk00000001.xml
 Bath gas: (CH3)2CO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -917,8 +885,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011467
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
@@ -974,8 +940,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011467
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
@@ -1032,8 +996,6 @@ entry(
 u"""
 PrIMe Reaction: r00011467
 Bath gas: Products
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 """,
     history = [
@@ -1085,8 +1047,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00011467
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Fri Jul 13 08:02:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972WAT3738:1"""),
@@ -1138,8 +1098,6 @@ entry(
 u"""
 PrIMe Reaction: r00011468
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011468/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
@@ -1197,8 +1155,6 @@ u"""
 PrIMe Reaction: r00015924
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000001.xml
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 13:14:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:6"""),
@@ -1251,8 +1207,6 @@ u"""
 PrIMe Reaction: r00015924
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000002.xml
 Bath gas: n-C4H9ONO
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 13:16:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978BAL/GOL108:3"""),
@@ -1308,8 +1262,6 @@ PrIMe Reaction: r00015924
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000003.xml
 Uncertainty: 5.0
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -1364,8 +1316,6 @@ u"""
 PrIMe Reaction: r00015924
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000005.xml
 Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
@@ -1433,8 +1383,6 @@ entry(
 u"""
 PrIMe Reaction: r00015924
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000010.xml
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is pressure dependent
 
 The authors have studied the 1-butoxy H-shift reaction, exploring several approaches for deriving rate constants for a reaction system with multiple reactant rotamers and multiple transition state conformers. It is shown that the various treatments are fully consistent, even if the TST expressions themselves appear different. Rate constants are derived at 298 K and 1 atm pressure and compared with the literature.
@@ -1493,8 +1441,6 @@ entry(
 u"""
 PrIMe Reaction: r00011474
 Uncertainty: 1.5
-Category: Experiment
-Data type: Relative value normalized by a reference value
 Pressure dependence: Rate constant is high pressure limit
 Experimental procedure: Shock tube
 Excitation technique: Thermal
@@ -1563,8 +1509,6 @@ u"""
 PrIMe Reaction: r00011474
 Uncertainty: 2.0
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -1623,8 +1567,6 @@ u"""
 PrIMe Reaction: r00011474
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011474/rk00000001.xml
 Bath gas: C2H4
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -1680,8 +1622,6 @@ entry(
 u"""
 PrIMe Reaction: r00011474
 Bath gas: Products
-Category: Theory
-Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
 """,
     history = [
@@ -1738,8 +1678,6 @@ entry(
 u"""
 PrIMe Reaction: r00011474
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Fri Jul 13 08:03:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987IMB/MAR81:6"""),
@@ -1795,8 +1733,6 @@ entry(
 u"""
 PrIMe Reaction: r00011474
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Fri Jul 13 08:03:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987IMB/MAR81:5"""),
@@ -1849,8 +1785,6 @@ u"""
 PrIMe Reaction: r00000088
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000088/rk00000001.xml
 Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
@@ -1919,8 +1853,6 @@ u"""
 PrIMe Reaction: r00000089
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000089/rk00000001.xml
 Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
@@ -1992,8 +1924,6 @@ u"""
 PrIMe Reaction: r00015688
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015688/rk00000001.xml
 Bath gas: O2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 12:59:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:10"""),
@@ -2050,8 +1980,6 @@ u"""
 PrIMe Reaction: r00015689
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015689/rk00000001.xml
 Bath gas: O2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 13:06:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:9"""),
@@ -2105,8 +2033,6 @@ entry(
 u"""
 PrIMe Reaction: r00015689
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015689/rk00000002.xml
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 Rate expressions derived from transition states from B3LYP/cc-pVDZ calculations of Sumathi.Ea is an adjusted value based on a reference reaction and the relative heats of reaction. See paper for more details.
@@ -2166,8 +2092,6 @@ u"""
 PrIMe Reaction: r00016683
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016683/rk00000001.xml
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Wed Jul 25 13:26:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977BAL/BAR2483:9"""),
@@ -2222,8 +2146,6 @@ u"""
 PrIMe Reaction: r00017157
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017157/rk00000001.xml
 Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
@@ -2297,8 +2219,6 @@ PrIMe Reaction: r00017157
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017157/rk00000005.xml
 Uncertainty: 5.0
 Bath gas: CO2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -2359,8 +2279,6 @@ u"""
 PrIMe Reaction: r00016217
 Uncertainty: 10.0
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
@@ -2421,8 +2339,6 @@ u"""
 PrIMe Reaction: r00016217
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016217/rk00000002.xml
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2481,8 +2397,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00016217
-Category: Theory
-Data type: Ab initio
 
 Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
 
@@ -2543,8 +2457,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00016217
-Category: Theory
-Data type: Ab initio
 
 Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
 
@@ -2603,8 +2515,6 @@ u"""
 PrIMe Reaction: r00000087
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000087/rk00000001.xml
 Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
@@ -2675,8 +2585,6 @@ u"""
 PrIMe Reaction: r00000091
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000091/rk00000001.xml
 Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
@@ -2747,8 +2655,6 @@ u"""
 PrIMe Reaction: r00000092
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000092/rk00000001.xml
 Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
@@ -2819,8 +2725,6 @@ u"""
 PrIMe Reaction: r00000093
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000093/rk00000001.xml
 Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
@@ -2891,8 +2795,6 @@ u"""
 PrIMe Reaction: r00000094
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000094/rk00000001.xml
 Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
@@ -2965,8 +2867,6 @@ u"""
 PrIMe Reaction: r00000033
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000033/rk00000001.xml
 Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
@@ -3039,8 +2939,6 @@ u"""
 PrIMe Reaction: r00000034
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000034/rk00000001.xml
 Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.
@@ -3114,8 +3012,6 @@ entry(
 u"""
 PrIMe Reaction: r00010491
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010491/rk00000001.xml
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Pressure dependence: None reported
 Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Thermal
@@ -3180,8 +3076,6 @@ entry(
 u"""
 PrIMe Reaction: r00010492
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010492/rk00000001.xml
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Pressure dependence: None reported
 Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Thermal
@@ -3246,8 +3140,6 @@ entry(
 u"""
 PrIMe Reaction: r00010493
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010493/rk00000001.xml
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Pressure dependence: None reported
 Experimental procedure: Static or low flow - Data taken vs time
 Excitation technique: Thermal
@@ -3316,8 +3208,6 @@ PrIMe Reaction: r00011969
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011969/rk00000001.xml
 Uncertainty: 5.0
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -3381,8 +3271,6 @@ PrIMe Reaction: r00017030
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017030/rk00000001.xml
 Uncertainty: 5.0
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -3444,8 +3332,6 @@ entry(
 u"""
 PrIMe Reaction: r00017124
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017124/rk00000001.xml
-Category: Theory
-Data type: Ab initio
 
 Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Used G2M(CC5) method (see paper for details). Calculated many different reaction pathways and intermediates. Only a few of the more important ones are abstracted here. Rate expressions for different pressures for some of the channels are also given in the paper. See paper for further details. Used NIST ChemRate program to calculated rate expressions from ab initio transition states. In paper also provide DfHo heats of formation for many of the intermediates.
 """,
@@ -3507,8 +3393,6 @@ entry(
 u"""
 PrIMe Reaction: r00017124
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017124/rk00000002.xml
-Category: Theory
-Data type: Ab initio
 
 Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Used G2M(CC5) method (see paper for details). Calculated many different reaction pathways and intermediates. Only a few of the more important ones are abstracted here. Rate expressions for different pressures for some of the channels are also given in the paper. See paper for further details. Used NIST ChemRate program to calculated rate expressions from ab initio transition states. In paper also provide DfHo heats of formation for many of the intermediates.
 """,
@@ -3569,8 +3453,6 @@ u"""
 PrIMe Reaction: r00000090
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000090/rk00000001.xml
 Uncertainty: 5.0
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
 
 The authors have calculated thermochemical and kinetic parameters for 1,5-H isomerisation reactions of alkoxy radicals up to C8 using density functional theory. Tunneling corrections were applied and the pressure dependence was investigated using RRKM statistical methods.

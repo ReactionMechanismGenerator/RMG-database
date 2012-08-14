@@ -56,8 +56,6 @@ u"""
 PrIMe Reaction: r00002190
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002190/rk00000001.xml
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:09:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:46"""),
@@ -110,8 +108,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010601
-Category: Theory
-Data type: Ab initio
 Pressure dependence: Rate constant is pressure independent
 
 The authors calculated the potential energy surface at several levels of theory, up to UQCISD(T)/aug-cc-pVTZ//UQCISD/cc-pVDZ, and then used canonical variational transition-state theory to calculate the rate constants. At the highest level of theory employed the rate constants are within a factor of about 2.5 of the experimental values, while deviations are much larger (ca 10x at low and high T) at lower levels of theory. The kinetic isotope effect is also calculated.
@@ -173,8 +169,6 @@ u"""
 PrIMe Reaction: r00001361
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001361/rk00000001.xml
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 """,
     history = [
         ("Thu Jul 12 23:08:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981TSU/HAS61:1"""),
@@ -232,8 +226,6 @@ entry(
 u"""
 PrIMe Reaction: r00001361
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 """,
@@ -293,8 +285,6 @@ entry(
 u"""
 PrIMe Reaction: r00001361
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 """,
@@ -354,8 +344,6 @@ entry(
 u"""
 PrIMe Reaction: r00001361
 Bath gas: He
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 """,
@@ -416,8 +404,6 @@ u"""
 PrIMe Reaction: r00001361
 Uncertainty: 2.0
 Bath gas: Ar
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Mass spectrometry
 """,
@@ -478,8 +464,6 @@ u"""
 PrIMe Reaction: r00001361
 Uncertainty: 5.0
 Bath gas: Ar
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:08:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987OLS/OLS4160:1"""),
@@ -536,8 +520,6 @@ u"""
 PrIMe Reaction: r00010110
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010110/rk00000001.xml
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:12:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:91"""),
@@ -596,8 +578,6 @@ u"""
 PrIMe Reaction: r00010240
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010240/rk00000001.xml
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Vis-UV absorption
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
@@ -655,8 +635,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010588
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:14:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ORL/TYN4657-4689:3"""),
@@ -710,8 +688,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010588
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: None reported
 """,
     history = [
@@ -766,8 +742,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010588
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:14:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:269"""),
@@ -822,8 +796,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010588
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:14:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:213"""),
@@ -878,8 +850,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010588
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:14:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK99-111:1"""),
@@ -934,8 +904,6 @@ entry(
 u"""
 PrIMe Reaction: r00010588
 Uncertainty: 1.5
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:14:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DEM/SAN:251"""),
@@ -991,8 +959,6 @@ entry(
 u"""
 PrIMe Reaction: r00010588
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:14:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:65"""),
@@ -1048,8 +1014,6 @@ entry(
 u"""
 PrIMe Reaction: r00010588
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:14:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:118"""),
@@ -1104,8 +1068,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010588
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:14:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:181"""),
@@ -1161,8 +1123,6 @@ entry(
 u"""
 PrIMe Reaction: r00010588
 Uncertainty: 1.58
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:14:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ATK/BAU881-1097:108"""),
@@ -1218,8 +1178,6 @@ entry(
 u"""
 PrIMe Reaction: r00010588
 Uncertainty: 1.35
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:14:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:5"""),
@@ -1275,8 +1233,6 @@ entry(
 u"""
 PrIMe Reaction: r00010588
 Uncertainty: 5.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:14:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:151"""),
@@ -1330,8 +1286,6 @@ entry(
 u"""
 PrIMe Reaction: r00010588
 Uncertainty: 5.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:14:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:130"""),
@@ -1389,8 +1343,6 @@ entry(
 u"""
 PrIMe Reaction: r00010588
 Bath gas: O2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1450,8 +1402,6 @@ entry(
 u"""
 PrIMe Reaction: r00010588
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Chemiluminescence
 """,
@@ -1511,8 +1461,6 @@ entry(
 u"""
 PrIMe Reaction: r00010588
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
@@ -1572,8 +1520,6 @@ entry(
 u"""
 PrIMe Reaction: r00010588
 Bath gas: Ar
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
@@ -1633,8 +1579,6 @@ entry(
 u"""
 PrIMe Reaction: r00010588
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
@@ -1695,8 +1639,6 @@ u"""
 PrIMe Reaction: r00010588
 Uncertainty: 5.0
 Bath gas: N2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
@@ -1757,8 +1699,6 @@ u"""
 PrIMe Reaction: r00010588
 Uncertainty: 5.0
 Bath gas: O2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -1819,8 +1759,6 @@ u"""
 PrIMe Reaction: r00010588
 Uncertainty: 5.0
 Bath gas: O2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1881,8 +1819,6 @@ u"""
 PrIMe Reaction: r00010588
 Uncertainty: 5.0
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -1944,8 +1880,6 @@ PrIMe Reaction: r00010588
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010588/rk00000010.xml
 Uncertainty: 3.1600001
 Bath gas: O2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2005,8 +1939,6 @@ entry(
 u"""
 PrIMe Reaction: r00010588
 Bath gas: O2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:14:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980MOS/POL315:2"""),
@@ -2062,8 +1994,6 @@ entry(
 u"""
 PrIMe Reaction: r00011408
 Uncertainty: 5.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:18:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:43"""),
@@ -2122,8 +2052,6 @@ u"""
 PrIMe Reaction: r00011408
 Uncertainty: 5.0
 Bath gas: C2H4
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2183,8 +2111,6 @@ entry(
 u"""
 PrIMe Reaction: r00011408
 Bath gas: C2H4
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2242,8 +2168,6 @@ entry(
 u"""
 PrIMe Reaction: r00011408
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011408/rk00000003.xml
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:18:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970BAC409-418:1"""),
@@ -2299,8 +2223,6 @@ entry(
 u"""
 PrIMe Reaction: r00013871
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:19:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:209"""),
@@ -2356,8 +2278,6 @@ entry(
 u"""
 PrIMe Reaction: r00013871
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:19:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ATK/BAU881-1097:221"""),
@@ -2413,8 +2333,6 @@ entry(
 u"""
 PrIMe Reaction: r00013871
 Uncertainty: 1.5
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:19:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:249"""),
@@ -2468,8 +2386,6 @@ entry(
 u"""
 PrIMe Reaction: r00013871
 Uncertainty: 3.1600001
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:19:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:187"""),
@@ -2525,8 +2441,6 @@ entry(
 u"""
 PrIMe Reaction: r00013871
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Electron beam
 Analytical technique: Mass spectrometry
 Note: Invalid activation energy uncertainty (8314.472) found and ignored
@@ -2587,8 +2501,6 @@ entry(
 u"""
 PrIMe Reaction: r00013871
 Bath gas: N2
-Category: Experiment
-Data type: RRK(M) extrapolation
 """,
     history = [
         ("Thu Jul 12 23:19:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990BOZ/DEA3313-3317:2"""),
@@ -2647,8 +2559,6 @@ u"""
 PrIMe Reaction: r00013871
 Uncertainty: 1.51
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -2707,8 +2617,6 @@ u"""
 PrIMe Reaction: r00013871
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013871/rk00000007.xml
 Uncertainty: 1.38
-Category: Experiment
-Data type: Derived from detailed balance/reverse rate
 """,
     history = [
         ("Thu Jul 12 23:19:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971BAK/BAL291:23"""),
@@ -2764,8 +2672,6 @@ entry(
 u"""
 PrIMe Reaction: r00013871
 Bath gas: He
-Category: Theory
-Data type: Ab initio
 
 Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
 
@@ -2833,8 +2739,6 @@ entry(
 u"""
 PrIMe Reaction: r00013871
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:19:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980BAL/PIC2374:1"""),
@@ -2892,8 +2796,6 @@ entry(
 u"""
 PrIMe Reaction: r00013871
 Bath gas: Ar
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:19:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971COO/WIL757:4"""),
@@ -2950,8 +2852,6 @@ u"""
 PrIMe Reaction: r00017303
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017303/rk00000001.xml
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Wed Jul 25 13:45:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:209"""),
@@ -3010,8 +2910,6 @@ u"""
 PrIMe Reaction: r00009800
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009800/rk00000004.xml
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:10:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:73"""),
@@ -3070,8 +2968,6 @@ u"""
 PrIMe Reaction: r00010098
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010098/rk00000003.xml
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:11:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:111"""),
@@ -3131,8 +3027,6 @@ entry(
 u"""
 PrIMe Reaction: r00010098
 Bath gas: He
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3193,8 +3087,6 @@ u"""
 PrIMe Reaction: r00010099
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010099/rk00000004.xml
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:11:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:112"""),
@@ -3253,8 +3145,6 @@ u"""
 PrIMe Reaction: r00010099
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010099/rk00000004.xml
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:11:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:6"""),
@@ -3311,8 +3201,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010099
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:11:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970BAC409-418:2"""),
@@ -3371,8 +3259,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010133
-Category: Theory
-Data type: Transition state theory
 
 Reaction potential energy surface was studied using quantum chemistry, product pathways were analyzed, and rate constants were calculated using QRRK / master equation method. Rate constants were calculated for a wide range of temperatures; Arrhenius expressions for the pressure of 1 atm are given in a table in the Supplementary Data (online).
 """,
@@ -3432,8 +3318,6 @@ entry(
 u"""
 PrIMe Reaction: r00010195
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:12:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:7"""),
@@ -3491,8 +3375,6 @@ entry(
 u"""
 PrIMe Reaction: r00010195
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010195/rk00000004.xml
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:12:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970BAC409-418:3"""),
@@ -3549,8 +3431,6 @@ u"""
 PrIMe Reaction: r00010209
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010209/rk00000003.xml
 Uncertainty: 3.1600001
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:13:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:120"""),
@@ -3611,8 +3491,6 @@ u"""
 PrIMe Reaction: r00010209
 Uncertainty: 1.78
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -3672,8 +3550,6 @@ entry(
 u"""
 PrIMe Reaction: r00010209
 Bath gas: He
-Category: Theory
-Data type: Ab initio
 
 Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
 
@@ -3742,8 +3618,6 @@ u"""
 PrIMe Reaction: r00010524
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010524/rk00000002.xml
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:13:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:8"""),
@@ -3800,8 +3674,6 @@ u"""
 PrIMe Reaction: r00010543
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010543/rk00000007.xml
 Uncertainty: 3.1600001
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:13:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:127"""),
@@ -3859,8 +3731,6 @@ entry(
 u"""
 PrIMe Reaction: r00010543
 Bath gas: He
-Category: Theory
-Data type: Ab initio
 
 Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
 
@@ -3926,8 +3796,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010641
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: None reported
 """,
     history = [
@@ -3984,8 +3852,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010641
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:275"""),
@@ -4042,8 +3908,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010641
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:219"""),
@@ -4100,8 +3964,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010641
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK99-111:2"""),
@@ -4158,8 +4020,6 @@ entry(
 u"""
 PrIMe Reaction: r00010641
 Uncertainty: 1.5
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DEM/SAN:257"""),
@@ -4217,8 +4077,6 @@ entry(
 u"""
 PrIMe Reaction: r00010641
 Uncertainty: 3.1600001
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:123"""),
@@ -4275,8 +4133,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010641
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:187"""),
@@ -4334,8 +4190,6 @@ entry(
 u"""
 PrIMe Reaction: r00010641
 Uncertainty: 1.55
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:17:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:11"""),
@@ -4395,8 +4249,6 @@ entry(
 u"""
 PrIMe Reaction: r00010641
 Bath gas: He
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
@@ -4458,8 +4310,6 @@ entry(
 u"""
 PrIMe Reaction: r00010641
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -4522,8 +4372,6 @@ u"""
 PrIMe Reaction: r00010641
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010641/rk00000002.xml
 Bath gas: N2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Flash photolysis (laser or conventional)
 Analytical technique: Laser induced fluorescence
 """,
@@ -4586,8 +4434,6 @@ u"""
 PrIMe Reaction: r00011080
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011080/rk00000001.xml
 Bath gas: Ar
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:18:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982NAT/BHA834:4"""),
@@ -4646,8 +4492,6 @@ u"""
 PrIMe Reaction: r00010133
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010133/rk00000002.xml
 Rate constant is an upper limit.
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Tue Jul 24 17:09:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:108"""),
@@ -4710,8 +4554,6 @@ u"""
 PrIMe Reaction: r00009826
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009826/rk00000002.xml
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 Note: Invalid activation energy uncertainty (9.977) found and ignored
@@ -4775,8 +4617,6 @@ u"""
 PrIMe Reaction: r00010092
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010092/rk00000002.xml
 Uncertainty: 2.5
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:10:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:78"""),
@@ -4838,8 +4678,6 @@ entry(
 u"""
 PrIMe Reaction: r00010092
 Bath gas: CH3CH=CH2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:10:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996BAR/MAR829-847:8"""),
@@ -4900,8 +4738,6 @@ u"""
 PrIMe Reaction: r00010094
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010094/rk00000001.xml
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:10:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:80"""),
@@ -4962,8 +4798,6 @@ u"""
 PrIMe Reaction: r00010095
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010095/rk00000002.xml
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:10:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:81"""),
@@ -5025,8 +4859,6 @@ entry(
 u"""
 PrIMe Reaction: r00010095
 Bath gas: CH3CH=CH2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:10:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996BAR/MAR829-847:9"""),
@@ -5087,8 +4919,6 @@ u"""
 PrIMe Reaction: r00010095
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010095/rk00000002.xml
 Uncertainty: 2.5
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:10:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:21"""),
@@ -5150,8 +4980,6 @@ entry(
 u"""
 PrIMe Reaction: r00010095
 Bath gas: CH3CH=CH2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -5215,8 +5043,6 @@ entry(
 u"""
 PrIMe Reaction: r00010095
 Bath gas: CH3CH=CH2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:10:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996BAR/MAR829-847:5"""),
@@ -5275,8 +5101,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00010095
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:10:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970BAC409-418:4"""),
@@ -5337,8 +5161,6 @@ u"""
 PrIMe Reaction: r00010105
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010105/rk00000001.xml
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:11:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:87"""),
@@ -5399,8 +5221,6 @@ u"""
 PrIMe Reaction: r00010106
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010106/rk00000001.xml
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:11:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:88"""),
@@ -5462,8 +5282,6 @@ entry(
 u"""
 PrIMe Reaction: r00010106
 Bath gas: CH3CH=CH2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:11:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996BAR/MAR829-847:10"""),
@@ -5524,8 +5342,6 @@ u"""
 PrIMe Reaction: r00010106
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010106/rk00000001.xml
 Uncertainty: 2.5
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:12:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:22"""),
@@ -5587,8 +5403,6 @@ entry(
 u"""
 PrIMe Reaction: r00010106
 Bath gas: CH3CH=CH2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:12:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996BAR/MAR829-847:6"""),
@@ -5646,8 +5460,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012573
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: None reported
 """,
     history = [
@@ -5707,8 +5519,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012573
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:18:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK/BAU521-1011:289"""),
@@ -5767,8 +5577,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012573
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:18:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997ATK99-111:3"""),
@@ -5827,8 +5635,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00012573
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:18:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ATK/BAU1125-1568:275"""),
@@ -5888,8 +5694,6 @@ entry(
 u"""
 PrIMe Reaction: r00012573
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:18:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989ATK/BAU881-1097:193"""),
@@ -5949,8 +5753,6 @@ entry(
 u"""
 PrIMe Reaction: r00012573
 Uncertainty: 1.55
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:18:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:17"""),
@@ -6013,8 +5815,6 @@ u"""
 PrIMe Reaction: r00012573
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012573/rk00000001.xml
 Bath gas: N2
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Direct photolysis
 Analytical technique: Laser induced fluorescence
 """,
@@ -6079,8 +5879,6 @@ u"""
 PrIMe Reaction: r00012779
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012779/rk00000003.xml
 Bath gas: N2
-Category: Theory
-Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:19:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978BAK/BAL2229:6"""),
@@ -6138,8 +5936,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00013958
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: None reported
 Note: Invalid activation energy uncertainty (4.157) found and ignored
 """,
@@ -6201,8 +5997,6 @@ entry(
 u"""
 PrIMe Reaction: r00013958
 Uncertainty: 1.3
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:20:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:19"""),
@@ -6265,8 +6059,6 @@ u"""
 PrIMe Reaction: r00013958
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013958/rk00000001.xml
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -6329,8 +6121,6 @@ u"""
 PrIMe Reaction: r00010168
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010168/rk00000013.xml
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Vis-UV absorption
 """,
@@ -6395,8 +6185,6 @@ u"""
 PrIMe Reaction: r00009781
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009781/rk00000001.xml
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:10:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:74"""),
@@ -6459,8 +6247,6 @@ u"""
 PrIMe Reaction: r00009782
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009782/rk00000001.xml
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:10:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:75"""),
@@ -6523,8 +6309,6 @@ u"""
 PrIMe Reaction: r00010124
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010124/rk00000001.xml
 Uncertainty: 3.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:12:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:103"""),
@@ -6587,8 +6371,6 @@ u"""
 PrIMe Reaction: r00010125
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010125/rk00000001.xml
 Uncertainty: 2.0
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:12:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:104"""),
@@ -6648,8 +6430,6 @@ entry(
     longDesc = 
 u"""
 PrIMe Reaction: r00013972
-Category: Review
-Data type: Extensive literature review
 Pressure dependence: None reported
 """,
     history = [
@@ -6712,8 +6492,6 @@ entry(
 u"""
 PrIMe Reaction: r00013972
 Uncertainty: 1.3200001
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:20:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:20"""),
@@ -6778,8 +6556,6 @@ u"""
 PrIMe Reaction: r00013972
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013972/rk00000001.xml
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -6843,8 +6619,6 @@ entry(
 u"""
 PrIMe Reaction: r00013994
 Uncertainty: 1.3200001
-Category: Review
-Data type: Extensive literature review
 """,
     history = [
         ("Thu Jul 12 23:21:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HEI177:21"""),
@@ -6909,8 +6683,6 @@ u"""
 PrIMe Reaction: r00013994
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013994/rk00000001.xml
 Bath gas: N2
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
@@ -6979,8 +6751,6 @@ u"""
 PrIMe Reaction: r00005815
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005815/rk00000001.xml
 Bath gas: iso-C4H8
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -7049,8 +6819,6 @@ u"""
 PrIMe Reaction: r00005816
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005816/rk00000001.xml
 Bath gas: iso-C4H8
-Category: Experiment
-Data type: Absolute value measured directly
 Excitation technique: Thermal
 Analytical technique: Gas chromatography
 """,
@@ -7118,8 +6886,6 @@ u"""
 PrIMe Reaction: r00011216
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011216/rk00000001.xml
 Bath gas: n-C4H9CHO
-Category: Experiment
-Data type: Derived from fitting to a complex mechanism
 Excitation technique: Direct photolysis
 Analytical technique: Gas chromatography
 """,
