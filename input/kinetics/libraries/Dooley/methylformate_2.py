@@ -2873,7 +2873,7 @@ CO
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2e+13,"s^-1"), n=0, Ea=(60000,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(2.4e+59,"s^-1"), n=-11.8, Ea=(71400,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(2.4e+59,"cm^3/(mol*s)"), n=-11.8, Ea=(71400,"cal/mol"), T0=1),
         efficiencies = {},
         alpha = 0.239,
         T3 = (555.1,"K"),
@@ -2925,7 +2925,7 @@ CO2
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.5e+12,"s^-1"), n=0, Ea=(59700,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(5.63e+61,"s^-1"), n=-12.79, Ea=(71100,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(5.63e+61,"cm^3/(mol*s)"), n=-12.79, Ea=(71100,"cal/mol"), T0=1),
         efficiencies = {},
         alpha = 0.179,
         T3 = (357.5,"K"),
@@ -2969,7 +2969,7 @@ CH2O
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1e+12,"s^-1"), n=0, Ea=(60500,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(1.55e+57,"s^-1"), n=-11.57, Ea=(71700,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(1.55e+57,"cm^3/(mol*s)"), n=-11.57, Ea=(71700,"cal/mol"), T0=1),
         efficiencies = {},
         alpha = 0.781,
         T3 = (6.49e+09,"K"),
@@ -3013,7 +3013,7 @@ OCHO
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.17e+24,"s^-1"), n=-2.4, Ea=(92600,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(5.71e+47,"s^-1"), n=-8.43, Ea=(98490,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(5.71e+47,"cm^3/(mol*s)"), n=-8.43, Ea=(98490,"cal/mol"), T0=1),
         efficiencies = {},
         alpha = 6.89e-15,
         T3 = (4730,"K"),
@@ -3057,7 +3057,7 @@ HCO
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(4.18e+16,"s^-1"), n=0, Ea=(97400,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(5.27e+63,"s^-1"), n=-12.3, Ea=(109180,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(5.27e+63,"cm^3/(mol*s)"), n=-12.3, Ea=(109180,"cal/mol"), T0=1),
         efficiencies = {},
         alpha = 0.894,
         T3 = (7.49e+09,"K"),

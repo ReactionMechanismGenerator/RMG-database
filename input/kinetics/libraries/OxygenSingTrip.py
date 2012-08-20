@@ -60,7 +60,7 @@ O2
     degeneracy = 1,
     duplicate = True,
     kinetics = ThirdBody(
-        arrheniusHigh = Arrhenius(A=(4.05,"s^-1"), n=0, Ea=(0,"kJ/mol"), T0=(1,"K")),
+        arrheniusLow = Arrhenius(A=(4.05,"cm^3/(mol*s)"), n=0, Ea=(0,"kJ/mol"), T0=(1,"K")),
         efficiencies = {"C(=O)=O": 4.29, "[O][O]": 5.43},
     ),
     reference = None,
@@ -97,7 +97,7 @@ O2
     degeneracy = 1,
     duplicate = True,
     kinetics = ThirdBody(
-        arrheniusHigh = Arrhenius(A=(3e+06,"s^-1"), n=0, Ea=(0,"kJ/mol"), T0=(1,"K")),
+        arrheniusLow = Arrhenius(A=(3e+06,"cm^3/(mol*s)"), n=0, Ea=(0,"kJ/mol"), T0=(1,"K")),
         efficiencies = {"N#N": 0.028, "O": 1.783, "[Ar]": 0.00166, "[C]=O": 14, "[H][H]": 1, "[O][O]": 0.34, "c1ccccc1": 1.067},
     ),
     reference = None,

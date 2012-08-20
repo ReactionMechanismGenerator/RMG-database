@@ -47,7 +47,7 @@ entry(
     label = "multiplebond_intra",
     group = 
 """
-1  *2 {Cd,Ct,CO} 0 {2,{D,T}}
+1  *2 {Cd,Cdd,Ct,CO} 0 {2,{D,T}}
 2  *3 {Cd,Cdd,Ct,Od} 0 {1,{D,T}}
 """,
     kinetics = None,
@@ -892,10 +892,10 @@ entry(
     group = 
 """
 1  *1 Cd 1 {2,D}
-2  *4 Cd 0 {1,D} {3,S}
-3  *5 R!H 0 {2,S} {4,D}
-4  *2 {Cd,Ct,CO} 0 {3,D} {5,{D,T}}
-5  *3 {Cd,Cdd,Ct,Od} 0 {4,{D,T}}
+2  *4 Cd 0 {1,D}, {3,S}
+3  *5 {R!H} 0 {2,S}, {4,D}
+4  *2 Cdd 0 {3,D}, {5,D}
+5  *3 {Cd,Od} 0 {4,D}
 """,
     kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([79133.7,5560.64,1112.32,376.427,95.3385,41.1592,12.9781,7.09405],"s^-1")),
     reference = None,

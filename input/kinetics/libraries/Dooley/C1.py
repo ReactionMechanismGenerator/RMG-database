@@ -5903,7 +5903,7 @@ H
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
-        arrheniusHigh = Arrhenius(A=(4.577e+19,"s^-1"), n=-1.4, Ea=(104380,"cal/mol"), T0=(1,"K")),
+        arrheniusLow = Arrhenius(A=(4.577e+19,"cm^3/(mol*s)"), n=-1.4, Ea=(104380,"cal/mol"), T0=(1,"K")),
         efficiencies = {"C(=O)=O": 3.8, "O": 12, "[Ar]": 0, "[C]=O": 1.9, "[H][H]": 2.5, "[He]": 0},
     ),
     reference = None,
@@ -5942,7 +5942,7 @@ O2
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
-        arrheniusHigh = Arrhenius(A=(6.165e+15,"cm^3/(mol*s)"), n=-0.5, Ea=(0,"cal/mol"), T0=(1,"K")),
+        arrheniusLow = Arrhenius(A=(6.165e+15,"cm^6/(mol^2*s)"), n=-0.5, Ea=(0,"cal/mol"), T0=(1,"K")),
         efficiencies = {"C(=O)=O": 3.8, "O": 12, "[Ar]": 0, "[C]=O": 1.9, "[H][H]": 2.5, "[He]": 0},
     ),
     reference = None,
@@ -5976,7 +5976,7 @@ OH
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
-        arrheniusHigh = Arrhenius(A=(4.714e+18,"cm^3/(mol*s)"), n=-1, Ea=(0,"cal/mol"), T0=(1,"K")),
+        arrheniusLow = Arrhenius(A=(4.714e+18,"cm^6/(mol^2*s)"), n=-1, Ea=(0,"cal/mol"), T0=(1,"K")),
         efficiencies = {"C(=O)=O": 3.8, "O": 12, "[Ar]": 0.75, "[C]=O": 1.9, "[H][H]": 2.5, "[He]": 0.75},
     ),
     reference = None,
@@ -6010,7 +6010,7 @@ H2O
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
-        arrheniusHigh = Arrhenius(A=(3.8e+22,"cm^3/(mol*s)"), n=-2, Ea=(0,"cal/mol"), T0=(1,"K")),
+        arrheniusLow = Arrhenius(A=(3.8e+22,"cm^6/(mol^2*s)"), n=-2, Ea=(0,"cal/mol"), T0=(1,"K")),
         efficiencies = {"C(=O)=O": 3.8, "O": 12, "[Ar]": 0.38, "[C]=O": 1.9, "[H][H]": 2.5, "[He]": 0.38},
     ),
     reference = None,
@@ -6047,7 +6047,7 @@ HO2
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.475e+12,"cm^3/(mol*s)"), n=0.6, Ea=(0,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(6.366e+20,"cm^3/(mol*s)"), n=-1.72, Ea=(524.8,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(6.366e+20,"cm^6/(mol^2*s)"), n=-1.72, Ea=(524.8,"cal/mol"), T0=1),
         efficiencies = {"C(=O)=O": 3.8, "O": 11, "[C]=O": 1.9, "[H][H]": 2, "[O][O]": 0.78},
         alpha = 0.8,
         T3 = (1e-30,"K"),
@@ -6086,7 +6086,7 @@ OH
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.951e+14,"s^-1"), n=0, Ea=(48430,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(1.202e+17,"s^-1"), n=0, Ea=(45500,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(1.202e+17,"cm^3/(mol*s)"), n=0, Ea=(45500,"cal/mol"), T0=1),
         efficiencies = {"C(=O)=O": 3.8, "O": 12, "[Ar]": 0.64, "[C]=O": 1.9, "[H][H]": 2.5, "[He]": 0.64},
         alpha = 0.5,
         T3 = (1e-30,"K"),
@@ -6131,7 +6131,7 @@ CO2
     degeneracy = 1,
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(1.8e+10,"cm^3/(mol*s)"), n=0, Ea=(2384,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(1.55e+24,"cm^3/(mol*s)"), n=-2.79, Ea=(4191,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(1.55e+24,"cm^6/(mol^2*s)"), n=-2.79, Ea=(4191,"cal/mol"), T0=1),
         efficiencies = {"C(=O)=O": 3.8, "O": 12, "[Ar]": 0.87, "[C]=O": 1.9, "[H][H]": 2.5},
     ),
     reference = None,
@@ -6167,7 +6167,7 @@ CO
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
-        arrheniusHigh = Arrhenius(A=(4.7485e+11,"s^-1"), n=0.659, Ea=(14874,"cal/mol"), T0=(1,"K")),
+        arrheniusLow = Arrhenius(A=(4.7485e+11,"cm^3/(mol*s)"), n=0.659, Ea=(14874,"cal/mol"), T0=(1,"K")),
         efficiencies = {"C(=O)=O": 3.8, "O": 6, "[C]=O": 1.9, "[H][H]": 2.5},
     ),
     reference = None,
@@ -6203,7 +6203,7 @@ H
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
-        arrheniusHigh = Arrhenius(A=(3.3e+39,"s^-1"), n=-6.3, Ea=(99900,"cal/mol"), T0=(1,"K")),
+        arrheniusLow = Arrhenius(A=(3.3e+39,"cm^3/(mol*s)"), n=-6.3, Ea=(99900,"cal/mol"), T0=(1,"K")),
         efficiencies = {"C(=O)=O": 3.8, "O": 12, "[Ar]": 0.7, "[C]=O": 1.9, "[H][H]": 2.5},
     ),
     reference = None,
@@ -6240,7 +6240,7 @@ H2
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
-        arrheniusHigh = Arrhenius(A=(3.1e+45,"s^-1"), n=-8, Ea=(97510,"cal/mol"), T0=(1,"K")),
+        arrheniusLow = Arrhenius(A=(3.1e+45,"cm^3/(mol*s)"), n=-8, Ea=(97510,"cal/mol"), T0=(1,"K")),
         efficiencies = {"C(=O)=O": 3.8, "O": 12, "[Ar]": 0.7, "[C]=O": 1.9, "[H][H]": 2.5},
     ),
     reference = None,
@@ -6276,7 +6276,7 @@ C2H6
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.277e+15,"cm^3/(mol*s)"), n=-0.69, Ea=(174.86,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(8.054e+31,"cm^3/(mol*s)"), n=-3.75, Ea=(981.6,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(8.054e+31,"cm^6/(mol^2*s)"), n=-3.75, Ea=(981.6,"cal/mol"), T0=1),
         efficiencies = {"C(=O)=O": 3, "O": 5, "[C]=O": 2},
         alpha = 0,
         T3 = (570,"K"),
@@ -6315,7 +6315,7 @@ CH4
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.27e+16,"cm^3/(mol*s)"), n=-0.63, Ea=(383,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(2.477e+33,"cm^3/(mol*s)"), n=-4.76, Ea=(2440,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(2.477e+33,"cm^6/(mol^2*s)"), n=-4.76, Ea=(2440,"cal/mol"), T0=1),
         efficiencies = {"C": 2, "C(=O)=O": 2, "CC": 3, "O": 6, "[Ar]": 0.7, "[C]=O": 1.5, "[H][H]": 2},
         alpha = 0.783,
         T3 = (74,"K"),
@@ -6355,7 +6355,7 @@ CH3OH
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.79e+18,"cm^3/(mol*s)"), n=-1.43, Ea=(1330,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(4e+36,"cm^3/(mol*s)"), n=-5.92, Ea=(3140,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(4e+36,"cm^6/(mol^2*s)"), n=-5.92, Ea=(3140,"cal/mol"), T0=1),
         efficiencies = {"C": 2, "C(=O)=O": 2, "CC": 3, "O": 6, "[C]=O": 1.5, "[H][H]": 2},
         alpha = 0.412,
         T3 = (195,"K"),
@@ -6396,7 +6396,7 @@ CH3OH
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(1.055e+12,"cm^3/(mol*s)"), n=0.5, Ea=(86,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(4.36e+31,"cm^3/(mol*s)"), n=-4.65, Ea=(5080,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(4.36e+31,"cm^6/(mol^2*s)"), n=-4.65, Ea=(5080,"cal/mol"), T0=1),
         efficiencies = {"C": 2, "C(=O)=O": 2, "CC": 3, "O": 6, "[C]=O": 1.5, "[H][H]": 2},
         alpha = 0.6,
         T3 = (100,"K"),
@@ -6437,7 +6437,7 @@ CH3OH
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.43e+12,"cm^3/(mol*s)"), n=0.515, Ea=(50,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(4.66e+41,"cm^3/(mol*s)"), n=-7.44, Ea=(14080,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(4.66e+41,"cm^6/(mol^2*s)"), n=-7.44, Ea=(14080,"cal/mol"), T0=1),
         efficiencies = {"C": 2, "C(=O)=O": 2, "CC": 3, "O": 6, "[C]=O": 1.5, "[H][H]": 2},
         alpha = 0.7,
         T3 = (100,"K"),
@@ -6477,7 +6477,7 @@ CH3OH
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(4.82e+17,"cm^3/(mol*s)"), n=-1.16, Ea=(1145,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(1.88e+38,"cm^3/(mol*s)"), n=-6.36, Ea=(5040,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(1.88e+38,"cm^6/(mol^2*s)"), n=-6.36, Ea=(5040,"cal/mol"), T0=1),
         efficiencies = {"C": 2, "C(=O)=O": 2, "CC": 3, "O": 6, "[C]=O": 1.5, "[H][H]": 2},
         alpha = 0.6027,
         T3 = (208,"K"),
@@ -6516,7 +6516,7 @@ CH3
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(2.5e+16,"cm^3/(mol*s)"), n=-0.8, Ea=(0,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(3.2e+27,"cm^3/(mol*s)"), n=-3.14, Ea=(1230,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(3.2e+27,"cm^6/(mol^2*s)"), n=-3.14, Ea=(1230,"cal/mol"), T0=1),
         efficiencies = {"C": 2, "C(=O)=O": 2, "CC": 3, "O": 6, "[Ar]": 0.7, "[C]=O": 1.5, "[H][H]": 2},
         alpha = 0.68,
         T3 = (78,"K"),
@@ -6558,7 +6558,7 @@ CH2CO
     degeneracy = 1,
     kinetics = Troe(
         arrheniusHigh = Arrhenius(A=(8.1e+11,"cm^3/(mol*s)"), n=0.5, Ea=(4510,"cal/mol"), T0=(1,"K")),
-        arrheniusLow = Arrhenius(A=(2.69e+33,"cm^3/(mol*s)"), n=-5.11, Ea=(7095,"cal/mol"), T0=1),
+        arrheniusLow = Arrhenius(A=(2.69e+33,"cm^6/(mol^2*s)"), n=-5.11, Ea=(7095,"cal/mol"), T0=1),
         efficiencies = {"C": 2, "C(=O)=O": 2, "CC": 3, "O": 6, "[Ar]": 0.7, "[C]=O": 1.5, "[H][H]": 2},
         alpha = 0.5907,
         T3 = (275,"K"),
@@ -6591,7 +6591,7 @@ CH2
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
-        arrheniusHigh = Arrhenius(A=(9e+12,"s^-1"), n=0, Ea=(600,"cal/mol"), T0=(1,"K")),
+        arrheniusLow = Arrhenius(A=(9e+12,"cm^3/(mol*s)"), n=0, Ea=(600,"cal/mol"), T0=(1,"K")),
         efficiencies = {"C(=O)=O": 0, "O": 0, "[Ar]": 0, "[C]=O": 0},
     ),
     reference = None,
