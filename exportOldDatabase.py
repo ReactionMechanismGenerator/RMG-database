@@ -27,16 +27,25 @@ def main():
     newPath = sys.argv[1]
     oldPath = os.path.join(sys.argv[2], 'RMG_database')
 
+    export(newPath, oldPath)
+
+
+###############################################################################
+
+
+def export(input, output, database=None):
+
     print 'Loading the new RMG-Py database...'
-    database = RMGDatabase()
-    database.load(newPath)
+    if not database:
+        database = RMGDatabase()
+    database.load(input)
 
     print 'Constructing additional rate rules from kinetics depository...'
     for family in database.kinetics.families.values():
         generateRules(family, database)
 
     print 'Saving old RMG-Java database...'
-    database.saveOld(oldPath)
+    database.saveOld(output)
 
 
 ###############################################################################
