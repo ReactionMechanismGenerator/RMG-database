@@ -16044,11 +16044,7 @@ OH
     shortDesc = u"""""",
     longDesc = 
 u"""
-replaced by value in CFG_propane using Klippenstein's numbers
-CH3 + CH3 (+M) = C2H6 (+M)                 3.6E13   0.000       0  0.0 0.0 0.0
-N2/1/ H2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/
-LOW  /1.269E41 -7.0 2762/
-TROE /0.62 73 1180 1E30/
+
 """,
     history = [
         ("2011-07-26","Richard West <rwest@mit.edu>","action","""Richard West <rwest@mit.edu> imported this entry from the old RMG database."""),
