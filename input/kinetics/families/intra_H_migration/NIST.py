@@ -1461,9 +1461,15 @@ kisom(secondary) = 9.3E8 s^-1
 kisom(tertiary) = 4.5E8 s^-1
 
 The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
     history = [
         ("Tue Jul 24 18:13:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:10"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
     ],
 )
 
@@ -1531,9 +1537,15 @@ kisom(secondary) = 9.3E8 s^-1
 kisom(tertiary) = 4.5E8 s^-1
 
 The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
     history = [
         ("Tue Jul 24 18:22:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:11"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
     ],
 )
 
@@ -1599,9 +1611,15 @@ kisom(secondary) = 9.3E8 s^-1
 kisom(tertiary) = 4.5E8 s^-1
 
 The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
     history = [
         ("Tue Jul 24 18:27:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:8"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
     ],
 )
 
@@ -1665,9 +1683,15 @@ kisom(secondary) = 9.3E8 s^-1
 kisom(tertiary) = 4.5E8 s^-1
 
 The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
     history = [
         ("Tue Jul 24 18:30:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:4"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
     ],
 )
 
@@ -1731,9 +1755,15 @@ kisom(secondary) = 9.3E8 s^-1
 kisom(tertiary) = 4.5E8 s^-1
 
 The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
     history = [
         ("Tue Jul 24 18:37:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:2"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
     ],
 )
 
@@ -1803,9 +1833,15 @@ kisom(secondary) = 9.3E8 s^-1
 kisom(tertiary) = 4.5E8 s^-1
 
 The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
     history = [
         ("Tue Jul 24 18:40:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:12"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
     ],
 )
 
@@ -1871,9 +1907,15 @@ kisom(secondary) = 9.3E8 s^-1
 kisom(tertiary) = 4.5E8 s^-1
 
 The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
     history = [
         ("Tue Jul 24 18:42:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:7"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
     ],
 )
 
@@ -1939,9 +1981,15 @@ kisom(secondary) = 9.3E8 s^-1
 kisom(tertiary) = 4.5E8 s^-1
 
 The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
     history = [
         ("Tue Jul 24 18:45:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:9"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
     ],
 )
 
@@ -2007,9 +2055,15 @@ kisom(secondary) = 9.3E8 s^-1
 kisom(tertiary) = 4.5E8 s^-1
 
 The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
     history = [
         ("Tue Jul 24 18:47:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:6"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
     ],
 )
 
@@ -2075,9 +2129,15 @@ kisom(secondary) = 9.3E8 s^-1
 kisom(tertiary) = 4.5E8 s^-1
 
 The authors estimate uncertainties in calculated rates to be a factor of 5
+
+It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
+In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
     history = [
         ("Tue Jul 24 18:49:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:5"""),
+        ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
     ],
 )
 
