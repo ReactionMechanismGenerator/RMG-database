@@ -10,6 +10,57 @@ recommended = False
 
 entry(
     index = 1,
+    label = "1950DIN/LER1632-1637:1",
+    reactant1 = 
+"""
+1 * H 1
+""",
+    reactant2 = 
+"""
+1 * H 1
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (109000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (6.269,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (278,"K"),
+        Tmax = (372,"K"),
+    ),
+    reference = Article(
+        authors = ["Dingle, J.R.", "Le Roy, D.J."],
+        title = u'Kinetics of the reaction of atomic hydrogen with acetylene',
+        journal = "J. Chem. Phys.",
+        volume = "18",
+        pages = """1632-1637""",
+        year = "1950",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1950DIN/LER1632-1637:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00009454
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009454/rk00000026.xml
+Bath gas: C2H2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Wed Aug 01 11:16:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1950DIN/LER1632-1637:1"""),
+    ],
+)
+
+entry(
+    index = 2,
     label = "1991FOR3612-3620:3",
     reactant1 = 
 """
@@ -56,7 +107,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 2,
+    index = 3,
     label = "1972TEN/JON1267:3",
     reactant1 = 
 """
@@ -110,7 +161,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 3,
+    index = 4,
     label = "1994TAK/MOM74-85:2",
     reactant1 = 
 """
@@ -157,7 +208,7 @@ Data type: Transition state theory
 )
 
 entry(
-    index = 4,
+    index = 5,
     label = "1987HAS/MON2916-2922:1",
     reactant1 = 
 """
@@ -204,7 +255,7 @@ Data type: Transition state theory
 )
 
 entry(
-    index = 5,
+    index = 6,
     label = "1985COB/TRO1010-1015:8",
     reactant1 = 
 """
@@ -252,7 +303,922 @@ Data type: Transition state theory
 )
 
 entry(
-    index = 6,
+    index = 7,
+    label = "2001SUT/SU669-684:5",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (5.09e+19,"s^-1"),
+        n = -0.86,
+        Ea = (456.598,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1600,"K"),
+        Tmax = (4500,"K"),
+    ),
+    reference = Article(
+        authors = ["Sutherland, J.W.", "Su, M.-C.", "Michael, J.V."],
+        title = u'Rate Constants for H + CH4, CH3 + H2, and CH4 Dissociation at High Temperature',
+        journal = "Int J. Chem. Kinet.",
+        volume = "33",
+        pages = """669-684""",
+        year = "2001",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000048.xml
+Category: Experiment
+Data type: High or low pressure extrapolation
+Pressure dependence: Rate constant is high pressure limit
+Experimental procedure: Shock tube
+Excitation technique: Flash photolysis (laser or conventional)
+Time resolution: In real time
+Analytical technique: Vis-UV absorption
+
+Excimer laser photolysis-shock tube technique coupled with H-atom atomic resonance absorption spectromtry has been used. The real time H atom profiles were fit with a complex mechanism to derive the best fit rate constants for the reactions, H+CH4-> CH3+H2, CH3+H2->H+CH4, as well as the reaction CH4+Kr->CH3+H+Kr. The derived rate constants for the latter reaction were not sensitive to the H+CH4reaction within expermental error.
+
+Results of this study and seven previous experimental studies have been evaluated. Results from theory are also discussed.
+""",
+    history = [
+        ("Wed Aug 01 11:57:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001SUT/SU669-684:5"""),
+    ],
+)
+
+entry(
+    index = 8,
+    label = "1959SKI/RUE1736:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (5.13e+14,"s^-1"),
+        n = 0,
+        Ea = (422.375,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1430,"K"),
+        Tmax = (1780,"K"),
+        Pmin = (507000,"Pa"),
+        Pmax = (507000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Skinner, G.B.", "Ruehrwein, R.A."],
+        title = u'Shock tube studies on the pyrolysis and oxidation of methane',
+        journal = "J. Phys. Chem.",
+        volume = "63",
+        pages = """1736""",
+        year = "1959",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1959SKI/RUE1736:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000050.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:57:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1959SKI/RUE1736:1"""),
+    ],
+)
+
+entry(
+    index = 9,
+    label = "1963PAL/HIR709:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (3.8e+14,"s^-1"),
+        n = 0,
+        Ea = (430.69,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Palmer, H.B.", "Hirt, T.J."],
+        title = u'The activation energy for the pyrolysis of methane',
+        journal = "J. Phys. Chem.",
+        volume = "67",
+        pages = """709""",
+        year = "1963",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1963PAL/HIR709:1",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000051.xml
+Bath gas: He
+Category: Review
+Data type: Experimental value and limited review
+""",
+    history = [
+        ("Wed Aug 01 11:58:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963PAL/HIR709:1"""),
+    ],
+)
+
+entry(
+    index = 10,
+    label = "1963PAL/HIR709:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1.26e+14,"s^-1","*|/",1.5),
+        n = 0,
+        Ea = (422.375,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1160,"K"),
+        Tmax = (1350,"K"),
+    ),
+    reference = Article(
+        authors = ["Palmer, H.B.", "Hirt, T.J."],
+        title = u'The activation energy for the pyrolysis of methane',
+        journal = "J. Phys. Chem.",
+        volume = "67",
+        pages = """709""",
+        year = "1963",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1963PAL/HIR709:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000052.xml
+Uncertainty: 1.5
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Other
+""",
+    history = [
+        ("Wed Aug 01 12:00:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963PAL/HIR709:2"""),
+    ],
+)
+
+entry(
+    index = 11,
+    label = "1965KON319:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1e+15,"s^-1"),
+        n = 0,
+        Ea = (430.69,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1590,"K"),
+        Tmax = (1750,"K"),
+        Pmin = (2.03e+06,"Pa"),
+        Pmax = (2.03e+06,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kondratiev, V.N."],
+        title = u'Determination of the rate constant for thermal cracking of methane by means of adiabatic compression and expansion',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "10",
+        pages = """319""",
+        year = "1965",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1965KON319:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000053.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Wed Aug 01 12:00:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965KON319:1"""),
+    ],
+)
+
+entry(
+    index = 12,
+    label = "1965PLA/RAB4071-4080:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (2.66e+16,"s^-1"),
+        n = 0,
+        Ea = (427.364,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (600,"K"),
+        Tmax = (4000,"K"),
+    ),
+    reference = Article(
+        authors = ["Placzek, D.W.", "Rabinovitch, B.S.", "Whitten, G.Z."],
+        title = u'Some comparisons of the classical RRK and the RRKM theoretical rate formulations',
+        journal = "J. Chem. Phys.",
+        volume = "43",
+        pages = """4071-4080""",
+        year = "1965",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1965PLA/RAB4071-4080:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000054.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 12:01:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1965PLA/RAB4071-4080:1"""),
+    ],
+)
+
+entry(
+    index = 13,
+    label = "1969PAL588:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1e+15,"s^-1"),
+        n = 0,
+        Ea = (434.847,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1250,"K"),
+        Tmax = (1670,"K"),
+    ),
+    reference = Article(
+        authors = ["Palmer, H.B."],
+        title = u'Discussion',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "12",
+        pages = """588""",
+        year = "1969",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1969PAL588:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000055.xml
+Bath gas: He
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Aug 01 12:02:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969PAL588:1"""),
+    ],
+)
+
+entry(
+    index = 14,
+    label = "1971HAR/TRO147:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1.26e+15,"s^-1"),
+        n = 0,
+        Ea = (434.847,"kJ/mol","+|-",8.73),
+        T0 = (1,"K"),
+        Tmin = (1850,"K"),
+        Tmax = (2500,"K"),
+        Pmin = (507000,"Pa"),
+        Pmax = (2.23e+07,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hartig, R.", "Troe, J.", "Wagner, H.GG."],
+        title = u'Thermal Decomposition of Methane Behind Reflected Shock Waves',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "13",
+        pages = """147""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971HAR/TRO147:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000056.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 12:04:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971HAR/TRO147:1"""),
+    ],
+)
+
+entry(
+    index = 15,
+    label = "1975CHE/BAC3580:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (2.8e+16,"s^-1"),
+        n = 0,
+        Ea = (449.813,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (995,"K"),
+        Tmax = (1100,"K"),
+        Pmin = (3333,"Pa"),
+        Pmax = (93300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Chen, C.J.", "Back, M.H.", "Back, R.A."],
+        title = u'The Thermal Decomposition of Methane. I.Kinetics of the Promary Decomposition to C2H6 + H2; Rate Constant for the Homogeneous Unimolecular Dissociation of Methane and its Pressure Dependence',
+        journal = "Can. J. Chem.",
+        volume = "53",
+        pages = """3580""",
+        year = "1975",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1975CHE/BAC3580:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000057.xml
+Bath gas: N2
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 12:04:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975CHE/BAC3580:1"""),
+    ],
+)
+
+entry(
+    index = 16,
+    label = "1984WAR197C:11",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1e+15,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (419.881,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (3000,"K"),
+    ),
+    reference = Book(
+        authors = ["Warnatz, J."],
+        title = u'Rate coefficients in the C/H/O system',
+        publisher = "ed. W.C. Gardiner,Jr., pub. Springer-Verlag,NY",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:11",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000058.xml
+Uncertainty: 3.1600001
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Aug 01 12:06:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:11"""),
+    ],
+)
+
+entry(
+    index = 17,
+    label = "1985DEA4600-4608:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1e+16,"s^-1"),
+        n = 0,
+        Ea = (439.004,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Dean, A.M."],
+        title = u'Predictions of pressure and temperature effects upon radical addition and recombination reactions',
+        journal = "J. Phys. Chem.",
+        volume = "89",
+        pages = """4600-4608""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000059.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 12:06:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:1"""),
+    ],
+)
+
+entry(
+    index = 18,
+    label = "1986TSA/HAM1087:14",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (3.72e+15,"s^-1","*|/",1.5),
+        n = 0,
+        Ea = (434.015,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2700,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W.", "Hampson, R.F."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "15",
+        pages = """1087""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:14",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000060.xml
+Uncertainty: 1.5
+Bath gas: N2
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Aug 01 12:08:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:14"""),
+    ],
+)
+
+entry(
+    index = 19,
+    label = "1989BAR/PRA229-238:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1.75e+16,"s^-1","+|-",2.4e+15),
+        n = 0,
+        Ea = (440.667,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1070,"K"),
+        Tmax = (1150,"K"),
+        Pmin = (500000,"Pa"),
+        Pmax = (5e+06,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Barnes, r.W.", "Pratt, G.L."],
+        title = u'Pressure dependence of methane dissociation',
+        journal = "J. Chem. Soc. Faraday Trans. 2",
+        volume = "85",
+        pages = """229-238""",
+        year = "1989",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1989BAR/PRA229-238:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000061.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 12:10:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989BAR/PRA229-238:1"""),
+    ],
+)
+
+entry(
+    index = 20,
+    label = "1990COB/TRO129-149:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (2.4e+16,"s^-1"),
+        n = 0,
+        Ea = (439.004,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (5000,"K"),
+    ),
+    reference = Article(
+        authors = ["Cobos, C.J.", "Troe, J."],
+        title = u'The dissociation-recombination system CH4 + M = CH3 + H + M: reevaluated experiments from 300 to 3000 K',
+        journal = "Z. Phys. Chem. (Neue Folge)",
+        volume = "167",
+        pages = """129-149""",
+        year = "1990",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1990COB/TRO129-149:1",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000063.xml
+Bath gas: Ar
+Category: Review
+Data type: Experimental value and limited review
+""",
+    history = [
+        ("Wed Aug 01 12:11:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990COB/TRO129-149:1"""),
+    ],
+)
+
+entry(
+    index = 21,
+    label = "1991ARU/VED234-240:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (3.01e+12,"s^-1","+|-",9.9e+11),
+        n = 0,
+        Ea = (343.388,"kJ/mol","+|-",10.31),
+        T0 = (1,"K"),
+        Tmin = (1100,"K"),
+        Tmax = (1700,"K"),
+        Pmin = (14800,"Pa"),
+        Pmax = (93300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Arutyunov, V.S.", "Vedeneev, V.I.", "Moshkina, R.I.", "Ushakov, V.A."],
+        title = u'Pyrolysis of methane under static conditions at 1100-1400 K',
+        journal = "Kinet. Catal.",
+        volume = "32",
+        pages = """234-240""",
+        year = "1991",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1991ARU/VED234-240:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000064.xml
+Bath gas: CH4
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 12:12:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991ARU/VED234-240:1"""),
+    ],
+)
+
+entry(
+    index = 22,
+    label = "1994BAU/COB847-1033:12",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (2.4e+16,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (439.004,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (3000,"K"),
+    ),
+    reference = Article(
+        authors = ["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."],
+        title = u'Evaluated kinetic data for combusion modelling. Supplement I',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "23",
+        pages = """847-1033""",
+        year = "1994",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:12",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000065.xml
+Uncertainty: 3.1600001
+Bath gas: Ar
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Aug 01 12:14:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:12"""),
+    ],
+)
+
+entry(
+    index = 23,
+    label = "1995DAV/HAN305-308:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1.04e+18,"s^-1"),
+        n = 0,
+        Ea = (403.252,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1780,"K"),
+        Tmax = (2320,"K"),
+    ),
+    reference = Article(
+        authors = ["Davidson, D.F.", "Hanson, R.K.", "Bowman, C.T."],
+        title = u'Communication: revised values for the rate coefficients of ethane and methane decomposition',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "27",
+        pages = """305-308""",
+        year = "1995",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995DAV/HAN305-308:1",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010887
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010887/rk00000069.xml
+Bath gas: Ar
+Category: Review
+Data type: Experimental value and limited review
+""",
+    history = [
+        ("Wed Aug 01 12:18:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995DAV/HAN305-308:1"""),
+    ],
+)
+
+entry(
+    index = 24,
+    label = "1985COB/TRO1010-1015:15",
+    reactant1 = 
+"""
+1 * O 1
+""",
+    reactant2 = 
+"""
+1 * H 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.62e+08,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (0.624,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2100,"K"),
+    ),
+    reference = Article(
+        authors = ["Cobos, C.J.", "Troe, J."],
+        title = u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results',
+        journal = "J. Chem. Phys.",
+        volume = "83",
+        pages = """1010-1015""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985COB/TRO1010-1015:15",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013764
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013764/rk00000016.xml
+Bath gas: Products
+Category: Theory
+Data type: Transition state theory
+""",
+    history = [
+        ("Wed Aug 01 13:25:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985COB/TRO1010-1015:15"""),
+    ],
+)
+
+entry(
+    index = 25,
     label = "1981TSU/KAT985:8",
     reactant1 = 
 """
@@ -304,7 +1270,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 7,
+    index = 26,
     label = "2003ING/SHE111-145:4",
     reactant1 = 
 """
@@ -348,7 +1314,8 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Combined experimental, ab initio, and modeling study. Rate constants abstracted here are based on ab initio calculations.   CBS-Q//B3LYP/6-31G(d,p) and CBS-APNO ab initio methods were used.  Rate constants for reactions with barrier were determined from the ab initio transition states using TST.  For barrierless reactions variational TST was used.   Rate constants listed here are for high pressure limit.  Pressure dependent rate expressions and full detailed chemical kinetic model can be obtained from the authors.
+
+Combined experimental, ab initio, and modeling study. Rate constants abstracted here are based on ab initio calculations.  CBS-Q//B3LYP/6-31G(d,p) and CBS-APNO ab initio methods were used. Rate constants for reactions with barrier were determined from the ab initio transition states using TST. For barrierless reactions variational TST was used.  Rate constants listed here are for high pressure limit. Pressure dependent rate expressions and full detailed chemical kinetic model can be obtained from the authors.
 """,
     history = [
         ("Thu Jul 12 15:44:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ING/SHE111-145:4"""),
@@ -356,7 +1323,7 @@ Comments: Combined experimental, ab initio, and modeling study. Rate constants a
 )
 
 entry(
-    index = 8,
+    index = 27,
     label = "2007JAS/KLI3932-3950:7",
     reactant1 = 
 """
@@ -399,7 +1366,8 @@ PrIMe Reaction: r00001660
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory.
 """,
     history = [
         ("Thu Jul 12 15:44:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007JAS/KLI3932-3950:7"""),
@@ -407,7 +1375,7 @@ Comments: Reaction potential energy surface was studied using quantum chemistry 
 )
 
 entry(
-    index = 9,
+    index = 28,
     label = "1987DEA/WES207:6",
     reactant1 = 
 """
@@ -457,7 +1425,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 10,
+    index = 29,
     label = "2007JAS/KLI3932-3950:1",
     reactant1 = 
 """
@@ -498,7 +1466,8 @@ PrIMe Reaction: r00001661
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory.
 """,
     history = [
         ("Thu Jul 12 15:45:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007JAS/KLI3932-3950:1"""),
@@ -506,7 +1475,7 @@ Comments: Reaction potential energy surface was studied using quantum chemistry 
 )
 
 entry(
-    index = 11,
+    index = 30,
     label = "2003ING/SHE111-145:1",
     reactant1 = 
 """
@@ -547,7 +1516,8 @@ PrIMe Reaction: r00001661
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Combined experimental, ab initio, and modeling study. Rate constants abstracted here are based on ab initio calculations.   CBS-Q//B3LYP/6-31G(d,p) and CBS-APNO ab initio methods were used.  Rate constants for reactions with barrier were determined from the ab initio transition states using TST.  For barrierless reactions variational TST was used.   Rate constants listed here are for high pressure limit.  Pressure dependent rate expressions and full detailed chemical kinetic model can be obtained from the authors.
+
+Combined experimental, ab initio, and modeling study. Rate constants abstracted here are based on ab initio calculations.  CBS-Q//B3LYP/6-31G(d,p) and CBS-APNO ab initio methods were used. Rate constants for reactions with barrier were determined from the ab initio transition states using TST. For barrierless reactions variational TST was used.  Rate constants listed here are for high pressure limit. Pressure dependent rate expressions and full detailed chemical kinetic model can be obtained from the authors.
 """,
     history = [
         ("Thu Jul 12 15:45:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ING/SHE111-145:1"""),
@@ -555,7 +1525,7 @@ Comments: Combined experimental, ab initio, and modeling study. Rate constants a
 )
 
 entry(
-    index = 12,
+    index = 31,
     label = "2007JAS/KLI3932-3950:31",
     reactant1 = 
 """
@@ -598,7 +1568,8 @@ PrIMe Reaction: r00001662
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory.
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using variational transition state theory.
 """,
     history = [
         ("Thu Jul 12 15:47:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007JAS/KLI3932-3950:31"""),
@@ -606,7 +1577,7 @@ Comments: Reaction potential energy surface was studied using quantum chemistry 
 )
 
 entry(
-    index = 13,
+    index = 32,
     label = "2003ING/SHE111-145:3",
     reactant1 = 
 """
@@ -650,7 +1621,8 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Combined experimental, ab initio, and modeling study. Rate constants abstracted here are based on ab initio calculations.   CBS-Q//B3LYP/6-31G(d,p) and CBS-APNO ab initio methods were used.  Rate constants for reactions with barrier were determined from the ab initio transition states using TST.  For barrierless reactions variational TST was used.   Rate constants listed here are for high pressure limit.  Pressure dependent rate expressions and full detailed chemical kinetic model can be obtained from the authors.
+
+Combined experimental, ab initio, and modeling study. Rate constants abstracted here are based on ab initio calculations.  CBS-Q//B3LYP/6-31G(d,p) and CBS-APNO ab initio methods were used. Rate constants for reactions with barrier were determined from the ab initio transition states using TST. For barrierless reactions variational TST was used.  Rate constants listed here are for high pressure limit. Pressure dependent rate expressions and full detailed chemical kinetic model can be obtained from the authors.
 """,
     history = [
         ("Thu Jul 12 15:47:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ING/SHE111-145:3"""),
@@ -658,7 +1630,7 @@ Comments: Combined experimental, ab initio, and modeling study. Rate constants a
 )
 
 entry(
-    index = 14,
+    index = 33,
     label = "1989STE/LAR25-31:2",
     reactant1 = 
 """
@@ -708,7 +1680,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 15,
+    index = 34,
     label = "1985DEA4600-4608:3",
     reactant1 = 
 """
@@ -758,7 +1730,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 16,
+    index = 35,
     label = "1985DEA4600-4608:4",
     reactant1 = 
 """
@@ -808,7 +1780,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 17,
+    index = 36,
     label = "1988DUR/AMO636:10",
     reactant1 = 
 """
@@ -859,7 +1831,7 @@ Data type: Ab initio
 )
 
 entry(
-    index = 18,
+    index = 37,
     label = "1986TSA/HAM1087:61",
     reactant1 = 
 """
@@ -909,7 +1881,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 19,
+    index = 38,
     label = "1974ALT835:1",
     reactant1 = 
 """
@@ -961,7 +1933,3364 @@ Analytical technique: Other
 )
 
 entry(
-    index = 20,
+    index = 39,
+    label = "1977ARO/NAE471:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,D} {3,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1 {2,D}
+2   O 0 {1,D}
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1e+14,"s^-1"),
+        n = 0,
+        Ea = (364.174,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1060,"K"),
+        Tmax = (1220,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Aronowitz, D.", "Naegeli, D."],
+        title = u'High-Temperature Pyrolysis of Dimethyl Ether',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "9",
+        pages = """471""",
+        year = "1977",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1977ARO/NAE471:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001337
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001337/rk00000003.xml
+Bath gas: N2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Mon Jul 30 15:58:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977ARO/NAE471:1"""),
+    ],
+)
+
+entry(
+    index = 40,
+    label = "1977ARO/NAE2555:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2e+16,"s^-1"),
+        n = 0,
+        Ea = (380.803,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1070,"K"),
+        Tmax = (1220,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Aronowitz, D.", "Naegeli, D.W.", "Glassman, I."],
+        title = u'Kinetics of the pyrolysis of methanol',
+        journal = "J. Phys. Chem.",
+        volume = "81",
+        pages = """2555""",
+        year = "1977",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1977ARO/NAE2555:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001661
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000002.xml
+Bath gas: N2
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Mon Jul 30 16:05:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1977ARO/NAE2555:2"""),
+    ],
+)
+
+entry(
+    index = 41,
+    label = "1981TSU/KAT985:3",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2e+18,"s^-1"),
+        n = 0,
+        Ea = (394.937,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1500,"K"),
+        Tmax = (1900,"K"),
+        Pmin = (933,"Pa"),
+        Pmax = (933,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Tsuboi, T.", "Katoh, M.", "Kikuchi, S.", "Hashimoto, K."],
+        title = u'Thermal Decomposition of Methanol behind Shock Waves',
+        journal = "Jpn. J. Appl. Phys.",
+        volume = "20",
+        pages = """985""",
+        year = "1981",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981TSU/KAT985:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001661
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000005.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Mon Jul 30 16:06:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981TSU/KAT985:3"""),
+    ],
+)
+
+entry(
+    index = 42,
+    label = "1982SPI/WAG2:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (9.4e+15,"s^-1"),
+        n = 0,
+        Ea = (375.814,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1600,"K"),
+        Tmax = (2100,"K"),
+        Pmin = (2800,"Pa"),
+        Pmax = (92900,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Spindler, K.", "Wagner, H.Gg."],
+        title = u'Zum thermischen unimolekularen Zerfall von Methanol',
+        journal = "Ber. Bunsenges. Phys. Chem.",
+        volume = "86",
+        pages = """2""",
+        year = "1982",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1982SPI/WAG2:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001661
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000007.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Mon Jul 30 16:07:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982SPI/WAG2:1"""),
+    ],
+)
+
+entry(
+    index = 43,
+    label = "1984WAR197C:6",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (9.4e+15,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (375.814,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Book(
+        authors = ["Warnatz, J."],
+        title = u'Rate coefficients in the C/H/O system',
+        publisher = "ed. W.C. Gardiner,Jr., pub. Springer-Verlag,NY",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:6",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001661
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000009.xml
+Uncertainty: 3.1600001
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Mon Jul 30 17:49:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:6"""),
+    ],
+)
+
+entry(
+    index = 44,
+    label = "1987TSA471:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.9e+16,"s^-1","*|/",2),
+        n = 0,
+        Ea = (384.129,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 2. Methanol',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "16",
+        pages = """471""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:2",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001661
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000011.xml
+Uncertainty: 2.0
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Mon Jul 30 17:50:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:2"""),
+    ],
+)
+
+entry(
+    index = 45,
+    label = "1994BAU/COB847-1033:8",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.7e+16,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (379.971,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."],
+        title = u'Evaluated kinetic data for combusion modelling. Supplement I',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "23",
+        pages = """847-1033""",
+        year = "1994",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:8",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001661
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001661/rk00000015.xml
+Uncertainty: 3.1600001
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Mon Jul 30 17:51:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:8"""),
+    ],
+)
+
+entry(
+    index = 46,
+    label = "1958KEN/ROB660-666:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+13,"s^-1"),
+        n = 0,
+        Ea = (263.569,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (803,"K"),
+        Tmax = (943,"K"),
+        Pmin = (3333,"Pa"),
+        Pmax = (33300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kenwright, R.", "Robinson, P.L.", "Trenwith, A.B."],
+        title = u'The kinetics of the oxidation of ethane by nitrous oxide',
+        journal = "J. Chem. Soc.",
+        pages = """660-666""",
+        year = "1958",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1958KEN/ROB660-666:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000001.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Mon Jul 30 17:55:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1958KEN/ROB660-666:1"""),
+    ],
+)
+
+entry(
+    index = 47,
+    label = "1960SKI/BAL1025:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (197000,"s^-1"),
+        n = 0,
+        Ea = (62.691,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1330,"K"),
+        Tmax = (1740,"K"),
+    ),
+    reference = Article(
+        authors = ["Skinner, G.B.", "Ball, W.E."],
+        title = u'Shock tube experiments on the pyrolysis of ethane',
+        journal = "J. Phys. Chem.",
+        volume = "64",
+        pages = """1025""",
+        year = "1960",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1960SKI/BAL1025:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000003.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 17:56:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960SKI/BAL1025:1"""),
+    ],
+)
+
+entry(
+    index = 48,
+    label = "1961LAI/WOJ91-102:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.07e+15,"s^-1"),
+        n = 0,
+        Ea = (305.973,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (823,"K"),
+        Tmax = (903,"K"),
+        Pmin = (4266,"Pa"),
+        Pmax = (84000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Laidler, K.J.", "Wojciechowski, B.W."],
+        title = u'Kinetics and mechanisms of the thermal decomposition of ethane. I. The uninhibited reaction',
+        journal = "Proc. R. Soc. London",
+        volume = "260",
+        pages = """91-102""",
+        year = "1961",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1961LAI/WOJ91-102:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000004.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 17:57:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961LAI/WOJ91-102:1"""),
+    ],
+)
+
+entry(
+    index = 49,
+    label = "1961TOW/MAR693-698:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.6e+12,"s^-1"),
+        n = 0,
+        Ea = (280.198,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1040,"K"),
+        Tmax = (1340,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Towell, g.D.", "Martin, J.J."],
+        title = u'Kinetic data from nonisothermal experiments: thermal decomposition of ethane, ethylene, and acetylene',
+        journal = "AIChE J.",
+        volume = "7",
+        pages = """693-698""",
+        year = "1961",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1961TOW/MAR693-698:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000005.xml
+Bath gas: N2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Mon Jul 30 17:58:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1961TOW/MAR693-698:1"""),
+    ],
+)
+
+entry(
+    index = 50,
+    label = "1962KOZ/KNO253:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+14,"s^-1"),
+        n = 0,
+        Ea = (288.512,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1160,"K"),
+        Tmax = (1580,"K"),
+        Pmin = (267,"Pa"),
+        Pmax = (800,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kozlov, G.I.", "Knorre, V.G."],
+        title = u'Single-pulse shock tube studies on the kinetics of the thermal decomposition of methane',
+        journal = "Combust. Flame",
+        volume = "6",
+        pages = """253""",
+        year = "1962",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1962KOZ/KNO253:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000007.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 17:59:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1962KOZ/KNO253:2"""),
+    ],
+)
+
+entry(
+    index = 51,
+    label = "1963QUI190:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.82e+17,"s^-1","*|/",10),
+        n = 0,
+        Ea = (384.129,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (837,"K"),
+        Tmax = (881,"K"),
+        Pmin = (8133,"Pa"),
+        Pmax = (26900,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Quinn, C.P."],
+        title = u'The thermal dissociation and pyrolysis of ethane',
+        journal = "Proc. R. Soc. London A",
+        volume = "275",
+        pages = """190""",
+        year = "1963",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1963QUI190:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000008.xml
+Uncertainty: 10.0
+Bath gas: C2H6
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+Note: Invalid Ea value uncertainty (8314472.0) found and ignored
+""",
+    history = [
+        ("Mon Jul 30 18:00:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1963QUI190:1"""),
+    ],
+)
+
+entry(
+    index = 52,
+    label = "1964DEX/TRE392:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.34e+16,"s^-1"),
+        n = 0,
+        Ea = (368.331,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (830,"K"),
+        Tmax = (850,"K"),
+        Pmin = (1333,"Pa"),
+        Pmax = (100000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Dexter, R.W.", "Trenwith, A.B."],
+        title = u'The dissociation of ethane',
+        journal = "J. Chem. Soc.",
+        pages = """392""",
+        year = "1964",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1964DEX/TRE392:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000009.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:01:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964DEX/TRE392:1"""),
+    ],
+)
+
+entry(
+    index = 53,
+    label = "1966LIN/BAC2357:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3e+16,"s^-1"),
+        n = 0,
+        Ea = (368.331,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (913,"K"),
+        Tmax = (999,"K"),
+        Pmin = (133,"Pa"),
+        Pmax = (26700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Lin, M.C.", "Back, M.H."],
+        title = u'the thermal decomposition of ethane. Part II. The unimolecular decomposition of the ethane molecule and the ethyl radical',
+        journal = "Can. J. Chem.",
+        volume = "44",
+        pages = """2357""",
+        year = "1966",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1966LIN/BAC2357:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000010.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:02:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966LIN/BAC2357:1"""),
+    ],
+)
+
+entry(
+    index = 54,
+    label = "1966LIN/BAC505-514:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+16,"s^-1","*|/",1.16),
+        n = 0,
+        Ea = (360.017,"kJ/mol","+|-",1.546),
+        T0 = (1,"K"),
+        Tmin = (823,"K"),
+        Tmax = (893,"K"),
+        Pmin = (5333,"Pa"),
+        Pmax = (80000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Lin, M.C.", "Back, M.H."],
+        title = u'The thermal decomposition of ethane. Part I. Initiation and termination steps',
+        journal = "Can. J. Chem.",
+        volume = "44",
+        pages = """505-514""",
+        year = "1966",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1966LIN/BAC505-514:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000012.xml
+Uncertainty: 1.16
+Bath gas: C2H6
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:02:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966LIN/BAC505-514:2"""),
+    ],
+)
+
+entry(
+    index = 55,
+    label = "1966TRE1538:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2e+16,"s^-1"),
+        n = 0,
+        Ea = (368.331,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (839,"K"),
+        Tmax = (873,"K"),
+        Pmin = (267,"Pa"),
+        Pmax = (1467,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Trenwith, A.B."],
+        title = u'Dissociation and kinetics of thermal decomposition of ethane',
+        journal = "J. Chem. Soc. Faraday Trans.",
+        volume = "62",
+        pages = """1538""",
+        year = "1966",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1966TRE1538:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000014.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Mon Jul 30 18:03:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966TRE1538:1"""),
+    ],
+)
+
+entry(
+    index = 56,
+    label = "1971WAA/RAB105-125:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.26e+18,"s^-1"),
+        n = 0,
+        Ea = (379.14,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (860,"K"),
+        Tmax = (890,"K"),
+    ),
+    reference = Article(
+        authors = ["Waage, E.V.", "Rabinovitch, B.S."],
+        title = u'Some aspects of theory and experiment in the ethane-methyl radical system',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "3",
+        pages = """105-125""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971WAA/RAB105-125:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000016.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Mon Jul 30 18:03:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971WAA/RAB105-125:1"""),
+    ],
+)
+
+entry(
+    index = 57,
+    label = "1972PAC/PUR1462:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (5.01e+16,"s^-1"),
+        n = 0,
+        Ea = (369.994,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (920,"K"),
+        Tmax = (1040,"K"),
+        Pmin = (13.33,"Pa"),
+        Pmax = (26700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Pacey, P.D.", "Purnell, J.H."],
+        title = u'Arrhenius Parameters of the Reaction CH3. + C2H6 \u2192\x92 CH4 + C2H5.',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "68",
+        pages = """1462""",
+        year = "1972",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1972PAC/PUR1462:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000017.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:04:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972PAC/PUR1462:1"""),
+    ],
+)
+
+entry(
+    index = 58,
+    label = "1973BUR/SKI345:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (7.94e+16,"s^-1"),
+        n = 0,
+        Ea = (374.151,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (1500,"K"),
+        Pmin = (172000,"Pa"),
+        Pmax = (639000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Burcat, A.", "Skinner, G.B.", "Crossley, R.W.", "Scheller, K."],
+        title = u'High Temperature Decomposition of Ethane',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "5",
+        pages = """345""",
+        year = "1973",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1973BUR/SKI345:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000018.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:04:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973BUR/SKI345:1"""),
+    ],
+)
+
+entry(
+    index = 59,
+    label = "1976CLA/QUI706:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.35e+16,"s^-1","*|/",1.21),
+        n = 0,
+        Ea = (362.511,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (778,"K"),
+        Tmax = (878,"K"),
+        Pmin = (1300,"Pa"),
+        Pmax = (215000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Clark, J.A.", "Quinn, C.P."],
+        title = u'Kinetic Isotope Effect in the Thermal Dissociation of Ethane',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "72",
+        pages = """706""",
+        year = "1976",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1976CLA/QUI706:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000020.xml
+Uncertainty: 1.21
+Bath gas: C2H6
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:32:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976CLA/QUI706:1"""),
+    ],
+)
+
+entry(
+    index = 60,
+    label = "1979OLS/GAR922:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (7.08e+16,"s^-1"),
+        n = 0,
+        Ea = (377.477,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1330,"K"),
+        Tmax = (2500,"K"),
+        Pmin = (2720,"Pa"),
+        Pmax = (10900,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Olson, D.B.", "Gardiner, W.C., Jr."],
+        title = u'Thermal Dissociation Rate of Ethane at the High Pressure Limit from 250 to 2500 K',
+        journal = "J. Phys. Chem.",
+        volume = "83",
+        pages = """922""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979OLS/GAR922:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000021.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Laser schlieren
+""",
+    history = [
+        ("Mon Jul 30 18:33:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979OLS/GAR922:1"""),
+    ],
+)
+
+entry(
+    index = 61,
+    label = "1979OLS/GAR922:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.04e+16,"s^-1"),
+        n = 0,
+        Ea = (367.5,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (250,"K"),
+        Tmax = (2500,"K"),
+        Pmin = (2720,"Pa"),
+        Pmax = (10900,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Olson, D.B.", "Gardiner, W.C., Jr."],
+        title = u'Thermal Dissociation Rate of Ethane at the High Pressure Limit from 250 to 2500 K',
+        journal = "J. Phys. Chem.",
+        volume = "83",
+        pages = """922""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979OLS/GAR922:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000022.xml
+Bath gas: Ar
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Mon Jul 30 18:34:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979OLS/GAR922:2"""),
+    ],
+)
+
+entry(
+    index = 62,
+    label = "1979PRA/ROG1089:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (7.94e+15,"s^-1","*|/",2),
+        n = 0,
+        Ea = (326.759,"kJ/mol","+|-",6.543),
+        T0 = (1,"K"),
+        Tmin = (941,"K"),
+        Tmax = (1070,"K"),
+        Pmin = (80000,"Pa"),
+        Pmax = (80000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Pratt, G.", "Rogers, D."],
+        title = u'Wall-less Reactor Studies. Part 1. - Ethane Pyrolysis',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "75",
+        pages = """1089""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979PRA/ROG1089:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000023.xml
+Uncertainty: 2.0
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:35:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979PRA/ROG1089:1"""),
+    ],
+)
+
+entry(
+    index = 63,
+    label = "1979ROT/JUS1339:5",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2e+15,"s^-1"),
+        n = 0,
+        Ea = (349.208,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1450,"K"),
+        Tmax = (2100,"K"),
+        Pmin = (175000,"Pa"),
+        Pmax = (185000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Roth, P.", "Just, T.H."],
+        title = u'Measurements of Some Elementary Hydrocarbon Reactions at High Temperatures',
+        journal = "NBS Spec. Publ. (U.S.)",
+        volume = "10",
+        pages = """1339""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979ROT/JUS1339:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000024.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Mon Jul 30 18:35:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979ROT/JUS1339:5"""),
+    ],
+)
+
+entry(
+    index = 64,
+    label = "1979TRE614:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (5.25e+16,"s^-1"),
+        n = 0,
+        Ea = (371.657,"kJ/mol","+|-",3.717),
+        T0 = (1,"K"),
+        Tmin = (840,"K"),
+        Tmax = (913,"K"),
+        Pmin = (87700,"Pa"),
+        Pmax = (92300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Trenwith, A.B."],
+        title = u'Re-examination of the Thermal Dissociation of Ethane',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "75",
+        pages = """614""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979TRE614:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000026.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:37:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979TRE614:1"""),
+    ],
+)
+
+entry(
+    index = 65,
+    label = "1979TRE614:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (6.31e+16,"s^-1"),
+        n = 0,
+        Ea = (372.488,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (840,"K"),
+        Tmax = (913,"K"),
+        Pmin = (87700,"Pa"),
+        Pmax = (92300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Trenwith, A.B."],
+        title = u'Re-examination of the Thermal Dissociation of Ethane',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "75",
+        pages = """614""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979TRE614:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000027.xml
+Bath gas: C2H6
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Mon Jul 30 18:37:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979TRE614:2"""),
+    ],
+)
+
+entry(
+    index = 66,
+    label = "1980BAU/DUX313:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.4e+16,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (365.837,"kJ/mol","+|-",25.609),
+        T0 = (1,"K"),
+        Tmin = (750,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Baulch, D.L.", "Duxbury, J."],
+        title = u'Ethane Decomposition and the Reference Rate Constant for Methyl Radical Recombination',
+        journal = "Combust. Flame",
+        volume = "37",
+        pages = """313""",
+        year = "1980",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1980BAU/DUX313:1",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000028.xml
+Uncertainty: 3.1600001
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Mon Jul 30 18:38:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980BAU/DUX313:1"""),
+    ],
+)
+
+entry(
+    index = 67,
+    label = "1980BHA/FRA503:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (8e+12,"s^-1"),
+        n = 0,
+        Ea = (294.332,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1700,"K"),
+        Tmax = (2300,"K"),
+        Pmin = (157000,"Pa"),
+        Pmax = (177000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Bhaskaran, K.A.", "Frank, P.", "Just, Th."],
+        title = u'High Temperature Methyl Radical Reactions with Atomic and Molecular Oxygen',
+        journal = "Proc. Int. Symp. Shock Tubes Waves",
+        volume = "12",
+        pages = """503""",
+        year = "1980",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1980BHA/FRA503:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000029.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Mon Jul 30 18:39:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980BHA/FRA503:1"""),
+    ],
+)
+
+entry(
+    index = 68,
+    label = "1981CHI/SKI3126:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.8e+15,"s^-1"),
+        n = 0,
+        Ea = (352.534,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1240,"K"),
+        Tmax = (1700,"K"),
+        Pmin = (203000,"Pa"),
+        Pmax = (304000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Chiang, C.C.", "Skinner, G.B."],
+        title = u'Resonance Absorption Measurements of Atom Concentrations in Reacting Gas Mixtures. 7. Pyrolysis of C2H6 and C2D6 behind Shock Waves',
+        journal = "J. Phys. Chem.",
+        volume = "85",
+        pages = """3126""",
+        year = "1981",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981CHI/SKI3126:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000031.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Mon Jul 30 18:40:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981CHI/SKI3126:1"""),
+    ],
+)
+
+entry(
+    index = 69,
+    label = "1981SKI/ROG481:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.58e+17,"s^-1"),
+        n = 0,
+        Ea = (380.803,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (1300,"K"),
+        Pmin = (304000,"Pa"),
+        Pmax = (912000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Skinner, G.B.", "Rogers, D.", "Patel, K.B."],
+        title = u'Consistency of theory and experiment in the ethane-methyl radical system',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "13",
+        pages = """481""",
+        year = "1981",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981SKI/ROG481:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000033.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:45:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981SKI/ROG481:1"""),
+    ],
+)
+
+entry(
+    index = 70,
+    label = "1983KAN/PUR845:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.31e+16,"s^-1","*|/",2.75),
+        n = 0,
+        Ea = (367.5,"kJ/mol","+|-",7.358),
+        T0 = (1,"K"),
+        Tmin = (841,"K"),
+        Tmax = (913,"K"),
+        Pmin = (133,"Pa"),
+        Pmax = (2666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kanan, K.", "Purnell, H.", "Sepherad, A."],
+        title = u'Induced heterogeneity, a novel technique for the study of gas-phase reactions. 2. Direct study of C-C bond scission in ethane',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "15",
+        pages = """845""",
+        year = "1983",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1983KAN/PUR845:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000034.xml
+Uncertainty: 2.75
+Bath gas: C2H6
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:45:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983KAN/PUR845:1"""),
+    ],
+)
+
+entry(
+    index = 71,
+    label = "1983KAN/PUR845:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (4.27e+16,"s^-1","*|/",1.51),
+        n = 0,
+        Ea = (369.994,"kJ/mol","+|-",3.7),
+        T0 = (1,"K"),
+        Tmin = (841,"K"),
+        Tmax = (913,"K"),
+        Pmin = (133,"Pa"),
+        Pmax = (2666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kanan, K.", "Purnell, H.", "Sepherad, A."],
+        title = u'Induced heterogeneity, a novel technique for the study of gas-phase reactions. 2. Direct study of C-C bond scission in ethane',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "15",
+        pages = """845""",
+        year = "1983",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1983KAN/PUR845:2",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000035.xml
+Uncertainty: 1.51
+Bath gas: C2H6
+Category: Review
+Data type: Experimental value and limited review
+""",
+    history = [
+        ("Mon Jul 30 18:46:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983KAN/PUR845:2"""),
+    ],
+)
+
+entry(
+    index = 72,
+    label = "1984WAR197C:16",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.4e+16,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (365.837,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (750,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Book(
+        authors = ["Warnatz, J."],
+        title = u'Rate coefficients in the C/H/O system',
+        publisher = "ed. W.C. Gardiner,Jr., pub. Springer-Verlag,NY",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:16",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000038.xml
+Uncertainty: 3.1600001
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Mon Jul 30 18:47:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:16"""),
+    ],
+)
+
+entry(
+    index = 73,
+    label = "1985DEA4600-4608:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (7.94e+16,"s^-1"),
+        n = 0,
+        Ea = (374.151,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Dean, A.M."],
+        title = u'Predictions of pressure and temperature effects upon radical addition and recombination reactions',
+        journal = "J. Phys. Chem.",
+        volume = "89",
+        pages = """4600-4608""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000040.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Mon Jul 30 18:47:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:2"""),
+    ],
+)
+
+entry(
+    index = 74,
+    label = "1985HID/SHI441:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (7e+14,"s^-1"),
+        n = 0,
+        Ea = (335.073,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1200,"K"),
+        Tmax = (1700,"K"),
+        Pmin = (172000,"Pa"),
+        Pmax = (253000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hidaka, Y.", "Shiba, S.", "Takuma, H.", "Suga, M."],
+        title = u'Thermal decomposition of ethane in shock waves',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "17",
+        pages = """441""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985HID/SHI441:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000041.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Jul 30 18:48:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985HID/SHI441:1"""),
+    ],
+)
+
+entry(
+    index = 75,
+    label = "1986TSA/HAM1087:28",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.17e+22,"s^-1","*|/",2),
+        n = -1.79,
+        Ea = (380.803,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W.", "Hampson, R.F."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "15",
+        pages = """1087""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:28",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000043.xml
+Uncertainty: 2.0
+Bath gas: Ar
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Mon Jul 30 18:49:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:28"""),
+    ],
+)
+
+entry(
+    index = 76,
+    label = "1989STE/LAR25-31:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.05e+26,"s^-1"),
+        n = -2.79,
+        Ea = (389.949,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Stewart, P.H.", "Larson, C.W.", "Golden, D.M."],
+        title = u'Pressure and temperature dependence of reactions proceeding via a bound complex. 2. Application to 2CH3 \u2192\x92 C2H5 + H',
+        journal = "Combust. Flame",
+        volume = "75",
+        pages = """25-31""",
+        year = "1989",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1989STE/LAR25-31:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000044.xml
+Bath gas: Ar
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Mon Jul 30 18:50:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989STE/LAR25-31:1"""),
+    ],
+)
+
+entry(
+    index = 77,
+    label = "1989TSA71-86:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.01e+22,"s^-1"),
+        n = -1.79,
+        Ea = (380.803,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (843,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Rate constants for the decomposition and formation of simple alkanes over extended temperature and pressure ranges',
+        journal = "Combust. Flame",
+        volume = "78",
+        pages = """71-86""",
+        year = "1989",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1989TSA71-86:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000045.xml
+Bath gas: Ar
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Mon Jul 30 18:59:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989TSA71-86:2"""),
+    ],
+)
+
+entry(
+    index = 78,
+    label = "1992BAU/COB411-429:32",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.8e+21,"s^-1","*|/",2),
+        n = -1.24,
+        Ea = (379.971,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."],
+        title = u'Evaluated kinetic data for combustion modelling',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "21",
+        pages = """411-429""",
+        year = "1992",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:32",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000046.xml
+Uncertainty: 2.0
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Mon Jul 30 19:00:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:32"""),
+    ],
+)
+
+entry(
+    index = 79,
+    label = "1993DAV/DIR969-982:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (4.85e+75,"s^-1","*|/",1.25),
+        n = -17.6,
+        Ea = (488.891,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1350,"K"),
+        Tmax = (2110,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Davidson, D.F.", "DiRosa, M.D.", "Hanson, R.K.", "Bowman, C.T."],
+        title = u'A study of ethane decomposition in a shock tube using laser absorption of CH3',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "25",
+        pages = """969-982""",
+        year = "1993",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1993DAV/DIR969-982:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000049.xml
+Uncertainty: 1.25
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Mon Jul 30 19:01:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993DAV/DIR969-982:1"""),
+    ],
+)
+
+entry(
+    index = 80,
+    label = "1995DAV/HAN305-308:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    product1 = 
+"""
+1 * C 1
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (7.94e+11,"s^-1"),
+        n = 0,
+        Ea = (251.929,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1450,"K"),
+        Tmax = (1940,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Davidson, D.F.", "Hanson, R.K.", "Bowman, C.T."],
+        title = u'Communication: revised values for the rate coefficients of ethane and methane decomposition',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "27",
+        pages = """305-308""",
+        year = "1995",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995DAV/HAN305-308:2",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000054.xml
+Bath gas: Ar
+Category: Review
+Data type: Experimental value and limited review
+""",
+    history = [
+        ("Mon Jul 30 19:02:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995DAV/HAN305-308:2"""),
+    ],
+)
+
+entry(
+    index = 81,
+    label = "1953ING/LOS1135-1144:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.39e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-6.344,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (434,"K"),
+        Tmax = (1090,"K"),
+        Pmin = (640,"Pa"),
+        Pmax = (2466,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Ingold, K.U.", "Lossing, F.P."],
+        title = u'Free radicals by mass spectrometry. IV. The rate of combination of methyl radicals',
+        journal = "J. Chem. Phys.",
+        volume = "21",
+        pages = """1135-1144""",
+        year = "1953",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1953ING/LOS1135-1144:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000067.xml
+Bath gas: (CH3)2Hg
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Wed Aug 01 10:12:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1953ING/LOS1135-1144:1"""),
+    ],
+)
+
+entry(
+    index = 82,
+    label = "1953ING/LOS368:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (55200,"m^3/(mol*s)"),
+        n = 0.5,
+        Ea = (-9.063,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (434,"K"),
+        Tmax = (1090,"K"),
+        Pmin = (640,"Pa"),
+        Pmax = (2466,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Ingold, K.U.", "Lossing, F.P."],
+        title = u'The rate of combination of methyl radicals',
+        journal = "J. Chem. Phys.",
+        volume = "21",
+        pages = """368""",
+        year = "1953",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1953ING/LOS368:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000068.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Wed Aug 01 10:14:09 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1953ING/LOS368:1"""),
+    ],
+)
+
+entry(
+    index = 83,
+    label = "1971WAA/RAB105-125:2",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.41e+08,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (5.903,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (900,"K"),
+    ),
+    reference = Article(
+        authors = ["Waage, E.V.", "Rabinovitch, B.S."],
+        title = u'Some aspects of theory and experiment in the ethane-methyl radical system',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "3",
+        pages = """105-125""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971WAA/RAB105-125:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000081.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 10:15:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971WAA/RAB105-125:2"""),
+    ],
+)
+
+entry(
+    index = 84,
+    label = "1972TEN/JON1267:2",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.62e+07,"m^3/(mol*s)","*|/",2),
+        n = 0,
+        Ea = (1.796,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (303,"K"),
+        Tmax = (603,"K"),
+        Pmin = (160,"Pa"),
+        Pmax = (267,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Teng, L.", "Jones, W.E."],
+        title = u'Kinetics of the Reactions of Hydrogen Atoms with Ethylene and Vinyl Fluoride',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "68",
+        pages = """1267""",
+        year = "1972",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1972TEN/JON1267:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000082.xml
+Uncertainty: 2.0
+Bath gas: H2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Electron beam
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 10:16:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972TEN/JON1267:2"""),
+    ],
+)
+
+entry(
+    index = 85,
+    label = "1983MAC/PIL430:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.67e+07,"m^3/(mol*s)","+|-",1e+06),
+        n = 0,
+        Ea = (-1.28,"kJ/mol","+|-",0.18),
+        T0 = (1,"K"),
+        Tmin = (296,"K"),
+        Tmax = (577,"K"),
+        Pmin = (667,"Pa"),
+        Pmax = (66700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["MacPherson, M.T.", "Pilling, M.J.", "Smith, M.J.C."],
+        title = u'The pressure and temperature dependence of the rate constant for methyl radical recombination over the temperature range 296-577 K',
+        journal = "Chem. Phys. Lett.",
+        volume = "94",
+        pages = """430""",
+        year = "1983",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1983MAC/PIL430:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000105.xml
+Uncertainty: 1.3
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 10:17:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983MAC/PIL430:1"""),
+    ],
+)
+
+entry(
+    index = 86,
+    label = "1985COB/TRO1010-1015:4",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.39e+07,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (0.449,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (1300,"K"),
+    ),
+    reference = Article(
+        authors = ["Cobos, C.J.", "Troe, J."],
+        title = u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results',
+        journal = "J. Chem. Phys.",
+        volume = "83",
+        pages = """1010-1015""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985COB/TRO1010-1015:4",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000109.xml
+Bath gas: Products
+Category: Theory
+Data type: Transition state theory
+""",
+    history = [
+        ("Wed Aug 01 10:18:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985COB/TRO1010-1015:4"""),
+    ],
+)
+
+entry(
+    index = 87,
+    label = "1985MAC/PIL2268-2274:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.47e+07,"m^3/(mol*s)","+|-",2.2e+06),
+        n = 0,
+        Ea = (-1.139,"kJ/mol","+|-",0.274),
+        T0 = (1,"K"),
+        Tmin = (296,"K"),
+        Tmax = (577,"K"),
+        Pmin = (6666,"Pa"),
+        Pmax = (6666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Macpherson, M.T.", "Pilling, M.J.", "Smith, M.J.C."],
+        title = u'Determination of the absorption cross section for CH3 at 216.36 nm and the absolute rate constant for methyl radical recombination over the temperature range 296-577 K',
+        journal = "J. Phys. Chem.",
+        volume = "89",
+        pages = """2268-2274""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985MAC/PIL2268-2274:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000110.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 10:19:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985MAC/PIL2268-2274:1"""),
+    ],
+)
+
+entry(
+    index = 88,
+    label = "1986MOL/MOZ854:4",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (200000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-29.932,"kJ/mol","+|-",5.687),
+        T0 = (1,"K"),
+        Tmin = (1270,"K"),
+        Tmax = (2210,"K"),
+        Pmin = (72000,"Pa"),
+        Pmax = (72000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Moller, W.", "Mozzhukhin, E.", "Wagner, H.Gg."],
+        title = u'High temperature reactions of CH3. 1. The reactions CH3 + H2 \u2192\x92 CH4 + H',
+        journal = "Ber. Bunsenges. Phys. Chem.",
+        volume = "90",
+        pages = """854""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986MOL/MOZ854:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000114.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 10:24:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986MOL/MOZ854:4"""),
+    ],
+)
+
+entry(
+    index = 89,
+    label = "1988WAG/WAR2462-2471:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9.06e+10,"m^3/(mol*s)"),
+        n = -1.18,
+        Ea = (2.735,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (296,"K"),
+        Tmax = (2000,"K"),
+        Pmin = (133,"Pa"),
+        Pmax = (60000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Wagner, A.F.", "Wardlaw, D.M."],
+        title = u'Study of the recombination reaction CH3 + CH3 \u2192\x92 C2H6. 2. Theory',
+        journal = "J. Phys. Chem.",
+        volume = "92",
+        pages = """2462-2471""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988WAG/WAR2462-2471:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000119.xml
+Bath gas: Ar
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 10:27:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988WAG/WAR2462-2471:1"""),
+    ],
+)
+
+entry(
+    index = 90,
+    label = "1991FOR3612-3620:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.69e+10,"m^3/(mol*s)"),
+        n = -1.11,
+        Ea = (2.453,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Forst, W."],
+        title = u'Microcanonical variational theory of radical recombination by inversion of interpolated partition function, with examples: CH3 + H, CH3 + CH3',
+        journal = "J. Phys. Chem.",
+        volume = "95",
+        pages = """3612-3620""",
+        year = "1991",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1991FOR3612-3620:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000122.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 10:28:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991FOR3612-3620:1"""),
+    ],
+)
+
+entry(
+    index = 91,
+    label = "1991HWA/WAG99-105:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.37e+10,"m^3/(mol*s)"),
+        n = -1.1,
+        Ea = (2.661,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1200,"K"),
+        Tmax = (1600,"K"),
+        Pmin = (1.01e+06,"Pa"),
+        Pmax = (2.43e+07,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hwang, S.M.", "Wagner, H.GG.", "Wolff, Th."],
+        title = u'Recombination of CH3 radicals at elevated pressures and temperatures',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "23",
+        pages = """99-105""",
+        year = "1991",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1991HWA/WAG99-105:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000123.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 10:30:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991HWA/WAG99-105:1"""),
+    ],
+)
+
+entry(
+    index = 92,
+    label = "1991WAL/GRO107-114:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9.03e+10,"m^3/(mol*s)"),
+        n = -1.17,
+        Ea = (2.661,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Walter, D.", "Grotheer, H-H."],
+        title = u'Experimental and theoretical study of the recombination reaction CH3 + CH3 \u2192\x92 C2H6',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "23",
+        pages = """107-114""",
+        year = "1991",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1991WAL/GRO107-114:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000124.xml
+Bath gas: Ar
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 10:30:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991WAL/GRO107-114:1"""),
+    ],
+)
+
+entry(
+    index = 93,
+    label = "1995ROB/PIL13452-13460:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (3.26e+10,"m^3/(mol*s)"),
+        n = -1.1,
+        Ea = (1.33,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (296,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Robertson, S.H.", "Pilling, M.J.", "Baulch, D.L.", "Green, N.J.B."],
+        title = u'Fitting of pressure-dependent kinetic rate data by master equation/inverse laplace transform analysis',
+        journal = "J. Phys. Chem.",
+        volume = "99",
+        pages = """13452-13460""",
+        year = "1995",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995ROB/PIL13452-13460:1",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000128.xml
+Bath gas: Ar
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Aug 01 10:31:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995ROB/PIL13452-13460:1"""),
+    ],
+)
+
+entry(
+    index = 94,
+    label = "1996DU/HES974-983:2",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9.06e+10,"m^3/(mol*s)"),
+        n = -1.2,
+        Ea = (2.453,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (296,"K"),
+        Tmax = (1800,"K"),
+        Pmin = (122000,"Pa"),
+        Pmax = (122000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Du, H.", "Hessler, J.P.", "Ogren, P.J."],
+        title = u'Recombination of methyl radicals. 1. New data between 1175 and 1750 K in the falloff region',
+        journal = "J. Phys. Chem.",
+        volume = "100",
+        pages = """974-983""",
+        year = "1996",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1996DU/HES974-983:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000129.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 10:33:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996DU/HES974-983:2"""),
+    ],
+)
+
+entry(
+    index = 95,
+    label = "1998PES/PIL8526-8536:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (8.7e+11,"m^3/(mol*s)"),
+        n = -1.41,
+        Ea = (4.177,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Pesa, M.", "Pilling, M.J.", "Robertson, S.H.", "Wardlaw, D.M."],
+        title = u'Application of the canonical flexible transition state theory to CH3, CF3, and CCl3',
+        journal = "J. Phys. Chem. A",
+        volume = "102",
+        pages = """8526-8536""",
+        year = "1998",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1998PES/PIL8526-8536:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000131.xml
+Category: Theory
+Data type: Transition state theory
+Pressure dependence: Rate constant is high pressure limit
+""",
+    history = [
+        ("Wed Aug 01 10:34:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1998PES/PIL8526-8536:1"""),
+    ],
+)
+
+entry(
+    index = 96,
+    label = "2003WAN/HOU11414-11426:1",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.28e+09,"m^3/(mol*s)"),
+        n = -0.69,
+        Ea = (0.732,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (1350,"K"),
+    ),
+    reference = Article(
+        authors = ["Wang, B.S.", "Hou, H.", "Yoder, L.M.", "Muckerman, J.T.", "Fockenberg, C."],
+        title = u'Experimental and theoretical investigations on the methyl-methyl recombination reaction',
+        journal = "J. Phys. Chem. A:",
+        volume = "107",
+        pages = """11414-11426""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003WAN/HOU11414-11426:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00002085
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002085/rk00000159.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+Pressure dependence: Rate constant is high pressure limit
+Experimental procedure: Static or low flow - Data taken vs time
+Excitation technique: Flash photolysis (laser or conventional)
+Time resolution: In real time
+Analytical technique: Mass spectrometry
+
+Rate expressions given here are NOT the exact experimental values, but from TST calculations consistent with experimental measurements.  Derived Fcent(T) = exp(-T/570K)
+
+This work is a combined experimental, TST, and ab initio study of recombination of CH3 radicals. Methyl radicals produced by 193 nm photolysis of acetone. Temperature range 300-700 K. Total pressure 0.6-10 torr He. Detected CH3 with time resolved mass spec. Calculated potential energy surface using ab initio MRCISD+Q/aug-cc-pVTZ method. Used variational transition state theory (Variflex program) to derive high pressure and low pressure limits (and falloff parameter Fcent) for this reaction that are consistent with the experimental measurements.
+""",
+    history = [
+        ("Wed Aug 01 10:35:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003WAN/HOU11414-11426:1"""),
+    ],
+)
+
+entry(
+    index = 97,
+    label = "1967BAL/JAC1676-1686:10",
+    reactant1 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    reactant2 = 
+"""
+1 * H 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (5e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-5.438,"kJ/mol","+|-",2.07),
+        T0 = (1,"K"),
+        Tmin = (733,"K"),
+        Tmax = (803,"K"),
+    ),
+    reference = Article(
+        authors = ["Baldwin, R.R.", "Jackson, D.", "Walker, R.W.", "Webster, S.J."],
+        title = u'Interpretation of the slow reaction and second limit of hydrogen oxygen mixtures by computer methods',
+        journal = "Trans. Faraday Soc.",
+        volume = "63",
+        pages = """1676-1686""",
+        year = "1967",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1967BAL/JAC1676-1686:10",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011821
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000017.xml
+Bath gas: H2
+Category: Review
+Data type: Experimental value and limited review
+""",
+    history = [
+        ("Wed Aug 01 12:37:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BAL/JAC1676-1686:10"""),
+    ],
+)
+
+entry(
+    index = 98,
+    label = "1996DUC/PET10367-10379:1",
+    reactant1 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    reactant2 = 
+"""
+1 * H 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (87900,"m^3/(mol*s)"),
+        n = 1,
+        Ea = (1.862,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (6000,"K"),
+    ),
+    reference = Article(
+        authors = ["Duchovic, R.J.", "Pettigrew, J.D.", "Welling, B.", "Shipchandler, T."],
+        title = u'Conventional transition state theory/Rice-Ramsperger-Kassel-Marcus theory calculations of thermal termolecular rate coefficients for H(D)+O2+M',
+        journal = "J. Chem. Phys.",
+        volume = "105",
+        pages = """10367-10379""",
+        year = "1996",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1996DUC/PET10367-10379:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011821
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000022.xml
+Bath gas: Ar
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 13:02:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996DUC/PET10367-10379:1"""),
+    ],
+)
+
+entry(
+    index = 99,
+    label = "1985COB/TRO1010-1015:17",
+    reactant1 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    reactant2 = 
+"""
+1 * H 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *2 H 0 {1,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.63e+07,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (3.184,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Cobos, C.J.", "Troe, J."],
+        title = u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results',
+        journal = "J. Chem. Phys.",
+        volume = "83",
+        pages = """1010-1015""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985COB/TRO1010-1015:17",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011821
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011821/rk00000020.xml
+Bath gas: Products
+Category: Theory
+Data type: Transition state theory
+""",
+    history = [
+        ("Wed Aug 01 13:03:33 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985COB/TRO1010-1015:17"""),
+    ],
+)
+
+entry(
+    index = 100,
+    label = "1949MCL379-385:1",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * O 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.41e+11,"s^-1"),
+        n = 0,
+        Ea = (165.458,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (740,"K"),
+        Tmax = (794,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["McLane, C.K."],
+        title = u'Hydrogen peroxide in the thermal hydrogen oxygen reaction. I. Thermal decomposition of hydrogen peroxide',
+        journal = "J. Chem. Phys.",
+        volume = "17",
+        pages = """379-385""",
+        year = "1949",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1949MCL379-385:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013690
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000001.xml
+Bath gas: N2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Wed Aug 01 13:11:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1949MCL379-385:1"""),
+    ],
+)
+
+entry(
+    index = 101,
+    label = "1949MCL379-385:2",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * O 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (9.14e+10,"s^-1"),
+        n = 0,
+        Ea = (167.952,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (762,"K"),
+        Tmax = (815,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["McLane, C.K."],
+        title = u'Hydrogen peroxide in the thermal hydrogen oxygen reaction. I. Thermal decomposition of hydrogen peroxide',
+        journal = "J. Chem. Phys.",
+        volume = "17",
+        pages = """379-385""",
+        year = "1949",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1949MCL379-385:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013690
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000002.xml
+Bath gas: O2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Wed Aug 01 13:12:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1949MCL379-385:2"""),
+    ],
+)
+
+entry(
+    index = 102,
+    label = "1957GIG/LIU283-293:1",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * O 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+13,"s^-1"),
+        n = 0,
+        Ea = (201.21,"kJ/mol","+|-",12.056),
+        T0 = (1,"K"),
+        Tmin = (673,"K"),
+        Tmax = (773,"K"),
+        Pmin = (1333,"Pa"),
+        Pmax = (2666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Giguere, P.A.", "Liu, I.D."],
+        title = u'Kinetics of the thermal decomposition of hydrogen peroxide vapor',
+        journal = "Can. J. Chem.",
+        volume = "35",
+        pages = """283-293""",
+        year = "1957",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1957GIG/LIU283-293:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013690
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000003.xml
+Bath gas: H2O2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Wed Aug 01 13:12:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1957GIG/LIU283-293:1"""),
+    ],
+)
+
+entry(
+    index = 103,
+    label = "1987BRO/COB6171:2",
+    reactant1 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 O 0 {1,S}
+""",
+    product1 = 
+"""
+1 * O 1
+""",
+    product2 = 
+"""
+1 * O 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.95e+14,"s^-1"),
+        n = 0,
+        Ea = (202.873,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Brouwer, L.", "Cobos, C.J.", "Troe, J.", "Dubal, H.-R.", "Crim, F.F."],
+        title = u'Specific rate constants k(E,J) and product state distributions in simple bond fission reactions. II. Application to HOOH \u2192\x92 OH + OH',
+        journal = "J. Chem. Phys.",
+        volume = "86",
+        pages = """6171""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987BRO/COB6171:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Other theoretical""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013690
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013690/rk00000018.xml
+Category: Theory
+Data type: Other theoretical
+""",
+    history = [
+        ("Wed Aug 01 13:13:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987BRO/COB6171:2"""),
+    ],
+)
+
+entry(
+    index = 104,
     label = "1985DEA4600-4608:5",
     reactant1 = 
 """
@@ -1013,7 +5342,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 21,
+    index = 105,
     label = "1985DEA4600-4608:6",
     reactant1 = 
 """
@@ -1065,7 +5394,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 22,
+    index = 106,
     label = "1994BAU/COB847-1033:34",
     reactant1 = 
 """
@@ -1115,7 +5444,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 23,
+    index = 107,
     label = "1988TSA887:15",
     reactant1 = 
 """
@@ -1165,7 +5494,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 24,
+    index = 108,
     label = "1984WAR197C:41",
     reactant1 = 
 """
@@ -1213,7 +5542,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 25,
+    index = 109,
     label = "1981CHI/SKI915:1",
     reactant1 = 
 """
@@ -1266,7 +5595,7 @@ Data type: Experimental value and limited review
 )
 
 entry(
-    index = 26,
+    index = 110,
     label = "2005OEH/DAV1119-1127:4",
     reactant1 = 
 """
@@ -1322,7 +5651,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 27,
+    index = 111,
     label = "1999GLA/ERM183-189:1",
     reactant1 = 
 """
@@ -1378,7 +5707,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 28,
+    index = 112,
     label = "1994BEL/PER313-328:1",
     reactant1 = 
 """
@@ -1433,7 +5762,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 29,
+    index = 113,
     label = "1989TSA71-86:3",
     reactant1 = 
 """
@@ -1483,7 +5812,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 30,
+    index = 114,
     label = "1989HID/OKI689-701:1",
     reactant1 = 
 """
@@ -1537,7 +5866,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 31,
+    index = 115,
     label = "1986DOM/HOR255:2",
     reactant1 = 
 """
@@ -1592,7 +5921,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 32,
+    index = 116,
     label = "1985DEA4600-4608:7",
     reactant1 = 
 """
@@ -1641,7 +5970,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 33,
+    index = 117,
     label = "1983KAN/PUR63:1",
     reactant1 = 
 """
@@ -1696,7 +6025,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 34,
+    index = 118,
     label = "1983ALA/KIE499:2",
     reactant1 = 
 """
@@ -1750,7 +6079,7 @@ Analytical technique: Laser schlieren
 )
 
 entry(
-    index = 35,
+    index = 119,
     label = "1983ALA/KIE499:1",
     reactant1 = 
 """
@@ -1804,7 +6133,7 @@ Analytical technique: Laser schlieren
 )
 
 entry(
-    index = 36,
+    index = 120,
     label = "1981JUS/SCA855:1",
     reactant1 = 
 """
@@ -1858,7 +6187,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 37,
+    index = 121,
     label = "1981CHI/SKI915:2",
     reactant1 = 
 """
@@ -1912,7 +6241,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 38,
+    index = 122,
     label = "1979CHI/SKI1-18:1",
     reactant1 = 
 """
@@ -1966,7 +6295,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 39,
+    index = 123,
     label = "1962LAI/SAG242:1",
     reactant1 = 
 """
@@ -2020,7 +6349,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 40,
+    index = 124,
     label = "2004ZHU/XU6566-6573:4",
     reactant1 = 
 """
@@ -2063,7 +6392,10 @@ PrIMe Reaction: r00002700
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: The CH3 + C2H5 reaction was investigated by the modified Gaussian-2 method with variational transition state or Rice-Ramsperger-Kassel-Marcus calculations. Vibrational frequencies and moments of inertia of all species used in RRKM calculations were computed at the B3LYP/6-311G(3df,2p) level and are reported.
+
+The CH3 + C2H5 reaction was investigated by the modified Gaussian-2 method with variational transition state or Rice-Ramsperger-Kassel-Marcus calculations. Vibrational frequencies and moments of inertia of all species used in RRKM calculations were computed at the B3LYP/6-311G(3df,2p) level and are reported.
+
+The results suggest the combination process dominates below 600 K and is pressure independent under typical experimental conditions. The disproportionation process producing CH4 and C2H4 is suggested to occur via a loose hydrogen-bonded precursor, H3C---HC2H4 , which fragments with a small ~1.9 kcal/mol! barrier giving rise to the products. The disproportionation and combination reactions are concluded to occur with entirely different transition states. Calculated rate constants are in ggod agreement with experimental values.
 """,
     history = [
         ("Thu Jul 12 15:59:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004ZHU/XU6566-6573:4"""),
@@ -2071,7 +6403,7 @@ Comments: The CH3 + C2H5 reaction was investigated by the modified Gaussian-2 me
 )
 
 entry(
-    index = 41,
+    index = 125,
     label = "2003MOU/HOM8566-8574:3",
     reactant1 = 
 """
@@ -2114,7 +6446,8 @@ PrIMe Reaction: r00002700
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: The authors studied the CH3 + C2H5 system using theoretical methods. Potential energy surfaces were explored by UMP2, CAS, QCISD, and DFT methods. Stationary point energies were calculated by CASMP2, B3LYP, MP4SDTQ, and QCISD methods. Canonical variational transition-state theory and microcanonical variational RRKM calculations were used to locate the position of bottleneck for the association reaction of methyl and ethyl radicals. The pressure dependency of the rate constants for dissociation of propane and association of methyl and ethyl radicals was examined using RRKM methods. Conventional transition-state theory was used to calculate the rate constant for CH3 + C2H5 = CH4 + C2H4 in the temperature range of 200-2500 K.
+
+The authors studied the CH3 + C2H5 system using theoretical methods. Potential energy surfaces were explored by UMP2, CAS, QCISD, and DFT methods. Stationary point energies were calculated by CASMP2, B3LYP, MP4SDTQ, and QCISD methods. Canonical variational transition-state theory and microcanonical variational RRKM calculations were used to locate the position of bottleneck for the association reaction of methyl and ethyl radicals. The pressure dependency of the rate constants for dissociation of propane and association of methyl and ethyl radicals was examined using RRKM methods. Conventional transition-state theory was used to calculate the rate constant for CH3 + C2H5 = CH4 + C2H4 in the temperature range of 200-2500 K.
 """,
     history = [
         ("Thu Jul 12 15:59:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MOU/HOM8566-8574:3"""),
@@ -2122,7 +6455,7 @@ Comments: The authors studied the CH3 + C2H5 system using theoretical methods. P
 )
 
 entry(
-    index = 42,
+    index = 126,
     label = "1978JEZ/BAR991-993:1",
     reactant1 = 
 """
@@ -2174,7 +6507,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 43,
+    index = 127,
     label = "1977KAO/YEH2304-2306:1",
     reactant1 = 
 """
@@ -2225,7 +6558,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 44,
+    index = 128,
     label = "1962BLA/HIN36:1",
     reactant1 = 
 """
@@ -2275,7 +6608,7 @@ Data type: Ab initio
 )
 
 entry(
-    index = 45,
+    index = 129,
     label = "1983KAN/PUR63:2",
     reactant1 = 
 """
@@ -2327,7 +6660,7 @@ Data type: Derived from detailed balance/reverse rate
 )
 
 entry(
-    index = 46,
+    index = 130,
     label = "1982SIM/GAR799:1",
     reactant1 = 
 """
@@ -2381,7 +6714,7 @@ Analytical technique: IR absorption
 )
 
 entry(
-    index = 47,
+    index = 131,
     label = "1972TEN/JON1267:4",
     reactant1 = 
 """
@@ -2436,7 +6769,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 48,
+    index = 132,
     label = "2004ZHU/XU6566-6573:3",
     reactant1 = 
 """
@@ -2479,7 +6812,10 @@ PrIMe Reaction: r00002700
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: The CH3 + C2H5 reaction was investigated by the modified Gaussian-2 method with variational transition state or Rice-Ramsperger-Kassel-Marcus calculations. Vibrational frequencies and moments of inertia of all species used in RRKM calculations were computed at the B3LYP/6-311G(3df,2p) level and are reported.
+
+The CH3 + C2H5 reaction was investigated by the modified Gaussian-2 method with variational transition state or Rice-Ramsperger-Kassel-Marcus calculations. Vibrational frequencies and moments of inertia of all species used in RRKM calculations were computed at the B3LYP/6-311G(3df,2p) level and are reported.
+
+The results suggest the combination process dominates below 600 K and is pressure independent under typical experimental conditions. The disproportionation process producing CH4 and C2H4 is suggested to occur via a loose hydrogen-bonded precursor, H3C---HC2H4 , which fragments with a small ~1.9 kcal/mol! barrier giving rise to the products. The disproportionation and combination reactions are concluded to occur with entirely different transition states. Calculated rate constants are in ggod agreement with experimental values.
 """,
     history = [
         ("Thu Jul 12 15:59:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004ZHU/XU6566-6573:3"""),
@@ -2487,7 +6823,7 @@ Comments: The CH3 + C2H5 reaction was investigated by the modified Gaussian-2 me
 )
 
 entry(
-    index = 49,
+    index = 133,
     label = "2003MOU/HOM8566-8574:1",
     reactant1 = 
 """
@@ -2530,7 +6866,8 @@ PrIMe Reaction: r00002700
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: The authors studied the CH3 + C2H5 system using theoretical methods. Potential energy surfaces were explored by UMP2, CAS, QCISD, and DFT methods. Stationary point energies were calculated by CASMP2, B3LYP, MP4SDTQ, and QCISD methods. Canonical variational transition-state theory and microcanonical variational RRKM calculations were used to locate the position of bottleneck for the association reaction of methyl and ethyl radicals. The pressure dependency of the rate constants for dissociation of propane and association of methyl and ethyl radicals was examined using RRKM methods. Conventional transition-state theory was used to calculate the rate constant for CH3 + C2H5 = CH4 + C2H4 in the temperature range of 200-2500 K.
+
+The authors studied the CH3 + C2H5 system using theoretical methods. Potential energy surfaces were explored by UMP2, CAS, QCISD, and DFT methods. Stationary point energies were calculated by CASMP2, B3LYP, MP4SDTQ, and QCISD methods. Canonical variational transition-state theory and microcanonical variational RRKM calculations were used to locate the position of bottleneck for the association reaction of methyl and ethyl radicals. The pressure dependency of the rate constants for dissociation of propane and association of methyl and ethyl radicals was examined using RRKM methods. Conventional transition-state theory was used to calculate the rate constant for CH3 + C2H5 = CH4 + C2H4 in the temperature range of 200-2500 K.
 """,
     history = [
         ("Thu Jul 12 15:59:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MOU/HOM8566-8574:1"""),
@@ -2538,7 +6875,7 @@ Comments: The authors studied the CH3 + C2H5 system using theoretical methods. P
 )
 
 entry(
-    index = 50,
+    index = 134,
     label = "1991TSA221-273:17",
     reactant1 = 
 """
@@ -2591,7 +6928,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 51,
+    index = 135,
     label = "1996BAR/MAR829-847:2",
     reactant1 = 
 """
@@ -2647,7 +6984,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 52,
+    index = 136,
     label = "1986NAR/NIE281:1",
     reactant1 = 
 """
@@ -2698,7 +7035,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 53,
+    index = 137,
     label = "1949SZW284-291:1",
     reactant1 = 
 """
@@ -2755,7 +7092,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 54,
+    index = 138,
     label = "1992HID/NAK761-780:3",
     reactant1 = 
 """
@@ -2806,7 +7143,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 55,
+    index = 139,
     label = "2007HAR/KLI3789-3801:5",
     reactant1 = 
 """
@@ -2857,7 +7194,7 @@ Data type: Transition state theory
 )
 
 entry(
-    index = 56,
+    index = 140,
     label = "2008ZHA/CHA1-18:2",
     reactant1 = 
 """
@@ -2911,7 +7248,7 @@ Analytical technique: Fourier transform (FTIR)
 )
 
 entry(
-    index = 57,
+    index = 141,
     label = "2008ZHA/CHA1-18:1",
     reactant1 = 
 """
@@ -2965,7 +7302,7 @@ Analytical technique: Fourier transform (FTIR)
 )
 
 entry(
-    index = 58,
+    index = 142,
     label = "2000HID/SAT1-22:1",
     reactant1 = 
 """
@@ -3012,7 +7349,8 @@ Data type: Derived from fitting to a complex mechanism
 Experimental procedure: Shock tube
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
-Comments: The high-temperature pyrolysis of dimethyl ether (DME) was studied behind reflected shock waves using single-pulse (reaction time between 1.3 and 2.9 ms), time-resolved IR absorption (3.39 mm), IR emission (4.24mm), and UV absorption (216 nm) methods. The studies were done using DME-Ar, DME-H2-Ar, DME-CO-Ar and DME-CH2O-Ar mixtures. From a computer simulation, a 94-reaction mechanism that could explain all exp. data was constructed.
+
+The high-temperature pyrolysis of dimethyl ether (DME) was studied behind reflected shock waves using single-pulse (reaction time between 1.3 and 2.9 ms), time-resolved IR absorption (3.39 mm), IR emission (4.24mm), and UV absorption (216 nm) methods. The studies were done using DME-Ar, DME-H2-Ar, DME-CO-Ar and DME-CH2O-Ar mixtures. From a computer simulation, a 94-reaction mechanism that could explain all exp. data was constructed.
 """,
     history = [
         ("Thu Jul 12 16:17:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000HID/SAT1-22:1"""),
@@ -3020,7 +7358,7 @@ Comments: The high-temperature pyrolysis of dimethyl ether (DME) was studied beh
 )
 
 entry(
-    index = 59,
+    index = 143,
     label = "1982BAT/ALV81:1",
     reactant1 = 
 """
@@ -3074,7 +7412,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 60,
+    index = 144,
     label = "1977ARO/NAE471:3",
     reactant1 = 
 """
@@ -3129,7 +7467,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 61,
+    index = 145,
     label = "1975PAC2742:1",
     reactant1 = 
 """
@@ -3184,7 +7522,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 62,
+    index = 146,
     label = "1959BEN/JAI1008:2",
     reactant1 = 
 """
@@ -3236,7 +7574,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 63,
+    index = 147,
     label = "1956BEN27-31:1",
     reactant1 = 
 """
@@ -3289,7 +7627,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 64,
+    index = 148,
     label = "2004LI/KAZ7671-7680:12",
     reactant1 = 
 """
@@ -3334,7 +7672,10 @@ PrIMe Reaction: r00010768
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:12"""),
@@ -3343,7 +7684,7 @@ Comments: The authors used a variable pressure flow reactor to study ethanol pyr
 )
 
 entry(
-    index = 65,
+    index = 149,
     label = "2004LI/KAZ7671-7680:13",
     reactant1 = 
 """
@@ -3388,7 +7729,10 @@ PrIMe Reaction: r00010768
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:13"""),
@@ -3397,7 +7741,7 @@ Comments: The authors used a variable pressure flow reactor to study ethanol pyr
 )
 
 entry(
-    index = 66,
+    index = 150,
     label = "2004LI/KAZ7671-7680:14",
     reactant1 = 
 """
@@ -3442,7 +7786,10 @@ PrIMe Reaction: r00010768
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is high pressure limit
-Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:14"""),
@@ -3451,7 +7798,7 @@ Comments: The authors used a variable pressure flow reactor to study ethanol pyr
 )
 
 entry(
-    index = 67,
+    index = 151,
     label = "2004LI/KAZ7671-7680:9",
     reactant1 = 
 """
@@ -3496,7 +7843,10 @@ PrIMe Reaction: r00010768
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:9"""),
@@ -3505,7 +7855,7 @@ Comments: The authors used a variable pressure flow reactor to study ethanol pyr
 )
 
 entry(
-    index = 68,
+    index = 152,
     label = "2004LI/KAZ7671-7680:10",
     reactant1 = 
 """
@@ -3550,7 +7900,10 @@ PrIMe Reaction: r00010768
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:10"""),
@@ -3559,7 +7912,7 @@ Comments: The authors used a variable pressure flow reactor to study ethanol pyr
 )
 
 entry(
-    index = 69,
+    index = 153,
     label = "2004LI/KAZ7671-7680:8",
     reactant1 = 
 """
@@ -3604,7 +7957,10 @@ PrIMe Reaction: r00010768
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:8"""),
@@ -3613,7 +7969,7 @@ Comments: The authors used a variable pressure flow reactor to study ethanol pyr
 )
 
 entry(
-    index = 70,
+    index = 154,
     label = "2004LI/KAZ7671-7680:11",
     reactant1 = 
 """
@@ -3658,7 +8014,10 @@ PrIMe Reaction: r00010768
 Category: Review
 Data type: Experimental value and limited review
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+
+The authors used their data together with that from the literature to perform a master equation multi-channel RRKM analysis and derive the reported rate constants based on their model.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:11"""),
@@ -3667,7 +8026,7 @@ Comments: The authors used a variable pressure flow reactor to study ethanol pyr
 )
 
 entry(
-    index = 71,
+    index = 155,
     label = "2004TSA456-465:2",
     reactant1 = 
 """
@@ -3710,7 +8069,10 @@ PrIMe Reaction: r00010768
 Category: Experiment
 Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is high pressure limit
-Comments: Results are based on a review and analysis of the literature data. The article discusses the multi-channel nature of ethanol decomposition and difficulties associated with expressing the rate constants in a convenient analytical form over extended temperature and pressure ranges.
+
+Results are based on a review and analysis of the literature data. The article discusses the multi-channel nature of ethanol decomposition and difficulties associated with expressing the rate constants in a convenient analytical form over extended temperature and pressure ranges.
+
+Some analytical formats for intermediate pressures are also given in the paper but are too complex to reproduce here.
 """,
     history = [
         ("Thu Jul 12 16:18:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004TSA456-465:2"""),
@@ -3718,7 +8080,7 @@ Comments: Results are based on a review and analysis of the literature data. The
 )
 
 entry(
-    index = 72,
+    index = 156,
     label = "1999MAR183-220:1",
     reactant1 = 
 """
@@ -3767,7 +8129,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 73,
+    index = 157,
     label = "1976TSA173:1",
     reactant1 = 
 """
@@ -3820,7 +8182,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 74,
+    index = 158,
     label = "1992BAU/COB411-429:67",
     reactant1 = 
 """
@@ -3873,7 +8235,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 75,
+    index = 159,
     label = "1984WAR197C:50",
     reactant1 = 
 """
@@ -3921,7 +8283,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 76,
+    index = 160,
     label = "2008YAS/KUB73-102:1",
     reactant1 = 
 """
@@ -3968,7 +8330,8 @@ Data type: Absolute value measured directly
 Experimental procedure: Shock tube
 Time resolution: In real time
 Analytical technique: Other (Vis-UV)
-Comments: The reacted mixture was analyzed by gaschromatographic, IR-laser absorption, UV absorption and IR-emission equipments.
+
+The reacted mixture was analyzed by gaschromatographic, IR-laser absorption, UV absorption and IR-emission equipments.
 """,
     history = [
         ("Thu Jul 12 16:18:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008YAS/KUB73-102:1"""),
@@ -3976,7 +8339,7 @@ Comments: The reacted mixture was analyzed by gaschromatographic, IR-laser absor
 )
 
 entry(
-    index = 77,
+    index = 161,
     label = "2008BEN/STR6120-6124:1",
     reactant1 = 
 """
@@ -4031,7 +8394,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 78,
+    index = 162,
     label = "2008BEN/STR6120-6124:2",
     reactant1 = 
 """
@@ -4086,7 +8449,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 79,
+    index = 163,
     label = "2008BEN/STR6120-6124:3",
     reactant1 = 
 """
@@ -4141,7 +8504,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 80,
+    index = 164,
     label = "1976ERN/SPI645:2",
     reactant1 = 
 """
@@ -4195,7 +8558,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 81,
+    index = 165,
     label = "1975ERN/SPI1163:2",
     reactant1 = 
 """
@@ -4249,7 +8612,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 82,
+    index = 166,
     label = "1975COL/NAE223:1",
     reactant1 = 
 """
@@ -4304,7 +8667,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 83,
+    index = 167,
     label = "1973BAR/MAR227:1",
     reactant1 = 
 """
@@ -4358,7 +8721,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 84,
+    index = 168,
     label = "1973BAR/MAR227:2",
     reactant1 = 
 """
@@ -4412,7 +8775,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 85,
+    index = 169,
     label = "1968LIU/LAI479:1",
     reactant1 = 
 """
@@ -4468,7 +8831,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 )
 
 entry(
-    index = 86,
+    index = 170,
     label = "1991TSA221-273:18",
     reactant1 = 
 """
@@ -4519,7 +8882,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 87,
+    index = 171,
     label = "1986NAR/NIE281:2",
     reactant1 = 
 """
@@ -4568,7 +8931,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 88,
+    index = 172,
     label = "1985DEA4600-4608:19",
     reactant1 = 
 """
@@ -4617,7 +8980,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 89,
+    index = 173,
     label = "1975BUR87:1",
     reactant1 = 
 """
@@ -4671,7 +9034,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 90,
+    index = 174,
     label = "1968CHA/SHA4672-4675:1",
     reactant1 = 
 """
@@ -4727,7 +9090,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 )
 
 entry(
-    index = 91,
+    index = 175,
     label = "1966MAR/PUR2778-2780:1",
     reactant1 = 
 """
@@ -4782,7 +9145,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 92,
+    index = 176,
     label = "1992HID/NAK761-780:4",
     reactant1 = 
 """
@@ -4831,7 +9194,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 93,
+    index = 177,
     label = "1994BAU/COB847-1033:80",
     reactant1 = 
 """
@@ -4881,7 +9244,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 94,
+    index = 178,
     label = "1992BAU/COB411-429:161",
     reactant1 = 
 """
@@ -4932,7 +9295,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 95,
+    index = 179,
     label = "1991LIG/ROU3213-3220:3",
     reactant1 = 
 """
@@ -4986,7 +9349,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 96,
+    index = 180,
     label = "1965KIR2236-2242:1",
     reactant1 = 
 """
@@ -5042,7 +9405,319 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 97,
+    index = 181,
+    label = "1986NAR/NIE281:3",
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,D}
+3 *1 C 0 {2,D} {4,S}
+4 *2 H 0 {3,S}
+""",
+    product1 = 
+"""
+1   C 0 {2,S}
+2   C 0 {1,S} {3,D}
+3 * C 1 {2,D}
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (7.59e+14,"s^-1"),
+        n = 0,
+        Ea = (424.038,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (302,"K"),
+    ),
+    reference = Article(
+        authors = ["Naroznik, M.", "Niedzielski, J."],
+        title = u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes',
+        journal = "J. Photochem.",
+        volume = "32",
+        pages = """281""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986NAR/NIE281:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00005625
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005625/rk00000001.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 10:58:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986NAR/NIE281:3"""),
+    ],
+)
+
+entry(
+    index = 182,
+    label = "1986NAR/NIE281:4",
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,D} {4,S}
+3    C 0 {2,D}
+4 *2 H 0 {2,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,D}
+3 * C 1 {1,S} {2,D}
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.45e+15,"s^-1"),
+        n = 0,
+        Ea = (409.903,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (302,"K"),
+    ),
+    reference = Article(
+        authors = ["Naroznik, M.", "Niedzielski, J."],
+        title = u'Propylene photolysis at 6.7 eV: Calculation of the quantum yields for the secondary processes',
+        journal = "J. Photochem.",
+        volume = "32",
+        pages = """281""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986NAR/NIE281:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00005626
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005626/rk00000001.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 10:59:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986NAR/NIE281:4"""),
+    ],
+)
+
+entry(
+    index = 183,
+    label = "1985COB/TRO1010-1015:6",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3    O 1 {2,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (3.88e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (2.661,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Cobos, C.J.", "Troe, J."],
+        title = u'Theory of thermal unimolecular reactions at high pressures. II. Analysis of experimental results',
+        journal = "J. Chem. Phys.",
+        volume = "83",
+        pages = """1010-1015""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985COB/TRO1010-1015:6",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010854
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000028.xml
+Bath gas: Products
+Category: Theory
+Data type: Transition state theory
+""",
+    history = [
+        ("Wed Aug 01 11:48:03 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985COB/TRO1010-1015:6"""),
+    ],
+)
+
+entry(
+    index = 184,
+    label = "1986TSA/HAM1087:167",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3    O 1 {2,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (8.51e+52,"m^3/(mol*s)","*|/",3),
+        n = -15,
+        Ea = (71.255,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (700,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W.", "Hampson, R.F."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "15",
+        pages = """1087""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:167",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010854
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000031.xml
+Uncertainty: 3.0
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Aug 01 11:48:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:167"""),
+    ],
+)
+
+entry(
+    index = 185,
+    label = "1987DEA/WES207:9",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3    O 1 {2,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (2.6e+27,"m^3/(mol*s)"),
+        n = -7.13,
+        Ea = (22.366,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Dean, A.M.", "Westmoreland, P.R."],
+        title = u'Bimolecular QRRK analyss of methyl radical reactions',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "19",
+        pages = """207""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987DEA/WES207:9",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010854
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000032.xml
+Bath gas: N2
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 11:49:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987DEA/WES207:9"""),
+    ],
+)
+
+entry(
+    index = 186,
+    label = "1988KEI/MIS505:2",
+    reactant1 = 
+"""
+1 * C 1
+""",
+    reactant2 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3    O 1 {2,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (25300,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-5.729,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (530,"K"),
+        Pmin = (16900,"Pa"),
+        Pmax = (16900,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Keiffer, M.", "Miscampbell, A.J.", "Pilling, M.J."],
+        title = u'A global technique for analysing multiple decay curves. Application to the CH3 + O2 system',
+        journal = "J. Chem. Soc. Faraday Trans. 2",
+        volume = "84",
+        pages = """505""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988KEI/MIS505:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Other theoretical""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010854
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010854/rk00000035.xml
+Bath gas: O2
+Category: Theory
+Data type: Other theoretical
+""",
+    history = [
+        ("Wed Aug 01 11:50:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988KEI/MIS505:2"""),
+    ],
+)
+
+entry(
+    index = 187,
     label = "2002BUI/ZHU11188-11195:2",
     reactant1 = 
 """
@@ -5090,7 +9765,10 @@ Bath gas: Ar
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+
+The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+
+Calculated structures, energetics, and molecular properties of reactant, products, and transition states are provided.
 """,
     history = [
         ("Thu Jul 12 15:48:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:2"""),
@@ -5098,7 +9776,7 @@ Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with 
 )
 
 entry(
-    index = 98,
+    index = 188,
     label = "2002BUI/ZHU11188-11195:3",
     reactant1 = 
 """
@@ -5146,7 +9824,10 @@ Bath gas: Ar
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
-Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+
+The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+
+Calculated structures, energetics, and molecular properties of reactant, products, and transition states are provided.
 """,
     history = [
         ("Thu Jul 12 15:48:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:3"""),
@@ -5154,7 +9835,7 @@ Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with 
 )
 
 entry(
-    index = 99,
+    index = 189,
     label = "2002BUI/ZHU11188-11195:4",
     reactant1 = 
 """
@@ -5200,7 +9881,10 @@ Bath gas: Ar
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+
+The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+
+Calculated structures, energetics, and molecular properties of reactant, products, and transition states are provided.
 """,
     history = [
         ("Thu Jul 12 15:48:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:4"""),
@@ -5208,7 +9892,7 @@ Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with 
 )
 
 entry(
-    index = 100,
+    index = 190,
     label = "1976TSA173:2",
     reactant1 = 
 """
@@ -5263,7 +9947,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 101,
+    index = 191,
     label = "1976TSA173:3",
     reactant1 = 
 """
@@ -5318,7 +10002,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 102,
+    index = 192,
     label = "1994LIF/TAM1161-1170:10",
     reactant1 = 
 """
@@ -5375,7 +10059,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 103,
+    index = 193,
     label = "1985DEA4600-4608:9",
     reactant1 = 
 """
@@ -5429,7 +10113,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 104,
+    index = 194,
     label = "1985DEA4600-4608:10",
     reactant1 = 
 """
@@ -5483,7 +10167,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 105,
+    index = 195,
     label = "1985DEA4600-4608:14",
     reactant1 = 
 """
@@ -5537,7 +10221,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 106,
+    index = 196,
     label = "1993HID/HIG10977-10983:2",
     reactant1 = 
 """
@@ -5591,7 +10275,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 107,
+    index = 197,
     label = "2002BEL/DAC172-183:1",
     reactant1 = 
 """
@@ -5646,7 +10330,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 108,
+    index = 198,
     label = "1993HID/HIG10977-10983:5",
     reactant1 = 
 """
@@ -5701,7 +10385,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 109,
+    index = 199,
     label = "2007HAR/KLI3789-3801:14",
     reactant1 = 
 """
@@ -5754,7 +10438,7 @@ Data type: Transition state theory
 )
 
 entry(
-    index = 110,
+    index = 200,
     label = "1985DEA4600-4608:16",
     reactant1 = 
 """
@@ -5806,7 +10490,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 111,
+    index = 201,
     label = "2003SAN/KIE381-390:1",
     reactant1 = 
 """
@@ -5860,7 +10544,10 @@ Experimental procedure: Shock tube
 Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Laser schlieren
-Comments: The primary reaction is suggested by the authors to be C-H bond fission iso-C4H8 = H2C=C(CH3)CH2 + H although other channels were considered. A restricted-rotor, Gorin-model RRKM model of the reaction was developed and was able to describe the measured rates using the known bond-energy as barrier and < Delta Edown> = 680 cm-1. The reaction was well into the fall-off region under the experimental conditions with rate constants 1 to 3 orders of maginitude under the high pressure limit derived from the RRKM extrapolation. Measured rate constants are shown graphically but individual values are unfortunately not reported in the paper. The analysis included the development of a 32-step mechanism to describe iso-butene pyrolysis and possible secondary chemistry in their system. The derived high pressure limiting rate constant for dissociation is in good agreement with previous lower temperature studies.
+
+The primary reaction is suggested by the authors to be C-H bond fission iso-C4H8 = H2C=C(CH3)CH2+ H although other channels were considered. A restricted-rotor, Gorin-model RRKM model of the reaction was developed and was able to describe the measured rates using the known bond-energy as barrier and < Delta Edown> = 680 cm-1. The reaction was well into the fall-off region under the experimental conditions with rate constants 1 to 3 orders of maginitude under the high pressure limit derived from the RRKM extrapolation. Measured rate constants are shown graphically but individual values are unfortunately not reported in the paper. The analysis included the development of a 32-step mechanism to describe iso-butene pyrolysis and possible secondary chemistry in their system. The derived high pressure limiting rate constant for dissociation is in good agreement with previous lower temperature studies.
+
+An unexpected feature of the study was the observation of vibrational relaxation, and at high temperatures, a consequent incubation delay in the unimolecular dissociation.
 """,
     history = [
         ("Thu Jul 12 16:08:57 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003SAN/KIE381-390:1"""),
@@ -5868,7 +10555,7 @@ Comments: The primary reaction is suggested by the authors to be C-H bond fissio
 )
 
 entry(
-    index = 112,
+    index = 202,
     label = "1994DOU/PER1597-1627:1",
     reactant1 = 
 """
@@ -5926,7 +10613,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 113,
+    index = 203,
     label = "1949SZW292-295:1",
     reactant1 = 
 """
@@ -5985,7 +10672,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 114,
+    index = 204,
     label = "1980FRA/JUS231:5",
     reactant1 = 
 """
@@ -6043,7 +10730,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 115,
+    index = 205,
     label = "1993HID/HIG10977-10983:8",
     reactant1 = 
 """
@@ -6096,7 +10783,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 116,
+    index = 206,
     label = "1985DEA4600-4608:20",
     reactant1 = 
 """
@@ -6150,7 +10837,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 117,
+    index = 207,
     label = "2007HAR/KLI3789-3801:16",
     reactant1 = 
 """
@@ -6203,7 +10890,7 @@ Data type: Transition state theory
 )
 
 entry(
-    index = 118,
+    index = 208,
     label = "1985DEA4600-4608:21",
     reactant1 = 
 """
@@ -6257,7 +10944,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 119,
+    index = 209,
     label = "1991TSA221-273:92",
     reactant1 = 
 """
@@ -6311,7 +10998,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 120,
+    index = 210,
     label = "1985DEA4600-4608:12",
     reactant1 = 
 """
@@ -6362,7 +11049,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 121,
+    index = 211,
     label = "1970TRE2805-2811:1",
     reactant1 = 
 """
@@ -6419,7 +11106,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 122,
+    index = 212,
     label = "1968HAL/QUI103:2",
     reactant1 = 
 """
@@ -6474,7 +11161,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 123,
+    index = 213,
     label = "1965KER/SPE6652-6654:1",
     reactant1 = 
 """
@@ -6529,7 +11216,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 124,
+    index = 214,
     label = "1950SEH/SZW263-276:1",
     reactant1 = 
 """
@@ -6585,7 +11272,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 125,
+    index = 215,
     label = "2006KLI/GEO1133-1147:3",
     reactant1 = 
 """
@@ -6630,8 +11317,13 @@ PrIMe Reaction: r00010181
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
-coordinate transition state theory (VRC-TST).  Results were compared with experiment for a series of alkyl radicals and the good quantitative agreement was found.
+
+Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
+coordinate transition state theory (VRC-TST). Results were compared with experiment for a series of alkyl radicals and the good quantitative agreement was found.
+
+Each methyl substituent adjacent to a radical site was found to reduce the rate coefficient by about a factor of two. Rate constants are predicted to decrease substantially with increasing temperature, with the more sterically hindered reactants having a more rapid decrease. The geometric mean rule was found to be in good agreement with the detailed calculations.
+
+The authors state the rate parameters are strictly applicable between 200-2000 K but that they should provide reasonable predictions up to about 2700 K.
 """,
     history = [
         ("Thu Jul 12 16:15:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006KLI/GEO1133-1147:3"""),
@@ -6639,7 +11331,7 @@ coordinate transition state theory (VRC-TST).  Results were compared with experi
 )
 
 entry(
-    index = 126,
+    index = 216,
     label = "1968KON/MAR405-413:4",
     reactant1 = 
 """
@@ -6694,7 +11386,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 127,
+    index = 217,
     label = "1984WAR197C:62",
     reactant1 = 
 """
@@ -6744,7 +11436,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 128,
+    index = 218,
     label = "1978TSA821:4",
     reactant1 = 
 """
@@ -6798,7 +11490,7 @@ Data type: Experimental value and limited review
 )
 
 entry(
-    index = 129,
+    index = 219,
     label = "2004OEH/DAV4247-4253:8",
     reactant1 = 
 """
@@ -6843,7 +11535,8 @@ PrIMe Reaction: r00010242
 Category: Experiment
 Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is high pressure limit
-Comments: RRKM-Master Equation model created on the basis of experimental data obtained in shock tube experiments in the same work.
+
+RRKM-Master Equation model created on the basis of experimental data obtained in shock tube experiments in the same work.
 """,
     history = [
         ("Thu Jul 12 16:16:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004OEH/DAV4247-4253:8"""),
@@ -6851,7 +11544,7 @@ Comments: RRKM-Master Equation model created on the basis of experimental data o
 )
 
 entry(
-    index = 130,
+    index = 220,
     label = "1985DEA4600-4608:11",
     reactant1 = 
 """
@@ -6902,7 +11595,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 131,
+    index = 221,
     label = "1978TSA821:3",
     reactant1 = 
 """
@@ -6958,7 +11651,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 132,
+    index = 222,
     label = "1974HUG/MAR594:1",
     reactant1 = 
 """
@@ -7014,7 +11707,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 133,
+    index = 223,
     label = "1974GOL/ALF359:3",
     reactant1 = 
 """
@@ -7068,7 +11761,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 134,
+    index = 224,
     label = "1966LIN/BAC2369:2",
     reactant1 = 
 """
@@ -7124,7 +11817,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 135,
+    index = 225,
     label = "1979FOR100-108:2",
     reactant1 = 
 """
@@ -7175,7 +11868,7 @@ Data type: Transition state theory
 )
 
 entry(
-    index = 136,
+    index = 226,
     label = "1962PUR/QUI267:2",
     reactant1 = 
 """
@@ -7229,7 +11922,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 137,
+    index = 227,
     label = "1984WAR197C:61",
     reactant1 = 
 """
@@ -7279,7 +11972,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 138,
+    index = 228,
     label = "2004OEH/DAV4247-4253:7",
     reactant1 = 
 """
@@ -7324,7 +12017,8 @@ PrIMe Reaction: r00010516
 Category: Experiment
 Data type: RRK(M) extrapolation
 Pressure dependence: Rate constant is high pressure limit
-Comments: RRKM-Master Equation model created on the basis of experimental data obtained in shock tube experiments in the same work.
+
+RRKM-Master Equation model created on the basis of experimental data obtained in shock tube experiments in the same work.
 """,
     history = [
         ("Thu Jul 12 16:17:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004OEH/DAV4247-4253:7"""),
@@ -7332,7 +12026,7 @@ Comments: RRKM-Master Equation model created on the basis of experimental data o
 )
 
 entry(
-    index = 139,
+    index = 229,
     label = "1985DEA4600-4608:8",
     reactant1 = 
 """
@@ -7383,7 +12077,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 140,
+    index = 230,
     label = "1981KOI/MOR2439:1",
     reactant1 = 
 """
@@ -7439,7 +12133,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 141,
+    index = 231,
     label = "1962PUR/QUI267:1",
     reactant1 = 
 """
@@ -7494,7 +12188,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 142,
+    index = 232,
     label = "1979BAT/RAT1183:2",
     reactant1 = 
 """
@@ -7551,7 +12245,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 143,
+    index = 233,
     label = "1977BAR/BEN31:1",
     reactant1 = 
 """
@@ -7608,7 +12302,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 144,
+    index = 234,
     label = "1976BAT/MCC491:1",
     reactant1 = 
 """
@@ -7665,7 +12359,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 145,
+    index = 235,
     label = "1959HAN/CAL104-106:1",
     reactant1 = 
 """
@@ -7719,7 +12413,7 @@ Analytical technique: IR absorption
 )
 
 entry(
-    index = 146,
+    index = 236,
     label = "1954TAK/TAK1527:1",
     reactant1 = 
 """
@@ -7776,7 +12470,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 147,
+    index = 237,
     label = "1985DEA4600-4608:15",
     reactant1 = 
 """
@@ -7827,7 +12521,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 148,
+    index = 238,
     label = "1982TRE/WRI2337:1",
     reactant1 = 
 """
@@ -7884,7 +12578,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 149,
+    index = 239,
     label = "1978KIN545:1",
     reactant1 = 
 """
@@ -7939,7 +12633,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 150,
+    index = 240,
     label = "1995HID/HIG321-330:2",
     reactant1 = 
 """
@@ -7993,7 +12687,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 151,
+    index = 241,
     label = "1993HID/HIG10977-10983:4",
     reactant1 = 
 """
@@ -8045,7 +12739,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 152,
+    index = 242,
     label = "2000SAT/HID291-311:1",
     reactant1 = 
 """
@@ -8101,7 +12795,7 @@ Analytical technique: IR absorption
 )
 
 entry(
-    index = 153,
+    index = 243,
     label = "1996MOU/PAC3573-3579:1",
     reactant1 = 
 """
@@ -8158,7 +12852,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 154,
+    index = 244,
     label = "1976ERN/SPI645:1",
     reactant1 = 
 """
@@ -8214,7 +12908,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 155,
+    index = 245,
     label = "1975ERN/SPI1163:1",
     reactant1 = 
 """
@@ -8270,7 +12964,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 156,
+    index = 246,
     label = "1956CLA/PRI2136-2140:1",
     reactant1 = 
 """
@@ -8325,7 +13019,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 157,
+    index = 247,
     label = "1955SZW/TAY2310-2314:1",
     reactant1 = 
 """
@@ -8382,7 +13076,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 158,
+    index = 248,
     label = "1994BAU/COB847-1033:82",
     reactant1 = 
 """
@@ -8434,7 +13128,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 159,
+    index = 249,
     label = "1992BAU/COB411-429:165",
     reactant1 = 
 """
@@ -8486,7 +13180,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 160,
+    index = 250,
     label = "1960KIR/KNO1296-1303:2",
     reactant1 = 
 """
@@ -8542,7 +13236,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 161,
+    index = 251,
     label = "1990WAG/SLA1853-1868:7",
     reactant1 = 
 """
@@ -8598,7 +13292,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 162,
+    index = 252,
     label = "1990BOZ/DEA3313-3317:5",
     reactant1 = 
 """
@@ -8652,7 +13346,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 163,
+    index = 253,
     label = "1986MUN/PAG2752:3",
     reactant1 = 
 """
@@ -8709,7 +13403,7 @@ Analytical technique: Vis-UV emission
 )
 
 entry(
-    index = 164,
+    index = 254,
     label = "1957JOL1537:2",
     reactant1 = 
 """
@@ -8766,7 +13460,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 165,
+    index = 255,
     label = "2003DES/KLI4415-4427:1",
     reactant1 = 
 """
@@ -8811,7 +13505,15 @@ PrIMe Reaction: r00013875
 Bath gas: He
 Category: Theory
 Data type: Ab initio
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
+
+Employed earlier quantum calculations (see references below) combined with master equation modeling to provide rate expressions for many reactions in this system. Only a few rate expressions are abstracted here.
+
+Miller and Klippenstein, IJCK 33, 654 (2001)
+DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
     history = [
         ("Thu Jul 12 16:28:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:1"""),
@@ -8820,7 +13522,7 @@ Comments: Rate constants are based in part on master equation simulations employ
 )
 
 entry(
-    index = 166,
+    index = 256,
     label = "2001MIL/KLI654-668:1",
     reactant1 = 
 """
@@ -8867,7 +13569,8 @@ PrIMe Reaction: r00013875
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is pressure dependent
-Comments: Potential energy digrams for various product chennels have been computed.Three different regimes of the reaction (low-temperature, transition, and high-temepature) have been discussed in terms of eigenvectors and eigenvalues of the transition matrix of the master equation.Low pressure rate constant; k(0) = 2.34E-18 T(-4.29) exp(-220/RT) cm^6 / molecule^2 s wit F(cent)=0.897exp(-T/601).
+
+Potential energy digrams for various product chennels have been computed.Three different regimes of the reaction (low-temperature, transition, and high-temepature) have been discussed in terms of eigenvectors and eigenvalues of the transition matrix of the master equation.Low pressure rate constant; k(0) = 2.34E-18 T(-4.29) exp(-220/RT) cm^6 / molecule^2 s wit F(cent)=0.897exp(-T/601).
 """,
     history = [
         ("Thu Jul 12 16:28:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001MIL/KLI654-668:1"""),
@@ -8875,7 +13578,7 @@ Comments: Potential energy digrams for various product chennels have been comput
 )
 
 entry(
-    index = 167,
+    index = 257,
     label = "1990WAG/SLA1853-1868:3",
     reactant1 = 
 """
@@ -8931,7 +13634,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 168,
+    index = 258,
     label = "2002SHE/BOZ7276-7293:2",
     reactant1 = 
 """
@@ -8983,7 +13686,1354 @@ Pressure dependence: Rate constant is high pressure limit
 )
 
 entry(
-    index = 169,
+    index = 259,
+    label = "1985DEA4600-4608:13",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S} {4,D}
+4    C 0 {3,D}
+5 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,S}
+3   C 0 {2,S} {4,D}
+4   C 0 {3,D}
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.26e+15,"s^-1"),
+        n = 0,
+        Ea = (345.051,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Dean, A.M."],
+        title = u'Predictions of pressure and temperature effects upon radical addition and recombination reactions',
+        journal = "J. Phys. Chem.",
+        volume = "89",
+        pages = """4600-4608""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:13",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004651
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004651/rk00000001.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 10:54:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:13"""),
+    ],
+)
+
+entry(
+    index = 260,
+    label = "1985DEA4600-4608:17",
+    reactant1 = 
+"""
+1 *1 C 0 {3,S} {5,S}
+2    C 0 {4,S}
+3    C 0 {1,S} {4,D}
+4    C 0 {2,S} {3,D}
+5 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {2,S}
+2   C 0 {1,S} {3,D}
+3   C 0 {2,D} {4,S}
+4 * C 1 {3,S}
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (3.98e+15,"s^-1"),
+        n = 0,
+        Ea = (355.859,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Dean, A.M."],
+        title = u'Predictions of pressure and temperature effects upon radical addition and recombination reactions',
+        journal = "J. Phys. Chem.",
+        volume = "89",
+        pages = """4600-4608""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:17",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004826
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004826/rk00000001.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 10:56:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985DEA4600-4608:17"""),
+    ],
+)
+
+entry(
+    index = 261,
+    label = "1988GHI/COL5839:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {5,S}
+2    C 0 {1,D}
+3    C 0 {1,S} {4,T}
+4    C 0 {3,T}
+5 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D} {3,S}
+3   C 0 {2,S} {4,T}
+4   C 0 {3,T}
+""",
+    product2 = 
+"""
+1 * H 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.58e+15,"s^-1"),
+        n = 0,
+        Ea = (414.061,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1400,"K"),
+        Tmax = (1500,"K"),
+    ),
+    reference = Article(
+        authors = ["Ghibaudi, E.", "Colussi, A.J."],
+        title = u'Kinetics and thermochemistry of the equilibrium 2 (acetylene) = vinylacetylene. Direct evidence against a chain mechanism',
+        journal = "J. Phys. Chem.",
+        volume = "92",
+        pages = """5839""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988GHI/COL5839:1",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008727
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000001.xml
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Aug 01 11:10:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988GHI/COL5839:1"""),
+    ],
+)
+
+entry(
+    index = 262,
+    label = "1988DUR/AMO636:11",
+    reactant1 = 
+"""
+1 * H 1
+""",
+    reactant2 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D} {3,S}
+3   C 0 {2,S} {4,T}
+4   C 0 {3,T}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D} {3,S} {5,S}
+2    C 0 {1,D}
+3    C 0 {1,S} {4,T}
+4    C 0 {3,T}
+5 *1 H 0 {1,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (5.15e+08,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (3.367,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (700,"K"),
+        Tmax = (1300,"K"),
+        Pmin = (10100,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Duran, R.P.", "Amorebieta, V.T.", "Colussi, A.J."],
+        title = u'Is the homogeneous thermal dimerization of acetylene a free-radical chain reaction? Kinetic and thermochemical analysis',
+        journal = "J. Phys. Chem.",
+        volume = "92",
+        pages = """636""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988DUR/AMO636:11",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008727
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008727/rk00000002.xml
+Category: Theory
+Data type: Ab initio
+""",
+    history = [
+        ("Wed Aug 01 11:11:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988DUR/AMO636:11"""),
+    ],
+)
+
+entry(
+    index = 263,
+    label = "1986HID/TAN195:1",
+    reactant1 = 
+"""
+1    C 0 {2,D} {3,S}
+2    C 0 {1,D}
+3    C 0 {1,S} {4,T}
+4 *1 C 0 {3,T} {5,S}
+5 *2 H 0 {4,S}
+""",
+    product1 = 
+"""
+1 * H 1
+""",
+    product2 = 
+"""
+1   C 0 {2,D} {3,S}
+2   C 0 {1,D}
+3   C 0 {1,S} {4,T}
+4 * C 1 {3,T}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (6.1e+13,"s^-1"),
+        n = 0,
+        Ea = (335.073,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1200,"K"),
+        Tmax = (1750,"K"),
+        Pmin = (30400,"Pa"),
+        Pmax = (60800,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hidaka, Y.", "Tanaka, K.", "Suga, M."],
+        title = u'Thermal decomposition of vinylacetylene in shock waves. Rate constant of initiation reaction',
+        journal = "Chem. Phys. Lett.",
+        volume = "130",
+        pages = """195""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986HID/TAN195:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008728
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008728/rk00000001.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 11:12:41 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986HID/TAN195:1"""),
+    ],
+)
+
+entry(
+    index = 264,
+    label = "1992HID/MAS871-885:1",
+    reactant1 = 
+"""
+1    C 0 {2,D} {3,S}
+2    C 0 {1,D}
+3    C 0 {1,S} {4,T}
+4 *1 C 0 {3,T} {5,S}
+5 *2 H 0 {4,S}
+""",
+    product1 = 
+"""
+1 * H 1
+""",
+    product2 = 
+"""
+1   C 0 {2,D} {3,S}
+2   C 0 {1,D}
+3   C 0 {1,S} {4,T}
+4 * C 1 {3,T}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (6.3e+13,"s^-1"),
+        n = 0,
+        Ea = (364.174,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1170,"K"),
+        Tmax = (1690,"K"),
+        Pmin = (132000,"Pa"),
+        Pmax = (233000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hidaka, Y.", "Masaoka, H.", "Oshita, H.", "Nakamura, T.", "Tanaka, K.", "Kawano, H."],
+        title = u'Thermal decomposition of vinylacetylene in shock waves',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "24",
+        pages = """871-885""",
+        year = "1992",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1992HID/MAS871-885:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008728
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008728/rk00000002.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:13:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992HID/MAS871-885:1"""),
+    ],
+)
+
+entry(
+    index = 265,
+    label = "1966BRO935-944:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (7.94e+18,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (335.073,"kJ/mol","+|-",10.061),
+        T0 = (1,"K"),
+        Tmin = (823,"K"),
+        Tmax = (853,"K"),
+        Pmin = (2.03e+06,"Pa"),
+        Pmax = (7.09e+06,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Brooks, C.T."],
+        title = u'Gas-phase high-pressure decomposition of isobutane in the presence of hydrogen',
+        journal = "Trans. Faraday Soc.",
+        volume = "62",
+        pages = """935-944""",
+        year = "1966",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1966BRO935-944:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000005.xml
+Uncertainty: 3.1600001
+Bath gas: iso-C4H10
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:24:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966BRO935-944:1"""),
+    ],
+)
+
+entry(
+    index = 266,
+    label = "1968KON/MAR405-413:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (6.31e+07,"s^-1"),
+        n = 0,
+        Ea = (345.051,"kJ/mol","+|-",13.802),
+        T0 = (1,"K"),
+        Tmin = (713,"K"),
+        Tmax = (814,"K"),
+        Pmin = (6666,"Pa"),
+        Pmax = (20000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Konar, R.S.", "Marshall, R.M.", "Purnell, J.H."],
+        title = u'Initiation of isobutane pyrolysis',
+        journal = "Trans. Faraday Soc.",
+        volume = "64",
+        pages = """405-413""",
+        year = "1968",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1968KON/MAR405-413:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000008.xml
+Bath gas: iso-C4H10
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:25:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968KON/MAR405-413:1"""),
+    ],
+)
+
+entry(
+    index = 267,
+    label = "1974BRA199:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (8.71e+09,"s^-1"),
+        n = 0,
+        Ea = (202.042,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1200,"K"),
+        Tmax = (1500,"K"),
+        Pmin = (65100,"Pa"),
+        Pmax = (90000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Bradley, J.N."],
+        title = u'A general mechanism for the high-temperature pyrolysis of alkanes. The pyrolysis of isobutane',
+        journal = "Proc. R. Soc. London A",
+        volume = "337",
+        pages = """199""",
+        year = "1974",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974BRA199:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000009.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:27:25 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974BRA199:1"""),
+    ],
+)
+
+entry(
+    index = 268,
+    label = "1974GOL/ALF359:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (2.51e+16,"s^-1"),
+        n = 0,
+        Ea = (346.713,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1100,"K"),
+        Tmax = (1280,"K"),
+    ),
+    reference = Article(
+        authors = ["Golden, D.M.", "Alfassi, Z.B.", "Beadle, P.C."],
+        title = u"Very Low-Pressure Pyrolysis (VLPP) of Alkanes: n-Butane, 2,3-Dimethylbutane, 2,2',3,3'-Tetramethylbutane, and Isobutane",
+        journal = "Int. J. Chem. Kinet.",
+        volume = "6",
+        pages = """359""",
+        year = "1974",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974GOL/ALF359:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000010.xml
+Bath gas: iso-C4H10
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Wed Aug 01 11:28:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974GOL/ALF359:1"""),
+    ],
+)
+
+entry(
+    index = 269,
+    label = "1980PRA/ROG1694:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (8.39e+15,"s^-1"),
+        n = 0,
+        Ea = (357.522,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (970,"K"),
+        Tmax = (1030,"K"),
+        Pmin = (80000,"Pa"),
+        Pmax = (80000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Pratt, G.L.", "Rogers, D."],
+        title = u'Wall-less Reactor Studies. Part 4. - Isobutane Pyrolysis',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "76",
+        pages = """1694""",
+        year = "1980",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1980PRA/ROG1694:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000011.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:28:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980PRA/ROG1694:1"""),
+    ],
+)
+
+entry(
+    index = 270,
+    label = "1980SHE/IVA837:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (1.66e+11,"s^-1","*|/",3.08),
+        n = 0,
+        Ea = (202.042,"kJ/mol","+|-",10.144),
+        T0 = (1,"K"),
+        Tmin = (973,"K"),
+        Tmax = (1120,"K"),
+        Pmin = (13300,"Pa"),
+        Pmax = (13300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Shevel'kova, L.V.", "Ivanvuk, A.V.", "Nametkin, N.S."],
+        title = u'Comparative Study of the Pyrolysis of n-Butane and Isobutane',
+        journal = "Neftekhimiya",
+        volume = "20",
+        pages = """837""",
+        year = "1980",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1980SHE/IVA837:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000012.xml
+Uncertainty: 3.0799999
+Bath gas: H2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 11:29:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980SHE/IVA837:1"""),
+    ],
+)
+
+entry(
+    index = 271,
+    label = "1982KOI/MOR690:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (6.31e+12,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (254.423,"kJ/mol","+|-",20.37),
+        T0 = (1,"K"),
+        Tmin = (1300,"K"),
+        Tmax = (1800,"K"),
+        Pmin = (50700,"Pa"),
+        Pmax = (50700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Koike, T.", "Morinaga, K."],
+        title = u'UV Absorption Studies of the Pyrolysis of Isobutane in Shock Waves',
+        journal = "Bull. Chem. Soc. Jpn.",
+        volume = "55",
+        pages = """690""",
+        year = "1982",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1982KOI/MOR690:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000013.xml
+Uncertainty: 3.1600001
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 11:31:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982KOI/MOR690:1"""),
+    ],
+)
+
+entry(
+    index = 272,
+    label = "1984WAR197C:55",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (4e+16,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (346.713,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (500,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Book(
+        authors = ["Warnatz, J."],
+        title = u'Rate coefficients in the C/H/O system',
+        publisher = "ed. W.C. Gardiner,Jr., pub. Springer-Verlag,NY",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:55",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000014.xml
+Uncertainty: 3.1600001
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Aug 01 11:32:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984WAR197C:55"""),
+    ],
+)
+
+entry(
+    index = 273,
+    label = "1988HID/FUJ570:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (4.5e+16,"s^-1","*|/",1.5),
+        n = 0,
+        Ea = (339.23,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1000,"K"),
+        Tmax = (1560,"K"),
+        Pmin = (132000,"Pa"),
+        Pmax = (293000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hidaka, Y.", "Fujiwara, M.", "Oki, T.", "Kawano, H."],
+        title = u'Thermal decomposition of isobutane in shock waves. Rate constant of initiation reaction',
+        journal = "Chem. Phys. Lett.",
+        volume = "144",
+        pages = """570""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988HID/FUJ570:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000015.xml
+Uncertainty: 1.5
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:32:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988HID/FUJ570:1"""),
+    ],
+)
+
+entry(
+    index = 274,
+    label = "1990TSA1-68:20",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (1.1e+26,"s^-1","*|/",2),
+        n = -2.61,
+        Ea = (378.308,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 4. Isobutane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "19",
+        pages = """1-68""",
+        year = "1990",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:20",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010181
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010181/rk00000016.xml
+Uncertainty: 2.0
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Aug 01 11:37:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:20"""),
+    ],
+)
+
+entry(
+    index = 275,
+    label = "1957SHE/KUT1020-1028:1",
+    reactant1 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S}
+""",
+    reactant2 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2 *2 C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4    C 0 {2,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9.59e+08,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (11.391,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (323,"K"),
+        Tmax = (423,"K"),
+        Pmin = (1107,"Pa"),
+        Pmax = (6066,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Shepp, A.", "Kutschke, K.O."],
+        title = u'Rate of recombination of radicals. III. Rate of recombination of ethyl radicals',
+        journal = "J. Chem. Phys.",
+        volume = "26",
+        pages = """1020-1028""",
+        year = "1957",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1957SHE/KUT1020-1028:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010242
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000002.xml
+Bath gas: (C2H5)2CO
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Direct photolysis
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Wed Aug 01 11:39:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1957SHE/KUT1020-1028:1"""),
+    ],
+)
+
+entry(
+    index = 276,
+    label = "1972TEN/JON1267:6",
+    reactant1 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S}
+""",
+    reactant2 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2 *2 C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4    C 0 {2,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (7.59e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (0.798,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (303,"K"),
+        Tmax = (603,"K"),
+        Pmin = (160,"Pa"),
+        Pmax = (267,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Teng, L.", "Jones, W.E."],
+        title = u'Kinetics of the Reactions of Hydrogen Atoms with Ethylene and Vinyl Fluoride',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "68",
+        pages = """1267""",
+        year = "1972",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1972TEN/JON1267:6",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010242
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010242/rk00000009.xml
+Bath gas: H2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Electron beam
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:40:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1972TEN/JON1267:6"""),
+    ],
+)
+
+entry(
+    index = 277,
+    label = "1988KER/SIN731:7",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S} {4,D}
+3    C 0 {4,D}
+4    C 0 {2,D} {3,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,D}
+2   C 0 {1,D} {3,D}
+3 * C 1 {2,D}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+12,"s^-1"),
+        n = 0,
+        Ea = (248.603,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1300,"K"),
+        Tmax = (2000,"K"),
+        Pmin = (20300,"Pa"),
+        Pmax = (55700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kern, R.D.", "Singh, H.J.", "Wu, C.H."],
+        title = u'Thermal decomposition of 1,2 butadiene',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "20",
+        pages = """731""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988KER/SIN731:7",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from detailed balance/reverse rate""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010784
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000003.xml
+Bath gas: Ne
+Category: Experiment
+Data type: Derived from detailed balance/reverse rate
+""",
+    history = [
+        ("Wed Aug 01 11:43:45 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988KER/SIN731:7"""),
+    ],
+)
+
+entry(
+    index = 278,
+    label = "1993HID/HIG10977-10983:10",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 C 0 {1,S} {4,D}
+3    C 0 {4,D}
+4    C 0 {2,D} {3,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,D}
+2   C 0 {1,D} {3,D}
+3 * C 1 {2,D}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2e+15,"s^-1"),
+        n = 0,
+        Ea = (313.456,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1100,"K"),
+        Tmax = (1600,"K"),
+    ),
+    reference = Article(
+        authors = ["Hidaka, Y.", "Higashihara, T.", "Ninomiya, N.", "Oshita, H.", "Kawano, H."],
+        title = u'Thermal isomerization and decomposition of 2-butyne in shock waves',
+        journal = "J. Phys. Chem.",
+        volume = "97",
+        pages = """10977-10983""",
+        year = "1993",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1993HID/HIG10977-10983:10",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010784
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010784/rk00000004.xml
+Bath gas: Ar
+Category: Theory
+Data type: Estimated: thermochemical, kinetic, or other
+""",
+    history = [
+        ("Wed Aug 01 11:44:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1993HID/HIG10977-10983:10"""),
+    ],
+)
+
+entry(
+    index = 279,
+    label = "1985KIE/WEI225-253:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,D}
+2 *2 C 0 {1,S} {4,D}
+3    C 0 {1,D}
+4    C 0 {2,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    product2 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (4.1e+16,"s^-1"),
+        n = 0,
+        Ea = (390.78,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1600,"K"),
+        Tmax = (1900,"K"),
+        Pmin = (14700,"Pa"),
+        Pmax = (78000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kiefer, J.H.", "Wei, H.C.", "Kern, R.D.", "Wu, C.H."],
+        title = u'The high temperature pyrolysis of 1,3-butadiene: Heat of formation and rate of dissociation of vinyl radical',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "17",
+        pages = """225-253""",
+        year = "1985",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1985KIE/WEI225-253:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011415
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000009.xml
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Laser schlieren
+""",
+    history = [
+        ("Wed Aug 01 12:25:07 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1985KIE/WEI225-253:1"""),
+    ],
+)
+
+entry(
+    index = 280,
+    label = "1988KER/SIN731:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,D}
+2 *2 C 0 {1,S} {4,D}
+3    C 0 {1,D}
+4    C 0 {2,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    product2 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.07e+12,"s^-1"),
+        n = 0,
+        Ea = (278.535,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1300,"K"),
+        Tmax = (2000,"K"),
+        Pmin = (20300,"Pa"),
+        Pmax = (55700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kern, R.D.", "Singh, H.J.", "Wu, C.H."],
+        title = u'Thermal decomposition of 1,2 butadiene',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "20",
+        pages = """731""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988KER/SIN731:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from detailed balance/reverse rate""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011415
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000010.xml
+Bath gas: Ne
+Category: Experiment
+Data type: Derived from detailed balance/reverse rate
+""",
+    history = [
+        ("Wed Aug 01 12:28:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988KER/SIN731:2"""),
+    ],
+)
+
+entry(
+    index = 281,
+    label = "1988KIE/MIT787:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,D}
+2 *2 C 0 {1,S} {4,D}
+3    C 0 {1,D}
+4    C 0 {2,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    product2 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.07e+17,"s^-1","*|/",2),
+        n = 0,
+        Ea = (393.275,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1660,"K"),
+        Tmax = (2220,"K"),
+        Pmin = (6666,"Pa"),
+        Pmax = (93300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kiefer, J.H.", "Mitchell, K.I.", "Wei, H.C."],
+        title = u'The high temperature pyrolysis of 1,3-butadiene II: Pulsed laser flash absorption rate constants, and consideration of possible molecular dissociation pathways',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "20",
+        pages = """787""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988KIE/MIT787:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011415
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000011.xml
+Uncertainty: 2.0
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 12:29:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988KIE/MIT787:1"""),
+    ],
+)
+
+entry(
+    index = 282,
+    label = "1988RAO/TAK153:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,D}
+2 *2 C 0 {1,S} {4,D}
+3    C 0 {1,D}
+4    C 0 {2,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    product2 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.8e+13,"s^-1"),
+        n = 0,
+        Ea = (355.859,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1560,"K"),
+        Tmax = (2210,"K"),
+        Pmin = (273000,"Pa"),
+        Pmax = (273000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Rao, V.S.", "Takeda, K.", "Skinner, G.B."],
+        title = u'Formation of H and D atoms in pyrolysis of 1,3-butadiene and 1,3 butadiene-1,1,4,4,-d4 behind shock waves',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "20",
+        pages = """153""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988RAO/TAK153:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011415
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011415/rk00000012.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 12:30:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988RAO/TAK153:1"""),
+    ],
+)
+
+entry(
+    index = 283,
     label = "1986SER/HUH829:1",
     reactant1 = 
 """
@@ -9042,7 +15092,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 170,
+    index = 284,
     label = "1978FOU/MAR132:2",
     reactant1 = 
 """
@@ -9100,7 +15150,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 171,
+    index = 285,
     label = "1977SER/LAB151:1",
     reactant1 = 
 """
@@ -9158,7 +15208,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 172,
+    index = 286,
     label = "1975SER/HUH120-123:2",
     reactant1 = 
 """
@@ -9216,7 +15266,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 173,
+    index = 287,
     label = "1975SER/HUH120-123:3",
     reactant1 = 
 """
@@ -9274,7 +15324,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 174,
+    index = 288,
     label = "1964LAI/MCK505-516:1",
     reactant1 = 
 """
@@ -9333,7 +15383,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 175,
+    index = 289,
     label = "1976TSA173:4",
     reactant1 = 
 """
@@ -9390,7 +15440,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 176,
+    index = 290,
     label = "1992SAH/RIG637-643:2",
     reactant1 = 
 """
@@ -9450,7 +15500,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 177,
+    index = 291,
     label = "1986BRO/KIN419:2",
     reactant1 = 
 """
@@ -9504,7 +15554,7 @@ Data type: Derived from detailed balance/reverse rate
 )
 
 entry(
-    index = 178,
+    index = 292,
     label = "1978TSA599:3",
     reactant1 = 
 """
@@ -9562,7 +15612,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 179,
+    index = 293,
     label = "1977ROS/BRA8063-8064:3",
     reactant1 = 
 """
@@ -9616,7 +15666,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 180,
+    index = 294,
     label = "1952BLA/MUR1039-1041:2",
     reactant1 = 
 """
@@ -9675,7 +15725,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 181,
+    index = 295,
     label = "1981NGU/KIN3130:2",
     reactant1 = 
 """
@@ -9733,7 +15783,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 182,
+    index = 296,
     label = "1973TRE1737:2",
     reactant1 = 
 """
@@ -9792,7 +15842,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 183,
+    index = 297,
     label = "1982NGU/KIN613:1",
     reactant1 = 
 """
@@ -9850,7 +15900,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 184,
+    index = 298,
     label = "1990TSA1-68:74",
     reactant1 = 
 """
@@ -9905,7 +15955,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 185,
+    index = 299,
     label = "2006KLI/GEO1133-1147:4",
     reactant1 = 
 """
@@ -9952,8 +16002,13 @@ PrIMe Reaction: r00009801
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
-coordinate transition state theory (VRC-TST).  Results were compared with experiment for a series of alkyl radicals and the good quantitative agreement was found.
+
+Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
+coordinate transition state theory (VRC-TST). Results were compared with experiment for a series of alkyl radicals and the good quantitative agreement was found.
+
+Each methyl substituent adjacent to a radical site was found to reduce the rate coefficient by about a factor of two. Rate constants are predicted to decrease substantially with increasing temperature, with the more sterically hindered reactants having a more rapid decrease. The geometric mean rule was found to be in good agreement with the detailed calculations.
+
+The authors state the rate parameters are strictly applicable between 200-2000 K but that they should provide reasonable predictions up to about 2700 K.
 """,
     history = [
         ("Thu Jul 12 16:12:49 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006KLI/GEO1133-1147:4"""),
@@ -9961,7 +16016,7 @@ coordinate transition state theory (VRC-TST).  Results were compared with experi
 )
 
 entry(
-    index = 186,
+    index = 300,
     label = "1988RAO/SKI165:1",
     reactant1 = 
 """
@@ -10019,7 +16074,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 187,
+    index = 301,
     label = "1983BER/SKI3732:1",
     reactant1 = 
 """
@@ -10078,7 +16133,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 188,
+    index = 302,
     label = "1979BAL/LEW529:1",
     reactant1 = 
 """
@@ -10134,7 +16189,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 189,
+    index = 303,
     label = "1978MAR/COM171:1",
     reactant1 = 
 """
@@ -10192,7 +16247,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 190,
+    index = 304,
     label = "1976MAR/PUR85:1",
     reactant1 = 
 """
@@ -10251,7 +16306,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 191,
+    index = 305,
     label = "1976BRA/WES8:3",
     reactant1 = 
 """
@@ -10309,7 +16364,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 192,
+    index = 306,
     label = "1973PAC2415:1",
     reactant1 = 
 """
@@ -10368,7 +16423,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 193,
+    index = 307,
     label = "1971BAR/DZI197:1",
     reactant1 = 
 """
@@ -10426,7 +16481,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 194,
+    index = 308,
     label = "1969TAY/HUT2215-2219:1",
     reactant1 = 
 """
@@ -10482,7 +16537,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 195,
+    index = 309,
     label = "1969HAL/KON525:2",
     reactant1 = 
 """
@@ -10541,7 +16596,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 196,
+    index = 310,
     label = "1966TSA4283-4295:1",
     reactant1 = 
 """
@@ -10599,7 +16654,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 197,
+    index = 311,
     label = "1993MIT/BEN931-955:2",
     reactant1 = 
 """
@@ -10652,7 +16707,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 198,
+    index = 312,
     label = "1981PRA/ROG2751:1",
     reactant1 = 
 """
@@ -10709,7 +16764,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 199,
+    index = 313,
     label = "2003DES/KLI4415-4427:4",
     reactant1 = 
 """
@@ -10757,7 +16812,15 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Bath gas: He
 Category: Theory
 Data type: Ab initio
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
+
+Employed earlier quantum calculations (see references below) combined with master equation modeling to provide rate expressions for many reactions in this system. Only a few rate expressions are abstracted here.
+
+Miller and Klippenstein, IJCK 33, 654 (2001)
+DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
     history = [
         ("Thu Jul 12 16:16:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:4"""),
@@ -10766,7 +16829,7 @@ Comments: Rate constants are based in part on master equation simulations employ
 )
 
 entry(
-    index = 200,
+    index = 314,
     label = "2001ROY/BRA821-833:2",
     reactant1 = 
 """
@@ -10816,10 +16879,9 @@ u"""
 PrIMe Reaction: r00010419
 Category: Review
 Data type: Extensive literature review
-Comments: 1) No formal statistical deviation presented.  
 
+1) No formal statistical deviation presented.
 2) The data are used in a 3rd law derivation of the heat of formation for cyclopentadienyl radical of Delta Hf,0=65.4 kJ/mole and Delta Hf,298=62.4 kJ/mole.
-
 3) Extensive discussion of the fall-off behavior is given.
 """,
     history = [
@@ -10828,7 +16890,7 @@ Comments: 1) No formal statistical deviation presented.
 )
 
 entry(
-    index = 201,
+    index = 315,
     label = "1997BUR/DVI505-514:2",
     reactant1 = 
 """
@@ -10890,7 +16952,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 202,
+    index = 316,
     label = "2004TOK/MOS139-151:1",
     reactant1 = 
 """
@@ -10939,7 +17001,8 @@ PrIMe Reaction: r00010419
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction PES was studied using quantum chemistry. Rate constants were calculated as functions of temperature and pressure using variational transition state theory, RRKM, and master equation analysis of falloff effects.
+
+Reaction PES was studied using quantum chemistry. Rate constants were calculated as functions of temperature and pressure using variational transition state theory, RRKM, and master equation analysis of falloff effects.
 """,
     history = [
         ("Thu Jul 12 16:17:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004TOK/MOS139-151:1"""),
@@ -10947,7 +17010,7 @@ Comments: Reaction PES was studied using quantum chemistry. Rate constants were 
 )
 
 entry(
-    index = 203,
+    index = 317,
     label = "2001BAC/MAC2467-2473:1",
     reactant1 = 
 """
@@ -11003,7 +17066,7 @@ Pressure dependence: Rate constant is high pressure limit
 )
 
 entry(
-    index = 204,
+    index = 318,
     label = "2004TOK/MOS139-151:3",
     reactant1 = 
 """
@@ -11052,7 +17115,8 @@ PrIMe Reaction: r00010419
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction PES was studied using quantum chemistry. Rate constants were calculated as functions of temperature and pressure using variational transition state theory, RRKM, and master equation analysis of falloff effects.
+
+Reaction PES was studied using quantum chemistry. Rate constants were calculated as functions of temperature and pressure using variational transition state theory, RRKM, and master equation analysis of falloff effects.
 """,
     history = [
         ("Thu Jul 12 16:17:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004TOK/MOS139-151:3"""),
@@ -11060,7 +17124,7 @@ Comments: Reaction PES was studied using quantum chemistry. Rate constants were 
 )
 
 entry(
-    index = 205,
+    index = 319,
     label = "2003DES/KLI4415-4427:7",
     reactant1 = 
 """
@@ -11109,7 +17173,15 @@ Bath gas: He
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure dependent
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
+
+Employed earlier quantum calculations (see references below) combined with master equation modeling to provide rate expressions for many reactions in this system. Only a few rate expressions are abstracted here.
+
+Miller and Klippenstein, IJCK 33, 654 (2001)
+DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
     history = [
         ("Thu Jul 12 16:17:20 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:7"""),
@@ -11118,7 +17190,7 @@ Comments: Rate constants are based in part on master equation simulations employ
 )
 
 entry(
-    index = 206,
+    index = 320,
     label = "1962BLA/HIN36:5",
     reactant1 = 
 """
@@ -11172,7 +17244,7 @@ Data type: Ab initio
 )
 
 entry(
-    index = 207,
+    index = 321,
     label = "1977TRE/WRI817:1",
     reactant1 = 
 """
@@ -11232,7 +17304,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 208,
+    index = 322,
     label = "1960KIR/KNO1296-1303:3",
     reactant1 = 
 """
@@ -11290,7 +17362,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 209,
+    index = 323,
     label = "1975ABU/LIS65:1",
     reactant1 = 
 """
@@ -11349,7 +17421,7 @@ Analytical technique: Chemiluminescence
 )
 
 entry(
-    index = 210,
+    index = 324,
     label = "1982MOR/PIL1323:2",
     reactant1 = 
 """
@@ -11408,7 +17480,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 211,
+    index = 325,
     label = "1997SEH/SEH627-636:2",
     reactant1 = 
 """
@@ -11468,7 +17540,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 212,
+    index = 326,
     label = "1997MAR/SZE5155-5167:2",
     reactant1 = 
 """
@@ -11526,7 +17598,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 213,
+    index = 327,
     label = "1996HOY/NAC505-512:2",
     reactant1 = 
 """
@@ -11586,7 +17658,125 @@ Note: Invalid activation energy uncertainty (102.268) found and ignored
 )
 
 entry(
-    index = 214,
+    index = 328,
+    label = "1970TRE2805-2811:3",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S} {5,D}
+5    C 0 {4,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,S}
+3   C 0 {2,S} {4,D}
+4   C 0 {3,D}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (7.94e+15,"s^-1","*|/",2),
+        n = 0,
+        Ea = (287.681,"kJ/mol","+|-",2.877),
+        T0 = (1,"K"),
+        Tmin = (685,"K"),
+        Tmax = (740,"K"),
+        Pmin = (2666,"Pa"),
+        Pmax = (46700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Trenwith, A.B."],
+        title = u'Dissociation of 1-butene, 3-methyl-1-butene, and of 3,3-dimethyl-1-butene and the resonance energy of the allyl, methyl allyl and dimethyl allyl radicals',
+        journal = "Trans. Faraday Soc.",
+        volume = "66",
+        pages = """2805-2811""",
+        year = "1970",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1970TRE2805-2811:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00007566
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007566/rk00000001.xml
+Uncertainty: 2.0
+Bath gas: (CH3)2CHCH=CH2
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Wed Aug 01 11:07:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970TRE2805-2811:3"""),
+    ],
+)
+
+entry(
+    index = 329,
+    label = "1981NGU/KIN3130:4",
+    reactant1 = 
+"""
+1 *1 C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {5,D}
+4    C 0 {5,D}
+5    C 0 {3,D} {4,D}
+""",
+    product1 = 
+"""
+1   C 0 {3,S}
+2   C 0 {4,D}
+3 * C 1 {1,S} {4,D}
+4   C 0 {2,D} {3,D}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (2e+16,"s^-1","*|/",2),
+        n = 0,
+        Ea = (315.118,"kJ/mol","+|-",3.151),
+        T0 = (1,"K"),
+        Tmin = (940,"K"),
+        Tmax = (1220,"K"),
+    ),
+    reference = Article(
+        authors = ["Nguyen, T.T.", "King, K.D."],
+        title = u'Kinetics of Decomposition and Interconversion of 3-Methylbut-1-yne and 3-Methylbuta-1,2-diene. Resonance Stabilization Energies of Propargylic Radicals',
+        journal = "J. Phys. Chem.",
+        volume = "85",
+        pages = """3130""",
+        year = "1981",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1981NGU/KIN3130:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008084
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008084/rk00000001.xml
+Uncertainty: 2.0
+Bath gas: CH2=C=C(CH3)2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Wed Aug 01 11:09:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1981NGU/KIN3130:4"""),
+    ],
+)
+
+entry(
+    index = 330,
     label = "2005VAS/DAV98-109:3",
     reactant1 = 
 """
@@ -11642,7 +17832,8 @@ Experimental procedure: Shock tube
 Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Vis-UV absorption
-Comments: Rate constant was derived by fitting the early OH formation profiles.
+
+Rate constant was derived by fitting the early OH formation profiles.
 """,
     history = [
         ("Thu Jul 12 16:05:00 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005VAS/DAV98-109:3"""),
@@ -11650,7 +17841,7 @@ Comments: Rate constant was derived by fitting the early OH formation profiles.
 )
 
 entry(
-    index = 215,
+    index = 331,
     label = "1992SAH/RIG637-643:1",
     reactant1 = 
 """
@@ -11711,7 +17902,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 216,
+    index = 332,
     label = "1984MUL/LOU148-152:1",
     reactant1 = 
 """
@@ -11771,7 +17962,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 217,
+    index = 333,
     label = "1968BEN/SPO1182-1186:1",
     reactant1 = 
 """
@@ -11829,7 +18020,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 218,
+    index = 334,
     label = "1960KIR/KNO1296-1303:1",
     reactant1 = 
 """
@@ -11889,7 +18080,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 219,
+    index = 335,
     label = "1984BAL/DRE2827:3",
     reactant1 = 
 """
@@ -11949,7 +18140,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 220,
+    index = 336,
     label = "1965TSA352-359:2",
     reactant1 = 
 """
@@ -12010,7 +18201,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 221,
+    index = 337,
     label = "1989BRO/KIN251-266:3",
     reactant1 = 
 """
@@ -12069,7 +18260,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 222,
+    index = 338,
     label = "1985DEA4600-4608:18",
     reactant1 = 
 """
@@ -12127,7 +18318,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 223,
+    index = 339,
     label = "1996MAR/SZE333-339:1",
     reactant1 = 
 """
@@ -12187,7 +18378,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 224,
+    index = 340,
     label = "1970TRE2805-2811:2",
     reactant1 = 
 """
@@ -12249,7 +18440,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 225,
+    index = 341,
     label = "1976TSA173:7",
     reactant1 = 
 """
@@ -12307,7 +18498,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 226,
+    index = 342,
     label = "1976TSA173:8",
     reactant1 = 
 """
@@ -12366,7 +18557,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 227,
+    index = 343,
     label = "1985DEA4600-4608:24",
     reactant1 = 
 """
@@ -12424,7 +18615,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 228,
+    index = 344,
     label = "1985DEA4600-4608:26",
     reactant1 = 
 """
@@ -12482,7 +18673,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 229,
+    index = 345,
     label = "1967LEG/THY2504-2509:1",
     reactant1 = 
 """
@@ -12543,7 +18734,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 230,
+    index = 346,
     label = "1952REB/LAI574-577:1",
     reactant1 = 
 """
@@ -12603,7 +18794,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 231,
+    index = 347,
     label = "1938HAR/EGE1-18:1",
     reactant1 = 
 """
@@ -12664,7 +18855,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 232,
+    index = 348,
     label = "1981KIN273:2",
     reactant1 = 
 """
@@ -12722,7 +18913,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 233,
+    index = 349,
     label = "1978TSA687:2",
     reactant1 = 
 """
@@ -12783,7 +18974,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 234,
+    index = 350,
     label = "1977KIN907:1",
     reactant1 = 
 """
@@ -12842,7 +19033,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 235,
+    index = 351,
     label = "1987DAV/BAR644:1",
     reactant1 = 
 """
@@ -12904,7 +19095,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 236,
+    index = 352,
     label = "2006KLI/GEO1133-1147:7",
     reactant1 = 
 """
@@ -12953,8 +19144,13 @@ PrIMe Reaction: r00009789
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
-coordinate transition state theory (VRC-TST).  Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+
+Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
+coordinate transition state theory (VRC-TST). Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+
+Each methyl substituent adjacent to a radical site was found to reduce the rate coefficient by about a factor of two. Rate constants are predicted to decrease substantially with increasing temperature, with the more sterically hindered reactants having a more rapid decrease. The geometric mean rule was found to be in good agreement with the detailed calculations.
+
+The authors state the rate parameters are strictly applicable between 200-2000 K but that they should provide reasonable predictions up to about 2700 K.
 """,
     history = [
         ("Thu Jul 12 16:12:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006KLI/GEO1133-1147:7"""),
@@ -12962,7 +19158,7 @@ coordinate transition state theory (VRC-TST).  Results were compared with experi
 )
 
 entry(
-    index = 237,
+    index = 353,
     label = "1997DIL/STO956-960:1",
     reactant1 = 
 """
@@ -13024,7 +19220,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 238,
+    index = 354,
     label = "1999CHE/BOZ9731-9769:1",
     reactant1 = 
 """
@@ -13080,7 +19276,7 @@ Pressure dependence: Rate constant is high pressure limit
 )
 
 entry(
-    index = 239,
+    index = 355,
     label = "1991TSA221-273:79",
     reactant1 = 
 """
@@ -13136,7 +19332,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 240,
+    index = 356,
     label = "1982TUL/MAC3812-3819:1",
     reactant1 = 
 """
@@ -13196,7 +19392,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 241,
+    index = 357,
     label = "1969GOL/GAC2136:2",
     reactant1 = 
 """
@@ -13256,7 +19452,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 242,
+    index = 358,
     label = "1972THR273:2",
     reactant1 = 
 """
@@ -13313,7 +19509,7 @@ Data type: Experimental value and limited review
 )
 
 entry(
-    index = 243,
+    index = 359,
     label = "1991ROT/BAU1453-1460:2",
     reactant1 = 
 """
@@ -13371,7 +19567,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 244,
+    index = 360,
     label = "1985DEA4600-4608:23",
     reactant1 = 
 """
@@ -13426,7 +19622,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 245,
+    index = 361,
     label = "1976SAK/NOH152:1",
     reactant1 = 
 """
@@ -13486,7 +19682,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 246,
+    index = 362,
     label = "1971DOE/TOS5299:1",
     reactant1 = 
 """
@@ -13545,7 +19741,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 247,
+    index = 363,
     label = "1969GOL/GAC2136:1",
     reactant1 = 
 """
@@ -13605,7 +19801,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 248,
+    index = 364,
     label = "1967AKE/THR124:1",
     reactant1 = 
 """
@@ -13665,7 +19861,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 249,
+    index = 365,
     label = "1966HOM/LOS2211-2217:1",
     reactant1 = 
 """
@@ -13725,7 +19921,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 250,
+    index = 366,
     label = "1960RUZ/BRY827-834:1",
     reactant1 = 
 """
@@ -13785,7 +19981,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 251,
+    index = 367,
     label = "1991TSA221-273:82",
     reactant1 = 
 """
@@ -13842,7 +20038,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 252,
+    index = 368,
     label = "1965TAN7436:1",
     reactant1 = 
 """
@@ -13901,7 +20097,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 253,
+    index = 369,
     label = "1991TSA221-273:89",
     reactant1 = 
 """
@@ -13958,7 +20154,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 254,
+    index = 370,
     label = "1979KIN1071:2",
     reactant1 = 
 """
@@ -14017,7 +20213,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 255,
+    index = 371,
     label = "1978TSA1119:3",
     reactant1 = 
 """
@@ -14077,7 +20273,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 256,
+    index = 372,
     label = "2005YAH/DJE1137-1145:0",
     reactant1 = 
 """
@@ -14130,7 +20326,7 @@ PrIMe Reaction: r00010107
 )
 
 entry(
-    index = 257,
+    index = 373,
     label = "1978ARR/KIR3016:2",
     reactant1 = 
 """
@@ -14189,7 +20385,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 258,
+    index = 374,
     label = "2006KLI/GEO1133-1147:8",
     reactant1 = 
 """
@@ -14238,8 +20434,13 @@ PrIMe Reaction: r00010169
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
-coordinate transition state theory (VRC-TST).  Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+
+Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
+coordinate transition state theory (VRC-TST). Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+
+Each methyl substituent adjacent to a radical site was found to reduce the rate coefficient by about a factor of two. Rate constants are predicted to decrease substantially with increasing temperature, with the more sterically hindered reactants having a more rapid decrease. The geometric mean rule was found to be in good agreement with the detailed calculations.
+
+The authors state the rate parameters are strictly applicable between 200-2000 K but that they should provide reasonable predictions up to about 2700 K.
 """,
     history = [
         ("Thu Jul 12 16:15:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006KLI/GEO1133-1147:8"""),
@@ -14247,7 +20448,7 @@ coordinate transition state theory (VRC-TST).  Results were compared with experi
 )
 
 entry(
-    index = 259,
+    index = 375,
     label = "1984BAL/DRE2827:2",
     reactant1 = 
 """
@@ -14304,7 +20505,7 @@ Data type: Experimental value and limited review
 )
 
 entry(
-    index = 260,
+    index = 376,
     label = "1978TSA821:2",
     reactant1 = 
 """
@@ -14362,7 +20563,7 @@ Data type: Experimental value and limited review
 )
 
 entry(
-    index = 261,
+    index = 377,
     label = "1984BAL/DRE2827:1",
     reactant1 = 
 """
@@ -14423,7 +20624,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 262,
+    index = 378,
     label = "1978TSA821:1",
     reactant1 = 
 """
@@ -14483,7 +20684,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 263,
+    index = 379,
     label = "1974GOL/ALF359:2",
     reactant1 = 
 """
@@ -14541,7 +20742,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 264,
+    index = 380,
     label = "1965TSA352-359:1",
     reactant1 = 
 """
@@ -14601,7 +20802,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 265,
+    index = 381,
     label = "1979FOR100-108:1",
     reactant1 = 
 """
@@ -14656,7 +20857,7 @@ Data type: Transition state theory
 )
 
 entry(
-    index = 266,
+    index = 382,
     label = "1985KIE/MIZ2013-2019:1",
     reactant1 = 
 """
@@ -14718,7 +20919,7 @@ Analytical technique: Laser schlieren
 )
 
 entry(
-    index = 267,
+    index = 383,
     label = "1985KER/WU789:2",
     reactant1 = 
 """
@@ -14780,7 +20981,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 268,
+    index = 384,
     label = "1985HSU/LIN623:2",
     reactant1 = 
 """
@@ -14841,7 +21042,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 269,
+    index = 385,
     label = "1985HSU/LIN623:1",
     reactant1 = 
 """
@@ -14904,7 +21105,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 270,
+    index = 386,
     label = "2006SIV/BRE285-305:2",
     reactant1 = 
 """
@@ -14961,7 +21162,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 271,
+    index = 387,
     label = "1988RAO/SKI2442:1",
     reactant1 = 
 """
@@ -15021,7 +21222,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 272,
+    index = 388,
     label = "1971ASA/FUJ1-12:1",
     reactant1 = 
 """
@@ -15082,7 +21283,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 273,
+    index = 389,
     label = "1985DEA4600-4608:25",
     reactant1 = 
 """
@@ -15138,7 +21339,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 274,
+    index = 390,
     label = "1992SAH/RIG637-643:3",
     reactant1 = 
 """
@@ -15200,7 +21401,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 275,
+    index = 391,
     label = "1970TSA23:2",
     reactant1 = 
 """
@@ -15260,7 +21461,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 276,
+    index = 392,
     label = "1992STA/KIN781-790:2",
     reactant1 = 
 """
@@ -15320,7 +21521,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 277,
+    index = 393,
     label = "1985DEA4600-4608:39",
     reactant1 = 
 """
@@ -15376,7 +21577,7 @@ Data type: RRK(M) extrapolation
 )
 
 entry(
-    index = 278,
+    index = 394,
     label = "1997MAR/SZE5155-5167:6",
     reactant1 = 
 """
@@ -15438,7 +21639,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 279,
+    index = 395,
     label = "1967LOU/LAI2785-2793:2",
     reactant1 = 
 """
@@ -15498,7 +21699,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 280,
+    index = 396,
     label = "1981KIN/NGU255:2",
     reactant1 = 
 """
@@ -15558,7 +21759,375 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 281,
+    index = 397,
+    label = "1969HOL/MUL177:2",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *1 C 0 {1,S} {4,S} {5,D}
+4 *2 C 0 {2,S} {3,S} {6,D}
+5    O 0 {3,D}
+6    O 0 {4,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,D}
+3   O 0 {2,D}
+""",
+    product2 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,D}
+3   O 0 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1e+10,"s^-1"),
+        n = 0,
+        Ea = (281.029,"kJ/mol","+|-",14.051),
+        T0 = (1,"K"),
+        Tmin = (677,"K"),
+        Tmax = (776,"K"),
+        Pmin = (79.99,"Pa"),
+        Pmax = (5999,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Hole, K.J.", "Mulcahy, M.F.R."],
+        title = u'The pyrolysis of biacetyl and the third-body effect on the combination of methyl radicals',
+        journal = "J. Phys. Chem.",
+        volume = "73",
+        pages = """177""",
+        year = "1969",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1969HOL/MUL177:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00006863
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000001.xml
+Bath gas: (CH3CO)2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:01:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969HOL/MUL177:2"""),
+    ],
+)
+
+entry(
+    index = 398,
+    label = "1973KNO/SCH271:3",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *1 C 0 {1,S} {4,S} {5,D}
+4 *2 C 0 {2,S} {3,S} {6,D}
+5    O 0 {3,D}
+6    O 0 {4,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,D}
+3   O 0 {2,D}
+""",
+    product2 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,D}
+3   O 0 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.16e+16,"s^-1","*|/",5),
+        n = 0,
+        Ea = (283.523,"kJ/mol","+|-",16.962),
+        T0 = (1,"K"),
+        Tmin = (240,"K"),
+        Tmax = (550,"K"),
+        Pmin = (4133,"Pa"),
+        Pmax = (24400,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Knoll, H.", "Scherzer, K.", "Geiseler, G."],
+        title = u'The Thermal Decomposition of Biacetyl',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "5",
+        pages = """271""",
+        year = "1973",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1973KNO/SCH271:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00006863
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000003.xml
+Uncertainty: 5.0
+Bath gas: (CH3CO)2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:03:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973KNO/SCH271:3"""),
+    ],
+)
+
+entry(
+    index = 399,
+    label = "1975SCH/PLA660:2",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *1 C 0 {1,S} {4,S} {5,D}
+4 *2 C 0 {2,S} {3,S} {6,D}
+5    O 0 {3,D}
+6    O 0 {4,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,D}
+3   O 0 {2,D}
+""",
+    product2 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,D}
+3   O 0 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (6.31e+15,"s^-1","*|/",3.16),
+        n = 0,
+        Ea = (279.366,"kJ/mol","+|-",8.398),
+        T0 = (1,"K"),
+        Tmin = (822,"K"),
+        Tmax = (905,"K"),
+        Pmin = (79.99,"Pa"),
+        Pmax = (57300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Scherzer, K.", "Plarre, D."],
+        title = u'Der Thermische Zerfall von Diacetyl. II. Mitteilung: Untersuchungen bei hohen Temperaturen',
+        journal = "Z. Phys. Chem. (Leipzig)",
+        volume = "256",
+        pages = """660""",
+        year = "1975",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1975SCH/PLA660:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00006863
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006863/rk00000004.xml
+Uncertainty: 3.1600001
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:05:16 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975SCH/PLA660:2"""),
+    ],
+)
+
+entry(
+    index = 400,
+    label = "1980TRE266:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S} {4,D}
+4    C 0 {3,D} {5,S}
+5    C 0 {4,S} {6,D}
+6    C 0 {5,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,S} {3,D}
+2   C 0 {1,S} {4,D}
+3   C 0 {1,D} {5,S}
+4   C 0 {2,D}
+5 * C 1 {3,S}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (8.32e+15,"s^-1","*|/",1.48),
+        n = 0,
+        Ea = (277.703,"kJ/mol","+|-",2.777),
+        T0 = (1,"K"),
+        Tmin = (694,"K"),
+        Tmax = (759,"K"),
+        Pmin = (3333,"Pa"),
+        Pmax = (26700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Trenwith, A.B."],
+        title = u'Dissociation of 1,3-Hexadiene and the Resonance Energy of the Pentadienyl Radical',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "76",
+        pages = """266""",
+        year = "1980",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1980TRE266:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00007893
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007893/rk00000001.xml
+Uncertainty: 1.48
+Bath gas: C2H5CH=CHCH=CH2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Wed Aug 01 11:08:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980TRE266:1"""),
+    ],
+)
+
+entry(
+    index = 401,
+    label = "1982TRE3131:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S}
+3    C 0 {1,S} {5,D}
+4    C 0 {1,S} {6,D}
+5    C 0 {3,D}
+6    C 0 {4,D}
+""",
+    product1 = 
+"""
+1 * C 1 {2,S} {3,S}
+2   C 0 {1,S} {4,D}
+3   C 0 {1,S} {5,D}
+4   C 0 {2,D}
+5   C 0 {3,D}
+""",
+    product2 = 
+"""
+1 * C 1
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.29e+15,"s^-1","*|/",1.26),
+        n = 0,
+        Ea = (271.883,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (653,"K"),
+        Tmax = (716,"K"),
+        Pmin = (2000,"Pa"),
+        Pmax = (26700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Trenwith, A.B."],
+        title = u'Dissociation of 3-Methylpenta-1,4-diene and the Resonance Energy of the Pentadienyl Radical',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "78",
+        pages = """3131""",
+        year = "1982",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1982TRE3131:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00009347
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009347/rk00000001.xml
+Uncertainty: 1.26
+Bath gas: CH2=CHCH(CH3)CH=CH2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 11:14:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982TRE3131:1"""),
+    ],
+)
+
+entry(
+    index = 402,
+    label = "1989WES/DEA8171-8180:20",
+    reactant1 = 
+"""
+1   C 0 {2,D}
+2 * C 1 {1,D}
+""",
+    reactant2 = 
+"""
+1   C 0 {2,S} {3,D}
+2   C 0 {1,S} {4,D}
+3   C 0 {1,D}
+4 * C 1 {2,D}
+""",
+    product1 = 
+"""
+1    C 0 {2,D} {4,S}
+2 *2 C 0 {1,D} {3,S}
+3 *1 C 0 {2,S} {5,D}
+4    C 0 {1,S} {6,D}
+5    C 0 {3,D}
+6    C 0 {4,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.5e+07,"m^3/(mol*s)"),
+        n = -0.08,
+        Ea = (0.416,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (400,"K"),
+        Tmax = (1600,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Westmoreland, P.R.", "Dean, A.M.", "Howard, J.B.", "Longwell, J.P."],
+        title = u'Forming benzene in flames by chemically activated isomerization',
+        journal = "J. Phys. Chem.",
+        volume = "93",
+        pages = """8171-8180""",
+        year = "1989",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1989WES/DEA8171-8180:20",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011454
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011454/rk00000001.xml
+Bath gas: N2
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 12:33:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989WES/DEA8171-8180:20"""),
+    ],
+)
+
+entry(
+    index = 403,
     label = "1990CHO/LIN491-504:2",
     reactant1 = 
 """
@@ -15623,7 +22192,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 )
 
 entry(
-    index = 282,
+    index = 404,
     label = "1997HER/MAN5494-5499:4",
     reactant1 = 
 """
@@ -15687,7 +22256,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 283,
+    index = 405,
     label = "1980BAL/WAL825:1",
     reactant1 = 
 """
@@ -15750,7 +22319,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 284,
+    index = 406,
     label = "1970TSA311:3",
     reactant1 = 
 """
@@ -15812,7 +22381,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 285,
+    index = 407,
     label = "1966TSA4283-4295:2",
     reactant1 = 
 """
@@ -15875,7 +22444,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 286,
+    index = 408,
     label = "2006KLI/GEO1133-1147:9",
     reactant1 = 
 """
@@ -15926,8 +22495,13 @@ PrIMe Reaction: r00007080
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
-coordinate transition state theory (VRC-TST).  Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+
+Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
+coordinate transition state theory (VRC-TST). Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+
+Each methyl substituent adjacent to a radical site was found to reduce the rate coefficient by about a factor of two. Rate constants are predicted to decrease substantially with increasing temperature, with the more sterically hindered reactants having a more rapid decrease. The geometric mean rule was found to be in good agreement with the detailed calculations.
+
+The authors state the rate parameters are strictly applicable between 200-2000 K but that they should provide reasonable predictions up to about 2700 K.
 """,
     history = [
         ("Thu Jul 12 16:09:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006KLI/GEO1133-1147:9"""),
@@ -15935,7 +22509,7 @@ coordinate transition state theory (VRC-TST).  Results were compared with experi
 )
 
 entry(
-    index = 287,
+    index = 409,
     label = "1976TSA173:6",
     reactant1 = 
 """
@@ -15998,7 +22572,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 288,
+    index = 410,
     label = "1969TSA245:3",
     reactant1 = 
 """
@@ -16061,7 +22635,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 289,
+    index = 411,
     label = "1984TSA1543:3",
     reactant1 = 
 """
@@ -16123,7 +22697,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 290,
+    index = 412,
     label = "1976TSA173:11",
     reactant1 = 
 """
@@ -16186,7 +22760,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 291,
+    index = 413,
     label = "1974SCH/KNO415:2",
     reactant1 = 
 """
@@ -16249,7 +22823,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 292,
+    index = 414,
     label = "1973TSA651:2",
     reactant1 = 
 """
@@ -16312,7 +22886,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 293,
+    index = 415,
     label = "1981KIN/NGU255:1",
     reactant1 = 
 """
@@ -16374,7 +22948,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 294,
+    index = 416,
     label = "1991TSA221-273:76",
     reactant1 = 
 """
@@ -16433,7 +23007,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 295,
+    index = 417,
     label = "1991TSA221-273:105",
     reactant1 = 
 """
@@ -16492,7 +23066,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 296,
+    index = 418,
     label = "2006XU/LIN1672-1677:3",
     reactant1 = 
 """
@@ -16547,7 +23121,8 @@ PrIMe Reaction: r00010358
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is pressure dependent
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM / master equation analysis. Rate constants were calculated for wide ranges of temperatures and pressures
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM / master equation analysis. Rate constants were calculated for wide ranges of temperatures and pressures
 """,
     history = [
         ("Thu Jul 12 16:17:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006XU/LIN1672-1677:3"""),
@@ -16555,7 +23130,7 @@ Comments: Reaction potential energy surface was studied using quantum chemistry 
 )
 
 entry(
-    index = 297,
+    index = 419,
     label = "2006XU/LIN1672-1677:2",
     reactant1 = 
 """
@@ -16608,7 +23183,8 @@ PrIMe Reaction: r00010358
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM / master equation analysis. Rate constants were calculated for wide ranges of temperatures and pressures
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM / master equation analysis. Rate constants were calculated for wide ranges of temperatures and pressures
 """,
     history = [
         ("Thu Jul 12 16:17:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006XU/LIN1672-1677:2"""),
@@ -16616,7 +23192,7 @@ Comments: Reaction potential energy surface was studied using quantum chemistry 
 )
 
 entry(
-    index = 298,
+    index = 420,
     label = "2003ZHU/BOZ3696-3703:4",
     reactant1 = 
 """
@@ -16669,7 +23245,8 @@ PrIMe Reaction: r00010358
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments:  Extensive thermochemical data for reactants, products, and transition states are presented.
+
+Extensive thermochemical data for reactants, products, and transition states are presented.
 """,
     history = [
         ("Thu Jul 12 16:17:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ZHU/BOZ3696-3703:4"""),
@@ -16677,7 +23254,7 @@ Comments:  Extensive thermochemical data for reactants, products, and transition
 )
 
 entry(
-    index = 299,
+    index = 421,
     label = "2003ZHU/BOZ3696-3703:7",
     reactant1 = 
 """
@@ -16731,7 +23308,8 @@ u"""
 PrIMe Reaction: r00010358
 Category: Theory
 Data type: Ab initio
-Comments:  Extensive thermochemical data for reactants, products, and transition states are presented.
+
+Extensive thermochemical data for reactants, products, and transition states are presented.
 """,
     history = [
         ("Thu Jul 12 16:17:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003ZHU/BOZ3696-3703:7"""),
@@ -16739,7 +23317,7 @@ Comments:  Extensive thermochemical data for reactants, products, and transition
 )
 
 entry(
-    index = 300,
+    index = 422,
     label = "1989LOV/BRE547-560:1",
     reactant1 = 
 """
@@ -16801,7 +23379,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 301,
+    index = 423,
     label = "1978TSA687:4",
     reactant1 = 
 """
@@ -16864,7 +23442,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 302,
+    index = 424,
     label = "1999TOK/PAR3636-3645:2",
     reactant1 = 
 """
@@ -16925,7 +23503,7 @@ Note: Invalid activation energy uncertainty (0.299) found and ignored
 )
 
 entry(
-    index = 303,
+    index = 425,
     label = "2000LIF/SUS1733-1739:5",
     reactant1 = 
 """
@@ -16986,7 +23564,7 @@ Analytical technique: GC-MS
 )
 
 entry(
-    index = 304,
+    index = 426,
     label = "1987PAM/KER2148:2",
     reactant1 = 
 """
@@ -17048,7 +23626,7 @@ Analytical technique: Laser schlieren
 )
 
 entry(
-    index = 305,
+    index = 427,
     label = "2007CAV/MAN3959-3969:8",
     reactant1 = 
 """
@@ -17105,7 +23683,7 @@ Data type: Transition state theory
 )
 
 entry(
-    index = 306,
+    index = 428,
     label = "2006SIV/TRA9388-9399:1",
     reactant1 = 
 """
@@ -17156,7 +23734,8 @@ PrIMe Reaction: r00010761
 Category: Theory
 Data type: Derived from detailed balance/reverse rate
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate constant values were determined from combinig theoretical rate constanst for the reverse reaction and critically evaluated value of reaction enthalpy.
+
+Rate constant values were determined from combinig theoretical rate constanst for the reverse reaction and critically evaluated value of reaction enthalpy.
 """,
     history = [
         ("Thu Jul 12 16:18:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SIV/TRA9388-9399:1"""),
@@ -17164,7 +23743,7 @@ Comments: Rate constant values were determined from combinig theoretical rate co
 )
 
 entry(
-    index = 307,
+    index = 429,
     label = "2006SIV/TRA9388-9399:2",
     reactant1 = 
 """
@@ -17215,7 +23794,8 @@ PrIMe Reaction: r00010761
 Category: Theory
 Data type: Derived from detailed balance/reverse rate
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate constant values were determined from combinig theoretical rate constanst for the reverse reaction and critically evaluated value of reaction enthalpy.
+
+Rate constant values were determined from combinig theoretical rate constanst for the reverse reaction and critically evaluated value of reaction enthalpy.
 """,
     history = [
         ("Thu Jul 12 16:18:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SIV/TRA9388-9399:2"""),
@@ -17223,7 +23803,7 @@ Comments: Rate constant values were determined from combinig theoretical rate co
 )
 
 entry(
-    index = 308,
+    index = 430,
     label = "1989BRO/KIN251-266:6",
     reactant1 = 
 """
@@ -17284,7 +23864,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 309,
+    index = 431,
     label = "1991ROT/BAU1453-1460:4",
     reactant1 = 
 """
@@ -17345,7 +23925,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 310,
+    index = 432,
     label = "2004SUN/BOZ1694-1711:1",
     reactant1 = 
 """
@@ -17398,7 +23978,10 @@ PrIMe Reaction: r00016216
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016216/rk00000003.xml
 Category: Theory
 Data type: Ab initio
-Comments: Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways).  This includes primary reaction pathways as well as subsequent secondary reactions.  Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules.  Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures.  For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+
+Quantum calculations of energetics of pathways related to reaction between neopentyl radical and O2 (and subsequent reaction pathways). This includes primary reaction pathways as well as subsequent secondary reactions. Used ab initio CBS-Q method, as well as B3LYP/6-31G(d,p) for some molecules. Many reaction channels are discussed in paper, for some, rate expressions are provided at low pressure limit, high pressure limit, and a number of intermediate pressures. For some reaction channels, no rate expressions are given in paper, but are provided in auxillary information associated with the article in JPC.
+
+Rate expressions reported are derived from ab initio transition states using QRRK analysis of the chemically activated reaction pathways. We have only abstracted rate expressions from the paper for 1 atm and 300-900 K. For other pressures and at higher temperatures see paper.
 """,
     history = [
         ("Thu Jul 12 16:30:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004SUN/BOZ1694-1711:1"""),
@@ -17406,7 +23989,7 @@ Comments: Quantum calculations of energetics of pathways related to reaction bet
 )
 
 entry(
-    index = 311,
+    index = 433,
     label = "1978TSA687:8",
     reactant1 = 
 """
@@ -17469,7 +24052,70 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 312,
+    index = 434,
+    label = "1969TSA245:4",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S} {5,S} {6,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6    C 0 {2,S} {7,D}
+7    C 0 {6,D}
+""",
+    product1 = 
+"""
+1   C 0 {2,S}
+2 * C 1 {1,S} {3,S}
+3   C 0 {2,S} {4,D}
+4   C 0 {3,D}
+""",
+    product2 = 
+"""
+1   C 0 {3,S}
+2   C 0 {3,S}
+3 * C 1 {1,S} {2,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (5.01e+15,"s^-1"),
+        n = 0,
+        Ea = (270.22,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (1030,"K"),
+        Tmax = (1090,"K"),
+        Pmin = (69300,"Pa"),
+        Pmax = (167000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Thermal decomposition of 3,4-dimethylpentene-1,2,3,3-trimethylpentane, 3,3-dimethylpentane, and isobutylbenzene in a single pulse shock tube',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "1",
+        pages = """245""",
+        year = "1969",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1969TSA245:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013101
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013101/rk00000001.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Wed Aug 01 13:10:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969TSA245:4"""),
+    ],
+)
+
+entry(
+    index = 435,
     label = "1989BAC6880-6881:1",
     reactant1 = 
 """
@@ -17532,7 +24178,7 @@ Data type: Experimental value and limited review
 )
 
 entry(
-    index = 313,
+    index = 436,
     label = "1993ARE/LOU7914-7925:1",
     reactant1 = 
 """
@@ -17597,7 +24243,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 314,
+    index = 437,
     label = "1989SUR/KAF1423-1429:4",
     reactant1 = 
 """
@@ -17659,7 +24305,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 315,
+    index = 438,
     label = "1989MAC/DOO664-670:1",
     reactant1 = 
 """
@@ -17723,7 +24369,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 316,
+    index = 439,
     label = "1988BRU/GEE327-333:10",
     reactant1 = 
 """
@@ -17787,7 +24433,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 317,
+    index = 440,
     label = "1986LIN/LIN425:1",
     reactant1 = 
 """
@@ -17851,7 +24497,7 @@ Analytical technique: IR absorption
 )
 
 entry(
-    index = 318,
+    index = 441,
     label = "1975PAU/BAC3330:1",
     reactant1 = 
 """
@@ -17917,7 +24563,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 319,
+    index = 442,
     label = "1984TSA1543:2",
     reactant1 = 
 """
@@ -17982,7 +24628,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 320,
+    index = 443,
     label = "1983DOO/MAC29:1",
     reactant1 = 
 """
@@ -18046,7 +24692,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 321,
+    index = 444,
     label = "1962BLA/HIN36:7",
     reactant1 = 
 """
@@ -18106,7 +24752,7 @@ Data type: Ab initio
 )
 
 entry(
-    index = 322,
+    index = 445,
     label = "1969TSA245:2",
     reactant1 = 
 """
@@ -18171,7 +24817,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 323,
+    index = 446,
     label = "1972TSA143:1",
     reactant1 = 
 """
@@ -18237,7 +24883,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 324,
+    index = 447,
     label = "1972TSA143:2",
     reactant1 = 
 """
@@ -18303,7 +24949,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 325,
+    index = 448,
     label = "1978TSA821:5",
     reactant1 = 
 """
@@ -18365,7 +25011,7 @@ Data type: Experimental value and limited review
 )
 
 entry(
-    index = 326,
+    index = 449,
     label = "1978ATR/BAL366:1",
     reactant1 = 
 """
@@ -18427,7 +25073,7 @@ Data type: Experimental value and limited review
 )
 
 entry(
-    index = 327,
+    index = 450,
     label = "1982BAL/HIS1165:1",
     reactant1 = 
 """
@@ -18491,7 +25137,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 328,
+    index = 451,
     label = "1979WAL/TSA867:1",
     reactant1 = 
 """
@@ -18555,7 +25201,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 329,
+    index = 452,
     label = "1978TSA821:6",
     reactant1 = 
 """
@@ -18619,7 +25265,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 330,
+    index = 453,
     label = "1978TAY/MIL1245:1",
     reactant1 = 
 """
@@ -18683,7 +25329,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 331,
+    index = 454,
     label = "1974GOL/ALF359:4",
     reactant1 = 
 """
@@ -18745,7 +25391,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 332,
+    index = 455,
     label = "1966TSA4283-4295:3",
     reactant1 = 
 """
@@ -18810,7 +25456,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 333,
+    index = 456,
     label = "2006KLI/GEO1133-1147:10",
     reactant1 = 
 """
@@ -18863,8 +25509,13 @@ PrIMe Reaction: r00009780
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
-coordinate transition state theory (VRC-TST).  Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+
+Rate constants were calculated with an ab initio transition state theory employing direct evaluations of the orientation dependent interaction energies at the CASPT2/cc-pvdz level within variable reaction
+coordinate transition state theory (VRC-TST). Results were compared with experiment for a series of alkyl radicals and good quantitative agreement was found.
+
+Each methyl substituent adjacent to a radical site was found to reduce the rate coefficient by about a factor of two. Rate constants are predicted to decrease substantially with increasing temperature, with the more sterically hindered reactants having a more rapid decrease. The geometric mean rule was found to be in good agreement with the detailed calculations.
+
+The authors state the rate parameters are strictly applicable between 200-2000 K but that they should provide reasonable predictions up to about 2700 K.
 """,
     history = [
         ("Thu Jul 12 16:12:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006KLI/GEO1133-1147:10"""),
@@ -18872,7 +25523,7 @@ coordinate transition state theory (VRC-TST).  Results were compared with experi
 )
 
 entry(
-    index = 334,
+    index = 457,
     label = "2008DAS/BOZ3566-3575:2",
     reactant1 = 
 """
@@ -18932,7 +25583,7 @@ Pressure dependence: Rate constant is high pressure limit
 )
 
 entry(
-    index = 335,
+    index = 458,
     label = "1986GRE/COL434:2",
     reactant1 = 
 """
@@ -18996,7 +25647,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 336,
+    index = 459,
     label = "1992TSA/WAL8378-8384:8",
     reactant1 = 
 """
@@ -19061,7 +25712,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 337,
+    index = 460,
     label = "1991ROT/BAU1453-1460:3",
     reactant1 = 
 """
@@ -19124,7 +25775,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 338,
+    index = 461,
     label = "1970EAS/PHI331:3",
     reactant1 = 
 """
@@ -19187,7 +25838,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 339,
+    index = 462,
     label = "1939HAR126-146:1",
     reactant1 = 
 """
@@ -19252,7 +25903,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 340,
+    index = 463,
     label = "1968YEE/THY1296:4",
     reactant1 = 
 """
@@ -19315,7 +25966,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 341,
+    index = 464,
     label = "1967LEG/THY2504-2509:2",
     reactant1 = 
 """
@@ -19380,7 +26031,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 342,
+    index = 465,
     label = "1967HUG/PHI894-897:3",
     reactant1 = 
 """
@@ -19444,7 +26095,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 343,
+    index = 466,
     label = "1973TSA929:7",
     reactant1 = 
 """
@@ -19510,7 +26161,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 344,
+    index = 467,
     label = "1978TSA687:6",
     reactant1 = 
 """
@@ -19575,7 +26226,73 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 345,
+    index = 468,
+    label = "1994YU/LIN9571-9576:1",
+    reactant1 = 
+"""
+1   C 0 {2,B} {3,B}
+2   C 0 {1,B} {4,B}
+3   C 0 {1,B} {5,B}
+4   C 0 {2,B} {6,B}
+5   C 0 {3,B} {6,B}
+6 * C 1 {4,B} {5,B}
+""",
+    reactant2 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {5,B}
+3    C 0 {1,B} {6,B}
+4    C 0 {5,B} {6,B}
+5    C 0 {2,B} {4,B}
+6    C 0 {3,B} {4,B}
+7 *2 O 0 {1,S} {8,S}
+8    O 1 {7,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (6.03e+06,"m^3/(mol*s)","*|/",1.2),
+        n = 0,
+        Ea = (1.339,"kJ/mol","+|-",0.549),
+        T0 = (1,"K"),
+        Tmin = (297,"K"),
+        Tmax = (473,"K"),
+        Pmin = (2666,"Pa"),
+        Pmax = (10700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Yu, T.", "Lin, M.C."],
+        title = u'Kinetics of the C6H5 + O2 reaction at low temperatures',
+        journal = "J. Am. Chem. Soc.",
+        volume = "116",
+        pages = """9571-9576""",
+        year = "1994",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1994YU/LIN9571-9576:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011168
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011168/rk00000002.xml
+Uncertainty: 1.2
+Bath gas: Ar
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Wed Aug 01 12:23:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994YU/LIN9571-9576:1"""),
+    ],
+)
+
+entry(
+    index = 469,
     label = "1989SUR/KAF1423-1429:5",
     reactant1 = 
 """
@@ -19639,7 +26356,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 346,
+    index = 470,
     label = "1977COL/ZAB161:1",
     reactant1 = 
 """
@@ -19704,7 +26421,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 347,
+    index = 471,
     label = "1990ENG/KRE155-160:1",
     reactant1 = 
 """
@@ -19771,7 +26488,137 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 348,
+    index = 472,
+    label = "1996LAY/BOZ6543-6554:4",
+    reactant1 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    reactant2 = 
+"""
+1   C 0 {2,S} {3,S} {7,S}
+2 * C 1 {1,S} {4,S}
+3   C 0 {1,S} {5,D}
+4   C 0 {2,S} {6,D}
+5   C 0 {3,D} {6,S}
+6   C 0 {4,D} {5,S}
+7   O 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S} {8,S}
+2 *2 C 0 {1,S} {4,S} {7,S}
+3    C 0 {1,S} {5,D}
+4    C 0 {2,S} {6,D}
+5    C 0 {3,D} {6,S}
+6    C 0 {4,D} {5,S}
+7 *1 O 0 {2,S} {9,S}
+8    O 0 {1,S}
+9    O 1 {7,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (2.14e+09,"m^3/(mol*s)"),
+        n = -2.05,
+        Ea = (19.622,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (400,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Lay, T.H.", "Bozzelli, J.W.", "Seinfeld, J.H."],
+        title = u'Atmospheric photochemical oxidation of benzene: benzene + OH and the benzene-OH adduct (hydroxyl-2,4-cyclohexadienyl) + O2',
+        journal = "J. Phys. Chem.",
+        volume = "100",
+        pages = """6543-6554""",
+        year = "1996",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1996LAY/BOZ6543-6554:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013891
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013891/rk00000002.xml
+Bath gas: N2
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 13:27:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996LAY/BOZ6543-6554:4"""),
+    ],
+)
+
+entry(
+    index = 473,
+    label = "1996LAY/BOZ6543-6554:5",
+    reactant1 = 
+"""
+1 * O 1 {2,S}
+2   O 1 {1,S}
+""",
+    reactant2 = 
+"""
+1   C 0 {2,S} {3,S} {7,S}
+2 * C 1 {1,S} {4,S}
+3   C 0 {1,S} {5,D}
+4   C 0 {2,S} {6,D}
+5   C 0 {3,D} {6,S}
+6   C 0 {4,D} {5,S}
+7   O 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S} {8,S}
+2 *2 C 0 {1,S} {4,S} {7,S}
+3    C 0 {1,S} {5,D}
+4    C 0 {2,S} {6,D}
+5    C 0 {3,D} {6,S}
+6    C 0 {4,D} {5,S}
+7 *1 O 0 {2,S} {9,S}
+8    O 0 {1,S}
+9    O 1 {7,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (3.56e+30,"m^3/(mol*s)"),
+        n = -8.86,
+        Ea = (15.881,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (200,"K"),
+        Tmax = (400,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Lay, T.H.", "Bozzelli, J.W.", "Seinfeld, J.H."],
+        title = u'Atmospheric photochemical oxidation of benzene: benzene + OH and the benzene-OH adduct (hydroxyl-2,4-cyclohexadienyl) + O2',
+        journal = "J. Phys. Chem.",
+        volume = "100",
+        pages = """6543-6554""",
+        year = "1996",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1996LAY/BOZ6543-6554:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00013891
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013891/rk00000003.xml
+Bath gas: N2
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [
+        ("Wed Aug 01 13:28:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996LAY/BOZ6543-6554:5"""),
+    ],
+)
+
+entry(
+    index = 474,
     label = "1989SUR/KAF1423-1429:3",
     reactant1 = 
 """
@@ -19838,7 +26685,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 349,
+    index = 475,
     label = "1990BRA/HIP6305-6316:2",
     reactant1 = 
 """
@@ -19904,7 +26751,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 350,
+    index = 476,
     label = "1981ROB/STE445:1",
     reactant1 = 
 """
@@ -19970,7 +26817,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 351,
+    index = 477,
     label = "1952LEI/SZW844-847:1",
     reactant1 = 
 """
@@ -20039,7 +26886,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 352,
+    index = 478,
     label = "1990BRA/HIP6305-6316:12",
     reactant1 = 
 """
@@ -20105,7 +26952,7 @@ Analytical technique: Vis-UV absorption
 )
 
 entry(
-    index = 353,
+    index = 479,
     label = "1963EST/KER3873:3",
     reactant1 = 
 """
@@ -20173,7 +27020,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 354,
+    index = 480,
     label = "1999CAF/JOR37-42:1",
     reactant1 = 
 """
@@ -20233,7 +27080,8 @@ Experimental procedure: Stirred flow reactor(PSR etc.)
 Excitation technique: Thermal
 Time resolution: In real time
 Analytical technique: Gas chromatography
-Comments: Consistent with previous data, but slightly lower rate.
+
+Consistent with previous data, but slightly lower rate.
 """,
     history = [
         ("Thu Jul 12 16:07:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CAF/JOR37-42:1"""),
@@ -20241,7 +27089,7 @@ Comments: Consistent with previous data, but slightly lower rate.
 )
 
 entry(
-    index = 355,
+    index = 481,
     label = "1996KOR/SER253-273:1",
     reactant1 = 
 """
@@ -20310,7 +27158,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 356,
+    index = 482,
     label = "1994SER/NAC227-246:5",
     reactant1 = 
 """
@@ -20377,7 +27225,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 357,
+    index = 483,
     label = "1991SWA2157-2159:2",
     reactant1 = 
 """
@@ -20446,7 +27294,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 358,
+    index = 484,
     label = "1987BAT/ROB391:1",
     reactant1 = 
 """
@@ -20515,7 +27363,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 359,
+    index = 485,
     label = "1982BAT/ROB172:1",
     reactant1 = 
 """
@@ -20583,7 +27431,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 360,
+    index = 486,
     label = "1981ALA/SEL1036:5",
     reactant1 = 
 """
@@ -20651,7 +27499,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 361,
+    index = 487,
     label = "1979LOU/LIU2201:3",
     reactant1 = 
 """
@@ -20719,7 +27567,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 362,
+    index = 488,
     label = "1976LEW581-585:1",
     reactant1 = 
 """
@@ -20788,7 +27636,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 363,
+    index = 489,
     label = "1973PER/GOL55:1",
     reactant1 = 
 """
@@ -20857,7 +27705,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 364,
+    index = 490,
     label = "1971CAD/TRO2296:2",
     reactant1 = 
 """
@@ -20925,7 +27773,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 365,
+    index = 491,
     label = "1970RET/COU2455:1",
     reactant1 = 
 """
@@ -20993,7 +27841,7 @@ Note: Invalid activation energy uncertainty (335.073) found and ignored
 )
 
 entry(
-    index = 366,
+    index = 492,
     label = "1968SHA/PRI2721:1",
     reactant1 = 
 """
@@ -21062,7 +27910,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 367,
+    index = 493,
     label = "1965BAK/SHA6965:1",
     reactant1 = 
 """
@@ -21129,7 +27977,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 368,
+    index = 494,
     label = "1962BAT/BEN895:1",
     reactant1 = 
 """
@@ -21197,7 +28045,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 369,
+    index = 495,
     label = "1961MUL/WIL534-544:1",
     reactant1 = 
 """
@@ -21266,7 +28114,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 370,
+    index = 496,
     label = "1959BLA/KUT1462:1",
     reactant1 = 
 """
@@ -21334,7 +28182,7 @@ Analytical technique: Laser schlieren
 )
 
 entry(
-    index = 371,
+    index = 497,
     label = "1957BLA/KUT1462:1",
     reactant1 = 
 """
@@ -21402,7 +28250,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 372,
+    index = 498,
     label = "1957BIR/DAN154-164:1",
     reactant1 = 
 """
@@ -21468,7 +28316,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 373,
+    index = 499,
     label = "1954PRI/PRI1425:3",
     reactant1 = 
 """
@@ -21534,7 +28382,7 @@ Note: Invalid activation energy uncertainty (8314.472) found and ignored
 )
 
 entry(
-    index = 374,
+    index = 500,
     label = "1952LOS/TIC907-914:1",
     reactant1 = 
 """
@@ -21602,7 +28450,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 375,
+    index = 501,
     label = "1952JAQ/ROB6005:1",
     reactant1 = 
 """
@@ -21670,7 +28518,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 376,
+    index = 502,
     label = "1952BRI/VOL25:1",
     reactant1 = 
 """
@@ -21739,7 +28587,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 377,
+    index = 503,
     label = "1951MUR/ROB698:1",
     reactant1 = 
 """
@@ -21807,7 +28655,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 378,
+    index = 504,
     label = "1948RAL/RUS88-94:1",
     reactant1 = 
 """
@@ -21876,7 +28724,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 379,
+    index = 505,
     label = "1986ROB/STE3224-3229:2",
     reactant1 = 
 """
@@ -21943,7 +28791,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 380,
+    index = 506,
     label = "1972TSA143:3",
     reactant1 = 
 """
@@ -22013,7 +28861,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 381,
+    index = 507,
     label = "1955REM/SZW909-913:2",
     reactant1 = 
 """
@@ -22082,7 +28930,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 382,
+    index = 508,
     label = "1987SAH/RIG2035:1",
     reactant1 = 
 """
@@ -22152,7 +29000,73 @@ Analytical technique: Electron spin resonance (ESR or EPR)
 )
 
 entry(
-    index = 383,
+    index = 509,
+    label = "1968WAL/PHI2103-2106:1",
+    reactant1 = 
+"""
+1     C 0 {3,S} {5,S} {9,S}
+2     C 0 {4,S} {6,S} {10,S}
+3     C 0 {1,S} {7,S}
+4     C 0 {2,S} {8,S}
+5     C 0 {1,S}
+6     C 0 {2,S}
+7     C 0 {3,S}
+8     C 0 {4,S}
+9  *1 O 0 {1,S} {10,S}
+10 *2 O 0 {2,S} {9,S}
+""",
+    product1 = 
+"""
+1   C 0 {2,S} {3,S} {5,S}
+2   C 0 {1,S} {4,S}
+3   C 0 {1,S}
+4   C 0 {2,S}
+5 * O 1 {1,S}
+""",
+    product2 = 
+"""
+1   C 0 {2,S} {3,S} {5,S}
+2   C 0 {1,S} {4,S}
+3   C 0 {1,S}
+4   C 0 {2,S}
+5 * O 1 {1,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.8e+15,"s^-1"),
+        n = 0,
+        Ea = (152.155,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (373,"K"),
+        Tmax = (413,"K"),
+    ),
+    reference = Article(
+        authors = ["Walker, R.F.", "Phillips, L."],
+        title = u'The kinetics of disproportionation-combination reactions between the s-butoxy-radical and nitric oxide, and of the pyrolysis of the O-O bond in di-s-butyl peroxide in the gas phase',
+        journal = "J. Chem. Soc. London A",
+        pages = """2103-2106""",
+        year = "1968",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1968WAL/PHI2103-2106:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016191
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016191/rk00000002.xml
+Bath gas: Peroxide, bis(1-methylpropyl)
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Wed Aug 01 13:30:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968WAL/PHI2103-2106:1"""),
+    ],
+)
+
+entry(
+    index = 510,
     label = "1990WAL/TSA3324:4",
     reactant1 = 
 """
@@ -22223,7 +29137,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 384,
+    index = 511,
     label = "1955REM/SZW909-913:1",
     reactant1 = 
 """
@@ -22296,7 +29210,151 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 385,
+    index = 512,
+    label = "1997PAR/LIN14-18:2",
+    reactant1 = 
+"""
+1   C 0 {2,B} {3,B}
+2   C 0 {1,B} {4,B}
+3   C 0 {1,B} {5,B}
+4   C 0 {2,B} {6,B}
+5   C 0 {3,B} {6,B}
+6 * C 1 {4,B} {5,B}
+""",
+    reactant2 = 
+"""
+1   C 0 {2,B} {3,B}
+2   C 0 {1,B} {4,B}
+3   C 0 {1,B} {5,B}
+4   C 0 {2,B} {6,B}
+5   C 0 {3,B} {6,B}
+6 * C 1 {4,B} {5,B}
+""",
+    product1 = 
+"""
+1  *1 C 0 {2,S} {3,B} {4,B}
+2  *2 C 0 {1,S} {5,B} {6,B}
+3     C 0 {1,B} {8,B}
+4     C 0 {1,B} {9,B}
+5     C 0 {2,B} {11,B}
+6     C 0 {2,B} {12,B}
+7     C 0 {8,B} {9,B}
+8     C 0 {3,B} {7,B}
+9     C 0 {4,B} {7,B}
+10    C 0 {11,B} {12,B}
+11    C 0 {5,B} {10,B}
+12    C 0 {6,B} {10,B}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.39e+07,"m^3/(mol*s)","+|-",1.1e+06),
+        n = 0,
+        Ea = (0.466,"kJ/mol","+|-",0.298),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (500,"K"),
+        Pmin = (6666,"Pa"),
+        Pmax = (6666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Park, J.", "Lin, M.C."],
+        title = u'Kinetics for the recombination of phenyl radicals',
+        journal = "J. Phys. Chem. A",
+        volume = "101",
+        pages = """14-18""",
+        year = "1997",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1997PAR/LIN14-18:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011156
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011156/rk00000002.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Wed Aug 01 12:21:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997PAR/LIN14-18:2"""),
+    ],
+)
+
+entry(
+    index = 513,
+    label = "1973PER/GOL55:2",
+    reactant1 = 
+"""
+1     C 0 {3,S} {5,S} {6,S} {11,S}
+2     C 0 {4,S} {7,S} {8,S} {12,S}
+3     C 0 {1,S} {9,S}
+4     C 0 {2,S} {10,S}
+5     C 0 {1,S}
+6     C 0 {1,S}
+7     C 0 {2,S}
+8     C 0 {2,S}
+9     C 0 {3,S}
+10    C 0 {4,S}
+11 *1 O 0 {1,S} {12,S}
+12 *2 O 0 {2,S} {11,S}
+""",
+    product1 = 
+"""
+1   C 0 {2,S} {3,S} {4,S} {6,S}
+2   C 0 {1,S} {5,S}
+3   C 0 {1,S}
+4   C 0 {1,S}
+5   C 0 {2,S}
+6 * O 1 {1,S}
+""",
+    product2 = 
+"""
+1   C 0 {2,S} {3,S} {4,S} {6,S}
+2   C 0 {1,S} {5,S}
+3   C 0 {1,S}
+4   C 0 {1,S}
+5   C 0 {2,S}
+6 * O 1 {1,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (6.31e+15,"s^-1","*|/",5),
+        n = 0,
+        Ea = (152.155,"kJ/mol","+|-",4.573),
+        T0 = (1,"K"),
+        Tmin = (500,"K"),
+        Tmax = (650,"K"),
+    ),
+    reference = Article(
+        authors = ["Perona, M.J.", "Golden, D.M."],
+        title = u'Very Low-Pressure Pyrolysis. VIII. The Decomposition of Di-t-Amyl Peroxide',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "5",
+        pages = """55""",
+        year = "1973",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1973PER/GOL55:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00014912
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00014912/rk00000001.xml
+Uncertainty: 5.0
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Wed Aug 01 15:06:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973PER/GOL55:2"""),
+    ],
+)
+
+entry(
+    index = 514,
     label = "1984ROS/MCM5031:2",
     reactant1 = 
 """
@@ -22371,7 +29429,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 386,
+    index = 515,
     label = "1997VAN/DOR5404-5411:1",
     reactant1 = 
 """
@@ -22447,7 +29505,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 387,
+    index = 516,
     label = "1956CLA/PRI2136-2140:4",
     reactant1 = 
 """
@@ -22523,7 +29581,7 @@ Analytical technique: Other (direct)
 )
 
 entry(
-    index = 388,
+    index = 517,
     label = "1986ROB/STE3224-3229:1",
     reactant1 = 
 """
@@ -22598,7 +29656,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 389,
+    index = 518,
     label = "1986ROB/STE3224-3229:3",
     reactant1 = 
 """
@@ -22675,7 +29733,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 390,
+    index = 519,
     label = "1995ROT/HUN1119-1122:2",
     reactant1 = 
 """

@@ -62,7 +62,10 @@ Experimental procedure: Shock tube
 Excitation technique: Thermal
 Time resolution: In both real time and by end product analysis
 Analytical technique: Other (IR)
-Comments: Formic acid was produced via thermal (shock induced) dissociation of the dimer. Reaction of the monomer was followed by monitoring CO formation in real time via IR emission at 4.63 um and CO2 formation at 4.23 um. CO2 formation was more difficult to follow as it was produced in only about 2 to 8% of the CO. CO, CO2, and H2 products were also determined via GC analysis.
+
+Formic acid was produced via thermal (shock induced) dissociation of the dimer. Reaction of the monomer was followed by monitoring CO formation in real time via IR emission at 4.63 um and CO2 formation at 4.23 um. CO2 formation was more difficult to follow as it was produced in only about 2 to 8% of the CO. CO, CO2, and H2products were also determined via GC analysis.
+
+The precise temperature range is not reported in the paper. The listed values are approximate and were derived from the Arrhenius plots given in Figure 4 of the paper.
 """,
     history = [
         ("Fri Jul 13 08:14:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SAI/SHI5352-5357:5"""),
@@ -124,7 +127,10 @@ Experimental procedure: Shock tube
 Excitation technique: Thermal
 Time resolution: In both real time and by end product analysis
 Analytical technique: Other (IR)
-Comments: Formic acid was produced via thermal (shock induced) dissociation of the dimer. Reaction of the monomer was followed by monitoring CO formation in real time via IR emission at 4.63 um and CO2 formation at 4.23 um. CO2 formation was more difficult to follow as it was produced in only about 2 to 8% of the CO. CO, CO2, and H2 products were also determined via GC analysis.
+
+Formic acid was produced via thermal (shock induced) dissociation of the dimer. Reaction of the monomer was followed by monitoring CO formation in real time via IR emission at 4.63 um and CO2 formation at 4.23 um. CO2 formation was more difficult to follow as it was produced in only about 2 to 8% of the CO. CO, CO2, and H2 products were also determined via GC analysis.
+
+The precise temperature range is not reported in the paper. The listed values are approximate and were derived from the Arrhenius plots given in Figure 4 of the paper.
 """,
     history = [
         ("Fri Jul 13 08:14:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005SAI/SHI5352-5357:4"""),
@@ -297,7 +303,8 @@ PrIMe Reaction: r00001636
 Category: Theory
 Data type: Transition state theory
 Pressure dependence: Rate constant is high pressure limit
-Comments: Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM .
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using RRKM .
 """,
     history = [
         ("Fri Jul 13 08:14:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2007CHA/CHE6789-6797:3"""),
@@ -1215,6 +1222,140 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 21,
+    label = "1967BIG/MAY557-559:2",
+    reactant1 = 
+"""
+1  *3 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S}
+3     C 0 {1,S}
+4     C 0 {5,S}
+5     C 0 {1,S} {4,S} {7,D}
+6  *1 C 0 {1,S} {8,S} {9,D}
+7     C 0 {5,D}
+8  *2 O 0 {6,S} {10,S}
+9     O 0 {6,D}
+10 *4 H 0 {8,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D} {3,D}
+2 *2 O 0 {1,D}
+3    O 0 {1,D}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,S} {3,S} {5,S} {7,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {5,S}
+5    C 0 {1,S} {4,S} {6,D}
+6    C 0 {5,D}
+7 *4 H 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.65e+10,"s^-1"),
+        n = 0,
+        Ea = (133.863,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (447,"K"),
+        Tmax = (500,"K"),
+    ),
+    reference = Article(
+        authors = ["Bigley, D.B.", "May, R.W."],
+        title = u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids',
+        journal = "J. Chem. Soc. B",
+        pages = """557-559""",
+        year = "1967",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012640
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000001.xml
+Bath gas: CH2=C(CH3)C(CH3)2COOH
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 14:32:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:2"""),
+    ],
+)
+
+entry(
+    index = 22,
+    label = "1982ALB/BIG15:1",
+    reactant1 = 
+"""
+1  *3 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S}
+3     C 0 {1,S}
+4     C 0 {5,S}
+5     C 0 {1,S} {4,S} {7,D}
+6  *1 C 0 {1,S} {8,S} {9,D}
+7     C 0 {5,D}
+8  *2 O 0 {6,S} {10,S}
+9     O 0 {6,D}
+10 *4 H 0 {8,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D} {3,D}
+2 *2 O 0 {1,D}
+3    O 0 {1,D}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,S} {3,S} {5,S} {7,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {5,S}
+5    C 0 {1,S} {4,S} {6,D}
+6    C 0 {5,D}
+7 *4 H 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.04e+11,"s^-1"),
+        n = 0,
+        Ea = (143.009,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (550,"K"),
+        Tmax = (600,"K"),
+        Pmin = (6666,"Pa"),
+        Pmax = (66700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Al-Borno, A.", "Bigley, D.B."],
+        title = u'Studies in Decarboxylation. Par t 15. The Effects of 3-Substitution on the Rate of Decarboxylation of \u03b2\u03b2\u03c0\u03b2-Unsaturated Acids',
+        journal = "J. Chem. Soc. Perkin Trans. 2",
+        pages = """15""",
+        year = "1982",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1982ALB/BIG15:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00012640
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000002.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [
+        ("Tue Jul 24 14:39:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982ALB/BIG15:1"""),
+    ],
+)
+
+entry(
+    index = 23,
     label = "1992COL/AMO2125-2127:1",
     reactant1 = 
 """
@@ -1284,7 +1425,7 @@ Analytical technique: Mass spectrometry
 )
 
 entry(
-    index = 22,
+    index = 24,
     label = "1967BIG/MAY557-559:6",
     reactant1 = 
 """
@@ -1350,6 +1491,157 @@ Analytical technique: Gas chromatography
 """,
     history = [
         ("Fri Jul 13 08:15:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:6"""),
+    ],
+)
+
+entry(
+    index = 25,
+    label = "1997CHU/MAR121-124:2",
+    reactant1 = 
+"""
+1  *3 C 0 {2,S} {8,S} {9,S}
+2     C 0 {1,S} {3,B} {4,B}
+3     C 0 {2,B} {6,B}
+4     C 0 {2,B} {7,B}
+5     C 0 {6,B} {7,B}
+6     C 0 {3,B} {5,B}
+7     C 0 {4,B} {5,B}
+8  *1 C 0 {1,S} {10,S} {11,D}
+9     O 0 {1,S}
+10 *2 O 0 {8,S} {12,S}
+11    O 0 {8,D}
+12 *4 H 0 {10,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D} {3,D}
+2 *2 O 0 {1,D}
+3    O 0 {1,D}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,S} {8,S} {9,S}
+2    C 0 {1,S} {3,B} {4,B}
+3    C 0 {2,B} {5,B}
+4    C 0 {2,B} {6,B}
+5    C 0 {3,B} {7,B}
+6    C 0 {4,B} {7,B}
+7    C 0 {5,B} {6,B}
+8    O 0 {1,S}
+9 *4 H 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.41e+14,"s^-1","+|-",1.15e+14),
+        n = 0,
+        Ea = (202.7,"kJ/mol","+|-",4.6),
+        T0 = (1,"K"),
+        Tmin = (583,"K"),
+        Tmax = (613,"K"),
+        Pmin = (2026,"Pa"),
+        Pmax = (6946,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Chuchani, G.", "Martin, I."],
+        title = u'ELIMINATION KINETICS OF DL-MANDELIC ACID IN THE GAS PHASE',
+        journal = "J. Phys. Org. Chem.",
+        volume = "10",
+        pages = """121-124""",
+        year = "1997",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1997CHU/MAR121-124:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008130
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008130/rk00000001.xml
+Category: Experiment
+Data type: Absolute value measured directly
+Pressure dependence: None reported
+Experimental procedure: Static or low flow - Data taken vs time
+Excitation technique: Thermal
+Time resolution: By end product analysis
+Analytical technique: Pressure measurement
+
+The A-factor given in the paper (1.41E13 s-1) is one order of magnitude smaller than required to reproduce the reported rate constants, apparently due to a typographical error. The value listed here closely reproduces the actual rate data listed by the authors and our least squares analysis of their reported rate data.
+
+Kinetics were determined by following pressure vs. time. Products were determined by GC product analysis.
+
+Uncertainties are precision only and are at the 90% confidence level.
+""",
+    history = [
+        ("Fri Jul 20 17:40:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997CHU/MAR121-124:2"""),
+    ],
+)
+
+entry(
+    index = 26,
+    label = "1967BIG/MAY557-559:5",
+    reactant1 = 
+"""
+1  *3 C 0 {3,S} {4,S} {7,S} {9,S}
+2     C 0 {5,S} {7,S}
+3     C 0 {1,S}
+4     C 0 {1,S}
+5     C 0 {2,S}
+6     C 0 {8,S}
+7     C 0 {1,S} {2,S} {8,D}
+8     C 0 {6,S} {7,D}
+9  *1 C 0 {1,S} {10,S} {11,D}
+10 *2 O 0 {9,S} {12,S}
+11    O 0 {9,D}
+12 *4 H 0 {10,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D} {3,D}
+2 *2 O 0 {1,D}
+3    O 0 {1,D}
+""",
+    product2 = 
+"""
+1 *3 C 0 {3,S} {4,S} {7,S} {9,S}
+2    C 0 {5,S} {7,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6    C 0 {8,S}
+7    C 0 {1,S} {2,S} {8,D}
+8    C 0 {6,S} {7,D}
+9 *4 H 0 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.07e+11,"s^-1"),
+        n = 0,
+        Ea = (146.335,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (467,"K"),
+        Tmax = (502,"K"),
+    ),
+    reference = Article(
+        authors = ["Bigley, D.B.", "May, R.W."],
+        title = u'Studies in decarboxylation. Part IV. The effect of alkyl substituents on the rate of gas-phase decarboxylation of some \u03b2\u03b3-unsaturated acids',
+        journal = "J. Chem. Soc. B",
+        pages = """557-559""",
+        year = "1967",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015736
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015736/rk00000001.xml
+Bath gas: CH3CH=C(C2H5)C(CH3)2COOH
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 15:01:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1967BIG/MAY557-559:5"""),
     ],
 )
 

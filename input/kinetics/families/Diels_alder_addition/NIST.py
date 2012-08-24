@@ -301,7 +301,8 @@ Pressure dependence: None reported
 Excitation technique: Thermal
 Time resolution: By end product analysis
 Analytical technique: Gas chromatography
-Comments: Two experimental set-ups were used: experiments at 710-748 K and 37-53 torr were performed in a static reactor, while the shock tube methodology was used at 966-1190 K with shock pressures of about 2 atm. The rate parameters are from the literature but provide a reasonable fit to the present data.
+
+Two experimental set-ups were used: experiments at 710-748 K and 37-53 torr were performed in a static reactor, while the shock tube methodology was used at 966-1190 K with shock pressures of about 2 atm. The rate parameters are from the literature but provide a reasonable fit to the present data.
 """,
     history = [
         ("Fri Jul 13 07:33:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984LEW/BER4112:2"""),
@@ -2332,6 +2333,140 @@ Analytical technique: Gas chromatography
 
 entry(
     index = 38,
+    label = "1936KIS/LAC123-133:1",
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2 *4 C 0 {1,S} {3,S} {4,D}
+3 *5 C 0 {2,S} {5,D}
+4 *3 C 0 {2,D}
+5 *6 C 0 {3,D}
+""",
+    reactant2 = 
+"""
+1 *2 C 0 {2,D} {3,S}
+2 *1 C 0 {1,D}
+3    C 0 {1,S} {4,D}
+4    O 0 {3,D}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,S} {4,S} {8,S}
+2 *1 C 0 {1,S} {3,S}
+3 *3 C 0 {2,S} {6,S}
+4 *6 C 0 {1,S} {7,S}
+5    C 0 {6,S}
+6 *4 C 0 {3,S} {5,S} {7,D}
+7 *5 C 0 {4,S} {6,D}
+8    C 0 {1,S} {9,D}
+9    O 0 {8,D}
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1020,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (78.239,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (492,"K"),
+        Tmax = (606,"K"),
+        Pmin = (20400,"Pa"),
+        Pmax = (82700,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kistiakowsky, G.B.", "Lacher, J.R."],
+        title = u'The kinetics of some gaseous diels-alder reactions',
+        journal = "J. Am. Chem. Soc.",
+        volume = "58",
+        pages = """123-133""",
+        year = "1936",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1936KIS/LAC123-133:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00003841
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003841/rk00000001.xml
+Bath gas: CH2=CHCHO
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Tue Jul 24 15:41:23 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1936KIS/LAC123-133:1"""),
+    ],
+)
+
+entry(
+    index = 39,
+    label = "1936KIS/LAC123-133:3",
+    reactant1 = 
+"""
+1 *4 C 0 {2,S} {3,D}
+2 *5 C 0 {1,S} {4,D}
+3 *3 C 0 {1,D}
+4 *6 C 0 {2,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,D}
+3 *2 C 0 {2,D} {4,S}
+4    C 0 {3,S} {5,D}
+5    O 0 {4,D}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {5,S}
+2 *2 C 0 {1,S} {4,S} {8,S}
+3 *3 C 0 {1,S} {6,S}
+4 *6 C 0 {2,S} {7,S}
+5    C 0 {1,S}
+6 *4 C 0 {3,S} {7,D}
+7 *5 C 0 {4,S} {6,D}
+8    C 0 {2,S} {9,D}
+9    O 0 {8,D}
+""",
+    degeneracy = 16,
+    kinetics = Arrhenius(
+        A = (899,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (92.291,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (515,"K"),
+        Tmax = (572,"K"),
+        Pmin = (64500,"Pa"),
+        Pmax = (78900,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kistiakowsky, G.B.", "Lacher, J.R."],
+        title = u'The kinetics of some gaseous diels-alder reactions',
+        journal = "J. Am. Chem. Soc.",
+        volume = "58",
+        pages = """123-133""",
+        year = "1936",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1936KIS/LAC123-133:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004794
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004794/rk00000001.xml
+Bath gas: (Z)-CH3CH=CHCHO
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Tue Jul 24 15:52:38 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1936KIS/LAC123-133:3"""),
+    ],
+)
+
+entry(
+    index = 40,
     label = "1976HUY/PAT641:3",
     reactant1 = 
 """
@@ -2400,7 +2535,7 @@ Analytical technique: Pressure measurement
 )
 
 entry(
-    index = 39,
+    index = 41,
     label = "1990OND/ZIM547-550:1",
     reactant1 = 
 """
@@ -2470,7 +2605,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 40,
+    index = 42,
     label = "1990OND/ZIM547-550:2",
     reactant1 = 
 """
@@ -2540,7 +2675,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 41,
+    index = 43,
     label = "1982HUY/HUB251:1",
     reactant1 = 
 """
@@ -2609,7 +2744,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 42,
+    index = 44,
     label = "1982HUY/HUB259:1",
     reactant1 = 
 """
@@ -2679,7 +2814,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 43,
+    index = 45,
     label = "1986VAN/BOO537:7",
     reactant1 = 
 """
@@ -2748,7 +2883,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 44,
+    index = 46,
     label = "1986VAN/BOO537:8",
     reactant1 = 
 """
@@ -2817,7 +2952,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 45,
+    index = 47,
     label = "1984HUY/POP93:1",
     reactant1 = 
 """
@@ -2886,7 +3021,217 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 46,
+    index = 48,
+    label = "1982HUY/HUB259:3",
+    reactant1 = 
+"""
+1 *4 C 0 {2,S} {3,D}
+2 *5 C 0 {1,S} {4,D}
+3 *3 C 0 {1,D}
+4 *6 C 0 {2,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *1 C 0 {1,S} {5,D}
+4    C 0 {2,S} {6,D}
+5 *2 C 0 {3,D} {6,S}
+6    C 0 {4,D} {5,S}
+""",
+    product1 = 
+"""
+1  *1 C 0 {2,S} {3,S} {4,S}
+2  *2 C 0 {1,S} {5,S} {7,S}
+3     C 0 {1,S} {6,S}
+4  *3 C 0 {1,S} {8,S}
+5  *6 C 0 {2,S} {9,S}
+6     C 0 {3,S} {10,S}
+7     C 0 {2,S} {10,D}
+8  *4 C 0 {4,S} {9,D}
+9  *5 C 0 {5,S} {8,D}
+10    C 0 {6,S} {7,D}
+""",
+    degeneracy = 32,
+    kinetics = Arrhenius(
+        A = (10500,"m^3/(mol*s)","*|/",1.07),
+        n = 0,
+        Ea = (106.425,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (437,"K"),
+        Tmax = (526,"K"),
+        Pmin = (14800,"Pa"),
+        Pmax = (65300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Huybrechts, G.", "Hubin, Y.", "Narmon, M.", "Van Mele, B."],
+        title = u'Kinetics and Mechanism of the Addition of 1,3-Butadiene to Cyclohexa-1,3-diene in the Gas Phase',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "14",
+        pages = """259""",
+        year = "1982",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1982HUY/HUB259:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004737
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004737/rk00000001.xml
+Uncertainty: 1.0700001
+Bath gas: 1,3-Butadiene
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 15:48:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1982HUY/HUB259:3"""),
+    ],
+)
+
+entry(
+    index = 49,
+    label = "1987VAN/TYB1063:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,D} {3,S}
+2 *2 C 0 {1,D}
+3    C 0 {1,S} {4,D}
+4    O 0 {3,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *3 C 0 {1,S} {5,D}
+4 *6 C 0 {2,S} {6,D}
+5 *4 C 0 {3,D} {6,S}
+6 *5 C 0 {4,D} {5,S}
+""",
+    product1 = 
+"""
+1  *3 C 0 {2,S} {5,S} {7,S}
+2  *1 C 0 {1,S} {4,S} {9,S}
+3  *6 C 0 {4,S} {6,S} {8,S}
+4  *2 C 0 {2,S} {3,S}
+5     C 0 {1,S} {6,S}
+6     C 0 {3,S} {5,S}
+7  *4 C 0 {1,S} {8,D}
+8  *5 C 0 {3,S} {7,D}
+9     C 0 {2,S} {10,D}
+10    O 0 {9,D}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1020,"m^3/(mol*s)","*|/",1.07),
+        n = 0,
+        Ea = (83.976,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (379,"K"),
+        Tmax = (581,"K"),
+        Pmin = (6266,"Pa"),
+        Pmax = (26900,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Van Mele, B.", "Tybaert, C.", "Huybrechts, G."],
+        title = u'Kinetics, mechanism, and stereochemistry of Diels-Alder reactions of carbonyl-substituted ethenes with cyclohexa-1,3-diene in the gas phase',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "19",
+        pages = """1063""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987VAN/TYB1063:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00004843
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004843/rk00000002.xml
+Uncertainty: 1.0700001
+Bath gas: 1,3-Cyclohexadiene
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 16:03:55 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987VAN/TYB1063:2"""),
+    ],
+)
+
+entry(
+    index = 50,
+    label = "1987VAN/TYB1063:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,D} {3,S}
+2 *2 C 0 {1,D}
+3    C 0 {1,S} {4,D}
+4    O 0 {3,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *3 C 0 {1,S} {5,D}
+4 *6 C 0 {2,S} {6,D}
+5 *4 C 0 {3,D} {6,S}
+6 *5 C 0 {4,D} {5,S}
+""",
+    product1 = 
+"""
+1  *3 C 0 {2,S} {5,S} {7,S}
+2  *1 C 0 {1,S} {4,S} {9,S}
+3  *6 C 0 {4,S} {6,S} {8,S}
+4  *2 C 0 {2,S} {3,S}
+5     C 0 {1,S} {6,S}
+6     C 0 {3,S} {5,S}
+7  *4 C 0 {1,S} {8,D}
+8  *5 C 0 {3,S} {7,D}
+9     C 0 {2,S} {10,D}
+10    O 0 {9,D}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (603,"m^3/(mol*s)","*|/",1.07),
+        n = 0,
+        Ea = (87.302,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (379,"K"),
+        Tmax = (581,"K"),
+        Pmin = (5733,"Pa"),
+        Pmax = (26900,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Van Mele, B.", "Tybaert, C.", "Huybrechts, G."],
+        title = u'Kinetics, mechanism, and stereochemistry of Diels-Alder reactions of carbonyl-substituted ethenes with cyclohexa-1,3-diene in the gas phase',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "19",
+        pages = """1063""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987VAN/TYB1063:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016478
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016478/rk00000003.xml
+Uncertainty: 1.0700001
+Bath gas: 1,3-Cyclohexadiene
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 16:21:05 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987VAN/TYB1063:1"""),
+    ],
+)
+
+entry(
+    index = 51,
     label = "1986VAN/BOO537:5",
     reactant1 = 
 """
@@ -2957,7 +3302,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 47,
+    index = 52,
     label = "1986VAN/BOO537:6",
     reactant1 = 
 """
@@ -3028,7 +3373,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 48,
+    index = 53,
     label = "1984HUY/POP93:7",
     reactant1 = 
 """
@@ -3095,6 +3440,227 @@ Analytical technique: Gas chromatography
 """,
     history = [
         ("Fri Jul 13 07:35:36 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984HUY/POP93:7"""),
+    ],
+)
+
+entry(
+    index = 54,
+    label = "1971DEM/HUY1397:3",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *1 C 0 {1,S} {5,D}
+4    C 0 {2,S} {6,D}
+5 *2 C 0 {3,D} {6,S}
+6    C 0 {4,D} {5,S}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *3 C 0 {1,S} {5,D}
+4 *6 C 0 {2,S} {6,D}
+5 *4 C 0 {3,D} {6,S}
+6 *5 C 0 {4,D} {5,S}
+""",
+    product1 = 
+"""
+1  *1 C 0 {2,S} {3,S} {5,S}
+2  *2 C 0 {1,S} {4,S} {9,S}
+3  *3 C 0 {1,S} {6,S} {10,S}
+4  *6 C 0 {2,S} {7,S} {11,S}
+5     C 0 {1,S} {8,S}
+6     C 0 {3,S} {7,S}
+7     C 0 {4,S} {6,S}
+8     C 0 {5,S} {12,S}
+9     C 0 {2,S} {12,D}
+10 *4 C 0 {3,S} {11,D}
+11 *5 C 0 {4,S} {10,D}
+12    C 0 {8,S} {9,D}
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (933,"m^3/(mol*s)","*|/",1.78),
+        n = 0,
+        Ea = (104.762,"kJ/mol","+|-",2.104),
+        T0 = (1,"K"),
+        Tmin = (471,"K"),
+        Tmax = (639,"K"),
+        Pmin = (3333,"Pa"),
+        Pmax = (84000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["De Mare, G.R.", "Huybrechts, G.", "Toth, M.", "Goldfinger, P."],
+        title = u'Thermal Dimerization of 1,3-Cyclohexadiene in the Gas Phase',
+        journal = "Trans. Faraday Soc.",
+        volume = "67",
+        pages = """1397""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971DEM/HUY1397:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00007902
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007902/rk00000001.xml
+Uncertainty: 1.78
+Bath gas: 1,3-Cyclohexadiene
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 16:10:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971DEM/HUY1397:3"""),
+    ],
+)
+
+entry(
+    index = 55,
+    label = "1971DEM/HUY1397:4",
+    reactant1 = 
+"""
+1  *1 C 0 {2,S} {3,S} {5,S}
+2  *2 C 0 {1,S} {4,S} {9,S}
+3  *3 C 0 {1,S} {7,S} {11,S}
+4  *6 C 0 {2,S} {6,S} {10,S}
+5     C 0 {1,S} {8,S}
+6     C 0 {4,S} {7,S}
+7     C 0 {3,S} {6,S}
+8     C 0 {5,S} {12,S}
+9     C 0 {2,S} {12,D}
+10 *5 C 0 {4,S} {11,D}
+11 *4 C 0 {3,S} {10,D}
+12    C 0 {8,S} {9,D}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *1 C 0 {1,S} {5,D}
+4    C 0 {2,S} {6,D}
+5 *2 C 0 {3,D} {6,S}
+6    C 0 {4,D} {5,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *3 C 0 {1,S} {5,D}
+4 *6 C 0 {2,S} {6,D}
+5 *4 C 0 {3,D} {6,S}
+6 *5 C 0 {4,D} {5,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.51e+14,"s^-1","*|/",5),
+        n = 0,
+        Ea = (217.839,"kJ/mol","+|-",8.73),
+        T0 = (1,"K"),
+        Tmin = (554,"K"),
+        Tmax = (631,"K"),
+        Pmin = (533,"Pa"),
+        Pmax = (2666,"Pa"),
+    ),
+    reference = Article(
+        authors = ["De Mare, G.R.", "Huybrechts, G.", "Toth, M.", "Goldfinger, P."],
+        title = u'Thermal Dimerization of 1,3-Cyclohexadiene in the Gas Phase',
+        journal = "Trans. Faraday Soc.",
+        volume = "67",
+        pages = """1397""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971DEM/HUY1397:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008812
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008812/rk00000001.xml
+Uncertainty: 5.0
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 16:13:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971DEM/HUY1397:4"""),
+    ],
+)
+
+entry(
+    index = 56,
+    label = "1971DEM/HUY1397:2",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *1 C 0 {1,S} {5,D}
+4    C 0 {2,S} {6,D}
+5 *2 C 0 {3,D} {6,S}
+6    C 0 {4,D} {5,S}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *3 C 0 {1,S} {5,D}
+4 *6 C 0 {2,S} {6,D}
+5 *4 C 0 {3,D} {6,S}
+6 *5 C 0 {4,D} {5,S}
+""",
+    product1 = 
+"""
+1  *1 C 0 {2,S} {3,S} {5,S}
+2  *2 C 0 {1,S} {4,S} {9,S}
+3  *3 C 0 {1,S} {6,S} {10,S}
+4  *6 C 0 {2,S} {7,S} {11,S}
+5     C 0 {1,S} {8,S}
+6     C 0 {3,S} {7,S}
+7     C 0 {4,S} {6,S}
+8     C 0 {5,S} {12,S}
+9     C 0 {2,S} {12,D}
+10 *4 C 0 {3,S} {11,D}
+11 *5 C 0 {4,S} {10,D}
+12    C 0 {8,S} {9,D}
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (1200,"m^3/(mol*s)","*|/",1.78),
+        n = 0,
+        Ea = (101.437,"kJ/mol","+|-",2.037),
+        T0 = (1,"K"),
+        Tmin = (471,"K"),
+        Tmax = (639,"K"),
+        Pmin = (3333,"Pa"),
+        Pmax = (84000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["De Mare, G.R.", "Huybrechts, G.", "Toth, M.", "Goldfinger, P."],
+        title = u'Thermal Dimerization of 1,3-Cyclohexadiene in the Gas Phase',
+        journal = "Trans. Faraday Soc.",
+        volume = "67",
+        pages = """1397""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971DEM/HUY1397:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008812
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008812/rk00000002.xml
+Uncertainty: 1.78
+Bath gas: 1,3-Cyclohexadiene
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 16:17:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971DEM/HUY1397:2"""),
     ],
 )
 

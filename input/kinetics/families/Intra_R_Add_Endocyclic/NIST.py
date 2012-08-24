@@ -152,7 +152,8 @@ PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate expressions derived from transition states from CBS-Q calculations of Sumathi.
+
+Rate expressions derived from transition states from CBS-Q calculations of Sumathi.
 """,
     history = [
         ("Fri Jul 13 08:17:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:1"""),
@@ -259,7 +260,8 @@ PrIMe Reaction: r00013098
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
 Pressure dependence: Rate constant is high pressure limit
-Comments: The log(k∞/k) values at various pressures were presented in four parameters form
+
+The log(k∞/k) values at various pressures were presented in four parameters form
 """,
     history = [
         ("Fri Jul 13 08:17:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006TSA8501-8509:11"""),
@@ -311,7 +313,8 @@ PrIMe Reaction: r00013098
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate expressions derived from transition states from CBS-Q calculations of Sumathi.
+
+Rate expressions derived from transition states from CBS-Q calculations of Sumathi.
 """,
     history = [
         ("Fri Jul 13 08:17:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:2"""),
@@ -474,7 +477,8 @@ PrIMe Reaction: r00013098
 Category: Theory
 Data type: Estimated: thermochemical, kinetic, or other
 Pressure dependence: Rate constant is high pressure limit
-Comments: The log(k∞/k) values at various pressures were presented in four parameters form
+
+The log(k∞/k) values at various pressures were presented in four parameters form
 """,
     history = [
         ("Fri Jul 13 08:17:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006TSA8501-8509:9"""),
@@ -528,7 +532,8 @@ PrIMe Reaction: r00015692
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is high pressure limit
-Comments: Rate expressions derived from transition states from B3LYP/cc-pVTZ calculations of Sumathi.
+
+Rate expressions derived from transition states from B3LYP/cc-pVTZ calculations of Sumathi.
 """,
     history = [
         ("Fri Jul 13 08:17:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MAT/GRE95-119:3"""),
@@ -588,6 +593,67 @@ Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Fri Jul 13 08:17:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995HAN/WAL1431-1438:13"""),
+    ],
+)
+
+entry(
+    index = 12,
+    label = "2003TOK/LIN11397-11408:16",
+    reactant1 = 
+"""
+1 *3 C 0 {2,S} {4,S}
+2 *1 C 0 {1,S} {3,B} {5,B}
+3 *4 C 0 {2,B} {4,S} {6,B}
+4 *2 C 1 {1,S} {3,S}
+5    C 0 {2,B} {8,B}
+6    C 0 {3,B} {7,B}
+7    C 0 {6,B} {8,B}
+8    C 0 {5,B} {7,B}
+""",
+    product1 = 
+"""
+1 *4 C 0 {2,B} {4,S} {8,B}
+2    C 0 {1,B} {3,B}
+3    C 0 {2,B} {5,B}
+4 *2 C 0 {1,S} {7,D}
+5    C 0 {3,B} {6,B}
+6    C 0 {5,B} {8,B}
+7 *3 C 0 {4,D}
+8 *1 C 1 {1,B} {6,B}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (8.91e+12,"s^-1"),
+        n = 0.26,
+        Ea = (158.072,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (250,"K"),
+        Tmax = (2000,"K"),
+        Pmin = (101000,"Pa"),
+        Pmax = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Tokmakov, I.V.", "Lin, M.C."],
+        title = u'Reaction of phenyl radicals with acetylene: Quantum chemical investigation of the mechanism and master equation analysis of the kinetics',
+        journal = "J. Am. Chem. Soc.",
+        volume = "125",
+        pages = """11397-11408""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003TOK/LIN11397-11408:16",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00017190
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017190/rk00000001.xml
+Category: Theory
+Data type: Ab initio
+
+Ab initio study of reaction pathways for C6H4 (phenyl) plus C2H2 (acetylene). Used G2M(CC5) method (see paper for details). Calculated many different reaction pathways and intermediates. Only a few of the more important ones are abstracted here. Rate expressions for different pressures for some of the channels are also given in the paper. See paper for further details. Used NIST ChemRate program to calculated rate expressions from ab initio transition states. In paper also provide DfHo heats of formation for many of the intermediates.
+""",
+    history = [
+        ("Tue Jul 24 15:30:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003TOK/LIN11397-11408:16"""),
     ],
 )
 

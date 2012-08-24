@@ -113,7 +113,8 @@ PrIMe Reaction: r00010601
 Category: Theory
 Data type: Ab initio
 Pressure dependence: Rate constant is pressure independent
-Comments: The authors calculated  the potential energy surface at several levels of theory, up to UQCISD(T)/aug-cc-pVTZ//UQCISD/cc-pVDZ, and then used canonical variational transition-state theory to calculate the rate constants.  At the highest level of theory employed the rate constants are within a factor of about 2.5 of the experimental values, while deviations are much larger (ca 10x at low and high T) at lower levels of theory.  The kinetic isotope effect is also calculated.
+
+The authors calculated the potential energy surface at several levels of theory, up to UQCISD(T)/aug-cc-pVTZ//UQCISD/cc-pVDZ, and then used canonical variational transition-state theory to calculate the rate constants. At the highest level of theory employed the rate constants are within a factor of about 2.5 of the experimental values, while deviations are much larger (ca 10x at low and high T) at lower levels of theory. The kinetic isotope effect is also calculated.
 """,
     history = [
         ("Thu Jul 12 23:16:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/ZHA9474-9480:1"""),
@@ -2765,7 +2766,15 @@ PrIMe Reaction: r00013871
 Bath gas: He
 Category: Theory
 Data type: Ab initio
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
+
+Employed earlier quantum calculations (see references below) combined with master equation modeling to provide rate expressions for many reactions in this system. Only a few rate expressions are abstracted here.
+
+Miller and Klippenstein, IJCK 33, 654 (2001)
+DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
     history = [
         ("Thu Jul 12 23:19:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:2"""),
@@ -2775,66 +2784,6 @@ Comments: Rate constants are based in part on master equation simulations employ
 
 entry(
     index = 48,
-    label = "2001MIL/KLI654-668:2",
-    reactant1 = 
-"""
-1 *1 O 1 {2,S}
-2    O 1 {1,S}
-""",
-    reactant2 = 
-"""
-1 *2 C 0 {2,S} {3,S}
-2 *3 C 1 {1,S}
-3 *4 H 0 {1,S}
-""",
-    product1 = 
-"""
-1 *2 C 0 {2,D}
-2 *3 C 0 {1,D}
-""",
-    product2 = 
-"""
-1 *1 O 0 {2,S} {3,S}
-2    O 1 {1,S}
-3 *4 H 0 {1,S}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (4.13e+06,"m^3/(mol*s)"),
-        n = 6.53,
-        Ea = (-3.489,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (298,"K"),
-        Tmax = (2000,"K"),
-        Pmin = (133,"Pa"),
-        Pmax = (133000,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Miller, J.A.", "Klippenstein, S.J."],
-        title = u'The Reaction Between Ethyl and Molecular Oxygen II. Further Analysis',
-        journal = "Int J. Chem. Kinet.",
-        volume = "33",
-        pages = """654-668""",
-        year = "2001",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2001MIL/KLI654-668:2",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Transition state theory""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00013871
-Category: Theory
-Data type: Transition state theory
-Pressure dependence: Rate constant is pressure dependent
-Comments: Potential energy diagrams for various product channels have been computed.Three different regimes of the reaction (low-temperature, transition, and high-temperature) have been discussed in terms of eigenvectors and eigenvalues of the transition matrix of the master equation.Low pressure rate constant; k(0) = 2.34E-17 T^(1.09) exp(1975/RT) cm^3 / molecule s with F(cent)=0.45.
-""",
-    history = [
-        ("Thu Jul 12 23:19:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001MIL/KLI654-668:2"""),
-    ],
-)
-
-entry(
-    index = 49,
     label = "1980BAL/PIC2374:1",
     reactant1 = 
 """
@@ -2893,7 +2842,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 50,
+    index = 49,
     label = "1971COO/WIL757:4",
     reactant1 = 
 """
@@ -2948,6 +2897,64 @@ Data type: Estimated: thermochemical, kinetic, or other
 """,
     history = [
         ("Thu Jul 12 23:19:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971COO/WIL757:4"""),
+    ],
+)
+
+entry(
+    index = 50,
+    label = "1986TSA/HAM1087:209",
+    reactant1 = 
+"""
+1 *1 O 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,D}
+2 *2 C 0 {1,D} {3,S} {4,S}
+3 *3 O 1 {2,S}
+4 *4 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,D}
+2 *2 C 0 {1,D} {3,D}
+3 *3 O 0 {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.21e+07,"m^3/(mol*s)","*|/",3),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W.", "Hampson, R.F."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "15",
+        pages = """1087""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:209",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00017303
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017303/rk00000001.xml
+Uncertainty: 3.0
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Wed Jul 25 13:45:47 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:209"""),
     ],
 )
 
@@ -3366,7 +3373,8 @@ u"""
 PrIMe Reaction: r00010133
 Category: Theory
 Data type: Transition state theory
-Comments: Reaction potential energy surface was studied using quantum chemistry, product pathways were analyzed, and rate constants were calculated using QRRK / master equation method. Rate constants were calculated for a wide range of temperatures; Arrhenius expressions for the pressure of 1 atm are given in a table in the Supplementary Data (online).
+
+Reaction potential energy surface was studied using quantum chemistry, product pathways were analyzed, and rate constants were calculated using QRRK / master equation method. Rate constants were calculated for a wide range of temperatures; Arrhenius expressions for the pressure of 1 atm are given in a table in the Supplementary Data (online).
 """,
     history = [
         ("Thu Jul 12 23:12:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2005LEE/BOZ1015-1022:3"""),
@@ -3666,7 +3674,15 @@ PrIMe Reaction: r00010209
 Bath gas: He
 Category: Theory
 Data type: Ab initio
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
+
+Employed earlier quantum calculations (see references below) combined with master equation modeling to provide rate expressions for many reactions in this system. Only a few rate expressions are abstracted here.
+
+Miller and Klippenstein, IJCK 33, 654 (2001)
+DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
     history = [
         ("Thu Jul 12 23:13:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:5"""),
@@ -3845,7 +3861,15 @@ PrIMe Reaction: r00010543
 Bath gas: He
 Category: Theory
 Data type: Ab initio
-Comments: Rate constants are based in part on master equation simulations employing transition states from quantum calculations.  This work is a combined experimental, theory, and modeling study.  Compared OH profiles with those from modeling.  Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Rate constants are based in part on master equation simulations employing transition states from quantum calculations. This work is a combined experimental, theory, and modeling study. Compared OH profiles with those from modeling. Model describes HO2 profiles well, but is not as good for OH profiles.
+
+Static cell (low flow), 296-700 K, He buffer typically 3.65E17 cm-3 (10-20 torr), O2 typically 6.3E15 cm-3. Radicals produced by RH + Cl -> R + HCl, where Cl produced by 193 nm excimer laser photolysis of CCl3F. OH detected using LIF at 281.996 nm.
+
+Employed earlier quantum calculations (see references below) combined with master equation modeling to provide rate expressions for many reactions in this system. Only a few rate expressions are abstracted here.
+
+Miller and Klippenstein, IJCK 33, 654 (2001)
+DeSain et al, Farad. Disc. 119, 101 (2001)
 """,
     history = [
         ("Thu Jul 12 23:13:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003DES/KLI4415-4427:8"""),
@@ -4572,6 +4596,66 @@ Data type: Estimated: thermochemical, kinetic, or other
 
 entry(
     index = 78,
+    label = "1991TSA221-273:108",
+    reactant1 = 
+"""
+1 *2 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *3 C 1 {1,S}
+4 *4 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *1 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {3,D}
+2 *3 C 0 {3,D}
+3 *2 C 0 {1,D} {2,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.21e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (56.705,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part V. Propene',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "20",
+        pages = """221-273""",
+        year = "1991",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:108",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010133
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010133/rk00000002.xml
+Rate constant is an upper limit.
+Category: Review
+Data type: Extensive literature review
+""",
+    history = [
+        ("Tue Jul 24 17:09:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:108"""),
+    ],
+)
+
+entry(
+    index = 79,
     label = "1979EVA/WAL1458:2",
     reactant1 = 
 """
@@ -4638,7 +4722,7 @@ Note: Invalid activation energy uncertainty (9.977) found and ignored
 )
 
 entry(
-    index = 79,
+    index = 80,
     label = "1991TSA221-273:78",
     reactant1 = 
 """
@@ -4700,7 +4784,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 80,
+    index = 81,
     label = "1996BAR/MAR829-847:8",
     reactant1 = 
 """
@@ -4763,7 +4847,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 81,
+    index = 82,
     label = "1991TSA221-273:80",
     reactant1 = 
 """
@@ -4825,7 +4909,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 82,
+    index = 83,
     label = "1991TSA221-273:81",
     reactant1 = 
 """
@@ -4887,7 +4971,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 83,
+    index = 84,
     label = "1996BAR/MAR829-847:9",
     reactant1 = 
 """
@@ -4950,7 +5034,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 84,
+    index = 85,
     label = "1991TSA221-273:21",
     reactant1 = 
 """
@@ -5012,7 +5096,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 85,
+    index = 86,
     label = "1973SIM/BAC2934:1",
     reactant1 = 
 """
@@ -5077,7 +5161,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 86,
+    index = 87,
     label = "1996BAR/MAR829-847:5",
     reactant1 = 
 """
@@ -5140,7 +5224,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 87,
+    index = 88,
     label = "1970BAC409-418:4",
     reactant1 = 
 """
@@ -5200,7 +5284,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 88,
+    index = 89,
     label = "1991TSA221-273:87",
     reactant1 = 
 """
@@ -5262,7 +5346,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 89,
+    index = 90,
     label = "1991TSA221-273:88",
     reactant1 = 
 """
@@ -5324,7 +5408,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 90,
+    index = 91,
     label = "1996BAR/MAR829-847:10",
     reactant1 = 
 """
@@ -5387,7 +5471,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 91,
+    index = 92,
     label = "1991TSA221-273:22",
     reactant1 = 
 """
@@ -5449,7 +5533,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 92,
+    index = 93,
     label = "1996BAR/MAR829-847:6",
     reactant1 = 
 """
@@ -5512,7 +5596,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 93,
+    index = 94,
     label = "2001ATK/BAU1-56:132",
     reactant1 = 
 """
@@ -5572,7 +5656,7 @@ Pressure dependence: None reported
 )
 
 entry(
-    index = 94,
+    index = 95,
     label = "1997ATK/BAU521-1011:289",
     reactant1 = 
 """
@@ -5632,7 +5716,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 95,
+    index = 96,
     label = "1997ATK99-111:3",
     reactant1 = 
 """
@@ -5692,7 +5776,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 96,
+    index = 97,
     label = "1992ATK/BAU1125-1568:275",
     reactant1 = 
 """
@@ -5752,7 +5836,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 97,
+    index = 98,
     label = "1989ATK/BAU881-1097:193",
     reactant1 = 
 """
@@ -5813,7 +5897,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 98,
+    index = 99,
     label = "1988HEI177:17",
     reactant1 = 
 """
@@ -5874,7 +5958,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 99,
+    index = 100,
     label = "1985BAL/NEL323:5",
     reactant1 = 
 """
@@ -5940,7 +6024,7 @@ Analytical technique: Laser induced fluorescence
 )
 
 entry(
-    index = 100,
+    index = 101,
     label = "1978BAK/BAL2229:6",
     reactant1 = 
 """
@@ -6004,7 +6088,7 @@ Data type: Estimated: thermochemical, kinetic, or other
 )
 
 entry(
-    index = 101,
+    index = 102,
     label = "2001ATK/BAU1-56:131",
     reactant1 = 
 """
@@ -6065,7 +6149,7 @@ Note: Invalid activation energy uncertainty (4.157) found and ignored
 )
 
 entry(
-    index = 102,
+    index = 103,
     label = "1988HEI177:19",
     reactant1 = 
 """
@@ -6126,7 +6210,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 103,
+    index = 104,
     label = "1985ZAB/HEI477:2",
     reactant1 = 
 """
@@ -6192,7 +6276,71 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 104,
+    index = 105,
+    label = "1978ARR/KIR3016:1",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *1 C 1 {1,S} {2,S}
+""",
+    reactant2 = 
+"""
+1 *2 C 0 {3,S} {4,S}
+2    C 0 {3,S}
+3 *3 C 1 {1,S} {2,S}
+4 *4 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 0 {1,S} {3,D}
+3 *2 C 0 {2,D}
+""",
+    degeneracy = 6,
+    kinetics = Arrhenius(
+        A = (3.01e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (-0.208,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (301,"K"),
+        Tmax = (424,"K"),
+    ),
+    reference = Article(
+        authors = ["Arrowsmith, P.", "Kirsch, L.J."],
+        title = u'Mutual Reaction of Isopropyl Radicals',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "74",
+        pages = """3016""",
+        year = "1978",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1978ARR/KIR3016:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00010168
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010168/rk00000013.xml
+Bath gas: N2
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Tue Jul 24 17:13:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978ARR/KIR3016:1"""),
+    ],
+)
+
+entry(
+    index = 106,
     label = "1991TSA221-273:74",
     reactant1 = 
 """
@@ -6256,7 +6404,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 105,
+    index = 107,
     label = "1991TSA221-273:75",
     reactant1 = 
 """
@@ -6320,7 +6468,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 106,
+    index = 108,
     label = "1991TSA221-273:103",
     reactant1 = 
 """
@@ -6384,7 +6532,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 107,
+    index = 109,
     label = "1991TSA221-273:104",
     reactant1 = 
 """
@@ -6448,7 +6596,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 108,
+    index = 110,
     label = "2001ATK/BAU1-56:133",
     reactant1 = 
 """
@@ -6510,7 +6658,7 @@ Pressure dependence: None reported
 )
 
 entry(
-    index = 109,
+    index = 111,
     label = "1988HEI177:20",
     reactant1 = 
 """
@@ -6573,7 +6721,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 110,
+    index = 112,
     label = "1987MOR/HEI2641:1",
     reactant1 = 
 """
@@ -6641,7 +6789,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 111,
+    index = 113,
     label = "1988HEI177:21",
     reactant1 = 
 """
@@ -6704,7 +6852,7 @@ Data type: Extensive literature review
 )
 
 entry(
-    index = 112,
+    index = 114,
     label = "1985ZAB/HEI503:2",
     reactant1 = 
 """
@@ -6772,7 +6920,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 113,
+    index = 115,
     label = "1994DOU/PER1597-1627:2",
     reactant1 = 
 """
@@ -6842,7 +6990,7 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 114,
+    index = 116,
     label = "1994DOU/PER1597-1627:3",
     reactant1 = 
 """
@@ -6908,6 +7056,75 @@ Analytical technique: Gas chromatography
 """,
     history = [
         ("Thu Jul 12 23:09:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DOU/PER1597-1627:3"""),
+    ],
+)
+
+entry(
+    index = 117,
+    label = "1960KER/TRO1602:5",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4 *1 C 1 {2,S}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *2 C 0 {1,S} {4,S} {5,S}
+3    C 0 {1,S}
+4 *3 C 1 {2,S}
+5 *4 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4 *1 C 0 {2,S} {5,S}
+5 *4 H 0 {4,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *2 C 0 {1,S} {4,D}
+4 *3 C 0 {3,D}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.98e+08,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (5.438,"kJ/mol"),
+        T0 = (1,"K"),
+        Tmin = (334,"K"),
+        Tmax = (502,"K"),
+        Pmin = (1600,"Pa"),
+        Pmax = (2800,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Kerr, J.A.", "Trotman-Dickenson, A.F."],
+        title = u'The reactions of alkyl radicals. Part III. n-Butyl radicals from the photolysis of n-Valeraldehyde',
+        journal = "J. Chem. Soc.",
+        pages = """1602""",
+        year = "1960",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1960KER/TRO1602:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00011216
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011216/rk00000001.xml
+Bath gas: n-C4H9CHO
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Direct photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Jul 24 17:23:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1960KER/TRO1602:5"""),
     ],
 )
 

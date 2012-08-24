@@ -18,9 +18,9 @@ def main():
 
     for family in db.families.values():
         for depository in family.depositories:
-            if 'NIST' in depository.name or 'PrIMe' in depository.name:
+            if 'NIST' in depository.name:
                 entries = depository.entries.values()
-                entries.sort(key=lambda entry: entry.index)
+                entries.sort(key=lambda entry: sum([1 for r in entry.item.reactants for a in r.atoms if a.isNonHydrogen()]))
                 print 'Rewriting {0}...'.format(depository.name),
                 rewrite(entries, depository.name)
                 print 'done.'
@@ -41,7 +41,10 @@ def rewrite(entries, name):
                           'longDesc = u"""\n\n"""\n'
                           'recommended = False\n\n')
 
+    index = 0
     for entry in entries:
+        index += 1
+        entry.index = index
         saveEntry(open(file, 'a'), entry)
 
 
