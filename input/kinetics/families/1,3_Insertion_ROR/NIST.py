@@ -1,0 +1,2556 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
+name = "1,3_Insertion_ROR/NIST"
+shortDesc = u""
+longDesc = u"""
+
+"""
+recommended = False
+
+entry(
+    index = 1,
+    label = "2004LI/KAZ7671-7680:4",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 O 0 {1,S}
+4 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D}
+2 *1 C 0 {1,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (8.8e+25,"s^-1"),
+        n = (-3.68,""),
+        Ea = (296.22,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (300.0,"K"),
+        Tmax = (2500.0,"K"),
+        Pmin = (101000.0,"Pa"),
+        Pmax = (101000.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
+        title = u'Experimental and numerical studies of ethanol decomposition reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "108",
+        pages = """7671-7680""",
+        year = "2004",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:4",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001601
+Category: Review
+Data type: Experimental value and limited review
+Pressure dependence: Rate constant is pressure dependent
+Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+""",
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:4')],
+)
+
+entry(
+    index = 2,
+    label = "2004LI/KAZ7671-7680:6",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 O 0 {1,S}
+4 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D}
+2 *1 C 0 {1,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (2660000000.0,"s^-1"),
+        n = (1.25,""),
+        Ea = (263.111,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (300.0,"K"),
+        Tmax = (2500.0,"K"),
+        Pmin = (10100000.0,"Pa"),
+        Pmax = (10100000.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
+        title = u'Experimental and numerical studies of ethanol decomposition reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "108",
+        pages = """7671-7680""",
+        year = "2004",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:6",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001601
+Category: Review
+Data type: Experimental value and limited review
+Pressure dependence: Rate constant is pressure dependent
+Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+""",
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:6')],
+)
+
+entry(
+    index = 3,
+    label = "2004LI/KAZ7671-7680:7",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 O 0 {1,S}
+4 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D}
+2 *1 C 0 {1,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (132000.0,"s^-1"),
+        n = (2.52,""),
+        Ea = (253.841,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (300.0,"K"),
+        Tmax = (2500.0,"K"),
+    ),
+    reference = Article(
+        authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
+        title = u'Experimental and numerical studies of ethanol decomposition reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "108",
+        pages = """7671-7680""",
+        year = "2004",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:7",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001601
+Category: Review
+Data type: Experimental value and limited review
+Pressure dependence: Rate constant is high pressure limit
+Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+""",
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:7')],
+)
+
+entry(
+    index = 4,
+    label = "2004LI/KAZ7671-7680:5",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 O 0 {1,S}
+4 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D}
+2 *1 C 0 {1,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (1.41e+16,"s^-1"),
+        n = (-0.74,""),
+        Ea = (277.055,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (300.0,"K"),
+        Tmax = (2500.0,"K"),
+        Pmin = (1010000.0,"Pa"),
+        Pmax = (1010000.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
+        title = u'Experimental and numerical studies of ethanol decomposition reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "108",
+        pages = """7671-7680""",
+        year = "2004",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:5",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001601
+Category: Review
+Data type: Experimental value and limited review
+Pressure dependence: Rate constant is pressure dependent
+Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+""",
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:5')],
+)
+
+entry(
+    index = 5,
+    label = "2004LI/KAZ7671-7680:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 O 0 {1,S}
+4 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D}
+2 *1 C 0 {1,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (3.77e+43,"s^-1"),
+        n = (-11.92,""),
+        Ea = (262.13,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (300.0,"K"),
+        Tmax = (2500.0,"K"),
+        Pmin = (1.01e-05,"Pa"),
+        Pmax = (1.01e-05,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
+        title = u'Experimental and numerical studies of ethanol decomposition reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "108",
+        pages = """7671-7680""",
+        year = "2004",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:1",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001601
+Category: Review
+Data type: Experimental value and limited review
+Pressure dependence: Rate constant is pressure dependent
+Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+""",
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:1')],
+)
+
+entry(
+    index = 6,
+    label = "2004LI/KAZ7671-7680:2",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 O 0 {1,S}
+4 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D}
+2 *1 C 0 {1,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (1.61e+45,"s^-1"),
+        n = (-9.69,""),
+        Ea = (325.919,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (300.0,"K"),
+        Tmax = (2500.0,"K"),
+        Pmin = (1013.0,"Pa"),
+        Pmax = (1013.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
+        title = u'Experimental and numerical studies of ethanol decomposition reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "108",
+        pages = """7671-7680""",
+        year = "2004",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:2",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001601
+Category: Review
+Data type: Experimental value and limited review
+Pressure dependence: Rate constant is pressure dependent
+Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+""",
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:2')],
+)
+
+entry(
+    index = 7,
+    label = "2004LI/KAZ7671-7680:3",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 O 0 {1,S}
+4 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D}
+2 *1 C 0 {1,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (4.27e+36,"s^-1"),
+        n = (-6.95,""),
+        Ea = (314.744,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (300.0,"K"),
+        Tmax = (2500.0,"K"),
+        Pmin = (10100.0,"Pa"),
+        Pmax = (10100.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
+        title = u'Experimental and numerical studies of ethanol decomposition reactions',
+        journal = "J. Phys. Chem. A",
+        volume = "108",
+        pages = """7671-7680""",
+        year = "2004",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:3",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Experimental value and limited review""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001601
+Category: Review
+Data type: Experimental value and limited review
+Pressure dependence: Rate constant is pressure dependent
+Comments: The authors used a variable pressure flow reactor to study ethanol pyrolysis at 1.7-3.0 atm and 1045-1080 K in the presence of radical chain inhibitor. Rate constants were presented graphically but the numerical results from the experiments were NOT reported.
+""",
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LI/KAZ7671-7680:3')],
+)
+
+entry(
+    index = 8,
+    label = "2004TSA456-465:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 O 0 {1,S}
+4 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D}
+2 *1 C 0 {1,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (4900000000.0,"s^-1"),
+        n = (1.36,""),
+        Ea = (275.159,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (800.0,"K"),
+        Tmax = (1800.0,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Energy transfer effects during the multichannel decomposition of ethanol',
+        journal = "Inter. J. Chem. Kinet.",
+        volume = "36",
+        pages = """456-465""",
+        year = "2004",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004TSA456-465:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001601
+Category: Experiment
+Data type: RRK(M) extrapolation
+Pressure dependence: Rate constant is high pressure limit
+Comments: Results are based on a review and analysis of the literature data. The article discusses the multi-channel nature of ethanol decomposition and difficulties associated with expressing the rate constants in a convenient analytical form over extended temperature and pressure ranges.
+""",
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004TSA456-465:1')],
+)
+
+entry(
+    index = 9,
+    label = "1999MAR183-220:3",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 O 0 {1,S}
+4 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D}
+2 *1 C 0 {1,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (2.79e+13,"s^-1"),
+        n = (0.09,""),
+        Ea = (276.872,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (293.0,"K"),
+        Tmax = (750.0,"K"),
+    ),
+    reference = Article(
+        authors = ["Marinov, N.M."],
+        title = u'A detailed chemical kinetic model for high temperature ethanol oxidation',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "31",
+        pages = """183-220""",
+        year = "1999",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1999MAR183-220:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001601
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001601/rk00000001.xml
+Category: Experiment
+Data type: RRK(M) extrapolation
+""",
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999MAR183-220:3')],
+)
+
+entry(
+    index = 10,
+    label = "2003RAJ/RED9782-9793:7",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3 *4 O 0 {1,S}
+4 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D}
+2 *1 C 0 {1,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (7.67e+14,"s^-1"),
+        n = (0.0,""),
+        Ea = (270.328,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (1000.0,"K"),
+        Tmax = (1200.0,"K"),
+    ),
+    reference = Article(
+        authors = ["Rajakumar, B.", "Reddy, K.P.J.", "Arunan, E."],
+        title = u'Thermal decomposition of 2-fluoroethanol:  Single pulse shock tube and ab initio studies',
+        journal = "J. Phys. Chem. A",
+        volume = "107",
+        pages = """9782-9793""",
+        year = "2003",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2003RAJ/RED9782-9793:7",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001601
+Category: Theory
+Data type: Ab initio
+Comments: NOTE This is speculative reaction to explain formation of C2H4.  Authors imply that C-OH bond fission channel (with identical rate expression) may be more likely.
+""",
+    history = [('Fri Jul 13 08:15:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003RAJ/RED9782-9793:7')],
+)
+
+entry(
+    index = 11,
+    label = "1984MAC/DOO525:4",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {4,S}
+2 *2 C 0 {1,S} {3,S} {5,D}
+3 *4 O 0 {2,S}
+4 *3 H 0 {1,S}
+5    O 0 {2,D}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 C 0 {1,D} {3,D}
+3    O 0 {2,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (5.25e+12,"s^-1"),
+        n = (0.0,""),
+        Ea = (295.164,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (1300.0,"K"),
+        Tmax = (1950.0,"K"),
+        Pmin = (101000.0,"Pa"),
+        Pmax = (101000.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Mackie, J.C.", "Doolan, K.R."],
+        title = u'High-temperature kinetics of thermal decomposition of acetic acid and its products',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "16",
+        pages = """525""",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984MAC/DOO525:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001646
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:15:44 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984MAC/DOO525:4')],
+)
+
+entry(
+    index = 12,
+    label = "1984MAC/DOO525:3",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {4,S}
+2 *2 C 0 {1,S} {3,S} {5,D}
+3 *4 O 0 {2,S}
+4 *3 H 0 {1,S}
+5    O 0 {2,D}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 C 0 {1,D} {3,D}
+3    O 0 {2,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.26e+13,"s^-1","*|/",2.0),
+        n = (0.0,""),
+        Ea = (304.31,"kJ/mol","+|-",15.215),
+        T0 = (1.0,"K"),
+        Tmin = (1300.0,"K"),
+        Tmax = (1950.0,"K"),
+        Pmin = (101000.0,"Pa"),
+        Pmax = (101000.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Mackie, J.C.", "Doolan, K.R."],
+        title = u'High-temperature kinetics of thermal decomposition of acetic acid and its products',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "16",
+        pages = """525""",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984MAC/DOO525:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001646
+Uncertainty: 2.0
+Bath gas: Ar
+Category: Experiment
+Data type: High or low pressure extrapolation
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:15:44 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984MAC/DOO525:3')],
+)
+
+entry(
+    index = 13,
+    label = "1969BLA/JAC94-96:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {4,S}
+2 *2 C 0 {1,S} {3,S} {5,D}
+3 *4 O 0 {2,S}
+4 *3 H 0 {1,S}
+5    O 0 {2,D}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 C 0 {1,D} {3,D}
+3    O 0 {2,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (2.82e+12,"s^-1","*|/",1.91),
+        n = (0.0,""),
+        Ea = (271.883,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (873.0,"K"),
+        Tmax = (1040.0,"K"),
+        Pmin = (933.0,"Pa"),
+        Pmax = (21300.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Blake, P.G.", "Jackson, G.E."],
+        title = u'High- and low-temperature mechanisms in the thermal decomposition of acetic acid',
+        journal = "J. Chem. Soc. B",
+        pages = """94-96""",
+        year = "1969",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1969BLA/JAC94-96:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001646
+Uncertainty: 1.91
+Bath gas: CH3C(O)OH
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+Note: Invalid activation energy uncertainty (8314.472) found and ignored
+""",
+    history = [('Fri Jul 13 08:15:44 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1969BLA/JAC94-96:2')],
+)
+
+entry(
+    index = 14,
+    label = "1949BAM/DEW2877-2882:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {4,S}
+2 *2 C 0 {1,S} {3,S} {5,D}
+3 *4 O 0 {2,S}
+4 *3 H 0 {1,S}
+5    O 0 {2,D}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 C 0 {1,D} {3,D}
+3    O 0 {2,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (8.99e+12,"s^-1"),
+        n = (0.0,""),
+        Ea = (282.692,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (773.0,"K"),
+        Tmax = (1170.0,"K"),
+        Pmin = (1200.0,"Pa"),
+        Pmax = (21100.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Bamford, C.H.", "Dewar, M.J.S."],
+        title = u'608. The thermal decomposition of acetic acid',
+        journal = "J. Chem. Soc.",
+        pages = """2877-2882""",
+        year = "1949",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1949BAM/DEW2877-2882:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001646
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001646/rk00000001.xml
+Bath gas: CH3C(O)OH
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [('Fri Jul 13 08:15:44 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1949BAM/DEW2877-2882:2')],
+)
+
+entry(
+    index = 15,
+    label = "1995DUA/PAG5114-5119:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {4,S}
+2 *2 C 0 {1,S} {3,S} {5,D}
+3 *4 O 0 {2,S}
+4 *3 H 0 {1,S}
+5    O 0 {2,D}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 C 0 {1,D} {3,D}
+3    O 0 {2,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (4.47e+14,"s^-1"),
+        n = (0.0,""),
+        Ea = (334.242,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (990.0,"K"),
+        Tmax = (1010.0,"K"),
+    ),
+    reference = Article(
+        authors = ["Duan, X.", "Page, M."],
+        title = u'Theoretical investigation of competing mechanisms in the thermal unimolecular decomposition of acetic acid and the hydration reaction of ketene',
+        journal = "J. Am. Chem. Soc.",
+        volume = "117",
+        pages = """5114-5119""",
+        year = "1995",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1995DUA/PAG5114-5119:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001646
+Category: Theory
+Data type: Transition state theory
+""",
+    history = [('Fri Jul 13 08:15:44 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1995DUA/PAG5114-5119:2')],
+)
+
+entry(
+    index = 16,
+    label = "1975TRE2405:2",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2 *1 C 0 {1,S} {5,S}
+3    C 0 {1,S}
+4 *4 O 0 {1,S}
+5 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 24,
+    kinetics = Arrhenius(
+        A = (1.26e+13,"s^-1","*|/",5.0),
+        n = (0.0,""),
+        Ea = (243.614,"kJ/mol","+|-",14.633),
+        T0 = (1.0,"K"),
+        Tmin = (721.0,"K"),
+        Tmax = (801.0,"K"),
+        Pmin = (1333.0,"Pa"),
+        Pmax = (13300.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Trenwith, A.B."],
+        title = u'Thermal Decomposition of Isopropanol',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "71",
+        pages = """2405""",
+        year = "1975",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1975TRE2405:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001741
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001741/rk00000002.xml
+Uncertainty: 5.0
+Bath gas: iso-C3H7OH
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:15:55 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975TRE2405:2')],
+)
+
+entry(
+    index = 17,
+    label = "2002BUI/ZHU11188-11195:6",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2 *1 C 0 {1,S} {5,S}
+3    C 0 {1,S}
+4 *4 O 0 {1,S}
+5 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 24,
+    kinetics = Arrhenius(
+        A = (1.6e+51,"s^-1"),
+        n = (-11.46,""),
+        Ea = (336.096,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (500.0,"K"),
+        Tmax = (2500.0,"K"),
+        Pmin = (6666.0,"Pa"),
+        Pmax = (6666.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."],
+        title = u'Thermal Decomposition of Iso-Propanol:  First-Principles Prediction of Total and Product-Branching Rate Constants',
+        journal = "J. Chem. Phys.",
+        volume = "117",
+        pages = """11188-11195""",
+        year = "2002",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:6",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001741
+Bath gas: Ar
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is pressure dependent
+Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+""",
+    history = [('Fri Jul 13 08:15:55 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:6')],
+)
+
+entry(
+    index = 18,
+    label = "2002BUI/ZHU11188-11195:7",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2 *1 C 0 {1,S} {5,S}
+3    C 0 {1,S}
+4 *4 O 0 {1,S}
+5 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 24,
+    kinetics = Arrhenius(
+        A = (6.1e+43,"s^-1"),
+        n = (-9.13,""),
+        Ea = (325.811,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (500.0,"K"),
+        Tmax = (2500.0,"K"),
+        Pmin = (101000.0,"Pa"),
+        Pmax = (101000.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."],
+        title = u'Thermal Decomposition of Iso-Propanol:  First-Principles Prediction of Total and Product-Branching Rate Constants',
+        journal = "J. Chem. Phys.",
+        volume = "117",
+        pages = """11188-11195""",
+        year = "2002",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:7",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001741
+Bath gas: Ar
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is pressure dependent
+Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+""",
+    history = [('Fri Jul 13 08:15:55 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:7')],
+)
+
+entry(
+    index = 19,
+    label = "2002BUI/ZHU11188-11195:8",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2 *1 C 0 {1,S} {5,S}
+3    C 0 {1,S}
+4 *4 O 0 {1,S}
+5 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 24,
+    kinetics = Arrhenius(
+        A = (2000000.0,"s^-1"),
+        n = (2.12,""),
+        Ea = (254.98,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (500.0,"K"),
+        Tmax = (2500.0,"K"),
+    ),
+    reference = Article(
+        authors = ["Bui, B.H.", "Zhu, R.S.", "Lin, M.C."],
+        title = u'Thermal Decomposition of Iso-Propanol:  First-Principles Prediction of Total and Product-Branching Rate Constants',
+        journal = "J. Chem. Phys.",
+        volume = "117",
+        pages = """11188-11195""",
+        year = "2002",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:8",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Ab initio""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001741
+Bath gas: Ar
+Category: Theory
+Data type: Ab initio
+Pressure dependence: Rate constant is high pressure limit
+Comments: The authors studied the unimolecular decomposition of iso-C3H7OH with a modified GAUSSIAN-2 method. Six low-lying product channels were identified. Elimination of water via a four-member transition state is dominant below 760 Torr over the temperature range 500?500 K. At higher pressures and over 1200 K, the cleavage of a C-C bond is predicted to be dominant. Rates of C-C bond fission were in reasonable accord with experiments while the water elimination channel was somewhat lower than experiment.
+""",
+    history = [('Fri Jul 13 08:15:55 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2002BUI/ZHU11188-11195:8')],
+)
+
+entry(
+    index = 20,
+    label = "1978FOU/MAR132:1",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {5,S}
+2    C 0 {4,S} {5,S}
+3 *1 C 0 {1,S} {6,S}
+4    C 0 {2,S}
+5 *4 O 0 {1,S} {2,S}
+6 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D}
+2 *1 C 0 {1,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *4 O 0 {1,S} {4,S}
+4 *3 H 0 {3,S}
+""",
+    degeneracy = 24,
+    kinetics = Arrhenius(
+        A = (1e+13,"s^-1"),
+        n = (0.0,""),
+        Ea = (260.243,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (763.0,"K"),
+        Tmax = (798.0,"K"),
+        Pmin = (6666.0,"Pa"),
+        Pmax = (13300.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Foucaut, J.-F.", "Martin, R."],
+        title = u"No. 18. - Etude analytique et cinetique de la pyrolyse de l'ether ethylique vers 500 \xb0C et a faible avancement",
+        journal = "J. Chim. Phys.",
+        volume = "75",
+        pages = """132""",
+        year = "1978",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1978FOU/MAR132:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001557
+Bath gas: (C2H5)2O
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:15:32 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978FOU/MAR132:1')],
+)
+
+entry(
+    index = 21,
+    label = "1975SER/HUH120-123:1",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {5,S}
+2    C 0 {4,S} {5,S}
+3 *1 C 0 {1,S} {6,S}
+4    C 0 {2,S}
+5 *4 O 0 {1,S} {2,S}
+6 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D}
+2 *1 C 0 {1,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *4 O 0 {1,S} {4,S}
+4 *3 H 0 {3,S}
+""",
+    degeneracy = 24,
+    kinetics = Arrhenius(
+        A = (7.94e+13,"s^-1"),
+        n = (0.0,""),
+        Ea = (276.04,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (783.0,"K"),
+        Tmax = (823.0,"K"),
+        Pmin = (13300.0,"Pa"),
+        Pmax = (40000.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Seres, I.", "Huhn, P."],
+        title = u'A dietil-eter termikus bomlasa, III.',
+        journal = "Magy. Kem. Foly.",
+        volume = "81",
+        pages = """120-123""",
+        year = "1975",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1975SER/HUH120-123:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001557
+Bath gas: (C2H5)2O
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:15:32 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1975SER/HUH120-123:1')],
+)
+
+entry(
+    index = 22,
+    label = "1964LAI/MCK517-526:1",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {5,S}
+2    C 0 {4,S} {5,S}
+3 *1 C 0 {1,S} {6,S}
+4    C 0 {2,S}
+5 *4 O 0 {1,S} {2,S}
+6 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D}
+2 *1 C 0 {1,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *4 O 0 {1,S} {4,S}
+4 *3 H 0 {3,S}
+""",
+    degeneracy = 24,
+    kinetics = Arrhenius(
+        A = (2.75e+18,"s^-1"),
+        n = (0.0,""),
+        Ea = (350.871,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (833.0,"K"),
+        Tmax = (913.0,"K"),
+        Pmin = (1333.0,"Pa"),
+        Pmax = (48000.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Laidler, K.J.", "McKenney, D.J."],
+        title = u'Kinetics and mechanisms of the pyrolysis of diethyl ether. II. The reaction inhibited by nitric oxide',
+        journal = "Proc. R. Soc. London",
+        volume = "278",
+        pages = """517-526""",
+        year = "1964",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1964LAI/MCK517-526:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001557
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001557/rk00000001.xml
+Bath gas: (C2H5)2O
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+""",
+    history = [('Fri Jul 13 08:15:32 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964LAI/MCK517-526:1')],
+)
+
+entry(
+    index = 23,
+    label = "1979NEW/ONE1167:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *1 C 0 {1,S} {6,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *4 O 0 {1,S}
+6 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 36,
+    kinetics = Arrhenius(
+        A = (7.76e+14,"s^-1"),
+        n = (0.0,""),
+        Ea = (275.209,"kJ/mol","+|-",13.802),
+        T0 = (1.0,"K"),
+        Tmin = (1020.0,"K"),
+        Tmax = (1200.0,"K"),
+        Pmin = (520000.0,"Pa"),
+        Pmax = (533000.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Newman, C.G.", "O'Neal, H.E.", "Ring, M.A.", "Leska, F.", "Shipley, N."],
+        title = u'Kinetics and mechanism of the silane decomposition',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "11",
+        pages = """1167""",
+        year = "1979",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1979NEW/ONE1167:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00003587
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:16:05 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1979NEW/ONE1167:1')],
+)
+
+entry(
+    index = 24,
+    label = "1974LEW/KEI4398:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *1 C 0 {1,S} {6,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *4 O 0 {1,S}
+6 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 36,
+    kinetics = Arrhenius(
+        A = (3.98e+14,"s^-1"),
+        n = (0.0,""),
+        Ea = (276.872,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (920.0,"K"),
+        Tmax = (1180.0,"K"),
+        Pmin = (49300.0,"Pa"),
+        Pmax = (208000.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Lewis, D.", "Keil, M.", "Sarr, M."],
+        title = u'Gas Phase Thermal Decomposition of tert-Butyl Alcohol',
+        journal = "J. Am. Chem. Soc.",
+        volume = "96",
+        pages = """4398""",
+        year = "1974",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974LEW/KEI4398:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00003587
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:16:05 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974LEW/KEI4398:1')],
+)
+
+entry(
+    index = 25,
+    label = "1971GON/LEW103-123:3",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *1 C 0 {1,S} {6,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *4 O 0 {1,S}
+6 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 36,
+    kinetics = Arrhenius(
+        A = (250000.0,"s^-1"),
+        n = (0.0,""),
+        Ea = (125.549,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (753.0,"K"),
+        Tmax = (833.0,"K"),
+    ),
+    reference = Article(
+        authors = ["Gonzalez, M.G.", "Lew, L.", "Cunningham, R.E."],
+        title = u'Determinacion de la Cinetica de Descomposicion Termica de Alcoholes e Hidrocarburos Mediante un Reactor Pulso',
+        journal = "Lab. Ensayo Mater. Invest. Tecnol. Prov. Buenos Aires Publ. Ser. 2",
+        pages = """103-123""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971GON/LEW103-123:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00003587
+Bath gas: tert-C4H9OH
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:16:05 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971GON/LEW103-123:3')],
+)
+
+entry(
+    index = 26,
+    label = "1971DOR/MCG2526:2",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *1 C 0 {1,S} {6,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *4 O 0 {1,S}
+6 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 36,
+    kinetics = Arrhenius(
+        A = (2.24e+13,"s^-1","*|/",1.58),
+        n = (0.0,""),
+        Ea = (252.76,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (935.0,"K"),
+        Tmax = (1400.0,"K"),
+        Pmin = (13700.0,"Pa"),
+        Pmax = (34500.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Dorko, E.A.", "McGhee, D.B.", "Painter, C.E.", "Caponecchi, A.J.", "Crossley, R.W."],
+        title = u'Shock Tube Isomerization of Cyclopropane',
+        journal = "J. Phys. Chem.",
+        volume = "75",
+        pages = """2526""",
+        year = "1971",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1971DOR/MCG2526:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00003587
+Uncertainty: 1.58
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:16:05 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1971DOR/MCG2526:2')],
+)
+
+entry(
+    index = 27,
+    label = "1964TSA1498-1505:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *1 C 0 {1,S} {6,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *4 O 0 {1,S}
+6 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 36,
+    kinetics = Arrhenius(
+        A = (2.51e+13,"s^-1"),
+        n = (0.0,""),
+        Ea = (257.749,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (1050.0,"K"),
+        Tmax = (1300.0,"K"),
+        Pmin = (10700.0,"Pa"),
+        Pmax = (46700.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Thermal decomposition of some tert-butyl compounds at elevated temperatures',
+        journal = "J. Chem. Phys.",
+        volume = "40",
+        pages = """1498-1505""",
+        year = "1964",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1964TSA1498-1505:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00003587
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:16:05 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1964TSA1498-1505:1')],
+)
+
+entry(
+    index = 28,
+    label = "1959BAR947-951:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *1 C 0 {1,S} {6,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *4 O 0 {1,S}
+6 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 36,
+    kinetics = Arrhenius(
+        A = (3.24e+11,"s^-1","*|/",2.8199999),
+        n = (0.0,""),
+        Ea = (227.817,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (760.0,"K"),
+        Tmax = (893.0,"K"),
+        Pmin = (5866.0,"Pa"),
+        Pmax = (41100.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Barnard, J.A."],
+        title = u'The pyrolysis of tert-butanol',
+        journal = "Trans. Faraday Soc.",
+        volume = "55",
+        pages = """947-951""",
+        year = "1959",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1959BAR947-951:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00003587
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003587/rk00000002.xml
+Uncertainty: 2.8199999
+Bath gas: tert-C4H9OH
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+Note: Invalid activation energy uncertainty (8314.472) found and ignored
+""",
+    history = [('Fri Jul 13 08:16:05 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1959BAR947-951:1')],
+)
+
+entry(
+    index = 29,
+    label = "1973TRE1737:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {5,S}
+2 *1 C 0 {1,S} {6,S}
+3    C 0 {1,S} {4,D}
+4    C 0 {3,D}
+5 *4 O 0 {1,S}
+6 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,S} {3,D}
+2    C 0 {1,S} {4,D}
+3 *1 C 0 {1,D}
+4    C 0 {2,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 12,
+    kinetics = Arrhenius(
+        A = (7.94e+12,"s^-1","*|/",3.1600001),
+        n = (0.0,""),
+        Ea = (232.805,"kJ/mol","+|-",6.992),
+        T0 = (1.0,"K"),
+        Tmin = (773.0,"K"),
+        Tmax = (834.0,"K"),
+        Pmin = (667.0,"Pa"),
+        Pmax = (13300.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Trenwith, A.B."],
+        title = u'Dissociation of 3-Hydroxybut-1-ene and the Resonance Energy of the Hydroxyallyl Radical',
+        journal = "J. Chem. Soc. Faraday Trans. 1",
+        volume = "69",
+        pages = """1737""",
+        year = "1973",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1973TRE1737:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008094
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008094/rk00000001.xml
+Uncertainty: 3.1600001
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:16:33 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973TRE1737:1')],
+)
+
+entry(
+    index = 30,
+    label = "1992ROT/CHU909-915:4",
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {4,S} {6,S}
+2 *2 C 0 {1,S} {5,S}
+3    C 0 {4,S}
+4    C 0 {1,S} {3,S} {7,D}
+5 *4 O 0 {2,S}
+6 *3 H 0 {1,S}
+7    O 0 {4,D}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,S} {5,D}
+3 *1 C 0 {2,S} {4,D}
+4 *2 C 0 {3,D}
+5    O 0 {2,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (2.24e+12,"s^-1","*|/",3.3900001),
+        n = (0.0,""),
+        Ea = (155.481,"kJ/mol","+|-",4.673),
+        T0 = (1.0,"K"),
+        Tmin = (493.0,"K"),
+        Tmax = (530.0,"K"),
+        Pmin = (2800.0,"Pa"),
+        Pmax = (20300.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Rotinov, A.", "Chuchani, G.", "Machado, R.A.", "Rivas, C."],
+        title = u'The retro-aldol mechanism in the pyrolysis kinetics of primary, secondary, and tertiary \u03b2-hydroxy ketones in the gas phase',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "24",
+        pages = """909-915""",
+        year = "1992",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1992ROT/CHU909-915:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00007803
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007803/rk00000001.xml
+Uncertainty: 3.3900001
+Bath gas: Toluene
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [('Fri Jul 13 08:16:26 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992ROT/CHU909-915:4')],
+)
+
+entry(
+    index = 31,
+    label = "1987BRO/BAR19:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {6,S}
+2 *1 C 0 {1,S} {7,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {6,S}
+6 *4 O 0 {1,S} {5,S}
+7 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *4 O 0 {1,S} {3,S}
+3 *3 H 0 {2,S}
+""",
+    degeneracy = 36,
+    kinetics = Arrhenius(
+        A = (7.94e+13,"s^-1"),
+        n = (0.0,""),
+        Ea = (246.94,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (700.0,"K"),
+        Tmax = (761.0,"K"),
+        Pmin = (6666.0,"Pa"),
+        Pmax = (20000.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Brocard, J.C.", "Baronnet, F."],
+        title = u'Effets de parois dans la pyrolyse du methyl tert-butyl ether (MTBE)',
+        journal = "J. Chim. Phys. Phys. Chim. Biol.",
+        volume = "84",
+        pages = """19""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987BRO/BAR19:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00009888
+Bath gas: tert-C4H9OCH3
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:16:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987BRO/BAR19:1')],
+)
+
+entry(
+    index = 32,
+    label = "1980BRO/BAR321:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {6,S}
+2 *1 C 0 {1,S} {7,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {6,S}
+6 *4 O 0 {1,S} {5,S}
+7 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *4 O 0 {1,S} {3,S}
+3 *3 H 0 {2,S}
+""",
+    degeneracy = 36,
+    kinetics = Arrhenius(
+        A = (1e+14,"s^-1"),
+        n = (0.0,""),
+        Ea = (249.434,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (623.0,"K"),
+        Tmax = (763.0,"K"),
+        Pmin = (6666.0,"Pa"),
+        Pmax = (26700.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Brocard, J.C.", "Baronnet, F."],
+        title = u'Pyrolysis of methyl tert-butyl ether',
+        journal = "Oxid. Commun.",
+        volume = "1",
+        pages = """321""",
+        year = "1980",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1980BRO/BAR321:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00009888
+Bath gas: tert-C4H9OCH3
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:16:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1980BRO/BAR321:1')],
+)
+
+entry(
+    index = 33,
+    label = "1974CHO/GOL631:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {6,S}
+2 *1 C 0 {1,S} {7,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {6,S}
+6 *4 O 0 {1,S} {5,S}
+7 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *4 O 0 {1,S} {3,S}
+3 *3 H 0 {2,S}
+""",
+    degeneracy = 36,
+    kinetics = Arrhenius(
+        A = (7.94e+13,"s^-1"),
+        n = (0.0,""),
+        Ea = (246.94,"kJ/mol","+|-",4.939),
+        T0 = (1.0,"K"),
+        Tmin = (888.0,"K"),
+        Tmax = (1160.0,"K"),
+    ),
+    reference = Article(
+        authors = ["Choo, K-Y.", "Golden, D.M.", "Benson, S.W."],
+        title = u'Very Low-Pressure Pyrolysis (VLPP) of t-Butylmethyl Ether',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "6",
+        pages = """631""",
+        year = "1974",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1974CHO/GOL631:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00009888
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Mass spectrometry
+""",
+    history = [('Fri Jul 13 08:16:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1974CHO/GOL631:1')],
+)
+
+entry(
+    index = 34,
+    label = "1968DAL/WEN2711-2716:1",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {6,S}
+2 *1 C 0 {1,S} {7,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {6,S}
+6 *4 O 0 {1,S} {5,S}
+7 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *4 O 0 {1,S} {3,S}
+3 *3 H 0 {2,S}
+""",
+    degeneracy = 36,
+    kinetics = Arrhenius(
+        A = (2.23e+14,"s^-1"),
+        n = (0.0,""),
+        Ea = (255.254,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (706.0,"K"),
+        Tmax = (768.0,"K"),
+    ),
+    reference = Article(
+        authors = ["Daly, N.J.", "Wentrup, C."],
+        title = u'The thermal decomposition of t-butyl methyl ether',
+        journal = "Aust. J. Chem.",
+        volume = "21",
+        pages = """2711-2716""",
+        year = "1968",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1968DAL/WEN2711-2716:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00009888
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009888/rk00000002.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:16:39 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968DAL/WEN2711-2716:1')],
+)
+
+entry(
+    index = 35,
+    label = "1966DAL/STI239-250:1",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {4,S} {7,S}
+2    C 0 {5,S} {6,S} {7,S}
+3 *1 C 0 {1,S} {8,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6    C 0 {2,S}
+7 *4 O 0 {1,S} {2,S}
+8 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *4 O 0 {1,S} {5,S}
+5 *3 H 0 {4,S}
+""",
+    degeneracy = 48,
+    kinetics = Arrhenius(
+        A = (4.17e+14,"s^-1"),
+        n = (0.0,""),
+        Ea = (266.063,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (696.0,"K"),
+        Tmax = (760.0,"K"),
+        Pmin = (30800.0,"Pa"),
+        Pmax = (52300.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Daly, N.J.", "Stimson, V.R."],
+        title = u'The thermal decomposition of diisopropyl ether',
+        journal = "Aust. J. Chem.",
+        volume = "19",
+        pages = """239-250""",
+        year = "1966",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1966DAL/STI239-250:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00005036
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005036/rk00000001.xml
+Bath gas: (iso-C3H7)2O
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:16:19 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1966DAL/STI239-250:1')],
+)
+
+entry(
+    index = 36,
+    label = "1997HER/MAN5494-5499:5",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {6,S}
+2    C 0 {4,S} {7,S}
+3 *1 C 0 {1,S} {8,S}
+4    C 0 {2,S}
+5    C 0 {6,S} {7,S}
+6 *4 O 0 {1,S} {5,S}
+7    O 0 {2,S} {5,S}
+8 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D}
+2 *1 C 0 {1,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {4,S}
+2    C 0 {1,S}
+3    C 0 {4,S} {5,S}
+4    O 0 {1,S} {3,S}
+5 *4 O 0 {3,S} {6,S}
+6 *3 H 0 {5,S}
+""",
+    degeneracy = 24,
+    kinetics = Arrhenius(
+        A = (1.17e+15,"s^-1","*|/",2.8199999),
+        n = (0.0,""),
+        Ea = (286.849,"kJ/mol","+|-",8.647),
+        T0 = (1.0,"K"),
+        Tmin = (1150.0,"K"),
+        Tmax = (1260.0,"K"),
+        Pmin = (200000.0,"Pa"),
+        Pmax = (400000.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Herzler, J.", "Manion, J.A.", "Tsang, W."],
+        title = u'Single-pulse shock tube studies of the decomposition of ethoxy compounds',
+        journal = "J. Phys. Chem. A",
+        volume = "101",
+        pages = """5494-5499""",
+        year = "1997",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1997HER/MAN5494-5499:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00006952
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006952/rk00000001.xml
+Uncertainty: 2.8199999
+Bath gas: CH2(OC2H5)2
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:16:21 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997HER/MAN5494-5499:5')],
+)
+
+entry(
+    index = 37,
+    label = "1976TSA173:9",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {7,S}
+2    C 0 {1,S} {5,S} {6,S}
+3 *1 C 0 {1,S} {8,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6    C 0 {2,S}
+7 *4 O 0 {1,S}
+8 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {5,S}
+5 *2 C 0 {1,S} {4,S} {6,D}
+6 *1 C 0 {5,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 24,
+    kinetics = Arrhenius(
+        A = (1.48e+14,"s^-1"),
+        n = (0.0,""),
+        Ea = (268.557,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (1080.0,"K"),
+        Tmax = (1160.0,"K"),
+        Pmin = (53300.0,"Pa"),
+        Pmax = (66700.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Thermal Stability of Alcohols',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "8",
+        pages = """173""",
+        year = "1976",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1976TSA173:9",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008052
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008052/rk00000001.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:16:29 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976TSA173:9')],
+)
+
+entry(
+    index = 38,
+    label = "1976TSA173:10",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {7,S}
+2 *1 C 0 {1,S} {5,S} {6,S} {8,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6    C 0 {2,S}
+7 *4 O 0 {1,S}
+8 *3 H 0 {2,S}
+""",
+    product1 = 
+"""
+1    C 0 {5,S}
+2    C 0 {5,S}
+3    C 0 {6,S}
+4    C 0 {6,S}
+5 *2 C 0 {1,S} {2,S} {6,D}
+6 *1 C 0 {3,S} {4,S} {5,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (4.57e+13,"s^-1"),
+        n = (0.0,""),
+        Ea = (271.883,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (1080.0,"K"),
+        Tmax = (1160.0,"K"),
+        Pmin = (53300.0,"Pa"),
+        Pmax = (66700.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Thermal Stability of Alcohols',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "8",
+        pages = """173""",
+        year = "1976",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1976TSA173:10",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008053
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008053/rk00000001.xml
+Bath gas: Ar
+Category: Experiment
+Data type: Derived from fitting to a complex mechanism
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:16:31 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1976TSA173:10')],
+)
+
+entry(
+    index = 39,
+    label = "2008YAS/KUR192-197:1",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {4,S} {5,S} {7,S}
+2    C 0 {6,S} {7,S}
+3 *1 C 0 {1,S} {8,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+7 *4 O 0 {1,S} {2,S}
+8 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *4 O 0 {1,S} {4,S}
+4 *3 H 0 {3,S}
+""",
+    degeneracy = 36,
+    kinetics = Arrhenius(
+        A = (1.7e+14,"s^-1"),
+        n = (0.0,""),
+        Ea = (254.0,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (1000.0,"K"),
+        Tmax = (1500.0,"K"),
+        Pmin = (101000.0,"Pa"),
+        Pmax = (912000.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Yasunaga, K.", "Kuraguchi, Y.", "Hidaka, Y.", "Takahashi, O.", "Yamada, H.", "Koike, T."],
+        title = u'Kinetic and modeling studies on ETBE pyrolysis behind reflected shock waves',
+        journal = "Chem. Phys. Lett.",
+        volume = "451",
+        pages = """192-197""",
+        year = "2008",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2008YAS/KUR192-197:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008622
+Category: Experiment
+Data type: Absolute value measured directly
+Pressure dependence: Rate constant is high pressure limit
+Experimental procedure: Shock tube
+Time resolution: In real time
+Analytical technique: Vis-UV absorption
+""",
+    history = [('Fri Jul 13 08:16:36 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008YAS/KUR192-197:1')],
+)
+
+entry(
+    index = 40,
+    label = "1968DAL/WEN1535:1",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {4,S} {5,S} {7,S}
+2    C 0 {6,S} {7,S}
+3 *1 C 0 {1,S} {8,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+7 *4 O 0 {1,S} {2,S}
+8 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *4 O 0 {1,S} {4,S}
+4 *3 H 0 {3,S}
+""",
+    degeneracy = 36,
+    kinetics = Arrhenius(
+        A = (1.15e+14,"s^-1","*|/",1.4),
+        n = (0.0,""),
+        Ea = (248.603,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (706.0,"K"),
+        Tmax = (757.0,"K"),
+    ),
+    reference = Article(
+        authors = ["Daly, N.J.", "Wentrup, C."],
+        title = u'The thermal decomposition of t-butyl ethyl ether',
+        journal = "Aust. J. Chem.",
+        volume = "21",
+        pages = """1535""",
+        year = "1968",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1968DAL/WEN1535:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00008622
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008622/rk00000003.xml
+Uncertainty: 1.4
+Bath gas: tert-C4H9OC2H5
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Pressure measurement
+Note: Invalid activation energy uncertainty (8314.472) found and ignored
+""",
+    history = [('Fri Jul 13 08:16:36 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968DAL/WEN1535:1')],
+)
+
+entry(
+    index = 41,
+    label = "1970DAL/ZIO541:1",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {4,S} {5,S} {8,S}
+2    C 0 {6,S} {7,S} {8,S}
+3 *1 C 0 {1,S} {9,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6    C 0 {2,S}
+7    C 0 {2,S}
+8 *4 O 0 {1,S} {2,S}
+9 *3 H 0 {3,S}
+""",
+    product1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *1 C 0 {3,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *4 O 0 {1,S} {5,S}
+5 *3 H 0 {4,S}
+""",
+    degeneracy = 36,
+    kinetics = Arrhenius(
+        A = (2.34e+13,"s^-1"),
+        n = (0.0,""),
+        Ea = (231.974,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (683.0,"K"),
+        Tmax = (748.0,"K"),
+        Pmin = (2440.0,"Pa"),
+        Pmax = (3133.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Daly, N.J.", "Ziolkowski, F.J."],
+        title = u'The thermal decomposition of t-butyl isopropyl ether',
+        journal = "Aust. J. Chem.",
+        volume = "23",
+        pages = """541""",
+        year = "1970",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1970DAL/ZIO541:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015783
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015783/rk00000001.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+Note: Invalid activation energy uncertainty (8314.472) found and ignored
+""",
+    history = [('Fri Jul 13 08:16:51 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970DAL/ZIO541:1')],
+)
+
+entry(
+    index = 42,
+    label = "1970DAL/ZIO541:2",
+    reactant1 = 
+"""
+1    C 0 {3,S} {4,S} {5,S} {8,S}
+2 *2 C 0 {6,S} {7,S} {8,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6 *1 C 0 {2,S} {9,S}
+7    C 0 {2,S}
+8 *4 O 0 {1,S} {2,S}
+9 *3 H 0 {6,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *4 O 0 {1,S} {6,S}
+6 *3 H 0 {5,S}
+""",
+    degeneracy = 24,
+    kinetics = Arrhenius(
+        A = (9.12e+12,"s^-1"),
+        n = (0.0,""),
+        Ea = (236.131,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (683.0,"K"),
+        Tmax = (748.0,"K"),
+        Pmin = (2440.0,"Pa"),
+        Pmax = (3133.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Daly, N.J.", "Ziolkowski, F.J."],
+        title = u'The thermal decomposition of t-butyl isopropyl ether',
+        journal = "Aust. J. Chem.",
+        volume = "23",
+        pages = """541""",
+        year = "1970",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1970DAL/ZIO541:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00015784
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015784/rk00000001.xml
+Bath gas: He
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+Note: Invalid activation energy uncertainty (8314.472) found and ignored
+""",
+    history = [('Fri Jul 13 08:16:54 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1970DAL/ZIO541:2')],
+)
+
+entry(
+    index = 43,
+    label = "1996CHU/ROT787-794:5",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {6,S}
+2 *1 C 0 {1,S} {8,S}
+3    C 0 {1,S}
+4    C 0 {5,S} {6,S}
+5    C 0 {4,S} {7,S} {9,D}
+6 *4 O 0 {1,S} {4,S}
+7    O 0 {5,S}
+8 *3 H 0 {2,S}
+9    O 0 {5,D}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *1 C 0 {2,D}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S} {5,D}
+3 *4 O 0 {1,S} {6,S}
+4    O 0 {2,S}
+5    O 0 {2,D}
+6 *3 H 0 {3,S}
+""",
+    degeneracy = 24,
+    kinetics = Arrhenius(
+        A = (1.12e+12,"s^-1","*|/",2.29),
+        n = (0.0,""),
+        Ea = (195.39,"kJ/mol","+|-",3.908),
+        T0 = (1.0,"K"),
+        Tmin = (350.0,"K"),
+        Tmax = (400.0,"K"),
+        Pmin = (7599.0,"Pa"),
+        Pmax = (34900.0,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Chuchani, G.", "Rotinov, A.", "Dominguez, R.M."],
+        title = u'Elimination kinetics and mechanisms for several 2-alkoxyacetic acids in the gas phase',
+        journal = "J. Phys. Org. Chem.",
+        volume = "9",
+        pages = """787-794""",
+        year = "1996",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1996CHU/ROT787-794:5",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00016319
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016319/rk00000001.xml
+Uncertainty: 2.29
+Bath gas: Cyclohexene
+Category: Experiment
+Data type: Absolute value measured directly
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [('Fri Jul 13 08:16:56 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1996CHU/ROT787-794:5')],
+)
+
+entry(
+    index = 44,
+    label = "1999CHU/ROT401-407:3",
+    reactant1 = 
+"""
+1  *1 C 0 {2,S} {3,S} {10,S}
+2  *2 C 0 {1,S} {9,S}
+3     C 0 {1,S} {4,B} {5,B}
+4     C 0 {3,B} {7,B}
+5     C 0 {3,B} {8,B}
+6     C 0 {7,B} {8,B}
+7     C 0 {4,B} {6,B}
+8     C 0 {5,B} {6,B}
+9  *4 O 0 {2,S}
+10 *3 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,B} {3,B} {4,S}
+2    C 0 {1,B} {6,B}
+3    C 0 {1,B} {7,B}
+4 *1 C 0 {1,S} {8,D}
+5    C 0 {6,B} {7,B}
+6    C 0 {2,B} {5,B}
+7    C 0 {3,B} {5,B}
+8 *2 C 0 {4,D}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S}
+2 *3 H 0 {1,S}
+""",
+    degeneracy = 8,
+    kinetics = Arrhenius(
+        A = (2.5e+12,"s^-1"),
+        n = (0.0,""),
+        Ea = (229.2,"kJ/mol"),
+        T0 = (1.0,"K"),
+        Tmin = (722.0,"K"),
+        Tmax = (764.0,"K"),
+    ),
+    reference = Article(
+        authors = ["Chuchani, G.", "Rotinov, A.", "Dominguez, R.M."],
+        title = u'The kinetics and mechanisms of gas phase elimination of primary, secondary, and tertiary 2-hydroxyalkylbenzenes',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "31",
+        pages = """401-407""",
+        year = "1999",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1999CHU/ROT401-407:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+PrIMe Reaction: r00001556
+PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001556/rk00000001.xml
+Category: Experiment
+Data type: Absolute value measured directly
+Pressure dependence: None reported
+Experimental procedure: Static or low flow - Data taken vs time
+Excitation technique: Thermal
+Time resolution: By end product analysis
+Analytical technique: Gas chromatography
+Comments: Reactor surface seasoned with allyl bromide.No effect of change in surface to volume by factor of 6.
+""",
+    history = [('Fri Jul 13 08:15:30 2012', 'Sean Troiano <stroiano7@gmail.com>', 'action', 'Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999CHU/ROT401-407:3')],
+)
