@@ -1430,6 +1430,8 @@ entry(
         n = 0,
         Ea = (15.481,"kJ/mol"),
         T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
@@ -1498,6 +1500,8 @@ entry(
         n = 0,
         Ea = (29.288,"kJ/mol"),
         T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
@@ -1564,6 +1568,8 @@ entry(
         n = 0,
         Ea = (32.217,"kJ/mol"),
         T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
@@ -1628,6 +1634,8 @@ entry(
         n = 0,
         Ea = (33.054,"kJ/mol"),
         T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
@@ -1692,6 +1700,8 @@ entry(
         n = 0,
         Ea = (40.585,"kJ/mol"),
         T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
@@ -1762,6 +1772,8 @@ entry(
         n = 0,
         Ea = (16.318,"kJ/mol"),
         T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
@@ -1828,6 +1840,8 @@ entry(
         n = 0,
         Ea = (30.962,"kJ/mol"),
         T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
@@ -1894,6 +1908,8 @@ entry(
         n = 0,
         Ea = (20.92,"kJ/mol"),
         T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
@@ -1960,6 +1976,8 @@ entry(
         n = 0,
         Ea = (37.656,"kJ/mol"),
         T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
@@ -2026,6 +2044,8 @@ entry(
         n = 0,
         Ea = (40.166,"kJ/mol"),
         T0 = (1,"K"),
+        Tmin = (298,"K"),
+        Tmax = (298,"K"),
     ),
     reference = Article(
         authors = ["Mereau, R.", "Rayez, M.T.", "Caralp, F.", "Rayez, J.C."],
