@@ -8,3 +8,6 @@
 .project
 .pydevproject
 .settings/*
+
+# C-Compiled scripts
+*.pyc

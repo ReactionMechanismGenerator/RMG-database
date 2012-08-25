@@ -194,7 +194,7 @@ def getThermoData(species):
     for molecule in species.molecule:
         molecule.clearLabeledAtoms()
         molecule.updateAtomTypes()
-        thermo.append(thermoDatabase.getThermoData(molecule))
+        thermo.append(thermoDatabase.getThermoData(species))
 
     H298 = numpy.array([t.getEnthalpy(298.) for t in thermo])
     indices = H298.argsort()
