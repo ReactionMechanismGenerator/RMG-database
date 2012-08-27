@@ -1872,6 +1872,7 @@ with the tunneling corrections included). DOI: 10.1039/b307708j
     history = [
         ("Tue Jul 24 18:37:51 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2003MER/RAY4828-4833:2"""),
         ("Fri Aug 24 19:18:00 2012","Richard West <r.west@neu.edu>","action","""Added a comment about the tunneling correction and valid T range."""),
+    ],
 )
 
 entry(
