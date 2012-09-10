@@ -314,10 +314,10 @@ entry(
 """
 1     Ar    0
 """,
-    thermo = MultiNASA(
+    thermo = NASA(
         polynomials = [
-            NASA(Tmin=(298,"K"), Tmax=(1000,"K"), coeffs=[2.5,0,0,0,0,-745.375,4.366]),
-            NASA(Tmin=(1000,"K"), Tmax=(5000,"K"), coeffs=[2.5,0,0,0,0,-745.375,4.366]),
+            NASAPolynomial(Tmin=(298,"K"), Tmax=(1000,"K"), coeffs=[2.5,0,0,0,0,-745.375,4.366]),
+            NASAPolynomial(Tmin=(1000,"K"), Tmax=(5000,"K"), coeffs=[2.5,0,0,0,0,-745.375,4.366]),
         ],
         Tmin = (298,"K"),
         Tmax = (5000,"K"),
@@ -348,10 +348,10 @@ entry(
 1     N     0 {2,T}
 2     N     0 {1,T}
 """,
-    thermo = MultiNASA(
+    thermo = NASA(
         polynomials = [
-            NASA(Tmin=(298,"K"), Tmax=(1000,"K"), coeffs=[3.29868,0.00140824,-3.96322e-06,5.64152e-09,-2.44485e-12,-1020.9,3.95037]),
-            NASA(Tmin=(1000,"K"), Tmax=(5000,"K"), coeffs=[2.92664,0.00148798,-5.68476e-07,1.0097e-10,-6.75335e-15,-922.798,5.98053]),
+            NASAPolynomial(Tmin=(298,"K"), Tmax=(1000,"K"), coeffs=[3.29868,0.00140824,-3.96322e-06,5.64152e-09,-2.44485e-12,-1020.9,3.95037]),
+            NASAPolynomial(Tmin=(1000,"K"), Tmax=(5000,"K"), coeffs=[2.92664,0.00148798,-5.68476e-07,1.0097e-10,-6.75335e-15,-922.798,5.98053]),
         ],
         Tmin = (298,"K"),
         Tmax = (5000,"K"),
@@ -381,10 +381,10 @@ entry(
 """
 1     He    0
 """,
-    thermo = MultiNASA(
+    thermo = NASA(
         polynomials = [
-            NASA(Tmin=(200,"K"), Tmax=(1000,"K"), coeffs=[2.5,0,0,0,0,-745.375,0.9287]),
-            NASA(Tmin=(1000,"K"), Tmax=(6000,"K"), coeffs=[2.5,0,0,0,0,-745.375,0.9287]),
+            NASAPolynomial(Tmin=(200,"K"), Tmax=(1000,"K"), coeffs=[2.5,0,0,0,0,-745.375,0.9287]),
+            NASAPolynomial(Tmin=(1000,"K"), Tmax=(6000,"K"), coeffs=[2.5,0,0,0,0,-745.375,0.9287]),
         ],
         Tmin = (200,"K"),
         Tmax = (6000,"K"),
