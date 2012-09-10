@@ -718,8 +718,8 @@ O_Si(OC2H5)OH
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = MultiKinetics(
-        kineticsList = [
+    kinetics = MultiArrhenius(
+        arrhenius = [
             Arrhenius(A=(1e+13,"s^-1"), n=0, Ea=(52.059,"kcal/mol"), T0=(1,"K")),
             Arrhenius(A=(1e+15,"s^-1"), n=0, Ea=(68.552,"kcal/mol"), T0=(1,"K"))
         ],
@@ -813,8 +813,8 @@ O_Si(OH)2
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = MultiKinetics(
-        kineticsList = [
+    kinetics = MultiArrhenius(
+        arrhenius = [
             Arrhenius(A=(5.012e+12,"s^-1"), n=0, Ea=(52.059,"kcal/mol"), T0=(1,"K")),
             Arrhenius(A=(5.012e+14,"s^-1"), n=0, Ea=(68.552,"kcal/mol"), T0=(1,"K"))
         ],

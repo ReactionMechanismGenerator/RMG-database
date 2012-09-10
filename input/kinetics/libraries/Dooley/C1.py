@@ -386,8 +386,8 @@ O2
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = MultiKinetics(
-        kineticsList = [
+    kinetics = MultiArrhenius(
+        arrhenius = [
             Arrhenius(A=(4.2e+14,"cm^3/(mol*s)"), n=0, Ea=(11982,"cal/mol"), T0=(1,"K")),
             Arrhenius(A=(1.3e+11,"cm^3/(mol*s)"), n=0, Ea=(-1629.3,"cal/mol"), T0=(1,"K"))
         ],
@@ -559,8 +559,8 @@ H2O
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = MultiKinetics(
-        kineticsList = [
+    kinetics = MultiArrhenius(
+        arrhenius = [
             Arrhenius(A=(1e+12,"cm^3/(mol*s)"), n=0, Ea=(0,"cal/mol"), T0=(1,"K")),
             Arrhenius(A=(5.8e+14,"cm^3/(mol*s)"), n=0, Ea=(9557,"cal/mol"), T0=(1,"K"))
         ],
@@ -2918,8 +2918,8 @@ HO2
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = MultiKinetics(
-        kineticsList = [
+    kinetics = MultiArrhenius(
+        arrhenius = [
             Arrhenius(A=(2.41e+14,"cm^3/(mol*s)"), n=0, Ea=(5017,"cal/mol"), T0=(1,"K")),
             Arrhenius(A=(1.51e+15,"cm^3/(mol*s)"), n=-1, Ea=(0,"cal/mol"), T0=(1,"K"))
         ],
@@ -3367,8 +3367,8 @@ HO2
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = MultiKinetics(
-        kineticsList = [
+    kinetics = MultiArrhenius(
+        arrhenius = [
             Arrhenius(A=(9.033e+13,"cm^3/(mol*s)"), n=0, Ea=(11980,"cal/mol"), T0=(1,"K")),
             Arrhenius(A=(2.2e+10,"cm^3/(mol*s)"), n=0, Ea=(1748,"cal/mol"), T0=(1,"K"))
         ],
@@ -5098,8 +5098,8 @@ H2
 """,
     degeneracy = 1,
     duplicate = True,
-    kinetics = MultiKinetics(
-        kineticsList = [
+    kinetics = MultiArrhenius(
+        arrhenius = [
             Arrhenius(A=(1e+18,"cm^3/(mol*s)"), n=-1.56, Ea=(0,"cal/mol"), T0=(1,"K")),
             Arrhenius(A=(2.7e+11,"cm^3/(mol*s)"), n=0.67, Ea=(25700,"cal/mol"), T0=(1,"K"))
         ],
