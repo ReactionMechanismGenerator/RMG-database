@@ -3107,7 +3107,7 @@ entry(
 4 *3 C 1 {2,S} {5,S}
 5    O 0 {4,S}
 """,
-    degeneracy = 1,
+    degeneracy = 2,
     kinetics = Arrhenius(
         A = (3610,"cm^3/(mol*s)"),
         n = 2.89,
@@ -3124,6 +3124,7 @@ Rate comes from quantum calculation by J. Zador at CCSD(T) level
 """,
     history = [
         ("Wed Sep 12 14:33:46 2012","Shamel Merchant <shamel@mit.edu>","action","""New entry. CCCCO + OH = CCC[CH]O + H2O"""),
+        ("Wed Sep 12 14:35:29 2012","Shamel Merchant <shamel@mit.edu>","action","""Changed degeneracy to 2"""),
     ],
 )
 
