@@ -84,7 +84,7 @@ def setHistory(database, user):
         for label, entry in library.entries.iteritems():
             entry.history.append(event)
     
-    groups = database.states.groups
+    groups = database.statmech.groups
     for label, entry in groups.entries.iteritems():
         entry.history.append(event)
     
