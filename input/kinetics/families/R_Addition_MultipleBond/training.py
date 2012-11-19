@@ -58,3 +58,51 @@ This is the full rate; NB the degeneracy=2 so the per-site rate is half this.
     ],
 )
 
+entry(
+    index = 2,
+    reactant1 = 
+"""
+hydroperoxyl-vinoxy
+1  *1 C     0 {2,S} {3,S} {5,D}
+2  *2 C     1 {1,S}
+3  *3 O     0 {1,S} {4,S}
+4     O     0 {3,S}
+5     O     0 {1,D}
+""",
+    product1 = 
+"""
+ketene
+1  *2 C     0 {2,D}
+2  *1 C     0 {1,D} {3,D}
+3     O     0 {2,D}
+""",
+    product2 = 
+"""
+HO2
+1     O     0 {2,S}
+2  *3 O     1 {1,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.3e16,"s^-1","*|/",10**0.4),
+        n = -1.0,
+        Ea = (29.5,"kcal/mol"),
+        T0 = (1,"K"),
+    ),
+    reference = Article(
+        authors = ["J. W. Allen", "C. F. Goldsmith", "W. H. Green"],
+        title = u"""Automatic Estimation of Pressure-Dependent Rate Coefficients""",
+        journal = "Phys. Chem. Chem. Phys.",
+        volume = "???",
+        year = "2011 (accepted)",
+        pages = "???-???",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""CFG VTST calculations at RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level""",
+    longDesc = 
+u"""
+Quantum chemistry calculations at the RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level
+using Gaussian 03 and MOLPRO. High-pressure-limit rate coefficient computed
+using Variflex.
+""",
+)

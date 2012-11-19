@@ -17,17 +17,17 @@ entry(
     label = "CO;doublebond",
     group1 = 
 """
-1  *1 CO 0 {2,D}
-2  *2 Od 0 {1,D}
+1 *1 CO 0 {2,D}
+2 *2 Od 0 {1,D}
 """,
     group2 = "OR{mb_CO, mb_OC, mb_CCO, mb_COC}",
     kinetics = ArrheniusEP(
-        A = (6.92e+10,"cm^3/(mol*s)"),
+        A = (69200000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (43.72,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (43.72, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -38,7 +38,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -47,27 +47,27 @@ entry(
     label = "CH2CHO;mb_CO_2H",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2  *2 O 0 {1,D}
-3     H 0 {1,S}
-4     C 1 {1,S} {5,S} {6,S}
-5     H 0 {4,S}
-6     H 0 {4,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2 *2 O 0 {1,D}
+3    H 0 {1,S}
+4    C 1 {1,S} {5,S} {6,S}
+5    H 0 {4,S}
+6    H 0 {4,S}
 """,
     group2 = 
 """
-1  *3 CO 0 {2,D} {3,S} {4,S}
-2  *4 Od 0 {1,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 CO 0 {2,D} {3,S} {4,S}
+2 *4 Od 0 {1,D}
+3    H  0 {1,S}
+4    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.2319,"cm^3/(mol*s)","*|/",5),
+        A = (0.2319, 'cm^3/(mol*s)', '*|/', 5),
         n = 3.416,
         alpha = 0,
-        E0 = (77.107,"kcal/mol","+|-",2),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
+        E0 = (77.107, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -100,7 +100,7 @@ The k(T) was calculated from 600 - 2000 K, in 200 K intervals, and the fitted Ar
 k(T) = 2.319e-01 * (T/1K)^3.416 * exp(-77.107 kcal/mol / RT) cm3/mol/s.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

@@ -2,13 +2,14 @@
 # encoding: utf-8
 
 name = "1,2_Insertion/groups"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
-recommended = True
 
 template(reactants=["CO_birad", "RR'"], products=["R_CO_R'"], ownReverse=False)
+
+reverse = "1,1_Elimination"
 
 recipe(actions=[
     ['BREAK_BOND', '*2', 'S', '*3'],
@@ -22,28 +23,19 @@ entry(
     label = "CO_birad",
     group = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([2.00287e-55,3.04218e-40,4.41121e-31,6.12312e-25,3.36544e-17,1.67315e-12,3.95881e-06,0.00746027],"m^3/(mol*s)","*|/",[2.15844,1.02477,1.55285,2.14148,3.26772,4.28562,6.38818,8.03376])),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 8 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=21 label="C/H2/NonDeC">]
-[<Entry index=1 label="CO_birad">, <Entry index=17 label="C_pri/NonDeC">]
-[<Entry index=1 label="CO_birad">, <Entry index=31 label="C/H/Cs3">]
-[<Entry index=1 label="CO_birad">, <Entry index=15 label="C_methane">]
-[<Entry index=1 label="CO_birad">, <Entry index=42 label="C_methyl_C_methyl">]
-[<Entry index=1 label="CO_birad">, <Entry index=2 label="RR'">]
-[<Entry index=1 label="CO_birad">, <Entry index=6 label="CsO_H">]
-[<Entry index=1 label="CO_birad">, <Entry index=4 label="H2">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -60,7 +52,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -69,26 +61,19 @@ entry(
     label = "R_H",
     group = 
 """
-1  *2 {H,Cs,Cd,Cb,O,Sis,Sid} 0 {2,S}
-2  *3 H 0 {1,S}
+1 *2 {H,Cs,Cd,Cb,O,Sis,Sid} 0 {2,S}
+2 *3 H                      0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([496.185,111.117,45.0811,24.6358,11.5166,7.2663,3.89626,2.83256],"m^3/(mol*s)","*|/",[1,1,1,1,1,1,1,1])),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 6 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=21 label="C/H2/NonDeC">]
-[<Entry index=1 label="CO_birad">, <Entry index=17 label="C_pri/NonDeC">]
-[<Entry index=1 label="CO_birad">, <Entry index=4 label="H2">]
-[<Entry index=1 label="CO_birad">, <Entry index=15 label="C_methane">]
-[<Entry index=1 label="CO_birad">, <Entry index=6 label="CsO_H">]
-[<Entry index=1 label="CO_birad">, <Entry index=31 label="C/H/Cs3">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -97,21 +82,19 @@ entry(
     label = "H2",
     group = 
 """
-1  *2 H 0 {2,S}
-2  *3 H 0 {1,S}
+1 *2 H 0 {2,S}
+2 *3 H 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([16.7558,13.7942,11.5351,9.82447,7.46857,5.95388,3.85381,2.79291],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=4 label="H2">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -120,22 +103,20 @@ entry(
     label = "RO_H",
     group = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 H 0 {1,S}
-3     R 0 {1,S}
+1 *2 O 0 {2,S} {3,S}
+2 *3 H 0 {1,S}
+3    R 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([1.24621e+18,1.24253e+13,1.32522e+10,1.44556e+08,551098,20830.3,304.365,41.1219],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=6 label="CsO_H">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -144,22 +125,20 @@ entry(
     label = "CsO_H",
     group = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([1.24621e+18,1.24253e+13,1.32522e+10,1.44556e+08,551098,20830.3,304.365,41.1219],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=6 label="CsO_H">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -168,10 +147,10 @@ entry(
     label = "Cd_H",
     group = 
 """
-1  *2 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *3 H 0 {1,S}
-4     R 0 {1,S}
+1 *2 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *3 H 0 {1,S}
+4    R 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -182,7 +161,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -191,10 +170,10 @@ entry(
     label = "Cd_pri",
     group = 
 """
-1  *2 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *3 H 0 {1,S}
-4     H 0 {1,S}
+1 *2 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *3 H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -205,7 +184,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -214,10 +193,10 @@ entry(
     label = "Cd_sec",
     group = 
 """
-1  *2 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *3 H 0 {1,S}
-4     R!H 0 {1,S}
+1 *2 C   0 {2,D} {3,S} {4,S}
+2    C   0 {1,D}
+3 *3 H   0 {1,S}
+4    R!H 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -228,7 +207,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -237,10 +216,10 @@ entry(
     label = "Cd/H/NonDeC",
     group = 
 """
-1  *2 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *3 H 0 {1,S}
-4     Cs 0 {1,S}
+1 *2 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *3 H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -251,7 +230,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -260,10 +239,10 @@ entry(
     label = "Cd/H/NonDeO",
     group = 
 """
-1  *2 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *3 H 0 {1,S}
-4     O 0 {1,S}
+1 *2 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *3 H 0 {1,S}
+4    O 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -274,7 +253,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -283,10 +262,10 @@ entry(
     label = "Cd/H/OneDe",
     group = 
 """
-1  *2 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *3 H 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *2 C             0 {2,D} {3,S} {4,S}
+2    C             0 {1,D}
+3 *3 H             0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -297,7 +276,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -306,10 +285,10 @@ entry(
     label = "Cb_H",
     group = 
 """
-1  *2 Cb 0 {2,B} {3,B} {4,S}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
-4  *3 H 0 {1,S}
+1 *2 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *3 H        0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -320,7 +299,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -329,27 +308,22 @@ entry(
     label = "Cs_H",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     R 0 {1,S}
-4     R 0 {1,S}
-5     R 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H 0 {1,S}
+3    R 0 {1,S}
+4    R 0 {1,S}
+5    R 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.163503,0.323719,0.484078,0.629888,0.8677,1.04375,1.31417,1.45625],"m^3/(mol*s)","*|/",[1,1,1,1,1,1,1,1])),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 4 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=17 label="C_pri/NonDeC">]
-[<Entry index=1 label="CO_birad">, <Entry index=21 label="C/H2/NonDeC">]
-[<Entry index=1 label="CO_birad">, <Entry index=31 label="C/H/Cs3">]
-[<Entry index=1 label="CO_birad">, <Entry index=15 label="C_methane">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -358,24 +332,22 @@ entry(
     label = "C_methane",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.000492598,0.00494995,0.0202386,0.0525715,0.178306,0.379952,1.09609,1.93752],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=15 label="C_methane">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -384,24 +356,22 @@ entry(
     label = "C_pri",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     R!H 0 {1,S}
+1 *2 C   0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H   0 {1,S}
+3    H   0 {1,S}
+4    H   0 {1,S}
+5    R!H 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.00437545,0.0222296,0.0593676,0.114816,0.26406,0.438323,0.87461,1.25023],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=17 label="C_pri/NonDeC">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -410,24 +380,22 @@ entry(
     label = "C_pri/NonDeC",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.00437545,0.0222296,0.0593676,0.114816,0.26406,0.438323,0.87461,1.25023],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=17 label="C_pri/NonDeC">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -436,11 +404,11 @@ entry(
     label = "C_pri/NonDeO",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     O 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    O 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -451,7 +419,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -460,11 +428,11 @@ entry(
     label = "C_pri/De",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H             0 {1,S}
+3    H             0 {1,S}
+4    H             0 {1,S}
+5    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -475,7 +443,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -484,24 +452,22 @@ entry(
     label = "C_sec",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     R!H 0 {1,S}
-5     R!H 0 {1,S}
+1 *2 C   0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H   0 {1,S}
+3    H   0 {1,S}
+4    R!H 0 {1,S}
+5    R!H 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.674259,0.752081,0.790141,0.807855,0.814821,0.805891,0.767175,0.728447],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=21 label="C/H2/NonDeC">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -510,24 +476,22 @@ entry(
     label = "C/H2/NonDeC",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([0.674259,0.752081,0.790141,0.807855,0.814821,0.805891,0.767175,0.728447],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=21 label="C/H2/NonDeC">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -536,11 +500,11 @@ entry(
     label = "C/H2/NonDeO",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     O 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H      0 {1,S}
+3    H      0 {1,S}
+4    O      0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -551,7 +515,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -560,11 +524,11 @@ entry(
     label = "C/H2/CsO",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     O 0 {1,S}
-5     Cs 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H  0 {1,S}
+3    H  0 {1,S}
+4    O  0 {1,S}
+5    Cs 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -575,7 +539,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -584,11 +548,11 @@ entry(
     label = "C/H2/O2",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     O 0 {1,S}
-5     O 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H 0 {1,S}
+3    H 0 {1,S}
+4    O 0 {1,S}
+5    O 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -599,7 +563,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -608,11 +572,11 @@ entry(
     label = "C/H2/OneDe",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     {Cd,Ct,CO,Cb} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H             0 {1,S}
+3    H             0 {1,S}
+4    {Cd,Ct,CO,Cb} 0 {1,S}
+5    {Cs,O}        0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -623,7 +587,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -632,11 +596,11 @@ entry(
     label = "C/H2/OneDeC",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     {Cd,Ct,CO,Cb} 0 {1,S}
-5     Cs 0 {1,S}
+1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H             0 {1,S}
+3    H             0 {1,S}
+4    {Cd,Ct,CO,Cb} 0 {1,S}
+5    Cs            0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -647,7 +611,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -656,11 +620,11 @@ entry(
     label = "C/H2/OneDeO",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     {Cd,Ct,CO,Cb} 0 {1,S}
-5     O 0 {1,S}
+1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H             0 {1,S}
+3    H             0 {1,S}
+4    {Cd,Ct,CO,Cb} 0 {1,S}
+5    O             0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -671,7 +635,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -680,11 +644,11 @@ entry(
     label = "C/H2/TwoDe",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     {Cd,Ct,CO,Cb} 0 {1,S}
-5     {Cd,Ct,CO,Cb} 0 {1,S}
+1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H             0 {1,S}
+3    H             0 {1,S}
+4    {Cd,Ct,CO,Cb} 0 {1,S}
+5    {Cd,Ct,CO,Cb} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -695,7 +659,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -704,24 +668,22 @@ entry(
     label = "C_ter",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     R!H 0 {1,S}
-4     R!H 0 {1,S}
-5     R!H 0 {1,S}
+1 *2 C   0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H   0 {1,S}
+3    R!H 0 {1,S}
+4    R!H 0 {1,S}
+5    R!H 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([491.773,132.701,57.8396,32.2826,14.7757,8.84271,4.05552,2.54866],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=31 label="C/H/Cs3">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -730,24 +692,22 @@ entry(
     label = "C/H/NonDeC",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     {Cs,O} 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H      0 {1,S}
+3    {Cs,O} 0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([491.773,132.701,57.8396,32.2826,14.7757,8.84271,4.05552,2.54866],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=31 label="C/H/Cs3">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -756,24 +716,22 @@ entry(
     label = "C/H/Cs3",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([491.773,132.701,57.8396,32.2826,14.7757,8.84271,4.05552,2.54866],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=31 label="C/H/Cs3">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -782,11 +740,11 @@ entry(
     label = "C/H/NDMustO",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     O 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H      0 {1,S}
+3    O      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -797,7 +755,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -806,11 +764,11 @@ entry(
     label = "C/H/OneDe",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H             0 {1,S}
+3    {Cd,Ct,Cb,CO} 0 {1,S}
+4    {Cs,O}        0 {1,S}
+5    {Cs,O}        0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -821,7 +779,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -830,11 +788,11 @@ entry(
     label = "C/H/Cs2",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H             0 {1,S}
+3    {Cd,Ct,Cb,CO} 0 {1,S}
+4    Cs            0 {1,S}
+5    Cs            0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -845,7 +803,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -854,11 +812,11 @@ entry(
     label = "C/H/ODMustO",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     O 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H             0 {1,S}
+3    {Cd,Ct,Cb,CO} 0 {1,S}
+4    O             0 {1,S}
+5    {Cs,O}        0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -869,7 +827,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -878,11 +836,11 @@ entry(
     label = "C/H/TwoDe",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H             0 {1,S}
+3    {Cd,Ct,Cb,CO} 0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 {1,S}
+5    {Cs,O}        0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -893,7 +851,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -902,11 +860,11 @@ entry(
     label = "C/H/Cs",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     Cs 0 {1,S}
+1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H             0 {1,S}
+3    {Cd,Ct,Cb,CO} 0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 {1,S}
+5    Cs            0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -917,7 +875,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -926,11 +884,11 @@ entry(
     label = "C/H/TDMustO",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     O 0 {1,S}
+1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H             0 {1,S}
+3    {Cd,Ct,Cb,CO} 0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 {1,S}
+5    O             0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -941,7 +899,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -950,11 +908,11 @@ entry(
     label = "C/H/ThreeDe",
     group = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *2 C             0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H             0 {1,S}
+3    {Cd,Ct,Cb,CO} 0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 {1,S}
+5    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -965,7 +923,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -974,24 +932,22 @@ entry(
     label = "R_R'",
     group = 
 """
-1  *2 {Cs,Sis} 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 {Cs,Cd,Cb,Sis,Sid} 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 {Cs,Sis}           0 {2,S} {3,S} {4,S} {5,S}
+2 *3 {Cs,Cd,Cb,Sis,Sid} 0 {1,S}
+3    H                  0 {1,S}
+4    H                  0 {1,S}
+5    H                  0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([2.83318e-17,5.16934e-13,1.94933e-10,1.04866e-08,1.61227e-06,3.46156e-05,0.00227636,0.0199264],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=42 label="C_methyl_C_methyl">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1000,24 +956,22 @@ entry(
     label = "Cs_Cs",
     group = 
 """
-1  *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([2.83318e-17,5.16934e-13,1.94933e-10,1.04866e-08,1.61227e-06,3.46156e-05,0.00227636,0.0199264],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=42 label="C_methyl_C_methyl">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1026,27 +980,25 @@ entry(
     label = "C_methyl_C_methyl",
     group = 
 """
-1  *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     H 0 {2,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 0 {1,S} {6,S} {7,S} {8,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
+6    H  0 {2,S}
+7    H  0 {2,S}
+8    H  0 {2,S}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([2.83318e-17,5.16934e-13,1.94933e-10,1.04866e-08,1.61227e-06,3.46156e-05,0.00227636,0.0199264],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CO_birad">, <Entry index=42 label="C_methyl_C_methyl">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:16:07 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1055,14 +1007,14 @@ entry(
     label = "C_methyl_C_pri",
     group = 
 """
-1  *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     H 0 {2,S}
-7     H 0 {2,S}
-8     C 0 {2,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 0 {1,S} {6,S} {7,S} {8,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
+6    H  0 {2,S}
+7    H  0 {2,S}
+8    C  0 {2,S}
 """,
     kinetics = None,
     reference = None,
@@ -1073,7 +1025,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1082,14 +1034,14 @@ entry(
     label = "C_methyl_C_sec",
     group = 
 """
-1  *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     H 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 0 {1,S} {6,S} {7,S} {8,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
+6    H  0 {2,S}
+7    C  0 {2,S}
+8    C  0 {2,S}
 """,
     kinetics = None,
     reference = None,
@@ -1100,7 +1052,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1109,14 +1061,14 @@ entry(
     label = "C_methyl_C_ter",
     group = 
 """
-1  *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 0 {1,S} {6,S} {7,S} {8,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
+6    C  0 {2,S}
+7    C  0 {2,S}
+8    C  0 {2,S}
 """,
     kinetics = None,
     reference = None,
@@ -1127,7 +1079,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1136,11 +1088,11 @@ entry(
     label = "Cs_Cd",
     group = 
 """
-1  *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cd 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cd 0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -1151,7 +1103,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1160,13 +1112,13 @@ entry(
     label = "C_methyl_Cd_pri",
     group = 
 """
-1  *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cd 0 {1,S} {6,S} {7,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     H 0 {2,S}
-7     C 0 {2,D}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cd 0 {1,S} {6,S} {7,D}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
+6    H  0 {2,S}
+7    C  0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -1177,7 +1129,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1186,13 +1138,13 @@ entry(
     label = "C_methyl_Cd_sec",
     group = 
 """
-1  *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cd 0 {1,S} {6,S} {7,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,D}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cd 0 {1,S} {6,S} {7,D}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
+6    C  0 {2,S}
+7    C  0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -1203,7 +1155,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1212,11 +1164,11 @@ entry(
     label = "Cs_Cb",
     group = 
 """
-1  *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cb 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cb 0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -1227,7 +1179,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

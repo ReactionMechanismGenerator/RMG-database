@@ -13,13 +13,13 @@ entry(
     label = "CsOsCd",
     group = 
 """
-1  *  {Cs,Os,Cd} 0
+1 * {Cs,Os,Cd} 0
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -27,7 +27,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -36,13 +36,13 @@ entry(
     label = "Cs(RRRR)",
     group = 
 """
-1  *  Cs 0
+1 * Cs 0
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -50,7 +50,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -59,17 +59,17 @@ entry(
     label = "Cs(CsRRR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S}
-3     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-4     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+1 * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2   Cs                         0 {1,S}
+3   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+4   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+5   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -77,7 +77,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -86,20 +86,20 @@ entry(
     label = "Cs(Cs(CsRR)RRR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-4     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+1 * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2   Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+4   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+5   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6   Cs                         0 {2,S}
+7   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+8   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -107,7 +107,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -116,20 +116,20 @@ entry(
     label = "Cs(Cs(CsCsR)RRR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-4     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+1 * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2   Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+4   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+5   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6   Cs                         0 {2,S}
+7   Cs                         0 {2,S}
+8   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -137,7 +137,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -146,20 +146,20 @@ entry(
     label = "Cs(Cs(CsCsCs)RRR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-4     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
+1 * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2   Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+4   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+5   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6   Cs                         0 {2,S}
+7   Cs                         0 {2,S}
+8   Cs                         0 {2,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -167,7 +167,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -176,17 +176,17 @@ entry(
     label = "Cs(CsCsRR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+1 * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2   Cs                         0 {1,S}
+3   Cs                         0 {1,S}
+4   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+5   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -194,7 +194,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -203,23 +203,23 @@ entry(
     label = "Cs(Cs(CsRR)CsRR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -227,7 +227,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -236,23 +236,23 @@ entry(
     label = "Cs(Cs(CsRR)Cs(CsRR)RR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -260,7 +260,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -269,23 +269,23 @@ entry(
     label = "Cs(Cs(CsCsR)CsRR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0.4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0.4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -293,7 +293,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -302,23 +302,23 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsRR)RR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0.4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0.4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -326,7 +326,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -335,23 +335,23 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsCsR)RR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -359,7 +359,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -368,23 +368,23 @@ entry(
     label = "Cs(Cs(CsCsCs)CsRR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -392,7 +392,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -401,23 +401,23 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsRR)RR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -425,7 +425,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -434,23 +434,23 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsR)RR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1.2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1.2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -458,7 +458,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -467,23 +467,23 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)RR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   Cs                         0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -491,7 +491,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -500,17 +500,17 @@ entry(
     label = "Cs(CsCsCsR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+1 * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2   Cs                         0 {1,S}
+3   Cs                         0 {1,S}
+4   Cs                         0 {1,S}
+5   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -518,7 +518,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -527,26 +527,26 @@ entry(
     label = "Cs(Cs(CsRR)CsCsR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0.4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0.4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -554,7 +554,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -563,26 +563,26 @@ entry(
     label = "Cs(Cs(CsRR)Cs(CsRR)CsR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -590,7 +590,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -599,26 +599,26 @@ entry(
     label = "Cs(Cs(CsRR)Cs(CsRR)Cs(CsRR)R)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1.2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1.2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -626,7 +626,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -635,26 +635,26 @@ entry(
     label = "Cs(Cs(CsCsR)CsCsR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -662,7 +662,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -671,26 +671,26 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsRR)CsR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1.2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1.2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -698,7 +698,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -707,26 +707,26 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsRR)Cs(CsRR)R)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -734,7 +734,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -743,26 +743,26 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsCsR)CsR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (2.4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2.4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -770,7 +770,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -779,26 +779,26 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsCsR)Cs(CsRR)R)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (2.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -806,7 +806,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -815,26 +815,26 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsCsR)Cs(CsCsR)R)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (3.2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (3.2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -842,7 +842,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -851,26 +851,26 @@ entry(
     label = "Cs(Cs(CsCsCs)CsCsR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -878,7 +878,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -887,26 +887,26 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsRR)CsR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -914,7 +914,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -923,26 +923,26 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsRR)Cs(CsRR)R)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (2.4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2.4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -950,7 +950,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -959,26 +959,26 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsR)CsR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (2.4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2.4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -986,7 +986,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -995,26 +995,26 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsR)Cs(CsRR)R)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (2.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1022,7 +1022,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1031,26 +1031,26 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsR)Cs(CsCsR)R)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1058,7 +1058,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1067,26 +1067,26 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)CsR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   Cs                         0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (3.2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (3.2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1094,7 +1094,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1103,26 +1103,26 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)Cs(CsRR)R)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   Cs                         0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (3.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (3.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1130,7 +1130,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1139,26 +1139,26 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)Cs(CsCsR)R)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   Cs                         0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1166,7 +1166,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1175,26 +1175,26 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)Cs(CsCsCs)R)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    Cs 0 {4,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   Cs                         0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   Cs                         0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (4.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1202,7 +1202,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1211,17 +1211,17 @@ entry(
     label = "Cs(CsCsCsCs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1229,7 +1229,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1238,29 +1238,29 @@ entry(
     label = "Cs(Cs(CsRR)CsCsCs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1268,7 +1268,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1277,29 +1277,29 @@ entry(
     label = "Cs(Cs(CsRR)Cs(CsRR)CsCs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1307,7 +1307,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1316,29 +1316,29 @@ entry(
     label = "Cs(Cs(CsRR)Cs(CsRR)Cs(CsRR)Cs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (2.4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2.4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1346,7 +1346,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1355,29 +1355,29 @@ entry(
     label = "Cs(Cs(CsRR)Cs(CsRR)Cs(CsRR)Cs(CsRR))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    Cs 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   Cs                         0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (3.2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (3.2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1385,7 +1385,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1394,29 +1394,29 @@ entry(
     label = "Cs(Cs(CsCsR)CsCsCs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1424,7 +1424,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1433,29 +1433,29 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsRR)CsCs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (2.4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2.4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1463,7 +1463,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1472,29 +1472,29 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsRR)Cs(CsRR)Cs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (3.2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (3.2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1502,7 +1502,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1511,29 +1511,29 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsRR)Cs(CsRR)Cs(CsRR))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    Cs 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   Cs                         0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1541,7 +1541,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1550,29 +1550,29 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsCsR)CsCs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (3.2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (3.2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1580,7 +1580,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1589,29 +1589,29 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsCsR)Cs(CsRR)Cs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1619,7 +1619,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1628,29 +1628,29 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsCsR)Cs(CsRR)Cs(CsRR))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    Cs 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   Cs                         0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (4.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1658,7 +1658,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1667,29 +1667,29 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsCsR)Cs(CsCsR)Cs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (4.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1697,7 +1697,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1706,29 +1706,29 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsCsR)Cs(CsCsR)Cs(CsRR))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    Cs 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   Cs                         0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (5.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (5.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1736,7 +1736,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1745,29 +1745,29 @@ entry(
     label = "Cs(Cs(CsCsR)Cs(CsCsR)Cs(CsCsR)Cs(CsCsR))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    Cs 0 {5,S}
-16    Cs 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   Cs                         0 {5,S}
+16   Cs                         0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (6.4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (6.4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1775,7 +1775,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1784,29 +1784,29 @@ entry(
     label = "Cs(Cs(CsCsCs)CsCsCs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (2.4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2.4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1814,7 +1814,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1823,29 +1823,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsRR)CsCs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (3.2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (3.2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1853,7 +1853,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1862,29 +1862,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsRR)Cs(CsRR)Cs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1892,7 +1892,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1901,29 +1901,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsRR)Cs(CsRR)Cs(CsRR))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    Cs 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   Cs                         0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (4.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1931,7 +1931,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1940,29 +1940,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsR)CsCs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1970,7 +1970,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1979,29 +1979,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsR)Cs(CsRR)Cs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (4.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2009,7 +2009,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2018,29 +2018,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsR)Cs(CsRR)Cs(CsRR))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    Cs 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   Cs                         0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (5.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (5.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2048,7 +2048,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2057,29 +2057,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsR)Cs(CsCsR)Cs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (5.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (5.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2087,7 +2087,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2096,29 +2096,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsR)Cs(CsCsR)Cs(CsRR))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    Cs 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   Cs                         0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (6.4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (6.4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2126,7 +2126,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2135,29 +2135,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsR)Cs(CsCsR)Cs(CsCsR))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    Cs 0 {5,S}
-16    Cs 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   Cs                         0 {5,S}
+16   Cs                         0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (7.2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (7.2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2165,7 +2165,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2174,29 +2174,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)CsCs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
-12    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   Cs                         0 {3,S}
+12   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (4.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2204,7 +2204,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2213,29 +2213,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)Cs(CsRR)Cs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   Cs                         0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (5.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (5.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2243,7 +2243,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2252,29 +2252,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)Cs(CsRR)Cs(CsRR))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
-12    Cs 0 {4,S}
-13    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    Cs 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   Cs                         0 {3,S}
+12   Cs                         0 {4,S}
+13   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   Cs                         0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (6.4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (6.4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2282,7 +2282,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2291,29 +2291,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)Cs(CsCsR)Cs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   Cs                         0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (6.4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (6.4,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2321,7 +2321,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2330,29 +2330,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)Cs(CsCsR)Cs(CsRR))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    Cs 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   Cs                         0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   Cs                         0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (7.2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (7.2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2360,7 +2360,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2369,29 +2369,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)Cs(CsCsR)Cs(CsCsR))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-15    Cs 0 {5,S}
-16    Cs 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   Cs                         0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+15   Cs                         0 {5,S}
+16   Cs                         0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2399,7 +2399,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2408,29 +2408,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)Cs(CsCsCs)Cs)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    Cs 0 {4,S}
-15    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   Cs                         0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   Cs                         0 {4,S}
+15   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (7.2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (7.2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2438,7 +2438,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2447,29 +2447,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)Cs(CsCsCs)Cs(CsRR))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    Cs 0 {4,S}
-15    Cs 0 {5,S}
-16    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   Cs                         0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   Cs                         0 {4,S}
+15   Cs                         0 {5,S}
+16   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2477,7 +2477,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2486,29 +2486,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)Cs(CsCsCs)Cs(CsCsR))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    Cs 0 {4,S}
-15    Cs 0 {5,S}
-16    Cs 0 {5,S}
-17    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
+1  * Cs                         0 {2,S} {3,S} {4,S} {5,S}
+2    Cs                         0 {1,S} {6,S} {7,S} {8,S}
+3    Cs                         0 {1,S} {9,S} {10,S} {11,S}
+4    Cs                         0 {1,S} {12,S} {13,S} {14,S}
+5    Cs                         0 {1,S} {15,S} {16,S} {17,S}
+6    Cs                         0 {2,S}
+7    Cs                         0 {2,S}
+8    Cs                         0 {2,S}
+9    Cs                         0 {3,S}
+10   Cs                         0 {3,S}
+11   Cs                         0 {3,S}
+12   Cs                         0 {4,S}
+13   Cs                         0 {4,S}
+14   Cs                         0 {4,S}
+15   Cs                         0 {5,S}
+16   Cs                         0 {5,S}
+17   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (8.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (8.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2516,7 +2516,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2525,29 +2525,29 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)Cs(CsCsCs)Cs(CsCsCs))",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     Cs 0 {1,S} {9,S} {10,S} {11,S}
-4     Cs 0 {1,S} {12,S} {13,S} {14,S}
-5     Cs 0 {1,S} {15,S} {16,S} {17,S}
-6     Cs 0 {2,S}
-7     Cs 0 {2,S}
-8     Cs 0 {2,S}
-9     Cs 0 {3,S}
-10    Cs 0 {3,S}
-11    Cs 0 {3,S}
-12    Cs 0 {4,S}
-13    Cs 0 {4,S}
-14    Cs 0 {4,S}
-15    Cs 0 {5,S}
-16    Cs 0 {5,S}
-17    Cs 0 {5,S}
+1  * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2    Cs 0 {1,S} {6,S} {7,S} {8,S}
+3    Cs 0 {1,S} {9,S} {10,S} {11,S}
+4    Cs 0 {1,S} {12,S} {13,S} {14,S}
+5    Cs 0 {1,S} {15,S} {16,S} {17,S}
+6    Cs 0 {2,S}
+7    Cs 0 {2,S}
+8    Cs 0 {2,S}
+9    Cs 0 {3,S}
+10   Cs 0 {3,S}
+11   Cs 0 {3,S}
+12   Cs 0 {4,S}
+13   Cs 0 {4,S}
+14   Cs 0 {4,S}
+15   Cs 0 {5,S}
+16   Cs 0 {5,S}
+17   Cs 0 {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (9.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (9.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2555,7 +2555,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2564,13 +2564,13 @@ entry(
     label = "Os(RR)",
     group = 
 """
-1  *  Os 0
+1 * Os 0
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2578,7 +2578,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2587,15 +2587,15 @@ entry(
     label = "Os(CsR)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S}
-3     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+1 * Os                         0 {2,S} {3,S}
+2   Cs                         0 {1,S}
+3   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2603,7 +2603,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2612,18 +2612,18 @@ entry(
     label = "Os(Cs(CsRR)R)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-4     Cs 0 {2,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-6     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+1 * Os                         0 {2,S} {3,S}
+2   Cs                         0 {1,S} {4,S} {5,S} {6,S}
+3   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+4   Cs                         0 {2,S}
+5   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+6   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2631,7 +2631,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2640,18 +2640,18 @@ entry(
     label = "Os(Cs(CsCsR)R)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-4     Cs 0 {2,S}
-5     Cs 0 {2,S}
-6     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+1 * Os                         0 {2,S} {3,S}
+2   Cs                         0 {1,S} {4,S} {5,S} {6,S}
+3   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+4   Cs                         0 {2,S}
+5   Cs                         0 {2,S}
+6   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2659,7 +2659,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2668,18 +2668,18 @@ entry(
     label = "Os(Cs(CsCsCs)R)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
-4     Cs 0 {2,S}
-5     Cs 0 {2,S}
-6     Cs 0 {2,S}
+1 * Os                         0 {2,S} {3,S}
+2   Cs                         0 {1,S} {4,S} {5,S} {6,S}
+3   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {1,S}
+4   Cs                         0 {2,S}
+5   Cs                         0 {2,S}
+6   Cs                         0 {2,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2687,7 +2687,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2696,15 +2696,15 @@ entry(
     label = "Os(CsCs)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2712,7 +2712,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2721,21 +2721,21 @@ entry(
     label = "Os(Cs(CsRR)Cs)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     Cs 0 {1,S} {7,S} {8,S} {9,S}
-4     Cs 0 {2,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-6     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1 * Os                         0 {2,S} {3,S}
+2   Cs                         0 {1,S} {4,S} {5,S} {6,S}
+3   Cs                         0 {1,S} {7,S} {8,S} {9,S}
+4   Cs                         0 {2,S}
+5   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+6   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+7   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+8   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+9   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2743,7 +2743,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2752,21 +2752,21 @@ entry(
     label = "Os(Cs(CsRR)Cs(CsRR))",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     Cs 0 {1,S} {7,S} {8,S} {9,S}
-4     Cs 0 {2,S}
-5     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-6     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-7     Cs 0 {3,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1 * Os                         0 {2,S} {3,S}
+2   Cs                         0 {1,S} {4,S} {5,S} {6,S}
+3   Cs                         0 {1,S} {7,S} {8,S} {9,S}
+4   Cs                         0 {2,S}
+5   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+6   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+7   Cs                         0 {3,S}
+8   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+9   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2774,7 +2774,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2783,21 +2783,21 @@ entry(
     label = "Os(Cs(CsCsR)Cs)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     Cs 0 {1,S} {7,S} {8,S} {9,S}
-4     Cs 0 {2,S}
-5     Cs 0 {2,S}
-6     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1 * Os                         0 {2,S} {3,S}
+2   Cs                         0 {1,S} {4,S} {5,S} {6,S}
+3   Cs                         0 {1,S} {7,S} {8,S} {9,S}
+4   Cs                         0 {2,S}
+5   Cs                         0 {2,S}
+6   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+7   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+8   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+9   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0.5,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0.5,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2805,7 +2805,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2814,21 +2814,21 @@ entry(
     label = "Os(Cs(CsCsR)Cs(CsRR))",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     Cs 0 {1,S} {7,S} {8,S} {9,S}
-4     Cs 0 {2,S}
-5     Cs 0 {2,S}
-6     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-7     Cs 0 {3,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1 * Os                         0 {2,S} {3,S}
+2   Cs                         0 {1,S} {4,S} {5,S} {6,S}
+3   Cs                         0 {1,S} {7,S} {8,S} {9,S}
+4   Cs                         0 {2,S}
+5   Cs                         0 {2,S}
+6   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+7   Cs                         0 {3,S}
+8   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+9   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0.5,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0.5,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2836,7 +2836,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2845,21 +2845,21 @@ entry(
     label = "Os(Cs(CsCsR)Cs(CsCsR))",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     Cs 0 {1,S} {7,S} {8,S} {9,S}
-4     Cs 0 {2,S}
-5     Cs 0 {2,S}
-6     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
-7     Cs 0 {3,S}
-8     Cs 0 {3,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1 * Os                         0 {2,S} {3,S}
+2   Cs                         0 {1,S} {4,S} {5,S} {6,S}
+3   Cs                         0 {1,S} {7,S} {8,S} {9,S}
+4   Cs                         0 {2,S}
+5   Cs                         0 {2,S}
+6   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {2,S}
+7   Cs                         0 {3,S}
+8   Cs                         0 {3,S}
+9   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2867,7 +2867,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2876,21 +2876,21 @@ entry(
     label = "Os(Cs(CsCsCs)Cs)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     Cs 0 {1,S} {7,S} {8,S} {9,S}
-4     Cs 0 {2,S}
-5     Cs 0 {2,S}
-6     Cs 0 {2,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1 * Os                         0 {2,S} {3,S}
+2   Cs                         0 {1,S} {4,S} {5,S} {6,S}
+3   Cs                         0 {1,S} {7,S} {8,S} {9,S}
+4   Cs                         0 {2,S}
+5   Cs                         0 {2,S}
+6   Cs                         0 {2,S}
+7   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+8   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+9   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2898,7 +2898,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2907,21 +2907,21 @@ entry(
     label = "Os(Cs(CsCsCs)Cs(CsRR))",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     Cs 0 {1,S} {7,S} {8,S} {9,S}
-4     Cs 0 {2,S}
-5     Cs 0 {2,S}
-6     Cs 0 {2,S}
-7     Cs 0 {3,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1 * Os                         0 {2,S} {3,S}
+2   Cs                         0 {1,S} {4,S} {5,S} {6,S}
+3   Cs                         0 {1,S} {7,S} {8,S} {9,S}
+4   Cs                         0 {2,S}
+5   Cs                         0 {2,S}
+6   Cs                         0 {2,S}
+7   Cs                         0 {3,S}
+8   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+9   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2929,7 +2929,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2938,21 +2938,21 @@ entry(
     label = "Os(Cs(CsCsCs)Cs(CsCsR))",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     Cs 0 {1,S} {7,S} {8,S} {9,S}
-4     Cs 0 {2,S}
-5     Cs 0 {2,S}
-6     Cs 0 {2,S}
-7     Cs 0 {3,S}
-8     Cs 0 {3,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+1 * Os                         0 {2,S} {3,S}
+2   Cs                         0 {1,S} {4,S} {5,S} {6,S}
+3   Cs                         0 {1,S} {7,S} {8,S} {9,S}
+4   Cs                         0 {2,S}
+5   Cs                         0 {2,S}
+6   Cs                         0 {2,S}
+7   Cs                         0 {3,S}
+8   Cs                         0 {3,S}
+9   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1.5,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1.5,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2960,7 +2960,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2969,21 +2969,21 @@ entry(
     label = "Os(Cs(CsCsCs)Cs(CsCsCs))",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     Cs 0 {1,S} {7,S} {8,S} {9,S}
-4     Cs 0 {2,S}
-5     Cs 0 {2,S}
-6     Cs 0 {2,S}
-7     Cs 0 {3,S}
-8     Cs 0 {3,S}
-9     Cs 0 {3,S}
+1 * Os 0 {2,S} {3,S}
+2   Cs 0 {1,S} {4,S} {5,S} {6,S}
+3   Cs 0 {1,S} {7,S} {8,S} {9,S}
+4   Cs 0 {2,S}
+5   Cs 0 {2,S}
+6   Cs 0 {2,S}
+7   Cs 0 {3,S}
+8   Cs 0 {3,S}
+9   Cs 0 {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2991,7 +2991,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3000,16 +3000,16 @@ entry(
     label = "Cd(CsCs)",
     group = 
 """
-1  *  Cd 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * Cd 0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3017,7 +3017,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3026,22 +3026,22 @@ entry(
     label = "Cd(Cs(CsRR)Cs)",
     group = 
 """
-1  *  Cd 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cs 0 {1,S} {5,S} {6,S} {7,S}
-4     Cs 0 {1,S} {8,S} {9,S} {10,S}
-5     Cs 0 {3,S}
-6     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cd                         0 {2,D} {3,S} {4,S}
+2    Cd                         0 {1,D}
+3    Cs                         0 {1,S} {5,S} {6,S} {7,S}
+4    Cs                         0 {1,S} {8,S} {9,S} {10,S}
+5    Cs                         0 {3,S}
+6    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+7    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3049,7 +3049,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3058,22 +3058,22 @@ entry(
     label = "Cd(Cs(CsRR)Cs(CsRR))",
     group = 
 """
-1  *  Cd 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cs 0 {1,S} {5,S} {6,S} {7,S}
-4     Cs 0 {1,S} {8,S} {9,S} {10,S}
-5     Cs 0 {3,S}
-6     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-8     Cs 0 {4,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cd                         0 {2,D} {3,S} {4,S}
+2    Cd                         0 {1,D}
+3    Cs                         0 {1,S} {5,S} {6,S} {7,S}
+4    Cs                         0 {1,S} {8,S} {9,S} {10,S}
+5    Cs                         0 {3,S}
+6    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+7    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+8    Cs                         0 {4,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3081,7 +3081,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3090,22 +3090,22 @@ entry(
     label = "Cd(Cs(CsCsR)Cs)",
     group = 
 """
-1  *  Cd 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cs 0 {1,S} {5,S} {6,S} {7,S}
-4     Cs 0 {1,S} {8,S} {9,S} {10,S}
-5     Cs 0 {3,S}
-6     Cs 0 {3,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cd                         0 {2,D} {3,S} {4,S}
+2    Cd                         0 {1,D}
+3    Cs                         0 {1,S} {5,S} {6,S} {7,S}
+4    Cs                         0 {1,S} {8,S} {9,S} {10,S}
+5    Cs                         0 {3,S}
+6    Cs                         0 {3,S}
+7    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3113,7 +3113,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3122,22 +3122,22 @@ entry(
     label = "Cd(Cs(CsCsR)Cs(CsRR))",
     group = 
 """
-1  *  Cd 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cs 0 {1,S} {5,S} {6,S} {7,S}
-4     Cs 0 {1,S} {8,S} {9,S} {10,S}
-5     Cs 0 {3,S}
-6     Cs 0 {3,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-8     Cs 0 {4,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cd                         0 {2,D} {3,S} {4,S}
+2    Cd                         0 {1,D}
+3    Cs                         0 {1,S} {5,S} {6,S} {7,S}
+4    Cs                         0 {1,S} {8,S} {9,S} {10,S}
+5    Cs                         0 {3,S}
+6    Cs                         0 {3,S}
+7    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+8    Cs                         0 {4,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3145,7 +3145,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3154,22 +3154,22 @@ entry(
     label = "Cd(Cs(CsCsR)Cs(CsCsR))",
     group = 
 """
-1  *  Cd 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cs 0 {1,S} {5,S} {6,S} {7,S}
-4     Cs 0 {1,S} {8,S} {9,S} {10,S}
-5     Cs 0 {3,S}
-6     Cs 0 {3,S}
-7     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
-8     Cs 0 {4,S}
-9     Cs 0 {4,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cd                         0 {2,D} {3,S} {4,S}
+2    Cd                         0 {1,D}
+3    Cs                         0 {1,S} {5,S} {6,S} {7,S}
+4    Cs                         0 {1,S} {8,S} {9,S} {10,S}
+5    Cs                         0 {3,S}
+6    Cs                         0 {3,S}
+7    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {3,S}
+8    Cs                         0 {4,S}
+9    Cs                         0 {4,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3177,7 +3177,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3186,22 +3186,22 @@ entry(
     label = "Cd(Cs(CsCsCs)Cs)",
     group = 
 """
-1  *  Cd 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cs 0 {1,S} {5,S} {6,S} {7,S}
-4     Cs 0 {1,S} {8,S} {9,S} {10,S}
-5     Cs 0 {3,S}
-6     Cs 0 {3,S}
-7     Cs 0 {3,S}
-8     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cd                         0 {2,D} {3,S} {4,S}
+2    Cd                         0 {1,D}
+3    Cs                         0 {1,S} {5,S} {6,S} {7,S}
+4    Cs                         0 {1,S} {8,S} {9,S} {10,S}
+5    Cs                         0 {3,S}
+6    Cs                         0 {3,S}
+7    Cs                         0 {3,S}
+8    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3209,7 +3209,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3218,22 +3218,22 @@ entry(
     label = "Cd(Cs(CsCsCs)Cs(CsRR))",
     group = 
 """
-1  *  Cd 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cs 0 {1,S} {5,S} {6,S} {7,S}
-4     Cs 0 {1,S} {8,S} {9,S} {10,S}
-5     Cs 0 {3,S}
-6     Cs 0 {3,S}
-7     Cs 0 {3,S}
-8     Cs 0 {4,S}
-9     {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cd                         0 {2,D} {3,S} {4,S}
+2    Cd                         0 {1,D}
+3    Cs                         0 {1,S} {5,S} {6,S} {7,S}
+4    Cs                         0 {1,S} {8,S} {9,S} {10,S}
+5    Cs                         0 {3,S}
+6    Cs                         0 {3,S}
+7    Cs                         0 {3,S}
+8    Cs                         0 {4,S}
+9    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3241,7 +3241,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3250,22 +3250,22 @@ entry(
     label = "Cd(Cs(CsCsCs)Cs(CsCsR))",
     group = 
 """
-1  *  Cd 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cs 0 {1,S} {5,S} {6,S} {7,S}
-4     Cs 0 {1,S} {8,S} {9,S} {10,S}
-5     Cs 0 {3,S}
-6     Cs 0 {3,S}
-7     Cs 0 {3,S}
-8     Cs 0 {4,S}
-9     Cs 0 {4,S}
-10    {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
+1  * Cd                         0 {2,D} {3,S} {4,S}
+2    Cd                         0 {1,D}
+3    Cs                         0 {1,S} {5,S} {6,S} {7,S}
+4    Cs                         0 {1,S} {8,S} {9,S} {10,S}
+5    Cs                         0 {3,S}
+6    Cs                         0 {3,S}
+7    Cs                         0 {3,S}
+8    Cs                         0 {4,S}
+9    Cs                         0 {4,S}
+10   {Cd,Cdd,Ct,Cb,Cbf,Os,CO,H} 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3273,7 +3273,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3282,22 +3282,22 @@ entry(
     label = "Cd(Cs(CsCsCs)Cs(CsCsCs))",
     group = 
 """
-1  *  Cd 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cs 0 {1,S} {5,S} {6,S} {7,S}
-4     Cs 0 {1,S} {8,S} {9,S} {10,S}
-5     Cs 0 {3,S}
-6     Cs 0 {3,S}
-7     Cs 0 {3,S}
-8     Cs 0 {4,S}
-9     Cs 0 {4,S}
-10    Cs 0 {4,S}
+1  * Cd 0 {2,D} {3,S} {4,S}
+2    Cd 0 {1,D}
+3    Cs 0 {1,S} {5,S} {6,S} {7,S}
+4    Cs 0 {1,S} {8,S} {9,S} {10,S}
+5    Cs 0 {3,S}
+6    Cs 0 {3,S}
+7    Cs 0 {3,S}
+8    Cs 0 {4,S}
+9    Cs 0 {4,S}
+10   Cs 0 {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (2,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -3305,7 +3305,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

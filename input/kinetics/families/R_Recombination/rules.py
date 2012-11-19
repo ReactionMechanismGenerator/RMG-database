@@ -25,19 +25,19 @@ entry(
     label = "Y_rad;Y_rad",
     group1 = 
 """
-1  *  R 1
+1 * R 1
 """,
     group2 = 
 """
-1  *  R 1
+1 * R 1
 """,
     kinetics = ArrheniusEP(
-        A = (1e+13,"cm^3/(mol*s)"),
+        A = (10000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -48,7 +48,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -57,19 +57,19 @@ entry(
     label = "H_rad;H_rad",
     group1 = 
 """
-1  *  H 1
+1 * H 1
 """,
     group2 = 
 """
-1  *  H 1
+1 * H 1
 """,
     kinetics = ArrheniusEP(
-        A = (1.09e+11,"cm^3/(mol*s)"),
+        A = (109000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (1.5,"kcal/mol"),
-        Tmin = (278,"K"),
-        Tmax = (372,"K"),
+        E0 = (1.5, 'kcal/mol'),
+        Tmin = (278, 'K'),
+        Tmax = (372, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -86,7 +86,7 @@ NIST record: http://kinetics.nist.gov/kinetics/Detail?id=1950DIN/LER1632-1637:1
 Checked by Greg Magoon; I suspect the parameters in the paper come from a different reaction (maybe H + C2H2 -> products?); (even if it was the correct reaction, the parameters used by NIST and RMG appear to be based off of values from the abstract, but p. 1637 seems to suggest that it may be more complicated, perhaps a collision theory-type form as alluded to in the abstract...p. 1637 states "In calculating E1 allowance was made for the term T^1/2 appearing in the frequency factor.";if this is the case, then the NIST record is inaccurate; almost all the other papers in NIST database report 3rd order rate constant, which is proportional to [M]; the best assessment I have found is Stace and Murrell, IJCK, v. 10, p. 197-212, which seems to suggest bimolecular rate constant of at least ~10^14 at high pressure (over 3 orders of magnitude higher than this value); this paper and Troe, Ann. Rev. Phys. Chem. 1978. 29: 223-250. make reference to "diffusion" limitations at very high pressure; another (relatively minor) consideration is that we will probably want to divide the reported rate coefficient by 2 to correctly account for stoichiometry
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -95,22 +95,22 @@ entry(
     label = "H_rad;C_methyl",
     group1 = 
 """
-1  *  H 1
+1 * H 1
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.93e+14,"cm^3/(mol*s)"),
+        A = (193000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0.27,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (0.27, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -127,7 +127,7 @@ NIST record: http://kinetics.nist.gov/kinetics/Detail?id=1994TAK/MOM74-85:2
 Verified by Greg Magoon: RMG value agrees with NIST record, and the points in the NIST record agree with the values in Table 3 in the paper within 10%; note that a 3000K data point is also available in the paper, but doesn't seem to be considered in the NIST fit; also, note that a lot of other data for this reaction is available on the NIST site and in the paper
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -136,22 +136,22 @@ entry(
     label = "H_rad;C_methyl",
     group1 = 
 """
-1  *  H 1
+1 * H 1
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.11e+14,"cm^3/(mol*s)","*|/",2),
+        A = (211000000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1000,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -178,7 +178,7 @@ rate coefficient is that reported by Baulch et al. in previous literature review
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -187,21 +187,21 @@ entry(
     label = "H_rad;C_rad/H2/Cs",
     group1 = 
 """
-1  *  H 1
+1 * H 1
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1e+14,"cm^3/(mol*s)","+|-",1e+13),
+        A = (100000000000000.0, 'cm^3/(mol*s)', '+|-', 10000000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (298,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (298, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -218,7 +218,7 @@ H + C2H5 (+ M) --> C2H6 (+ M) (Rxn. 2b)
 Verified by Greg Magoon; I changed the DA uncertainty from (times/divide)1.1 to (+/-)1E13, as this is what the abstract reports (also, Table 3 mentions uncertainties in the range of 10%-20%)
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -227,22 +227,22 @@ entry(
     label = "H_rad;C_rad/H/NonDeC",
     group1 = 
 """
-1  *  H 1
+1 * H 1
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2e+13,"cm^3/(mol*s)","*|/",3.16),
+        A = (20000000000000.0, 'cm^3/(mol*s)', '*|/', 3.16),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -253,7 +253,7 @@ u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -262,21 +262,21 @@ entry(
     label = "H_rad;C_rad/H/NonDeC",
     group1 = 
 """
-1  *  H 1
+1 * H 1
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.5e+14,"cm^3/(mol*s)","+|-",3e+13),
+        A = (150000000000000.0, 'cm^3/(mol*s)', '+|-', 30000000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (298,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (298, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -293,7 +293,7 @@ H + isoC3H7 (+ M) --> C3H8 (+ M) (Rxn. 7)
 Verified by Greg Magoon; I changed the DA uncertainty from (times/divide)1.25 to 0.3E+14, as reported in the paper
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -302,20 +302,20 @@ entry(
     label = "H_rad;Cd_pri_rad",
     group1 = 
 """
-1  *  H 1
+1 * H 1
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   C 0 {1,D}
+3   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.21e+14,"cm^3/(mol*s)","+|-",4.82e+13),
+        A = (121000000000000.0, 'cm^3/(mol*s)', '+|-', 48200000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (298,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (298, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -332,7 +332,7 @@ H + C2H3 -> C2H4 (Rxn. VIIC)
 Verified by Greg Magoon; note that the value in rateLibrary agrees with value reported in abstract, the value in Table III also includes contribution from Rxn. VIID, which apparently dominates at low pressures (p. 3222); DA uncertainty updated, as I have done elsewhere; also, for k, I calculate 1.2044E14 (which is very slightly different from 1.21 used here)
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -341,21 +341,21 @@ entry(
     label = "H_rad;Cd_pri_rad",
     group1 = 
 """
-1  *  H 1
+1 * H 1
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   C 0 {1,D}
+3   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.36e+14,"cm^3/(mol*s)"),
+        A = (536000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0.98,"kcal/mol"),
-        Tmin = (700,"K"),
-        Tmax = (1300,"K"),
+        E0 = (0.98, 'kcal/mol'),
+        Tmin = (700, 'K'),
+        Tmax = (1300, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -372,7 +372,7 @@ NIST Record: http://kinetics.nist.gov/kinetics/Detail?id=1988DUR/AMO636:10
 Verified by Greg Magoon; RMG and NIST data seem to be the same; presumably, NIST fit is based off of data in Table 3, but the fit isn't quite right, especially at 1500 K ; using the 700 and 1300 table values, I get Ea=1.03 kcal/mol; using 1300 K value, I get A = 5.66E14 cm^3/mol-s; fit seems to be essentially indistinguishable from data at end points, and error is just under 10% at 1000 K...since the NIST fit has a slightly lower maximum error, I will just leave it the way it is; aside: 10^9.7 prefactor mentioned on p. 637 doesn't seem consistent with NIST data or paper data in Table III; this is presumably high-pressure limit since no pressure-dependence is indicated in the table
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -381,20 +381,20 @@ entry(
     label = "H_rad;Ct_rad",
     group1 = 
 """
-1  *  H 1
+1 * H 1
 """,
     group2 = 
 """
-1  *  C 1 {2,T}
-2     C 0 {1,T}
+1 * C 1 {2,T}
+2   C 0 {1,T}
 """,
     kinetics = ArrheniusEP(
-        A = (1.81e+14,"cm^3/(mol*s)","*|/",3),
+        A = (181000000000000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -420,7 +420,7 @@ Fall-off and collisional efficiencies are available in reference
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -429,21 +429,21 @@ entry(
     label = "H_rad;Cb_rad",
     group1 = 
 """
-1  *  H 1
+1 * H 1
 """,
     group2 = 
 """
-1  *  Cb 1 {2,B} {3,B}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
+1 * Cb       1 {2,B} {3,B}
+2   {Cb,Cbf} 0 {1,B}
+3   {Cb,Cbf} 0 {1,B}
 """,
     kinetics = ArrheniusEP(
-        A = (2.2e+14,"cm^3/(mol*s)","+|-",8e+13),
+        A = (220000000000000.0, 'cm^3/(mol*s)', '+|-', 80000000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1200,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1200, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -465,7 +465,7 @@ Verified by Greg Magoon
 [172b]: see Table III
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -474,21 +474,21 @@ entry(
     label = "H_rad;CO_pri_rad",
     group1 = 
 """
-1  *  H 1
+1 * H 1
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.68e+10,"cm^3/(mol*s)"),
+        A = (46800000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (-4.53,"kcal/mol"),
-        Tmin = (1500,"K"),
-        Tmax = (1900,"K"),
+        E0 = (-4.53, 'kcal/mol'),
+        Tmin = (1500, 'K'),
+        Tmax = (1900, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -505,7 +505,7 @@ H + HCO (+M) --> H2CO (+M) (Rxn -9)
 Verified by Greg Magoon; three A factors have been reported (for 3 different densities); the value currently used in the rateLibrary appears to come from the middle density: 5E-5 (mol/cm^3, I think);I have assumed that the 2nd two columns in Table II are for the reverse reaction reference for this value is apparently in Japanese (see *** note in Table 2); minor issue: I calculate -19/4.184 = -4.54 kcal/mol (vs. -4.53 in rateLibrary)
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -514,20 +514,20 @@ entry(
     label = "H_rad;O_pri_rad",
     group1 = 
 """
-1  *  H 1
+1 * H 1
 """,
     group2 = 
 """
-1  *  O 1 {2,S}
-2     H 0 {1,S}
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.62e+14,"cm^3/(mol*s)"),
+        A = (162000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0.15,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2100,"K"),
+        E0 = (0.15, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2100, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -541,7 +541,7 @@ Transition State Theory
 H + OH --> H2O
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -550,25 +550,25 @@ entry(
     label = "C_methyl;C_methyl",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (8.26e+17,"cm^3/(mol*s)"),
+        A = (8.26e+17, 'cm^3/(mol*s)'),
         n = -1.4,
         alpha = 0,
-        E0 = (1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -585,7 +585,7 @@ NIST record: http://kinetics.nist.gov/kinetics/Detail?id=1998PES/PIL8526-8536:1
 Verified by Greg Magoon; NIST record has slightly different parameters than RMG (it doesn't seem like best-fit parameters are reported in the paper); paper values for k_inf with alpha = 1 appear in Tables 5/11 and values for alpha = 0.7 appear in Tables 6/12; NIST parameters agree within 10% of k_inf values in the paper with alpha = 1 A^-1 (Tables 11) (though in paper, they seem to suggest that alpha = 0.7 A^-1 (Table 6/12) matches experimental data better); I am assuming that their k is for the reaction, as written, so that no factor of two correction is needed; RMG parameters seem to agree with Table 5 values within 10% (agreement may not be quite as good as NIST fit, though it is not immediately obvious which fit is better without looking closer/doing calculations)
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -594,25 +594,25 @@ entry(
     label = "C_methyl;C_methyl",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.61e+13,"cm^3/(mol*s)","*|/",2),
+        A = (36100000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -640,7 +640,7 @@ from Refs. 4, 10, 11, and 14 up to 1000K ..."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -649,25 +649,25 @@ entry(
     label = "C_methyl;C_rad/H2/Cs",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.37e+13,"cm^3/(mol*s)","*|/",2),
+        A = (33700000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -696,7 +696,7 @@ of k_inf is assumed until more definite experimental information is available."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -705,25 +705,25 @@ entry(
     label = "C_methyl;C_rad/H/NonDeC",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.64e+14,"cm^3/(mol*s)"),
+        A = (664000000000000.0, 'cm^3/(mol*s)'),
         n = -0.57,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (713,"K"),
-        Tmax = (1800,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (713, 'K'),
+        Tmax = (1800, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -745,7 +745,7 @@ the rateLibrary is probably too narrow; minor: I calculate 1.1E-9*6.022141E23=6.
 but rateLibrary has slightly different value of 6.64E14
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -754,25 +754,25 @@ entry(
     label = "C_methyl;C_rad/Cs3",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.88e+15,"cm^3/(mol*s)","*|/",2),
+        A = (4880000000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = -1,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -811,7 +811,7 @@ which is somewhat in agreement with the value recommended by Tsang.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -820,23 +820,23 @@ entry(
     label = "C_methyl;Cd_pri_rad",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   C 0 {1,D}
+3   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.23e+13,"cm^3/(mol*s)","+|-",1.81e+13),
+        A = (72300000000000.0, 'cm^3/(mol*s)', '+|-', 18100000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (298,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (298, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -853,7 +853,7 @@ CH3. + .HC=CH2 --> CH3HC=CH2 (Rxn. IIIC)
 Verified by Greg Magoon; DA uncertainty updated, as I have done elsewhere
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -862,24 +862,24 @@ entry(
     label = "C_methyl;Cb_rad",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  Cb 1 {2,B} {3,B}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
+1 * Cb       1 {2,B} {3,B}
+2   {Cb,Cbf} 0 {1,B}
+3   {Cb,Cbf} 0 {1,B}
 """,
     kinetics = ArrheniusEP(
-        A = (1.38e+13,"cm^3/(mol*s)","+|-",8e+11),
+        A = (13800000000000.0, 'cm^3/(mol*s)', '+|-', 800000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0.046,"kcal/mol","+|-",0.072),
-        Tmin = (300,"K"),
-        Tmax = (980,"K"),
+        E0 = (0.046, 'kcal/mol', '+|-', 0.072),
+        Tmin = (300, 'K'),
+        Tmax = (980, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -896,7 +896,7 @@ CH3 + phenyl --> C6H5CH3 (Rxn. 2) (cf. #444, below)
 Verified by Greg Magoon; 0.05 kcal barrier changed to 0.046 as reported in paper; uncertainties are in abstract; more precise values appear in Tables 3,4; however, note: in text on p. 3639, A factor uncertainty is expressed as additive on log scale...value is relatively small, so it probably doesn't make that much of a difference; DA uncertainty was added and DE0 uncertainty was refined
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -905,24 +905,24 @@ entry(
     label = "C_methyl;Cb_rad",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  Cb 1 {2,B} {3,B}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
+1 * Cb       1 {2,B} {3,B}
+2   {Cb,Cbf} 0 {1,B}
+3   {Cb,Cbf} 0 {1,B}
 """,
     kinetics = ArrheniusEP(
-        A = (1.39e+13,"cm^3/(mol*s)","+|-",7e+11),
+        A = (13900000000000.0, 'cm^3/(mol*s)', '+|-', 700000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0.03,"kcal/mol","+|-",0.07),
-        Tmin = (424,"K"),
-        Tmax = (972,"K"),
+        E0 = (0.03, 'kcal/mol', '+|-', 0.07),
+        Tmin = (424, 'K'),
+        Tmax = (972, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -939,7 +939,7 @@ CH3 + phenyl --> C6H5CH3 (Rxn. 4) (cf. #443, above)
 Verified by Greg Magoon; values appear in Appendix A and (with uncertainty) on p. 649; total pressure around 3 torr (Table II); DA uncertainty was added and DE0 uncertainty was refined
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -948,24 +948,24 @@ entry(
     label = "C_methyl;CO_pri_rad",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.81e+13,"cm^3/(mol*s)","*|/",2),
+        A = (18100000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -989,7 +989,7 @@ to high-P limit at low temperatures.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -998,23 +998,23 @@ entry(
     label = "C_methyl;CO_rad/NonDe",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 * C      1 {2,D} {3,S}
+2   O      0 {1,D}
+3   {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.2e+13,"cm^3/(mol*s)","+|-",8.4e+12),
+        A = (42000000000000.0, 'cm^3/(mol*s)', '+|-', 8400000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (298,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (298, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1031,7 +1031,7 @@ paper states reaction occurs close to high pressure limit (p. 742)
 Verified by Greg Magoon; Note that the paper cites 4 other values for k6 from literature; perhaps uncertainty could be assigned based on these values; also, page 744 discusses "relatively large value of k6" potentially due to other reactions; p. 744: uncertainty estimated to be 20% -> I changed DA uncertainty from 0 to 8.4E+12
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1040,24 +1040,24 @@ entry(
     label = "C_methyl;CO_rad/NonDe",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 * C      1 {2,D} {3,S}
+2   O      0 {1,D}
+3   {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.04e+15,"cm^3/(mol*s)","*|/",1.5),
+        A = (4040000000000000.0, 'cm^3/(mol*s)', '*|/', 1.5),
         n = -0.8,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1089,7 +1089,7 @@ expression reported in table.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1098,23 +1098,23 @@ entry(
     label = "C_methyl;O_pri_rad",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  O 1 {2,S}
-2     H 0 {1,S}
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.03e+13,"cm^3/(mol*s)","*|/",2),
+        A = (60300000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1142,7 +1142,7 @@ k_inf.  "The available database is still limited and more measurements are neede
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1151,23 +1151,23 @@ entry(
     label = "C_methyl;O_rad/NonDe",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  O 1 {2,S}
-2     {Cs,O} 0 {1,S}
+1 * O      1 {2,S}
+2   {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.21e+13,"cm^3/(mol*s)","*|/",5),
+        A = (12100000000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1190,7 +1190,7 @@ estimated from rates of CH3+CH3=C2H6 and CH3O+CH3O=CH3OOCH3.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1199,25 +1199,25 @@ entry(
     label = "C_rad/H2/Cs;C_rad/H2/Cs",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.15e+13,"cm^3/(mol*s)","*|/",2),
+        A = (11500000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1200,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1200, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1240,7 +1240,7 @@ agreement."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1249,25 +1249,25 @@ entry(
     label = "C_rad/H2/Cs;C_rad/H/NonDeC",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.15e+14,"cm^3/(mol*s)","*|/",2),
+        A = (115000000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = -0.35,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1291,7 +1291,7 @@ of C2H5+C2H5-->adduct and i-C3H7+i-C3H7-->adduct).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1300,25 +1300,25 @@ entry(
     label = "C_rad/H2/Cs;C_rad/Cs3",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.91e+14,"cm^3/(mol*s)","*|/",2),
+        A = (691000000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = -0.75,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1354,7 +1354,7 @@ and tC4H9+tC4H9-->adduct rxns.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1363,24 +1363,24 @@ entry(
     label = "C_rad/H2/Cs;CO_pri_rad",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.81e+13,"cm^3/(mol*s)","*|/",3),
+        A = (18100000000000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1402,7 +1402,7 @@ Recommended data is based on the rate expression for CH3+CHO-->H3CCHO
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1411,24 +1411,24 @@ entry(
     label = "C_rad/H2/Cs;CO_rad/NonDe",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 * C      1 {2,D} {3,S}
+2   O      0 {1,D}
+3   {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.12e+14,"cm^3/(mol*s)","*|/",3),
+        A = (312000000000000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = -0.5,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1450,7 +1450,7 @@ Recommended data is based on the rate expression for CH3+CH3CO-->(CH3)2CO
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1459,23 +1459,23 @@ entry(
     label = "C_rad/H2/Cs;O_pri_rad",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  O 1 {2,S}
-2     H 0 {1,S}
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.7e+13,"cm^3/(mol*s)","+|-",1e+13),
+        A = (77000000000000.0, 'cm^3/(mol*s)', '+|-', 10000000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (200,"K"),
-        Tmax = (400,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (400, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1491,7 +1491,7 @@ C2H5 + OH (+M) --> C2H5OH (+M) (Rxn. 1a)
 Verified by Greg Magoon; value reported for k1a,Infinity (high-pressure) appears to be theoretical rather than experimentally based; value in paper is 7.7+/-1.0E13 (rateLibrary originally had 7.69E13 with uncertainty of *1.1, so I changed it to match paper values); there doesn't seem to be an experimental value for k1a, but k(1a+1b) is slightly lower (6.5E13); experimentally, they say no pressure dependence observed in studied pressure range (p. 326)
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1500,25 +1500,25 @@ entry(
     label = "C_rad/H/NonDeC;C_rad/H/NonDeC",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.25e+14,"cm^3/(mol*s)","*|/",2),
+        A = (325000000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = -0.7,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1547,7 +1547,7 @@ fit at high-T).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1556,25 +1556,25 @@ entry(
     label = "C_rad/H/NonDeC;C_rad/Cs3",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.12e+15,"cm^3/(mol*s)","*|/",1.5),
+        A = (4120000000000000.0, 'cm^3/(mol*s)', '*|/', 1.5),
         n = -1.1,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1608,7 +1608,7 @@ and tC4H9+tC4H9-->adduct rxns.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1617,24 +1617,24 @@ entry(
     label = "C_rad/H/NonDeC;CO_rad/NonDe",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 * C      1 {2,D} {3,S}
+2   O      0 {1,D}
+3   {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.64e+13,"cm^3/(mol*s)","*|/",2),
+        A = (66400000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = -0.35,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1662,7 +1662,7 @@ recommended rate coefficient expression
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1671,23 +1671,23 @@ entry(
     label = "C_rad/H/NonDeC;O_rad/NonDe",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   H  0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  O 1 {2,S}
-2     {Cs,O} 0 {1,S}
+1 * O      1 {2,S}
+2   {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.03e+12,"cm^3/(mol*s)","*|/",5),
+        A = (6030000000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1710,7 +1710,7 @@ based on CH3+CH3O-->adduct.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1719,25 +1719,25 @@ entry(
     label = "C_rad/Cs3;C_rad/Cs3",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.24e+16,"cm^3/(mol*s)","*|/",2),
+        A = (1.24e+16, 'cm^3/(mol*s)', '*|/', 2),
         n = -1.5,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1770,7 +1770,7 @@ Entry 44,44(a)
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1779,24 +1779,24 @@ entry(
     label = "C_rad/Cs3;CO_pri_rad",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.21e+13,"cm^3/(mol*s)","*|/",5),
+        A = (12100000000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1821,7 +1821,7 @@ on rate of rxn tC4H9+CH3-->adduct, but "slightly smaller"
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1830,24 +1830,24 @@ entry(
     label = "C_rad/Cs3;CO_rad/NonDe",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 * C      1 {2,D} {3,S}
+2   O      0 {1,D}
+3   {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.75e+14,"cm^3/(mol*s)","*|/",2),
+        A = (775000000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = -0.75,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1881,7 +1881,7 @@ tC4H9+tC4H9-->adduct and CH3CO+CH3CO-->adduct rxns
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1890,23 +1890,23 @@ entry(
     label = "C_rad/Cs3;O_rad/NonDe",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  1 {2,S} {3,S} {4,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  O 1 {2,S}
-2     {Cs,O} 0 {1,S}
+1 * O      1 {2,S}
+2   {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (9.04e+12,"cm^3/(mol*s)","*|/",3),
+        A = (9040000000000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1931,7 +1931,7 @@ and CH3O+CH3O-->adduct rxns
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1940,22 +1940,22 @@ entry(
     label = "Cd_pri_rad;Cd_pri_rad",
     group1 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   C 0 {1,D}
+3   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   C 0 {1,D}
+3   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.23e+13,"cm^3/(mol*s)","+|-",1.2e+13),
+        A = (72300000000000.0, 'cm^3/(mol*s)', '+|-', 12000000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (298,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (298, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1971,7 +1971,7 @@ C2H3 + C2H3 --> (E)-CH2=CHCH=CH2 (Rxn. IIC)
 Verified by Greg Magoon; DA uncertainty updated, as I have done elsewhere; based on Eqs. 3, 6, it looks like a factor of two correction is not needed
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1980,22 +1980,22 @@ entry(
     label = "Cd_pri_rad;Ct_rad",
     group1 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   C 0 {1,D}
+3   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,T}
-2     C 0 {1,T}
+1 * C 1 {2,T}
+2   C 0 {1,T}
 """,
     kinetics = ArrheniusEP(
-        A = (1e+14,"cm^3/(mol*s)"),
+        A = (100000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (700,"K"),
-        Tmax = (1300,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (700, 'K'),
+        Tmax = (1300, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2012,7 +2012,7 @@ NIST record: http://kinetics.nist.gov/kinetics/Detail?id=1988DUR/AMO636:4
 Verified by Greg Magoon; value confirmed from paper data in Table III; this is presumably high-pressure limit since no pressure-dependence is indicated in the table
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2021,23 +2021,23 @@ entry(
     label = "Cd_pri_rad;CO_pri_rad",
     group1 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   C 0 {1,D}
+3   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.81e+13,"cm^3/(mol*s)","*|/",3),
+        A = (18100000000000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2060,7 +2060,7 @@ Authors note that rate expression will be in fall-off region at high temperature
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2069,23 +2069,23 @@ entry(
     label = "Cb_rad;Cb_rad",
     group1 = 
 """
-1  *  Cb 1 {2,B} {3,B}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
+1 * Cb       1 {2,B} {3,B}
+2   {Cb,Cbf} 0 {1,B}
+3   {Cb,Cbf} 0 {1,B}
 """,
     group2 = 
 """
-1  *  Cb 1 {2,B} {3,B}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
+1 * Cb       1 {2,B} {3,B}
+2   {Cb,Cbf} 0 {1,B}
+3   {Cb,Cbf} 0 {1,B}
 """,
     kinetics = ArrheniusEP(
-        A = (5.7e+12,"cm^3/(mol*s)"),
+        A = (5700000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (1100,"K"),
-        Tmax = (1400,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (1100, 'K'),
+        Tmax = (1400, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2099,7 +2099,7 @@ Absolute value measured directly. Excitation : thermal, analysis : Vis-UV absorp
 Phenyl + Phenyl --> Biphenyl
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2108,23 +2108,23 @@ entry(
     label = "Cb_rad;Cb_rad",
     group1 = 
 """
-1  *  Cb 1 {2,B} {3,B}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
+1 * Cb       1 {2,B} {3,B}
+2   {Cb,Cbf} 0 {1,B}
+3   {Cb,Cbf} 0 {1,B}
 """,
     group2 = 
 """
-1  *  Cb 1 {2,B} {3,B}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
+1 * Cb       1 {2,B} {3,B}
+2   {Cb,Cbf} 0 {1,B}
+3   {Cb,Cbf} 0 {1,B}
 """,
     kinetics = ArrheniusEP(
-        A = (1.39e+13,"cm^3/(mol*s)","+|-",1.1e+12),
+        A = (13900000000000.0, 'cm^3/(mol*s)', '+|-', 1100000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0.11,"kcal/mol","+|-",0.072),
-        Tmin = (300,"K"),
-        Tmax = (500,"K"),
+        E0 = (0.11, 'kcal/mol', '+|-', 0.072),
+        Tmin = (300, 'K'),
+        Tmax = (500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2141,7 +2141,7 @@ phenyl + phenyl --> biphenyl (Reaction 1)
 Verified by Greg Magoon: total pressure ~7 torr; DA uncertainty changed to additive, as reported in paper, and DE0 uncertainty was refined
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2150,22 +2150,22 @@ entry(
     label = "CO_pri_rad;CO_pri_rad",
     group1 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.51e+13,"cm^3/(mol*s)","+|-",6.02e+12),
+        A = (15100000000000.0, 'cm^3/(mol*s)', '+|-', 6020000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (298,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (298, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2182,7 +2182,7 @@ HCO + HCO --> (CHO)2
 Verified by Greg Magoon: the existing k in the rateLibrary appeared to be off by a factor of two, since the paper uses d[HCO]/dt=-k*[HCO]^2; they report k=(5+/-2)*10^-11 molecules^-1*cm^3/s (references 9, 19, and 20 in this paper could have better data); I think in rateLibrary, we should have half of this (2.5 +/- 1), so I have changed the value in the rateLibrary accordingly (with 2nd opinion to confirm from MRH)
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2191,23 +2191,23 @@ entry(
     label = "CO_pri_rad;CO_rad/NonDe",
     group1 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 * C      1 {2,D} {3,S}
+2   O      0 {1,D}
+3   {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.81e+13,"cm^3/(mol*s)","*|/",3),
+        A = (18100000000000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2230,7 +2230,7 @@ the default value the authors assign for recombination rxns)
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2239,23 +2239,23 @@ entry(
     label = "CO_rad/NonDe;CO_rad/NonDe",
     group1 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 * C      1 {2,D} {3,S}
+2   O      0 {1,D}
+3   {Cs,O} 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 * C      1 {2,D} {3,S}
+2   O      0 {1,D}
+3   {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.21e+13,"cm^3/(mol*s)","*|/",2),
+        A = (12100000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2277,7 +2277,7 @@ Recommended data is assigned based on 5 reported direct measurements of rate coe
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2286,21 +2286,21 @@ entry(
     label = "O_pri_rad;O_pri_rad",
     group1 = 
 """
-1  *  O 1 {2,S}
-2     H 0 {1,S}
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  O 1 {2,S}
-2     H 0 {1,S}
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.57e+13,"cm^3/(mol*s)","+|-",6.02e+12),
-        n = (0,"","+|-",0.5),
+        A = (15700000000000.0, 'cm^3/(mol*s)', '+|-', 6020000000000.0),
+        n = (0, '', '+|-', 0.5),
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (200,"K"),
-        Tmax = (400,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (400, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2333,7 +2333,7 @@ rate coefficient.
 MRH 1-Sept-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2342,21 +2342,21 @@ entry(
     label = "O_rad/NonDe;O_rad/NonDe",
     group1 = 
 """
-1  *  O 1 {2,S}
-2     {Cs,O} 0 {1,S}
+1 * O      1 {2,S}
+2   {Cs,O} 0 {1,S}
 """,
     group2 = 
 """
-1  *  O 1 {2,S}
-2     {Cs,O} 0 {1,S}
+1 * O      1 {2,S}
+2   {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.81e+12,"cm^3/(mol*s)","*|/",5),
+        A = (1810000000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2380,7 +2380,7 @@ Entry 24,24 (b)
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2389,22 +2389,22 @@ entry(
     label = "H_rad;Cs_rad",
     group1 = 
 """
-1  *  H 1
+1 * H 1
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     R 0 {1,S}
-3     R 0 {1,S}
-4     R 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   R 0 {1,S}
+3   R 0 {1,S}
+4   R 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5e+13,"cm^3/(mol*s)"),
+        A = (50000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2416,7 +2416,7 @@ u"""
 Curran's estimation, based on half that recommended by Allara and Shaw [146] for H (rad) and R (rad) recombination reactions
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2425,25 +2425,25 @@ entry(
     label = "C_methyl;C_ter_rad",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     R!H 0 {1,S}
-3     R!H 0 {1,S}
-4     R!H 0 {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   R!H 0 {1,S}
+3   R!H 0 {1,S}
+4   R!H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.63e+13,"cm^3/(mol*s)"),
+        A = (16300000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0.596,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0.596, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2455,7 +2455,7 @@ u"""
 Curran's estimation, based on recommendations of Tsang [92] for CH3 + tC4H9
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2464,25 +2464,25 @@ entry(
     label = "C_methyl;C_sec_rad",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     R!H 0 {1,S}
-4     R!H 0 {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   H   0 {1,S}
+3   R!H 0 {1,S}
+4   R!H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.8e+14,"cm^3/(mol*s)"),
+        A = (680000000000000.0, 'cm^3/(mol*s)'),
         n = -0.68,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2494,7 +2494,7 @@ u"""
 Curran's estimation based on half Tsang's [91] recommendation for CH3 + iC3H7
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2503,25 +2503,25 @@ entry(
     label = "C_pri_rad;C_sec_rad",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     R!H 0 {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   H   0 {1,S}
+3   H   0 {1,S}
+4   R!H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     R!H 0 {1,S}
-4     R!H 0 {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   H   0 {1,S}
+3   R!H 0 {1,S}
+4   R!H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.79e+14,"cm^3/(mol*s)"),
+        A = (479000000000000.0, 'cm^3/(mol*s)'),
         n = -0.75,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2533,7 +2533,7 @@ u"""
 Curran's estimation for neoC5H11 + iC3H7, similar to tC4H9 + iC4H9
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2542,25 +2542,25 @@ entry(
     label = "C_pri_rad;C_ter_rad",
     group1 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     R!H 0 {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   H   0 {1,S}
+3   H   0 {1,S}
+4   R!H 0 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     R!H 0 {1,S}
-3     R!H 0 {1,S}
-4     R!H 0 {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   R!H 0 {1,S}
+3   R!H 0 {1,S}
+4   R!H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.59e+14,"cm^3/(mol*s)"),
+        A = (359000000000000.0, 'cm^3/(mol*s)'),
         n = -0.75,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2574,7 +2574,7 @@ Curran's estimation based on Tsang's [92] reccomendation for tC4H9 Curran's esti
 values from literature for smaller alkyl, based upon the consideration that rate constants decrease with the increasing size of R radical.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2583,21 +2583,21 @@ entry(
     label = "O_pri_rad;O_sec_rad",
     group1 = 
 """
-1  *  O 1 {2,S}
-2     H 0 {1,S}
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     group2 = 
 """
-1  *  O 1 {2,S}
-2     R!H 0 {1,S}
+1 * O   1 {2,S}
+2   R!H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2e+13,"cm^3/(mol*s)"),
+        A = (20000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2614,7 +2614,7 @@ Verified by Greg Magoon; it is not immediately clear whether this rate constant 
 *NHP = Not necessarily at high pressure limit
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2623,20 +2623,20 @@ entry(
     label = "O2_birad;H_rad",
     group1 = 
 """
-1  *  O 1 {2,S}
-2     O 1 {1,S}
+1 * O 1 {2,S}
+2   O 1 {1,S}
 """,
     group2 = 
 """
-1  *  H 1
+1 * H 1
 """,
     kinetics = ArrheniusEP(
-        A = (4.395e+10,"cm^3/(mol*s)"),
+        A = (43950000000.0, 'cm^3/(mol*s)'),
         n = 1,
         alpha = 0,
-        E0 = (0.45,"kcal/mol"),
-        Tmin = (298,"K"),
-        Tmax = (6000,"K"),
+        E0 = (0.45, 'kcal/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (6000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2683,7 +2683,7 @@ have happened since the paper was published in 1996. Revision of this rate is re
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2692,20 +2692,20 @@ entry(
     label = "O2_birad;H_rad",
     group1 = 
 """
-1  *  O 1 {2,S}
-2     O 1 {1,S}
+1 * O 1 {2,S}
+2   O 1 {1,S}
 """,
     group2 = 
 """
-1  *  H 1
+1 * H 1
 """,
     kinetics = ArrheniusEP(
-        A = (8.15e+12,"cm^3/(mol*s)"),
+        A = (8150000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0.76,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0.76, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2722,7 +2722,7 @@ C.D.W. divided rate expression by 2, to get rate of addition per site
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2731,23 +2731,23 @@ entry(
     label = "O2_birad;C_methyl",
     group1 = 
 """
-1  *  O 1 {2,S}
-2     O 1 {1,S}
+1 * O 1 {2,S}
+2   O 1 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.26e+12,"cm^3/(mol*s)","+|-",4.2e+11),
+        A = (2260000000000.0, 'cm^3/(mol*s)', '+|-', 420000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2790,7 +2790,7 @@ rwest@mit.edu  7-Sep-2009
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2799,23 +2799,23 @@ entry(
     label = "O2_birad;C_pri_rad",
     group1 = 
 """
-1  *  O 1 {2,S}
-2     O 1 {1,S}
+1 * O 1 {2,S}
+2   O 1 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     R!H 0 {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   H   0 {1,S}
+3   H   0 {1,S}
+4   R!H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.26e+12,"cm^3/(mol*s)","+|-",4.2e+11),
+        A = (2260000000000.0, 'cm^3/(mol*s)', '+|-', 420000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2856,7 +2856,7 @@ rwest@mit.edu  7-Sep-2009
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2865,23 +2865,23 @@ entry(
     label = "O2_birad;C_sec_rad",
     group1 = 
 """
-1  *  O 1 {2,S}
-2     O 1 {1,S}
+1 * O 1 {2,S}
+2   O 1 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     R!H 0 {1,S}
-4     R!H 0 {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   H   0 {1,S}
+3   R!H 0 {1,S}
+4   R!H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.77e+12,"cm^3/(mol*s)","+|-",1e+12),
+        A = (3770000000000.0, 'cm^3/(mol*s)', '+|-', 1000000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2908,7 +2908,7 @@ rwest@mit.edu  7-Sep-2009
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2917,23 +2917,23 @@ entry(
     label = "O2_birad;C_ter_rad",
     group1 = 
 """
-1  *  O 1 {2,S}
-2     O 1 {1,S}
+1 * O 1 {2,S}
+2   O 1 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,S} {3,S} {4,S}
-2     R!H 0 {1,S}
-3     R!H 0 {1,S}
-4     R!H 0 {1,S}
+1 * C   1 {2,S} {3,S} {4,S}
+2   R!H 0 {1,S}
+3   R!H 0 {1,S}
+4   R!H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.05e+12,"cm^3/(mol*s)","+|-",1.17e+12),
+        A = (7050000000000.0, 'cm^3/(mol*s)', '+|-', 1170000000000.0),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2974,7 +2974,7 @@ rwest@mit.edu  7-Sep-2009
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2983,22 +2983,22 @@ entry(
     label = "O2_birad;Cd_pri_rad",
     group1 = 
 """
-1  *  O 1 {2,S}
-2     O 1 {1,S}
+1 * O 1 {2,S}
+2   O 1 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   C 0 {1,D}
+3   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3e+12,"cm^3/(mol*s)"),
+        A = (3000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3012,7 +3012,7 @@ RRKM extrapolation (adjusted to match data).O2 +CH = CH2CHOO. C.D.W. divided rat
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3021,22 +3021,22 @@ entry(
     label = "O2_birad;Cb_rad",
     group1 = 
 """
-1  *  O 1 {2,S}
-2     O 1 {1,S}
+1 * O 1 {2,S}
+2   O 1 {1,S}
 """,
     group2 = 
 """
-1  *  Cb 1 {2,B} {3,B}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
+1 * Cb       1 {2,B} {3,B}
+2   {Cb,Cbf} 0 {1,B}
+3   {Cb,Cbf} 0 {1,B}
 """,
     kinetics = ArrheniusEP(
-        A = (3.015e+12,"cm^3/(mol*s)","*|/",1.2),
+        A = (3015000000000.0, 'cm^3/(mol*s)', '*|/', 1.2),
         n = 0,
         alpha = 0,
-        E0 = (0.32,"kcal/mol","+|-",0.13),
-        Tmin = (297,"K"),
-        Tmax = (473,"K"),
+        E0 = (0.32, 'kcal/mol', '+|-', 0.13),
+        Tmin = (297, 'K'),
+        Tmax = (473, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3050,7 +3050,7 @@ O2+ phenyl --> phenyl dioxy. Absolute value measured directly. Pressure 0.03-0.1
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3059,22 +3059,22 @@ entry(
     label = "O2_birad;CO_pri_rad",
     group1 = 
 """
-1  *  O 1 {2,S}
-2     O 1 {1,S}
+1 * O 1 {2,S}
+2   O 1 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 * C 1 {2,D} {3,S}
+2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.5e+12,"cm^3/(mol*s)"),
+        A = (3500000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3088,7 +3088,7 @@ RRKM extrapolation. O2 +HCO -->HC(O)O2. C.D.W. divided rate expression by 2, to 
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3097,22 +3097,22 @@ entry(
     label = "O2_birad;CO_rad/NonDe",
     group1 = 
 """
-1  *  O 1 {2,S}
-2     O 1 {1,S}
+1 * O 1 {2,S}
+2   O 1 {1,S}
 """,
     group2 = 
 """
-1  *  C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 * C      1 {2,D} {3,S}
+2   O      0 {1,D}
+3   {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.505e+12,"cm^3/(mol*s)","*|/",3.16),
+        A = (1505000000000.0, 'cm^3/(mol*s)', '*|/', 3.16),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (200,"K"),
-        Tmax = (300,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (300, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3126,33 +3126,37 @@ literature review. Rate constant is high pressure limit. O2+ CH3CO --> CH3C(O)OO
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 491,
-    label = "Y_rad;H_rad",
+    label = "SsJ-Ss;C_methyl",
     group1 = 
 """
-1  *  R 1
+1 * Ss 1 {2,S}
+2   Ss 0 {1,S}
 """,
     group2 = 
 """
-1  *  H 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1e+13,"cm^3/(mol*s)"),
-        n = 0,
+        A = (6440000000.0, 'cm^3/(mol*s)'),
+        n = 1.19,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0.51, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 1,
-    shortDesc = u"""MRH estimate""",
+    rank = 5,
+    shortDesc = u"""A.G. Vandeputte""",
     longDesc = 
 u"""
 MRH estimate
@@ -3173,33 +3177,35 @@ encourage you to run a fame job separately, with the 1e+14 cm3 mol-1 s-1 as the 
 estimate is known).
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 492,
-    label = "Y_rad;Y_rad",
+    label = "SsJ-Cs;SsJ-Cs",
     group1 = 
 """
-1  *  R 1
+1 * Ss 1 {2,S}
+2   Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *  R 1
+1 * Ss 1 {2,S}
+2   Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1e+13,"cm^3/(mol*s)"),
-        n = 0,
+        A = (43600000000.0, 'cm^3/(mol*s)'),
+        n = 1.3,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (-0.88, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 1,
-    shortDesc = u"""MRH estimate""",
+    rank = 5,
+    shortDesc = u"""A.G. Vandeputte""",
     longDesc = 
 u"""
 MRH estimate
@@ -3212,7 +3218,75 @@ reasonable.
 [Please read the comments for entry 491 - Y_rad + H_rad - for more background on the matter].
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 493,
+    label = "CsJ-SsHH;H_rad",
+    group1 = 
+"""
+1 * C  1 {2,S} {3,S} {4,S}
+2   Ss 0 {1,S}
+3   H  0 {1,S}
+4   H  0 {1,S}
+""",
+    group2 = 
+"""
+1 * H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (820000000000.0, 'cm^3/(mol*s)'),
+        n = 0.68,
+        alpha = 0,
+        E0 = (0.07, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A.G. Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 494,
+    label = "SsJ-H;H_rad",
+    group1 = 
+"""
+1 * Ss 1 {2,S}
+2   H  0 {1,S}
+""",
+    group2 = 
+"""
+1 * H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (25300000000000.0, 'cm^3/(mol*s)'),
+        n = 0.56,
+        alpha = 0,
+        E0 = (-0.02, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""A.G. Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
