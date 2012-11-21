@@ -2,13 +2,14 @@
 # encoding: utf-8
 
 name = "2+2_cycloaddition_CCO/groups"
-shortDesc = ""
-longDesc = """
+shortDesc = u""
+longDesc = u"""
 
 """
-recommended = True
 
 template(reactants=["CCO", "doublebond"], products=["four_ring"], ownReverse=False)
+
+reverse = "Four_Ring_Cleavage_CCO"
 
 recipe(actions=[
     ['CHANGE_BOND', '*1', '-1', '*2'],
@@ -22,22 +23,20 @@ entry(
     label = "CCO",
     group = 
 """
-1  *1 Cd 0 {2,D}
-2  *2 Cdd 0 {1,D} {3,D}
-3     Od 0 {2,D}
+1 *1 Cd  0 {2,D}
+2 *2 Cdd 0 {1,D} {3,D}
+3    Od  0 {2,D}
 """,
-    kinetics = KineticsData(Tdata=([300,400,500,600,800,1000,1500,2000],"K"), kdata=([9.79e-28,8.97663e-20,5.37665e-15,8.23084e-12,7.88152e-08,1.9289e-05,0.0295285,1.15533],"m^3/(mol*s)")),
+    kinetics = None,
     reference = None,
     referenceType = "",
-    shortDesc = u"""Group additive kinetics.""",
+    shortDesc = u"""""",
     longDesc = 
 u"""
-Fitted to 1 rates.
-[<Entry index=1 label="CCO">, <Entry index=2 label="doublebond">]
+
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("Fri Jun  3 13:15:48 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen generated new group additivity values for this entry."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -54,7 +53,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -63,11 +62,11 @@ entry(
     label = "CCO_2H",
     group = 
 """
-1  *1 Cd 0 {2,D} {3,S} {4,S}
-2  *2 Cdd 0 {1,D} {5,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Od 0 {2,D}
+1 *1 Cd  0 {2,D} {3,S} {4,S}
+2 *2 Cdd 0 {1,D} {5,D}
+3    H   0 {1,S}
+4    H   0 {1,S}
+5    Od  0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -78,7 +77,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -87,11 +86,11 @@ entry(
     label = "CCO_HNd",
     group = 
 """
-1  *1 Cd 0 {2,D} {3,S} {4,S}
-2  *2 Cdd 0 {1,D} {5,D}
-3     H 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     Od 0 {2,D}
+1 *1 Cd     0 {2,D} {3,S} {4,S}
+2 *2 Cdd    0 {1,D} {5,D}
+3    H      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    Od     0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -102,7 +101,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -111,11 +110,11 @@ entry(
     label = "CCO_HDe",
     group = 
 """
-1  *1 Cd 0 {2,D} {3,S} {4,S}
-2  *2 Cdd 0 {1,D} {5,D}
-3     H 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     Od 0 {2,D}
+1 *1 Cd            0 {2,D} {3,S} {4,S}
+2 *2 Cdd           0 {1,D} {5,D}
+3    H             0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 {1,S}
+5    Od            0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -126,7 +125,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -135,11 +134,11 @@ entry(
     label = "CCO_Nd2",
     group = 
 """
-1  *1 Cd 0 {2,D} {3,S} {4,S}
-2  *2 Cdd 0 {1,D} {5,D}
-3     {Cs,O} 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     Od 0 {2,D}
+1 *1 Cd     0 {2,D} {3,S} {4,S}
+2 *2 Cdd    0 {1,D} {5,D}
+3    {Cs,O} 0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    Od     0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -150,7 +149,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -159,11 +158,11 @@ entry(
     label = "CCO_NdDe",
     group = 
 """
-1  *1 Cd 0 {2,D} {3,S} {4,S}
-2  *2 Cdd 0 {1,D} {5,D}
-3     {Cs,O} 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     Od 0 {2,D}
+1 *1 Cd            0 {2,D} {3,S} {4,S}
+2 *2 Cdd           0 {1,D} {5,D}
+3    {Cs,O}        0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 {1,S}
+5    Od            0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -174,7 +173,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -183,11 +182,11 @@ entry(
     label = "CCO_De2",
     group = 
 """
-1  *1 Cd 0 {2,D} {3,S} {4,S}
-2  *2 Cdd 0 {1,D} {5,D}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     Od 0 {2,D}
+1 *1 Cd            0 {2,D} {3,S} {4,S}
+2 *2 Cdd           0 {1,D} {5,D}
+3    {Cd,Ct,Cb,CO} 0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 {1,S}
+5    Od            0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -198,7 +197,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -207,9 +206,9 @@ entry(
     label = "mb_CCO",
     group = 
 """
-1  *3 Cd 0 {2,D}
-2  *4 Cdd 0 {1,D} {3,D}
-3     Od 0 {2,D}
+1 *3 Cd  0 {2,D}
+2 *4 Cdd 0 {1,D} {3,D}
+3    Od  0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -220,7 +219,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -229,11 +228,11 @@ entry(
     label = "mb_CCO_2H",
     group = 
 """
-1  *3 Cd 0 {2,D} {3,S} {4,S}
-2  *4 Cdd 0 {1,D} {5,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Od 0 {2,D}
+1 *3 Cd  0 {2,D} {3,S} {4,S}
+2 *4 Cdd 0 {1,D} {5,D}
+3    H   0 {1,S}
+4    H   0 {1,S}
+5    Od  0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -244,7 +243,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -253,11 +252,11 @@ entry(
     label = "mb_CCO_HNd",
     group = 
 """
-1  *3 Cd 0 {2,D} {3,S} {4,S}
-2  *4 Cdd 0 {1,D} {5,D}
-3     H 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     Od 0 {2,D}
+1 *3 Cd     0 {2,D} {3,S} {4,S}
+2 *4 Cdd    0 {1,D} {5,D}
+3    H      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    Od     0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -268,7 +267,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -277,11 +276,11 @@ entry(
     label = "mb_CCO_HDe",
     group = 
 """
-1  *3 Cd 0 {2,D} {3,S} {4,S}
-2  *4 Cdd 0 {1,D} {5,D}
-3     H 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     Od 0 {2,D}
+1 *3 Cd            0 {2,D} {3,S} {4,S}
+2 *4 Cdd           0 {1,D} {5,D}
+3    H             0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 {1,S}
+5    Od            0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -292,7 +291,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -301,11 +300,11 @@ entry(
     label = "mb_CCO_Nd2",
     group = 
 """
-1  *3 Cd 0 {2,D} {3,S} {4,S}
-2  *4 Cdd 0 {1,D} {5,D}
-3     {Cs,O} 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     Od 0 {2,D}
+1 *3 Cd     0 {2,D} {3,S} {4,S}
+2 *4 Cdd    0 {1,D} {5,D}
+3    {Cs,O} 0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    Od     0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -316,7 +315,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -325,11 +324,11 @@ entry(
     label = "mb_CCO_NdDe",
     group = 
 """
-1  *3 Cd 0 {2,D} {3,S} {4,S}
-2  *4 Cdd 0 {1,D} {5,D}
-3     {Cs,O} 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     Od 0 {2,D}
+1 *3 Cd            0 {2,D} {3,S} {4,S}
+2 *4 Cdd           0 {1,D} {5,D}
+3    {Cs,O}        0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 {1,S}
+5    Od            0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -340,7 +339,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -349,11 +348,11 @@ entry(
     label = "mb_CCO_De2",
     group = 
 """
-1  *3 Cd 0 {2,D} {3,S} {4,S}
-2  *4 Cdd 0 {1,D} {5,D}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     Od 0 {2,D}
+1 *3 Cd            0 {2,D} {3,S} {4,S}
+2 *4 Cdd           0 {1,D} {5,D}
+3    {Cd,Ct,Cb,CO} 0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 {1,S}
+5    Od            0 {2,D}
 """,
     kinetics = None,
     reference = None,
@@ -364,7 +363,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -373,9 +372,9 @@ entry(
     label = "mb_COC",
     group = 
 """
-1  *3 Cdd 0 {2,D} {3,D}
-2  *4 Cd 0 {1,D}
-3     Od 0 {1,D}
+1 *3 Cdd 0 {2,D} {3,D}
+2 *4 Cd  0 {1,D}
+3    Od  0 {1,D}
 """,
     kinetics = None,
     reference = None,
@@ -386,7 +385,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -395,11 +394,11 @@ entry(
     label = "mb_COC_2H",
     group = 
 """
-1  *3 Cdd 0 {2,D} {5,D}
-2  *4 Cd 0 {1,D} {3,S} {4,S}
-3     H 0 {2,S}
-4     H 0 {2,S}
-5     Od 0 {1,D}
+1 *3 Cdd 0 {2,D} {5,D}
+2 *4 Cd  0 {1,D} {3,S} {4,S}
+3    H   0 {2,S}
+4    H   0 {2,S}
+5    Od  0 {1,D}
 """,
     kinetics = None,
     reference = None,
@@ -410,7 +409,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -419,11 +418,11 @@ entry(
     label = "mb_COC_HNd",
     group = 
 """
-1  *3 Cdd 0 {2,D} {5,D}
-2  *4 Cd 0 {1,D} {3,S} {4,S}
-3     H 0 {2,S}
-4     {Cs,O} 0 {2,S}
-5     Od 0 {1,D}
+1 *3 Cdd    0 {2,D} {5,D}
+2 *4 Cd     0 {1,D} {3,S} {4,S}
+3    H      0 {2,S}
+4    {Cs,O} 0 {2,S}
+5    Od     0 {1,D}
 """,
     kinetics = None,
     reference = None,
@@ -434,7 +433,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -443,11 +442,11 @@ entry(
     label = "mb_COC_HDe",
     group = 
 """
-1  *3 Cdd 0 {2,D} {5,D}
-2  *4 Cd 0 {1,D} {3,S} {4,S}
-3     H 0 {2,S}
-4     {Cd,Ct,Cb,CO} 0 {2,S}
-5     Od 0 {1,D}
+1 *3 Cdd           0 {2,D} {5,D}
+2 *4 Cd            0 {1,D} {3,S} {4,S}
+3    H             0 {2,S}
+4    {Cd,Ct,Cb,CO} 0 {2,S}
+5    Od            0 {1,D}
 """,
     kinetics = None,
     reference = None,
@@ -458,7 +457,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -467,11 +466,11 @@ entry(
     label = "mb_COC_Nd2",
     group = 
 """
-1  *3 Cdd 0 {2,D} {5,D}
-2  *4 Cd 0 {1,D} {3,S} {4,S}
-3     {Cs,O} 0 {2,S}
-4     {Cs,O} 0 {2,S}
-5     Od 0 {1,D}
+1 *3 Cdd    0 {2,D} {5,D}
+2 *4 Cd     0 {1,D} {3,S} {4,S}
+3    {Cs,O} 0 {2,S}
+4    {Cs,O} 0 {2,S}
+5    Od     0 {1,D}
 """,
     kinetics = None,
     reference = None,
@@ -482,7 +481,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -491,11 +490,11 @@ entry(
     label = "mb_COC_NdDe",
     group = 
 """
-1  *3 Cdd 0 {2,D} {5,D}
-2  *4 Cd 0 {1,D} {3,S} {4,S}
-3     {Cs,O} 0 {2,S}
-4     {Cd,Ct,Cb,CO} 0 {2,S}
-5     Od 0 {1,D}
+1 *3 Cdd           0 {2,D} {5,D}
+2 *4 Cd            0 {1,D} {3,S} {4,S}
+3    {Cs,O}        0 {2,S}
+4    {Cd,Ct,Cb,CO} 0 {2,S}
+5    Od            0 {1,D}
 """,
     kinetics = None,
     reference = None,
@@ -506,7 +505,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -515,11 +514,11 @@ entry(
     label = "mb_COC_De2",
     group = 
 """
-1  *3 Cdd 0 {2,D} {5,D}
-2  *4 Cd 0 {1,D} {3,S} {4,S}
-3     {Cd,Ct,Cb,CO} 0 {2,S}
-4     {Cd,Ct,Cb,CO} 0 {2,S}
-5     Od 0 {1,D}
+1 *3 Cdd           0 {2,D} {5,D}
+2 *4 Cd            0 {1,D} {3,S} {4,S}
+3    {Cd,Ct,Cb,CO} 0 {2,S}
+4    {Cd,Ct,Cb,CO} 0 {2,S}
+5    Od            0 {1,D}
 """,
     kinetics = None,
     reference = None,
@@ -530,7 +529,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

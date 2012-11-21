@@ -4,7 +4,11 @@
 name = "R_Addition_COm/rules"
 shortDesc = u""
 longDesc = u"""
-
+.. [MRHCBSQB31DHR] M.R. Harper (mrharper_at_mit_dot_edu or michael_dot_harper_dot_jr_at_gmail_dot_com)
+The geometries of all reactants, products, and the transition state were optimized using the CBS-QB3 method.
+The zero-point energy is that computed by the CBS-QB3 calculations.  The frequencies were computed with B3LYP/CBSB7.
+In computing k(T), an asymmetric tunneling correction was employed, the calculated frequencies were scaled by 0.99, and the 
+temperatures used were from 600 K to 2000 K (in 200 K increments).
 """
 recommended = True
 
@@ -13,20 +17,20 @@ entry(
     label = "COm;Y_rad",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 R 1
+1 *2 R 1
 """,
     kinetics = ArrheniusEP(
-        A = (1e+11,"cm^3/(mol*s)"),
+        A = (100000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (5,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -37,7 +41,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -46,20 +50,20 @@ entry(
     label = "COm;H_rad",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 H 1
+1 *2 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (1.18e+11,"cm^3/(mol*s)"),
+        A = (118000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (2.72,"kcal/mol"),
-        Tmin = (345,"K"),
-        Tmax = (449,"K"),
+        E0 = (2.72, 'kcal/mol'),
+        Tmin = (345, 'K'),
+        Tmax = (449, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -119,7 +123,7 @@ reported by Sepehrad et al., they estimate a value of k2.
 MRH 1-Sept-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -128,20 +132,20 @@ entry(
     label = "COm;H_rad",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 H 1
+1 *2 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (1.87e+11,"cm^3/(mol*s)"),
+        A = (187000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (1.53,"kcal/mol"),
-        Tmin = (305,"K"),
-        Tmax = (375,"K"),
+        E0 = (1.53, 'kcal/mol'),
+        Tmin = (305, 'K'),
+        Tmax = (375, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -171,7 +175,7 @@ the authors suspect oxygen contamination; they further note that the reaction be
 H-atom and O2 is 10^4 times faster than the H+CO-->HCO rxn. ***
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -180,23 +184,23 @@ entry(
     label = "COm;C_methyl",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *2 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.06e+11,"cm^3/(mol*s)","*|/",3.16),
+        A = (506000000000.0, 'cm^3/(mol*s)', '*|/', 3.16),
         n = 0,
         alpha = 0,
-        E0 = (6.88,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (500,"K"),
+        E0 = (6.88, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -224,7 +228,7 @@ constant (from Bencsura et al.)
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -233,23 +237,23 @@ entry(
     label = "COm;C_rad/H2/Cs",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *2 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.51e+11,"cm^3/(mol*s)","*|/",2),
+        A = (151000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
-        E0 = (4.81,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (4.81, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -275,7 +279,7 @@ Fall-off corrections and collision efficiencies are also available
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -284,22 +288,22 @@ entry(
     label = "COm;Cd_pri_rad",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *2 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.51e+11,"cm^3/(mol*s)","*|/",5),
+        A = (151000000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
-        E0 = (4.81,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (4.81, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -327,7 +331,7 @@ Fall-off corrections and collision efficiencies are also available
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -336,22 +340,22 @@ entry(
     label = "COm;Cb_rad",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 Cb 1 {2,B} {3,B}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
+1 *2 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
 """,
     kinetics = ArrheniusEP(
-        A = (1.48e+12,"cm^3/(mol*s)","*|/",1.5),
+        A = (1480000000000.0, 'cm^3/(mol*s)', '*|/', 1.5),
         n = 0,
         alpha = 0,
-        E0 = (3.33,"kcal/mol","+|-",0.3),
-        Tmin = (295,"K"),
-        Tmax = (500,"K"),
+        E0 = (3.33, 'kcal/mol', '+|-', 0.3),
+        Tmin = (295, 'K'),
+        Tmax = (500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -425,7 +429,7 @@ now stores the k1_inf value. ***
 MRH 1-Sept-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -434,21 +438,21 @@ entry(
     label = "COm;O_rad/NonDe",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 O 1 {2,S}
-2     {Cs,O} 0 {1,S}
+1 *2 O      1 {2,S}
+2    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.41e+07,"cm^3/(mol*s)"),
+        A = (34100000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (3,"kcal/mol"),
-        Tmin = (250,"K"),
-        Tmax = (2500,"K"),
+        E0 = (3, 'kcal/mol'),
+        Tmin = (250, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -471,7 +475,7 @@ by MRH are thus: A=3.40x10^7 cm3/mol/s, Ea=2.98 kcal/mol, in agreement w/databas
 MRH 1-Sept-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -480,23 +484,23 @@ entry(
     label = "COm;C_methyl",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *2 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.06e+06,"cm^3/(mol*s)","*|/",3),
+        A = (3060000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 1.89,
         alpha = 0,
-        E0 = (4.82,"kcal/mol","+|-",2),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
+        E0 = (4.82, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -511,15 +515,9 @@ Methyl (doublet): external symmetry number (EXTSYM) = 6
 CO (singlet): EXTSYM = 1
 TS (doublet): EXTSYM = 1, one hindered rotor (methyl group, symmetry = 3)
 CH3CO (doublet): EXTSYM = 1, one hindered rotor (methyl group, symmetry = 3)
-
-[MRHCBSQB31DHR] M.R. Harper (mrharper_at_mit_dot_edu or michael_dot_harper_dot_jr_at_gmail_dot_com)
-The geometries of all reactants, products, and the transition state were optimized using the CBS-QB3 method.
-The zero-point energy is that computed by the CBS-QB3 calculations. The frequencies were computed with B3LYP/CBSB7.
-In computing k(T), an asymmetric tunneling correction was employed, the calculated frequencies were scaled by 0.99, and the
-temperatures used were from 600 K to 2000 K (in 200 K increments).
 """,
     history = [
-        ("Fri Jun 10 17:16:47 2011","Connie Gao <connieg@mit.edu>","action","""connie imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -528,26 +526,26 @@ entry(
     label = "COm;CH2CH3",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     C 0 {1,S} {5,S} {6,S} {7,S}
-5     H 0 {4,S}
-6     H 0 {4,S}
-7     H 0 {4,S}
+1 *2 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    C 0 {1,S} {5,S} {6,S} {7,S}
+5    H 0 {4,S}
+6    H 0 {4,S}
+7    H 0 {4,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.7e+07,"cm^3/(mol*s)","*|/",3),
+        A = (77000000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 1.37,
         alpha = 0,
-        E0 = (5.69,"kcal/mol","+|-",2),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
+        E0 = (5.69, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -562,15 +560,9 @@ Ethyl (doublet): external symmetry number (EXTSYM) = 1, one hindered rotor (meth
 CO (singlet): EXTSYM = 1
 TS (doublet): EXTSYM = 1, two hindered rotors (methyl group, symmetry = 3; ethyl group, symmetry = 1)
 CH3CH2CO (doublet): EXTSYM = 1, two hindered rotors (methyl group, symmetry = 3; ethyl group, symmetry = 1)
-
-[MRHCBSQB31DHR] M.R. Harper (mrharper_at_mit_dot_edu or michael_dot_harper_dot_jr_at_gmail_dot_com)
-The geometries of all reactants, products, and the transition state were optimized using the CBS-QB3 method.
-The zero-point energy is that computed by the CBS-QB3 calculations. The frequencies were computed with B3LYP/CBSB7.
-In computing k(T), an asymmetric tunneling correction was employed, the calculated frequencies were scaled by 0.99, and the
-temperatures used were from 600 K to 2000 K (in 200 K increments).
 """,
     history = [
-        ("Fri Jun 10 17:16:47 2011","Connie Gao <connieg@mit.edu>","action","""connie imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -579,8 +571,8 @@ entry(
     label = "COm;CH2CH2CH3",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
@@ -596,12 +588,12 @@ entry(
 10    H 0 {7,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.51e+10,"cm^3/(mol*s)","*|/",3),
+        A = (65100000000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 0.45,
         alpha = 0,
-        E0 = (6.68,"kcal/mol","+|-",2),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
+        E0 = (6.68, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -616,15 +608,9 @@ n-Propyl (doublet): external symmetry number (EXTSYM) = 1, two hindered rotors (
 CO (singlet): EXTSYM = 1
 TS (doublet): EXTSYM = 1, three hindered rotors (methyl group, symmetry = 3; ethyl group, symmetry = 2; propyl group, symmetry = 1)
 CH3CH2CH2CO (doublet): EXTSYM = 1, three hindered rotors (methyl group, symmetry = 3; ethyl group, symmetry = 1; propyl group, symmetry = 1)
-
-[MRHCBSQB31DHR] M.R. Harper (mrharper_at_mit_dot_edu or michael_dot_harper_dot_jr_at_gmail_dot_com)
-The geometries of all reactants, products, and the transition state were optimized using the CBS-QB3 method.
-The zero-point energy is that computed by the CBS-QB3 calculations. The frequencies were computed with B3LYP/CBSB7.
-In computing k(T), an asymmetric tunneling correction was employed, the calculated frequencies were scaled by 0.99, and the
-temperatures used were from 600 K to 2000 K (in 200 K increments).
 """,
     history = [
-        ("Fri Jun 10 17:16:47 2011","Connie Gao <connieg@mit.edu>","action","""connie imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -633,8 +619,8 @@ entry(
     label = "COm;CH[CH3]2",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
@@ -650,12 +636,12 @@ entry(
 10    H 0 {4,S}
 """,
     kinetics = ArrheniusEP(
-        A = (8.61e+07,"cm^3/(mol*s)","*|/",3),
+        A = (86100000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 1.36,
         alpha = 0,
-        E0 = (4.8,"kcal/mol","+|-",2),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
+        E0 = (4.8, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -670,15 +656,9 @@ iso-Propyl (doublet): external symmetry number (EXTSYM) = 1, two hindered rotors
 CO (singlet): EXTSYM = 1
 TS (doublet): EXTSYM = 1, three hindered rotors (methyl group, symmetry = 3; methyl group, symmetry = 3; propyl group, symmetry = 1)
 CH3CH(CO)CH3 (doublet): EXTSYM = 1, three hindered rotors (methyl group, symmetry = 3; methyl group, symmetry = 3; propyl group, symmetry = 1)
-
-[MRHCBSQB31DHR] M.R. Harper (mrharper_at_mit_dot_edu or michael_dot_harper_dot_jr_at_gmail_dot_com)
-The geometries of all reactants, products, and the transition state were optimized using the CBS-QB3 method.
-The zero-point energy is that computed by the CBS-QB3 calculations. The frequencies were computed with B3LYP/CBSB7.
-In computing k(T), an asymmetric tunneling correction was employed, the calculated frequencies were scaled by 0.99, and the
-temperatures used were from 600 K to 2000 K (in 200 K increments).
 """,
     history = [
-        ("Fri Jun 10 17:16:47 2011","Connie Gao <connieg@mit.edu>","action","""connie imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

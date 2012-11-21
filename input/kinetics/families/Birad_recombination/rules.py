@@ -14,19 +14,19 @@ entry(
     group1 = "OR{R3, R4, R5, R6}",
     group2 = 
 """
-1  *1 R!H 1
+1 *1 R!H 1
 """,
     group3 = 
 """
-1  *2 R!H 1
+1 *2 R!H 1
 """,
     kinetics = ArrheniusEP(
-        A = (5e+11,"s^-1"),
+        A = (500000000000.0, 's^-1'),
         n = 0,
         alpha = 0,
-        E0 = (30,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (30, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -37,7 +37,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -46,32 +46,32 @@ entry(
     label = "R6_SSSDS;C_rad_out_H/OneDe;Cpri_rad_out_2H",
     group1 = 
 """
-1  *1 {Cs,Cd,CO,Os} 1 {2,S}
-2  *3 {Cs,Cd,CO,Os} 0 {1,S} {3,S}
-3     {Cs,Cd,CO,Os} 0 {2,S} {4,S}
-4     Cd 0 {3,S} {5,D}
-5  *4 Cd 0 {4,D} {6,S}
-6  *2 {Cs,Cd,CO,Os} 1 {5,S}
+1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
+3    {Cs,Cd,CO,Os,Ss} 0 {2,S} {4,S}
+4    Cd               0 {3,S} {5,D}
+5 *4 Cd               0 {4,D} {6,S}
+6 *2 {Cs,Cd,CO,Os,Ss} 1 {5,S}
 """,
     group2 = 
 """
-1  *1 C 1 {2,S} {3,S}
-2     H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 C             1 {2,S} {3,S}
+2    H             0 {1,S}
+3    {Cd,Ct,Cb,CO} 0 {1,S}
 """,
     group3 = 
 """
-1  *2 C 1 {2,S} {3,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
+1 *2 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2e+12,"s^-1"),
+        A = (2000000000000.0, 's^-1'),
         n = 0,
         alpha = 0,
-        E0 = (1.8,"kcal/mol","+|-",1),
-        Tmin = (550,"K"),
-        Tmax = (650,"K"),
+        E0 = (1.8, 'kcal/mol', '+|-', 1),
+        Tmin = (550, 'K'),
+        Tmax = (650, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -91,7 +91,7 @@ Verified by Greg Magoon: Rxn. -d. also looks to be of interest here; whether the
 Note: after some preliminary confusion on my part, it looks like the existing groups are correct (the correct resonance form for the CH2 radical is taken into account with the Ypri_rad_out (i.e. Cpri_rad_out_H2)), but arguably, another, a more-specific group (C_rad_out_H2/OneDe and Cpri_rad_out_H2/OneDe) should be specified to account for delocalizing group at this site
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -100,30 +100,30 @@ entry(
     label = "R4_SSS;C_rad_out_2H;Cpri_rad_out_2H",
     group1 = 
 """
-1  *1 {Cs,Cd,CO,Os} 1 {2,S}
-2  *3 {Cs,Cd,CO,Os} 0 {1,S} {3,S}
-3  *4 {Cs,Cd,CO,Os} 0 {2,S} {4,S}
-4  *2 {Cs,Cd,CO,Os} 1 {3,S}
+1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
+3 *4 {Cs,Cd,CO,Os,Ss} 0 {2,S} {4,S}
+4 *2 {Cs,Cd,CO,Os,Ss} 1 {3,S}
 """,
     group2 = 
 """
-1  *1 C 1 {2,S} {3,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group3 = 
 """
-1  *2 C 1 {2,S} {3,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
+1 *2 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.62e+12,"s^-1"),
+        A = (1620000000000.0, 's^-1'),
         n = -0.305,
         alpha = 0,
-        E0 = (1.98,"kcal/mol"),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
+        E0 = (1.98, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -140,41 +140,40 @@ TST calculation
 Added by Greg Magoon: Stated pressure is 1 atm, but I believe they are actually calculating the high-pressure limit rate constant
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 486,
-    label = "R6_SSSSS;C_rad_out_2H;Cpri_rad_out_2H",
+    label = "R5_SSSS;C_rad_out_2H;Cpri_rad_out_2H",
     group1 = 
 """
-1  *1 {Cs,Cd,CO,Os} 1 {2,S}
-2  *3 {Cs,Cd,CO,Os} 0 {1,S} {3,S}
-3     {Cs,Cd,CO,Os} 0 {2,S} {4,S}
-4     {Cs,Cd,CO,Os} 0 {3,S} {5,S}
-5  *4 {Cs,Cd,CO,Os} 0 {4,S} {6,S}
-6  *2 {Cs,Cd,CO,Os} 1 {5,S}
+1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
+3    {Cs,Cd,CO,Os,Ss} 0 {2,S} {4,S}
+4 *4 {Cs,Cd,CO,Os,Ss} 0 {3,S} {5,S}
+5 *2 {Cs,Cd,CO,Os,Ss} 1 {4,S}
 """,
     group2 = 
 """
-1  *1 C 1 {2,S} {3,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     group3 = 
 """
-1  *2 C 1 {2,S} {3,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
+1 *2 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.21e+10,"s^-1"),
-        n = 0.137,
+        A = (7760000000.0, 's^-1'),
+        n = 0.311,
         alpha = 0,
-        E0 = (2.12,"kcal/mol"),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
+        E0 = (1.7, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -193,7 +192,90 @@ Added by Greg Magoon: Stated pressure is 1 atm, but I believe they are actually 
 Note: Recent experimental/RRKM study by Kiefer, Gupte, Harding, and Klippenstein (http://www.combustion.org.uk/ECM_2009/P810069.pdf) (stated uncertainty is +/- 30%) appears to agree with Sirjean et al. results, but they only report forward rate constant
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 487,
+    label = "R6_SSSSS;C_rad_out_2H;Cpri_rad_out_2H",
+    group1 = 
+"""
+1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
+3    {Cs,Cd,CO,Os,Ss} 0 {2,S} {4,S}
+4    {Cs,Cd,CO,Os,Ss} 0 {3,S} {5,S}
+5 *4 {Cs,Cd,CO,Os,Ss} 0 {4,S} {6,S}
+6 *2 {Cs,Cd,CO,Os,Ss} 1 {5,S}
+""",
+    group2 = 
+"""
+1 *1 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group3 = 
+"""
+1 *2 C 1 {2,S} {3,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (32100000000.0, 's^-1'),
+        n = 0.137,
+        alpha = 0,
+        E0 = (2.12, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""[x] Sirjean et al.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 488,
+    label = "R3_SS;S_rad;Spri_rad",
+    group1 = 
+"""
+1 *1 {Cs,Cd,CO,Os,Ss} 1 {2,S}
+2 *3 {Cs,Cd,CO,Os,Ss} 0 {1,S} {3,S}
+3 *2 {Cs,Cd,CO,Os,Ss} 1 {2,S}
+""",
+    group2 = 
+"""
+1 *1 Ss 1
+""",
+    group3 = 
+"""
+1 *2 Ss 1
+""",
+    kinetics = ArrheniusEP(
+        A = (2.18e+16, 's^-1'),
+        n = 0,
+        alpha = 0,
+        E0 = (0.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""A.G. Vandeputte""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

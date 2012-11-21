@@ -13,13 +13,13 @@ entry(
     label = "Ring",
     group = 
 """
-1  *  R 0
+1 * R 0
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (0,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""Dummy Root""",
     longDesc = 
@@ -27,7 +27,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -36,18 +36,18 @@ entry(
     label = "ThreeMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {3,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {1,{S,D}} {2,{S,D}}
+1 * R!H 0 {2,{S,D}} {3,{S,D}}
+2   R!H 0 {1,{S,D}} {3,{S,D}}
+3   R!H 0 {1,{S,D}} {2,{S,D}}
 """,
-    thermo = 'Cyclopropane',
+    thermo = u'Cyclopropane',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -56,15 +56,15 @@ entry(
     label = "Cyclopropane",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {1,S} {2,S}
+1 * Cs 0 {2,S} {3,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {1,S} {2,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-3.227,-2.849,-2.536,-2.35,-2.191,-2.111,-1.76],"cal/(mol*K)"),
-        H298 = (27.53,"kcal/mol"),
-        S298 = (32.0088,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.227,-2.849,-2.536,-2.35,-2.191,-2.111,-1.76],'cal/(mol*K)'),
+        H298 = (27.53,'kcal/mol'),
+        S298 = (32.0088,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclopropane ring BENSON""",
     longDesc = 
@@ -72,7 +72,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -81,15 +81,15 @@ entry(
     label = "Cyclopropene",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {1,S} {2,D}
+1 * Cs 0 {2,S} {3,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {1,S} {2,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-0.469,-0.789,-0.953,-1.107,-1.45,-1.696,-1.716],"cal/(mol*K)"),
-        H298 = (55.4702,"kcal/mol"),
-        S298 = (33.3257,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.469,-0.789,-0.953,-1.107,-1.45,-1.696,-1.716],'cal/(mol*K)'),
+        H298 = (55.4702,'kcal/mol'),
+        S298 = (33.3257,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclopropene ring BENSON""",
     longDesc = 
@@ -97,7 +97,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -106,15 +106,15 @@ entry(
     label = "Cyclopropadiene",
     group = 
 """
-1  *  Cd 0 {2,S} {3,D}
-2     Cd 0 {1,S} {3,D}
-3     Cdd 0 {1,D} {2,D}
+1 * Cd  0 {2,S} {3,D}
+2   Cd  0 {1,S} {3,D}
+3   Cdd 0 {1,D} {2,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-0.469,-0.789,-0.953,-1.107,-1.45,-1.696,-1.716],"cal/(mol*K)"),
-        H298 = (73.04,"kcal/mol"),
-        S298 = (33.3257,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.469,-0.789,-0.953,-1.107,-1.45,-1.696,-1.716],'cal/(mol*K)'),
+        H298 = (73.04,'kcal/mol'),
+        S298 = (33.3257,'cal/(mol*K)'),
     ),
     shortDesc = u"""Enthalpy from doi:10.1021/j100005a002 (S and Cp from Cyclopropene row above)""",
     longDesc = 
@@ -122,7 +122,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -131,15 +131,15 @@ entry(
     label = "Cyclopropatriene",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Cdd 0 {1,D} {3,D}
-3     Cdd 0 {1,D} {2,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Cdd 0 {1,D} {3,D}
+3   Cdd 0 {1,D} {2,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-0.469,-0.789,-0.953,-1.107,-1.45,-1.696,-1.716],"cal/(mol*K)"),
-        H298 = (78,"kcal/mol"),
-        S298 = (33.3257,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.469,-0.789,-0.953,-1.107,-1.45,-1.696,-1.716],'cal/(mol*K)'),
+        H298 = (78,'kcal/mol'),
+        S298 = (33.3257,'cal/(mol*K)'),
     ),
     shortDesc = u"""Enthalpy from doi:10.1021/j100005a002 (S and Cp from Cyclopropene row above)""",
     longDesc = 
@@ -147,7 +147,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -156,15 +156,15 @@ entry(
     label = "Ethylene_oxide",
     group = 
 """
-1  *  O 0 {2,S} {3,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {1,S} {2,S}
+1 * O  0 {2,S} {3,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {1,S} {2,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-1.891,-2.459,-2.221,-1.969,-1.965,-1.759,2.564],"cal/(mol*K)"),
-        H298 = (26.82,"kcal/mol"),
-        S298 = (31.1767,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.891,-2.459,-2.221,-1.969,-1.965,-1.759,2.564],'cal/(mol*K)'),
+        H298 = (26.82,'kcal/mol'),
+        S298 = (31.1767,'cal/(mol*K)'),
     ),
     shortDesc = u"""CY/C2O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
     longDesc = 
@@ -172,7 +172,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -181,15 +181,15 @@ entry(
     label = "dioxirane",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Os 0 {1,S} {3,S}
-3     Cs 0 {1,S} {2,S}
+1 * Os 0 {2,S} {3,S}
+2   Os 0 {1,S} {3,S}
+3   Cs 0 {1,S} {2,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-3.099,-3.194,-3.095,-3.038,-3.281,-3.818,-1.346],"cal/(mol*K)"),
-        H298 = (25.1977,"kcal/mol"),
-        S298 = (32.3877,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.099,-3.194,-3.095,-3.038,-3.281,-3.818,-1.346],'cal/(mol*K)'),
+        H298 = (25.1977,'kcal/mol'),
+        S298 = (32.3877,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -197,7 +197,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -206,15 +206,15 @@ entry(
     label = "2(co)oxirane",
     group = 
 """
-1     CO 0 {2,S} {3,S}
-2  *  Os 0 {1,S} {3,S}
-3     Cs 0 {1,S} {2,S}
+1   CO 0 {2,S} {3,S}
+2 * Os 0 {1,S} {3,S}
+3   Cs 0 {1,S} {2,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0.147,-1.715,-2.067,-2.254,-2.546,-2.592,-1.488],"cal/(mol*K)"),
-        H298 = (40.7699,"kcal/mol"),
-        S298 = (34.529,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.147,-1.715,-2.067,-2.254,-2.546,-2.592,-1.488],'cal/(mol*K)'),
+        H298 = (40.7699,'kcal/mol'),
+        S298 = (34.529,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -222,7 +222,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -231,15 +231,15 @@ entry(
     label = "cyclopropanedione",
     group = 
 """
-1     CO 0 {2,S} {3,S}
-2  *  CO 0 {1,S} {3,S}
-3     Cs 0 {1,S} {2,S}
+1   CO 0 {2,S} {3,S}
+2 * CO 0 {1,S} {3,S}
+3   Cs 0 {1,S} {2,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([2.85,1.69,0.674,-0.137,-1.157,-2.068,0.878],"cal/(mol*K)"),
-        H298 = (67.2975,"kcal/mol"),
-        S298 = (38.9107,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([2.85,1.69,0.674,-0.137,-1.157,-2.068,0.878],'cal/(mol*K)'),
+        H298 = (67.2975,'kcal/mol'),
+        S298 = (38.9107,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -247,7 +247,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -256,15 +256,15 @@ entry(
     label = "cyclopropenone",
     group = 
 """
-1     Cd 0 {2,S} {3,D}
-2  *  CO 0 {1,S} {3,S}
-3     Cd 0 {1,D} {2,S}
+1   Cd 0 {2,S} {3,D}
+2 * CO 0 {1,S} {3,S}
+3   Cd 0 {1,D} {2,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-0.734,-1.275,-1.673,-1.861,-2.134,-2.557,-1.78],"cal/(mol*K)"),
-        H298 = (56.774,"kcal/mol"),
-        S298 = (35.6157,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.734,-1.275,-1.673,-1.861,-2.134,-2.557,-1.78],'cal/(mol*K)'),
+        H298 = (56.774,'kcal/mol'),
+        S298 = (35.6157,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -272,7 +272,107 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 133,
+    label = "thiirane",
+    group = 
+"""
+1 * S 0 {2,S} {3,S}
+2   C 0 {1,S} {3,S}
+3   C 0 {1,S} {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.02,-2.54,-2.13,-1.81,-1.49,-1.26,-0.96],'cal/(mol*K)'),
+        H298 = (17.82,'kcal/mol'),
+        S298 = (28.57,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 134,
+    label = "dithiirane",
+    group = 
+"""
+1 * S 0 {2,S} {3,S}
+2   S 0 {1,S} {3,S}
+3   C 0 {1,S} {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.26,-6.35,-5.37,-4.63,-3.67,-3.08,-2.21],'cal/(mol*K)'),
+        H298 = (21.37,'kcal/mol'),
+        S298 = (31.73,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 135,
+    label = "trithiirane",
+    group = 
+"""
+1 * S 0 {2,S} {3,S}
+2   S 0 {1,S} {3,S}
+3   S 0 {1,S} {2,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.97,-6.66,-6.4,-6.29,-6.1,-5.72,-4.28],'cal/(mol*K)'),
+        H298 = (33.01,'kcal/mol'),
+        S298 = (34.89,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 151,
+    label = "thiirene",
+    group = 
+"""
+1 * S 0 {2,S} {3,S}
+2   C 0 {1,S} {3,D}
+3   C 0 {1,S} {2,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.13,-3.8,-6.26,-8.36,-11.65,-14.12,-18.01],'cal/(mol*K)'),
+        H298 = (52.44,'kcal/mol'),
+        S298 = (34.28,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -281,16 +381,16 @@ entry(
     label = "Methylene_cyclopropane",
     group = 
 """
-1  *  Cd 0 {2,S} {3,S} {4,D}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {1,S} {2,S}
-4     Cd 0 {1,D}
+1 * Cd 0 {2,S} {3,S} {4,D}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {1,S} {2,S}
+4   Cd 0 {1,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-2.1,-2.121,-2.081,-2.005,-1.98,-1.903,-1.541],"cal/(mol*K)"),
-        H298 = (40.92,"kcal/mol"),
-        S298 = (31.4507,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.1,-2.121,-2.081,-2.005,-1.98,-1.903,-1.541],'cal/(mol*K)'),
+        H298 = (40.92,'kcal/mol'),
+        S298 = (31.4507,'cal/(mol*K)'),
     ),
     shortDesc = u"""Methylene cyclopropane ring BENSON""",
     longDesc = 
@@ -298,7 +398,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -307,16 +407,16 @@ entry(
     label = "cyclopropanone",
     group = 
 """
-1  *  C 0 {2,S} {3,S} {4,D}
-2     C 0 {1,S} {3,S}
-3     C 0 {1,S} {2,S}
-4     O 0 {1,D}
+1 * C 0 {2,S} {3,S} {4,D}
+2   C 0 {1,S} {3,S}
+3   C 0 {1,S} {2,S}
+4   O 0 {1,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-2.274,-1.932,-1.307,-0.838,-1.06,-1.032,-0.271],"cal/(mol*K)"),
-        H298 = (45.6,"kcal/mol"),
-        S298 = (30.7247,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.274,-1.932,-1.307,-0.838,-1.06,-1.032,-0.271],'cal/(mol*K)'),
+        H298 = (45.6,'kcal/mol'),
+        S298 = (30.7247,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -324,7 +424,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -333,16 +433,16 @@ entry(
     label = "methylenecyclopropene",
     group = 
 """
-1     Cd 0 {2,S} {3,D}
-2  *  Cd 0 {1,S} {3,S} {4,D}
-3     Cd 0 {1,D} {2,S}
-4     Cd 0 {2,D}
+1   Cd 0 {2,S} {3,D}
+2 * Cd 0 {1,S} {3,S} {4,D}
+3   Cd 0 {1,D} {2,S}
+4   Cd 0 {2,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0.457,-0.093,-0.645,-1.124,-1.936,-2.246,-2.962],"cal/(mol*K)"),
-        H298 = (69.316,"kcal/mol"),
-        S298 = (39.8857,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.457,-0.093,-0.645,-1.124,-1.936,-2.246,-2.962],'cal/(mol*K)'),
+        H298 = (69.316,'kcal/mol'),
+        S298 = (39.8857,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -350,7 +450,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -359,16 +459,16 @@ entry(
     label = "methylenecyclopropanone",
     group = 
 """
-1     CO 0 {2,S} {3,S}
-2  *  Cd 0 {1,S} {3,S} {4,D}
-3     Cs 0 {1,S} {2,S}
-4     Cd 0 {2,D}
+1   CO 0 {2,S} {3,S}
+2 * Cd 0 {1,S} {3,S} {4,D}
+3   Cs 0 {1,S} {2,S}
+4   Cd 0 {2,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-0.13,-1.101,-1.774,-2.139,-2.509,-2.858,-0.084],"cal/(mol*K)"),
-        H298 = (57.7946,"kcal/mol"),
-        S298 = (37.18,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-0.13,-1.101,-1.774,-2.139,-2.509,-2.858,-0.084],'cal/(mol*K)'),
+        H298 = (57.7946,'kcal/mol'),
+        S298 = (37.18,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -376,7 +476,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -385,16 +485,16 @@ entry(
     label = "methyleneoxirane",
     group = 
 """
-1     Os 0 {2,S} {3,S}
-2  *  Cd 0 {1,S} {3,S} {4,D}
-3     Cs 0 {1,S} {2,S}
-4     Cd 0 {2,D}
+1   Os 0 {2,S} {3,S}
+2 * Cd 0 {1,S} {3,S} {4,D}
+3   Cs 0 {1,S} {2,S}
+4   Cd 0 {2,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-2.101,-2.381,-2.338,-2.236,-2.424,-2.639,-2.068],"cal/(mol*K)"),
-        H298 = (36.0543,"kcal/mol"),
-        S298 = (29.893,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.101,-2.381,-2.338,-2.236,-2.424,-2.639,-2.068],'cal/(mol*K)'),
+        H298 = (36.0543,'kcal/mol'),
+        S298 = (29.893,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -402,7 +502,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -411,17 +511,17 @@ entry(
     label = "12Methylenecyclopropane",
     group = 
 """
-1     Cd 0 {2,S} {3,S} {4,D}
-2  *  Cd 0 {1,S} {3,S} {5,D}
-3     Cs 0 {1,S} {2,S}
-4     Cd 0 {1,D}
-5     Cd 0 {2,D}
+1   Cd 0 {2,S} {3,S} {4,D}
+2 * Cd 0 {1,S} {3,S} {5,D}
+3   Cs 0 {1,S} {2,S}
+4   Cd 0 {1,D}
+5   Cd 0 {2,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-2.326,-3.139,-3.361,-3.148,-2.736,-2.412,-1.706],"cal/(mol*K)"),
-        H298 = (51.4711,"kcal/mol"),
-        S298 = (35.3587,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.326,-3.139,-3.361,-3.148,-2.736,-2.412,-1.706],'cal/(mol*K)'),
+        H298 = (51.4711,'kcal/mol'),
+        S298 = (35.3587,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -429,7 +529,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -438,19 +538,19 @@ entry(
     label = "FourMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {4,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {2,{S,D}} {4,{S,D}}
-4     R!H 0 {1,{S,D}} {3,{S,D}}
+1 * R!H 0 {2,{S,D}} {4,{S,D}}
+2   R!H 0 {1,{S,D}} {3,{S,D}}
+3   R!H 0 {2,{S,D}} {4,{S,D}}
+4   R!H 0 {1,{S,D}} {3,{S,D}}
 """,
-    thermo = 'Cyclobutane',
+    thermo = u'Cyclobutane',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -459,16 +559,16 @@ entry(
     label = "Cyclobutane",
     group = 
 """
-1  *  Cs 0 {2,S} {4,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {1,S} {3,S}
+1 * Cs 0 {2,S} {4,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-4.61,-3.89,-3.14,-2.64,-1.88,-1.38,-0.67],"cal/(mol*K)"),
-        H298 = (26.2,"kcal/mol"),
-        S298 = (29.8,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.61,-3.89,-3.14,-2.64,-1.88,-1.38,-0.67],'cal/(mol*K)'),
+        H298 = (26.2,'kcal/mol'),
+        S298 = (29.8,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclobutane ring BENSON""",
     longDesc = 
@@ -476,7 +576,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -485,16 +585,16 @@ entry(
     label = "Cyclobutene",
     group = 
 """
-1  *  Cs 0 {2,S} {4,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {1,S} {3,S}
+1 * Cs 0 {2,S} {4,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-3.038,-2.783,-2.423,-2.153,-1.888,-1.694,-1.258],"cal/(mol*K)"),
-        H298 = (29.84,"kcal/mol"),
-        S298 = (29.8677,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.038,-2.783,-2.423,-2.153,-1.888,-1.694,-1.258],'cal/(mol*K)'),
+        H298 = (29.84,'kcal/mol'),
+        S298 = (29.8677,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclobutene ring BENSON""",
     longDesc = 
@@ -502,7 +602,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -511,16 +611,16 @@ entry(
     label = "Oxetane",
     group = 
 """
-1  *  O 0 {2,S} {4,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {1,S} {3,S}
+1 * O  0 {2,S} {4,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-4.08,-4.28,-3.636,-3.016,-2.451,-1.896,2.84],"cal/(mol*K)"),
-        H298 = (25.08,"kcal/mol"),
-        S298 = (28.5487,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.08,-4.28,-3.636,-3.016,-2.451,-1.896,2.84],'cal/(mol*K)'),
+        H298 = (25.08,'kcal/mol'),
+        S298 = (28.5487,'cal/(mol*K)'),
     ),
     shortDesc = u"""CY/C3O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
     longDesc = 
@@ -528,7 +628,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -537,16 +637,16 @@ entry(
     label = "Beta-Propiolactone",
     group = 
 """
-1  *  O 0 {2,S} {4,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     CO 0 {1,S} {3,S}
+1 * O  0 {2,S} {4,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   CO 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-4.434,-4.019,-3.31,-2.703,-2.253,-2.012,1.3],"cal/(mol*K)"),
-        H298 = (22.98,"kcal/mol"),
-        S298 = (30.392,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.434,-4.019,-3.31,-2.703,-2.253,-2.012,1.3],'cal/(mol*K)'),
+        H298 = (22.98,'kcal/mol'),
+        S298 = (30.392,'cal/(mol*K)'),
     ),
     shortDesc = u"""Beta-Propiolactone ring BENSON""",
     longDesc = 
@@ -554,7 +654,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -563,16 +663,16 @@ entry(
     label = "Cyclobutanone",
     group = 
 """
-1  *  CO 0 {2,S} {4,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {1,S} {3,S}
+1 * CO 0 {2,S} {4,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.62,-4.96,-3.744,-2.671,-1.962,-1.415,-0.3],"cal/(mol*K)"),
-        H298 = (22.53,"kcal/mol"),
-        S298 = (29.8337,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.62,-4.96,-3.744,-2.671,-1.962,-1.415,-0.3],'cal/(mol*K)'),
+        H298 = (22.53,'kcal/mol'),
+        S298 = (29.8337,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclobutanone ring BENSON""",
     longDesc = 
@@ -580,7 +680,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -589,16 +689,16 @@ entry(
     label = "12dioxetane",
     group = 
 """
-1     Cs 0 {2,S} {4,S}
-2  *  Cs 0 {1,S} {3,S}
-3     Os 0 {2,S} {4,S}
-4     Os 0 {1,S} {3,S}
+1   Cs 0 {2,S} {4,S}
+2 * Cs 0 {1,S} {3,S}
+3   Os 0 {2,S} {4,S}
+4   Os 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-3.586,-4.031,-3.818,-3.503,-3.252,-3.45,1.262],"cal/(mol*K)"),
-        H298 = (28.0736,"kcal/mol"),
-        S298 = (29.0217,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.586,-4.031,-3.818,-3.503,-3.252,-3.45,1.262],'cal/(mol*K)'),
+        H298 = (28.0736,'kcal/mol'),
+        S298 = (29.0217,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -606,7 +706,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -615,16 +715,16 @@ entry(
     label = "dioxerene",
     group = 
 """
-1     Cd 0 {2,D} {4,S}
-2  *  Cd 0 {1,D} {3,S}
-3     Os 0 {2,S} {4,S}
-4     Os 0 {1,S} {3,S}
+1   Cd 0 {2,D} {4,S}
+2 * Cd 0 {1,D} {3,S}
+3   Os 0 {2,S} {4,S}
+4   Os 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-3.375,-4.281,-4.206,-4.037,-3.926,-3.327,-2.473],"cal/(mol*K)"),
-        H298 = (24.4413,"kcal/mol"),
-        S298 = (29.7827,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.375,-4.281,-4.206,-4.037,-3.926,-3.327,-2.473],'cal/(mol*K)'),
+        H298 = (24.4413,'kcal/mol'),
+        S298 = (29.7827,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -632,7 +732,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -641,16 +741,16 @@ entry(
     label = "cyclobutadiene",
     group = 
 """
-1     Cd 0 {2,D} {4,S}
-2  *  Cd 0 {1,D} {3,S}
-3     Cd 0 {2,S} {4,D}
-4     Cd 0 {1,S} {3,D}
+1   Cd 0 {2,D} {4,S}
+2 * Cd 0 {1,D} {3,S}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {1,S} {3,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-2.336,-3.24,-3.526,-3.419,-3.071,-2.761,-2.346],"cal/(mol*K)"),
-        H298 = (77.2135,"kcal/mol"),
-        S298 = (36.4303,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.336,-3.24,-3.526,-3.419,-3.071,-2.761,-2.346],'cal/(mol*K)'),
+        H298 = (77.2135,'kcal/mol'),
+        S298 = (36.4303,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -658,7 +758,137 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 136,
+    label = "thietane",
+    group = 
+"""
+1 * S 0 {2,S} {4,S}
+2   C 0 {1,S} {3,S}
+3   C 0 {2,S} {4,S}
+4   C 0 {1,S} {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.42,-3.66,-2.92,-2.3,-1.53,-1.01,-0.3],'cal/(mol*K)'),
+        H298 = (19.82,'kcal/mol'),
+        S298 = (25.35,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 137,
+    label = "1,2-dithietane",
+    group = 
+"""
+1 * S 0 {2,S} {4,S}
+2   S 0 {1,S} {3,S}
+3   C 0 {2,S} {4,S}
+4   C 0 {1,S} {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.24,-3.62,-3.13,-2.69,-2.11,-1.62,-0.79],'cal/(mol*K)'),
+        H298 = (23.45,'kcal/mol'),
+        S298 = (24.44,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 138,
+    label = "1,3-dithietane",
+    group = 
+"""
+1 * S 0 {2,S} {4,S}
+2   C 0 {1,S} {3,S}
+3   S 0 {2,S} {4,S}
+4   C 0 {1,S} {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-11.59,-9.53,-7.27,-5.52,-3.34,-2.19,-0.96],'cal/(mol*K)'),
+        H298 = (16.87,'kcal/mol'),
+        S298 = (29.55,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 139,
+    label = "trithietane",
+    group = 
+"""
+1 * S 0 {2,S} {4,S}
+2   S 0 {1,S} {3,S}
+3   S 0 {2,S} {4,S}
+4   C 0 {1,S} {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.81,-7.66,-6.51,-5.66,-4.53,-3.75,-2.33],'cal/(mol*K)'),
+        H298 = (30.77,'kcal/mol'),
+        S298 = (29.05,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 140,
+    label = "tetrathietane",
+    group = 
+"""
+1 * S 0 {2,S} {4,S}
+2   S 0 {1,S} {3,S}
+3   S 0 {2,S} {4,S}
+4   S 0 {1,S} {3,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.92,-7.46,-7.14,-6.99,-6.77,-6.27,-4.36],'cal/(mol*K)'),
+        H298 = (43.1,'kcal/mol'),
+        S298 = (32.19,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -667,17 +897,17 @@ entry(
     label = "4-Methylene-2-oxetanone",
     group = 
 """
-1  *  O 0 {2,S} {4,S}
-2     Cd 0 {1,S} {3,S} {5,D}
-3     Cs 0 {2,S} {4,S}
-4     CO 0 {1,S} {3,S}
-5     Cd 0 {2,D}
+1 * O  0 {2,S} {4,S}
+2   Cd 0 {1,S} {3,S} {5,D}
+3   Cs 0 {2,S} {4,S}
+4   CO 0 {1,S} {3,S}
+5   Cd 0 {2,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-1.912,-1.903,-1.567,-1.378,-1.566,-1.528,1.547],"cal/(mol*K)"),
-        H298 = (16.94,"kcal/mol"),
-        S298 = (35.477,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.912,-1.903,-1.567,-1.378,-1.566,-1.528,1.547],'cal/(mol*K)'),
+        H298 = (16.94,'kcal/mol'),
+        S298 = (35.477,'cal/(mol*K)'),
     ),
     shortDesc = u"""4-Methylene-2-oxetanone ring BENSON""",
     longDesc = 
@@ -685,7 +915,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -694,17 +924,17 @@ entry(
     label = "methylenecyclobutane",
     group = 
 """
-1     Cs 0 {2,S} {4,S}
-2  *  Cd 0 {1,S} {3,S} {5,D}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {1,S} {3,S}
-5     Cd 0 {2,D}
+1   Cs 0 {2,S} {4,S}
+2 * Cd 0 {1,S} {3,S} {5,D}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {1,S} {3,S}
+5   Cd 0 {2,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-3.91,-3.339,-2.739,-2.2,-1.51,-1.051,-62.52],"cal/(mol*K)"),
-        H298 = (26.9,"kcal/mol"),
-        S298 = (28.8887,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.91,-3.339,-2.739,-2.2,-1.51,-1.051,-62.52],'cal/(mol*K)'),
+        H298 = (26.9,'kcal/mol'),
+        S298 = (28.8887,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -712,7 +942,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -721,17 +951,17 @@ entry(
     label = "2methyleneoxetane",
     group = 
 """
-1     Os 0 {2,S} {4,S}
-2  *  Cd 0 {1,S} {3,S} {5,D}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {1,S} {3,S}
-5     Cd 0 {2,D}
+1   Os 0 {2,S} {4,S}
+2 * Cd 0 {1,S} {3,S} {5,D}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {1,S} {3,S}
+5   Cd 0 {2,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-3.33,-3.553,-3.213,-2.78,-2.445,-2.331,0.556],"cal/(mol*K)"),
-        H298 = (23.79,"kcal/mol"),
-        S298 = (25.597,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.33,-3.553,-3.213,-2.78,-2.445,-2.331,0.556],'cal/(mol*K)'),
+        H298 = (23.79,'kcal/mol'),
+        S298 = (25.597,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -739,7 +969,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -748,18 +978,18 @@ entry(
     label = "12methylenecyclobutane",
     group = 
 """
-1  *  Cd 0 {2,S} {4,S} {5,D}
-2     Cd 0 {1,S} {3,S} {6,D}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {1,S} {3,S}
-5     Cd 0 {1,D}
-6     Cd 0 {2,D}
+1 * Cd 0 {2,S} {4,S} {5,D}
+2   Cd 0 {1,S} {3,S} {6,D}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {1,S} {3,S}
+5   Cd 0 {1,D}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-4.313,-4.605,-4.416,-3.887,-3.024,-2.355,-1.276],"cal/(mol*K)"),
-        H298 = (28.04,"kcal/mol"),
-        S298 = (31.4877,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.313,-4.605,-4.416,-3.887,-3.024,-2.355,-1.276],'cal/(mol*K)'),
+        H298 = (28.04,'kcal/mol'),
+        S298 = (31.4877,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -767,7 +997,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -776,20 +1006,20 @@ entry(
     label = "FiveMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {5,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {2,{S,D}} {4,{S,D}}
-4     R!H 0 {3,{S,D}} {5,{S,D}}
-5     R!H 0 {1,{S,D}} {4,{S,D}}
+1 * R!H 0 {2,{S,D}} {5,{S,D}}
+2   R!H 0 {1,{S,D}} {3,{S,D}}
+3   R!H 0 {2,{S,D}} {4,{S,D}}
+4   R!H 0 {3,{S,D}} {5,{S,D}}
+5   R!H 0 {1,{S,D}} {4,{S,D}}
 """,
-    thermo = 'Cyclopentane',
+    thermo = u'Cyclopentane',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -798,17 +1028,17 @@ entry(
     label = "Cyclopentane",
     group = 
 """
-1  *  Cs 0 {2,S} {5,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {1,S} {4,S}
+1 * Cs 0 {2,S} {5,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-6.5,-5.5,-4.5,-3.8,-2.8,-1.93,-0.37],"cal/(mol*K)"),
-        H298 = (6.3,"kcal/mol"),
-        S298 = (27.3,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.5,-5.5,-4.5,-3.8,-2.8,-1.93,-0.37],'cal/(mol*K)'),
+        H298 = (6.3,'kcal/mol'),
+        S298 = (27.3,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclopentane ring BENSON""",
     longDesc = 
@@ -816,7 +1046,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -825,17 +1055,17 @@ entry(
     label = "Cyclopentene",
     group = 
 """
-1     Cs 0 {2,S} {5,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {3,S} {5,S}
-5  *  Cs 0 {1,S} {4,S}
+1   Cs 0 {2,S} {5,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {3,S} {5,S}
+5 * Cs 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-4.5,-3.942,-3.291,-2.759,-2.08,-1.628,-0.898],"cal/(mol*K)"),
-        H298 = (5.97,"kcal/mol"),
-        S298 = (25.8284,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.5,-3.942,-3.291,-2.759,-2.08,-1.628,-0.898],'cal/(mol*K)'),
+        H298 = (5.97,'kcal/mol'),
+        S298 = (25.8284,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclopentene ring BENSON""",
     longDesc = 
@@ -843,7 +1073,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -852,17 +1082,17 @@ entry(
     label = "Cyclopentadiene",
     group = 
 """
-1  *  Cs 0 {2,S} {5,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {1,S} {4,D}
+1 * Cs 0 {2,S} {5,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {1,S} {4,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-3.7845,-3.72708,-3.2688,-2.74383,-2.05359,-1.65464,-0.98756],"cal/(mol*K)"),
-        H298 = (6.05,"kcal/mol"),
-        S298 = (27.9821,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.7845,-3.72708,-3.2688,-2.74383,-2.05359,-1.65464,-0.98756],'cal/(mol*K)'),
+        H298 = (6.05,'kcal/mol'),
+        S298 = (27.9821,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclopentadiene ring BENSON""",
     longDesc = 
@@ -870,7 +1100,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -879,17 +1109,17 @@ entry(
     label = "Tetrahydrofuran",
     group = 
 """
-1  *  O 0 {2,S} {5,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {1,S} {4,S}
+1 * O  0 {2,S} {5,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.93,-5.71,-4.67,-3.721,-2.689,-1.856,3.213],"cal/(mol*K)"),
-        H298 = (5.96,"kcal/mol"),
-        S298 = (21.1624,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.93,-5.71,-4.67,-3.721,-2.689,-1.856,3.213],'cal/(mol*K)'),
+        H298 = (5.96,'kcal/mol'),
+        S298 = (21.1624,'cal/(mol*K)'),
     ),
     shortDesc = u"""CY/C4O from THERM (Dorofeeva, 92) Cp1500 est. as Cp1000""",
     longDesc = 
@@ -897,7 +1127,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -906,17 +1136,17 @@ entry(
     label = "2,3-Dihydrofuran",
     group = 
 """
-1  *  O 0 {2,S} {5,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {1,S} {4,S}
+1 * O  0 {2,S} {5,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.56,-5.96,-5.695,-5.144,-4.218,-3.708,-0.284],"cal/(mol*K)"),
-        H298 = (4.57,"kcal/mol"),
-        S298 = (23.83,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.56,-5.96,-5.695,-5.144,-4.218,-3.708,-0.284],'cal/(mol*K)'),
+        H298 = (4.57,'kcal/mol'),
+        S298 = (23.83,'cal/(mol*K)'),
     ),
     shortDesc = u"""2,3-Dihydrofuran ring BENSON""",
     longDesc = 
@@ -924,7 +1154,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -933,17 +1163,17 @@ entry(
     label = "1,3-Dioxolane",
     group = 
 """
-1  *  Cs 0 {2,S} {5,S}
-2     O 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     O 0 {1,S} {4,S}
+1 * Cs 0 {2,S} {5,S}
+2   O  0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   O  0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.655,-6.405,-6.306,-6.405,-7.631,-8.27,-3.21],"cal/(mol*K)"),
-        H298 = (5.13,"kcal/mol"),
-        S298 = (20.4021,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.655,-6.405,-6.306,-6.405,-7.631,-8.27,-3.21],'cal/(mol*K)'),
+        H298 = (5.13,'kcal/mol'),
+        S298 = (20.4021,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,3-Dioxolane ring BENSON""",
     longDesc = 
@@ -951,7 +1181,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -960,17 +1190,17 @@ entry(
     label = "Furan",
     group = 
 """
-1     Cd 0 {2,D} {5,S}
-2     Cd 0 {1,D} {3,S}
-3     Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5  *  O 0 {1,S} {4,S}
+1   Cd 0 {2,D} {5,S}
+2   Cd 0 {1,D} {3,S}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5 * O  0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-6.058,-7.002,-6.774,-6.09,-4.988,-3.95,-2.882],"cal/(mol*K)"),
-        H298 = (6.89,"kcal/mol"),
-        S298 = (30.0857,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.058,-7.002,-6.774,-6.09,-4.988,-3.95,-2.882],'cal/(mol*K)'),
+        H298 = (6.89,'kcal/mol'),
+        S298 = (30.0857,'cal/(mol*K)'),
     ),
     shortDesc = u"""Furan ring BENSON""",
     longDesc = 
@@ -978,7 +1208,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -987,17 +1217,17 @@ entry(
     label = "Dihydro-2,5-furandione",
     group = 
 """
-1  *  O 0 {2,S} {5,S}
-2     CO 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     CO 0 {1,S} {4,S}
+1 * O  0 {2,S} {5,S}
+2   CO 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   CO 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.235,-4.726,-3.615,-1.82,-1.835,-1.084,1.104],"cal/(mol*K)"),
-        H298 = (1.4,"kcal/mol"),
-        S298 = (37.7647,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.235,-4.726,-3.615,-1.82,-1.835,-1.084,1.104],'cal/(mol*K)'),
+        H298 = (1.4,'kcal/mol'),
+        S298 = (37.7647,'cal/(mol*K)'),
     ),
     shortDesc = u"""Dihydro-2,5-furandione ring BENSON""",
     longDesc = 
@@ -1005,7 +1235,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1014,17 +1244,17 @@ entry(
     label = "2,5-Furandione",
     group = 
 """
-1  *  O 0 {2,S} {5,S}
-2     CO 0 {1,S} {3,S}
-3     Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     CO 0 {1,S} {4,S}
+1 * O  0 {2,S} {5,S}
+2   CO 0 {1,S} {3,S}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   CO 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (3.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (3.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""2,5-Furandione ring BENSON""",
     longDesc = 
@@ -1032,7 +1262,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1041,17 +1271,17 @@ entry(
     label = "Cyclopentanone",
     group = 
 """
-1  *  CO 0 {2,S} {5,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {1,S} {4,S}
+1 * CO 0 {2,S} {5,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-6.06,-4.927,-3.392,-2.097,-1.093,-0.322,1.29],"cal/(mol*K)"),
-        H298 = (4.47,"kcal/mol"),
-        S298 = (24.6287,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.06,-4.927,-3.392,-2.097,-1.093,-0.322,1.29],'cal/(mol*K)'),
+        H298 = (4.47,'kcal/mol'),
+        S298 = (24.6287,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclopentanone ring BENSON""",
     longDesc = 
@@ -1059,7 +1289,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1068,17 +1298,17 @@ entry(
     label = "butyrolactone",
     group = 
 """
-1  *  CO 0 {2,S} {5,S}
-2     Os 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {1,S} {4,S}
+1 * CO 0 {2,S} {5,S}
+2   Os 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.836,-5.134,-4.114,-3.222,-2.341,-1.822,1.888],"cal/(mol*K)"),
-        H298 = (7.92,"kcal/mol"),
-        S298 = (27.4547,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.836,-5.134,-4.114,-3.222,-2.341,-1.822,1.888],'cal/(mol*K)'),
+        H298 = (7.92,'kcal/mol'),
+        S298 = (27.4547,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1086,7 +1316,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1095,17 +1325,17 @@ entry(
     label = "25dihydrofuran",
     group = 
 """
-1  *  Cs 0 {2,S} {5,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {1,S} {4,S}
+1 * Cs 0 {2,S} {5,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Os 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-3.946,-3.361,-2.438,-1.799,-1.458,-1.056,-0.254],"cal/(mol*K)"),
-        H298 = (4.23674,"kcal/mol"),
-        S298 = (25.1504,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.946,-3.361,-2.438,-1.799,-1.458,-1.056,-0.254],'cal/(mol*K)'),
+        H298 = (4.23674,'kcal/mol'),
+        S298 = (25.1504,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1113,7 +1343,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1122,17 +1352,17 @@ entry(
     label = "12dioxolane",
     group = 
 """
-1  *  Os 0 {2,S} {5,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {1,S} {4,S}
+1 * Os 0 {2,S} {5,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Os 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-4.95,-4.859,-4.265,-3.679,-3.089,-3.091,1.915],"cal/(mol*K)"),
-        H298 = (6.05383,"kcal/mol"),
-        S298 = (25.0554,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.95,-4.859,-4.265,-3.679,-3.089,-3.091,1.915],'cal/(mol*K)'),
+        H298 = (6.05383,'kcal/mol'),
+        S298 = (25.0554,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1140,7 +1370,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1149,17 +1379,17 @@ entry(
     label = "12dioxolene",
     group = 
 """
-1  *  Os 0 {2,S} {5,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {1,S} {4,S}
+1 * Os 0 {2,S} {5,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Os 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-4.159,-4.213,-3.754,-3.376,-3.14,-2.919,-1.982],"cal/(mol*K)"),
-        H298 = (4.56853,"kcal/mol"),
-        S298 = (29.97,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.159,-4.213,-3.754,-3.376,-3.14,-2.919,-1.982],'cal/(mol*K)'),
+        H298 = (4.56853,'kcal/mol'),
+        S298 = (29.97,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1167,7 +1397,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1176,17 +1406,17 @@ entry(
     label = "123trioxolane",
     group = 
 """
-1  *  Os 0 {2,S} {5,S}
-2     Os 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {1,S} {4,S}
+1 * Os 0 {2,S} {5,S}
+2   Os 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Os 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-2.566,-3.543,-3.344,-2.829,-2.487,-2.78,2.13],"cal/(mol*K)"),
-        H298 = (10.1971,"kcal/mol"),
-        S298 = (23.316,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.566,-3.543,-3.344,-2.829,-2.487,-2.78,2.13],'cal/(mol*K)'),
+        H298 = (10.1971,'kcal/mol'),
+        S298 = (23.316,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1194,7 +1424,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1203,17 +1433,17 @@ entry(
     label = "124trioxolane",
     group = 
 """
-1  *  Os 0 {2,S} {5,S}
-2     Cs 0 {1,S} {3,S}
-3     Os 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {1,S} {4,S}
+1 * Os 0 {2,S} {5,S}
+2   Cs 0 {1,S} {3,S}
+3   Os 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Os 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.648,-4.764,-3.63,-2.89,-2.711,-2.859,2.25],"cal/(mol*K)"),
-        H298 = (9.45319,"kcal/mol"),
-        S298 = (25.1104,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.648,-4.764,-3.63,-2.89,-2.711,-2.859,2.25],'cal/(mol*K)'),
+        H298 = (9.45319,'kcal/mol'),
+        S298 = (25.1104,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1221,7 +1451,277 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 141,
+    label = "thiolane",
+    group = 
+"""
+1 * S 0 {2,S} {5,S}
+2   C 0 {1,S} {3,S}
+3   C 0 {2,S} {4,S}
+4   C 0 {3,S} {5,S}
+5   C 0 {1,S} {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.61,-4.54,-3.51,-2.63,-1.49,-0.73,0.32],'cal/(mol*K)'),
+        H298 = (2.02,'kcal/mol'),
+        S298 = (20.68,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 142,
+    label = "2,3-dihydrothiophene",
+    group = 
+"""
+1 * S  0 {2,S} {5,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   C  0 {3,S} {5,S}
+5   C  0 {1,S} {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.58,-4.63,-3.67,-2.89,-1.9,-1.26,-0.41],'cal/(mol*K)'),
+        H298 = (3.37,'kcal/mol'),
+        S298 = (24.24,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 143,
+    label = "2,5-dihydrothiophene",
+    group = 
+"""
+1 * S  0 {2,S} {5,S}
+2   C  0 {1,S} {3,S}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   C  0 {1,S} {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.84,-9.28,-7.17,-5.42,-3.18,-1.97,-0.74],'cal/(mol*K)'),
+        H298 = (2.19,'kcal/mol'),
+        S298 = (28.23,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 144,
+    label = "thiophene",
+    group = 
+"""
+1 * S  0 {2,S} {5,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {1,S} {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.15,-3.75,-2.7,-2.03,-1.45,-1.14,-0.76],'cal/(mol*K)'),
+        H298 = (-17.22,'kcal/mol'),
+        S298 = (23.78,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 145,
+    label = "1,2-dithiolane",
+    group = 
+"""
+1 * S 0 {2,S} {5,S}
+2   S 0 {1,S} {3,S}
+3   C 0 {2,S} {4,S}
+4   C 0 {3,S} {5,S}
+5   C 0 {1,S} {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.15,-6.27,-7.52,-8.83,-11.39,-13.48,-16.94],'cal/(mol*K)'),
+        H298 = (23.29,'kcal/mol'),
+        S298 = (23.78,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 146,
+    label = "1,3-dithiolane",
+    group = 
+"""
+1 * S 0 {2,S} {5,S}
+2   C 0 {1,S} {3,S}
+3   S 0 {2,S} {4,S}
+4   C 0 {3,S} {5,S}
+5   C 0 {1,S} {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.45,-6.68,-4.91,-3.49,-1.72,-0.7,0.45],'cal/(mol*K)'),
+        H298 = (0.48,'kcal/mol'),
+        S298 = (22.84,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 147,
+    label = "1,2,3-trithiolane",
+    group = 
+"""
+1 * S 0 {2,S} {5,S}
+2   S 0 {1,S} {3,S}
+3   S 0 {2,S} {4,S}
+4   C 0 {3,S} {5,S}
+5   C 0 {1,S} {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.51,-4.63,-3.98,-3.49,-2.82,-2.2,-0.88],'cal/(mol*K)'),
+        H298 = (9.12,'kcal/mol'),
+        S298 = (22.01,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 148,
+    label = "1,2,4-trithiolane",
+    group = 
+"""
+1 * S 0 {2,S} {5,S}
+2   S 0 {1,S} {3,S}
+3   C 0 {2,S} {4,S}
+4   S 0 {3,S} {5,S}
+5   C 0 {1,S} {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-11.78,-9.58,-7.37,-5.67,-3.5,-2.26,-0.71],'cal/(mol*K)'),
+        H298 = (4.4,'kcal/mol'),
+        S298 = (24.39,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 149,
+    label = "tetrathiolane",
+    group = 
+"""
+1 * S 0 {2,S} {5,S}
+2   S 0 {1,S} {3,S}
+3   S 0 {2,S} {4,S}
+4   S 0 {3,S} {5,S}
+5   C 0 {1,S} {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-9.82,-8.46,-7.22,-6.33,-5.17,-4.28,-2.4],'cal/(mol*K)'),
+        H298 = (10.72,'kcal/mol'),
+        S298 = (26.56,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 150,
+    label = "pentathiolane",
+    group = 
+"""
+1 * S 0 {2,S} {5,S}
+2   S 0 {1,S} {3,S}
+3   S 0 {2,S} {4,S}
+4   S 0 {3,S} {5,S}
+5   S 0 {1,S} {4,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-8.87,-8.3,-7.89,-7.72,-7.45,-6.84,-4.46],'cal/(mol*K)'),
+        H298 = (17.23,'kcal/mol'),
+        S298 = (30.31,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CBS-QB3 GA 1D-HR Aäron Vandeputte 2009""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1230,18 +1730,18 @@ entry(
     label = "methylenecyclopentane",
     group = 
 """
-1  *  Cd 0 {2,S} {5,S} {6,D}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {1,S} {4,S}
-6     Cd 0 {1,D}
+1 * Cd 0 {2,S} {5,S} {6,D}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {1,S} {4,S}
+6   Cd 0 {1,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.861,-4.909,-3.91,-3.01,-1.769,-0.969,0],"cal/(mol*K)"),
-        H298 = (5.21,"kcal/mol"),
-        S298 = (24.6287,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.861,-4.909,-3.91,-3.01,-1.769,-0.969,0],'cal/(mol*K)'),
+        H298 = (5.21,'kcal/mol'),
+        S298 = (24.6287,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1249,7 +1749,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1258,18 +1758,18 @@ entry(
     label = "Fulvene",
     group = 
 """
-1  *  Cd 0 {2,S} {5,S} {6,D}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {1,S} {4,D}
-6     Cd 0 {1,D}
+1 * Cd 0 {2,S} {5,S} {6,D}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {1,S} {4,D}
+6   Cd 0 {1,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-3.1,-3.4,-3.4,-3.2,-3,-2.6,-2.6],"cal/(mol*K)"),
-        H298 = (14.73,"kcal/mol"),
-        S298 = (34.1,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.1,-3.4,-3.4,-3.2,-3,-2.6,-2.6],'cal/(mol*K)'),
+        H298 = (14.73,'kcal/mol'),
+        S298 = (34.1,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1277,7 +1777,63 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 123,
+    label = "3-Methylenecyclopentene",
+    group = 
+"""
+1 * Cs 0 {2,S} {3,S}
+2   Cs 0 {1,S} {4,S}
+3   Cd 0 {1,S} {5,S} {6,D}
+4   Cd 0 {2,S} {5,D}
+5   Cd 0 {3,S} {4,D}
+6   Cd 0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.9,-4.8,-4.4,-3.7,-2.7,-2,-0.9],'cal/(mol*K)'),
+        H298 = (6.2,'kcal/mol'),
+        S298 = (28.9,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Copied from 4-methylenecyclopentene""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 124,
+    label = "4-Methylenecyclopentene",
+    group = 
+"""
+1 * Cs 0 {3,S} {4,S}
+2   Cs 0 {3,S} {5,S}
+3   Cd 0 {1,S} {2,S} {6,D}
+4   Cd 0 {1,S} {5,D}
+5   Cd 0 {2,S} {4,D}
+6   Cd 0 {3,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.9,-4.8,-4.4,-3.7,-2.7,-2,-0.9],'cal/(mol*K)'),
+        H298 = (6.2,'kcal/mol'),
+        S298 = (28.9,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1286,19 +1842,19 @@ entry(
     label = "12methylenecyclopentane",
     group = 
 """
-1  *  Cd 0 {2,S} {5,S} {6,D}
-2     Cd 0 {1,S} {3,S} {7,D}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {1,S} {4,S}
-6     Cd 0 {1,D}
-7     Cd 0 {2,D}
+1 * Cd 0 {2,S} {5,S} {6,D}
+2   Cd 0 {1,S} {3,S} {7,D}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {1,S} {4,S}
+6   Cd 0 {1,D}
+7   Cd 0 {2,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-4.844,-5.197,-4.882,-4.175,-2.988,-2.088,-0.655],"cal/(mol*K)"),
-        H298 = (6.67,"kcal/mol"),
-        S298 = (31.384,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.844,-5.197,-4.882,-4.175,-2.988,-2.088,-0.655],'cal/(mol*K)'),
+        H298 = (6.67,'kcal/mol'),
+        S298 = (31.384,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1306,7 +1862,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1315,21 +1871,21 @@ entry(
     label = "SixMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {6,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {2,{S,D}} {4,{S,D}}
-4     R!H 0 {3,{S,D}} {5,{S,D}}
-5     R!H 0 {4,{S,D}} {6,{S,D}}
-6     R!H 0 {1,{S,D}} {5,{S,D}}
+1 * R!H 0 {2,{S,D}} {6,{S,D}}
+2   R!H 0 {1,{S,D}} {3,{S,D}}
+3   R!H 0 {2,{S,D}} {4,{S,D}}
+4   R!H 0 {3,{S,D}} {5,{S,D}}
+5   R!H 0 {4,{S,D}} {6,{S,D}}
+6   R!H 0 {1,{S,D}} {5,{S,D}}
 """,
-    thermo = 'Cyclohexane',
+    thermo = u'Cyclohexane',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1338,21 +1894,21 @@ entry(
     label = "sixnosidedouble",
     group = 
 """
-1  *  {Cs,Os} 0 {2,S} {6,S}
-2     {Cs,Os} 0 {1,S} {3,S}
-3     {Cs,Os} 0 {2,S} {4,S}
-4     {Cs,Os} 0 {3,S} {5,S}
-5     {Cs,Os} 0 {4,S} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1 * {Cs,Os} 0 {2,S} {6,S}
+2   {Cs,Os} 0 {1,S} {3,S}
+3   {Cs,Os} 0 {2,S} {4,S}
+4   {Cs,Os} 0 {3,S} {5,S}
+5   {Cs,Os} 0 {4,S} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
-    thermo = 'Cyclohexane',
+    thermo = u'Cyclohexane',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1361,18 +1917,18 @@ entry(
     label = "Cyclohexane",
     group = 
 """
-1  *  Cs 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {1,S} {5,S}
+1 * Cs 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.8,-4.1,-2.9,-1.3,1.08,2.16,3],"cal/(mol*K)"),
-        H298 = (0.08,"kcal/mol"),
-        S298 = (18.1277,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.8,-4.1,-2.9,-1.3,1.08,2.16,3],'cal/(mol*K)'),
+        H298 = (0.08,'kcal/mol'),
+        S298 = (18.1277,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclohexane ring BENSON https:""",
     longDesc = 
@@ -1380,7 +1936,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1389,18 +1945,18 @@ entry(
     label = "12dioxane",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4  *  Cs 0 {3,S} {5,S}
-5     Os 0 {4,S} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Cs 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4 * Cs 0 {3,S} {5,S}
+5   Os 0 {4,S} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.66,-5.11,-4.17,-3.36,-2.52,-2.4,2.76],"cal/(mol*K)"),
-        H298 = (3.9,"kcal/mol"),
-        S298 = (19.6424,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.66,-5.11,-4.17,-3.36,-2.52,-2.4,2.76],'cal/(mol*K)'),
+        H298 = (3.9,'kcal/mol'),
+        S298 = (19.6424,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1408,7 +1964,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1417,18 +1973,18 @@ entry(
     label = "1,3-Dioxane",
     group = 
 """
-1     O 0 {2,S} {6,S}
-2  *  Cs 0 {1,S} {3,S}
-3     O 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {1,S} {5,S}
+1   O  0 {2,S} {6,S}
+2 * Cs 0 {1,S} {3,S}
+3   O  0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-6.28,-5.951,-4.458,-3.15,-1.967,-0.83,6.799],"cal/(mol*K)"),
-        H298 = (1.88,"kcal/mol"),
-        S298 = (16.1924,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.28,-5.951,-4.458,-3.15,-1.967,-0.83,6.799],'cal/(mol*K)'),
+        H298 = (1.88,'kcal/mol'),
+        S298 = (16.1924,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,3-Dioxane ring BENSON""",
     longDesc = 
@@ -1436,7 +1992,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1445,18 +2001,18 @@ entry(
     label = "1,4-Dioxane",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3  *  O 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     O 0 {1,S} {5,S}
+1   Cs 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3 * O  0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   O  0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-4.6,-5,-3.8,-2.6,-1.5,-0.4,8.9],"cal/(mol*K)"),
-        H298 = (3.4,"kcal/mol"),
-        S298 = (17.8049,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.6,-5,-3.8,-2.6,-1.5,-0.4,8.9],'cal/(mol*K)'),
+        H298 = (3.4,'kcal/mol'),
+        S298 = (17.8049,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,4-Dioxane ring BENSON""",
     longDesc = 
@@ -1464,7 +2020,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1473,18 +2029,18 @@ entry(
     label = "1,3,5-Trioxane",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2     O 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4  *  O 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     O 0 {1,S} {5,S}
+1   Cs 0 {2,S} {6,S}
+2   O  0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4 * O  0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   O  0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-7.01,-5.719,-3.632,-2.189,-1.525,-0.624,7.031],"cal/(mol*K)"),
-        H298 = (4.09,"kcal/mol"),
-        S298 = (16.1953,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-7.01,-5.719,-3.632,-2.189,-1.525,-0.624,7.031],'cal/(mol*K)'),
+        H298 = (4.09,'kcal/mol'),
+        S298 = (16.1953,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,3,5-Trioxane ring BENSON""",
     longDesc = 
@@ -1492,7 +2048,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1501,18 +2057,18 @@ entry(
     label = "124trioxane",
     group = 
 """
-1     Os 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3     Os 0 {2,S} {4,S}
-4  *  Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Os 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3   Os 0 {2,S} {4,S}
+4 * Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-4.68,-4.07,-2.95,-2.09,-1.73,-1.8,5.2],"cal/(mol*K)"),
-        H298 = (3.6,"kcal/mol"),
-        S298 = (19.9,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.68,-4.07,-2.95,-2.09,-1.73,-1.8,5.2],'cal/(mol*K)'),
+        H298 = (3.6,'kcal/mol'),
+        S298 = (19.9,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1520,7 +2076,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1529,18 +2085,18 @@ entry(
     label = "123trioxane",
     group = 
 """
-1     Os 0 {2,S} {6,S}
-2     Os 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4  *  Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Os 0 {2,S} {6,S}
+2   Os 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4 * Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-2.08,-2.81,-2.55,-1.93,-1.55,-1.9,3.09],"cal/(mol*K)"),
-        H298 = (4.87,"kcal/mol"),
-        S298 = (17.2,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.08,-2.81,-2.55,-1.93,-1.55,-1.9,3.09],'cal/(mol*K)'),
+        H298 = (4.87,'kcal/mol'),
+        S298 = (17.2,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1548,7 +2104,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1557,18 +2113,18 @@ entry(
     label = "Oxane",
     group = 
 """
-1  *  Cs 0 {2,S} {6,S}
-2     Os 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {1,S} {5,S}
+1 * Cs 0 {2,S} {6,S}
+2   Os 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-6,-5.5,-4.2,-3,-1.6,-0.5,4.9],"cal/(mol*K)"),
-        H298 = (0.7,"kcal/mol"),
-        S298 = (18.8,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6,-5.5,-4.2,-3,-1.6,-0.5,4.9],'cal/(mol*K)'),
+        H298 = (0.7,'kcal/mol'),
+        S298 = (18.8,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1576,7 +2132,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1585,18 +2141,18 @@ entry(
     label = "six-sidedoubles",
     group = 
 """
-1     {C,O} 0 {2,S} {6,S}
-2  *  {Cd,CO} 0 {1,S} {3,S}
-3     {C,O} 0 {2,S} {4,S}
-4     {C,O} 0 {3,S} {5,S}
-5     {C,O} 0 {4,S} {6,S}
-6     {C,O} 0 {1,S} {5,S}
+1   {C,O}   0 {2,S} {6,S}
+2 * {Cd,CO} 0 {1,S} {3,S}
+3   {C,O}   0 {2,S} {4,S}
+4   {C,O}   0 {3,S} {5,S}
+5   {C,O}   0 {4,S} {6,S}
+6   {C,O}   0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([10,10,10,10,10,10,0],"cal/(mol*K)"),
-        H298 = (10,"kcal/mol"),
-        S298 = (10,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10,10,10,10,10,10,0],'cal/(mol*K)'),
+        H298 = (10,'kcal/mol'),
+        S298 = (10,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1604,7 +2160,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1613,21 +2169,21 @@ entry(
     label = "six-onesidedouble",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  {Cd,CO} 0 {1,S} {3,S}
-3     {Cs,Os} 0 {2,S} {4,S}
-4     {Cs,Os} 0 {3,S} {5,S}
-5     {Cs,Os} 0 {4,S} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * {Cd,CO} 0 {1,S} {3,S}
+3   {Cs,Os} 0 {2,S} {4,S}
+4   {Cs,Os} 0 {3,S} {5,S}
+5   {Cs,Os} 0 {4,S} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
-    thermo = 'Cyclohexanone',
+    thermo = u'Cyclohexanone',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1636,18 +2192,18 @@ entry(
     label = "Cyclohexanone",
     group = 
 """
-1  *  CO 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {1,S} {5,S}
+1 * CO 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.4,-3.9,-2.3,-1,0.1,0.9,0],"cal/(mol*K)"),
-        H298 = (1.29,"kcal/mol"),
-        S298 = (19.1,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.4,-3.9,-2.3,-1,0.1,0.9,0],'cal/(mol*K)'),
+        H298 = (1.29,'kcal/mol'),
+        S298 = (19.1,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclohexanone ring BENSON""",
     longDesc = 
@@ -1655,7 +2211,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1664,21 +2220,21 @@ entry(
     label = "sixmembd-allsingles-twosidedoubles-para",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  {Cd,CO} 0 {1,S} {3,S}
-3     {Cs,Os} 0 {2,S} {4,S}
-4     {Cs,Os} 0 {3,S} {5,S}
-5     {Cd,CO} 0 {4,S} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * {Cd,CO} 0 {1,S} {3,S}
+3   {Cs,Os} 0 {2,S} {4,S}
+4   {Cs,Os} 0 {3,S} {5,S}
+5   {Cd,CO} 0 {4,S} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
-    thermo = '14methylenecyclohexane',
+    thermo = u'14methylenecyclohexane',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1687,20 +2243,20 @@ entry(
     label = "14methylenecyclohexane",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2  *  Cd 0 {1,S} {3,S} {7,D}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cd 0 {4,S} {6,S} {8,D}
-6     Cs 0 {1,S} {5,S}
-7     Cd 0 {2,D}
-8     Cd 0 {5,D}
+1   Cs 0 {2,S} {6,S}
+2 * Cd 0 {1,S} {3,S} {7,D}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cd 0 {4,S} {6,S} {8,D}
+6   Cs 0 {1,S} {5,S}
+7   Cd 0 {2,D}
+8   Cd 0 {5,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-6,-5.349,-4.468,-3.521,-2.203,-1.238,0.384],"cal/(mol*K)"),
-        H298 = (1.23,"kcal/mol"),
-        S298 = (15.7314,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6,-5.349,-4.468,-3.521,-2.203,-1.238,0.384],'cal/(mol*K)'),
+        H298 = (1.23,'kcal/mol'),
+        S298 = (15.7314,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1708,7 +2264,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1717,21 +2273,21 @@ entry(
     label = "sixmembd-allsingles-twosidedoubles-ortho",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  {Cd,CO} 0 {1,S} {3,S}
-3     {Cd,CO} 0 {2,S} {4,S}
-4     {Cs,Os} 0 {3,S} {5,S}
-5     {Cs,Os} 0 {4,S} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * {Cd,CO} 0 {1,S} {3,S}
+3   {Cd,CO} 0 {2,S} {4,S}
+4   {Cs,Os} 0 {3,S} {5,S}
+5   {Cs,Os} 0 {4,S} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
-    thermo = 'six-sidedoubles',
+    thermo = u'six-sidedoubles',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1740,21 +2296,21 @@ entry(
     label = "sixmembd-allsingles-twosidedoubles-meta",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  {Cd,CO} 0 {1,S} {3,S}
-3     {Cs,Os} 0 {2,S} {4,S}
-4     {Cd,CO} 0 {3,S} {5,S}
-5     {Cs,Os} 0 {4,S} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * {Cd,CO} 0 {1,S} {3,S}
+3   {Cs,Os} 0 {2,S} {4,S}
+4   {Cd,CO} 0 {3,S} {5,S}
+5   {Cs,Os} 0 {4,S} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
-    thermo = 'six-sidedoubles',
+    thermo = u'six-sidedoubles',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1763,21 +2319,21 @@ entry(
     label = "six-inringonedouble",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     {Cs,Os} 0 {3,S} {5,S}
-5     {Cs,Os} 0 {4,S} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * Cd      0 {1,S} {3,D}
+3   Cd      0 {2,D} {4,S}
+4   {Cs,Os} 0 {3,S} {5,S}
+5   {Cs,Os} 0 {4,S} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
-    thermo = 'Cyclohexene',
+    thermo = u'Cyclohexene',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1786,18 +2342,18 @@ entry(
     label = "34dihydro12dioxin",
     group = 
 """
-1     O 0 {2,S} {6,S}
-2     O 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5  *  Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1   O  0 {2,S} {6,S}
+2   O  0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5 * Cd 0 {4,S} {6,D}
+6   Cd 0 {1,S} {5,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-4.7,-4.9,-4.3,-3.7,-3.11,-2.62,0.62],"cal/(mol*K)"),
-        H298 = (1.07,"kcal/mol"),
-        S298 = (20.3,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.7,-4.9,-4.3,-3.7,-3.11,-2.62,0.62],'cal/(mol*K)'),
+        H298 = (1.07,'kcal/mol'),
+        S298 = (20.3,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1805,7 +2361,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1814,18 +2370,18 @@ entry(
     label = "36dihydro2hpyran",
     group = 
 """
-1  *  Cd 0 {2,S} {6,D}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cd 0 {1,D} {5,S}
+1 * Cd 0 {2,S} {6,D}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Os 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cd 0 {1,D} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-4.4,-4,-3,-2.2,-1.5,-0.8,2.3],"cal/(mol*K)"),
-        H298 = (1.43,"kcal/mol"),
-        S298 = (19.2,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.4,-4,-3,-2.2,-1.5,-0.8,2.3],'cal/(mol*K)'),
+        H298 = (1.43,'kcal/mol'),
+        S298 = (19.2,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1833,7 +2389,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1842,18 +2398,18 @@ entry(
     label = "Cyclohexene",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3  *  Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {1,S} {5,S}
+1   Cs 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3 * Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.1,-4.3,-3.3,-2.5,-1.4,-0.7,0.4],"cal/(mol*K)"),
-        H298 = (1.17,"kcal/mol"),
-        S298 = (21.2114,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.1,-4.3,-3.3,-2.5,-1.4,-0.7,0.4],'cal/(mol*K)'),
+        H298 = (1.17,'kcal/mol'),
+        S298 = (21.2114,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclohexene ring BENSON""",
     longDesc = 
@@ -1861,7 +2417,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1870,18 +2426,18 @@ entry(
     label = "3,4-Dihydro-2H-pyran",
     group = 
 """
-1     O 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5  *  Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1   O  0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5 * Cd 0 {4,S} {6,D}
+6   Cd 0 {1,S} {5,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-6.26,-6.496,-5.96,-5.142,-3.74,-2.915,0.529],"cal/(mol*K)"),
-        H298 = (3.94,"kcal/mol"),
-        S298 = (22.01,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.26,-6.496,-5.96,-5.142,-3.74,-2.915,0.529],'cal/(mol*K)'),
+        H298 = (3.94,'kcal/mol'),
+        S298 = (22.01,'cal/(mol*K)'),
     ),
     shortDesc = u"""3,4-Dihydro-2H-pyran ring BENSON""",
     longDesc = 
@@ -1889,7 +2445,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1898,18 +2454,18 @@ entry(
     label = "36dihydro12dioxin",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2  *  Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {4,S} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Cs 0 {2,S} {6,S}
+2 * Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Os 0 {4,S} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.45,-4.66,-3.81,-3.16,-2.65,-2.68,-1.53],"cal/(mol*K)"),
-        H298 = (3.32,"kcal/mol"),
-        S298 = (18.72,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.45,-4.66,-3.81,-3.16,-2.65,-2.68,-1.53],'cal/(mol*K)'),
+        H298 = (3.32,'kcal/mol'),
+        S298 = (18.72,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1917,7 +2473,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1926,18 +2482,18 @@ entry(
     label = "24dihydro13dioxin",
     group = 
 """
-1     Cd 0 {2,D} {6,S}
-2  *  Cd 0 {1,D} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Cd 0 {2,D} {6,S}
+2 * Cd 0 {1,D} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Os 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.5,-5.1,-4.2,-3.4,-2.8,-2.3,0.9],"cal/(mol*K)"),
-        H298 = (3.1,"kcal/mol"),
-        S298 = (20.2,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.5,-5.1,-4.2,-3.4,-2.8,-2.3,0.9],'cal/(mol*K)'),
+        H298 = (3.1,'kcal/mol'),
+        S298 = (20.2,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1945,7 +2501,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1954,18 +2510,18 @@ entry(
     label = "23dihydro14dioxin",
     group = 
 """
-1     Cd 0 {2,D} {6,S}
-2  *  Cd 0 {1,D} {3,S}
-3     Os 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Cd 0 {2,D} {6,S}
+2 * Cd 0 {1,D} {3,S}
+3   Os 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-6.3,-7.5,-7.5,-6.9,-5.5,-4.9,0.7],"cal/(mol*K)"),
-        H298 = (7.9,"kcal/mol"),
-        S298 = (19.3,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-6.3,-7.5,-7.5,-6.9,-5.5,-4.9,0.7],'cal/(mol*K)'),
+        H298 = (7.9,'kcal/mol'),
+        S298 = (19.3,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -1973,7 +2529,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1982,18 +2538,18 @@ entry(
     label = "124trioxene",
     group = 
 """
-1     Os 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3     Os 0 {2,S} {4,S}
-4  *  Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Os 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3   Os 0 {2,S} {4,S}
+4 * Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.51,-5.86,-5.48,-4.98,-4.44,-4.15,-0.75],"cal/(mol*K)"),
-        H298 = (6.98,"kcal/mol"),
-        S298 = (24.5,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.51,-5.86,-5.48,-4.98,-4.44,-4.15,-0.75],'cal/(mol*K)'),
+        H298 = (6.98,'kcal/mol'),
+        S298 = (24.5,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2001,7 +2557,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2010,18 +2566,18 @@ entry(
     label = "123trioxene",
     group = 
 """
-1     Os 0 {2,S} {6,S}
-2     Os 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4  *  Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Os 0 {2,S} {6,S}
+2   Os 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4 * Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-1.73,-2.67,-2.62,-2.27,-2.14,-2.08,-0.97],"cal/(mol*K)"),
-        H298 = (4,"kcal/mol"),
-        S298 = (21.57,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-1.73,-2.67,-2.62,-2.27,-2.14,-2.08,-0.97],'cal/(mol*K)'),
+        H298 = (4,'kcal/mol'),
+        S298 = (21.57,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2029,7 +2585,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2038,21 +2594,21 @@ entry(
     label = "six-inringtwodouble-13",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * Cd      0 {1,S} {3,D}
+3   Cd      0 {2,D} {4,S}
+4   Cd      0 {3,S} {5,D}
+5   Cd      0 {4,D} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
-    thermo = '1,3-Cyclohexadiene',
+    thermo = u'1,3-Cyclohexadiene',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2061,18 +2617,18 @@ entry(
     label = "1,3-Cyclohexadiene",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3  *  Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1   Cs 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3 * Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {1,S} {5,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-4.8,-4.7,-4.2,-3.5,-2.5,-1.8,-0.7],"cal/(mol*K)"),
-        H298 = (3.78,"kcal/mol"),
-        S298 = (23.9824,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-4.8,-4.7,-4.2,-3.5,-2.5,-1.8,-0.7],'cal/(mol*K)'),
+        H298 = (3.78,'kcal/mol'),
+        S298 = (23.9824,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,3-Cyclohexadiene ring BENSON""",
     longDesc = 
@@ -2080,7 +2636,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2089,21 +2645,21 @@ entry(
     label = "six-inringtwodouble-14",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     {Cs,Os} 0 {3,S} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * Cd      0 {1,S} {3,D}
+3   Cd      0 {2,D} {4,S}
+4   {Cs,Os} 0 {3,S} {5,S}
+5   Cd      0 {4,S} {6,D}
+6   Cd      0 {1,S} {5,D}
 """,
-    thermo = '1,4-Cyclohexadiene',
+    thermo = u'1,4-Cyclohexadiene',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2112,18 +2668,18 @@ entry(
     label = "1,4-Cyclohexadiene",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2  *  Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1   Cs 0 {2,S} {6,S}
+2 * Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {1,S} {5,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-3.4,-3.2,-2.6,-1.9,-1.2,-0.8,0.2],"cal/(mol*K)"),
-        H298 = (0.52,"kcal/mol"),
-        S298 = (25.3849,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.4,-3.2,-2.6,-1.9,-1.2,-0.8,0.2],'cal/(mol*K)'),
+        H298 = (0.52,'kcal/mol'),
+        S298 = (25.3849,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,4-Cyclohexadiene ring BENSON""",
     longDesc = 
@@ -2131,7 +2687,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2140,18 +2696,18 @@ entry(
     label = "14dioxin",
     group = 
 """
-1     Cd 0 {2,D} {6,S}
-2     Cd 0 {1,D} {3,S}
-3     Os 0 {2,S} {4,S}
-4  *  Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Cd 0 {2,D} {6,S}
+2   Cd 0 {1,D} {3,S}
+3   Os 0 {2,S} {4,S}
+4 * Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.9,-7.5,-7.5,-7.5,-6.8,-5.6,-4.2],"cal/(mol*K)"),
-        H298 = (11.71,"kcal/mol","+|-",-2.9),
-        S298 = (27.6,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.9,-7.5,-7.5,-7.5,-6.8,-5.6,-4.2],'cal/(mol*K)'),
+        H298 = (11.71,'kcal/mol','+|-',-2.9),
+        S298 = (27.6,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2159,7 +2715,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2168,18 +2724,18 @@ entry(
     label = "six-inringtwodouble-12",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  Cd 0 {1,S} {3,D}
-3     C 0 {2,D} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     {Cs,Os} 0 {4,S} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * Cd      0 {1,S} {3,D}
+3   C       0 {2,D} {4,D}
+4   Cd      0 {3,D} {5,S}
+5   {Cs,Os} 0 {4,S} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([10,10,10,10,10,10,10],"cal/(mol*K)"),
-        H298 = (10,"kcal/mol"),
-        S298 = (10,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([10,10,10,10,10,10,10],'cal/(mol*K)'),
+        H298 = (10,'kcal/mol'),
+        S298 = (10,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2187,7 +2743,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2196,21 +2752,21 @@ entry(
     label = "six-oneside-twoindoubles-25",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4  *  {Cd,CO} 0 {3,S} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1   {Cs,Os} 0 {2,S} {6,S}
+2   Cd      0 {1,S} {3,D}
+3   Cd      0 {2,D} {4,S}
+4 * {Cd,CO} 0 {3,S} {5,S}
+5   Cd      0 {4,S} {6,D}
+6   Cd      0 {1,S} {5,D}
 """,
-    thermo = '14cyclohexadiene3methylene',
+    thermo = u'14cyclohexadiene3methylene',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2219,18 +2775,18 @@ entry(
     label = "25cyclohexadienone",
     group = 
 """
-1  *  CO 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1 * CO 0 {2,S} {6,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {1,S} {5,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-3.3,-3.342,-3.034,-2.574,-1.976,-1.883,-0.24],"cal/(mol*K)"),
-        H298 = (-7.63,"kcal/mol"),
-        S298 = (22.5264,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.3,-3.342,-3.034,-2.574,-1.976,-1.883,-0.24],'cal/(mol*K)'),
+        H298 = (-7.63,'kcal/mol'),
+        S298 = (22.5264,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2238,7 +2794,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2247,19 +2803,19 @@ entry(
     label = "14cyclohexadiene3methylene",
     group = 
 """
-1     Cd 0 {2,D} {6,S}
-2     Cd 0 {1,D} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6  *  Cd 0 {1,S} {5,S} {7,D}
-7     Cd 0 {6,D}
+1   Cd 0 {2,D} {6,S}
+2   Cd 0 {1,D} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6 * Cd 0 {1,S} {5,S} {7,D}
+7   Cd 0 {6,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-2.818,-2.82,-2.578,-2.314,-2.091,-1.771,-1.49],"cal/(mol*K)"),
-        H298 = (-2.31,"kcal/mol"),
-        S298 = (27.775,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.818,-2.82,-2.578,-2.314,-2.091,-1.771,-1.49],'cal/(mol*K)'),
+        H298 = (-2.31,'kcal/mol'),
+        S298 = (27.775,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2267,7 +2823,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2276,21 +2832,21 @@ entry(
     label = "six-oneside-twoindoubles-24",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6  *  {Cd,CO} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2   Cd      0 {1,S} {3,D}
+3   Cd      0 {2,D} {4,S}
+4   Cd      0 {3,S} {5,D}
+5   Cd      0 {4,D} {6,S}
+6 * {Cd,CO} 0 {1,S} {5,S}
 """,
-    thermo = '13cyclohexadiene5methylene',
+    thermo = u'13cyclohexadiene5methylene',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2299,18 +2855,18 @@ entry(
     label = "24cyclohexadienone",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6  *  CO 0 {1,S} {5,S}
+1   Cs 0 {2,S} {6,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6 * CO 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-3.46,-4.214,-4.306,-4.049,-3.424,-3.243,0.32],"cal/(mol*K)"),
-        H298 = (-10.77,"kcal/mol"),
-        S298 = (29.286,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-3.46,-4.214,-4.306,-4.049,-3.424,-3.243,0.32],'cal/(mol*K)'),
+        H298 = (-10.77,'kcal/mol'),
+        S298 = (29.286,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2318,7 +2874,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2327,19 +2883,19 @@ entry(
     label = "13cyclohexadiene5methylene",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6  *  Cd 0 {1,S} {5,S} {7,D}
-7     Cd 0 {6,D}
+1   Cs 0 {2,S} {6,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6 * Cd 0 {1,S} {5,S} {7,D}
+7   Cd 0 {6,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.437,-6.088,-5.788,-4.994,-3.626,-2.664,-1.187],"cal/(mol*K)"),
-        H298 = (-4.78,"kcal/mol"),
-        S298 = (28.295,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.437,-6.088,-5.788,-4.994,-3.626,-2.664,-1.187],'cal/(mol*K)'),
+        H298 = (-4.78,'kcal/mol'),
+        S298 = (28.295,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2347,7 +2903,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2356,21 +2912,21 @@ entry(
     label = "six-twoin13-twoout",
     group = 
 """
-1     {CO,Cd} 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6  *  {Cd,CO} 0 {1,S} {5,S}
+1   {CO,Cd} 0 {2,S} {6,S}
+2   Cd      0 {1,S} {3,D}
+3   Cd      0 {2,D} {4,S}
+4   Cd      0 {3,S} {5,D}
+5   Cd      0 {4,D} {6,S}
+6 * {Cd,CO} 0 {1,S} {5,S}
 """,
-    thermo = 'oxylene',
+    thermo = u'oxylene',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2379,19 +2935,19 @@ entry(
     label = "fg6",
     group = 
 """
-1  *  CO 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,S} {7,D}
-3     Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
-7     Cd 0 {2,D}
+1 * CO 0 {2,S} {6,S}
+2   Cd 0 {1,S} {3,S} {7,D}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {1,S} {5,D}
+7   Cd 0 {2,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-5.597,-6.43,-6.331,-5.573,-4.198,-3.361,-1.155],"cal/(mol*K)"),
-        H298 = (-4.62,"kcal/mol"),
-        S298 = (28.901,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-5.597,-6.43,-6.331,-5.573,-4.198,-3.361,-1.155],'cal/(mol*K)'),
+        H298 = (-4.62,'kcal/mol'),
+        S298 = (28.901,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2399,7 +2955,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2408,20 +2964,20 @@ entry(
     label = "oxylene",
     group = 
 """
-1  *  Cd 0 {5,S} {6,S} {8,D}
-2     Cd 0 {3,D} {6,S}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {1,S} {4,D}
-6     Cd 0 {1,S} {2,S} {7,D}
-7     Cd 0 {6,D}
-8     Cd 0 {1,D}
+1 * Cd 0 {5,S} {6,S} {8,D}
+2   Cd 0 {3,D} {6,S}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {1,S} {4,D}
+6   Cd 0 {1,S} {2,S} {7,D}
+7   Cd 0 {6,D}
+8   Cd 0 {1,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-2.078,-2.192,-2.249,-2.275,-2.541,-2.331,-2.797],"cal/(mol*K)"),
-        H298 = (4.16,"kcal/mol"),
-        S298 = (32.519,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.078,-2.192,-2.249,-2.275,-2.541,-2.331,-2.797],'cal/(mol*K)'),
+        H298 = (4.16,'kcal/mol'),
+        S298 = (32.519,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2429,7 +2985,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2438,20 +2994,20 @@ entry(
     label = "obenzoquinone",
     group = 
 """
-1  *  C 0 {5,S} {6,S} {8,D}
-2     Cd 0 {3,D} {6,S}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {1,S} {4,D}
-6     C 0 {1,S} {2,S} {7,D}
-7     Od 0 {6,D}
-8     Od 0 {1,D}
+1 * C  0 {5,S} {6,S} {8,D}
+2   Cd 0 {3,D} {6,S}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {1,S} {4,D}
+6   C  0 {1,S} {2,S} {7,D}
+7   Od 0 {6,D}
+8   Od 0 {1,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-2.887,-3.225,-3.233,-2.897,-2.4,-2.365,-0.077],"cal/(mol*K)"),
-        H298 = (11,"kcal/mol"),
-        S298 = (25.331,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.887,-3.225,-3.233,-2.897,-2.4,-2.365,-0.077],'cal/(mol*K)'),
+        H298 = (11,'kcal/mol'),
+        S298 = (25.331,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2459,7 +3015,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2468,21 +3024,21 @@ entry(
     label = "six-twoin14-twoout",
     group = 
 """
-1     {Cd,CO} 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4  *  {Cd,CO} 0 {3,S} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1   {Cd,CO} 0 {2,S} {6,S}
+2   Cd      0 {1,S} {3,D}
+3   Cd      0 {2,D} {4,S}
+4 * {Cd,CO} 0 {3,S} {5,S}
+5   Cd      0 {4,S} {6,D}
+6   Cd      0 {1,S} {5,D}
 """,
-    thermo = 'pxylene',
+    thermo = u'pxylene',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2491,18 +3047,18 @@ entry(
     label = "pbenzoquinone",
     group = 
 """
-1  *  CO 0 {4,S} {5,S}
-2     Cd 0 {5,D} {6,S}
-3     Cd 0 {4,D} {6,S}
-4     Cd 0 {1,S} {3,D}
-5     Cd 0 {1,S} {2,D}
-6     CO 0 {2,S} {3,S}
+1 * CO 0 {4,S} {5,S}
+2   Cd 0 {5,D} {6,S}
+3   Cd 0 {4,D} {6,S}
+4   Cd 0 {1,S} {3,D}
+5   Cd 0 {1,S} {2,D}
+6   CO 0 {2,S} {3,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-2.957,-3.282,-3.278,-2.934,-2.427,-2.627,-0.312],"cal/(mol*K)"),
-        H298 = (15.52,"kcal/mol"),
-        S298 = (24.9239,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.957,-3.282,-3.278,-2.934,-2.427,-2.627,-0.312],'cal/(mol*K)'),
+        H298 = (15.52,'kcal/mol'),
+        S298 = (24.9239,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2510,7 +3066,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2519,20 +3075,20 @@ entry(
     label = "pxylene",
     group = 
 """
-1  *  Cd 0 {4,S} {5,S} {6,D}
-2     Cd 0 {5,D} {7,S}
-3     Cd 0 {4,D} {7,S}
-4     Cd 0 {1,S} {3,D}
-5     Cd 0 {1,S} {2,D}
-6     Cd 0 {1,D}
-7     Cd 0 {2,S} {3,S} {8,D}
-8     Cd 0 {7,D}
+1 * Cd 0 {4,S} {5,S} {6,D}
+2   Cd 0 {5,D} {7,S}
+3   Cd 0 {4,D} {7,S}
+4   Cd 0 {1,S} {3,D}
+5   Cd 0 {1,S} {2,D}
+6   Cd 0 {1,D}
+7   Cd 0 {2,S} {3,S} {8,D}
+8   Cd 0 {7,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([-2.139,-2.309,-2.384,-2.407,-2.643,-2.403,-2.826],"cal/(mol*K)"),
-        H298 = (1.16,"kcal/mol"),
-        S298 = (31.3499,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.139,-2.309,-2.384,-2.407,-2.643,-2.403,-2.826],'cal/(mol*K)'),
+        H298 = (1.16,'kcal/mol'),
+        S298 = (31.3499,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
     longDesc = 
@@ -2540,7 +3096,37 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 125,
+    label = "3,4-dimethylenecyclohexene",
+    group = 
+"""
+1 * C  0 {2,S} {3,S}
+2   C  0 {1,S} {5,S}
+3   Cd 0 {1,S} {4,S} {7,D}
+4   Cd 0 {3,S} {6,S} {8,D}
+5   Cd 0 {2,S} {6,D}
+6   Cd 0 {4,S} {5,D}
+7   Cd 0 {3,D}
+8   Cd 0 {4,D}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-2.1,-2.2,-2.2,-2.3,-2.5,-2.3,-0.3],'cal/(mol*K)'),
+        H298 = (4.2,'kcal/mol'),
+        S298 = (32.5,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2549,22 +3135,22 @@ entry(
     label = "SevenMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {7,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {2,{S,D}} {4,{S,D}}
-4     R!H 0 {3,{S,D}} {5,{S,D}}
-5     R!H 0 {4,{S,D}} {6,{S,D}}
-6     R!H 0 {5,{S,D}} {7,{S,D}}
-7     R!H 0 {1,{S,D}} {6,{S,D}}
+1 * R!H 0 {2,{S,D}} {7,{S,D}}
+2   R!H 0 {1,{S,D}} {3,{S,D}}
+3   R!H 0 {2,{S,D}} {4,{S,D}}
+4   R!H 0 {3,{S,D}} {5,{S,D}}
+5   R!H 0 {4,{S,D}} {6,{S,D}}
+6   R!H 0 {5,{S,D}} {7,{S,D}}
+7   R!H 0 {1,{S,D}} {6,{S,D}}
 """,
-    thermo = 'Cycloheptane',
+    thermo = u'Cycloheptane',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2573,19 +3159,19 @@ entry(
     label = "Cycloheptane",
     group = 
 """
-1  *  Cs 0 {2,S} {7,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {1,S} {6,S}
+1 * Cs 0 {2,S} {7,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {1,S} {6,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (6.4,"kcal/mol"),
-        S298 = (15.9,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-9.1,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (6.4,'kcal/mol'),
+        S298 = (15.9,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cycloheptane ring BENSON""",
     longDesc = 
@@ -2593,7 +3179,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2602,27 +3188,27 @@ entry(
     label = "Cycloheptene",
     group = 
 """
-1  *  Cs 0 {2,S} {7,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {1,S} {6,S}
+1 * Cs 0 {2,S} {7,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {1,S} {6,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (5.4,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-9.1,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (5.4,'kcal/mol'),
+        S298 = (15.6,'cal/(mol*K)'),
     ),
-    shortDesc = u"""Cycloheptene ring BENSON""",
+    shortDesc = u"""Cycloheptene ring BENSON Cp 300K copied from cycloheptane""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2631,19 +3217,19 @@ entry(
     label = "1,3-Cycloheptadiene",
     group = 
 """
-1  *  Cs 0 {2,S} {7,S}
-2     Cs 0 {1,S} {3,S}
-3     Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {5,D} {7,S}
-7     Cs 0 {1,S} {6,S}
+1 * Cs 0 {2,S} {7,S}
+2   Cs 0 {1,S} {3,S}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {5,D} {7,S}
+7   Cs 0 {1,S} {6,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (6.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (6.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,3-Cycloheptadiene ring BENSON""",
     longDesc = 
@@ -2651,7 +3237,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2660,19 +3246,19 @@ entry(
     label = "1,3,5-Cycloheptatriene",
     group = 
 """
-1  *  Cs 0 {2,S} {7,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6     Cd 0 {5,S} {7,D}
-7     Cd 0 {1,S} {6,D}
+1 * Cs 0 {2,S} {7,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6   Cd 0 {5,S} {7,D}
+7   Cd 0 {1,S} {6,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (4.7,"kcal/mol"),
-        S298 = (23.7,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4.7,'kcal/mol'),
+        S298 = (23.7,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,3,5-Cycloheptatriene ring BENSON""",
     longDesc = 
@@ -2680,7 +3266,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2689,19 +3275,19 @@ entry(
     label = "Cycloheptanone",
     group = 
 """
-1  *  CO 0 {2,S} {7,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {1,S} {6,S}
+1 * CO 0 {2,S} {7,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {1,S} {6,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (2.3,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (2.3,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cycloheptanone ring BENSON""",
     longDesc = 
@@ -2709,7 +3295,36 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 129,
+    label = "1,4-Cycloheptadiene",
+    group = 
+"""
+1 * C  0 {2,D} {7,S}
+2   Cd 0 {1,D} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {1,S} {6,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-9.1,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4.3,'kcal/mol'),
+        S298 = (15.9,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cycloheptane""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2718,23 +3333,23 @@ entry(
     label = "EightMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {8,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {2,{S,D}} {4,{S,D}}
-4     R!H 0 {3,{S,D}} {5,{S,D}}
-5     R!H 0 {4,{S,D}} {6,{S,D}}
-6     R!H 0 {5,{S,D}} {7,{S,D}}
-7     R!H 0 {6,{S,D}} {8,{S,D}}
-8     R!H 0 {1,{S,D}} {7,{S,D}}
+1 * R!H 0 {2,{S,D}} {8,{S,D}}
+2   R!H 0 {1,{S,D}} {3,{S,D}}
+3   R!H 0 {2,{S,D}} {4,{S,D}}
+4   R!H 0 {3,{S,D}} {5,{S,D}}
+5   R!H 0 {4,{S,D}} {6,{S,D}}
+6   R!H 0 {5,{S,D}} {7,{S,D}}
+7   R!H 0 {6,{S,D}} {8,{S,D}}
+8   R!H 0 {1,{S,D}} {7,{S,D}}
 """,
-    thermo = 'Cyclooctane',
+    thermo = u'Cyclooctane',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2743,20 +3358,20 @@ entry(
     label = "Cyclooctane",
     group = 
 """
-1  *  Cs 0 {2,S} {8,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {6,S} {8,S}
-8     Cs 0 {1,S} {7,S}
+1 * Cs 0 {2,S} {8,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {6,S} {8,S}
+8   Cs 0 {1,S} {7,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (9.9,"kcal/mol"),
-        S298 = (16.5,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.6,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (9.9,'kcal/mol'),
+        S298 = (16.5,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclooctane ring BENSON""",
     longDesc = 
@@ -2764,7 +3379,37 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 60,
+    label = "cis-Cyclooctene",
+    group = 
+"""
+1 * Cd 0 {2,D} {8,S}
+2   Cd 0 {1,D} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {6,S} {8,S}
+8   Cs 0 {1,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.6,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (6,'kcal/mol'),
+        S298 = (12,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""cis-Cyclooctene ring BENSON Cp 300K copied from cyclo-octane""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2773,20 +3418,20 @@ entry(
     label = "1,3,5-Cyclooctatriene",
     group = 
 """
-1  *  Cs 0 {2,S} {8,S}
-2     Cs 0 {1,S} {3,S}
-3     Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {5,D} {7,S}
-7     Cd 0 {6,S} {8,D}
-8     Cd 0 {1,S} {7,D}
+1 * Cs 0 {2,S} {8,S}
+2   Cs 0 {1,S} {3,S}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {5,D} {7,S}
+7   Cd 0 {6,S} {8,D}
+8   Cd 0 {1,S} {7,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (8.9,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (8.9,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,3,5-Cyclooctatriene ring BENSON""",
     longDesc = 
@@ -2794,7 +3439,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2803,20 +3448,20 @@ entry(
     label = "Cyclooctatetraene",
     group = 
 """
-1  *  Cd 0 {2,D} {8,S}
-2     Cd 0 {1,D} {3,S}
-3     Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {5,D} {7,S}
-7     Cd 0 {6,S} {8,D}
-8     Cd 0 {1,S} {7,D}
+1 * Cd 0 {2,D} {8,S}
+2   Cd 0 {1,D} {3,S}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {5,D} {7,S}
+7   Cd 0 {6,S} {8,D}
+8   Cd 0 {1,S} {7,D}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (17.1,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (17.1,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclooctatetraene ring BENSON""",
     longDesc = 
@@ -2824,7 +3469,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2833,20 +3478,20 @@ entry(
     label = "Cyclooctanone",
     group = 
 """
-1  *  CO 0 {2,S} {8,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {6,S} {8,S}
-8     Cs 0 {1,S} {7,S}
+1 * CO 0 {2,S} {8,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {6,S} {8,S}
+8   Cs 0 {1,S} {7,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (1.5,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (1.5,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclooctanone ring BENSON""",
     longDesc = 
@@ -2854,7 +3499,97 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 126,
+    label = "1,3-cyclooctadiene",
+    group = 
+"""
+1 * Cd 0 {2,D} {8,S}
+2   Cd 0 {1,D} {3,S}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {6,S} {8,S}
+8   Cs 0 {1,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.6,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (6.1,'kcal/mol'),
+        S298 = (12,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclooctane""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 127,
+    label = "1,4-cyclooctadiene",
+    group = 
+"""
+1 * Cd 0 {2,D} {8,S}
+2   Cd 0 {1,D} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {6,S} {8,S}
+8   Cs 0 {1,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.6,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (6.1,'kcal/mol'),
+        S298 = (12,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclooctane""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 128,
+    label = "1,5-cyclooctadiene",
+    group = 
+"""
+1 * Cd 0 {2,D} {8,S}
+2   Cd 0 {1,D} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {5,D} {7,S}
+7   Cs 0 {6,S} {8,S}
+8   Cs 0 {1,S} {7,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([-10.6,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (6.1,'kcal/mol'),
+        S298 = (12,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclooctane""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2863,24 +3598,24 @@ entry(
     label = "NineMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {9,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {2,{S,D}} {4,{S,D}}
-4     R!H 0 {3,{S,D}} {5,{S,D}}
-5     R!H 0 {4,{S,D}} {6,{S,D}}
-6     R!H 0 {5,{S,D}} {7,{S,D}}
-7     R!H 0 {6,{S,D}} {8,{S,D}}
-8     R!H 0 {7,{S,D}} {9,{S,D}}
-9     R!H 0 {1,{S,D}} {8,{S,D}}
+1 * R!H 0 {2,{S,D}} {9,{S,D}}
+2   R!H 0 {1,{S,D}} {3,{S,D}}
+3   R!H 0 {2,{S,D}} {4,{S,D}}
+4   R!H 0 {3,{S,D}} {5,{S,D}}
+5   R!H 0 {4,{S,D}} {6,{S,D}}
+6   R!H 0 {5,{S,D}} {7,{S,D}}
+7   R!H 0 {6,{S,D}} {8,{S,D}}
+8   R!H 0 {7,{S,D}} {9,{S,D}}
+9   R!H 0 {1,{S,D}} {8,{S,D}}
 """,
-    thermo = 'Cyclononane',
+    thermo = u'Cyclononane',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2889,21 +3624,21 @@ entry(
     label = "Cyclononane",
     group = 
 """
-1  *  Cs 0 {2,S} {9,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {6,S} {8,S}
-8     Cs 0 {7,S} {9,S}
-9     Cs 0 {1,S} {8,S}
+1 * Cs 0 {2,S} {9,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {6,S} {8,S}
+8   Cs 0 {7,S} {9,S}
+9   Cs 0 {1,S} {8,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (12.8,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (12.8,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclononane ring BENSON""",
     longDesc = 
@@ -2911,7 +3646,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2920,21 +3655,21 @@ entry(
     label = "Cyclononanone",
     group = 
 """
-1  *  CO 0 {2,S} {9,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {6,S} {8,S}
-8     Cs 0 {7,S} {9,S}
-9     Cs 0 {1,S} {8,S}
+1 * CO 0 {2,S} {9,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {6,S} {8,S}
+8   Cs 0 {7,S} {9,S}
+9   Cs 0 {1,S} {8,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (4.7,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (4.7,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclononanone ring BENSON""",
     longDesc = 
@@ -2942,7 +3677,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2951,25 +3686,25 @@ entry(
     label = "TenMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {10,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {2,{S,D}} {4,{S,D}}
-4     R!H 0 {3,{S,D}} {5,{S,D}}
-5     R!H 0 {4,{S,D}} {6,{S,D}}
-6     R!H 0 {5,{S,D}} {7,{S,D}}
-7     R!H 0 {6,{S,D}} {8,{S,D}}
-8     R!H 0 {7,{S,D}} {9,{S,D}}
-9     R!H 0 {8,{S,D}} {10,{S,D}}
-10    R!H 0 {1,{S,D}} {9,{S,D}}
+1  * R!H 0 {2,{S,D}} {10,{S,D}}
+2    R!H 0 {1,{S,D}} {3,{S,D}}
+3    R!H 0 {2,{S,D}} {4,{S,D}}
+4    R!H 0 {3,{S,D}} {5,{S,D}}
+5    R!H 0 {4,{S,D}} {6,{S,D}}
+6    R!H 0 {5,{S,D}} {7,{S,D}}
+7    R!H 0 {6,{S,D}} {8,{S,D}}
+8    R!H 0 {7,{S,D}} {9,{S,D}}
+9    R!H 0 {8,{S,D}} {10,{S,D}}
+10   R!H 0 {1,{S,D}} {9,{S,D}}
 """,
-    thermo = 'Cyclodecane',
+    thermo = u'Cyclodecane',
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2978,22 +3713,22 @@ entry(
     label = "Cyclodecane",
     group = 
 """
-1  *  Cs 0 {2,S} {10,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {6,S} {8,S}
-8     Cs 0 {7,S} {9,S}
-9     Cs 0 {8,S} {10,S}
-10    Cs 0 {1,S} {9,S}
+1  * Cs 0 {2,S} {10,S}
+2    Cs 0 {1,S} {3,S}
+3    Cs 0 {2,S} {4,S}
+4    Cs 0 {3,S} {5,S}
+5    Cs 0 {4,S} {6,S}
+6    Cs 0 {5,S} {7,S}
+7    Cs 0 {6,S} {8,S}
+8    Cs 0 {7,S} {9,S}
+9    Cs 0 {8,S} {10,S}
+10   Cs 0 {1,S} {9,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (12.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (12.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclodecane ring BENSON""",
     longDesc = 
@@ -3001,7 +3736,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3010,22 +3745,22 @@ entry(
     label = "Cyclodecanone",
     group = 
 """
-1  *  CO 0 {2,S} {10,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {6,S} {8,S}
-8     Cs 0 {7,S} {9,S}
-9     Cs 0 {8,S} {10,S}
-10    Cs 0 {1,S} {9,S}
+1  * CO 0 {2,S} {10,S}
+2    Cs 0 {1,S} {3,S}
+3    Cs 0 {2,S} {4,S}
+4    Cs 0 {3,S} {5,S}
+5    Cs 0 {4,S} {6,S}
+6    Cs 0 {5,S} {7,S}
+7    Cs 0 {6,S} {8,S}
+8    Cs 0 {7,S} {9,S}
+9    Cs 0 {8,S} {10,S}
+10   Cs 0 {1,S} {9,S}
 """,
     thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],"K"),
-        Cpdata = ([0,0,0,0,0,0,0],"cal/(mol*K)"),
-        H298 = (3.6,"kcal/mol"),
-        S298 = (0,"cal/(mol*K)"),
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (3.6,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""Cyclodecanone ring BENSON""",
     longDesc = 
@@ -3033,7 +3768,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3050,6 +3785,10 @@ L1: Ring
         L3: 2(co)oxirane
         L3: cyclopropanedione
         L3: cyclopropenone
+        L3: thiirane
+        L3: dithiirane
+        L3: trithiirane
+        L3: thiirene
         L3: Methylene_cyclopropane
         L3: cyclopropanone
         L3: methylenecyclopropene
@@ -3065,6 +3804,11 @@ L1: Ring
         L3: 12dioxetane
         L3: dioxerene
         L3: cyclobutadiene
+        L3: thietane
+        L3: 1,2-dithietane
+        L3: 1,3-dithietane
+        L3: trithietane
+        L3: tetrathietane
         L3: 4-Methylene-2-oxetanone
         L3: methylenecyclobutane
         L3: 2methyleneoxetane
@@ -3086,8 +3830,20 @@ L1: Ring
         L3: 12dioxolene
         L3: 123trioxolane
         L3: 124trioxolane
+        L3: thiolane
+        L3: 2,3-dihydrothiophene
+        L3: 2,5-dihydrothiophene
+        L3: thiophene
+        L3: 1,2-dithiolane
+        L3: 1,3-dithiolane
+        L3: 1,2,3-trithiolane
+        L3: 1,2,4-trithiolane
+        L3: tetrathiolane
+        L3: pentathiolane
         L3: methylenecyclopentane
         L3: Fulvene
+        L3: 3-Methylenecyclopentene
+        L3: 4-Methylenecyclopentene
         L3: 12methylenecyclopentane
     L2: SixMember
         L3: sixnosidedouble
@@ -3135,17 +3891,23 @@ L1: Ring
         L3: six-twoin14-twoout
             L4: pbenzoquinone
             L4: pxylene
+        L3: 3,4-dimethylenecyclohexene
     L2: SevenMember
         L3: Cycloheptane
         L3: Cycloheptene
         L3: 1,3-Cycloheptadiene
         L3: 1,3,5-Cycloheptatriene
         L3: Cycloheptanone
+        L3: 1,4-Cycloheptadiene
     L2: EightMember
         L3: Cyclooctane
+        L3: cis-Cyclooctene
         L3: 1,3,5-Cyclooctatriene
         L3: Cyclooctatetraene
         L3: Cyclooctanone
+        L3: 1,3-cyclooctadiene
+        L3: 1,4-cyclooctadiene
+        L3: 1,5-cyclooctadiene
     L2: NineMember
         L3: Cyclononane
         L3: Cyclononanone

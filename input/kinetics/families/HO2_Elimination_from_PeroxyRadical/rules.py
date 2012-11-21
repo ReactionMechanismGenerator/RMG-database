@@ -17,19 +17,19 @@ entry(
     label = "R2OO",
     group1 = 
 """
-1  *1 {C,Si} 0 {2,S} {5,S}
-2  *2 {C,Si} 0 {1,S} {3,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
+1 *1 {C,Si,O} 0 {2,S} {5,S}
+2 *2 {C,Si}   0 {1,S} {3,S}
+3 *3 O        0 {2,S} {4,S}
+4 *4 O        1 {3,S}
+5 *5 H        0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1e+10,"s^-1"),
+        A = (10000000000.0, 's^-1'),
         n = 1,
         alpha = 0,
-        E0 = (30,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (30, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -40,7 +40,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -49,23 +49,23 @@ entry(
     label = "R2OO_2H_2H",
     group1 = 
 """
-1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2  *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
+1 *1 C 0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C 0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O 0 {2,S} {4,S}
+4 *4 O 1 {3,S}
+5 *5 H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.56e+07,"s^-1"),
+        A = (15600000.0, 's^-1'),
         n = 1.69,
         alpha = 0,
-        E0 = (29.8,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (29.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -76,7 +76,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -85,23 +85,23 @@ entry(
     label = "R2OO_HNd_2H",
     group1 = 
 """
-1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2  *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     H 0 {1,S}
-7     {Cs,O} 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
+1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      0 {2,S} {4,S}
+4 *4 O      1 {3,S}
+5 *5 H      0 {1,S}
+6    H      0 {1,S}
+7    {Cs,O} 0 {1,S}
+8    H      0 {2,S}
+9    H      0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.79e+07,"s^-1"),
+        A = (47900000.0, 's^-1'),
         n = 1.46,
         alpha = 0,
-        E0 = (29.4,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (29.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -112,7 +112,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -121,23 +121,23 @@ entry(
     label = "R2OO_NdNd_2H",
     group1 = 
 """
-1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2  *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     {Cs,O} 0 {1,S}
-7     {Cs,O} 0 {1,S}
-8     H 0 {2,S}
-9     H 0 {2,S}
+1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      0 {2,S} {4,S}
+4 *4 O      1 {3,S}
+5 *5 H      0 {1,S}
+6    {Cs,O} 0 {1,S}
+7    {Cs,O} 0 {1,S}
+8    H      0 {2,S}
+9    H      0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.06e+08,"s^-1"),
+        A = (506000000.0, 's^-1'),
         n = 1.19,
         alpha = 0,
-        E0 = (29.9,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (29.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -148,7 +148,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -157,23 +157,23 @@ entry(
     label = "R2OO_2H_HNd",
     group1 = 
 """
-1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2  *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     {Cs,O} 0 {2,S}
+1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      0 {2,S} {4,S}
+4 *4 O      1 {3,S}
+5 *5 H      0 {1,S}
+6    H      0 {1,S}
+7    H      0 {1,S}
+8    H      0 {2,S}
+9    {Cs,O} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (9.79e+08,"s^-1"),
+        A = (979000000.0, 's^-1'),
         n = 1.17,
         alpha = 0,
-        E0 = (30.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (30.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -184,7 +184,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -193,23 +193,23 @@ entry(
     label = "R2OO_HNd_HNd",
     group1 = 
 """
-1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2  *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     H 0 {1,S}
-7     {Cs,O} 0 {1,S}
-8     H 0 {2,S}
-9     {Cs,O} 0 {2,S}
+1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      0 {2,S} {4,S}
+4 *4 O      1 {3,S}
+5 *5 H      0 {1,S}
+6    H      0 {1,S}
+7    {Cs,O} 0 {1,S}
+8    H      0 {2,S}
+9    {Cs,O} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.65e+09,"s^-1"),
+        A = (1650000000.0, 's^-1'),
         n = 1.01,
         alpha = 0,
-        E0 = (29.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (29.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -220,7 +220,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -229,23 +229,23 @@ entry(
     label = "R2OO_NdNd_HNd",
     group1 = 
 """
-1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2  *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     {Cs,O} 0 {1,S}
-7     {Cs,O} 0 {1,S}
-8     H 0 {2,S}
-9     {Cs,O} 0 {2,S}
+1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      0 {2,S} {4,S}
+4 *4 O      1 {3,S}
+5 *5 H      0 {1,S}
+6    {Cs,O} 0 {1,S}
+7    {Cs,O} 0 {1,S}
+8    H      0 {2,S}
+9    {Cs,O} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.48e+10,"s^-1"),
+        A = (64800000000.0, 's^-1'),
         n = 0.57,
         alpha = 0,
-        E0 = (29.9,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (29.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -256,7 +256,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -265,23 +265,23 @@ entry(
     label = "R2OO_2H_NdNd",
     group1 = 
 """
-1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2  *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     {Cs,O} 0 {2,S}
-9     {Cs,O} 0 {2,S}
+1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      0 {2,S} {4,S}
+4 *4 O      1 {3,S}
+5 *5 H      0 {1,S}
+6    H      0 {1,S}
+7    H      0 {1,S}
+8    {Cs,O} 0 {2,S}
+9    {Cs,O} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.48e+09,"s^-1"),
+        A = (7480000000.0, 's^-1'),
         n = 1.08,
         alpha = 0,
-        E0 = (29.7,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (29.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -292,7 +292,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -301,23 +301,23 @@ entry(
     label = "R2OO_HNd_NdNd",
     group1 = 
 """
-1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2  *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     H 0 {1,S}
-7     {Cs,O} 0 {1,S}
-8     {Cs,O} 0 {2,S}
-9     {Cs,O} 0 {2,S}
+1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      0 {2,S} {4,S}
+4 *4 O      1 {3,S}
+5 *5 H      0 {1,S}
+6    H      0 {1,S}
+7    {Cs,O} 0 {1,S}
+8    {Cs,O} 0 {2,S}
+9    {Cs,O} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (8.11e+14,"s^-1"),
+        A = (811000000000000.0, 's^-1'),
         n = -0.78,
         alpha = 0,
-        E0 = (30.4,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (30.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -328,7 +328,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -337,23 +337,23 @@ entry(
     label = "R2OO_NdNd_NdNd",
     group1 = 
 """
-1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2  *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     {Cs,O} 0 {1,S}
-7     {Cs,O} 0 {1,S}
-8     {Cs,O} 0 {2,S}
-9     {Cs,O} 0 {2,S}
+1 *1 C      0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C      0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O      0 {2,S} {4,S}
+4 *4 O      1 {3,S}
+5 *5 H      0 {1,S}
+6    {Cs,O} 0 {1,S}
+7    {Cs,O} 0 {1,S}
+8    {Cs,O} 0 {2,S}
+9    {Cs,O} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.1e+19,"s^-1"),
+        A = (3.1e+19, 's^-1'),
         n = -1.78,
         alpha = 0,
-        E0 = (31.7,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (31.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -364,7 +364,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -388,12 +388,12 @@ entry(
 13    H 0 {11,S}
 """,
     kinetics = ArrheniusEP(
-        A = (825300,"s^-1","*|/",5),
+        A = (825300, 's^-1', '*|/', 5),
         n = 1.829,
         alpha = 0,
-        E0 = (24.247,"kcal/mol","+|-",2),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
+        E0 = (24.247, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -420,7 +420,7 @@ k(T) = 2.476e+06 * (T/1K)^1.829 * exp(-24.247 kcal/mol / RT) cm3/mol/s.  MRH div
 three to account for the reaction path degeneracy, yielding the value stored in the rateLibrary.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -429,23 +429,23 @@ entry(
     label = "R2OO_2H_HDe",
     group1 = 
 """
-1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
-2  *2 C 0 {1,S} {3,S} {8,S} {9,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     H 0 {1,S}
-7     H 0 {1,S}
-8     H 0 {2,S}
-9     {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 C             0 {2,S} {5,S} {6,S} {7,S}
+2 *2 C             0 {1,S} {3,S} {8,S} {9,S}
+3 *3 O             0 {2,S} {4,S}
+4 *4 O             1 {3,S}
+5 *5 H             0 {1,S}
+6    H             0 {1,S}
+7    H             0 {1,S}
+8    H             0 {2,S}
+9    {Cd,Ct,Cb,CO} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (825300,"s^-1","*|/",5),
+        A = (825300, 's^-1', '*|/', 5),
         n = 1.829,
         alpha = 0,
-        E0 = (24.247,"kcal/mol","+|-",2),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
+        E0 = (24.247, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -462,7 +462,7 @@ in the event node 846 is hit is reasonable, considering this part of the molecul
 TS (and it is certainly better than leaving RMG to estimate via "Average of Average").
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -483,12 +483,12 @@ entry(
 10    H 0 {7,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.813e+10,"s^-1","*|/",10),
-        n = 0.439,
+        A = (68130000000.0, 's^-1', '*|/', 10),
+        n = 0.493,
         alpha = 0,
-        E0 = (11.894,"kcal/mol","+|-",2),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
+        E0 = (11.894, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -516,7 +516,7 @@ da Silva et al. calculation for the adduct going to product is between 2-5 order
 magnitude faster than reactants going to adduct, so it is a reasonable assumption
 to say the first step is the rate-limiting step.
 
-Comparing my k(T) with two other sources for this reaction (dx.doi.org/10.1021/jp003762p and
+Comparing my k(T) with two other sources for this reaction (dx.doi.org/10.1021/jp003762p and 
 I. Hermans et al., AIAA Journal, 109, (2005), 4303-4311) also shows good agreement.
 I am setting the rank for this k(T) to be 5 (very uncertain).
 
@@ -531,7 +531,7 @@ The k(T) was calculated from 600 - 2000 K, in 200 K intervals, and the fitted Ar
 k(T) = 6.813e+10 * (T/1K)^0.493 * exp(-11.894 kcal/mol / RT) cm3/mol/s.
 """,
     history = [
-        ("Fri Jun  10 17:16:47 2011","Connie Gao <connieg@mit.edu>","action","""connie imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -540,34 +540,35 @@ entry(
     label = "OCOO",
     group1 = 
 """
-1  *1 O 0 {2,S} {5,S}
-2  *2 C 0 {1,S} {3,S} {6,S} {7,S}
-3  *3 O 0 {2,S} {4,S}
-4  *4 O 1 {3,S}
-5  *5 H 0 {1,S}
-6     R 0 {2,S}
-7     R 0 {2,S}
+1 *1 O 0 {2,S} {5,S}
+2 *2 C 0 {1,S} {3,S} {6,S} {7,S}
+3 *3 O 0 {2,S} {4,S}
+4 *4 O 1 {3,S}
+5 *5 H 0 {1,S}
+6    R 0 {2,S}
+7    R 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.813e+10,"s^-1","*|/",10),
-        n = 0.439,
+        A = (68130000000.0, 's^-1', '*|/', 10),
+        n = 0.493,
         alpha = 0,
-        E0 = (11.894,"kcal/mol","+|-",2),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
+        E0 = (11.894, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Same as node 847 (MRH assumption)""",
     longDesc = 
 u"""
 MRH approximation for the general OCOO node
 
-In the event RMG finds any H-O-C-O-O* connection, the kinetics used for direct HO2 elimination will be those of CH3-CH(OO)-OH => CH3CHO + HO2.
+In the event RMG finds any H-O-C-O-O* connection, the kinetics used for direct
+HO2 elimination will be those of CH3-CH(OO)-OH => CH3CHO + HO2.
 """,
     history = [
-        ("Fri Jun  10 17:16:47 2011","Connie Gao <connieg@mit.edu>","action","""connie imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

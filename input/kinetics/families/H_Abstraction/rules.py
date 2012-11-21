@@ -24,21 +24,54 @@ temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (even
 recommended = True
 
 entry(
+    index = 0,
+    label = "X_H_or_Xrad_H;Y_rad_birad",
+    group1 = "OR{X_H, Xrad_H}",
+    group2 = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad}",
+    kinetics = ArrheniusEP(
+        A = (100000, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (10, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 0,
+    shortDesc = u"""Default""",
+    longDesc = 
+u"""
+If a biradical CH2JJ can abstract from RCH4 to make RCH3J and CH3J 
+then a Y_rad CH3J should be able to abstract from RCH3J which means X_H needs 
+to include Xrad_H. I.e. you can abstract from a radical. To make this possible
+a head node has been created X_H_or_Xrad_H which is a union of X_H and Xrad_H.
+The kinetics for it have just been copied from X_H and are only defined for 
+abstraction by Y_rad_birad. I.e. the top level very approximate guess.
+
+Do better kinetics for this exist? Do we in fact use the reverse kinetics anyway?
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 1,
     label = "X_H;Y_rad_birad",
     group1 = 
 """
-1  *1 R 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 R 0 {2,S}
+2 *2 H 0 {1,S}
 """,
-    group2 = "OR{Y_1centerbirad, Y_rad}",
+    group2 = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad}",
     kinetics = ArrheniusEP(
-        A = (100000,"cm^3/(mol*s)"),
+        A = (100000, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (10,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (10, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -49,7 +82,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -58,20 +91,20 @@ entry(
     label = "X_H;H_rad",
     group1 = 
 """
-1  *1 R 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 R 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (2.4e+08,"cm^3/(mol*s)"),
+        A = (240000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
         alpha = 0.65,
-        E0 = (9.4,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (9.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -82,7 +115,7 @@ u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -91,20 +124,20 @@ entry(
     label = "X_H;O_atom_triplet",
     group1 = 
 """
-1  *1 R 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 R 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 2T
+1 *3 O 2T
 """,
     kinetics = ArrheniusEP(
-        A = (1.7e+08,"cm^3/(mol*s)"),
+        A = (170000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
         alpha = 0.75,
-        E0 = (6.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (6.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -115,7 +148,7 @@ u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -124,21 +157,21 @@ entry(
     label = "X_H;O_pri_rad",
     group1 = 
 """
-1  *1 R 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 R 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.2e+06,"cm^3/(mol*s)"),
+        A = (1200000.0, 'cm^3/(mol*s)'),
         n = 2,
         alpha = 0.5,
-        E0 = (10.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (10.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -149,7 +182,7 @@ u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -158,21 +191,21 @@ entry(
     label = "X_H;O_sec_rad",
     group1 = 
 """
-1  *1 R 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 R 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     R!H 0 {1,S}
+1 *3 O   1 {2,S}
+2    R!H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (14000,"cm^3/(mol*s)"),
+        A = (14000, 'cm^3/(mol*s)'),
         n = 2.69,
         alpha = 0.6,
-        E0 = (11.3,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (11.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -183,7 +216,7 @@ u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -192,23 +225,23 @@ entry(
     label = "X_H;C_methyl",
     group1 = 
 """
-1  *1 R 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 R 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (810000,"cm^3/(mol*s)"),
+        A = (810000, 'cm^3/(mol*s)'),
         n = 1.87,
         alpha = 0.65,
-        E0 = (13,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -219,7 +252,7 @@ u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -228,26 +261,26 @@ entry(
     label = "C/H/Cs3;C_rad/Cs3",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.13,"cm^3/(mol*s)"),
+        A = (0.13, 'cm^3/(mol*s)'),
         n = 3.71,
         alpha = 0,
-        E0 = (6.85,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (6.85, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -258,7 +291,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -267,26 +300,26 @@ entry(
     label = "C/H2/NonDeC;C_rad/Cs3",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.26,"cm^3/(mol*s)"),
+        A = (1.26, 'cm^3/(mol*s)'),
         n = 3.55,
         alpha = 0,
-        E0 = (8.31,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (8.31, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -297,7 +330,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -306,26 +339,26 @@ entry(
     label = "C/H3/Cs;C_rad/Cs3",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.85,"cm^3/(mol*s)"),
+        A = (2.85, 'cm^3/(mol*s)'),
         n = 3.62,
         alpha = 0,
-        E0 = (11.2,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (11.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -336,7 +369,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -345,26 +378,26 @@ entry(
     label = "C/H/Cs3;C_rad/H/NonDeC",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (55.8,"cm^3/(mol*s)"),
+        A = (55.8, 'cm^3/(mol*s)'),
         n = 3.01,
         alpha = 0,
-        E0 = (7.34,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (7.34, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -375,7 +408,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -384,26 +417,26 @@ entry(
     label = "C/H2/NonDeC;C_rad/H/NonDeC",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (15.2,"cm^3/(mol*s)"),
+        A = (15.2, 'cm^3/(mol*s)'),
         n = 3.19,
         alpha = 0,
-        E0 = (10.31,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (10.31, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -414,7 +447,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -423,26 +456,26 @@ entry(
     label = "C/H3/Cs;C_rad/H/NonDeC",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (47.1,"cm^3/(mol*s)"),
+        A = (47.1, 'cm^3/(mol*s)'),
         n = 3.23,
         alpha = 0,
-        E0 = (12.27,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (12.27, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -453,7 +486,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -462,26 +495,26 @@ entry(
     label = "C/H/Cs3;C_rad/H2/Cs",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4220,"cm^3/(mol*s)"),
+        A = (4220, 'cm^3/(mol*s)'),
         n = 2.51,
         alpha = 0,
-        E0 = (8.06,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (8.06, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -492,7 +525,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -501,26 +534,26 @@ entry(
     label = "C/H2/NonDeC;C_rad/H2/Cs",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1540,"cm^3/(mol*s)"),
+        A = (1540, 'cm^3/(mol*s)'),
         n = 2.66,
         alpha = 0,
-        E0 = (10.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (10.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -531,7 +564,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -540,26 +573,26 @@ entry(
     label = "C/H3/Cs;C_rad/H2/Cs",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (659,"cm^3/(mol*s)"),
+        A = (659, 'cm^3/(mol*s)'),
         n = 2.71,
         alpha = 0,
-        E0 = (12.92,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (12.92, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -570,7 +603,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -579,26 +612,26 @@ entry(
     label = "C/H/Cs3;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (574000,"cm^3/(mol*s)"),
+        A = (574000, 'cm^3/(mol*s)'),
         n = 1.83,
         alpha = 0,
-        E0 = (6.94,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (6.94, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -609,7 +642,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -618,26 +651,26 @@ entry(
     label = "C/H2/NonDeC;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.45e+06,"cm^3/(mol*s)"),
+        A = (1450000.0, 'cm^3/(mol*s)'),
         n = 1.77,
         alpha = 0,
-        E0 = (8.53,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (8.53, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -648,7 +681,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -657,26 +690,26 @@ entry(
     label = "C/H3/Cs;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (278000,"cm^3/(mol*s)"),
+        A = (278000, 'cm^3/(mol*s)'),
         n = 1.9,
         alpha = 0,
-        E0 = (11.05,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (11.05, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -687,7 +720,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -696,26 +729,26 @@ entry(
     label = "C_methane;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (10100,"cm^3/(mol*s)"),
+        A = (10100, 'cm^3/(mol*s)'),
         n = 2.47,
         alpha = 0,
-        E0 = (13.96,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.96, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -726,7 +759,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -735,23 +768,23 @@ entry(
     label = "C/H/Cs3;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (4.83e+08,"cm^3/(mol*s)"),
+        A = (483000000.0, 'cm^3/(mol*s)'),
         n = 1.54,
         alpha = 0,
-        E0 = (2.98,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (2.98, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -762,7 +795,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -771,23 +804,23 @@ entry(
     label = "C/H2/NonDeC;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (1.3e+08,"cm^3/(mol*s)"),
+        A = (130000000.0, 'cm^3/(mol*s)'),
         n = 1.69,
         alpha = 0,
-        E0 = (4.78,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (4.78, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -798,7 +831,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -807,23 +840,23 @@ entry(
     label = "C/H3/Cs;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (6.28e+07,"cm^3/(mol*s)"),
+        A = (62800000.0, 'cm^3/(mol*s)'),
         n = 1.75,
         alpha = 0,
-        E0 = (7.51,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (7.51, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -834,7 +867,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -843,23 +876,23 @@ entry(
     label = "C_methane;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (3.06e+07,"cm^3/(mol*s)"),
+        A = (30600000.0, 'cm^3/(mol*s)'),
         n = 1.87,
         alpha = 0,
-        E0 = (10.59,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (10.59, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -870,35 +903,37 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 24,
-    label = "O/H/NonDeC;H_rad",
+    label = "H2;C_rad/H2/S",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (8.7e+08,"cm^3/(mol*s)"),
-        n = 1.39,
+        A = (0.008, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (10.07,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 2,
-    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
@@ -911,36 +946,37 @@ ROH + H --> RO + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 25,
-    label = "CO_pri;H_rad",
+    label = "H2;C_rad/H/CsS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.48e+07,"cm^3/(mol*s)"),
-        n = 1.82,
+        A = (0.0143, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (2.44,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 2,
-    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
@@ -953,36 +989,37 @@ HCHO + H --> HCO + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 26,
-    label = "CO/H/NonDe;H_rad",
+    label = "H2;C_rad/Cs2S",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (8.07e+07,"cm^3/(mol*s)"),
-        n = 1.76,
+        A = (0.00576, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (0.67,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (12.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 2,
-    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
@@ -995,36 +1032,36 @@ RCHO + H --> RCO + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 27,
-    label = "Cd_pri;H_rad",
+    label = "H2;Cd_rad/NonDeS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.53e+07,"cm^3/(mol*s)"),
-        n = 1.98,
+        A = (0.0478, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (11.78,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (5.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 2,
-    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Primary vinylic {Cd/H2}""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
@@ -1037,106 +1074,109 @@ R2C=CH2 + H --> R2C=CH + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 28,
-    label = "Cd_pri;H_rad",
+    label = "H2;C_rad/H/CdS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4530,"cm^3/(mol*s)"),
-        n = 2.43,
+        A = (0.0789, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (8.85,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (24.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 2,
-    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Ketene hydrogen {CCO/H2}""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 29,
-    label = "Cd_pri;H_rad",
+    label = "H2;C_rad/CdCsS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.46e+07,"cm^3/(mol*s)"),
-        n = 2.09,
+        A = (0.00997, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (5.49,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (24.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 2,
-    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Allene hydrogen {Cd/H2/Ca}""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 30,
-    label = "Cd/H/NonDeC;H_rad",
+    label = "H2;C_rad/H/CtS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.98e+07,"cm^3/(mol*s)"),
-        n = 1.95,
+        A = (0.0469, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (8.65,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (22.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 2,
-    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
@@ -1149,37 +1189,37 @@ RCH=CR2 + H --> RC=CR2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 31,
-    label = "C/H3/Cd;H_rad",
+    label = "H2;C_rad/CtCsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (433000,"cm^3/(mol*s)"),
-        n = 2.38,
+        A = (0.192, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (2.8,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (23.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 2,
-    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
@@ -1192,7 +1232,7 @@ R2C=CRCH3 + H --> R2C=CRCH2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1201,23 +1241,23 @@ entry(
     label = "C/H2/OneDeC;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     {Cd,Ct,CO,Cb} 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    H                0 {1,S}
+4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
+5    Cs               0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (699000,"cm^3/(mol*s)"),
+        A = (699000, 'cm^3/(mol*s)'),
         n = 2.36,
         alpha = 0,
-        E0 = (1.11,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (1.11, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1235,7 +1275,7 @@ RR2C=CRCH2R + H --> R2C=CRCHR + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1244,23 +1284,23 @@ entry(
     label = "C/H2/OneDeC;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     {Cd,Ct,CO,Cb} 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    H                0 {1,S}
+4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
+5    Cs               0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (7.79e+07,"cm^3/(mol*s)"),
+        A = (77900000.0, 'cm^3/(mol*s)'),
         n = 1.78,
         alpha = 0,
-        E0 = (2.11,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (2.11, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1278,7 +1318,7 @@ RCCCH2R + H --> RCCCHR + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1287,23 +1327,23 @@ entry(
     label = "C/H/Cs2;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    Cs               0 {1,S}
+5    Cs               0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (3.02e+06,"cm^3/(mol*s)"),
+        A = (3020000.0, 'cm^3/(mol*s)'),
         n = 2.16,
         alpha = 0,
-        E0 = (-0.45,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (-0.45, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1321,7 +1361,7 @@ R2C=CRCHR2 + H --> R2C=CRCR2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1330,23 +1370,23 @@ entry(
     label = "C/H/Cs2;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    Cs               0 {1,S}
+5    Cs               0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (1.21e+08,"cm^3/(mol*s)"),
+        A = (121000000.0, 'cm^3/(mol*s)'),
         n = 1.72,
         alpha = 0,
-        E0 = (-0.73,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (-0.73, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1364,7 +1404,7 @@ RCCCHR2 + H --> RCCCR2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1373,23 +1413,23 @@ entry(
     label = "C/H2/TwoDe;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     {Cd,Ct,CO,Cb} 0 {1,S}
-5     {Cd,Ct,CO,Cb} 0 {1,S}
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    H                0 {1,S}
+4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
+5    {Cd,Ct,CO,Cb,CS} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (7090,"cm^3/(mol*s)"),
+        A = (7090, 'cm^3/(mol*s)'),
         n = 2.85,
         alpha = 0,
-        E0 = (-1.9,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (-1.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1407,7 +1447,7 @@ R2C=CH-CH2-CH=CR2 + H --> R2C=CH-CH-CH=CR2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1416,22 +1456,22 @@ entry(
     label = "Cd/H/OneDe;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 C                0 {2,D} {3,S} {4,S}
+2    C                0 {1,D}
+3 *2 H                0 {1,S}
+4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (1.93e+08,"cm^3/(mol*s)"),
+        A = (193000000.0, 'cm^3/(mol*s)'),
         n = 1.74,
         alpha = 0,
-        E0 = (10.28,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (10.28, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1449,7 +1489,7 @@ R2C=CRCH=CR2 + H --> R2C=CRC=CR2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1458,22 +1498,22 @@ entry(
     label = "Cd/H/OneDe;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 C                0 {2,D} {3,S} {4,S}
+2    C                0 {1,D}
+3 *2 H                0 {1,S}
+4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (2.18e+06,"cm^3/(mol*s)"),
+        A = (2180000.0, 'cm^3/(mol*s)'),
         n = 2.4,
         alpha = 0,
-        E0 = (6.11,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (6.11, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1491,7 +1531,7 @@ RCC-CH=CR2 + H --> RCC-C=CR2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1500,21 +1540,21 @@ entry(
     label = "Ct_H;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,T} {3,S}
-2     C 0 {1,T}
-3  *2 H 0 {1,S}
+1 *1 C 0 {2,T} {3,S}
+2    C 0 {1,T}
+3 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (1.65e+08,"cm^3/(mol*s)"),
+        A = (165000000.0, 'cm^3/(mol*s)'),
         n = 1.85,
         alpha = 0,
-        E0 = (26.52,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (26.52, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1538,7 +1578,7 @@ RMG values: A=1.65E+08, n=1.85, E0=	26.52.
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1547,23 +1587,23 @@ entry(
     label = "C/H3/Ct;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Ct 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Ct 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (2.7e+07,"cm^3/(mol*s)"),
+        A = (27000000.0, 'cm^3/(mol*s)'),
         n = 1.91,
         alpha = 0,
-        E0 = (5.99,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (5.99, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1581,7 +1621,7 @@ RCCCH3 + H --> RCCCH2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1590,22 +1630,22 @@ entry(
     label = "Cd/H/NonDeO;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     O 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    O 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (9.67e+09,"cm^3/(mol*s)"),
+        A = (9670000000.0, 'cm^3/(mol*s)'),
         n = 1.23,
         alpha = 0,
-        E0 = (11.69,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (11.69, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1616,7 +1656,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1625,21 +1665,21 @@ entry(
     label = "O/H/OneDe;H_rad",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 O                0 {2,S} {3,S}
+2 *2 H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (1.3e+11,"cm^3/(mol*s)"),
+        A = (130000000000.0, 'cm^3/(mol*s)'),
         n = 0.82,
         alpha = 0,
-        E0 = (7.75,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (7.75, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1650,7 +1690,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1659,25 +1699,25 @@ entry(
     label = "Cd_pri;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3240,"cm^3/(mol*s)"),
+        A = (3240, 'cm^3/(mol*s)'),
         n = 2.58,
         alpha = 0,
-        E0 = (14.04,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (14.04, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1688,7 +1728,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1697,26 +1737,26 @@ entry(
     label = "C/H3/Cd;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (80.4,"cm^3/(mol*s)"),
+        A = (80.4, 'cm^3/(mol*s)'),
         n = 2.92,
         alpha = 0,
-        E0 = (7.16,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (7.16, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1727,7 +1767,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1736,24 +1776,24 @@ entry(
     label = "O/H/NonDeC;C_methyl",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *1 O  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (254000,"cm^3/(mol*s)"),
+        A = (254000, 'cm^3/(mol*s)'),
         n = 1.89,
         alpha = 0,
-        E0 = (8.97,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (8.97, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1764,7 +1804,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1773,25 +1813,25 @@ entry(
     label = "CO/H/NonDe;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
+1 *1 C        0 {2,D} {3,S} {4,S}
+2    O        0 {1,D}
+3 *2 H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (29200,"cm^3/(mol*s)"),
+        A = (29200, 'cm^3/(mol*s)'),
         n = 2.29,
         alpha = 0,
-        E0 = (5.44,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (5.44, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1802,7 +1842,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1811,24 +1851,24 @@ entry(
     label = "O/H/OneDe;C_methyl",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 O                0 {2,S} {3,S}
+2 *2 H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (90700,"cm^3/(mol*s)"),
+        A = (90700, 'cm^3/(mol*s)'),
         n = 2.04,
         alpha = 0,
-        E0 = (10.85,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (10.85, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1839,7 +1879,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1848,21 +1888,21 @@ entry(
     label = "O/H/OneDe;H_rad",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 O                0 {2,S} {3,S}
+2 *2 H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (3.3e+08,"cm^3/(mol*s)"),
+        A = (330000000.0, 'cm^3/(mol*s)'),
         n = 1.56,
         alpha = 0,
-        E0 = (13.94,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.94, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1880,7 +1920,7 @@ RCOOOH + H --> RCOOO + H2
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1889,25 +1929,25 @@ entry(
     label = "CO/H/NonDe;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
+1 *1 C        0 {2,D} {3,S} {4,S}
+2    O        0 {1,D}
+3 *2 H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4530,"cm^3/(mol*s)"),
+        A = (4530, 'cm^3/(mol*s)'),
         n = 2.43,
         alpha = 0,
-        E0 = (8.85,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (8.85, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1918,7 +1958,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1927,26 +1967,26 @@ entry(
     label = "C_methane;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.03e+13,"cm^3/(mol*s)"),
+        A = (60300000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (19,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (19, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -1970,7 +2010,7 @@ From reference: E0 = 71.0/4.185 = 16.97, @ 0 K, from database: E0 = 19.0 @ 300 -
 Experimental values from reference @ 0 K = 55.4 kJ/mol, 60.7 kJ/mol, 61.9 kJ/mol
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1979,26 +2019,26 @@ entry(
     label = "C/H3/Cs;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.8e+14,"cm^3/(mol*s)"),
+        A = (280000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (16.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (16.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2009,7 +2049,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2018,26 +2058,26 @@ entry(
     label = "C/H3/Cs;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.15e+13,"cm^3/(mol*s)"),
+        A = (61500000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (15.9,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (15.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2048,7 +2088,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2057,26 +2097,26 @@ entry(
     label = "C/H3/Cs;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.71e+12,"cm^3/(mol*s)"),
+        A = (7710000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (13.5,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2087,7 +2127,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2096,26 +2136,26 @@ entry(
     label = "C/H2/NonDeC;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.02e+13,"cm^3/(mol*s)"),
+        A = (50200000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (13.7,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2126,319 +2166,318 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 55,
-    label = "C/H/Cs3;C_methyl",
+    label = "C_methane;C_rad/H2/S",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.02e+13,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.00452, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (11.3,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (15.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 56,
-    label = "C/H/Cs3;C_methyl",
+    label = "C_methane;C_rad/H/CsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.42e+13,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.00807, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (11.3,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (15.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 57,
-    label = "C/H3/Cd;C_methyl",
+    label = "C_methane;C_rad/Cs2S",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.62e+13,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.00326, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (12.3,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (15.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 58,
-    label = "C/H2/OneDeC;C_methyl",
+    label = "C_methane;Cd_rad/NonDeS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     {Cd,Ct,CO,Cb} 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.73e+13,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.027, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (10.4,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 59,
-    label = "C/H/Cs2;C_methyl",
+    label = "C_methane;C_rad/H/CdS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.73e+13,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0446, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (8.9,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (26.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 60,
-    label = "C/H2/TwoDe;C_methyl",
+    label = "C_methane;C_rad/CdCsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     {Cd,Ct,CO,Cb} 0 {1,S}
-5     {Cd,Ct,CO,Cb} 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.54e+13,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.00564, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (8.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (26.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 61,
-    label = "C/H/Cs;C_methyl",
+    label = "C_methane;C_rad/H/CtS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (9.32e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0265, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (7,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (25.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 62,
-    label = "C/H3/Cb;C_methyl",
+    label = "C_methane;C_rad/CtCsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cb 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.9e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.108, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (13.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (26.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2447,26 +2486,26 @@ entry(
     label = "C/H2/OneDeC;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     {Cd,Ct,CO,Cb} 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    H                0 {1,S}
+4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
+5    Cs               0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.7e+13,"cm^3/(mol*s)"),
+        A = (17000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (11.8,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (11.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2477,7 +2516,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2486,26 +2525,26 @@ entry(
     label = "C/H/Cs2;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    Cs               0 {1,S}
+5    Cs               0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.17e+13,"cm^3/(mol*s)"),
+        A = (11700000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (11,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (11, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2516,7 +2555,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2525,26 +2564,26 @@ entry(
     label = "C/H3/Ct;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Ct 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Ct 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.6e+13,"cm^3/(mol*s)"),
+        A = (66000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (13.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2555,7 +2594,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2564,26 +2603,26 @@ entry(
     label = "C/H2/OneDeC;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     {Cd,Ct,CO,Cb} 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    H                0 {1,S}
+4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
+5    Cs               0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.81e+13,"cm^3/(mol*s)"),
+        A = (28100000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (11,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (11, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2594,7 +2633,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2603,26 +2642,26 @@ entry(
     label = "C/H2/TwoDe;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     {Cd,Ct,CO,Cb} 0 {1,S}
-5     {Cd,Ct,CO,Cb} 0 {1,S}
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    H                0 {1,S}
+4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
+5    {Cd,Ct,CO,Cb,CS} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.38e+14,"cm^3/(mol*s)"),
+        A = (138000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (8.5,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (8.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2633,7 +2672,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2642,26 +2681,26 @@ entry(
     label = "C/H/Cs;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+5    Cs               0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.43e+13,"cm^3/(mol*s)"),
+        A = (34300000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (7.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (7.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2672,7 +2711,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2681,26 +2720,26 @@ entry(
     label = "C/H/Cs2;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    Cs               0 {1,S}
+5    Cs               0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.03e+13,"cm^3/(mol*s)"),
+        A = (50300000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (9.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (9.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2711,7 +2750,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2720,25 +2759,25 @@ entry(
     label = "Cd_pri;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.88e+14,"cm^3/(mol*s)"),
+        A = (188000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (18.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (18.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2749,7 +2788,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2758,25 +2797,25 @@ entry(
     label = "Cd/H/NonDeC;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.43e+13,"cm^3/(mol*s)"),
+        A = (44300000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (16.3,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (16.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2787,7 +2826,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2796,25 +2835,25 @@ entry(
     label = "Cd/H/OneDe;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 C                0 {2,D} {3,S} {4,S}
+2    C                0 {1,D}
+3 *2 H                0 {1,S}
+4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.78e+13,"cm^3/(mol*s)"),
+        A = (57800000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (16.2,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (16.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2825,7 +2864,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2834,25 +2873,25 @@ entry(
     label = "Cd/H/OneDe;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 C                0 {2,D} {3,S} {4,S}
+2    C                0 {1,D}
+3 *2 H                0 {1,S}
+4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.26e+13,"cm^3/(mol*s)"),
+        A = (22600000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (15.9,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (15.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2863,7 +2902,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2872,25 +2911,25 @@ entry(
     label = "Cd/H/OneDe;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *1 C                0 {2,D} {3,S} {4,S}
+2    C                0 {1,D}
+3 *2 H                0 {1,S}
+4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.37e+13,"cm^3/(mol*s)"),
+        A = (43700000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (13.7,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2901,7 +2940,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2910,24 +2949,24 @@ entry(
     label = "Ct_H;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,T} {3,S}
-2     C 0 {1,T}
-3  *2 H 0 {1,S}
+1 *1 C 0 {2,T} {3,S}
+2    C 0 {1,T}
+3 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.33e+18,"cm^3/(mol*s)"),
+        A = (3.33e+18, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (28,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (28, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2938,7 +2977,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2947,25 +2986,25 @@ entry(
     label = "Cb_H;C_methyl",
     group1 = 
 """
-1  *1 Cb 0 {2,B} {3,B} {4,S}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
-4  *2 H 0 {1,S}
+1 *1 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *2 H        0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.17e+15,"cm^3/(mol*s)"),
+        A = (1170000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (19.9,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (19.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -2976,7 +3015,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2985,26 +3024,26 @@ entry(
     label = "C/H2/NonDeC;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (9.87e+14,"cm^3/(mol*s)"),
+        A = (987000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (13.5,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3015,7 +3054,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3024,26 +3063,26 @@ entry(
     label = "C/H2/NonDeC;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.51e+12,"cm^3/(mol*s)"),
+        A = (4510000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (12.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (12.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3054,7 +3093,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3063,26 +3102,26 @@ entry(
     label = "C/H/Cs3;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.46e+13,"cm^3/(mol*s)"),
+        A = (24600000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (11,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (11, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3093,7 +3132,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3102,26 +3141,26 @@ entry(
     label = "C/H2/OneDeC;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     {Cd,Ct,CO,Cb} 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    H                0 {1,S}
+4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
+5    Cs               0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.98e+13,"cm^3/(mol*s)"),
+        A = (59800000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (9.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (9.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3132,7 +3171,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3141,23 +3180,23 @@ entry(
     label = "C_methane;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (1.87e+14,"cm^3/(mol*s)"),
+        A = (187000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (14.2,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (14.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3168,7 +3207,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3177,26 +3216,26 @@ entry(
     label = "C_methane;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.03e+13,"cm^3/(mol*s)"),
+        A = (60300000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (19,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (19, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3207,7 +3246,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3216,26 +3255,26 @@ entry(
     label = "C_methane;C_rad/H2/Cd",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cd 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.53e+14,"cm^3/(mol*s)"),
+        A = (153000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (30.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (30.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3246,7 +3285,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3255,25 +3294,25 @@ entry(
     label = "C_methane;Cd_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.59e+14,"cm^3/(mol*s)"),
+        A = (159000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (13.7,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3284,7 +3323,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3293,26 +3332,26 @@ entry(
     label = "C_methane;C_rad/Cs3",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.86e+13,"cm^3/(mol*s)"),
+        A = (18600000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (20.2,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (20.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3323,315 +3362,318 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 86,
-    label = "C/H/Cs3;H_rad",
+    label = "C/H3/Cs;C_rad/H2/S",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.31e+13,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.00681, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (5.9,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 87,
-    label = "C/H/Cs3;C_methyl",
+    label = "C/H3/Cs;C_rad/H/CsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.02e+13,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0122, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (11.3,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 88,
-    label = "C/H/Cs3;C_rad/H2/Cd",
+    label = "C/H3/Cs;C_rad/Cs2S",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cd 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.02e+13,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.00491, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (20.5,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 89,
-    label = "C/H/Cs3;Cd_pri_rad",
+    label = "C/H3/Cs;Cd_rad/NonDeS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (8.95e+13,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0407, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (6.2,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (5.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 90,
-    label = "C/H/Cs3;C_rad/Cs3",
+    label = "C/H3/Cs;C_rad/H/CdS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.43e+11,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0672, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (11.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (24.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 91,
-    label = "C/H/Cs3;C_rad/H2/Cs",
+    label = "C/H3/Cs;C_rad/CdCsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.03e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.00849, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (12.2,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (24.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 92,
-    label = "C/H/Cs3;C_rad/H/NonDeC",
+    label = "C/H3/Cs;C_rad/H/CtS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.44e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.04, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (12.3,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (23.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 93,
-    label = "C/H/Cs3;C_rad/H/OneDeC",
+    label = "C/H3/Cs;C_rad/CtCsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.46e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.163, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (21.7,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (23.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3640,26 +3682,26 @@ entry(
     label = "C/H/Cs3;C_rad/Cs2",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     {Cd,Ct,Cb,CO} 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+3    Cs               0 {1,S}
+4    Cs               0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.1e+12,"cm^3/(mol*s)"),
+        A = (1100000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (21.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (21.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3670,7 +3712,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3679,25 +3721,25 @@ entry(
     label = "C/H/Cs3;Cd_rad/NonDeC",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     Cs 0 {1,S}
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.02e+11,"cm^3/(mol*s)"),
+        A = (102000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (5.3,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (5.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3708,7 +3750,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3717,25 +3759,25 @@ entry(
     label = "C/H/Cs3;Cd_rad/OneDe",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *3 C                1 {2,D} {3,S}
+2    C                0 {1,D}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.16e+12,"cm^3/(mol*s)"),
+        A = (4160000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (13.2,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3746,7 +3788,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3755,26 +3797,26 @@ entry(
     label = "C/H/Cs3;C_rad/H2/Ct",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Ct 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.14e+13,"cm^3/(mol*s)"),
+        A = (31400000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (17,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (17, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3785,7 +3827,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3794,26 +3836,26 @@ entry(
     label = "C/H/Cs3;C_rad/H/OneDeC",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    Cs               0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.53e+12,"cm^3/(mol*s)"),
+        A = (2530000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (18,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (18, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3824,7 +3866,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3833,26 +3875,26 @@ entry(
     label = "C/H/Cs3;C_rad/Cs2",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     {Cd,Ct,Cb,CO} 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+3    Cs               0 {1,S}
+4    Cs               0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (9.78e+11,"cm^3/(mol*s)"),
+        A = (978000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (18.4,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (18.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3863,7 +3905,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3872,22 +3914,22 @@ entry(
     label = "Cd_pri;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (3.39e+14,"cm^3/(mol*s)"),
+        A = (339000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (15.3,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (15.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3898,7 +3940,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3907,25 +3949,25 @@ entry(
     label = "Cd_pri;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.88e+14,"cm^3/(mol*s)"),
+        A = (188000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (18.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (18.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3936,7 +3978,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3945,25 +3987,25 @@ entry(
     label = "Cd_pri;C_rad/H2/Cd",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cd 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.36e+13,"cm^3/(mol*s)"),
+        A = (53600000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (30.7,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (30.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -3974,7 +4016,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3983,24 +4025,24 @@ entry(
     label = "Cd_pri;Cd_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.47e+13,"cm^3/(mol*s)"),
+        A = (14700000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (13.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (13.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4011,7 +4053,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4020,25 +4062,25 @@ entry(
     label = "Cd_pri;C_rad/Cs3",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.93e+13,"cm^3/(mol*s)"),
+        A = (39300000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (20.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (20.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4049,7 +4091,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4058,25 +4100,25 @@ entry(
     label = "Cd_pri;C_rad/H2/Cs",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.82e+12,"cm^3/(mol*s)"),
+        A = (7820000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (19.7,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (19.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4087,7 +4129,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4096,25 +4138,25 @@ entry(
     label = "Cd_pri;C_rad/H/NonDeC",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.25e+12,"cm^3/(mol*s)"),
+        A = (3250000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (20.2,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (20.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4125,7 +4167,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4134,25 +4176,25 @@ entry(
     label = "Cd_pri;C_rad/H/OneDeC",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    Cs               0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.51e+13,"cm^3/(mol*s)"),
+        A = (15100000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (31.7,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (31.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4163,7 +4205,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4172,25 +4214,25 @@ entry(
     label = "Cd_pri;C_rad/Cs2",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     {Cd,Ct,Cb,CO} 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+3    Cs               0 {1,S}
+4    Cs               0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.39e+12,"cm^3/(mol*s)"),
+        A = (3390000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (38.5,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (38.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4201,7 +4243,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4210,24 +4252,24 @@ entry(
     label = "Cd_pri;Cd_rad/NonDeC",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     Cs 0 {1,S}
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.04e+13,"cm^3/(mol*s)"),
+        A = (60400000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (14,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (14, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4238,7 +4280,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4247,24 +4289,24 @@ entry(
     label = "Cd_pri;Cd_rad/OneDe",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *3 C                1 {2,D} {3,S}
+2    C                0 {1,D}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.3e+13,"cm^3/(mol*s)"),
+        A = (13000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (20.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (20.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4275,7 +4317,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4284,25 +4326,25 @@ entry(
     label = "Cd_pri;C_rad/H2/Ct",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Ct 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.55e+13,"cm^3/(mol*s)"),
+        A = (25500000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (26.8,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (26.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4313,7 +4355,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4322,25 +4364,25 @@ entry(
     label = "Cd_pri;C_rad/H/OneDeC",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    Cs               0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.41e+12,"cm^3/(mol*s)"),
+        A = (4410000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (28.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (28.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4351,7 +4393,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4360,25 +4402,25 @@ entry(
     label = "Cd_pri;C_rad/Cs2",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     {Cd,Ct,Cb,CO} 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+3    Cs               0 {1,S}
+4    Cs               0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.59e+12,"cm^3/(mol*s)"),
+        A = (3590000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (35.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (35.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4389,7 +4431,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4398,23 +4440,23 @@ entry(
     label = "C/H3/Cd;H_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (3.13e+13,"cm^3/(mol*s)"),
+        A = (31300000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (7.3,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (7.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4425,7 +4467,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4434,26 +4476,26 @@ entry(
     label = "C/H3/Cd;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.62e+13,"cm^3/(mol*s)"),
+        A = (26200000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (12.3,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (12.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4464,7 +4506,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4473,26 +4515,26 @@ entry(
     label = "C/H3/Cd;C_rad/H2/Cd",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cd 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.78e+12,"cm^3/(mol*s)"),
+        A = (5780000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (21.4,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (21.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4503,316 +4545,318 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 117,
-    label = "C/H3/Cd;Cd_pri_rad",
+    label = "C/H2/NonDeC;C_rad/H2/S",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.73e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0156, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (7.5,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (11.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 118,
-    label = "C/H3/Cd;C_rad/Cs3",
+    label = "C/H2/NonDeC;C_rad/H/CsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.18e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0279, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (11.2,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (11.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 119,
-    label = "C/H3/Cd;C_rad/H2/Cs",
+    label = "C/H2/NonDeC;C_rad/Cs2S",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.6e+11,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0112, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (12.4,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (11.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 120,
-    label = "C/H3/Cd;C_rad/H/NonDeC",
+    label = "C/H2/NonDeC;Cd_rad/NonDeS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.87e+11,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0933, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (12.3,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (3.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 121,
-    label = "C/H3/Cd;C_rad/H/OneDeC",
+    label = "C/H2/NonDeC;C_rad/H/CdS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.52e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.154, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (21.4,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (22.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 122,
-    label = "C/H3/Cd;C_rad/Cs2",
+    label = "C/H2/NonDeC;C_rad/CdCsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     {Cd,Ct,Cb,CO} 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.13e+11,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0195, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (21.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (22.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 123,
-    label = "C/H3/Cd;Cd_rad/NonDeC",
+    label = "C/H2/NonDeC;C_rad/H/CtS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.52e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0915, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (7.5,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (21.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 124,
-    label = "C/H3/Cd;Cd_rad/OneDe",
+    label = "C/H2/NonDeC;C_rad/CtCsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.95e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.374, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (14.2,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (21.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4821,26 +4865,26 @@ entry(
     label = "C/H3/Cd;C_rad/H2/Ct",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Ct 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.58e+12,"cm^3/(mol*s)"),
+        A = (7580000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (18.2,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (18.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4851,7 +4895,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4860,26 +4904,26 @@ entry(
     label = "C/H3/Cd;C_rad/H/OneDeC",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    Cs               0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.09e+11,"cm^3/(mol*s)"),
+        A = (509000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (18.5,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (18.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4890,7 +4934,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4899,26 +4943,26 @@ entry(
     label = "C/H3/Cd;C_rad/Cs2",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     {Cd,Ct,Cb,CO} 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+3    Cs               0 {1,S}
+4    Cs               0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.32e+11,"cm^3/(mol*s)"),
+        A = (332000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (18.4,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (18.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4929,7 +4973,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4938,20 +4982,20 @@ entry(
     label = "H2;H_rad",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (2.37e+13,"cm^3/(mol*s)"),
+        A = (23700000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (9.4,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (9.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4962,7 +5006,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4971,23 +5015,23 @@ entry(
     label = "H2;C_methyl",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.95e+12,"cm^3/(mol*s)"),
+        A = (2950000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (14.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (14.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -4998,7 +5042,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5007,23 +5051,23 @@ entry(
     label = "H2;C_rad/H2/Cd",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cd 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.87e+12,"cm^3/(mol*s)"),
+        A = (2870000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (25.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (25.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5034,7 +5078,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5043,22 +5087,22 @@ entry(
     label = "H2;Cd_pri_rad",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.49e+12,"cm^3/(mol*s)"),
+        A = (4490000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (10.3,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (10.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5069,7 +5113,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5078,23 +5122,23 @@ entry(
     label = "H2;C_rad/Cs3",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.08e+11,"cm^3/(mol*s)"),
+        A = (308000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (14.8,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (14.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5105,7 +5149,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5114,23 +5158,23 @@ entry(
     label = "H2;C_rad/H2/Cs",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.57e+11,"cm^3/(mol*s)"),
+        A = (457000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (14.8,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (14.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5141,7 +5185,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5150,23 +5194,23 @@ entry(
     label = "H2;C_rad/H/NonDeC",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.04e+11,"cm^3/(mol*s)"),
+        A = (304000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (15.1,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (15.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5177,7 +5221,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5186,23 +5230,23 @@ entry(
     label = "H2;C_rad/H/OneDeC",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    Cs               0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.82e+12,"cm^3/(mol*s)"),
+        A = (1820000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (27,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (27, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5213,7 +5257,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5222,23 +5266,23 @@ entry(
     label = "H2;C_rad/Cs2",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     {Cd,Ct,Cb,CO} 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+3    Cs               0 {1,S}
+4    Cs               0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.3e+11,"cm^3/(mol*s)"),
+        A = (430000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (27.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (27.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5249,7 +5293,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5258,22 +5302,22 @@ entry(
     label = "H2;Cd_rad/NonDeC",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     Cs 0 {1,S}
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.01e+12,"cm^3/(mol*s)"),
+        A = (3010000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (10.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (10.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5284,7 +5328,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5293,22 +5337,22 @@ entry(
     label = "H2;Cd_rad/OneDe",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *3 C                1 {2,D} {3,S}
+2    C                0 {1,D}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.37e+12,"cm^3/(mol*s)"),
+        A = (2370000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (18.2,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (18.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5319,7 +5363,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5328,23 +5372,23 @@ entry(
     label = "H2;C_rad/H2/Ct",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Ct 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.91e+12,"cm^3/(mol*s)"),
+        A = (2910000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (23,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (23, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5355,7 +5399,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5364,23 +5408,23 @@ entry(
     label = "H2;C_rad/H/OneDeC",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    Cs               0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.34e+11,"cm^3/(mol*s)"),
+        A = (534000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (24,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (24, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5391,7 +5435,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5400,23 +5444,23 @@ entry(
     label = "H2;C_rad/Cs2",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     {Cd,Ct,Cb,CO} 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+3    Cs               0 {1,S}
+4    Cs               0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.2e+11,"cm^3/(mol*s)"),
+        A = (420000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (24.7,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (24.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5427,7 +5471,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5436,24 +5480,24 @@ entry(
     label = "C/H3/Cs;O_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.93e+06,"cm^3/(mol*s)"),
+        A = (5930000.0, 'cm^3/(mol*s)'),
         n = 1.8,
         alpha = 0,
-        E0 = (1.431,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (1.431, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5478,7 +5522,7 @@ Rate expression is changed to per H.(divided by 3)
 Yushi Suzuki
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5487,24 +5531,24 @@ entry(
     label = "C/H2/NonDeC;O_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (450000,"cm^3/(mol*s)"),
+        A = (450000, 'cm^3/(mol*s)'),
         n = 2,
         alpha = 0,
-        E0 = (-1.133,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (-1.133, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5528,7 +5572,7 @@ Rate expression is changed to per H.(divided by 2)
 Yushi Suzuki
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5537,24 +5581,24 @@ entry(
     label = "C/H/Cs3;O_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.7e+06,"cm^3/(mol*s)"),
+        A = (1700000.0, 'cm^3/(mol*s)'),
         n = 1.9,
         alpha = 0,
-        E0 = (-1.451,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (-1.451, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5574,7 +5618,7 @@ These numbers reported by Curran et al. were apparently taken from
 N. Cohen, *Intl. J. Chem. Kinet.* 14 (1982), p. 1339 http://dx.doi.org/10.1002/kin.550141206
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5583,23 +5627,23 @@ entry(
     label = "C/H3/Cs;O_atom_triplet",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 2T
+1 *3 O 2T
 """,
     kinetics = ArrheniusEP(
-        A = (950,"cm^3/(mol*s)"),
+        A = (950, 'cm^3/(mol*s)'),
         n = 3.05,
         alpha = 0,
-        E0 = (3.123,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (3.123, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5618,7 +5662,7 @@ Rate expression is changed to per H.(divided by 9)
 Yushi Suzuki
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5627,23 +5671,23 @@ entry(
     label = "C/H2/NonDeC;O_atom_triplet",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 2T
+1 *3 O 2T
 """,
     kinetics = ArrheniusEP(
-        A = (23900,"cm^3/(mol*s)"),
+        A = (23900, 'cm^3/(mol*s)'),
         n = 2.71,
         alpha = 0,
-        E0 = (2.106,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (2.106, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5663,7 +5707,7 @@ Rate expression is changed to per H.(divided by 2)
 Yushi Suzuki
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5672,23 +5716,23 @@ entry(
     label = "C/H/Cs3;O_atom_triplet",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 2T
+1 *3 O 2T
 """,
     kinetics = ArrheniusEP(
-        A = (383000,"cm^3/(mol*s)"),
+        A = (383000, 'cm^3/(mol*s)'),
         n = 2.41,
         alpha = 0,
-        E0 = (1.14,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (1.14, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -5711,38 +5755,40 @@ https://www-pls.llnl.gov/data/docs/science_and_technology/chemistry/combustion/p
 Yushi Suzuki
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 148,
-    label = "C/H3/Cs;O_rad/NonDeO",
+    label = "C/H/Cs3;C_rad/H2/S",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.8e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0094, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (20.435,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (9.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 5,
-    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
@@ -5755,38 +5801,40 @@ Rate expression is changed to per H.(divided by 9)
 Yushi Suzuki
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 149,
-    label = "C/H2/NonDeC;O_rad/NonDeO",
+    label = "C/H/Cs3;C_rad/H/CsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.8e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0168, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (17.686,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (9.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 5,
-    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
@@ -5800,38 +5848,40 @@ Rate expression is changed to per H.(divided by 2)
 Yushi Suzuki
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 150,
-    label = "C/H/Cs3;O_rad/NonDeO",
+    label = "C/H/Cs3;C_rad/Cs2S",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.8e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.00677, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (16.013,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (9.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 5,
-    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
@@ -5842,38 +5892,39 @@ pg 257 A Comprehensive Modelling Study of iso-Octane Oxidation, Table 1. Radical
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 151,
-    label = "C/H3/Cs;O_rad/NonDeC",
+    label = "C/H/Cs3;Cd_rad/NonDeS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     Cs 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.27e+10,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0562, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (7,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (1.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 5,
-    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
@@ -5887,38 +5938,40 @@ Rate expression is changed to per H.(divided by 9)
 Yushi Suzuki
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 152,
-    label = "C/H2/NonDeC;O_rad/NonDeC",
+    label = "C/H/Cs3;C_rad/H/CdS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.5e+10,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0928, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (5,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (20.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 5,
-    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
@@ -5932,38 +5985,40 @@ Rate expression is changed to per H.(divided by 2)
 Yushi Suzuki
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 153,
-    label = "C/H/Cs3;O_rad/NonDeC",
+    label = "C/H/Cs3;C_rad/CdCsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.9e+10,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0117, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (2.8,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (20.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 5,
-    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
@@ -5974,38 +6029,40 @@ pg 257 A Comprehensive Modelling Study of iso-Octane Oxidation, Table 1. Radical
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 154,
-    label = "C/H3/Cs;O2b",
+    label = "C/H/Cs3;C_rad/H/CtS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0552, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (50.76,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (19.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 5,
-    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
@@ -6019,38 +6076,40 @@ Rate expression is changed to per H.(divided by 9)
 Yushi Suzuki
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 155,
-    label = "C/H2/NonDeC;O2b",
+    label = "C/H/Cs3;C_rad/CtCsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.226, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (48.21,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (20, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 5,
-    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
@@ -6064,7 +6123,7 @@ Rate expression is changed to per H.(divided by 2)
 Yushi Suzuki
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6073,24 +6132,24 @@ entry(
     label = "C/H/Cs3;O2b",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7e+12,"cm^3/(mol*s)"),
+        A = (7000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (46.06,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (46.06, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6106,7 +6165,7 @@ pg 257 A Comprehensive Modelling Study of iso-Octane Oxidation, Table 1. Radical
 Verified by Karma James
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6115,21 +6174,21 @@ entry(
     label = "H2;O2b",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.25e+13,"cm^3/(mol*s)","*|/",5),
+        A = (72500000000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
-        E0 = (56.64,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (800,"K"),
+        E0 = (56.64, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (800, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6151,7 +6210,7 @@ Recommended value computed using reverse rate and thermodynamics
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6160,22 +6219,22 @@ entry(
     label = "H2;Cd_pri_rad",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4730,"cm^3/(mol*s)"),
+        A = (4730, 'cm^3/(mol*s)'),
         n = 2.56,
         alpha = 0,
-        E0 = (5.03,"kcal/mol"),
-        Tmin = (200,"K"),
-        Tmax = (3000,"K"),
+        E0 = (5.03, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (3000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6187,7 +6246,7 @@ u"""
 H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2 ( from A = 9.45E+03), to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6196,22 +6255,22 @@ entry(
     label = "H2;Cd_pri_rad",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (11100,"cm^3/(mol*s)"),
+        A = (11100, 'cm^3/(mol*s)'),
         n = 2.48,
         alpha = 0,
-        E0 = (7.13,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (3500,"K"),
+        E0 = (7.13, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (3500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6223,7 +6282,7 @@ u"""
 H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6232,22 +6291,22 @@ entry(
     label = "H2;Cd_pri_rad",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.58e+09,"cm^3/(mol*s)"),
+        A = (1580000000.0, 'cm^3/(mol*s)'),
         n = 0.7,
         alpha = 0,
-        E0 = (5.11,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (5.11, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6259,7 +6318,7 @@ u"""
 H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2 ( from A = 3.15E+09), to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6268,21 +6327,21 @@ entry(
     label = "H2;Ct_rad",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,T}
-2     C 0 {1,T}
+1 *3 C 1 {2,T}
+2    C 0 {1,T}
 """,
     kinetics = ArrheniusEP(
-        A = (5.4e+12,"cm^3/(mol*s)","*|/",3.16),
+        A = (5400000000000.0, 'cm^3/(mol*s)', '*|/', 3.16),
         n = 0,
         alpha = 0,
-        E0 = (2.17,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (2.17, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6308,7 +6367,7 @@ fits other reported data reasonably well.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6317,22 +6376,22 @@ entry(
     label = "H2;Cb_rad",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 Cb 1 {2,B} {3,B}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
 """,
     kinetics = ArrheniusEP(
-        A = (28600,"cm^3/(mol*s)"),
+        A = (28600, 'cm^3/(mol*s)'),
         n = 2.43,
         alpha = 0,
-        E0 = (6.28,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (5000,"K"),
+        E0 = (6.28, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (5000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6344,7 +6403,7 @@ u"""
 H2 + phenyl --> H + benzene C.D.W divided original rate expression by 2 ( from A = 5.71E+04), to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6353,22 +6412,22 @@ entry(
     label = "H2;CO_pri_rad",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    O 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (900000,"cm^3/(mol*s)","*|/",5),
+        A = (900000, 'cm^3/(mol*s)', '*|/', 5),
         n = 2,
         alpha = 0,
-        E0 = (17.83,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (17.83, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6390,7 +6449,7 @@ Recommended value computed using reverse rate and thermodynamics
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6399,22 +6458,22 @@ entry(
     label = "H2;CO_rad/NonDe",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 *3 C        1 {2,D} {3,S}
+2    O        0 {1,D}
+3    {Cs,O,S} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.06e+06,"cm^3/(mol*s)","*|/",3),
+        A = (2060000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 1.82,
         alpha = 0,
-        E0 = (17.61,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (17.61, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6438,7 +6497,7 @@ Used 0.5*k(H+HCHO=H2+HCO) and equilibrium constant to compute recommended rate e
 Verified by MRH on 10Aug2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6447,21 +6506,21 @@ entry(
     label = "H2;O_pri_rad",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (9.1e+08,"cm^3/(mol*s)"),
+        A = (910000000.0, 'cm^3/(mol*s)'),
         n = 1.21,
         alpha = 0,
-        E0 = (4.71,"kcal/mol"),
-        Tmin = (200,"K"),
-        Tmax = (2400,"K"),
+        E0 = (4.71, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (2400, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6481,7 +6540,7 @@ C.D.W divided original rate expression by 2, to get rate expression per H atom.
 Verified by Greg Magoon; maximum error of fitted expression from tabular data for forward rate constant, kr1 is 15% (cf. p. 3758)
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6490,21 +6549,21 @@ entry(
     label = "H2;O_rad/NonDeC",
     group1 = 
 """
-1  *1 H 0 {2,S}
-2  *2 H 0 {1,S}
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     Cs 0 {1,S}
+1 *3 O  1 {2,S}
+2    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.0632,"cm^3/(mol*s)"),
+        A = (0.0632, 'cm^3/(mol*s)'),
         n = 4,
         alpha = 0,
-        E0 = (4.91,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (4.91, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6515,7 +6574,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6524,24 +6583,24 @@ entry(
     label = "C_methane;O2b",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (9.925e+12,"cm^3/(mol*s)","*|/",10),
+        A = (9925000000000.0, 'cm^3/(mol*s)', '*|/', 10),
         n = 0,
         alpha = 0,
-        E0 = (56.83,"kcal/mol"),
-        Tmin = (500,"K"),
-        Tmax = (2000,"K"),
+        E0 = (56.83, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6566,7 +6625,7 @@ HO2 + HCO.  Assumes equal A factor per C-H bond and Ea = deltaH.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6575,26 +6634,26 @@ entry(
     label = "C_methane;C_rad/H2/Cs",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.0216,"cm^3/(mol*s)","*|/",2),
+        A = (0.0216, 'cm^3/(mol*s)', '*|/', 2),
         n = 4.14,
         alpha = 0,
-        E0 = (12.56,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (12.56, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6616,7 +6675,7 @@ Recommended data from reverse rate and equilibrium constant
 Verified by MRH on 10Aug2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6625,26 +6684,26 @@ entry(
     label = "C_methane;C_rad/H/NonDeC",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.000181,"cm^3/(mol*s)","*|/",2),
+        A = (0.000181, 'cm^3/(mol*s)', '*|/', 2),
         n = 4.4,
         alpha = 0,
-        E0 = (10.79,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (10.79, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6667,7 +6726,7 @@ expression based on reverse rate and equilibrium constant.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6676,24 +6735,24 @@ entry(
     label = "C_methane;Ct_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,T}
-2     C 0 {1,T}
+1 *3 C 1 {2,T}
+2    C 0 {1,T}
 """,
     kinetics = ArrheniusEP(
-        A = (4.53e+11,"cm^3/(mol*s)","*|/",10),
+        A = (453000000000.0, 'cm^3/(mol*s)', '*|/', 10),
         n = 0,
         alpha = 0,
-        E0 = (0.5,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6718,7 +6777,7 @@ and combined that with experimental k at room temperature to yield Arrhenius exp
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6727,25 +6786,25 @@ entry(
     label = "C_methane;Cb_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 Cb 1 {2,B} {3,B}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
 """,
     kinetics = ArrheniusEP(
-        A = (5e+11,"cm^3/(mol*s)"),
+        A = (500000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (8.6,"kcal/mol"),
-        Tmin = (560,"K"),
-        Tmax = (1410,"K"),
+        E0 = (8.6, 'kcal/mol'),
+        Tmin = (560, 'K'),
+        Tmax = (1410, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6759,7 +6818,7 @@ Absolute value measured directly (excitation technique: thermal, analytical tech
 C.D.W divided original rate expression by 4, to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6768,25 +6827,25 @@ entry(
     label = "C_methane;CO_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    O 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1820,"cm^3/(mol*s)","*|/",5),
+        A = (1820, 'cm^3/(mol*s)', '*|/', 5),
         n = 2.85,
         alpha = 0,
-        E0 = (22.46,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (22.46, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6808,7 +6867,7 @@ Recommended data computed using reverse rate and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6817,25 +6876,25 @@ entry(
     label = "C_methane;CO_rad/NonDe",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 *3 C        1 {2,D} {3,S}
+2    O        0 {1,D}
+3    {Cs,O,S} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (543,"cm^3/(mol*s)","*|/",5),
+        A = (543, 'cm^3/(mol*s)', '*|/', 5),
         n = 2.88,
         alpha = 0,
-        E0 = (21.46,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (21.46, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6857,7 +6916,7 @@ Recommended number computed from reverse rate and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6866,24 +6925,24 @@ entry(
     label = "C_methane;O_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.385,"cm^3/(mol*s)"),
+        A = (0.385, 'cm^3/(mol*s)'),
         n = 3.95,
         alpha = 0,
-        E0 = (0.55,"kcal/mol"),
-        Tmin = (223,"K"),
-        Tmax = (2400,"K"),
+        E0 = (0.55, 'kcal/mol'),
+        Tmin = (223, 'K'),
+        Tmax = (2400, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6895,7 +6954,7 @@ u"""
 CH4 + OH --> CH3 + H2O C.D.W divided original rate expression by 4, to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6904,24 +6963,24 @@ entry(
     label = "C_methane;O_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.93e+06,"cm^3/(mol*s)","*|/",1.41),
+        A = (3930000.0, 'cm^3/(mol*s)', '*|/', 1.41),
         n = 1.83,
         alpha = 0,
-        E0 = (2.78,"kcal/mol"),
-        Tmin = (240,"K"),
-        Tmax = (2500,"K"),
+        E0 = (2.78, 'kcal/mol'),
+        Tmin = (240, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6947,7 +7006,7 @@ Madronich and Felder which predicts very precisely the data obtained between
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6956,24 +7015,24 @@ entry(
     label = "C_methane;O_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.55e+07,"cm^3/(mol*s)"),
+        A = (25500000.0, 'cm^3/(mol*s)'),
         n = 1.6,
         alpha = 0,
-        E0 = (3.12,"kcal/mol"),
-        Tmin = (298,"K"),
-        Tmax = (1510,"K"),
+        E0 = (3.12, 'kcal/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (1510, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -6985,7 +7044,7 @@ u"""
 CH4 + OH --> CH3 + H2O C.D.W divided original rate expression by 4, to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6994,24 +7053,24 @@ entry(
     label = "C_methane;O_rad/NonDeC",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     Cs 0 {1,S}
+1 *3 O  1 {2,S}
+2    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.000155,"cm^3/(mol*s)"),
+        A = (0.000155, 'cm^3/(mol*s)'),
         n = 5,
         alpha = 0,
-        E0 = (5.58,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (5.58, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -7027,7 +7086,7 @@ C.D.W divided original rate expression by 4 ( from A= 1.51E+09), to get rate exp
 Verified by Greg Magoon; cf. reverse reaction, #261, below
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7036,24 +7095,24 @@ entry(
     label = "C_methane;O_rad/NonDeO",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4.53e+10,"cm^3/(mol*s)","*|/",5),
+        A = (45300000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
-        E0 = (18.58,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (18.58, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -7075,38 +7134,40 @@ Recommended data is based on expression for HO2 attach on alkanes (Walker)
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 179,
-    label = "C/H3/Cs;O2b",
+    label = "C/H3/Cd;C_rad/H2/S",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.005e+13,"cm^3/(mol*s)","*|/",10),
-        n = 0,
+        A = (0.0014, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (51.87,"kcal/mol"),
-        Tmin = (500,"K"),
-        Tmax = (2000,"K"),
+        E0 = (10.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Baulch et al. [95] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
@@ -7132,38 +7193,40 @@ of E0 in RMG from 1.87 kcal/mol to 51.87 kcal/mol. ***
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 180,
-    label = "C/H3/Cs;Ct_rad",
+    label = "C/H3/Cd;C_rad/H/CsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,T}
-2     C 0 {1,T}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.02e+11,"cm^3/(mol*s)","*|/",3),
-        n = 0,
+        A = (0.0025, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (10.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Tsang et al. [89] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
@@ -7182,39 +7245,40 @@ combined calculation with experimental measurement of k at room temperature.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 181,
-    label = "C/H3/Cs;Cb_rad",
+    label = "C/H3/Cd;C_rad/Cs2S",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 Cb 1 {2,B} {3,B}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.48e+10,"cm^3/(mol*s)","*|/",2.35),
-        n = 0,
+        A = (0.00101, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (4.44,"kcal/mol","+|-",0.18),
-        Tmin = (565,"K"),
-        Tmax = (1000,"K"),
+        E0 = (9.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 2,
-    shortDesc = u"""Park et al. [126]""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [126] Park, J.; Gheyas, S.; Lin, M.C. Int. J. Chem. Kinet. 2001, 33, 64.
@@ -7227,39 +7291,39 @@ have been used to monitor reactant and/or products. C2H6 + phenyl --> C2H5 + ben
 C.D.W divided original rate expression by 6 ( from A= 2.09E+11), to get rate expression per H atom. Original delta A = 2.0E+10.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 182,
-    label = "C/H3/Cs;CO_pri_rad",
+    label = "C/H3/Cd;Cd_rad/NonDeS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7820,"cm^3/(mol*s)","*|/",5),
-        n = 2.72,
+        A = (0.00835, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (18.24,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (2.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Tsang et al. [89] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
@@ -7276,39 +7340,40 @@ Recommended data computed from reverse rate and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 183,
-    label = "C/H3/Cs;CO_rad/NonDe",
+    label = "C/H3/Cd;C_rad/H/CdS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3020,"cm^3/(mol*s)","*|/",5),
-        n = 2.75,
+        A = (0.0138, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (17.53,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (21.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Tsang et al. [89] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
@@ -7326,38 +7391,40 @@ hydrogen is present in CH3CHO) and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 184,
-    label = "C/H3/Cs;O_pri_rad",
+    label = "C/H3/Cd;C_rad/CdCsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.2e+06,"cm^3/(mol*s)","*|/",1.41),
-        n = 2,
+        A = (0.00174, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (0.86,"kcal/mol"),
-        Tmin = (250,"K"),
-        Tmax = (2000,"K"),
+        E0 = (21.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Baulch et al. [95] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
@@ -7378,38 +7445,40 @@ temperatures between 300 and 2000K."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 185,
-    label = "C/H3/CO;O_pri_rad",
+    label = "C/H3/Cd;C_rad/H/CtS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     CO 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (517000,"cm^3/(mol*s)"),
-        n = 2.2,
+        A = (0.0082, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (1,"kcal/mol"),
-        Tmin = (295,"K"),
-        Tmax = (600,"K"),
+        E0 = (19.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Taylor et al. [127] Transition state theory.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [127] Taylor, P.H.; Rahman, M.S.; Arif, M.; Dellinger, B.; Marshall, P. Sypm. Int. Combust. Proc. 1996, 26, 497.
@@ -7418,40 +7487,40 @@ CH3CHO + OH --> CH2CHO + H2O Rate constant is high pressure limit (pressure 0.13
 C.D.W divided original rate expression by 3(from A = 1.55E+06), to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 186,
-    label = "C/H3/O;C_methyl",
+    label = "C/H3/Cd;C_rad/CtCsS",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     O 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.000205,"cm^3/(mol*s)"),
-        n = 4.9,
+        A = (0.0335, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (6.72,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (20.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 2,
-    shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
@@ -7462,7 +7531,7 @@ C.D.W divided original rate expression by 3 ( from A= 8.43E+08), to get rate exp
 Verified by Greg Magoon
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7471,24 +7540,24 @@ entry(
     label = "C/H3/O;O_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    O 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (8140,"cm^3/(mol*s)"),
+        A = (8140, 'cm^3/(mol*s)'),
         n = 2.8,
         alpha = 0,
-        E0 = (-0.42,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (-0.42, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -7505,7 +7574,7 @@ Verified by Greg Magoon
 **Note that R2 from this paper appears to be missing from the RMG library, so I have added it as 1001**
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7514,24 +7583,24 @@ entry(
     label = "C/H2/NonDeC;O2b",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.985e+13,"cm^3/(mol*s)","*|/",10),
+        A = (19850000000000.0, 'cm^3/(mol*s)', '*|/', 10),
         n = 0,
         alpha = 0,
-        E0 = (47.69,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (47.69, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -7558,7 +7627,7 @@ coefficient expressions (no indication of how).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7567,25 +7636,25 @@ entry(
     label = "C/H2/NonDeC;CH2_triplet",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 2T {2,S} {3,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
+1 *3 C 2T {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.755,"cm^3/(mol*s)","*|/",10),
+        A = (0.755, 'cm^3/(mol*s)', '*|/', 10),
         n = 3.46,
         alpha = 0,
-        E0 = (7.47,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (7.47, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -7607,7 +7676,7 @@ expression as that of CH3+C3H8=i-C3H7+CH4.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7616,23 +7685,23 @@ entry(
     label = "C/H2/NonDeC;O_atom_triplet",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 2T
+1 *3 O 2T
 """,
     kinetics = ArrheniusEP(
-        A = (23900,"cm^3/(mol*s)","*|/",2),
+        A = (23900, 'cm^3/(mol*s)', '*|/', 2),
         n = 2.71,
         alpha = 0,
-        E0 = (2.11,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (2.11, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -7657,7 +7726,7 @@ rate coefficient expression is stated to fit 3 (of the 5) raw data reported.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7666,26 +7735,26 @@ entry(
     label = "C/H2/NonDeC;C_rad/H2/O",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     O 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    O 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (30.2,"cm^3/(mol*s)","*|/",5),
+        A = (30.2, 'cm^3/(mol*s)', '*|/', 5),
         n = 2.95,
         alpha = 0,
-        E0 = (11.98,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (11.98, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -7715,7 +7784,7 @@ Verified by MRH on 10Aug2009
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7724,25 +7793,25 @@ entry(
     label = "C/H2/NonDeC;Cd_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (510,"cm^3/(mol*s)","*|/",10),
+        A = (510, 'cm^3/(mol*s)', '*|/', 10),
         n = 3.1,
         alpha = 0,
-        E0 = (8.82,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (8.82, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -7767,7 +7836,7 @@ to obtain the recommended rate coefficient expression.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7776,24 +7845,24 @@ entry(
     label = "C/H2/NonDeC;Ct_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,T}
-2     C 0 {1,T}
+1 *3 C 1 {2,T}
+2    C 0 {1,T}
 """,
     kinetics = ArrheniusEP(
-        A = (6.05e+11,"cm^3/(mol*s)","*|/",3),
+        A = (605000000000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -7819,7 +7888,7 @@ recommended for C3H8+C2H=C2H2+n-C3H7.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7828,25 +7897,25 @@ entry(
     label = "C/H2/NonDeC;CO_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    O 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.4e+06,"cm^3/(mol*s)","*|/",3),
+        A = (5400000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 1.9,
         alpha = 0,
-        E0 = (17.01,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (17.01, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -7870,7 +7939,7 @@ n-C3H7+CH2O=HCO+C3H8 instead of i-C3H7+CH2O=HCO+C3H8) and equilibrium constant.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7879,25 +7948,25 @@ entry(
     label = "C/H2/NonDeC;CO_rad/NonDe",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 *3 C        1 {2,D} {3,S}
+2    O        0 {1,D}
+3    {Cs,O,S} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.65e+06,"cm^3/(mol*s)","*|/",3),
+        A = (2650000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 2,
         alpha = 0,
-        E0 = (16.24,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (16.24, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -7921,7 +7990,7 @@ estimates this reverse rate using the suggestions of Kerr, J.A. and Trotman-Dick
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7930,24 +7999,24 @@ entry(
     label = "C/H2/NonDeC;O_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.95e+06,"cm^3/(mol*s)"),
+        A = (3950000.0, 'cm^3/(mol*s)'),
         n = 1.9,
         alpha = 0,
-        E0 = (0.16,"kcal/mol"),
-        Tmin = (295,"K"),
-        Tmax = (1220,"K"),
+        E0 = (0.16, 'kcal/mol'),
+        Tmin = (295, 'K'),
+        Tmax = (1220, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -7961,7 +8030,7 @@ C3H8 + OH --> iso-C3H7 + H20  C.D.W divided original rate expression by 2, to ge
 Not yet checked
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7970,24 +8039,24 @@ entry(
     label = "C/H2/NonDeC;O_rad/NonDeC",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     Cs 0 {1,S}
+1 *3 O  1 {2,S}
+2    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7.25e+10,"cm^3/(mol*s)","*|/",5),
+        A = (72500000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
-        E0 = (4.57,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (4.57, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -8014,7 +8083,7 @@ coefficient expression.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8023,24 +8092,24 @@ entry(
     label = "C/H/Cs3;O2b",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.97e+13,"cm^3/(mol*s)","*|/",3),
+        A = (39700000000000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
-        E0 = (43.92,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (43.92, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -8068,7 +8137,7 @@ with the review's value, so Tsang recommended the review's value.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8077,23 +8146,23 @@ entry(
     label = "C/H/Cs3;O_atom_triplet",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 2T
+1 *3 O 2T
 """,
     kinetics = ArrheniusEP(
-        A = (157000,"cm^3/(mol*s)","*|/",2),
+        A = (157000, 'cm^3/(mol*s)', '*|/', 2),
         n = 2.5,
         alpha = 0,
-        E0 = (1.11,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (1.11, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -8121,7 +8190,7 @@ temperature dependence was 2.5 (was this 2.5 based on the review by Cohen and We
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8130,25 +8199,25 @@ entry(
     label = "C/H/Cs3;CH2_triplet",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 2T {2,S} {3,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
+1 *3 C 2T {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.09e+12,"cm^3/(mol*s)","*|/",5),
+        A = (1090000000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
-        E0 = (4.91,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (4.91, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -8174,7 +8243,7 @@ the recommended value for CH3 abstracting a H-atom.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8183,25 +8252,25 @@ entry(
     label = "C/H/Cs3;Cd_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.904,"cm^3/(mol*s)","*|/",5),
+        A = (0.904, 'cm^3/(mol*s)', '*|/', 5),
         n = 3.46,
         alpha = 0,
-        E0 = (2.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (2.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -8227,7 +8296,7 @@ by 8.5 kJ/mol.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8236,24 +8305,24 @@ entry(
     label = "C/H/Cs3;Ct_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,T}
-2     C 0 {1,T}
+1 *3 C 1 {2,T}
+2    C 0 {1,T}
 """,
     kinetics = ArrheniusEP(
-        A = (6.62e+11,"cm^3/(mol*s)","*|/",3),
+        A = (662000000000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -8280,7 +8349,7 @@ to be 1/9 the rate of iC4H10+C2H=C2H2+iC4H9 (9 vs. 1 H-atom).
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8289,25 +8358,25 @@ entry(
     label = "C/H/Cs3;CO_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    O 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (34300,"cm^3/(mol*s)","*|/",5),
+        A = (34300, 'cm^3/(mol*s)', '*|/', 5),
         n = 2.5,
         alpha = 0,
-        E0 = (13.51,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (13.51, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -8335,7 +8404,7 @@ H-atoms) and the Ea decreased by 20 kJ/mol.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8344,25 +8413,25 @@ entry(
     label = "C/H/Cs3;CO_rad/NonDe",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 *3 C        1 {2,D} {3,S}
+2    O        0 {1,D}
+3    {Cs,O,S} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (34300,"cm^3/(mol*s)","*|/",10),
+        A = (34300, 'cm^3/(mol*s)', '*|/', 10),
         n = 2.5,
         alpha = 0,
-        E0 = (13.51,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (13.51, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -8387,7 +8456,7 @@ based on the rxn iC4H10+HCO=CH2O+tC4H9.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8396,44 +8465,38 @@ entry(
     label = "C/H/Cs3;O_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.57e+06,"cm^3/(mol*s)"),
+        A = (2570000.0, 'cm^3/(mol*s)'),
         n = 1.9,
         alpha = 0,
-        E0 = (-1.45,"kcal/mol"),
-        Tmin = (298,"K"),
-        Tmax = (1150,"K"),
+        E0 = (-1.45, 'kcal/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (1150, 'K'),
     ),
-    reference = Article(authors=["Cohen, N."], year="1991", doi="10.1002/kin.550230506", url="http://dx.doi.org/10.1002/kin.550230506"),
+    reference = None,
     referenceType = "",
     rank = 3,
     shortDesc = u"""Cohen et al. [101] Transition state theory.""",
     longDesc = 
 u"""
 [101] Cohen, N. Int. J. Chem. Kinet. 1991, 23, 397.
-http://dx.doi.org/10.1002/kin.550230506
 Iso-C4H10 + OH --> tert-C4H9 + H2O
 
-E0 changed from +1.45 kcal/mol to -1.45 kcal/mol based on NIST database 
-http://kinetics.nist.gov/kinetics/Detail?id=1991COH397-417:7
-(original paper still not checked)
+Not yet checked
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-        ("2011-08-11","Richard West <rwest@mit.edu>","action","""Added link to reference."""),
-        ("2011-08-11","Richard West <rwest@mit.edu>","action","""Added more detail to the reference"""),
-        ("2011-08-11","Richard West <rwest@mit.edu>","action","""Sign error in Ea corrected based on NIST database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8442,24 +8505,24 @@ entry(
     label = "C/H/Cs3;O_rad/NonDeC",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     Cs 0 {1,S}
+1 *3 O  1 {2,S}
+2    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.29e+10,"cm^3/(mol*s)","*|/",10),
+        A = (22900000000.0, 'cm^3/(mol*s)', '*|/', 10),
         n = 0,
         alpha = 0,
-        E0 = (2.88,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (2.88, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -8491,7 +8554,7 @@ work was referenced in the Berces and Trotman-Dickenson study?)
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8500,23 +8563,23 @@ entry(
     label = "Cd_pri;O2b",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.792e+13,"cm^3/(mol*s)"),
+        A = (17920000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (60.01,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (60.01, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -8550,7 +8613,7 @@ Overall, this agrees with the earlier rate that we used.
 JDM 15-Jun-2010.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8559,22 +8622,22 @@ entry(
     label = "Cd_pri;O_atom_triplet",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 2T
+1 *3 O 2T
 """,
     kinetics = ArrheniusEP(
-        A = (3.78e+06,"cm^3/(mol*s)"),
+        A = (3780000.0, 'cm^3/(mol*s)'),
         n = 1.91,
         alpha = 0,
-        E0 = (3.74,"kcal/mol"),
-        Tmin = (290,"K"),
-        Tmax = (1510,"K"),
+        E0 = (3.74, 'kcal/mol'),
+        Tmin = (290, 'K'),
+        Tmax = (1510, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -8586,39 +8649,40 @@ u"""
 C2H4 + O --> C2H3 + OH C.D.W divided original rate expression by 4(from A= 1.51E+07), to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 210,
-    label = "Cd_pri;C_rad/H2/Cs",
+    label = "C/H2/CdCs;C_rad/H2/S",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (158,"cm^3/(mol*s)","*|/",10),
-        n = 3.13,
+        A = (0.00555, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (18,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (8.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Tsang [89] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
@@ -8637,37 +8701,40 @@ and manually adjusted the E.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 211,
-    label = "Cd_pri;O_pri_rad",
+    label = "C/H2/CdCs;C_rad/H/CsS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.13e+12,"cm^3/(mol*s)","*|/",3.16),
-        n = 0,
+        A = (0.00991, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (5.94,"kcal/mol"),
-        Tmin = (650,"K"),
-        Tmax = (1500,"K"),
+        E0 = (8.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Baulch et al. [95] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
@@ -8686,36 +8753,40 @@ OH+C2H4 --> H2O+C2H3: Recommended rate taken from expression reported by Tully (
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 212,
-    label = "Cd/H/NonDeC;O_atom_triplet",
+    label = "C/H2/CdCs;C_rad/Cs2S",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 2T
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.02e+10,"cm^3/(mol*s)","*|/",3),
-        n = 0.7,
+        A = (0.004, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (7.63,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (8.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Tsang [93] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
@@ -8741,36 +8812,39 @@ OH+C3H6 --> H2O+H2C=CH-*CH2 and OH+C3H6 --> H2O+CH3C=CH2
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 213,
-    label = "Cd/H/NonDeC;H_rad",
+    label = "C/H2/CdCs;Cd_rad/NonDeS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (409000,"cm^3/(mol*s)","*|/",4),
-        n = 2.5,
+        A = (0.0332, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (9.79,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (1.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Tsang [93] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
@@ -8791,39 +8865,40 @@ same influence in olefins as in alkanes.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 214,
-    label = "Cd/H/NonDeC;C_methyl",
+    label = "C/H2/CdCs;C_rad/H/CdS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.842,"cm^3/(mol*s)","*|/",6),
-        n = 3.5,
+        A = (0.0547, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (11.66,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (20, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Tsang [93] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
@@ -8843,38 +8918,40 @@ that methyl substitution has the same influence in olefins as in alkanes.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 215,
-    label = "Cd/H/NonDeC;Cd_pri_rad",
+    label = "C/H2/CdCs;C_rad/CdCsS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.842,"cm^3/(mol*s)","*|/",6),
-        n = 3.5,
+        A = (0.00692, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (9.67,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (20, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Tsang [93] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
@@ -8895,37 +8972,40 @@ the Ea's have been decreased by 4kJ/mol.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 216,
-    label = "Cd/H/NonDeC;Ct_rad",
+    label = "C/H2/CdCs;C_rad/H/CtS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,T}
-2     C 0 {1,T}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.21e+12,"cm^3/(mol*s)","*|/",5),
-        n = 0,
+        A = (0.0325, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (18.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Tsang [93] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
@@ -8942,37 +9022,40 @@ is assumed to be the rate of the rxn C2H+C2H6 --> C2H2+C2H5.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 217,
-    label = "Cd/H/NonDeC;O_pri_rad",
+    label = "C/H2/CdCs;C_rad/CtCsS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.11e+06,"cm^3/(mol*s)","*|/",2),
-        n = 2,
+        A = (0.133, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (1.45,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (19.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Tsang [93] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
@@ -8995,7 +9078,7 @@ author has also introduced a T^2 dependence in the A-factor.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9004,22 +9087,22 @@ entry(
     label = "Ct_H;O2b",
     group1 = 
 """
-1  *1 C 0 {2,T} {3,S}
-2     C 0 {1,T}
-3  *2 H 0 {1,S}
+1 *1 C 0 {2,T} {3,S}
+2    C 0 {1,T}
+3 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (6.05e+12,"cm^3/(mol*s)","*|/",10),
+        A = (6050000000000.0, 'cm^3/(mol*s)', '*|/', 10),
         n = 0,
         alpha = 0,
-        E0 = (74.52,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (74.52, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9043,7 +9126,7 @@ and decomposition may exist.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9052,24 +9135,24 @@ entry(
     label = "Ct_H;C_rad/H2/Cs",
     group1 = 
 """
-1  *1 C 0 {2,T} {3,S}
-2     C 0 {1,T}
-3  *2 H 0 {1,S}
+1 *1 C 0 {2,T} {3,S}
+2    C 0 {1,T}
+3 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.36e+11,"cm^3/(mol*s)","*|/",5),
+        A = (136000000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
-        E0 = (23.45,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (23.45, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9091,7 +9174,7 @@ Recommended data based on reverse rate and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9100,22 +9183,22 @@ entry(
     label = "Ct_H;O_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,T} {3,S}
-2     C 0 {1,T}
-3  *2 H 0 {1,S}
+1 *1 C 0 {2,T} {3,S}
+2    C 0 {1,T}
+3 *2 H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7250,"cm^3/(mol*s)","*|/",10),
+        A = (7250, 'cm^3/(mol*s)', '*|/', 10),
         n = 2.68,
         alpha = 0,
-        E0 = (12.04,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (12.04, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9137,7 +9220,7 @@ Recommended data is derived from BEBO method calculation
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9146,23 +9229,23 @@ entry(
     label = "Cb_H;O2b",
     group1 = 
 """
-1  *1 Cb 0 {2,B} {3,B} {4,S}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
-4  *2 H 0 {1,S}
+1 *1 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *2 H        0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.052e+13,"cm^3/(mol*s)"),
+        A = (10520000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (60.01,"kcal/mol"),
-        Tmin = (1200,"K"),
-        Tmax = (1700,"K"),
+        E0 = (60.01, 'kcal/mol'),
+        Tmin = (1200, 'K'),
+        Tmax = (1700, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9174,7 +9257,7 @@ u"""
 Benzene + O2 --> phenyl + HO2 C.D.W divided original rate expression by 6(from A = 6.31E+13), to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9183,22 +9266,22 @@ entry(
     label = "Cb_H;H_rad",
     group1 = 
 """
-1  *1 Cb 0 {2,B} {3,B} {4,S}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
-4  *2 H 0 {1,S}
+1 *1 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *2 H        0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (1e+08,"cm^3/(mol*s)"),
+        A = (100000000.0, 'cm^3/(mol*s)'),
         n = 1.8,
         alpha = 0,
-        E0 = (16.35,"kcal/mol"),
-        Tmin = (500,"K"),
-        Tmax = (800,"K"),
+        E0 = (16.35, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (800, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9212,7 +9295,7 @@ Rate constant is high pressure limit. Benzene + H --> phenyl + H2
 C.D.W divided original rate expression by 6(from A = 6.02E+08), to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9221,22 +9304,22 @@ entry(
     label = "Cb_H;H_rad",
     group1 = 
 """
-1  *1 Cb 0 {2,B} {3,B} {4,S}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
-4  *2 H 0 {1,S}
+1 *1 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *2 H        0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (5.02e+11,"cm^3/(mol*s)"),
+        A = (502000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (8.11,"kcal/mol"),
-        Tmin = (298,"K"),
-        Tmax = (1000,"K"),
+        E0 = (8.11, 'kcal/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (1000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9250,7 +9333,7 @@ Pressure 0.01-0.26 atm Excitation: flash photolysis, analysis: resonance fluores
 C.D.W divided original rate expression by 6(from A = 3.01E+12), to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9259,25 +9342,25 @@ entry(
     label = "Cb_H;C_rad/H2/Cs",
     group1 = 
 """
-1  *1 Cb 0 {2,B} {3,B} {4,S}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
-4  *2 H 0 {1,S}
+1 *1 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *2 H        0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.05e+11,"cm^3/(mol*s)","*|/",2),
+        A = (105000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
-        E0 = (14.86,"kcal/mol","+|-",1.19),
-        Tmin = (650,"K"),
-        Tmax = (770,"K"),
+        E0 = (14.86, 'kcal/mol', '+|-', 1.19),
+        Tmin = (650, 'K'),
+        Tmax = (770, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9291,7 +9374,7 @@ Pressure 0.30-0.50 atm Excitation: thermal, analysis: GC. Benzene + C2H5 --> phe
 C.D.W divided original rate expression by 6(from A = 6.31E+11), to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9300,23 +9383,23 @@ entry(
     label = "Cb_H;O_pri_rad",
     group1 = 
 """
-1  *1 Cb 0 {2,B} {3,B} {4,S}
-2     {Cb,Cbf} 0 {1,B}
-3     {Cb,Cbf} 0 {1,B}
-4  *2 H 0 {1,S}
+1 *1 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *2 H        0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.72e+07,"cm^3/(mol*s)","*|/",2),
+        A = (27200000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = 1.42,
         alpha = 0,
-        E0 = (1.45,"kcal/mol"),
-        Tmin = (400,"K"),
-        Tmax = (1500,"K"),
+        E0 = (1.45, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9342,7 +9425,7 @@ above 500K.  No other comment on where the recommended rate expression comes fro
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9351,23 +9434,23 @@ entry(
     label = "CO_pri;O2b",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.34e+07,"cm^3/(mol*s)"),
+        A = (23400000.0, 'cm^3/(mol*s)'),
         n = 2.05,
         alpha = 0,
-        E0 = (37.93,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2200,"K"),
+        E0 = (37.93, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2200, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9379,7 +9462,7 @@ u"""
 CH2O + O2 --> HCO + HO2 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9388,22 +9471,22 @@ entry(
     label = "CO_pri;O_atom_triplet",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 2T
+1 *3 O 2T
 """,
     kinetics = ArrheniusEP(
-        A = (2.08e+11,"cm^3/(mol*s)","*|/",2),
+        A = (208000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = 0.57,
         alpha = 0,
-        E0 = (2.76,"kcal/mol"),
-        Tmin = (250,"K"),
-        Tmax = (2200,"K"),
+        E0 = (2.76, 'kcal/mol'),
+        Tmin = (250, 'K'),
+        Tmax = (2200, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9428,7 +9511,7 @@ all in good agreement, and on the higher temperature value of Bowman."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9437,24 +9520,24 @@ entry(
     label = "CO_pri;CH2_triplet",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 2T {2,S} {3,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
+1 *3 C 2T {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.02e+09,"cm^3/(mol*s)"),
+        A = (3020000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9479,7 +9562,7 @@ NOTE: Rate coefficient is an upper limit
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9488,25 +9571,25 @@ entry(
     label = "CO_pri;C_methyl",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.89e-08,"cm^3/(mol*s)","*|/",1.58),
+        A = (3.89e-08, 'cm^3/(mol*s)', '*|/', 1.58),
         n = 6.1,
         alpha = 0,
-        E0 = (1.97,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (1.97, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9532,7 +9615,7 @@ Refs. 4, 5, and 7."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9541,25 +9624,25 @@ entry(
     label = "CO_pri;C_rad/H2/Cs",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2750,"cm^3/(mol*s)","*|/",5),
+        A = (2750, 'cm^3/(mol*s)', '*|/', 5),
         n = 2.81,
         alpha = 0,
-        E0 = (5.86,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (5.86, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9583,7 +9666,7 @@ similar (as noted by Kerr, J.A. and Trotman-Dickenson, A.F.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9592,25 +9675,25 @@ entry(
     label = "CO_pri;C_rad/H/NonDeC",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.4e+10,"cm^3/(mol*s)","*|/",2.5),
+        A = (54000000000.0, 'cm^3/(mol*s)', '*|/', 2.5),
         n = 0,
         alpha = 0,
-        E0 = (6.96,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (6.96, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9636,7 +9719,7 @@ was made to the 1959 report, taking the recommended rate of i-C3H7 recombination
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9645,25 +9728,25 @@ entry(
     label = "CO_pri;C_rad/Cs3",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.63e+09,"cm^3/(mol*s)","*|/",5),
+        A = (1630000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
-        E0 = (3.56,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (3.56, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9691,7 +9774,7 @@ to derive the final form of the expression?)
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9700,24 +9783,24 @@ entry(
     label = "CO_pri;Cd_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2710,"cm^3/(mol*s)","*|/",5),
+        A = (2710, 'cm^3/(mol*s)', '*|/', 5),
         n = 2.81,
         alpha = 0,
-        E0 = (5.86,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (5.86, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9741,7 +9824,7 @@ similar (as noted by Kerr, J.A. and Trotman-Dickenson, A.F.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9750,24 +9833,24 @@ entry(
     label = "CO_pri;CO_rad/NonDe",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     {Cs,O} 0 {1,S}
+1 *3 C        1 {2,D} {3,S}
+2    O        0 {1,D}
+3    {Cs,O,S} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (9.05e+10,"cm^3/(mol*s)","*|/",10),
+        A = (90500000000.0, 'cm^3/(mol*s)', '*|/', 10),
         n = 0,
         alpha = 0,
-        E0 = (12.92,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (12.92, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9789,7 +9872,7 @@ Recommended data based on "analogous systems"
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9798,23 +9881,23 @@ entry(
     label = "CO_pri;O_pri_rad",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.72e+09,"cm^3/(mol*s)","*|/",5),
+        A = (1720000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 1.18,
         alpha = 0,
-        E0 = (-0.45,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (3000,"K"),
+        E0 = (-0.45, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (3000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9839,7 +9922,7 @@ and Hampson.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9848,23 +9931,23 @@ entry(
     label = "CO_pri;O_rad/NonDeC",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     Cs 0 {1,S}
+1 *3 O  1 {2,S}
+2    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.1e+10,"cm^3/(mol*s)","*|/",3),
+        A = (51000000000.0, 'cm^3/(mol*s)', '*|/', 3),
         n = 0,
         alpha = 0,
-        E0 = (2.98,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (2.98, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9888,7 +9971,7 @@ in competition with the disproportionation of two CH3O radicals (CH3O+CH3O-->CH3
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9897,23 +9980,23 @@ entry(
     label = "CO_pri;O_rad/NonDeO",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (20600,"cm^3/(mol*s)"),
+        A = (20600, 'cm^3/(mol*s)'),
         n = 2.5,
         alpha = 0,
-        E0 = (10.21,"kcal/mol"),
-        Tmin = (641,"K"),
-        Tmax = (1600,"K"),
+        E0 = (10.21, 'kcal/mol'),
+        Tmin = (641, 'K'),
+        Tmax = (1600, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9925,7 +10008,7 @@ u"""
 CH2O + HO2 --> HCO + H2O2 C.D.W divided original rate expression by 2 (from A= 4.11E+04), to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9934,23 +10017,23 @@ entry(
     label = "CO/H/NonDe;O2b",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
+1 *1 C        0 {2,D} {3,S} {4,S}
+2    O        0 {1,D}
+3 *2 H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.01e+13,"cm^3/(mol*s)","*|/",10),
+        A = (30100000000000.0, 'cm^3/(mol*s)', '*|/', 10),
         n = 0,
         alpha = 0,
-        E0 = (39.15,"kcal/mol"),
-        Tmin = (600,"K"),
-        Tmax = (1100,"K"),
+        E0 = (39.15, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (1100, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -9977,7 +10060,7 @@ cm3/molecule/s."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9986,22 +10069,22 @@ entry(
     label = "CO/H/NonDe;O_atom_triplet",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
+1 *1 C        0 {2,D} {3,S} {4,S}
+2    O        0 {1,D}
+3 *2 H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 2T
+1 *3 O 2T
 """,
     kinetics = ArrheniusEP(
-        A = (5e+12,"cm^3/(mol*s)","*|/",2),
+        A = (5000000000000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = 0,
         alpha = 0,
-        E0 = (1.79,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (1.79, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10013,75 +10096,80 @@ u"""
 CH3CHO + O --> CH3CO + OH
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 241,
-    label = "CO/H/NonDe;H_rad",
+    label = "C/H/Cs2Cd;C_rad/H2/S",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4e+13,"cm^3/(mol*s)","*|/",2),
-        n = 0,
+        A = (0.00597, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (4.21,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (7.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Warnatz [134] literature review""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3CHO + H --> CH3CO + H2
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 242,
-    label = "CO/H/NonDe;C_methyl",
+    label = "C/H/Cs2Cd;C_rad/H/CsS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.99e-06,"cm^3/(mol*s)","*|/",2),
-        n = 5.64,
+        A = (0.0107, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (2.46,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1250,"K"),
+        E0 = (7.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Baulch et al. [95] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
@@ -10103,114 +10191,119 @@ data of Liu and Laidler and Colket et al."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 243,
-    label = "CO/H/NonDe;C_rad/H2/Cd",
+    label = "C/H/Cs2Cd;C_rad/Cs2S",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cd 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.8e+11,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0043, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (7.21,"kcal/mol"),
-        Tmin = (790,"K"),
-        Tmax = (810,"K"),
+        E0 = (7.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 5,
-    shortDesc = u"""Loser et al. [135] bond strength-bond length method.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [135] Loser, U.; Scherzer, K.; Weber, K. Z. Phys. Chem. (Leipzig) 1989, 270, 237.
 CH3CHO + CH2CH=CH2 --> CH3CO + CH3CH=CH2
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 244,
-    label = "CO/H/NonDe;Cd_pri_rad",
+    label = "C/H/Cs2Cd;Cd_rad/NonDeS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (8.13e+10,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.0357, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (3.68,"kcal/mol"),
-        Tmin = (480,"K"),
-        Tmax = (520,"K"),
+        E0 = (-0.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 5,
-    shortDesc = u"""Scherzer et al. [136] bond energy-bond order method.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [136] Scherzer, K.; Loser, U.; Stiller, W. Z. Phys. Chem. 1987, 27, 300.
 CH3CHO + C2H3 --> CH3CO + C2H4
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 245,
-    label = "CO/H/NonDe;O_pri_rad",
+    label = "C/H/Cs2Cd;C_rad/H/CdS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2e+06,"cm^3/(mol*s)"),
-        n = 1.8,
+        A = (0.0589, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (-1.3,"kcal/mol"),
-        Tmin = (295,"K"),
-        Tmax = (600,"K"),
+        E0 = (18.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""Taylor et al. [127] Transition state theory.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [127] Taylor, P.H.; Rahman, M.S.; Arif, M.; Dellinger, B.; Marshall, P. Sypm. Int. Combust. Proc. 1996, 26, 497.
@@ -10223,74 +10316,80 @@ Previous modified Arrhenius parameters had E=1.3 kcal/mol; it should be E=-1.3 k
 Certified by MRH on 6Aug2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 246,
-    label = "CO/H/NonDe;O_pri_rad",
+    label = "C/H/Cs2Cd;C_rad/CdCsS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1e+13,"cm^3/(mol*s)","*|/",2.51),
-        n = 0,
+        A = (0.00745, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (18.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Warnatz [134] literature review""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 CH3CHO + OH --> CH3CO + H2O
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 247,
-    label = "CO/H/NonDe;O_rad/NonDeO",
+    label = "C/H/Cs2Cd;C_rad/H/CtS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     O 0 {1,D}
-3  *2 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.01e+12,"cm^3/(mol*s)","*|/",5),
-        n = 0,
+        A = (0.035, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (11.92,"kcal/mol"),
-        Tmin = (900,"K"),
-        Tmax = (1200,"K"),
+        E0 = (17.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Baulch et al. [95] literature review.""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
@@ -10311,36 +10410,40 @@ factor of 5.0x10^-12 cm3/molecule/s."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 248,
-    label = "O_pri;O2b",
+    label = "C/H/Cs2Cd;C_rad/CtCsS",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.325e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.143, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (74.12,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1000,"K"),
+        E0 = (18.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 5,
-    shortDesc = u"""Mayer et al. [137] Bond energy-bond order.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [137] Mayer, S.W.; Schieler, L. J. Phys. Chem. 1968, 72, 2628.
@@ -10350,7 +10453,7 @@ H2O + O2 --> OH + HO2.
 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10359,21 +10462,21 @@ entry(
     label = "O_pri;O_atom_triplet",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 2T
+1 *3 O 2T
 """,
     kinetics = ArrheniusEP(
-        A = (2.63e+09,"cm^3/(mol*s)"),
+        A = (2630000000.0, 'cm^3/(mol*s)'),
         n = 1.2,
         alpha = 0,
-        E0 = (17.83,"kcal/mol"),
-        Tmin = (298,"K"),
-        Tmax = (1000,"K"),
+        E0 = (17.83, 'kcal/mol'),
+        Tmin = (298, 'K'),
+        Tmax = (1000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10385,7 +10488,7 @@ u"""
 H2O + O --> OH + OH. C.D.W divided original rate expression by 2 (from A= 2.95E+39), to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10394,21 +10497,21 @@ entry(
     label = "O_pri;O_atom_triplet",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 2T
+1 *3 O 2T
 """,
     kinetics = ArrheniusEP(
-        A = (74000,"cm^3/(mol*s)"),
+        A = (74000, 'cm^3/(mol*s)'),
         n = 2.6,
         alpha = 0,
-        E0 = (15.18,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (15.18, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10420,7 +10523,7 @@ u"""
 H2O + O --> OH + OH. C.D.W divided original rate expression by 2 (from A= 1.48E+05), to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10429,21 +10532,21 @@ entry(
     label = "O_pri;H_rad",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 H 1
 """,
     kinetics = ArrheniusEP(
-        A = (2.26e+08,"cm^3/(mol*s)","*|/",1.6),
+        A = (226000000.0, 'cm^3/(mol*s)', '*|/', 1.6),
         n = 1.6,
         alpha = 0,
-        E0 = (19.32,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (19.32, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10473,7 +10576,7 @@ has an E = 19.32 kcal/mol.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10482,24 +10585,24 @@ entry(
     label = "O_pri;C_methyl",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.2,"cm^3/(mol*s)"),
+        A = (3.2, 'cm^3/(mol*s)'),
         n = 3.31,
         alpha = 0,
-        E0 = (12.56,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (12.56, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10511,7 +10614,7 @@ u"""
 H2O + CH3 --> OH + CH4. C.D.W divided original rate expression by 2 (from A= 6.39), to get rate expression per H atom.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10520,24 +10623,24 @@ entry(
     label = "O_pri;C_methyl",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (242,"cm^3/(mol*s)","*|/",1.6),
+        A = (242, 'cm^3/(mol*s)', '*|/', 1.6),
         n = 2.9,
         alpha = 0,
-        E0 = (14.86,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (14.86, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10559,7 +10662,7 @@ Recommended data based on reverse rate and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10568,24 +10671,24 @@ entry(
     label = "O_pri;C_rad/H2/Cs",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.7e+06,"cm^3/(mol*s)","*|/",2),
+        A = (1700000.0, 'cm^3/(mol*s)', '*|/', 2),
         n = 1.44,
         alpha = 0,
-        E0 = (20.27,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (20.27, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10607,7 +10710,7 @@ Recommended data based on reverse rate and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10616,23 +10719,23 @@ entry(
     label = "O_pri;Cd_pri_rad",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (242,"cm^3/(mol*s)","*|/",5),
+        A = (242, 'cm^3/(mol*s)', '*|/', 5),
         n = 2.9,
         alpha = 0,
-        E0 = (14.86,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (14.86, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10654,7 +10757,7 @@ Recommended data based on expression for CH3+H2O=CH4+OH
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10663,23 +10766,23 @@ entry(
     label = "O_pri;CO_pri_rad",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    O 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.18e+08,"cm^3/(mol*s)","*|/",5),
+        A = (118000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 1.35,
         alpha = 0,
-        E0 = (26.03,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (26.03, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10701,7 +10804,7 @@ Recommended data based on reverse rate and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10710,22 +10813,22 @@ entry(
     label = "O_pri;O_pri_rad",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.417e-07,"cm^3/(mol*s)"),
+        A = (2.417e-07, 'cm^3/(mol*s)'),
         n = 5.48,
         alpha = 0,
-        E0 = (0.274,"kcal/mol"),
-        Tmin = (200,"K"),
-        Tmax = (700,"K"),
+        E0 = (0.274, 'kcal/mol'),
+        Tmin = (200, 'K'),
+        Tmax = (700, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10747,7 +10850,7 @@ A: exp(ln(A)), multiplied by 6.02e23 (to convert /molecule to /mol) and divided 
 Certified by MRH on 7Aug2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10756,22 +10859,22 @@ entry(
     label = "O_pri;O_rad/NonDeC",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     Cs 0 {1,S}
+1 *3 O  1 {2,S}
+2    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.174,"cm^3/(mol*s)"),
+        A = (0.174, 'cm^3/(mol*s)'),
         n = 3.8,
         alpha = 0,
-        E0 = (11.49,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (11.49, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10785,7 +10888,7 @@ H2O + CH3O --> OH + CH3OH C.D.W divided original rate expression by 2 (from A= 9
 Verified by Greg Magoon: note that this reaction is endothermic; the reverse (R5), appears as #267, below
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10794,21 +10897,21 @@ entry(
     label = "O/H/NonDeC;O_atom_triplet",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *1 O  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 2T
+1 *3 O 2T
 """,
     kinetics = ArrheniusEP(
-        A = (1e+13,"cm^3/(mol*s)","*|/",2.51),
+        A = (10000000000000.0, 'cm^3/(mol*s)', '*|/', 2.51),
         n = 0,
         alpha = 0,
-        E0 = (4.69,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1000,"K"),
+        E0 = (4.69, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10820,7 +10923,7 @@ u"""
 CH3OH + O --> CH3O + OH
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10829,23 +10932,23 @@ entry(
     label = "O/H/NonDeC;CH2_triplet",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *1 O  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 2T {2,S} {3,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
+1 *3 C 2T {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (14.4,"cm^3/(mol*s)","*|/",3),
+        A = (14.4, 'cm^3/(mol*s)', '*|/', 3),
         n = 3.1,
         alpha = 0,
-        E0 = (6.94,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (6.94, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10874,7 +10977,7 @@ expression for CH3+CH3OH=CH4+CH3O
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10883,24 +10986,24 @@ entry(
     label = "O/H/NonDeC;C_methyl",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *1 O  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.00037,"cm^3/(mol*s)"),
+        A = (0.00037, 'cm^3/(mol*s)'),
         n = 4.7,
         alpha = 0,
-        E0 = (5.78,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (5.78, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10914,7 +11017,7 @@ The calculated rate constants are in good agreement with experiment. CH3OH + CH3
 Verified by Greg Magoon: I changed upper temperature to 2000 K (was 2500) in line with other reactions from same paper; note that according to the paper, this reaction is very slightly endothermic; the exothermic reverse (-R3) is included above as #177
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10923,24 +11026,24 @@ entry(
     label = "O/H/NonDeC;C_rad/H2/Cs",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *1 O  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (14.4,"cm^3/(mol*s)","*|/",3),
+        A = (14.4, 'cm^3/(mol*s)', '*|/', 3),
         n = 3.1,
         alpha = 0,
-        E0 = (8.94,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (8.94, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -10969,7 +11072,7 @@ MRH 30-Aug-2009
 //263: [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10978,24 +11081,24 @@ entry(
     label = "O/H/NonDeC;C_rad/H/NonDeC",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *1 O  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (14.5,"cm^3/(mol*s)","*|/",5),
+        A = (14.5, 'cm^3/(mol*s)', '*|/', 5),
         n = 3.1,
         alpha = 0,
-        E0 = (10.33,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (10.33, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -11025,7 +11128,7 @@ MRH 30-Aug-2009
 //264: [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11034,24 +11137,24 @@ entry(
     label = "O/H/NonDeC;C_rad/Cs3",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *1 O  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1510,"cm^3/(mol*s)","*|/",10),
+        A = (1510, 'cm^3/(mol*s)', '*|/', 10),
         n = 1.8,
         alpha = 0,
-        E0 = (9.36,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (9.36, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -11080,7 +11183,7 @@ Recommended rate is based on reverse rxn and equilibrium constant
 Verified by MRH on 10Aug2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11089,23 +11192,23 @@ entry(
     label = "O/H/NonDeC;Cd_pri_rad",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *1 O  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (14.4,"cm^3/(mol*s)","*|/",10),
+        A = (14.4, 'cm^3/(mol*s)', '*|/', 10),
         n = 3.1,
         alpha = 0,
-        E0 = (6.94,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (6.94, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -11130,7 +11233,7 @@ expression for CH3+CH3OH=CH4+CH3O.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11139,22 +11242,22 @@ entry(
     label = "O/H/NonDeC;Ct_rad",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *1 O  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 C 1 {2,T}
-2     C 0 {1,T}
+1 *3 C 1 {2,T}
+2    C 0 {1,T}
 """,
     kinetics = ArrheniusEP(
-        A = (1.21e+12,"cm^3/(mol*s)","*|/",5),
+        A = (1210000000000.0, 'cm^3/(mol*s)', '*|/', 5),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -11179,7 +11282,7 @@ expression based on measurements of C2H+CH4 and C2H+C2H6 rxns
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11188,22 +11291,22 @@ entry(
     label = "O/H/NonDeC;O_pri_rad",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *1 O  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (17.3,"cm^3/(mol*s)"),
+        A = (17.3, 'cm^3/(mol*s)'),
         n = 3.4,
         alpha = 0,
-        E0 = (-1.14,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (-1.14, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -11217,7 +11320,7 @@ The calculated rate constants are in good agreement with experiment. CH3OH + OH 
 Verified by Greg Magoon (cf. reverse, #258, above)
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11226,22 +11329,22 @@ entry(
     label = "O/H/NonDeC;O_pri_rad",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *1 O  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     H 0 {1,S}
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1e+13,"cm^3/(mol*s)","*|/",3.16),
+        A = (10000000000000.0, 'cm^3/(mol*s)', '*|/', 3.16),
         n = 0,
         alpha = 0,
-        E0 = (1.7,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (1.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -11253,37 +11356,351 @@ u"""
 CH3OH + OH --> CH3O + H2O
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 272,
+    label = "C/H2/CdCd;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00754, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 273,
+    label = "C/H2/CdCd;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0135, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 274,
+    label = "C/H2/CdCd;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00543, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 275,
+    label = "C/H2/CdCd;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.045, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-0.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 276,
+    label = "C/H2/CdCd;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0744, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 277,
+    label = "C/H2/CdCd;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0094, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 278,
+    label = "C/H2/CdCd;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0442, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (16.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 279,
+    label = "C/H2/CdCd;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.181, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 310,
-    label = "Cd_pri;O2b",
+    label = "C/H/CdCd;C_rad/CtCsS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.145, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (60.36,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (16.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 5,
-    shortDesc = u"""Increased rate 154 Ea by 9.6 kcal/mol (vinyl versus methyl)""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 JDM increased the activation energy for the abstraction of a vinyl-H hydrogen by O2.  August 2010.
@@ -11296,136 +11713,1562 @@ These rates have been calculated based on rates of primary- and secondary-alkyl 
 The A-factors have remained the same.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 311,
-    label = "Cd_pri;O2b",
+    index = 334,
+    label = "C/H3/Ct;C_rad/H2/S",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Ct 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.005e+13,"cm^3/(mol*s)","*|/",10),
-        n = 0,
+        A = (0.00388, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (61.47,"kcal/mol"),
-        Tmin = (500,"K"),
-        Tmax = (2000,"K"),
+        E0 = (10.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Increased rate 179 Ea by 9.6 kcal/mol (vinyl versus methyl)""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
-JDM increased the activation energy for the abstraction of a vinyl-H hydrogen by O2.  August 2010.
-Using the Evans-Polanyi principle with alpha = 1, the activation energy was increased by delta(vinyl radical - alkyl radical) = 9.6 kcal/mol.
-Reaction rate 179 was the basis for this.
 
-Previously, rates had been calculated by an averaging-of-averages technique, which resulted in the abstraction of vinyl-H's being orders of magnitude faster than the abstraction of alkyl-H's.
-
-These rates have been calculated based on rates of primary- and secondary-alkyl H-abstractions by O2. 
-The A-factors have remained the same.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 312,
-    label = "Cd/H/NonDeC;O2b",
+    index = 335,
+    label = "C/H3/Ct;C_rad/H/CsS",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Ct 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (7e+12,"cm^3/(mol*s)"),
-        n = 0,
+        A = (0.00693, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (57.81,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 5,
-    shortDesc = u"""Increased rate 155 Ea by 9.6 kcal/mol (vinyl versus methyl)""",
-    longDesc = 
-u"""
-JDM increased the activation energy for the abstraction of a vinyl-H hydrogen by O2.  August 2010.
-Using the Evans-Polanyi principle with alpha = 1, the activation energy was increased by delta(vinyl radical - alkyl radical) = 9.6 kcal/mol.
-Reaction rate 155 was the basis for this.
-
-Previously, rates had been calculated by an averaging-of-averages technique, which resulted in the abstraction of vinyl-H's being orders of magnitude faster than the abstraction of alkyl-H's.
-
-These rates have been calculated based on rates of primary- and secondary-alkyl H-abstractions by O2. 
-The A-factors have remained the same.
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 313,
-    label = "Cd/H/NonDeC;O2b",
-    group1 = 
-"""
-1  *1 C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3  *2 H 0 {1,S}
-4     Cs 0 {1,S}
-""",
-    group2 = 
-"""
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (1.985e+13,"cm^3/(mol*s)","*|/",10),
-        n = 0,
-        alpha = 0,
-        E0 = (57.29,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
+        E0 = (10.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Increased rate 188 Ea by 9.6 kcal/mol (vinyl versus methyl)""",
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
-JDM increased the activation energy for the abstraction of a vinyl-H hydrogen by O2.  August 2010.
-Using the Evans-Polanyi principle with alpha = 1, the activation energy was increased by delta(vinyl radical - alkyl radical) = 9.6 kcal/mol.
-Reaction rate 188 was the basis for this.
 
-Previously, rates had been calculated by an averaging-of-averages technique, which resulted in the abstraction of vinyl-H's being orders of magnitude faster than the abstraction of alkyl-H's.
-
-These rates have been calculated based on rates of primary- and secondary-alkyl H-abstractions by O2. 
-The A-factors have remained the same.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 336,
+    label = "C/H3/Ct;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00279, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (10.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 337,
+    label = "C/H3/Ct;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0232, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (2.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 338,
+    label = "C/H3/Ct;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0383, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 339,
+    label = "C/H3/Ct;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00483, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 340,
+    label = "C/H3/Ct;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0227, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 341,
+    label = "C/H3/Ct;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.093, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 365,
+    label = "C/H2/CtCs;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0053, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (9.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 366,
+    label = "C/H2/CtCs;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00946, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (9.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 367,
+    label = "C/H2/CtCs;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00382, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 368,
+    label = "C/H2/CtCs;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0317, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (1.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 369,
+    label = "C/H2/CtCs;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0523, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 370,
+    label = "C/H2/CtCs;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0066, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 371,
+    label = "C/H2/CtCs;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0311, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 372,
+    label = "C/H2/CtCs;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.127, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 396,
+    label = "C/H/Cs2Ct;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00947, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 397,
+    label = "C/H/Cs2Ct;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0169, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 398,
+    label = "C/H/Cs2Ct;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00682, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 399,
+    label = "C/H/Cs2Ct;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0566, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 400,
+    label = "C/H/Cs2Ct;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0934, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 401,
+    label = "C/H/Cs2Ct;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0118, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 402,
+    label = "C/H/Cs2Ct;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0555, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 403,
+    label = "C/H/Cs2Ct;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.227, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 427,
+    label = "C/H2/CtCt;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00674, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 428,
+    label = "C/H2/CtCt;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.012, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 429,
+    label = "C/H2/CtCt;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00486, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 430,
+    label = "C/H2/CtCt;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0403, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-0.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 431,
+    label = "C/H2/CtCt;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0665, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 432,
+    label = "C/H2/CtCt;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0084, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 433,
+    label = "C/H2/CtCt;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0395, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 434,
+    label = "C/H2/CtCt;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.162, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 458,
+    label = "C/H/CtCt;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00743, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 459,
+    label = "C/H/CtCt;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0133, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 460,
+    label = "C/H/CtCt;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00535, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 461,
+    label = "C/H/CtCt;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0444, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 462,
+    label = "C/H/CtCt;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0733, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 463,
+    label = "C/H/CtCt;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00926, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 464,
+    label = "C/H/CtCt;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0436, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (15.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 465,
+    label = "C/H/CtCt;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.178, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (16.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11434,22 +13277,22 @@ entry(
     label = "Orad_O_H;O_rad/NonDeO",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     O 1 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    O 1 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.75e+10,"cm^3/(mol*s)"),
+        A = (17500000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (-3.275,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (-3.275, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -11460,415 +13303,13829 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 523,
-    label = "O/H/NonDeC;O2b",
+    index = 487,
+    label = "C/H2/NonDeC;O2b",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2  *2 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5e+10,"cm^3/(mol*s)"),
-        n = 0,
-        alpha = 1,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 1,
-    shortDesc = u"""Estimate [W.H. Green]""",
-    longDesc = 
-u"""
-ROH + .OO. --> HOO. + RO.
-
-This rate coefficient is an estimate from W.H. Green (personal communication).  The pre-exponential factor has been
- divided by 2 (from 1e11 to 5e10), to account for the symmetry of .OO.  The temperature range is estimated as 300-2000 K
- and the rank is assigned 1, so that this rate coefficient estimate will be used in all instances.
-This is simply an estimate; JDM and/or MRH will refine this value in the near future.
-See also rate 532 for X_H + .OO. --> HOO. + X.
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 524,
-    label = "C/H3/Cd;O_rad/NonDeO",
-    group1 = 
-"""
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cd 0 {1,S}
-""",
-    group2 = 
-"""
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (0.00057833,"cm^3/(mol*s)"),
-        n = 4.65,
-        alpha = 0,
-        E0 = (9.78,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 5,
-    shortDesc = u"""SSM due to lack of better value ref rate rule 525""",
-    longDesc = 
-u"""
-This rate rules matches C=C-CH3 + HO-O* <=> C=C-CH2* + H2O2
-
-Due to lack of better estimate SSM has given this node the value obtained from 2-Butene + HO2 calculations (Rate rule 525)
-The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
-The Wigner tunneling currection that was used to account for tunneling.
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 526,
-    label = "H2O2;Cd_rad/NonDeC",
-    group1 = 
-"""
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
-""",
-    group2 = 
-"""
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     Cs 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (0.4375,"cm^3/(mol*s)"),
-        n = 3.59,
-        alpha = 0,
-        E0 = (-4.03,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 5,
-    shortDesc = u"""SSM due to lack of better value ref rate rule 527""",
-    longDesc = 
-u"""
-This rate rules matches C=C*-C + H2O2 <=> C=C-C + HO-O*
-
-Due to lack of better estimate SSM has given this node the value obtained from 2-Butene + HO2 calculations (Rate rule 527)
-The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
-The Wigner tunneling currection that was used to account for tunneling.
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 528,
-    label = "C/H2/OneDeC;O_rad/NonDeO",
-    group1 = 
-"""
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     {Cd,Ct,CO,Cb} 0 {1,S}
-5     Cs 0 {1,S}
-""",
-    group2 = 
-"""
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (0.000254,"cm^3/(mol*s)"),
-        n = 4.59,
-        alpha = 0,
-        E0 = (7.16,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 5,
-    shortDesc = u"""SSM due to lack of better value ref rate rule 529""",
-    longDesc = 
-u"""
-This rate rules matches Cs-CH2-C=C + HO-O* <=> Cs-CH*-C=C + H2O2
-
-Due to lack of better estimate SSM has given this node the value obtained from 1-Butene + HO2 calculations (Rate rule 529)
-The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
-The Wigner tunneling currection that was used to account for tunneling.
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 530,
-    label = "H2O2;Cd_pri_rad",
-    group1 = 
-"""
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
-""",
-    group2 = 
-"""
-1  *3 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (1,"cm^3/(mol*s)"),
-        n = 3.52,
-        alpha = 0,
-        E0 = (-7.48,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 5,
-    shortDesc = u"""SSM due to lack of better value ref rate rule 531""",
-    longDesc = 
-u"""
-This rate rules matches C-HC=CH* + H2O2 <=> C-HC=CH2 + HO=O*
-
-Due to lack of better estimate SSM has given this node the value obtained from 1-Butene + HO2 calculations (Rate rule 531)
-The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
-The Wigner tunneling currection that was used to account for tunneling.
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 532,
-    label = "X_H;O2b",
-    group1 = 
-"""
-1  *1 R 0 {2,S}
-2  *2 H 0 {1,S}
-""",
-    group2 = 
-"""
-1  *3 O 1 {2,S}
-2     O 1 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (5e+10,"cm^3/(mol*s)"),
-        n = 0,
-        alpha = 1,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 1,
-    shortDesc = u"""Estimate [W.H. Green]""",
-    longDesc = 
-u"""
-X_H + .OO. --> HOO. + X.
-
-I have taken the estimated rate from 523, which assumes A=1e11 with Ea=enthothermicity,
-and assigned it to the top level X_H node so that whenever .OO. is abstracting from 
-something without a proper rate, this value is used instead of the lengthy average.
-See notes to 523 for further details.
-""",
-    history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 533,
-    label = "C_methane;C2b",
-    group1 = 
-"""
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-""",
-    group2 = 
-"""
-1  *3 C 1 {2,T}
-2     C 1 {1,T}
-""",
-    kinetics = ArrheniusEP(
-        A = (7.5e+12,"cm^3/(mol*s)","+|-",1.6e+12),
+        A = (316000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (1.05,"kcal/mol","+|-",0.12),
-        Tmin = (294,"K"),
-        Tmax = (376,"K"),
+        E0 = (43.3, 'kcal/mol'),
+        Tmin = (378, 'K'),
+        Tmax = (433, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Matsugi et al 10.1021/jp1012494""",
+    shortDesc = u"""ET Denisov, LN Denisova. Int J Chem Kinet 8:123-130, 1975 for BuCH2(CH-H)Me in benzene""",
     longDesc = 
 u"""
-For CH4 + C2 = CH3 + C2H
 
-J. Phys. Chem. A 2010, 114, 4580-4585
-http://dx.doi.org/10.1021/jp1012494
-
-Rate Constants and Kinetic Isotope Effects on the Reaction of C2($X^1\Sigma_g^+$) with CH4 and CD4.
-Akira Matsugi, Kohsuke Suma, and Akira Miyoshi
-
-It was measured at pretty low temperatures (294-376), but also calculated ab initio. The calculated
-rates are plotted but the expression is not reported.
-
-    k = (10.0 +- 2.1)E-11 exp[-(4.4+-0.5 kJ mol)/RT] cm3 molecule-1 s-1
-which gives 
-    A = 6e13+-1.3e13 cm3/mole/s
-    n = 0
-    Ea = 1.05+-0.12  kcal/mol
-The degeneracy of this reaction is 8 though, so per-site A is:
-    A = 7.5e12+-1.6e12
-    
-(See also  doi:10.1063/1.3480395  for reactions of C2, but that may be the wrong electronic state.)
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 535,
-    label = "H2O2;O_rad/OneDe",
+    index = 489,
+    label = "C/H3/Cb;C_rad/H2/S",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cb 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     {Cd,Ct,Cb,CO} 0 {1,S}
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.03495,"cm^3/(mol*s)","*|/",3),
-        n = 3.75,
+        A = (0.00125, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (10.89,"kcal/mol","+|-",2),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
+        E0 = (12, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 3,
-    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations, see node 534.""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
-Rxn family nodes: H2O2 + O_rad/OneDe
 
-The rate coefficient for this node was taken from node 534 (H2O2 + InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3)
-by analogy: HOOH + *O-C=R.  Discussed with MRH.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 537,
-    label = "H2O2;O_rad/NonDeO",
+    index = 490,
+    label = "C/H3/Cb;C_rad/H/CsS",
     group1 = 
 """
-1  *1 O 0 {2,S} {3,S}
-2     O 0 {1,S} {4,S}
-3  *2 H 0 {1,S}
-4     H 0 {2,S}
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cb 0 {1,S}
 """,
     group2 = 
 """
-1  *3 O 1 {2,S}
-2     O 0 {1,S}
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0.092,"cm^3/(mol*s)","*|/",3),
-        n = 3.96,
+        A = (0.00223, 'cm^3/(mol*s)'),
+        n = 4.24,
         alpha = 0,
-        E0 = (6.63,"kcal/mol","+|-",2),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
+        E0 = (12, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 491,
+    label = "C/H3/Cb;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000898, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (11.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 492,
+    label = "C/H3/Cb;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00745, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (4.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 493,
+    label = "C/H3/Cb;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0123, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (23.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 494,
+    label = "C/H3/Cb;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00155, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (23.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 495,
+    label = "C/H3/Cb;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00731, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 496,
+    label = "C/H3/Cb;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0299, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (22.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 541,
+    label = "C/H3/Cb;O_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4200000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (2.59, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""Tully et al. experimental data (changed to per H)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 542,
+    label = "C/H2/Cb;O_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    C  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4200000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (2.59, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""Tully et al. experimental data (changed to per H)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 543,
+    label = "C/H/Cb;O_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    C  0 {1,S}
+4    C  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4200000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (2.59, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""Tully et al. experimental data (changed to per H)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 544,
+    label = "C/H3/Cb;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (132000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (14.08, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""Baulch et al. literature review (value for HO2 + toluene) (changed to per H)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 545,
+    label = "C/H2/Cb;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    C  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (133000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (11.3, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""Baulch et al. literature review (value for HO2 + ethylbenzene) (changed to per H)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 546,
+    label = "C/H/Cb;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    C  0 {1,S}
+4    C  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (133000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (11.3, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""Baulch et al. literature review (value for HO2 + ethylbenzene) (changed to per H)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 547,
+    label = "C/H3/Cb;O2b",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (600000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (39.71, 'kcal/mol'),
+        Tmin = (700, 'K'),
+        Tmax = (1200, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""Baulch et al. literature review (value for HO2 + toluene entered here) (changed to per H)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 548,
+    label = "C/H2/Cb;O2b",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    C  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (600000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (39.71, 'kcal/mol'),
+        Tmin = (700, 'K'),
+        Tmax = (1200, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""Baulch et al. literature review (value for HO2 + toluene entered here) (changed to per H)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 549,
+    label = "C/H/Cb;O2b",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    C  0 {1,S}
+4    C  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (600000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (39.71, 'kcal/mol'),
+        Tmin = (700, 'K'),
+        Tmax = (1200, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""Baulch et al. literature review (value for HO2 + toluene entered here) (changed to per H)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 550,
+    label = "ROOH_pri;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 O  0 {2,S} {7,S}
+2    O  0 {1,S} {3,S}
+3    C  0 {2,S} {4,S} {5,S} {6,S}
+4    Cs 0 {3,S}
+5    H  0 {3,S}
+6    H  0 {3,S}
+7 *2 H  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2.51e-11, 'cm^3/(mol*s)'),
+        n = 6.77,
+        alpha = 0,
+        E0 = (-8.6, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""[AJ]Assumed to be same as for ROOH_sec""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 551,
+    label = "ROOH_sec;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 O  0 {2,S} {7,S}
+2    O  0 {1,S} {3,S}
+3    C  0 {2,S} {4,S} {5,S} {6,S}
+4    Cs 0 {3,S}
+5    Cs 0 {3,S}
+6    H  0 {3,S}
+7 *2 H  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2.51e-11, 'cm^3/(mol*s)'),
+        n = 6.77,
+        alpha = 0,
+        E0 = (-8.6, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""[AJ]CBS-QB3 calculations with 1DHR corrections, reverse rates computed using DFT_QCI_thermo""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 552,
+    label = "ROOH_pri;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 O  0 {2,S} {7,S}
+2    O  0 {1,S} {3,S}
+3    C  0 {2,S} {4,S} {5,S} {6,S}
+4    Cs 0 {3,S}
+5    H  0 {3,S}
+6    H  0 {3,S}
+7 *2 H  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2.51e-11, 'cm^3/(mol*s)'),
+        n = 6.77,
+        alpha = 0,
+        E0 = (-8.6, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""[AJ]Assumed to be same as for C_rad/H/NonDeC""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 553,
+    label = "ROOH_sec;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 O  0 {2,S} {7,S}
+2    O  0 {1,S} {3,S}
+3    C  0 {2,S} {4,S} {5,S} {6,S}
+4    Cs 0 {3,S}
+5    Cs 0 {3,S}
+6    H  0 {3,S}
+7 *2 H  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2.51e-11, 'cm^3/(mol*s)'),
+        n = 6.77,
+        alpha = 0,
+        E0 = (-8.6, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""[AJ]Assumed to be same as for C_rad/H/NonDeC""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 554,
+    label = "ROOH_pri;C_rad/OOH/Cs/Cs",
+    group1 = 
+"""
+1 *1 O  0 {2,S} {7,S}
+2    O  0 {1,S} {3,S}
+3    C  0 {2,S} {4,S} {5,S} {6,S}
+4    Cs 0 {3,S}
+5    H  0 {3,S}
+6    H  0 {3,S}
+7 *2 H  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    O  0 {1,S} {5,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    O  0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (5.066e-14, 'cm^3/(mol*s)'),
+        n = 7.18,
+        alpha = 0,
+        E0 = (-5.27, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""[AJ] Assumed to be same as for ROOH_sec""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 555,
+    label = "ROOH_sec;C_rad/OOH/Cs/Cs",
+    group1 = 
+"""
+1 *1 O  0 {2,S} {7,S}
+2    O  0 {1,S} {3,S}
+3    C  0 {2,S} {4,S} {5,S} {6,S}
+4    Cs 0 {3,S}
+5    Cs 0 {3,S}
+6    H  0 {3,S}
+7 *2 H  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    O  0 {1,S} {5,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    O  0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (5.066e-14, 'cm^3/(mol*s)'),
+        n = 7.18,
+        alpha = 0,
+        E0 = (-5.27, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""[AJ] CBS-QB3 calculations with 1DHR corrections""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 556,
+    label = "ROOH_pri;CO_rad/NonDe",
+    group1 = 
+"""
+1 *1 O  0 {2,S} {7,S}
+2    O  0 {1,S} {3,S}
+3    C  0 {2,S} {4,S} {5,S} {6,S}
+4    Cs 0 {3,S}
+5    H  0 {3,S}
+6    H  0 {3,S}
+7 *2 H  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C        1 {2,D} {3,S}
+2    O        0 {1,D}
+3    {Cs,O,S} 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0009569, 'cm^3/(mol*s)'),
+        n = 4.45,
+        alpha = 0,
+        E0 = (0.54, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""[AJ] Assumed to be same as for ROOH_sec""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 557,
+    label = "ROOH_sec;CO_rad/NonDe",
+    group1 = 
+"""
+1 *1 O  0 {2,S} {7,S}
+2    O  0 {1,S} {3,S}
+3    C  0 {2,S} {4,S} {5,S} {6,S}
+4    Cs 0 {3,S}
+5    Cs 0 {3,S}
+6    H  0 {3,S}
+7 *2 H  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C        1 {2,D} {3,S}
+2    O        0 {1,D}
+3    {Cs,O,S} 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0009569, 'cm^3/(mol*s)'),
+        n = 4.45,
+        alpha = 0,
+        E0 = (0.54, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""[AJ] CBS-QB3 calculations with 1DHR corrections""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 558,
+    label = "ROOH_pri;C_rad/H/CO/Cs",
+    group1 = 
+"""
+1 *1 O  0 {2,S} {7,S}
+2    O  0 {1,S} {3,S}
+3    C  0 {2,S} {4,S} {5,S} {6,S}
+4    Cs 0 {3,S}
+5    H  0 {3,S}
+6    H  0 {3,S}
+7 *2 H  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    CO 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.73e-10, 'cm^3/(mol*s)'),
+        n = 6.3,
+        alpha = 0,
+        E0 = (-2.14, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""[AJ] Assumed to be same as for ROOH_sec""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 559,
+    label = "ROOH_sec;C_rad/H/CO/Cs",
+    group1 = 
+"""
+1 *1 O  0 {2,S} {7,S}
+2    O  0 {1,S} {3,S}
+3    C  0 {2,S} {4,S} {5,S} {6,S}
+4    Cs 0 {3,S}
+5    Cs 0 {3,S}
+6    H  0 {3,S}
+7 *2 H  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    CO 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.73e-10, 'cm^3/(mol*s)'),
+        n = 6.3,
+        alpha = 0,
+        E0 = (-2.14, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""[AJ] Assumed to be same as for C_rad/H2/CO""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 560,
+    label = "ROOH_pri;C_rad/H2/CO",
+    group1 = 
+"""
+1 *1 O  0 {2,S} {7,S}
+2    O  0 {1,S} {3,S}
+3    C  0 {2,S} {4,S} {5,S} {6,S}
+4    Cs 0 {3,S}
+5    H  0 {3,S}
+6    H  0 {3,S}
+7 *2 H  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    CO 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.73e-10, 'cm^3/(mol*s)'),
+        n = 6.3,
+        alpha = 0,
+        E0 = (-2.14, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""[AJ] Assumed to be same as for ROOH_sec""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 561,
+    label = "ROOH_sec;C_rad/H2/CO",
+    group1 = 
+"""
+1 *1 O  0 {2,S} {7,S}
+2    O  0 {1,S} {3,S}
+3    C  0 {2,S} {4,S} {5,S} {6,S}
+4    Cs 0 {3,S}
+5    Cs 0 {3,S}
+6    H  0 {3,S}
+7 *2 H  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    CO 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.73e-10, 'cm^3/(mol*s)'),
+        n = 6.3,
+        alpha = 0,
+        E0 = (-2.14, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""[AJ] CBS-QB3 calculations with 1DHR corrections""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 562,
+    label = "CS/H/NonDeC;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    S  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4.36e-10, 'cm^3/(mol*s)'),
+        n = 4.56,
+        alpha = 0,
+        E0 = (4.77, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
     rank = 3,
-    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations, see node 536.""",
+    shortDesc = u"""CAC CBS-QB3 calc, 1dhr""",
     longDesc = 
 u"""
-Rxn family nodes: H2O2 + O_rad/NonDeO
 
-The rate coefficient for this node was taken from node 536 (H2O2 + OOCH3)
-by analogy: HOOH + *O-O-R.  Discussed with MRH.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 563,
+    label = "CS/H/NonDeC;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    S  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.377, 'cm^3/(mol*s)'),
+        n = 3.63,
+        alpha = 0,
+        E0 = (3.98, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""CAC CBS-QB3 calc, 1dhr""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 582,
+    label = "Cd_pri;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00655, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (16.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 583,
+    label = "Cd_pri;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0117, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (16.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 584,
+    label = "Cd_pri;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00472, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (16, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 585,
+    label = "Cd_pri;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0391, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (8.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 586,
+    label = "Cd_pri;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0646, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (27.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 587,
+    label = "Cd_pri;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00817, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (27.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 588,
+    label = "Cd_pri;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0384, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (25.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 589,
+    label = "Cd_pri;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.157, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (26.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 613,
+    label = "Cd/H/NonDeC;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0101, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 614,
+    label = "Cd/H/NonDeC;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.018, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 615,
+    label = "Cd/H/NonDeC;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00725, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 616,
+    label = "Cd/H/NonDeC;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0601, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 617,
+    label = "Cd/H/NonDeC;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0993, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (25.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 618,
+    label = "Cd/H/NonDeC;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0125, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (25.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 619,
+    label = "Cd/H/NonDeC;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.059, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (23.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 620,
+    label = "Cd/H/NonDeC;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.241, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (24.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 644,
+    label = "Cd/H/Cd;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00675, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 645,
+    label = "Cd/H/Cd;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0121, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 646,
+    label = "Cd/H/Cd;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00486, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 647,
+    label = "Cd/H/Cd;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0404, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 648,
+    label = "Cd/H/Cd;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0666, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (24.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 649,
+    label = "Cd/H/Cd;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00842, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (24.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 650,
+    label = "Cd/H/Cd;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0396, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (23.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 651,
+    label = "Cd/H/Cd;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.162, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (24.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 675,
+    label = "Cb_H;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *2 H        0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00747, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 676,
+    label = "Cb_H;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *2 H        0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0133, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 677,
+    label = "Cb_H;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *2 H        0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00538, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 678,
+    label = "Cb_H;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *2 H        0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0446, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (10.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 679,
+    label = "Cb_H;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *2 H        0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0737, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (29.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 680,
+    label = "Cb_H;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *2 H        0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00931, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (29.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 681,
+    label = "Cb_H;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *2 H        0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0438, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (27.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 682,
+    label = "Cb_H;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 Cb       0 {2,B} {3,B} {4,S}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+4 *2 H        0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.179, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (28.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 706,
+    label = "Cd/H/Ct;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00498, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (11.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 707,
+    label = "Cd/H/Ct;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00889, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (11.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 708,
+    label = "Cd/H/Ct;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00359, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (11.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 709,
+    label = "Cd/H/Ct;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0298, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (3.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 710,
+    label = "Cd/H/Ct;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0491, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (22.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 711,
+    label = "Cd/H/Ct;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00621, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (22.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 712,
+    label = "Cd/H/Ct;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0292, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 713,
+    label = "Cd/H/Ct;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.119, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 714,
+    label = "C/H3/S;H_rad",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (0.177, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (3.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 715,
+    label = "C/H3/S;C_methyl",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00511, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (5.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 716,
+    label = "C/H3/S;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00104, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 717,
+    label = "C/H3/S;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00275, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (8.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 718,
+    label = "C/H3/S;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00144, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (8.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 719,
+    label = "C/H3/S;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0107, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 720,
+    label = "C/H3/S;C_rad/H/CdCs",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00846, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 721,
+    label = "C/H3/S;C_rad/CdCs2",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00231, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 722,
+    label = "C/H3/S;C_rad/H/CdCd",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0341, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (28.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 723,
+    label = "C/H3/S;C_rad/CdCdCs",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00302, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (29.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 724,
+    label = "C/H3/S;C_rad/H2/Ct",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00488, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (14.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 725,
+    label = "C/H3/S;C_rad/H/CtCs",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00203, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (16.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 726,
+    label = "C/H3/S;C_rad/CtCs2",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00144, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 727,
+    label = "C/H3/S;C_rad/H/CtCt",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0103, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (22.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 728,
+    label = "C/H3/S;C_rad/CtCtCs",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000508, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (24, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 729,
+    label = "C/H3/S;C_rad/H2/Cb",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0105, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (16.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 730,
+    label = "C/H3/S;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00538, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 731,
+    label = "C/H3/S;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cb 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000256, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 732,
+    label = "C/H3/S;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00481, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (1.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 733,
+    label = "C/H3/S;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00476, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (2.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 734,
+    label = "C/H3/S;Cd_rad/Cd",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00227, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 735,
+    label = "C/H3/S;Cb_rad",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00572, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 736,
+    label = "C/H3/S;Cd_rad/Ct",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000487, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 737,
+    label = "C/H3/S;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00165, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (11.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 738,
+    label = "C/H3/S;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00294, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (11.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 739,
+    label = "C/H3/S;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00119, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (11, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 740,
+    label = "C/H3/S;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00986, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (3.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 741,
+    label = "C/H3/S;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0163, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (22.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 742,
+    label = "C/H3/S;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00206, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (22.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 743,
+    label = "C/H3/S;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00967, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 744,
+    label = "C/H3/S;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0395, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 745,
+    label = "C/H2/CsS;H_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (0.487, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (2.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 746,
+    label = "C/H2/CsS;C_methyl",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0141, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (4.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 747,
+    label = "C/H2/CsS;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00287, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (5.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 748,
+    label = "C/H2/CsS;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00759, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 749,
+    label = "C/H2/CsS;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00398, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 750,
+    label = "C/H2/CsS;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0296, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 751,
+    label = "C/H2/CsS;C_rad/H/CdCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0233, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 752,
+    label = "C/H2/CsS;C_rad/CdCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00638, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 753,
+    label = "C/H2/CsS;C_rad/H/CdCd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0939, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (27.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 754,
+    label = "C/H2/CsS;C_rad/CdCdCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00834, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (27.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 755,
+    label = "C/H2/CsS;C_rad/H2/Ct",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0135, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 756,
+    label = "C/H2/CsS;C_rad/H/CtCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0056, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (15, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 757,
+    label = "C/H2/CsS;C_rad/CtCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00397, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (15.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 758,
+    label = "C/H2/CsS;C_rad/H/CtCt",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0285, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 759,
+    label = "C/H2/CsS;C_rad/CtCtCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0014, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (22.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 760,
+    label = "C/H2/CsS;C_rad/H2/Cb",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0289, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (15.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 761,
+    label = "C/H2/CsS;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0148, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (15.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 762,
+    label = "C/H2/CsS;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cb 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000707, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (15.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 763,
+    label = "C/H2/CsS;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0133, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-0.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 764,
+    label = "C/H2/CsS;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0131, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (0.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 765,
+    label = "C/H2/CsS;Cd_rad/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00626, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 766,
+    label = "C/H2/CsS;Cb_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0158, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-2.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 767,
+    label = "C/H2/CsS;Cd_rad/Ct",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00134, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (4.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 768,
+    label = "C/H2/CsS;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00455, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (9.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 769,
+    label = "C/H2/CsS;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00812, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (9.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 770,
+    label = "C/H2/CsS;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00328, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (9.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 771,
+    label = "C/H2/CsS;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0272, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 772,
+    label = "C/H2/CsS;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0449, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 773,
+    label = "C/H2/CsS;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00567, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 774,
+    label = "C/H2/CsS;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0267, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 775,
+    label = "C/H2/CsS;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.109, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 776,
+    label = "C/H/Cs2S;H_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (0.595, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (0.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 777,
+    label = "C/H/Cs2S;C_methyl",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0172, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (2.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 778,
+    label = "C/H/Cs2S;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00351, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (4.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 779,
+    label = "C/H/Cs2S;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00926, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (5.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 780,
+    label = "C/H/Cs2S;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00487, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (5.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 781,
+    label = "C/H/Cs2S;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0362, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (15.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 782,
+    label = "C/H/Cs2S;C_rad/H/CdCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0285, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 783,
+    label = "C/H/Cs2S;C_rad/CdCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00779, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 784,
+    label = "C/H/Cs2S;C_rad/H/CdCd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.115, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (25.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 785,
+    label = "C/H/Cs2S;C_rad/CdCdCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0102, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (26.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 786,
+    label = "C/H/Cs2S;C_rad/H2/Ct",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0164, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (11.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 787,
+    label = "C/H/Cs2S;C_rad/H/CtCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00684, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 788,
+    label = "C/H/Cs2S;C_rad/CtCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00485, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (14.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 789,
+    label = "C/H/Cs2S;C_rad/H/CtCt",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0348, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 790,
+    label = "C/H/Cs2S;C_rad/CtCtCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00171, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 791,
+    label = "C/H/Cs2S;C_rad/H2/Cb",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0353, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 792,
+    label = "C/H/Cs2S;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0181, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (14.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 793,
+    label = "C/H/Cs2S;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cb 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000864, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (14, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 794,
+    label = "C/H/Cs2S;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0162, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-1.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 795,
+    label = "C/H/Cs2S;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.016, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-0.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 796,
+    label = "C/H/Cs2S;Cd_rad/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00765, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 797,
+    label = "C/H/Cs2S;Cb_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0193, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-4.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 798,
+    label = "C/H/Cs2S;Cd_rad/Ct",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00164, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (3.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 799,
+    label = "C/H/Cs2S;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00555, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (8.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 800,
+    label = "C/H/Cs2S;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00992, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (8.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 801,
+    label = "C/H/Cs2S;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.004, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 802,
+    label = "C/H/Cs2S;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0332, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (0.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 803,
+    label = "C/H/Cs2S;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0548, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 804,
+    label = "C/H/Cs2S;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00692, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 805,
+    label = "C/H/Cs2S;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0326, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 806,
+    label = "C/H/Cs2S;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.133, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 807,
+    label = "Cd/H/CS;H_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (1.24, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (4.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 808,
+    label = "Cd/H/CS;C_methyl",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.036, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 809,
+    label = "Cd/H/CS;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00733, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (8.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 810,
+    label = "Cd/H/CS;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0194, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (9.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 811,
+    label = "Cd/H/CS;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0102, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (9.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 812,
+    label = "Cd/H/CS;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0756, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 813,
+    label = "Cd/H/CS;C_rad/H/CdCs",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0596, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 814,
+    label = "Cd/H/CS;C_rad/CdCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0163, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 815,
+    label = "Cd/H/CS;C_rad/H/CdCd",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.24, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (29.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 816,
+    label = "Cd/H/CS;C_rad/CdCdCs",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0213, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (30.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 817,
+    label = "Cd/H/CS;C_rad/H2/Ct",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0344, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (15.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 818,
+    label = "Cd/H/CS;C_rad/H/CtCs",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0143, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 819,
+    label = "Cd/H/CS;C_rad/CtCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0101, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 820,
+    label = "Cd/H/CS;C_rad/H/CtCt",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0728, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (23.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 821,
+    label = "Cd/H/CS;C_rad/CtCtCs",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00358, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (25, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 822,
+    label = "Cd/H/CS;C_rad/H2/Cb",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0738, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 823,
+    label = "Cd/H/CS;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0379, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 824,
+    label = "Cd/H/CS;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cb 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00181, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 825,
+    label = "Cd/H/CS;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0339, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (2.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 826,
+    label = "Cd/H/CS;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0335, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (3.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 827,
+    label = "Cd/H/CS;Cd_rad/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.016, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (9.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 828,
+    label = "Cd/H/CS;Cb_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0403, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-0.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 829,
+    label = "Cd/H/CS;Cd_rad/Ct",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00343, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 830,
+    label = "Cd/H/CS;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0116, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (12.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 831,
+    label = "Cd/H/CS;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0207, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (12.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 832,
+    label = "Cd/H/CS;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00837, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (11.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 833,
+    label = "Cd/H/CS;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0694, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (4.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 834,
+    label = "Cd/H/CS;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.115, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (23.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 835,
+    label = "Cd/H/CS;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0145, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (23.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 836,
+    label = "Cd/H/CS;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0681, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 837,
+    label = "Cd/H/CS;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cd 0 {1,S} {5,D}
+5    S  0 {4,D}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.279, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (22.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 838,
+    label = "C/H2/CdS;H_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (0.893, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (1.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 839,
+    label = "C/H2/CdS;C_methyl",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0258, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (3.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 840,
+    label = "C/H2/CdS;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00526, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (4.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 841,
+    label = "C/H2/CdS;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0139, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (5.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 842,
+    label = "C/H2/CdS;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0073, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (5.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 843,
+    label = "C/H2/CdS;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0543, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (16.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 844,
+    label = "C/H2/CdS;C_rad/H/CdCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0428, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 845,
+    label = "C/H2/CdS;C_rad/CdCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0117, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 846,
+    label = "C/H2/CdS;C_rad/H/CdCd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.172, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (26.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 847,
+    label = "C/H2/CdS;C_rad/CdCdCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0153, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (26.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 848,
+    label = "C/H2/CdS;C_rad/H2/Ct",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0247, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (12.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 849,
+    label = "C/H2/CdS;C_rad/H/CtCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0103, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (14, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 850,
+    label = "C/H2/CdS;C_rad/CtCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00728, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (14.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 851,
+    label = "C/H2/CdS;C_rad/H/CtCt",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0523, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 852,
+    label = "C/H2/CdS;C_rad/CtCtCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00257, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 853,
+    label = "C/H2/CdS;C_rad/H2/Cb",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0529, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (14.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 854,
+    label = "C/H2/CdS;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0272, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (14.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 855,
+    label = "C/H2/CdS;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cb 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0013, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (14.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 856,
+    label = "C/H2/CdS;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0243, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-1.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 857,
+    label = "C/H2/CdS;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.024, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-0.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 858,
+    label = "C/H2/CdS;Cd_rad/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0115, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 859,
+    label = "C/H2/CdS;Cb_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0289, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-3.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 860,
+    label = "C/H2/CdS;Cd_rad/Ct",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00246, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (3.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 861,
+    label = "C/H2/CdS;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00834, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (8.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 862,
+    label = "C/H2/CdS;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0149, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (8.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 863,
+    label = "C/H2/CdS;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.006, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (8.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 864,
+    label = "C/H2/CdS;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0498, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 865,
+    label = "C/H2/CdS;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0823, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 866,
+    label = "C/H2/CdS;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0104, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 867,
+    label = "C/H2/CdS;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0489, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 868,
+    label = "C/H2/CdS;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.2, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 869,
+    label = "C/H/CdCsS;H_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (0.481, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 870,
+    label = "C/H/CdCsS;C_methyl",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0139, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (2.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 871,
+    label = "C/H/CdCsS;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00283, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (3.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 872,
+    label = "C/H/CdCsS;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00749, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (4.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 873,
+    label = "C/H/CdCsS;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00393, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (4.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 874,
+    label = "C/H/CdCsS;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0292, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (14.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 875,
+    label = "C/H/CdCsS;C_rad/H/CdCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.023, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (16.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 876,
+    label = "C/H/CdCsS;C_rad/CdCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0063, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 877,
+    label = "C/H/CdCsS;C_rad/H/CdCd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0927, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (25, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 878,
+    label = "C/H/CdCsS;C_rad/CdCdCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00823, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (25.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 879,
+    label = "C/H/CdCsS;C_rad/H2/Ct",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0133, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (11.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 880,
+    label = "C/H/CdCsS;C_rad/H/CtCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00553, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (12.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 881,
+    label = "C/H/CdCsS;C_rad/CtCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00392, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 882,
+    label = "C/H/CdCsS;C_rad/H/CtCt",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0282, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 883,
+    label = "C/H/CdCsS;C_rad/CtCtCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00138, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 884,
+    label = "C/H/CdCsS;C_rad/H2/Cb",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0285, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (12.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 885,
+    label = "C/H/CdCsS;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0147, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 886,
+    label = "C/H/CdCsS;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cb 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000698, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 887,
+    label = "C/H/CdCsS;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0131, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-2.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 888,
+    label = "C/H/CdCsS;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.013, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-1.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 889,
+    label = "C/H/CdCsS;Cd_rad/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00618, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (5.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 890,
+    label = "C/H/CdCsS;Cb_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0156, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-5.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 891,
+    label = "C/H/CdCsS;Cd_rad/Ct",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00133, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (2.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 892,
+    label = "C/H/CdCsS;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00449, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 893,
+    label = "C/H/CdCsS;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00802, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 894,
+    label = "C/H/CdCsS;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00323, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (7.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 895,
+    label = "C/H/CdCsS;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0268, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-0.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 896,
+    label = "C/H/CdCsS;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0443, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 897,
+    label = "C/H/CdCsS;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0056, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 898,
+    label = "C/H/CdCsS;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0263, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 899,
+    label = "C/H/CdCsS;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.108, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 900,
+    label = "C/H2/CtS;H_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (0.732, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (0.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 901,
+    label = "C/H2/CtS;C_methyl",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0212, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 902,
+    label = "C/H2/CtS;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00431, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (4.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 903,
+    label = "C/H2/CtS;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0114, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (5.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 904,
+    label = "C/H2/CtS;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00598, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (5.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 905,
+    label = "C/H2/CtS;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0445, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (15.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 906,
+    label = "C/H2/CtS;C_rad/H/CdCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0351, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 907,
+    label = "C/H2/CtS;C_rad/CdCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00958, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 908,
+    label = "C/H2/CtS;C_rad/H/CdCd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.141, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (25.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 909,
+    label = "C/H2/CtS;C_rad/CdCdCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0125, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (26.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 910,
+    label = "C/H2/CtS;C_rad/H2/Ct",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0202, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (12, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 911,
+    label = "C/H2/CtS;C_rad/H/CtCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00841, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 912,
+    label = "C/H2/CtS;C_rad/CtCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00597, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (14.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 913,
+    label = "C/H2/CtS;C_rad/H/CtCt",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0428, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 914,
+    label = "C/H2/CtS;C_rad/CtCtCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00211, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 915,
+    label = "C/H2/CtS;C_rad/H2/Cb",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0434, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 916,
+    label = "C/H2/CtS;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0223, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (14.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 917,
+    label = "C/H2/CtS;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cb 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00106, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (14.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 918,
+    label = "C/H2/CtS;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0199, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-1.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 919,
+    label = "C/H2/CtS;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0197, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-0.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 920,
+    label = "C/H2/CtS;Cd_rad/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0094, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 921,
+    label = "C/H2/CtS;Cb_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0237, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-4.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 922,
+    label = "C/H2/CtS;Cd_rad/Ct",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00202, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (3.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 923,
+    label = "C/H2/CtS;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00683, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (8.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 924,
+    label = "C/H2/CtS;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0122, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (8.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 925,
+    label = "C/H2/CtS;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00492, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (8.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 926,
+    label = "C/H2/CtS;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0408, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (0.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 927,
+    label = "C/H2/CtS;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0674, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 928,
+    label = "C/H2/CtS;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00851, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 929,
+    label = "C/H2/CtS;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0401, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 930,
+    label = "C/H2/CtS;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+5    S  0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.164, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 931,
+    label = "C/H/CtCsS;H_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (0.739, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-0.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 932,
+    label = "C/H/CtCsS;C_methyl",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0214, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 933,
+    label = "C/H/CtCsS;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00435, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (2.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 934,
+    label = "C/H/CtCsS;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0115, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (3.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 935,
+    label = "C/H/CtCsS;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00604, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (3.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 936,
+    label = "C/H/CtCsS;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0449, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (14.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 937,
+    label = "C/H/CtCsS;C_rad/H/CdCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0354, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (16.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 938,
+    label = "C/H/CtCsS;C_rad/CdCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00967, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (16.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 939,
+    label = "C/H/CtCsS;C_rad/H/CdCd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.142, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (24.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 940,
+    label = "C/H/CtCsS;C_rad/CdCdCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0126, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (24.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 941,
+    label = "C/H/CtCsS;C_rad/H2/Ct",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0204, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (10.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 942,
+    label = "C/H/CtCsS;C_rad/H/CtCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00849, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (12.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 943,
+    label = "C/H/CtCsS;C_rad/CtCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00602, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (12.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 944,
+    label = "C/H/CtCsS;C_rad/H/CtCt",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0432, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 945,
+    label = "C/H/CtCsS;C_rad/CtCtCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00213, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 946,
+    label = "C/H/CtCsS;C_rad/H2/Cb",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0438, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (12.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 947,
+    label = "C/H/CtCsS;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0225, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (13, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 948,
+    label = "C/H/CtCsS;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cb 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00107, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (12.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 949,
+    label = "C/H/CtCsS;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0201, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-3.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 950,
+    label = "C/H/CtCsS;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0199, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-2.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 951,
+    label = "C/H/CtCsS;Cd_rad/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00949, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (4.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 952,
+    label = "C/H/CtCsS;Cb_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0239, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-5.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 953,
+    label = "C/H/CtCsS;Cd_rad/Ct",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00204, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (1.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 954,
+    label = "C/H/CtCsS;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00689, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 955,
+    label = "C/H/CtCsS;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0123, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 956,
+    label = "C/H/CtCsS;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00497, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 957,
+    label = "C/H/CtCsS;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0412, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-0.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 958,
+    label = "C/H/CtCsS;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.068, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 959,
+    label = "C/H/CtCsS;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00859, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 960,
+    label = "C/H/CtCsS;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0404, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (16.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 961,
+    label = "C/H/CtCsS;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.165, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 962,
+    label = "S_pri;H_rad",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (11600, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-0.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 963,
+    label = "S_pri;C_methyl",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (208, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (0.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 964,
+    label = "S_pri;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (32.2, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-0.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 965,
+    label = "S_pri;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (39.2, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 966,
+    label = "S_pri;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (87.4, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 967,
+    label = "S_pri;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (550, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 968,
+    label = "S_pri;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (291, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 969,
+    label = "S_pri;Cd_rad/Cd",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (195, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (2.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 970,
+    label = "S_pri;Cd_rad/Ct",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (30.8, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-0.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 971,
+    label = "S_pri;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (143, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 972,
+    label = "S_pri;C_rad/H/CdCs",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (114, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (6.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 973,
+    label = "S_pri;C_rad/CdCs2",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (21, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (5.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 974,
+    label = "S_pri;C_rad/H/CdCd",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (235, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (13, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 975,
+    label = "S_pri;C_rad/CdCdCs",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (12.5, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (13.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 976,
+    label = "S_pri;C_rad/H2/Ct",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (124, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (4.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 977,
+    label = "S_pri;C_rad/H/CtCs",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (39.3, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (4.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 978,
+    label = "S_pri;C_rad/CtCs2",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (13.7, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (3.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 979,
+    label = "S_pri;C_rad/H/CtCt",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (98.6, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (9.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 980,
+    label = "S_pri;C_rad/CtCtCs",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2.75, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (9.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 981,
+    label = "S_pri;Cb_rad",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (383, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-3.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 982,
+    label = "S_pri;C_rad/H2/Cb",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (89.1, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (3.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 983,
+    label = "S_pri;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (33.5, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (2.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 984,
+    label = "S_pri;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cb 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2.33, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (1.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 985,
+    label = "S_pri;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (28.3, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 986,
+    label = "S_pri;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (66.7, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-0.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 987,
+    label = "S_pri;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (16.3, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 988,
+    label = "S_pri;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (7760, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 989,
+    label = "S_pri;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (124, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 990,
+    label = "S_pri;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (22.6, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (7.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 991,
+    label = "S_pri;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (80.9, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (7.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 992,
+    label = "S_pri;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (381, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (7.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 993,
+    label = "S/H/NonDeC;H_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (32200, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-0.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 994,
+    label = "S/H/NonDeC;C_methyl",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (579, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (0.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 995,
+    label = "S/H/NonDeC;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (89.9, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-0.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 996,
+    label = "S/H/NonDeC;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (109, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 997,
+    label = "S/H/NonDeC;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (244, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-3.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 998,
+    label = "S/H/NonDeC;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1530, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 999,
+    label = "S/H/NonDeC;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (810, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1000,
+    label = "S/H/NonDeC;Cd_rad/Cd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (545, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (2.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 1001,
-    label = "C/H3/O;H_rad",
+    label = "S/H/NonDeC;Cd_rad/Ct",
     group1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     O 0 {1,S}
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 1
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Ct 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (451,"cm^3/(mol*s)"),
-        n = 3.2,
+        A = (86, 'cm^3/(mol*s)'),
+        n = 2.98,
         alpha = 0,
-        E0 = (3.49,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2000,"K"),
+        E0 = (-0.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 2,
-    shortDesc = u"""Jodkowski et al. [100] ab initio calculations. added by Greg Magoon 08/25/09""",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
 [100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
@@ -11880,7 +27137,7026 @@ divided original rate expression by 3 to get rate expression per H atom.
 Created by Greg Magoon; maximum error of fitted expression from tabular data for kr2 is 20% (cf. p. 3758); rank of 2 assigned based on rank for other values reported in the paper in the rateLibrary (also 2)
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1002,
+    label = "InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/beta;InChI=1/C3H7/c1-3-2/h3H,1-2H3",
+    group1 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2  *1 C 0 {1,S} {3,S} {5,S} {9,S}
+3     C 0 {2,S} {4,S} {10,S} {11,S}
+4     O 0 {3,S} {12,S}
+5     C 0 {2,S} {13,S} {14,S} {15,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9  *2 H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {5,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {4,S} {5,S} {6,S}
+2  *3 C 1 {1,S} {3,S} {7,S}
+3     C 0 {2,S} {8,S} {9,S} {10,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {3,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2.35e-06, 'cm^3/(mol*s)'),
+        n = 4.84,
+        alpha = 0,
+        E0 = (4.27, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
+
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/C3H7/c1-3-2/h3H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C3H8/c1-3-2/h3H2,1-2H3 (external symmetry number = 2, spin multiplicity = 1)
+
+Tsang [Tsang1990]_ recommends k(T) = 1.51e-03 * (T/K)^4.2 * exp(-5.96 kcal/mol /RT) cm3 mol-1 s-1
+for the reaction iso-C4H10 + iso-C3H7 = C3H8 + tert-C4H9.  The new rate coefficient expression is
+in good agreement with this expression (within a factor of 3.5 over the valid temperature range).
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1003,
+    label = "S/H/NonDeC;C_rad/H/CdCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (317, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (5.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1004,
+    label = "S/H/NonDeC;C_rad/CdCs2",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (58.6, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (5.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1005,
+    label = "S/H/NonDeC;C_rad/H/CdCd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (655, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (12.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1006,
+    label = "S/H/NonDeC;C_rad/CdCdCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (34.8, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (12.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1007,
+    label = "S/H/NonDeC;C_rad/H2/Ct",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (346, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (4.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1008,
+    label = "S/H/NonDeC;C_rad/H/CtCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (110, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (3.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1009,
+    label = "S/H/NonDeC;C_rad/CtCs2",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (38.1, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (3.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1010,
+    label = "S/H/NonDeC;C_rad/H/CtCt",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (275, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (9.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1011,
+    label = "S/H/NonDeC;C_rad/CtCtCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (7.66, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (9.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1012,
+    label = "S/H/NonDeC;Cb_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (1070, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-3.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1013,
+    label = "S/H/NonDeC;C_rad/H2/Cb",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (249, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (2.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1014,
+    label = "S/H/NonDeC;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (93.5, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (2.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1015,
+    label = "S/H/NonDeC;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cb 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (6.51, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (1.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1016,
+    label = "S/H/NonDeC;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (79, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (0.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1017,
+    label = "S/H/NonDeC;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (186, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-0.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1018,
+    label = "S/H/NonDeC;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (45.6, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1019,
+    label = "S/H/NonDeC;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (21600, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1020,
+    label = "S/H/NonDeC;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (344, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (7.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1021,
+    label = "S/H/NonDeC;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (63, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (7.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1022,
+    label = "S/H/NonDeC;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (226, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (6.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1023,
+    label = "S/H/NonDeC;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1060, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1024,
+    label = "S/H/Cd;H_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (44200, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1025,
+    label = "S/H/Cd;C_methyl",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (795, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-0.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1026,
+    label = "S/H/Cd;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (123, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1027,
+    label = "S/H/Cd;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (150, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1028,
+    label = "S/H/Cd;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (334, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-3.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1029,
+    label = "S/H/Cd;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2100, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1030,
+    label = "S/H/Cd;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1110, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-3.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1031,
+    label = "S/H/Cd;Cd_rad/Cd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (747, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1032,
+    label = "S/H/Cd;Cd_rad/Ct",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (118, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1033,
+    label = "S/H/Cd;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (549, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (5.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1034,
+    label = "S/H/Cd;C_rad/H/CdCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (435, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (5.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1035,
+    label = "S/H/Cd;C_rad/CdCs2",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (80.4, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (4.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1036,
+    label = "S/H/Cd;C_rad/H/CdCd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (898, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (12.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1037,
+    label = "S/H/Cd;C_rad/CdCdCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (47.7, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (12.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1038,
+    label = "S/H/Cd;C_rad/H2/Ct",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (475, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (3.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1039,
+    label = "S/H/Cd;C_rad/H/CtCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (150, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (3.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1040,
+    label = "S/H/Cd;C_rad/CtCs2",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (52.2, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (2.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1041,
+    label = "S/H/Cd;C_rad/H/CtCt",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (377, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (8.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1042,
+    label = "S/H/Cd;C_rad/CtCtCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (10.5, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (8.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1043,
+    label = "S/H/Cd;Cb_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (1460, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-4.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1044,
+    label = "S/H/Cd;C_rad/H2/Cb",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (341, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (2.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1045,
+    label = "S/H/Cd;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (128, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (1.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1046,
+    label = "S/H/Cd;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cb 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (8.93, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1047,
+    label = "S/H/Cd;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (108, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1048,
+    label = "S/H/Cd;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (255, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1049,
+    label = "S/H/Cd;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (62.5, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1050,
+    label = "S/H/Cd;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (29700, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1051,
+    label = "S/H/Cd;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (472, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (7.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1052,
+    label = "S/H/Cd;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (86.4, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (6.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1053,
+    label = "S/H/Cd;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (309, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (6.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1054,
+    label = "S/H/Cd;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1460, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (6.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1055,
+    label = "S/H/Ct;H_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (44800, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1056,
+    label = "S/H/Ct;C_methyl",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (806, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1057,
+    label = "S/H/Ct;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (125, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1058,
+    label = "S/H/Ct;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (152, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-3.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1059,
+    label = "S/H/Ct;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (339, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-5.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1060,
+    label = "S/H/Ct;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2130, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-4.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1061,
+    label = "S/H/Ct;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1130, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-5.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1062,
+    label = "S/H/Ct;Cd_rad/Cd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (758, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1063,
+    label = "S/H/Ct;Cd_rad/Ct",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (120, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1064,
+    label = "S/H/Ct;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (557, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (3.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1065,
+    label = "S/H/Ct;C_rad/H/CdCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (441, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (3.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1066,
+    label = "S/H/Ct;C_rad/CdCs2",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (81.5, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (3.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1067,
+    label = "S/H/Ct;C_rad/H/CdCd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (911, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (10.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1068,
+    label = "S/H/Ct;C_rad/CdCdCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (48.4, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (10.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1069,
+    label = "S/H/Ct;C_rad/H2/Ct",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (482, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1070,
+    label = "S/H/Ct;C_rad/H/CtCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (153, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (1.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1071,
+    label = "S/H/Ct;C_rad/CtCs2",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (53, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (1.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1072,
+    label = "S/H/Ct;C_rad/H/CtCt",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (382, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (7.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1073,
+    label = "S/H/Ct;C_rad/CtCtCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (10.7, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (7.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1074,
+    label = "S/H/Ct;Cb_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (1490, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-5.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1075,
+    label = "S/H/Ct;C_rad/H2/Cb",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (346, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (0.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1076,
+    label = "S/H/Ct;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (130, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (0.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1077,
+    label = "S/H/Ct;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cb 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (9.05, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-0.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1078,
+    label = "S/H/Ct;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (110, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1079,
+    label = "S/H/Ct;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (259, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1080,
+    label = "S/H/Ct;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (63.4, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-3.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1081,
+    label = "S/H/Ct;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (30100, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-3.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1082,
+    label = "S/H/Ct;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (479, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (5.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1083,
+    label = "S/H/Ct;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (87.6, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (5.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1084,
+    label = "S/H/Ct;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (314, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (4.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1085,
+    label = "S/H/Ct;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1480, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (4.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1086,
+    label = "S/H/Cb;H_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (3640, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1087,
+    label = "S/H/Cb;C_methyl",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (65.4, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-0.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1088,
+    label = "S/H/Cb;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (10.1, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1089,
+    label = "S/H/Cb;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (12.4, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1090,
+    label = "S/H/Cb;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (27.5, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-4.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1091,
+    label = "S/H/Cb;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (173, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-3.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1092,
+    label = "S/H/Cb;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (91.5, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-4.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1093,
+    label = "S/H/Cb;Cd_rad/Cd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (61.5, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1094,
+    label = "S/H/Cb;Cd_rad/Ct",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (9.71, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1095,
+    label = "S/H/Cb;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (45.2, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (4.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1096,
+    label = "S/H/Cb;C_rad/H/CdCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (35.8, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (4.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1097,
+    label = "S/H/Cb;C_rad/CdCs2",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (6.62, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (4.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1098,
+    label = "S/H/Cb;C_rad/H/CdCd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (74, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (11.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1099,
+    label = "S/H/Cb;C_rad/CdCdCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (3.93, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (11.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1100,
+    label = "S/H/Cb;C_rad/H2/Ct",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (39.1, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1101,
+    label = "S/H/Cb;C_rad/H/CtCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (12.4, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (2.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1102,
+    label = "S/H/Cb;C_rad/CtCs2",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4.3, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (2.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1103,
+    label = "S/H/Cb;C_rad/H/CtCt",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (31, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (8.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1104,
+    label = "S/H/Cb;C_rad/CtCtCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.865, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (8.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1105,
+    label = "S/H/Cb;Cb_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (121, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-4.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1106,
+    label = "S/H/Cb;C_rad/H2/Cb",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (28.1, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (1.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1107,
+    label = "S/H/Cb;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (10.6, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (1.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1108,
+    label = "S/H/Cb;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cb 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.735, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (0.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1109,
+    label = "S/H/Cb;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (8.92, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-0.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1110,
+    label = "S/H/Cb;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (21, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1111,
+    label = "S/H/Cb;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (5.15, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1112,
+    label = "S/H/Cb;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2440, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1113,
+    label = "S/H/Cb;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (38.9, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (6.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1114,
+    label = "S/H/Cb;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (7.11, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (6.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1115,
+    label = "S/H/Cb;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (25.5, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (5.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1116,
+    label = "S/H/Cb;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (120, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (5.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1117,
+    label = "S/H/NonDeS;H_rad",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (48300, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1118,
+    label = "S/H/NonDeS;C_methyl",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (869, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1119,
+    label = "S/H/NonDeS;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (135, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1120,
+    label = "S/H/NonDeS;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (164, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-3.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1121,
+    label = "S/H/NonDeS;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (365, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-5.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1122,
+    label = "S/H/NonDeS;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2300, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1123,
+    label = "S/H/NonDeS;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1210, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1124,
+    label = "S/H/NonDeS;Cd_rad/Cd",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (817, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (0.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1125,
+    label = "S/H/NonDeS;Cd_rad/Ct",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (129, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1126,
+    label = "S/H/NonDeS;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (600, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (3.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1127,
+    label = "S/H/NonDeS;C_rad/H/CdCs",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (475, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (3.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1128,
+    label = "S/H/NonDeS;C_rad/CdCs2",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (87.9, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (3.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1129,
+    label = "S/H/NonDeS;C_rad/H/CdCd",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (982, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (10.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1130,
+    label = "S/H/NonDeS;C_rad/CdCdCs",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    Cd 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (52.2, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (10.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1131,
+    label = "S/H/NonDeS;C_rad/H2/Ct",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (519, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (2.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1132,
+    label = "S/H/NonDeS;C_rad/H/CtCs",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (164, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (1.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1133,
+    label = "S/H/NonDeS;C_rad/CtCs2",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (57.1, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (1.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1134,
+    label = "S/H/NonDeS;C_rad/H/CtCt",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (412, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (7.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1135,
+    label = "S/H/NonDeS;C_rad/CtCtCs",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    Ct 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (11.5, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (7.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1136,
+    label = "S/H/NonDeS;Cb_rad",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (1600, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-5.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1137,
+    label = "S/H/NonDeS;C_rad/H2/Cb",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (373, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (0.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1138,
+    label = "S/H/NonDeS;C_rad/H/CbCs",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (140, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (0.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1139,
+    label = "S/H/NonDeS;C_rad/CbCs2",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cb 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (9.76, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-0.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1140,
+    label = "S/H/NonDeS;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (118, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-1.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1141,
+    label = "S/H/NonDeS;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (279, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-2.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1142,
+    label = "S/H/NonDeS;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (68.3, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-3.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1143,
+    label = "S/H/NonDeS;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (32400, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (-3.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1144,
+    label = "S/H/NonDeS;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (517, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (5.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1145,
+    label = "S/H/NonDeS;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (94.4, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (5.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1146,
+    label = "S/H/NonDeS;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (338, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (4.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1147,
+    label = "S/H/NonDeS;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1590, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1148,
+    label = "S_pri;S_pri_rad",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1530, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (2.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1149,
+    label = "S_pri;S_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (790, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (4.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1150,
+    label = "S_pri;S_rad/Cd",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (312, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (0.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1151,
+    label = "S_pri;S_rad/Ct",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (901, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (12.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1152,
+    label = "S_pri;S_rad/Cb",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (227, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (2.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1153,
+    label = "S_pri;S_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S 1 {2,S}
+2    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (164, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (3.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1154,
+    label = "S/H/NonDeC;S_pri_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1490, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-0.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1155,
+    label = "S/H/NonDeC;S_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (768, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (1.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1156,
+    label = "S/H/NonDeC;S_rad/Cd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (304, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-2.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1157,
+    label = "S/H/NonDeC;S_rad/Ct",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (876, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (9.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1158,
+    label = "S/H/NonDeC;S_rad/Cb",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (220, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-0.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1159,
+    label = "S/H/NonDeC;S_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S 1 {2,S}
+2    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (159, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (0.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1160,
+    label = "S/H/Cd;S_pri_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1560, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1161,
+    label = "S/H/Cd;S_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (801, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-0.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1162,
+    label = "S/H/Cd;S_rad/Cd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (317, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-4.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1163,
+    label = "S/H/Cd;S_rad/Ct",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (914, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (7.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1164,
+    label = "S/H/Cd;S_rad/Cb",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (230, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-2.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1165,
+    label = "S/H/Cd;S_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S 1 {2,S}
+2    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (166, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-1.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1166,
+    label = "S/H/Ct;S_pri_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (595, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-3.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1167,
+    label = "S/H/Ct;S_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (306, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-0.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1168,
+    label = "S/H/Ct;S_rad/Cd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (121, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1169,
+    label = "S/H/Ct;S_rad/Ct",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (349, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (7.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1170,
+    label = "S/H/Ct;S_rad/Cb",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (87.8, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-2.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1171,
+    label = "S/H/Ct;S_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S 1 {2,S}
+2    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (63.5, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-2.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1172,
+    label = "S/H/Cb;S_pri_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (428, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-2.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1173,
+    label = "S/H/Cb;S_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (220, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-0.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1174,
+    label = "S/H/Cb;S_rad/Cd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (87.2, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-4.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1175,
+    label = "S/H/Cb;S_rad/Ct",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (251, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (7.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1176,
+    label = "S/H/Cb;S_rad/Cb",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (63.2, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-2.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1177,
+    label = "S/H/Cb;S_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S 1 {2,S}
+2    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (45.7, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-1.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1178,
+    label = "S/H/NonDeS;S_pri_rad",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (309, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-1.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1179,
+    label = "S/H/NonDeS;S_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (159, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (0.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1180,
+    label = "S/H/NonDeS;S_rad/Cd",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (63, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-3.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1181,
+    label = "S/H/NonDeS;S_rad/Ct",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Ct 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (182, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (8.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1182,
+    label = "S/H/NonDeS;S_rad/Cb",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S  1 {2,S}
+2    Cb 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (45.7, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-1.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1183,
+    label = "S/H/NonDeS;S_rad/NonDeS",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    S 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S 1 {2,S}
+2    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (33, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (-0.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1184,
+    label = "S/H/NonDeC;CS_pri_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    S 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (395, 'cm^3/(mol*s)'),
+        n = 3.17,
+        alpha = 0,
+        E0 = (0.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1185,
+    label = "CS_pri;C_methyl",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    S 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (83200, 'cm^3/(mol*s)'),
+        n = 2.3,
+        alpha = 0,
+        E0 = (-0.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1192,
+    label = "S_pri;O_pri_rad",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (23300, 'cm^3/(mol*s)'),
+        n = 2.61,
+        alpha = 0,
+        E0 = (11.35, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1193,
+    label = "S/H/NonDeC;O_pri_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (3490, 'cm^3/(mol*s)'),
+        n = 3.13,
+        alpha = 0,
+        E0 = (-1.73, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1194,
+    label = "S/H/NonDeC;O_rad/NonDeC",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O  1 {2,S}
+2    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (28400, 'cm^3/(mol*s)'),
+        n = 2.79,
+        alpha = 0,
+        E0 = (2.64, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1195,
+    label = "S_pri;O_rad/OneDe",
+    group1 = 
+"""
+1 *1 S 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O                1 {2,S}
+2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (641, 'cm^3/(mol*s)'),
+        n = 2.6,
+        alpha = 0,
+        E0 = (-8.23, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""CAC calculation CBS-QB3 *HO approx*""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1196,
+    label = "C/H2/CsS;CO_rad/NonDe",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C        1 {2,D} {3,S}
+2    O        0 {1,D}
+3    {Cs,O,S} 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (14.1, 'cm^3/(mol*s)'),
+        n = 3.53,
+        alpha = 0,
+        E0 = (13.23, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1197,
+    label = "C/H/CsOS;Cs_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    O  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    R 0 {1,S}
+3    R 0 {1,S}
+4    R 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00668, 'cm^3/(mol*s)'),
+        n = 4.12,
+        alpha = 0,
+        E0 = (2.94, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1198,
+    label = "S/H/CO;Cs_rad",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    CO 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    R 0 {1,S}
+3    R 0 {1,S}
+4    R 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (58300, 'cm^3/(mol*s)'),
+        n = 1.97,
+        alpha = 0,
+        E0 = (-0.83, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1199,
+    label = "C/H/CsOS;S_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    O  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 S 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2890, 'cm^3/(mol*s)'),
+        n = 2.95,
+        alpha = 0,
+        E0 = (0.04, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""CAC calculation CBS-QB3 1dhr (py)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

@@ -19,12 +19,12 @@ entry(
     group1 = "OR{CO2_Od, CO2_Cdd}",
     group2 = "OR{R_H, R_R'}",
     kinetics = ArrheniusEP(
-        A = (100000,"cm^3/(mol*s)"),
+        A = (100000, 'cm^3/(mol*s)'),
         n = 2,
         alpha = 0,
-        E0 = (75,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (75, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -35,7 +35,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -44,22 +44,22 @@ entry(
     label = "CO2_Cdd;H2",
     group1 = 
 """
-1  *1 Cdd 0 {2,D} {3,D}
-2  *2 Od 0 {1,D}
-3     Od 0 {1,D}
+1 *1 Cdd 0 {2,D} {3,D}
+2 *2 Od  0 {1,D}
+3    Od  0 {1,D}
 """,
     group2 = 
 """
-1  *3 H 0 {2,S}
-2  *4 H 0 {1,S}
+1 *3 H 0 {2,S}
+2 *4 H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.51e+09,"cm^3/(mol*s)"),
+        A = (1510000000.0, 'cm^3/(mol*s)'),
         n = 1.23,
         alpha = 0,
-        E0 = (73.9,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (73.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -70,7 +70,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -79,25 +79,25 @@ entry(
     label = "CO2_Cdd;C_methane",
     group1 = 
 """
-1  *1 Cdd 0 {2,D} {3,D}
-2  *2 Od 0 {1,D}
-3     Od 0 {1,D}
+1 *1 Cdd 0 {2,D} {3,D}
+2 *2 Od  0 {1,D}
+3    Od  0 {1,D}
 """,
     group2 = 
 """
-1  *3 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2  *4 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *3 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *4 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (4530,"cm^3/(mol*s)"),
+        A = (4530, 'cm^3/(mol*s)'),
         n = 2.83,
         alpha = 0,
-        E0 = (79.2,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (79.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -108,7 +108,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -117,25 +117,25 @@ entry(
     label = "CO2_Cdd;C_pri/NonDeC",
     group1 = 
 """
-1  *1 Cdd 0 {2,D} {3,D}
-2  *2 Od 0 {1,D}
-3     Od 0 {1,D}
+1 *1 Cdd 0 {2,D} {3,D}
+2 *2 Od  0 {1,D}
+3    Od  0 {1,D}
 """,
     group2 = 
 """
-1  *3 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2  *4 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *3 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *4 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (10900,"cm^3/(mol*s)"),
+        A = (10900, 'cm^3/(mol*s)'),
         n = 2.56,
         alpha = 0,
-        E0 = (76.6,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (76.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -146,7 +146,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -155,25 +155,25 @@ entry(
     label = "CO2_Cdd;C/H2/NonDeC",
     group1 = 
 """
-1  *1 Cdd 0 {2,D} {3,D}
-2  *2 Od 0 {1,D}
-3     Od 0 {1,D}
+1 *1 Cdd 0 {2,D} {3,D}
+2 *2 Od  0 {1,D}
+3    Od  0 {1,D}
 """,
     group2 = 
 """
-1  *3 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2  *4 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *3 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *4 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (106000,"cm^3/(mol*s)"),
+        A = (106000, 'cm^3/(mol*s)'),
         n = 2.13,
         alpha = 0,
-        E0 = (77,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (77, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -184,7 +184,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

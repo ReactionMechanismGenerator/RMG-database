@@ -13,19 +13,19 @@ entry(
     label = "Y_rad;Oa",
     group1 = 
 """
-1  *1 R 1
+1 *1 R 1
 """,
     group2 = 
 """
-1  *2 O 2T
+1 *2 O 2T
 """,
     kinetics = ArrheniusEP(
-        A = (1e+13,"cm^3/(mol*s)"),
+        A = (10000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -36,7 +36,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

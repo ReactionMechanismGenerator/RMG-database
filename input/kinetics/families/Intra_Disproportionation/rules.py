@@ -13,28 +13,28 @@ entry(
     label = "Y_biCyc3;Y_rad;XH_Rrad",
     group1 = 
 """
-1  *1 R!H 1 {2,{S,D,B}}
-2  *2 R!H 0 {1,{S,D,B}} {3,{S,D}} {4,S}
-3  *3 R!H 1 {2,{S,D}}
-4  *4 H 0 {2,S}
+1 *1 R!H 1 {2,{S,D,B}}
+2 *2 R!H 0 {1,{S,D,B}} {3,{S,D}} {4,S}
+3 *3 R!H 1 {2,{S,D}}
+4 *4 H   0 {2,S}
 """,
     group2 = 
 """
-1  *1 R!H 1
+1 *1 R!H 1
 """,
     group3 = 
 """
-1  *2 R!H 0 {2,{S,D}} {3,S}
-2  *3 R!H 1 {1,{S,D}}
-3  *4 H 0 {1,S}
+1 *2 R!H 0 {2,{S,D}} {3,S}
+2 *3 R!H 1 {1,{S,D}}
+3 *4 H   0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.66e+10,"s^-1"),
+        A = (56600000000.0, 's^-1'),
         n = 1,
         alpha = 0,
-        E0 = (9.5,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (9.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -45,7 +45,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -54,29 +54,29 @@ entry(
     label = "Y_biCyc4;Y_rad;XH_Rrad",
     group1 = 
 """
-1  *1 R!H 1 {5,{S,D,B,T}}
-2  *2 R!H 0 {3,{S,D}} {4,S} {5,{S,D,B}}
-3  *3 R!H 1 {2,{S,D}}
-4  *4 H 0 {2,S}
-5     R!H 0 {1,{S,D,B,T}} {2,{S,D,B}}
+1 *1 R!H 1 {5,{S,D,B,T}}
+2 *2 R!H 0 {3,{S,D}} {4,S} {5,{S,D,B}}
+3 *3 R!H 1 {2,{S,D}}
+4 *4 H   0 {2,S}
+5    R!H 0 {1,{S,D,B,T}} {2,{S,D,B}}
 """,
     group2 = 
 """
-1  *1 R!H 1
+1 *1 R!H 1
 """,
     group3 = 
 """
-1  *2 R!H 0 {2,{S,D}} {3,S}
-2  *3 R!H 1 {1,{S,D}}
-3  *4 H 0 {1,S}
+1 *2 R!H 0 {2,{S,D}} {3,S}
+2 *3 R!H 1 {1,{S,D}}
+3 *4 H   0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.66e+10,"s^-1"),
+        A = (56600000000.0, 's^-1'),
         n = 1,
         alpha = 0,
-        E0 = (16.3,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (16.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -87,7 +87,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -97,21 +97,21 @@ entry(
     group1 = "OR{Y_biCyc5radEndo, Y_biCyc5radExo}",
     group2 = 
 """
-1  *1 R!H 1
+1 *1 R!H 1
 """,
     group3 = 
 """
-1  *2 R!H 0 {2,{S,D}} {3,S}
-2  *3 R!H 1 {1,{S,D}}
-3  *4 H 0 {1,S}
+1 *2 R!H 0 {2,{S,D}} {3,S}
+2 *3 R!H 1 {1,{S,D}}
+3 *4 H   0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.66e+10,"s^-1"),
+        A = (56600000000.0, 's^-1'),
         n = 1,
         alpha = 0,
-        E0 = (7.75,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (7.75, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -122,7 +122,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -132,21 +132,21 @@ entry(
     group1 = "OR{Y_biCyc6radEndo, Y_biCyc6radExo}",
     group2 = 
 """
-1  *1 R!H 1
+1 *1 R!H 1
 """,
     group3 = 
 """
-1  *2 R!H 0 {2,{S,D}} {3,S}
-2  *3 R!H 1 {1,{S,D}}
-3  *4 H 0 {1,S}
+1 *2 R!H 0 {2,{S,D}} {3,S}
+2 *3 R!H 1 {1,{S,D}}
+3 *4 H   0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.66e+10,"s^-1"),
+        A = (56600000000.0, 's^-1'),
         n = 1,
         alpha = 0,
-        E0 = (3.85,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (3.85, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -157,7 +157,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -167,21 +167,21 @@ entry(
     group1 = "OR{Y_biCyc7radEndo, Y_biCyc7radExo}",
     group2 = 
 """
-1  *1 R!H 1
+1 *1 R!H 1
 """,
     group3 = 
 """
-1  *2 R!H 0 {2,{S,D}} {3,S}
-2  *3 R!H 1 {1,{S,D}}
-3  *4 H 0 {1,S}
+1 *2 R!H 0 {2,{S,D}} {3,S}
+2 *3 R!H 1 {1,{S,D}}
+3 *4 H   0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (5.66e+10,"s^-1"),
+        A = (56600000000.0, 's^-1'),
         n = 1,
         alpha = 0,
-        E0 = (7.75,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
+        E0 = (7.75, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
     ),
     reference = None,
     referenceType = "",
@@ -192,7 +192,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
