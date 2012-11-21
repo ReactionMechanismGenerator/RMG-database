@@ -3113,6 +3113,8 @@ entry(
         n = 2.89,
         Ea = (-2291,"cal/mol"),
         T0 = (1,"K"),
+        Tmin = (700,"K"),
+        Tmax = (2000,"K"),
     ),
     reference = None,
     referenceType = "",
@@ -3125,6 +3127,7 @@ Rate comes from quantum calculation by J. Zador at CCSD(T) level
     history = [
         ("Wed Sep 12 14:33:46 2012","Shamel Merchant <shamel@mit.edu>","action","""New entry. CCCCO + OH = CCC[CH]O + H2O"""),
         ("Wed Sep 12 14:35:29 2012","Shamel Merchant <shamel@mit.edu>","action","""Changed degeneracy to 2"""),
+        ("Wed Nov  7 17:13:14 2012","Connie Gao <connieg@mit.edu>","action","""Updated temperature range."""),
     ],
 )
 
