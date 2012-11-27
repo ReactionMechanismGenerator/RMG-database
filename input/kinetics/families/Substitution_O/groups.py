@@ -5591,7 +5591,7 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-1 *3 {Cs,Cd,O} 2
+1 *3 {Cs,Cd,CO,O} 2T
 """,
     kinetics = None,
     reference = None,
