@@ -41,7 +41,7 @@ entry(
     group = 
 """
 1 *2 {Cd,Cdd,Ct,CO} 0 {2,{D,T}}
-2 *3 {Cd,Ct,Od,Sd} 0 {1,{D,T}}
+2 *3 {Cd,Ct,Od,Sd,Cdd} 0 {1,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -603,7 +603,7 @@ entry(
 2 *4 R!H           0 {1,S} {3,S}
 3 *5 R!H           0 {2,S} {4,S}
 4 *2 {Cd,Ct,CO}    0 {3,S} {5,{D,T}}
-5 *3 {Cd,Ct,Od,Sd} 0 {4,{D,T}}
+5 *3 {Cd,Ct,Od,Sd,Cdd} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -623,11 +623,11 @@ entry(
     label = "R5_SS_D",
     group = 
 """
-1 *1 R!H 1 {2,S}
-2 *4 R!H 0 {1,S} {3,S}
-3 *5 R!H 0 {2,S} {4,S}
-4 *2 Cd  0 {3,S} {5,D}
-5 *3 Cd  0 {4,D}
+1 *1 R!H       1 {2,S}
+2 *4 R!H       0 {1,S} {3,S}
+3 *5 R!H       0 {2,S} {4,S}
+4 *2 Cd        0 {3,S} {5,D}
+5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
     reference = None,
