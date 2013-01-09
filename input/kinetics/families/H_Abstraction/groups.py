@@ -29,7 +29,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -46,7 +46,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -67,7 +67,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -88,7 +88,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -110,7 +110,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -132,7 +132,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -154,7 +154,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -176,7 +176,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -198,7 +198,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -220,7 +220,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -243,7 +243,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -269,7 +269,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -295,7 +295,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -321,7 +321,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -343,7 +343,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -365,7 +365,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -387,7 +387,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -409,7 +409,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -431,7 +431,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -453,7 +453,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -475,7 +475,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -497,7 +497,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -519,7 +519,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -542,7 +542,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -564,7 +564,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -586,7 +586,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -608,7 +608,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -631,7 +631,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -654,7 +654,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -677,7 +677,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -700,7 +700,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -723,7 +723,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -746,7 +746,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -769,7 +769,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -792,7 +792,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -816,7 +816,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -839,7 +839,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -862,7 +862,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -885,7 +885,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -908,7 +908,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -931,7 +931,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -954,7 +954,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -977,7 +977,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1000,7 +1000,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1032,7 +1032,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1055,7 +1055,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1078,7 +1078,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1101,7 +1101,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1124,7 +1124,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1147,7 +1147,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1170,7 +1170,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1193,7 +1193,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1216,7 +1216,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1239,7 +1239,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1263,7 +1263,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1286,7 +1286,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1309,7 +1309,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1332,7 +1332,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1356,7 +1356,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1380,7 +1380,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1404,7 +1404,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1428,7 +1428,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1455,7 +1455,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1489,7 +1489,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1513,7 +1513,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1538,7 +1538,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1566,7 +1566,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1597,7 +1597,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1628,7 +1628,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1652,7 +1652,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1676,7 +1676,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1700,7 +1700,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1724,7 +1724,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1748,7 +1748,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1772,7 +1772,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1796,7 +1796,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1826,7 +1826,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1850,7 +1850,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1874,7 +1874,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1908,7 +1908,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1932,12 +1932,60 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
     index = 82,
+    label = "C/H2/NonDeS",
+    group = 
+"""
+1 *1 C        0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H        0 {1,S}
+3    H        0 {1,S}
+4    S        0 {1,S}
+5    {Cs,O,S} 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 83,
+    label = "C/H2/CsS",
+    group = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    S  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 84,
     label = "C/H2/OneDe",
     group = 
 """
@@ -1956,12 +2004,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 83,
+    index = 85,
     label = "C/H2/OneDeC",
     group = 
 """
@@ -1980,12 +2028,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 84,
+    index = 86,
     label = "C/H2/CdCs",
     group = 
 """
@@ -2004,12 +2052,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 85,
+    index = 87,
     label = "C/H2/CSCs",
     group = 
 """
@@ -2029,12 +2077,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 86,
+    index = 88,
     label = "C/H2/CtCs",
     group = 
 """
@@ -2053,12 +2101,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 87,
+    index = 89,
     label = "C/H2/CbCs",
     group = 
 """
@@ -2077,12 +2125,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 88,
+    index = 90,
     label = "C/H2/COCs",
     group = 
 """
@@ -2101,12 +2149,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 89,
+    index = 91,
     label = "InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3/beta",
     group = 
 """
@@ -2130,12 +2178,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 90,
+    index = 92,
     label = "InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3",
     group = 
 """
@@ -2161,12 +2209,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 91,
+    index = 93,
     label = "C/H2/OneDeO",
     group = 
 """
@@ -2185,12 +2233,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 92,
+    index = 94,
     label = "C/H2/OneDeS",
     group = 
 """
@@ -2209,12 +2257,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 93,
+    index = 95,
     label = "C/H2/CdS",
     group = 
 """
@@ -2233,12 +2281,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 94,
+    index = 96,
     label = "C/H2/CtS",
     group = 
 """
@@ -2257,12 +2305,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 95,
+    index = 97,
     label = "C/H2/TwoDe",
     group = 
 """
@@ -2281,12 +2329,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 96,
+    index = 98,
     label = "C/H2/CdCd",
     group = 
 """
@@ -2305,12 +2353,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 97,
+    index = 99,
     label = "C/H2/CdCS",
     group = 
 """
@@ -2330,12 +2378,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 98,
+    index = 100,
     label = "C/H2/CSCS",
     group = 
 """
@@ -2356,12 +2404,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 99,
+    index = 101,
     label = "C/H2/CdCt",
     group = 
 """
@@ -2380,12 +2428,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 100,
+    index = 102,
     label = "C/H2/CtCS",
     group = 
 """
@@ -2405,12 +2453,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 101,
+    index = 103,
     label = "C/H2/CdCb",
     group = 
 """
@@ -2429,12 +2477,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 102,
+    index = 104,
     label = "C/H2/CbCS",
     group = 
 """
@@ -2454,12 +2502,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 103,
+    index = 105,
     label = "C/H2/CdCO",
     group = 
 """
@@ -2478,12 +2526,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 104,
+    index = 106,
     label = "C/H2/COCS",
     group = 
 """
@@ -2503,12 +2551,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 105,
+    index = 107,
     label = "C/H2/CtCt",
     group = 
 """
@@ -2527,12 +2575,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 106,
+    index = 108,
     label = "C/H2/CtCb",
     group = 
 """
@@ -2551,12 +2599,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 107,
+    index = 109,
     label = "C/H2/CtCO",
     group = 
 """
@@ -2575,12 +2623,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 108,
+    index = 110,
     label = "C/H2/CbCb",
     group = 
 """
@@ -2599,12 +2647,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 109,
+    index = 111,
     label = "C/H2/CbCO",
     group = 
 """
@@ -2623,12 +2671,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 110,
+    index = 112,
     label = "C/H2/COCO",
     group = 
 """
@@ -2647,12 +2695,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 111,
+    index = 113,
     label = "C/H2/Cb",
     group = 
 """
@@ -2671,12 +2719,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 112,
+    index = 114,
     label = "C_ter",
     group = 
 """
@@ -2695,12 +2743,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 113,
+    index = 115,
     label = "C/H/NonDeC",
     group = 
 """
@@ -2719,12 +2767,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 114,
+    index = 116,
     label = "C/H/Cs3",
     group = 
 """
@@ -2743,12 +2791,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 115,
+    index = 117,
     label = "InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/beta",
     group = 
 """
@@ -2777,12 +2825,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 116,
+    index = 118,
     label = "C/H/NDMustO",
     group = 
 """
@@ -2801,12 +2849,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 117,
+    index = 119,
     label = "C/H/Cs2O",
     group = 
 """
@@ -2825,12 +2873,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 118,
+    index = 120,
     label = "C/H/CsO2",
     group = 
 """
@@ -2849,12 +2897,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 119,
+    index = 121,
     label = "C/H/O3",
     group = 
 """
@@ -2873,12 +2921,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 120,
+    index = 122,
     label = "C/H/NDMustS",
     group = 
 """
@@ -2897,12 +2945,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 121,
+    index = 123,
     label = "C/H/Cs2S",
     group = 
 """
@@ -2921,12 +2969,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 122,
+    index = 124,
     label = "C/H/CsS2",
     group = 
 """
@@ -2945,12 +2993,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 123,
+    index = 125,
     label = "C/H/S3",
     group = 
 """
@@ -2969,12 +3017,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 124,
+    index = 126,
     label = "C/H/NDMustOS",
     group = 
 """
@@ -2993,12 +3041,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 125,
+    index = 127,
     label = "C/H/CsOS",
     group = 
 """
@@ -3017,12 +3065,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 126,
+    index = 128,
     label = "C/H/OneDe",
     group = 
 """
@@ -3041,12 +3089,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 127,
+    index = 129,
     label = "C/H/Cs2",
     group = 
 """
@@ -3065,12 +3113,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 128,
+    index = 130,
     label = "C/H/Cs2Cd",
     group = 
 """
@@ -3089,12 +3137,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 129,
+    index = 131,
     label = "C/H/Cs2CS",
     group = 
 """
@@ -3114,12 +3162,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 130,
+    index = 132,
     label = "C/H/Cs2Ct",
     group = 
 """
@@ -3138,12 +3186,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 131,
+    index = 133,
     label = "C/H/Cs2Cb",
     group = 
 """
@@ -3162,12 +3210,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 132,
+    index = 134,
     label = "C/H/Cs2CO",
     group = 
 """
@@ -3186,12 +3234,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 133,
+    index = 135,
     label = "InChI=1/C4H8O/c1-4(2)3-5/h3-4H,1-2H3",
     group = 
 """
@@ -3218,12 +3266,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 134,
+    index = 136,
     label = "C/H/CsO",
     group = 
 """
@@ -3242,12 +3290,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 135,
+    index = 137,
     label = "C/H/CsS",
     group = 
 """
@@ -3266,12 +3314,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 136,
+    index = 138,
     label = "C/H/CdCsS",
     group = 
 """
@@ -3290,12 +3338,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 137,
+    index = 139,
     label = "C/H/CtCsS",
     group = 
 """
@@ -3314,12 +3362,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 138,
+    index = 140,
     label = "C/H/OO",
     group = 
 """
@@ -3338,12 +3386,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 139,
+    index = 141,
     label = "C/H/OS",
     group = 
 """
@@ -3362,12 +3410,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 140,
+    index = 142,
     label = "C/H/SS",
     group = 
 """
@@ -3386,12 +3434,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 141,
+    index = 143,
     label = "C/H/TwoDe",
     group = 
 """
@@ -3410,12 +3458,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 142,
+    index = 144,
     label = "C/H/Cs",
     group = 
 """
@@ -3434,12 +3482,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 143,
+    index = 145,
     label = "C/H/CdCd",
     group = 
 """
@@ -3458,12 +3506,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 144,
+    index = 146,
     label = "C/H/CdCS",
     group = 
 """
@@ -3483,12 +3531,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 145,
+    index = 147,
     label = "C/H/CSCS",
     group = 
 """
@@ -3509,12 +3557,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 146,
+    index = 148,
     label = "C/H/CdCt",
     group = 
 """
@@ -3533,12 +3581,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 147,
+    index = 149,
     label = "C/H/CtCS",
     group = 
 """
@@ -3558,12 +3606,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 148,
+    index = 150,
     label = "C/H/CdCb",
     group = 
 """
@@ -3582,12 +3630,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 149,
+    index = 151,
     label = "C/H/CbCS",
     group = 
 """
@@ -3607,12 +3655,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 150,
+    index = 152,
     label = "C/H/CdCO",
     group = 
 """
@@ -3631,12 +3679,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 151,
+    index = 153,
     label = "C/H/COCS",
     group = 
 """
@@ -3656,12 +3704,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 152,
+    index = 154,
     label = "C/H/CtCt",
     group = 
 """
@@ -3680,12 +3728,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 153,
+    index = 155,
     label = "C/H/CtCb",
     group = 
 """
@@ -3704,12 +3752,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 154,
+    index = 156,
     label = "C/H/CtCO",
     group = 
 """
@@ -3728,12 +3776,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 155,
+    index = 157,
     label = "C/H/CbCb",
     group = 
 """
@@ -3752,12 +3800,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 156,
+    index = 158,
     label = "C/H/CbCO",
     group = 
 """
@@ -3776,12 +3824,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 157,
+    index = 159,
     label = "C/H/COCO",
     group = 
 """
@@ -3800,12 +3848,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 158,
+    index = 160,
     label = "C/H/TDMustO",
     group = 
 """
@@ -3824,12 +3872,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 159,
+    index = 161,
     label = "C/H/TDMustS",
     group = 
 """
@@ -3848,12 +3896,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 160,
+    index = 162,
     label = "C/H/ThreeDe",
     group = 
 """
@@ -3872,12 +3920,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 161,
+    index = 163,
     label = "C/H/Cb",
     group = 
 """
@@ -3896,12 +3944,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 162,
+    index = 164,
     label = "Xrad_H",
     group = 
 """
@@ -3917,12 +3965,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 163,
+    index = 165,
     label = "Srad_H",
     group = 
 """
@@ -3938,12 +3986,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 164,
+    index = 166,
     label = "Y_1centerbirad",
     group = 
 """
@@ -3958,12 +4006,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 165,
+    index = 167,
     label = "O_atom_triplet",
     group = 
 """
@@ -3978,12 +4026,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 166,
+    index = 168,
     label = "CH2_triplet",
     group = 
 """
@@ -4000,12 +4048,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 167,
+    index = 169,
     label = "Y_rad",
     group = 
 """
@@ -4020,12 +4068,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 168,
+    index = 170,
     label = "H_rad",
     group = 
 """
@@ -4040,12 +4088,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 169,
+    index = 171,
     label = "Y_2centeradjbirad",
     group = 
 """
@@ -4061,12 +4109,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 170,
+    index = 172,
     label = "O2b",
     group = 
 """
@@ -4082,12 +4130,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 171,
+    index = 173,
     label = "C2b",
     group = 
 """
@@ -4103,12 +4151,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 172,
+    index = 174,
     label = "Ct_rad",
     group = 
 """
@@ -4124,12 +4172,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 173,
+    index = 175,
     label = "O_rad",
     group = 
 """
@@ -4145,12 +4193,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 174,
+    index = 176,
     label = "O_pri_rad",
     group = 
 """
@@ -4166,12 +4214,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 175,
+    index = 177,
     label = "O_sec_rad",
     group = 
 """
@@ -4187,12 +4235,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 176,
+    index = 178,
     label = "O_rad/NonDeC",
     group = 
 """
@@ -4208,12 +4256,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 177,
+    index = 179,
     label = "InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3",
     group = 
 """
@@ -4241,12 +4289,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 178,
+    index = 180,
     label = "O_rad/NonDeO",
     group = 
 """
@@ -4262,12 +4310,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 179,
+    index = 181,
     label = "OOCH3",
     group = 
 """
@@ -4284,12 +4332,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 180,
+    index = 182,
     label = "O_rad/OneDe",
     group = 
 """
@@ -4305,12 +4353,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 181,
+    index = 183,
     label = "InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3",
     group = 
 """
@@ -4329,12 +4377,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 182,
+    index = 184,
     label = "InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/o",
     group = 
 """
@@ -4357,12 +4405,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 183,
+    index = 185,
     label = "S_rad",
     group = 
 """
@@ -4378,12 +4426,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 184,
+    index = 186,
     label = "S_pri_rad",
     group = 
 """
@@ -4399,12 +4447,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 185,
+    index = 187,
     label = "S_sec_rad",
     group = 
 """
@@ -4420,12 +4468,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 186,
+    index = 188,
     label = "S_rad/NonDeC",
     group = 
 """
@@ -4441,12 +4489,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 187,
+    index = 189,
     label = "S_rad/NonDeS",
     group = 
 """
@@ -4462,12 +4510,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 188,
+    index = 190,
     label = "S_rad/OneDe",
     group = 
 """
@@ -4483,12 +4531,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 189,
+    index = 191,
     label = "S_rad/Cd",
     group = 
 """
@@ -4504,12 +4552,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 190,
+    index = 192,
     label = "S_rad/CS",
     group = 
 """
@@ -4526,12 +4574,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 191,
+    index = 193,
     label = "S_rad/Ct",
     group = 
 """
@@ -4547,12 +4595,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 192,
+    index = 194,
     label = "S_rad/Cb",
     group = 
 """
@@ -4568,12 +4616,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 193,
+    index = 195,
     label = "S_rad/CO",
     group = 
 """
@@ -4589,12 +4637,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 194,
+    index = 196,
     label = "Cd_rad",
     group = 
 """
@@ -4611,12 +4659,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 195,
+    index = 197,
     label = "Cd_pri_rad",
     group = 
 """
@@ -4633,12 +4681,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 196,
+    index = 198,
     label = "InChI=1/C2H3/c1-2/h1H,2H2",
     group = 
 """
@@ -4657,12 +4705,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 197,
+    index = 199,
     label = "InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3",
     group = 
 """
@@ -4687,12 +4735,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 198,
+    index = 200,
     label = "Cd_sec_rad",
     group = 
 """
@@ -4709,12 +4757,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 199,
+    index = 201,
     label = "Cd_rad/NonDeC",
     group = 
 """
@@ -4731,12 +4779,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 200,
+    index = 202,
     label = "InChI=1/C3H5/c1-3-2/h1H2,2H3",
     group = 
 """
@@ -4758,12 +4806,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 201,
+    index = 203,
     label = "InChI=1/C4H7/c1-3-4-2/h3H,1-2H3",
     group = 
 """
@@ -4788,12 +4836,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 202,
+    index = 204,
     label = "Cd_rad/NonDeO",
     group = 
 """
@@ -4810,12 +4858,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 203,
+    index = 205,
     label = "Cd_rad/NonDeS",
     group = 
 """
@@ -4832,12 +4880,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 204,
+    index = 206,
     label = "Cd_rad/OneDe",
     group = 
 """
@@ -4854,12 +4902,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 205,
+    index = 207,
     label = "Cd_rad/Cd",
     group = 
 """
@@ -4876,12 +4924,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 206,
+    index = 208,
     label = "Cd_rad/CS",
     group = 
 """
@@ -4899,12 +4947,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 207,
+    index = 209,
     label = "Cd_rad/Ct",
     group = 
 """
@@ -4921,12 +4969,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 208,
+    index = 210,
     label = "Cd_rad/Cb",
     group = 
 """
@@ -4943,12 +4991,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 209,
+    index = 211,
     label = "Cd_rad/CO",
     group = 
 """
@@ -4965,12 +5013,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 210,
+    index = 212,
     label = "Cb_rad",
     group = 
 """
@@ -4987,12 +5035,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 211,
+    index = 213,
     label = "CO_rad",
     group = 
 """
@@ -5009,12 +5057,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 212,
+    index = 214,
     label = "CO_pri_rad",
     group = 
 """
@@ -5031,12 +5079,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 213,
+    index = 215,
     label = "CO_sec_rad",
     group = 
 """
@@ -5053,12 +5101,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 214,
+    index = 216,
     label = "CO_rad/NonDe",
     group = 
 """
@@ -5075,12 +5123,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 215,
+    index = 217,
     label = "CO_rad/OneDe",
     group = 
 """
@@ -5097,12 +5145,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 216,
+    index = 218,
     label = "CS_rad",
     group = 
 """
@@ -5119,12 +5167,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 217,
+    index = 219,
     label = "CS_pri_rad",
     group = 
 """
@@ -5141,12 +5189,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 218,
+    index = 220,
     label = "CS_sec_rad",
     group = 
 """
@@ -5163,12 +5211,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 219,
+    index = 221,
     label = "CS_rad/NonDe",
     group = 
 """
@@ -5185,12 +5233,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 220,
+    index = 222,
     label = "CS_rad/Cs",
     group = 
 """
@@ -5207,12 +5255,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 221,
+    index = 223,
     label = "CS_rad/O",
     group = 
 """
@@ -5229,12 +5277,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 222,
+    index = 224,
     label = "CS_rad/S",
     group = 
 """
@@ -5251,12 +5299,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 223,
+    index = 225,
     label = "CS_rad/OneDe",
     group = 
 """
@@ -5273,12 +5321,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 224,
+    index = 226,
     label = "CS_rad/Cd",
     group = 
 """
@@ -5295,12 +5343,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 225,
+    index = 227,
     label = "CS_rad/CS",
     group = 
 """
@@ -5318,12 +5366,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 226,
+    index = 228,
     label = "CS_rad/Ct",
     group = 
 """
@@ -5340,12 +5388,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 227,
+    index = 229,
     label = "CS_rad/Cb",
     group = 
 """
@@ -5362,12 +5410,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 228,
+    index = 230,
     label = "CS_rad/CO",
     group = 
 """
@@ -5384,12 +5432,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 229,
+    index = 231,
     label = "Cs_rad",
     group = 
 """
@@ -5407,12 +5455,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 230,
+    index = 232,
     label = "C_methyl",
     group = 
 """
@@ -5430,12 +5478,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 231,
+    index = 233,
     label = "C_pri_rad",
     group = 
 """
@@ -5453,12 +5501,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 232,
+    index = 234,
     label = "C_rad/H2/Cs",
     group = 
 """
@@ -5476,12 +5524,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 233,
+    index = 235,
     label = "InChI=1/C2H5/c1-2/h1H2,2H3",
     group = 
 """
@@ -5502,12 +5550,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 234,
+    index = 236,
     label = "InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2",
     group = 
 """
@@ -5535,12 +5583,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 235,
+    index = 237,
     label = "InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3",
     group = 
 """
@@ -5568,12 +5616,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 236,
+    index = 238,
     label = "InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3",
     group = 
 """
@@ -5601,12 +5649,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 237,
+    index = 239,
     label = "InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3",
     group = 
 """
@@ -5634,12 +5682,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 238,
+    index = 240,
     label = "InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3",
     group = 
 """
@@ -5667,12 +5715,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 239,
+    index = 241,
     label = "C_rad/H2/Cd",
     group = 
 """
@@ -5690,12 +5738,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 240,
+    index = 242,
     label = "InChI=1/C3H5/c1-3-2/h3H,1-2H2",
     group = 
 """
@@ -5715,12 +5763,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 241,
+    index = 243,
     label = "InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3",
     group = 
 """
@@ -5745,12 +5793,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 242,
+    index = 244,
     label = "C_rad/H2/Ct",
     group = 
 """
@@ -5768,12 +5816,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 243,
+    index = 245,
     label = "C_rad/H2/Cb",
     group = 
 """
@@ -5791,12 +5839,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 244,
+    index = 246,
     label = "C_rad/H2/CO",
     group = 
 """
@@ -5814,12 +5862,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 245,
+    index = 247,
     label = "C_rad/H2/O",
     group = 
 """
@@ -5837,12 +5885,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 246,
+    index = 248,
     label = "C_rad/H2/S",
     group = 
 """
@@ -5860,12 +5908,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 247,
+    index = 249,
     label = "C_sec_rad",
     group = 
 """
@@ -5883,12 +5931,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 248,
+    index = 250,
     label = "C_rad/H/NonDeC",
     group = 
 """
@@ -5906,12 +5954,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 249,
+    index = 251,
     label = "InChI=1/C3H7/c1-3-2/h3H,1-2H3",
     group = 
 """
@@ -5935,12 +5983,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 250,
+    index = 252,
     label = "InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3",
     group = 
 """
@@ -5968,12 +6016,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 251,
+    index = 253,
     label = "InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3",
     group = 
 """
@@ -6001,12 +6049,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 252,
+    index = 254,
     label = "InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3",
     group = 
 """
@@ -6034,12 +6082,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 253,
+    index = 255,
     label = "C_rad/H/NonDeO",
     group = 
 """
@@ -6057,12 +6105,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 254,
+    index = 256,
     label = "C_rad/H/CsO",
     group = 
 """
@@ -6080,12 +6128,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 255,
+    index = 257,
     label = "InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3",
     group = 
 """
@@ -6113,12 +6161,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 256,
+    index = 258,
     label = "InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3",
     group = 
 """
@@ -6146,12 +6194,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 257,
+    index = 259,
     label = "C_rad/H/O2",
     group = 
 """
@@ -6169,12 +6217,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 258,
+    index = 260,
     label = "C_rad/H/NonDeS",
     group = 
 """
@@ -6192,12 +6240,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 259,
+    index = 261,
     label = "C_rad/H/CsS",
     group = 
 """
@@ -6215,12 +6263,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 260,
+    index = 262,
     label = "C_rad/H/S2",
     group = 
 """
@@ -6238,12 +6286,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 261,
+    index = 263,
     label = "C_rad/H/OneDe",
     group = 
 """
@@ -6261,12 +6309,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 262,
+    index = 264,
     label = "C_rad/H/OneDeC",
     group = 
 """
@@ -6284,12 +6332,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 263,
+    index = 265,
     label = "C_rad/H/CdCs",
     group = 
 """
@@ -6307,12 +6355,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 264,
+    index = 266,
     label = "C_rad/H/CSCs",
     group = 
 """
@@ -6331,12 +6379,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 265,
+    index = 267,
     label = "C_rad/H/CtCs",
     group = 
 """
@@ -6354,12 +6402,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 266,
+    index = 268,
     label = "C_rad/H/CbCs",
     group = 
 """
@@ -6377,12 +6425,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 267,
+    index = 269,
     label = "C_rad/H/CO/Cs",
     group = 
 """
@@ -6400,12 +6448,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 268,
+    index = 270,
     label = "InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c",
     group = 
 """
@@ -6428,12 +6476,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 269,
+    index = 271,
     label = "C_rad/H/OneDeO",
     group = 
 """
@@ -6451,12 +6499,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 270,
+    index = 272,
     label = "C_rad/H/OneDeS",
     group = 
 """
@@ -6474,12 +6522,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 271,
+    index = 273,
     label = "C_rad/H/CdS",
     group = 
 """
@@ -6497,12 +6545,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 272,
+    index = 274,
     label = "C_rad/H/CtS",
     group = 
 """
@@ -6520,12 +6568,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 273,
+    index = 275,
     label = "C_rad/H/TwoDe",
     group = 
 """
@@ -6543,12 +6591,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 274,
+    index = 276,
     label = "C_rad/H/CdCd",
     group = 
 """
@@ -6566,12 +6614,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 275,
+    index = 277,
     label = "C_rad/H/CdCS",
     group = 
 """
@@ -6590,12 +6638,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 276,
+    index = 278,
     label = "C_rad/H/CSCS",
     group = 
 """
@@ -6615,12 +6663,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 277,
+    index = 279,
     label = "C_rad/H/CdCt",
     group = 
 """
@@ -6638,12 +6686,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 278,
+    index = 280,
     label = "C_rad/H/CtCS",
     group = 
 """
@@ -6662,12 +6710,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 279,
+    index = 281,
     label = "C_rad/H/CdCb",
     group = 
 """
@@ -6685,12 +6733,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 280,
+    index = 282,
     label = "C_rad/H/CbCS",
     group = 
 """
@@ -6709,12 +6757,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 281,
+    index = 283,
     label = "C_rad/H/CdCO",
     group = 
 """
@@ -6732,12 +6780,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 282,
+    index = 284,
     label = "C_rad/H/COCS",
     group = 
 """
@@ -6756,12 +6804,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 283,
+    index = 285,
     label = "C_rad/H/CtCt",
     group = 
 """
@@ -6779,12 +6827,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 284,
+    index = 286,
     label = "C_rad/H/CtCb",
     group = 
 """
@@ -6802,12 +6850,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 285,
+    index = 287,
     label = "C_rad/H/CtCO",
     group = 
 """
@@ -6825,12 +6873,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 286,
+    index = 288,
     label = "C_rad/H/CbCb",
     group = 
 """
@@ -6848,12 +6896,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 287,
+    index = 289,
     label = "C_rad/H/CbCO",
     group = 
 """
@@ -6871,12 +6919,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 288,
+    index = 290,
     label = "C_rad/H/COCO",
     group = 
 """
@@ -6894,12 +6942,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 289,
+    index = 291,
     label = "C_ter_rad",
     group = 
 """
@@ -6917,12 +6965,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 290,
+    index = 292,
     label = "C_rad/NonDe",
     group = 
 """
@@ -6940,12 +6988,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 291,
+    index = 293,
     label = "C_rad/Cs3",
     group = 
 """
@@ -6963,12 +7011,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 292,
+    index = 294,
     label = "InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3",
     group = 
 """
@@ -6996,12 +7044,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 293,
+    index = 295,
     label = "C_rad/NDMustO",
     group = 
 """
@@ -7019,12 +7067,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 294,
+    index = 296,
     label = "C_rad/Cs2O",
     group = 
 """
@@ -7042,12 +7090,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 295,
+    index = 297,
     label = "C_rad/OOH/Cs/Cs",
     group = 
 """
@@ -7066,12 +7114,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 296,
+    index = 298,
     label = "InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3",
     group = 
 """
@@ -7099,12 +7147,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 297,
+    index = 299,
     label = "C_rad/CsO2",
     group = 
 """
@@ -7122,12 +7170,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 298,
+    index = 300,
     label = "C_rad/O3",
     group = 
 """
@@ -7145,12 +7193,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 299,
+    index = 301,
     label = "C_rad/NDMustS",
     group = 
 """
@@ -7168,12 +7216,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 300,
+    index = 302,
     label = "C_rad/Cs2S",
     group = 
 """
@@ -7191,12 +7239,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 301,
+    index = 303,
     label = "C_rad/CsS2",
     group = 
 """
@@ -7214,12 +7262,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 302,
+    index = 304,
     label = "C_rad/S3",
     group = 
 """
@@ -7237,12 +7285,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 303,
+    index = 305,
     label = "C_rad/OneDe",
     group = 
 """
@@ -7260,12 +7308,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 304,
+    index = 306,
     label = "C_rad/Cs2",
     group = 
 """
@@ -7283,12 +7331,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 305,
+    index = 307,
     label = "C_rad/CdCs2",
     group = 
 """
@@ -7306,12 +7354,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 306,
+    index = 308,
     label = "C_rad/CSCs2",
     group = 
 """
@@ -7330,12 +7378,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 307,
+    index = 309,
     label = "C_rad/CtCs2",
     group = 
 """
@@ -7353,12 +7401,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 308,
+    index = 310,
     label = "C_rad/CbCs2",
     group = 
 """
@@ -7376,12 +7424,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 309,
+    index = 311,
     label = "C_rad/COCs2",
     group = 
 """
@@ -7399,12 +7447,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 310,
+    index = 312,
     label = "C_rad/CsO",
     group = 
 """
@@ -7422,12 +7470,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 311,
+    index = 313,
     label = "C_rad/CsS",
     group = 
 """
@@ -7445,12 +7493,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 312,
+    index = 314,
     label = "C_rad/CdCsS",
     group = 
 """
@@ -7468,12 +7516,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 313,
+    index = 315,
     label = "C_rad/CtCsS",
     group = 
 """
@@ -7491,12 +7539,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 314,
+    index = 316,
     label = "C_rad/O2",
     group = 
 """
@@ -7514,12 +7562,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 315,
+    index = 317,
     label = "C_rad/OS",
     group = 
 """
@@ -7537,12 +7585,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 316,
+    index = 318,
     label = "C_rad/S2",
     group = 
 """
@@ -7560,12 +7608,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 317,
+    index = 319,
     label = "C_rad/TwoDe",
     group = 
 """
@@ -7583,12 +7631,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 318,
+    index = 320,
     label = "C_rad/Cs",
     group = 
 """
@@ -7606,12 +7654,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 319,
+    index = 321,
     label = "C_rad/CdCdCs",
     group = 
 """
@@ -7629,12 +7677,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 320,
+    index = 322,
     label = "C_rad/CdCSCs",
     group = 
 """
@@ -7653,12 +7701,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 321,
+    index = 323,
     label = "C_rad/CSCSCs",
     group = 
 """
@@ -7678,12 +7726,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 322,
+    index = 324,
     label = "C_rad/CdCtCs",
     group = 
 """
@@ -7701,12 +7749,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 323,
+    index = 325,
     label = "C_rad/CtCSCs",
     group = 
 """
@@ -7725,12 +7773,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 324,
+    index = 326,
     label = "C_rad/CdCbCs",
     group = 
 """
@@ -7748,12 +7796,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 325,
+    index = 327,
     label = "C_rad/CbCSCs",
     group = 
 """
@@ -7772,12 +7820,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 326,
+    index = 328,
     label = "C_rad/CdCOCs",
     group = 
 """
@@ -7795,12 +7843,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 327,
+    index = 329,
     label = "C_rad/COCSCs",
     group = 
 """
@@ -7819,12 +7867,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 328,
+    index = 330,
     label = "C_rad/CtCtCs",
     group = 
 """
@@ -7842,12 +7890,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 329,
+    index = 331,
     label = "C_rad/CtCbCs",
     group = 
 """
@@ -7865,12 +7913,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 330,
+    index = 332,
     label = "C_rad/CtCOCs",
     group = 
 """
@@ -7888,12 +7936,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 331,
+    index = 333,
     label = "C_rad/CbCbCs",
     group = 
 """
@@ -7911,12 +7959,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 332,
+    index = 334,
     label = "C_rad/CbCOCs",
     group = 
 """
@@ -7934,12 +7982,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 333,
+    index = 335,
     label = "C_rad/COCOCs",
     group = 
 """
@@ -7957,12 +8005,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 334,
+    index = 336,
     label = "C_rad/TDMustO",
     group = 
 """
@@ -7980,12 +8028,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 335,
+    index = 337,
     label = "C_rad/TDMustS",
     group = 
 """
@@ -8003,12 +8051,12 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
 entry(
-    index = 336,
+    index = 338,
     label = "C_rad/ThreeDe",
     group = 
 """
@@ -8026,7 +8074,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Dec  5 10:25:25 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8112,6 +8160,8 @@ L1: X_H_or_Xrad_H
                     L6: C/H2/CsO
                         L7: InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha
                     L6: C/H2/O2
+                L5: C/H2/NonDeS
+                    L6: C/H2/CsS
                 L5: C/H2/OneDe
                     L6: C/H2/OneDeC
                         L7: C/H2/CdCs

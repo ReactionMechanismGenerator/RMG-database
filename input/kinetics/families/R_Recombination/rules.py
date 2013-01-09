@@ -48,7 +48,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -86,7 +86,7 @@ NIST record: http://kinetics.nist.gov/kinetics/Detail?id=1950DIN/LER1632-1637:1
 Checked by Greg Magoon; I suspect the parameters in the paper come from a different reaction (maybe H + C2H2 -> products?); (even if it was the correct reaction, the parameters used by NIST and RMG appear to be based off of values from the abstract, but p. 1637 seems to suggest that it may be more complicated, perhaps a collision theory-type form as alluded to in the abstract...p. 1637 states "In calculating E1 allowance was made for the term T^1/2 appearing in the frequency factor.";if this is the case, then the NIST record is inaccurate; almost all the other papers in NIST database report 3rd order rate constant, which is proportional to [M]; the best assessment I have found is Stace and Murrell, IJCK, v. 10, p. 197-212, which seems to suggest bimolecular rate constant of at least ~10^14 at high pressure (over 3 orders of magnitude higher than this value); this paper and Troe, Ann. Rev. Phys. Chem. 1978. 29: 223-250. make reference to "diffusion" limitations at very high pressure; another (relatively minor) consideration is that we will probably want to divide the reported rate coefficient by 2 to correctly account for stoichiometry
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -127,7 +127,7 @@ NIST record: http://kinetics.nist.gov/kinetics/Detail?id=1994TAK/MOM74-85:2
 Verified by Greg Magoon: RMG value agrees with NIST record, and the points in the NIST record agree with the values in Table 3 in the paper within 10%; note that a 3000K data point is also available in the paper, but doesn't seem to be considered in the NIST fit; also, note that a lot of other data for this reaction is available on the NIST site and in the paper
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -178,7 +178,7 @@ rate coefficient is that reported by Baulch et al. in previous literature review
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -218,7 +218,7 @@ H + C2H5 (+ M) --> C2H6 (+ M) (Rxn. 2b)
 Verified by Greg Magoon; I changed the DA uncertainty from (times/divide)1.1 to (+/-)1E13, as this is what the abstract reports (also, Table 3 mentions uncertainties in the range of 10%-20%)
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -253,7 +253,7 @@ u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -293,7 +293,7 @@ H + isoC3H7 (+ M) --> C3H8 (+ M) (Rxn. 7)
 Verified by Greg Magoon; I changed the DA uncertainty from (times/divide)1.25 to 0.3E+14, as reported in the paper
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -332,7 +332,7 @@ H + C2H3 -> C2H4 (Rxn. VIIC)
 Verified by Greg Magoon; note that the value in rateLibrary agrees with value reported in abstract, the value in Table III also includes contribution from Rxn. VIID, which apparently dominates at low pressures (p. 3222); DA uncertainty updated, as I have done elsewhere; also, for k, I calculate 1.2044E14 (which is very slightly different from 1.21 used here)
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -372,7 +372,7 @@ NIST Record: http://kinetics.nist.gov/kinetics/Detail?id=1988DUR/AMO636:10
 Verified by Greg Magoon; RMG and NIST data seem to be the same; presumably, NIST fit is based off of data in Table 3, but the fit isn't quite right, especially at 1500 K ; using the 700 and 1300 table values, I get Ea=1.03 kcal/mol; using 1300 K value, I get A = 5.66E14 cm^3/mol-s; fit seems to be essentially indistinguishable from data at end points, and error is just under 10% at 1000 K...since the NIST fit has a slightly lower maximum error, I will just leave it the way it is; aside: 10^9.7 prefactor mentioned on p. 637 doesn't seem consistent with NIST data or paper data in Table III; this is presumably high-pressure limit since no pressure-dependence is indicated in the table
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -420,7 +420,7 @@ Fall-off and collisional efficiencies are available in reference
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -465,7 +465,7 @@ Verified by Greg Magoon
 [172b]: see Table III
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -505,7 +505,7 @@ H + HCO (+M) --> H2CO (+M) (Rxn -9)
 Verified by Greg Magoon; three A factors have been reported (for 3 different densities); the value currently used in the rateLibrary appears to come from the middle density: 5E-5 (mol/cm^3, I think);I have assumed that the 2nd two columns in Table II are for the reverse reaction reference for this value is apparently in Japanese (see *** note in Table 2); minor issue: I calculate -19/4.184 = -4.54 kcal/mol (vs. -4.53 in rateLibrary)
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -541,7 +541,7 @@ Transition State Theory
 H + OH --> H2O
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -585,7 +585,7 @@ NIST record: http://kinetics.nist.gov/kinetics/Detail?id=1998PES/PIL8526-8536:1
 Verified by Greg Magoon; NIST record has slightly different parameters than RMG (it doesn't seem like best-fit parameters are reported in the paper); paper values for k_inf with alpha = 1 appear in Tables 5/11 and values for alpha = 0.7 appear in Tables 6/12; NIST parameters agree within 10% of k_inf values in the paper with alpha = 1 A^-1 (Tables 11) (though in paper, they seem to suggest that alpha = 0.7 A^-1 (Table 6/12) matches experimental data better); I am assuming that their k is for the reaction, as written, so that no factor of two correction is needed; RMG parameters seem to agree with Table 5 values within 10% (agreement may not be quite as good as NIST fit, though it is not immediately obvious which fit is better without looking closer/doing calculations)
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -640,7 +640,7 @@ from Refs. 4, 10, 11, and 14 up to 1000K ..."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -696,7 +696,7 @@ of k_inf is assumed until more definite experimental information is available."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -745,7 +745,7 @@ the rateLibrary is probably too narrow; minor: I calculate 1.1E-9*6.022141E23=6.
 but rateLibrary has slightly different value of 6.64E14
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -811,7 +811,7 @@ which is somewhat in agreement with the value recommended by Tsang.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -853,7 +853,7 @@ CH3. + .HC=CH2 --> CH3HC=CH2 (Rxn. IIIC)
 Verified by Greg Magoon; DA uncertainty updated, as I have done elsewhere
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -896,7 +896,7 @@ CH3 + phenyl --> C6H5CH3 (Rxn. 2) (cf. #444, below)
 Verified by Greg Magoon; 0.05 kcal barrier changed to 0.046 as reported in paper; uncertainties are in abstract; more precise values appear in Tables 3,4; however, note: in text on p. 3639, A factor uncertainty is expressed as additive on log scale...value is relatively small, so it probably doesn't make that much of a difference; DA uncertainty was added and DE0 uncertainty was refined
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -939,7 +939,7 @@ CH3 + phenyl --> C6H5CH3 (Rxn. 4) (cf. #443, above)
 Verified by Greg Magoon; values appear in Appendix A and (with uncertainty) on p. 649; total pressure around 3 torr (Table II); DA uncertainty was added and DE0 uncertainty was refined
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -989,7 +989,7 @@ to high-P limit at low temperatures.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1031,7 +1031,7 @@ paper states reaction occurs close to high pressure limit (p. 742)
 Verified by Greg Magoon; Note that the paper cites 4 other values for k6 from literature; perhaps uncertainty could be assigned based on these values; also, page 744 discusses "relatively large value of k6" potentially due to other reactions; p. 744: uncertainty estimated to be 20% -> I changed DA uncertainty from 0 to 8.4E+12
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1089,7 +1089,7 @@ expression reported in table.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1142,7 +1142,7 @@ k_inf.  "The available database is still limited and more measurements are neede
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1190,7 +1190,7 @@ estimated from rates of CH3+CH3=C2H6 and CH3O+CH3O=CH3OOCH3.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1240,7 +1240,7 @@ agreement."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1291,7 +1291,7 @@ of C2H5+C2H5-->adduct and i-C3H7+i-C3H7-->adduct).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1354,7 +1354,7 @@ and tC4H9+tC4H9-->adduct rxns.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1402,7 +1402,7 @@ Recommended data is based on the rate expression for CH3+CHO-->H3CCHO
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1450,7 +1450,7 @@ Recommended data is based on the rate expression for CH3+CH3CO-->(CH3)2CO
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1491,7 +1491,7 @@ C2H5 + OH (+M) --> C2H5OH (+M) (Rxn. 1a)
 Verified by Greg Magoon; value reported for k1a,Infinity (high-pressure) appears to be theoretical rather than experimentally based; value in paper is 7.7+/-1.0E13 (rateLibrary originally had 7.69E13 with uncertainty of *1.1, so I changed it to match paper values); there doesn't seem to be an experimental value for k1a, but k(1a+1b) is slightly lower (6.5E13); experimentally, they say no pressure dependence observed in studied pressure range (p. 326)
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1547,7 +1547,7 @@ fit at high-T).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1608,7 +1608,7 @@ and tC4H9+tC4H9-->adduct rxns.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1662,7 +1662,7 @@ recommended rate coefficient expression
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1710,7 +1710,7 @@ based on CH3+CH3O-->adduct.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1770,7 +1770,7 @@ Entry 44,44(a)
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1821,7 +1821,7 @@ on rate of rxn tC4H9+CH3-->adduct, but "slightly smaller"
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1881,7 +1881,7 @@ tC4H9+tC4H9-->adduct and CH3CO+CH3CO-->adduct rxns
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1931,7 +1931,7 @@ and CH3O+CH3O-->adduct rxns
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1971,7 +1971,7 @@ C2H3 + C2H3 --> (E)-CH2=CHCH=CH2 (Rxn. IIC)
 Verified by Greg Magoon; DA uncertainty updated, as I have done elsewhere; based on Eqs. 3, 6, it looks like a factor of two correction is not needed
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2012,7 +2012,7 @@ NIST record: http://kinetics.nist.gov/kinetics/Detail?id=1988DUR/AMO636:4
 Verified by Greg Magoon; value confirmed from paper data in Table III; this is presumably high-pressure limit since no pressure-dependence is indicated in the table
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2060,7 +2060,7 @@ Authors note that rate expression will be in fall-off region at high temperature
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2099,7 +2099,7 @@ Absolute value measured directly. Excitation : thermal, analysis : Vis-UV absorp
 Phenyl + Phenyl --> Biphenyl
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2141,7 +2141,7 @@ phenyl + phenyl --> biphenyl (Reaction 1)
 Verified by Greg Magoon: total pressure ~7 torr; DA uncertainty changed to additive, as reported in paper, and DE0 uncertainty was refined
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2182,7 +2182,7 @@ HCO + HCO --> (CHO)2
 Verified by Greg Magoon: the existing k in the rateLibrary appeared to be off by a factor of two, since the paper uses d[HCO]/dt=-k*[HCO]^2; they report k=(5+/-2)*10^-11 molecules^-1*cm^3/s (references 9, 19, and 20 in this paper could have better data); I think in rateLibrary, we should have half of this (2.5 +/- 1), so I have changed the value in the rateLibrary accordingly (with 2nd opinion to confirm from MRH)
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2230,7 +2230,7 @@ the default value the authors assign for recombination rxns)
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2277,7 +2277,7 @@ Recommended data is assigned based on 5 reported direct measurements of rate coe
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2333,7 +2333,7 @@ rate coefficient.
 MRH 1-Sept-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2380,7 +2380,7 @@ Entry 24,24 (b)
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2416,7 +2416,7 @@ u"""
 Curran's estimation, based on half that recommended by Allara and Shaw [146] for H (rad) and R (rad) recombination reactions
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2455,7 +2455,7 @@ u"""
 Curran's estimation, based on recommendations of Tsang [92] for CH3 + tC4H9
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2494,7 +2494,7 @@ u"""
 Curran's estimation based on half Tsang's [91] recommendation for CH3 + iC3H7
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2533,7 +2533,7 @@ u"""
 Curran's estimation for neoC5H11 + iC3H7, similar to tC4H9 + iC4H9
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2574,7 +2574,7 @@ Curran's estimation based on Tsang's [92] reccomendation for tC4H9 Curran's esti
 values from literature for smaller alkyl, based upon the consideration that rate constants decrease with the increasing size of R radical.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2614,7 +2614,7 @@ Verified by Greg Magoon; it is not immediately clear whether this rate constant 
 *NHP = Not necessarily at high pressure limit
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2683,7 +2683,7 @@ have happened since the paper was published in 1996. Revision of this rate is re
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2722,7 +2722,7 @@ C.D.W. divided rate expression by 2, to get rate of addition per site
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2790,7 +2790,7 @@ rwest@mit.edu  7-Sep-2009
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2856,7 +2856,7 @@ rwest@mit.edu  7-Sep-2009
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2908,7 +2908,7 @@ rwest@mit.edu  7-Sep-2009
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2974,7 +2974,7 @@ rwest@mit.edu  7-Sep-2009
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3012,7 +3012,7 @@ RRKM extrapolation (adjusted to match data).O2 +CH = CH2CHOO. C.D.W. divided rat
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3050,7 +3050,7 @@ O2+ phenyl --> phenyl dioxy. Absolute value measured directly. Pressure 0.03-0.1
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3088,7 +3088,7 @@ RRKM extrapolation. O2 +HCO -->HC(O)O2. C.D.W. divided rate expression by 2, to 
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3126,7 +3126,7 @@ literature review. Rate constant is high pressure limit. O2+ CH3CO --> CH3C(O)OO
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3177,7 +3177,39 @@ encourage you to run a fame job separately, with the 1e+14 cm3 mol-1 s-1 as the 
 estimate is known).
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 491,
+    label = "Y_rad;H_rad",
+    group1 = 
+"""
+1 * R 1
+""",
+    group2 = 
+"""
+1 * H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (10000000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""MRH estimate""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3208,6 +3240,38 @@ entry(
     shortDesc = u"""A.G. Vandeputte""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 492,
+    label = "Y_rad;Y_rad",
+    group1 = 
+"""
+1 * R 1
+""",
+    group2 = 
+"""
+1 * R 1
+""",
+    kinetics = ArrheniusEP(
+        A = (10000000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""MRH estimate""",
+    longDesc = 
+u"""
 MRH estimate
 
 A reasonable estimate for the total k_inf(T) for the recombination of two heavy atom radicals is a
@@ -3218,7 +3282,7 @@ reasonable.
 [Please read the comments for entry 491 - Y_rad + H_rad - for more background on the matter].
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3253,7 +3317,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3286,7 +3350,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 

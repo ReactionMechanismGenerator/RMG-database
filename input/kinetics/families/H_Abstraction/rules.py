@@ -52,7 +52,7 @@ abstraction by Y_rad_birad. I.e. the top level very approximate guess.
 Do better kinetics for this exist? Do we in fact use the reverse kinetics anyway?
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -82,7 +82,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -115,7 +115,7 @@ u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -148,7 +148,7 @@ u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -182,7 +182,7 @@ u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -216,7 +216,7 @@ u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -252,7 +252,7 @@ u"""
 [118] Dean, A.M. Development and application of Detailed Kinetic Mechanisms for Free Radical Systems.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -291,7 +291,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -330,7 +330,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -369,7 +369,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -408,7 +408,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -447,7 +447,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -486,7 +486,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -525,7 +525,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -564,7 +564,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -603,7 +603,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -642,7 +642,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -681,7 +681,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -720,7 +720,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -759,7 +759,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -795,7 +795,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -831,7 +831,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -867,7 +867,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -903,7 +903,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -936,6 +936,40 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 24,
+    label = "O/H/NonDeC;H_rad",
+    group1 = 
+"""
+1 *1 O  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (870000000.0, 'cm^3/(mol*s)'),
+        n = 1.39,
+        alpha = 0,
+        E0 = (10.07, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    longDesc = 
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
@@ -946,7 +980,49 @@ ROH + H --> RO + H2
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 25,
+    label = "CO_pri;H_rad",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (54800000.0, 'cm^3/(mol*s)'),
+        n = 1.82,
+        alpha = 0,
+        E0 = (2.44, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    longDesc = 
+u"""
+Sumathy CBS-Q calculations. Rate expression per H atom.
+Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
+
+Table 8: Modified ArrHenius Fitted Parameters for GA Predicted Rates.
+
+HCHO + H --> HCO + H2
+
+Verified by Karma James
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -979,17 +1055,52 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 26,
+    label = "CO/H/NonDe;H_rad",
+    group1 = 
+"""
+1 *1 C        0 {2,D} {3,S} {4,S}
+2    O        0 {1,D}
+3 *2 H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (80700000.0, 'cm^3/(mol*s)'),
+        n = 1.76,
+        alpha = 0,
+        E0 = (0.67, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    longDesc = 
+u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
 Table 8: Modified ArrHenius Fitted Parameters for GA Predicted Rates.
 
-HCHO + H --> HCO + H2
+RCHO + H --> RCO + H2
 
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1022,17 +1133,45 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
-Sumathy CBS-Q calculations. Rate expression per H atom.
-Sumathi, R.; Carstensen, H.-H.; Green, W.H. Jr.; J. Phys. Chem. A. 2001, 105, 8978
 
-Table 8: Modified ArrHenius Fitted Parameters for GA Predicted Rates.
-
-RCHO + H --> RCO + H2
-
-Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 27,
+    label = "Cd_pri;H_rad",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (25300000.0, 'cm^3/(mol*s)'),
+        n = 1.98,
+        alpha = 0,
+        E0 = (11.78, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Primary vinylic {Cd/H2}""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1074,7 +1213,42 @@ R2C=CH2 + H --> R2C=CH + H2
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 28,
+    label = "Cd_pri;H_rad",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (4530, 'cm^3/(mol*s)'),
+        n = 2.43,
+        alpha = 0,
+        E0 = (8.85, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Ketene hydrogen {CCO/H2}""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1110,7 +1284,42 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 29,
+    label = "Cd_pri;H_rad",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (14600000.0, 'cm^3/(mol*s)'),
+        n = 2.09,
+        alpha = 0,
+        E0 = (5.49, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom. Allene hydrogen {Cd/H2/Ca}""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1146,7 +1355,42 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 30,
+    label = "Cd/H/NonDeC;H_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (29800000.0, 'cm^3/(mol*s)'),
+        n = 1.95,
+        alpha = 0,
+        E0 = (8.65, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1189,7 +1433,43 @@ RCH=CR2 + H --> RC=CR2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 31,
+    label = "C/H3/Cd;H_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (433000, 'cm^3/(mol*s)'),
+        n = 2.38,
+        alpha = 0,
+        E0 = (2.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Sumathy CBS-Q calculations. Rate expression per H atom.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1232,7 +1512,7 @@ R2C=CRCH3 + H --> R2C=CRCH2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1275,7 +1555,7 @@ RR2C=CRCH2R + H --> R2C=CRCHR + H2
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1318,7 +1598,7 @@ RCCCH2R + H --> RCCCHR + H2
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1361,7 +1641,7 @@ R2C=CRCHR2 + H --> R2C=CRCR2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1404,7 +1684,7 @@ RCCCHR2 + H --> RCCCR2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1447,7 +1727,7 @@ R2C=CH-CH2-CH=CR2 + H --> R2C=CH-CH-CH=CR2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1489,7 +1769,7 @@ R2C=CRCH=CR2 + H --> R2C=CRC=CR2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1531,7 +1811,7 @@ RCC-CH=CR2 + H --> RCC-C=CR2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1578,7 +1858,7 @@ RMG values: A=1.65E+08, n=1.85, E0=	26.52.
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1621,7 +1901,7 @@ RCCCH3 + H --> RCCCH2 + H2
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1656,7 +1936,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1690,7 +1970,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1728,7 +2008,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1767,7 +2047,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1804,7 +2084,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1842,7 +2122,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1879,7 +2159,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1920,7 +2200,7 @@ RCOOOH + H --> RCOOO + H2
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -1958,7 +2238,7 @@ u"""
 Sumathy CBS-Q calculations. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2010,7 +2290,7 @@ From reference: E0 = 71.0/4.185 = 16.97, @ 0 K, from database: E0 = 19.0 @ 300 -
 Experimental values from reference @ 0 K = 55.4 kJ/mol, 60.7 kJ/mol, 61.9 kJ/mol
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2049,7 +2329,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2088,7 +2368,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2127,7 +2407,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2166,7 +2446,46 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 55,
+    label = "C/H/Cs3;C_methyl",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (50200000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (11.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2202,10 +2521,49 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 56,
+    label = "C/H/Cs3;C_methyl",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (44200000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (11.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2241,10 +2599,49 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
-Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
+
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 57,
+    label = "C/H3/Cd;C_methyl",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (26200000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (12.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2283,7 +2680,46 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 58,
+    label = "C/H2/OneDeC;C_methyl",
+    group1 = 
+"""
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    H                0 {1,S}
+4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
+5    Cs               0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (27300000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (10.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2318,10 +2754,49 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 59,
+    label = "C/H/Cs2;C_methyl",
+    group1 = 
+"""
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    Cs               0 {1,S}
+5    Cs               0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (27300000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (8.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2357,10 +2832,49 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 60,
+    label = "C/H2/TwoDe;C_methyl",
+    group1 = 
+"""
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    H                0 {1,S}
+4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
+5    {Cd,Ct,CO,Cb,CS} 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (75400000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (8.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2396,10 +2910,49 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 61,
+    label = "C/H/Cs;C_methyl",
+    group1 = 
+"""
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+5    Cs               0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (9320000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2435,10 +2988,49 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 62,
+    label = "C/H3/Cb;C_methyl",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cb 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4900000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (13.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2474,10 +3066,10 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs CBS-QB3""",
     longDesc = 
 u"""
-Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
+
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2516,7 +3108,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2555,7 +3147,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2594,7 +3186,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2633,7 +3225,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2672,7 +3264,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2711,7 +3303,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2750,7 +3342,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2788,7 +3380,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2826,7 +3418,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2864,7 +3456,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2902,7 +3494,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2940,7 +3532,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -2977,7 +3569,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3015,7 +3607,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3054,7 +3646,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3093,7 +3685,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3132,7 +3724,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3171,7 +3763,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3207,7 +3799,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3246,7 +3838,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3285,7 +3877,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3323,7 +3915,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3362,7 +3954,43 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 86,
+    label = "C/H/Cs3;H_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (53100000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (5.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3401,7 +4029,46 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 87,
+    label = "C/H/Cs3;C_methyl",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (50200000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (11.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3437,10 +4104,49 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
-Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
+
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 88,
+    label = "C/H/Cs3;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (50200000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (20.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3479,7 +4185,45 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 89,
+    label = "C/H/Cs3;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (89500000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (6.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3517,7 +4261,46 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 90,
+    label = "C/H/Cs3;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (543000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (11.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3553,10 +4336,49 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
-Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
+
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 91,
+    label = "C/H/Cs3;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (3030000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (12.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3595,7 +4417,46 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 92,
+    label = "C/H/Cs3;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2440000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (12.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3631,10 +4492,49 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
-Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
+
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 93,
+    label = "C/H/Cs3;C_rad/H/OneDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    Cs               0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (5460000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (21.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3673,7 +4573,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3712,7 +4612,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3750,7 +4650,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3788,7 +4688,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3827,7 +4727,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3866,7 +4766,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3905,7 +4805,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3940,7 +4840,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -3978,7 +4878,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4016,7 +4916,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4053,7 +4953,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4091,7 +4991,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4129,7 +5029,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4167,7 +5067,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4205,7 +5105,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4243,7 +5143,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4280,7 +5180,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4317,7 +5217,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4355,7 +5255,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4393,7 +5293,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4431,7 +5331,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4467,7 +5367,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4506,7 +5406,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4545,7 +5445,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4584,7 +5484,45 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 117,
+    label = "C/H3/Cd;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (7730000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (7.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4623,7 +5561,46 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 118,
+    label = "C/H3/Cd;C_rad/Cs3",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (3180000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (11.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4659,10 +5636,49 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 119,
+    label = "C/H3/Cd;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (560000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (12.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4700,7 +5716,46 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 120,
+    label = "C/H3/Cd;C_rad/H/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (287000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (12.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4736,10 +5791,49 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 121,
+    label = "C/H3/Cd;C_rad/H/OneDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    H                0 {1,S}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+4    Cs               0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1520000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (21.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4775,10 +5869,49 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 122,
+    label = "C/H3/Cd;C_rad/Cs2",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C                1 {2,S} {3,S} {4,S}
+2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+3    Cs               0 {1,S}
+4    Cs               0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (413000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (21.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4817,7 +5950,45 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 123,
+    label = "C/H3/Cd;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (5520000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (7.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4856,7 +6027,45 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 124,
+    label = "C/H3/Cd;Cd_rad/OneDe",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C                1 {2,D} {3,S}
+2    C                0 {1,D}
+3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1950000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (14.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4895,7 +6104,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4934,7 +6143,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -4973,7 +6182,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5006,7 +6215,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5042,7 +6251,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5078,7 +6287,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5113,7 +6322,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5149,7 +6358,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5185,7 +6394,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5221,7 +6430,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5257,7 +6466,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5293,7 +6502,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5328,7 +6537,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5363,7 +6572,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5399,7 +6608,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5435,7 +6644,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5471,7 +6680,7 @@ u"""
 Mark Saeys, CBS-QB3 calculations, without hindered rotor treatment. Rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5522,7 +6731,7 @@ Rate expression is changed to per H.(divided by 3)
 Yushi Suzuki
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5572,7 +6781,7 @@ Rate expression is changed to per H.(divided by 2)
 Yushi Suzuki
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5618,7 +6827,7 @@ These numbers reported by Curran et al. were apparently taken from
 N. Cohen, *Intl. J. Chem. Kinet.* 14 (1982), p. 1339 http://dx.doi.org/10.1002/kin.550141206
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5662,7 +6871,7 @@ Rate expression is changed to per H.(divided by 9)
 Yushi Suzuki
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5707,7 +6916,7 @@ Rate expression is changed to per H.(divided by 2)
 Yushi Suzuki
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5755,7 +6964,7 @@ https://www-pls.llnl.gov/data/docs/science_and_technology/chemistry/combustion/p
 Yushi Suzuki
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5791,6 +7000,43 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 148,
+    label = "C/H3/Cs;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2800000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (20.435, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    longDesc = 
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -5801,7 +7047,7 @@ Rate expression is changed to per H.(divided by 9)
 Yushi Suzuki
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5837,6 +7083,43 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 149,
+    label = "C/H2/NonDeC;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2800000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (17.686, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    longDesc = 
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -5848,7 +7131,7 @@ Rate expression is changed to per H.(divided by 2)
 Yushi Suzuki
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5884,6 +7167,43 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 150,
+    label = "C/H/Cs3;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2800000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (16.013, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
+    longDesc = 
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -5892,7 +7212,7 @@ pg 257 A Comprehensive Modelling Study of iso-Octane Oxidation, Table 1. Radical
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5938,7 +7258,44 @@ Rate expression is changed to per H.(divided by 9)
 Yushi Suzuki
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 151,
+    label = "C/H3/Cs;O_rad/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O  1 {2,S}
+2    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (52700000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -5974,6 +7331,43 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 152,
+    label = "C/H2/NonDeC;O_rad/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O  1 {2,S}
+2    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (55000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    longDesc = 
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -5985,7 +7379,7 @@ Rate expression is changed to per H.(divided by 2)
 Yushi Suzuki
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6021,6 +7415,43 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 153,
+    label = "C/H/Cs3;O_rad/NonDeC",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O  1 {2,S}
+2    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (19000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (2.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels.""",
+    longDesc = 
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -6029,7 +7460,7 @@ pg 257 A Comprehensive Modelling Study of iso-Octane Oxidation, Table 1. Radical
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6065,6 +7496,43 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 154,
+    label = "C/H3/Cs;O2b",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (7000000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (50.76, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    longDesc = 
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -6076,7 +7544,7 @@ Rate expression is changed to per H.(divided by 9)
 Yushi Suzuki
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6112,6 +7580,43 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 155,
+    label = "C/H2/NonDeC;O2b",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (7000000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (48.21, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Curran et al. [8] Rate expressions for H atom abstraction from fuels. (changed to per H)""",
+    longDesc = 
+u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Rate expressions for H atom abstraction from fuels.
 
@@ -6123,7 +7628,7 @@ Rate expression is changed to per H.(divided by 2)
 Yushi Suzuki
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6165,7 +7670,7 @@ pg 257 A Comprehensive Modelling Study of iso-Octane Oxidation, Table 1. Radical
 Verified by Karma James
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6210,7 +7715,7 @@ Recommended value computed using reverse rate and thermodynamics
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6246,7 +7751,7 @@ u"""
 H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2 ( from A = 9.45E+03), to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6282,7 +7787,7 @@ u"""
 H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6318,7 +7823,7 @@ u"""
 H2 + C2H3 --> H + C2H4 C.D.W divided original rate expression by 2 ( from A = 3.15E+09), to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6367,7 +7872,7 @@ fits other reported data reasonably well.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6403,7 +7908,7 @@ u"""
 H2 + phenyl --> H + benzene C.D.W divided original rate expression by 2 ( from A = 5.71E+04), to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6449,7 +7954,7 @@ Recommended value computed using reverse rate and thermodynamics
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6497,7 +8002,7 @@ Used 0.5*k(H+HCHO=H2+HCO) and equilibrium constant to compute recommended rate e
 Verified by MRH on 10Aug2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6540,7 +8045,7 @@ C.D.W divided original rate expression by 2, to get rate expression per H atom.
 Verified by Greg Magoon; maximum error of fitted expression from tabular data for forward rate constant, kr1 is 15% (cf. p. 3758)
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6574,7 +8079,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6625,7 +8130,7 @@ HO2 + HCO.  Assumes equal A factor per C-H bond and Ea = deltaH.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6675,7 +8180,7 @@ Recommended data from reverse rate and equilibrium constant
 Verified by MRH on 10Aug2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6726,7 +8231,7 @@ expression based on reverse rate and equilibrium constant.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6777,7 +8282,7 @@ and combined that with experimental k at room temperature to yield Arrhenius exp
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6818,7 +8323,7 @@ Absolute value measured directly (excitation technique: thermal, analytical tech
 C.D.W divided original rate expression by 4, to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6867,7 +8372,7 @@ Recommended data computed using reverse rate and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6916,7 +8421,7 @@ Recommended number computed from reverse rate and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -6954,7 +8459,7 @@ u"""
 CH4 + OH --> CH3 + H2O C.D.W divided original rate expression by 4, to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7006,7 +8511,7 @@ Madronich and Felder which predicts very precisely the data obtained between
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7044,7 +8549,7 @@ u"""
 CH4 + OH --> CH3 + H2O C.D.W divided original rate expression by 4, to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7086,7 +8591,7 @@ C.D.W divided original rate expression by 4 ( from A= 1.51E+09), to get rate exp
 Verified by Greg Magoon; cf. reverse reaction, #261, below
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7134,7 +8639,7 @@ Recommended data is based on expression for HO2 attach on alkanes (Walker)
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7170,6 +8675,43 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 179,
+    label = "C/H3/Cs;O2b",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (10050000000000.0, 'cm^3/(mol*s)', '*|/', 10),
+        n = 0,
+        alpha = 0,
+        E0 = (51.87, 'kcal/mol'),
+        Tmin = (500, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Baulch et al. [95] literature review.""",
+    longDesc = 
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -7193,7 +8735,7 @@ of E0 in RMG from 1.87 kcal/mol to 51.87 kcal/mol. ***
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7245,7 +8787,44 @@ combined calculation with experimental measurement of k at room temperature.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 180,
+    label = "C/H3/Cs;Ct_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,T}
+2    C 0 {1,T}
+""",
+    kinetics = ArrheniusEP(
+        A = (602000000000.0, 'cm^3/(mol*s)', '*|/', 3),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang et al. [89] literature review.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7281,6 +8860,44 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 181,
+    label = "C/H3/Cs;Cb_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Cb       1 {2,B} {3,B}
+2    {Cb,Cbf} 0 {1,B}
+3    {Cb,Cbf} 0 {1,B}
+""",
+    kinetics = ArrheniusEP(
+        A = (34800000000.0, 'cm^3/(mol*s)', '*|/', 2.35),
+        n = 0,
+        alpha = 0,
+        E0 = (4.44, 'kcal/mol', '+|-', 0.18),
+        Tmin = (565, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Park et al. [126]""",
+    longDesc = 
+u"""
 [126] Park, J.; Gheyas, S.; Lin, M.C. Int. J. Chem. Kinet. 2001, 33, 64.
 Absolute value measured directly. Static or low flow, flash photolysis excitation, Vis-UV absoprtion analysis. 
 
@@ -7291,7 +8908,7 @@ have been used to monitor reactant and/or products. C2H6 + phenyl --> C2H5 + ben
 C.D.W divided original rate expression by 6 ( from A= 2.09E+11), to get rate expression per H atom. Original delta A = 2.0E+10.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7340,7 +8957,45 @@ Recommended data computed from reverse rate and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 182,
+    label = "C/H3/Cs;CO_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    O 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (7820, 'cm^3/(mol*s)', '*|/', 5),
+        n = 2.72,
+        alpha = 0,
+        E0 = (18.24, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang et al. [89] literature review.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7376,6 +9031,44 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 183,
+    label = "C/H3/Cs;CO_rad/NonDe",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C        1 {2,D} {3,S}
+2    O        0 {1,D}
+3    {Cs,O,S} 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (3020, 'cm^3/(mol*s)', '*|/', 5),
+        n = 2.75,
+        alpha = 0,
+        E0 = (17.53, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang et al. [89] literature review.""",
+    longDesc = 
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H6 + CH3CO --> C2H5 + CH3CHO C.D.W divided original rate expression by 6(from A = 1.81E+04), to get rate expression per H atom.
 
@@ -7391,7 +9084,7 @@ hydrogen is present in CH3CHO) and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7445,7 +9138,81 @@ temperatures between 300 and 2000K."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 184,
+    label = "C/H3/Cs;O_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1200000.0, 'cm^3/(mol*s)', '*|/', 1.41),
+        n = 2,
+        alpha = 0,
+        E0 = (0.86, 'kcal/mol'),
+        Tmin = (250, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Baulch et al. [95] literature review.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 185,
+    label = "C/H3/CO;O_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    CO 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (517000, 'cm^3/(mol*s)'),
+        n = 2.2,
+        alpha = 0,
+        E0 = (1, 'kcal/mol'),
+        Tmin = (295, 'K'),
+        Tmax = (600, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Taylor et al. [127] Transition state theory.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7487,7 +9254,7 @@ CH3CHO + OH --> CH2CHO + H2O Rate constant is high pressure limit (pressure 0.13
 C.D.W divided original rate expression by 3(from A = 1.55E+06), to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7531,7 +9298,46 @@ C.D.W divided original rate expression by 3 ( from A= 8.43E+08), to get rate exp
 Verified by Greg Magoon
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 186,
+    label = "C/H3/O;C_methyl",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    O 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000205, 'cm^3/(mol*s)'),
+        n = 4.9,
+        alpha = 0,
+        E0 = (6.72, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Jodkowski et al. [100] ab initio calculations.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7574,7 +9380,7 @@ Verified by Greg Magoon
 **Note that R2 from this paper appears to be missing from the RMG library, so I have added it as 1001**
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7627,7 +9433,7 @@ coefficient expressions (no indication of how).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7676,7 +9482,7 @@ expression as that of CH3+C3H8=i-C3H7+CH4.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7726,7 +9532,7 @@ rate coefficient expression is stated to fit 3 (of the 5) raw data reported.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7784,7 +9590,7 @@ Verified by MRH on 10Aug2009
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7836,7 +9642,7 @@ to obtain the recommended rate coefficient expression.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7888,7 +9694,7 @@ recommended for C3H8+C2H=C2H2+n-C3H7.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7939,7 +9745,7 @@ n-C3H7+CH2O=HCO+C3H8 instead of i-C3H7+CH2O=HCO+C3H8) and equilibrium constant.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -7990,7 +9796,7 @@ estimates this reverse rate using the suggestions of Kerr, J.A. and Trotman-Dick
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8030,7 +9836,7 @@ C3H8 + OH --> iso-C3H7 + H20  C.D.W divided original rate expression by 2, to ge
 Not yet checked
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8083,7 +9889,7 @@ coefficient expression.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8137,7 +9943,7 @@ with the review's value, so Tsang recommended the review's value.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8190,7 +9996,7 @@ temperature dependence was 2.5 (was this 2.5 based on the review by Cohen and We
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8243,7 +10049,7 @@ the recommended value for CH3 abstracting a H-atom.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8296,7 +10102,7 @@ by 8.5 kJ/mol.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8349,7 +10155,7 @@ to be 1/9 the rate of iC4H10+C2H=C2H2+iC4H9 (9 vs. 1 H-atom).
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8404,7 +10210,7 @@ H-atoms) and the Ea decreased by 20 kJ/mol.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8456,7 +10262,7 @@ based on the rxn iC4H10+HCO=CH2O+tC4H9.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8480,7 +10286,7 @@ entry(
         A = (2570000.0, 'cm^3/(mol*s)'),
         n = 1.9,
         alpha = 0,
-        E0 = (-1.45, 'kcal/mol'),
+        E0 = (1.45, 'kcal/mol'),
         Tmin = (298, 'K'),
         Tmax = (1150, 'K'),
     ),
@@ -8496,7 +10302,7 @@ Iso-C4H10 + OH --> tert-C4H9 + H2O
 Not yet checked
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8554,7 +10360,7 @@ work was referenced in the Berces and Trotman-Dickenson study?)
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8613,7 +10419,7 @@ Overall, this agrees with the earlier rate that we used.
 JDM 15-Jun-2010.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8649,7 +10455,7 @@ u"""
 C2H4 + O --> C2H3 + OH C.D.W divided original rate expression by 4(from A= 1.51E+07), to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8685,6 +10491,44 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 210,
+    label = "Cd_pri;C_rad/H2/Cs",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (158, 'cm^3/(mol*s)', '*|/', 10),
+        n = 3.13,
+        alpha = 0,
+        E0 = (18, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang [89] literature review.""",
+    longDesc = 
+u"""
 [89] Tsang, W.; Hampson, R.F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H4 + C2H5 --> C2H3 + C2H6 C.D.W divided original rate expression by 4, to get rate expression per H atom.
 
@@ -8701,7 +10545,7 @@ and manually adjusted the E.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8753,7 +10597,43 @@ OH+C2H4 --> H2O+C2H3: Recommended rate taken from expression reported by Tully (
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 211,
+    label = "Cd_pri;O_pri_rad",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (5130000000000.0, 'cm^3/(mol*s)', '*|/', 3.16),
+        n = 0,
+        alpha = 0,
+        E0 = (5.94, 'kcal/mol'),
+        Tmin = (650, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Baulch et al. [95] literature review.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8812,7 +10692,42 @@ OH+C3H6 --> H2O+H2C=CH-*CH2 and OH+C3H6 --> H2O+CH3C=CH2
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 212,
+    label = "Cd/H/NonDeC;O_atom_triplet",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 2T
+""",
+    kinetics = ArrheniusEP(
+        A = (60200000000.0, 'cm^3/(mol*s)', '*|/', 3),
+        n = 0.7,
+        alpha = 0,
+        E0 = (7.63, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang [93] literature review.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8865,7 +10780,42 @@ same influence in olefins as in alkanes.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 213,
+    label = "Cd/H/NonDeC;H_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (409000, 'cm^3/(mol*s)', '*|/', 4),
+        n = 2.5,
+        alpha = 0,
+        E0 = (9.79, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang [93] literature review.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8918,7 +10868,45 @@ that methyl substitution has the same influence in olefins as in alkanes.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 214,
+    label = "Cd/H/NonDeC;C_methyl",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.842, 'cm^3/(mol*s)', '*|/', 6),
+        n = 3.5,
+        alpha = 0,
+        E0 = (11.66, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang [93] literature review.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -8954,6 +10942,43 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 215,
+    label = "Cd/H/NonDeC;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.842, 'cm^3/(mol*s)', '*|/', 6),
+        n = 3.5,
+        alpha = 0,
+        E0 = (9.67, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang [93] literature review.""",
+    longDesc = 
+u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + C2H3 --> CH3C=CH2 + C2H4
 
@@ -8972,7 +10997,7 @@ the Ea's have been decreased by 4kJ/mol.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9008,6 +11033,42 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 216,
+    label = "Cd/H/NonDeC;Ct_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,T}
+2    C 0 {1,T}
+""",
+    kinetics = ArrheniusEP(
+        A = (1210000000000.0, 'cm^3/(mol*s)', '*|/', 5),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang [93] literature review.""",
+    longDesc = 
+u"""
 [93] Tsang, W. J. Phys. Chem. Ref. Data 1991, 20, 221.
 CH3CH=CH2 + C2H --> CH3C=CH2 + C2H2 
 
@@ -9022,7 +11083,7 @@ is assumed to be the rate of the rxn C2H+C2H6 --> C2H2+C2H5.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9078,7 +11139,43 @@ author has also introduced a T^2 dependence in the A-factor.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 217,
+    label = "Cd/H/NonDeC;O_pri_rad",
+    group1 = 
+"""
+1 *1 C  0 {2,D} {3,S} {4,S}
+2    C  0 {1,D}
+3 *2 H  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1110000.0, 'cm^3/(mol*s)', '*|/', 2),
+        n = 2,
+        alpha = 0,
+        E0 = (1.45, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Tsang [93] literature review.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9126,7 +11223,7 @@ and decomposition may exist.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9174,7 +11271,7 @@ Recommended data based on reverse rate and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9220,7 +11317,7 @@ Recommended data is derived from BEBO method calculation
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9257,7 +11354,7 @@ u"""
 Benzene + O2 --> phenyl + HO2 C.D.W divided original rate expression by 6(from A = 6.31E+13), to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9295,7 +11392,7 @@ Rate constant is high pressure limit. Benzene + H --> phenyl + H2
 C.D.W divided original rate expression by 6(from A = 6.02E+08), to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9333,7 +11430,7 @@ Pressure 0.01-0.26 atm Excitation: flash photolysis, analysis: resonance fluores
 C.D.W divided original rate expression by 6(from A = 3.01E+12), to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9374,7 +11471,7 @@ Pressure 0.30-0.50 atm Excitation: thermal, analysis: GC. Benzene + C2H5 --> phe
 C.D.W divided original rate expression by 6(from A = 6.31E+11), to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9425,7 +11522,7 @@ above 500K.  No other comment on where the recommended rate expression comes fro
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9462,7 +11559,7 @@ u"""
 CH2O + O2 --> HCO + HO2 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9511,7 +11608,7 @@ all in good agreement, and on the higher temperature value of Bowman."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9562,7 +11659,7 @@ NOTE: Rate coefficient is an upper limit
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9615,7 +11712,7 @@ Refs. 4, 5, and 7."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9666,7 +11763,7 @@ similar (as noted by Kerr, J.A. and Trotman-Dickenson, A.F.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9719,7 +11816,7 @@ was made to the 1959 report, taking the recommended rate of i-C3H7 recombination
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9774,7 +11871,7 @@ to derive the final form of the expression?)
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9824,7 +11921,7 @@ similar (as noted by Kerr, J.A. and Trotman-Dickenson, A.F.
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9872,7 +11969,7 @@ Recommended data based on "analogous systems"
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9922,7 +12019,7 @@ and Hampson.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -9971,7 +12068,7 @@ in competition with the disproportionation of two CH3O radicals (CH3O+CH3O-->CH3
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10008,7 +12105,7 @@ u"""
 CH2O + HO2 --> HCO + H2O2 C.D.W divided original rate expression by 2 (from A= 4.11E+04), to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10060,7 +12157,7 @@ cm3/molecule/s."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10096,7 +12193,7 @@ u"""
 CH3CHO + O --> CH3CO + OH
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10136,7 +12233,42 @@ u"""
 CH3CHO + H --> CH3CO + H2
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 241,
+    label = "CO/H/NonDe;H_rad",
+    group1 = 
+"""
+1 *1 C        0 {2,D} {3,S} {4,S}
+2    O        0 {1,D}
+3 *2 H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (40000000000000.0, 'cm^3/(mol*s)', '*|/', 2),
+        n = 0,
+        alpha = 0,
+        E0 = (4.21, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Warnatz [134] literature review""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10172,6 +12304,44 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 242,
+    label = "CO/H/NonDe;C_methyl",
+    group1 = 
+"""
+1 *1 C        0 {2,D} {3,S} {4,S}
+2    O        0 {1,D}
+3 *2 H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.99e-06, 'cm^3/(mol*s)', '*|/', 2),
+        n = 5.64,
+        alpha = 0,
+        E0 = (2.46, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1250, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Baulch et al. [95] literature review.""",
+    longDesc = 
+u"""
 [95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; 
 Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
@@ -10191,7 +12361,7 @@ data of Liu and Laidler and Colket et al."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10227,11 +12397,49 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 243,
+    label = "CO/H/NonDe;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 C        0 {2,D} {3,S} {4,S}
+2    O        0 {1,D}
+3 *2 H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (380000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (7.21, 'kcal/mol'),
+        Tmin = (790, 'K'),
+        Tmax = (810, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Loser et al. [135] bond strength-bond length method.""",
+    longDesc = 
+u"""
 [135] Loser, U.; Scherzer, K.; Weber, K. Z. Phys. Chem. (Leipzig) 1989, 270, 237.
 CH3CHO + CH2CH=CH2 --> CH3CO + CH3CH=CH2
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10266,11 +12474,48 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 244,
+    label = "CO/H/NonDe;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 C        0 {2,D} {3,S} {4,S}
+2    O        0 {1,D}
+3 *2 H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (81300000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (3.68, 'kcal/mol'),
+        Tmin = (480, 'K'),
+        Tmax = (520, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Scherzer et al. [136] bond energy-bond order method.""",
+    longDesc = 
+u"""
 [136] Scherzer, K.; Loser, U.; Stiller, W. Z. Phys. Chem. 1987, 27, 300.
 CH3CHO + C2H3 --> CH3CO + C2H4
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10316,7 +12561,43 @@ Previous modified Arrhenius parameters had E=1.3 kcal/mol; it should be E=-1.3 k
 Certified by MRH on 6Aug2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 245,
+    label = "CO/H/NonDe;O_pri_rad",
+    group1 = 
+"""
+1 *1 C        0 {2,D} {3,S} {4,S}
+2    O        0 {1,D}
+3 *2 H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2000000.0, 'cm^3/(mol*s)'),
+        n = 1.8,
+        alpha = 0,
+        E0 = (-1.3, 'kcal/mol'),
+        Tmin = (295, 'K'),
+        Tmax = (600, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""Taylor et al. [127] Transition state theory.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10356,7 +12637,43 @@ u"""
 CH3CHO + OH --> CH3CO + H2O
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 246,
+    label = "CO/H/NonDe;O_pri_rad",
+    group1 = 
+"""
+1 *1 C        0 {2,D} {3,S} {4,S}
+2    O        0 {1,D}
+3 *2 H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (10000000000000.0, 'cm^3/(mol*s)', '*|/', 2.51),
+        n = 0,
+        alpha = 0,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Warnatz [134] literature review""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10410,7 +12727,43 @@ factor of 5.0x10^-12 cm3/molecule/s."
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 247,
+    label = "CO/H/NonDe;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 C        0 {2,D} {3,S} {4,S}
+2    O        0 {1,D}
+3 *2 H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (3010000000000.0, 'cm^3/(mol*s)', '*|/', 5),
+        n = 0,
+        alpha = 0,
+        E0 = (11.92, 'kcal/mol'),
+        Tmin = (900, 'K'),
+        Tmax = (1200, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Baulch et al. [95] literature review.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10453,7 +12806,42 @@ H2O + O2 --> OH + HO2.
 C.D.W divided original rate expression by 2, to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 248,
+    label = "O_pri;O2b",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2325000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (74.12, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""Mayer et al. [137] Bond energy-bond order.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10488,7 +12876,7 @@ u"""
 H2O + O --> OH + OH. C.D.W divided original rate expression by 2 (from A= 2.95E+39), to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10523,7 +12911,7 @@ u"""
 H2O + O --> OH + OH. C.D.W divided original rate expression by 2 (from A= 1.48E+05), to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10576,7 +12964,7 @@ has an E = 19.32 kcal/mol.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10614,7 +13002,7 @@ u"""
 H2O + CH3 --> OH + CH4. C.D.W divided original rate expression by 2 (from A= 6.39), to get rate expression per H atom.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10662,7 +13050,7 @@ Recommended data based on reverse rate and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10710,7 +13098,7 @@ Recommended data based on reverse rate and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10757,7 +13145,7 @@ Recommended data based on expression for CH3+H2O=CH4+OH
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10804,7 +13192,7 @@ Recommended data based on reverse rate and equilibrium constant
 MRH 28-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10850,7 +13238,7 @@ A: exp(ln(A)), multiplied by 6.02e23 (to convert /molecule to /mol) and divided 
 Certified by MRH on 7Aug2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10888,7 +13276,7 @@ H2O + CH3O --> OH + CH3OH C.D.W divided original rate expression by 2 (from A= 9
 Verified by Greg Magoon: note that this reaction is endothermic; the reverse (R5), appears as #267, below
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10923,7 +13311,7 @@ u"""
 CH3OH + O --> CH3O + OH
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -10977,7 +13365,7 @@ expression for CH3+CH3OH=CH4+CH3O
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11017,7 +13405,7 @@ The calculated rate constants are in good agreement with experiment. CH3OH + CH3
 Verified by Greg Magoon: I changed upper temperature to 2000 K (was 2500) in line with other reactions from same paper; note that according to the paper, this reaction is very slightly endothermic; the exothermic reverse (-R3) is included above as #177
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11072,7 +13460,7 @@ MRH 30-Aug-2009
 //263: [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11128,7 +13516,7 @@ MRH 30-Aug-2009
 //264: [90] Tsang, W. J. Phys. Chem. Ref. Data 1987, 16, 471.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11183,7 +13571,7 @@ Recommended rate is based on reverse rxn and equilibrium constant
 Verified by MRH on 10Aug2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11233,7 +13621,7 @@ expression for CH3+CH3OH=CH4+CH3O.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11282,7 +13670,7 @@ expression based on measurements of C2H+CH4 and C2H+C2H6 rxns
 MRH 30-Aug-2009
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11320,7 +13708,7 @@ The calculated rate constants are in good agreement with experiment. CH3OH + OH 
 Verified by Greg Magoon (cf. reverse, #258, above)
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11356,7 +13744,7 @@ u"""
 CH3OH + OH --> CH3O + H2O
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11395,7 +13783,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11434,7 +13822,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11473,7 +13861,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11511,7 +13899,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11550,7 +13938,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11589,7 +13977,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11628,7 +14016,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11667,7 +14055,815 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 301,
+    label = "H2O2;InChI=1/C4H9O/c1-2-3-4-5/h5H,1-4H2",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1  *3 C 1 {2,S} {6,S} {7,S}
+2     C 0 {1,S} {3,S} {8,S} {9,S}
+3     C 0 {2,S} {4,S} {10,S} {11,S}
+4     C 0 {3,S} {5,S} {12,S} {13,S}
+5     O 0 {4,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2.88, 'cm^3/(mol*s)'),
+        n = 3.16,
+        alpha = 0,
+        E0 = (0.75, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/o HR corrections
+H2O2 + *CH2CH2CH2CH2OH = nButanol + HO2
+
+CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
+calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
+tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
+J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
+for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
+The computed pre-exponential factor was divided by 2 and this is the reported value.
+
+For nButanol+HO2=H2O2+*CH2CH2CH2CH2OH:
+Moc et al. (AIP Conference Proceedings (2009) 1148 161-164 "The Unimolecular Decomposition
+and H Abstraction Reactions by HO and HO2 from n-Butanol") report reaction barriers and
+enthalpies(0 K); our CBS-QB3 calculations are shown in comparison (all units are kcal/mol).
+				G3		CCSD(T)/cc-pVTZ		CBS-QB3
+Barrier:		18.8		19.62			17.57
+Enthalpy:		14.25		14.66			13.70
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 302,
+    label = "H2O2;InChI=1/C4H9O/c1-2-3-4-5/h2,5H,3-4H2,1H3",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2  *3 C 1 {1,S} {3,S} {9,S}
+3     C 0 {2,S} {4,S} {10,S} {11,S}
+4     C 0 {3,S} {5,S} {12,S} {13,S}
+5     O 0 {4,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.675, 'cm^3/(mol*s)'),
+        n = 3.42,
+        alpha = 0,
+        E0 = (1.43, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/o HR corrections
+H2O2 + CH3*CHCH2CH2OH = nButanol + HO2
+
+CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
+calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
+tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
+J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
+for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
+The computed pre-exponential factor was divided by 2 and this is the reported value.
+
+For nButanol+HO2=H2O2+CH3*CHCH2CH2OH:
+Moc et al. (AIP Conference Proceedings (2009) 1148 161-164 "The Unimolecular Decomposition
+and H Abstraction Reactions by HO and HO2 from n-Butanol") report reaction barriers and
+enthalpies(0 K); our CBS-QB3 calculations are shown in comparison (all units are kcal/mol).
+				G3		CCSD(T)/cc-pVTZ		CBS-QB3
+Barrier:		14.64		15.47			14.72
+Enthalpy:		11.05		12.41			10.11
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 303,
+    label = "C/H/CdCd;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00607, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 303,
+    label = "H2O2;InChI=1/C4H9O/c1-2-3-4-5/h3,5H,2,4H2,1H3",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2     C 0 {1,S} {3,S} {9,S} {10,S}
+3  *3 C 1 {2,S} {4,S} {11,S}
+4     C 0 {3,S} {5,S} {12,S} {13,S}
+5     O 0 {4,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.3145, 'cm^3/(mol*s)'),
+        n = 3.52,
+        alpha = 0,
+        E0 = (1.61, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/o HR corrections
+H2O2 + CH3CH2*CHCH2OH = nButanol + HO2
+
+CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
+calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
+tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
+J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
+for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
+The computed pre-exponential factor was divided by 2 and this is the reported value.
+
+For nButanol+HO2=H2O2+CH3CH2*CHCH2OH:
+Moc et al. (AIP Conference Proceedings (2009) 1148 161-164 "The Unimolecular Decomposition
+and H Abstraction Reactions by HO and HO2 from n-Butanol") report reaction barriers and
+enthalpies(0 K); our CBS-QB3 calculations are shown in comparison (all units are kcal/mol).
+				G3		CCSD(T)/cc-pVTZ		CBS-QB3
+Barrier:		15.43		16.37			16.33
+Enthalpy:		13.53		14.02			11.48
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 304,
+    label = "C/H/CdCd;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0108, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (6.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 304,
+    label = "H2O2;InChI=1/C4H9O/c1-2-3-4-5/h4-5H,2-3H2,1H3",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2     C 0 {1,S} {3,S} {9,S} {10,S}
+3     C 0 {2,S} {4,S} {11,S} {12,S}
+4  *3 C 1 {3,S} {5,S} {13,S}
+5     O 0 {4,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.485, 'cm^3/(mol*s)'),
+        n = 3.39,
+        alpha = 0,
+        E0 = (1.4, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/o HR corrections
+H2O2 + CH3CH2CH2*CHOH = nButanol + HO2
+
+CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
+calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
+tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
+J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
+for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
+The computed pre-exponential factor was divided by 2 and this is the reported value.
+
+For nButanol+HO2=H2O2+CH3CH2CH2*CHOH:
+Moc et al. (AIP Conference Proceedings (2009) 1148 161-164 "The Unimolecular Decomposition
+and H Abstraction Reactions by HO and HO2 from n-Butanol") report reaction barriers and
+enthalpies(0 K); our CBS-QB3 calculations are shown in comparison (all units are kcal/mol).
+				G3		CCSD(T)/cc-pVTZ		CBS-QB3
+Barrier:		12.62		13.23			11.74
+Enthalpy:		 8.35		 8.63			 7.17
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 305,
+    label = "C/H/CdCd;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00437, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (5.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/o HR corrections
+H2O2 + *CH2CH2CH[OH]CH3 = 2-Butanol + HO2
+
+CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
+calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
+tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
+J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
+for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
+The computed pre-exponential factor was divided by 2 and this is the reported value.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 305,
+    label = "H2O2;InChI=1/C4H9O/c1-3-4(2)5/h4-5H,1,3H2,2H3",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1  *3 C 1 {3,S} {6,S} {7,S}
+2     C 0 {4,S} {8,S} {9,S} {10,S}
+3     C 0 {1,S} {4,S} {11,S} {12,S}
+4     C 0 {2,S} {3,S} {5,S} {13,S}
+5     O 0 {4,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (5.75, 'cm^3/(mol*s)'),
+        n = 2.94,
+        alpha = 0,
+        E0 = (0.46, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 306,
+    label = "C/H/CdCd;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0363, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (-1.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 306,
+    label = "H2O2;InChI=1/C4H9O/c1-3-4(2)5/h3-5H,1-2H3",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1     C 0 {3,S} {6,S} {7,S} {8,S}
+2     C 0 {4,S} {9,S} {10,S} {11,S}
+3  *3 C 1 {1,S} {4,S} {12,S}
+4     C 0 {2,S} {3,S} {5,S} {13,S}
+5     O 0 {4,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.875, 'cm^3/(mol*s)'),
+        n = 2.91,
+        alpha = 0,
+        E0 = (-0.41, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/o HR corrections
+H2O2 + CH3*CHCH[OH]CH3 = 2-Butanol + HO2
+
+CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
+calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
+tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
+J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
+for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
+The computed pre-exponential factor was divided by 2 and this is the reported value.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 307,
+    label = "C/H/CdCd;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0598, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/o HR corrections
+H2O2 + CH3CH2*C[OH]CH3 = 2-Butanol + HO2
+
+CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
+calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
+tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
+J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
+for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
+The computed pre-exponential factor was divided by 2 and this is the reported value.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 307,
+    label = "H2O2;InChI=1/C4H9O/c1-3-4(2)5/h5H,3H2,1-2H3",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1     C 0 {3,S} {6,S} {7,S} {8,S}
+2     C 0 {4,S} {9,S} {10,S} {11,S}
+3     C 0 {1,S} {4,S} {12,S} {13,S}
+4  *3 C 1 {2,S} {3,S} {5,S}
+5     O 0 {4,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (17.3, 'cm^3/(mol*s)'),
+        n = 3.05,
+        alpha = 0,
+        E0 = (1.02, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 308,
+    label = "C/H/CdCd;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00756, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (17.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 308,
+    label = "H2O2;InChI=1/C4H9O/c1-3-4(2)5/h4-5H,2-3H2,1H3",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1     C 0 {3,S} {6,S} {7,S} {8,S}
+2  *3 C 1 {4,S} {9,S} {10,S}
+3     C 0 {1,S} {4,S} {11,S} {12,S}
+4     C 0 {2,S} {3,S} {5,S} {13,S}
+5     O 0 {4,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.3055, 'cm^3/(mol*s)'),
+        n = 3.53,
+        alpha = 0,
+        E0 = (1.52, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/o HR corrections
+H2O2 + CH3CH2CH[OH]*CH2 = 2-Butanol + HO2
+
+CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
+calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
+tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
+J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
+for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
+The computed pre-exponential factor was divided by 2 and this is the reported value.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 309,
+    label = "C/H/CdCd;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cd 0 {1,S}
+4    Cd 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0356, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (15.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/o HR corrections
+H2O2 + HOC[*CH2][CH3][CH3] = tert-Butanol + HO2
+
+CBS-QB3 method was used to calculate electronic energy of reactants, products, and TS; frequencies were
+calculated using B3LYP/CBSB7 method.  Arrhenius expression was computed using CanTherm: an asymmetric Eckart
+tunneling correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomery et al.
+J.Chem.Phys. 110 (1999) 2822-2827).  The external symmetry number for H2O2 was 2; the external symmetry number
+for the remaining species and TS were set to 1.  The rate coefficient was computed at 600-2000K (in 200 K increments).
+The computed pre-exponential factor was divided by 2 and this is the reported value.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 309,
+    label = "H2O2;InChI=1/C4H9O/c1-4(2,3)5/h5H,1H2,2-3H3",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1  *3 C 1 {4,S} {6,S} {7,S}
+2     C 0 {4,S} {8,S} {9,S} {10,S}
+3     C 0 {4,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {2,S} {3,S} {5,S}
+5     O 0 {4,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.21, 'cm^3/(mol*s)'),
+        n = 3.53,
+        alpha = 0,
+        E0 = (1.56, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11713,7 +14909,7 @@ These rates have been calculated based on rates of primary- and secondary-alkyl 
 The A-factors have remained the same.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11752,7 +14948,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11791,7 +14987,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11830,7 +15026,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11868,7 +15064,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11907,7 +15103,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11946,7 +15142,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -11985,7 +15181,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12024,7 +15220,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12063,7 +15259,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12102,7 +15298,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12141,7 +15337,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12179,7 +15375,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12218,7 +15414,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12257,7 +15453,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12296,7 +15492,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12335,7 +15531,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12374,7 +15570,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12413,7 +15609,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12452,7 +15648,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12490,7 +15686,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12529,7 +15725,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12568,7 +15764,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12607,7 +15803,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12646,7 +15842,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12685,7 +15881,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12724,7 +15920,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12763,7 +15959,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12801,7 +15997,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12840,7 +16036,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12879,7 +16075,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12918,7 +16114,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12957,7 +16153,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -12996,7 +16192,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13035,7 +16231,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13074,7 +16270,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13112,7 +16308,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13151,7 +16347,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13190,7 +16386,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13229,7 +16425,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13268,7 +16464,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13303,7 +16499,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13340,7 +16536,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13379,7 +16575,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13418,7 +16614,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13457,7 +16653,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13495,7 +16691,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13534,7 +16730,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13573,7 +16769,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13612,7 +16808,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13651,7 +16847,2621 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 500,
+    label = "CO_pri;InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3",
+    group1 = 
+"""
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    O 0 {1,D}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,D} {5,S} {6,S}
+2     C 0 {1,D} {3,S} {4,S}
+3  *3 C 1 {2,S} {7,S} {8,S}
+4     C 0 {2,S} {9,S} {10,S} {11,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {3,S}
+8     H 0 {3,S}
+9     H 0 {4,S}
+10    H 0 {4,S}
+11    H 0 {4,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.03065, 'cm^3/(mol*s)'),
+        n = 3.95,
+        alpha = 0,
+        E0 = (12.22, 'kcal/mol'),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/o HR corrections
+CH2O + H2C=C[*CH2][CH3] = HCO + H2C=C[CH3]2
+
+Geometries and energies of reactants, products, and TS were computed using the CBS-QB3 methodology; frequencies
+were calculated at B3LYP/CBSB7.  Arrhenius expression was computed using CanTherm; an asymmetric Eckart tunneling
+correction was employed and the frequencies were scaled by 0.99 (as suggested by Montgomergy et al.; J. Chem. Phys.
+110 (1999) 2822-2827).  The Arrhenius fit was based on k(T) at T=600, 800, 1000, 1200, 1400, 1600, 1800, and 2000K.
+The external symmetry number for CH2O and iso-butene was 2; the external symmetry for all others was 1.  The
+electronic spin multiplicity was 1 for CH2O and iso-butene; the electronic spin multiplicity for all others was 2.
+The computed pre-exponential factor was divided by 2 (symmetry of CH2O), from 6.13e-02 to 3.065e-02.
+
+There are no rate coefficients for this reaction in the literature (based on MRH's limited search).
+   Tsang {J. Phys. Chem. Ref. Data 20 (1991) 221-273} recommends the following for the reaction of 
+   CH2O + H2C=CH-*CH2 = HCO + H2C=CH-CH3: k(T) = 1.26e+08 * T^1.9 * exp(-18.184 kcal/mol / RT) cm3 mol-1 s-1.
+   This rate coefficient is 25-85x faster than MRH's calculation over the range 600-2000K.
+   
+   The previous estimate by RMG for this reaction was: k(T) = 5.500e+03 * T^2.81 * exp(-5.86 kcal/mol / RT) cm3 mol-1 s-1.
+   This rate coefficient is 80-13,000x faster than MRH's calculation over the range 600-2000K.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 501,
+    label = "InChI=1/C3H8/c1-3-2/h3H2,1-2H3;InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3",
+    group1 = 
+"""
+1     C 0 {2,S} {4,S} {5,S} {6,S}
+2  *1 C 0 {1,S} {3,S} {7,S} {8,S}
+3     C 0 {2,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7  *2 H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2  *3 C 1 {1,S} {3,S} {5,S}
+3     C 0 {2,S} {4,S} {9,S} {10,S}
+4     O 0 {3,S} {11,S}
+5     C 0 {2,S} {12,S} {13,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (9.11e-07, 'cm^3/(mol*s)'),
+        n = 5.11,
+        alpha = 0,
+        E0 = (5.69, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
+
+InChI=1/C3H8/c1-3-2/h3H2,1-2H3 (external symmetry number = 2, spin multiplicity = 1)
+ +
+InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C3H7/c1-3-2/h3H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 502,
+    label = "InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha;InChI=1/C3H7/c1-3-2/h3H,1-2H3",
+    group1 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2     C 0 {1,S} {3,S} {5,S} {9,S}
+3  *1 C 0 {2,S} {4,S} {10,S} {11,S}
+4     O 0 {3,S} {12,S}
+5     C 0 {2,S} {13,S} {14,S} {15,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10 *2 H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {5,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {4,S} {5,S} {6,S}
+2  *3 C 1 {1,S} {3,S} {7,S}
+3     C 0 {2,S} {8,S} {9,S} {10,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {3,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.06e-06, 'cm^3/(mol*s)'),
+        n = 5.06,
+        alpha = 0,
+        E0 = (4.89, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
+
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/C3H7/c1-3-2/h3H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C3H8/c1-3-2/h3H2,1-2H3 (external symmetry number = 2, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 503,
+    label = "InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3;InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3",
+    group1 = 
+"""
+1     C 0 {2,D} {5,S} {6,S}
+2     C 0 {1,D} {3,S} {4,S}
+3  *1 C 0 {2,S} {7,S} {8,S} {9,S}
+4     C 0 {2,S} {10,S} {11,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7  *2 H 0 {3,S}
+8     H 0 {3,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
+""",
+    group2 = 
+"""
+1  *3 C 1 {2,S} {6,S} {7,S}
+2     C 0 {1,S} {3,S} {5,S} {8,S}
+3     C 0 {2,S} {4,S} {9,S} {10,S}
+4     O 0 {3,S} {11,S}
+5     C 0 {2,S} {12,S} {13,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (8.39e-06, 'cm^3/(mol*s)'),
+        n = 4.89,
+        alpha = 0,
+        E0 = (4.32, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
+
+InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
+ +
+InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 504,
+    label = "InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3;InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3",
+    group1 = 
+"""
+1     C 0 {2,D} {5,S} {6,S}
+2     C 0 {1,D} {3,S} {4,S}
+3  *1 C 0 {2,S} {7,S} {8,S} {9,S}
+4     C 0 {2,S} {10,S} {11,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7  *2 H 0 {3,S}
+8     H 0 {3,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2  *3 C 1 {1,S} {3,S} {5,S}
+3     C 0 {2,S} {4,S} {9,S} {10,S}
+4     O 0 {3,S} {11,S}
+5     C 0 {2,S} {12,S} {13,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.44e-05, 'cm^3/(mol*s)'),
+        n = 4.52,
+        alpha = 0,
+        E0 = (1.46, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
+
+InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
+ +
+InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 505,
+    label = "InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3;InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3",
+    group1 = 
+"""
+1     C 0 {2,D} {5,S} {6,S}
+2     C 0 {1,D} {3,S} {4,S}
+3  *1 C 0 {2,S} {7,S} {8,S} {9,S}
+4     C 0 {2,S} {10,S} {11,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7  *2 H 0 {3,S}
+8     H 0 {3,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2     C 0 {1,S} {3,S} {5,S} {9,S}
+3  *3 C 1 {2,S} {4,S} {10,S}
+4     O 0 {3,S} {11,S}
+5     C 0 {2,S} {12,S} {13,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4.91e-06, 'cm^3/(mol*s)'),
+        n = 5.07,
+        alpha = 0,
+        E0 = (3.66, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
+
+InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
+ +
+InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 506,
+    label = "InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3;InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3",
+    group1 = 
+"""
+1     C 0 {2,D} {5,S} {6,S}
+2     C 0 {1,D} {3,S} {4,S}
+3  *1 C 0 {2,S} {7,S} {8,S} {9,S}
+4     C 0 {2,S} {10,S} {11,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7  *2 H 0 {3,S}
+8     H 0 {3,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2     C 0 {1,S} {3,S} {5,S} {9,S}
+3     C 0 {2,S} {4,S} {10,S} {11,S}
+4  *3 O 1 {3,S}
+5     C 0 {2,S} {12,S} {13,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {5,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.583, 'cm^3/(mol*s)'),
+        n = 3.74,
+        alpha = 0,
+        E0 = (1.45, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
+
+InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
+ +
+InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 507,
+    label = "InChI=1/C3H6/c1-3-2/h3H,1H2,2H3;InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
+4 *2 H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
+""",
+    group2 = 
+"""
+1  *3 C 1 {2,S} {6,S} {7,S}
+2     C 0 {1,S} {3,S} {5,S} {8,S}
+3     C 0 {2,S} {4,S} {9,S} {10,S}
+4     O 0 {3,S} {11,S}
+5     C 0 {2,S} {12,S} {13,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (3.36e-05, 'cm^3/(mol*s)'),
+        n = 4.75,
+        alpha = 0,
+        E0 = (4.13, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
+
+InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C3H5/c1-3-2/h3H,1-2H2 (external symmetry number = 2, spin multiplicity = 2)
+ +
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+
+Tsang [Tsang1991]_ recommends k(T) = 2.23e+00 * (T/K)^3.5 * exp(-6.64 kcal/mol /RT) cm3 mol-1 s-1
+for the reaction C3H6 + iso-C4H9 = iso-C4H10 + C3H5.  The new rate coefficient expression is
+in good agreement with this expression (within 10% over most of the valid temperature range).
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 508,
+    label = "InChI=1/C3H6/c1-3-2/h3H,1H2,2H3;InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
+4 *2 H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2  *3 C 1 {1,S} {3,S} {5,S}
+3     C 0 {2,S} {4,S} {9,S} {10,S}
+4     O 0 {3,S} {11,S}
+5     C 0 {2,S} {12,S} {13,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.64e-06, 'cm^3/(mol*s)'),
+        n = 4.98,
+        alpha = 0,
+        E0 = (3.18, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
+
+InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C3H5/c1-3-2/h3H,1-2H2 (external symmetry number = 2, spin multiplicity = 2)
+ +
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+
+Tsang [Tsang1991]_ recommends k(T) = 3.01e-05 * (T/K)^4.9 * exp(-7.95 kcal/mol /RT) cm3 mol-1 s-1
+for the reaction C3H6 + tert-C4H9 = iso-C4H10 + C3H5.  The new rate coefficient expression is faster
+by as much as 10x over of the valid temperature range.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 509,
+    label = "InChI=1/C3H6/c1-3-2/h3H,1H2,2H3;InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
+4 *2 H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2     C 0 {1,S} {3,S} {5,S} {9,S}
+3  *3 C 1 {2,S} {4,S} {10,S}
+4     O 0 {3,S} {11,S}
+5     C 0 {2,S} {12,S} {13,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (3.11e-06, 'cm^3/(mol*s)'),
+        n = 4.97,
+        alpha = 0,
+        E0 = (3.64, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
+
+InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C3H5/c1-3-2/h3H,1-2H2 (external symmetry number = 2, spin multiplicity = 2)
+ +
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 510,
+    label = "InChI=1/C3H6/c1-3-2/h3H,1H2,2H3;InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
+4 *2 H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2     C 0 {1,S} {3,S} {5,S} {9,S}
+3     C 0 {2,S} {4,S} {10,S} {11,S}
+4  *3 O 1 {3,S}
+5     C 0 {2,S} {12,S} {13,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {5,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.119, 'cm^3/(mol*s)'),
+        n = 3.9,
+        alpha = 0,
+        E0 = (1.81, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 3 to get per-H value.
+
+InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C3H5/c1-3-2/h3H,1-2H2 (external symmetry number = 2, spin multiplicity = 2)
+ +
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 511,
+    label = "InChI=1/C2H6/c1-2/h1-2H3;InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+""",
+    group2 = 
+"""
+1  *3 C 1 {2,S} {6,S} {7,S}
+2     C 0 {1,S} {3,S} {5,S} {8,S}
+3     C 0 {2,S} {4,S} {9,S} {10,S}
+4     O 0 {3,S} {11,S}
+5     C 0 {2,S} {12,S} {13,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (3.21e-06, 'cm^3/(mol*s)'),
+        n = 5.28,
+        alpha = 0,
+        E0 = (7.78, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
+
+InChI=1/C2H6/c1-2/h1-2H3 (external symmetry number = 6, spin multiplicity = 1)
+ +
+InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C2H5/c1-2/h1H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+
+Tsang [Tsang1990]_ recommends k(T) = 2.894e-01 * (T/K)^3.7 * exp(-9.78 kcal/mol /RT) cm3 mol-1 s-1
+for the reaction C2H6 + iso-C4H9 = iso-C4H10 + C2H5.  The new rate coefficient expression is faster
+by 10-100x over of the valid temperature range.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 512,
+    label = "InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/beta;InChI=1/C2H5/c1-2/h1H2,2H3",
+    group1 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2  *1 C 0 {1,S} {3,S} {5,S} {9,S}
+3     C 0 {2,S} {4,S} {10,S} {11,S}
+4     O 0 {3,S} {12,S}
+5     C 0 {2,S} {13,S} {14,S} {15,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9  *2 H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {5,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    C 0 {1,S} {5,S} {6,S} {7,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {2,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.41e-05, 'cm^3/(mol*s)'),
+        n = 4.83,
+        alpha = 0,
+        E0 = (4.37, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
+
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/C2H5/c1-2/h1H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C2H6/c1-2/h1-2H3 (external symmetry number = 6, spin multiplicity = 1)
+
+Tsang [Tsang1990]_ recommends k(T) = 5.41e-01 * (T/K)^3.46 * exp(-5.96 kcal/mol /RT) cm3 mol-1 s-1
+for the reaction iso-C4H10 + C2H5 = C2H6 + tert-C4H9.  The new rate coefficient expression is
+in good agreement with this expression (within a factor of 1.6 over the valid temperature range).
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 513,
+    label = "InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha;InChI=1/C2H5/c1-2/h1H2,2H3",
+    group1 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2     C 0 {1,S} {3,S} {5,S} {9,S}
+3  *1 C 0 {2,S} {4,S} {10,S} {11,S}
+4     O 0 {3,S} {12,S}
+5     C 0 {2,S} {13,S} {14,S} {15,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10 *2 H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {5,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    C 0 {1,S} {5,S} {6,S} {7,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {2,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (4.25e-06, 'cm^3/(mol*s)'),
+        n = 5.01,
+        alpha = 0,
+        E0 = (5.01, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
+
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/C2H5/c1-2/h1H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C2H6/c1-2/h1-2H3 (external symmetry number = 6, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 514,
+    label = "InChI=1/C2H6/c1-2/h1-2H3;InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2     C 0 {1,S} {3,S} {5,S} {9,S}
+3     C 0 {2,S} {4,S} {10,S} {11,S}
+4  *3 O 1 {3,S}
+5     C 0 {2,S} {12,S} {13,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {5,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00507, 'cm^3/(mol*s)'),
+        n = 4.52,
+        alpha = 0,
+        E0 = (2.34, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
+
+InChI=1/C2H6/c1-2/h1-2H3 (external symmetry number = 6, spin multiplicity = 1)
+ +
+InChI=1/C4H9O/c1-4(2)3-5/h4H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C2H5/c1-2/h1H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 515,
+    label = "InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/beta;InChI=1/C2H3/c1-2/h1H,2H2",
+    group1 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2  *1 C 0 {1,S} {3,S} {5,S} {9,S}
+3     C 0 {2,S} {4,S} {10,S} {11,S}
+4     O 0 {3,S} {12,S}
+5     C 0 {2,S} {13,S} {14,S} {15,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9  *2 H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {5,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D} {4,S} {5,S}
+3    H 0 {1,S}
+4    H 0 {2,S}
+5    H 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (5.49, 'cm^3/(mol*s)'),
+        n = 3.33,
+        alpha = 0,
+        E0 = (0.63, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
+
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/C2H3/c1-2/h1H,2H2 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C2H4/c1-2/h1-2H2 (external symmetry number = 4, spin multiplicity = 1)
+
+Tsang [Tsang1990]_ recommends k(T) = 9.04e-01 * (T/K)^3.46 * exp(-2.60 kcal/mol /RT) cm3 mol-1 s-1
+for the reaction iso-C4H10 + C2H3 = C2H4 + tert-C4H9.  The new rate coefficient is faster by 4-10x
+over the valid temperature range.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 516,
+    label = "InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/gamma;InChI=1/C3H5/c1-3-2/h1H2,2H3",
+    group1 = 
+"""
+1  *1 C 0 {2,S} {6,S} {7,S} {8,S}
+2     C 0 {1,S} {3,S} {5,S} {9,S}
+3     C 0 {2,S} {4,S} {10,S} {11,S}
+4     O 0 {3,S} {12,S}
+5     C 0 {2,S} {13,S} {14,S} {15,S}
+6  *2 H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {5,S}
+""",
+    group2 = 
+"""
+1    C 0 {2,D} {4,S} {5,S}
+2 *3 C 1 {1,D} {3,S}
+3    C 0 {2,S} {6,S} {7,S} {8,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {3,S}
+7    H 0 {3,S}
+8    H 0 {3,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (3.11e-05, 'cm^3/(mol*s)'),
+        n = 4.87,
+        alpha = 0,
+        E0 = (3.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
+
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/C3H5/c1-3-2/h1H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 517,
+    label = "InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha;InChI=1/C3H5/c1-3-2/h1H2,2H3",
+    group1 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2     C 0 {1,S} {3,S} {5,S} {9,S}
+3  *1 C 0 {2,S} {4,S} {10,S} {11,S}
+4     O 0 {3,S} {12,S}
+5     C 0 {2,S} {13,S} {14,S} {15,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10 *2 H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {5,S}
+""",
+    group2 = 
+"""
+1    C 0 {2,D} {4,S} {5,S}
+2 *3 C 1 {1,D} {3,S}
+3    C 0 {2,S} {6,S} {7,S} {8,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {3,S}
+7    H 0 {3,S}
+8    H 0 {3,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0128, 'cm^3/(mol*s)'),
+        n = 4.09,
+        alpha = 0,
+        E0 = (1.31, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
+
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/C3H5/c1-3-2/h1H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C3H6/c1-3-2/h3H,1H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 518,
+    label = "InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3/beta;InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3",
+    group1 = 
+"""
+1     C 0 {2,S} {5,S} {6,S} {7,S}
+2  *1 C 0 {1,S} {3,S} {8,S} {9,S}
+3     C 0 {2,S} {4,D} {10,S}
+4     O 0 {3,D}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8  *2 H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+""",
+    group2 = 
+"""
+1  *3 C 1 {2,S} {6,S} {7,S}
+2     C 0 {1,S} {3,S} {5,S} {8,S}
+3     C 0 {2,S} {4,S} {9,S} {10,S}
+4     O 0 {3,S} {11,S}
+5     C 0 {2,S} {12,S} {13,S} {14,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000156, 'cm^3/(mol*s)'),
+        n = 4.31,
+        alpha = 0,
+        E0 = (3.39, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
+
+InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/C4H9O/c1-4(2)3-5/h4-5H,1,3H2,2H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 519,
+    label = "InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/beta;InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c",
+    group1 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2  *1 C 0 {1,S} {3,S} {5,S} {9,S}
+3     C 0 {2,S} {4,S} {10,S} {11,S}
+4     O 0 {3,S} {12,S}
+5     C 0 {2,S} {13,S} {14,S} {15,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9  *2 H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {5,S}
+""",
+    group2 = 
+"""
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2 *3 C 1 {1,S} {3,S} {8,S}
+3    C 0 {2,S} {4,D} {9,S}
+4    O 0 {3,D}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000485, 'cm^3/(mol*s)'),
+        n = 4.37,
+        alpha = 0,
+        E0 = (9.66, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
+
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H9O/c1-4(2)3-5/h5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3 (external symmetry number = 1, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 520,
+    label = "C/H2/CbCs;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00184, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (10.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 520,
+    label = "InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3/alpha;InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/c",
+    group1 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2     C 0 {1,S} {3,S} {5,S} {9,S}
+3  *1 C 0 {2,S} {4,S} {10,S} {11,S}
+4     O 0 {3,S} {12,S}
+5     C 0 {2,S} {13,S} {14,S} {15,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10 *2 H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {5,S}
+""",
+    group2 = 
+"""
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2 *3 C 1 {1,S} {3,S} {8,S}
+3    C 0 {2,S} {4,D} {9,S}
+4    O 0 {3,D}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00184, 'cm^3/(mol*s)'),
+        n = 4.02,
+        alpha = 0,
+        E0 = (7.92, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 2 to get per-H value.
+
+InChI=1/C4H10O/c1-4(2)3-5/h4-5H,3H2,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H9O/c1-4(2)3-5/h3-5H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C3H6O/c1-2-3-4/h3H,2H2,1H3 (external symmetry number = 1, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 521,
+    label = "C/H2/CbCs;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00329, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (10.2, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 521,
+    label = "InChI=1/C4H8O/c1-4(2)3-5/h3-4H,1-2H3;H_rad",
+    group1 = 
+"""
+1     C 0 {2,S} {6,S} {7,S} {8,S}
+2  *1 C 0 {1,S} {3,S} {5,S} {9,S}
+3     C 0 {2,S} {4,D} {10,S}
+4     O 0 {3,D}
+5     C 0 {2,S} {11,S} {12,S} {13,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9  *2 H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {5,S}
+12    H 0 {5,S}
+13    H 0 {5,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (20800000.0, 'cm^3/(mol*s)'),
+        n = 1.84,
+        alpha = 0,
+        E0 = (3.03, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.
+
+InChI=1/C4H8O/c1-4(2)3-5/h3-4H,1-2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+InChI=1/H (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H7O/c1-4(2)3-5/h3H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/H2/h1H (external symmetry number = 2, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 522,
+    label = "C/H2/CbCs;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00133, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (10, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/RRHO [MRHCBSQB3RRHO]_.  Pre-exponential was divided by 6 to get per-H value.
+
+InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3 (external symmetry number = 2, spin multiplicity = 1)
+ +
+InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H7/c1-4(2)3/h1-2H2,3H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+InChI=1/C3H6O/c1-2-3-4/h2-4H,1H3/ (external symmetry number = 1, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 522,
+    label = "InChI=1/C4H8/c1-4(2)3/h1H2,2-3H3;InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/o",
+    group1 = 
+"""
+1     C 0 {2,D} {5,S} {6,S}
+2     C 0 {1,D} {3,S} {4,S}
+3  *1 C 0 {2,S} {7,S} {8,S} {9,S}
+4     C 0 {2,S} {10,S} {11,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7  *2 H 0 {3,S}
+8     H 0 {3,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
+""",
+    group2 = 
+"""
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2    C 0 {1,S} {3,D} {8,S}
+3    C 0 {2,D} {4,S} {9,S}
+4 *3 O 1 {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (7.52e-08, 'cm^3/(mol*s)'),
+        n = 5.77,
+        alpha = 0,
+        E0 = (12.04, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 523,
+    label = "C/H2/CbCs;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.011, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (2.5, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+ROH + .OO. --> HOO. + RO.
+
+This rate coefficient is an estimate from W.H. Green (personal communication).  The pre-exponential factor has been
+ divided by 2 (from 1e11 to 5e10), to account for the symmetry of .OO.  The temperature range is estimated as 300-2000 K
+ and the rank is assigned 1, so that this rate coefficient estimate will be used in all instances.
+This is simply an estimate; JDM and/or MRH will refine this value in the near future.
+See also rate 532 for X_H + .OO. --> HOO. + X.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 523,
+    label = "O/H/NonDeC;O2b",
+    group1 = 
+"""
+1 *1 O  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (50000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 1,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""Estimate [W.H. Green]""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 524,
+    label = "C/H2/CbCs;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0182, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 524,
+    label = "C/H3/Cd;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cd 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00057833, 'cm^3/(mol*s)'),
+        n = 4.65,
+        alpha = 0,
+        E0 = (9.78, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""SSM due to lack of better value ref rate rule 525""",
+    longDesc = 
+u"""
+This rate rules matches C=C-CH3 + HO-O* <=> C=C-CH2* + H2O2
+
+Due to lack of better estimate SSM has given this node the value obtained from 2-Butene + HO2 calculations (Rate rule 525)
+The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
+The Wigner tunneling currection that was used to account for tunneling.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 525,
+    label = "C/H2/CbCs;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00229, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (21.4, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 6 to get per-H value.
+
+InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+ (external symmetry number = 2, spin multiplicity = 1)
+ +
+HO2 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H7/c1-3-4-2/h3-4H,1H2,2H3  (external symmetry number = 1, spin multiplicity = 2)
+ +
+H2O2 (external symmetry number = 2, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 525,
+    label = "InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+;O_rad/NonDeO",
+    group1 = 
+"""
+1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
+2     C 0 {1,S} {3,D} {8,S}
+3     C 0 {2,D} {4,S} {9,S}
+4     C 0 {3,S} {10,S} {11,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7  *2 H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00057833, 'cm^3/(mol*s)'),
+        n = 4.65,
+        alpha = 0,
+        E0 = (9.78, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 526,
+    label = "C/H2/CbCs;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0108, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+This rate rules matches C=C*-C + H2O2 <=> C=C-C + HO-O*
+
+Due to lack of better estimate SSM has given this node the value obtained from 2-Butene + HO2 calculations (Rate rule 527)
+The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
+The Wigner tunneling currection that was used to account for tunneling.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 526,
+    label = "H2O2;Cd_rad/NonDeC",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,D} {3,S}
+2    C  0 {1,D}
+3    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.4375, 'cm^3/(mol*s)'),
+        n = 3.59,
+        alpha = 0,
+        E0 = (-4.03, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""SSM due to lack of better value ref rate rule 527""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 527,
+    label = "C/H2/CbCs;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    Cb 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0441, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 527,
+    label = "H2O2;InChI=1/C4H7/c1-3-4-2/h3H,1-2H3",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {5,S} {6,S} {7,S}
+2  *3 C 1 {1,S} {3,D}
+3     C 0 {2,D} {4,S} {8,S}
+4     C 0 {3,S} {9,S} {10,S} {11,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {3,S}
+9     H 0 {4,S}
+10    H 0 {4,S}
+11    H 0 {4,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.4375, 'cm^3/(mol*s)'),
+        n = 3.59,
+        alpha = 0,
+        E0 = (-4.03, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to account for summetry of H2O2
+The rate rule is valid in a range of temperature from 300 -2000 K.
+The Wigner tunneling currection that was used to account for tunneling.
+
+InChI=1/C4H7/c1-3-4-2/h3H,1-2H3 (external symmetry number = 1, spin multiplicity = 2)
+ +
+H2O2 (external symmetry number = 2, spin multiplicity = 1)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H8/c1-3-4-2/h3-4H,1-2H3/b4-3+  (external symmetry number = 2, spin multiplicity = 1)
+ +
+HO2 (external symmetry number = 1, spin multiplicity = 2)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 528,
+    label = "C/H2/OneDeC;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 C                0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H                0 {1,S}
+3    H                0 {1,S}
+4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
+5    Cs               0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000254, 'cm^3/(mol*s)'),
+        n = 4.59,
+        alpha = 0,
+        E0 = (7.16, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""SSM due to lack of better value ref rate rule 529""",
+    longDesc = 
+u"""
+This rate rules matches Cs-CH2-C=C + HO-O* <=> Cs-CH*-C=C + H2O2
+
+Due to lack of better estimate SSM has given this node the value obtained from 1-Butene + HO2 calculations (Rate rule 529)
+The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
+The Wigner tunneling currection that was used to account for tunneling.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 529,
+    label = "InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3;O_rad/NonDeO",
+    group1 = 
+"""
+1     C 0 {2,S} {5,S} {6,S} {7,S}
+2  *1 C 0 {1,S} {3,S} {8,S} {9,S}
+3     C 0 {2,S} {4,D} {10,S}
+4     C 0 {3,D} {11,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8  *2 H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000254, 'cm^3/(mol*s)'),
+        n = 4.59,
+        alpha = 0,
+        E0 = (7.16, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to get per-H value.
+The rate rule is valid in a range of temperature from 300 -2000 K.
+The Wigner tunneling currection that was used to account for tunneling.
+
+InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3 (external symmetry number = 1, spin multiplicity = 1)
+ +
+HO2 (external symmetry number = 1, spin multiplicity = 2)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H7/c1-3-4-2/h3-4H,1H2,2H3   (external symmetry number = 1, spin multiplicity = 2)
+ +
+H2O2 (external symmetry number = 2, spin multiplicity = 1)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 530,
+    label = "H2O2;Cd_pri_rad",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1, 'cm^3/(mol*s)'),
+        n = 3.52,
+        alpha = 0,
+        E0 = (-7.48, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""SSM due to lack of better value ref rate rule 531""",
+    longDesc = 
+u"""
+This rate rules matches C-HC=CH* + H2O2 <=> C-HC=CH2 + HO=O*
+
+Due to lack of better estimate SSM has given this node the value obtained from 1-Butene + HO2 calculations (Rate rule 531)
+The rate was calculated using CBS-QB3 w/o hindered rotors and is valid in a range of temperature from 300 -2000 K.
+The Wigner tunneling currection that was used to account for tunneling.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 531,
+    label = "H2O2;InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1     C 0 {2,S} {5,S} {6,S} {7,S}
+2     C 0 {1,S} {3,S} {8,S} {9,S}
+3     C 0 {2,S} {4,D} {10,S}
+4  *3 C 1 {3,D} {11,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1, 'cm^3/(mol*s)'),
+        n = 3.52,
+        alpha = 0,
+        E0 = (-7.48, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 5,
+    shortDesc = u"""SSM CBS-QB3 calculations w/o HR corrections""",
+    longDesc = 
+u"""
+SSM CBS-QB3 calculations w/RRHO .  Pre-exponential was divided by 2 to account for summetry of H2O2
+The rate rule is valid in a range of temperature from 300 -2000 K.
+The Wigner tunneling currection that was used to account for tunneling.
+
+InChI=1/C4H7/c1-3-4-2/h1,3H,4H2,2H3  (external symmetry number = 1, spin multiplicity = 2)
+ +
+H2O2 (external symmetry number = 2, spin multiplicity = 1)
+ <=> (TS: external symmetry number = 1, spin multiplicity = 2)
+InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3  (external symmetry number = 1, spin multiplicity = 1)
+ +
+HO2 (external symmetry number = 1, spin multiplicity = 2)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 532,
+    label = "X_H;O2b",
+    group1 = 
+"""
+1 *1 R 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (50000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 1,
+        E0 = (0, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"""Estimate [W.H. Green]""",
+    longDesc = 
+u"""
+X_H + .OO. --> HOO. + X.
+
+I have taken the estimated rate from 523, which assumes A=1e11 with Ea=enthothermicity,
+and assigned it to the top level X_H node so that whenever .OO. is abstracting from 
+something without a proper rate, this value is used instead of the lengthy average.
+See notes to 523 for further details.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 533,
+    label = "C_methane;C2b",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,T}
+2    C 1 {1,T}
+""",
+    kinetics = ArrheniusEP(
+        A = (7500000000000.0, 'cm^3/(mol*s)', '+|-', 1600000000000.0),
+        n = 0,
+        alpha = 0,
+        E0 = (1.05, 'kcal/mol', '+|-', 0.12),
+        Tmin = (294, 'K'),
+        Tmax = (376, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Matsugi et al 10.1021/jp1012494""",
+    longDesc = 
+u"""
+For CH4 + C2 = CH3 + C2H
+
+J. Phys. Chem. A 2010, 114, 4580-4585
+http://dx.doi.org/10.1021/jp1012494
+
+Rate Constants and Kinetic Isotope Effects on the Reaction of C2($X^1\Sigma_g^+$) with CH4 and CD4.
+Akira Matsugi, Kohsuke Suma, and Akira Miyoshi
+
+It was measured at pretty low temperatures (294-376), but also calculated ab initio. The calculated
+rates are plotted but the expression is not reported.
+
+    k = (10.0 +- 2.1)E-11 exp[-(4.4+-0.5 kJ mol)/RT] cm3 molecule-1 s-1
+which gives 
+    A = 6e13+-1.3e13 cm3/mole/s
+    n = 0
+    Ea = 1.05+-0.12  kcal/mol
+The degeneracy of this reaction is 8 though, so per-site A is:
+    A = 7.5e12+-1.6e12
+    
+(See also  doi:10.1063/1.3480395  for reactions of C2, but that may be the wrong electronic state.)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 534,
+    label = "H2O2;InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,S}
+3    C 0 {2,S} {4,D}
+4    C 0 {3,D} {5,S}
+5 *3 O 1 {4,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.03495, 'cm^3/(mol*s)', '*|/', 3),
+        n = 3.75,
+        alpha = 0,
+        E0 = (10.89, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
+    longDesc = 
+u"""
+Exact reaction: HOOH + *O-CH=CH-C2H5 <=> HO-CH=CH-C2H5 + HOO*
+Rxn family nodes: H2O2 + InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3
+
+MHS computed rate coefficient using CBS-QB3 method, see _[MRHCBSQB3RRHO] for general algorithm
+employed.  Two differences::
+	1) the k(T) was calculated from 600 to 2000 K, in 200 K increments.
+	2) Low-frequency torsional modes were treated as 1-d separable hindered rotors.  The scans
+		were performed at the B3LYP/6-31G(d) level.
+
+MHS computed the fitted Arrhenius expression to be: k(T) = 6.99e-2 (T/1K)^3.75 exp(-10.89 kcal mol-1 / RT) cm3 mol-1 s-1.
+The pre-exponential was divided by 2 to get the per-H event.  The uncertainty in the E0
+was estimated to be 2 kcal mol-1 (general accuracy of CBS-QB3 calculations) and the uncertainty
+in the A parameter was MRH guess.
+
+RMG previously estimated the kinetics of the titled reaction to be ~10^3 times faster
+than calculations of MHS.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 535,
+    label = "H2O2;O_rad/OneDe",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O                1 {2,S}
+2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.03495, 'cm^3/(mol*s)', '*|/', 3),
+        n = 3.75,
+        alpha = 0,
+        E0 = (10.89, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations, see node 534.""",
+    longDesc = 
+u"""
+Rxn family nodes: H2O2 + O_rad/OneDe
+
+The rate coefficient for this node was taken from node 534 (H2O2 + InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3)
+by analogy: HOOH + *O-C=R.  Discussed with MRH.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 536,
+    label = "H2O2;OOCH3",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S} {3,S}
+3    C 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.092, 'cm^3/(mol*s)', '*|/', 3),
+        n = 3.96,
+        alpha = 0,
+        E0 = (6.63, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
+    longDesc = 
+u"""
+Exact reaction: HOOH + *O-O-CH3 <=> HO-O-CH3 + HOO*
+Rxn family nodes: H2O2 + OOCH3
+
+MHS computed rate coefficient using CBS-QB3 method, see _[MRHCBSQB3RRHO] for general algorithm
+employed.  Two differences::
+	1) the k(T) was calculated from 600 to 2000 K, in 200 K increments.
+	2) Low-frequency torsional modes were treated as 1-d separable hindered rotors.  The scans
+		were performed at the B3LYP/6-31G(d) level.
+
+MHS computed the fitted Arrhenius expression to be: k(T) = 1.84e-1 (T/1K)^3.96 exp(-6.63 kcal mol-1 / RT) cm3 mol-1 s-1.
+The pre-exponential was divided by 2 to get the per-H event.  The uncertainty in the E0
+was estimated to be 2 kcal mol-1 (general accuracy of CBS-QB3 calculations) and the uncertainty
+in the A parameter was MRH guess.
+
+RMG previously estimated the kinetics of the titled reaction to be 1-3 orders of magnitude faster
+than calculations of MHS.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 537,
+    label = "H2O2;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.092, 'cm^3/(mol*s)', '*|/', 3),
+        n = 3.96,
+        alpha = 0,
+        E0 = (6.63, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations, see node 536.""",
+    longDesc = 
+u"""
+Rxn family nodes: H2O2 + O_rad/NonDeO
+
+The rate coefficient for this node was taken from node 536 (H2O2 + OOCH3)
+by analogy: HOOH + *O-O-R.  Discussed with MRH.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 538,
+    label = "InChI=1/C4H8/c1-3-4-2/h3H,1,4H2,2H3;OOCH3",
+    group1 = 
+"""
+1     C 0 {2,S} {5,S} {6,S} {7,S}
+2  *1 C 0 {1,S} {3,S} {8,S} {9,S}
+3     C 0 {2,S} {4,D} {10,S}
+4     C 0 {3,D} {11,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8  *2 H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S} {3,S}
+3    C 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00741, 'cm^3/(mol*s)', '*|/', 3),
+        n = 4.313,
+        alpha = 0,
+        E0 = (8.016, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MRH CBS-QB3 calculations, w/1dHR corrections""",
+    longDesc = 
+u"""
+MRH CBS-QB3 calculations w/1d hindered rotor corrections
+Exact reaction: CH3CH2CH=CH2 + OOCH3 = HOOCH3 + CH3CHCH=CH2
+
+This reaction was of interest to MRH/MHS because the butanol model was sensitive to its kinetics
+(in particular, the C4H8-1 predicted concentration for 10-atm JSR simulations between 800-1000 K).
+The original mechanism had an estimate that was much faster than these new calculations (the RMG old
+k(T) was 50-100x faster than these calculations between 800-1000 K).
+
+MRH computed these kinetics using the CBS-QB3 method.  Hindered rotor corrections were accounted for in all species:
+	CH3CH2CH=CH2: -CH3 and -CH2CH3 rotor
+	OOCH3: -CH3 rotor
+	TS: -CH3 and -CH=CH2 rotor of react1, -CH3 and -OCH3 of react2, and -OOCH3 between react1 and react2
+	HOOCH3: -CH3 and -OCH3 rotor
+	CH3CHCH=CH2: -CH3 and -CH=CH2 rotor
+External symmetry number of all speces was 1.  k(T) was computed from 600 - 2000 K, in 200 K intervals.  An
+asymmetric Eckart tunneling correction was used.
+
+The computed k(T) was 1.482e-02 * (T/1K)^4.313 * exp(-8.016 kcal/mol / RT) cm3 mol-1 s-1.
+MRH divided the pre-exponential by 2 to account for the reaction path degeneracy.
+
+NOTE: Running PopulateReactions before and after this number produced results that differed by less than a factor
+of three.  New numbers in the RMG database thus lead to an improvement in the RMG estimate (RMG works!).  Also,
+this computed rate coefficient is a factor of 10 faster than Tsang's recommendation for C3H6 + OOCH3 = HOOCH3 + allyl;
+his stated uncertainty is a factor of ten.  However, one would expect abstraction from the secondary carbon of
+1-butane to be faster than the primary carbon of propene, because the C-H bond strength should be weaker.  So,
+this calculation is in reasonable agreement with the literature.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 539,
+    label = "H2O2;InChI=1/C3H5/c1-3-2/h3H,1-2H2",
+    group1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 0 {1,S} {4,S}
+3 *2 H 0 {1,S}
+4    H 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {4,S} {5,S}
+2    C 0 {1,S} {3,D} {6,S}
+3    C 0 {2,D}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.01755, 'cm^3/(mol*s)', '*|/', 3),
+        n = 4.22,
+        alpha = 0,
+        E0 = (9.86, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MHS CBS-QB3 w/1dHR calculations""",
+    longDesc = 
+u"""
+MHS CBS-QB3 calculations w/1d hindered rotor corrections
+Exact reaction: *CH2-CH=CH2 + H2O2 = CH3-CH=CH2 + HO2
+
+MHS computed rate coefficient using CBS-QB3 method, see _[MRHCBSQB3RRHO] for general algorithm
+employed.  Two differences::
+	1) the k(T) was calculated from 600 to 2000 K, in 200 K increments.
+	2) Low-frequency torsional modes were treated as 1-d separable hindered rotors.  The scans
+		were performed at the B3LYP/6-31G(d) level.
+
+MHS computed the fitted Arrhenius expression to be: k(T) = 3.51e-2 (T/1K)^4.22 exp(-9.86 kcal mol-1 / RT) cm3 mol-1 s-1.
+The pre-exponential was divided by 2 to get the per-H event.  The uncertainty in the E0
+was estimated to be 2 kcal mol-1 (general accuracy of CBS-QB3 calculations) and the uncertainty
+in the A parameter was MRH guess.
+
+RMG previously estimated the kinetics of the titled reaction to be ~2 orders of magnitude faster
+than calculations of MHS.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 540,
+    label = "InChI=1/C4H8O/c1-2-3-4-5/h4H,2-3H2,1H3;O_rad/NonDeO",
+    group1 = 
+"""
+1  *1 C 0 {2,D} {3,S} {6,S}
+2     O 0 {1,D}
+3     C 0 {1,S} {4,S} {7,S} {8,S}
+4     C 0 {3,S} {5,S} {9,S} {10,S}
+5     C 0 {4,S} {11,S} {12,S} {13,S}
+6  *2 H 0 {1,S}
+7     H 0 {3,S}
+8     H 0 {3,S}
+9     H 0 {4,S}
+10    H 0 {4,S}
+11    H 0 {5,S}
+12    H 0 {5,S}
+13    H 0 {5,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000191, 'cm^3/(mol*s)', '*|/', 3),
+        n = 4.25,
+        alpha = 0,
+        E0 = (0.81, 'kcal/mol', '+|-', 2),
+        Tmin = (600, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""MHS CBS-QB3 w/o 1dHR calculations""",
+    longDesc = 
+u"""
+MHS CBS-QB3 calculations without 1d hindered rotor correction (due to presence of hydrogen bond interactions)
+Exact reaction: HO2 + CH3-CH2-CH2-CH=O = H2O2 + CH3-CH2-CH2-C*=O
+
+MHS computed rate coefficient using CBS-QB3 method, see _[MRHCBSQB3RRHO] for general algorithm
+employed.  With the difference that the k(T) was calculated from 600 to 2000 K, in 200 K increments.
+
+MHS computed the fitted Arrhenius expression to be: k(T) = 1.91e-4 (T/1K)^4.25 exp(-0.81 kcal mol-1 / RT) cm3 mol-1 s-1.
+The uncertainty in the E0 was estimated to be 2 kcal mol-1 (general accuracy of CBS-QB3 calculations) and the uncertainty
+in the A parameter was MRH guess.
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13688,7 +19498,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13725,7 +19535,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13762,7 +19572,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13799,7 +19609,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13836,7 +19646,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13873,7 +19683,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13910,7 +19720,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13947,7 +19757,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -13984,7 +19794,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14025,7 +19835,46 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 551,
+    label = "C/H/Cs2Cb;C_rad/H2/S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00127, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (9.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14066,7 +19915,46 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 552,
+    label = "C/H/Cs2Cb;C_rad/H/CsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00228, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (9.1, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14107,7 +19995,46 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 553,
+    label = "C/H/Cs2Cb;C_rad/Cs2S",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    S  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.000918, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (8.9, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14148,7 +20075,45 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 554,
+    label = "C/H/Cs2Cb;Cd_rad/NonDeS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    S 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00762, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (1.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14190,7 +20155,46 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 555,
+    label = "C/H/Cs2Cb;C_rad/H/CdS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cd 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0126, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14232,7 +20236,46 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 556,
+    label = "C/H/Cs2Cb;C_rad/CdCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Cd 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00159, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (20.3, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14272,7 +20315,46 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 557,
+    label = "C/H/Cs2Cb;C_rad/H/CtS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Ct 0 {1,S}
+4    S  0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.00748, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (18.8, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14312,7 +20394,46 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 558,
+    label = "C/H/Cs2Cb;C_rad/CtCsS",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    Cb 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    Ct 0 {1,S}
+3    S  0 {1,S}
+4    Cs 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.0306, 'cm^3/(mol*s)'),
+        n = 4.24,
+        alpha = 0,
+        E0 = (19.6, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14353,7 +20474,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14394,7 +20515,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14435,7 +20556,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14476,7 +20597,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14514,7 +20635,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14552,7 +20673,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14590,7 +20711,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14628,7 +20749,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14666,7 +20787,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14703,7 +20824,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14741,7 +20862,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14779,7 +20900,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14817,7 +20938,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14855,7 +20976,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14893,7 +21014,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14931,7 +21052,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -14969,7 +21090,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15006,7 +21127,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15044,7 +21165,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15082,7 +21203,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15120,7 +21241,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15158,7 +21279,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15196,7 +21317,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15234,7 +21355,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15272,7 +21393,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15309,7 +21430,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15347,7 +21468,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15385,7 +21506,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15423,7 +21544,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15461,7 +21582,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15499,7 +21620,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15537,7 +21658,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15575,7 +21696,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15612,7 +21733,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15650,7 +21771,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15688,7 +21809,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15726,7 +21847,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15764,7 +21885,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15802,7 +21923,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15840,7 +21961,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15878,7 +21999,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15915,7 +22036,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15953,7 +22074,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -15991,7 +22112,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16029,7 +22150,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16067,7 +22188,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16103,7 +22224,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16142,7 +22263,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16181,7 +22302,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16220,7 +22341,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16259,7 +22380,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16298,7 +22419,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16337,7 +22458,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16376,7 +22497,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16415,7 +22536,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16454,7 +22575,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16493,7 +22614,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16532,7 +22653,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16571,7 +22692,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16610,7 +22731,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16649,7 +22770,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16688,7 +22809,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16727,7 +22848,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16766,7 +22887,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16804,7 +22925,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16842,7 +22963,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16880,7 +23001,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16918,7 +23039,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16956,7 +23077,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -16995,7 +23116,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17034,7 +23155,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17073,7 +23194,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17111,7 +23232,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17150,7 +23271,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17189,7 +23310,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17228,7 +23349,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17267,7 +23388,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17303,7 +23424,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17342,7 +23463,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17381,7 +23502,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17420,7 +23541,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17459,7 +23580,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17498,7 +23619,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17537,7 +23658,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17576,7 +23697,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17615,7 +23736,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17654,7 +23775,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17693,7 +23814,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17732,7 +23853,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17771,7 +23892,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17810,7 +23931,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17849,7 +23970,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17888,7 +24009,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17927,7 +24048,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -17966,7 +24087,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18004,7 +24125,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18042,7 +24163,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18080,7 +24201,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18118,7 +24239,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18156,7 +24277,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18195,7 +24316,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18234,7 +24355,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18273,7 +24394,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18311,7 +24432,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18350,7 +24471,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18389,7 +24510,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18428,7 +24549,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18467,7 +24588,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18503,7 +24624,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18542,7 +24663,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18581,7 +24702,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18620,7 +24741,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18659,7 +24780,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18698,7 +24819,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18737,7 +24858,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18776,7 +24897,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18815,7 +24936,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18854,7 +24975,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18893,7 +25014,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18932,7 +25053,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -18971,7 +25092,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19010,7 +25131,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19049,7 +25170,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19088,7 +25209,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19127,7 +25248,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19166,7 +25287,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19204,7 +25325,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19242,7 +25363,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19280,7 +25401,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19318,7 +25439,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19356,7 +25477,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19395,7 +25516,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19434,7 +25555,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19473,7 +25594,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19511,7 +25632,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19550,7 +25671,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19589,7 +25710,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19628,7 +25749,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19667,7 +25788,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19703,7 +25824,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19742,7 +25863,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19781,7 +25902,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19820,7 +25941,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19859,7 +25980,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19898,7 +26019,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19937,7 +26058,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -19976,7 +26097,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20015,7 +26136,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20054,7 +26175,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20093,7 +26214,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20132,7 +26253,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20171,7 +26292,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20210,7 +26331,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20249,7 +26370,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20288,7 +26409,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20327,7 +26448,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20366,7 +26487,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20404,7 +26525,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20442,7 +26563,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20480,7 +26601,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20518,7 +26639,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20556,7 +26677,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20595,7 +26716,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20634,7 +26755,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20673,7 +26794,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20711,7 +26832,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20750,7 +26871,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20789,7 +26910,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20828,7 +26949,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20867,7 +26988,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20903,7 +27024,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20942,7 +27063,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -20981,7 +27102,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21020,7 +27141,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21059,7 +27180,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21098,7 +27219,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21137,7 +27258,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21176,7 +27297,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21215,7 +27336,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21254,7 +27375,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21293,7 +27414,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21332,7 +27453,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21371,7 +27492,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21410,7 +27531,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21449,7 +27570,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21488,7 +27609,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21527,7 +27648,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21566,7 +27687,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21604,7 +27725,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21642,7 +27763,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21680,7 +27801,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21718,7 +27839,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21756,7 +27877,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21795,7 +27916,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21834,7 +27955,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21873,7 +27994,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21911,7 +28032,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21950,7 +28071,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -21989,7 +28110,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22028,7 +28149,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22067,7 +28188,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22103,7 +28224,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22142,7 +28263,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22181,7 +28302,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22220,7 +28341,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22259,7 +28380,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22298,7 +28419,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22337,7 +28458,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22376,7 +28497,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22415,7 +28536,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22454,7 +28575,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22493,7 +28614,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22532,7 +28653,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22571,7 +28692,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22610,7 +28731,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22649,7 +28770,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22688,7 +28809,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22727,7 +28848,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22766,7 +28887,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22804,7 +28925,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22842,7 +28963,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22880,7 +29001,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22918,7 +29039,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22956,7 +29077,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -22995,7 +29116,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23034,7 +29155,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23073,7 +29194,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23111,7 +29232,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23150,7 +29271,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23189,7 +29310,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23228,7 +29349,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23267,7 +29388,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23303,7 +29424,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23342,7 +29463,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23381,7 +29502,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23420,7 +29541,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23459,7 +29580,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23498,7 +29619,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23537,7 +29658,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23576,7 +29697,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23615,7 +29736,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23654,7 +29775,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23693,7 +29814,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23732,7 +29853,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23771,7 +29892,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23810,7 +29931,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23849,7 +29970,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23888,7 +30009,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23927,7 +30048,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -23966,7 +30087,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24004,7 +30125,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24042,7 +30163,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24080,7 +30201,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24118,7 +30239,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24156,7 +30277,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24195,7 +30316,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24234,7 +30355,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24273,7 +30394,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24311,7 +30432,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24350,7 +30471,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24389,7 +30510,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24428,7 +30549,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24467,7 +30588,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24503,7 +30624,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24542,7 +30663,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24581,7 +30702,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24620,7 +30741,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24659,7 +30780,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24698,7 +30819,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24737,7 +30858,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24776,7 +30897,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24815,7 +30936,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24854,7 +30975,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24893,7 +31014,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24932,7 +31053,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -24971,7 +31092,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25010,7 +31131,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25049,7 +31170,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25088,7 +31209,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25127,7 +31248,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25166,7 +31287,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25204,7 +31325,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25242,7 +31363,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25280,7 +31401,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25318,7 +31439,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25356,7 +31477,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25395,7 +31516,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25434,7 +31555,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25473,7 +31594,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25511,7 +31632,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25550,7 +31671,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25589,7 +31710,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25628,7 +31749,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25667,7 +31788,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25701,7 +31822,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25738,7 +31859,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25775,7 +31896,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25812,7 +31933,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25849,7 +31970,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25885,7 +32006,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25921,7 +32042,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25957,7 +32078,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -25993,7 +32114,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26030,7 +32151,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26067,7 +32188,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26104,7 +32225,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26141,7 +32262,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26178,7 +32299,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26215,7 +32336,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26252,7 +32373,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26289,7 +32410,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26326,7 +32447,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26363,7 +32484,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26399,7 +32520,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26436,7 +32557,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26473,7 +32594,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26510,7 +32631,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26547,7 +32668,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26584,7 +32705,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26621,7 +32742,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26657,7 +32778,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26694,7 +32815,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26731,7 +32852,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26768,7 +32889,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26805,7 +32926,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26839,7 +32960,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26876,7 +32997,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26913,7 +33034,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26950,7 +33071,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -26987,7 +33108,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27023,7 +33144,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27059,7 +33180,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27095,7 +33216,49 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1001,
+    label = "C/H3/O;H_rad",
+    group1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    O 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (451, 'cm^3/(mol*s)'),
+        n = 3.2,
+        alpha = 0,
+        E0 = (3.49, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""Jodkowski et al. [100] ab initio calculations. added by Greg Magoon 08/25/09""",
+    longDesc = 
+u"""
+[100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
+
+CH3OH + H --> CH2OH + H2 (Rxn. R2 in paper)
+
+divided original rate expression by 3 to get rate expression per H atom.
+
+Created by Greg Magoon; maximum error of fitted expression from tabular data for kr2 is 20% (cf. p. 3758); rank of 2 assigned based on rank for other values reported in the paper in the rateLibrary (also 2)
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27128,16 +33291,10 @@ entry(
     shortDesc = u"""Aäron Vandeputte GAVs""",
     longDesc = 
 u"""
-[100] Jodkowski, J.T.; Rauez, M.-T.; Rayez, J.-C. J. Phys. Chem. A. 1999, 103, 3750.
 
-CH3OH + H --> CH2OH + H2 (Rxn. R2 in paper)
-
-divided original rate expression by 3 to get rate expression per H atom.
-
-Created by Greg Magoon; maximum error of fitted expression from tabular data for kr2 is 20% (cf. p. 3758); rank of 2 assigned based on rank for other values reported in the paper in the rateLibrary (also 2)
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27204,7 +33361,44 @@ for the reaction iso-C4H10 + iso-C3H7 = C3H8 + tert-C4H9.  The new rate coeffici
 in good agreement with this expression (within a factor of 3.5 over the valid temperature range).
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 1002,
+    label = "S/H/NonDeC;C_rad/H2/Cd",
+    group1 = 
+"""
+1 *1 S  0 {2,S} {3,S}
+2 *2 H  0 {1,S}
+3    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (400, 'cm^3/(mol*s)'),
+        n = 2.98,
+        alpha = 0,
+        E0 = (5.7, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (1500, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 4,
+    shortDesc = u"""Aäron Vandeputte GAVs""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27241,7 +33435,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27278,7 +33472,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27315,7 +33509,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27352,7 +33546,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27389,7 +33583,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27426,7 +33620,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27463,7 +33657,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27500,7 +33694,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27537,7 +33731,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27573,7 +33767,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27610,7 +33804,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27647,7 +33841,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27684,7 +33878,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27721,7 +33915,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27758,7 +33952,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27795,7 +33989,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27831,7 +34025,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27868,7 +34062,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27905,7 +34099,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27942,7 +34136,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -27979,7 +34173,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28013,7 +34207,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28050,7 +34244,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28087,7 +34281,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28124,7 +34318,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28161,7 +34355,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28197,7 +34391,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28233,7 +34427,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28269,7 +34463,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28305,7 +34499,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28342,7 +34536,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28379,7 +34573,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28416,7 +34610,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28453,7 +34647,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28490,7 +34684,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28527,7 +34721,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28564,7 +34758,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28601,7 +34795,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28638,7 +34832,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28675,7 +34869,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28711,7 +34905,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28748,7 +34942,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28785,7 +34979,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28822,7 +35016,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28859,7 +35053,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28896,7 +35090,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28933,7 +35127,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -28969,7 +35163,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29006,7 +35200,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29043,7 +35237,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29080,7 +35274,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29117,7 +35311,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29151,7 +35345,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29188,7 +35382,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29225,7 +35419,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29262,7 +35456,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29299,7 +35493,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29335,7 +35529,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29371,7 +35565,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29407,7 +35601,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29443,7 +35637,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29480,7 +35674,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29517,7 +35711,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29554,7 +35748,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29591,7 +35785,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29628,7 +35822,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29665,7 +35859,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29702,7 +35896,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29739,7 +35933,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29776,7 +35970,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29813,7 +36007,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29849,7 +36043,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29886,7 +36080,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29923,7 +36117,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29960,7 +36154,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -29997,7 +36191,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30034,7 +36228,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30071,7 +36265,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30107,7 +36301,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30144,7 +36338,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30181,7 +36375,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30218,7 +36412,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30255,7 +36449,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30289,7 +36483,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30326,7 +36520,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30363,7 +36557,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30400,7 +36594,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30437,7 +36631,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30473,7 +36667,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30509,7 +36703,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30545,7 +36739,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30581,7 +36775,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30618,7 +36812,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30655,7 +36849,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30692,7 +36886,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30729,7 +36923,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30766,7 +36960,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30803,7 +36997,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30840,7 +37034,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30877,7 +37071,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30914,7 +37108,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30951,7 +37145,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -30987,7 +37181,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31024,7 +37218,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31061,7 +37255,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31098,7 +37292,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31135,7 +37329,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31172,7 +37366,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31209,7 +37403,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31245,7 +37439,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31282,7 +37476,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31319,7 +37513,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31356,7 +37550,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31393,7 +37587,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31427,7 +37621,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31464,7 +37658,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31501,7 +37695,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31538,7 +37732,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31575,7 +37769,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31611,7 +37805,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31647,7 +37841,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31683,7 +37877,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31719,7 +37913,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31756,7 +37950,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31793,7 +37987,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31830,7 +38024,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31867,7 +38061,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31904,7 +38098,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31941,7 +38135,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -31978,7 +38172,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32015,7 +38209,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32052,7 +38246,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32089,7 +38283,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32125,7 +38319,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32162,7 +38356,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32199,7 +38393,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32236,7 +38430,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32273,7 +38467,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32310,7 +38504,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32347,7 +38541,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32383,7 +38577,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32420,7 +38614,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32457,7 +38651,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32494,7 +38688,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32531,7 +38725,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32566,7 +38760,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32601,7 +38795,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32636,7 +38830,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32671,7 +38865,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32706,7 +38900,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32741,7 +38935,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32776,7 +38970,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32811,7 +39005,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32846,7 +39040,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32881,7 +39075,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32916,7 +39110,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32951,7 +39145,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -32986,7 +39180,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33021,7 +39215,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33056,7 +39250,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33091,7 +39285,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33126,7 +39320,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33161,7 +39355,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33196,7 +39390,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33231,7 +39425,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33266,7 +39460,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33301,7 +39495,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33336,7 +39530,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33371,7 +39565,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33406,7 +39600,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33441,7 +39635,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33476,7 +39670,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33511,7 +39705,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33546,7 +39740,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33581,7 +39775,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33616,7 +39810,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33651,7 +39845,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33686,7 +39880,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33721,7 +39915,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33756,7 +39950,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33791,7 +39985,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33827,7 +40021,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33865,7 +40059,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33900,7 +40094,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33935,7 +40129,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -33970,7 +40164,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -34005,7 +40199,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -34043,7 +40237,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -34082,7 +40276,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -34119,7 +40313,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
@@ -34156,7 +40350,7 @@ u"""
 
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
