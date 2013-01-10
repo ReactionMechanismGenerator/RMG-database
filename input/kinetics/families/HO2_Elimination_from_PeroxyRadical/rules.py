@@ -549,17 +549,17 @@ entry(
 7    R 0 {2,S}
 """,
     kinetics = ArrheniusEP(
-        A = (68130000000.0, 's^-1', '*|/', 10),
-        n = 0.493,
+        A = (6380000000000.0, 's^-1', '*|/', 5),
+        n = 0,
         alpha = 0,
-        E0 = (11.894, 'kcal/mol', '+|-', 2),
-        Tmin = (600, 'K'),
-        Tmax = (2000, 'K'),
+        E0 = (11.4, 'kcal/mol', '+|-', 2),
+        Tmin = (200, 'K'),
+        Tmax = (600, 'K'),
     ),
     reference = None,
     referenceType = "",
-    rank = 5,
-    shortDesc = u"""Same as node 847 (MRH assumption)""",
+    rank = 3,
+    shortDesc = u"""Hermans et al. 2005 (doi:10.1021/jp044080v) G2M calculations""",
     longDesc = 
 u"""
 MRH approximation for the general OCOO node
@@ -568,7 +568,7 @@ In the event RMG finds any H-O-C-O-O* connection, the kinetics used for direct
 HO2 elimination will be those of CH3-CH(OO)-OH => CH3CHO + HO2.
 """,
     history = [
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Wed Jan  9 11:01:40 2013","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
     ],
 )
 
