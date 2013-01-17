@@ -631,10 +631,10 @@ entry(
 
 """,
 	solute = SoluteData(
-		 S =  -0.225,
-		 B =  -0.206,
-		 E =  -0.113,
-		 L =  -0.39,
+		 S =  0,
+		 B =  0,
+		 E =  0,
+		 L =  0,
 		 A =  0
 	),
 	shortDesc = u"""same as 43""",
@@ -655,10 +655,10 @@ entry(
 
 """,
 	solute = SoluteData(
-		 S =  -0.225,
-		 B =  -0.206,
-		 E =  -0.113,
-		 L =  -0.39,
+		 S =  0,
+		 B =  0,
+		 E =  0,
+		 L =  0,
 		 A =  0
 	),
 	shortDesc = u"""same as 43""",
@@ -708,7 +708,7 @@ entry(
 """,
 	solute = SoluteData(
 		 S =  0,
-		 B =  0.131,
+		 B =  0,
 		 E =  0,
 		 L =  0,
 		 A =  0
@@ -733,7 +733,7 @@ entry(
 """,
 	solute = SoluteData(
 		 S =  0,
-		 B =  0.131,
+		 B =  0,
 		 E =  0,
 		 L =  0,
 		 A =  0
@@ -757,11 +757,11 @@ entry(
 
 """,
 	solute = SoluteData(
-		 S =  -0.412,
-		 B =  -0.308,
-		 E =  -0.192,
-		 L =  -0.369,
-		 A =  0.243
+		 S =  0,
+		 B =  0,
+		 E =  0,
+		 L =  0,
+		 A =  0
 	),
 	shortDesc = u"""same as 47""",
 	longDesc = 
@@ -782,11 +782,11 @@ entry(
 
 """,
 	solute = SoluteData(
-		 S =  -0.412,
-		 B =  -0.308,
-		 E =  -0.192,
-		 L =  -0.369,
-		 A =  0.243
+		 S =  0,
+		 B =  0,
+		 E =  0,
+		 L =  0,
+		 A =  0
 	),
 	shortDesc = u"""same as 47""",
 	longDesc = 
@@ -811,8 +811,10 @@ L1: C
 		L3: CssH3
 		L3: CssH2
 			L4: Css(OssH)-Css(OssH) // 1,2-diol
+			L4: CbCss*OssH // benzyl alcohol
 		L3: CssH
 			L4: Css(OssH)-Css(OssH) // 1,2-diol
+			L4: CbCss*OssH // benzyl alcohol
 		L3: Css-noH
 			L4: Css(OssH)-Css(OssH) // 1,2-diol
 			L4: CbCss*OssH // benzyl alcohol
@@ -827,8 +829,8 @@ L1: C
 
 		L3: Cds-noH
 			L4: Oss(CdsOd) // non-cyclic ester
+				L5: Cds(Od)OssH // carboxylic acid
 				L5: OssCds(Od)Oss // carbonate
-			L4: Cds(Od)OssH // carboxylic acid
 			L4: Cds(Od)Cds=CdsCds(Od) // quinone
 			L4: Cds*(Od)Cds=CdsCds(Od) / quinone
 		
@@ -852,8 +854,8 @@ L1: O
 		L3: Oss-cyclic
 		
     L2: Od // sp2
-    	L3: Cds(Od*)OssH // carboxylic acid
     	L3: Oss(CdsOd*) // non-cyclic ester
+    		L4: Cds(Od*)OssH // carboxylic acid
     		L4: OssCds(Od*)Oss // Carbonate
     	
     	L3: Cds(Od*)Cds=CdsCds(Od) // Quinone
