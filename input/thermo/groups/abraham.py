@@ -8,11 +8,71 @@ longDesc = u"""
 """
 
 entry(
+	index = -3,
+	label = "R",
+	group = 
+"""
+1 * R 0
+""",
+	solute = None,
+	shortDesc = u"""""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = -2,
+	label = "C",
+	group = 
+"""
+1 * C 0
+""",
+	solute = None,
+	shortDesc = u"""""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = -1,
+	label = "Css",
+	group = 
+"""
+1 * Cs 0
+""",
+	solute = None,
+	shortDesc = u"""""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 0,
+	label = "Cds",
+	group = 
+"""
+1 * Cd 0
+""",
+	solute = None,
+	shortDesc = u"""""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
     index = 1,
     label = "CssH3",
     group = 
 """
-1 * Css 0 {2,S} {3,S} {4,S}
+1 * Cs  0 {2,S} {3,S} {4,S}
 2   H   0 {1,S}
 3   H   0 {1,S}
 4   H   0 {1,S}
@@ -36,9 +96,10 @@ entry(
     label = "CssH2",
     group = 
 """
-1 * Css 0 {2,S} {3,S}
+1 * Cs  0 {2,S} {3,S} {4,S}
 2   H   0 {1,S}
 3   H   0 {1,S}
+4   R!H   0 {1,S}
 """,
     solute = SoluteData(
         S =  0,
@@ -59,8 +120,10 @@ entry(
     label = "CssH",
     group = 
 """
-1 * Css 0 {2,S}
+1 * Cs  0 {2,S} {3,S} {4,S}
 2   H   0 {1,S}
+3   R!H   0 {1,S}
+4   R!H   0 {1,S}
 
 """,
     solute = SoluteData(
@@ -82,7 +145,7 @@ entry(
 	label = "Css-noH",
 	group = 
 """
-1 * Css 0 {2,S} {3,S} {4,S}
+1 * Cs 0 {2,S} {3,S} {4,S}
 2   R!H   0 {1,S}
 3   R!H   0 {1,S}
 4   R!H   0 {1,S}
@@ -106,7 +169,7 @@ entry(
 	label = "CdsH2",
 	group = 
 """
-1 * C 0 {2,S} {3,S} {4,D}
+1 * Cd 0 {2,S} {3,S} {4,D}
 2   H 0 {1,S}
 3   H 0 {1,S}
 4   R!H 0 {1,D}
@@ -131,7 +194,7 @@ entry(
 	label = "CdsH",
 	group = 
 """
-1 * C 0 {2,S} {3,S} {4,D}
+1 * Cd 0 {2,S} {3,S} {4,D}
 2   H 0 {1,S}
 3   R!H 0 {1,S}
 4   R!H 0 {1,D}
@@ -153,10 +216,10 @@ u"""
 
 entry(
 	index = 7,
-	label = "Cds-NoH",
+	label = "Cds-noH",
 	group = 
 """
-1 * C 0 {2,S} {3,S} {4,D}
+1 * Cd 0 {2,S} {3,S} {4,D}
 2   R!H 0 {1,S}
 3   R!H 0 {1,S}
 4   R!H 0 {1,D}
@@ -214,6 +277,36 @@ entry(
 		 A =  0,
 	),
 	shortDesc = u"""Platts' fragment 9 sp""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 24,
+	label = "O",
+	group = 
+"""
+1 * O 0
+""",
+	solute = None,
+	shortDesc = u"""""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 25,
+	label = "Oss",
+	group = 
+"""
+1 * Os 0
+""",
+	solute = None,
+	shortDesc = u"""""",
 	longDesc = 
 u"""
 
@@ -350,11 +443,11 @@ entry(
 
 """,
 	solute = SoluteData(
-		 S =  -0.19,
-		 B =  -0.267,
-		 E =  0,
-		 L =  0,
-		 A =  0
+		 S =  0.014,
+		 B =  -0.025,
+		 E =  -0.138,
+		 L =  1.08,
+		 A =  0.243
 	),
 	shortDesc = u"""Platts' fragment 46 carbonate""",
 	longDesc = 
@@ -457,11 +550,11 @@ entry(
 6   Od 0 {4,D}
 """,
 	solute = SoluteData(
-		 S =  0,
-		 B =  0,
-		 E =  0,
-		 L =  0,
-		 A =  0
+		 S =  0.0,
+		 B =  0.0,
+		 E =  0.0,
+		 L =  0.0,
+		 A =  0.0
 	),
 	shortDesc = u"""same as 55""",
 	longDesc = 
@@ -483,11 +576,11 @@ entry(
 6   Od 0 {4,D}
 """,
 	solute = SoluteData(
-		 S =  0,
-		 B =  0,
-		 E =  0,
-		 L =  0,
-		 A =  0
+		 S =  0.0,
+		 B =  0.0,
+		 E =  0.0,
+		 L =  0.0,
+		 A =  0.0
 	),
 	shortDesc = u"""same as 55""",
 	longDesc = 
@@ -509,11 +602,11 @@ entry(
 
 """,
 	solute = SoluteData(
-		 S =  0,
-		 B =  0,
-		 E =  0,
-		 L =  0,
-		 A =  0,
+		 S =  0.0,
+		 B =  0.0,
+		 E =  0.0,
+		 L =  0.0,
+		 A =  0.0
 	),
 	shortDesc = u"""same as 46""",
 	longDesc = 
@@ -534,11 +627,11 @@ entry(
 
 """,
 	solute = SoluteData(
-		 S =  0,
-		 B =  0,
-		 E =  0,
-		 L =  0,
-		 A =  0,
+		 S =  0.0,
+		 B =  0.0,
+		 E =  0.0,
+		 L =  0.0,
+		 A =  0.0
 	),
 	shortDesc = u"""same as 46""",
 	longDesc = 
@@ -561,11 +654,11 @@ entry(
 
 """,
 	solute = SoluteData(
-		 S =  0,
-		 B =  0,
-		 E =  0,
-		 L =  0,
-		 A =  0,
+		 S =  0.0,
+		 B =  0.0,
+		 E =  0.0,
+		 L =  0.0,
+		 A =  0.0
 	),
 	shortDesc = u"""same as 68""",
 	longDesc = 
@@ -603,7 +696,7 @@ entry(
 	label = "Cdd",
 	group = 
 """
-1 * Cd 0 {2,S}
+1 * Cd 0
 
 """,
 	solute = SoluteData(
@@ -631,11 +724,11 @@ entry(
 
 """,
 	solute = SoluteData(
-		 S =  0,
-		 B =  0,
-		 E =  0,
-		 L =  0,
-		 A =  0
+		 S =  0.0,
+		 B =  0.0,
+		 E =  0.0,
+		 L =  0.0,
+		 A =  0.0
 	),
 	shortDesc = u"""same as 43""",
 	longDesc = 
@@ -655,11 +748,11 @@ entry(
 
 """,
 	solute = SoluteData(
-		 S =  0,
-		 B =  0,
-		 E =  0,
-		 L =  0,
-		 A =  0
+		 S =  0.0,
+		 B =  0.0,
+		 E =  0.0,
+		 L =  0.0,
+		 A =  0.0
 	),
 	shortDesc = u"""same as 43""",
 	longDesc = 
@@ -707,11 +800,11 @@ entry(
 
 """,
 	solute = SoluteData(
-		 S =  0,
-		 B =  0,
-		 E =  0,
-		 L =  0,
-		 A =  0
+		 S =  0.0,
+		 B =  0.0,
+		 E =  0.0,
+		 L =  0.0,
+		 A =  0.0
 	),
 	shortDesc = u"""same as 79""",
 	longDesc = 
@@ -732,11 +825,11 @@ entry(
 
 """,
 	solute = SoluteData(
-		 S =  0,
-		 B =  0,
-		 E =  0,
-		 L =  0,
-		 A =  0
+		 S =  0.0,
+		 B =  0.0,
+		 E =  0.0,
+		 L =  0.0,
+		 A =  0.0
 	),
 	shortDesc = u"""same as 79""",
 	longDesc = 
@@ -757,11 +850,11 @@ entry(
 
 """,
 	solute = SoluteData(
-		 S =  0,
-		 B =  0,
-		 E =  0,
-		 L =  0,
-		 A =  0
+		 S =  0.0,
+		 B =  0.0,
+		 E =  0.0,
+		 L =  0.0,
+		 A =  0.0
 	),
 	shortDesc = u"""same as 47""",
 	longDesc = 
@@ -782,11 +875,11 @@ entry(
 
 """,
 	solute = SoluteData(
-		 S =  0,
-		 B =  0,
-		 E =  0,
-		 L =  0,
-		 A =  0
+		 S =  0.0,
+		 B =  0.0,
+		 E =  0.0,
+		 L =  0.0,
+		 A =  0.0
 	),
 	shortDesc = u"""same as 47""",
 	longDesc = 
@@ -794,9 +887,6 @@ u"""
 
 """
 )
-
-
-
 
 
 tree(
@@ -845,11 +935,11 @@ L1: O
 		L3: OssH           // Hydroxyl group
 			L4: Cds(Od)Oss*H // carboxylic acid
 			L4: CbCssOss*H // benzyl alcohol
+			L4: Css(Oss*H)-Css(OssH) // 1,2-diol
 			
 		L3: Oss*(CdsOd) // non-cyclic ester
 			L4: Oss*Cds(Od)Oss // Carbonate
-		
-		L3: Css(Oss*H)-Css(OssH) // 1,2-diol
+		 
 		L3: Oss-noncyclic
 		L3: Oss-cyclic
 		
