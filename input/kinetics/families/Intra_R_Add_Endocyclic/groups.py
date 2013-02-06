@@ -699,7 +699,7 @@ entry(
 2 *4 Cd            0 {1,S} {3,D}
 3 *5 Cd            0 {2,D} {4,S}
 4 *2 {Cd,Ct,CO}    0 {3,S} {5,{D,T}}
-5 *3 {Cd,Ct,Od,Sd} 0 {4,{D,T}}
+5 *3 {Cd,Ct,Od,Sd,Cdd} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -724,6 +724,29 @@ entry(
 3 *5 Cd  0 {2,D} {4,S}
 4 *2 Cd  0 {3,S} {5,D}
 5 *3 Cd  0 {4,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+entry(
+    index = 163,
+    label = "R5_SD_DD",
+    group = 
+"""
+1 *1 R!H       1 {2,S}
+2 *4 Cd        0 {1,S} {3,D}
+3 *5 Cd        0 {2,D} {4,S}
+4 *2 Cd        0 {3,S} {5,D}
+5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
     reference = None,
@@ -795,7 +818,7 @@ entry(
 2 *4 Cd            0 {1,D} {3,S}
 3 *5 R!H           0 {2,S} {4,S}
 4 *2 {Cd,Ct,CO}    0 {3,S} {5,{D,T}}
-5 *3 {Cd,Ct,Od,Sd} 0 {4,{D,T}}
+5 *3 {Cd,Cdd,Ct,Od,Sd} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -819,7 +842,7 @@ entry(
 2 *4 Cd  0 {1,D} {3,S}
 3 *5 R!H 0 {2,S} {4,S}
 4 *2 Cd  0 {3,S} {5,D}
-5 *3 Cd  0 {4,D}
+5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
     reference = None,
