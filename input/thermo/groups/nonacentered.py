@@ -9,13 +9,14 @@ longDesc = u"""
 
 entry(
 	index = 1,
-	label = "Oss(CdsOd)R",
+	label = "Oss(CdsOd)",
 	group = 
 """
 1 * CO  0 {2,S} {3,S} {4,D}
-2   Os  0 {1,S}
-3   R   0 {1,S}
+2   Os  0 {1,S} {5,S}
+3   {Cs, Cd, Cdd, Ct, Cb, Cbf, CO, H}   0 {1,S}
 4   Od	0 {1,D}
+5   R!H 0 {2,S}
 """,
 	solute = SoluteData(
 		S = -0.225,
@@ -37,9 +38,10 @@ entry(
 	group = 
 """
 1 * CO  0 {2,S} {3,S} {4,D}
-2   Os  0 {1,S}
+2   Os  0 {1,S} {5,S}
 3   Os  0 {1,S}
 4   Od	0 {1,D}
+5   R!H 0 {2,S}
 """,
 	solute = SoluteData(
 		S = -0.19,
@@ -57,12 +59,12 @@ u"""
 
 entry(
 	index = 3,
-	label = "OssH(CdsOd)R",
+	label = "OssH(CdsOd)",
 	group = 
 """
 1 * CO  0 {2,S} {3,S} {4,D}
 2   Os  0 {1,S}, {5,S}
-3   R   0 {1,S}
+3   {Cs, Cd, Cdd, Ct, Cb, Cbf, CO, H}   0 {1,S}
 4   Od	0 {1,D}
 5   H   0 {2,S}
 """,
@@ -82,7 +84,7 @@ u"""
 
 entry(
 	index = 4,
-	label = "RRCs(OssH)Cs(OssH)RR",
+	label = "Cs(OssH)Cs(OssH)",
 	group = 
 """
 1 * Cs 0 {2,S} {3,S} {4,S}, {5,S}
@@ -98,10 +100,10 @@ entry(
 
 """,
 	solute = SoluteData(
-		S = 0.052,
+		S = 0.052/2,
 		B = 0,
-		E = -0.043,
-		L = 0.1,
+		E = -0.043/2,
+		L = 0.1/2,
 		A = 0
 	),
 	shortDesc = u"""Platts fragment 68 1,2 diol""",
@@ -111,16 +113,79 @@ u"""
 """
 )
 
+entry(
+	index = 5,
+	label = "Cd(Od)Cd=CdCd(Od)",
+	group = 
+"""
+1 * CO 0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cd 0 {1,S} {5,S} {6,D}
+4   R  0 {1,S}
+5   R  0 {3,S}
+6   Cd 0 {3,D} {7,S} {8,S}
+7   R  0 {6,S}
+8   CO 0 {6,S} {9,S} {10,D}
+9   R  0 {8,S}
+10  Od 0 {8,D}
+
+""",
+	solute = SoluteData(
+		S = -0.411/2,
+		B = -0.051/2,
+		E = 0,
+		L = 0,
+		A = 0
+	),
+	shortDesc = u"""Platts fragment 55 quinone""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 6,
+	label = "CbCsOssH",
+	group = 
+"""
+1 * Cb {2,S}
+2   Cs {1,S} {3,S}
+3   Os {2,S} {4,S}
+4   H  {3,S}
+
+""",
+	solute = SoluteData(
+		S = 0,
+		B = 0.131,
+		E = 0,
+		L = -0.145,
+		A = 0
+	),
+	shortDesc = u"""Platts fragment 79 benzyl alcohol""",
+	longDesc = 
+u"""
+
+"""
+)
+
+
+
 tree(
 """
 L0: R
 
 	L1: CO
-		L1: Oss(CdsOd)R // non-cyclic ester
-		L1: Oss(CdsOd)Oss // carbonate
-		L1: OssH(CdsOd)R // carboxylic acid
+		L2: Oss(CdsOd) // non-cyclic ester
+		L2: Oss(CdsOd)Oss // carbonate
+		L2: OssH(CdsOd) // carboxylic acid
+		L2: Cd(Od)Cd-CdCd(Od) // quinone
 	
-	L1: RRCs(OssH)Cs(OssH)RR // 1,2 diol
+	L1: Cs
+		L2: Cs(OssH)Cs(OssH) // 1,2 diol
+		
+	L1: Cb
+		L2: CbCsOssH // benzyl alcohol
 
 """
 )
