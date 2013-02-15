@@ -8,6 +8,7 @@ each of these has a number of required and optional command-line arguments.
 Use the "-h" flag to get more information.
 """
 
+import argparse
 import os.path
 import time
 import math
@@ -831,10 +832,8 @@ def getFromJava(args):
 
 ################################################################################
 
-if __name__ == '__main__':
+def parseAndRunCommandLineArguments():
 
-    import argparse
-    
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(dest='command', help='')
     
@@ -860,6 +859,7 @@ if __name__ == '__main__':
     javaParser.set_defaults(run=getFromJava)
     
     args = parser.parse_args()
+    
     try:
         args.run(args)
     except ArgumentError, e:
@@ -870,3 +870,8 @@ if __name__ == '__main__':
         else:
             parser.print_help()
         print 'ArgumentError: {0}'.format(e)
+
+################################################################################
+
+if __name__ == '__main__':
+    parseAndRunCommandLineArguments()
