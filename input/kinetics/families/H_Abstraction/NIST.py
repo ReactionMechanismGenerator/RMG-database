@@ -32382,7 +32382,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.67e-81,"m^3/(mol*s)"),
+        A = (1.67e-81,"m^3/(molecule*s)"),
         n = 19.68,
         Ea = (43.194,"kJ/mol"),
         T0 = (1,"K"),
@@ -32439,7 +32439,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (3.38e-30,"m^3/(mol*s)"),
+        A = (3.38e-30,"m^3/(molecule*s)"),
         n = 3.57,
         Ea = (-32.31,"kJ/mol"),
         T0 = (1,"K"),
@@ -32555,7 +32555,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (3.31e-29,"m^3/(mol*s)"),
+        A = (3.31e-29,"m^3/(molecule*s)"),
         n = 3.37,
         Ea = (-31.944,"kJ/mol"),
         T0 = (1,"K"),
@@ -32612,7 +32612,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.69e-77,"m^3/(mol*s)"),
+        A = (1.69e-77,"m^3/(molecule*s)"),
         n = 18.51,
         Ea = (39.369,"kJ/mol"),
         T0 = (1,"K"),
@@ -68446,7 +68446,7 @@ entry(
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (0.0103,"m^3/(mol*s)","+|-",0.00047),
+        A = (1.03e7,"m^3/(mol*s)","+|-",0.00047),
         n = 0,
         Ea = (74.3,"kJ/mol","+|-",4.9),
         T0 = (1,"K"),
