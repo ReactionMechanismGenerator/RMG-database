@@ -87,80 +87,6 @@ def createDataSet(label, family, database):
 
 ################################################################################
 
-def getRatesFromRMGJava(family_label, database, testSetLabels):
-    """
-    Get rates from RMG java for the given reaction `family` using the
-    specified lists of depository components `testSetLabels` as the test sets.
-    The already-loaded RMG database should be given as the `database`
-    parameter.
-    """
-    # RMG website must be on your python path, as that's where the RMG-java interface is defined.
-    from rmgweb.database import tools
-    
-    family = database.kinetics.families[family_label]
-    
-    for set_label in testSetLabels:
-        depository = getKineticsSet(family, set_label)
-        if depository is None:
-            continue
-        print "Running reactions from {0}/{1} through RMG-java...".format(family_label,set_label)
-        try:
-            output = rmgpy.data.kinetics.KineticsDepository(
-                label = '{0}/{1}_RMG_java'.format(family_label,set_label),
-                name = '{0}/{1}_RMG_java'.format(family_label,set_label),
-                shortDesc = "Reactions from {0}/{1} with kinetics estimated by RMG-Java.".format(family_label,set_label),
-                longDesc = "Reactions from {0}/{1} with kinetics estimated by RMG-Java.".format(family_label,set_label)
-            )
-            
-
-            for entry in depository.entries.values():
-                reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family.label, thermoDatabase=database.thermo)
-                
-                reaction_from_java = tools.getRMGJavaKineticsFromReaction(reaction)
-                # make the longDesc before reversing entry.item
-                longDesc = """
-The PrIMe reaction {0!s}
-with description "{1}"
-and kinetics {2!s}
-was predicted by RMG-Java
-as reaction {3!s}
-with kinetics {4!s}
-and comment "{5!s}"\n""".format(entry.item,
-                           entry.longDesc,
-                           entry.data,
-                           reaction_from_java,
-                           reaction_from_java.kinetics,
-                           reaction_from_java.kinetics.comment)
-                if not reaction_from_java.isIsomorphic(entry.item):
-                    print """
- Reaction {0} from java is not the same as reaction sent to java.
- Probably this is just a resonance isomer and it is in fact the same,
- but if we can't pass the isomorphism check then we can't safely tell which
- direction it should be in, so we will skip the reaction entirely.
- """.format(entry.index)
-                    continue #skip to next entry
-                if not reaction_from_java.isIsomorphic(entry.item, eitherDirection=False):
-                    # reverse the entry.item so the kinetics from the java represent it in the direction as written.
-                    temporary = entry.item.reactants
-                    entry.item.reactants = entry.item.products
-                    entry.item.products = temporary
-                    longDesc += "The reaction was reversed from the direction given in PrIMe to match the RMG-Java kinetics\n"
-                    
-                entry.data = reaction_from_java.kinetics
-                entry.longDesc = longDesc
-                entry.reference = None
-                entry.referenceType = ''
-                entry.history.append([time.asctime(),user,'action','Replaced kinetics with those estimated using RMG-Java.'])
-                entry.shortDesc = "Rate estimated by RMG-Java"
-                output.entries[entry.index] = entry
-                print longDesc
-        finally:
-            filename = 'input/kinetics/families/{0}/{1}_RMG_Java.py'.format(family_label,set_label)
-            print "Saving results (so far) in "+filename
-            output.save(filename)
-
-################################################################################
-
 class ArgumentError(Exception):
     """
     An exception raised when the command-line arguments given to the script are
@@ -232,7 +158,7 @@ def evaluate(args):
     families. The `args` parameter provides the results of parsing the 
     command-line arguments using argparse.
     """
-    mode = 'java' if args.java else 'python'
+    method = 'rate rules' if args.rules else 'group additivity'
     plot = 'interactive' if args.interactive else 'normal'
     
     # If test sets are not specified, choose some
@@ -257,14 +183,12 @@ def evaluate(args):
         changed = evaluateKineticsGroupValues(
             database = database,
             family = family,
-            #method = 'rate rules',
-            method = 'group additivity',
+            method = method,
             testSetLabels = testSets,
-            mode = mode,
             plot = plot,
         )
 
-def evaluateKineticsGroupValues(family, database, method, testSetLabels, mode, plot):
+def evaluateKineticsGroupValues(family, database, method, testSetLabels, plot):
     """
     Evaluate the kinetics group additivity values for the given reaction 
     `family` using the specified lists of depository components 
@@ -272,23 +196,14 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, mode, p
     given as the `database` parameter.
     """
     kunits = family.getRateCoefficientUnits()
-    
-    # If in Java mode, only keep test sets with RMG-Java data
-    if mode == 'java':
-        testSetLabels0 = testSetLabels; testSetLabels = []
-        for label in testSetLabels0:
-            if os.path.exists(os.path.join('input', 'kinetics', 'families', family.label, '{0}_RMG_Java.py'.format(label))):
-                # Okay, we've found RMG-Java data
-                testSetLabels.append(label)
-                testSetLabels.append('{0}_RMG_Java'.format(label))
-                
+                    
     print 'Categorizing reactions in test sets for {0}'.format(family.label)
-    testSets = []
+    testSets0 = []
     for testSetLabel in testSetLabels:
         testSet = createDataSet(testSetLabel, family, database)
-        testSets.append((testSetLabel, testSet))
+        testSets0.append((testSetLabel, testSet))
     
-    for testSetLabel, testSet in testSets:
+    for testSetLabel, testSet in testSets0:
         for index in range(len(testSet)):
             reaction, template, entry = testSet[index]
             for reactant in reaction.reactants:
@@ -301,50 +216,19 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, mode, p
     # For each entry in each test set, determine the kinetics as predicted by
     # RMG-Py and as given by the entry in the test set
     # Note that this is done on a per-site basis!
-    if mode == 'python':
-    
-        kineticsModels = []; kineticsData = []
-        for testSetLabel, testSet in testSets:
-            for index in range(len(testSet)):
-                reaction, template, entry = testSet[index]
-                kmodel = family.getKineticsForTemplate(template, degeneracy=1, method=method)
-                kdata = convertKineticsToPerSiteBasis(entry.data, reaction.degeneracy)
-                testSet[index] = reaction, template, entry, kmodel, kdata
-    
-    elif mode == 'java':
-        testSets0 = testSets; testSets = []
-        # Every other item in the test sets should be an RMG-Java library
-        for index in range(len(testSets0)/2):
-            
-            testSetLabel, testSet0 = testSets0[2*index]
-            testSet0JavaLabel, testSet0Java = testSets0[2*index+1]
-            
-            testSet = []
-            
-            for reaction0, template0, entry0 in testSet0:
-                for reaction, template, entry in testSet0Java:
-                    if entry0.index == entry.index and entry0.label == entry.label:
-                        # The java-estimated rates:
-                        assert reaction.isIsomorphic(reaction0)
-                        if not re.search('Average of:',entry.longDesc):
-                            # exact match - unfair advantage. skip it
-                            break
-                        if reaction.isIsomorphic(reaction0, eitherDirection=False):
-                            # it's in the right direction
-                            kmodel = entry.data
-                            # The following line replaces it with the python-estimated rate (so that you can compare the parity plots)
-                            #kmodel = family.getKineticsForTemplate(template, degeneracy=reaction.degeneracy)
-                        else:
-                            # it's in the wrong direction
-                            break # for now, skip it, because generating the reverse doesn't seem to work
-                            kmodel = reaction.generateReverseRateCoefficient()
-                        kmodel = convertKineticsToPerSiteBasis(kmodel, reaction.degeneracy)
-                        # The prime database rates:
-                        kdata = convertKineticsToPerSiteBasis(entry0.data, reaction0.degeneracy)
-                        testSet.append([reaction, template, entry, kmodel, kdata])
-                        break
-            
-            testSets.append([testSetLabel, testSet])
+    kineticsModels = []; kineticsData = []
+    testSets = []
+    for testSetLabel, testSet0 in testSets0:
+        testSet = []
+        for index in range(len(testSet0)):
+            reaction, template, entry = testSet0[index]
+            krule = family.getKineticsForTemplate(template, degeneracy=1, method='rate rules')
+            kgroup = family.getKineticsForTemplate(template, degeneracy=1, method='group additivity')
+            kdata = convertKineticsToPerSiteBasis(entry.data, reaction.degeneracy)
+            if not re.search('Estimated', krule.comment):
+                continue   
+            testSet.append((reaction, template, entry, krule, kgroup, kdata))
+        testSets.append((testSetLabel, testSet))
     
     # Generate parity plots at several temperatures
     print 'Generating parity plots for {0}'.format(family.label)
@@ -380,7 +264,12 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, mode, p
             kmodel = []; kdata = []
             stdev = 0; ci = 0; count = 0
                 
-            for reaction, template, entry, kineticsModel, kineticsData in testSet:
+            for reaction, template, entry, kineticsRule, kineticsGroup, kineticsData in testSet:
+                
+                if method == 'rate rules':
+                    kineticsModel = kineticsRule
+                elif method == 'group additivity':
+                    kineticsModel = kineticsGroup
                 
                 # Evaluate k(T) for both model and data at this temperature
                 if isinstance(kineticsModel, ArrheniusEP):
@@ -435,7 +324,7 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, mode, p
             ydata = event.artist.get_ydata()
             testSetLabel, testSet = testSets[index]
             for ind in event.ind:
-                reaction, template, entry, kmodel, kdata = testSet[ind]
+                reaction, template, entry, krule, kgroup, kdata = testSet[ind]
                 kunits = 'm^3/(mol*s)' if len(reaction.reactants) == 2 else 's^-1'
                 print testSetLabel
                 print 'template = [{0}]'.format(', '.join([g.label for g in template]))
@@ -443,7 +332,10 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, mode, p
                 print str(reaction)
                 print 'k_data   = {0:9.2e} {1}'.format(xdata[ind], kunits)
                 print 'k_model  = {0:9.2e} {1}'.format(ydata[ind], kunits)
-                print kmodel.comment
+                print krule
+                print kgroup
+                print krule.comment
+                print kgroup.comment
                 print
                 
         connection_id = fig.canvas.mpl_connect('pick_event', onpick)
@@ -461,48 +353,9 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, mode, p
             
         else:
             fig.subplots_adjust(left=0.15, bottom=0.12, right=0.95, top=0.93, wspace=0.20, hspace=0.20)
-            pylab.savefig('%s_%g_test.pdf' % (family.label, T))
+            pylab.savefig('{0}_{1:g}_test.pdf'.format(family.label, T))
           
         pylab.show()
-
-################################################################################
-
-class VerySpecificException(Exception):
-    """
-    This is just so that you can have an except block catch something that is never thrown,
-    so that you can disable the try/except thing without changing the code much.
-    """
-    pass
-
-def getFromJava(args):
-    """
-    This function is called when the "java" command is given on the command
-    line. It causes group additivity kinetics values to be estimated by
-    RMG-java and saved for all reaction families.
-    """
-    successes = []
-    failures = []
-    for family in database.kinetics.families.keys():
-        try: 
-         getRatesFromRMGJava(
-            database = database,
-            family_label = family,
-            testSetLabels = ['PrIMe'],
-         )
-        except (VerySpecificException, Exception) as e:
-            print "FAILED on "+family
-            print "EXCEPTION: "+str(e)
-            failures.append(family)
-        else:
-            successes.append(family)
-    print 'COMPLETED making RMG-Java kinetics for:'
-    for family in successes:
-        print "  "+family
-    print 'FAILED while making RMG-Java kinetics for:'
-    for family in failures:
-        print "  "+family
-    
-    #database.kinetics.saveGroups(os.path.join('input', 'kinetics', 'groups'))
 
 ################################################################################
 
@@ -525,12 +378,8 @@ def parseAndRunCommandLineArguments():
     evaluateParser.add_argument('-a', '--all', action='store_true', help='generate for all families')
     evaluateParser.add_argument('--test', metavar='<testset>', type=str, nargs='*', help='the test set(s) to use')
     evaluateParser.add_argument('-i', '--interactive', action='store_true', help='evaluate using interactive plots')
-    evaluateParser.add_argument('--java', action='store_true', help='use RMG-Java estimates instead of RMG-Py estimates')
+    evaluateParser.add_argument('--rules', action='store_true', help='use rate rules instead of group additivity')
     evaluateParser.set_defaults(run=evaluate)
-    
-    # java - generate kinetics estimates from RMG-Java
-    javaParser = subparsers.add_parser('java', help='evaluate kinetics from RMG java for all families')
-    javaParser.set_defaults(run=getFromJava)
     
     args = parser.parse_args()
     
