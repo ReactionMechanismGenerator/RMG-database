@@ -22,6 +22,7 @@ import rmgpy
 from rmgpy.quantity import constants
 from rmgpy.kinetics import Arrhenius, ArrheniusEP, KineticsData
 from rmgpy.data.base import getAllCombinations
+from rmgpy.species import Species
 
 from importOldDatabase import getUsername
 user = getUsername()
@@ -65,6 +66,8 @@ def createDataSet(label, family, database):
             for entry in entries:
                 # Skip ArrheniusEP entries with Evans-Polanyi values
                 if isinstance(entry.data, ArrheniusEP) and entry.data.alpha.value != 0: continue
+                # Also skip entries with rank of zero (since they are just made-up numbers)
+                if entry.rank == 0: continue
                 template = [family.groups.entries[node] for node in label.split(';')]
                 reaction = entry.item
                 dataset.append([reaction, template, entry])
@@ -81,194 +84,6 @@ def createDataSet(label, family, database):
             dataset.append([reaction, template, entry])
 
     return dataset
-
-################################################################################
-
-def evaluateKineticsGroupValues(family, database, testSetLabels, mode, plot):
-    """
-    Evaluate the kinetics group additivity values for the given reaction 
-    `family` using the specified lists of depository components 
-    `testSetLabels` as the test set. The already-loaded RMG database should be 
-    given as the `database` parameter.
-    """
-    kunits = getRateCoefficientUnits(family)
-    
-    # If in Java mode, only keep test sets with RMG-Java data
-    if mode == 'java':
-        testSetLabels0 = testSetLabels; testSetLabels = []
-        for label in testSetLabels0:
-            if os.path.exists(os.path.join('input', 'kinetics', 'families', family.label, '{0}_RMG_Java.py'.format(label))):
-                # Okay, we've found RMG-Java data
-                testSetLabels.append(label)
-                testSetLabels.append('{0}_RMG_Java'.format(label))
-                
-    print 'Categorizing reactions in test sets for {0}'.format(family.label)
-    testSets = createDataSet(testSetLabels, family, database)
-    
-    # For each entry in each test set, determine the kinetics as predicted by
-    # RMG-Py and as given by the entry in the test set
-    # Note that this is done on a per-site basis!
-    if mode == 'python':
-    
-        kineticsModels = []; kineticsData = []
-        for testSetLabel, testSet in testSets:
-            for index in range(len(testSet)):
-                reaction, template, entry = testSet[index]
-                kmodel = family.getKineticsForTemplate(template, degeneracy=1)
-                kdata = convertKineticsToPerSiteBasis(entry.data, reaction.degeneracy)
-                testSet[index] = reaction, template, entry, kmodel, kdata
-    
-    elif mode == 'java':
-        testSets0 = testSets; testSets = []
-        # Every other item in the test sets should be an RMG-Java library
-        for index in range(len(testSets0)/2):
-            
-            testSetLabel, testSet0 = testSets0[2*index]
-            testSet0JavaLabel, testSet0Java = testSets0[2*index+1]
-            
-            testSet = []
-            
-            for reaction0, template0, entry0 in testSet0:
-                for reaction, template, entry in testSet0Java:
-                    if entry0.index == entry.index and entry0.label == entry.label:
-                        # The java-estimated rates:
-                        assert reaction.isIsomorphic(reaction0)
-                        if not re.search('Average of:',entry.longDesc):
-                            # exact match - unfair advantage. skip it
-                            break
-                        if reaction.isIsomorphic(reaction0, eitherDirection=False):
-                            # it's in the right direction
-                            kmodel = entry.data
-                            # The following line replaces it with the python-estimated rate (so that you can compare the parity plots)
-                            #kmodel = family.getKineticsForTemplate(template, degeneracy=reaction.degeneracy)
-                        else:
-                            # it's in the wrong direction
-                            break # for now, skip it, because generating the reverse doesn't seem to work
-                            kmodel = reaction.generateReverseRateCoefficient()
-                        kmodel = convertKineticsToPerSiteBasis(kmodel, reaction.degeneracy)
-                        # The prime database rates:
-                        kdata = convertKineticsToPerSiteBasis(entry0.data, reaction0.degeneracy)
-                        testSet.append([reaction, template, entry, kmodel, kdata])
-                        break
-            
-            testSets.append([testSetLabel, testSet])
-    
-    # Generate parity plots at several temperatures
-    print 'Generating parity plots for {0}'.format(family.label)
-    
-    import matplotlib.pyplot as plt
-    from matplotlib.widgets import CheckButtons
-    
-    Tdata = [500,1000,1500,2000]
-    
-    if kunits == 'm^3/(mol*s)':
-        kunits = 'cm^3/mol*s'; kfactor = 1.0e6
-    elif kunits == 's^-1':
-        kunits = 's^{-1}'; kfactor = 1.0
-    
-    for T in Tdata:
-        
-        stdev_total = 0; ci_total = 0; count_total = 0
-        
-        # Initialize plot
-        if plot == 'interactive':
-            fig = pylab.figure(figsize=(10,8))
-            ax = plt.subplot(1, 1, 1)
-        else:
-            fig = pylab.figure(figsize=(6,5))
-            ax = plt.subplot(1, 1, 1) 
-        ax = plt.subplot(1, 1, 1)
-        lines = []
-        legend = []
-        
-        # Iterate through the test sets, plotting each
-        for testSetLabel, testSet in testSets:
-            
-            kmodel = []; kdata = []
-            stdev = 0; ci = 0; count = 0
-                
-            for reaction, template, entry, kineticsModel, kineticsData in testSet:
-                
-                # Evaluate k(T) for both model and data at this temperature
-                if isinstance(kineticsModel, ArrheniusEP):
-                    km = kineticsModel.getRateCoefficient(T, 0) * kfactor
-                else:
-                    km = kineticsModel.getRateCoefficient(T) * kfactor
-                kmodel.append(km)
-                if isinstance(kineticsData, ArrheniusEP):
-                    kd = kineticsData.getRateCoefficient(T, 0) * kfactor
-                else:
-                    kd = kineticsData.getRateCoefficient(T) * kfactor
-                kdata.append(kd)
-                
-                # Evaluate variance
-                stdev += (math.log10(km) - math.log10(kd))**2
-                count += 1
-            
-            stdev_total += stdev
-            count_total += count
-            stdev = math.sqrt(stdev / (count - 1))
-            ci = scipy.stats.t.ppf(0.975, count - 1) * stdev
-            
-            print "Test set {0} contained {1} rates.".format(testSetLabel, count)
-            print 'Confidence interval at T = {0:g} K for test set "{1}" = 10^{2:g}'.format(T, testSetLabel, ci)
-        
-            # Add this test set to the plot
-            lines.append(ax.loglog(kdata, kmodel, 'o', picker=5)[0])
-            legend.append(testSetLabel)
-        
-        stdev_total = math.sqrt(stdev_total / (count_total - 1))
-        ci_total = scipy.stats.t.ppf(0.975, count_total - 1) * stdev_total
-        
-        print 'Total confidence interval at T = {0:g} K for all test sets = 10^{1:g}'.format(T, ci_total)
-                
-        # Finish plots
-        xlim = pylab.xlim()
-        ylim = pylab.ylim()
-        lim = (min(xlim[0], ylim[0])*0.1, max(xlim[1], ylim[1])*10)
-        ax.loglog(lim, lim, '-k')
-        ax.loglog(lim, [lim[0] * 10**ci_total, lim[1] * 10**ci_total], '--k')
-        ax.loglog(lim, [lim[0] / 10**ci_total, lim[1] / 10**ci_total], '--k')
-        pylab.xlabel('Actual rate coefficient ({0})'.format(kunits))
-        pylab.ylabel('Predicted rate coefficient ({0})'.format(kunits))
-        pylab.legend(legend, loc=4)
-        pylab.title('%s, T = %g K' % (family.label, T))
-        pylab.xlim(lim)
-        pylab.ylim(lim)
-        
-        def onpick(event):
-            index = lines.index(event.artist)
-            xdata = event.artist.get_xdata()
-            ydata = event.artist.get_ydata()
-            testSetLabel, testSet = testSets[index]
-            for ind in event.ind:
-                reaction, template, entry, kmodel, kdata = testSet[ind]
-                kunits = 'm^3/(mol*s)' if len(reaction.reactants) == 2 else 's^-1'
-                print label
-                print 'template = [%s]' % (', '.join([g.label for g in template]))
-                print 'entry = %r' % (entry)
-                print '%s' % (reaction)
-                print 'k_data   = %9.2e %s' % (xdata[ind], kunits)
-                print 'k_model  = %9.2e %s' % (ydata[ind], kunits)
-            
-        connection_id = fig.canvas.mpl_connect('pick_event', onpick)
-        
-        if plot == 'interactive':
-            rax = plt.axes([0.15, 0.65, 0.2, 0.2])
-            check = CheckButtons(rax, legend, [True for label in legend])
-            
-            def func(label):
-                for index in range(len(lines)):
-                    if legend[index] == label:
-                        lines[index].set_visible(not lines[index].get_visible())
-                plt.draw()
-            check.on_clicked(func)
-            
-        else:
-            fig.subplots_adjust(left=0.15, bottom=0.12, right=0.95, top=0.93, wspace=0.20, hspace=0.20)
-            pylab.savefig('%s_%g_test.pdf' % (family.label, T))
-          
-        pylab.show()
 
 ################################################################################
 
@@ -417,14 +232,13 @@ def evaluate(args):
     families. The `args` parameter provides the results of parsing the 
     command-line arguments using argparse.
     """
-    
     mode = 'java' if args.java else 'python'
     plot = 'interactive' if args.interactive else 'normal'
     
     # If test sets are not specified, choose some
     testSets = args.test
     if not testSets:
-        testSets = ['rules', 'training', 'PrIMe', 'test']
+        testSets = ['NIST']
     
     # Load the database
     database = loadDatabase()
@@ -439,13 +253,219 @@ def evaluate(args):
     # Iterate over each family, generating and saving group values
     for label in families:
         family = database.kinetics.families[label]
+        family.addKineticsRulesFromTrainingSet(thermoDatabase=database.thermo)
         changed = evaluateKineticsGroupValues(
             database = database,
             family = family,
+            #method = 'rate rules',
+            method = 'group additivity',
             testSetLabels = testSets,
             mode = mode,
             plot = plot,
         )
+
+def evaluateKineticsGroupValues(family, database, method, testSetLabels, mode, plot):
+    """
+    Evaluate the kinetics group additivity values for the given reaction 
+    `family` using the specified lists of depository components 
+    `testSetLabels` as the test set. The already-loaded RMG database should be 
+    given as the `database` parameter.
+    """
+    kunits = family.getRateCoefficientUnits()
+    
+    # If in Java mode, only keep test sets with RMG-Java data
+    if mode == 'java':
+        testSetLabels0 = testSetLabels; testSetLabels = []
+        for label in testSetLabels0:
+            if os.path.exists(os.path.join('input', 'kinetics', 'families', family.label, '{0}_RMG_Java.py'.format(label))):
+                # Okay, we've found RMG-Java data
+                testSetLabels.append(label)
+                testSetLabels.append('{0}_RMG_Java'.format(label))
+                
+    print 'Categorizing reactions in test sets for {0}'.format(family.label)
+    testSets = []
+    for testSetLabel in testSetLabels:
+        testSet = createDataSet(testSetLabel, family, database)
+        testSets.append((testSetLabel, testSet))
+    
+    for testSetLabel, testSet in testSets:
+        for index in range(len(testSet)):
+            reaction, template, entry = testSet[index]
+            for reactant in reaction.reactants:
+                if isinstance(reactant, Species) and not reactant.label and len(reactant.molecule) > 0:
+                    reactant.label = reactant.molecule[0].toSMILES()
+            for product in reaction.products:
+                if isinstance(product, Species) and not product.label and len(product.molecule) > 0:
+                    product.label = product.molecule[0].toSMILES()
+    
+    # For each entry in each test set, determine the kinetics as predicted by
+    # RMG-Py and as given by the entry in the test set
+    # Note that this is done on a per-site basis!
+    if mode == 'python':
+    
+        kineticsModels = []; kineticsData = []
+        for testSetLabel, testSet in testSets:
+            for index in range(len(testSet)):
+                reaction, template, entry = testSet[index]
+                kmodel = family.getKineticsForTemplate(template, degeneracy=1, method=method)
+                kdata = convertKineticsToPerSiteBasis(entry.data, reaction.degeneracy)
+                testSet[index] = reaction, template, entry, kmodel, kdata
+    
+    elif mode == 'java':
+        testSets0 = testSets; testSets = []
+        # Every other item in the test sets should be an RMG-Java library
+        for index in range(len(testSets0)/2):
+            
+            testSetLabel, testSet0 = testSets0[2*index]
+            testSet0JavaLabel, testSet0Java = testSets0[2*index+1]
+            
+            testSet = []
+            
+            for reaction0, template0, entry0 in testSet0:
+                for reaction, template, entry in testSet0Java:
+                    if entry0.index == entry.index and entry0.label == entry.label:
+                        # The java-estimated rates:
+                        assert reaction.isIsomorphic(reaction0)
+                        if not re.search('Average of:',entry.longDesc):
+                            # exact match - unfair advantage. skip it
+                            break
+                        if reaction.isIsomorphic(reaction0, eitherDirection=False):
+                            # it's in the right direction
+                            kmodel = entry.data
+                            # The following line replaces it with the python-estimated rate (so that you can compare the parity plots)
+                            #kmodel = family.getKineticsForTemplate(template, degeneracy=reaction.degeneracy)
+                        else:
+                            # it's in the wrong direction
+                            break # for now, skip it, because generating the reverse doesn't seem to work
+                            kmodel = reaction.generateReverseRateCoefficient()
+                        kmodel = convertKineticsToPerSiteBasis(kmodel, reaction.degeneracy)
+                        # The prime database rates:
+                        kdata = convertKineticsToPerSiteBasis(entry0.data, reaction0.degeneracy)
+                        testSet.append([reaction, template, entry, kmodel, kdata])
+                        break
+            
+            testSets.append([testSetLabel, testSet])
+    
+    # Generate parity plots at several temperatures
+    print 'Generating parity plots for {0}'.format(family.label)
+    
+    import matplotlib.pyplot as plt
+    from matplotlib.widgets import CheckButtons
+    
+    Tdata = [500,1000,1500,2000]
+    
+    if kunits == 'm^3/(mol*s)':
+        kunits = 'cm^3/mol*s'; kfactor = 1.0e6
+    elif kunits == 's^-1':
+        kunits = 's^{-1}'; kfactor = 1.0
+    
+    for T in Tdata:
+        
+        stdev_total = 0; ci_total = 0; count_total = 0
+        
+        # Initialize plot
+        if plot == 'interactive':
+            fig = pylab.figure(figsize=(10,8))
+            ax = plt.subplot(1, 1, 1)
+        else:
+            fig = pylab.figure(figsize=(6,5))
+            ax = plt.subplot(1, 1, 1) 
+        ax = plt.subplot(1, 1, 1)
+        lines = []
+        legend = []
+        
+        # Iterate through the test sets, plotting each
+        for testSetLabel, testSet in testSets:
+            
+            kmodel = []; kdata = []
+            stdev = 0; ci = 0; count = 0
+                
+            for reaction, template, entry, kineticsModel, kineticsData in testSet:
+                
+                # Evaluate k(T) for both model and data at this temperature
+                if isinstance(kineticsModel, ArrheniusEP):
+                    km = kineticsModel.getRateCoefficient(T, 0) * kfactor
+                else:
+                    km = kineticsModel.getRateCoefficient(T) * kfactor
+                kmodel.append(km)
+                if isinstance(kineticsData, ArrheniusEP):
+                    kd = kineticsData.getRateCoefficient(T, 0) * kfactor
+                else:
+                    kd = kineticsData.getRateCoefficient(T) * kfactor
+                kdata.append(kd)
+                
+                # Evaluate variance
+                stdev += (math.log10(km) - math.log10(kd))**2
+                count += 1
+            
+            stdev_total += stdev
+            count_total += count
+            stdev = math.sqrt(stdev / (count - 1))
+            ci = scipy.stats.t.ppf(0.975, count - 1) * stdev
+            
+            print "Test set {0} contained {1} rates.".format(testSetLabel, count)
+            print 'Confidence interval at T = {0:g} K for test set "{1}" = 10^{2:g}'.format(T, testSetLabel, ci)
+        
+            # Add this test set to the plot
+            lines.append(ax.loglog(kdata, kmodel, 'o', picker=5)[0])
+            legend.append(testSetLabel)
+        
+        stdev_total = math.sqrt(stdev_total / (count_total - 1))
+        ci_total = scipy.stats.t.ppf(0.975, count_total - 1) * stdev_total
+        
+        print 'Total confidence interval at T = {0:g} K for all test sets = 10^{1:g}'.format(T, ci_total)
+                
+        # Finish plots
+        xlim = pylab.xlim()
+        ylim = pylab.ylim()
+        lim = (min(xlim[0], ylim[0])*0.1, max(xlim[1], ylim[1])*10)
+        ax.loglog(lim, lim, '-k')
+        ax.loglog(lim, [lim[0] * 10**ci_total, lim[1] * 10**ci_total], '--k')
+        ax.loglog(lim, [lim[0] / 10**ci_total, lim[1] / 10**ci_total], '--k')
+        pylab.xlabel('Actual rate coefficient ({0})'.format(kunits))
+        pylab.ylabel('Predicted rate coefficient ({0})'.format(kunits))
+        pylab.legend(legend, loc=4)
+        pylab.title('%s, T = %g K' % (family.label, T))
+        pylab.xlim(lim)
+        pylab.ylim(lim)
+        
+        def onpick(event):
+            index = lines.index(event.artist)
+            xdata = event.artist.get_xdata()
+            ydata = event.artist.get_ydata()
+            testSetLabel, testSet = testSets[index]
+            for ind in event.ind:
+                reaction, template, entry, kmodel, kdata = testSet[ind]
+                kunits = 'm^3/(mol*s)' if len(reaction.reactants) == 2 else 's^-1'
+                print testSetLabel
+                print 'template = [{0}]'.format(', '.join([g.label for g in template]))
+                print 'entry = {0!r}'.format(entry)
+                print str(reaction)
+                print 'k_data   = {0:9.2e} {1}'.format(xdata[ind], kunits)
+                print 'k_model  = {0:9.2e} {1}'.format(ydata[ind], kunits)
+                print kmodel.comment
+                print
+                
+        connection_id = fig.canvas.mpl_connect('pick_event', onpick)
+        
+        if plot == 'interactive':
+            rax = plt.axes([0.15, 0.65, 0.2, 0.2])
+            check = CheckButtons(rax, legend, [True for label in legend])
+            
+            def func(label):
+                for index in range(len(lines)):
+                    if legend[index] == label:
+                        lines[index].set_visible(not lines[index].get_visible())
+                plt.draw()
+            check.on_clicked(func)
+            
+        else:
+            fig.subplots_adjust(left=0.15, bottom=0.12, right=0.95, top=0.93, wspace=0.20, hspace=0.20)
+            pylab.savefig('%s_%g_test.pdf' % (family.label, T))
+          
+        pylab.show()
+
+################################################################################
 
 class VerySpecificException(Exception):
     """
