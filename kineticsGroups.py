@@ -277,6 +277,14 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, plot, e
                 elif method == 'group additivity':
                     kineticsModel = kineticsGroup
                 
+                # Honor temperature ranges when plotting data
+                # Place a dummy value so that the points so that the
+                # interactivity is still correct
+                if not kineticsData.isTemperatureValid(T):
+                    kmodel.append(0.0)
+                    kdata.append(0.0)
+                    continue
+                
                 # Evaluate k(T) for both model and data at this temperature
                 if isinstance(kineticsModel, ArrheniusEP):
                     km = kineticsModel.getRateCoefficient(T, 0) * kfactor
@@ -297,6 +305,9 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, plot, e
             count_total += count
             stdev = math.sqrt(stdev / (count - 1))
             ci = scipy.stats.t.ppf(0.975, count - 1) * stdev
+            
+            assert len(kmodel) == len(testSet)
+            assert len(kdata) == len(testSet)
             
             print "Test set {0} contained {1} rates.".format(testSetLabel, count)
             print 'Confidence interval at T = {0:g} K for test set "{1}" = 10^{2:g}'.format(T, testSetLabel, ci)
