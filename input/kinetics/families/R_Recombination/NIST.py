@@ -2265,12 +2265,12 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (197000,"s^-1"),
+        A = (5.012e14,"s^-1"),
         n = 0,
-        Ea = (62.691,"kJ/mol"),
+        Ea = (79.3,"kcal/mol"),
         T0 = (1,"K"),
-        Tmin = (1330,"K"),
-        Tmax = (1740,"K"),
+        Tmin = (1057,"K"),
+        Tmax = (1418,"K"),
     ),
     reference = Article(
         authors = ["Skinner, G.B.", "Ball, W.E."],
