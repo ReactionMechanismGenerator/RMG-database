@@ -186,9 +186,11 @@ def evaluate(args):
             method = method,
             testSetLabels = testSets,
             plot = plot,
+            exactOnly = args.exact,
+            estimateOnly = args.estimate,
         )
 
-def evaluateKineticsGroupValues(family, database, method, testSetLabels, plot):
+def evaluateKineticsGroupValues(family, database, method, testSetLabels, plot, exactOnly=False, estimateOnly=False):
     """
     Evaluate the kinetics group additivity values for the given reaction 
     `family` using the specified lists of depository components 
@@ -196,6 +198,8 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, plot):
     given as the `database` parameter.
     """
     kunits = family.getRateCoefficientUnits()
+    
+    assert not (exactOnly and estimateOnly)
                     
     print 'Categorizing reactions in test sets for {0}'.format(family.label)
     testSets0 = []
@@ -224,8 +228,10 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, plot):
             reaction, template, entry = testSet0[index]
             krule = family.getKineticsForTemplate(template, degeneracy=1, method='rate rules')
             kgroup = family.getKineticsForTemplate(template, degeneracy=1, method='group additivity')
-            if not re.search('Estimated', krule.comment):
             kdata = convertKineticsToPerSiteBasis(reaction.kinetics, reaction.degeneracy)
+            if exactOnly and not re.search('Exact', krule.comment):
+                continue
+            elif estimateOnly and not re.search('Estimated', krule.comment):
                 continue   
             testSet.append((reaction, template, entry, krule, kgroup, kdata))
         testSets.append((testSetLabel, testSet))
@@ -378,6 +384,17 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, plot):
 
         else:
             fig.subplots_adjust(left=0.15, bottom=0.14, right=0.95, top=0.93, wspace=0.20, hspace=0.20)
+            filename = '{0}_{1:g}'.format(family.label, T)
+            if method == 'rate rules':
+                filename += '_rules'
+            elif method == 'group additivity':
+                filename += '_groups'
+            if exactOnly:
+                filename += '_exact'
+            elif estimateOnly:
+                filename += '_estimate'
+            pylab.savefig('{0}.pdf'.format(filename))
+            pylab.savefig('{0}.png'.format(filename), dpi=200)
           
         pylab.show()
 
@@ -403,6 +420,8 @@ def parseAndRunCommandLineArguments():
     evaluateParser.add_argument('--test', metavar='<testset>', type=str, nargs='*', help='the test set(s) to use')
     evaluateParser.add_argument('-i', '--interactive', action='store_true', help='evaluate using interactive plots')
     evaluateParser.add_argument('--rules', action='store_true', help='use rate rules instead of group additivity')
+    evaluateParser.add_argument('--exact', action='store_true', help='only plot exact matches')
+    evaluateParser.add_argument('--estimate', action='store_true', help='only plot estimated matches')
     evaluateParser.set_defaults(run=evaluate)
     
     args = parser.parse_args()
