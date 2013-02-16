@@ -224,8 +224,8 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, plot):
             reaction, template, entry = testSet0[index]
             krule = family.getKineticsForTemplate(template, degeneracy=1, method='rate rules')
             kgroup = family.getKineticsForTemplate(template, degeneracy=1, method='group additivity')
-            kdata = convertKineticsToPerSiteBasis(entry.data, reaction.degeneracy)
             if not re.search('Estimated', krule.comment):
+            kdata = convertKineticsToPerSiteBasis(reaction.kinetics, reaction.degeneracy)
                 continue   
             testSet.append((reaction, template, entry, krule, kgroup, kdata))
         testSets.append((testSetLabel, testSet))
