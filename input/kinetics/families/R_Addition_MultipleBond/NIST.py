@@ -2155,9 +2155,9 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (3.49e+37,"s^-1"),
+        A = (6.8e+13,"s^-1"),
         n = 0,
-        Ea = (107.8,"kJ/mol"),
+        Ea = (109.5,"kJ/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (850,"K"),
@@ -12017,7 +12017,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (5.68e+37,"s^-1"),
+        A = (9.43e+13,"s^-1"),
         n = 0,
         Ea = (125.845,"kJ/mol"),
         T0 = (1,"K"),
