@@ -239,9 +239,9 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, plot):
     Tdata = [500,1000,1500,2000]
     
     if kunits == 'm^3/(mol*s)':
-        kunits = 'cm^3/mol*s'; kfactor = 1.0e6
+        kunits = 'cm$^3$/mol*s'; kfactor = 1.0e6
     elif kunits == 's^-1':
-        kunits = 's^{-1}'; kfactor = 1.0
+        kunits = 's$^{-1}$'; kfactor = 1.0
     
     for T in Tdata:
         
@@ -313,10 +313,33 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, plot):
         ax.loglog(lim, [lim[0] / 10**ci_total, lim[1] / 10**ci_total], '--k')
         pylab.xlabel('Actual rate coefficient ({0})'.format(kunits))
         pylab.ylabel('Predicted rate coefficient ({0})'.format(kunits))
-        pylab.legend(legend, loc=4)
+        if len(testSets) > 1:
+            pylab.legend(legend, loc=4, numpoints=1)
         pylab.title('%s, T = %g K' % (family.label, T))
         pylab.xlim(lim)
         pylab.ylim(lim)
+        
+        plot_range = math.log10(lim[1] / lim[0])
+        if plot_range > 25:
+            majorLocator = matplotlib.ticker.LogLocator(1e5)
+            minorLocator = matplotlib.ticker.LogLocator(1e5, subs=[1, 10, 100, 1000, 10000])
+        elif plot_range > 20:
+            majorLocator = matplotlib.ticker.LogLocator(1e4)
+            minorLocator = matplotlib.ticker.LogLocator(1e4, subs=[1, 10, 100, 1000])
+        elif plot_range > 15:
+            majorLocator = matplotlib.ticker.LogLocator(1e3)
+            minorLocator = matplotlib.ticker.LogLocator(1e3, subs=[1, 10, 100])
+        elif plot_range > 10:
+            majorLocator = matplotlib.ticker.LogLocator(1e2)
+            minorLocator = matplotlib.ticker.LogLocator(1e2, subs=[1, 10])
+        else:
+            majorLocator = matplotlib.ticker.LogLocator(1e1)
+            minorLocator = None   
+        ax.xaxis.set_major_locator(majorLocator)
+        ax.yaxis.set_major_locator(majorLocator)
+        if minorLocator:
+            ax.xaxis.set_minor_locator(minorLocator)
+            ax.yaxis.set_minor_locator(minorLocator)
         
         def onpick(event):
             index = lines.index(event.artist)
@@ -333,9 +356,9 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, plot):
                 print 'k_data   = {0:9.2e} {1}'.format(xdata[ind], kunits)
                 print 'k_model  = {0:9.2e} {1}'.format(ydata[ind], kunits)
                 print krule
-                print kgroup
+                if kgroup: print kgroup
                 print krule.comment
-                print kgroup.comment
+                if kgroup: print kgroup.comment
                 print
                 
         connection_id = fig.canvas.mpl_connect('pick_event', onpick)
@@ -351,9 +374,10 @@ def evaluateKineticsGroupValues(family, database, method, testSetLabels, plot):
                 plt.draw()
             check.on_clicked(func)
             
+            fig.subplots_adjust(left=0.10, bottom=0.10, right=0.97, top=0.95, wspace=0.20, hspace=0.20)
+
         else:
-            fig.subplots_adjust(left=0.15, bottom=0.12, right=0.95, top=0.93, wspace=0.20, hspace=0.20)
-            pylab.savefig('{0}_{1:g}_test.pdf'.format(family.label, T))
+            fig.subplots_adjust(left=0.15, bottom=0.14, right=0.95, top=0.93, wspace=0.20, hspace=0.20)
           
         pylab.show()
 
