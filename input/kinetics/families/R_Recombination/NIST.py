@@ -9900,9 +9900,9 @@ entry(
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (5e+12,"s^-1"),
+        A = (5e+11,"s^-1"),
         n = 0,
-        Ea = (-280.198,"kJ/mol","+|-",16.795),
+        Ea = (67.0,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (933,"K"),
         Tmax = (1080,"K"),
@@ -13239,7 +13239,7 @@ entry(
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
-        A = (6.31e+07,"s^-1"),
+        A = (6.31e+17,"s^-1"),
         n = 0,
         Ea = (345.051,"kJ/mol","+|-",13.802),
         T0 = (1,"K"),
@@ -19226,7 +19226,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.8e+15,"s^-1"),
         n = 0,
-        Ea = (-0.002,"kJ/mol"),
+        Ea = (75.05,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (1400,"K"),
         Tmax = (1400,"K"),
