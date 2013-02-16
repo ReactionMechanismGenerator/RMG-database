@@ -42,11 +42,11 @@ def convertKineticsToPerSiteBasis(kinetics, degeneracy):
     `degeneracy`, convert the kinetics to be on a per-site basis.
     """
     if isinstance(kinetics, KineticsData):
-        kinetics.kdata.values /= degeneracy
+        kinetics.kdata.value_si /= degeneracy
     elif isinstance(kinetics, Arrhenius):
-        kinetics.A.value /= degeneracy
+        kinetics.A.value_si /= degeneracy
     elif isinstance(kinetics, ArrheniusEP):
-        kinetics.A.value /= degeneracy
+        kinetics.A.value_si /= degeneracy
     else:
         raise Exception('Unable to convert kinetics of type {0} to per-site basis.'.format(kinetics.__class__))
     return kinetics
