@@ -32384,7 +32384,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.67e-81,"m^3/(molecule*s)"),
         n = 19.68,
-        Ea = (43.194,"kJ/mol"),
+        Ea = (-43.194,"kJ/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (600,"K"),
@@ -32441,7 +32441,7 @@ entry(
     kinetics = Arrhenius(
         A = (3.38e-30,"m^3/(molecule*s)"),
         n = 3.57,
-        Ea = (-32.31,"kJ/mol"),
+        Ea = (32.31,"kJ/mol"),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (3000,"K"),
