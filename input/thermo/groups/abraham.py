@@ -57,7 +57,7 @@ entry(
 	label = "Cds",
 	group = 
 """
-1 * Cd 0
+1 * {Cd,CO} 0
 """,
 	solute = None,
 	shortDesc = u"""""",
@@ -72,10 +72,11 @@ entry(
     label = "CssH3",
     group = 
 """
-1 * Cs  0 {2,S} {3,S} {4,S}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
 2   H   0 {1,S}
 3   H   0 {1,S}
 4   H   0 {1,S}
+5   R   0 {1,S}
 """,
     solute = SoluteData(
         S = -0.075,
@@ -96,10 +97,11 @@ entry(
     label = "CssH2",
     group = 
 """
-1 * Cs  0 {2,S} {3,S} {4,S}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
 2   H   0 {1,S}
 3   H   0 {1,S}
-4   R!H   0 {1,S}
+4   R!H 0 {1,S}
+5   R!H 0 {1,S}  
 """,
     solute = SoluteData(
         S =  0,
@@ -120,10 +122,11 @@ entry(
     label = "CssH",
     group = 
 """
-1 * Cs  0 {2,S} {3,S} {4,S}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
 2   H   0 {1,S}
 3   R!H   0 {1,S}
 4   R!H   0 {1,S}
+5   R!H   0 {1,S}
 
 """,
     solute = SoluteData(
@@ -145,10 +148,11 @@ entry(
 	label = "Css-noH",
 	group = 
 """
-1 * Cs 0 {2,S} {3,S} {4,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
 2   R!H   0 {1,S}
 3   R!H   0 {1,S}
 4   R!H   0 {1,S}
+5	R!H	  0	{1,S}
 
 """,
 	solute = SoluteData(
@@ -169,7 +173,7 @@ entry(
 	label = "CdsH2",
 	group = 
 """
-1 * Cd 0 {2,S} {3,S} {4,D}
+1 * {Cd,CO} 0 {2,S} {3,S} {4,D}
 2   H 0 {1,S}
 3   H 0 {1,S}
 4   R!H 0 {1,D}
@@ -180,7 +184,7 @@ entry(
 		 B =  0.019,
 		 E =  -0.045,
 		 L =  0.244,
-		 A =  0,
+		 A =  0
 	),
 	shortDesc = u"""Platts' fragment 5 sp2 =CH2""",
 	longDesc = 
@@ -194,7 +198,7 @@ entry(
 	label = "CdsH",
 	group = 
 """
-1 * Cd 0 {2,S} {3,S} {4,D}
+1 * {Cd,CO} 0 {2,S} {3,S} {4,D}
 2   H 0 {1,S}
 3   R!H 0 {1,S}
 4   R!H 0 {1,D}
@@ -219,7 +223,7 @@ entry(
 	label = "Cds-noH",
 	group = 
 """
-1 * Cd 0 {2,S} {3,S} {4,D}
+1 * {Cd,CO} 0 {2,S} {3,S} {4,D}
 2   R!H 0 {1,S}
 3   R!H 0 {1,S}
 4   R!H 0 {1,D}
@@ -282,6 +286,7 @@ u"""
 
 """
 )
+
 
 entry(
 	index = 24,
@@ -476,6 +481,7 @@ L1: C
 	L2: Cb // sp2 aromatic
 
 	L2: Cdd // sp2 nonfused aromatic
+	
 
 L1: O
 
