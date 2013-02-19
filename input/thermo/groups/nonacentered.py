@@ -8,15 +8,76 @@ longDesc = u"""
 """
 
 entry(
+	index = -3,
+	label = "R",
+	group = 
+"""
+1 * R 0
+""",
+	solute = None,
+	shortDesc = u"""""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = -2,
+	label = "CO",
+	group = 
+"""
+1 * CO 0
+""",
+	solute = None,
+	shortDesc = u"""""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = -1,
+	label = "Cs",
+	group = 
+"""
+1 * Cs 0
+""",
+	solute = None,
+	shortDesc = u"""""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 0,
+	label = "Cb",
+	group = 
+"""
+1 * Cb 0
+""",
+	solute = None,
+	shortDesc = u"""""",
+	longDesc = 
+u"""
+
+"""
+)
+
+
+entry(
 	index = 1,
 	label = "Oss(CdsOd)",
 	group = 
 """
-1 * CO  0 {2,S} {3,S} {4,D}
-2   Os  0 {1,S} {5,S}
-3   {Cs, Cd, Cdd, Ct, Cb, Cbf, CO, H}   0 {1,S}
-4   Od	0 {1,D}
-5   R!H 0 {2,S}
+1 * CO  						0 {2,S} {3,S} {4,D}
+2   Os  						0 {1,S} {5,S}
+3   {Cs,Cd,Cdd,Ct,Cb,Cbf,CO,H}  0 {1,S}
+4   Od							0 {1,D}
+5   R!H 						0 {2,S}
 """,
 	solute = SoluteData(
 		S = -0.225,
@@ -27,9 +88,9 @@ entry(
 	),
 	shortDesc = u"""Platts fragment 43 non-cyclic ester""",
 	longDesc = 
-u"""
-
-"""
+	u"""
+	
+	"""
 )
 
 entry(
@@ -39,9 +100,10 @@ entry(
 """
 1 * CO  0 {2,S} {3,S} {4,D}
 2   Os  0 {1,S} {5,S}
-3   Os  0 {1,S}
+3   Os  0 {1,S} {6,S}
 4   Od	0 {1,D}
 5   R!H 0 {2,S}
+6   R!H 0 {3,S}
 """,
 	solute = SoluteData(
 		S = -0.19,
@@ -62,11 +124,11 @@ entry(
 	label = "OssH(CdsOd)",
 	group = 
 """
-1 * CO  0 {2,S} {3,S} {4,D}
-2   Os  0 {1,S}, {5,S}
-3   {Cs, Cd, Cdd, Ct, Cb, Cbf, CO, H}   0 {1,S}
-4   Od	0 {1,D}
-5   H   0 {2,S}
+1 * CO  						0 {2,S} {3,S} {4,D}
+2   Os  						0 {1,S}, {5,S}
+3   {Cs,Cd,Cdd,Ct,Cb,Cbf,CO,H}  0 {1,S}
+4   Od							0 {1,D}
+5   H   						0 {2,S}
 """,
 	solute = SoluteData(
 		S = -0.412,
@@ -149,10 +211,10 @@ entry(
 	label = "CbCsOssH",
 	group = 
 """
-1 * Cb {2,S}
-2   Cs {1,S} {3,S}
-3   Os {2,S} {4,S}
-4   H  {3,S}
+1 * Cb 0 {2,S}
+2   Cs 0 {1,S} {3,S}
+3   Os 0 {2,S} {4,S}
+4   H  0 {3,S}
 
 """,
 	solute = SoluteData(
@@ -179,7 +241,7 @@ L0: R
 		L2: Oss(CdsOd) // non-cyclic ester
 		L2: Oss(CdsOd)Oss // carbonate
 		L2: OssH(CdsOd) // carboxylic acid
-		L2: Cd(Od)Cd-CdCd(Od) // quinone
+		L2: Cd(Od)Cd=CdCd(Od) // quinone
 	
 	L1: Cs
 		L2: Cs(OssH)Cs(OssH) // 1,2 diol
