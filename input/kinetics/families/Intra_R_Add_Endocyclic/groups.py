@@ -957,7 +957,7 @@ entry(
 2 *4 Cd  0 {1,D} {3,S}
 3 *5 R!H 0 {2,S} {4,D}
 4 *2 Cd  0 {3,D} {5,D}
-5 *3 {Cd, Cdd}  0 {4,D}
+5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
     reference = None,
