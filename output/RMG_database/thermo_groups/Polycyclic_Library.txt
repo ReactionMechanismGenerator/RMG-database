@@ -1,0 +1,50 @@
+0 PolycyclicRing 			0	0	0	0	0	0	0	0	0	0	0	0	//Properties of Liquids and Gases, Poling 5th Ed. 
+1 bicyclo-(1.1.0)-butane	57.07894737	69.29665072	-3.227	-2.849	-2.536	-2.35		-2.191	-2.111	-1.76	0	0	0	//Properties of Liquids and Gases, Poling 5th Ed. S, Cp copied from cyclopropane
+2 bicyclo-(2.1.0)-pentane	55.37799043	64.78947368	-3.227	-2.849	-2.536	-2.35		-2.191	-2.111	-1.76	0	0	0	//Properties of Liquids and Gases, Poling 5th Ed. S, Cp copied from cyclopropane
+3 bicyclo-(2.2.1)-heptane	16.14354067	25.8283738	-4.5	-3.942	-3.291	-2.759		-2.08	-1.628	-0.898	0	0	0	//Properties of Liquids and Gases, Poling 5th Ed. S, Cp copied from cyclopentane
+4 bicyclo-(3.1.0)-hexane	32.74641148	60.98564593	-3.227	-2.849	-2.536	-2.35		-2.191	-2.111	-1.76	0	0	0	//Properties of Liquids and Gases, Poling 5th Ed. S, Cp copied from cyclopropane
+5 bicyclo-(4.1.0)-heptane	28.94976077	55.57655502	-3.227	-2.849	-2.536	-2.35		-2.191	-2.111	-1.76	0	0	0	//Properties of Liquids and Gases, Poling 5th Ed. S, Cp copied from cyclopropane
+6 bicyclo-(5.1.0)-octane	29.64114833	50.66985646	-3.227	-2.849	-2.536	-2.35		-2.191	-2.111	-1.76	0	0	0	//Properties of Liquids and Gases, Poling 5th Ed. S, Cp copied from cyclopropane
+7 bicyclo-(6.1.0)-nonane	31.14354067	49.26794258	-3.227	-2.849	-2.536	-2.35		-2.191	-2.111	-1.76	0	0	0	//Properties of Liquids and Gases, Poling 5th Ed. S, Cp copied from cyclopropane
+8	bicyclo(2.2.1)hepta-2,5-diene	31.64354067	25.8283738	-4.5	-3.942	-3.291	-2.759	-2.08	-1.628	-0.898	0	0	0	//Properties of Liquids and Gases, Poling 5th Ed. S, Cp copied from bicyclo-(2.2.1)-heptane
+9	biphenylene				58.88277512	29.8	-4.61	-3.89	-3.14	-2.64	-1.88	-1.38	-0.67	0	0	0	//Properties of Liquids and Gases, Poling 5th Ed. S, Cp copied from cyclobutane
+10	cis-octahydro-1H-indene	8.210526316	25.8283738	-4.5	-3.942	-3.291	-2.759	-2.08	-1.628	-0.898	0	0	0	//Properties of Liquids and Gases, Poling 5th Ed. S, Cp copied from cyclopentane
+11	spiropentane			63.58851675	67.6937799	-3.227	-2.849	-2.536	-2.35		-2.191	-2.111	-1.	0	0	0	//Properties of Liquids and Gases, Poling 5th Ed. S, Cp copied from cyclopropane
+12 bicyclo[2.1.1]hexane		37	29.8	-4.61	-3.89	-3.14	-2.64	-1.88	-1.38	-0.67	0	0	0	//Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 ab initio, S, Cp copied from cyclobutane
+13 Bicyclo[2.2.0]hexane		51.8	29.8	-4.61	-3.89	-3.14	-2.64	-1.88	-1.38	-0.67	0	0	0	//Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 experimental S, Cp copied from cyclobutane
+14 Bicyclo[1.1.1]pentane	68	29.8	-4.61	-3.89	-3.14	-2.64	-1.88	-1.38	-0.67	0	0	0	//Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 ab initio S, Cp copied from cyclobutane
+15 bicyclo[2.2.2]octane		7.4	18.12768375	-5.8	-4.1	-2.9	-1.3	1.08	2.16	3	0	0	0	//Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 experimental S, Cp copied from cyclohexane
+16 bicyclo[2.1.1]hex-2-ene	51	29.8	-4.61	-3.89	-3.14	-2.64	-1.88	-1.38	-0.67	0	0	0	//Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 ab initio S, Cp copied from cyclobutane
+17 norbornene				19.2	25.8283738	-4.5	-3.942	-3.291	-2.759		-2.08	-1.628	-0.898	0	0	0	//Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 experimental, S, Cp copied from bicyclo-(2.2.1)-heptane
+18 bicyclo[2.2.0]hex-2-ene	55.7	29.86766974	-3.038	-2.783	-2.423	-2.153	-1.888	-1.694	-1.258	0	0	0	//Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 experimental S, Cp copied from cyclobutene
+19 Bicyclo[2.2.0]hex-1(4)-ene	87	29.86766974	-3.038	-2.783	-2.423	-2.153	-1.888	-1.694	-1.258	0	0	0	//Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 ab initio S, Cp copied from cyclobutene
+20 bicyclo[2.1.0]pent-1(4)-ene	126	33.32566974	-0.469	-0.789	-0.953	-1.107	-1.45	-1.696	-1.716	0	0	0	//Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 ab initio, S, Cp copied from cyclopropene
+21 Bicyclo[2.1.0]pent-2-ene	67.9	29.86766974	-3.038	-2.783	-2.423	-2.153	-1.888	-1.694	-1.258	0	0	0	//Wiberg, K. Angew. Chem., Int. Ed. Engl. 1986, 25, 312 1986 experimental S, Cp copied from cyclobutene
+22 indane 5.54 27.3	-6.5	-5.5	-4.5	-3.8	-2.8	-1.93	-0.37	0	0	0	//Verevkin (2011), experimental, S, Cp copied from cyclopentane
+23 indene 2.1 25.8283738	-4.5	-3.942	-3.291	-2.759	-2.08	-1.628	-0.898	0	0	0	//Verevkin (2011), experimental, S, Cp copied from cyclopentane
+24 octahydropentalene 10.3 27.3	-6.5	-5.5	-4.5	-3.8	-2.8	-1.93	-0.37	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclopentane
+25 2,3,3a,4,5,6-hexahydro-1H-indene 7.5 27.3	-6.5	-5.5	-4.5	-3.8	-2.8	-1.93	-0.37	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclopentane
+26 C12CCCC1=CCC=C2 6.8 27.3	-6.5	-5.5	-4.5	-3.8	-2.8	-1.93	-0.37	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclopentane
+27 2,4,5,6,7,7a-Hexahydro-1H-indene 5.97	25.8283738	-4.5	-3.942	-3.291	-2.759	-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclopentene
+28 2,3,3a,4,5,7a-hexahydro-1H-indene 7.5 27.3	-6.5	-5.5	-4.5	-3.8	-2.8	-1.93	-0.37	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclopentane
+29 2,3,3a,4,7,7a-Hexahydro-1H-indene 7.5 27.3	-6.5	-5.5	-4.5	-3.8	-2.8	-1.93	-0.37	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclopentane
+30 2,3,3a,7a-tetrahydro-1H-indene 10.1 27.3	-6.5	-5.5	-4.5	-3.8	-2.8	-1.93	-0.37	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclopentane
+31 1,2,3,3a,4,6a-Hexahydropentalene 10.3 27.3	-6.5	-5.5	-4.5	-3.8	-2.8	-1.93	-0.37	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclopentane
+32 1,2,3,3a,4,5-hexahydropentalene 10.3 27.3	-6.5	-5.5	-4.5	-3.8	-2.8	-1.93	-0.37	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclopentane
+33 1,3a,4,6a-tetrahydropentalene 10.0 25.8283738	-4.5	-3.942	-3.291	-2.759	-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclopentene
+34 1,3a,6,6a-tetrahydropentalene  10.0 25.8283738	-4.5	-3.942	-3.291	-2.759	-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclopentene
+35 1,2,6,6a-tetrahydropentalene  10.0 25.8283738	-4.5	-3.942	-3.291	-2.759	-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclopentene
+36 C12CCC=C1CC=C2  10.0 25.8283738	-4.5	-3.942	-3.291	-2.759	-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclopentene
+37 tricyclo[5.2.1.0(4,10)]decane 15.68 27.3	-6.5	-5.5	-4.5	-3.8	-2.8	-1.93	-0.37	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978, S, Cp from Cyclopentane
+38 Exo-tricyclo[5.2.1.0(2.6)]decane 22.65 25.8283738	-4.5	-3.942	-3.291	-2.759		-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclopentane 
+39 Exo-tricyclo[5.2.1.0(2.6)]decene 22.65 25.8283738	-4.5	-3.942	-3.291	-2.759		-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclopentane
+40 Exo-tricyclo[5.2.1.0(1,5)]decane 23.86 25.8283738	-4.5	-3.942	-3.291	-2.759		-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclopentane
+41 tricyclo[4.3.1.0(3,7)]decane 20.77  25.8283738	-4.5	-3.942	-3.291	-2.759		-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclopentane
+42 tricyclo[4.3.1.0(3,8)]decane 18.29  25.8283738	-4.5	-3.942	-3.291	-2.759		-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclopentane
+43 tricyclo[4.4.0.0(3,9)]decane 30.90 25.8283738	-4.5	-3.942	-3.291	-2.759		-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclopentane  
+44 tricyclo[5.2.1.0(4,8)]decane 21.48 25.8283738	-4.5	-3.942	-3.291	-2.759		-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclopentane
+45 tricyclo[4.4.0.0(3,8)]decane 26.12  18.12768375	-5.8	-4.1	-2.9	-1.3	1.08	2.16	3	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from Cyclohexane 
+46 tricyclo[4.2.2.0(1,5)]decane 29.65 25.8283738	-4.5	-3.942	-3.291	-2.759		-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclopentane
+47 tricyclo[5.3.0.0(4,10)]decane 20.74 25.8283738	-4.5	-3.942	-3.291	-2.759		-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclopentane 
+48 anti-tricyclo[4.2.1.1(2,5)]decane 30.66 25.8283738	-4.5	-3.942	-3.291	-2.759		-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclopentane
+49 tricyclo[5.2.1.0(3,8)]decane 19.26  25.8283738	-4.5	-3.942	-3.291	-2.759		-2.08	-1.628	-0.898	0	0	0	Automated Estimation of Ring Strain Energies, Gasteiger, 1978 S, Cp copied from cyclopentane 
