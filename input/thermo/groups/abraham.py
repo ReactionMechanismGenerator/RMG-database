@@ -223,7 +223,7 @@ entry(
 	label = "Cds-noH",
 	group = 
 """
-1 * {Cd,CO} 0 {2,S} {3,S} {4,D}
+1 * {Cd,CO,Cb} 0 {2,S} {3,S} {4,D}
 2   R!H 0 {1,S}
 3   R!H 0 {1,S}
 4   R!H 0 {1,D}
@@ -287,6 +287,98 @@ u"""
 """
 )
 
+entry(
+	index = 10,
+	label = "Cb",
+	group = 
+"""
+1 * Cb 0
+
+""",
+	solute = None,
+	shortDesc = u"""""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 11,
+	label = "Cb-noH",
+	group = 
+"""
+1 * Cb 0 (2,B) (3,B) (4,B)
+2   R!H 0 (1,B)
+3   R!H 0 (1,B)
+4   R!H 0 (1,B)
+
+""",
+	solute = SoluteData(
+		 S =  0.101,
+		 B =  0,
+		 E =  0.18,
+		 L =  0.624,
+		 A =  0,
+	),
+	shortDesc = u"""same as Platts group 7""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 12,
+	label = "Cb-H",
+	group = 
+"""
+1 * Cb 0 (2,B) (3,B) (4,S)
+2   R!H 0 (1,B)
+3   R!H 0 (1,B)
+4   H   0 (1,S)
+
+""",
+	solute = SoluteData(
+		 S =  0.05,
+		 B =  0.011,
+		 E =  0.068,
+		 L =  0.469,
+		 A =  0,
+	),
+	shortDesc = u"""same as Platts group 6""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 11,
+	label = "Cb-noHnoRing",
+	group = 
+"""
+1 * Cb 0 (2,B) (3,B) (4,S)
+2   R!H 0 (1,B)
+3   R!H 0 (1,B)
+4   R!H 0 (1,S)
+
+""",
+	solute = SoluteData(
+		 S =  0.101,
+		 B =  0,
+		 E =  0.18,
+		 L =  0.624,
+		 A =  0,
+	),
+	shortDesc = u"""same as Platts group 7""",
+	longDesc = 
+u"""
+Cb is attached to a 3rd R group that isn't in the ring, as in phenol.
+"""
+)
+
+
 
 entry(
 	index = 24,
@@ -333,7 +425,7 @@ entry(
 		 B =  0.307,
 		 E =  0.061,
 		 L =  0.672,
-		 A =  0.345
+		 A =  0
 	),
 	shortDesc = u"""Platts fragment 26 -OH""",
 	longDesc = 
@@ -413,28 +505,6 @@ u"""
 )
 
 entry(
-	index = 74,
-	label = "Cb",
-	group = 
-"""
-1 * Cb 0
-
-""",
-	solute = SoluteData(
-		 S =  0.05,
-		 B =  0.011,
-		 E =  0.068,
-		 L =  0.469,
-		 A =  0,
-	),
-	shortDesc = u"""Platts' fragment 6 aromatic =CH-""",
-	longDesc = 
-u"""
-
-"""
-)
-
-entry(
 	index = 75,
 	label = "Cdd",
 	group = 
@@ -477,10 +547,13 @@ L1: C
 		L3: Cds-noH
 		
 	L2: Ct // sp
-	
-	L2: Cb // sp2 aromatic
 
 	L2: Cdd // sp2 nonfused aromatic
+	
+	L2: Cb
+		L3: Cb-noH
+		L3: Cb-H
+		L3: Cb-noHnoRing
 	
 
 L1: O

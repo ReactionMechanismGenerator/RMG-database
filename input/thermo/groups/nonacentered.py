@@ -38,37 +38,6 @@ u"""
 )
 
 entry(
-	index = -1,
-	label = "Cs",
-	group = 
-"""
-1 * Cs 0
-""",
-	solute = None,
-	shortDesc = u"""""",
-	longDesc = 
-u"""
-
-"""
-)
-
-entry(
-	index = 0,
-	label = "Cb",
-	group = 
-"""
-1 * Cb 0
-""",
-	solute = None,
-	shortDesc = u"""""",
-	longDesc = 
-u"""
-
-"""
-)
-
-
-entry(
 	index = 1,
 	label = "Oss(CdsOd)",
 	group = 
@@ -231,6 +200,54 @@ u"""
 """
 )
 
+entry(
+	index = 7,
+	label = "phenol",
+	group = 
+"""
+1 * Os 0 {2,S} {3,S}
+2   H  0 {1,S}
+3   {Cb,Cbf} 0 {1,S}
+
+""",
+	solute = SoluteData(
+		S = 0,
+		B = 0,
+		E = 0,
+		L = 0,
+		A = 0.543
+	),
+	shortDesc = u"""phenol correction for A""",
+	longDesc = 
+u"""
+
+"""
+)
+
+entry(
+	index = 8,
+	label = "OssH",
+	group = 
+"""
+1 * Os 0 {2,S} {3,S}
+2   H 0 {1,S}
+3   {Cs,Cd,Ct,CO,Os,H} 0 {1,S}
+
+""",
+	solute = SoluteData(
+		S = 0,
+		B = 0,
+		E = 0,
+		L = 0,
+		A = 0.345
+	),
+	shortDesc = u"""-OH (connected to aliphatic) correction for A""",
+	longDesc = 
+u"""
+
+"""
+)
+
 
 
 tree(
@@ -243,11 +260,13 @@ L0: R
 		L2: OssH(CdsOd) // carboxylic acid
 		L2: Cd(Od)Cd=CdCd(Od) // quinone
 	
-	L1: Cs
-		L2: Cs(OssH)Cs(OssH) // 1,2 diol
+	L1: Cs(OssH)Cs(OssH) // 1,2 diol
 		
-	L1: Cb
-		L2: CbCsOssH // benzyl alcohol
+	L1: CbCsOssH // benzyl alcohol
+	
+	L1: OssH
+	
+	L1: phenol
 
 """
 )
