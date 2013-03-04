@@ -459,30 +459,6 @@ u"""
 )
 
 entry(
-	index = 28,
-	label = "Oss-cyclic",
-	group = 
-"""
-1 * Os 0 {2,S} {3,S}
-2   R!H 0 {1,S} {3,S}
-3   R!H 0 {1,S} {2,S}
-
-""",
-	solute = SoluteData(
-		 S =  0.185,
-		 B =  0.331,
-		 E =  0.013,
-		 L =  0.359,
-		 A =  0
-	),
-	shortDesc = u"""Platts fragment 28 cyclic -O-""",
-	longDesc = 
-u"""
-
-"""
-)
-
-entry(
 	index = 30,
 	label = "Od",
 	group = 
@@ -561,7 +537,6 @@ L1: O
 	L2: Oss
 		L3: OssH           // Hydroxyl group
 		L3: Oss-noncyclic
-		L3: Oss-cyclic
 		
     L2: Od // sp2
 """
