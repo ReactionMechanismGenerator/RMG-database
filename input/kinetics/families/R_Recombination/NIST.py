@@ -62,7 +62,10 @@ entry(
     label = "1991FOR3612-3620:3",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -70,8 +73,11 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -107,7 +113,10 @@ entry(
     label = "1972TEN/JON1267:3",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -115,8 +124,11 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -159,7 +171,10 @@ entry(
     label = "1994TAK/MOM74-85:2",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -167,8 +182,11 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -204,7 +222,10 @@ entry(
     label = "1987HAS/MON2916-2922:1",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -212,8 +233,11 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -249,7 +273,10 @@ entry(
     label = "1985COB/TRO1010-1015:8",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -257,8 +284,11 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -295,12 +325,18 @@ entry(
     label = "2001SUT/SU669-684:5",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -350,12 +386,18 @@ entry(
     label = "1959SKI/RUE1736:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -401,12 +443,18 @@ entry(
     label = "1963PAL/HIR709:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -448,12 +496,18 @@ entry(
     label = "1963PAL/HIR709:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -498,12 +552,18 @@ entry(
     label = "1965KON319:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -549,12 +609,18 @@ entry(
     label = "1965PLA/RAB4071-4080:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -595,12 +661,18 @@ entry(
     label = "1969PAL588:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -642,12 +714,18 @@ entry(
     label = "1971HAR/TRO147:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -693,12 +771,18 @@ entry(
     label = "1975CHE/BAC3580:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -744,12 +828,18 @@ entry(
     label = "1984WAR197C:11",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -789,12 +879,18 @@ entry(
     label = "1985DEA4600-4608:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -835,12 +931,18 @@ entry(
     label = "1986TSA/HAM1087:14",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -883,12 +985,18 @@ entry(
     label = "1989BAR/PRA229-238:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -934,12 +1042,18 @@ entry(
     label = "1990COB/TRO129-149:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -981,12 +1095,18 @@ entry(
     label = "1991ARU/VED234-240:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -1032,12 +1152,18 @@ entry(
     label = "1994BAU/COB847-1033:12",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -1080,12 +1206,18 @@ entry(
     label = "1995DAV/HAN305-308:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
@@ -1127,7 +1259,8 @@ entry(
     label = "1985COB/TRO1010-1015:15",
     reactant1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -1135,8 +1268,9 @@ entry(
 """,
     product1 = 
 """
-1 *1 O 0 {2,S}
+1 *1 O 0 {2,S} {3,S}
 2 *2 H 0 {1,S}
+3    H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1174,8 +1308,9 @@ entry(
     label = "1981TSU/KAT985:8",
     reactant1 = 
 """
-1 * C 1 {2,D}
+1 * C 1 {2,D} {3,S}
 2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -1183,9 +1318,10 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,D} {3,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
 2    O 0 {1,D}
 3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -1224,9 +1360,12 @@ entry(
     label = "2003ING/SHE111-145:4",
     reactant1 = 
 """
-1    C 0 {2,S}
+1    C 0 {2,S} {4,S} {5,S} {6,S}
 2 *1 O 0 {1,S} {3,S}
 3 *2 H 0 {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
 """,
     product1 = 
 """
@@ -1234,8 +1373,11 @@ entry(
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1279,14 +1421,20 @@ entry(
 """,
     reactant2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     product1 = 
 """
-1    C 0 {2,S}
+1    C 0 {2,S} {4,S} {5,S} {6,S}
 2 *1 O 0 {1,S} {3,S}
 3 *2 H 0 {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1325,16 +1473,24 @@ entry(
     label = "1987DEA/WES207:6",
     reactant1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 O 0 {1,S} {6,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1373,16 +1529,24 @@ entry(
     label = "2007JAS/KLI3932-3950:1",
     reactant1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 O 0 {1,S} {6,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1421,16 +1585,24 @@ entry(
     label = "2003ING/SHE111-145:1",
     reactant1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 O 0 {1,S} {6,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1469,14 +1641,20 @@ entry(
     label = "2007JAS/KLI3932-3950:31",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2    O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2    O 0 {1,S} {6,S}
 3 *2 H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
-2   O 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   O 0 {1,S} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
@@ -1519,14 +1697,20 @@ entry(
     label = "2003ING/SHE111-145:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2    O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2    O 0 {1,S} {6,S}
 3 *2 H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
-2   O 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   O 0 {1,S} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
@@ -1570,14 +1754,24 @@ entry(
     label = "1989STE/LAR25-31:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2    C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
 3 *2 H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
@@ -1618,14 +1812,24 @@ entry(
     label = "1985DEA4600-4608:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2    C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
 3 *2 H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
@@ -1666,14 +1870,20 @@ entry(
     label = "1985DEA4600-4608:4",
     reactant1 = 
 """
-1 *1 C 0 {2,D} {3,S}
-2    C 0 {1,D}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D} {5,S} {6,S}
 3 *2 H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {2,S}
+6    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
@@ -1714,8 +1924,11 @@ entry(
     label = "1988DUR/AMO636:10",
     reactant1 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -1723,9 +1936,12 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,D} {3,S}
-2    C 0 {1,D}
+1 *1 C 0 {2,D} {3,S} {4,S}
+2    C 0 {1,D} {5,S} {6,S}
 3 *2 H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {2,S}
+6    H 0 {2,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -1764,13 +1980,15 @@ entry(
     reactant1 = 
 """
 1 *1 C 0 {2,T} {3,S}
-2    C 0 {1,T}
+2    C 0 {1,T} {4,S}
 3 *2 H 0 {1,S}
+4    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,T}
+1   C 0 {2,T} {3,S}
 2 * C 1 {1,T}
+3   H 0 {1,S}
 """,
     product2 = 
 """
@@ -1812,13 +2030,15 @@ entry(
     reactant1 = 
 """
 1 *1 C 0 {2,T} {3,S}
-2    C 0 {1,T}
+2    C 0 {1,T} {4,S}
 3 *2 H 0 {1,S}
+4    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,T}
+1   C 0 {2,T} {3,S}
 2 * C 1 {1,T}
+3   H 0 {1,S}
 """,
     product2 = 
 """
@@ -1861,14 +2081,16 @@ entry(
     label = "1977ARO/NAE471:1",
     reactant1 = 
 """
-1 *1 C 0 {2,D} {3,S}
+1 *1 C 0 {2,D} {3,S} {4,S}
 2    O 0 {1,D}
 3 *2 H 0 {1,S}
+4    H 0 {1,S}
 """,
     product1 = 
 """
-1 * C 1 {2,D}
+1 * C 1 {2,D} {3,S}
 2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     product2 = 
 """
@@ -1912,16 +2134,24 @@ entry(
     label = "1977ARO/NAE2555:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 O 0 {1,S} {6,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -1961,16 +2191,24 @@ entry(
     label = "1981TSU/KAT985:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 O 0 {1,S} {6,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2012,16 +2250,24 @@ entry(
     label = "1982SPI/WAG2:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 O 0 {1,S} {6,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2063,16 +2309,24 @@ entry(
     label = "1984WAR197C:6",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 O 0 {1,S} {6,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2108,16 +2362,24 @@ entry(
     label = "1987TSA471:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 O 0 {1,S} {6,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2155,16 +2417,24 @@ entry(
     label = "1994BAU/COB847-1033:8",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 O 0 {1,S} {6,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2202,16 +2472,28 @@ entry(
     label = "1958KEN/ROB660-666:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2252,16 +2534,28 @@ entry(
     label = "1960SKI/BAL1025:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2301,16 +2595,28 @@ entry(
     label = "1961LAI/WOJ91-102:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2352,16 +2658,28 @@ entry(
     label = "1961TOW/MAR693-698:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2403,16 +2721,28 @@ entry(
     label = "1962KOZ/KNO253:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2454,16 +2784,28 @@ entry(
     label = "1963QUI190:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2507,16 +2849,28 @@ entry(
     label = "1964DEX/TRE392:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2557,16 +2911,28 @@ entry(
     label = "1966LIN/BAC2357:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2608,16 +2974,28 @@ entry(
     label = "1966LIN/BAC505-514:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2660,16 +3038,28 @@ entry(
     label = "1966TRE1538:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2711,16 +3101,28 @@ entry(
     label = "1971WAA/RAB105-125:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2757,16 +3159,28 @@ entry(
     label = "1972PAC/PUR1462:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2808,16 +3222,28 @@ entry(
     label = "1973BUR/SKI345:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2859,16 +3285,28 @@ entry(
     label = "1976CLA/QUI706:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2911,16 +3349,28 @@ entry(
     label = "1979OLS/GAR922:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -2962,16 +3412,28 @@ entry(
     label = "1979OLS/GAR922:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3011,16 +3473,28 @@ entry(
     label = "1979PRA/ROG1089:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3063,16 +3537,28 @@ entry(
     label = "1979ROT/JUS1339:5",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3114,16 +3600,28 @@ entry(
     label = "1979TRE614:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3165,16 +3663,28 @@ entry(
     label = "1979TRE614:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3214,16 +3724,28 @@ entry(
     label = "1980BAU/DUX313:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3261,16 +3783,28 @@ entry(
     label = "1980BHA/FRA503:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3312,16 +3846,28 @@ entry(
     label = "1981CHI/SKI3126:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3363,16 +3909,28 @@ entry(
     label = "1981SKI/ROG481:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3414,16 +3972,28 @@ entry(
     label = "1983KAN/PUR845:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3466,16 +4036,28 @@ entry(
     label = "1983KAN/PUR845:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3516,16 +4098,28 @@ entry(
     label = "1984WAR197C:16",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3561,16 +4155,28 @@ entry(
     label = "1985DEA4600-4608:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3607,16 +4213,28 @@ entry(
     label = "1985HID/SHI441:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3658,16 +4276,28 @@ entry(
     label = "1986TSA/HAM1087:28",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3706,16 +4336,28 @@ entry(
     label = "1989STE/LAR25-31:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3753,16 +4395,28 @@ entry(
     label = "1989TSA71-86:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3800,16 +4454,28 @@ entry(
     label = "1992BAU/COB411-429:32",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3847,16 +4513,28 @@ entry(
     label = "1993DAV/DIR969-982:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3899,16 +4577,28 @@ entry(
     label = "1995DAV/HAN305-308:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -3948,16 +4638,28 @@ entry(
     label = "1953ING/LOS1135-1144:1",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -3999,16 +4701,28 @@ entry(
     label = "1953ING/LOS368:1",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4050,16 +4764,28 @@ entry(
     label = "1971WAA/RAB105-125:2",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4096,16 +4822,28 @@ entry(
     label = "1972TEN/JON1267:2",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4148,16 +4886,28 @@ entry(
     label = "1983MAC/PIL430:1",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4200,16 +4950,28 @@ entry(
     label = "1985COB/TRO1010-1015:4",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4247,16 +5009,28 @@ entry(
     label = "1985MAC/PIL2268-2274:1",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4298,16 +5072,28 @@ entry(
     label = "1986MOL/MOZ854:4",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4349,16 +5135,28 @@ entry(
     label = "1988WAG/WAR2462-2471:1",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4398,16 +5196,28 @@ entry(
     label = "1991FOR3612-3620:1",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4444,16 +5254,28 @@ entry(
     label = "1991HWA/WAG99-105:1",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4495,16 +5317,28 @@ entry(
     label = "1991WAL/GRO107-114:1",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4542,16 +5376,28 @@ entry(
     label = "1995ROB/PIL13452-13460:1",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4589,16 +5435,28 @@ entry(
     label = "1996DU/HES974-983:2",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4640,16 +5498,28 @@ entry(
     label = "1998PES/PIL8526-8536:1",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4687,16 +5557,28 @@ entry(
     label = "2003WAN/HOU11414-11426:1",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -4889,16 +5771,20 @@ entry(
     label = "1949MCL379-385:1",
     reactant1 = 
 """
-1 *1 O 0 {2,S}
-2 *2 O 0 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 O 0 {1,S} {4,S}
+3    H 0 {1,S}
+4    H 0 {2,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -4940,16 +5826,20 @@ entry(
     label = "1949MCL379-385:2",
     reactant1 = 
 """
-1 *1 O 0 {2,S}
-2 *2 O 0 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 O 0 {1,S} {4,S}
+3    H 0 {1,S}
+4    H 0 {2,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -4991,16 +5881,20 @@ entry(
     label = "1957GIG/LIU283-293:1",
     reactant1 = 
 """
-1 *1 O 0 {2,S}
-2 *2 O 0 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 O 0 {1,S} {4,S}
+3    H 0 {1,S}
+4    H 0 {2,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -5042,16 +5936,20 @@ entry(
     label = "1987BRO/COB6171:2",
     reactant1 = 
 """
-1 *1 O 0 {2,S}
-2 *2 O 0 {1,S}
+1 *1 O 0 {2,S} {3,S}
+2 *2 O 0 {1,S} {4,S}
+3    H 0 {1,S}
+4    H 0 {2,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -5088,16 +5986,30 @@ entry(
     label = "1985DEA4600-4608:5",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4 *2 H 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4  *2 H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
@@ -5138,16 +6050,30 @@ entry(
     label = "1985DEA4600-4608:6",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S}
-2 *1 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4 *2 H 0 {2,S}
+1     C 0 {2,S} {3,S} {5,S} {6,S}
+2  *1 C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4  *2 H 0 {2,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3  * C 1 {1,S} {9,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
@@ -5188,18 +6114,34 @@ entry(
     label = "1994BAU/COB847-1033:34",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5236,18 +6178,34 @@ entry(
     label = "1988TSA887:15",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5284,18 +6242,34 @@ entry(
     label = "1984WAR197C:41",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5330,18 +6304,34 @@ entry(
     label = "1981CHI/SKI915:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5381,18 +6371,34 @@ entry(
     label = "2005OEH/DAV1119-1127:4",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5435,18 +6441,34 @@ entry(
     label = "1999GLA/ERM183-189:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5489,18 +6511,34 @@ entry(
     label = "1994BEL/PER313-328:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5542,18 +6580,34 @@ entry(
     label = "1989TSA71-86:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5590,18 +6644,34 @@ entry(
     label = "1989HID/OKI689-701:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5642,18 +6712,34 @@ entry(
     label = "1986DOM/HOR255:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5695,18 +6781,34 @@ entry(
     label = "1985DEA4600-4608:7",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5742,18 +6844,34 @@ entry(
     label = "1983KAN/PUR63:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5795,18 +6913,34 @@ entry(
     label = "1983ALA/KIE499:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5847,18 +6981,34 @@ entry(
     label = "1983ALA/KIE499:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5899,18 +7049,34 @@ entry(
     label = "1981JUS/SCA855:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -5951,18 +7117,34 @@ entry(
     label = "1981CHI/SKI915:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6003,18 +7185,34 @@ entry(
     label = "1979CHI/SKI1-18:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6055,18 +7253,34 @@ entry(
     label = "1962LAI/SAG242:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6107,18 +7321,34 @@ entry(
     label = "2004ZHU/XU6566-6573:4",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6159,18 +7389,34 @@ entry(
     label = "2003MOU/HOM8566-8574:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6209,18 +7455,34 @@ entry(
     label = "1978JEZ/BAR991-993:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6259,18 +7521,34 @@ entry(
     label = "1977KAO/YEH2304-2306:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6308,18 +7586,34 @@ entry(
     label = "1962BLA/HIN36:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6356,18 +7650,34 @@ entry(
     label = "1983KAN/PUR63:2",
     reactant1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6406,18 +7716,34 @@ entry(
     label = "1982SIM/GAR799:1",
     reactant1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6458,18 +7784,34 @@ entry(
     label = "1972TEN/JON1267:4",
     reactant1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6511,18 +7853,34 @@ entry(
     label = "2004ZHU/XU6566-6573:3",
     reactant1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6563,18 +7921,34 @@ entry(
     label = "2003MOU/HOM8566-8574:1",
     reactant1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6613,16 +7987,26 @@ entry(
     label = "1991TSA221-273:17",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S}
-2    C 0 {1,S} {3,D}
-3    C 0 {2,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
 4 *2 H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
@@ -6664,16 +8048,26 @@ entry(
     label = "1996BAR/MAR829-847:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S}
-2    C 0 {1,S} {3,D}
-3    C 0 {2,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
 4 *2 H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
@@ -6718,16 +8112,26 @@ entry(
     label = "1986NAR/NIE281:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S}
-2    C 0 {1,S} {3,D}
-3    C 0 {2,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
 4 *2 H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
@@ -6767,16 +8171,26 @@ entry(
     label = "1949SZW284-291:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S}
-2    C 0 {1,S} {3,D}
-3    C 0 {2,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
 4 *2 H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
@@ -6822,16 +8236,26 @@ entry(
     label = "1992HID/NAK761-780:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S}
-2    C 0 {1,S} {3,D}
-3    C 0 {2,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
 4 *2 H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
@@ -6871,9 +8295,14 @@ entry(
     label = "2007HAR/KLI3789-3801:5",
     reactant1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     reactant2 = 
 """
@@ -6881,10 +8310,15 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {4,S}
-2    C 0 {1,S} {3,D}
-3    C 0 {2,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
 4 *2 H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -6920,18 +8354,30 @@ entry(
     label = "2008ZHA/CHA1-18:2",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
+1 *1 C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
 3 *2 O 0 {1,S} {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -6972,18 +8418,30 @@ entry(
     label = "2008ZHA/CHA1-18:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
+1 *1 C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
 3 *2 O 0 {1,S} {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -7024,18 +8482,30 @@ entry(
     label = "2000HID/SAT1-22:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
+1 *1 C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
 3 *2 O 0 {1,S} {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -7078,18 +8548,30 @@ entry(
     label = "1982BAT/ALV81:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
+1 *1 C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
 3 *2 O 0 {1,S} {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -7130,18 +8612,30 @@ entry(
     label = "1977ARO/NAE471:3",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
+1 *1 C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
 3 *2 O 0 {1,S} {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -7183,18 +8677,30 @@ entry(
     label = "1975PAC2742:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
+1 *1 C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
 3 *2 O 0 {1,S} {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -7236,18 +8742,30 @@ entry(
     label = "1959BEN/JAI1008:2",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
+1 *1 C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
 3 *2 O 0 {1,S} {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -7286,18 +8804,30 @@ entry(
     label = "1956BEN27-31:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
+1 *1 C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
 3 *2 O 0 {1,S} {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -7337,18 +8867,30 @@ entry(
     label = "2004LI/KAZ7671-7680:12",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    O 0 {1,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
-2   O 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   O 0 {1,S} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7392,18 +8934,30 @@ entry(
     label = "2004LI/KAZ7671-7680:13",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    O 0 {1,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
-2   O 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   O 0 {1,S} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7447,18 +9001,30 @@ entry(
     label = "2004LI/KAZ7671-7680:14",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    O 0 {1,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
-2   O 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   O 0 {1,S} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7502,18 +9068,30 @@ entry(
     label = "2004LI/KAZ7671-7680:9",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    O 0 {1,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
-2   O 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   O 0 {1,S} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7557,18 +9135,30 @@ entry(
     label = "2004LI/KAZ7671-7680:10",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    O 0 {1,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
-2   O 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   O 0 {1,S} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7612,18 +9202,30 @@ entry(
     label = "2004LI/KAZ7671-7680:8",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    O 0 {1,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
-2   O 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   O 0 {1,S} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7667,18 +9269,30 @@ entry(
     label = "2004LI/KAZ7671-7680:11",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    O 0 {1,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
-2   O 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   O 0 {1,S} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7722,18 +9336,30 @@ entry(
     label = "2004TSA456-465:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    O 0 {1,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
-2   O 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   O 0 {1,S} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7774,18 +9400,30 @@ entry(
     label = "1999MAR183-220:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    O 0 {1,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
-2   O 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   O 0 {1,S} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7821,18 +9459,30 @@ entry(
     label = "1976TSA173:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    O 0 {1,S}
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3    O 0 {1,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
-2   O 0 {1,S}
+1 * C 1 {2,S} {3,S} {4,S}
+2   O 0 {1,S} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7872,18 +9522,26 @@ entry(
     label = "1992BAU/COB411-429:67",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
 3    O 0 {2,D}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1 {2,D}
+1 * C 1 {2,D} {3,S}
 2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7923,18 +9581,26 @@ entry(
     label = "1984WAR197C:50",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
 3    O 0 {2,D}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1 {2,D}
+1 * C 1 {2,D} {3,S}
 2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -7969,18 +9635,26 @@ entry(
     label = "2008YAS/KUB73-102:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
 3    O 0 {2,D}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1 {2,D}
+1 * C 1 {2,D} {3,S}
 2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8023,18 +9697,26 @@ entry(
     label = "2008BEN/STR6120-6124:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
 3    O 0 {2,D}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1 {2,D}
+1 * C 1 {2,D} {3,S}
 2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8076,18 +9758,26 @@ entry(
     label = "2008BEN/STR6120-6124:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
 3    O 0 {2,D}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1 {2,D}
+1 * C 1 {2,D} {3,S}
 2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8129,18 +9819,26 @@ entry(
     label = "2008BEN/STR6120-6124:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
 3    O 0 {2,D}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1 {2,D}
+1 * C 1 {2,D} {3,S}
 2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8182,18 +9880,26 @@ entry(
     label = "1976ERN/SPI645:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
 3    O 0 {2,D}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1 {2,D}
+1 * C 1 {2,D} {3,S}
 2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8234,18 +9940,26 @@ entry(
     label = "1975ERN/SPI1163:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
 3    O 0 {2,D}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1 {2,D}
+1 * C 1 {2,D} {3,S}
 2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8286,18 +10000,26 @@ entry(
     label = "1975COL/NAE223:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
 3    O 0 {2,D}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1 {2,D}
+1 * C 1 {2,D} {3,S}
 2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8339,18 +10061,26 @@ entry(
     label = "1973BAR/MAR227:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
 3    O 0 {2,D}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1 {2,D}
+1 * C 1 {2,D} {3,S}
 2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8391,18 +10121,26 @@ entry(
     label = "1973BAR/MAR227:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
 3    O 0 {2,D}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1 {2,D}
+1 * C 1 {2,D} {3,S}
 2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8443,18 +10181,26 @@ entry(
     label = "1968LIU/LAI479:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
 3    O 0 {2,D}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
 """,
     product1 = 
 """
-1 * C 1 {2,D}
+1 * C 1 {2,D} {3,S}
 2   O 0 {1,D}
+3   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8497,18 +10243,30 @@ entry(
     label = "1991TSA221-273:18",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3    C 0 {2,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8546,18 +10304,30 @@ entry(
     label = "1986NAR/NIE281:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3    C 0 {2,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8593,18 +10363,30 @@ entry(
     label = "1985DEA4600-4608:19",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3    C 0 {2,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8640,18 +10422,30 @@ entry(
     label = "1975BUR87:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3    C 0 {2,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8692,18 +10486,30 @@ entry(
     label = "1968CHA/SHA4672-4675:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3    C 0 {2,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8746,18 +10552,30 @@ entry(
     label = "1966MAR/PUR2778-2780:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3    C 0 {2,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8799,18 +10617,30 @@ entry(
     label = "1992HID/NAK761-780:4",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,D}
-3    C 0 {2,D}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2 *2 C 0 {1,S} {3,D} {7,S}
+3    C 0 {2,D} {8,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8846,18 +10676,26 @@ entry(
     label = "1994BAU/COB847-1033:80",
     reactant1 = 
 """
-1    C 0 {2,S}
+1    C 0 {2,S} {4,S} {5,S} {6,S}
 2 *1 O 0 {1,S} {3,S}
-3 *2 O 0 {2,S}
+3 *2 O 0 {2,S} {7,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {3,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8894,18 +10732,26 @@ entry(
     label = "1992BAU/COB411-429:161",
     reactant1 = 
 """
-1    C 0 {2,S}
+1    C 0 {2,S} {4,S} {5,S} {6,S}
 2 *1 O 0 {1,S} {3,S}
-3 *2 O 0 {2,S}
+3 *2 O 0 {2,S} {7,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {3,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8943,18 +10789,26 @@ entry(
     label = "1991LIG/ROU3213-3220:3",
     reactant1 = 
 """
-1    C 0 {2,S}
+1    C 0 {2,S} {4,S} {5,S} {6,S}
 2 *1 O 0 {1,S} {3,S}
-3 *2 O 0 {2,S}
+3 *2 O 0 {2,S} {7,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {3,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -8995,18 +10849,26 @@ entry(
     label = "1965KIR2236-2242:1",
     reactant1 = 
 """
-1    C 0 {2,S}
+1    C 0 {2,S} {4,S} {5,S} {6,S}
 2 *1 O 0 {1,S} {3,S}
-3 *2 O 0 {2,S}
+3 *2 O 0 {2,S} {7,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {3,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9049,16 +10911,26 @@ entry(
     label = "1986NAR/NIE281:3",
     reactant1 = 
 """
-1    C 0 {2,S}
-2    C 0 {1,S} {3,D}
-3 *1 C 0 {2,D} {4,S}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2    C 0 {1,S} {3,D} {8,S}
+3 *1 C 0 {2,D} {4,S} {9,S}
 4 *2 H 0 {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,D}
-3 * C 1 {2,D}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2   C 0 {1,S} {3,D} {7,S}
+3 * C 1 {2,D} {8,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
@@ -9099,16 +10971,26 @@ entry(
     label = "1986NAR/NIE281:4",
     reactant1 = 
 """
-1    C 0 {2,S}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
 2 *1 C 0 {1,S} {3,D} {4,S}
-3    C 0 {2,D}
+3    C 0 {2,D} {8,S} {9,S}
 4 *2 H 0 {2,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,D}
+1   C 0 {3,S} {4,S} {5,S} {6,S}
+2   C 0 {3,D} {7,S} {8,S}
 3 * C 1 {1,S} {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product2 = 
 """
@@ -9149,7 +11031,10 @@ entry(
     label = "1985COB/TRO1010-1015:6",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -9158,9 +11043,12 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
 2 *2 O 0 {1,S} {3,S}
 3    O 1 {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -9198,7 +11086,10 @@ entry(
     label = "1986TSA/HAM1087:167",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -9207,9 +11098,12 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
 2 *2 O 0 {1,S} {3,S}
 3    O 1 {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -9247,7 +11141,10 @@ entry(
     label = "1987DEA/WES207:9",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -9256,9 +11153,12 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
 2 *2 O 0 {1,S} {3,S}
 3    O 1 {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -9298,7 +11198,10 @@ entry(
     label = "1988KEI/MIS505:2",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -9307,9 +11210,12 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
 2 *2 O 0 {1,S} {3,S}
 3    O 1 {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -9349,20 +11255,36 @@ entry(
     label = "2002BUI/ZHU11188-11195:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    O 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     O 0 {1,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,S}
-3   O 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2 * C 1 {1,S} {3,S} {7,S}
+3   O 0 {2,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -9406,20 +11328,36 @@ entry(
     label = "2002BUI/ZHU11188-11195:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    O 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     O 0 {1,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,S}
-3   O 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2 * C 1 {1,S} {3,S} {7,S}
+3   O 0 {2,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -9463,20 +11401,36 @@ entry(
     label = "2002BUI/ZHU11188-11195:4",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    O 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     O 0 {1,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,S}
-3   O 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2 * C 1 {1,S} {3,S} {7,S}
+3   O 0 {2,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -9518,20 +11472,36 @@ entry(
     label = "1976TSA173:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    O 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     O 0 {1,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,S}
-3   O 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2 * C 1 {1,S} {3,S} {7,S}
+3   O 0 {2,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -9571,20 +11541,36 @@ entry(
     label = "1976TSA173:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S}
-4    O 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {4,S} {7,S} {8,S}
+3  *2 C 0 {1,S} {9,S} {10,S} {11,S}
+4     O 0 {2,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2 * C 1 {1,S}
-3   O 0 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   O 0 {1,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -9624,18 +11610,28 @@ entry(
     label = "1994LIF/TAM1161-1170:10",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S} {4,S}
-2    C 0 {1,S} {4,S}
-3 *1 C 0 {1,S} {5,S}
-4    O 0 {1,S} {2,S}
-5 *2 H 0 {3,S}
+1     C 0 {2,S} {3,S} {4,S} {6,S}
+2     C 0 {1,S} {4,S} {7,S} {8,S}
+3  *1 C 0 {1,S} {5,S} {9,S} {10,S}
+4     O 0 {1,S} {2,S}
+5  *2 H 0 {3,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S}
-2   C 0 {1,S} {4,S}
-3 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2   C 0 {1,S} {4,S} {6,S} {7,S}
+3 * C 1 {1,S} {8,S} {9,S}
 4   O 0 {1,S} {2,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
+8   H 0 {3,S}
+9   H 0 {3,S}
 """,
     product2 = 
 """
@@ -9679,18 +11675,36 @@ entry(
     label = "1985DEA4600-4608:9",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {5,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5 *2 H 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5  *2 H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {3,S}
+1    C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
+3    C 0 {4,S} {10,S} {11,S} {12,S}
+4  * C 1 {1,S} {3,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {4,S}
 """,
     product2 = 
 """
@@ -9731,18 +11745,36 @@ entry(
     label = "1985DEA4600-4608:10",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *1 C 0 {1,S} {5,S}
-4    C 0 {2,S}
-5 *2 H 0 {3,S}
+1     C 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 {1,S} {4,S} {8,S} {9,S}
+3  *1 C 0 {1,S} {5,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5  *2 H 0 {3,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S}
-4 * C 1 {2,S}
+1    C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {4,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * C 1 {2,S} {12,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
 """,
     product2 = 
 """
@@ -9783,18 +11815,28 @@ entry(
     label = "1985DEA4600-4608:14",
     reactant1 = 
 """
-1    C 0 {2,S} {3,D}
-2    C 0 {1,S} {4,D}
-3 *1 C 0 {1,D} {5,S}
-4    C 0 {2,D}
-5 *2 H 0 {3,S}
+1     C 0 {2,S} {3,D} {6,S}
+2     C 0 {1,S} {4,D} {7,S}
+3  *1 C 0 {1,D} {5,S} {8,S}
+4     C 0 {2,D} {9,S} {10,S}
+5  *2 H 0 {3,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {3,S}
+9     H 0 {4,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,D}
-2   C 0 {1,S} {4,D}
-3   C 0 {1,D}
-4 * C 1 {2,D}
+1   C 0 {2,S} {3,D} {5,S}
+2   C 0 {1,S} {4,D} {6,S}
+3   C 0 {1,D} {7,S} {8,S}
+4 * C 1 {2,D} {9,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
+9   H 0 {4,S}
 """,
     product2 = 
 """
@@ -9835,18 +11877,28 @@ entry(
     label = "1993HID/HIG10977-10983:2",
     reactant1 = 
 """
-1    C 0 {2,S} {3,D}
-2    C 0 {1,S} {4,D}
-3 *1 C 0 {1,D} {5,S}
-4    C 0 {2,D}
-5 *2 H 0 {3,S}
+1     C 0 {2,S} {3,D} {6,S}
+2     C 0 {1,S} {4,D} {7,S}
+3  *1 C 0 {1,D} {5,S} {8,S}
+4     C 0 {2,D} {9,S} {10,S}
+5  *2 H 0 {3,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {3,S}
+9     H 0 {4,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,D}
-2   C 0 {1,S} {4,D}
-3   C 0 {1,D}
-4 * C 1 {2,D}
+1   C 0 {2,S} {3,D} {5,S}
+2   C 0 {1,S} {4,D} {6,S}
+3   C 0 {1,D} {7,S} {8,S}
+4 * C 1 {2,D} {9,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
+9   H 0 {4,S}
 """,
     product2 = 
 """
@@ -9887,18 +11939,28 @@ entry(
     label = "2002BEL/DAC172-183:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S} {4,T}
-4    C 0 {3,T}
-5 *2 H 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,T}
+4     C 0 {3,T} {10,S}
+5  *2 H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,S}
+1   C 0 {2,S} {5,S} {6,S} {7,S}
+2 * C 1 {1,S} {3,S} {8,S}
 3   C 0 {2,S} {4,T}
-4   C 0 {3,T}
+4   C 0 {3,T} {9,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {1,S}
+8   H 0 {2,S}
+9   H 0 {4,S}
 """,
     product2 = 
 """
@@ -9940,18 +12002,28 @@ entry(
     label = "1993HID/HIG10977-10983:5",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S} {4,T}
-4    C 0 {3,T}
-5 *2 H 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,T}
+4     C 0 {3,T} {10,S}
+5  *2 H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,S}
+1   C 0 {2,S} {5,S} {6,S} {7,S}
+2 * C 1 {1,S} {3,S} {8,S}
 3   C 0 {2,S} {4,T}
-4   C 0 {3,T}
+4   C 0 {3,T} {9,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {1,S}
+8   H 0 {2,S}
+9   H 0 {4,S}
 """,
     product2 = 
 """
@@ -9993,10 +12065,15 @@ entry(
     label = "2007HAR/KLI3789-3801:14",
     reactant1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,S}
+1   C 0 {2,S} {5,S} {6,S} {7,S}
+2 * C 1 {1,S} {3,S} {8,S}
 3   C 0 {2,S} {4,T}
-4   C 0 {3,T}
+4   C 0 {3,T} {9,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {1,S}
+8   H 0 {2,S}
+9   H 0 {4,S}
 """,
     reactant2 = 
 """
@@ -10004,11 +12081,16 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S} {4,T}
-4    C 0 {3,T}
-5 *2 H 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,T}
+4     C 0 {3,T} {10,S}
+5  *2 H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {4,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -10044,20 +12126,36 @@ entry(
     label = "1985DEA4600-4608:16",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {4,S}
-3 *2 C 0 {1,S} {4,D}
-4    C 0 {2,S} {3,D}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {8,S} {9,S} {10,S}
+3  *2 C 0 {1,S} {4,D} {11,S}
+4     C 0 {2,S} {3,D} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,D}
-3 * C 1 {2,D}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2   C 0 {1,S} {3,D} {7,S}
+3 * C 1 {2,D} {8,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -10094,18 +12192,32 @@ entry(
     label = "2003SAN/KIE381-390:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {3,S}
-3    C 0 {1,S} {2,S} {4,D}
-4    C 0 {3,D}
-5 *2 H 0 {1,S}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {3,S} {8,S} {9,S} {10,S}
+3     C 0 {1,S} {2,S} {4,D}
+4     C 0 {3,D} {11,S} {12,S}
+5  *2 H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,D} {4,S}
-3   C 0 {2,D}
-4 * C 1 {2,S}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2    C 0 {1,S} {3,D} {4,S}
+3    C 0 {2,D} {8,S} {9,S}
+4  * C 1 {2,S} {10,S} {11,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {4,S}
 """,
     product2 = 
 """
@@ -10157,18 +12269,32 @@ entry(
     label = "1994DOU/PER1597-1627:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {3,S}
-3    C 0 {1,S} {2,S} {4,D}
-4    C 0 {3,D}
-5 *2 H 0 {1,S}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {3,S} {8,S} {9,S} {10,S}
+3     C 0 {1,S} {2,S} {4,D}
+4     C 0 {3,D} {11,S} {12,S}
+5  *2 H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,D} {4,S}
-3   C 0 {2,D}
-4 * C 1 {2,S}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2    C 0 {1,S} {3,D} {4,S}
+3    C 0 {2,D} {8,S} {9,S}
+4  * C 1 {2,S} {10,S} {11,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {4,S}
 """,
     product2 = 
 """
@@ -10213,18 +12339,32 @@ entry(
     label = "1949SZW292-295:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {3,S}
-3    C 0 {1,S} {2,S} {4,D}
-4    C 0 {3,D}
-5 *2 H 0 {1,S}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {3,S} {8,S} {9,S} {10,S}
+3     C 0 {1,S} {2,S} {4,D}
+4     C 0 {3,D} {11,S} {12,S}
+5  *2 H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,D} {4,S}
-3   C 0 {2,D}
-4 * C 1 {2,S}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2    C 0 {1,S} {3,D} {4,S}
+3    C 0 {2,D} {8,S} {9,S}
+4  * C 1 {2,S} {10,S} {11,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {4,S}
 """,
     product2 = 
 """
@@ -10273,15 +12413,17 @@ entry(
 1    C 0 {2,S} {3,T}
 2    C 0 {1,S} {4,T}
 3 *1 C 0 {1,T} {5,S}
-4    C 0 {2,T}
+4    C 0 {2,T} {6,S}
 5 *2 H 0 {3,S}
+6    H 0 {4,S}
 """,
     product1 = 
 """
 1   C 0 {2,T} {3,S}
-2   C 0 {1,T}
+2   C 0 {1,T} {5,S}
 3   C 0 {1,S} {4,T}
 4 * C 1 {3,T}
+5   H 0 {2,S}
 """,
     product2 = 
 """
@@ -10326,20 +12468,32 @@ entry(
     label = "1993HID/HIG10977-10983:8",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {4,S}
-3 *2 C 0 {1,S} {4,T}
-4    C 0 {2,S} {3,T}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {8,S} {9,S} {10,S}
+3  *2 C 0 {1,S} {4,T}
+4     C 0 {2,S} {3,T}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2   C 0 {1,S} {3,T}
 3 * C 1 {2,T}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -10377,18 +12531,28 @@ entry(
     label = "1985DEA4600-4608:20",
     reactant1 = 
 """
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {4,S}
-3    C 0 {1,S} {4,T}
-4    C 0 {2,S} {3,T}
-5 *2 H 0 {1,S}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {8,S} {9,S} {10,S}
+3     C 0 {1,S} {4,T}
+4     C 0 {2,S} {3,T}
+5  *2 H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2 * C 1 {4,S}
+1   C 0 {3,S} {5,S} {6,S} {7,S}
+2 * C 1 {4,S} {8,S} {9,S}
 3   C 0 {1,S} {4,T}
 4   C 0 {2,S} {3,T}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {1,S}
+8   H 0 {2,S}
+9   H 0 {2,S}
 """,
     product2 = 
 """
@@ -10429,10 +12593,15 @@ entry(
     label = "2007HAR/KLI3789-3801:16",
     reactant1 = 
 """
-1   C 0 {3,S}
-2 * C 1 {4,S}
+1   C 0 {3,S} {5,S} {6,S} {7,S}
+2 * C 1 {4,S} {8,S} {9,S}
 3   C 0 {1,S} {4,T}
 4   C 0 {2,S} {3,T}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {1,S}
+8   H 0 {2,S}
+9   H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -10440,11 +12609,16 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {4,S}
-3    C 0 {1,S} {4,T}
-4    C 0 {2,S} {3,T}
-5 *2 H 0 {1,S}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {8,S} {9,S} {10,S}
+3     C 0 {1,S} {4,T}
+4     C 0 {2,S} {3,T}
+5  *2 H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
@@ -10480,18 +12654,28 @@ entry(
     label = "1985DEA4600-4608:21",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {5,S}
-2    C 0 {1,S} {4,D}
-3    C 0 {4,D}
-4    C 0 {2,D} {3,D}
-5 *2 H 0 {1,S}
+1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
+2     C 0 {1,S} {4,D} {8,S}
+3     C 0 {4,D} {9,S} {10,S}
+4     C 0 {2,D} {3,D}
+5  *2 H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {4,D}
-2 * C 1 {1,S}
-3   C 0 {4,D}
+1   C 0 {2,S} {4,D} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   C 0 {4,D} {8,S} {9,S}
 4   C 0 {1,D} {3,D}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
+8   H 0 {3,S}
+9   H 0 {3,S}
 """,
     product2 = 
 """
@@ -10532,20 +12716,36 @@ entry(
     label = "1991TSA221-273:92",
     reactant1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {4,D}
-4    C 0 {3,D}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,D} {10,S}
+4     C 0 {3,D} {11,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10584,20 +12784,36 @@ entry(
     label = "1985DEA4600-4608:12",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {4,D}
-4    C 0 {3,D}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,D} {10,S}
+4     C 0 {3,D} {11,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10633,20 +12849,36 @@ entry(
     label = "1970TRE2805-2811:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {4,D}
-4    C 0 {3,D}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,D} {10,S}
+4     C 0 {3,D} {11,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10688,20 +12920,36 @@ entry(
     label = "1968HAL/QUI103:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {4,D}
-4    C 0 {3,D}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,D} {10,S}
+4     C 0 {3,D} {11,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10741,20 +12989,36 @@ entry(
     label = "1965KER/SPE6652-6654:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {4,D}
-4    C 0 {3,D}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,D} {10,S}
+4     C 0 {3,D} {11,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10794,20 +13058,36 @@ entry(
     label = "1950SEH/SZW263-276:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {4,D}
-4    C 0 {3,D}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,D} {10,S}
+4     C 0 {3,D} {11,S} {12,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10848,20 +13128,40 @@ entry(
     label = "2006KLI/GEO1133-1147:3",
     reactant1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4  *2 C 0 {1,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10905,20 +13205,40 @@ entry(
     label = "1968KON/MAR405-413:4",
     reactant1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4  *2 C 0 {1,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -10958,20 +13278,40 @@ entry(
     label = "1984WAR197C:62",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11006,20 +13346,40 @@ entry(
     label = "1978TSA821:4",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11058,20 +13418,40 @@ entry(
     label = "2004OEH/DAV4247-4253:8",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11110,20 +13490,40 @@ entry(
     label = "1985DEA4600-4608:11",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11159,20 +13559,40 @@ entry(
     label = "1978TSA821:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11213,20 +13633,40 @@ entry(
     label = "1974HUG/MAR594:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11267,20 +13707,40 @@ entry(
     label = "1974GOL/ALF359:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11319,20 +13779,40 @@ entry(
     label = "1966LIN/BAC2369:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11373,20 +13853,40 @@ entry(
     label = "1979FOR100-108:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11422,20 +13922,40 @@ entry(
     label = "1962PUR/QUI267:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -11474,20 +13994,40 @@ entry(
     label = "1984WAR197C:61",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {4,S} {7,S} {8,S}
+3  *2 C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3  * C 1 {1,S} {9,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -11522,20 +14062,40 @@ entry(
     label = "2004OEH/DAV4247-4253:7",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {4,S} {7,S} {8,S}
+3  *2 C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3  * C 1 {1,S} {9,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -11574,20 +14134,40 @@ entry(
     label = "1985DEA4600-4608:8",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {4,S} {7,S} {8,S}
+3  *2 C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3  * C 1 {1,S} {9,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -11623,20 +14203,40 @@ entry(
     label = "1981KOI/MOR2439:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {4,S} {7,S} {8,S}
+3  *2 C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3  * C 1 {1,S} {9,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -11677,20 +14277,40 @@ entry(
     label = "1962PUR/QUI267:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {4,S} {7,S} {8,S}
+3  *2 C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3  * C 1 {1,S} {9,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -11730,20 +14350,32 @@ entry(
     label = "1979BAT/RAT1183:2",
     reactant1 = 
 """
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *1 O 0 {1,S} {4,S}
-4 *2 O 0 {2,S} {3,S}
+1     C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {8,S} {9,S} {10,S}
+3  *1 O 0 {1,S} {4,S}
+4  *2 O 0 {2,S} {3,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -11785,20 +14417,32 @@ entry(
     label = "1977BAR/BEN31:1",
     reactant1 = 
 """
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *1 O 0 {1,S} {4,S}
-4 *2 O 0 {2,S} {3,S}
+1     C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {8,S} {9,S} {10,S}
+3  *1 O 0 {1,S} {4,S}
+4  *2 O 0 {2,S} {3,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -11840,20 +14484,32 @@ entry(
     label = "1976BAT/MCC491:1",
     reactant1 = 
 """
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *1 O 0 {1,S} {4,S}
-4 *2 O 0 {2,S} {3,S}
+1     C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {8,S} {9,S} {10,S}
+3  *1 O 0 {1,S} {4,S}
+4  *2 O 0 {2,S} {3,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -11895,20 +14551,32 @@ entry(
     label = "1959HAN/CAL104-106:1",
     reactant1 = 
 """
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *1 O 0 {1,S} {4,S}
-4 *2 O 0 {2,S} {3,S}
+1     C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {8,S} {9,S} {10,S}
+3  *1 O 0 {1,S} {4,S}
+4  *2 O 0 {2,S} {3,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -11947,20 +14615,32 @@ entry(
     label = "1954TAK/TAK1527:1",
     reactant1 = 
 """
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *1 O 0 {1,S} {4,S}
-4 *2 O 0 {2,S} {3,S}
+1     C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {8,S} {9,S} {10,S}
+3  *1 O 0 {1,S} {4,S}
+4  *2 O 0 {2,S} {3,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
 2 * O 1 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12002,20 +14682,32 @@ entry(
     label = "1985DEA4600-4608:15",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {4,T}
-4    C 0 {3,T}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,T}
+4     C 0 {3,T} {10,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
+1 * C 1 {2,S} {4,S} {5,S}
 2   C 0 {1,S} {3,T}
-3   C 0 {2,T}
+3   C 0 {2,T} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12051,20 +14743,32 @@ entry(
     label = "1982TRE/WRI2337:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {4,T}
-4    C 0 {3,T}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,T}
+4     C 0 {3,T} {10,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
+1 * C 1 {2,S} {4,S} {5,S}
 2   C 0 {1,S} {3,T}
-3   C 0 {2,T}
+3   C 0 {2,T} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12106,20 +14810,32 @@ entry(
     label = "1978KIN545:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {4,T}
-4    C 0 {3,T}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,T}
+4     C 0 {3,T} {10,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
+1 * C 1 {2,S} {4,S} {5,S}
 2   C 0 {1,S} {3,T}
-3   C 0 {2,T}
+3   C 0 {2,T} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12159,20 +14875,32 @@ entry(
     label = "1995HID/HIG321-330:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {4,T}
-4    C 0 {3,T}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,T}
+4     C 0 {3,T} {10,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
+1 * C 1 {2,S} {4,S} {5,S}
 2   C 0 {1,S} {3,T}
-3   C 0 {2,T}
+3   C 0 {2,T} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12211,20 +14939,32 @@ entry(
     label = "1993HID/HIG10977-10983:4",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {4,T}
-4    C 0 {3,T}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,T}
+4     C 0 {3,T} {10,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
+1 * C 1 {2,S} {4,S} {5,S}
 2   C 0 {1,S} {3,T}
-3   C 0 {2,T}
+3   C 0 {2,T} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12261,20 +15001,32 @@ entry(
     label = "2000SAT/HID291-311:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
-3 *2 C 0 {1,S} {2,S} {4,D}
-4    O 0 {3,D}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 {1,S} {2,S} {4,D}
+4     O 0 {3,D}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -12315,20 +15067,32 @@ entry(
     label = "1996MOU/PAC3573-3579:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
-3 *2 C 0 {1,S} {2,S} {4,D}
-4    O 0 {3,D}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 {1,S} {2,S} {4,D}
+4     O 0 {3,D}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -12370,20 +15134,32 @@ entry(
     label = "1976ERN/SPI645:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
-3 *2 C 0 {1,S} {2,S} {4,D}
-4    O 0 {3,D}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 {1,S} {2,S} {4,D}
+4     O 0 {3,D}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -12424,20 +15200,32 @@ entry(
     label = "1975ERN/SPI1163:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
-3 *2 C 0 {1,S} {2,S} {4,D}
-4    O 0 {3,D}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 {1,S} {2,S} {4,D}
+4     O 0 {3,D}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -12478,20 +15266,32 @@ entry(
     label = "1956CLA/PRI2136-2140:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
-3 *2 C 0 {1,S} {2,S} {4,D}
-4    O 0 {3,D}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 {1,S} {2,S} {4,D}
+4     O 0 {3,D}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -12531,20 +15331,32 @@ entry(
     label = "1955SZW/TAY2310-2314:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
-3 *2 C 0 {1,S} {2,S} {4,D}
-4    O 0 {3,D}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {3,S} {8,S} {9,S} {10,S}
+3  *2 C 0 {1,S} {2,S} {4,D}
+4     O 0 {3,D}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -12586,20 +15398,32 @@ entry(
     label = "1994BAU/COB847-1033:82",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3 *1 O 0 {1,S} {4,S}
-4 *2 O 0 {3,S}
+1     C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3  *1 O 0 {1,S} {4,S}
+4  *2 O 0 {3,S} {10,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2   C 0 {1,S} {6,S} {7,S} {8,S}
 3 * O 1 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12636,20 +15460,32 @@ entry(
     label = "1992BAU/COB411-429:165",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3 *1 O 0 {1,S} {4,S}
-4 *2 O 0 {3,S}
+1     C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3  *1 O 0 {1,S} {4,S}
+4  *2 O 0 {3,S} {10,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2   C 0 {1,S} {6,S} {7,S} {8,S}
 3 * O 1 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12686,20 +15522,32 @@ entry(
     label = "1960KIR/KNO1296-1303:2",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3 *1 O 0 {1,S} {4,S}
-4 *2 O 0 {3,S}
+1     C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3  *1 O 0 {1,S} {4,S}
+4  *2 O 0 {3,S} {10,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2   C 0 {1,S} {6,S} {7,S} {8,S}
 3 * O 1 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -12745,15 +15593,25 @@ entry(
 """,
     reactant2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,S} {3,S}
-2    C 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
 3 *1 O 0 {1,S} {4,S}
 4    O 1 {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -12799,15 +15657,25 @@ entry(
 """,
     reactant2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,S} {3,S}
-2    C 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
 3 *1 O 0 {1,S} {4,S}
 4    O 1 {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -12851,15 +15719,25 @@ entry(
 """,
     reactant2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,S} {3,S}
-2    C 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
 3 *1 O 0 {1,S} {4,S}
 4    O 1 {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -12906,15 +15784,25 @@ entry(
 """,
     reactant2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,S} {3,S}
-2    C 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
 3 *1 O 0 {1,S} {4,S}
 4    O 1 {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -12961,15 +15849,25 @@ entry(
 """,
     reactant2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,S} {3,S}
-2    C 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
 3 *1 O 0 {1,S} {4,S}
 4    O 1 {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -13021,15 +15919,25 @@ entry(
 """,
     reactant2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,S} {3,S}
-2    C 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
 3 *1 O 0 {1,S} {4,S}
 4    O 1 {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -13070,10 +15978,15 @@ entry(
     label = "1990WAG/SLA1853-1868:3",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S}
-2    C 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
 3 *1 O 0 {1,S} {4,S}
 4    O 1 {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     product1 = 
 """
@@ -13082,8 +15995,13 @@ entry(
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -13124,10 +16042,15 @@ entry(
     label = "2002SHE/BOZ7276-7293:2",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S}
-2    C 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
 3 *1 O 0 {1,S} {4,S}
 4    O 1 {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
 """,
     product1 = 
 """
@@ -13136,8 +16059,13 @@ entry(
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -13174,18 +16102,32 @@ entry(
     label = "1985DEA4600-4608:13",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S} {4,D}
-4    C 0 {3,D}
-5 *2 H 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,D} {10,S}
+4     C 0 {3,D} {11,S} {12,S}
+5  *2 H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,S}
-3   C 0 {2,S} {4,D}
-4   C 0 {3,D}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2  * C 1 {1,S} {3,S} {8,S}
+3    C 0 {2,S} {4,D} {9,S}
+4    C 0 {3,D} {10,S} {11,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {4,S}
 """,
     product2 = 
 """
@@ -13226,18 +16168,32 @@ entry(
     label = "1985DEA4600-4608:17",
     reactant1 = 
 """
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {4,S}
-3    C 0 {1,S} {4,D}
-4    C 0 {2,S} {3,D}
-5 *2 H 0 {1,S}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {8,S} {9,S} {10,S}
+3     C 0 {1,S} {4,D} {11,S}
+4     C 0 {2,S} {3,D} {12,S}
+5  *2 H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,D}
-3   C 0 {2,D} {4,S}
-4 * C 1 {3,S}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2    C 0 {1,S} {3,D} {8,S}
+3    C 0 {2,D} {4,S} {9,S}
+4  * C 1 {3,S} {10,S} {11,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {4,S}
 """,
     product2 = 
 """
@@ -13279,17 +16235,23 @@ entry(
     reactant1 = 
 """
 1 *1 C 0 {2,D} {3,S} {5,S}
-2    C 0 {1,D}
+2    C 0 {1,D} {6,S} {7,S}
 3    C 0 {1,S} {4,T}
-4    C 0 {3,T}
+4    C 0 {3,T} {8,S}
 5 *2 H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
+1   C 0 {2,D} {5,S} {6,S}
 2 * C 1 {1,D} {3,S}
 3   C 0 {2,S} {4,T}
-4   C 0 {3,T}
+4   C 0 {3,T} {7,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {4,S}
 """,
     product2 = 
 """
@@ -13334,18 +16296,24 @@ entry(
 """,
     reactant2 = 
 """
-1   C 0 {2,D}
+1   C 0 {2,D} {5,S} {6,S}
 2 * C 1 {1,D} {3,S}
 3   C 0 {2,S} {4,T}
-4   C 0 {3,T}
+4   C 0 {3,T} {7,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {4,S}
 """,
     product1 = 
 """
 1 *2 C 0 {2,D} {3,S} {5,S}
-2    C 0 {1,D}
+2    C 0 {1,D} {6,S} {7,S}
 3    C 0 {1,S} {4,T}
-4    C 0 {3,T}
+4    C 0 {3,T} {8,S}
 5 *1 H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -13384,11 +16352,14 @@ entry(
     label = "1986HID/TAN195:1",
     reactant1 = 
 """
-1    C 0 {2,D} {3,S}
-2    C 0 {1,D}
+1    C 0 {2,D} {3,S} {6,S}
+2    C 0 {1,D} {7,S} {8,S}
 3    C 0 {1,S} {4,T}
 4 *1 C 0 {3,T} {5,S}
 5 *2 H 0 {4,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
@@ -13396,10 +16367,13 @@ entry(
 """,
     product2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
+1   C 0 {2,D} {3,S} {5,S}
+2   C 0 {1,D} {6,S} {7,S}
 3   C 0 {1,S} {4,T}
 4 * C 1 {3,T}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -13441,11 +16415,14 @@ entry(
     label = "1992HID/MAS871-885:1",
     reactant1 = 
 """
-1    C 0 {2,D} {3,S}
-2    C 0 {1,D}
+1    C 0 {2,D} {3,S} {6,S}
+2    C 0 {1,D} {7,S} {8,S}
 3    C 0 {1,S} {4,T}
 4 *1 C 0 {3,T} {5,S}
 5 *2 H 0 {4,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
 """,
     product1 = 
 """
@@ -13453,10 +16430,13 @@ entry(
 """,
     product2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
+1   C 0 {2,D} {3,S} {5,S}
+2   C 0 {1,D} {6,S} {7,S}
 3   C 0 {1,S} {4,T}
 4 * C 1 {3,T}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -13498,20 +16478,40 @@ entry(
     label = "1966BRO935-944:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -13554,20 +16554,40 @@ entry(
     label = "1968KON/MAR405-413:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -13609,20 +16629,40 @@ entry(
     label = "1974BRA199:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -13664,20 +16704,40 @@ entry(
     label = "1974GOL/ALF359:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -13717,20 +16777,40 @@ entry(
     label = "1980PRA/ROG1694:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -13772,20 +16852,40 @@ entry(
     label = "1980SHE/IVA837:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -13828,20 +16928,40 @@ entry(
     label = "1982KOI/MOR690:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -13884,20 +17004,40 @@ entry(
     label = "1984WAR197C:55",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -13933,20 +17073,40 @@ entry(
     label = "1988HID/FUJ570:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -13989,20 +17149,40 @@ entry(
     label = "1990TSA1-68:20",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -14040,20 +17220,40 @@ entry(
     label = "1957SHE/KUT1020-1028:1",
     reactant1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     reactant2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14095,20 +17295,40 @@ entry(
     label = "1972TEN/JON1267:6",
     reactant1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     reactant2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {4,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {2,S} {12,S} {13,S} {14,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -14150,20 +17370,32 @@ entry(
     label = "1988KER/SIN731:7",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {4,D}
-3    C 0 {4,D}
-4    C 0 {2,D} {3,D}
+1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
+2  *2 C 0 {1,S} {4,D} {8,S}
+3     C 0 {4,D} {9,S} {10,S}
+4     C 0 {2,D} {3,D}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
+1   C 0 {2,D} {4,S} {5,S}
 2   C 0 {1,D} {3,D}
-3 * C 1 {2,D}
+3 * C 1 {2,D} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -14203,20 +17435,32 @@ entry(
     label = "1993HID/HIG10977-10983:10",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {4,D}
-3    C 0 {4,D}
-4    C 0 {2,D} {3,D}
+1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
+2  *2 C 0 {1,S} {4,D} {8,S}
+3     C 0 {4,D} {9,S} {10,S}
+4     C 0 {2,D} {3,D}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
+1   C 0 {2,D} {4,S} {5,S}
 2   C 0 {1,D} {3,D}
-3 * C 1 {2,D}
+3 * C 1 {2,D} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -14254,20 +17498,32 @@ entry(
     label = "1985KIE/WEI225-253:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,D}
-2 *2 C 0 {1,S} {4,D}
-3    C 0 {1,D}
-4    C 0 {2,D}
+1  *1 C 0 {2,S} {3,D} {5,S}
+2  *2 C 0 {1,S} {4,D} {6,S}
+3     C 0 {1,D} {7,S} {8,S}
+4     C 0 {2,D} {9,S} {10,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {3,S}
+8     H 0 {3,S}
+9     H 0 {4,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -14309,20 +17565,32 @@ entry(
     label = "1988KER/SIN731:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,D}
-2 *2 C 0 {1,S} {4,D}
-3    C 0 {1,D}
-4    C 0 {2,D}
+1  *1 C 0 {2,S} {3,D} {5,S}
+2  *2 C 0 {1,S} {4,D} {6,S}
+3     C 0 {1,D} {7,S} {8,S}
+4     C 0 {2,D} {9,S} {10,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {3,S}
+8     H 0 {3,S}
+9     H 0 {4,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -14362,20 +17630,32 @@ entry(
     label = "1988KIE/MIT787:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,D}
-2 *2 C 0 {1,S} {4,D}
-3    C 0 {1,D}
-4    C 0 {2,D}
+1  *1 C 0 {2,S} {3,D} {5,S}
+2  *2 C 0 {1,S} {4,D} {6,S}
+3     C 0 {1,D} {7,S} {8,S}
+4     C 0 {2,D} {9,S} {10,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {3,S}
+8     H 0 {3,S}
+9     H 0 {4,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -14418,20 +17698,32 @@ entry(
     label = "1988RAO/TAK153:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,D}
-2 *2 C 0 {1,S} {4,D}
-3    C 0 {1,D}
-4    C 0 {2,D}
+1  *1 C 0 {2,S} {3,D} {5,S}
+2  *2 C 0 {1,S} {4,D} {6,S}
+3     C 0 {1,D} {7,S} {8,S}
+4     C 0 {2,D} {9,S} {10,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {3,S}
+8     H 0 {3,S}
+9     H 0 {4,S}
+10    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -14473,22 +17765,42 @@ entry(
     label = "1986SER/HUH829:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {4,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5 *2 O 0 {1,S} {2,S}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {5,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {2,S} {13,S} {14,S} {15,S}
+5  *2 O 0 {1,S} {2,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2   C 0 {1,S} {3,S} {7,S} {8,S}
 3 * O 1 {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -14530,22 +17842,42 @@ entry(
     label = "1978FOU/MAR132:2",
     reactant1 = 
 """
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {4,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5 *2 O 0 {1,S} {2,S}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {5,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {2,S} {13,S} {14,S} {15,S}
+5  *2 O 0 {1,S} {2,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2   C 0 {1,S} {3,S} {7,S} {8,S}
 3 * O 1 {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -14586,22 +17918,42 @@ entry(
     label = "1977SER/LAB151:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {4,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5 *2 O 0 {1,S} {2,S}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {5,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {2,S} {13,S} {14,S} {15,S}
+5  *2 O 0 {1,S} {2,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2   C 0 {1,S} {3,S} {7,S} {8,S}
 3 * O 1 {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -14642,22 +17994,42 @@ entry(
     label = "1975SER/HUH120-123:2",
     reactant1 = 
 """
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {4,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5 *2 O 0 {1,S} {2,S}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {5,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {2,S} {13,S} {14,S} {15,S}
+5  *2 O 0 {1,S} {2,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2   C 0 {1,S} {3,S} {7,S} {8,S}
 3 * O 1 {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -14698,22 +18070,42 @@ entry(
     label = "1975SER/HUH120-123:3",
     reactant1 = 
 """
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {4,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5 *2 O 0 {1,S} {2,S}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {5,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {2,S} {13,S} {14,S} {15,S}
+5  *2 O 0 {1,S} {2,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2   C 0 {1,S} {3,S} {7,S} {8,S}
 3 * O 1 {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -14754,22 +18146,42 @@ entry(
     label = "1964LAI/MCK505-516:1",
     reactant1 = 
 """
-1 *1 C 0 {3,S} {5,S}
-2    C 0 {4,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5 *2 O 0 {1,S} {2,S}
+1  *1 C 0 {3,S} {5,S} {6,S} {7,S}
+2     C 0 {4,S} {5,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {2,S} {13,S} {14,S} {15,S}
+5  *2 O 0 {1,S} {2,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2   C 0 {1,S} {3,S} {7,S} {8,S}
 3 * O 1 {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -14811,22 +18223,42 @@ entry(
     label = "1976TSA173:4",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    O 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     O 0 {1,S} {15,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S} {4,S}
-4   O 0 {3,S}
+1    C 0 {3,S} {5,S} {6,S} {7,S}
+2    C 0 {3,S} {8,S} {9,S} {10,S}
+3  * C 1 {1,S} {2,S} {4,S}
+4    O 0 {3,S} {11,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {4,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -14866,22 +18298,30 @@ entry(
     label = "1992SAH/RIG637-643:2",
     reactant1 = 
 """
-1    C 0 {2,S}
+1    C 0 {2,S} {6,S} {7,S} {8,S}
 2    C 0 {1,S} {3,S} {5,D}
 3 *1 O 0 {2,S} {4,S}
-4 *2 O 0 {3,S}
+4 *2 O 0 {3,S} {9,S}
 5    O 0 {2,D}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {4,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {5,S} {6,S} {7,S}
 2   C 0 {1,S} {3,S} {4,D}
 3 * O 1 {2,S}
 4   O 0 {2,D}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -14924,22 +18364,42 @@ entry(
     label = "1986BRO/KIN419:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S} {5,D}
-5    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {6,S} {7,S}
+2  *2 C 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {2,S} {5,D} {13,S}
+5     C 0 {4,D} {14,S} {15,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+15    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -14976,22 +18436,42 @@ entry(
     label = "1978TSA599:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S} {5,D}
-5    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {6,S} {7,S}
+2  *2 C 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {2,S} {5,D} {13,S}
+5     C 0 {4,D} {14,S} {15,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+15    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15032,22 +18512,38 @@ entry(
     label = "1977ROS/BRA8063-8064:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {4,D} {5,S}
-4    C 0 {3,D}
-5 *2 O 0 {1,S} {3,S}
+1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
+2     C 0 {1,S} {8,S} {9,S} {10,S}
+3     C 0 {4,D} {5,S} {11,S}
+4     C 0 {3,D} {12,S} {13,S}
+5  *2 O 0 {1,S} {3,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
-2   C 0 {1,D} {3,S}
+1   C 0 {2,D} {4,S} {5,S}
+2   C 0 {1,D} {3,S} {6,S}
 3 * O 1 {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15084,22 +18580,38 @@ entry(
     label = "1952BLA/MUR1039-1041:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {4,D} {5,S}
-4    C 0 {3,D}
-5 *2 O 0 {1,S} {3,S}
+1  *1 C 0 {2,S} {5,S} {6,S} {7,S}
+2     C 0 {1,S} {8,S} {9,S} {10,S}
+3     C 0 {4,D} {5,S} {11,S}
+4     C 0 {3,D} {12,S} {13,S}
+5  *2 O 0 {1,S} {3,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,D}
-2   C 0 {1,D} {3,S}
+1   C 0 {2,D} {4,S} {5,S}
+2   C 0 {1,D} {3,S} {6,S}
 3 * O 1 {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15141,22 +18653,38 @@ entry(
     label = "1981NGU/KIN3130:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S} {5,T}
-5    C 0 {4,T}
+1  *1 C 0 {2,S} {3,S} {4,S} {6,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {5,T}
+5     C 0 {4,T} {13,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,S}
+1   C 0 {2,S} {5,S} {6,S} {7,S}
+2 * C 1 {1,S} {3,S} {8,S}
 3   C 0 {2,S} {4,T}
-4   C 0 {3,T}
+4   C 0 {3,T} {9,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {1,S}
+8   H 0 {2,S}
+9   H 0 {4,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -15197,22 +18725,38 @@ entry(
     label = "1973TRE1737:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {5,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {4,D}
-4    C 0 {3,D}
-5    O 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {4,D} {10,S}
+4     C 0 {3,D} {11,S} {12,S}
+5     O 0 {1,S} {13,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,D}
-2 * C 1 {1,S} {4,S}
-3   C 0 {1,D}
-4   O 0 {2,S}
+1   C 0 {2,S} {3,D} {5,S}
+2 * C 1 {1,S} {4,S} {6,S}
+3   C 0 {1,D} {7,S} {8,S}
+4   O 0 {2,S} {9,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
+9   H 0 {4,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15254,22 +18798,38 @@ entry(
     label = "1982NGU/KIN613:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {5,S}
-4    C 0 {1,S} {5,T}
-5    C 0 {3,S} {4,T}
+1  *1 C 0 {2,S} {4,S} {6,S} {7,S}
+2  *2 C 0 {1,S} {8,S} {9,S} {10,S}
+3     C 0 {5,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {5,T}
+5     C 0 {3,S} {4,T}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2 * C 1 {4,S}
+1   C 0 {3,S} {5,S} {6,S} {7,S}
+2 * C 1 {4,S} {8,S} {9,S}
 3   C 0 {1,S} {4,T}
 4   C 0 {2,S} {3,T}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {1,S}
+8   H 0 {2,S}
+9   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15310,22 +18870,46 @@ entry(
     label = "1990TSA1-68:74",
     reactant1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15363,22 +18947,46 @@ entry(
     label = "2006KLI/GEO1133-1147:4",
     reactant1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15422,22 +19030,46 @@ entry(
     label = "1988RAO/SKI165:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15478,22 +19110,46 @@ entry(
     label = "1983BER/SKI3732:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15535,22 +19191,46 @@ entry(
     label = "1979BAL/LEW529:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15589,22 +19269,46 @@ entry(
     label = "1978MAR/COM171:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15645,22 +19349,46 @@ entry(
     label = "1976MAR/PUR85:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15702,22 +19430,46 @@ entry(
     label = "1976BRA/WES8:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15758,22 +19510,46 @@ entry(
     label = "1973PAC2415:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15815,22 +19591,46 @@ entry(
     label = "1971BAR/DZI197:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15871,22 +19671,46 @@ entry(
     label = "1969TAY/HUT2215-2219:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15925,22 +19749,46 @@ entry(
     label = "1969HAL/KON525:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -15982,22 +19830,46 @@ entry(
     label = "1966TSA4283-4295:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -16038,22 +19910,46 @@ entry(
     label = "1993MIT/BEN931-955:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -16089,22 +19985,46 @@ entry(
     label = "1981PRA/ROG2751:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5  *2 C 0 {1,S} {15,S} {16,S} {17,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -16144,9 +20064,16 @@ entry(
     label = "2003DES/KLI4415-4427:4",
     reactant1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     reactant2 = 
 """
@@ -16155,11 +20082,18 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4 *2 O 0 {1,S} {5,S}
-5    O 1 {4,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {6,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4  *2 O 0 {1,S} {5,S}
+5     O 1 {4,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -16207,20 +20141,30 @@ entry(
     label = "2001ROY/BRA821-833:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {6,S}
-2    C 0 {1,S} {4,D}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,D} {5,S}
-5    C 0 {3,D} {4,S}
-6 *2 H 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 {1,S} {4,D} {8,S}
+3     C 0 {1,S} {5,D} {9,S}
+4     C 0 {2,D} {5,S} {10,S}
+5     C 0 {3,D} {4,S} {11,S}
+6  *2 H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D} {4,S}
-3   C 0 {1,S} {5,D}
-4 * C 1 {2,S} {5,S}
-5   C 0 {3,D} {4,S}
+1    C 0 {2,D} {3,S} {6,S}
+2    C 0 {1,D} {4,S} {7,S}
+3    C 0 {1,S} {5,D} {8,S}
+4  * C 1 {2,S} {5,S} {9,S}
+5    C 0 {3,D} {4,S} {10,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {4,S}
+10   H 0 {5,S}
 """,
     product2 = 
 """
@@ -16266,20 +20210,30 @@ entry(
     label = "1997BUR/DVI505-514:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {6,S}
-2    C 0 {1,S} {4,D}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,D} {5,S}
-5    C 0 {3,D} {4,S}
-6 *2 H 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 {1,S} {4,D} {8,S}
+3     C 0 {1,S} {5,D} {9,S}
+4     C 0 {2,D} {5,S} {10,S}
+5     C 0 {3,D} {4,S} {11,S}
+6  *2 H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D} {4,S}
-3   C 0 {1,S} {5,D}
-4 * C 1 {2,S} {5,S}
-5   C 0 {3,D} {4,S}
+1    C 0 {2,D} {3,S} {6,S}
+2    C 0 {1,D} {4,S} {7,S}
+3    C 0 {1,S} {5,D} {8,S}
+4  * C 1 {2,S} {5,S} {9,S}
+5    C 0 {3,D} {4,S} {10,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {4,S}
+10   H 0 {5,S}
 """,
     product2 = 
 """
@@ -16326,20 +20280,30 @@ entry(
     label = "2004TOK/MOS139-151:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {6,S}
-2    C 0 {1,S} {4,D}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,D} {5,S}
-5    C 0 {3,D} {4,S}
-6 *2 H 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 {1,S} {4,D} {8,S}
+3     C 0 {1,S} {5,D} {9,S}
+4     C 0 {2,D} {5,S} {10,S}
+5     C 0 {3,D} {4,S} {11,S}
+6  *2 H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D} {4,S}
-3   C 0 {1,S} {5,D}
-4 * C 1 {2,S} {5,S}
-5   C 0 {3,D} {4,S}
+1    C 0 {2,D} {3,S} {6,S}
+2    C 0 {1,D} {4,S} {7,S}
+3    C 0 {1,S} {5,D} {8,S}
+4  * C 1 {2,S} {5,S} {9,S}
+5    C 0 {3,D} {4,S} {10,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {4,S}
+10   H 0 {5,S}
 """,
     product2 = 
 """
@@ -16382,20 +20346,30 @@ entry(
     label = "2001BAC/MAC2467-2473:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {6,S}
-2    C 0 {1,S} {4,D}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,D} {5,S}
-5    C 0 {3,D} {4,S}
-6 *2 H 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 {1,S} {4,D} {8,S}
+3     C 0 {1,S} {5,D} {9,S}
+4     C 0 {2,D} {5,S} {10,S}
+5     C 0 {3,D} {4,S} {11,S}
+6  *2 H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D} {4,S}
-3   C 0 {1,S} {5,D}
-4 * C 1 {2,S} {5,S}
-5   C 0 {3,D} {4,S}
+1    C 0 {2,D} {3,S} {6,S}
+2    C 0 {1,D} {4,S} {7,S}
+3    C 0 {1,S} {5,D} {8,S}
+4  * C 1 {2,S} {5,S} {9,S}
+5    C 0 {3,D} {4,S} {10,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {4,S}
+10   H 0 {5,S}
 """,
     product2 = 
 """
@@ -16436,11 +20410,16 @@ entry(
     label = "2004TOK/MOS139-151:3",
     reactant1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D} {4,S}
-3   C 0 {1,S} {5,D}
-4 * C 1 {2,S} {5,S}
-5   C 0 {3,D} {4,S}
+1    C 0 {2,D} {3,S} {6,S}
+2    C 0 {1,D} {4,S} {7,S}
+3    C 0 {1,S} {5,D} {8,S}
+4  * C 1 {2,S} {5,S} {9,S}
+5    C 0 {3,D} {4,S} {10,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {4,S}
+10   H 0 {5,S}
 """,
     reactant2 = 
 """
@@ -16448,12 +20427,17 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S} {6,S}
-2    C 0 {1,S} {4,D}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,D} {5,S}
-5    C 0 {3,D} {4,S}
-6 *2 H 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 {1,S} {4,D} {8,S}
+3     C 0 {1,S} {5,D} {9,S}
+4     C 0 {2,D} {5,S} {10,S}
+5     C 0 {3,D} {4,S} {11,S}
+6  *2 H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {5,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -16492,9 +20476,16 @@ entry(
     label = "2003DES/KLI4415-4427:7",
     reactant1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3  * C 1 {1,S} {9,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
 """,
     reactant2 = 
 """
@@ -16503,11 +20494,18 @@ entry(
 """,
     product1 = 
 """
-1    C 0 {2,S} {3,S}
-2 *1 C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4 *2 O 0 {2,S} {5,S}
-5    O 1 {4,S}
+1     C 0 {2,S} {3,S} {6,S} {7,S}
+2  *1 C 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4  *2 O 0 {2,S} {5,S}
+5     O 1 {4,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -16556,22 +20554,46 @@ entry(
     label = "1962BLA/HIN36:5",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S}
-2 *1 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,S}
-4 *2 C 0 {2,S}
-5    C 0 {3,S}
+1     C 0 {2,S} {3,S} {6,S} {7,S}
+2  *1 C 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 {1,S} {5,S} {10,S} {11,S}
+4  *2 C 0 {2,S} {12,S} {13,S} {14,S}
+5     C 0 {3,S} {15,S} {16,S} {17,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S}
-4 * C 1 {2,S}
+1    C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {4,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * C 1 {2,S} {12,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -16608,22 +20630,42 @@ entry(
     label = "1977TRE/WRI817:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {4,S}
-4    C 0 {1,S} {3,S} {5,D}
-5    C 0 {4,D}
+1  *1 C 0 {2,S} {4,S} {6,S} {7,S}
+2  *2 C 0 {1,S} {8,S} {9,S} {10,S}
+3     C 0 {4,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {3,S} {5,D}
+5     C 0 {4,D} {14,S} {15,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {5,S}
+15    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,D} {4,S}
-3   C 0 {2,D}
-4 * C 1 {2,S}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2    C 0 {1,S} {3,D} {4,S}
+3    C 0 {2,D} {8,S} {9,S}
+4  * C 1 {2,S} {10,S} {11,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {4,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -16666,22 +20708,38 @@ entry(
     label = "1960KIR/KNO1296-1303:3",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S} {4,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4 *1 O 0 {1,S} {5,S}
-5 *2 O 0 {4,S}
+1     C 0 {2,S} {3,S} {4,S} {6,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4  *1 O 0 {1,S} {5,S}
+5  *2 O 0 {4,S} {13,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {5,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * O 1 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -16722,22 +20780,38 @@ entry(
     label = "1975ABU/LIS65:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S}
-2    C 0 {1,S}
-3    C 0 {4,S}
-4 *2 C 0 {1,S} {3,S} {5,D}
-5    O 0 {4,D}
+1  *1 C 0 {2,S} {4,S} {6,S} {7,S}
+2     C 0 {1,S} {8,S} {9,S} {10,S}
+3     C 0 {4,S} {11,S} {12,S} {13,S}
+4  *2 C 0 {1,S} {3,S} {5,D}
+5     O 0 {4,D}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -16779,11 +20853,16 @@ entry(
     label = "1982MOR/PIL1323:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S}
-2    C 0 {1,S} {3,D}
-3    C 0 {2,D}
-4 *2 O 0 {1,S} {5,S}
-5    O 1 {4,S}
+1  *1 C 0 {2,S} {4,S} {6,S} {7,S}
+2     C 0 {1,S} {3,D} {8,S}
+3     C 0 {2,D} {9,S} {10,S}
+4  *2 O 0 {1,S} {5,S}
+5     O 1 {4,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
 """,
     product1 = 
 """
@@ -16792,9 +20871,14 @@ entry(
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,D}
-2 * C 1 {1,S}
-3   C 0 {1,D}
+1   C 0 {2,S} {3,D} {4,S}
+2 * C 1 {1,S} {5,S} {6,S}
+3   C 0 {1,D} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -16841,17 +20925,27 @@ entry(
 """,
     reactant2 = 
 """
-1   C 0 {3,S}
-2 * C 1 {3,S}
+1   C 0 {3,S} {4,S} {5,S} {6,S}
+2 * C 1 {3,S} {7,S} {8,S}
 3   O 0 {1,S} {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product1 = 
 """
-1 *2 C 0 {3,S} {4,S}
-2    C 0 {3,S}
-3    O 0 {1,S} {2,S}
-4 *1 O 0 {1,S} {5,S}
-5    O 1 {4,S}
+1  *2 C 0 {3,S} {4,S} {6,S} {7,S}
+2     C 0 {3,S} {8,S} {9,S} {10,S}
+3     O 0 {1,S} {2,S}
+4  *1 O 0 {1,S} {5,S}
+5     O 1 {4,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -16899,17 +20993,27 @@ entry(
 """,
     reactant2 = 
 """
-1   C 0 {3,S}
-2 * C 1 {3,S}
+1   C 0 {3,S} {4,S} {5,S} {6,S}
+2 * C 1 {3,S} {7,S} {8,S}
 3   O 0 {1,S} {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product1 = 
 """
-1 *2 C 0 {3,S} {4,S}
-2    C 0 {3,S}
-3    O 0 {1,S} {2,S}
-4 *1 O 0 {1,S} {5,S}
-5    O 1 {4,S}
+1  *2 C 0 {3,S} {4,S} {6,S} {7,S}
+2     C 0 {3,S} {8,S} {9,S} {10,S}
+3     O 0 {1,S} {2,S}
+4  *1 O 0 {1,S} {5,S}
+5     O 1 {4,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -16955,17 +21059,27 @@ entry(
 """,
     reactant2 = 
 """
-1   C 0 {3,S}
-2 * C 1 {3,S}
+1   C 0 {3,S} {4,S} {5,S} {6,S}
+2 * C 1 {3,S} {7,S} {8,S}
 3   O 0 {1,S} {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product1 = 
 """
-1 *2 C 0 {3,S} {4,S}
-2    C 0 {3,S}
-3    O 0 {1,S} {2,S}
-4 *1 O 0 {1,S} {5,S}
-5    O 1 {4,S}
+1  *2 C 0 {3,S} {4,S} {6,S} {7,S}
+2     C 0 {3,S} {8,S} {9,S} {10,S}
+3     O 0 {1,S} {2,S}
+4  *1 O 0 {1,S} {5,S}
+5     O 1 {4,S}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -17008,22 +21122,42 @@ entry(
     label = "1970TRE2805-2811:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S} {5,D}
-5    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {4,S} {6,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {5,D} {13,S}
+5     C 0 {4,D} {14,S} {15,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+15    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,S}
-3   C 0 {2,S} {4,D}
-4   C 0 {3,D}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2  * C 1 {1,S} {3,S} {8,S}
+3    C 0 {2,S} {4,D} {9,S}
+4    C 0 {3,D} {10,S} {11,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {4,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -17066,22 +21200,38 @@ entry(
     label = "1981NGU/KIN3130:4",
     reactant1 = 
 """
-1 *1 C 0 {3,S}
-2    C 0 {3,S}
-3 *2 C 0 {1,S} {2,S} {5,D}
-4    C 0 {5,D}
-5    C 0 {3,D} {4,D}
+1  *1 C 0 {3,S} {6,S} {7,S} {8,S}
+2     C 0 {3,S} {9,S} {10,S} {11,S}
+3  *2 C 0 {1,S} {2,S} {5,D}
+4     C 0 {5,D} {12,S} {13,S}
+5     C 0 {3,D} {4,D}
+6     H 0 {1,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {4,D}
+1   C 0 {3,S} {5,S} {6,S} {7,S}
+2   C 0 {4,D} {8,S} {9,S}
 3 * C 1 {1,S} {4,D}
 4   C 0 {2,D} {3,D}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {1,S}
+8   H 0 {2,S}
+9   H 0 {2,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -17122,24 +21272,44 @@ entry(
     label = "2005VAS/DAV98-109:3",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *1 O 0 {1,S} {6,S}
-6 *2 O 0 {5,S}
+1     C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5  *1 O 0 {1,S} {6,S}
+6  *2 O 0 {5,S} {16,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -17185,24 +21355,44 @@ entry(
     label = "1992SAH/RIG637-643:1",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *1 O 0 {1,S} {6,S}
-6 *2 O 0 {5,S}
+1     C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5  *1 O 0 {1,S} {6,S}
+6  *2 O 0 {5,S} {16,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -17244,24 +21434,44 @@ entry(
     label = "1984MUL/LOU148-152:1",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *1 O 0 {1,S} {6,S}
-6 *2 O 0 {5,S}
+1     C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5  *1 O 0 {1,S} {6,S}
+6  *2 O 0 {5,S} {16,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -17302,24 +21512,44 @@ entry(
     label = "1968BEN/SPO1182-1186:1",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *1 O 0 {1,S} {6,S}
-6 *2 O 0 {5,S}
+1     C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5  *1 O 0 {1,S} {6,S}
+6  *2 O 0 {5,S} {16,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -17358,24 +21588,44 @@ entry(
     label = "1960KIR/KNO1296-1303:1",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *1 O 0 {1,S} {6,S}
-6 *2 O 0 {5,S}
+1     C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5  *1 O 0 {1,S} {6,S}
+6  *2 O 0 {5,S} {16,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -17416,24 +21666,52 @@ entry(
     label = "1984BAL/DRE2827:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2    C 0 {1,S} {5,S} {6,S}
-3 *2 C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2     C 0 {1,S} {5,S} {6,S} {8,S}
+3  *2 C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {2,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {5,S}
-5 * C 1 {1,S} {4,S}
+1    C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
+3    C 0 {1,S} {10,S} {11,S} {12,S}
+4    C 0 {5,S} {13,S} {14,S} {15,S}
+5  * C 1 {1,S} {4,S} {16,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
+15   H 0 {4,S}
+16   H 0 {5,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -17474,24 +21752,52 @@ entry(
     label = "1965TSA352-359:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2    C 0 {1,S} {5,S} {6,S}
-3 *2 C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2     C 0 {1,S} {5,S} {6,S} {8,S}
+3  *2 C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {2,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {5,S}
-5 * C 1 {1,S} {4,S}
+1    C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
+3    C 0 {1,S} {10,S} {11,S} {12,S}
+4    C 0 {5,S} {13,S} {14,S} {15,S}
+5  * C 1 {1,S} {4,S} {16,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
+15   H 0 {4,S}
+16   H 0 {5,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 8,
     kinetics = Arrhenius(
@@ -17533,24 +21839,48 @@ entry(
     label = "1989BRO/KIN251-266:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {6,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,S}
-4    C 0 {2,S} {5,S}
-5    C 0 {3,S} {4,S}
-6 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {6,S} {7,S}
+2     C 0 {1,S} {4,S} {8,S} {9,S}
+3     C 0 {1,S} {5,S} {10,S} {11,S}
+4     C 0 {2,S} {5,S} {12,S} {13,S}
+5     C 0 {3,S} {4,S} {14,S} {15,S}
+6  *2 C 0 {1,S} {16,S} {17,S} {18,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+15    H 0 {5,S}
+16    H 0 {6,S}
+17    H 0 {6,S}
+18    H 0 {6,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S} {5,S}
-4   C 0 {2,S} {5,S}
-5 * C 1 {3,S} {4,S}
+1    C 0 {2,S} {3,S} {6,S} {7,S}
+2    C 0 {1,S} {4,S} {8,S} {9,S}
+3    C 0 {1,S} {5,S} {10,S} {11,S}
+4    C 0 {2,S} {5,S} {12,S} {13,S}
+5  * C 1 {3,S} {4,S} {14,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {5,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -17590,22 +21920,40 @@ entry(
     label = "1985DEA4600-4608:18",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *1 C 0 {1,S} {5,S} {7,S}
-4    C 0 {2,S} {6,S}
-5    C 0 {3,S} {6,D}
-6    C 0 {4,S} {5,D}
-7 *2 H 0 {3,S}
+1     C 0 {2,S} {3,S} {8,S} {9,S}
+2     C 0 {1,S} {4,S} {10,S} {11,S}
+3  *1 C 0 {1,S} {5,S} {7,S} {12,S}
+4     C 0 {2,S} {6,S} {13,S} {14,S}
+5     C 0 {3,S} {6,D} {15,S}
+6     C 0 {4,S} {5,D} {16,S}
+7  *2 H 0 {3,S}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S} {5,S}
-4   C 0 {2,S} {6,D}
-5 * C 1 {3,S} {6,S}
-6   C 0 {4,D} {5,S}
+1    C 0 {2,S} {3,S} {7,S} {8,S}
+2    C 0 {1,S} {4,S} {9,S} {10,S}
+3    C 0 {1,S} {5,S} {11,S} {12,S}
+4    C 0 {2,S} {6,D} {13,S}
+5  * C 1 {3,S} {6,S} {14,S}
+6    C 0 {4,D} {5,S} {15,S}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {4,S}
+14   H 0 {5,S}
+15   H 0 {6,S}
 """,
     product2 = 
 """
@@ -17646,24 +21994,36 @@ entry(
     label = "1996MAR/SZE333-339:1",
     reactant1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     reactant2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     product1 = 
 """
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *1 C 0 {1,S} {4,S} {5,D}
-4 *2 C 0 {2,S} {3,S} {6,D}
-5    O 0 {3,D}
-6    O 0 {4,D}
+1     C 0 {3,S} {7,S} {8,S} {9,S}
+2     C 0 {4,S} {10,S} {11,S} {12,S}
+3  *1 C 0 {1,S} {4,S} {5,D}
+4  *2 C 0 {2,S} {3,S} {6,D}
+5     O 0 {3,D}
+6     O 0 {4,D}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -17704,24 +22064,48 @@ entry(
     label = "1970TRE2805-2811:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S} {6,D}
-6    C 0 {5,D}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 {1,S} {6,D} {16,S}
+6     C 0 {5,D} {17,S} {18,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {6,S}
+18    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S} {4,S}
-4   C 0 {3,S} {5,D}
-5   C 0 {4,D}
+1    C 0 {3,S} {6,S} {7,S} {8,S}
+2    C 0 {3,S} {9,S} {10,S} {11,S}
+3  * C 1 {1,S} {2,S} {4,S}
+4    C 0 {3,S} {5,D} {12,S}
+5    C 0 {4,D} {13,S} {14,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {2,S}
+12   H 0 {4,S}
+13   H 0 {5,S}
+14   H 0 {5,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -17764,24 +22148,48 @@ entry(
     label = "1976TSA173:7",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S} {6,D}
-6    C 0 {5,D}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 {1,S} {6,D} {16,S}
+6     C 0 {5,D} {17,S} {18,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {6,S}
+18    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S} {4,S}
-4   C 0 {3,S} {5,D}
-5   C 0 {4,D}
+1    C 0 {3,S} {6,S} {7,S} {8,S}
+2    C 0 {3,S} {9,S} {10,S} {11,S}
+3  * C 1 {1,S} {2,S} {4,S}
+4    C 0 {3,S} {5,D} {12,S}
+5    C 0 {4,D} {13,S} {14,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {2,S}
+12   H 0 {4,S}
+13   H 0 {5,S}
+14   H 0 {5,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -17820,24 +22228,48 @@ entry(
     label = "1976TSA173:8",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {5,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {5,S}
-5    C 0 {1,S} {4,S} {6,D}
-6    C 0 {5,D}
+1  *1 C 0 {2,S} {3,S} {5,S} {7,S}
+2  *2 C 0 {1,S} {8,S} {9,S} {10,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {5,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {4,S} {6,D}
+6     C 0 {5,D} {17,S} {18,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {6,S}
+18    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {4,S}
-3   C 0 {1,S} {4,S} {5,D}
-4 * C 1 {2,S} {3,S}
-5   C 0 {3,D}
+1    C 0 {3,S} {6,S} {7,S} {8,S}
+2    C 0 {4,S} {9,S} {10,S} {11,S}
+3    C 0 {1,S} {4,S} {5,D}
+4  * C 1 {2,S} {3,S} {12,S}
+5    C 0 {3,D} {13,S} {14,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {2,S}
+12   H 0 {4,S}
+13   H 0 {5,S}
+14   H 0 {5,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -17877,22 +22309,36 @@ entry(
     label = "1985DEA4600-4608:24",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {7,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D} {6,S}
-6    C 0 {4,D} {5,S}
-7 *2 H 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2     C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,D} {11,S}
+4     C 0 {2,S} {6,D} {12,S}
+5     C 0 {3,D} {6,S} {13,S}
+6     C 0 {4,D} {5,S} {14,S}
+7  *2 H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,D}
-3 * C 1 {1,S} {5,S}
-4   C 0 {2,D} {6,S}
-5   C 0 {3,S} {6,D}
-6   C 0 {4,S} {5,D}
+1    C 0 {2,S} {3,S} {7,S} {8,S}
+2    C 0 {1,S} {4,D} {9,S}
+3  * C 1 {1,S} {5,S} {10,S}
+4    C 0 {2,D} {6,S} {11,S}
+5    C 0 {3,S} {6,D} {12,S}
+6    C 0 {4,S} {5,D} {13,S}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {4,S}
+12   H 0 {5,S}
+13   H 0 {6,S}
 """,
     product2 = 
 """
@@ -17933,22 +22379,32 @@ entry(
     label = "1985DEA4600-4608:26",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {7,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,T}
-4    C 0 {2,S} {6,T}
-5    C 0 {3,T}
-6    C 0 {4,T}
-7 *2 H 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2     C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,T}
+4     C 0 {2,S} {6,T}
+5     C 0 {3,T} {11,S}
+6     C 0 {4,T} {12,S}
+7  *2 H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {5,S}
+12    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2 * C 1 {1,S} {4,S}
-3   C 0 {1,S} {5,T}
-4   C 0 {2,S} {6,T}
-5   C 0 {3,T}
-6   C 0 {4,T}
+1    C 0 {2,S} {3,S} {7,S} {8,S}
+2  * C 1 {1,S} {4,S} {9,S}
+3    C 0 {1,S} {5,T}
+4    C 0 {2,S} {6,T}
+5    C 0 {3,T} {10,S}
+6    C 0 {4,T} {11,S}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {2,S}
+10   H 0 {5,S}
+11   H 0 {6,S}
 """,
     product2 = 
 """
@@ -17989,24 +22445,44 @@ entry(
     label = "1967LEG/THY2504-2509:1",
     reactant1 = 
 """
-1    C 0 {3,S} {5,S}
-2    C 0 {4,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5 *1 O 0 {1,S} {6,S}
-6 *2 O 0 {2,S} {5,S}
+1     C 0 {3,S} {5,S} {7,S} {8,S}
+2     C 0 {4,S} {6,S} {9,S} {10,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {2,S} {14,S} {15,S} {16,S}
+5  *1 O 0 {1,S} {6,S}
+6  *2 O 0 {2,S} {5,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2   C 0 {1,S} {3,S} {7,S} {8,S}
 3 * O 1 {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2   C 0 {1,S} {6,S} {7,S} {8,S}
 3 * O 1 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -18048,24 +22524,44 @@ entry(
     label = "1952REB/LAI574-577:1",
     reactant1 = 
 """
-1    C 0 {3,S} {5,S}
-2    C 0 {4,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5 *1 O 0 {1,S} {6,S}
-6 *2 O 0 {2,S} {5,S}
+1     C 0 {3,S} {5,S} {7,S} {8,S}
+2     C 0 {4,S} {6,S} {9,S} {10,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {2,S} {14,S} {15,S} {16,S}
+5  *1 O 0 {1,S} {6,S}
+6  *2 O 0 {2,S} {5,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2   C 0 {1,S} {3,S} {7,S} {8,S}
 3 * O 1 {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2   C 0 {1,S} {6,S} {7,S} {8,S}
 3 * O 1 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -18106,24 +22602,44 @@ entry(
     label = "1938HAR/EGE1-18:1",
     reactant1 = 
 """
-1    C 0 {3,S} {5,S}
-2    C 0 {4,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5 *1 O 0 {1,S} {6,S}
-6 *2 O 0 {2,S} {5,S}
+1     C 0 {3,S} {5,S} {7,S} {8,S}
+2     C 0 {4,S} {6,S} {9,S} {10,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {2,S} {14,S} {15,S} {16,S}
+5  *1 O 0 {1,S} {6,S}
+6  *2 O 0 {2,S} {5,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2   C 0 {1,S} {3,S} {7,S} {8,S}
 3 * O 1 {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2   C 0 {1,S} {6,S} {7,S} {8,S}
 3 * O 1 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -18165,24 +22681,44 @@ entry(
     label = "1981KIN273:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S} {5,S}
-4    C 0 {2,S}
-5    C 0 {3,S} {6,T}
-6    C 0 {5,T}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2     C 0 {1,S} {4,S} {9,S} {10,S}
+3  *2 C 0 {1,S} {5,S} {11,S} {12,S}
+4     C 0 {2,S} {13,S} {14,S} {15,S}
+5     C 0 {3,S} {6,T}
+6     C 0 {5,T} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
+1 * C 1 {2,S} {4,S} {5,S}
 2   C 0 {1,S} {3,T}
-3   C 0 {2,T}
+3   C 0 {2,T} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3  * C 1 {1,S} {9,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -18221,24 +22757,44 @@ entry(
     label = "1978TSA687:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S} {5,S}
-4    C 0 {2,S}
-5    C 0 {3,S} {6,T}
-6    C 0 {5,T}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2     C 0 {1,S} {4,S} {9,S} {10,S}
+3  *2 C 0 {1,S} {5,S} {11,S} {12,S}
+4     C 0 {2,S} {13,S} {14,S} {15,S}
+5     C 0 {3,S} {6,T}
+6     C 0 {5,T} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
+1 * C 1 {2,S} {4,S} {5,S}
 2   C 0 {1,S} {3,T}
-3   C 0 {2,T}
+3   C 0 {2,T} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3  * C 1 {1,S} {9,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -18280,24 +22836,44 @@ entry(
     label = "1977KIN907:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S} {6,T}
-6    C 0 {5,T}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 {1,S} {6,T}
+6     C 0 {5,T} {16,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S} {4,S}
-4   C 0 {3,S} {5,T}
-5   C 0 {4,T}
+1    C 0 {3,S} {6,S} {7,S} {8,S}
+2    C 0 {3,S} {9,S} {10,S} {11,S}
+3  * C 1 {1,S} {2,S} {4,S}
+4    C 0 {3,S} {5,T}
+5    C 0 {4,T} {12,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {2,S}
+12   H 0 {5,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -18337,24 +22913,52 @@ entry(
     label = "1987DAV/BAR644:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -18397,24 +23001,52 @@ entry(
     label = "2006KLI/GEO1133-1147:7",
     reactant1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     reactant2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -18458,10 +23090,19 @@ entry(
     label = "1997DIL/STO956-960:1",
     reactant1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     reactant2 = 
 """
@@ -18470,12 +23111,21 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 O 0 {1,S} {6,S}
-6    O 1 {5,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5  *2 O 0 {1,S} {6,S}
+6     O 1 {5,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -18518,19 +23168,37 @@ entry(
     label = "1999CHE/BOZ9731-9769:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5 *2 O 0 {1,S} {6,S}
-6    O 1 {5,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {7,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5  *2 O 0 {1,S} {6,S}
+6     O 1 {5,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
@@ -18572,24 +23240,44 @@ entry(
     label = "1991TSA221-273:79",
     reactant1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     reactant2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,D} {11,S}
+4     C 0 {2,S} {6,D} {12,S}
+5     C 0 {3,D} {13,S} {14,S}
+6     C 0 {4,D} {15,S} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {6,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18626,24 +23314,44 @@ entry(
     label = "1982TUL/MAC3812-3819:1",
     reactant1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     reactant2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,D} {11,S}
+4     C 0 {2,S} {6,D} {12,S}
+5     C 0 {3,D} {13,S} {14,S}
+6     C 0 {4,D} {15,S} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {6,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18684,24 +23392,44 @@ entry(
     label = "1969GOL/GAC2136:2",
     reactant1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     reactant2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,D} {11,S}
+4     C 0 {2,S} {6,D} {12,S}
+5     C 0 {3,D} {13,S} {14,S}
+6     C 0 {4,D} {15,S} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {6,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18742,24 +23470,44 @@ entry(
     label = "1972THR273:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,D} {11,S}
+4     C 0 {2,S} {6,D} {12,S}
+5     C 0 {3,D} {13,S} {14,S}
+6     C 0 {4,D} {15,S} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18797,24 +23545,44 @@ entry(
     label = "1991ROT/BAU1453-1460:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,D} {11,S}
+4     C 0 {2,S} {6,D} {12,S}
+5     C 0 {3,D} {13,S} {14,S}
+6     C 0 {4,D} {15,S} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18853,24 +23621,44 @@ entry(
     label = "1985DEA4600-4608:23",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,D} {11,S}
+4     C 0 {2,S} {6,D} {12,S}
+5     C 0 {3,D} {13,S} {14,S}
+6     C 0 {4,D} {15,S} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18906,24 +23694,44 @@ entry(
     label = "1976SAK/NOH152:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,D} {11,S}
+4     C 0 {2,S} {6,D} {12,S}
+5     C 0 {3,D} {13,S} {14,S}
+6     C 0 {4,D} {15,S} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -18964,24 +23772,44 @@ entry(
     label = "1971DOE/TOS5299:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,D} {11,S}
+4     C 0 {2,S} {6,D} {12,S}
+5     C 0 {3,D} {13,S} {14,S}
+6     C 0 {4,D} {15,S} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19021,24 +23849,44 @@ entry(
     label = "1969GOL/GAC2136:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,D} {11,S}
+4     C 0 {2,S} {6,D} {12,S}
+5     C 0 {3,D} {13,S} {14,S}
+6     C 0 {4,D} {15,S} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19079,24 +23927,44 @@ entry(
     label = "1967AKE/THR124:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,D} {11,S}
+4     C 0 {2,S} {6,D} {12,S}
+5     C 0 {3,D} {13,S} {14,S}
+6     C 0 {4,D} {15,S} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19137,24 +24005,44 @@ entry(
     label = "1966HOM/LOS2211-2217:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,D} {11,S}
+4     C 0 {2,S} {6,D} {12,S}
+5     C 0 {3,D} {13,S} {14,S}
+6     C 0 {4,D} {15,S} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19195,24 +24083,44 @@ entry(
     label = "1960RUZ/BRY827-834:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,D} {11,S}
+4     C 0 {2,S} {6,D} {12,S}
+5     C 0 {3,D} {13,S} {14,S}
+6     C 0 {4,D} {15,S} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19253,24 +24161,48 @@ entry(
     label = "1991TSA221-273:82",
     reactant1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     reactant2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,S} {3,S} {4,S}
-2 *1 C 0 {1,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S} {6,D}
-6    C 0 {5,D}
+1  *2 C 0 {2,S} {3,S} {4,S} {7,S}
+2  *1 C 0 {1,S} {5,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 {2,S} {6,D} {16,S}
+6     C 0 {5,D} {17,S} {18,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {6,S}
+18    H 0 {6,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -19308,24 +24240,48 @@ entry(
     label = "1965TAN7436:1",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S} {4,S}
-2 *1 C 0 {1,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S} {6,D}
-6    C 0 {5,D}
+1  *2 C 0 {2,S} {3,S} {4,S} {7,S}
+2  *1 C 0 {1,S} {5,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 {2,S} {6,D} {16,S}
+6     C 0 {5,D} {17,S} {18,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {6,S}
+18    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -19365,24 +24321,48 @@ entry(
     label = "1991TSA221-273:89",
     reactant1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     reactant2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3  * C 1 {1,S} {9,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
 """,
     product1 = 
 """
-1 *2 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *1 C 0 {1,S} {5,S}
-4    C 0 {2,S}
-5    C 0 {3,S} {6,D}
-6    C 0 {5,D}
+1  *2 C 0 {2,S} {3,S} {7,S} {8,S}
+2     C 0 {1,S} {4,S} {9,S} {10,S}
+3  *1 C 0 {1,S} {5,S} {11,S} {12,S}
+4     C 0 {2,S} {13,S} {14,S} {15,S}
+5     C 0 {3,S} {6,D} {16,S}
+6     C 0 {5,D} {17,S} {18,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {6,S}
+18    H 0 {6,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -19420,24 +24400,48 @@ entry(
     label = "1979KIN1071:2",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *1 C 0 {1,S} {5,S}
-4    C 0 {2,S}
-5    C 0 {3,S} {6,D}
-6    C 0 {5,D}
+1  *2 C 0 {2,S} {3,S} {7,S} {8,S}
+2     C 0 {1,S} {4,S} {9,S} {10,S}
+3  *1 C 0 {1,S} {5,S} {11,S} {12,S}
+4     C 0 {2,S} {13,S} {14,S} {15,S}
+5     C 0 {3,S} {6,D} {16,S}
+6     C 0 {5,D} {17,S} {18,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {6,S}
+18    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3  * C 1 {1,S} {9,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -19477,24 +24481,48 @@ entry(
     label = "1978TSA1119:3",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *1 C 0 {1,S} {5,S}
-4    C 0 {2,S}
-5    C 0 {3,S} {6,D}
-6    C 0 {5,D}
+1  *2 C 0 {2,S} {3,S} {7,S} {8,S}
+2     C 0 {1,S} {4,S} {9,S} {10,S}
+3  *1 C 0 {1,S} {5,S} {11,S} {12,S}
+4     C 0 {2,S} {13,S} {14,S} {15,S}
+5     C 0 {3,S} {6,D} {16,S}
+6     C 0 {5,D} {17,S} {18,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {6,S}
+18    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3  * C 1 {1,S} {9,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -19535,24 +24563,48 @@ entry(
     label = "2005YAH/DJE1137-1145:0",
     reactant1 = 
 """
-1 *2 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *1 C 0 {1,S} {5,S}
-4    C 0 {2,S}
-5    C 0 {3,S} {6,D}
-6    C 0 {5,D}
+1  *2 C 0 {2,S} {3,S} {7,S} {8,S}
+2     C 0 {1,S} {4,S} {9,S} {10,S}
+3  *1 C 0 {1,S} {5,S} {11,S} {12,S}
+4     C 0 {2,S} {13,S} {14,S} {15,S}
+5     C 0 {3,S} {6,D} {16,S}
+6     C 0 {5,D} {17,S} {18,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {6,S}
+18    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3  * C 1 {1,S} {9,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -19588,24 +24640,52 @@ entry(
     label = "1978ARR/KIR3016:2",
     reactant1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     reactant2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2  *2 C 0 {1,S} {5,S} {6,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {2,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19645,24 +24725,52 @@ entry(
     label = "2006KLI/GEO1133-1147:8",
     reactant1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     reactant2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2  *2 C 0 {1,S} {5,S} {6,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {2,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19706,24 +24814,52 @@ entry(
     label = "1984BAL/DRE2827:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2  *2 C 0 {1,S} {5,S} {6,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {2,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19761,24 +24897,52 @@ entry(
     label = "1978TSA821:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2  *2 C 0 {1,S} {5,S} {6,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {2,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19817,24 +24981,52 @@ entry(
     label = "1984BAL/DRE2827:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2  *2 C 0 {1,S} {5,S} {6,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {2,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19876,24 +25068,52 @@ entry(
     label = "1978TSA821:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2  *2 C 0 {1,S} {5,S} {6,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {2,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19934,24 +25154,52 @@ entry(
     label = "1974GOL/ALF359:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2  *2 C 0 {1,S} {5,S} {6,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {2,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -19990,24 +25238,52 @@ entry(
     label = "1965TSA352-359:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2  *2 C 0 {1,S} {5,S} {6,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {2,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20048,24 +25324,52 @@ entry(
     label = "1979FOR100-108:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2  *2 C 0 {1,S} {5,S} {6,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {2,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20101,22 +25405,32 @@ entry(
     label = "1985KIE/MIZ2013-2019:1",
     reactant1 = 
 """
-1 *1 C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {4,B}
-3    C 0 {1,B} {5,B}
-4    C 0 {2,B} {6,B}
-5    C 0 {3,B} {6,B}
-6    C 0 {4,B} {5,B}
-7 *2 H 0 {1,S}
+1  *1 C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {4,B} {8,S}
+3     C 0 {1,B} {5,B} {9,S}
+4     C 0 {2,B} {6,B} {10,S}
+5     C 0 {3,B} {6,B} {11,S}
+6     C 0 {4,B} {5,B} {12,S}
+7  *2 H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {5,S}
+12    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     product2 = 
 """
@@ -20161,22 +25475,32 @@ entry(
     label = "1985KER/WU789:2",
     reactant1 = 
 """
-1 *1 C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {4,B}
-3    C 0 {1,B} {5,B}
-4    C 0 {2,B} {6,B}
-5    C 0 {3,B} {6,B}
-6    C 0 {4,B} {5,B}
-7 *2 H 0 {1,S}
+1  *1 C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {4,B} {8,S}
+3     C 0 {1,B} {5,B} {9,S}
+4     C 0 {2,B} {6,B} {10,S}
+5     C 0 {3,B} {6,B} {11,S}
+6     C 0 {4,B} {5,B} {12,S}
+7  *2 H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {5,S}
+12    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     product2 = 
 """
@@ -20221,22 +25545,32 @@ entry(
     label = "1985HSU/LIN623:2",
     reactant1 = 
 """
-1 *1 C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {4,B}
-3    C 0 {1,B} {5,B}
-4    C 0 {2,B} {6,B}
-5    C 0 {3,B} {6,B}
-6    C 0 {4,B} {5,B}
-7 *2 H 0 {1,S}
+1  *1 C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {4,B} {8,S}
+3     C 0 {1,B} {5,B} {9,S}
+4     C 0 {2,B} {6,B} {10,S}
+5     C 0 {3,B} {6,B} {11,S}
+6     C 0 {4,B} {5,B} {12,S}
+7  *2 H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {5,S}
+12    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     product2 = 
 """
@@ -20280,22 +25614,32 @@ entry(
     label = "1985HSU/LIN623:1",
     reactant1 = 
 """
-1 *1 C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {4,B}
-3    C 0 {1,B} {5,B}
-4    C 0 {2,B} {6,B}
-5    C 0 {3,B} {6,B}
-6    C 0 {4,B} {5,B}
-7 *2 H 0 {1,S}
+1  *1 C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {4,B} {8,S}
+3     C 0 {1,B} {5,B} {9,S}
+4     C 0 {2,B} {6,B} {10,S}
+5     C 0 {3,B} {6,B} {11,S}
+6     C 0 {4,B} {5,B} {12,S}
+7  *2 H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {5,S}
+12    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     product2 = 
 """
@@ -20341,22 +25685,32 @@ entry(
     label = "2006SIV/BRE285-305:2",
     reactant1 = 
 """
-1 *1 C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {4,B}
-3    C 0 {1,B} {5,B}
-4    C 0 {2,B} {6,B}
-5    C 0 {3,B} {6,B}
-6    C 0 {4,B} {5,B}
-7 *2 H 0 {1,S}
+1  *1 C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {4,B} {8,S}
+3     C 0 {1,B} {5,B} {9,S}
+4     C 0 {2,B} {6,B} {10,S}
+5     C 0 {3,B} {6,B} {11,S}
+6     C 0 {4,B} {5,B} {12,S}
+7  *2 H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {5,S}
+12    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     product2 = 
 """
@@ -20396,22 +25750,32 @@ entry(
     label = "1988RAO/SKI2442:1",
     reactant1 = 
 """
-1 *1 C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {4,B}
-3    C 0 {1,B} {5,B}
-4    C 0 {2,B} {6,B}
-5    C 0 {3,B} {6,B}
-6    C 0 {4,B} {5,B}
-7 *2 H 0 {1,S}
+1  *1 C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {4,B} {8,S}
+3     C 0 {1,B} {5,B} {9,S}
+4     C 0 {2,B} {6,B} {10,S}
+5     C 0 {3,B} {6,B} {11,S}
+6     C 0 {4,B} {5,B} {12,S}
+7  *2 H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {5,S}
+12    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     product2 = 
 """
@@ -20454,22 +25818,32 @@ entry(
     label = "1971ASA/FUJ1-12:1",
     reactant1 = 
 """
-1 *1 C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {4,B}
-3    C 0 {1,B} {5,B}
-4    C 0 {2,B} {6,B}
-5    C 0 {3,B} {6,B}
-6    C 0 {4,B} {5,B}
-7 *2 H 0 {1,S}
+1  *1 C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {4,B} {8,S}
+3     C 0 {1,B} {5,B} {9,S}
+4     C 0 {2,B} {6,B} {10,S}
+5     C 0 {3,B} {6,B} {11,S}
+6     C 0 {4,B} {5,B} {12,S}
+7  *2 H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {5,S}
+12    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     product2 = 
 """
@@ -20513,24 +25887,36 @@ entry(
     label = "1985DEA4600-4608:25",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {4,S}
-3    C 0 {1,S} {5,T}
-4    C 0 {2,S} {6,T}
-5    C 0 {3,T}
-6    C 0 {4,T}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {5,T}
+4     C 0 {2,S} {6,T}
+5     C 0 {3,T} {11,S}
+6     C 0 {4,T} {12,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {5,S}
+12    H 0 {6,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
+1 * C 1 {2,S} {4,S} {5,S}
 2   C 0 {1,S} {3,T}
-3   C 0 {2,T}
+3   C 0 {2,T} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1 {2,S}
+1 * C 1 {2,S} {4,S} {5,S}
 2   C 0 {1,S} {3,T}
-3   C 0 {2,T}
+3   C 0 {2,T} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -20567,24 +25953,36 @@ entry(
     label = "1992SAH/RIG637-643:3",
     reactant1 = 
 """
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3    C 0 {1,S} {4,S} {6,D}
-4 *1 O 0 {3,S} {5,S}
-5 *2 O 0 {4,S}
-6    O 0 {3,D}
+1     C 0 {2,S} {3,S} {7,S} {8,S}
+2     C 0 {1,S} {9,S} {10,S} {11,S}
+3     C 0 {1,S} {4,S} {6,D}
+4  *1 O 0 {3,S} {5,S}
+5  *2 O 0 {4,S} {12,S}
+6     O 0 {3,D}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {5,S}
 """,
     product1 = 
 """
-1 * O 1
+1 * O 1 {2,S}
+2   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3   C 0 {1,S} {4,S} {5,D}
-4 * O 1 {3,S}
-5   O 0 {3,D}
+1    C 0 {2,S} {3,S} {6,S} {7,S}
+2    C 0 {1,S} {8,S} {9,S} {10,S}
+3    C 0 {1,S} {4,S} {5,D}
+4  * O 1 {3,S}
+5    O 0 {3,D}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -20627,24 +26025,44 @@ entry(
     label = "1970TSA23:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S} {6,T}
-6    C 0 {5,T}
+1  *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2  *2 C 0 {1,S} {5,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 {2,S} {6,T}
+6     C 0 {5,T} {16,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
+1 * C 1 {2,S} {4,S} {5,S}
 2   C 0 {1,S} {3,T}
-3   C 0 {2,T}
+3   C 0 {2,T} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -20685,24 +26103,40 @@ entry(
     label = "1992STA/KIN781-790:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {5,S}
-2 *2 C 0 {1,S}
-3    C 0 {4,D} {6,S}
-4    C 0 {3,D}
-5    C 0 {1,S} {6,T}
-6    C 0 {3,S} {5,T}
+1  *1 C 0 {2,S} {5,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {9,S} {10,S} {11,S}
+3     C 0 {4,D} {6,S} {12,S}
+4     C 0 {3,D} {13,S} {14,S}
+5     C 0 {1,S} {6,T}
+6     C 0 {3,S} {5,T}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,D} {4,S}
-2   C 0 {1,D}
-3 * C 1 {5,S}
-4   C 0 {1,S} {5,T}
-5   C 0 {3,S} {4,T}
+1    C 0 {2,D} {4,S} {6,S}
+2    C 0 {1,D} {7,S} {8,S}
+3  * C 1 {5,S} {9,S} {10,S}
+4    C 0 {1,S} {5,T}
+5    C 0 {3,S} {4,T}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -20743,24 +26177,40 @@ entry(
     label = "1985DEA4600-4608:39",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S} {5,S}
-3    C 0 {1,S} {4,D}
-4    C 0 {3,D}
-5    C 0 {2,S} {6,T}
-6    C 0 {5,T}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {5,S} {9,S} {10,S}
+3     C 0 {1,S} {4,D} {11,S}
+4     C 0 {3,D} {12,S} {13,S}
+5     C 0 {2,S} {6,T}
+6     C 0 {5,T} {14,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {6,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
+1 * C 1 {2,S} {4,S} {5,S}
 2   C 0 {1,S} {3,T}
-3   C 0 {2,T}
+3   C 0 {2,T} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,D}
-2 * C 1 {1,S}
-3   C 0 {1,D}
+1   C 0 {2,S} {3,D} {4,S}
+2 * C 1 {1,S} {5,S} {6,S}
+3   C 0 {1,D} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -20797,24 +26247,44 @@ entry(
     label = "1997MAR/SZE5155-5167:6",
     reactant1 = 
 """
-1   C 0 {3,S}
-2 * C 1 {3,S}
+1   C 0 {3,S} {4,S} {5,S} {6,S}
+2 * C 1 {3,S} {7,S} {8,S}
 3   O 0 {1,S} {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     reactant2 = 
 """
-1   C 0 {3,S}
-2 * C 1 {3,S}
+1   C 0 {3,S} {4,S} {5,S} {6,S}
+2 * C 1 {3,S} {7,S} {8,S}
 3   O 0 {1,S} {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {5,S}
-2 *2 C 0 {1,S} {6,S}
-3    C 0 {5,S}
-4    C 0 {6,S}
-5    O 0 {1,S} {3,S}
-6    O 0 {2,S} {4,S}
+1  *1 C 0 {2,S} {5,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {6,S} {9,S} {10,S}
+3     C 0 {5,S} {11,S} {12,S} {13,S}
+4     C 0 {6,S} {14,S} {15,S} {16,S}
+5     O 0 {1,S} {3,S}
+6     O 0 {2,S} {4,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20857,24 +26327,44 @@ entry(
     label = "1967LOU/LAI2785-2793:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {5,S}
-2 *2 C 0 {1,S} {6,S}
-3    C 0 {5,S}
-4    C 0 {6,S}
-5    O 0 {1,S} {3,S}
-6    O 0 {2,S} {4,S}
+1  *1 C 0 {2,S} {5,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {6,S} {9,S} {10,S}
+3     C 0 {5,S} {11,S} {12,S} {13,S}
+4     C 0 {6,S} {14,S} {15,S} {16,S}
+5     O 0 {1,S} {3,S}
+6     O 0 {2,S} {4,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2 * C 1 {3,S}
+1   C 0 {3,S} {4,S} {5,S} {6,S}
+2 * C 1 {3,S} {7,S} {8,S}
 3   O 0 {1,S} {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2 * C 1 {3,S}
+1   C 0 {3,S} {4,S} {5,S} {6,S}
+2 * C 1 {3,S} {7,S} {8,S}
 3   O 0 {1,S} {2,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -20915,24 +26405,44 @@ entry(
     label = "1981KIN/NGU255:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {5,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {6,S}
-5    C 0 {1,S} {6,T}
-6    C 0 {4,S} {5,T}
+1  *1 C 0 {2,S} {3,S} {5,S} {7,S}
+2  *2 C 0 {1,S} {8,S} {9,S} {10,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {6,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {6,T}
+6     C 0 {4,S} {5,T}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {4,S}
-3 * C 1 {1,S} {5,S}
-4   C 0 {2,S} {5,T}
-5   C 0 {3,S} {4,T}
+1    C 0 {3,S} {6,S} {7,S} {8,S}
+2    C 0 {4,S} {9,S} {10,S} {11,S}
+3  * C 1 {1,S} {5,S} {12,S}
+4    C 0 {2,S} {5,T}
+5    C 0 {3,S} {4,T}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {2,S}
+12   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -20973,24 +26483,36 @@ entry(
     label = "1969HOL/MUL177:2",
     reactant1 = 
 """
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *1 C 0 {1,S} {4,S} {5,D}
-4 *2 C 0 {2,S} {3,S} {6,D}
-5    O 0 {3,D}
-6    O 0 {4,D}
+1     C 0 {3,S} {7,S} {8,S} {9,S}
+2     C 0 {4,S} {10,S} {11,S} {12,S}
+3  *1 C 0 {1,S} {4,S} {5,D}
+4  *2 C 0 {2,S} {3,S} {6,D}
+5     O 0 {3,D}
+6     O 0 {4,D}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -21032,24 +26554,36 @@ entry(
     label = "1973KNO/SCH271:3",
     reactant1 = 
 """
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *1 C 0 {1,S} {4,S} {5,D}
-4 *2 C 0 {2,S} {3,S} {6,D}
-5    O 0 {3,D}
-6    O 0 {4,D}
+1     C 0 {3,S} {7,S} {8,S} {9,S}
+2     C 0 {4,S} {10,S} {11,S} {12,S}
+3  *1 C 0 {1,S} {4,S} {5,D}
+4  *2 C 0 {2,S} {3,S} {6,D}
+5     O 0 {3,D}
+6     O 0 {4,D}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -21092,24 +26626,36 @@ entry(
     label = "1975SCH/PLA660:2",
     reactant1 = 
 """
-1    C 0 {3,S}
-2    C 0 {4,S}
-3 *1 C 0 {1,S} {4,S} {5,D}
-4 *2 C 0 {2,S} {3,S} {6,D}
-5    O 0 {3,D}
-6    O 0 {4,D}
+1     C 0 {3,S} {7,S} {8,S} {9,S}
+2     C 0 {4,S} {10,S} {11,S} {12,S}
+3  *1 C 0 {1,S} {4,S} {5,D}
+4  *2 C 0 {2,S} {3,S} {6,D}
+5     O 0 {3,D}
+6     O 0 {4,D}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -21152,24 +26698,44 @@ entry(
     label = "1980TRE266:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {4,D}
-4    C 0 {3,D} {5,S}
-5    C 0 {4,S} {6,D}
-6    C 0 {5,D}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {9,S} {10,S} {11,S}
+3     C 0 {1,S} {4,D} {12,S}
+4     C 0 {3,D} {5,S} {13,S}
+5     C 0 {4,S} {6,D} {14,S}
+6     C 0 {5,D} {15,S} {16,S}
+7     H 0 {1,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,D}
-2   C 0 {1,S} {4,D}
-3   C 0 {1,D} {5,S}
-4   C 0 {2,D}
-5 * C 1 {3,S}
+1    C 0 {2,S} {3,D} {6,S}
+2    C 0 {1,S} {4,D} {7,S}
+3    C 0 {1,D} {5,S} {8,S}
+4    C 0 {2,D} {9,S} {10,S}
+5  * C 1 {3,S} {11,S} {12,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {4,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {5,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -21212,24 +26778,44 @@ entry(
     label = "1982TRE3131:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {1,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
+1  *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2  *2 C 0 {1,S} {8,S} {9,S} {10,S}
+3     C 0 {1,S} {5,D} {11,S}
+4     C 0 {1,S} {6,D} {12,S}
+5     C 0 {3,D} {13,S} {14,S}
+6     C 0 {4,D} {15,S} {16,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {6,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S} {3,S}
-2   C 0 {1,S} {4,D}
-3   C 0 {1,S} {5,D}
-4   C 0 {2,D}
-5   C 0 {3,D}
+1  * C 1 {2,S} {3,S} {6,S}
+2    C 0 {1,S} {4,D} {7,S}
+3    C 0 {1,S} {5,D} {8,S}
+4    C 0 {2,D} {9,S} {10,S}
+5    C 0 {3,D} {11,S} {12,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {3,S}
+9    H 0 {4,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {5,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -21272,24 +26858,40 @@ entry(
     label = "1989WES/DEA8171-8180:20",
     reactant1 = 
 """
-1   C 0 {2,D}
-2 * C 1 {1,D}
+1   C 0 {2,D} {3,S} {4,S}
+2 * C 1 {1,D} {5,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
 """,
     reactant2 = 
 """
-1   C 0 {2,S} {3,D}
-2   C 0 {1,S} {4,D}
-3   C 0 {1,D}
-4 * C 1 {2,D}
+1   C 0 {2,S} {3,D} {5,S}
+2   C 0 {1,S} {4,D} {6,S}
+3   C 0 {1,D} {7,S} {8,S}
+4 * C 1 {2,D} {9,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
+9   H 0 {4,S}
 """,
     product1 = 
 """
-1    C 0 {2,D} {4,S}
-2 *2 C 0 {1,D} {3,S}
-3 *1 C 0 {2,S} {5,D}
-4    C 0 {1,S} {6,D}
-5    C 0 {3,D}
-6    C 0 {4,D}
+1     C 0 {2,D} {4,S} {7,S}
+2  *2 C 0 {1,D} {3,S} {8,S}
+3  *1 C 0 {2,S} {5,D} {9,S}
+4     C 0 {1,S} {6,D} {10,S}
+5     C 0 {3,D} {11,S} {12,S}
+6     C 0 {4,D} {13,S} {14,S}
+7     H 0 {1,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {4,S}
+11    H 0 {5,S}
+12    H 0 {5,S}
+13    H 0 {6,S}
+14    H 0 {6,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -21329,26 +26931,42 @@ entry(
     label = "1990CHO/LIN491-504:2",
     reactant1 = 
 """
-1 *1 C 0 {4,S} {5,S}
-2    C 0 {4,S}
-3    C 0 {5,S}
-4 *2 C 0 {1,S} {2,S} {6,D}
-5    C 0 {1,S} {3,S} {7,D}
-6    O 0 {4,D}
-7    O 0 {5,D}
+1  *1 C 0 {4,S} {5,S} {8,S} {9,S}
+2     C 0 {4,S} {10,S} {11,S} {12,S}
+3     C 0 {5,S} {13,S} {14,S} {15,S}
+4  *2 C 0 {1,S} {2,S} {6,D}
+5     C 0 {1,S} {3,S} {7,D}
+6     O 0 {4,D}
+7     O 0 {5,D}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
+13    H 0 {3,S}
+14    H 0 {3,S}
+15    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {5,S} {6,S} {7,S}
 2   C 0 {1,S} {3,S} {4,D}
-3 * C 1 {2,S}
+3 * C 1 {2,S} {8,S} {9,S}
 4   O 0 {2,D}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {1,S}
+8   H 0 {3,S}
+9   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -21392,26 +27010,50 @@ entry(
     label = "1997HER/MAN5494-5499:4",
     reactant1 = 
 """
-1 *1 C 0 {3,S} {6,S}
-2    C 0 {4,S} {7,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5    C 0 {6,S} {7,S}
-6 *2 O 0 {1,S} {5,S}
-7    O 0 {2,S} {5,S}
+1  *1 C 0 {3,S} {6,S} {8,S} {9,S}
+2     C 0 {4,S} {7,S} {10,S} {11,S}
+3     C 0 {1,S} {12,S} {13,S} {14,S}
+4     C 0 {2,S} {15,S} {16,S} {17,S}
+5     C 0 {6,S} {7,S} {18,S} {19,S}
+6  *2 O 0 {1,S} {5,S}
+7     O 0 {2,S} {5,S}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {3,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {4,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {4,S} {5,S}
-4   O 0 {1,S} {3,S}
-5 * O 1 {3,S}
+1    C 0 {2,S} {4,S} {6,S} {7,S}
+2    C 0 {1,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {5,S} {11,S} {12,S}
+4    O 0 {1,S} {3,S}
+5  * O 1 {3,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -21454,26 +27096,58 @@ entry(
     label = "1980BAL/WAL825:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -21515,26 +27189,58 @@ entry(
     label = "1970TSA311:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -21575,26 +27281,58 @@ entry(
     label = "1966TSA4283-4295:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -21636,26 +27374,58 @@ entry(
     label = "2006KLI/GEO1133-1147:9",
     reactant1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     reactant2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -21699,26 +27469,54 @@ entry(
     label = "1976TSA173:6",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    O 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     O 0 {2,S} {21,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,S}
-3   O 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
+2 * C 1 {1,S} {3,S} {7,S}
+3   O 0 {2,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -21760,26 +27558,58 @@ entry(
     label = "1969TSA245:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S}
-3    C 0 {1,S} {7,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {3,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {8,S} {9,S}
+3     C 0 {1,S} {7,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {3,S} {21,S} {22,S} {23,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {5,S}
-4   C 0 {5,S}
-5 * C 1 {1,S} {3,S} {4,S}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2    C 0 {1,S} {8,S} {9,S} {10,S}
+3    C 0 {5,S} {11,S} {12,S} {13,S}
+4    C 0 {5,S} {14,S} {15,S} {16,S}
+5  * C 1 {1,S} {3,S} {4,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
+14   H 0 {4,S}
+15   H 0 {4,S}
+16   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -21821,26 +27651,50 @@ entry(
     label = "1984TSA1543:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {6,S}
-2    C 0 {1,S} {4,S}
-3    C 0 {1,S}
-4    C 0 {2,S}
-5    C 0 {6,S}
-6 *2 C 0 {1,S} {5,S} {7,D}
-7    O 0 {6,D}
+1  *1 C 0 {2,S} {3,S} {6,S} {8,S}
+2     C 0 {1,S} {4,S} {9,S} {10,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {2,S} {14,S} {15,S} {16,S}
+5     C 0 {6,S} {17,S} {18,S} {19,S}
+6  *2 C 0 {1,S} {5,S} {7,D}
+7     O 0 {6,D}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {3,S}
+1    C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
+3    C 0 {4,S} {10,S} {11,S} {12,S}
+4  * C 1 {1,S} {3,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -21881,26 +27735,54 @@ entry(
     label = "1976TSA173:11",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {7,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
-7    O 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2  *2 C 0 {1,S} {5,S} {6,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {2,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     O 0 {1,S} {21,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S} {4,S}
-4   O 0 {3,S}
+1    C 0 {3,S} {5,S} {6,S} {7,S}
+2    C 0 {3,S} {8,S} {9,S} {10,S}
+3  * C 1 {1,S} {2,S} {4,S}
+4    O 0 {3,S} {11,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -21942,26 +27824,42 @@ entry(
     label = "1974SCH/KNO415:2",
     reactant1 = 
 """
-1    C 0 {2,S} {4,S}
-2    C 0 {1,S}
-3    C 0 {5,S}
-4 *1 C 0 {1,S} {5,S} {7,D}
-5 *2 C 0 {3,S} {4,S} {6,D}
-6    O 0 {5,D}
-7    O 0 {4,D}
+1     C 0 {2,S} {4,S} {8,S} {9,S}
+2     C 0 {1,S} {10,S} {11,S} {12,S}
+3     C 0 {5,S} {13,S} {14,S} {15,S}
+4  *1 C 0 {1,S} {5,S} {7,D}
+5  *2 C 0 {3,S} {4,S} {6,D}
+6     O 0 {5,D}
+7     O 0 {4,D}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
+13    H 0 {3,S}
+14    H 0 {3,S}
+15    H 0 {3,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
+1   C 0 {2,S} {3,S} {5,S} {6,S}
+2   C 0 {1,S} {7,S} {8,S} {9,S}
 3 * C 1 {1,S} {4,D}
 4   O 0 {3,D}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {2,S}
+8   H 0 {2,S}
+9   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {4,S} {5,S} {6,S}
 2 * C 1 {1,S} {3,D}
 3   O 0 {2,D}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22003,26 +27901,54 @@ entry(
     label = "1973TSA651:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {7,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {6,S}
-5    C 0 {6,S}
-6    C 0 {4,S} {5,S} {7,D}
-7    C 0 {1,S} {6,D}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2  *2 C 0 {1,S} {9,S} {10,S} {11,S}
+3     C 0 {1,S} {12,S} {13,S} {14,S}
+4     C 0 {6,S} {15,S} {16,S} {17,S}
+5     C 0 {6,S} {18,S} {19,S} {20,S}
+6     C 0 {4,S} {5,S} {7,D}
+7     C 0 {1,S} {6,D} {21,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {3,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {4,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {5,S}
+21    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {5,S}
-4   C 0 {1,S} {2,S} {6,D}
-5 * C 1 {3,S} {6,S}
-6   C 0 {4,D} {5,S}
+1    C 0 {4,S} {7,S} {8,S} {9,S}
+2    C 0 {4,S} {10,S} {11,S} {12,S}
+3    C 0 {5,S} {13,S} {14,S} {15,S}
+4    C 0 {1,S} {2,S} {6,D}
+5  * C 1 {3,S} {6,S} {16,S}
+6    C 0 {4,D} {5,S} {17,S}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {1,S}
+10   H 0 {2,S}
+11   H 0 {2,S}
+12   H 0 {2,S}
+13   H 0 {3,S}
+14   H 0 {3,S}
+15   H 0 {3,S}
+16   H 0 {5,S}
+17   H 0 {6,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -22064,26 +27990,50 @@ entry(
     label = "1981KIN/NGU255:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {6,S}
-2 *2 C 0 {1,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {7,S}
-6    C 0 {1,S} {7,T}
-7    C 0 {5,S} {6,T}
+1  *1 C 0 {2,S} {3,S} {4,S} {6,S}
+2  *2 C 0 {1,S} {8,S} {9,S} {10,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {7,S} {17,S} {18,S} {19,S}
+6     C 0 {1,S} {7,T}
+7     C 0 {5,S} {6,T}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {5,S}
-4 * C 1 {1,S} {2,S} {6,S}
-5   C 0 {3,S} {6,T}
-6   C 0 {4,S} {5,T}
+1    C 0 {4,S} {7,S} {8,S} {9,S}
+2    C 0 {4,S} {10,S} {11,S} {12,S}
+3    C 0 {5,S} {13,S} {14,S} {15,S}
+4  * C 1 {1,S} {2,S} {6,S}
+5    C 0 {3,S} {6,T}
+6    C 0 {4,S} {5,T}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {1,S}
+10   H 0 {2,S}
+11   H 0 {2,S}
+12   H 0 {2,S}
+13   H 0 {3,S}
+14   H 0 {3,S}
+15   H 0 {3,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -22124,26 +28074,54 @@ entry(
     label = "1991TSA221-273:76",
     reactant1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     reactant2 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S} {7,D}
-7    C 0 {6,D}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 {1,S} {16,S} {17,S} {18,S}
+6     C 0 {2,S} {7,D} {19,S}
+7     C 0 {6,D} {20,S} {21,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {6,S}
+20    H 0 {7,S}
+21    H 0 {7,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22181,26 +28159,54 @@ entry(
     label = "1991TSA221-273:105",
     reactant1 = 
 """
-1   C 0 {2,D} {3,S}
-2   C 0 {1,D}
-3 * C 1 {1,S}
+1   C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D} {5,S} {6,S}
+3 * C 1 {1,S} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     reactant2 = 
 """
-1   C 0 {2,S} {3,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * C 1 {1,S} {12,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
 """,
     product1 = 
 """
-1    C 0 {2,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {3,S}
-3 *1 C 0 {2,S} {6,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {3,S} {7,D}
-7    C 0 {6,D}
+1     C 0 {2,S} {4,S} {5,S} {8,S}
+2  *2 C 0 {1,S} {3,S} {9,S} {10,S}
+3  *1 C 0 {2,S} {6,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 {1,S} {16,S} {17,S} {18,S}
+6     C 0 {3,S} {7,D} {19,S}
+7     C 0 {6,D} {20,S} {21,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {6,S}
+20    H 0 {7,S}
+21    H 0 {7,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22238,14 +28244,19 @@ entry(
     label = "2006XU/LIN1672-1677:3",
     reactant1 = 
 """
-1    C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {5,B}
-3    C 0 {1,B} {6,B}
-4    C 0 {5,B} {6,B}
-5    C 0 {2,B} {4,B}
-6    C 0 {3,B} {4,B}
-7 *1 O 0 {1,S} {8,S}
-8 *2 H 0 {7,S}
+1     C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {5,B} {9,S}
+3     C 0 {1,B} {6,B} {10,S}
+4     C 0 {5,B} {6,B} {11,S}
+5     C 0 {2,B} {4,B} {12,S}
+6     C 0 {3,B} {4,B} {13,S}
+7  *1 O 0 {1,S} {8,S}
+8  *2 H 0 {7,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {6,S}
 """,
     product1 = 
 """
@@ -22253,13 +28264,18 @@ entry(
 """,
     product2 = 
 """
-1   C 0 {2,B} {3,B} {7,S}
-2   C 0 {1,B} {5,B}
-3   C 0 {1,B} {6,B}
-4   C 0 {5,B} {6,B}
-5   C 0 {2,B} {4,B}
-6   C 0 {3,B} {4,B}
-7 * O 1 {1,S}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {5,B} {8,S}
+3    C 0 {1,B} {6,B} {9,S}
+4    C 0 {5,B} {6,B} {10,S}
+5    C 0 {2,B} {4,B} {11,S}
+6    C 0 {3,B} {4,B} {12,S}
+7  * O 1 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22300,14 +28316,19 @@ entry(
     label = "2006XU/LIN1672-1677:2",
     reactant1 = 
 """
-1    C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {5,B}
-3    C 0 {1,B} {6,B}
-4    C 0 {5,B} {6,B}
-5    C 0 {2,B} {4,B}
-6    C 0 {3,B} {4,B}
-7 *1 O 0 {1,S} {8,S}
-8 *2 H 0 {7,S}
+1     C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {5,B} {9,S}
+3     C 0 {1,B} {6,B} {10,S}
+4     C 0 {5,B} {6,B} {11,S}
+5     C 0 {2,B} {4,B} {12,S}
+6     C 0 {3,B} {4,B} {13,S}
+7  *1 O 0 {1,S} {8,S}
+8  *2 H 0 {7,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {6,S}
 """,
     product1 = 
 """
@@ -22315,13 +28336,18 @@ entry(
 """,
     product2 = 
 """
-1   C 0 {2,B} {3,B} {7,S}
-2   C 0 {1,B} {5,B}
-3   C 0 {1,B} {6,B}
-4   C 0 {5,B} {6,B}
-5   C 0 {2,B} {4,B}
-6   C 0 {3,B} {4,B}
-7 * O 1 {1,S}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {5,B} {8,S}
+3    C 0 {1,B} {6,B} {9,S}
+4    C 0 {5,B} {6,B} {10,S}
+5    C 0 {2,B} {4,B} {11,S}
+6    C 0 {3,B} {4,B} {12,S}
+7  * O 1 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22360,14 +28386,19 @@ entry(
     label = "2003ZHU/BOZ3696-3703:4",
     reactant1 = 
 """
-1    C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {5,B}
-3    C 0 {1,B} {6,B}
-4    C 0 {5,B} {6,B}
-5    C 0 {2,B} {4,B}
-6    C 0 {3,B} {4,B}
-7 *1 O 0 {1,S} {8,S}
-8 *2 H 0 {7,S}
+1     C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {5,B} {9,S}
+3     C 0 {1,B} {6,B} {10,S}
+4     C 0 {5,B} {6,B} {11,S}
+5     C 0 {2,B} {4,B} {12,S}
+6     C 0 {3,B} {4,B} {13,S}
+7  *1 O 0 {1,S} {8,S}
+8  *2 H 0 {7,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {6,S}
 """,
     product1 = 
 """
@@ -22375,13 +28406,18 @@ entry(
 """,
     product2 = 
 """
-1   C 0 {2,B} {3,B} {7,S}
-2   C 0 {1,B} {5,B}
-3   C 0 {1,B} {6,B}
-4   C 0 {5,B} {6,B}
-5   C 0 {2,B} {4,B}
-6   C 0 {3,B} {4,B}
-7 * O 1 {1,S}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {5,B} {8,S}
+3    C 0 {1,B} {6,B} {9,S}
+4    C 0 {5,B} {6,B} {10,S}
+5    C 0 {2,B} {4,B} {11,S}
+6    C 0 {3,B} {4,B} {12,S}
+7  * O 1 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22420,14 +28456,19 @@ entry(
     label = "2003ZHU/BOZ3696-3703:7",
     reactant1 = 
 """
-1    C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {5,B}
-3    C 0 {1,B} {6,B}
-4    C 0 {5,B} {6,B}
-5    C 0 {2,B} {4,B}
-6    C 0 {3,B} {4,B}
-7 *1 O 0 {1,S} {8,S}
-8 *2 H 0 {7,S}
+1     C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {5,B} {9,S}
+3     C 0 {1,B} {6,B} {10,S}
+4     C 0 {5,B} {6,B} {11,S}
+5     C 0 {2,B} {4,B} {12,S}
+6     C 0 {3,B} {4,B} {13,S}
+7  *1 O 0 {1,S} {8,S}
+8  *2 H 0 {7,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {6,S}
 """,
     product1 = 
 """
@@ -22435,13 +28476,18 @@ entry(
 """,
     product2 = 
 """
-1   C 0 {2,B} {3,B} {7,S}
-2   C 0 {1,B} {5,B}
-3   C 0 {1,B} {6,B}
-4   C 0 {5,B} {6,B}
-5   C 0 {2,B} {4,B}
-6   C 0 {3,B} {4,B}
-7 * O 1 {1,S}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {5,B} {8,S}
+3    C 0 {1,B} {6,B} {9,S}
+4    C 0 {5,B} {6,B} {10,S}
+5    C 0 {2,B} {4,B} {11,S}
+6    C 0 {3,B} {4,B} {12,S}
+7  * O 1 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22481,14 +28527,19 @@ entry(
     label = "1989LOV/BRE547-560:1",
     reactant1 = 
 """
-1    C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {5,B}
-3    C 0 {1,B} {6,B}
-4    C 0 {5,B} {6,B}
-5    C 0 {2,B} {4,B}
-6    C 0 {3,B} {4,B}
-7 *1 O 0 {1,S} {8,S}
-8 *2 H 0 {7,S}
+1     C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {5,B} {9,S}
+3     C 0 {1,B} {6,B} {10,S}
+4     C 0 {5,B} {6,B} {11,S}
+5     C 0 {2,B} {4,B} {12,S}
+6     C 0 {3,B} {4,B} {13,S}
+7  *1 O 0 {1,S} {8,S}
+8  *2 H 0 {7,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {6,S}
 """,
     product1 = 
 """
@@ -22496,13 +28547,18 @@ entry(
 """,
     product2 = 
 """
-1   C 0 {2,B} {3,B} {7,S}
-2   C 0 {1,B} {5,B}
-3   C 0 {1,B} {6,B}
-4   C 0 {5,B} {6,B}
-5   C 0 {2,B} {4,B}
-6   C 0 {3,B} {4,B}
-7 * O 1 {1,S}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {5,B} {8,S}
+3    C 0 {1,B} {6,B} {9,S}
+4    C 0 {5,B} {6,B} {10,S}
+5    C 0 {2,B} {4,B} {11,S}
+6    C 0 {3,B} {4,B} {12,S}
+7  * O 1 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22541,26 +28597,50 @@ entry(
     label = "1978TSA687:4",
     reactant1 = 
 """
-1    C 0 {2,S} {4,S} {5,S}
-2 *1 C 0 {1,S} {3,S}
-3 *2 C 0 {2,S} {6,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {3,S} {7,T}
-7    C 0 {6,T}
+1     C 0 {2,S} {4,S} {5,S} {8,S}
+2  *1 C 0 {1,S} {3,S} {9,S} {10,S}
+3  *2 C 0 {2,S} {6,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 {1,S} {16,S} {17,S} {18,S}
+6     C 0 {3,S} {7,T}
+7     C 0 {6,T} {19,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {7,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
+1 * C 1 {2,S} {4,S} {5,S}
 2   C 0 {1,S} {3,T}
-3   C 0 {2,T}
+3   C 0 {2,T} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * C 1 {1,S} {12,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22602,26 +28682,42 @@ entry(
     label = "1999TOK/PAR3636-3645:2",
     reactant1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     reactant2 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,B} {4,B}
-3    C 0 {2,B} {6,B}
-4    C 0 {2,B} {7,B}
-5    C 0 {6,B} {7,B}
-6    C 0 {3,B} {5,B}
-7    C 0 {4,B} {5,B}
+1  *1 C 0 {2,S} {8,S} {9,S} {10,S}
+2  *2 C 0 {1,S} {3,B} {4,B}
+3     C 0 {2,B} {6,B} {11,S}
+4     C 0 {2,B} {7,B} {12,S}
+5     C 0 {6,B} {7,B} {13,S}
+6     C 0 {3,B} {5,B} {14,S}
+7     C 0 {4,B} {5,B} {15,S}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {6,S}
+15    H 0 {7,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22661,26 +28757,42 @@ entry(
     label = "2000LIF/SUS1733-1739:5",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,B} {4,B}
-3    C 0 {2,B} {6,B}
-4    C 0 {2,B} {7,B}
-5    C 0 {6,B} {7,B}
-6    C 0 {3,B} {5,B}
-7    C 0 {4,B} {5,B}
+1  *1 C 0 {2,S} {8,S} {9,S} {10,S}
+2  *2 C 0 {1,S} {3,B} {4,B}
+3     C 0 {2,B} {6,B} {11,S}
+4     C 0 {2,B} {7,B} {12,S}
+5     C 0 {6,B} {7,B} {13,S}
+6     C 0 {3,B} {5,B} {14,S}
+7     C 0 {4,B} {5,B} {15,S}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {6,S}
+15    H 0 {7,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22720,26 +28832,42 @@ entry(
     label = "1987PAM/KER2148:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,B} {4,B}
-3    C 0 {2,B} {6,B}
-4    C 0 {2,B} {7,B}
-5    C 0 {6,B} {7,B}
-6    C 0 {3,B} {5,B}
-7    C 0 {4,B} {5,B}
+1  *1 C 0 {2,S} {8,S} {9,S} {10,S}
+2  *2 C 0 {1,S} {3,B} {4,B}
+3     C 0 {2,B} {6,B} {11,S}
+4     C 0 {2,B} {7,B} {12,S}
+5     C 0 {6,B} {7,B} {13,S}
+6     C 0 {3,B} {5,B} {14,S}
+7     C 0 {4,B} {5,B} {15,S}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {6,S}
+15    H 0 {7,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22780,26 +28908,42 @@ entry(
     label = "2007CAV/MAN3959-3969:8",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,B} {4,B}
-3    C 0 {2,B} {6,B}
-4    C 0 {2,B} {7,B}
-5    C 0 {6,B} {7,B}
-6    C 0 {3,B} {5,B}
-7    C 0 {4,B} {5,B}
+1  *1 C 0 {2,S} {8,S} {9,S} {10,S}
+2  *2 C 0 {1,S} {3,B} {4,B}
+3     C 0 {2,B} {6,B} {11,S}
+4     C 0 {2,B} {7,B} {12,S}
+5     C 0 {6,B} {7,B} {13,S}
+6     C 0 {3,B} {5,B} {14,S}
+7     C 0 {4,B} {5,B} {15,S}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {6,S}
+15    H 0 {7,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22835,26 +28979,42 @@ entry(
     label = "2006SIV/TRA9388-9399:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,B} {4,B}
-3    C 0 {2,B} {6,B}
-4    C 0 {2,B} {7,B}
-5    C 0 {6,B} {7,B}
-6    C 0 {3,B} {5,B}
-7    C 0 {4,B} {5,B}
+1  *1 C 0 {2,S} {8,S} {9,S} {10,S}
+2  *2 C 0 {1,S} {3,B} {4,B}
+3     C 0 {2,B} {6,B} {11,S}
+4     C 0 {2,B} {7,B} {12,S}
+5     C 0 {6,B} {7,B} {13,S}
+6     C 0 {3,B} {5,B} {14,S}
+7     C 0 {4,B} {5,B} {15,S}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {6,S}
+15    H 0 {7,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22893,26 +29053,42 @@ entry(
     label = "2006SIV/TRA9388-9399:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 C 0 {1,S} {3,B} {4,B}
-3    C 0 {2,B} {6,B}
-4    C 0 {2,B} {7,B}
-5    C 0 {6,B} {7,B}
-6    C 0 {3,B} {5,B}
-7    C 0 {4,B} {5,B}
+1  *1 C 0 {2,S} {8,S} {9,S} {10,S}
+2  *2 C 0 {1,S} {3,B} {4,B}
+3     C 0 {2,B} {6,B} {11,S}
+4     C 0 {2,B} {7,B} {12,S}
+5     C 0 {6,B} {7,B} {13,S}
+6     C 0 {3,B} {5,B} {14,S}
+7     C 0 {4,B} {5,B} {15,S}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {6,S}
+15    H 0 {7,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -22951,26 +29127,54 @@ entry(
     label = "1989BRO/KIN251-266:6",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {7,S}
-2    C 0 {1,S} {5,S}
-3    C 0 {1,S} {6,S}
-4    C 0 {5,S} {6,S}
-5    C 0 {2,S} {4,S}
-6    C 0 {3,S} {4,S}
-7 *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {7,S} {8,S}
+2     C 0 {1,S} {5,S} {9,S} {10,S}
+3     C 0 {1,S} {6,S} {11,S} {12,S}
+4     C 0 {5,S} {6,S} {13,S} {14,S}
+5     C 0 {2,S} {4,S} {15,S} {16,S}
+6     C 0 {3,S} {4,S} {17,S} {18,S}
+7  *2 C 0 {1,S} {19,S} {20,S} {21,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {6,S}
+18    H 0 {6,S}
+19    H 0 {7,S}
+20    H 0 {7,S}
+21    H 0 {7,S}
 """,
     product1 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S} {5,S}
-4   C 0 {2,S} {6,S}
-5   C 0 {3,S} {6,S}
-6 * C 1 {4,S} {5,S}
+1    C 0 {2,S} {3,S} {7,S} {8,S}
+2    C 0 {1,S} {4,S} {9,S} {10,S}
+3    C 0 {1,S} {5,S} {11,S} {12,S}
+4    C 0 {2,S} {6,S} {13,S} {14,S}
+5    C 0 {3,S} {6,S} {15,S} {16,S}
+6  * C 1 {4,S} {5,S} {17,S}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
+15   H 0 {5,S}
+16   H 0 {5,S}
+17   H 0 {6,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -23010,26 +29214,50 @@ entry(
     label = "1991ROT/BAU1453-1460:4",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S}
-2 *2 C 0 {1,S} {5,S}
-3    C 0 {4,S}
-4    C 0 {1,S} {3,S} {6,D}
-5    C 0 {2,S} {7,D}
-6    C 0 {4,D}
-7    C 0 {5,D}
+1  *1 C 0 {2,S} {4,S} {8,S} {9,S}
+2  *2 C 0 {1,S} {5,S} {10,S} {11,S}
+3     C 0 {4,S} {12,S} {13,S} {14,S}
+4     C 0 {1,S} {3,S} {6,D}
+5     C 0 {2,S} {7,D} {15,S}
+6     C 0 {4,D} {16,S} {17,S}
+7     C 0 {5,D} {18,S} {19,S}
+8     H 0 {1,S}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {3,S}
+15    H 0 {5,S}
+16    H 0 {6,S}
+17    H 0 {6,S}
+18    H 0 {7,S}
+19    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,D} {4,S}
-3   C 0 {2,D}
-4 * C 1 {2,S}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2    C 0 {1,S} {3,D} {4,S}
+3    C 0 {2,D} {8,S} {9,S}
+4  * C 1 {2,S} {10,S} {11,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,D}
-2 * C 1 {1,S}
-3   C 0 {1,D}
+1   C 0 {2,S} {3,D} {4,S}
+2 * C 1 {1,S} {5,S} {6,S}
+3   C 0 {1,D} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -23069,11 +29297,22 @@ entry(
     label = "2004SUN/BOZ1694-1711:1",
     reactant1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * C 1 {1,S} {15,S} {16,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
+15   H 0 {5,S}
+16   H 0 {5,S}
 """,
     reactant2 = 
 """
@@ -23082,13 +29321,24 @@ entry(
 """,
     product1 = 
 """
-1    C 0 {2,S} {3,S} {4,S} {5,S}
-2 *1 C 0 {1,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6 *2 O 0 {2,S} {7,S}
-7    O 1 {6,S}
+1     C 0 {2,S} {3,S} {4,S} {5,S}
+2  *1 C 0 {1,S} {6,S} {8,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 {1,S} {16,S} {17,S} {18,S}
+6  *2 O 0 {2,S} {7,S}
+7     O 1 {6,S}
+8     H 0 {2,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -23131,26 +29381,50 @@ entry(
     label = "1978TSA687:8",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2    C 0 {1,S} {5,S}
-3 *2 C 0 {1,S} {6,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {3,S} {7,T}
-7    C 0 {6,T}
+1  *1 C 0 {2,S} {3,S} {4,S} {8,S}
+2     C 0 {1,S} {5,S} {9,S} {10,S}
+3  *2 C 0 {1,S} {6,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 {2,S} {16,S} {17,S} {18,S}
+6     C 0 {3,S} {7,T}
+7     C 0 {6,T} {19,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {7,S}
 """,
     product1 = 
 """
-1 * C 1 {2,S}
+1 * C 1 {2,S} {4,S} {5,S}
 2   C 0 {1,S} {3,T}
-3   C 0 {2,T}
+3   C 0 {2,T} {6,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {3,S}
+1    C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
+3    C 0 {4,S} {10,S} {11,S} {12,S}
+4  * C 1 {1,S} {3,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -23192,26 +29466,54 @@ entry(
     label = "1969TSA245:4",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2 *2 C 0 {1,S} {5,S} {6,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S} {7,D}
-7    C 0 {6,D}
+1  *1 C 0 {2,S} {3,S} {4,S} {8,S}
+2  *2 C 0 {1,S} {5,S} {6,S} {9,S}
+3     C 0 {1,S} {10,S} {11,S} {12,S}
+4     C 0 {1,S} {13,S} {14,S} {15,S}
+5     C 0 {2,S} {16,S} {17,S} {18,S}
+6     C 0 {2,S} {7,D} {19,S}
+7     C 0 {6,D} {20,S} {21,S}
+8     H 0 {1,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {6,S}
+20    H 0 {7,S}
+21    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S} {3,S}
-3   C 0 {2,S} {4,D}
-4   C 0 {3,D}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2  * C 1 {1,S} {3,S} {8,S}
+3    C 0 {2,S} {4,D} {9,S}
+4    C 0 {3,D} {10,S} {11,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -23253,28 +29555,44 @@ entry(
     label = "1989BAC6880-6881:1",
     reactant1 = 
 """
-1 *1 C 0 {8,S}
-2    C 0 {3,B} {4,B} {8,S}
-3    C 0 {2,B} {6,B}
-4    C 0 {2,B} {7,B}
-5    C 0 {6,B} {7,B}
-6    C 0 {3,B} {5,B}
-7    C 0 {4,B} {5,B}
-8 *2 O 0 {1,S} {2,S}
+1  *1 C 0 {8,S} {9,S} {10,S} {11,S}
+2     C 0 {3,B} {4,B} {8,S}
+3     C 0 {2,B} {6,B} {12,S}
+4     C 0 {2,B} {7,B} {13,S}
+5     C 0 {6,B} {7,B} {14,S}
+6     C 0 {3,B} {5,B} {15,S}
+7     C 0 {4,B} {5,B} {16,S}
+8  *2 O 0 {1,S} {2,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {1,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B} {7,S}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6   C 0 {4,B} {5,B}
-7 * O 1 {2,S}
+1    C 0 {2,B} {3,B} {8,S}
+2    C 0 {1,B} {4,B} {7,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6    C 0 {4,B} {5,B} {12,S}
+7  * O 1 {2,S}
+8    H 0 {1,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -23314,28 +29632,44 @@ entry(
     label = "1993ARE/LOU7914-7925:1",
     reactant1 = 
 """
-1 *1 C 0 {8,S}
-2    C 0 {3,B} {4,B} {8,S}
-3    C 0 {2,B} {6,B}
-4    C 0 {2,B} {7,B}
-5    C 0 {6,B} {7,B}
-6    C 0 {3,B} {5,B}
-7    C 0 {4,B} {5,B}
-8 *2 O 0 {1,S} {2,S}
+1  *1 C 0 {8,S} {9,S} {10,S} {11,S}
+2     C 0 {3,B} {4,B} {8,S}
+3     C 0 {2,B} {6,B} {12,S}
+4     C 0 {2,B} {7,B} {13,S}
+5     C 0 {6,B} {7,B} {14,S}
+6     C 0 {3,B} {5,B} {15,S}
+7     C 0 {4,B} {5,B} {16,S}
+8  *2 O 0 {1,S} {2,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {1,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B} {7,S}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6   C 0 {4,B} {5,B}
-7 * O 1 {2,S}
+1    C 0 {2,B} {3,B} {8,S}
+2    C 0 {1,B} {4,B} {7,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6    C 0 {4,B} {5,B} {12,S}
+7  * O 1 {2,S}
+8    H 0 {1,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -23377,28 +29711,44 @@ entry(
     label = "1989SUR/KAF1423-1429:4",
     reactant1 = 
 """
-1 *1 C 0 {8,S}
-2    C 0 {3,B} {4,B} {8,S}
-3    C 0 {2,B} {6,B}
-4    C 0 {2,B} {7,B}
-5    C 0 {6,B} {7,B}
-6    C 0 {3,B} {5,B}
-7    C 0 {4,B} {5,B}
-8 *2 O 0 {1,S} {2,S}
+1  *1 C 0 {8,S} {9,S} {10,S} {11,S}
+2     C 0 {3,B} {4,B} {8,S}
+3     C 0 {2,B} {6,B} {12,S}
+4     C 0 {2,B} {7,B} {13,S}
+5     C 0 {6,B} {7,B} {14,S}
+6     C 0 {3,B} {5,B} {15,S}
+7     C 0 {4,B} {5,B} {16,S}
+8  *2 O 0 {1,S} {2,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {1,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B} {7,S}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6   C 0 {4,B} {5,B}
-7 * O 1 {2,S}
+1    C 0 {2,B} {3,B} {8,S}
+2    C 0 {1,B} {4,B} {7,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6    C 0 {4,B} {5,B} {12,S}
+7  * O 1 {2,S}
+8    H 0 {1,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -23437,28 +29787,44 @@ entry(
     label = "1989MAC/DOO664-670:1",
     reactant1 = 
 """
-1 *1 C 0 {8,S}
-2    C 0 {3,B} {4,B} {8,S}
-3    C 0 {2,B} {6,B}
-4    C 0 {2,B} {7,B}
-5    C 0 {6,B} {7,B}
-6    C 0 {3,B} {5,B}
-7    C 0 {4,B} {5,B}
-8 *2 O 0 {1,S} {2,S}
+1  *1 C 0 {8,S} {9,S} {10,S} {11,S}
+2     C 0 {3,B} {4,B} {8,S}
+3     C 0 {2,B} {6,B} {12,S}
+4     C 0 {2,B} {7,B} {13,S}
+5     C 0 {6,B} {7,B} {14,S}
+6     C 0 {3,B} {5,B} {15,S}
+7     C 0 {4,B} {5,B} {16,S}
+8  *2 O 0 {1,S} {2,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {1,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B} {7,S}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6   C 0 {4,B} {5,B}
-7 * O 1 {2,S}
+1    C 0 {2,B} {3,B} {8,S}
+2    C 0 {1,B} {4,B} {7,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6    C 0 {4,B} {5,B} {12,S}
+7  * O 1 {2,S}
+8    H 0 {1,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -23499,28 +29865,44 @@ entry(
     label = "1988BRU/GEE327-333:10",
     reactant1 = 
 """
-1 *1 C 0 {8,S}
-2    C 0 {3,B} {4,B} {8,S}
-3    C 0 {2,B} {6,B}
-4    C 0 {2,B} {7,B}
-5    C 0 {6,B} {7,B}
-6    C 0 {3,B} {5,B}
-7    C 0 {4,B} {5,B}
-8 *2 O 0 {1,S} {2,S}
+1  *1 C 0 {8,S} {9,S} {10,S} {11,S}
+2     C 0 {3,B} {4,B} {8,S}
+3     C 0 {2,B} {6,B} {12,S}
+4     C 0 {2,B} {7,B} {13,S}
+5     C 0 {6,B} {7,B} {14,S}
+6     C 0 {3,B} {5,B} {15,S}
+7     C 0 {4,B} {5,B} {16,S}
+8  *2 O 0 {1,S} {2,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {1,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B} {7,S}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6   C 0 {4,B} {5,B}
-7 * O 1 {2,S}
+1    C 0 {2,B} {3,B} {8,S}
+2    C 0 {1,B} {4,B} {7,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6    C 0 {4,B} {5,B} {12,S}
+7  * O 1 {2,S}
+8    H 0 {1,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -23561,28 +29943,44 @@ entry(
     label = "1986LIN/LIN425:1",
     reactant1 = 
 """
-1 *1 C 0 {8,S}
-2    C 0 {3,B} {4,B} {8,S}
-3    C 0 {2,B} {6,B}
-4    C 0 {2,B} {7,B}
-5    C 0 {6,B} {7,B}
-6    C 0 {3,B} {5,B}
-7    C 0 {4,B} {5,B}
-8 *2 O 0 {1,S} {2,S}
+1  *1 C 0 {8,S} {9,S} {10,S} {11,S}
+2     C 0 {3,B} {4,B} {8,S}
+3     C 0 {2,B} {6,B} {12,S}
+4     C 0 {2,B} {7,B} {13,S}
+5     C 0 {6,B} {7,B} {14,S}
+6     C 0 {3,B} {5,B} {15,S}
+7     C 0 {4,B} {5,B} {16,S}
+8  *2 O 0 {1,S} {2,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {1,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B} {7,S}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6   C 0 {4,B} {5,B}
-7 * O 1 {2,S}
+1    C 0 {2,B} {3,B} {8,S}
+2    C 0 {1,B} {4,B} {7,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6    C 0 {4,B} {5,B} {12,S}
+7  * O 1 {2,S}
+8    H 0 {1,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -23623,28 +30021,44 @@ entry(
     label = "1975PAU/BAC3330:1",
     reactant1 = 
 """
-1 *1 C 0 {8,S}
-2    C 0 {3,B} {4,B} {8,S}
-3    C 0 {2,B} {6,B}
-4    C 0 {2,B} {7,B}
-5    C 0 {6,B} {7,B}
-6    C 0 {3,B} {5,B}
-7    C 0 {4,B} {5,B}
-8 *2 O 0 {1,S} {2,S}
+1  *1 C 0 {8,S} {9,S} {10,S} {11,S}
+2     C 0 {3,B} {4,B} {8,S}
+3     C 0 {2,B} {6,B} {12,S}
+4     C 0 {2,B} {7,B} {13,S}
+5     C 0 {6,B} {7,B} {14,S}
+6     C 0 {3,B} {5,B} {15,S}
+7     C 0 {4,B} {5,B} {16,S}
+8  *2 O 0 {1,S} {2,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {1,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {7,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B} {7,S}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6   C 0 {4,B} {5,B}
-7 * O 1 {2,S}
+1    C 0 {2,B} {3,B} {8,S}
+2    C 0 {1,B} {4,B} {7,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6    C 0 {4,B} {5,B} {12,S}
+7  * O 1 {2,S}
+8    H 0 {1,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -23687,28 +30101,56 @@ entry(
     label = "1984TSA1543:2",
     reactant1 = 
 """
-1    C 0 {2,S} {4,S} {5,S}
-2 *1 C 0 {1,S} {3,S}
-3 *2 C 0 {2,S} {7,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {7,S}
-7    C 0 {3,S} {6,S} {8,D}
-8    O 0 {7,D}
+1     C 0 {2,S} {4,S} {5,S} {9,S}
+2  *1 C 0 {1,S} {3,S} {10,S} {11,S}
+3  *2 C 0 {2,S} {7,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {7,S} {20,S} {21,S} {22,S}
+7     C 0 {3,S} {6,S} {8,D}
+8     O 0 {7,D}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
+1   C 0 {2,S} {5,S} {6,S} {7,S}
 2   C 0 {1,S} {3,S} {4,D}
-3 * C 1 {2,S}
+3 * C 1 {2,S} {8,S} {9,S}
 4   O 0 {2,D}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {1,S}
+8   H 0 {3,S}
+9   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * C 1 {1,S} {12,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -23750,28 +30192,64 @@ entry(
     label = "1983DOO/MAC29:1",
     reactant1 = 
 """
-1    C 0 {3,S} {5,S}
-2    C 0 {4,S} {6,S}
-3    C 0 {1,S} {4,S}
-4    C 0 {2,S} {3,S}
-5 *1 C 0 {1,S} {7,S}
-6    C 0 {2,S} {8,S}
-7 *2 C 0 {5,S}
-8    C 0 {6,S}
+1     C 0 {3,S} {5,S} {9,S} {10,S}
+2     C 0 {4,S} {6,S} {11,S} {12,S}
+3     C 0 {1,S} {4,S} {13,S} {14,S}
+4     C 0 {2,S} {3,S} {15,S} {16,S}
+5  *1 C 0 {1,S} {7,S} {17,S} {18,S}
+6     C 0 {2,S} {8,S} {19,S} {20,S}
+7  *2 C 0 {5,S} {21,S} {22,S} {23,S}
+8     C 0 {6,S} {24,S} {25,S} {26,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
+13    H 0 {3,S}
+14    H 0 {3,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {4,S}
-2   C 0 {1,S} {3,S}
-3   C 0 {2,S} {5,S}
-4   C 0 {1,S} {6,S}
-5   C 0 {3,S} {7,S}
-6   C 0 {4,S}
-7 * C 1 {5,S}
+1    C 0 {2,S} {4,S} {8,S} {9,S}
+2    C 0 {1,S} {3,S} {10,S} {11,S}
+3    C 0 {2,S} {5,S} {12,S} {13,S}
+4    C 0 {1,S} {6,S} {14,S} {15,S}
+5    C 0 {3,S} {7,S} {16,S} {17,S}
+6    C 0 {4,S} {18,S} {19,S} {20,S}
+7  * C 1 {5,S} {21,S} {22,S}
+8    H 0 {1,S}
+9    H 0 {1,S}
+10   H 0 {2,S}
+11   H 0 {2,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
+14   H 0 {4,S}
+15   H 0 {4,S}
+16   H 0 {5,S}
+17   H 0 {5,S}
+18   H 0 {6,S}
+19   H 0 {6,S}
+20   H 0 {6,S}
+21   H 0 {7,S}
+22   H 0 {7,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -23812,28 +30290,64 @@ entry(
     label = "1962BLA/HIN36:7",
     reactant1 = 
 """
-1    C 0 {3,S} {5,S}
-2    C 0 {4,S} {6,S}
-3    C 0 {1,S} {4,S}
-4    C 0 {2,S} {3,S}
-5 *1 C 0 {1,S} {7,S}
-6    C 0 {2,S} {8,S}
-7 *2 C 0 {5,S}
-8    C 0 {6,S}
+1     C 0 {3,S} {5,S} {9,S} {10,S}
+2     C 0 {4,S} {6,S} {11,S} {12,S}
+3     C 0 {1,S} {4,S} {13,S} {14,S}
+4     C 0 {2,S} {3,S} {15,S} {16,S}
+5  *1 C 0 {1,S} {7,S} {17,S} {18,S}
+6     C 0 {2,S} {8,S} {19,S} {20,S}
+7  *2 C 0 {5,S} {21,S} {22,S} {23,S}
+8     C 0 {6,S} {24,S} {25,S} {26,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
+13    H 0 {3,S}
+14    H 0 {3,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {4,S}
-2   C 0 {1,S} {3,S}
-3   C 0 {2,S} {5,S}
-4   C 0 {1,S} {6,S}
-5   C 0 {3,S} {7,S}
-6   C 0 {4,S}
-7 * C 1 {5,S}
+1    C 0 {2,S} {4,S} {8,S} {9,S}
+2    C 0 {1,S} {3,S} {10,S} {11,S}
+3    C 0 {2,S} {5,S} {12,S} {13,S}
+4    C 0 {1,S} {6,S} {14,S} {15,S}
+5    C 0 {3,S} {7,S} {16,S} {17,S}
+6    C 0 {4,S} {18,S} {19,S} {20,S}
+7  * C 1 {5,S} {21,S} {22,S}
+8    H 0 {1,S}
+9    H 0 {1,S}
+10   H 0 {2,S}
+11   H 0 {2,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
+14   H 0 {4,S}
+15   H 0 {4,S}
+16   H 0 {5,S}
+17   H 0 {5,S}
+18   H 0 {6,S}
+19   H 0 {6,S}
+20   H 0 {6,S}
+21   H 0 {7,S}
+22   H 0 {7,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -23870,28 +30384,64 @@ entry(
     label = "1969TSA245:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S}
-3    C 0 {1,S} {8,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
-8    C 0 {3,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {9,S}
+3     C 0 {1,S} {8,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     C 0 {3,S} {24,S} {25,S} {26,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {5,S}
-4   C 0 {5,S}
-5 * C 1 {1,S} {3,S} {4,S}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2    C 0 {1,S} {8,S} {9,S} {10,S}
+3    C 0 {5,S} {11,S} {12,S} {13,S}
+4    C 0 {5,S} {14,S} {15,S} {16,S}
+5  * C 1 {1,S} {3,S} {4,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
+14   H 0 {4,S}
+15   H 0 {4,S}
+16   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S}
+1    C 0 {3,S} {4,S} {5,S} {6,S}
+2    C 0 {3,S} {7,S} {8,S} {9,S}
+3  * C 1 {1,S} {2,S} {10,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -23933,28 +30483,64 @@ entry(
     label = "1972TSA143:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
-2 *2 C 0 {1,S} {3,S} {7,S}
-3    C 0 {2,S} {8,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {1,S}
-7    C 0 {2,S}
-8    C 0 {3,S}
+1  *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2  *2 C 0 {1,S} {3,S} {7,S} {9,S}
+3     C 0 {2,S} {8,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {1,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     C 0 {3,S} {24,S} {25,S} {26,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {3,S}
+1    C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
+3    C 0 {4,S} {10,S} {11,S} {12,S}
+4  * C 1 {1,S} {3,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -23997,28 +30583,64 @@ entry(
     label = "1972TSA143:2",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {5,S}
-2 *2 C 0 {1,S} {4,S} {6,S}
-3    C 0 {1,S} {7,S}
-4    C 0 {2,S} {8,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {3,S}
-8    C 0 {4,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {9,S}
+2  *2 C 0 {1,S} {4,S} {6,S} {10,S}
+3     C 0 {1,S} {7,S} {11,S} {12,S}
+4     C 0 {2,S} {8,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {3,S} {21,S} {22,S} {23,S}
+8     C 0 {4,S} {24,S} {25,S} {26,S}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {3,S}
+1    C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
+3    C 0 {4,S} {10,S} {11,S} {12,S}
+4  * C 1 {1,S} {3,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {3,S}
+1    C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
+3    C 0 {4,S} {10,S} {11,S} {12,S}
+4  * C 1 {1,S} {3,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -24061,28 +30683,64 @@ entry(
     label = "1978TSA821:5",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
-8    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     C 0 {2,S} {24,S} {25,S} {26,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -24121,28 +30779,64 @@ entry(
     label = "1978ATR/BAL366:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
-8    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     C 0 {2,S} {24,S} {25,S} {26,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -24181,28 +30875,64 @@ entry(
     label = "1982BAL/HIS1165:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
-8    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     C 0 {2,S} {24,S} {25,S} {26,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -24243,28 +30973,64 @@ entry(
     label = "1979WAL/TSA867:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
-8    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     C 0 {2,S} {24,S} {25,S} {26,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -24305,28 +31071,64 @@ entry(
     label = "1978TSA821:6",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
-8    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     C 0 {2,S} {24,S} {25,S} {26,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -24367,28 +31169,64 @@ entry(
     label = "1978TAY/MIL1245:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
-8    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     C 0 {2,S} {24,S} {25,S} {26,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -24429,28 +31267,64 @@ entry(
     label = "1974GOL/ALF359:4",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
-8    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     C 0 {2,S} {24,S} {25,S} {26,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -24489,28 +31363,64 @@ entry(
     label = "1966TSA4283-4295:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
-8    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     C 0 {2,S} {24,S} {25,S} {26,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -24552,28 +31462,64 @@ entry(
     label = "2006KLI/GEO1133-1147:10",
     reactant1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     reactant2 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *2 C 0 {1,S} {6,S} {7,S} {8,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7    C 0 {2,S}
-8    C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2  *2 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     C 0 {1,S} {12,S} {13,S} {14,S}
+5     C 0 {1,S} {15,S} {16,S} {17,S}
+6     C 0 {2,S} {18,S} {19,S} {20,S}
+7     C 0 {2,S} {21,S} {22,S} {23,S}
+8     C 0 {2,S} {24,S} {25,S} {26,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {4,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -24617,23 +31563,33 @@ entry(
     label = "2008DAS/BOZ3566-3575:2",
     reactant1 = 
 """
-1 *1 C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {5,B}
-3    C 0 {1,B} {6,B}
-4    C 0 {5,B} {6,B}
-5    C 0 {2,B} {4,B}
-6    C 0 {3,B} {4,B}
-7 *2 O 0 {1,S} {8,S}
-8    O 1 {7,S}
+1  *1 C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {5,B} {9,S}
+3     C 0 {1,B} {6,B} {10,S}
+4     C 0 {5,B} {6,B} {11,S}
+5     C 0 {2,B} {4,B} {12,S}
+6     C 0 {3,B} {4,B} {13,S}
+7  *2 O 0 {1,S} {8,S}
+8     O 1 {7,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     product2 = 
 """
@@ -24675,15 +31631,20 @@ entry(
     label = "1986GRE/COL434:2",
     reactant1 = 
 """
-1    C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {5,B}
-3    C 0 {1,B} {6,B}
-4    C 0 {5,B} {6,B}
-5    C 0 {2,B} {4,B}
-6    C 0 {3,B} {4,B}
-7 *1 C 0 {1,S} {8,D} {9,S}
-8    O 0 {7,D}
-9 *2 H 0 {7,S}
+1     C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {5,B} {10,S}
+3     C 0 {1,B} {6,B} {11,S}
+4     C 0 {5,B} {6,B} {12,S}
+5     C 0 {2,B} {4,B} {13,S}
+6     C 0 {3,B} {4,B} {14,S}
+7  *1 C 0 {1,S} {8,D} {9,S}
+8     O 0 {7,D}
+9  *2 H 0 {7,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {4,S}
+13    H 0 {5,S}
+14    H 0 {6,S}
 """,
     product1 = 
 """
@@ -24691,14 +31652,19 @@ entry(
 """,
     product2 = 
 """
-1   C 0 {2,B} {3,B} {7,S}
-2   C 0 {1,B} {5,B}
-3   C 0 {1,B} {6,B}
-4   C 0 {5,B} {6,B}
-5   C 0 {2,B} {4,B}
-6   C 0 {3,B} {4,B}
-7 * C 1 {1,S} {8,D}
-8   O 0 {7,D}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {5,B} {9,S}
+3    C 0 {1,B} {6,B} {10,S}
+4    C 0 {5,B} {6,B} {11,S}
+5    C 0 {2,B} {4,B} {12,S}
+6    C 0 {3,B} {4,B} {13,S}
+7  * C 1 {1,S} {8,D}
+8    O 0 {7,D}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {4,S}
+12   H 0 {5,S}
+13   H 0 {6,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -24737,28 +31703,56 @@ entry(
     label = "1992TSA/WAL8378-8384:8",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *2 C 0 {1,S} {5,S}
-4    C 0 {2,S} {6,S}
-5    C 0 {3,S} {7,D}
-6    C 0 {4,S} {8,D}
-7    C 0 {5,D}
-8    C 0 {6,D}
+1  *1 C 0 {2,S} {3,S} {9,S} {10,S}
+2     C 0 {1,S} {4,S} {11,S} {12,S}
+3  *2 C 0 {1,S} {5,S} {13,S} {14,S}
+4     C 0 {2,S} {6,S} {15,S} {16,S}
+5     C 0 {3,S} {7,D} {17,S}
+6     C 0 {4,S} {8,D} {18,S}
+7     C 0 {5,D} {19,S} {20,S}
+8     C 0 {6,D} {21,S} {22,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
+13    H 0 {3,S}
+14    H 0 {3,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {7,S}
+20    H 0 {7,S}
+21    H 0 {8,S}
+22    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S} {5,D}
-4 * C 1 {2,S}
-5   C 0 {3,D}
+1    C 0 {2,S} {3,S} {6,S} {7,S}
+2    C 0 {1,S} {4,S} {8,S} {9,S}
+3    C 0 {1,S} {5,D} {10,S}
+4  * C 1 {2,S} {11,S} {12,S}
+5    C 0 {3,D} {13,S} {14,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {4,S}
+12   H 0 {4,S}
+13   H 0 {5,S}
+14   H 0 {5,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,D}
-2 * C 1 {1,S}
-3   C 0 {1,D}
+1   C 0 {2,S} {3,D} {4,S}
+2 * C 1 {1,S} {5,S} {6,S}
+3   C 0 {1,D} {7,S} {8,S}
+4   H 0 {1,S}
+5   H 0 {2,S}
+6   H 0 {2,S}
+7   H 0 {3,S}
+8   H 0 {3,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -24800,28 +31794,56 @@ entry(
     label = "1991ROT/BAU1453-1460:3",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {5,S}
-2 *2 C 0 {1,S} {6,S}
-3    C 0 {5,S}
-4    C 0 {6,S}
-5    C 0 {1,S} {3,S} {7,D}
-6    C 0 {2,S} {4,S} {8,D}
-7    C 0 {5,D}
-8    C 0 {6,D}
+1  *1 C 0 {2,S} {5,S} {9,S} {10,S}
+2  *2 C 0 {1,S} {6,S} {11,S} {12,S}
+3     C 0 {5,S} {13,S} {14,S} {15,S}
+4     C 0 {6,S} {16,S} {17,S} {18,S}
+5     C 0 {1,S} {3,S} {7,D}
+6     C 0 {2,S} {4,S} {8,D}
+7     C 0 {5,D} {19,S} {20,S}
+8     C 0 {6,D} {21,S} {22,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
+13    H 0 {3,S}
+14    H 0 {3,S}
+15    H 0 {3,S}
+16    H 0 {4,S}
+17    H 0 {4,S}
+18    H 0 {4,S}
+19    H 0 {7,S}
+20    H 0 {7,S}
+21    H 0 {8,S}
+22    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,D} {4,S}
-3   C 0 {2,D}
-4 * C 1 {2,S}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2    C 0 {1,S} {3,D} {4,S}
+3    C 0 {2,D} {8,S} {9,S}
+4  * C 1 {2,S} {10,S} {11,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,S} {4,D}
-3 * C 1 {2,S}
-4   C 0 {2,D}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2    C 0 {1,S} {3,S} {4,D}
+3  * C 1 {2,S} {8,S} {9,S}
+4    C 0 {2,D} {10,S} {11,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -24861,28 +31883,56 @@ entry(
     label = "1970EAS/PHI331:3",
     reactant1 = 
 """
-1    C 0 {3,S} {5,S}
-2    C 0 {4,S} {6,S}
-3    C 0 {1,S} {7,S}
-4    C 0 {2,S} {8,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7 *1 O 0 {3,S} {8,S}
-8 *2 O 0 {4,S} {7,S}
+1     C 0 {3,S} {5,S} {9,S} {10,S}
+2     C 0 {4,S} {6,S} {11,S} {12,S}
+3     C 0 {1,S} {7,S} {13,S} {14,S}
+4     C 0 {2,S} {8,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7  *1 O 0 {3,S} {8,S}
+8  *2 O 0 {4,S} {7,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
+13    H 0 {3,S}
+14    H 0 {3,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3   C 0 {1,S} {4,S}
-4 * O 1 {3,S}
+1    C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
+3    C 0 {1,S} {4,S} {10,S} {11,S}
+4  * O 1 {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S}
-4 * O 1 {2,S}
+1    C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {4,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * O 1 {2,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -24922,28 +31972,56 @@ entry(
     label = "1939HAR126-146:1",
     reactant1 = 
 """
-1    C 0 {3,S} {5,S}
-2    C 0 {4,S} {6,S}
-3    C 0 {1,S} {7,S}
-4    C 0 {2,S} {8,S}
-5    C 0 {1,S}
-6    C 0 {2,S}
-7 *1 O 0 {3,S} {8,S}
-8 *2 O 0 {4,S} {7,S}
+1     C 0 {3,S} {5,S} {9,S} {10,S}
+2     C 0 {4,S} {6,S} {11,S} {12,S}
+3     C 0 {1,S} {7,S} {13,S} {14,S}
+4     C 0 {2,S} {8,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7  *1 O 0 {3,S} {8,S}
+8  *2 O 0 {4,S} {7,S}
+9     H 0 {1,S}
+10    H 0 {1,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
+13    H 0 {3,S}
+14    H 0 {3,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3   C 0 {1,S} {4,S}
-4 * O 1 {3,S}
+1    C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
+3    C 0 {1,S} {4,S} {10,S} {11,S}
+4  * O 1 {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S}
-4 * O 1 {2,S}
+1    C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {4,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * O 1 {2,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -24985,28 +32063,56 @@ entry(
     label = "1968YEE/THY1296:4",
     reactant1 = 
 """
-1    C 0 {3,S} {4,S} {7,S}
-2    C 0 {5,S} {6,S} {8,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
-7 *1 O 0 {1,S} {8,S}
-8 *2 O 0 {2,S} {7,S}
+1     C 0 {3,S} {4,S} {7,S} {9,S}
+2     C 0 {5,S} {6,S} {8,S} {10,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {2,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7  *1 O 0 {1,S} {8,S}
+8  *2 O 0 {2,S} {7,S}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * O 1 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * O 1 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -25046,28 +32152,56 @@ entry(
     label = "1967LEG/THY2504-2509:2",
     reactant1 = 
 """
-1    C 0 {3,S} {4,S} {7,S}
-2    C 0 {5,S} {6,S} {8,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
-7 *1 O 0 {1,S} {8,S}
-8 *2 O 0 {2,S} {7,S}
+1     C 0 {3,S} {4,S} {7,S} {9,S}
+2     C 0 {5,S} {6,S} {8,S} {10,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {2,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7  *1 O 0 {1,S} {8,S}
+8  *2 O 0 {2,S} {7,S}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * O 1 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * O 1 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -25109,28 +32243,56 @@ entry(
     label = "1967HUG/PHI894-897:3",
     reactant1 = 
 """
-1    C 0 {3,S} {4,S} {7,S}
-2    C 0 {5,S} {6,S} {8,S}
-3    C 0 {1,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {2,S}
-7 *1 O 0 {1,S} {8,S}
-8 *2 O 0 {2,S} {7,S}
+1     C 0 {3,S} {4,S} {7,S} {9,S}
+2     C 0 {5,S} {6,S} {8,S} {10,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {2,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7  *1 O 0 {1,S} {8,S}
+8  *2 O 0 {2,S} {7,S}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * O 1 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * O 1 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -25171,28 +32333,60 @@ entry(
     label = "1973TSA929:7",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {3,S} {4,S}
-2    C 0 {1,S} {5,S}
-3 *2 C 0 {1,S} {7,S}
-4    C 0 {1,S}
-5    C 0 {2,S}
-6    C 0 {7,S}
-7    C 0 {3,S} {6,S} {8,D}
-8    C 0 {7,D}
+1  *1 C 0 {2,S} {3,S} {4,S} {9,S}
+2     C 0 {1,S} {5,S} {10,S} {11,S}
+3  *2 C 0 {1,S} {7,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {2,S} {17,S} {18,S} {19,S}
+6     C 0 {7,S} {20,S} {21,S} {22,S}
+7     C 0 {3,S} {6,S} {8,D}
+8     C 0 {7,D} {23,S} {24,S}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {8,S}
+24    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S}
-2   C 0 {1,S} {3,D} {4,S}
-3   C 0 {2,D}
-4 * C 1 {2,S}
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2    C 0 {1,S} {3,D} {4,S}
+3    C 0 {2,D} {8,S} {9,S}
+4  * C 1 {2,S} {10,S} {11,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {3,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {3,S}
+1    C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {7,S} {8,S} {9,S}
+3    C 0 {4,S} {10,S} {11,S} {12,S}
+4  * C 1 {1,S} {3,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -25235,28 +32429,56 @@ entry(
     label = "1978TSA687:6",
     reactant1 = 
 """
-1    C 0 {2,S} {4,S} {5,S}
-2 *1 C 0 {1,S} {3,S}
-3 *2 C 0 {2,S} {7,S}
-4    C 0 {1,S}
-5    C 0 {1,S}
-6    C 0 {8,S}
-7    C 0 {3,S} {8,T}
-8    C 0 {6,S} {7,T}
+1     C 0 {2,S} {4,S} {5,S} {9,S}
+2  *1 C 0 {1,S} {3,S} {10,S} {11,S}
+3  *2 C 0 {2,S} {7,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {8,S} {20,S} {21,S} {22,S}
+7     C 0 {3,S} {8,T}
+8     C 0 {6,S} {7,T}
+9     H 0 {1,S}
+10    H 0 {2,S}
+11    H 0 {2,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2 * C 1 {4,S}
+1   C 0 {3,S} {5,S} {6,S} {7,S}
+2 * C 1 {4,S} {8,S} {9,S}
 3   C 0 {1,S} {4,T}
 4   C 0 {2,S} {3,T}
+5   H 0 {1,S}
+6   H 0 {1,S}
+7   H 0 {1,S}
+8   H 0 {2,S}
+9   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4 * C 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * C 1 {1,S} {12,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -25298,12 +32520,17 @@ entry(
     label = "1994YU/LIN9571-9576:1",
     reactant1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     reactant2 = 
 """
@@ -25312,14 +32539,19 @@ entry(
 """,
     product1 = 
 """
-1 *1 C 0 {2,B} {3,B} {7,S}
-2    C 0 {1,B} {5,B}
-3    C 0 {1,B} {6,B}
-4    C 0 {5,B} {6,B}
-5    C 0 {2,B} {4,B}
-6    C 0 {3,B} {4,B}
-7 *2 O 0 {1,S} {8,S}
-8    O 1 {7,S}
+1  *1 C 0 {2,B} {3,B} {7,S}
+2     C 0 {1,B} {5,B} {9,S}
+3     C 0 {1,B} {6,B} {10,S}
+4     C 0 {5,B} {6,B} {11,S}
+5     C 0 {2,B} {4,B} {12,S}
+6     C 0 {3,B} {4,B} {13,S}
+7  *2 O 0 {1,S} {8,S}
+8     O 1 {7,S}
+9     H 0 {2,S}
+10    H 0 {3,S}
+11    H 0 {4,S}
+12    H 0 {5,S}
+13    H 0 {6,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -25362,30 +32594,50 @@ entry(
     label = "1989SUR/KAF1423-1429:5",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {9,S}
-2    C 0 {1,S}
-3    C 0 {4,B} {5,B} {9,S}
-4    C 0 {3,B} {7,B}
-5    C 0 {3,B} {8,B}
-6    C 0 {7,B} {8,B}
-7    C 0 {4,B} {6,B}
-8    C 0 {5,B} {6,B}
-9 *2 O 0 {1,S} {3,S}
+1  *1 C 0 {2,S} {9,S} {10,S} {11,S}
+2     C 0 {1,S} {12,S} {13,S} {14,S}
+3     C 0 {4,B} {5,B} {9,S}
+4     C 0 {3,B} {7,B} {15,S}
+5     C 0 {3,B} {8,B} {16,S}
+6     C 0 {7,B} {8,B} {17,S}
+7     C 0 {4,B} {6,B} {18,S}
+8     C 0 {5,B} {6,B} {19,S}
+9  *2 O 0 {1,S} {3,S}
+10    H 0 {1,S}
+11    H 0 {1,S}
+12    H 0 {2,S}
+13    H 0 {2,S}
+14    H 0 {2,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {6,S}
+18    H 0 {7,S}
+19    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B} {7,S}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6   C 0 {4,B} {5,B}
-7 * O 1 {2,S}
+1    C 0 {2,B} {3,B} {8,S}
+2    C 0 {1,B} {4,B} {7,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6    C 0 {4,B} {5,B} {12,S}
+7  * O 1 {2,S}
+8    H 0 {1,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -25424,30 +32676,50 @@ entry(
     label = "1977COL/ZAB161:1",
     reactant1 = 
 """
-1 *1 C 0 {2,S} {9,S}
-2    C 0 {1,S}
-3    C 0 {4,B} {5,B} {9,S}
-4    C 0 {3,B} {7,B}
-5    C 0 {3,B} {8,B}
-6    C 0 {7,B} {8,B}
-7    C 0 {4,B} {6,B}
-8    C 0 {5,B} {6,B}
-9 *2 O 0 {1,S} {3,S}
+1  *1 C 0 {2,S} {9,S} {10,S} {11,S}
+2     C 0 {1,S} {12,S} {13,S} {14,S}
+3     C 0 {4,B} {5,B} {9,S}
+4     C 0 {3,B} {7,B} {15,S}
+5     C 0 {3,B} {8,B} {16,S}
+6     C 0 {7,B} {8,B} {17,S}
+7     C 0 {4,B} {6,B} {18,S}
+8     C 0 {5,B} {6,B} {19,S}
+9  *2 O 0 {1,S} {3,S}
+10    H 0 {1,S}
+11    H 0 {1,S}
+12    H 0 {2,S}
+13    H 0 {2,S}
+14    H 0 {2,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {6,S}
+18    H 0 {7,S}
+19    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B} {7,S}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6   C 0 {4,B} {5,B}
-7 * O 1 {2,S}
+1    C 0 {2,B} {3,B} {8,S}
+2    C 0 {1,B} {4,B} {7,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6    C 0 {4,B} {5,B} {12,S}
+7  * O 1 {2,S}
+8    H 0 {1,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -25487,30 +32759,66 @@ entry(
     label = "1990ENG/KRE155-160:1",
     reactant1 = 
 """
-1    C 0 {3,S} {5,S}
-2    C 0 {4,S} {6,S}
-3    C 0 {1,S} {7,S}
-4    C 0 {2,S} {8,S}
-5 *1 C 0 {1,S} {9,S}
-6    C 0 {2,S} {9,S}
-7    C 0 {3,S}
-8    C 0 {4,S}
-9 *2 O 0 {5,S} {6,S}
+1     C 0 {3,S} {5,S} {10,S} {11,S}
+2     C 0 {4,S} {6,S} {12,S} {13,S}
+3     C 0 {1,S} {7,S} {14,S} {15,S}
+4     C 0 {2,S} {8,S} {16,S} {17,S}
+5  *1 C 0 {1,S} {9,S} {18,S} {19,S}
+6     C 0 {2,S} {9,S} {20,S} {21,S}
+7     C 0 {3,S} {22,S} {23,S} {24,S}
+8     C 0 {4,S} {25,S} {26,S} {27,S}
+9  *2 O 0 {5,S} {6,S}
+10    H 0 {1,S}
+11    H 0 {1,S}
+12    H 0 {2,S}
+13    H 0 {2,S}
+14    H 0 {3,S}
+15    H 0 {3,S}
+16    H 0 {4,S}
+17    H 0 {4,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {7,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {8,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S}
-4   C 0 {2,S} {5,S}
-5 * O 1 {4,S}
+1    C 0 {2,S} {3,S} {6,S} {7,S}
+2    C 0 {1,S} {4,S} {8,S} {9,S}
+3    C 0 {1,S} {10,S} {11,S} {12,S}
+4    C 0 {2,S} {5,S} {13,S} {14,S}
+5  * O 1 {4,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S}
-4 * C 1 {2,S}
+1    C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {4,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * C 1 {2,S} {12,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -25557,25 +32865,39 @@ entry(
 """,
     reactant2 = 
 """
-1   C 0 {2,S} {3,S} {7,S}
-2 * C 1 {1,S} {4,S}
-3   C 0 {1,S} {5,D}
-4   C 0 {2,S} {6,D}
-5   C 0 {3,D} {6,S}
-6   C 0 {4,D} {5,S}
-7   O 0 {1,S}
+1    C 0 {2,S} {3,S} {7,S} {8,S}
+2  * C 1 {1,S} {4,S} {9,S}
+3    C 0 {1,S} {5,D} {10,S}
+4    C 0 {2,S} {6,D} {11,S}
+5    C 0 {3,D} {6,S} {12,S}
+6    C 0 {4,D} {5,S} {13,S}
+7    O 0 {1,S} {14,S}
+8    H 0 {1,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {4,S}
+12   H 0 {5,S}
+13   H 0 {6,S}
+14   H 0 {7,S}
 """,
     product1 = 
 """
-1    C 0 {2,S} {3,S} {8,S}
-2 *2 C 0 {1,S} {4,S} {7,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D} {6,S}
-6    C 0 {4,D} {5,S}
-7 *1 O 0 {2,S} {9,S}
-8    O 0 {1,S}
-9    O 1 {7,S}
+1     C 0 {2,S} {3,S} {8,S} {10,S}
+2  *2 C 0 {1,S} {4,S} {7,S} {11,S}
+3     C 0 {1,S} {5,D} {12,S}
+4     C 0 {2,S} {6,D} {13,S}
+5     C 0 {3,D} {6,S} {14,S}
+6     C 0 {4,D} {5,S} {15,S}
+7  *1 O 0 {2,S} {9,S}
+8     O 0 {1,S} {16,S}
+9     O 1 {7,S}
+10    H 0 {1,S}
+11    H 0 {2,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {8,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -25620,25 +32942,39 @@ entry(
 """,
     reactant2 = 
 """
-1   C 0 {2,S} {3,S} {7,S}
-2 * C 1 {1,S} {4,S}
-3   C 0 {1,S} {5,D}
-4   C 0 {2,S} {6,D}
-5   C 0 {3,D} {6,S}
-6   C 0 {4,D} {5,S}
-7   O 0 {1,S}
+1    C 0 {2,S} {3,S} {7,S} {8,S}
+2  * C 1 {1,S} {4,S} {9,S}
+3    C 0 {1,S} {5,D} {10,S}
+4    C 0 {2,S} {6,D} {11,S}
+5    C 0 {3,D} {6,S} {12,S}
+6    C 0 {4,D} {5,S} {13,S}
+7    O 0 {1,S} {14,S}
+8    H 0 {1,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {4,S}
+12   H 0 {5,S}
+13   H 0 {6,S}
+14   H 0 {7,S}
 """,
     product1 = 
 """
-1    C 0 {2,S} {3,S} {8,S}
-2 *2 C 0 {1,S} {4,S} {7,S}
-3    C 0 {1,S} {5,D}
-4    C 0 {2,S} {6,D}
-5    C 0 {3,D} {6,S}
-6    C 0 {4,D} {5,S}
-7 *1 O 0 {2,S} {9,S}
-8    O 0 {1,S}
-9    O 1 {7,S}
+1     C 0 {2,S} {3,S} {8,S} {10,S}
+2  *2 C 0 {1,S} {4,S} {7,S} {11,S}
+3     C 0 {1,S} {5,D} {12,S}
+4     C 0 {2,S} {6,D} {13,S}
+5     C 0 {3,D} {6,S} {14,S}
+6     C 0 {4,D} {5,S} {15,S}
+7  *1 O 0 {2,S} {9,S}
+8     O 0 {1,S} {16,S}
+9     O 1 {7,S}
+10    H 0 {1,S}
+11    H 0 {2,S}
+12    H 0 {3,S}
+13    H 0 {4,S}
+14    H 0 {5,S}
+15    H 0 {6,S}
+16    H 0 {8,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -25678,32 +33014,52 @@ entry(
     label = "1989SUR/KAF1423-1429:3",
     reactant1 = 
 """
-1  *1 C 0 {2,S} {9,S}
-2     C 0 {1,S}
+1  *1 C 0 {2,S} {9,S} {11,S} {12,S}
+2     C 0 {1,S} {13,S} {14,S} {15,S}
 3     C 0 {4,B} {6,B} {9,S}
 4     C 0 {3,B} {5,B} {10,S}
-5     C 0 {4,B} {7,B}
-6     C 0 {3,B} {8,B}
-7     C 0 {5,B} {8,B}
-8     C 0 {6,B} {7,B}
+5     C 0 {4,B} {7,B} {16,S}
+6     C 0 {3,B} {8,B} {17,S}
+7     C 0 {5,B} {8,B} {18,S}
+8     C 0 {6,B} {7,B} {19,S}
 9  *2 O 0 {1,S} {3,S}
-10    O 0 {4,S}
+10    O 0 {4,S} {20,S}
+11    H 0 {1,S}
+12    H 0 {1,S}
+13    H 0 {2,S}
+14    H 0 {2,S}
+15    H 0 {2,S}
+16    H 0 {5,S}
+17    H 0 {6,S}
+18    H 0 {7,S}
+19    H 0 {8,S}
+20    H 0 {10,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B} {7,S}
-2   C 0 {1,B} {4,B} {8,S}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6   C 0 {4,B} {5,B}
-7   O 0 {1,S}
-8 * O 1 {2,S}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6    C 0 {4,B} {5,B} {12,S}
+7    O 0 {1,S} {13,S}
+8  * O 1 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
+13   H 0 {7,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -25744,31 +33100,59 @@ entry(
     reactant1 = 
 """
 1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 C 0 {1,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
+2  *2 C 0 {1,S} {11,S} {12,S} {13,S}
+3     C 0 {1,S} {14,S} {15,S} {16,S}
+4     C 0 {1,S} {17,S} {18,S} {19,S}
 5     C 0 {1,S} {6,B} {7,B}
-6     C 0 {5,B} {9,B}
-7     C 0 {5,B} {10,B}
-8     C 0 {9,B} {10,B}
-9     C 0 {6,B} {8,B}
-10    C 0 {7,B} {8,B}
+6     C 0 {5,B} {9,B} {20,S}
+7     C 0 {5,B} {10,B} {21,S}
+8     C 0 {9,B} {10,B} {22,S}
+9     C 0 {6,B} {8,B} {23,S}
+10    C 0 {7,B} {8,B} {24,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
+13    H 0 {2,S}
+14    H 0 {3,S}
+15    H 0 {3,S}
+16    H 0 {3,S}
+17    H 0 {4,S}
+18    H 0 {4,S}
+19    H 0 {4,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {8,S}
+23    H 0 {9,S}
+24    H 0 {10,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S} {4,S}
-4   C 0 {3,S} {5,B} {6,B}
-5   C 0 {4,B} {7,B}
-6   C 0 {4,B} {9,B}
-7   C 0 {5,B} {8,B}
-8   C 0 {7,B} {9,B}
-9   C 0 {6,B} {8,B}
+1    C 0 {3,S} {10,S} {11,S} {12,S}
+2    C 0 {3,S} {13,S} {14,S} {15,S}
+3  * C 1 {1,S} {2,S} {4,S}
+4    C 0 {3,S} {5,B} {6,B}
+5    C 0 {4,B} {7,B} {16,S}
+6    C 0 {4,B} {9,B} {17,S}
+7    C 0 {5,B} {8,B} {18,S}
+8    C 0 {7,B} {9,B} {19,S}
+9    C 0 {6,B} {8,B} {20,S}
+10   H 0 {1,S}
+11   H 0 {1,S}
+12   H 0 {1,S}
+13   H 0 {2,S}
+14   H 0 {2,S}
+15   H 0 {2,S}
+16   H 0 {5,S}
+17   H 0 {6,S}
+18   H 0 {7,S}
+19   H 0 {8,S}
+20   H 0 {9,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -25808,31 +33192,59 @@ entry(
     reactant1 = 
 """
 1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 C 0 {1,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
+2  *2 C 0 {1,S} {11,S} {12,S} {13,S}
+3     C 0 {1,S} {14,S} {15,S} {16,S}
+4     C 0 {1,S} {17,S} {18,S} {19,S}
 5     C 0 {1,S} {6,B} {7,B}
-6     C 0 {5,B} {9,B}
-7     C 0 {5,B} {10,B}
-8     C 0 {9,B} {10,B}
-9     C 0 {6,B} {8,B}
-10    C 0 {7,B} {8,B}
+6     C 0 {5,B} {9,B} {20,S}
+7     C 0 {5,B} {10,B} {21,S}
+8     C 0 {9,B} {10,B} {22,S}
+9     C 0 {6,B} {8,B} {23,S}
+10    C 0 {7,B} {8,B} {24,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
+13    H 0 {2,S}
+14    H 0 {3,S}
+15    H 0 {3,S}
+16    H 0 {3,S}
+17    H 0 {4,S}
+18    H 0 {4,S}
+19    H 0 {4,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {8,S}
+23    H 0 {9,S}
+24    H 0 {10,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S} {4,S}
-4   C 0 {3,S} {5,B} {6,B}
-5   C 0 {4,B} {7,B}
-6   C 0 {4,B} {9,B}
-7   C 0 {5,B} {8,B}
-8   C 0 {7,B} {9,B}
-9   C 0 {6,B} {8,B}
+1    C 0 {3,S} {10,S} {11,S} {12,S}
+2    C 0 {3,S} {13,S} {14,S} {15,S}
+3  * C 1 {1,S} {2,S} {4,S}
+4    C 0 {3,S} {5,B} {6,B}
+5    C 0 {4,B} {7,B} {16,S}
+6    C 0 {4,B} {9,B} {17,S}
+7    C 0 {5,B} {8,B} {18,S}
+8    C 0 {7,B} {9,B} {19,S}
+9    C 0 {6,B} {8,B} {20,S}
+10   H 0 {1,S}
+11   H 0 {1,S}
+12   H 0 {1,S}
+13   H 0 {2,S}
+14   H 0 {2,S}
+15   H 0 {2,S}
+16   H 0 {5,S}
+17   H 0 {6,S}
+18   H 0 {7,S}
+19   H 0 {8,S}
+20   H 0 {9,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -25872,31 +33284,59 @@ entry(
     reactant1 = 
 """
 1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 C 0 {1,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
+2  *2 C 0 {1,S} {11,S} {12,S} {13,S}
+3     C 0 {1,S} {14,S} {15,S} {16,S}
+4     C 0 {1,S} {17,S} {18,S} {19,S}
 5     C 0 {1,S} {6,B} {7,B}
-6     C 0 {5,B} {9,B}
-7     C 0 {5,B} {10,B}
-8     C 0 {9,B} {10,B}
-9     C 0 {6,B} {8,B}
-10    C 0 {7,B} {8,B}
+6     C 0 {5,B} {9,B} {20,S}
+7     C 0 {5,B} {10,B} {21,S}
+8     C 0 {9,B} {10,B} {22,S}
+9     C 0 {6,B} {8,B} {23,S}
+10    C 0 {7,B} {8,B} {24,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
+13    H 0 {2,S}
+14    H 0 {3,S}
+15    H 0 {3,S}
+16    H 0 {3,S}
+17    H 0 {4,S}
+18    H 0 {4,S}
+19    H 0 {4,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {8,S}
+23    H 0 {9,S}
+24    H 0 {10,S}
 """,
     product1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S} {4,S}
-4   C 0 {3,S} {5,B} {6,B}
-5   C 0 {4,B} {7,B}
-6   C 0 {4,B} {9,B}
-7   C 0 {5,B} {8,B}
-8   C 0 {7,B} {9,B}
-9   C 0 {6,B} {8,B}
+1    C 0 {3,S} {10,S} {11,S} {12,S}
+2    C 0 {3,S} {13,S} {14,S} {15,S}
+3  * C 1 {1,S} {2,S} {4,S}
+4    C 0 {3,S} {5,B} {6,B}
+5    C 0 {4,B} {7,B} {16,S}
+6    C 0 {4,B} {9,B} {17,S}
+7    C 0 {5,B} {8,B} {18,S}
+8    C 0 {7,B} {9,B} {19,S}
+9    C 0 {6,B} {8,B} {20,S}
+10   H 0 {1,S}
+11   H 0 {1,S}
+12   H 0 {1,S}
+13   H 0 {2,S}
+14   H 0 {2,S}
+15   H 0 {2,S}
+16   H 0 {5,S}
+17   H 0 {6,S}
+18   H 0 {7,S}
+19   H 0 {8,S}
+20   H 0 {9,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -25938,32 +33378,60 @@ entry(
     label = "1990BRA/HIP6305-6316:12",
     reactant1 = 
 """
-1   C 0 {3,S}
-2   C 0 {3,S}
-3 * C 1 {1,S} {2,S} {4,S}
-4   C 0 {3,S} {5,B} {6,B}
-5   C 0 {4,B} {7,B}
-6   C 0 {4,B} {9,B}
-7   C 0 {5,B} {8,B}
-8   C 0 {7,B} {9,B}
-9   C 0 {6,B} {8,B}
+1    C 0 {3,S} {10,S} {11,S} {12,S}
+2    C 0 {3,S} {13,S} {14,S} {15,S}
+3  * C 1 {1,S} {2,S} {4,S}
+4    C 0 {3,S} {5,B} {6,B}
+5    C 0 {4,B} {7,B} {16,S}
+6    C 0 {4,B} {9,B} {17,S}
+7    C 0 {5,B} {8,B} {18,S}
+8    C 0 {7,B} {9,B} {19,S}
+9    C 0 {6,B} {8,B} {20,S}
+10   H 0 {1,S}
+11   H 0 {1,S}
+12   H 0 {1,S}
+13   H 0 {2,S}
+14   H 0 {2,S}
+15   H 0 {2,S}
+16   H 0 {5,S}
+17   H 0 {6,S}
+18   H 0 {7,S}
+19   H 0 {8,S}
+20   H 0 {9,S}
 """,
     reactant2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     product1 = 
 """
 1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 C 0 {1,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
+2  *2 C 0 {1,S} {11,S} {12,S} {13,S}
+3     C 0 {1,S} {14,S} {15,S} {16,S}
+4     C 0 {1,S} {17,S} {18,S} {19,S}
 5     C 0 {1,S} {6,B} {7,B}
-6     C 0 {5,B} {9,B}
-7     C 0 {5,B} {10,B}
-8     C 0 {9,B} {10,B}
-9     C 0 {6,B} {8,B}
-10    C 0 {7,B} {8,B}
+6     C 0 {5,B} {9,B} {20,S}
+7     C 0 {5,B} {10,B} {21,S}
+8     C 0 {9,B} {10,B} {22,S}
+9     C 0 {6,B} {8,B} {23,S}
+10    C 0 {7,B} {8,B} {24,S}
+11    H 0 {2,S}
+12    H 0 {2,S}
+13    H 0 {2,S}
+14    H 0 {3,S}
+15    H 0 {3,S}
+16    H 0 {3,S}
+17    H 0 {4,S}
+18    H 0 {4,S}
+19    H 0 {4,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {8,S}
+23    H 0 {9,S}
+24    H 0 {10,S}
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
@@ -26002,32 +33470,60 @@ entry(
     label = "1963EST/KER3873:3",
     reactant1 = 
 """
-1  *1 C 0 {2,S} {3,S}
-2  *2 C 0 {1,S} {4,S}
-3     C 0 {1,S} {5,S}
-4     C 0 {2,S}
+1  *1 C 0 {2,S} {3,S} {11,S} {12,S}
+2  *2 C 0 {1,S} {4,S} {13,S} {14,S}
+3     C 0 {1,S} {5,S} {15,S} {16,S}
+4     C 0 {2,S} {17,S} {18,S} {19,S}
 5     C 0 {3,S} {6,B} {7,B}
-6     C 0 {5,B} {9,B}
-7     C 0 {5,B} {10,B}
-8     C 0 {9,B} {10,B}
-9     C 0 {6,B} {8,B}
-10    C 0 {7,B} {8,B}
+6     C 0 {5,B} {9,B} {20,S}
+7     C 0 {5,B} {10,B} {21,S}
+8     C 0 {9,B} {10,B} {22,S}
+9     C 0 {6,B} {8,B} {23,S}
+10    C 0 {7,B} {8,B} {24,S}
+11    H 0 {1,S}
+12    H 0 {1,S}
+13    H 0 {2,S}
+14    H 0 {2,S}
+15    H 0 {3,S}
+16    H 0 {3,S}
+17    H 0 {4,S}
+18    H 0 {4,S}
+19    H 0 {4,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {8,S}
+23    H 0 {9,S}
+24    H 0 {10,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {8,S}
-2   C 0 {1,S} {3,B} {4,B}
-3   C 0 {2,B} {5,B}
-4   C 0 {2,B} {7,B}
-5   C 0 {3,B} {6,B}
-6   C 0 {5,B} {7,B}
-7   C 0 {4,B} {6,B}
-8 * C 1 {1,S}
+1    C 0 {2,S} {8,S} {9,S} {10,S}
+2    C 0 {1,S} {3,B} {4,B}
+3    C 0 {2,B} {5,B} {11,S}
+4    C 0 {2,B} {7,B} {12,S}
+5    C 0 {3,B} {6,B} {13,S}
+6    C 0 {5,B} {7,B} {14,S}
+7    C 0 {4,B} {6,B} {15,S}
+8  * C 1 {1,S} {16,S} {17,S}
+9    H 0 {1,S}
+10   H 0 {1,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {5,S}
+14   H 0 {6,S}
+15   H 0 {7,S}
+16   H 0 {8,S}
+17   H 0 {8,S}
 """,
     product2 = 
 """
-1   C 0 {2,S}
-2 * C 1 {1,S}
+1   C 0 {2,S} {3,S} {4,S} {5,S}
+2 * C 1 {1,S} {6,S} {7,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
+5   H 0 {1,S}
+6   H 0 {2,S}
+7   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26070,30 +33566,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26137,30 +33669,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26204,30 +33772,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26269,30 +33873,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26336,30 +33976,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26403,30 +34079,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26469,30 +34181,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26535,30 +34283,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26601,30 +34385,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26668,30 +34488,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26735,30 +34591,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26801,30 +34693,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26867,30 +34795,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26934,30 +34898,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -26999,30 +34999,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27065,30 +35101,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27132,30 +35204,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27198,30 +35306,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27264,30 +35408,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27328,30 +35508,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27392,30 +35608,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27458,30 +35710,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27524,30 +35812,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27591,30 +35915,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27657,30 +36017,66 @@ entry(
 """
 1     C 0 {3,S} {4,S} {5,S} {9,S}
 2     C 0 {6,S} {7,S} {8,S} {10,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
+3     C 0 {1,S} {11,S} {12,S} {13,S}
+4     C 0 {1,S} {14,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {3,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {5,S}
-2   C 0 {1,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27722,32 +36118,52 @@ entry(
     label = "1986ROB/STE3224-3229:2",
     reactant1 = 
 """
-1  *1 C 0 {2,S} {3,S} {5,S}
-2  *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {5,S} {11,S}
+2  *2 C 0 {1,S} {12,S} {13,S} {14,S}
 3     C 0 {1,S} {4,B} {6,B}
 4     C 0 {3,B} {7,S} {8,B}
-5     C 0 {1,S} {7,D}
-6     C 0 {3,B} {10,B}
-7     C 0 {4,S} {5,D}
-8     C 0 {4,B} {9,B}
-9     C 0 {8,B} {10,B}
-10    C 0 {6,B} {9,B}
+5     C 0 {1,S} {7,D} {15,S}
+6     C 0 {3,B} {10,B} {16,S}
+7     C 0 {4,S} {5,D} {17,S}
+8     C 0 {4,B} {9,B} {18,S}
+9     C 0 {8,B} {10,B} {19,S}
+10    C 0 {6,B} {9,B} {20,S}
+11    H 0 {1,S}
+12    H 0 {2,S}
+13    H 0 {2,S}
+14    H 0 {2,S}
+15    H 0 {5,S}
+16    H 0 {6,S}
+17    H 0 {7,S}
+18    H 0 {8,S}
+19    H 0 {9,S}
+20    H 0 {10,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,S} {4,B}
-2   C 0 {1,B} {5,S} {6,B}
-3   C 0 {1,S} {7,D}
-4   C 0 {1,B} {8,B}
-5 * C 1 {2,S} {7,S}
-6   C 0 {2,B} {9,B}
-7   C 0 {3,D} {5,S}
-8   C 0 {4,B} {9,B}
-9   C 0 {6,B} {8,B}
+1    C 0 {2,B} {3,S} {4,B}
+2    C 0 {1,B} {5,S} {6,B}
+3    C 0 {1,S} {7,D} {10,S}
+4    C 0 {1,B} {8,B} {11,S}
+5  * C 1 {2,S} {7,S} {12,S}
+6    C 0 {2,B} {9,B} {13,S}
+7    C 0 {3,D} {5,S} {14,S}
+8    C 0 {4,B} {9,B} {15,S}
+9    C 0 {6,B} {8,B} {16,S}
+10   H 0 {3,S}
+11   H 0 {4,S}
+12   H 0 {5,S}
+13   H 0 {6,S}
+14   H 0 {7,S}
+15   H 0 {8,S}
+16   H 0 {9,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27788,31 +36204,71 @@ entry(
     reactant1 = 
 """
 1  *1 C 0 {2,S} {8,S} {9,S} {10,S}
-2  *2 C 0 {1,S} {3,S} {4,S}
-3     C 0 {2,S} {6,S}
-4     C 0 {2,S} {7,S}
-5     C 0 {6,S} {7,S}
-6     C 0 {3,S} {5,S}
-7     C 0 {4,S} {5,S}
-8     C 0 {1,S}
-9     C 0 {1,S}
-10    C 0 {1,S}
+2  *2 C 0 {1,S} {3,S} {4,S} {11,S}
+3     C 0 {2,S} {6,S} {12,S} {13,S}
+4     C 0 {2,S} {7,S} {14,S} {15,S}
+5     C 0 {6,S} {7,S} {16,S} {17,S}
+6     C 0 {3,S} {5,S} {18,S} {19,S}
+7     C 0 {4,S} {5,S} {20,S} {21,S}
+8     C 0 {1,S} {22,S} {23,S} {24,S}
+9     C 0 {1,S} {25,S} {26,S} {27,S}
+10    C 0 {1,S} {28,S} {29,S} {30,S}
+11    H 0 {2,S}
+12    H 0 {3,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {6,S}
+20    H 0 {7,S}
+21    H 0 {7,S}
+22    H 0 {8,S}
+23    H 0 {8,S}
+24    H 0 {8,S}
+25    H 0 {9,S}
+26    H 0 {9,S}
+27    H 0 {9,S}
+28    H 0 {10,S}
+29    H 0 {10,S}
+30    H 0 {10,S}
 """,
     product1 = 
 """
-1   C 0 {4,S}
-2   C 0 {4,S}
-3   C 0 {4,S}
-4 * C 1 {1,S} {2,S} {3,S}
+1    C 0 {4,S} {5,S} {6,S} {7,S}
+2    C 0 {4,S} {8,S} {9,S} {10,S}
+3    C 0 {4,S} {11,S} {12,S} {13,S}
+4  * C 1 {1,S} {2,S} {3,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S} {5,S}
-4   C 0 {2,S} {6,S}
-5   C 0 {3,S} {6,S}
-6 * C 1 {4,S} {5,S}
+1    C 0 {2,S} {3,S} {7,S} {8,S}
+2    C 0 {1,S} {4,S} {9,S} {10,S}
+3    C 0 {1,S} {5,S} {11,S} {12,S}
+4    C 0 {2,S} {6,S} {13,S} {14,S}
+5    C 0 {3,S} {6,S} {15,S} {16,S}
+6  * C 1 {4,S} {5,S} {17,S}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
+15   H 0 {5,S}
+16   H 0 {5,S}
+17   H 0 {6,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27855,32 +36311,52 @@ entry(
     label = "1955REM/SZW909-913:2",
     reactant1 = 
 """
-1     C 0 {3,S} {5,S}
-2     C 0 {4,S} {6,S}
-3     C 0 {1,S}
-4     C 0 {2,S}
+1     C 0 {3,S} {5,S} {11,S} {12,S}
+2     C 0 {4,S} {6,S} {13,S} {14,S}
+3     C 0 {1,S} {15,S} {16,S} {17,S}
+4     C 0 {2,S} {18,S} {19,S} {20,S}
 5     C 0 {1,S} {7,S} {9,D}
 6     C 0 {2,S} {8,S} {10,D}
 7  *1 O 0 {5,S} {8,S}
 8  *2 O 0 {6,S} {7,S}
 9     O 0 {5,D}
 10    O 0 {6,D}
+11    H 0 {1,S}
+12    H 0 {1,S}
+13    H 0 {2,S}
+14    H 0 {2,S}
+15    H 0 {3,S}
+16    H 0 {3,S}
+17    H 0 {3,S}
+18    H 0 {4,S}
+19    H 0 {4,S}
+20    H 0 {4,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3   C 0 {1,S} {4,D} {5,S}
-4   O 0 {3,D}
-5 * O 1 {3,S}
+1    C 0 {2,S} {3,S} {6,S} {7,S}
+2    C 0 {1,S} {8,S} {9,S} {10,S}
+3    C 0 {1,S} {4,D} {5,S}
+4    O 0 {3,D}
+5  * O 1 {3,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S}
-3   C 0 {1,S} {4,S} {5,D}
-4 * O 1 {3,S}
-5   O 0 {3,D}
+1    C 0 {2,S} {3,S} {6,S} {7,S}
+2    C 0 {1,S} {8,S} {9,S} {10,S}
+3    C 0 {1,S} {4,S} {5,D}
+4  * O 1 {3,S}
+5    O 0 {3,D}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27922,32 +36398,68 @@ entry(
     label = "1987SAH/RIG2035:1",
     reactant1 = 
 """
-1     C 0 {3,S} {5,S}
-2     C 0 {4,S} {6,S}
-3     C 0 {1,S} {7,S}
-4     C 0 {2,S} {8,S}
-5     C 0 {1,S} {9,S}
-6     C 0 {2,S} {10,S}
-7     C 0 {3,S}
-8     C 0 {4,S}
+1     C 0 {3,S} {5,S} {11,S} {12,S}
+2     C 0 {4,S} {6,S} {13,S} {14,S}
+3     C 0 {1,S} {7,S} {15,S} {16,S}
+4     C 0 {2,S} {8,S} {17,S} {18,S}
+5     C 0 {1,S} {9,S} {19,S} {20,S}
+6     C 0 {2,S} {10,S} {21,S} {22,S}
+7     C 0 {3,S} {23,S} {24,S} {25,S}
+8     C 0 {4,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {5,S} {10,S}
 10 *2 O 0 {6,S} {9,S}
+11    H 0 {1,S}
+12    H 0 {1,S}
+13    H 0 {2,S}
+14    H 0 {2,S}
+15    H 0 {3,S}
+16    H 0 {3,S}
+17    H 0 {4,S}
+18    H 0 {4,S}
+19    H 0 {5,S}
+20    H 0 {5,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S}
-4   C 0 {2,S} {5,S}
-5 * O 1 {4,S}
+1    C 0 {2,S} {3,S} {6,S} {7,S}
+2    C 0 {1,S} {4,S} {8,S} {9,S}
+3    C 0 {1,S} {10,S} {11,S} {12,S}
+4    C 0 {2,S} {5,S} {13,S} {14,S}
+5  * O 1 {4,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S} {5,S}
-4   C 0 {2,S}
-5 * O 1 {3,S}
+1    C 0 {2,S} {3,S} {6,S} {7,S}
+2    C 0 {1,S} {4,S} {8,S} {9,S}
+3    C 0 {1,S} {5,S} {10,S} {11,S}
+4    C 0 {2,S} {12,S} {13,S} {14,S}
+5  * O 1 {3,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -27990,32 +36502,68 @@ entry(
     label = "1968WAL/PHI2103-2106:1",
     reactant1 = 
 """
-1     C 0 {3,S} {5,S} {9,S}
-2     C 0 {4,S} {6,S} {10,S}
-3     C 0 {1,S} {7,S}
-4     C 0 {2,S} {8,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
-7     C 0 {3,S}
-8     C 0 {4,S}
+1     C 0 {3,S} {5,S} {9,S} {11,S}
+2     C 0 {4,S} {6,S} {10,S} {12,S}
+3     C 0 {1,S} {7,S} {13,S} {14,S}
+4     C 0 {2,S} {8,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {2,S} {20,S} {21,S} {22,S}
+7     C 0 {3,S} {23,S} {24,S} {25,S}
+8     C 0 {4,S} {26,S} {27,S} {28,S}
 9  *1 O 0 {1,S} {10,S}
 10 *2 O 0 {2,S} {9,S}
+11    H 0 {1,S}
+12    H 0 {2,S}
+13    H 0 {3,S}
+14    H 0 {3,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {5,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S}
-4   C 0 {2,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {4,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {2,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {5,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S}
-4   C 0 {2,S}
-5 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {4,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {2,S} {12,S} {13,S} {14,S}
+5  * O 1 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -28054,34 +36602,62 @@ entry(
     label = "1990WAL/TSA3324:4",
     reactant1 = 
 """
-1     C 0 {2,S} {3,S}
-2     C 0 {1,S} {4,S}
-3  *1 C 0 {1,S} {11,S}
-4     C 0 {2,S}
+1     C 0 {2,S} {3,S} {12,S} {13,S}
+2     C 0 {1,S} {4,S} {14,S} {15,S}
+3  *1 C 0 {1,S} {11,S} {16,S} {17,S}
+4     C 0 {2,S} {18,S} {19,S} {20,S}
 5     C 0 {6,B} {7,B} {11,S}
-6     C 0 {5,B} {9,B}
-7     C 0 {5,B} {10,B}
-8     C 0 {9,B} {10,B}
-9     C 0 {6,B} {8,B}
-10    C 0 {7,B} {8,B}
+6     C 0 {5,B} {9,B} {21,S}
+7     C 0 {5,B} {10,B} {22,S}
+8     C 0 {9,B} {10,B} {23,S}
+9     C 0 {6,B} {8,B} {24,S}
+10    C 0 {7,B} {8,B} {25,S}
 11 *2 O 0 {3,S} {5,S}
+12    H 0 {1,S}
+13    H 0 {1,S}
+14    H 0 {2,S}
+15    H 0 {2,S}
+16    H 0 {3,S}
+17    H 0 {3,S}
+18    H 0 {4,S}
+19    H 0 {4,S}
+20    H 0 {4,S}
+21    H 0 {6,S}
+22    H 0 {7,S}
+23    H 0 {8,S}
+24    H 0 {9,S}
+25    H 0 {10,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B} {7,S}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6   C 0 {4,B} {5,B}
-7 * O 1 {2,S}
+1    C 0 {2,B} {3,B} {8,S}
+2    C 0 {1,B} {4,B} {7,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6    C 0 {4,B} {5,B} {12,S}
+7  * O 1 {2,S}
+8    H 0 {1,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S}
-4 * C 1 {2,S}
+1    C 0 {2,S} {3,S} {5,S} {6,S}
+2    C 0 {1,S} {4,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4  * C 1 {2,S} {12,S} {13,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -28123,36 +36699,64 @@ entry(
     label = "1955REM/SZW909-913:1",
     reactant1 = 
 """
-1     C 0 {3,S} {5,S}
-2     C 0 {4,S} {6,S}
-3     C 0 {1,S} {7,S}
-4     C 0 {2,S} {8,S}
-5     C 0 {1,S}
-6     C 0 {2,S}
+1     C 0 {3,S} {5,S} {13,S} {14,S}
+2     C 0 {4,S} {6,S} {15,S} {16,S}
+3     C 0 {1,S} {7,S} {17,S} {18,S}
+4     C 0 {2,S} {8,S} {19,S} {20,S}
+5     C 0 {1,S} {21,S} {22,S} {23,S}
+6     C 0 {2,S} {24,S} {25,S} {26,S}
 7     C 0 {3,S} {9,S} {11,D}
 8     C 0 {4,S} {10,S} {12,D}
 9  *1 O 0 {7,S} {10,S}
 10 *2 O 0 {8,S} {9,S}
 11    O 0 {7,D}
 12    O 0 {8,D}
+13    H 0 {1,S}
+14    H 0 {1,S}
+15    H 0 {2,S}
+16    H 0 {2,S}
+17    H 0 {3,S}
+18    H 0 {3,S}
+19    H 0 {4,S}
+20    H 0 {4,S}
+21    H 0 {5,S}
+22    H 0 {5,S}
+23    H 0 {5,S}
+24    H 0 {6,S}
+25    H 0 {6,S}
+26    H 0 {6,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S}
-4   C 0 {2,S} {5,D} {6,S}
-5   O 0 {4,D}
-6 * O 1 {4,S}
+1    C 0 {2,S} {3,S} {7,S} {8,S}
+2    C 0 {1,S} {4,S} {9,S} {10,S}
+3    C 0 {1,S} {11,S} {12,S} {13,S}
+4    C 0 {2,S} {5,D} {6,S}
+5    O 0 {4,D}
+6  * O 1 {4,S}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S}
-2   C 0 {1,S} {4,S}
-3   C 0 {1,S}
-4   C 0 {2,S} {5,S} {6,D}
-5 * O 1 {4,S}
-6   O 0 {4,D}
+1    C 0 {2,S} {3,S} {7,S} {8,S}
+2    C 0 {1,S} {4,S} {9,S} {10,S}
+3    C 0 {1,S} {11,S} {12,S} {13,S}
+4    C 0 {2,S} {5,S} {6,D}
+5  * O 1 {4,S}
+6    O 0 {4,D}
+7    H 0 {1,S}
+8    H 0 {1,S}
+9    H 0 {2,S}
+10   H 0 {2,S}
+11   H 0 {3,S}
+12   H 0 {3,S}
+13   H 0 {3,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -28194,36 +36798,56 @@ entry(
     label = "1997PAR/LIN14-18:2",
     reactant1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     reactant2 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     product1 = 
 """
 1  *1 C 0 {2,S} {3,B} {4,B}
 2  *2 C 0 {1,S} {5,B} {6,B}
-3     C 0 {1,B} {8,B}
-4     C 0 {1,B} {9,B}
-5     C 0 {2,B} {11,B}
-6     C 0 {2,B} {12,B}
-7     C 0 {8,B} {9,B}
-8     C 0 {3,B} {7,B}
-9     C 0 {4,B} {7,B}
-10    C 0 {11,B} {12,B}
-11    C 0 {5,B} {10,B}
-12    C 0 {6,B} {10,B}
+3     C 0 {1,B} {8,B} {13,S}
+4     C 0 {1,B} {9,B} {14,S}
+5     C 0 {2,B} {11,B} {15,S}
+6     C 0 {2,B} {12,B} {16,S}
+7     C 0 {8,B} {9,B} {17,S}
+8     C 0 {3,B} {7,B} {18,S}
+9     C 0 {4,B} {7,B} {19,S}
+10    C 0 {11,B} {12,B} {20,S}
+11    C 0 {5,B} {10,B} {21,S}
+12    C 0 {6,B} {10,B} {22,S}
+13    H 0 {3,S}
+14    H 0 {4,S}
+15    H 0 {5,S}
+16    H 0 {6,S}
+17    H 0 {7,S}
+18    H 0 {8,S}
+19    H 0 {9,S}
+20    H 0 {10,S}
+21    H 0 {11,S}
+22    H 0 {12,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -28267,34 +36891,78 @@ entry(
 """
 1     C 0 {3,S} {5,S} {6,S} {11,S}
 2     C 0 {4,S} {7,S} {8,S} {12,S}
-3     C 0 {1,S} {9,S}
-4     C 0 {2,S} {10,S}
-5     C 0 {1,S}
-6     C 0 {1,S}
-7     C 0 {2,S}
-8     C 0 {2,S}
-9     C 0 {3,S}
-10    C 0 {4,S}
+3     C 0 {1,S} {9,S} {13,S} {14,S}
+4     C 0 {2,S} {10,S} {15,S} {16,S}
+5     C 0 {1,S} {17,S} {18,S} {19,S}
+6     C 0 {1,S} {20,S} {21,S} {22,S}
+7     C 0 {2,S} {23,S} {24,S} {25,S}
+8     C 0 {2,S} {26,S} {27,S} {28,S}
+9     C 0 {3,S} {29,S} {30,S} {31,S}
+10    C 0 {4,S} {32,S} {33,S} {34,S}
 11 *1 O 0 {1,S} {12,S}
 12 *2 O 0 {2,S} {11,S}
+13    H 0 {3,S}
+14    H 0 {3,S}
+15    H 0 {4,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {5,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {6,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {7,S}
+25    H 0 {7,S}
+26    H 0 {8,S}
+27    H 0 {8,S}
+28    H 0 {8,S}
+29    H 0 {9,S}
+30    H 0 {9,S}
+31    H 0 {9,S}
+32    H 0 {10,S}
+33    H 0 {10,S}
+34    H 0 {10,S}
 """,
     product1 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {6,S}
-2   C 0 {1,S} {5,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5   C 0 {2,S}
-6 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {6,S}
+2    C 0 {1,S} {5,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5    C 0 {2,S} {15,S} {16,S} {17,S}
+6  * O 1 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
+15   H 0 {5,S}
+16   H 0 {5,S}
+17   H 0 {5,S}
 """,
     product2 = 
 """
-1   C 0 {2,S} {3,S} {4,S} {6,S}
-2   C 0 {1,S} {5,S}
-3   C 0 {1,S}
-4   C 0 {1,S}
-5   C 0 {2,S}
-6 * O 1 {1,S}
+1    C 0 {2,S} {3,S} {4,S} {6,S}
+2    C 0 {1,S} {5,S} {7,S} {8,S}
+3    C 0 {1,S} {9,S} {10,S} {11,S}
+4    C 0 {1,S} {12,S} {13,S} {14,S}
+5    C 0 {2,S} {15,S} {16,S} {17,S}
+6  * O 1 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {3,S}
+11   H 0 {3,S}
+12   H 0 {4,S}
+13   H 0 {4,S}
+14   H 0 {4,S}
+15   H 0 {5,S}
+16   H 0 {5,S}
+17   H 0 {5,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -28334,36 +37002,58 @@ entry(
     label = "1984ROS/MCM5031:2",
     reactant1 = 
 """
-1  *1 C 0 {2,S} {3,S} {14,S}
+1  *1 C 0 {2,S} {3,S} {14,S} {15,S}
 2     C 0 {1,S} {4,B} {5,B}
 3     C 0 {1,S} {6,B} {7,B}
-4     C 0 {2,B} {10,B}
-5     C 0 {2,B} {11,B}
-6     C 0 {3,B} {12,B}
-7     C 0 {3,B} {13,B}
-8     C 0 {10,B} {11,B}
-9     C 0 {12,B} {13,B}
-10    C 0 {4,B} {8,B}
-11    C 0 {5,B} {8,B}
-12    C 0 {6,B} {9,B}
-13    C 0 {7,B} {9,B}
+4     C 0 {2,B} {10,B} {16,S}
+5     C 0 {2,B} {11,B} {17,S}
+6     C 0 {3,B} {12,B} {18,S}
+7     C 0 {3,B} {13,B} {19,S}
+8     C 0 {10,B} {11,B} {20,S}
+9     C 0 {12,B} {13,B} {21,S}
+10    C 0 {4,B} {8,B} {22,S}
+11    C 0 {5,B} {8,B} {23,S}
+12    C 0 {6,B} {9,B} {24,S}
+13    C 0 {7,B} {9,B} {25,S}
 14 *2 H 0 {1,S}
+15    H 0 {1,S}
+16    H 0 {4,S}
+17    H 0 {5,S}
+18    H 0 {6,S}
+19    H 0 {7,S}
+20    H 0 {8,S}
+21    H 0 {9,S}
+22    H 0 {10,S}
+23    H 0 {11,S}
+24    H 0 {12,S}
+25    H 0 {13,S}
 """,
     product1 = 
 """
 1    C 0 {3,S} {4,B} {5,B}
 2    C 0 {3,S} {6,B} {7,B}
-3  * C 1 {1,S} {2,S}
-4    C 0 {1,B} {8,B}
-5    C 0 {1,B} {10,B}
-6    C 0 {2,B} {11,B}
-7    C 0 {2,B} {12,B}
-8    C 0 {4,B} {9,B}
-9    C 0 {8,B} {10,B}
-10   C 0 {5,B} {9,B}
-11   C 0 {6,B} {13,B}
-12   C 0 {7,B} {13,B}
-13   C 0 {11,B} {12,B}
+3  * C 1 {1,S} {2,S} {14,S}
+4    C 0 {1,B} {8,B} {15,S}
+5    C 0 {1,B} {10,B} {16,S}
+6    C 0 {2,B} {11,B} {17,S}
+7    C 0 {2,B} {12,B} {18,S}
+8    C 0 {4,B} {9,B} {19,S}
+9    C 0 {8,B} {10,B} {20,S}
+10   C 0 {5,B} {9,B} {21,S}
+11   C 0 {6,B} {13,B} {22,S}
+12   C 0 {7,B} {13,B} {23,S}
+13   C 0 {11,B} {12,B} {24,S}
+14   H 0 {3,S}
+15   H 0 {4,S}
+16   H 0 {5,S}
+17   H 0 {6,S}
+18   H 0 {7,S}
+19   H 0 {8,S}
+20   H 0 {9,S}
+21   H 0 {10,S}
+22   H 0 {11,S}
+23   H 0 {12,S}
+24   H 0 {13,S}
 """,
     product2 = 
 """
@@ -28409,36 +37099,56 @@ entry(
 """
 1  *1 C 0 {3,B} {4,B} {13,S}
 2     C 0 {5,B} {6,B} {13,S}
-3     C 0 {1,B} {9,B}
-4     C 0 {1,B} {10,B}
-5     C 0 {2,B} {11,B}
-6     C 0 {2,B} {12,B}
-7     C 0 {9,B} {10,B}
-8     C 0 {11,B} {12,B}
-9     C 0 {3,B} {7,B}
-10    C 0 {4,B} {7,B}
-11    C 0 {5,B} {8,B}
-12    C 0 {6,B} {8,B}
+3     C 0 {1,B} {9,B} {14,S}
+4     C 0 {1,B} {10,B} {15,S}
+5     C 0 {2,B} {11,B} {16,S}
+6     C 0 {2,B} {12,B} {17,S}
+7     C 0 {9,B} {10,B} {18,S}
+8     C 0 {11,B} {12,B} {19,S}
+9     C 0 {3,B} {7,B} {20,S}
+10    C 0 {4,B} {7,B} {21,S}
+11    C 0 {5,B} {8,B} {22,S}
+12    C 0 {6,B} {8,B} {23,S}
 13 *2 O 0 {1,S} {2,S}
+14    H 0 {3,S}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {6,S}
+18    H 0 {7,S}
+19    H 0 {8,S}
+20    H 0 {9,S}
+21    H 0 {10,S}
+22    H 0 {11,S}
+23    H 0 {12,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B} {7,S}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6   C 0 {4,B} {5,B}
-7 * O 1 {2,S}
+1    C 0 {2,B} {3,B} {8,S}
+2    C 0 {1,B} {4,B} {7,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6    C 0 {4,B} {5,B} {12,S}
+7  * O 1 {2,S}
+8    H 0 {1,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
+12   H 0 {6,S}
 """,
     product2 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -28484,37 +37194,57 @@ entry(
 1  *1 C 0 {3,S} {4,B} {5,B}
 2     C 0 {3,S} {6,B} {7,B}
 3  *2 C 0 {1,S} {2,S} {14,D}
-4     C 0 {1,B} {10,B}
-5     C 0 {1,B} {11,B}
-6     C 0 {2,B} {12,B}
-7     C 0 {2,B} {13,B}
-8     C 0 {10,B} {11,B}
-9     C 0 {12,B} {13,B}
-10    C 0 {4,B} {8,B}
-11    C 0 {5,B} {8,B}
-12    C 0 {6,B} {9,B}
-13    C 0 {7,B} {9,B}
+4     C 0 {1,B} {10,B} {15,S}
+5     C 0 {1,B} {11,B} {16,S}
+6     C 0 {2,B} {12,B} {17,S}
+7     C 0 {2,B} {13,B} {18,S}
+8     C 0 {10,B} {11,B} {19,S}
+9     C 0 {12,B} {13,B} {20,S}
+10    C 0 {4,B} {8,B} {21,S}
+11    C 0 {5,B} {8,B} {22,S}
+12    C 0 {6,B} {9,B} {23,S}
+13    C 0 {7,B} {9,B} {24,S}
 14    O 0 {3,D}
+15    H 0 {4,S}
+16    H 0 {5,S}
+17    H 0 {6,S}
+18    H 0 {7,S}
+19    H 0 {8,S}
+20    H 0 {9,S}
+21    H 0 {10,S}
+22    H 0 {11,S}
+23    H 0 {12,S}
+24    H 0 {13,S}
 """,
     product1 = 
 """
-1   C 0 {2,B} {3,B} {7,S}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {6,B}
-4   C 0 {2,B} {5,B}
-5   C 0 {4,B} {6,B}
-6   C 0 {3,B} {5,B}
-7 * C 1 {1,S} {8,D}
-8   O 0 {7,D}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {9,S}
+3    C 0 {1,B} {6,B} {10,S}
+4    C 0 {2,B} {5,B} {11,S}
+5    C 0 {4,B} {6,B} {12,S}
+6    C 0 {3,B} {5,B} {13,S}
+7  * C 1 {1,S} {8,D}
+8    O 0 {7,D}
+9    H 0 {2,S}
+10   H 0 {3,S}
+11   H 0 {4,S}
+12   H 0 {5,S}
+13   H 0 {6,S}
 """,
     product2 = 
 """
-1   C 0 {2,B} {3,B}
-2   C 0 {1,B} {4,B}
-3   C 0 {1,B} {5,B}
-4   C 0 {2,B} {6,B}
-5   C 0 {3,B} {6,B}
-6 * C 1 {4,B} {5,B}
+1    C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {4,B} {8,S}
+3    C 0 {1,B} {5,B} {9,S}
+4    C 0 {2,B} {6,B} {10,S}
+5    C 0 {3,B} {6,B} {11,S}
+6  * C 1 {4,B} {5,B}
+7    H 0 {1,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+10   H 0 {4,S}
+11   H 0 {5,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -28555,40 +37285,68 @@ entry(
     label = "1986ROB/STE3224-3229:1",
     reactant1 = 
 """
-1  *1 C 0 {2,S} {3,S} {4,S}
-2  *2 C 0 {1,S}
+1  *1 C 0 {2,S} {3,S} {4,S} {15,S}
+2  *2 C 0 {1,S} {16,S} {17,S} {18,S}
 3     C 0 {1,S} {5,B} {6,B}
 4     C 0 {1,S} {7,B} {8,B}
-5     C 0 {3,B} {11,B}
-6     C 0 {3,B} {12,B}
-7     C 0 {4,B} {13,B}
-8     C 0 {4,B} {14,B}
-9     C 0 {11,B} {12,B}
-10    C 0 {13,B} {14,B}
-11    C 0 {5,B} {9,B}
-12    C 0 {6,B} {9,B}
-13    C 0 {7,B} {10,B}
-14    C 0 {8,B} {10,B}
+5     C 0 {3,B} {11,B} {19,S}
+6     C 0 {3,B} {12,B} {20,S}
+7     C 0 {4,B} {13,B} {21,S}
+8     C 0 {4,B} {14,B} {22,S}
+9     C 0 {11,B} {12,B} {23,S}
+10    C 0 {13,B} {14,B} {24,S}
+11    C 0 {5,B} {9,B} {25,S}
+12    C 0 {6,B} {9,B} {26,S}
+13    C 0 {7,B} {10,B} {27,S}
+14    C 0 {8,B} {10,B} {28,S}
+15    H 0 {1,S}
+16    H 0 {2,S}
+17    H 0 {2,S}
+18    H 0 {2,S}
+19    H 0 {5,S}
+20    H 0 {6,S}
+21    H 0 {7,S}
+22    H 0 {8,S}
+23    H 0 {9,S}
+24    H 0 {10,S}
+25    H 0 {11,S}
+26    H 0 {12,S}
+27    H 0 {13,S}
+28    H 0 {14,S}
 """,
     product1 = 
 """
 1    C 0 {3,S} {4,B} {5,B}
 2    C 0 {3,S} {6,B} {7,B}
-3  * C 1 {1,S} {2,S}
-4    C 0 {1,B} {8,B}
-5    C 0 {1,B} {10,B}
-6    C 0 {2,B} {11,B}
-7    C 0 {2,B} {12,B}
-8    C 0 {4,B} {9,B}
-9    C 0 {8,B} {10,B}
-10   C 0 {5,B} {9,B}
-11   C 0 {6,B} {13,B}
-12   C 0 {7,B} {13,B}
-13   C 0 {11,B} {12,B}
+3  * C 1 {1,S} {2,S} {14,S}
+4    C 0 {1,B} {8,B} {15,S}
+5    C 0 {1,B} {10,B} {16,S}
+6    C 0 {2,B} {11,B} {17,S}
+7    C 0 {2,B} {12,B} {18,S}
+8    C 0 {4,B} {9,B} {19,S}
+9    C 0 {8,B} {10,B} {20,S}
+10   C 0 {5,B} {9,B} {21,S}
+11   C 0 {6,B} {13,B} {22,S}
+12   C 0 {7,B} {13,B} {23,S}
+13   C 0 {11,B} {12,B} {24,S}
+14   H 0 {3,S}
+15   H 0 {4,S}
+16   H 0 {5,S}
+17   H 0 {6,S}
+18   H 0 {7,S}
+19   H 0 {8,S}
+20   H 0 {9,S}
+21   H 0 {10,S}
+22   H 0 {11,S}
+23   H 0 {12,S}
+24   H 0 {13,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
@@ -28629,41 +37387,73 @@ entry(
     reactant1 = 
 """
 1  *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *2 C 0 {1,S}
-3     C 0 {1,S}
+2  *2 C 0 {1,S} {16,S} {17,S} {18,S}
+3     C 0 {1,S} {19,S} {20,S} {21,S}
 4     C 0 {1,S} {6,B} {7,B}
 5     C 0 {1,S} {8,B} {9,B}
-6     C 0 {4,B} {12,B}
-7     C 0 {4,B} {13,B}
-8     C 0 {5,B} {14,B}
-9     C 0 {5,B} {15,B}
-10    C 0 {12,B} {13,B}
-11    C 0 {14,B} {15,B}
-12    C 0 {6,B} {10,B}
-13    C 0 {7,B} {10,B}
-14    C 0 {8,B} {11,B}
-15    C 0 {9,B} {11,B}
+6     C 0 {4,B} {12,B} {22,S}
+7     C 0 {4,B} {13,B} {23,S}
+8     C 0 {5,B} {14,B} {24,S}
+9     C 0 {5,B} {15,B} {25,S}
+10    C 0 {12,B} {13,B} {26,S}
+11    C 0 {14,B} {15,B} {27,S}
+12    C 0 {6,B} {10,B} {28,S}
+13    C 0 {7,B} {10,B} {29,S}
+14    C 0 {8,B} {11,B} {30,S}
+15    C 0 {9,B} {11,B} {31,S}
+16    H 0 {2,S}
+17    H 0 {2,S}
+18    H 0 {2,S}
+19    H 0 {3,S}
+20    H 0 {3,S}
+21    H 0 {3,S}
+22    H 0 {6,S}
+23    H 0 {7,S}
+24    H 0 {8,S}
+25    H 0 {9,S}
+26    H 0 {10,S}
+27    H 0 {11,S}
+28    H 0 {12,S}
+29    H 0 {13,S}
+30    H 0 {14,S}
+31    H 0 {15,S}
 """,
     product1 = 
 """
-1    C 0 {2,S}
+1    C 0 {2,S} {15,S} {16,S} {17,S}
 2  * C 1 {1,S} {3,S} {4,S}
 3    C 0 {2,S} {5,B} {6,B}
 4    C 0 {2,S} {7,B} {8,B}
-5    C 0 {3,B} {9,B}
-6    C 0 {3,B} {11,B}
-7    C 0 {4,B} {12,B}
-8    C 0 {4,B} {13,B}
-9    C 0 {5,B} {10,B}
-10   C 0 {9,B} {11,B}
-11   C 0 {6,B} {10,B}
-12   C 0 {7,B} {14,B}
-13   C 0 {8,B} {14,B}
-14   C 0 {12,B} {13,B}
+5    C 0 {3,B} {9,B} {18,S}
+6    C 0 {3,B} {11,B} {19,S}
+7    C 0 {4,B} {12,B} {20,S}
+8    C 0 {4,B} {13,B} {21,S}
+9    C 0 {5,B} {10,B} {22,S}
+10   C 0 {9,B} {11,B} {23,S}
+11   C 0 {6,B} {10,B} {24,S}
+12   C 0 {7,B} {14,B} {25,S}
+13   C 0 {8,B} {14,B} {26,S}
+14   C 0 {12,B} {13,B} {27,S}
+15   H 0 {1,S}
+16   H 0 {1,S}
+17   H 0 {1,S}
+18   H 0 {5,S}
+19   H 0 {6,S}
+20   H 0 {7,S}
+21   H 0 {8,S}
+22   H 0 {9,S}
+23   H 0 {10,S}
+24   H 0 {11,S}
+25   H 0 {12,S}
+26   H 0 {13,S}
+27   H 0 {14,S}
 """,
     product2 = 
 """
-1 * C 1
+1 * C 1 {2,S} {3,S} {4,S}
+2   H 0 {1,S}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     degeneracy = 4,
     kinetics = Arrhenius(
@@ -28705,16 +37495,16 @@ entry(
 """
 1  *1 C 0 {2,S} {3,S} {13,S} {14,S}
 2  *2 C 0 {1,S} {4,S} {15,S} {16,S}
-3     C 0 {1,S}
-4     C 0 {2,S}
-5     C 0 {13,S}
-6     C 0 {14,S}
-7     C 0 {15,S}
-8     C 0 {16,S}
-9     C 0 {17,S}
-10    C 0 {18,S}
-11    C 0 {19,S}
-12    C 0 {20,S}
+3     C 0 {1,S} {21,S} {22,S} {23,S}
+4     C 0 {2,S} {24,S} {25,S} {26,S}
+5     C 0 {13,S} {27,S} {28,S} {29,S}
+6     C 0 {14,S} {30,S} {31,S} {32,S}
+7     C 0 {15,S} {33,S} {34,S} {35,S}
+8     C 0 {16,S} {36,S} {37,S} {38,S}
+9     C 0 {17,S} {39,S} {40,S} {41,S}
+10    C 0 {18,S} {42,S} {43,S} {44,S}
+11    C 0 {19,S} {45,S} {46,S} {47,S}
+12    C 0 {20,S} {48,S} {49,S} {50,S}
 13    C 0 {1,S} {5,S} {17,D}
 14    C 0 {1,S} {6,S} {18,D}
 15    C 0 {2,S} {7,S} {19,D}
@@ -28723,32 +37513,92 @@ entry(
 18    C 0 {10,S} {14,D} {17,S}
 19    C 0 {11,S} {15,D} {20,S}
 20    C 0 {12,S} {16,D} {19,S}
+21    H 0 {3,S}
+22    H 0 {3,S}
+23    H 0 {3,S}
+24    H 0 {4,S}
+25    H 0 {4,S}
+26    H 0 {4,S}
+27    H 0 {5,S}
+28    H 0 {5,S}
+29    H 0 {5,S}
+30    H 0 {6,S}
+31    H 0 {6,S}
+32    H 0 {6,S}
+33    H 0 {7,S}
+34    H 0 {7,S}
+35    H 0 {7,S}
+36    H 0 {8,S}
+37    H 0 {8,S}
+38    H 0 {8,S}
+39    H 0 {9,S}
+40    H 0 {9,S}
+41    H 0 {9,S}
+42    H 0 {10,S}
+43    H 0 {10,S}
+44    H 0 {10,S}
+45    H 0 {11,S}
+46    H 0 {11,S}
+47    H 0 {11,S}
+48    H 0 {12,S}
+49    H 0 {12,S}
+50    H 0 {12,S}
 """,
     product1 = 
 """
-1    C 0 {6,S}
-2    C 0 {7,S}
-3    C 0 {8,S}
-4    C 0 {9,S}
-5    C 0 {10,S}
+1    C 0 {6,S} {11,S} {12,S} {13,S}
+2    C 0 {7,S} {14,S} {15,S} {16,S}
+3    C 0 {8,S} {17,S} {18,S} {19,S}
+4    C 0 {9,S} {20,S} {21,S} {22,S}
+5    C 0 {10,S} {23,S} {24,S} {25,S}
 6    C 0 {1,S} {7,S} {8,D}
 7  * C 1 {2,S} {6,S} {9,S}
 8    C 0 {3,S} {6,D} {10,S}
 9    C 0 {4,S} {7,S} {10,D}
 10   C 0 {5,S} {8,S} {9,D}
+11   H 0 {1,S}
+12   H 0 {1,S}
+13   H 0 {1,S}
+14   H 0 {2,S}
+15   H 0 {2,S}
+16   H 0 {2,S}
+17   H 0 {3,S}
+18   H 0 {3,S}
+19   H 0 {3,S}
+20   H 0 {4,S}
+21   H 0 {4,S}
+22   H 0 {4,S}
+23   H 0 {5,S}
+24   H 0 {5,S}
+25   H 0 {5,S}
 """,
     product2 = 
 """
-1    C 0 {6,S}
-2    C 0 {7,S}
-3    C 0 {8,S}
-4    C 0 {9,S}
-5    C 0 {10,S}
+1    C 0 {6,S} {11,S} {12,S} {13,S}
+2    C 0 {7,S} {14,S} {15,S} {16,S}
+3    C 0 {8,S} {17,S} {18,S} {19,S}
+4    C 0 {9,S} {20,S} {21,S} {22,S}
+5    C 0 {10,S} {23,S} {24,S} {25,S}
 6  * C 1 {1,S} {7,S} {8,S}
 7    C 0 {2,S} {6,S} {9,D}
 8    C 0 {3,S} {6,S} {10,D}
 9    C 0 {4,S} {7,D} {10,S}
 10   C 0 {5,S} {8,D} {9,S}
+11   H 0 {1,S}
+12   H 0 {1,S}
+13   H 0 {1,S}
+14   H 0 {2,S}
+15   H 0 {2,S}
+16   H 0 {2,S}
+17   H 0 {3,S}
+18   H 0 {3,S}
+19   H 0 {3,S}
+20   H 0 {4,S}
+21   H 0 {4,S}
+22   H 0 {4,S}
+23   H 0 {5,S}
+24   H 0 {5,S}
+25   H 0 {5,S}
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
