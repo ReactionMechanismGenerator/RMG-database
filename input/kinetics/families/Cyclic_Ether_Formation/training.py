@@ -14,24 +14,30 @@ entry(
     reactant1 = 
 """
 hydroperoxyl-vinoxy
-1  *1 C     1 {3,S}
-2     O     0 {3,D}
-3  *4 C     0 {1,S} {2,D} {4,S}
-4  *2 O     0 {3,S} {5,S}
-5  *3 O     0 {4,S}
+1 *1 C 1 {3,S} {6,S} {7,S}
+2    O 0 {3,D}
+3 *4 C 0 {1,S} {2,D} {4,S}
+4 *2 O 0 {3,S} {5,S}
+5 *3 O 0 {4,S} {8,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {5,S}
 """,
     product1 = 
 """
 lactone
-1  *1 C     0 {2,S} {3,S}
-2  *4 C     0 {1,S} {3,S} {4,D}
-3  *2 O     0 {1,S} {2,S}
-4     O     0 {2,D}
+1 *1 C 0 {2,S} {3,S} {5,S} {6,S}
+2 *4 C 0 {1,S} {3,S} {4,D}
+3 *2 O 0 {1,S} {2,S}
+4    O 0 {2,D}
+5    H 0 {1,S}
+6    H 0 {1,S}
 """,
     product2 = 
 """
 OH
-1  *3 O     1
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
