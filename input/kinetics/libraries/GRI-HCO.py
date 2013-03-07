@@ -13,13 +13,16 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
@@ -35,7 +38,9 @@ CO
     product3 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.5e+18, 'cm^3/(mol*s)'), n=-1, Ea=(17000, 'cal/mol'), T0=(1, 'K')),
@@ -57,8 +62,9 @@ entry(
     reactant1 = 
 """
 HCO
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
 """,
     product1 = 
 """

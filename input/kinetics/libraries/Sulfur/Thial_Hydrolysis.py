@@ -13,20 +13,28 @@ entry(
     reactant1 = 
 """
 CH2S
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 S 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     reactant2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 CH2OHSH
-1 C 0 {2,S} {3,S}
-2 S 0 {1,S}
-3 O 0 {1,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 S 0 {1,S} {6,S}
+3 O 0 {1,S} {7,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
+7 H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(960, 'cm^3/(mol*s)'), n=2.43, Ea=(28.13, 'kcal/mol'), T0=(1, 'K')),
@@ -47,22 +55,34 @@ entry(
     reactant1 = 
 """
 CH3CHS
-1 C 0 {2,D} {3,S}
+1 C 0 {2,D} {3,S} {4,S}
 2 S 0 {1,D}
-3 C 0 {1,S}
+3 C 0 {1,S} {5,S} {6,S} {7,S}
+4 H 0 {1,S}
+5 H 0 {3,S}
+6 H 0 {3,S}
+7 H 0 {3,S}
 """,
     reactant2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 CHCH3OHSH
-1 C 0 {2,S} {3,S} {4,S}
-2 C 0 {1,S}
-3 S 0 {1,S}
-4 O 0 {1,S}
+1  C 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 {1,S} {6,S} {7,S} {8,S}
+3  S 0 {1,S} {9,S}
+4  O 0 {1,S} {10,S}
+5  H 0 {1,S}
+6  H 0 {2,S}
+7  H 0 {2,S}
+8  H 0 {2,S}
+9  H 0 {3,S}
+10 H 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(15.4, 'cm^3/(mol*s)'), n=2.78, Ea=(27.8, 'kcal/mol'), T0=(1, 'K')),
@@ -83,16 +103,21 @@ entry(
     reactant1 = 
 """
 CH2OHSJ
-1 C 0 {2,S} {3,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
 2 S 1 {1,S}
-3 O 0 {1,S}
+3 O 0 {1,S} {6,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {3,S}
 """,
     product1 = 
 """
 CHOHS
-1 C 0 {2,S} {3,D}
-2 O 0 {1,S}
+1 C 0 {2,S} {3,D} {4,S}
+2 O 0 {1,S} {5,S}
 3 S 0 {1,D}
+4 H 0 {1,S}
+5 H 0 {2,S}
 """,
     product2 = 
 """
@@ -118,22 +143,32 @@ entry(
     reactant1 = 
 """
 CHCH3OHSJ
-1 C 0 {2,S} {3,S} {4,S}
-2 C 0 {1,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 C 0 {1,S} {6,S} {7,S} {8,S}
 3 S 1 {1,S}
-4 O 0 {1,S}
+4 O 0 {1,S} {9,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
+7 H 0 {2,S}
+8 H 0 {2,S}
+9 H 0 {4,S}
 """,
     product1 = 
 """
 CHOHS
-1 C 0 {2,S} {3,D}
-2 O 0 {1,S}
+1 C 0 {2,S} {3,D} {4,S}
+2 O 0 {1,S} {5,S}
 3 S 0 {1,D}
+4 H 0 {1,S}
+5 H 0 {2,S}
 """,
     product2 = 
 """
 CH3J
-1 C 1
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(40900000000.0, 's^-1'), n=1.02, Ea=(29.9, 'kcal/mol'), T0=(1, 'K')),
@@ -154,16 +189,20 @@ entry(
     reactant1 = 
 """
 CHOHS
-1 C 0 {2,S} {3,D}
-2 O 0 {1,S}
+1 C 0 {2,S} {3,D} {4,S}
+2 O 0 {1,S} {5,S}
 3 S 0 {1,D}
+4 H 0 {1,S}
+5 H 0 {2,S}
 """,
     product1 = 
 """
 CHOSH
-1 C 0 {2,D} {3,S}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
-3 S 0 {1,S}
+3 S 0 {1,S} {5,S}
+4 H 0 {1,S}
+5 H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -189,9 +228,10 @@ entry(
     reactant1 = 
 """
 CHOSJ
-1 C 0 {2,D} {3,S}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
 3 S 1 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
@@ -231,15 +271,19 @@ COS
     reactant2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 CSOHOH
 1 C 0 {2,D} {3,S} {4,S}
 2 S 0 {1,D}
-3 O 0 {1,S}
-4 O 0 {1,S}
+3 O 0 {1,S} {5,S}
+4 O 0 {1,S} {6,S}
+5 H 0 {3,S}
+6 H 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(9.16, 'cm^3/(mol*s)'), n=3.67, Ea=(27.56, 'kcal/mol'), T0=(1, 'K')),
@@ -262,16 +306,20 @@ entry(
 CSOHOH
 1 C 0 {2,D} {3,S} {4,S}
 2 S 0 {1,D}
-3 O 0 {1,S}
-4 O 0 {1,S}
+3 O 0 {1,S} {5,S}
+4 O 0 {1,S} {6,S}
+5 H 0 {3,S}
+6 H 0 {4,S}
 """,
     product1 = 
 """
 COSHOH
 1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
-3 S 0 {1,S}
-4 O 0 {1,S}
+3 S 0 {1,S} {5,S}
+4 O 0 {1,S} {6,S}
+5 H 0 {3,S}
+6 H 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -299,8 +347,10 @@ entry(
 COSHOH
 1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
-3 S 0 {1,S}
-4 O 0 {1,S}
+3 S 0 {1,S} {5,S}
+4 O 0 {1,S} {6,S}
+5 H 0 {3,S}
+6 H 0 {4,S}
 """,
     product1 = 
 """
@@ -312,7 +362,9 @@ CO2
     product2 = 
 """
 H2S
-1 S 0
+1 S 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -345,15 +397,19 @@ COS
     reactant2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 COSHOH
 1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
-3 S 0 {1,S}
-4 O 0 {1,S}
+3 S 0 {1,S} {5,S}
+4 O 0 {1,S} {6,S}
+5 H 0 {3,S}
+6 H 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(13, 'cm^3/(mol*s)'), n=3.35, Ea=(25.79, 'kcal/mol'), T0=(1, 'K')),
@@ -374,20 +430,28 @@ entry(
     reactant1 = 
 """
 H2S
-1 S 0
+1 S 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
 CH2O
-1 C 0 {2,D}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
+3 H 0 {1,S}
+4 H 0 {1,S}
 """,
     product1 = 
 """
 CH2OHSH
-1 C 0 {2,S} {3,S}
-2 S 0 {1,S}
-3 O 0 {1,S}
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 S 0 {1,S} {6,S}
+3 O 0 {1,S} {7,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+6 H 0 {2,S}
+7 H 0 {3,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(50.2, 'cm^3/(mol*s)'), n=3.01, Ea=(38.7, 'kcal/mol'), T0=(1, 'K')),
@@ -408,22 +472,34 @@ entry(
     reactant1 = 
 """
 H2S
-1 S 0
+1 S 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
 CH3CHO
-1 C 0 {2,D} {3,S}
+1 C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
-3 C 0 {1,S}
+3 C 0 {1,S} {5,S} {6,S} {7,S}
+4 H 0 {1,S}
+5 H 0 {3,S}
+6 H 0 {3,S}
+7 H 0 {3,S}
 """,
     product1 = 
 """
 CHCH3OHSH
-1 C 0 {2,S} {3,S} {4,S}
-2 C 0 {1,S}
-3 S 0 {1,S}
-4 O 0 {1,S}
+1  C 0 {2,S} {3,S} {4,S} {5,S}
+2  C 0 {1,S} {6,S} {7,S} {8,S}
+3  S 0 {1,S} {9,S}
+4  O 0 {1,S} {10,S}
+5  H 0 {1,S}
+6  H 0 {2,S}
+7  H 0 {2,S}
+8  H 0 {2,S}
+9  H 0 {3,S}
+10 H 0 {4,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(46.9, 'cm^3/(mol*s)'), n=2.9, Ea=(37.1, 'kcal/mol'), T0=(1, 'K')),

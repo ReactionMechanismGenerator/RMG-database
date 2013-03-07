@@ -29,7 +29,8 @@ O
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -139,7 +140,8 @@ H
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -182,12 +184,15 @@ H2
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
@@ -218,12 +223,14 @@ entry(
     reactant1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
@@ -233,7 +240,9 @@ O
     product2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(33400, 'cm^3/(mol*s)'), n=2.42, Ea=(-1930, 'cal/mol'), T0=(1, 'K')),
@@ -254,12 +263,16 @@ entry(
     reactant1 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
@@ -269,12 +282,15 @@ H
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product3 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -292,11 +308,11 @@ u"""
 !H2-O2 Dissociation Reactions
 !============================
 ! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
-H2+AR = H+H+AR                              	5.840E+18 -1.10  1.0438E+05
-H2+HE = H+H+HE                              	5.840E+18 -1.10  1.0438E+05
+H2+AR = H+H+AR                                  5.840E+18 -1.10  1.0438E+05
+H2+HE = H+H+HE                                  5.840E+18 -1.10  1.0438E+05
 ! Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
-O+O+AR = O2+AR                              	1.886E+13  0.00 -1.788E+03
-O+O+HE = O2+HE                              	1.886E+13  0.00 -1.788E+03
+O+O+AR = O2+AR                                  1.886E+13  0.00 -1.788E+03
+O+O+HE = O2+HE                                  1.886E+13  0.00 -1.788E+03
 ! Srinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)
 """,
     history = [
@@ -309,8 +325,9 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S}
+1 O 0 {2,S} {3,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -350,7 +367,7 @@ u"""
 ! Centering factors from Fernandes et al., Phys. Chem. Chem. Phys. 10:4313-4321 (2008)
 !=================================================================================
 ! Michael et al., Proc. Comb. Inst. 28:1471 (2000)
-!HO2+H = H2+O2                                 	3.659E+06  2.09 -1.451E+03
+!HO2+H = H2+O2                                     3.659E+06  2.09 -1.451E+03
 !Scaled by 0.75
 """,
     history = [
@@ -363,8 +380,9 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S}
+1 O 0 {2,S} {3,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -374,12 +392,14 @@ H
     product1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -405,8 +425,9 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S}
+1 O 0 {2,S} {3,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
@@ -422,7 +443,8 @@ O2
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -437,7 +459,7 @@ OH
     longDesc = 
 u"""
 ! Fernandez-Ramos and Varandas, J. Phys. Chem. A 106:4077-4083 (2002)
-!HO2+O = O2+OH                               	4.750E+11  1.00 -7.2393E+02
+!HO2+O = O2+OH                                   4.750E+11  1.00 -7.2393E+02
 !Scaled by 0.60
 """,
     history = [
@@ -450,18 +472,22 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S}
+1 O 0 {2,S} {3,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
@@ -493,20 +519,24 @@ entry(
     reactant1 = 
 """
 HO2
-1 O 0 {2,S}
+1 O 0 {2,S} {3,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
 """,
     reactant2 = 
 """
 HO2
-1 O 0 {2,S}
+1 O 0 {2,S} {3,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
 H2O2
-1 O 0 {2,S}
-2 O 0 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     product2 = 
 """
@@ -552,8 +582,10 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S}
-2 O 0 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -563,12 +595,15 @@ H
     product1 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -594,8 +629,10 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S}
-2 O 0 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -605,8 +642,9 @@ H
     product1 = 
 """
 HO2
-1 O 0 {2,S}
+1 O 0 {2,S} {3,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
@@ -638,8 +676,10 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S}
-2 O 0 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
@@ -649,13 +689,15 @@ O
     product1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
 HO2
-1 O 0 {2,S}
+1 O 0 {2,S} {3,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(9550000.0, 'cm^3/(mol*s)'), n=2, Ea=(3970, 'cal/mol'), T0=(1, 'K')),
@@ -676,24 +718,30 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S}
-2 O 0 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     reactant2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product1 = 
 """
 HO2
-1 O 0 {2,S}
+1 O 0 {2,S} {3,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
 """,
     product2 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     duplicate = True,
@@ -820,7 +868,8 @@ H
     product1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -844,7 +893,9 @@ entry(
     reactant1 = 
 """
 H2O
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     product1 = 
 """
@@ -854,7 +905,8 @@ H
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -895,8 +947,9 @@ O2
     product1 = 
 """
 HO2
-1 O 0 {2,S}
+1 O 0 {2,S} {3,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -936,18 +989,22 @@ entry(
     reactant1 = 
 """
 H2O2
-1 O 0 {2,S}
-2 O 0 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     product1 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     product2 = 
 """
 OH
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     degeneracy = 1,
     kinetics = Troe(
@@ -976,7 +1033,7 @@ u"""
 !=================================================================================
 ! MAIN BATH GAS IS AR OR HE (comment this reaction otherwise)
 !
-!H + O2 (+M) <=> HO2 (+M)      4.65084E+12  0.44  0.000E+00	0.0 0.0 0.0
+!H + O2 (+M) <=> HO2 (+M)      4.65084E+12  0.44  0.000E+00    0.0 0.0 0.0
 !H2/ 3.0/ H2O/ 21/ O2/ 1.1/ CO/ 2.7/ CO2/ 5.4/ HE/ 1.2/ N2/ 1.5/
 !=================================================================================
 ! Troe, Combust. Flame,  158:594-601 (2011)
