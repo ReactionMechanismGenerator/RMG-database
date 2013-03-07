@@ -83,7 +83,8 @@ entry(
     label = "OH",
     molecule = 
 """
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -106,7 +107,9 @@ entry(
     label = "H2O",
     molecule = 
 """
-1 O 0
+1 O 0 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -153,8 +156,9 @@ entry(
     label = "HO2",
     molecule = 
 """
-1 O 0 {2,S}
+1 O 0 {2,S} {3,S}
 2 O 1 {1,S}
+3 H 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -177,8 +181,10 @@ entry(
     label = "H2O2",
     molecule = 
 """
-1 O 0 {2,S}
-2 O 0 {1,S}
+1 O 0 {2,S} {3,S}
+2 O 0 {1,S} {4,S}
+3 H 0 {1,S}
+4 H 0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),

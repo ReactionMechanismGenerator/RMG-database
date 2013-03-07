@@ -84,7 +84,8 @@ entry(
     label = "OH",
     molecule = 
 """
-1 O 1
+1 O 1 {2,S}
+2 H 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -187,7 +188,9 @@ entry(
 """
 1 C 1 {2,D} {3,S}
 2 C 1 {1,D} {3,S}
-3 C 0 {1,S} {2,S}
+3 C 0 {1,S} {2,S} {4,S} {5,S}
+4 H 0 {3,S}
+5 H 0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -212,7 +215,8 @@ entry(
 """
 1 C 0 {2,T} {3,S}
 2 C 0 {1,T} {3,S}
-3 C 1 {1,S} {2,S}
+3 C 1 {1,S} {2,S} {4,S}
+4 H 0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -288,8 +292,10 @@ entry(
     molecule = 
 """
 1 C 2S {2,S} {3,S}
-2 C 0  {1,S} {3,D}
-3 C 0  {1,S} {2,D}
+2 C 0  {1,S} {3,D} {4,S}
+3 C 0  {1,S} {2,D} {5,S}
+4 H 0  {2,S}
+5 H 0  {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -336,8 +342,9 @@ entry(
     label = "HCS",
     molecule = 
 """
-1 C 1 {2,D}
+1 C 1 {2,D} {3,S}
 2 S 0 {1,D}
+3 H 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -360,7 +367,7 @@ entry(
     label = "Ar",
     molecule = 
 """
-1     Ar    0
+1 Ar 0
 """,
     thermo = NASA(
         polynomials = [
@@ -393,8 +400,8 @@ entry(
     label = "N2",
     molecule = 
 """
-1     N     0 {2,T}
-2     N     0 {1,T}
+1 N 0 {2,T}
+2 N 0 {1,T}
 """,
     thermo = NASA(
         polynomials = [
@@ -427,7 +434,7 @@ entry(
     label = "He",
     molecule = 
 """
-1     He    0
+1 He 0
 """,
     thermo = NASA(
         polynomials = [
