@@ -45600,6 +45600,24 @@ u"""
     ],
 )
 
+entry(
+    index = 1700,
+    label = "N",
+    group = 
+"""
+1 * N 0
+""",
+    thermo = u'Cs-HHHH',
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 12:27:50 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
 tree(
 """
 L1: R
@@ -47504,6 +47522,7 @@ L1: R
                 L5: Ss-CtCt
                 L5: Ss-CtCb
                 L5: Ss-CbCb
+	L2: N
 """
 )
 
