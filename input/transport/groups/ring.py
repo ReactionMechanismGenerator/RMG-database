@@ -4,7 +4,7 @@
 entry(
     index = 1,
     label = "CsringH2R2",
-    molecule =
+    group =
 """
 1 * C 0 {2,S} {3,S} {4,S} {5,S}
 2 R!H 0 {1,S}
@@ -32,7 +32,7 @@ u"""
 entry(
     index = 2,
     label = "CsringHR3",
-    molecule =
+    group =
 """
 1 * C 0 {2,S} {3,S} {4,S} {5,S}
 2 R!H 0 {1,S}
@@ -60,7 +60,7 @@ u"""
 entry(
     index = 3,
     label = "CsringR4",
-    molecule =
+    group =
 """
 1 * C 0 {2,S} {3,S} {4,S} {5,S}
 2 R!H 0 {1,S}
@@ -88,7 +88,7 @@ u"""
 entry(
     index = 4,
     label = "CdringHR2",
-    molecule =
+    group =
 """
 1 * C 0 {2,D} {3,S} {4,S}
 2 R!H 0 {1,D}
@@ -115,7 +115,7 @@ u"""
 entry(
     index = 5,
     label = "CdringR3",
-    molecule =
+    group =
 """
 1 * C 0 {2,D} {3,S} {4,S}
 2 R!H 0 {1,D}
@@ -142,7 +142,7 @@ u"""
 entry(
     index = 6,
     label = "Ether_ring",
-    molecule =
+    group =
 """
 1 * O 0 {2,S} {3,S}
 2 R!H 0 {1,S}
@@ -168,7 +168,7 @@ u"""
 entry(
     index = 7,
     label = "Ketone_ring",
-    molecule =
+    group =
 """
 1 * C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
@@ -195,7 +195,7 @@ u"""
 entry(
     index = 8,
     label = "Thioether_ring",
-    molecule =
+    group =
 """
 1 * S 0 {2,S} {3,S}
 2 R!H 0 {1,S}

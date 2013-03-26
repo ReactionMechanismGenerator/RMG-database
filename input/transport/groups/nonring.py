@@ -4,7 +4,7 @@
 entry(
     index = 1,
     label = "CsH3R",
-    molecule =
+    group =
 """
 1 * C 0 {2,S} {3,S} {4,S} {5,S}
 2 R!H 0 {1,S}
@@ -32,7 +32,7 @@ u"""
 entry(
     index = 2,
     label = "CsH2R2",
-    molecule =
+    group =
 """
 1 * C 0 {2,S} {3,S} {4,S} {5,S}
 2 R!H 0 {1,S}
@@ -60,7 +60,7 @@ u"""
 entry(
     index = 3,
     label = "CsHR3",
-    molecule =
+    group =
 """
 1 * C 0 {2,S} {3,S} {4,S} {5,S}
 2 R!H 0 {1,S}
@@ -88,7 +88,7 @@ u"""
 entry(
     index = 4,
     label = "CsR4",
-    molecule =
+    group =
 """
 1 * C 0 {2,S} {3,S} {4,S} {5,S}
 2 R!H 0 {1,S}
@@ -116,7 +116,7 @@ u"""
 entry(
     index = 5,
     label = "CdH2R",
-    molecule =
+    group =
 """
 1 * C 0 {2,D} {3,S} {4,S}
 2 R!H 0 {1,D}
@@ -143,7 +143,7 @@ u"""
 entry(
     index = 6,
     label = "CdHR2",
-    molecule =
+    group =
 """
 1 * C 0 {2,D} {3,S} {4,S}
 2 R!H 0 {1,D}
@@ -170,7 +170,7 @@ u"""
 entry(
     index = 7,
     label = "CdR3",
-    molecule =
+    group =
 """
 1 * C 0 {2,D} {3,S} {4,S}
 2 R!H 0 {1,D}
@@ -197,7 +197,7 @@ u"""
 entry(
     index = 8,
     label = "CddR2",
-    molecule =
+    group =
 """
 1 * C 0 {2,D} {3,D}
 2 R!H 0 {1,D}
@@ -223,7 +223,7 @@ u"""
 entry(
     index = 9,
     label = "CtHR",
-    molecule =
+    group =
 """
 1 * C 0 {2,T} {3,S}
 2 R!H 0 {1,T}
@@ -249,7 +249,7 @@ u"""
 entry(
     index = 10,
     label = "CtR2",
-    molecule =
+    group =
 """
 1 * C 0 {2,T} {3,S}
 2 R!H 0 {1,T}
@@ -276,7 +276,7 @@ u"""
 entry(
     index = 11,
     label = "Alcohol",
-    molecule =
+    group =
 """
 1 * O 0 {2,S} {3,S}
 2 R!H 0 {1,S}
@@ -302,7 +302,7 @@ u"""
 entry(
     index = 12,
     label = "Phenol",
-    molecule =
+    group =
 """
 1 * O 0 {2,S} {3,S}
 2 Cb 0 {1,S}
@@ -328,7 +328,7 @@ u"""
 entry(
     index = 13,
     label = "Ether",
-    molecule =
+    group =
 """
 1 * O 0 {2,S} {3,S}
 2 R!H 0 {1,S}
@@ -354,7 +354,7 @@ u"""
 entry(
     index = 14,
     label = "Ketone_Ccentered",
-    molecule =
+    group =
 """
 1 * C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
@@ -381,7 +381,7 @@ u"""
 entry(
     index = 15,
     label = "Ketone_Ocentered",
-    molecule =
+    group =
 """
 1 * O 0 {2,D}
 2 C 0 {1,D} {3,S} {4,S}
@@ -408,7 +408,7 @@ u"""
 entry(
     index = 16,
     label = "Aldehyde_Ccentered",
-    molecule =
+    group =
 """
 1 * C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
@@ -436,7 +436,7 @@ u"""
 entry(
     index = 17,
     label = "Aldehyde_Ocentered",
-    molecule =
+    group =
 """
 1 * O 0 {2,D}
 2 C 0 {1,D} {3,S} {4,S}
@@ -463,7 +463,7 @@ u"""
 entry(
     index = 18,
     label = "Acid_Ccentered",
-    molecule =
+    group =
 """
 1 * C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
@@ -491,7 +491,7 @@ u"""
 entry(
     index = 19,
     label = "Acid_Ocentered1",
-    molecule =
+    group =
 """
 1 * O 0 {2,S} {3,S}
 2 H 0 {1,S}
@@ -519,7 +519,7 @@ u"""
 entry(
     index = 20,
     label = "Acid_Ocentered2",
-    molecule =
+    group =
 """
 1 * O 0 {2,D}
 2 C 0 {1,D} {3,S} {4,S}
@@ -547,7 +547,7 @@ u"""
 entry(
     index = 21,
     label = "Ester_Ccentered",
-    molecule =
+    group =
 """
 1 * C 0 {2,D} {3,S} {4,S}
 2 O 0 {1,D}
@@ -575,7 +575,7 @@ u"""
 entry(
     index = 22,
     label = "Ester_Ocentered1",
-    molecule =
+    group =
 """
 1 * O 0 {2,S} {3,S}
 2 R!H 0 {1,S}
@@ -603,7 +603,7 @@ u"""
 entry(
     index = 23,
     label = "Ester_Ocentered2",
-    molecule =
+    group =
 """
 1 * O 0 {2,D}
 2 C 0 {1,D} {3,S} {4,S}
@@ -631,7 +631,7 @@ u"""
 entry(
     index = 24,
     label = "Od",
-    molecule =
+    group =
 """
 1 * O 0 {2,D}
 2 R!H 0 {1,D}
@@ -656,7 +656,7 @@ u"""
 entry(
     index = 25,
     label = "Thiol",
-    molecule =
+    group =
 """
 1 * S 0 {2,S} {3,S}
 2 R!H 0 {1,S}
@@ -682,7 +682,7 @@ u"""
 entry(
     index = 26,
     label = "Thioether",
-    molecule =
+    group =
 """
 1 * S 0 {2,S} {3,S}
 2 R!H 0 {1,S}
