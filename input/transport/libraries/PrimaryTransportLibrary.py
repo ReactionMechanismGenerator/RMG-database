@@ -19,7 +19,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (59.700, 'K'),
+        epsilon = (59.700 * 8.3145, 'J/mol'),
         sigma = (2.8327, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -46,7 +46,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (106.700, 'K'),
+        epsilon = (106.700 * 8.3145, 'J/mol'),
         sigma = (3.467, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -72,7 +72,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (809.100, 'K'),
+        epsilon = (809.100 * 8.3145, 'J/mol'),
         sigma = (2.641, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (1.760, 'C*m^2*V^-1'),
@@ -99,7 +99,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (289.300, 'K'),
+        epsilon = (289.300 * 8.3145, 'J/mol'),
         sigma = (4.196, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -127,7 +127,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (195.200, 'K'),
+        epsilon = (195.200 * 8.3145, 'J/mol'),
         sigma = (3.941, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -154,7 +154,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (91.700, 'K'),
+        epsilon = (91.700 * 8.3145, 'J/mol'),
         sigma = (3.690, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (1.760, 'C*m^2*V^-1'),
@@ -180,7 +180,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (221.000, 'K'),
+        epsilon = (221.000 * 8.3145, 'J/mol'),
         sigma = (3.730, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),

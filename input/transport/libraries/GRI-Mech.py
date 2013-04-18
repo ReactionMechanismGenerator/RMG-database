@@ -12,7 +12,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 0,
-        epsilon = (136.500, 'K'),
+        epsilon = (136.500 * 8.3145, 'J/mol'),
         sigma = (3.330, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -38,7 +38,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 0,
-        epsilon = (71.400, 'K'),
+        epsilon = (71.400 * 8.3145, 'J/mol'),
         sigma = (3.298, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -64,7 +64,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (97.530, 'K'),
+        epsilon = (97.530 * 8.3145, 'J/mol'),
         sigma = (3.621, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (1.760, 'C*m^2*V^-1'),
@@ -91,7 +91,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (232.400, 'K'),
+        epsilon = (232.400 * 8.3145, 'J/mol'),
         sigma = (3.828, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -117,7 +117,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (232.400, 'K'),
+        epsilon = (232.400 * 8.3145, 'J/mol'),
         sigma = (3.828, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -144,7 +144,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (209.000, 'K'),
+        epsilon = (209.000 * 8.3145, 'J/mol'),
         sigma = (4.100, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -170,7 +170,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (209.000, 'K'),
+        epsilon = (209.000 * 8.3145, 'J/mol'),
         sigma = (4.100, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -197,7 +197,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (224.700, 'K'),
+        epsilon = (224.700 * 8.3145, 'J/mol'),
         sigma = (4.162, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -223,7 +223,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (209.000, 'K'),
+        epsilon = (209.000 * 8.3145, 'J/mol'),
         sigma = (4.100, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -249,7 +249,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (280.800, 'K'),
+        epsilon = (280.800 * 8.3145, 'J/mol'),
         sigma = (3.971, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -275,7 +275,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (252.300, 'K'),
+        epsilon = (252.300 * 8.3145, 'J/mol'),
         sigma = (4.302, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -301,7 +301,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (252.300, 'K'),
+        epsilon = (252.300 * 8.3145, 'J/mol'),
         sigma = (4.302, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -327,7 +327,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (232.400, 'K'),
+        epsilon = (232.400 * 8.3145, 'J/mol'),
         sigma = (3.828, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -354,7 +354,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (349.000, 'K'),
+        epsilon = (349.000 * 8.3145, 'J/mol'),
         sigma = (4.361, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -382,7 +382,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (209.000, 'K'),
+        epsilon = (209.000 * 8.3145, 'J/mol'),
         sigma = (4.100, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -408,7 +408,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (252.000, 'K'),
+        epsilon = (252.000 * 8.3145, 'J/mol'),
         sigma = (4.760, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -436,7 +436,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (266.800, 'K'),
+        epsilon = (266.800 * 8.3145, 'J/mol'),
         sigma = (4.982, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -462,7 +462,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (266.800, 'K'),
+        epsilon = (266.800 * 8.3145, 'J/mol'),
         sigma = (4.982, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -489,7 +489,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -517,7 +517,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (266.800, 'K'),
+        epsilon = (266.800 * 8.3145, 'J/mol'),
         sigma = (4.982, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -545,7 +545,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (266.800, 'K'),
+        epsilon = (266.800 * 8.3145, 'J/mol'),
         sigma = (4.982, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -572,7 +572,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (266.800, 'K'),
+        epsilon = (266.800 * 8.3145, 'J/mol'),
         sigma = (4.982, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -600,7 +600,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -628,7 +628,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -654,7 +654,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (224.700, 'K'),
+        epsilon = (224.700 * 8.3145, 'J/mol'),
         sigma = (4.162, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -681,7 +681,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.176, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -710,7 +710,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.176, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -738,7 +738,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.176, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -764,7 +764,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -791,7 +791,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -818,7 +818,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -845,7 +845,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (412.300, 'K'),
+        epsilon = (412.300 * 8.3145, 'J/mol'),
         sigma = (5.349, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -872,7 +872,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (450.000, 'K'),
+        epsilon = (450.000 * 8.3145, 'J/mol'),
         sigma = (5.500, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -899,7 +899,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (450.000, 'K'),
+        epsilon = (450.000 * 8.3145, 'J/mol'),
         sigma = (5.500, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -926,7 +926,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (412.300, 'K'),
+        epsilon = (412.300 * 8.3145, 'J/mol'),
         sigma = (5.349, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -953,7 +953,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (412.300, 'K'),
+        epsilon = (412.300 * 8.3145, 'J/mol'),
         sigma = (5.349, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -979,7 +979,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (80.000, 'K'),
+        epsilon = (80.000 * 8.3145, 'J/mol'),
         sigma = (2.750, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1004,7 +1004,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (144.000, 'K'),
+        epsilon = (144.000 * 8.3145, 'J/mol'),
         sigma = (3.800, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1029,7 +1029,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (144.000, 'K'),
+        epsilon = (144.000 * 8.3145, 'J/mol'),
         sigma = (3.800, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1055,7 +1055,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (144.000, 'K'),
+        epsilon = (144.000 * 8.3145, 'J/mol'),
         sigma = (3.800, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1084,7 +1084,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1112,7 +1112,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1139,7 +1139,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (260.000, 'K'),
+        epsilon = (260.000 * 8.3145, 'J/mol'),
         sigma = (4.850, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1167,7 +1167,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1195,7 +1195,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1222,7 +1222,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (436.000, 'K'),
+        epsilon = (436.000 * 8.3145, 'J/mol'),
         sigma = (3.970, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1248,7 +1248,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (498.000, 'K'),
+        epsilon = (498.000 * 8.3145, 'J/mol'),
         sigma = (3.590, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1274,7 +1274,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (417.000, 'K'),
+        epsilon = (417.000 * 8.3145, 'J/mol'),
         sigma = (3.690, 'angstroms'),
         dipoleMoment = (1.700, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1299,7 +1299,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (144.000, 'K'),
+        epsilon = (144.000 * 8.3145, 'J/mol'),
         sigma = (3.800, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1326,7 +1326,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (252.000, 'K'),
+        epsilon = (252.000 * 8.3145, 'J/mol'),
         sigma = (4.760, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1354,7 +1354,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1382,7 +1382,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1409,7 +1409,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (260.000, 'K'),
+        epsilon = (260.000 * 8.3145, 'J/mol'),
         sigma = (4.850, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1436,7 +1436,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (260.000, 'K'),
+        epsilon = (260.000 * 8.3145, 'J/mol'),
         sigma = (4.850, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1465,7 +1465,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1492,7 +1492,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (436.000, 'K'),
+        epsilon = (436.000 * 8.3145, 'J/mol'),
         sigma = (3.970, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1520,7 +1520,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (436.000, 'K'),
+        epsilon = (436.000 * 8.3145, 'J/mol'),
         sigma = (3.970, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1547,7 +1547,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (436.000, 'K'),
+        epsilon = (436.000 * 8.3145, 'J/mol'),
         sigma = (3.970, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1573,7 +1573,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (417.000, 'K'),
+        epsilon = (417.000 * 8.3145, 'J/mol'),
         sigma = (3.690, 'angstroms'),
         dipoleMoment = (1.700, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1599,7 +1599,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (481.800, 'K'),
+        epsilon = (481.800 * 8.3145, 'J/mol'),
         sigma = (3.626, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1624,7 +1624,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (141.400, 'K'),
+        epsilon = (141.400 * 8.3145, 'J/mol'),
         sigma = (3.746, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (2.600, 'C*m^2*V^-1'),
@@ -1650,7 +1650,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (417.000, 'K'),
+        epsilon = (417.000 * 8.3145, 'J/mol'),
         sigma = (3.690, 'angstroms'),
         dipoleMoment = (1.700, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1677,7 +1677,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (75.000, 'K'),
+        epsilon = (75.000 * 8.3145, 'J/mol'),
         sigma = (3.856, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1704,7 +1704,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (232.400, 'K'),
+        epsilon = (232.400 * 8.3145, 'J/mol'),
         sigma = (3.828, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1731,7 +1731,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (232.400, 'K'),
+        epsilon = (232.400 * 8.3145, 'J/mol'),
         sigma = (3.828, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1758,7 +1758,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (98.100, 'K'),
+        epsilon = (98.100 * 8.3145, 'J/mol'),
         sigma = (3.650, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (1.950, 'C*m^2*V^-1'),
@@ -1785,7 +1785,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (244.000, 'K'),
+        epsilon = (244.000 * 8.3145, 'J/mol'),
         sigma = (3.763, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (2.650, 'C*m^2*V^-1'),
@@ -1810,7 +1810,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 0,
-        epsilon = (145.000, 'K'),
+        epsilon = (145.000 * 8.3145, 'J/mol'),
         sigma = (2.050, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1836,7 +1836,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1863,7 +1863,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (38.000, 'K'),
+        epsilon = (38.000 * 8.3145, 'J/mol'),
         sigma = (2.920, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.790, 'C*m^2*V^-1'),
@@ -1891,7 +1891,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1919,7 +1919,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1946,7 +1946,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (252.000, 'K'),
+        epsilon = (252.000 * 8.3145, 'J/mol'),
         sigma = (4.760, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1972,7 +1972,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (569.000, 'K'),
+        epsilon = (569.000 * 8.3145, 'J/mol'),
         sigma = (3.630, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -1999,7 +1999,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (116.700, 'K'),
+        epsilon = (116.700 * 8.3145, 'J/mol'),
         sigma = (3.492, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2025,7 +2025,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (572.400, 'K'),
+        epsilon = (572.400 * 8.3145, 'J/mol'),
         sigma = (2.605, 'angstroms'),
         dipoleMoment = (1.844, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2051,7 +2051,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (107.400, 'K'),
+        epsilon = (107.400 * 8.3145, 'J/mol'),
         sigma = (3.458, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2077,7 +2077,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (349.000, 'K'),
+        epsilon = (349.000 * 8.3145, 'J/mol'),
         sigma = (4.361, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2106,7 +2106,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (357.000, 'K'),
+        epsilon = (357.000 * 8.3145, 'J/mol'),
         sigma = (5.180, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2133,7 +2133,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (150.000, 'K'),
+        epsilon = (150.000 * 8.3145, 'J/mol'),
         sigma = (2.500, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2159,7 +2159,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (150.000, 'K'),
+        epsilon = (150.000 * 8.3145, 'J/mol'),
         sigma = (2.500, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2187,7 +2187,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (436.000, 'K'),
+        epsilon = (436.000 * 8.3145, 'J/mol'),
         sigma = (3.970, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2213,7 +2213,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (569.000, 'K'),
+        epsilon = (569.000 * 8.3145, 'J/mol'),
         sigma = (3.630, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2240,7 +2240,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (498.000, 'K'),
+        epsilon = (498.000 * 8.3145, 'J/mol'),
         sigma = (3.590, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2266,7 +2266,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 0,
-        epsilon = (10.200, 'K'),
+        epsilon = (10.200 * 8.3145, 'J/mol'),
         sigma = (2.576, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2293,7 +2293,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (232.400, 'K'),
+        epsilon = (232.400 * 8.3145, 'J/mol'),
         sigma = (3.828, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2320,7 +2320,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (232.400, 'K'),
+        epsilon = (232.400 * 8.3145, 'J/mol'),
         sigma = (3.828, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2347,7 +2347,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (232.400, 'K'),
+        epsilon = (232.400 * 8.3145, 'J/mol'),
         sigma = (3.828, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2374,7 +2374,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (232.400, 'K'),
+        epsilon = (232.400 * 8.3145, 'J/mol'),
         sigma = (3.828, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2401,7 +2401,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (116.700, 'K'),
+        epsilon = (116.700 * 8.3145, 'J/mol'),
         sigma = (3.492, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2428,7 +2428,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (116.700, 'K'),
+        epsilon = (116.700 * 8.3145, 'J/mol'),
         sigma = (3.492, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2455,7 +2455,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (107.400, 'K'),
+        epsilon = (107.400 * 8.3145, 'J/mol'),
         sigma = (3.458, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2481,7 +2481,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 0,
-        epsilon = (71.400, 'K'),
+        epsilon = (71.400 * 8.3145, 'J/mol'),
         sigma = (3.298, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2508,7 +2508,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (97.530, 'K'),
+        epsilon = (97.530 * 8.3145, 'J/mol'),
         sigma = (3.621, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (1.760, 'C*m^2*V^-1'),
@@ -2535,7 +2535,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (71.400, 'K'),
+        epsilon = (71.400 * 8.3145, 'J/mol'),
         sigma = (3.798, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2562,7 +2562,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (200.000, 'K'),
+        epsilon = (200.000 * 8.3145, 'J/mol'),
         sigma = (3.900, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2589,7 +2589,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (205.000, 'K'),
+        epsilon = (205.000 * 8.3145, 'J/mol'),
         sigma = (4.230, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (4.260, 'C*m^2*V^-1'),
@@ -2616,7 +2616,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (232.400, 'K'),
+        epsilon = (232.400 * 8.3145, 'J/mol'),
         sigma = (3.828, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2643,7 +2643,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (232.400, 'K'),
+        epsilon = (232.400 * 8.3145, 'J/mol'),
         sigma = (3.828, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2670,7 +2670,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (232.400, 'K'),
+        epsilon = (232.400 * 8.3145, 'J/mol'),
         sigma = (3.828, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2697,7 +2697,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (80.000, 'K'),
+        epsilon = (80.000 * 8.3145, 'J/mol'),
         sigma = (2.650, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2724,7 +2724,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (80.000, 'K'),
+        epsilon = (80.000 * 8.3145, 'J/mol'),
         sigma = (2.650, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (2.260, 'C*m^2*V^-1'),
@@ -2751,7 +2751,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (481.000, 'K'),
+        epsilon = (481.000 * 8.3145, 'J/mol'),
         sigma = (2.920, 'angstroms'),
         dipoleMoment = (1.470, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2778,7 +2778,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (71.400, 'K'),
+        epsilon = (71.400 * 8.3145, 'J/mol'),
         sigma = (3.798, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2805,7 +2805,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (97.530, 'K'),
+        epsilon = (97.530 * 8.3145, 'J/mol'),
         sigma = (3.621, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (1.760, 'C*m^2*V^-1'),
@@ -2832,7 +2832,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (232.400, 'K'),
+        epsilon = (232.400 * 8.3145, 'J/mol'),
         sigma = (3.828, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2859,7 +2859,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = (200.000, 'K'),
+        epsilon = (200.000 * 8.3145, 'J/mol'),
         sigma = (3.500, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2885,7 +2885,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 0,
-        epsilon = (80.000, 'K'),
+        epsilon = (80.000 * 8.3145, 'J/mol'),
         sigma = (2.750, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
@@ -2911,7 +2911,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (107.400, 'K'),
+        epsilon = (107.400 * 8.3145, 'J/mol'),
         sigma = (3.458, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (1.600, 'C*m^2*V^-1'),
@@ -2936,7 +2936,7 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = (80.000, 'K'),
+        epsilon = (80.000 * 8.3145, 'J/mol'),
         sigma = (2.750, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
         polarizability = (0.000, 'C*m^2*V^-1'),
