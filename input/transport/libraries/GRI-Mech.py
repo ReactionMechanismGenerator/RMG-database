@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+
 '''
 entry(
     index = 1,
@@ -11,19 +12,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 0,
-        epsilon = 136.500,
-        sigma = 3.330,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (136.500, 'K'),
+        sigma = (3.330, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for AR""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -37,19 +38,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 0,
-        epsilon = 71.400,
-        sigma = 3.298,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (71.400, 'K'),
+        sigma = (3.298, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -63,19 +64,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 97.530,
-        sigma = 3.621,
-        dipolemMoment = 0.000,
-        polarizability = 1.760,
+        epsilon = (97.530, 'K'),
+        sigma = (3.621, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (1.760, 'C*m^2*V^-1'),
         rotrelaxcollnum = 4.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -90,19 +91,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 232.400,
-        sigma = 3.828,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (232.400, 'K'),
+        sigma = (3.828, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C2O""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -116,19 +117,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 232.400,
-        sigma = 3.828,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (232.400, 'K'),
+        sigma = (3.828, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CN2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -143,19 +144,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 209.000,
-        sigma = 4.100,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (209.000, 'K'),
+        sigma = (4.100, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 2.500,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C2H""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -169,19 +170,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 209.000,
-        sigma = 4.100,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (209.000, 'K'),
+        sigma = (4.100, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 2.500,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C2H2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -196,19 +197,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 224.700,
-        sigma = 4.162,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (224.700, 'K'),
+        sigma = (4.162, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C2H2OH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -222,19 +223,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 209.000,
-        sigma = 4.100,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (209.000, 'K'),
+        sigma = (4.100, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C2H3""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -248,19 +249,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 280.800,
-        sigma = 3.971,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (280.800, 'K'),
+        sigma = (3.971, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.500,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C2H4""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -274,19 +275,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 252.300,
-        sigma = 4.302,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (252.300, 'K'),
+        sigma = (4.302, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.500,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C2H5""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -295,24 +296,24 @@ entry(
     label = "C2H6",
     molecule =
 """
-1 C 1 {2,S}
+1 C 0 {2,S}
 2 C 0 {1,S}
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 252.300,
-        sigma = 4.302,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (252.300, 'K'),
+        sigma = (4.302, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.500,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C2H6""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -326,19 +327,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 232.400,
-        sigma = 3.828,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (232.400, 'K'),
+        sigma = (3.828, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C2N""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -353,19 +354,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 349.000,
-        sigma = 4.361,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (349.000, 'K'),
+        sigma = (4.361, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C2N2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -381,19 +382,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 209.000,
-        sigma = 4.100,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (209.000, 'K'),
+        sigma = (4.100, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C3H2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -407,19 +408,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 252.000,
-        sigma = 4.760,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (252.000, 'K'),
+        sigma = (4.760, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C3H4""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -435,19 +436,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 266.800,
-        sigma = 4.982,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (266.800, 'K'),
+        sigma = (4.982, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C3H6""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -461,19 +462,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 266.800,
-        sigma = 4.982,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (266.800, 'K'),
+        sigma = (4.982, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C3H7""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -488,19 +489,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C4H6""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -516,19 +517,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 266.800,
-        sigma = 4.982,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (266.800, 'K'),
+        sigma = (4.982, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for I*C3H7""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -540,22 +541,23 @@ entry(
 1 C 1 {2,S}
 2 C 0 {1,S} {3,S}
 3 C 0 {2,S}
+
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 266.800,
-        sigma = 4.982,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (266.800, 'K'),
+        sigma = (4.982, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for N*C3H7""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -570,19 +572,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 266.800,
-        sigma = 4.982,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (266.800, 'K'),
+        sigma = (4.982, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C3H8""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -598,19 +600,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C4H""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -626,19 +628,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C4H2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -652,19 +654,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 224.700,
-        sigma = 4.162,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (224.700, 'K'),
+        sigma = (4.162, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C4H2OH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -679,19 +681,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.176,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.176, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C4H8""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -708,19 +710,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.176,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.176, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C4H9""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -736,19 +738,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.176,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.176, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for I*C4H9""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -762,19 +764,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C5H2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -789,19 +791,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C5H3""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -816,19 +818,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C6H2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -843,19 +845,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 412.300,
-        sigma = 5.349,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (412.300, 'K'),
+        sigma = (5.349, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C6H5""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -870,19 +872,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 450.000,
-        sigma = 5.500,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (450.000, 'K'),
+        sigma = (5.500, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C6H5O""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -897,19 +899,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 450.000,
-        sigma = 5.500,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (450.000, 'K'),
+        sigma = (5.500, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C5H5OH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -924,19 +926,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 412.300,
-        sigma = 5.349,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (412.300, 'K'),
+        sigma = (5.349, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C6H6""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -951,19 +953,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 412.300,
-        sigma = 5.349,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (412.300, 'K'),
+        sigma = (5.349, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for C6H7""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -977,19 +979,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 80.000,
-        sigma = 2.750,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (80.000, 'K'),
+        sigma = (2.750, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1002,19 +1004,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 144.000,
-        sigma = 3.800,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (144.000, 'K'),
+        sigma = (3.800, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1027,19 +1029,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 144.000,
-        sigma = 3.800,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (144.000, 'K'),
+        sigma = (3.800, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH2(S)""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1053,19 +1055,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 144.000,
-        sigma = 3.800,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (144.000, 'K'),
+        sigma = (3.800, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH2*""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -1082,19 +1084,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH2CHCCH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1110,19 +1112,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH2CHCCH2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1137,19 +1139,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 260.000,
-        sigma = 4.850,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (260.000, 'K'),
+        sigma = (4.850, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH2CHCH2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1165,19 +1167,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH2CHCHCH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1193,19 +1195,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH2CHCHCH2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1220,19 +1222,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 436.000,
-        sigma = 3.970,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (436.000, 'K'),
+        sigma = (3.970, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 2.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH2CO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1246,19 +1248,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 498.000,
-        sigma = 3.590,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (498.000, 'K'),
+        sigma = (3.590, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 2.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH2O""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1272,19 +1274,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 417.000,
-        sigma = 3.690,
-        dipolemMoment = 1.700,
-        polarizability = 0.000,
+        epsilon = (417.000, 'K'),
+        sigma = (3.690, 'angstroms'),
+        dipoleMoment = (1.700, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 2.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH2OH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1297,19 +1299,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 144.000,
-        sigma = 3.800,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (144.000, 'K'),
+        sigma = (3.800, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH3""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1324,19 +1326,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 252.000,
-        sigma = 4.760,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (252.000, 'K'),
+        sigma = (4.760, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH3CC""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1352,19 +1354,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH3CCCH2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1380,19 +1382,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH3CCCH3""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1407,19 +1409,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 260.000,
-        sigma = 4.850,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (260.000, 'K'),
+        sigma = (4.850, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH3CCH2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1434,19 +1436,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 260.000,
-        sigma = 4.850,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (260.000, 'K'),
+        sigma = (4.850, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH3CHCH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1459,22 +1461,23 @@ entry(
 2 C 0 {1,S} {3,S}
 3 C 0 {2,S} {4,T}
 4 C 0 {3,T}
+
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH3CH2CCH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1489,19 +1492,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 436.000,
-        sigma = 3.970,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (436.000, 'K'),
+        sigma = (3.970, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 2.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH3CHO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1513,22 +1516,23 @@ entry(
 1 C 1 {2,S}
 2 C 0 {1,S} {3,D}
 3 O 0 {2,D}
+
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 436.000,
-        sigma = 3.970,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (436.000, 'K'),
+        sigma = (3.970, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 2.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH2CHO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1543,19 +1547,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 436.000,
-        sigma = 3.970,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (436.000, 'K'),
+        sigma = (3.970, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 2.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH3CO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1569,19 +1573,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 417.000,
-        sigma = 3.690,
-        dipolemMoment = 1.700,
-        polarizability = 0.000,
+        epsilon = (417.000, 'K'),
+        sigma = (3.690, 'angstroms'),
+        dipoleMoment = (1.700, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 2.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH3O""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1595,19 +1599,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 481.800,
-        sigma = 3.626,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (481.800, 'K'),
+        sigma = (3.626, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH3OH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1620,19 +1624,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 141.400,
-        sigma = 3.746,
-        dipolemMoment = 0.000,
-        polarizability = 2.600,
+        epsilon = (141.400, 'K'),
+        sigma = (3.746, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (2.600, 'C*m^2*V^-1'),
         rotrelaxcollnum = 13.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH4""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1646,19 +1650,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 417.000,
-        sigma = 3.690,
-        dipolemMoment = 1.700,
-        polarizability = 0.000,
+        epsilon = (417.000, 'K'),
+        sigma = (3.690, 'angstroms'),
+        dipoleMoment = (1.700, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 2.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CH4O""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -1673,19 +1677,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 75.000,
-        sigma = 3.856,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (75.000, 'K'),
+        sigma = (3.856, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CN""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -1700,19 +1704,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 232.400,
-        sigma = 3.828,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (232.400, 'K'),
+        sigma = (3.828, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CNC""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -1727,19 +1731,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 232.400,
-        sigma = 3.828,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (232.400, 'K'),
+        sigma = (3.828, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CNN""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -1754,19 +1758,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 98.100,
-        sigma = 3.650,
-        dipolemMoment = 0.000,
-        polarizability = 1.950,
+        epsilon = (98.100, 'K'),
+        sigma = (3.650, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (1.950, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.800,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1781,19 +1785,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 244.000,
-        sigma = 3.763,
-        dipolemMoment = 0.000,
-        polarizability = 2.650,
+        epsilon = (244.000, 'K'),
+        sigma = (3.763, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (2.650, 'C*m^2*V^-1'),
         rotrelaxcollnum = 2.100,
     ),
     shortDesc = u"""GRI-Mech3.0 value for CO2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1806,19 +1810,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 0,
-        epsilon = 145.000,
-        sigma = 2.050,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (145.000, 'K'),
+        sigma = (2.050, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for H""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1832,19 +1836,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for H2C4O""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -1859,19 +1863,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 38.000,
-        sigma = 2.920,
-        dipolemMoment = 0.000,
-        polarizability = 0.790,
+        epsilon = (38.000, 'K'),
+        sigma = (2.920, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.790, 'C*m^2*V^-1'),
         rotrelaxcollnum = 280.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for H2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1887,19 +1891,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for H2CCCCH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1915,19 +1919,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for H2CCCCH2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1942,19 +1946,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 252.000,
-        sigma = 4.760,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (252.000, 'K'),
+        sigma = (4.760, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for H2CCCH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -1968,19 +1972,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 569.000,
-        sigma = 3.630,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (569.000, 'K'),
+        sigma = (3.630, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for H2CN""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -1995,19 +1999,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 116.700,
-        sigma = 3.492,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (116.700, 'K'),
+        sigma = (3.492, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for H2NO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2021,19 +2025,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 572.400,
-        sigma = 2.605,
-        dipolemMoment = 1.844,
-        polarizability = 0.000,
+        epsilon = (572.400, 'K'),
+        sigma = (2.605, 'angstroms'),
+        dipoleMoment = (1.844, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 4.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for H2O""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -2047,19 +2051,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 107.400,
-        sigma = 3.458,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (107.400, 'K'),
+        sigma = (3.458, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 3.800,
     ),
     shortDesc = u"""GRI-Mech3.0 value for H2O2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -2073,19 +2077,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 349.000,
-        sigma = 4.361,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (349.000, 'K'),
+        sigma = (4.361, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HC2N2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2102,19 +2106,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 357.000,
-        sigma = 5.180,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (357.000, 'K'),
+        sigma = (5.180, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HCCHCCH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -2129,19 +2133,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 150.000,
-        sigma = 2.500,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (150.000, 'K'),
+        sigma = (2.500, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HCCO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -2155,19 +2159,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 150.000,
-        sigma = 2.500,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (150.000, 'K'),
+        sigma = (2.500, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HCNN""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2183,19 +2187,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 436.000,
-        sigma = 3.970,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (436.000, 'K'),
+        sigma = (3.970, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 2.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HCCOH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -2209,19 +2213,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 569.000,
-        sigma = 3.630,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (569.000, 'K'),
+        sigma = (3.630, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HCN""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2236,19 +2240,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 498.000,
-        sigma = 3.590,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (498.000, 'K'),
+        sigma = (3.590, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HCO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -2262,19 +2266,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 0,
-        epsilon = 10.200,
-        sigma = 2.576,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (10.200, 'K'),
+        sigma = (2.576, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HE""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2289,19 +2293,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 232.400,
-        sigma = 3.828,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (232.400, 'K'),
+        sigma = (3.828, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HCNO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2316,19 +2320,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 232.400,
-        sigma = 3.828,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (232.400, 'K'),
+        sigma = (3.828, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HOCN""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2343,19 +2347,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 232.400,
-        sigma = 3.828,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (232.400, 'K'),
+        sigma = (3.828, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HNCO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2370,19 +2374,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 232.400,
-        sigma = 3.828,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (232.400, 'K'),
+        sigma = (3.828, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HNNO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2397,19 +2401,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 116.700,
-        sigma = 3.492,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (116.700, 'K'),
+        sigma = (3.492, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HNO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2424,19 +2428,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 116.700,
-        sigma = 3.492,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (116.700, 'K'),
+        sigma = (3.492, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HNOH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2448,23 +2452,22 @@ entry(
 """
 1 O 1 {2,S}
 2 O 0 {1,S}
-
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 107.400,
-        sigma = 3.458,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (107.400, 'K'),
+        sigma = (3.458, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for HO2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -2478,19 +2481,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 0,
-        epsilon = 71.400,
-        sigma = 3.298,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (71.400, 'K'),
+        sigma = (3.298, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for N""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2505,19 +2508,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 97.530,
-        sigma = 3.621,
-        dipolemMoment = 0.000,
-        polarizability = 1.760,
+        epsilon = (97.530, 'K'),
+        sigma = (3.621, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (1.760, 'C*m^2*V^-1'),
         rotrelaxcollnum = 4.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for N2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2532,19 +2535,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 71.400,
-        sigma = 3.798,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (71.400, 'K'),
+        sigma = (3.798, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for N2H2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2559,19 +2562,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 200.000,
-        sigma = 3.900,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (200.000, 'K'),
+        sigma = (3.900, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for N2H3""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2586,19 +2589,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 205.000,
-        sigma = 4.230,
-        dipolemMoment = 0.000,
-        polarizability = 4.260,
+        epsilon = (205.000, 'K'),
+        sigma = (4.230, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (4.260, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.500,
     ),
     shortDesc = u"""GRI-Mech3.0 value for N2H4""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2613,19 +2616,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 232.400,
-        sigma = 3.828,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (232.400, 'K'),
+        sigma = (3.828, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for N2O""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2640,19 +2643,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 232.400,
-        sigma = 3.828,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (232.400, 'K'),
+        sigma = (3.828, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for NCN""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2667,19 +2670,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 232.400,
-        sigma = 3.828,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (232.400, 'K'),
+        sigma = (3.828, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for NCO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2694,19 +2697,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 80.000,
-        sigma = 2.650,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (80.000, 'K'),
+        sigma = (2.650, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 4.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for NH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2721,19 +2724,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 80.000,
-        sigma = 2.650,
-        dipolemMoment = 0.000,
-        polarizability = 2.260,
+        epsilon = (80.000, 'K'),
+        sigma = (2.650, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (2.260, 'C*m^2*V^-1'),
         rotrelaxcollnum = 4.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for NH2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2748,19 +2751,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 481.000,
-        sigma = 2.920,
-        dipolemMoment = 1.470,
-        polarizability = 0.000,
+        epsilon = (481.000, 'K'),
+        sigma = (2.920, 'angstroms'),
+        dipoleMoment = (1.470, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 10.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for NH3""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2775,19 +2778,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 71.400,
-        sigma = 3.798,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (71.400, 'K'),
+        sigma = (3.798, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for NNH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2802,19 +2805,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 97.530,
-        sigma = 3.621,
-        dipolemMoment = 0.000,
-        polarizability = 1.760,
+        epsilon = (97.530, 'K'),
+        sigma = (3.621, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (1.760, 'C*m^2*V^-1'),
         rotrelaxcollnum = 4.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for NO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2829,19 +2832,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 232.400,
-        sigma = 3.828,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (232.400, 'K'),
+        sigma = (3.828, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for NCNO""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2856,19 +2859,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 200.000,
-        sigma = 3.500,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (200.000, 'K'),
+        sigma = (3.500, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 1.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for NO2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 '''
@@ -2882,19 +2885,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 0,
-        epsilon = 80.000,
-        sigma = 2.750,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (80.000, 'K'),
+        sigma = (2.750, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for O""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -2908,19 +2911,19 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 107.400,
-        sigma = 3.458,
-        dipolemMoment = 0.000,
-        polarizability = 1.600,
+        epsilon = (107.400, 'K'),
+        sigma = (3.458, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (1.600, 'C*m^2*V^-1'),
         rotrelaxcollnum = 3.800,
     ),
     shortDesc = u"""GRI-Mech3.0 value for O2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
 
@@ -2933,19 +2936,18 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 80.000,
-        sigma = 2.750,
-        dipolemMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (80.000, 'K'),
+        sigma = (2.750, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for OH""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
     history = [
-        ("2013/02/28 13:29:14","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
         """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
 )
-

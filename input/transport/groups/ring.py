@@ -2,6 +2,68 @@
 # encoding: utf-8
 
 entry(
+    index = 0,
+    label = "R_ring",
+    group =
+"""
+1 * R {0,1,2}
+""",
+    transportGroup = None,
+    shortDesc = u"""Dummy node for head of tree""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2013/03/14 12:53:03","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        """Jake Barlow <barlow.ja@husky.neu.edu> made up this empty entry."""),    ],
+)
+
+entry(
+    index = 0, # another 0!!
+    label = "C_centered_ring",
+    group =
+"""
+1 * C {0,1,2}
+""",
+    transportGroup = None,
+    shortDesc = u"""Dummy node for head of tree""",
+    longDesc = u"""""",
+    history = [
+        ("2013/03/14 12:53:03","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        """Jake Barlow <barlow.ja@husky.neu.edu> made up this empty entry."""),    ],
+)
+
+entry(
+    index = 0, # another 0!!
+    label = "O_centered_ring",
+    group =
+"""
+1 * O {0,1}
+""",
+    transportGroup = None,
+    shortDesc = u"""Dummy node for head of tree""",
+    longDesc = u"""""",
+    history = [
+        ("2013/03/14 12:53:03","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        """Jake Barlow <barlow.ja@husky.neu.edu> made up this empty entry."""),    ],
+)
+entry(
+    index = 0, # another 0!!
+    label = "S_centered_ring",
+    group =
+"""
+1 * S {0,1}
+""",
+    transportGroup = None,
+    shortDesc = u"""Dummy node for head of tree""",
+    longDesc = u"""""",
+    history = [
+        ("2013/03/14 12:53:03","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        """Jake Barlow <barlow.ja@husky.neu.edu> made up this empty entry."""),    ],
+)
+
+entry(
     index = 1,
     label = "CsringH2R2",
     group =
@@ -20,7 +82,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""ring_library value for CsringH2R2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -48,7 +110,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""ring_library value for CsringHR3""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -76,7 +138,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""ring_library value for CsringR4""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -103,7 +165,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""ring_library value for CdringHR2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -130,7 +192,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""ring_library value for CdringR3""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -156,7 +218,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""ring_library value for Ether_ring""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -183,7 +245,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""ring_library value for Ketone_ring""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -209,7 +271,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""ring_library value for Thioether_ring""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,

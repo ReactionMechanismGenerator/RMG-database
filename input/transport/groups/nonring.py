@@ -2,6 +2,65 @@
 # encoding: utf-8
 
 entry(
+    index = 0, # another 0!!
+    label = "R",
+    group =
+"""
+1 * R {0,1,2}
+""",
+    transportGroup = None,
+    shortDesc = u"""Dummy node for head of tree""",
+    longDesc = u"""""",
+    history = [
+        ("2013/03/14 12:53:03","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        """Jake Barlow <barlow.ja@husky.neu.edu> made up this empty entry."""),    ],
+)
+
+entry(
+    index = 0, # another 0!!
+    label = "C_centered",
+    group =
+"""
+1 * C {0,1,2}
+""",
+    transportGroup = None,
+    shortDesc = u"""Dummy node for head of tree""",
+    longDesc = u"""""",
+    history = [
+        ("2013/03/14 12:53:03","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        """Jake Barlow <barlow.ja@husky.neu.edu> made up this empty entry."""),    ],
+)
+
+entry(
+    index = 0, # another 0!!
+    label = "O_centered",
+    group =
+"""
+1 * O {0,1}
+""",
+    transportGroup = None,
+    shortDesc = u"""Dummy node for head of tree""",
+    longDesc = u"""""",
+    history = [
+        ("2013/03/14 12:53:03","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        """Jake Barlow <barlow.ja@husky.neu.edu> made up this empty entry."""),    ],
+)
+entry(
+    index = 0, # another 0!!
+    label = "S_centered",
+    group =
+"""
+1 * S {0,1}
+""",
+    transportGroup = None,
+    shortDesc = u"""Dummy node for head of tree""",
+    longDesc = u"""""",
+    history = [
+        ("2013/03/14 12:53:03","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        """Jake Barlow <barlow.ja@husky.neu.edu> made up this empty entry."""),    ],
+)
+
+entry(
     index = 1,
     label = "CsH3R",
     group =
@@ -20,7 +79,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for CsH3R""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -48,7 +107,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for CsH2R2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -76,7 +135,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for CsHR3""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -104,7 +163,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for CsR4""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -131,7 +190,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for CdH2R""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -158,7 +217,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for CdHR2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -185,7 +244,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for CdR3""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -211,7 +270,7 @@ entry(
         structureIndex = 0,
     ),
     shortDesc = u"""nonring_library value for CddR2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -237,7 +296,7 @@ entry(
         structureIndex = 0,
     ),
     shortDesc = u"""nonring_library value for CtHR""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -264,7 +323,7 @@ entry(
         structureIndex = 0,
     ),
     shortDesc = u"""nonring_library value for CtR2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -290,7 +349,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Alcohol""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -316,7 +375,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Phenol""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -342,7 +401,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Ether""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -369,7 +428,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Ketone_Ccentered""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -396,7 +455,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Ketone_Ocentered""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -424,7 +483,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Aldehyde_Ccentered""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -451,7 +510,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Aldehyde_Ocentered""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -479,7 +538,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Acid_Ccentered""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -507,7 +566,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Acid_Ocentered1""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -535,7 +594,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Acid_Ocentered2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -563,7 +622,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Ester_Ccentered""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -591,7 +650,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Ester_Ocentered1""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -619,7 +678,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Ester_Ocentered2""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -644,7 +703,7 @@ entry(
         structureIndex = 0,
     ),
     shortDesc = u"""nonring_library value for Od""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -670,7 +729,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Thiol""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,
@@ -696,7 +755,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""nonring_library value for Thioether""",
-    LongDesc = 
+    longDesc = 
 u"""
 
 """,

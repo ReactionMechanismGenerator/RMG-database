@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+
 name = "primaryTransportLibrary"
 shortDesc = u""
 longDesc = u"""
@@ -18,10 +19,10 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 59.700,
-        sigma = 2.8327,
-        dipoleMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (59.700, 'K'),
+        sigma = (2.8327, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000
     ),
     shortDesc = u"""library value for H2""",
@@ -45,10 +46,10 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 106.700,
-        sigma = 3.467,
-        dipoleMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (106.700, 'K'),
+        sigma = (3.467, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000
     ),
     shortDesc = u"""library value for O2""",
@@ -71,10 +72,10 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 809.100,
-        sigma = 2.641,
-        dipoleMoment = 0.000,
-        polarizability = 1.760,
+        epsilon = (809.100, 'K'),
+        sigma = (2.641, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (1.760, 'C*m^2*V^-1'),
         rotrelaxcollnum = 4.000
     ),
     shortDesc = u"""library value for H2O""",
@@ -98,10 +99,10 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 289.300,
-        sigma = 4.196,
-        dipoleMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (289.300, 'K'),
+        sigma = (4.196, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000 
     ),
     shortDesc = u"""library value for H2O2""",
@@ -126,10 +127,10 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 195.200,
-        sigma = 3.941,
-        dipoleMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (195.200, 'K'),
+        sigma = (3.941, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000 
     ),
     shortDesc = u"""library value for CO2""",
@@ -153,10 +154,10 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 1,
-        epsilon = 91.700,
-        sigma = 3.690,
-        dipoleMoment = 0.000,
-        polarizability = 1.760,
+        epsilon = (91.700, 'K'),
+        sigma = (3.690, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (1.760, 'C*m^2*V^-1'),
         rotrelaxcollnum = 4.000 
     ),
     shortDesc = u"""library value for CO""",
@@ -179,10 +180,10 @@ entry(
 """,
     transport = TransportData(
         shapeIndex = 2,
-        epsilon = 221.000,
-        sigma = 3.730,
-        dipoleMoment = 0.000,
-        polarizability = 0.000,
+        epsilon = (221.000, 'K'),
+        sigma = (3.730, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (0.000, 'C*m^2*V^-1'),
         rotrelaxcollnum = 0.000 
     ),
     shortDesc = u"""library value for H2S""",
