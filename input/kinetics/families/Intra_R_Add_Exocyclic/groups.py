@@ -41,7 +41,7 @@ entry(
     group = 
 """
 1 *2 {Cd,Ct,CO} 0 {2,{D,T}}
-2 *3 {Cd,Ct,Od} 0 {1,{D,T}}
+2 *3 {Cd,Ct,Od,Cdd} 0 {1,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -53,6 +53,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -84,7 +85,7 @@ entry(
 1 *1 R!H        1 {2,{S,D,T,B}}
 2 *4 R!H        0 {1,{S,D,T,B}} {3,S}
 3 *2 {Cd,Ct,CO} 0 {2,S} {4,{D,T}}
-4 *3 {Cd,Ct,Od} 0 {3,{D,T}}
+4 *3 {Cd,Ct,Od,Cdd} 0 {3,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -96,6 +97,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -107,7 +109,7 @@ entry(
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
 3 *2 {Cd,Ct,CO} 0 {2,S} {4,{D,T}}
-4 *3 {Cd,Ct,Od} 0 {3,{D,T}}
+4 *3 {Cd,Ct,Od,Cdd} 0 {3,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -119,6 +121,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -130,7 +133,7 @@ entry(
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
 3 *2 Cd  0 {2,S} {4,D}
-4 *3 Cd  0 {3,D}
+4 *3 {Cd,Cdd}  0 {3,D}
 """,
     kinetics = None,
     reference = None,
@@ -142,6 +145,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -199,7 +203,7 @@ entry(
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
 3 *2 {Cd,Ct,CO} 0 {2,S} {4,{D,T}}
-4 *3 {Cd,Ct,Od} 0 {3,{D,T}}
+4 *3 {Cd,Ct,Od,Cdd} 0 {3,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -211,6 +215,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -222,7 +227,7 @@ entry(
 1 *1 Cd 1 {2,D}
 2 *4 Cd 0 {1,D} {3,S}
 3 *2 Cd 0 {2,S} {4,D}
-4 *3 Cd 0 {3,D}
+4 *3 {Cd,Cdd} 0 {3,D}
 """,
     kinetics = None,
     reference = None,
@@ -234,6 +239,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -291,7 +297,7 @@ entry(
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
 3 *2 {Cd,Ct,CO} 0 {2,S} {4,{D,T}}
-4 *3 {Cd,Ct,Od} 0 {3,{D,T}}
+4 *3 {Cd,Ct,Od,Cdd} 0 {3,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -303,6 +309,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -314,7 +321,7 @@ entry(
 1 *1 Ct 1 {2,T}
 2 *4 Ct 0 {1,T} {3,S}
 3 *2 Cd 0 {2,S} {4,D}
-4 *3 Cd 0 {3,D}
+4 *3 {Cd,Cdd} 0 {3,D}
 """,
     kinetics = None,
     reference = None,
@@ -326,6 +333,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),     
     ],
 )
 
@@ -383,7 +391,7 @@ entry(
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
 3 *2 {Cd,Ct,CO} 0 {2,S} {4,{D,T}}
-4 *3 {Cd,Ct,Od} 0 {3,{D,T}}
+4 *3 {Cd,Ct,Od,Cdd} 0 {3,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -395,6 +403,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -406,7 +415,7 @@ entry(
 1 *1 Cb 1 {2,B}
 2 *4 Cb 0 {1,B} {3,S}
 3 *2 Cd 0 {2,S} {4,D}
-4 *3 Cd 0 {3,D}
+4 *3 {Cd,Cdd} 0 {3,D}
 """,
     kinetics = None,
     reference = None,
@@ -418,6 +427,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -493,7 +503,7 @@ entry(
 2 *4 R!H        0 {1,S} {3,S}
 3 *5 R!H        0 {2,S} {4,S}
 4 *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5 *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5 *3 {Cd,Ct,Od,Cdd} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -505,6 +515,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -517,7 +528,7 @@ entry(
 2 *4 R!H 0 {1,S} {3,S}
 3 *5 R!H 0 {2,S} {4,S}
 4 *2 Cd  0 {3,S} {5,D}
-5 *3 Cd  0 {4,D}
+5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
     reference = None,
@@ -529,6 +540,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -589,7 +601,7 @@ entry(
 2 *4 Cd         0 {1,S} {3,D}
 3 *5 Cd         0 {2,D} {4,S}
 4 *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5 *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5 *3 {Cd,Ct,Od,Cdd} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -601,6 +613,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -613,7 +626,7 @@ entry(
 2 *4 Cd  0 {1,S} {3,D}
 3 *5 Cd  0 {2,D} {4,S}
 4 *2 Cd  0 {3,S} {5,D}
-5 *3 Cd  0 {4,D}
+5 *3 {Cd,Cdd}  0 {4,D}
 """,
 
     kinetics = None,
@@ -626,6 +639,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -686,7 +700,7 @@ entry(
 2 *4 Cd         0 {1,D} {3,S}
 3 *5 R!H        0 {2,S} {4,S}
 4 *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5 *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5 *3 {Cd,Ct,Od,Cdd} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -698,6 +712,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -710,7 +725,7 @@ entry(
 2 *4 Cd  0 {1,D} {3,S}
 3 *5 R!H 0 {2,S} {4,S}
 4 *2 Cd  0 {3,S} {5,D}
-5 *3 Cd  0 {4,D}
+5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
     reference = None,
@@ -722,6 +737,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -782,7 +798,7 @@ entry(
 2 *4 Ct         0 {1,S} {3,T}
 3 *5 Ct         0 {2,T} {4,S}
 4 *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5 *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5 *3 {Cd,Ct,Od,Cdd} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -794,6 +810,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -806,7 +823,7 @@ entry(
 2 *4 Ct  0 {1,S} {3,T}
 3 *5 Ct  0 {2,T} {4,S}
 4 *2 Cd  0 {3,S} {5,D}
-5 *3 Cd  0 {4,D}
+5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
     reference = None,
@@ -818,6 +835,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -878,7 +896,7 @@ entry(
 2 *4 Ct         0 {1,T} {3,S}
 3 *5 R!H        0 {2,S} {4,S}
 4 *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5 *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5 *3 {Cd,Ct,Od,Cdd} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -890,6 +908,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -902,7 +921,7 @@ entry(
 2 *4 Ct  0 {1,T} {3,S}
 3 *5 R!H 0 {2,S} {4,S}
 4 *2 Cd  0 {3,S} {5,D}
-5 *3 Cd  0 {4,D}
+5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
     reference = None,
@@ -914,6 +933,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -974,7 +994,7 @@ entry(
 2 *4 Cb         0 {1,S} {3,B}
 3 *5 Cb         0 {2,B} {4,S}
 4 *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5 *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5 *3 {Cd,Ct,Od,Cdd} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -986,6 +1006,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -998,7 +1019,7 @@ entry(
 2 *4 Cb  0 {1,S} {3,B}
 3 *5 Cb  0 {2,B} {4,S}
 4 *2 Cd  0 {3,S} {5,D}
-5 *3 Cd  0 {4,D}
+5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
     reference = None,
@@ -1010,6 +1031,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1070,7 +1092,7 @@ entry(
 2 *4 Cb         0 {1,B} {3,S}
 3 *5 R!H        0 {2,S} {4,S}
 4 *2 {Cd,Ct,CO} 0 {3,S} {5,{D,T}}
-5 *3 {Cd,Ct,Od} 0 {4,{D,T}}
+5 *3 {Cd,Ct,Od,Cdd} 0 {4,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1082,6 +1104,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1094,7 +1117,7 @@ entry(
 2 *4 Cb  0 {1,B} {3,S}
 3 *5 R!H 0 {2,S} {4,S}
 4 *2 Cd  0 {3,S} {5,D}
-5 *3 Cd  0 {4,D}
+5 *3 {Cd,Cdd}  0 {4,D}
 """,
     kinetics = None,
     reference = None,
@@ -1106,6 +1129,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1184,7 +1208,7 @@ entry(
 3    R!H        0 {2,S} {4,{S,D,T,B}}
 4 *5 R!H        0 {3,{S,D,T,B}} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1196,6 +1220,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1209,7 +1234,7 @@ entry(
 3    R!H        0 {2,S} {4,{S,D,T,B}}
 4 *5 R!H        0 {3,{S,D,T,B}} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1221,6 +1246,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1234,7 +1260,7 @@ entry(
 3    R!H        0 {2,S} {4,S}
 4 *5 R!H        0 {3,S} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1246,6 +1272,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1259,7 +1286,7 @@ entry(
 3    R!H 0 {2,S} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 Cd  0 {4,S} {6,D}
-6 *3 Cd  0 {5,D}
+6 *3 {Cd,Cdd}  0 {5,D}
 """,
     kinetics = None,
     reference = None,
@@ -1271,6 +1298,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1334,7 +1362,7 @@ entry(
 3    {Cd,Ct,Cb} 0 {2,S} {4,{D,T,B}}
 4 *5 {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1346,6 +1374,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1359,7 +1388,7 @@ entry(
 3    {Cd,Ct,Cb} 0 {2,S} {4,{D,T,B}}
 4 *5 {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *2 Cd         0 {4,S} {6,D}
-6 *3 Cd         0 {5,D}
+6 *3 {Cd,Cdd}         0 {5,D}
 """,
     kinetics = None,
     reference = None,
@@ -1371,6 +1400,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1434,7 +1464,7 @@ entry(
 3    R!H        0 {2,S} {4,{S,D,T,B}}
 4 *5 R!H        0 {3,{S,D,T,B}} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1446,6 +1476,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),  
     ],
 )
 
@@ -1459,7 +1490,7 @@ entry(
 3    R!H        0 {2,S} {4,S}
 4 *5 R!H        0 {3,S} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1471,6 +1502,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1484,7 +1516,7 @@ entry(
 3    R!H 0 {2,S} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 Cd  0 {4,S} {6,D}
-6 *3 Cd  0 {5,D}
+6 *3 {Cd,Cdd}  0 {5,D}
 """,
     kinetics = None,
     reference = None,
@@ -1496,6 +1528,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1559,7 +1592,7 @@ entry(
 3    {Cd,Ct,Cb} 0 {2,S} {4,{D,T,B}}
 4 *5 {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1571,6 +1604,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1584,7 +1618,7 @@ entry(
 3    {Cd,Ct,Cb} 0 {2,S} {4,{D,T,B}}
 4 *5 {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *2 Cd         0 {4,S} {6,D}
-6 *3 Cd         0 {5,D}
+6 *3 {Cd,Cdd}         0 {5,D}
 """,
     kinetics = None,
     reference = None,
@@ -1596,6 +1630,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1659,7 +1694,7 @@ entry(
 3    R!H        0 {2,S} {4,{S,D,T,B}}
 4 *5 R!H        0 {3,{S,D,T,B}} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1671,6 +1706,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1684,7 +1720,7 @@ entry(
 3    R!H        0 {2,S} {4,S}
 4 *5 R!H        0 {3,S} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1696,6 +1732,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1709,7 +1746,7 @@ entry(
 3    R!H 0 {2,S} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 Cd  0 {4,S} {6,D}
-6 *3 Cd  0 {5,D}
+6 *3 {Cd,Cdd}  0 {5,D}
 """,
     kinetics = None,
     reference = None,
@@ -1721,6 +1758,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1784,7 +1822,7 @@ entry(
 3    {Cd,Ct,Cb} 0 {2,S} {4,{D,T,B}}
 4 *5 {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1796,6 +1834,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1809,7 +1848,7 @@ entry(
 3    {Cd,Ct,Cb} 0 {2,S} {4,{D,T,B}}
 4 *5 {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *2 Cd         0 {4,S} {6,D}
-6 *3 Cd         0 {5,D}
+6 *3 {Cd,Cdd}         0 {5,D}
 """,
     kinetics = None,
     reference = None,
@@ -1821,6 +1860,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1884,7 +1924,7 @@ entry(
 3    R!H        0 {2,S} {4,{S,D,T,B}}
 4 *5 R!H        0 {3,{S,D,T,B}} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1896,6 +1936,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1909,7 +1950,7 @@ entry(
 3    R!H        0 {2,S} {4,S}
 4 *5 R!H        0 {3,S} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -1921,6 +1962,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -1934,7 +1976,7 @@ entry(
 3    R!H 0 {2,S} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 Cd  0 {4,S} {6,D}
-6 *3 Cd  0 {5,D}
+6 *3 {Cd,Cdd}  0 {5,D}
 """,
     kinetics = None,
     reference = None,
@@ -1946,6 +1988,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2009,7 +2052,7 @@ entry(
 3    {Cd,Ct,Cb} 0 {2,S} {4,{D,T,B}}
 4 *5 {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2021,6 +2064,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2034,7 +2078,7 @@ entry(
 3    {Cd,Ct,Cb} 0 {2,S} {4,{D,T,B}}
 4 *5 {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *2 Cd         0 {4,S} {6,D}
-6 *3 Cd         0 {5,D}
+6 *3 {Cd,Cdd}         0 {5,D}
 """,
     kinetics = None,
     reference = None,
@@ -2046,6 +2090,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2109,7 +2154,7 @@ entry(
 3    {Cd,Ct,Cb} 0 {2,{D,T,B}} {4,S}
 4 *5 R!H        0 {3,S} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2121,6 +2166,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2134,7 +2180,7 @@ entry(
 3    {Cd,Ct,Cb} 0 {2,{D,T,B}} {4,S}
 4 *5 R!H        0 {3,S} {5,S}
 5 *2 Cd         0 {4,S} {6,D}
-6 *3 Cd         0 {5,D}
+6 *3 {Cd,Cdd}         0 {5,D}
 """,
     kinetics = None,
     reference = None,
@@ -2146,6 +2192,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2209,7 +2256,7 @@ entry(
 3    Cbf        0 {2,B} {4,B}
 4 *5 Cb         0 {3,B} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2221,6 +2268,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2234,7 +2282,7 @@ entry(
 3    Cbf 0 {2,B} {4,B}
 4 *5 Cb  0 {3,B} {5,S}
 5 *2 Cd  0 {4,S} {6,D}
-6 *3 Cd  0 {5,D}
+6 *3 {Cd,Cdd}  0 {5,D}
 """,
     kinetics = None,
     reference = None,
@@ -2246,6 +2294,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2309,7 +2358,7 @@ entry(
 3    Cb         0 {2,B} {4,S}
 4 *5 R!H        0 {3,S} {5,S}
 5 *2 {Cd,Ct,CO} 0 {4,S} {6,{D,T}}
-6 *3 {Cd,Ct,Od} 0 {5,{D,T}}
+6 *3 {Cd,Ct,Od,Cdd} 0 {5,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2321,6 +2370,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2334,7 +2384,7 @@ entry(
 3    Cb  0 {2,B} {4,S}
 4 *5 R!H 0 {3,S} {5,S}
 5 *2 Cd  0 {4,S} {6,D}
-6 *3 Cd  0 {5,D}
+6 *3 {Cd,Cdd}  0 {5,D}
 """,
     kinetics = None,
     reference = None,
@@ -2346,6 +2396,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2427,7 +2478,7 @@ entry(
 4    R!H        0 {3,S} {5,{S,D,T,B}}
 5 *5 R!H        0 {4,{S,D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2439,6 +2490,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2453,7 +2505,7 @@ entry(
 4    R!H        0 {3,S} {5,{S,D,T,B}}
 5 *5 R!H        0 {4,{S,D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2465,6 +2517,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2479,7 +2532,7 @@ entry(
 4    R!H        0 {3,S} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2491,6 +2544,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2505,7 +2559,7 @@ entry(
 4    R!H 0 {3,S} {5,S}
 5 *5 R!H 0 {4,S} {6,S}
 6 *2 Cd  0 {5,S} {7,D}
-7 *3 Cd  0 {6,D}
+7 *3 {Cd,Cdd}  0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -2517,6 +2571,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),        
     ],
 )
 
@@ -2583,7 +2638,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,S} {5,{D,T,B}}
 5 *5 {Cd,Ct,Cb} 0 {4,{D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2595,6 +2650,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),        
     ],
 )
 
@@ -2609,7 +2665,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,S} {5,{D,T,B}}
 5 *5 {Cd,Ct,Cb} 0 {4,{D,T,B}} {6,S}
 6 *2 Cd         0 {5,S} {7,D}
-7 *3 Cd         0 {6,D}
+7 *3 {Cd,Cdd}         0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -2621,6 +2677,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2687,7 +2744,7 @@ entry(
 4    R!H        0 {3,S} {5,{S,D,T,B}}
 5 *5 R!H        0 {4,{S,D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2699,6 +2756,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2713,7 +2771,7 @@ entry(
 4    R!H        0 {3,S} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2725,6 +2783,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2739,7 +2798,7 @@ entry(
 4    R!H 0 {3,S} {5,S}
 5 *5 R!H 0 {4,S} {6,S}
 6 *2 Cd  0 {5,S} {7,D}
-7 *3 Cd  0 {6,D}
+7 *3 {Cd,Cdd}  0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -2751,6 +2810,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2817,7 +2877,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,S} {5,{D,T,B}}
 5 *5 {Cd,Ct,Cb} 0 {4,{D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2829,6 +2889,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2843,7 +2904,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,S} {5,{D,T,B}}
 5 *5 {Cd,Ct,Cb} 0 {4,{D,T,B}} {6,S}
 6 *2 Cd         0 {5,S} {7,D}
-7 *3 Cd         0 {6,D}
+7 *3 {Cd,Cdd}   0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -2855,6 +2916,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2921,7 +2983,7 @@ entry(
 4    R!H        0 {3,S} {5,{S,D,T,B}}
 5 *5 R!H        0 {4,{S,D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2933,6 +2995,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2947,7 +3010,7 @@ entry(
 4    R!H        0 {3,S} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -2959,6 +3022,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -2973,7 +3037,7 @@ entry(
 4    R!H 0 {3,S} {5,S}
 5 *5 R!H 0 {4,S} {6,S}
 6 *2 Cd  0 {5,S} {7,D}
-7 *3 Cd  0 {6,D}
+7 *3 {Cd,Cdd}  0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -2985,6 +3049,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3051,7 +3116,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,S} {5,{D,T,B}}
 5 *5 {Cd,Ct,Cb} 0 {4,{D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -3063,6 +3128,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3077,7 +3143,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,S} {5,{D,T,B}}
 5 *5 {Cd,Ct,Cb} 0 {4,{D,T,B}} {6,S}
 6 *2 Cd         0 {5,S} {7,D}
-7 *3 Cd         0 {6,D}
+7 *3 {Cd,Cdd}         0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -3089,6 +3155,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3155,7 +3222,7 @@ entry(
 4    R!H        0 {3,S} {5,{S,D,T,B}}
 5 *5 R!H        0 {4,{S,D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -3167,6 +3234,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3181,7 +3249,7 @@ entry(
 4    R!H        0 {3,S} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -3193,6 +3261,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3207,7 +3276,7 @@ entry(
 4    R!H 0 {3,S} {5,S}
 5 *5 R!H 0 {4,S} {6,S}
 6 *2 Cd  0 {5,S} {7,D}
-7 *3 Cd  0 {6,D}
+7 *3 {Cd,Cdd}  0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -3219,6 +3288,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3285,7 +3355,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,S} {5,{D,T,B}}
 5 *5 {Cd,Ct,Cb} 0 {4,{D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -3297,6 +3367,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3311,7 +3382,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,S} {5,{D,T,B}}
 5 *5 {Cd,Ct,Cb} 0 {4,{D,T,B}} {6,S}
 6 *2 Cd         0 {5,S} {7,D}
-7 *3 Cd         0 {6,D}
+7 *3 {Cd,Cdd}         0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -3323,6 +3394,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3389,7 +3461,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -3401,6 +3473,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3415,7 +3488,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -3427,6 +3500,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3441,7 +3515,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 Cd         0 {5,S} {7,D}
-7 *3 Cd         0 {6,D}
+7 *3 {Cd,Cdd}         0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -3453,6 +3527,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3519,7 +3594,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -3531,6 +3606,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3545,7 +3621,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 Cd         0 {5,S} {7,D}
-7 *3 Cd         0 {6,D}
+7 *3 {Cd,Cdd}         0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -3557,6 +3633,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3623,7 +3700,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -3635,6 +3712,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3649,7 +3727,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 Cd         0 {5,S} {7,D}
-7 *3 Cd         0 {6,D}
+7 *3 {Cd,Cdd}         0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -3661,6 +3739,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3727,7 +3806,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -3739,6 +3818,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3753,7 +3833,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,{D,T,B}} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 Cd         0 {5,S} {7,D}
-7 *3 Cd         0 {6,D}
+7 *3 {Cd,Cdd}         0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -3765,6 +3845,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3831,7 +3912,7 @@ entry(
 4    R!H        0 {3,S} {5,{S,D,T,B}}
 5 *5 R!H        0 {4,{S,D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -3843,6 +3924,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3857,7 +3939,7 @@ entry(
 4    R!H        0 {3,S} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -3869,6 +3951,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3883,7 +3966,7 @@ entry(
 4    R!H        0 {3,S} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 Cd         0 {5,S} {7,D}
-7 *3 Cd         0 {6,D}
+7 *3 {Cd,Cdd}         0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -3895,6 +3978,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3961,7 +4045,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,S} {5,{D,T,B}}
 5 *5 {Cd,Ct,Cb} 0 {4,{D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -3973,6 +4057,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -3987,7 +4072,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,S} {5,{D,T,B}}
 5 *5 {Cd,Ct,Cb} 0 {4,{D,T,B}} {6,S}
 6 *2 Cd         0 {5,S} {7,D}
-7 *3 Cd         0 {6,D}
+7 *3 {Cd,Cdd}         0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -3999,6 +4084,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4065,7 +4151,7 @@ entry(
 4    R!H        0 {3,S} {5,{S,D,T,B}}
 5 *5 R!H        0 {4,{S,D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -4077,6 +4163,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4091,7 +4178,7 @@ entry(
 4    R!H        0 {3,S} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -4103,6 +4190,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4117,7 +4205,7 @@ entry(
 4    R!H 0 {3,S} {5,S}
 5 *5 R!H 0 {4,S} {6,S}
 6 *2 Cd  0 {5,S} {7,D}
-7 *3 Cd  0 {6,D}
+7 *3 {Cd,Cdd}  0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -4129,6 +4217,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4195,7 +4284,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,S} {5,{D,T,B}}
 5 *5 {Cd,Ct,Cb} 0 {4,{D,T,B}} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -4207,6 +4296,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4221,7 +4311,7 @@ entry(
 4    {Cd,Ct,Cb} 0 {3,S} {5,{D,T,B}}
 5 *5 {Cd,Ct,Cb} 0 {4,{D,T,B}} {6,S}
 6 *2 Cd         0 {5,S} {7,D}
-7 *3 Cd         0 {6,D}
+7 *3 {Cd,Cdd}         0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -4299,7 +4389,7 @@ entry(
 4    Cbf        0 {3,B} {5,B}
 5 *5 Cb         0 {4,B} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -4311,6 +4401,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4325,7 +4416,7 @@ entry(
 4    Cbf        0 {3,B} {5,B}
 5 *5 Cb         0 {4,B} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -4337,6 +4428,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4351,7 +4443,7 @@ entry(
 4    Cbf 0 {3,B} {5,B}
 5 *5 Cb  0 {4,B} {6,S}
 6 *2 Cd  0 {5,S} {7,D}
-7 *3 Cd  0 {6,D}
+7 *3 {Cd,Cdd}  0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -4363,6 +4455,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4429,7 +4522,7 @@ entry(
 4    Cbf        0 {3,B} {5,B}
 5 *5 Cb         0 {4,B} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -4441,6 +4534,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4455,7 +4549,7 @@ entry(
 4    Cbf 0 {3,B} {5,B}
 5 *5 Cb  0 {4,B} {6,S}
 6 *2 Cd  0 {5,S} {7,D}
-7 *3 Cd  0 {6,D}
+7 *3 {Cd,Cdd}  0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -4467,6 +4561,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4533,7 +4628,7 @@ entry(
 4    Cbf        0 {3,B} {5,B}
 5 *5 Cb         0 {4,B} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -4545,6 +4640,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4559,7 +4655,7 @@ entry(
 4    Cbf 0 {3,B} {5,B}
 5 *5 Cb  0 {4,B} {6,S}
 6 *2 Cd  0 {5,S} {7,D}
-7 *3 Cd  0 {6,D}
+7 *3 {Cd,Cdd}  0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -4571,6 +4667,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4637,7 +4734,7 @@ entry(
 4    Cbf        0 {3,B} {5,B}
 5 *5 Cb         0 {4,B} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -4649,6 +4746,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4663,7 +4761,7 @@ entry(
 4    Cbf 0 {3,B} {5,B}
 5 *5 Cb  0 {4,B} {6,S}
 6 *2 Cd  0 {5,S} {7,D}
-7 *3 Cd  0 {6,D}
+7 *3 {Cd,Cdd}  0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -4675,6 +4773,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4741,7 +4840,7 @@ entry(
 4    Cb         0 {3,B} {5,S}
 5 *5 R!H        0 {4,S} {6,S}
 6 *2 {Cd,Ct,CO} 0 {5,S} {7,{D,T}}
-7 *3 {Cd,Ct,Od} 0 {6,{D,T}}
+7 *3 {Cd,Ct,Od,Cdd} 0 {6,{D,T}}
 """,
     kinetics = None,
     reference = None,
@@ -4753,6 +4852,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
@@ -4767,7 +4867,7 @@ entry(
 4    Cb  0 {3,B} {5,S}
 5 *5 R!H 0 {4,S} {6,S}
 6 *2 Cd  0 {5,S} {7,D}
-7 *3 Cd  0 {6,D}
+7 *3 {Cd,Cdd}  0 {6,D}
 """,
     kinetics = None,
     reference = None,
@@ -4779,6 +4879,7 @@ u"""
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
