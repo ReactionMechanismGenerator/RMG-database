@@ -26,7 +26,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -38,7 +38,7 @@ u"""
 entry(
     index = 2,
     label = "multiplebond_intra",
-    group = 
+    group =
 """
 1 *2 {Cd,Ct,CO} 0 {2,{D,T}}
 2 *3 {Cd,Ct,Od,Cdd} 0 {1,{D,T}}
@@ -47,7 +47,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -60,7 +60,7 @@ u"""
 entry(
     index = 3,
     label = "radadd_intra",
-    group = 
+    group =
 """
 1 *1 R!H 1
 """,
@@ -68,7 +68,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -80,7 +80,7 @@ u"""
 entry(
     index = 4,
     label = "R4",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,{S,D,T,B}}
 2 *4 R!H        0 {1,{S,D,T,B}} {3,S}
@@ -91,7 +91,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -104,7 +104,7 @@ u"""
 entry(
     index = 5,
     label = "R4_S",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -115,7 +115,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -128,7 +128,7 @@ u"""
 entry(
     index = 6,
     label = "R4_S_D",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -139,7 +139,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -152,7 +152,7 @@ u"""
 entry(
     index = 7,
     label = "R4_S_T",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -163,7 +163,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -175,7 +175,7 @@ u"""
 entry(
     index = 8,
     label = "R4_S_CO",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -186,7 +186,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -198,7 +198,7 @@ u"""
 entry(
     index = 9,
     label = "R4_D",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -209,7 +209,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -222,7 +222,7 @@ u"""
 entry(
     index = 10,
     label = "R4_D_D",
-    group = 
+    group =
 """
 1 *1 Cd 1 {2,D}
 2 *4 Cd 0 {1,D} {3,S}
@@ -233,7 +233,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -246,7 +246,7 @@ u"""
 entry(
     index = 11,
     label = "R4_D_T",
-    group = 
+    group =
 """
 1 *1 Cd 1 {2,D}
 2 *4 Cd 0 {1,D} {3,S}
@@ -257,7 +257,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -269,7 +269,7 @@ u"""
 entry(
     index = 12,
     label = "R4_D_CO",
-    group = 
+    group =
 """
 1 *1 Cd 1 {2,D}
 2 *4 Cd 0 {1,D} {3,S}
@@ -280,7 +280,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -292,7 +292,7 @@ u"""
 entry(
     index = 13,
     label = "R4_T",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -303,7 +303,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -316,7 +316,7 @@ u"""
 entry(
     index = 14,
     label = "R4_T_D",
-    group = 
+    group =
 """
 1 *1 Ct 1 {2,T}
 2 *4 Ct 0 {1,T} {3,S}
@@ -327,20 +327,20 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),     
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
 entry(
     index = 15,
     label = "R4_T_T",
-    group = 
+    group =
 """
 1 *1 Ct 1 {2,T}
 2 *4 Ct 0 {1,T} {3,S}
@@ -351,7 +351,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -363,7 +363,7 @@ u"""
 entry(
     index = 16,
     label = "R4_T_CO",
-    group = 
+    group =
 """
 1 *1 Ct 1 {2,T}
 2 *4 Ct 0 {1,T} {3,S}
@@ -374,7 +374,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -386,7 +386,7 @@ u"""
 entry(
     index = 17,
     label = "R4_B",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -397,7 +397,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -410,7 +410,7 @@ u"""
 entry(
     index = 18,
     label = "R4_B_D",
-    group = 
+    group =
 """
 1 *1 Cb 1 {2,B}
 2 *4 Cb 0 {1,B} {3,S}
@@ -421,7 +421,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -434,7 +434,7 @@ u"""
 entry(
     index = 19,
     label = "R4_B_T",
-    group = 
+    group =
 """
 1 *1 Cb 1 {2,B}
 2 *4 Cb 0 {1,B} {3,S}
@@ -445,7 +445,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -457,7 +457,7 @@ u"""
 entry(
     index = 20,
     label = "R4_B_CO",
-    group = 
+    group =
 """
 1 *1 Cb 1 {2,B}
 2 *4 Cb 0 {1,B} {3,S}
@@ -468,7 +468,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -485,7 +485,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -497,7 +497,7 @@ u"""
 entry(
     index = 22,
     label = "R5_SS",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -509,7 +509,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -522,7 +522,7 @@ u"""
 entry(
     index = 23,
     label = "R5_SS_D",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -534,7 +534,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -547,7 +547,7 @@ u"""
 entry(
     index = 24,
     label = "R5_SS_T",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -559,7 +559,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -571,7 +571,7 @@ u"""
 entry(
     index = 25,
     label = "R5_SS_CO",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -583,7 +583,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -595,7 +595,7 @@ u"""
 entry(
     index = 26,
     label = "R5_SD",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 Cd         0 {1,S} {3,D}
@@ -607,7 +607,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -620,7 +620,7 @@ u"""
 entry(
     index = 27,
     label = "R5_SD_D",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Cd  0 {1,S} {3,D}
@@ -633,7 +633,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -646,7 +646,7 @@ u"""
 entry(
     index = 28,
     label = "R5_SD_T",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Cd  0 {1,S} {3,D}
@@ -658,7 +658,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -670,7 +670,7 @@ u"""
 entry(
     index = 29,
     label = "R5_SD_CO",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Cd  0 {1,S} {3,D}
@@ -682,7 +682,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -694,7 +694,7 @@ u"""
 entry(
     index = 30,
     label = "R5_DS",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -706,7 +706,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -719,7 +719,7 @@ u"""
 entry(
     index = 31,
     label = "R5_DS_D",
-    group = 
+    group =
 """
 1 *1 Cd  1 {2,D}
 2 *4 Cd  0 {1,D} {3,S}
@@ -731,7 +731,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -744,7 +744,7 @@ u"""
 entry(
     index = 32,
     label = "R5_DS_T",
-    group = 
+    group =
 """
 1 *1 Cd  1 {2,D}
 2 *4 Cd  0 {1,D} {3,S}
@@ -756,7 +756,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -768,7 +768,7 @@ u"""
 entry(
     index = 33,
     label = "R5_DS_CO",
-    group = 
+    group =
 """
 1 *1 Cd  1 {2,D}
 2 *4 Cd  0 {1,D} {3,S}
@@ -780,7 +780,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -792,7 +792,7 @@ u"""
 entry(
     index = 34,
     label = "R5_ST",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 Ct         0 {1,S} {3,T}
@@ -804,7 +804,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -817,7 +817,7 @@ u"""
 entry(
     index = 35,
     label = "R5_ST_D",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Ct  0 {1,S} {3,T}
@@ -829,7 +829,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -842,7 +842,7 @@ u"""
 entry(
     index = 36,
     label = "R5_ST_T",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Ct  0 {1,S} {3,T}
@@ -854,7 +854,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -866,7 +866,7 @@ u"""
 entry(
     index = 37,
     label = "R5_ST_CO",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Ct  0 {1,S} {3,T}
@@ -878,7 +878,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -890,7 +890,7 @@ u"""
 entry(
     index = 38,
     label = "R5_TS",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -902,7 +902,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -915,7 +915,7 @@ u"""
 entry(
     index = 39,
     label = "R5_TS_D",
-    group = 
+    group =
 """
 1 *1 Ct  1 {2,T}
 2 *4 Ct  0 {1,T} {3,S}
@@ -927,7 +927,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -940,7 +940,7 @@ u"""
 entry(
     index = 40,
     label = "R5_TS_T",
-    group = 
+    group =
 """
 1 *1 Ct  1 {2,T}
 2 *4 Ct  0 {1,T} {3,S}
@@ -952,7 +952,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -964,7 +964,7 @@ u"""
 entry(
     index = 41,
     label = "R5_TS_CO",
-    group = 
+    group =
 """
 1 *1 Ct  1 {2,T}
 2 *4 Ct  0 {1,T} {3,S}
@@ -976,7 +976,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -988,7 +988,7 @@ u"""
 entry(
     index = 42,
     label = "R5_SB",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 Cb         0 {1,S} {3,B}
@@ -1000,7 +1000,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1013,7 +1013,7 @@ u"""
 entry(
     index = 43,
     label = "R5_SB_D",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Cb  0 {1,S} {3,B}
@@ -1025,7 +1025,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1038,7 +1038,7 @@ u"""
 entry(
     index = 44,
     label = "R5_SB_T",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Cb  0 {1,S} {3,B}
@@ -1050,7 +1050,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1062,7 +1062,7 @@ u"""
 entry(
     index = 45,
     label = "R5_SB_CO",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Cb  0 {1,S} {3,B}
@@ -1074,7 +1074,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1086,7 +1086,7 @@ u"""
 entry(
     index = 46,
     label = "R5_BS",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -1098,7 +1098,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1111,7 +1111,7 @@ u"""
 entry(
     index = 47,
     label = "R5_BS_D",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cb  0 {1,B} {3,S}
@@ -1123,7 +1123,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1136,7 +1136,7 @@ u"""
 entry(
     index = 48,
     label = "R5_BS_T",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cb  0 {1,B} {3,S}
@@ -1148,7 +1148,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1160,7 +1160,7 @@ u"""
 entry(
     index = 49,
     label = "R5_BS_CO",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cb  0 {1,B} {3,S}
@@ -1172,7 +1172,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1189,7 +1189,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1201,7 +1201,7 @@ u"""
 entry(
     index = 51,
     label = "R6_RSR",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,{S,D,T,B}}
 2 *4 R!H        0 {1,{S,D,T,B}} {3,S}
@@ -1214,7 +1214,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1227,7 +1227,7 @@ u"""
 entry(
     index = 52,
     label = "R6_SSR",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -1240,7 +1240,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1253,7 +1253,7 @@ u"""
 entry(
     index = 53,
     label = "R6_SSS",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -1266,7 +1266,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1279,7 +1279,7 @@ u"""
 entry(
     index = 54,
     label = "R6_SSS_D",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -1292,7 +1292,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1305,7 +1305,7 @@ u"""
 entry(
     index = 55,
     label = "R6_SSS_T",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -1318,7 +1318,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1330,7 +1330,7 @@ u"""
 entry(
     index = 56,
     label = "R6_SSS_CO",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -1343,7 +1343,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1355,7 +1355,7 @@ u"""
 entry(
     index = 57,
     label = "R6_SSM",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -1368,7 +1368,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1381,7 +1381,7 @@ u"""
 entry(
     index = 58,
     label = "R6_SSM_D",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -1394,7 +1394,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1407,7 +1407,7 @@ u"""
 entry(
     index = 59,
     label = "R6_SSM_T",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -1420,7 +1420,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1432,7 +1432,7 @@ u"""
 entry(
     index = 60,
     label = "R6_SSM_CO",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -1445,7 +1445,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1457,7 +1457,7 @@ u"""
 entry(
     index = 61,
     label = "R6_DSR",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -1470,20 +1470,20 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),  
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
 entry(
     index = 62,
     label = "R6_DSS",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -1496,7 +1496,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1509,7 +1509,7 @@ u"""
 entry(
     index = 63,
     label = "R6_DSS_D",
-    group = 
+    group =
 """
 1 *1 Cd  1 {2,D}
 2 *4 Cd  0 {1,D} {3,S}
@@ -1522,7 +1522,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1535,7 +1535,7 @@ u"""
 entry(
     index = 64,
     label = "R6_DSS_T",
-    group = 
+    group =
 """
 1 *1 Cd  1 {2,D}
 2 *4 Cd  0 {1,D} {3,S}
@@ -1548,7 +1548,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1560,7 +1560,7 @@ u"""
 entry(
     index = 65,
     label = "R6_DSS_CO",
-    group = 
+    group =
 """
 1 *1 Cd  1 {2,D}
 2 *4 Cd  0 {1,D} {3,S}
@@ -1573,7 +1573,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1585,7 +1585,7 @@ u"""
 entry(
     index = 66,
     label = "R6_DSM",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -1598,7 +1598,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1611,7 +1611,7 @@ u"""
 entry(
     index = 67,
     label = "R6_DSM_D",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -1624,7 +1624,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1637,7 +1637,7 @@ u"""
 entry(
     index = 68,
     label = "R6_DSM_T",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -1650,7 +1650,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1662,7 +1662,7 @@ u"""
 entry(
     index = 69,
     label = "R6_DSM_CO",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -1675,7 +1675,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1687,7 +1687,7 @@ u"""
 entry(
     index = 70,
     label = "R6_TSR",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -1700,7 +1700,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1713,7 +1713,7 @@ u"""
 entry(
     index = 71,
     label = "R6_TSS",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -1726,7 +1726,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1739,7 +1739,7 @@ u"""
 entry(
     index = 72,
     label = "R6_TSS_D",
-    group = 
+    group =
 """
 1 *1 Ct  1 {2,T}
 2 *4 Ct  0 {1,T} {3,S}
@@ -1752,7 +1752,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1765,7 +1765,7 @@ u"""
 entry(
     index = 73,
     label = "R6_TSS_T",
-    group = 
+    group =
 """
 1 *1 Ct  1 {2,T}
 2 *4 Ct  0 {1,T} {3,S}
@@ -1778,7 +1778,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1790,7 +1790,7 @@ u"""
 entry(
     index = 74,
     label = "R6_TSS_CO",
-    group = 
+    group =
 """
 1 *1 Ct  1 {2,T}
 2 *4 Ct  0 {1,T} {3,S}
@@ -1803,7 +1803,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1815,7 +1815,7 @@ u"""
 entry(
     index = 75,
     label = "R6_TSM",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -1828,7 +1828,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1841,7 +1841,7 @@ u"""
 entry(
     index = 76,
     label = "R6_TSM_D",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -1854,7 +1854,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1867,7 +1867,7 @@ u"""
 entry(
     index = 77,
     label = "R6_TSM_T",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -1880,7 +1880,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1892,7 +1892,7 @@ u"""
 entry(
     index = 78,
     label = "R6_TSM_CO",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -1905,7 +1905,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1917,7 +1917,7 @@ u"""
 entry(
     index = 79,
     label = "R6_BSR",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -1930,7 +1930,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1943,7 +1943,7 @@ u"""
 entry(
     index = 80,
     label = "R6_BSS",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -1956,7 +1956,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1969,7 +1969,7 @@ u"""
 entry(
     index = 81,
     label = "R6_BSS_D",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cb  0 {1,B} {3,S}
@@ -1982,7 +1982,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1995,7 +1995,7 @@ u"""
 entry(
     index = 82,
     label = "R6_BSS_T",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cb  0 {1,B} {3,S}
@@ -2008,7 +2008,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2020,7 +2020,7 @@ u"""
 entry(
     index = 83,
     label = "R6_BSS_CO",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cb  0 {1,B} {3,S}
@@ -2033,7 +2033,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2045,7 +2045,7 @@ u"""
 entry(
     index = 84,
     label = "R6_BSM",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -2058,7 +2058,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2071,7 +2071,7 @@ u"""
 entry(
     index = 85,
     label = "R6_BSM_D",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -2084,7 +2084,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2097,7 +2097,7 @@ u"""
 entry(
     index = 86,
     label = "R6_BSM_T",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -2110,7 +2110,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2122,7 +2122,7 @@ u"""
 entry(
     index = 87,
     label = "R6_BSM_CO",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -2135,7 +2135,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2147,7 +2147,7 @@ u"""
 entry(
     index = 88,
     label = "R6_SMS",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 {Cd,Ct,Cb} 0 {1,S} {3,{D,T,B}}
@@ -2160,7 +2160,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2173,7 +2173,7 @@ u"""
 entry(
     index = 89,
     label = "R6_SMS_D",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 {Cd,Ct,Cb} 0 {1,S} {3,{D,T,B}}
@@ -2186,7 +2186,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2199,7 +2199,7 @@ u"""
 entry(
     index = 90,
     label = "R6_SMS_T",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 {Cd,Ct,Cb} 0 {1,S} {3,{D,T,B}}
@@ -2212,7 +2212,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2224,7 +2224,7 @@ u"""
 entry(
     index = 91,
     label = "R6_SMS_CO",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 {Cd,Ct,Cb} 0 {1,S} {3,{D,T,B}}
@@ -2237,7 +2237,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2249,7 +2249,7 @@ u"""
 entry(
     index = 92,
     label = "R6_SBB",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 Cb         0 {1,S} {3,B}
@@ -2262,7 +2262,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2275,7 +2275,7 @@ u"""
 entry(
     index = 93,
     label = "R6_SBB_D",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Cb  0 {1,S} {3,B}
@@ -2288,7 +2288,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2301,7 +2301,7 @@ u"""
 entry(
     index = 94,
     label = "R6_SBB_T",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Cb  0 {1,S} {3,B}
@@ -2314,7 +2314,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2326,7 +2326,7 @@ u"""
 entry(
     index = 95,
     label = "R6_SBB_CO",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Cb  0 {1,S} {3,B}
@@ -2339,7 +2339,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2351,7 +2351,7 @@ u"""
 entry(
     index = 96,
     label = "R6_BBS",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cbf        0 {1,B} {3,B}
@@ -2364,7 +2364,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2377,7 +2377,7 @@ u"""
 entry(
     index = 97,
     label = "R6_BBS_D",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cbf 0 {1,B} {3,B}
@@ -2390,7 +2390,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2403,7 +2403,7 @@ u"""
 entry(
     index = 98,
     label = "R6_BBS_T",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cbf 0 {1,B} {3,B}
@@ -2416,7 +2416,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2428,7 +2428,7 @@ u"""
 entry(
     index = 99,
     label = "R6_BBS_CO",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cbf 0 {1,B} {3,B}
@@ -2441,7 +2441,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2458,7 +2458,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2470,7 +2470,7 @@ u"""
 entry(
     index = 101,
     label = "R7_RSSR",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,{S,D,T,B}}
 2 *4 R!H        0 {1,{S,D,T,B}} {3,S}
@@ -2484,7 +2484,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2497,7 +2497,7 @@ u"""
 entry(
     index = 102,
     label = "R7_SSSR",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -2511,7 +2511,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2524,7 +2524,7 @@ u"""
 entry(
     index = 103,
     label = "R7_SSSS",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -2538,7 +2538,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2551,7 +2551,7 @@ u"""
 entry(
     index = 104,
     label = "R7_SSSS_D",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -2565,20 +2565,20 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),        
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
 entry(
     index = 105,
     label = "R7_SSSS_T",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -2592,7 +2592,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2604,7 +2604,7 @@ u"""
 entry(
     index = 106,
     label = "R7_SSSS_CO",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -2618,7 +2618,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2630,7 +2630,7 @@ u"""
 entry(
     index = 107,
     label = "R7_SSSM",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -2644,20 +2644,20 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
     history = [
         ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
-        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),        
+        ("May 2 2013","Fariba Seyedzadeh Khanshan <seyedzadehkhanshan.f@husky.neu.edu>","action","""Fariba added Cdd atom type to *3."""),
     ],
 )
 
 entry(
     index = 108,
     label = "R7_SSSM_D",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -2671,7 +2671,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2684,7 +2684,7 @@ u"""
 entry(
     index = 109,
     label = "R7_SSSM_T",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -2698,7 +2698,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2710,7 +2710,7 @@ u"""
 entry(
     index = 110,
     label = "R7_SSSM_CO",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -2724,7 +2724,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2736,7 +2736,7 @@ u"""
 entry(
     index = 111,
     label = "R7_DSSR",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -2750,7 +2750,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2763,7 +2763,7 @@ u"""
 entry(
     index = 112,
     label = "R7_DSSS",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -2777,7 +2777,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2790,7 +2790,7 @@ u"""
 entry(
     index = 113,
     label = "R7_DSSS_D",
-    group = 
+    group =
 """
 1 *1 Cd  1 {2,D}
 2 *4 Cd  0 {1,D} {3,S}
@@ -2804,7 +2804,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2817,7 +2817,7 @@ u"""
 entry(
     index = 114,
     label = "R7_DSSS_T",
-    group = 
+    group =
 """
 1 *1 Cd  1 {2,D}
 2 *4 Cd  0 {1,D} {3,S}
@@ -2831,7 +2831,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2843,7 +2843,7 @@ u"""
 entry(
     index = 115,
     label = "R7_DSSS_CO",
-    group = 
+    group =
 """
 1 *1 Cd  1 {2,D}
 2 *4 Cd  0 {1,D} {3,S}
@@ -2857,7 +2857,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2869,7 +2869,7 @@ u"""
 entry(
     index = 116,
     label = "R7_DSSM",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -2883,7 +2883,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2896,7 +2896,7 @@ u"""
 entry(
     index = 117,
     label = "R7_DSSM_D",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -2910,7 +2910,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2923,7 +2923,7 @@ u"""
 entry(
     index = 118,
     label = "R7_DSSM_T",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -2937,7 +2937,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2949,7 +2949,7 @@ u"""
 entry(
     index = 119,
     label = "R7_DSSM_CO",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -2963,7 +2963,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2975,7 +2975,7 @@ u"""
 entry(
     index = 120,
     label = "R7_TSSR",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -2989,7 +2989,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3002,7 +3002,7 @@ u"""
 entry(
     index = 121,
     label = "R7_TSSS",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -3016,7 +3016,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3029,7 +3029,7 @@ u"""
 entry(
     index = 122,
     label = "R7_TSSS_D",
-    group = 
+    group =
 """
 1 *1 Ct  1 {2,T}
 2 *4 Ct  0 {1,T} {3,S}
@@ -3043,7 +3043,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3056,7 +3056,7 @@ u"""
 entry(
     index = 123,
     label = "R7_TSSS_T",
-    group = 
+    group =
 """
 1 *1 Ct  1 {2,T}
 2 *4 Ct  0 {1,T} {3,S}
@@ -3070,7 +3070,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3082,7 +3082,7 @@ u"""
 entry(
     index = 124,
     label = "R7_TSSS_CO",
-    group = 
+    group =
 """
 1 *1 Ct  1 {2,T}
 2 *4 Ct  0 {1,T} {3,S}
@@ -3096,7 +3096,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3108,7 +3108,7 @@ u"""
 entry(
     index = 125,
     label = "R7_TSSM",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -3122,7 +3122,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3135,7 +3135,7 @@ u"""
 entry(
     index = 126,
     label = "R7_TSSM_D",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -3149,7 +3149,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3162,7 +3162,7 @@ u"""
 entry(
     index = 127,
     label = "R7_TSSM_T",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -3176,7 +3176,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3188,7 +3188,7 @@ u"""
 entry(
     index = 128,
     label = "R7_TSSM_CO",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -3202,7 +3202,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3214,7 +3214,7 @@ u"""
 entry(
     index = 129,
     label = "R7_BSSR",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -3228,7 +3228,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3241,7 +3241,7 @@ u"""
 entry(
     index = 130,
     label = "R7_BSSS",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -3255,7 +3255,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3268,7 +3268,7 @@ u"""
 entry(
     index = 131,
     label = "R7_BSSS_D",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cb  0 {1,B} {3,S}
@@ -3282,7 +3282,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3295,7 +3295,7 @@ u"""
 entry(
     index = 132,
     label = "R7_BSSS_T",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cb  0 {1,B} {3,S}
@@ -3309,7 +3309,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3321,7 +3321,7 @@ u"""
 entry(
     index = 133,
     label = "R7_BSSS_CO",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cb  0 {1,B} {3,S}
@@ -3335,7 +3335,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3347,7 +3347,7 @@ u"""
 entry(
     index = 134,
     label = "R7_BSSM",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -3361,7 +3361,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3374,7 +3374,7 @@ u"""
 entry(
     index = 135,
     label = "R7_BSSM_D",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -3388,7 +3388,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3401,7 +3401,7 @@ u"""
 entry(
     index = 136,
     label = "R7_BSSM_T",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -3415,7 +3415,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3427,7 +3427,7 @@ u"""
 entry(
     index = 137,
     label = "R7_BSSM_CO",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -3441,7 +3441,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3453,7 +3453,7 @@ u"""
 entry(
     index = 138,
     label = "R7_RSMS",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,{S,D,T,B}}
 2 *4 R!H        0 {1,{S,D,T,B}} {3,S}
@@ -3467,7 +3467,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3480,7 +3480,7 @@ u"""
 entry(
     index = 139,
     label = "R7_SSMS",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -3494,7 +3494,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3507,7 +3507,7 @@ u"""
 entry(
     index = 140,
     label = "R7_SSMS_D",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -3521,7 +3521,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3534,7 +3534,7 @@ u"""
 entry(
     index = 141,
     label = "R7_SSMS_T",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -3548,7 +3548,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3560,7 +3560,7 @@ u"""
 entry(
     index = 142,
     label = "R7_SSMS_CO",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -3574,7 +3574,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3586,7 +3586,7 @@ u"""
 entry(
     index = 143,
     label = "R7_DSMS",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -3600,7 +3600,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3613,7 +3613,7 @@ u"""
 entry(
     index = 144,
     label = "R7_DSMS_D",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -3627,7 +3627,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3640,7 +3640,7 @@ u"""
 entry(
     index = 145,
     label = "R7_DSMS_T",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -3654,7 +3654,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3666,7 +3666,7 @@ u"""
 entry(
     index = 146,
     label = "R7_DSMS_CO",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -3680,7 +3680,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3692,7 +3692,7 @@ u"""
 entry(
     index = 147,
     label = "R7_TSMS",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -3706,7 +3706,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3719,7 +3719,7 @@ u"""
 entry(
     index = 148,
     label = "R7_TSMS_D",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -3733,7 +3733,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3746,7 +3746,7 @@ u"""
 entry(
     index = 149,
     label = "R7_TSMS_T",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -3760,7 +3760,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3772,7 +3772,7 @@ u"""
 entry(
     index = 150,
     label = "R7_TSMS_CO",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -3786,7 +3786,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3798,7 +3798,7 @@ u"""
 entry(
     index = 151,
     label = "R7_BSMS",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -3812,7 +3812,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3825,7 +3825,7 @@ u"""
 entry(
     index = 152,
     label = "R7_BSMS_D",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -3839,7 +3839,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3852,7 +3852,7 @@ u"""
 entry(
     index = 153,
     label = "R7_BSMS_T",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -3866,7 +3866,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3878,7 +3878,7 @@ u"""
 entry(
     index = 154,
     label = "R7_BSMS_CO",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -3892,7 +3892,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3904,7 +3904,7 @@ u"""
 entry(
     index = 155,
     label = "R7_SMSR",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 {Cd,Ct,Cb} 0 {1,S} {3,{D,T,B}}
@@ -3918,7 +3918,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3931,7 +3931,7 @@ u"""
 entry(
     index = 156,
     label = "R7_SMSS",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 {Cd,Ct,Cb} 0 {1,S} {3,{D,T,B}}
@@ -3945,7 +3945,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3958,7 +3958,7 @@ u"""
 entry(
     index = 157,
     label = "R7_SMSS_D",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 {Cd,Ct,Cb} 0 {1,S} {3,{D,T,B}}
@@ -3972,7 +3972,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3985,7 +3985,7 @@ u"""
 entry(
     index = 158,
     label = "R7_SMSS_T",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 {Cd,Ct,Cb} 0 {1,S} {3,{D,T,B}}
@@ -3999,7 +3999,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4011,7 +4011,7 @@ u"""
 entry(
     index = 159,
     label = "R7_SMSS_CO",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 {Cd,Ct,Cb} 0 {1,S} {3,{D,T,B}}
@@ -4025,7 +4025,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4037,7 +4037,7 @@ u"""
 entry(
     index = 160,
     label = "R7_SMSM",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 {Cd,Ct,Cb} 0 {1,S} {3,{D,T,B}}
@@ -4051,7 +4051,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4064,7 +4064,7 @@ u"""
 entry(
     index = 161,
     label = "R7_SMSM_D",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 {Cd,Ct,Cb} 0 {1,S} {3,{D,T,B}}
@@ -4078,7 +4078,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4091,7 +4091,7 @@ u"""
 entry(
     index = 162,
     label = "R7_SMSM_T",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 {Cd,Ct,Cb} 0 {1,S} {3,{D,T,B}}
@@ -4105,7 +4105,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4117,7 +4117,7 @@ u"""
 entry(
     index = 163,
     label = "R7_SMSM_CO",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 {Cd,Ct,Cb} 0 {1,S} {3,{D,T,B}}
@@ -4131,7 +4131,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4143,7 +4143,7 @@ u"""
 entry(
     index = 164,
     label = "R7_BBSR",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cbf        0 {1,B} {3,B}
@@ -4157,7 +4157,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4170,7 +4170,7 @@ u"""
 entry(
     index = 165,
     label = "R7_BBSS",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cbf        0 {1,B} {3,B}
@@ -4184,7 +4184,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4197,7 +4197,7 @@ u"""
 entry(
     index = 166,
     label = "R7_BBSS_D",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cbf 0 {1,B} {3,B}
@@ -4211,7 +4211,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4224,7 +4224,7 @@ u"""
 entry(
     index = 167,
     label = "R7_BBSS_T",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cbf 0 {1,B} {3,B}
@@ -4238,7 +4238,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4250,7 +4250,7 @@ u"""
 entry(
     index = 168,
     label = "R7_BBSS_CO",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cbf 0 {1,B} {3,B}
@@ -4264,7 +4264,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4276,7 +4276,7 @@ u"""
 entry(
     index = 169,
     label = "R7_BBSM",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cbf        0 {1,B} {3,B}
@@ -4290,7 +4290,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4303,7 +4303,7 @@ u"""
 entry(
     index = 170,
     label = "R7_BBSM_D",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cbf        0 {1,B} {3,B}
@@ -4317,7 +4317,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4329,7 +4329,7 @@ u"""
 entry(
     index = 171,
     label = "R7_BBSM_T",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cbf        0 {1,B} {3,B}
@@ -4343,7 +4343,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4355,7 +4355,7 @@ u"""
 entry(
     index = 172,
     label = "R7_BBSM_CO",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cbf        0 {1,B} {3,B}
@@ -4369,7 +4369,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4381,7 +4381,7 @@ u"""
 entry(
     index = 173,
     label = "R7_RSBB",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,{S,D,T,B}}
 2 *4 R!H        0 {1,{S,D,T,B}} {3,S}
@@ -4395,7 +4395,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4408,7 +4408,7 @@ u"""
 entry(
     index = 174,
     label = "R7_SSBB",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 R!H        0 {1,S} {3,S}
@@ -4422,7 +4422,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4435,7 +4435,7 @@ u"""
 entry(
     index = 175,
     label = "R7_SSBB_D",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -4449,7 +4449,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4462,7 +4462,7 @@ u"""
 entry(
     index = 176,
     label = "R7_SSBB_T",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -4476,7 +4476,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4488,7 +4488,7 @@ u"""
 entry(
     index = 177,
     label = "R7_SSBB_CO",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 R!H 0 {1,S} {3,S}
@@ -4502,7 +4502,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4514,7 +4514,7 @@ u"""
 entry(
     index = 178,
     label = "R7_DSBB",
-    group = 
+    group =
 """
 1 *1 Cd         1 {2,D}
 2 *4 Cd         0 {1,D} {3,S}
@@ -4528,7 +4528,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4541,7 +4541,7 @@ u"""
 entry(
     index = 179,
     label = "R7_DSBB_D",
-    group = 
+    group =
 """
 1 *1 Cd  1 {2,D}
 2 *4 Cd  0 {1,D} {3,S}
@@ -4555,7 +4555,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4568,7 +4568,7 @@ u"""
 entry(
     index = 180,
     label = "R7_DSBB_T",
-    group = 
+    group =
 """
 1 *1 Cd  1 {2,D}
 2 *4 Cd  0 {1,D} {3,S}
@@ -4582,7 +4582,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4594,7 +4594,7 @@ u"""
 entry(
     index = 181,
     label = "R7_DSBB_CO",
-    group = 
+    group =
 """
 1 *1 Cd  1 {2,D}
 2 *4 Cd  0 {1,D} {3,S}
@@ -4608,7 +4608,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4620,7 +4620,7 @@ u"""
 entry(
     index = 182,
     label = "R7_TSBB",
-    group = 
+    group =
 """
 1 *1 Ct         1 {2,T}
 2 *4 Ct         0 {1,T} {3,S}
@@ -4634,7 +4634,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4647,7 +4647,7 @@ u"""
 entry(
     index = 183,
     label = "R7_TSBB_D",
-    group = 
+    group =
 """
 1 *1 Ct  1 {2,T}
 2 *4 Ct  0 {1,T} {3,S}
@@ -4661,7 +4661,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4674,7 +4674,7 @@ u"""
 entry(
     index = 184,
     label = "R7_TSBB_T",
-    group = 
+    group =
 """
 1 *1 Ct  1 {2,T}
 2 *4 Ct  0 {1,T} {3,S}
@@ -4688,7 +4688,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4700,7 +4700,7 @@ u"""
 entry(
     index = 185,
     label = "R7_TSBB_CO",
-    group = 
+    group =
 """
 1 *1 Ct  1 {2,T}
 2 *4 Ct  0 {1,T} {3,S}
@@ -4714,7 +4714,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4726,7 +4726,7 @@ u"""
 entry(
     index = 186,
     label = "R7_BSBB",
-    group = 
+    group =
 """
 1 *1 Cb         1 {2,B}
 2 *4 Cb         0 {1,B} {3,S}
@@ -4740,7 +4740,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4753,7 +4753,7 @@ u"""
 entry(
     index = 187,
     label = "R7_BSBB_D",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cb  0 {1,B} {3,S}
@@ -4767,7 +4767,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4780,7 +4780,7 @@ u"""
 entry(
     index = 188,
     label = "R7_BSBB_T",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cb  0 {1,B} {3,S}
@@ -4794,7 +4794,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4806,7 +4806,7 @@ u"""
 entry(
     index = 189,
     label = "R7_BSBB_CO",
-    group = 
+    group =
 """
 1 *1 Cb  1 {2,B}
 2 *4 Cb  0 {1,B} {3,S}
@@ -4820,7 +4820,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4832,7 +4832,7 @@ u"""
 entry(
     index = 190,
     label = "R7_SBBS",
-    group = 
+    group =
 """
 1 *1 R!H        1 {2,S}
 2 *4 Cb         0 {1,S} {3,B}
@@ -4846,7 +4846,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4859,7 +4859,7 @@ u"""
 entry(
     index = 191,
     label = "R7_SBBS_D",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Cb  0 {1,S} {3,B}
@@ -4873,7 +4873,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4886,7 +4886,7 @@ u"""
 entry(
     index = 192,
     label = "R7_SBBS_T",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Cb  0 {1,S} {3,B}
@@ -4900,7 +4900,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4912,7 +4912,7 @@ u"""
 entry(
     index = 193,
     label = "R7_SBBS_CO",
-    group = 
+    group =
 """
 1 *1 R!H 1 {2,S}
 2 *4 Cb  0 {1,S} {3,B}
@@ -4926,7 +4926,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4938,7 +4938,7 @@ u"""
 entry(
     index = 194,
     label = "doublebond_intra",
-    group = 
+    group =
 """
 1 *2 Cd 0 {2,D}
 2 *3 {Cd,Cdd} 0 {1,D}
@@ -4947,7 +4947,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4959,7 +4959,7 @@ u"""
 entry(
     index = 195,
     label = "doublebond_intra_2H",
-    group = 
+    group =
 """
 1 *2 Cd 0 {2,D}
 2 *3 Cd 0 {1,D} {3,S} {4,S}
@@ -4970,7 +4970,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4982,7 +4982,7 @@ u"""
 entry(
     index = 196,
     label = "doublebond_intra_2H_pri",
-    group = 
+    group =
 """
 1 *2 Cd 0 {2,D} {3,S}
 2 *3 Cd 0 {1,D} {4,S} {5,S}
@@ -4994,7 +4994,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5006,7 +5006,7 @@ u"""
 entry(
     index = 197,
     label = "doublebond_intra_2H_secNd",
-    group = 
+    group =
 """
 1 *2 Cd     0 {2,D} {3,S}
 2 *3 Cd     0 {1,D} {4,S} {5,S}
@@ -5018,7 +5018,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5030,7 +5030,7 @@ u"""
 entry(
     index = 198,
     label = "doublebond_intra_2H_secDe",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D} {3,S}
 2 *3 Cd            0 {1,D} {4,S} {5,S}
@@ -5042,7 +5042,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5054,7 +5054,7 @@ u"""
 entry(
     index = 199,
     label = "doublebond_intra_HNd",
-    group = 
+    group =
 """
 1 *2 Cd     0 {2,D}
 2 *3 Cd     0 {1,D} {3,S} {4,S}
@@ -5065,7 +5065,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5077,7 +5077,7 @@ u"""
 entry(
     index = 200,
     label = "doublebond_intra_HNd_pri",
-    group = 
+    group =
 """
 1 *2 Cd     0 {2,D} {3,S}
 2 *3 Cd     0 {1,D} {4,S} {5,S}
@@ -5089,7 +5089,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5101,7 +5101,7 @@ u"""
 entry(
     index = 201,
     label = "doublebond_intra_HNd_secNd",
-    group = 
+    group =
 """
 1 *2 Cd     0 {2,D} {3,S}
 2 *3 Cd     0 {1,D} {4,S} {5,S}
@@ -5113,7 +5113,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5125,7 +5125,7 @@ u"""
 entry(
     index = 202,
     label = "doublebond_intra_HNd_secDe",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D} {3,S}
 2 *3 Cd            0 {1,D} {4,S} {5,S}
@@ -5137,7 +5137,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5149,7 +5149,7 @@ u"""
 entry(
     index = 203,
     label = "doublebond_intra_HDe",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D}
 2 *3 Cd            0 {1,D} {3,S} {4,S}
@@ -5160,7 +5160,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5172,7 +5172,7 @@ u"""
 entry(
     index = 204,
     label = "doublebond_intra_HDe_pri",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D} {3,S}
 2 *3 Cd            0 {1,D} {4,S} {5,S}
@@ -5184,7 +5184,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5196,7 +5196,7 @@ u"""
 entry(
     index = 205,
     label = "doublebond_intra_HDe_secNd",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D} {3,S}
 2 *3 Cd            0 {1,D} {4,S} {5,S}
@@ -5208,7 +5208,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5220,7 +5220,7 @@ u"""
 entry(
     index = 206,
     label = "doublebond_intra_HDe_secDe",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D} {3,S}
 2 *3 Cd            0 {1,D} {4,S} {5,S}
@@ -5232,7 +5232,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5244,7 +5244,7 @@ u"""
 entry(
     index = 207,
     label = "doublebond_intra_NdNd",
-    group = 
+    group =
 """
 1 *2 Cd     0 {2,D}
 2 *3 Cd     0 {1,D} {3,S} {4,S}
@@ -5255,7 +5255,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5267,7 +5267,7 @@ u"""
 entry(
     index = 208,
     label = "doublebond_intra_NdNd_pri",
-    group = 
+    group =
 """
 1 *2 Cd     0 {2,D} {3,S}
 2 *3 Cd     0 {1,D} {4,S} {5,S}
@@ -5279,7 +5279,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5291,7 +5291,7 @@ u"""
 entry(
     index = 209,
     label = "doublebond_intra_NdNd_secNd",
-    group = 
+    group =
 """
 1 *2 Cd     0 {2,D} {3,S}
 2 *3 Cd     0 {1,D} {4,S} {5,S}
@@ -5303,7 +5303,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5315,7 +5315,7 @@ u"""
 entry(
     index = 210,
     label = "doublebond_intra_NdNd_secDe",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D} {3,S}
 2 *3 Cd            0 {1,D} {4,S} {5,S}
@@ -5327,7 +5327,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5339,7 +5339,7 @@ u"""
 entry(
     index = 211,
     label = "doublebond_intra_NdDe",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D}
 2 *3 Cd            0 {1,D} {3,S} {4,S}
@@ -5350,7 +5350,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5362,7 +5362,7 @@ u"""
 entry(
     index = 212,
     label = "doublebond_intra_NdDe_pri",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D} {3,S}
 2 *3 Cd            0 {1,D} {4,S} {5,S}
@@ -5374,7 +5374,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5386,7 +5386,7 @@ u"""
 entry(
     index = 213,
     label = "doublebond_intra_NdDe_secNd",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D} {3,S}
 2 *3 Cd            0 {1,D} {4,S} {5,S}
@@ -5398,7 +5398,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5410,7 +5410,7 @@ u"""
 entry(
     index = 214,
     label = "doublebond_intra_NdDe_secDe",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D} {3,S}
 2 *3 Cd            0 {1,D} {4,S} {5,S}
@@ -5422,7 +5422,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5434,7 +5434,7 @@ u"""
 entry(
     index = 215,
     label = "doublebond_intra_DeDe",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D}
 2 *3 Cd            0 {1,D} {3,S} {4,S}
@@ -5445,7 +5445,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5457,7 +5457,7 @@ u"""
 entry(
     index = 216,
     label = "doublebond_intra_DeDe_pri",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D} {3,S}
 2 *3 Cd            0 {1,D} {4,S} {5,S}
@@ -5469,7 +5469,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5481,7 +5481,7 @@ u"""
 entry(
     index = 217,
     label = "doublebond_intra_DeDe_secNd",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D} {3,S}
 2 *3 Cd            0 {1,D} {4,S} {5,S}
@@ -5493,7 +5493,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5505,7 +5505,7 @@ u"""
 entry(
     index = 218,
     label = "doublebond_intra_DeDe_secDe",
-    group = 
+    group =
 """
 1 *2 Cd            0 {2,D} {3,S}
 2 *3 Cd            0 {1,D} {4,S} {5,S}
@@ -5517,7 +5517,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5529,7 +5529,7 @@ u"""
 entry(
     index = 219,
     label = "triplebond_intra",
-    group = 
+    group =
 """
 1 *2 Ct 0 {2,T}
 2 *3 Ct 0 {1,T}
@@ -5538,7 +5538,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5550,7 +5550,7 @@ u"""
 entry(
     index = 220,
     label = "triplebond_intra_H",
-    group = 
+    group =
 """
 1 *2 Ct 0 {2,T}
 2 *3 Ct 0 {1,T} {3,S}
@@ -5560,7 +5560,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5572,7 +5572,7 @@ u"""
 entry(
     index = 221,
     label = "triplebond_intra_Nd",
-    group = 
+    group =
 """
 1 *2 Ct     0 {2,T}
 2 *3 Ct     0 {1,T} {3,S}
@@ -5582,7 +5582,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5594,7 +5594,7 @@ u"""
 entry(
     index = 222,
     label = "triplebond_intra_De",
-    group = 
+    group =
 """
 1 *2 Ct            0 {2,T}
 2 *3 Ct            0 {1,T} {3,S}
@@ -5604,7 +5604,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5616,7 +5616,7 @@ u"""
 entry(
     index = 223,
     label = "carbonylbond_intra",
-    group = 
+    group =
 """
 1 *2 CO 0 {2,D}
 2 *3 Od 0 {1,D}
@@ -5625,7 +5625,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5637,7 +5637,7 @@ u"""
 entry(
     index = 224,
     label = "carbonylbond_intra_H",
-    group = 
+    group =
 """
 1 *2 CO 0 {2,D} {3,S}
 2 *3 Od 0 {1,D}
@@ -5647,7 +5647,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5659,7 +5659,7 @@ u"""
 entry(
     index = 225,
     label = "carbonylbond_intra_Nd",
-    group = 
+    group =
 """
 1 *2 CO     0 {2,D} {3,S}
 2 *3 Od     0 {1,D}
@@ -5669,7 +5669,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5681,7 +5681,7 @@ u"""
 entry(
     index = 226,
     label = "carbonylbond_intra_De",
-    group = 
+    group =
 """
 1 *2 CO            0 {2,D} {3,S}
 2 *3 Od            0 {1,D}
@@ -5691,7 +5691,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5703,7 +5703,7 @@ u"""
 entry(
     index = 227,
     label = "radadd_intra_cs",
-    group = 
+    group =
 """
 1 *1 Cs 1
 """,
@@ -5711,7 +5711,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5723,7 +5723,7 @@ u"""
 entry(
     index = 228,
     label = "radadd_intra_cs2H",
-    group = 
+    group =
 """
 1 *1 Cs 1 {2,S} {3,S}
 2    H  0 {1,S}
@@ -5733,7 +5733,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5745,7 +5745,7 @@ u"""
 entry(
     index = 229,
     label = "radadd_intra_csHNd",
-    group = 
+    group =
 """
 1 *1 Cs     1 {2,S} {3,S}
 2    H      0 {1,S}
@@ -5755,7 +5755,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5767,7 +5767,7 @@ u"""
 entry(
     index = 230,
     label = "radadd_intra_csHDe",
-    group = 
+    group =
 """
 1 *1 Cs            1 {2,S} {3,S}
 2    H             0 {1,S}
@@ -5777,7 +5777,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5789,7 +5789,7 @@ u"""
 entry(
     index = 231,
     label = "radadd_intra_csNdNd",
-    group = 
+    group =
 """
 1 *1 Cs     1 {2,S} {3,S}
 2    {Cs,O} 0 {1,S}
@@ -5799,7 +5799,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5811,7 +5811,7 @@ u"""
 entry(
     index = 232,
     label = "radadd_intra_csNdDe",
-    group = 
+    group =
 """
 1 *1 Cs            1 {2,S} {3,S}
 2    {Cs,O}        0 {1,S}
@@ -5821,7 +5821,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5833,7 +5833,7 @@ u"""
 entry(
     index = 233,
     label = "radadd_intra_csDeDe",
-    group = 
+    group =
 """
 1 *1 Cs            1 {2,S} {3,S}
 2    {Cd,Ct,Cb,CO} 0 {1,S}
@@ -5843,7 +5843,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5855,7 +5855,7 @@ u"""
 entry(
     index = 234,
     label = "radadd_intra_O",
-    group = 
+    group =
 """
 1 *1 O 1
 """,
@@ -5863,7 +5863,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5875,7 +5875,7 @@ u"""
 entry(
     index = 235,
     label = "radadd_intra_Cb",
-    group = 
+    group =
 """
 1 *1 Cb 1
 """,
@@ -5883,7 +5883,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5895,7 +5895,7 @@ u"""
 entry(
     index = 236,
     label = "radadd_intra_cdsingle",
-    group = 
+    group =
 """
 1 *1 Cd 1 {2,S}
 2    R  0 {1,S}
@@ -5904,7 +5904,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5916,7 +5916,7 @@ u"""
 entry(
     index = 237,
     label = "radadd_intra_cdsingleH",
-    group = 
+    group =
 """
 1 *1 Cd 1 {2,S}
 2    H  0 {1,S}
@@ -5925,7 +5925,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5937,7 +5937,7 @@ u"""
 entry(
     index = 238,
     label = "radadd_intra_cdsingleNd",
-    group = 
+    group =
 """
 1 *1 Cd     1 {2,S}
 2    {Cs,O} 0 {1,S}
@@ -5946,7 +5946,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5958,7 +5958,7 @@ u"""
 entry(
     index = 239,
     label = "radadd_intra_cdsingleDe",
-    group = 
+    group =
 """
 1 *1 Cd            1 {2,S}
 2    {Cd,Ct,Cb,CO} 0 {1,S}
@@ -5967,7 +5967,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5979,7 +5979,7 @@ u"""
 entry(
     index = 240,
     label = "radadd_intra_cddouble",
-    group = 
+    group =
 """
 1 *1 Cd 1 {2,D}
 2    Cd 0 {1,D}
@@ -5988,7 +5988,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6000,7 +6000,7 @@ u"""
 entry(
     index = 241,
     label = "radadd_intra_CO",
-    group = 
+    group =
 """
 1 *1 CO 1 {2,D}
 2    O  0 {1,D}
@@ -6009,7 +6009,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6021,7 +6021,7 @@ u"""
 entry(
     index = 242,
     label = "radadd_intra_Ct",
-    group = 
+    group =
 """
 1 *1 Ct 1 {2,T}
 2    Ct 0 {1,T}
@@ -6030,7 +6030,7 @@ entry(
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6288,13 +6288,13 @@ L1: radadd_intra
 
 forbidden(
     label = "bond21",
-    group = 
+    group =
 """
 1 *2 R!H 0 {2,{S,D}}
 2 *1 R!H 1 {1,{S,D}}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6304,12 +6304,12 @@ u"""
 
 forbidden(
     label = "cdd2",
-    group = 
+    group =
 """
 1 *2 Cdd 0
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
