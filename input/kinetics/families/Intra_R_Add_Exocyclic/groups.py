@@ -4941,7 +4941,7 @@ entry(
     group = 
 """
 1 *2 Cd 0 {2,D}
-2 *3 Cd 0 {1,D}
+2 *3 {Cd,Cdd} 0 {1,D}
 """,
     kinetics = None,
     reference = None,
