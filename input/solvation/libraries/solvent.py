@@ -150,3 +150,442 @@ u"""
 
 """
 )
+
+entry(
+    index = 7,
+    label = "butanol",
+    solvent = SolventData(
+    	c_g = -0.039,	
+    	e_g = -0.276,
+    	s_g = 0.539,
+    	a_g = 3.781,
+    	b_g = 0.995,
+    	l_g = 0.934,
+    	c_h = -7.629,
+    	e_h = 0.0,
+    	s_h = 0.0,
+    	a_h = -50.806,
+    	b_h = -4.261,
+    	l_h = -8.507
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+
+entry(
+    index = 8,
+    label = "carbontet",
+    solvent = SolventData(
+    	c_g = 0.282,
+    	e_g = -0.303,
+    	s_g = 0.46,
+    	a_g = 0,
+    	b_g = 0,
+    	l_g = 1.047,
+    	c_h = -6.441,
+    	e_h = 3.517,
+    	s_h = -4.824,
+    	a_h = 0.0,
+    	b_h = -7.045,
+    	l_h = -8.886
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 9,
+    label = "chloroform",
+    solvent = SolventData(
+    	c_g = 0.168	
+    	e_g = -0.595,
+    	s_g = 1.256,
+    	a_g = 0.28,
+    	b_g = 1.37,
+    	l_g = 0.981,
+    	c_h = -6.516,
+    	e_h = 8.628,
+    	s_h = -13.956,
+    	a_h = -2.712,
+    	b_h = -17.334,
+    	l_h = -8.739
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 10,
+    label = "decane",
+    solvent = SolventData(
+    	c_g = 0.156,
+    	e_g = -0.143,
+    	s_g = 0,
+    	a_g = 0,
+    	b_g = 0,
+    	l_g = 0.989,
+    	c_h = -6.708,
+    	e_h = 2.999,
+    	s_h = 0.0,
+    	a_h = 0.0,
+    	b_h = 0.0,
+    	l_h = -9.279
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 11,
+    label = "dicholorethane",
+    solvent = SolventData(
+    	c_g = 0.011,
+    	e_g = -0.15,
+    	s_g = 1.436,
+    	a_g = 0.649,
+    	b_g = 0.736,
+    	l_g = 0.936,
+    	c_h = -2.345,
+    	e_h = 5.555,
+    	s_h = -18.328,
+    	a_h = -9.599,
+    	b_h = -7.101,
+    	l_h = -8.045
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 12,
+    label = "dimethylformamide",
+    solvent = SolventData(
+    	c_g = -0.174,
+    	e_g = -0.339,
+    	s_g = 2.315,
+    	a_g = 4.112,
+    	b_g = 0,
+    	l_g = 0.83,
+    	c_h = -4.324,
+    	e_h = 0.0,
+    	s_h = -15.168,
+    	a_h = -42.211,
+    	b_h = -8.253,
+    	l_h = -7.118
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 13,
+    label = "dimethylsulfoxide",
+    solvent = SolventData(
+    	c_g = -0.59,
+    	e_g = -0.2,
+    	s_g = 2.89,
+    	a_g = 5.46,
+    	b_g = 0,
+    	l_g = 0.732,
+    	c_h = -2.546,
+    	e_h = -0.329,
+    	s_h = -18.448,
+    	a_h = -47.419,
+    	b_h = -5.861,
+    	l_h = -6.38
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 14,
+    label = "dodecane",
+    solvent = SolventData(
+    	c_g = 0.053,
+    	e_g = 0,
+    	s_g = 0,
+    	a_g = 0,
+    	b_g = 0,
+    	l_g = 0.986,
+    	c_h = -6.708,
+    	e_h = 2.999,
+    	s_h = 0.0,
+    	a_h = 0.0,
+    	b_h = 0.0,
+    	l_h = -9.279
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 15,
+    label = "ethanol",
+    solvent = SolventData(
+    	c_g = 0.012,
+    	e_g = -0.206,
+    	s_g = 0.789,
+    	a_g = 3.635,
+    	b_g = 1.311,
+    	l_g = 0.853,
+    	c_h = -6.558,
+    	e_h = 0.0,
+    	s_h = 0.0,
+    	a_h = -48.600,
+    	b_h = -11.899,
+    	l_h = -8.298
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 16,
+    label = "heptane",
+    solvent = SolventData(
+    	c_g = 0.275,
+    	e_g = -0.162,
+    	s_g = 0,
+    	a_g = 0,
+    	b_g = 0,
+    	l_g = 0.983,
+    	c_h = -6.708,
+    	e_h = 2.999,
+    	s_h = 0.0,
+    	a_h = 0.0,
+    	b_h = 0.0,
+    	l_h = -9.279
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 17,
+    label = "hexadecane",
+    solvent = SolventData(
+    	c_g = 0,
+    	e_g = 0,
+    	s_g = 0,
+    	a_g = 0,	
+    	b_g = 0,	
+    	l_g = 1,
+    	c_h = -6.708,
+    	e_h = 2.999,
+    	s_h = 0.0,
+    	a_h = 0.0,
+    	b_h = 0.0,
+    	l_h = -9.279
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 18,
+    label = "hexane",
+    solvent = SolventData(
+    	c_g = 0.292,
+    	e_g = -0.169,
+    	s_g = 0,
+    	a_g = 0,
+    	b_g = 0,
+    	l_g = 0.979,
+    	c_h = -6.708,
+    	e_h = 2.999	,
+    	s_h = 0.0	,
+    	a_h = 0.0	,
+    	b_h = 0.0	,
+    	l_h = -9.279
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 19,
+    label = "isooctane",
+    solvent = SolventData(
+    	c_g = 0.275	,
+    	e_g = -0.244,
+    	s_g = 0		,
+    	a_g = 0		,
+    	b_g = 0		,
+    	l_g = -6.708,
+    	c_h = 2.999	,
+    	e_h = 0.0	,
+    	s_h = 0.0	,
+    	a_h = 0.0	,
+    	b_h = 0.0	,
+    	l_h = -9.279
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 20,
+    label = "nonane",
+    solvent = SolventData(
+    	c_g = 0.2	,
+    	e_g = -0.145,
+    	s_g = 0		,
+    	a_g = 0		,
+    	b_g = 0		,
+    	l_g = 0.98	,
+    	c_h = -6.708,
+    	e_h = 2.999	,
+    	s_h = 0.0	,
+    	a_h = 0.0	,
+    	b_h = 0.0	,
+    	l_h = -9.279
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 21,
+    label = "pentane",
+    solvent = SolventData(
+    	c_g = 0.335	,
+    	e_g = -0.276,
+    	s_g = 0		,
+    	a_g = 0		,
+    	b_g = 0		,
+    	l_g = 0.968	,
+    	c_h = -6.708,
+    	e_h = 2.999	,
+    	s_h = 0.0	,
+    	a_h = 0.0	,
+    	b_h = 0.0	,
+    	l_h = -9.279
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 22,
+    label = "toluene",
+    solvent = SolventData(
+    	c_g = 0.121	,
+    	e_g = -0.222,
+    	s_g = 0.938	,
+    	a_g = 0.467	,
+    	b_g = 0.099	,
+    	l_g = 1.012	,
+    	c_h = -5.107,
+    	e_h = 0.226	,
+    	s_h = -11.339,
+    	a_h = -2.25	,
+    	b_h = -6.984,
+    	l_h = -8.272
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 23,
+    label = "undecane",
+    solvent = SolventData(
+    	c_g = 0.113	,
+    	e_g = 0		,
+    	s_g = 0		,
+    	a_g = 0		,
+    	b_g = 0		,
+    	l_g = 0.971	,
+    	c_h = -6.708,
+    	e_h = 2.999	,
+    	s_h = 0.0	,
+    	a_h = 0.0	,
+    	b_h = 0.0	,
+    	l_h = -9.279
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 24,
+    label = "acetonitrile",
+    solvent = SolventData(
+    	c_g = -0.007,
+    	e_g = -0.595,
+    	s_g = 2.461	,
+    	a_g = 2.085	,
+    	b_g = 0.418	,
+    	l_g = 0.738	,
+    	c_h = -4.148,
+    	e_h = -3.304,
+    	s_h = -18.430,
+    	a_h = -26.104,
+    	b_h = -7.535,
+    	l_h = -6.727
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
+entry(
+    index = 25,
+    label = "ethylacetate",
+    solvent = SolventData(
+    	c_g = 0.203	,
+    	e_g = -0.335,
+    	s_g = 1.251	,
+    	a_g = 2.949	,
+    	b_g = 0		,
+    	l_g = 0.917	,
+    	c_h = -7.063,
+    	e_h = 4.671	,
+    	s_h = -15.141,
+    	a_h = -28.763,
+    	b_h = 0.0	,
+    	l_h = -7.691
+    ),
+    shortDesc = u""" """,
+    longDesc = 
+u"""
+
+"""
+)
