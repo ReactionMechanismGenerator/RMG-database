@@ -3995,7 +3995,7 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-1 *3 {Cs,Cd,CO,O,S} 2T
+1 *3 {Cs,Cd,CO,O,S,N} 2T
 """,
     kinetics = None,
     reference = None,
@@ -4341,8 +4341,8 @@ entry(
     label = "O_rad/OneDe",
     group = 
 """
-1 *3 O                1 {2,S}
-2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
+1 *3 O                    1 {2,S}
+2    {Cd,Ct,Cb,CO,CS,N4d} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -8078,6 +8078,96 @@ u"""
     ],
 )
 
+entry(
+    index = 400,
+    label = "N3s_rad",
+    group = 
+"""
+1 *3 N3s 1 {2,S} {3,S}
+2    R   0 {1,S}
+3    R   0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 401,
+    label = "N3s_rad/H2",
+    group = 
+"""
+1 *3 N3s 1 {2,S} {3,S}
+2    H   0 {1,S}
+3    H   0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 402,
+    label = "N3s_H",
+    group = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    R   0 {1,S}
+4    R   0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 403,
+    label = "InChI=1S/NO3/c2-1(3)4",
+    group = 
+"""
+1 *3 Os  1 {2,S}
+2    N4d 0 {1,S} {3,D} {4,S}
+3    Od  0 {2,D}
+4    Os  0 {2,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
 tree(
 """
 L1: X_H_or_Xrad_H
@@ -8242,6 +8332,7 @@ L1: X_H_or_Xrad_H
                     L6: C/H/TDMustS
                 L5: C/H/ThreeDe
                 L5: C/H/Cb
+        L3: N3s_H
     L2: Xrad_H
         L3: Srad_H
 L1: Y_rad_birad
@@ -8264,6 +8355,7 @@ L1: Y_rad_birad
                 L5: O_rad/OneDe
                     L6: InChI=1/C4H7O/c1-2-3-4-5/h3-4H,2H2,1H3
                     L6: InChI=1/C3H5O/c1-2-3-4/h2-3H,1H3/o
+                    L6: InChI=1S/NO3/c2-1(3)4
         L3: S_rad
             L4: S_pri_rad
             L4: S_sec_rad
@@ -8418,6 +8510,9 @@ L1: Y_rad_birad
                     L6: C_rad/TDMustO
                     L6: C_rad/TDMustS
                 L5: C_rad/ThreeDe
+        L3: N3s_rad
+            L4: N3s_rad/H2
 """
+
 )
 

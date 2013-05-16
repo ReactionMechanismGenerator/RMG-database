@@ -40354,3 +40354,342 @@ u"""
     ],
 )
 
+entry(
+    index = 2000,
+    label = "C_pri;N3s_rad/H2",
+    group1 = 
+"""
+1 *1 C   0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    H   0 {1,S}
+5    R!H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 N3s 1 {2,S} {3,S}
+2    H   0 {1,S}
+3    H   0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (920000, 'cm^3/(mol*s)'),
+        n = 1.94,
+        alpha = 0.23,
+        E0 = (8.920, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 2001,
+    label = "C_sec;N3s_rad/H2",
+    group1 = 
+"""
+1 *1 C   0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H   0 {1,S}
+3    H   0 {1,S}
+4    R!H 0 {1,S}
+5    R!H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 N3s 1 {2,S} {3,S}
+2    H   0 {1,S}
+3    H   0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (920000, 'cm^3/(mol*s)'),
+        n = 1.94,
+        alpha = 0.23,
+        E0 = (8.920, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"Dean and Bozzelli chapter 2, estimation same as C_pri;N3s_rad/H2",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 2002,
+    label = "C_ter;N3s_rad/H2",
+    group1 = 
+"""
+1 *1 C   0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H   0 {1,S}
+3    R!H 0 {1,S}
+4    R!H 0 {1,S}
+5    R!H 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 N3s 1 {2,S} {3,S}
+2    H   0 {1,S}
+3    H   0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (920000, 'cm^3/(mol*s)'),
+        n = 1.94,
+        alpha = 0.23,
+        E0 = (8.920, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"Dean and Bozzelli chapter 2, estimation same as C_pri;N3s_rad/H2",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 2003,
+    label = "N3s_H;H_rad",
+    group1 = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    R   0 {1,S}
+4    R   0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 H 1
+""",
+    kinetics = ArrheniusEP(
+        A = (240000000, 'cm^3/(mol*s)'),
+        n = 1.5,
+        alpha = 0.21,
+        E0 = (10.402, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 2004,
+    label = "N3s_H;O_atom_triplet",
+    group1 = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    R   0 {1,S}
+4    R   0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 2T
+""",
+    kinetics = ArrheniusEP(
+        A = (170000000, 'cm^3/(mol*s)'),
+        n = 1.5,
+        alpha = 0.15,
+        E0 = (6.544, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 2005,
+    label = "N3s_H;O_pri_rad",
+    group1 = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    R   0 {1,S}
+4    R   0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1200000, 'cm^3/(mol*s)'),
+        n = 2.0,
+        alpha = 0.05,
+        E0 = (1.329, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 2006,
+    label = "N3s_H;C_methyl",
+    group1 = 
+"""
+1 *1 N3s 0 {2,S} {3,S} {4,S}
+2 *2 H   0 {1,S}
+3    R   0 {1,S}
+4    R   0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (810000, 'cm^3/(mol*s)'),
+        n = 1.87,
+        alpha = 0.15,
+        E0 = (9.420, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 2007,
+    label = "C/H3/Cs;InChI=1S/NO3/c2-1(3)4",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Os  1 {2,S}
+2    N4d 0 {1,S} {3,D} {4,S}
+3    Od  0 {2,D}
+4    Os  0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (2.03e-12, 'cm^3/(mol*s)'),
+        n = 0,
+        alpha = 0,
+        E0 = (8.31, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+entry(
+    index = 2008,
+    label = "CsXX;InChI=1S/NO3/c2-1(3)4",
+    group1 = 
+"""
+1 *1 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Ct 0 {1,S}
+""",
+    group2 = 
+"""
+1 *3 Os  1 {2,S}
+2    N4d 0 {1,S} {3,D} {4,S}
+3    Od  0 {2,D}
+4    Os  0 {2,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (810000, 'cm^3/(mol*s)'),
+        n = 1.87,
+        alpha = 0.15,
+        E0 = (9.420, 'kcal/mol'),
+        Tmin = (300, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 1,
+    shortDesc = u"Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        (""),
+    ],
+)
+
+
+
+
