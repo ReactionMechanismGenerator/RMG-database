@@ -12183,58 +12183,6 @@ PrIMe Reaction: r00009480
 )
 
 entry(
-    index = 228,
-    label = "1983LAU/GAR560:5",
-    reactant1 = 
-"""
-1 *1 H 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    reactant2 = 
-"""
-1    C 0 {2,D}
-2 *3 C 1 {1,D}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,D} {3,S}
-2    C 0 {1,D}
-3 *2 H 0 {1,S}
-""",
-    product2 = 
-"""
-1 *3 H 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.02e+06,"m^3/(mol*s)"),
-        n = 0,
-        Ea = (35.337,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (290,"K"),
-        Tmax = (310,"K"),
-    ),
-    reference = Article(
-        authors = ["Laufer, A.H.", "Gardner, E.P.", "Kwok, T.L.", "Yung, Y.L."],
-        title = u'Computations and estimates of rate coefficients for hydrocarbon reactions of interest to the atmospheres of the outer solar system',
-        journal = "Icarus",
-        volume = "56",
-        pages = """560""",
-        year = "1983",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1983LAU/GAR560:5",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00009480
-""",
-    history = [
-        ("Thu Jul 12 20:34:02 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983LAU/GAR560:5"""),
-    ],
-)
-
-entry(
     index = 229,
     label = "1967BEN/HAU1735:6",
     reactant1 = 
@@ -14551,113 +14499,6 @@ PrIMe Reaction: r00009509
 """,
     history = [
         ("Thu Jul 12 20:37:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999KAR/OSH11918-11927:3"""),
-    ],
-)
-
-entry(
-    index = 272,
-    label = "2004LAU/FAH2813-2832:34",
-    reactant1 = 
-"""
-1    C 0  {2,D}
-2 *3 C 2T {1,D}
-""",
-    reactant2 = 
-"""
-1 *1 H 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,D}
-2 *1 C 1 {1,D} {3,S}
-3 *2 H 0 {2,S}
-""",
-    product2 = 
-"""
-1 *3 H 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.51e+06,"m^3/(mol*s)"),
-        n = 0,
-        Ea = (26.191,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (290,"K"),
-        Tmax = (310,"K"),
-    ),
-    reference = Article(
-        authors = ["Laufer, A.H.", "Fahr, A."],
-        title = u'Reactions and kinetics of unsaturated C2 hydrocarbon radicals',
-        journal = "Chem. Rev.",
-        volume = "104",
-        pages = """2813-2832""",
-        year = "2004",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004LAU/FAH2813-2832:34",
-    ),
-    referenceType = "review",
-    shortDesc = u"""Extensive literature review""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00010628
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010628/rk00000001.xml
-
-sign on Ea given in table in paper is incorrect
-""",
-    history = [
-        ("Thu Jul 12 20:41:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LAU/FAH2813-2832:34"""),
-    ],
-)
-
-entry(
-    index = 273,
-    label = "1983LAU/GAR560:4",
-    reactant1 = 
-"""
-1    C 0  {2,D}
-2 *3 C 2T {1,D}
-""",
-    reactant2 = 
-"""
-1 *1 H 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,D}
-2 *1 C 1 {1,D} {3,S}
-3 *2 H 0 {2,S}
-""",
-    product2 = 
-"""
-1 *3 H 1
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.51e+06,"m^3/(mol*s)"),
-        n = 0,
-        Ea = (26.191,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (290,"K"),
-        Tmax = (310,"K"),
-    ),
-    reference = Article(
-        authors = ["Laufer, A.H.", "Gardner, E.P.", "Kwok, T.L.", "Yung, Y.L."],
-        title = u'Computations and estimates of rate coefficients for hydrocarbon reactions of interest to the atmospheres of the outer solar system',
-        journal = "Icarus",
-        volume = "56",
-        pages = """560""",
-        year = "1983",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1983LAU/GAR560:4",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00010628
-""",
-    history = [
-        ("Thu Jul 12 20:41:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1983LAU/GAR560:4"""),
     ],
 )
 
@@ -24662,61 +24503,6 @@ Bath gas: He
 )
 
 entry(
-    index = 456,
-    label = "2004LAU/FAH2813-2832:35",
-    reactant1 = 
-"""
-1    C 0  {2,D}
-2 *3 C 2T {1,D}
-""",
-    reactant2 = 
-"""
-1 *1 C 0 {2,S}
-2 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,D}
-2 *1 C 1 {1,D} {3,S}
-3 *2 H 0 {2,S}
-""",
-    product2 = 
-"""
-1 *3 C 1
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (301000,"m^3/(mol*s)"),
-        n = 0,
-        Ea = (22.865,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (290,"K"),
-        Tmax = (310,"K"),
-    ),
-    reference = Article(
-        authors = ["Laufer, A.H.", "Fahr, A."],
-        title = u'Reactions and kinetics of unsaturated C2 hydrocarbon radicals',
-        journal = "Chem. Rev.",
-        volume = "104",
-        pages = """2813-2832""",
-        year = "2004",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004LAU/FAH2813-2832:35",
-    ),
-    referenceType = "review",
-    shortDesc = u"""Extensive literature review""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00010625
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010625/rk00000001.xml
-
-sign on Ea given in table in paper is incorrect
-""",
-    history = [
-        ("Thu Jul 12 20:41:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LAU/FAH2813-2832:35"""),
-    ],
-)
-
-entry(
     index = 457,
     label = "1999JOD/RAY3750-3765:12",
     reactant1 = 
@@ -32596,9 +32382,9 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (1.67e-81,"m^3/(mol*s)"),
+        A = (1.67e-81,"m^3/(molecule*s)"),
         n = 19.68,
-        Ea = (43.194,"kJ/mol"),
+        Ea = (-43.194,"kJ/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (600,"K"),
@@ -32653,9 +32439,9 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (3.38e-30,"m^3/(mol*s)"),
+        A = (3.38e-30,"m^3/(molecule*s)"),
         n = 3.57,
-        Ea = (-32.31,"kJ/mol"),
+        Ea = (32.31,"kJ/mol"),
         T0 = (1,"K"),
         Tmin = (600,"K"),
         Tmax = (3000,"K"),
@@ -32769,7 +32555,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (3.31e-29,"m^3/(mol*s)"),
+        A = (3.31e-29,"m^3/(molecule*s)"),
         n = 3.37,
         Ea = (-31.944,"kJ/mol"),
         T0 = (1,"K"),
@@ -32826,7 +32612,7 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (1.69e-77,"m^3/(mol*s)"),
+        A = (1.69e-77,"m^3/(molecule*s)"),
         n = 18.51,
         Ea = (39.369,"kJ/mol"),
         T0 = (1,"K"),
@@ -40626,120 +40412,6 @@ Uncertainty: 5.0
 """,
     history = [
         ("Thu Jul 12 20:39:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:72"""),
-    ],
-)
-
-entry(
-    index = 741,
-    label = "2004LAU/FAH2813-2832:36",
-    reactant1 = 
-"""
-1    C 0  {2,D}
-2 *3 C 2T {1,D}
-""",
-    reactant2 = 
-"""
-1 *1 C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,D}
-2 *1 C 1 {1,D} {3,S}
-3 *2 H 0 {2,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,S}
-2 *3 C 1 {1,S}
-""",
-    degeneracy = 6,
-    kinetics = Arrhenius(
-        A = (964000,"m^3/(mol*s)"),
-        n = 0,
-        Ea = (19.123,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (290,"K"),
-        Tmax = (310,"K"),
-    ),
-    reference = Article(
-        authors = ["Laufer, A.H.", "Fahr, A."],
-        title = u'Reactions and kinetics of unsaturated C2 hydrocarbon radicals',
-        journal = "Chem. Rev.",
-        volume = "104",
-        pages = """2813-2832""",
-        year = "2004",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004LAU/FAH2813-2832:36",
-    ),
-    referenceType = "review",
-    shortDesc = u"""Extensive literature review""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00010626
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010626/rk00000001.xml
-
-sign on Ea given in table in paper is incorrect
-""",
-    history = [
-        ("Thu Jul 12 20:41:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LAU/FAH2813-2832:36"""),
-    ],
-)
-
-entry(
-    index = 742,
-    label = "2004LAU/FAH2813-2832:37",
-    reactant1 = 
-"""
-1    C 0  {2,D}
-2 *3 C 2T {1,D}
-""",
-    reactant2 = 
-"""
-1 *1 C 0 {2,D} {3,S}
-2    C 0 {1,D}
-3 *2 H 0 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,D}
-2 *1 C 1 {1,D} {3,S}
-3 *2 H 0 {2,S}
-""",
-    product2 = 
-"""
-1    C 0 {2,D}
-2 *3 C 1 {1,D}
-""",
-    degeneracy = 4,
-    kinetics = Arrhenius(
-        A = (662000,"m^3/(mol*s)"),
-        n = 0,
-        Ea = (20.37,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (290,"K"),
-        Tmax = (310,"K"),
-    ),
-    reference = Article(
-        authors = ["Laufer, A.H.", "Fahr, A."],
-        title = u'Reactions and kinetics of unsaturated C2 hydrocarbon radicals',
-        journal = "Chem. Rev.",
-        volume = "104",
-        pages = """2813-2832""",
-        year = "2004",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2004LAU/FAH2813-2832:37",
-    ),
-    referenceType = "review",
-    shortDesc = u"""Extensive literature review""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00010627
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010627/rk00000001.xml
-
-sign on Ea given in table in paper is incorrect
-""",
-    history = [
-        ("Thu Jul 12 20:41:30 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2004LAU/FAH2813-2832:37"""),
     ],
 )
 
@@ -64109,7 +63781,7 @@ entry(
     degeneracy = 9,
     kinetics = Arrhenius(
         A = (0.308,"m^3/(mol*s)","*|/",10),
-        n = 5.1,
+        n = 2.5,
         Ea = (77.158,"kJ/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
@@ -68774,7 +68446,7 @@ entry(
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (0.0103,"m^3/(mol*s)","+|-",0.00047),
+        A = (1.03e7,"m^3/(mol*s)","+|-",0.00047),
         n = 0,
         Ea = (74.3,"kJ/mol","+|-",4.9),
         T0 = (1,"K"),
