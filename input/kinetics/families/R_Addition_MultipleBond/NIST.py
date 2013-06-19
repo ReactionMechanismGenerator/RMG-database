@@ -2155,9 +2155,9 @@ entry(
 """,
     degeneracy = 3,
     kinetics = Arrhenius(
-        A = (3.49e+37,"s^-1"),
+        A = (6.8e+13,"s^-1"),
         n = 0,
-        Ea = (107.8,"kJ/mol"),
+        Ea = (109.5,"kJ/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (850,"K"),
@@ -9044,57 +9044,6 @@ Analytical technique: Gas chromatography
 )
 
 entry(
-    index = 179,
-    label = "1987DEA/WES207:4",
-    reactant1 = 
-"""
-1 *1 C 0 {2,T}
-2 *2 C 0 {1,T}
-""",
-    reactant2 = 
-"""
-1 *3 C 1
-""",
-    product1 = 
-"""
-1 *3 C 0 {2,S}
-2 *1 C 0 {1,S} {3,D}
-3 *2 C 1 {2,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (1.61e+34,"m^3/(mol*s)"),
-        n = -8.58,
-        Ea = (84.808,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (600,"K"),
-        Tmax = (2500,"K"),
-        Pmin = (101000,"Pa"),
-        Pmax = (101000,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Dean, A.M.", "Westmoreland, P.R."],
-        title = u'Bimolecular QRRK analyss of methyl radical reactions',
-        journal = "Int. J. Chem. Kinet.",
-        volume = "19",
-        pages = """207""",
-        year = "1987",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987DEA/WES207:4",
-    ),
-    referenceType = "experiment",
-    shortDesc = u"""RRK(M) extrapolation""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00012935
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000004.xml
-Bath gas: N2
-""",
-    history = [
-        ("Wed Jul 25 18:46:08 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987DEA/WES207:4"""),
-    ],
-)
-
-entry(
     index = 180,
     label = "1992BAU/COB411-429:53",
     reactant1 = 
@@ -9140,57 +9089,6 @@ Uncertainty: 3.1600001
 """,
     history = [
         ("Wed Jul 25 18:46:56 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:53"""),
-    ],
-)
-
-entry(
-    index = 181,
-    label = "1994DIA/LIN3923-3927:5",
-    reactant1 = 
-"""
-1 *1 C 0 {2,T}
-2 *2 C 0 {1,T}
-""",
-    reactant2 = 
-"""
-1 *3 C 1
-""",
-    product1 = 
-"""
-1 *3 C 0 {2,S}
-2 *1 C 0 {1,S} {3,D}
-3 *2 C 1 {2,D}
-""",
-    degeneracy = 2,
-    kinetics = Arrhenius(
-        A = (4.57e+50,"m^3/(mol*s)"),
-        n = -13.7,
-        Ea = (116.403,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (1000,"K"),
-        Tmax = (3000,"K"),
-        Pmin = (101000,"Pa"),
-        Pmax = (101000,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Diau, E.W.", "Lin, M.C."],
-        title = u'A theoretical study of the CH3 + C2H2 reaction',
-        journal = "J. Chem. Phys.",
-        volume = "101",
-        pages = """3923-3927""",
-        year = "1994",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=1994DIA/LIN3923-3927:5",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Transition state theory""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00012935
-PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012935/rk00000006.xml
-Bath gas: Ar
-""",
-    history = [
-        ("Wed Jul 25 18:48:12 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994DIA/LIN3923-3927:5"""),
     ],
 )
 
@@ -12017,7 +11915,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (5.68e+37,"s^-1"),
+        A = (9.43e+13,"s^-1"),
         n = 0,
         Ea = (125.845,"kJ/mol"),
         T0 = (1,"K"),
@@ -16668,168 +16566,6 @@ Pressure dependence: Rate constant is high pressure limit
 """,
     history = [
         ("Thu Jul 12 21:16:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008SOM965-973:4"""),
-    ],
-)
-
-entry(
-    index = 323,
-    label = "2008SOM965-973:6",
-    reactant1 = 
-"""
-1    C 0 {2,S} {4,S}
-2 *3 C 0 {1,S} {3,S}
-3 *1 C 0 {2,S} {5,S}
-4    C 0 {1,S}
-5 *2 O 1 {3,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,D}
-2 *2 O 0 {1,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3 *3 C 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (2.18e+21,"s^-1"),
-        n = -3.61,
-        Ea = (65.485,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (200,"K"),
-        Tmax = (1000,"K"),
-        Pmin = (26700,"Pa"),
-        Pmax = (26700,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Somnitz, H."],
-        title = u'The contribution of tunnelling to the 1,5 H-shift isomerisation reaction of alkoxyl radicals',
-        journal = "Phys. Chem. Chem. Phys.",
-        volume = "10",
-        pages = """965-973""",
-        year = "2008",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2008SOM965-973:6",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Ab initio""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00001349
-""",
-    history = [
-        ("Thu Jul 12 21:16:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008SOM965-973:6"""),
-    ],
-)
-
-entry(
-    index = 324,
-    label = "2008SOM965-973:5",
-    reactant1 = 
-"""
-1    C 0 {2,S} {4,S}
-2 *3 C 0 {1,S} {3,S}
-3 *1 C 0 {2,S} {5,S}
-4    C 0 {1,S}
-5 *2 O 1 {3,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,D}
-2 *2 O 0 {1,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3 *3 C 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (5.01e+24,"s^-1"),
-        n = -4.36,
-        Ea = (70.224,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (200,"K"),
-        Tmax = (1100,"K"),
-        Pmin = (101000,"Pa"),
-        Pmax = (101000,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Somnitz, H."],
-        title = u'The contribution of tunnelling to the 1,5 H-shift isomerisation reaction of alkoxyl radicals',
-        journal = "Phys. Chem. Chem. Phys.",
-        volume = "10",
-        pages = """965-973""",
-        year = "2008",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2008SOM965-973:5",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Ab initio""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00001349
-""",
-    history = [
-        ("Thu Jul 12 21:16:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2008SOM965-973:5"""),
-    ],
-)
-
-entry(
-    index = 325,
-    label = "2006SOM/ZEL1029-1048:6",
-    reactant1 = 
-"""
-1    C 0 {2,S} {4,S}
-2 *3 C 0 {1,S} {3,S}
-3 *1 C 0 {2,S} {5,S}
-4    C 0 {1,S}
-5 *2 O 1 {3,S}
-""",
-    product1 = 
-"""
-1 *1 C 0 {2,D}
-2 *2 O 0 {1,D}
-""",
-    product2 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S}
-3 *3 C 1 {1,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (7.13e+20,"s^-1"),
-        n = -3.11,
-        Ea = (66.2,"kJ/mol"),
-        T0 = (1,"K"),
-        Tmin = (200,"K"),
-        Tmax = (1500,"K"),
-        Pmin = (101000,"Pa"),
-        Pmax = (101000,"Pa"),
-    ),
-    reference = Article(
-        authors = ["Somnitz, H.", "Zellner, R."],
-        title = u'Kinetics and dynamics of multi-channel unimolecular reactions of alkoxyl radicals over an extended range of temperature and pressure. A combined quantum chemical/RRKM dynamical study',
-        journal = "Z. Phys. Chem.",
-        volume = "220",
-        pages = """1029-1048""",
-        year = "2006",
-        url = "http://kinetics.nist.gov/kinetics/Detail?id=2006SOM/ZEL1029-1048:6",
-    ),
-    referenceType = "theory",
-    shortDesc = u"""Transition state theory""",
-    longDesc = 
-u"""
-PrIMe Reaction: r00001349
-Pressure dependence: Rate constant is pressure dependent
-
-Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition RRKM and master equation analysis. Rate constants were calculated for wide ranges of temperatures and pressures.
-""",
-    history = [
-        ("Thu Jul 12 21:16:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SOM/ZEL1029-1048:6"""),
     ],
 )
 
@@ -24204,14 +23940,12 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (6.17e+45,"s^-1"),
-        n = -11,
-        Ea = (148.243,"kJ/mol"),
+        A = (3.110e9,"s^-1"),
+        n = 1.05,
+        Ea = (26.43,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (300,"K"),
         Tmax = (900,"K"),
-        Pmin = (101000,"Pa"),
-        Pmax = (101000,"Pa"),
     ),
     reference = Article(
         authors = ["Sun, H.", "Bozzelli, J.W."],
@@ -24266,14 +24000,12 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (8.72e+26,"s^-1"),
-        n = -5.92,
-        Ea = (82.467,"kJ/mol"),
+        A = (2.349e7,"s^-1"),
+        n = 1.67,
+        Ea = (25.23,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (900,"K"),
         Tmax = (2500,"K"),
-        Pmin = (101000,"Pa"),
-        Pmax = (101000,"Pa"),
     ),
     reference = Article(
         authors = ["Sun, H.", "Bozzelli, J.W."],

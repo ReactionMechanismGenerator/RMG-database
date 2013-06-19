@@ -3553,7 +3553,7 @@ entry(
 4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (3.33e+18, 'cm^3/(mol*s)'),
+        A = (3.33e+12, 'cm^3/(mol*s)'),
         n = 0,
         alpha = 0,
         E0 = (28, 'kcal/mol'),
