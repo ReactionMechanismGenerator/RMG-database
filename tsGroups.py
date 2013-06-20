@@ -102,19 +102,20 @@ def generate(args):
     families. The `args` parameter provides the results of parsing the 
     command-line arguments using argparse.
     """
+    
     # Make sure we have at least one family to generate values for
     if len(args.family) == 0 and not args.all:
         raise ArgumentError('No reaction families specified')
     
     # Make sure the method is valid
     method = args.method
-    if method not in ['KineticsData', 'Arrhenius', 'Arrhenius2']:
+    if method not in ['DistanceGeometry']:
         raise ArgumentError('Invalid method "{0}" specified'.format(method))
         
     # If training sets are not specified, 'training' and 'rules' are used
     trainingSetLabels = args.training
     if not trainingSetLabels:
-        trainingSetLabels = ['rules', 'training']
+        trainingSetLabels = ['TS_training']
         
     # Load the database
     database = loadDatabase()
