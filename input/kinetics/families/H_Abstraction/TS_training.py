@@ -10,56 +10,6 @@ group additivity values in this file.
 recommended = True
 
 entry(
-    index = 1,
-    reactant1 = 
-"""
-1    H 0 {2,S}
-2 *1 C 0 {1,S} {3,S} {4,S} {5,S}
-3    H 0 {2,S}
-4 *2 H 0 {2,S}
-5    H 0 {2,S}
-""",
-    reactant2 = 
-"""
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-""",
-    product1 = 
-"""
-1    H 0 {2,S}
-2 *3 C 1 {1,S} {3,S} {4,S}
-3    H 0 {2,S}
-4    H 0 {2,S}
-""",
-    product2 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5 *2 H 0 {1,S}
-""",
-    distances = {
-        'd12' : 1.3393741359,
-        'd23' : 1.33935268564,
-        'd13' : 2.67872682077,
-    },
-    reference = None,
-    referenceType = "",
-    rank = 3,
-    shortDesc = u"""M06-2X/6-31+G(d,p) calculations""",
-    longDesc = 
-u"""
-M06-2X/6-31+G(d,p) calculations w/ tight, int=ultrafine options
-""",
-    history = [
-        ("Thu Jun 20 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations using the automatic transition state search algorithm."""),
-    ],
-)
-
-entry(
     index = 2,
     reactant1 = 
 """
@@ -413,68 +363,6 @@ entry(
         'd12' : 1.37713399973,
         'd23' : 1.30819156289,
         'd13' : 2.68278131422,
-    },
-    reference = None,
-    referenceType = "",
-    rank = 3,
-    shortDesc = u"""M06-2X/6-31+G(d,p) calculations""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Jun 20 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations using the automatic transition state search algorithm."""),
-    ],
-)
-
-entry(
-    index = 8,
-    reactant1 = 
-"""
-1    H 0 {2,S}
-2    C 0 {1,S} {3,S} {4,S} {5,S}
-3    H 0 {2,S}
-4 *1 C 0 {2,S} {6,S} {7,S} {8,S}
-5    H 0 {2,S}
-6    H 0 {4,S}
-7    H 0 {4,S}
-8 *2 H 0 {4,S}
-""",
-    reactant2 = 
-"""
-1 *3 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    C 0 {1,S} {5,S} {6,S} {7,S}
-5    H 0 {4,S}
-6    H 0 {4,S}
-7    H 0 {4,S}
-""",
-    product1 = 
-"""
-1    H 0 {2,S}
-2 *3 C 1 {1,S} {3,S} {4,S}
-3    C 0 {2,S} {5,S} {6,S} {7,S}
-4    H 0 {2,S}
-5    H 0 {3,S}
-6    H 0 {3,S}
-7    H 0 {3,S}
-""",
-    product2 = 
-"""
-1 *1 C 0 {2,S} {3,S} {4,S} {8,S}
-2    C 0 {1,S} {5,S} {6,S} {7,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {2,S}
-6    H 0 {2,S}
-7    H 0 {2,S}
-8 *2 H 0 {1,S}
-""",
-    distances = {
-        'd12' : 1.34454885366,
-        'd23' : 1.34468432402,
-        'd13' : 2.68491023469,
     },
     reference = None,
     referenceType = "",
@@ -885,80 +773,6 @@ entry(
         'd12' : 1.34541799426,
         'd23' : 1.34597083831,
         'd13' : 2.68979141822,
-    },
-    reference = None,
-    referenceType = "",
-    rank = 3,
-    shortDesc = u"""M06-2X/6-31+G(d,p) calculations""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Jun 20 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations using the automatic transition state search algorithm."""),
-    ],
-)
-
-entry(
-    index = 15,
-    reactant1 = 
-"""
-1     H 0 {2,S}
-2     C 0 {1,S} {3,S} {4,S} {5,S}
-3     H 0 {2,S}
-4     C 0 {2,S} {6,S} {7,S} {8,S}
-5     H 0 {2,S}
-6     H 0 {4,S}
-7  *1 C 0 {4,S} {9,S} {10,S} {11,S}
-8     H 0 {4,S}
-9     H 0 {7,S}
-10    H 0 {7,S}
-11 *2 H 0 {7,S}
-""",
-    reactant2 = 
-"""
-1  *3 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     C 0 {1,S} {5,S} {6,S} {7,S}
-5     C 0 {4,S} {8,S} {9,S} {10,S}
-6     H 0 {4,S}
-7     H 0 {4,S}
-8     H 0 {5,S}
-9     H 0 {5,S}
-10    H 0 {5,S}
-""",
-    product1 = 
-"""
-1     H 0 {2,S}
-2  *3 C 1 {1,S} {3,S} {4,S}
-3     H 0 {2,S}
-4     C 0 {2,S} {5,S} {6,S} {7,S}
-5     H 0 {4,S}
-6     C 0 {4,S} {8,S} {9,S} {10,S}
-7     H 0 {4,S}
-8     H 0 {6,S}
-9     H 0 {6,S}
-10    H 0 {6,S}
-""",
-    product2 = 
-"""
-1     C 0 {2,S} {3,S} {4,S} {5,S}
-2  *1 C 0 {1,S} {6,S} {7,S} {11,S}
-3     C 0 {1,S} {8,S} {9,S} {10,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     H 0 {2,S}
-7     H 0 {2,S}
-8     H 0 {3,S}
-9     H 0 {3,S}
-10    H 0 {3,S}
-11 *2 H 0 {2,S}
-""",
-    distances = {
-        'd12' : 1.34276693940,
-        'd23' : 1.34762633132,
-        'd13' : 2.68875565708,
     },
     reference = None,
     referenceType = "",
