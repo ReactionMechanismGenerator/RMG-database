@@ -23,6 +23,7 @@ from rmgpy.quantity import constants
 from rmgpy.kinetics import Arrhenius, ArrheniusEP, KineticsData
 from rmgpy.data.base import getAllCombinations
 from rmgpy.species import Species
+from rmgpy.data.kinetics.transitionstates import TransitionStates, TransitionStateDepository, TSGroups
 
 from importOldDatabase import getUsername
 user = getUsername()
