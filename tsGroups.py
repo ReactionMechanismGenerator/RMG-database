@@ -125,12 +125,12 @@ def generate(args):
         for trainingSetLabel in trainingSetLabels:
             for reaction, template, entry in createDataSet(trainingSetLabel, family, database, rxnFamily):
                 distances = entry.data
-                trainingSet.append((template, kinetics))
+                trainingSet.append((template, distances))
     
     kunits = 'Angstroms'
     
     # Generate the group values (implemented on the KineticsGroups class)
-    changed = family.groups.generateGroupAdditivityValues(trainingSet, kunits, method=method)
+    changed = database.groups.generateGroupAdditivityValues(trainingSet, kunits, method=method)
     
     if changed:
         # Add a note to the history of each changed item indicating that we've generated new group values
