@@ -31,10 +31,12 @@ user = getUsername()
 ################################################################################
 
 def loadDatabase():
-    print 'Loading RMG database...'
-    from rmgpy.data.rmg import RMGDatabase
-    database = RMGDatabase()
-    database.load('input')
+    print 'Loading RMG transition states database...'
+    database = TransitionStates()
+    path = 'input/kinetics/families/H_Abstraction'
+    local_context = None
+    global_context = None
+    database.load(path, local_context, global_context)
     return database
 
 def convertKineticsToPerSiteBasis(kinetics, degeneracy):
