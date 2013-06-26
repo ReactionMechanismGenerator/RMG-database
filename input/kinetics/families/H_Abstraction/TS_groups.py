@@ -7,8 +7,14 @@ longDesc = u"""
 
 """
 
-template(reactants=["X_H_or_Xrad_H", "Y_rad_birad"], products=["X_H_or_Xrad_H", "Y_rad_birad"], ownReverse=True)
-
+# template(reactants=["X_H_or_Xrad_H", "Y_rad_birad"], products=["X_H_or_Xrad_H", "Y_rad_birad"], ownReverse=True)
+# 
+# recipe(actions=[
+#     ['BREAK_BOND', '*1', 'S', '*2'],
+#     ['FORM_BOND', '*2', 'S', '*3'],
+#     ['GAIN_RADICAL', '*1', '1'],
+#     ['LOSE_RADICAL', '*3', '1'],
+# ])
 
 entry(
     index = 1,
