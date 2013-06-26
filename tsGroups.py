@@ -68,16 +68,13 @@ def createDataSet(label, family, database, rxnFamily):
     the given `label`. 
     """
     dataset = []
-        
-    label = '{0}/{1}'.format(family.label, label)
-    for depository in family.depositories:
-        if depository.label == label:
-            break
-    else:
+    
+    label = '{0}/{1}'.format(family, label)
+    if database.depository.label != label:
         raise ValueError('Invalid value "{0}" for label parameter.'.format(label))
 
-    for entry in depository.entries.values():
-        reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family.label, thermoDatabase=database.thermo)
+    for entry in database.depository.entries.values():
+        reaction, template = database.getForwardReactionForFamilyEntry(entry=entry, family=family, groups=database.groups, rxnFamily=rxnFamily)
         dataset.append([reaction, template, entry])
 
     return dataset
@@ -117,12 +114,8 @@ def generate(args):
     # Load the database
     database, rmgDatabase = loadDatabase()
     
-    # If --all flag was specified, use all reaction families
-    families = []
-    if args.all:
-        families = database.kinetics.families.keys()
-    else:
-        families = args.family
+    rmgDatabase.kinetics.loadFamilies('input/kinetics/families')
+    rxnFamily = rmgDatabase.kinetics.families['H_Abstraction']
     
     # Removed above. Haven't put families yet for transition states, so specify H_Abstraction
     families = args.family
@@ -133,19 +126,19 @@ def generate(args):
             for reaction, template, entry in createDataSet(trainingSetLabel, family, database, rxnFamily):
                 distances = entry.data
                 trainingSet.append((template, kinetics))
-        
-        kunits = family.getRateCoefficientUnits()
-        
-        # Generate the group values (implemented on the KineticsGroups class)
-        changed = family.groups.generateGroupAdditivityValues(trainingSet, kunits, method=method)
-        
-        if changed:
-            # Add a note to the history of each changed item indicating that we've generated new group values
-            event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
-            for entry in family.groups.entries.values():
-                entry.history.append(event)
-            # Save the new group values to disk
-            family.saveGroups(os.path.join('input', 'kinetics', 'families', label, 'groups.py'))
+    
+    kunits = 'Angstroms'
+    
+    # Generate the group values (implemented on the KineticsGroups class)
+    changed = family.groups.generateGroupAdditivityValues(trainingSet, kunits, method=method)
+    
+    if changed:
+        # Add a note to the history of each changed item indicating that we've generated new group values
+        event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
+        for entry in family.groups.entries.values():
+            entry.history.append(event)
+        # Save the new group values to disk
+        family.saveGroups(os.path.join('input', 'kinetics', 'families', label, 'groups.py'))
 
 ################################################################################
 
