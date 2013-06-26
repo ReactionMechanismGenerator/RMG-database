@@ -58,33 +58,21 @@ def convertKineticsToPerSiteBasis(kinetics, degeneracy):
 
 def createDataSet(label, family, database):
     """
-    Create a data set from the component of the kinetics `family` indicated by
-    the given `label`. The full RMG `database` must be loaded so that we can
-    get thermodynamics for some species.
+    Create a data set from the component of the transition state `family` indicated by
+    the given `label`. 
     """
     dataset = []
         
-    if label == 'rules':
-        for label, entries in family.rules.entries.items():
-            for entry in entries:
-                # Skip ArrheniusEP entries with Evans-Polanyi values
-                if isinstance(entry.data, ArrheniusEP) and entry.data.alpha.value != 0: continue
-                # Also skip entries with rank of zero (since they are just made-up numbers)
-                if entry.rank == 0: continue
-                template = [family.groups.entries[node] for node in label.split(';')]
-                reaction = entry.item
-                dataset.append([reaction, template, entry])
+    label = '{0}/{1}'.format(family.label, label)
+    for depository in family.depositories:
+        if depository.label == label:
+            break
     else:
-        label = '{0}/{1}'.format(family.label, label)
-        for depository in family.depositories:
-            if depository.label == label:
-                break
-        else:
-            raise ValueError('Invalid value "{0}" for label parameter.'.format(label))
-    
-        for entry in depository.entries.values():
-            reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family.label, thermoDatabase=database.thermo)
-            dataset.append([reaction, template, entry])
+        raise ValueError('Invalid value "{0}" for label parameter.'.format(label))
+
+    for entry in depository.entries.values():
+        reaction, template = database.kinetics.getForwardReactionForFamilyEntry(entry=entry, family=family.label, thermoDatabase=database.thermo)
+        dataset.append([reaction, template, entry])
 
     return dataset
 
