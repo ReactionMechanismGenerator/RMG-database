@@ -37,7 +37,13 @@ def loadDatabase():
     local_context = None
     global_context = None
     database.load(path, local_context, global_context)
-    return database
+    
+    print 'Loading RMG database...'
+    from rmgpy.data.rmg import RMGDatabase
+    rmgDatabase = RMGDatabase()
+    rmgDatabase.load('input')
+    
+    return database, rmgDatabase
 
 def convertKineticsToPerSiteBasis(kinetics, degeneracy):
     """
@@ -56,7 +62,7 @@ def convertKineticsToPerSiteBasis(kinetics, degeneracy):
     
 ################################################################################
 
-def createDataSet(label, family, database):
+def createDataSet(label, family, database, rxnFamily):
     """
     Create a data set from the component of the transition state `family` indicated by
     the given `label`. 
@@ -109,7 +115,7 @@ def generate(args):
         trainingSetLabels = ['TS_training']
         
     # Load the database
-    database = loadDatabase()
+    database, rmgDatabase = loadDatabase()
     
     # If --all flag was specified, use all reaction families
     families = []
@@ -118,15 +124,14 @@ def generate(args):
     else:
         families = args.family
     
-    # Iterate over each family, generating and saving group values
-    for label in families:
-        family = database.kinetics.families[label]
-        family.addKineticsRulesFromTrainingSet(thermoDatabase=database.thermo)
-        
-        trainingSet = []
+    # Removed above. Haven't put families yet for transition states, so specify H_Abstraction
+    families = args.family
+    
+    trainingSet = []
+    for family in families:
         for trainingSetLabel in trainingSetLabels:
-            for reaction, template, entry in createDataSet(trainingSetLabel, family, database):
-                kinetics = reaction.kinetics or entry.data
+            for reaction, template, entry in createDataSet(trainingSetLabel, family, database, rxnFamily):
+                distances = entry.data
                 trainingSet.append((template, kinetics))
         
         kunits = family.getRateCoefficientUnits()
