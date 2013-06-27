@@ -92,7 +92,7 @@ class ArgumentError(Exception):
 
 def generate(args):
     """
-    Generate kinetics group additivity values for one (or more) reaction
+    Generate transition state distance group additivity values for one (or more) reaction
     families. The `args` parameter provides the results of parsing the 
     command-line arguments using argparse.
     """
