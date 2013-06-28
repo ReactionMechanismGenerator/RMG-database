@@ -127,17 +127,9 @@ def generate(args):
                 distances = entry.data
                 trainingSet.append((template, distances))
     
-    kunits = 'Angstroms'
-    
     # Generate the group values (implemented on the KineticsGroups class)
-    changed = database.groups.generateGroupAdditivityValues(trainingSet, kunits, method=method)
-    
+    changed = database.groups.generateGroupAdditivityValues(trainingSet, user=user)
     if changed:
-        # Add a note to the history of each changed item indicating that we've generated new group values
-        event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
-        for entry in database.groups.entries.values():
-            entry.history.append(event)
-        
         # Save the new group values to disk
         database.saveTransitionStateGroups(os.path.join('input', 'kinetics', 'families', 'H_Abstraction', 'TS_groups.py'))
 
