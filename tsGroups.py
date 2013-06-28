@@ -135,10 +135,11 @@ def generate(args):
     if changed:
         # Add a note to the history of each changed item indicating that we've generated new group values
         event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
-        for entry in family.groups.entries.values():
+        for entry in database.groups.entries.values():
             entry.history.append(event)
+        
         # Save the new group values to disk
-        family.saveGroups(os.path.join('input', 'kinetics', 'families', label, 'groups.py'))
+        database.saveTransitionStateGroups(os.path.join('input', 'kinetics', 'families', 'H_Abstraction', 'TS_groups.py'))
 
 ################################################################################
 
