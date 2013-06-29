@@ -45,21 +45,6 @@ def loadDatabase():
     
     return database, rmgDatabase
 
-def convertKineticsToPerSiteBasis(kinetics, degeneracy):
-    """
-    Given high-pressure-limit `kinetics` which includes reaction-path
-    `degeneracy`, convert the kinetics to be on a per-site basis.
-    """
-    if isinstance(kinetics, KineticsData):
-        kinetics.kdata.value_si /= degeneracy
-    elif isinstance(kinetics, Arrhenius):
-        kinetics.A.value_si /= degeneracy
-    elif isinstance(kinetics, ArrheniusEP):
-        kinetics.A.value_si /= degeneracy
-    else:
-        raise Exception('Unable to convert kinetics of type {0} to per-site basis.'.format(kinetics.__class__))
-    return kinetics
-    
 ################################################################################
 
 def createDataSet(label, family, database, rxnFamily):
