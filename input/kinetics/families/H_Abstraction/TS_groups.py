@@ -7,27 +7,20 @@ longDesc = u"""
 
 """
 
-# template(reactants=["X_H_or_Xrad_H", "Y_rad_birad"], products=["X_H_or_Xrad_H", "Y_rad_birad"], ownReverse=True)
-# 
-# recipe(actions=[
-#     ['BREAK_BOND', '*1', 'S', '*2'],
-#     ['FORM_BOND', '*2', 'S', '*3'],
-#     ['GAIN_RADICAL', '*1', '1'],
-#     ['LOSE_RADICAL', '*3', '1'],
-# ])
-
 entry(
     index = 1,
     label = "X_H_or_Xrad_H",
     group = "OR{X_H, Xrad_H}",
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -35,14 +28,16 @@ entry(
     index = 2,
     label = "Y_rad_birad",
     group = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad}",
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -54,14 +49,16 @@ entry(
 1 *1 R 0 {2,S}
 2 *2 H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -73,14 +70,16 @@ entry(
 1 *1 H 0 {2,S}
 2 *2 H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -93,14 +92,16 @@ entry(
 2    C 0 {1,T}
 3 *2 H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -113,14 +114,16 @@ entry(
 2 *2 H 0 {1,S}
 3    R 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -133,14 +136,16 @@ entry(
 2 *2 H 0 {1,S}
 3    H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -153,14 +158,16 @@ entry(
 2 *2 H   0 {1,S}
 3    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -173,14 +180,16 @@ entry(
 2 *2 H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -193,14 +202,16 @@ entry(
 2 *2 H 0 {1,S}
 3    O 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -214,14 +225,16 @@ entry(
 3 *2 H 0 {1,S}
 4    H 0 {2,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -238,14 +251,16 @@ entry(
 6    H  0 {3,S}
 7 *2 H  0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -262,14 +277,16 @@ entry(
 6    H  0 {3,S}
 7 *2 H  0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -286,14 +303,16 @@ entry(
 6    Cs 0 {3,S}
 7 *2 H  0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -306,14 +325,16 @@ entry(
 2 *2 H                0 {1,S}
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -326,14 +347,16 @@ entry(
 2 *2 H 0 {1,S}
 3    O 1 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -346,14 +369,16 @@ entry(
 2 *2 H 0 {1,S}
 3    R 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -366,14 +391,16 @@ entry(
 2 *2 H 0 {1,S}
 3    H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -386,14 +413,16 @@ entry(
 2 *2 H   0 {1,S}
 3    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -406,14 +435,16 @@ entry(
 2 *2 H  0 {1,S}
 3    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -426,14 +457,16 @@ entry(
 2 *2 H 0 {1,S}
 3    S 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -446,14 +479,16 @@ entry(
 2 *2 H                0 {1,S}
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -466,14 +501,16 @@ entry(
 2 *2 H  0 {1,S}
 3    Cd 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -487,14 +524,16 @@ entry(
 3    Cd 0 {1,S} {4,D}
 4    S  0 {3,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -507,14 +546,16 @@ entry(
 2 *2 H  0 {1,S}
 3    Ct 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -527,14 +568,16 @@ entry(
 2 *2 H  0 {1,S}
 3    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -547,14 +590,16 @@ entry(
 2 *2 H  0 {1,S}
 3    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -568,14 +613,16 @@ entry(
 3 *2 H 0 {1,S}
 4    R 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -589,14 +636,16 @@ entry(
 3 *2 H 0 {1,S}
 4    H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -610,14 +659,16 @@ entry(
 3 *2 H   0 {1,S}
 4    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -631,14 +682,16 @@ entry(
 3 *2 H  0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -652,14 +705,16 @@ entry(
 3 *2 H 0 {1,S}
 4    O 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -673,14 +728,16 @@ entry(
 3 *2 H 0 {1,S}
 4    S 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -694,14 +751,16 @@ entry(
 3 *2 H                0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -715,14 +774,16 @@ entry(
 3 *2 H  0 {1,S}
 4    Cd 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -737,14 +798,16 @@ entry(
 4    Cd 0 {1,S} {5,D}
 5    S  0 {4,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -758,14 +821,16 @@ entry(
 3 *2 H  0 {1,S}
 4    Ct 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -779,14 +844,16 @@ entry(
 3 *2 H  0 {1,S}
 4    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -800,14 +867,16 @@ entry(
 3 *2 H  0 {1,S}
 4    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -821,14 +890,16 @@ entry(
 3    {Cb,Cbf} 0 {1,B}
 4 *2 H        0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -842,14 +913,16 @@ entry(
 3 *2 H 0 {1,S}
 4    R 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -863,14 +936,16 @@ entry(
 3 *2 H 0 {1,S}
 4    H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -884,14 +959,16 @@ entry(
 3 *2 H   0 {1,S}
 4    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -905,14 +982,16 @@ entry(
 3 *2 H        0 {1,S}
 4    {Cs,O,S} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -935,14 +1014,16 @@ entry(
 12    H 0 {5,S}
 13    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -956,14 +1037,16 @@ entry(
 3 *2 H                0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -977,14 +1060,16 @@ entry(
 3 *2 H 0 {1,S}
 4    R 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -998,14 +1083,16 @@ entry(
 3 *2 H 0 {1,S}
 4    H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1019,14 +1106,16 @@ entry(
 3 *2 H   0 {1,S}
 4    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1040,14 +1129,16 @@ entry(
 3 *2 H  0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1061,14 +1152,16 @@ entry(
 3 *2 H 0 {1,S}
 4    O 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1082,14 +1175,16 @@ entry(
 3 *2 H 0 {1,S}
 4    S 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1103,14 +1198,16 @@ entry(
 3 *2 H                0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1124,14 +1221,16 @@ entry(
 3 *2 H  0 {1,S}
 4    Cd 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1146,14 +1245,16 @@ entry(
 4    Cd 0 {1,S} {5,D}
 5    S  0 {4,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1167,14 +1268,16 @@ entry(
 3 *2 H  0 {1,S}
 4    Ct 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1188,14 +1291,16 @@ entry(
 3 *2 H  0 {1,S}
 4    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1209,14 +1314,16 @@ entry(
 3 *2 H  0 {1,S}
 4    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1231,14 +1338,16 @@ entry(
 4    R 0 {1,S}
 5    R 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1253,14 +1362,16 @@ entry(
 4    H 0 {1,S}
 5    H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1275,14 +1386,16 @@ entry(
 4    H   0 {1,S}
 5    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1297,14 +1410,16 @@ entry(
 4    H  0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1322,14 +1437,16 @@ entry(
 7    H 0 {2,S}
 8    H 0 {2,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1354,14 +1471,16 @@ entry(
 14    H 0 {5,S}
 15    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1376,14 +1495,16 @@ entry(
 4    H  0 {1,S}
 5    Cd 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1399,14 +1520,16 @@ entry(
 5    Cd 0 {1,S} {6,D}
 6    S  0 {5,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1425,14 +1548,16 @@ entry(
 8    H 0 {3,S}
 9    H 0 {3,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1454,14 +1579,16 @@ entry(
 11    H 0 {4,S}
 12    H 0 {4,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1483,14 +1610,16 @@ entry(
 11    H 0 {4,S}
 12    H 0 {4,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1505,14 +1634,16 @@ entry(
 4    H  0 {1,S}
 5    Ct 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1527,14 +1658,16 @@ entry(
 4    H  0 {1,S}
 5    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1549,14 +1682,16 @@ entry(
 4    H  0 {1,S}
 5    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1571,14 +1706,16 @@ entry(
 4    H 0 {1,S}
 5    O 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1593,14 +1730,16 @@ entry(
 4    H 0 {1,S}
 5    S 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1615,14 +1754,16 @@ entry(
 4    R!H 0 {1,S}
 5    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1637,14 +1778,16 @@ entry(
 4    Cs 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1665,14 +1808,16 @@ entry(
 10    H 0 {3,S}
 11    H 0 {3,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1687,14 +1832,16 @@ entry(
 4    O        0 {1,S}
 5    {Cs,O,S} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1709,14 +1856,16 @@ entry(
 4    O  0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1741,14 +1890,16 @@ entry(
 14    H 0 {5,S}
 15    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1763,14 +1914,16 @@ entry(
 4    O 0 {1,S}
 5    O 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1785,14 +1938,16 @@ entry(
 4    S        0 {1,S}
 5    {Cs,O,S} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1807,14 +1962,16 @@ entry(
 4    S  0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1829,14 +1986,16 @@ entry(
 4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
 5    {Cs,O,S}         0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1851,14 +2010,16 @@ entry(
 4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
 5    Cs               0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1873,14 +2034,16 @@ entry(
 4    Cd 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1896,14 +2059,16 @@ entry(
 5    Cs 0 {1,S}
 6    S  0 {4,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1918,14 +2083,16 @@ entry(
 4    Ct 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1940,14 +2107,16 @@ entry(
 4    Cb 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1962,14 +2131,16 @@ entry(
 4    CO 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -1989,14 +2160,16 @@ entry(
 9     H 0 {2,S}
 10    H 0 {3,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2018,14 +2191,16 @@ entry(
 11    H 0 {4,S}
 12    H 0 {4,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2040,14 +2215,16 @@ entry(
 4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
 5    O                0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2062,14 +2239,16 @@ entry(
 4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
 5    S                0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2084,14 +2263,16 @@ entry(
 4    Cd 0 {1,S}
 5    S  0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2106,14 +2287,16 @@ entry(
 4    Ct 0 {1,S}
 5    S  0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2128,14 +2311,16 @@ entry(
 4    {Cd,Ct,CO,Cb,CS} 0 {1,S}
 5    {Cd,Ct,CO,Cb,CS} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2150,14 +2335,16 @@ entry(
 4    Cd 0 {1,S}
 5    Cd 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2173,14 +2360,16 @@ entry(
 5    Cd 0 {1,S} {6,D}
 6    S  0 {5,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2197,14 +2386,16 @@ entry(
 6    S  0 {4,D}
 7    S  0 {5,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2219,14 +2410,16 @@ entry(
 4    Cd 0 {1,S}
 5    Ct 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2242,14 +2435,16 @@ entry(
 5    Cd 0 {1,S} {6,D}
 6    S  0 {5,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2264,14 +2459,16 @@ entry(
 4    Cd 0 {1,S}
 5    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2287,14 +2484,16 @@ entry(
 5    Cd 0 {1,S} {6,D}
 6    S  0 {5,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2309,14 +2508,16 @@ entry(
 4    Cd 0 {1,S}
 5    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2332,14 +2533,16 @@ entry(
 5    Cd 0 {1,S} {6,D}
 6    S  0 {5,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2354,14 +2557,16 @@ entry(
 4    Ct 0 {1,S}
 5    Ct 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2376,14 +2581,16 @@ entry(
 4    Ct 0 {1,S}
 5    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2398,14 +2605,16 @@ entry(
 4    Ct 0 {1,S}
 5    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2420,14 +2629,16 @@ entry(
 4    Cb 0 {1,S}
 5    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2442,14 +2653,16 @@ entry(
 4    Cb 0 {1,S}
 5    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2464,14 +2677,16 @@ entry(
 4    CO 0 {1,S}
 5    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2486,14 +2701,16 @@ entry(
 4    C  0 {1,S}
 5    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2508,14 +2725,16 @@ entry(
 4    R!H 0 {1,S}
 5    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2530,14 +2749,16 @@ entry(
 4    {Cs,O,S} 0 {1,S}
 5    {Cs,O,S} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2552,14 +2773,16 @@ entry(
 4    Cs 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2584,14 +2807,16 @@ entry(
 14    H 0 {5,S}
 15    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2606,14 +2831,16 @@ entry(
 4    {Cs,O} 0 {1,S}
 5    {Cs,O} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2628,14 +2855,16 @@ entry(
 4    Cs 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2650,14 +2879,16 @@ entry(
 4    O  0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2672,14 +2903,16 @@ entry(
 4    O 0 {1,S}
 5    O 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2694,14 +2927,16 @@ entry(
 4    {Cs,S} 0 {1,S}
 5    {Cs,S} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2716,14 +2951,16 @@ entry(
 4    Cs 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2738,14 +2975,16 @@ entry(
 4    S  0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2760,14 +2999,16 @@ entry(
 4    S 0 {1,S}
 5    S 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2782,14 +3023,16 @@ entry(
 4    S        0 {1,S}
 5    {Cs,O,S} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2804,14 +3047,16 @@ entry(
 4    S  0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2826,14 +3071,16 @@ entry(
 4    {Cs,O,S}         0 {1,S}
 5    {Cs,O,S}         0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2848,14 +3095,16 @@ entry(
 4    Cs               0 {1,S}
 5    Cs               0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2870,14 +3119,16 @@ entry(
 4    Cs 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2893,14 +3144,16 @@ entry(
 5    Cs 0 {1,S}
 6    S  0 {3,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2915,14 +3168,16 @@ entry(
 4    Cs 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2937,14 +3192,16 @@ entry(
 4    Cs 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2959,14 +3216,16 @@ entry(
 4    Cs 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -2989,14 +3248,16 @@ entry(
 12    H 0 {5,S}
 13    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3011,14 +3272,16 @@ entry(
 4    O                0 {1,S}
 5    Cs               0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3033,14 +3296,16 @@ entry(
 4    S                0 {1,S}
 5    Cs               0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3055,14 +3320,16 @@ entry(
 4    S  0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3077,14 +3344,16 @@ entry(
 4    S  0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3099,14 +3368,16 @@ entry(
 4    O                0 {1,S}
 5    O                0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3121,14 +3392,16 @@ entry(
 4    O                0 {1,S}
 5    S                0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3143,14 +3416,16 @@ entry(
 4    S                0 {1,S}
 5    S                0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3165,14 +3440,16 @@ entry(
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    {Cs,O,S}         0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3187,14 +3464,16 @@ entry(
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    Cs               0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3209,14 +3488,16 @@ entry(
 4    Cd 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3232,14 +3513,16 @@ entry(
 5    Cs 0 {1,S}
 6    S  0 {4,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3256,14 +3539,16 @@ entry(
 6    S  0 {3,D}
 7    S  0 {4,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3278,14 +3563,16 @@ entry(
 4    Ct 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3301,14 +3588,16 @@ entry(
 5    Cs 0 {1,S}
 6    S  0 {4,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3323,14 +3612,16 @@ entry(
 4    Cb 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3346,14 +3637,16 @@ entry(
 5    Cs 0 {1,S}
 6    S  0 {4,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3368,14 +3661,16 @@ entry(
 4    CO 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3391,14 +3686,16 @@ entry(
 5    Cs 0 {1,S}
 6    S  0 {4,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3413,14 +3710,16 @@ entry(
 4    Ct 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3435,14 +3734,16 @@ entry(
 4    Cb 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3457,14 +3758,16 @@ entry(
 4    CO 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3479,14 +3782,16 @@ entry(
 4    Cb 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3501,14 +3806,16 @@ entry(
 4    CO 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3523,14 +3830,16 @@ entry(
 4    CO 0 {1,S}
 5    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3545,14 +3854,16 @@ entry(
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    O                0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3567,14 +3878,16 @@ entry(
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    S                0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3589,14 +3902,16 @@ entry(
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 5    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3611,14 +3926,16 @@ entry(
 4    C  0 {1,S}
 5    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3630,14 +3947,16 @@ entry(
 1 *1 R 1 {2,S}
 2 *2 H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3649,14 +3968,16 @@ entry(
 1 *1 S 1 {2,S}
 2 *2 H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3667,14 +3988,16 @@ entry(
 """
 1 *3 {Cs,Cd,CO,O,S} 2T
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3685,14 +4008,16 @@ entry(
 """
 1 *3 O 2T
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3705,14 +4030,16 @@ entry(
 2    H 0  {1,S}
 3    H 0  {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3723,14 +4050,16 @@ entry(
 """
 1 *3 R 1
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3741,14 +4070,16 @@ entry(
 """
 1 *3 H 1
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3760,14 +4091,16 @@ entry(
 1 *3 {Ct,Os,Ss} 1 {2,{S,T}}
 2    {Ct,Os,Ss} 1 {1,{S,T}}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3779,14 +4112,16 @@ entry(
 1 *3 O 1 {2,S}
 2    O 1 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3798,14 +4133,16 @@ entry(
 1 *3 C 1 {2,T}
 2    C 1 {1,T}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3817,14 +4154,16 @@ entry(
 1 *3 C 1 {2,T}
 2    C 0 {1,T}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3836,14 +4175,16 @@ entry(
 1 *3 O 1 {2,S}
 2    R 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3855,14 +4196,16 @@ entry(
 1 *3 O 1 {2,S}
 2    H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3874,14 +4217,16 @@ entry(
 1 *3 O   1 {2,S}
 2    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3893,14 +4238,16 @@ entry(
 1 *3 O  1 {2,S}
 2    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3924,14 +4271,16 @@ entry(
 13    H 0 {5,S}
 14    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3943,14 +4292,16 @@ entry(
 1 *3 O 1 {2,S}
 2    O 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3963,14 +4314,16 @@ entry(
 2    O 0 {1,S} {3,S}
 3    C 0 {2,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -3982,14 +4335,16 @@ entry(
 1 *3 O                1 {2,S}
 2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4004,14 +4359,16 @@ entry(
 4    C 0 {3,D} {5,S}
 5 *3 O 1 {4,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4030,14 +4387,16 @@ entry(
 8    H 0 {2,S}
 9    H 0 {3,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4049,14 +4408,16 @@ entry(
 1 *3 S 1 {2,S}
 2    R 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4068,14 +4429,16 @@ entry(
 1 *3 S 1 {2,S}
 2    H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4087,14 +4450,16 @@ entry(
 1 *3 S   1 {2,S}
 2    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4106,14 +4471,16 @@ entry(
 1 *3 S  1 {2,S}
 2    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4125,14 +4492,16 @@ entry(
 1 *3 S 1 {2,S}
 2    S 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4144,14 +4513,16 @@ entry(
 1 *3 S                1 {2,S}
 2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4163,14 +4534,16 @@ entry(
 1 *3 S  1 {2,S}
 2    Cd 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4183,14 +4556,16 @@ entry(
 2    Cd 0 {1,S} {3,D}
 3    S  0 {2,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4202,14 +4577,16 @@ entry(
 1 *3 S  1 {2,S}
 2    Ct 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4221,14 +4598,16 @@ entry(
 1 *3 S  1 {2,S}
 2    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4240,14 +4619,16 @@ entry(
 1 *3 S  1 {2,S}
 2    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4260,14 +4641,16 @@ entry(
 2    C 0 {1,D}
 3    R 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4280,14 +4663,16 @@ entry(
 2    C 0 {1,D}
 3    H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4302,14 +4687,16 @@ entry(
 4    H 0 {2,S}
 5    H 0 {2,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4330,14 +4717,16 @@ entry(
 10    H 0 {3,S}
 11    H 0 {4,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4350,14 +4739,16 @@ entry(
 2    C   0 {1,D}
 3    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4370,14 +4761,16 @@ entry(
 2    C  0 {1,D}
 3    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4395,14 +4788,16 @@ entry(
 7    H 0 {3,S}
 8    H 0 {3,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4423,14 +4818,16 @@ entry(
 10    H 0 {4,S}
 11    H 0 {4,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4443,14 +4840,16 @@ entry(
 2    C 0 {1,D}
 3    O 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4463,14 +4862,16 @@ entry(
 2    C 0 {1,D}
 3    S 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4483,14 +4884,16 @@ entry(
 2    C                0 {1,D}
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4503,14 +4906,16 @@ entry(
 2    C  0 {1,D}
 3    Cd 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4524,14 +4929,16 @@ entry(
 3    Cd 0 {1,S} {4,D}
 4    S  0 {3,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4544,14 +4951,16 @@ entry(
 2    C  0 {1,D}
 3    Ct 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4564,14 +4973,16 @@ entry(
 2    C  0 {1,D}
 3    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4584,14 +4995,16 @@ entry(
 2    C  0 {1,D}
 3    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4604,14 +5017,16 @@ entry(
 2    {Cb,Cbf} 0 {1,B}
 3    {Cb,Cbf} 0 {1,B}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4624,14 +5039,16 @@ entry(
 2    O 0 {1,D}
 3    R 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4644,14 +5061,16 @@ entry(
 2    O 0 {1,D}
 3    H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4664,14 +5083,16 @@ entry(
 2    O   0 {1,D}
 3    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4684,14 +5105,16 @@ entry(
 2    O        0 {1,D}
 3    {Cs,O,S} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4704,14 +5127,16 @@ entry(
 2    O                0 {1,D}
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4724,14 +5149,16 @@ entry(
 2    S 0 {1,D}
 3    R 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4744,14 +5171,16 @@ entry(
 2    S 0 {1,D}
 3    H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4764,14 +5193,16 @@ entry(
 2    S   0 {1,D}
 3    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4784,14 +5215,16 @@ entry(
 2    S        0 {1,D}
 3    {Cs,O,S} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4804,14 +5237,16 @@ entry(
 2    S  0 {1,D}
 3    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4824,14 +5259,16 @@ entry(
 2    S 0 {1,D}
 3    O 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4844,14 +5281,16 @@ entry(
 2    S 0 {1,D}
 3    S 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4864,14 +5303,16 @@ entry(
 2    S                0 {1,D}
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4884,14 +5325,16 @@ entry(
 2    S  0 {1,D}
 3    Cd 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4905,14 +5348,16 @@ entry(
 3    Cd 0 {1,S} {4,D}
 4    S  0 {3,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4925,14 +5370,16 @@ entry(
 2    S  0 {1,D}
 3    Ct 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4945,14 +5392,16 @@ entry(
 2    S  0 {1,D}
 3    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4965,14 +5414,16 @@ entry(
 2    S  0 {1,D}
 3    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -4986,14 +5437,16 @@ entry(
 3    R 0 {1,S}
 4    R 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5007,14 +5460,16 @@ entry(
 3    H 0 {1,S}
 4    H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5028,14 +5483,16 @@ entry(
 3    H   0 {1,S}
 4    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5049,14 +5506,16 @@ entry(
 3    H  0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5073,14 +5532,16 @@ entry(
 6    H 0 {2,S}
 7    H 0 {2,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5104,14 +5565,16 @@ entry(
 13    H 0 {4,S}
 14    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5135,14 +5598,16 @@ entry(
 13    H 0 {4,S}
 14    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5166,14 +5631,16 @@ entry(
 13    H 0 {4,S}
 14    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5197,14 +5664,16 @@ entry(
 13    H 0 {3,S}
 14    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5228,14 +5697,16 @@ entry(
 13    H 0 {5,S}
 14    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5249,14 +5720,16 @@ entry(
 3    H  0 {1,S}
 4    Cd 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5272,14 +5745,16 @@ entry(
 5    H 0 {1,S}
 6    H 0 {2,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5300,14 +5775,16 @@ entry(
 10    H 0 {4,S}
 11    H 0 {4,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5321,14 +5798,16 @@ entry(
 3    H  0 {1,S}
 4    Ct 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5342,14 +5821,16 @@ entry(
 3    H  0 {1,S}
 4    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5363,14 +5844,16 @@ entry(
 3    H  0 {1,S}
 4    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5384,14 +5867,16 @@ entry(
 3    H 0 {1,S}
 4    O 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5405,14 +5890,16 @@ entry(
 3    H 0 {1,S}
 4    S 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5426,14 +5913,16 @@ entry(
 3    R!H 0 {1,S}
 4    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5447,14 +5936,16 @@ entry(
 3    Cs 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5474,14 +5965,16 @@ entry(
 9     H 0 {3,S}
 10    H 0 {3,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5505,14 +5998,16 @@ entry(
 13    H 0 {4,S}
 14    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5536,14 +6031,16 @@ entry(
 13    H 0 {4,S}
 14    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5567,14 +6064,16 @@ entry(
 13    H 0 {4,S}
 14    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5588,14 +6087,16 @@ entry(
 3    O      0 {1,S}
 4    {Cs,O} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5609,14 +6110,16 @@ entry(
 3    Cs 0 {1,S}
 4    O  0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5640,14 +6143,16 @@ entry(
 13    H 0 {4,S}
 14    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5671,14 +6176,16 @@ entry(
 13    H 0 {5,S}
 14    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5692,14 +6199,16 @@ entry(
 3    O 0 {1,S}
 4    O 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5713,14 +6222,16 @@ entry(
 3    S      0 {1,S}
 4    {Cs,S} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5734,14 +6245,16 @@ entry(
 3    S  0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5755,14 +6268,16 @@ entry(
 3    S 0 {1,S}
 4    S 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5776,14 +6291,16 @@ entry(
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    {Cs,O,S}         0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5797,14 +6314,16 @@ entry(
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    Cs               0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5818,14 +6337,16 @@ entry(
 3    Cd 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5840,14 +6361,16 @@ entry(
 4    Cs 0 {1,S}
 5    S  0 {3,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5861,14 +6384,16 @@ entry(
 3    Ct 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5882,14 +6407,16 @@ entry(
 3    Cb 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5903,14 +6430,16 @@ entry(
 3    Cs 0 {1,S}
 4    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5929,14 +6458,16 @@ entry(
 8    H 0 {2,S}
 9    H 0 {3,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5950,14 +6481,16 @@ entry(
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    O                0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5971,14 +6504,16 @@ entry(
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    S                0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -5992,14 +6527,16 @@ entry(
 3    Cd 0 {1,S}
 4    S  0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6013,14 +6550,16 @@ entry(
 3    Ct 0 {1,S}
 4    S  0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6034,14 +6573,16 @@ entry(
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6055,14 +6596,16 @@ entry(
 3    Cd 0 {1,S}
 4    Cd 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6077,14 +6620,16 @@ entry(
 4    Cd 0 {1,S} {5,D}
 5    S  0 {4,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6100,14 +6645,16 @@ entry(
 5    S  0 {3,D}
 6    S  0 {4,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6121,14 +6668,16 @@ entry(
 3    Cd 0 {1,S}
 4    Ct 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6143,14 +6692,16 @@ entry(
 4    Cd 0 {1,S} {5,D}
 5    S  0 {4,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6164,14 +6715,16 @@ entry(
 3    Cd 0 {1,S}
 4    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6186,14 +6739,16 @@ entry(
 4    Cd 0 {1,S} {5,D}
 5    S  0 {4,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6207,14 +6762,16 @@ entry(
 3    Cd 0 {1,S}
 4    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6229,14 +6786,16 @@ entry(
 4    Cd 0 {1,S} {5,D}
 5    S  0 {4,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6250,14 +6809,16 @@ entry(
 3    Ct 0 {1,S}
 4    Ct 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6271,14 +6832,16 @@ entry(
 3    Ct 0 {1,S}
 4    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6292,14 +6855,16 @@ entry(
 3    Ct 0 {1,S}
 4    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6313,14 +6878,16 @@ entry(
 3    Cb 0 {1,S}
 4    Cb 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6334,14 +6901,16 @@ entry(
 3    Cb 0 {1,S}
 4    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6355,14 +6924,16 @@ entry(
 3    CO 0 {1,S}
 4    CO 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6376,14 +6947,16 @@ entry(
 3    R!H 0 {1,S}
 4    R!H 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6397,14 +6970,16 @@ entry(
 3    {Cs,O,S} 0 {1,S}
 4    {Cs,O,S} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6418,14 +6993,16 @@ entry(
 3    Cs 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6449,14 +7026,16 @@ entry(
 13    H 0 {5,S}
 14    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6470,14 +7049,16 @@ entry(
 3    {Cs,O} 0 {1,S}
 4    {Cs,O} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6491,14 +7072,16 @@ entry(
 3    Cs 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6513,14 +7096,16 @@ entry(
 4    Cs 0 {1,S}
 5    O  0 {2,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6544,14 +7129,16 @@ entry(
 13    H 0 {3,S}
 14    H 0 {5,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6565,14 +7152,16 @@ entry(
 3    O  0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6586,14 +7175,16 @@ entry(
 3    O 0 {1,S}
 4    O 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6607,14 +7198,16 @@ entry(
 3    {Cs,S} 0 {1,S}
 4    {Cs,S} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6628,14 +7221,16 @@ entry(
 3    Cs 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6649,14 +7244,16 @@ entry(
 3    S  0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6670,14 +7267,16 @@ entry(
 3    S 0 {1,S}
 4    S 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6691,14 +7290,16 @@ entry(
 3    {Cs,O,S}         0 {1,S}
 4    {Cs,O,S}         0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6712,14 +7313,16 @@ entry(
 3    Cs               0 {1,S}
 4    Cs               0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6733,14 +7336,16 @@ entry(
 3    Cs 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6755,14 +7360,16 @@ entry(
 4    Cs 0 {1,S}
 5    S  0 {2,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6776,14 +7383,16 @@ entry(
 3    Cs 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6797,14 +7406,16 @@ entry(
 3    Cs 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6818,14 +7429,16 @@ entry(
 3    Cs 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6839,14 +7452,16 @@ entry(
 3    O                0 {1,S}
 4    Cs               0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6860,14 +7475,16 @@ entry(
 3    S                0 {1,S}
 4    Cs               0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6881,14 +7498,16 @@ entry(
 3    S  0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6902,14 +7521,16 @@ entry(
 3    S  0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6923,14 +7544,16 @@ entry(
 3    O                0 {1,S}
 4    O                0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6944,14 +7567,16 @@ entry(
 3    S                0 {1,S}
 4    O                0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6965,14 +7590,16 @@ entry(
 3    S                0 {1,S}
 4    S                0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -6986,14 +7613,16 @@ entry(
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    {Cs,O,S}         0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7007,14 +7636,16 @@ entry(
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    Cs               0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7028,14 +7659,16 @@ entry(
 3    Cd 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7050,14 +7683,16 @@ entry(
 4    Cs 0 {1,S}
 5    S  0 {3,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7073,14 +7708,16 @@ entry(
 5    S  0 {2,D}
 6    S  0 {3,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7094,14 +7731,16 @@ entry(
 3    Ct 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7116,14 +7755,16 @@ entry(
 4    Cs 0 {1,S}
 5    S  0 {3,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7137,14 +7778,16 @@ entry(
 3    Cb 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7159,14 +7802,16 @@ entry(
 4    Cs 0 {1,S}
 5    S  0 {3,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7180,14 +7825,16 @@ entry(
 3    CO 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7202,14 +7849,16 @@ entry(
 4    Cs 0 {1,S}
 5    S  0 {3,D}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7223,14 +7872,16 @@ entry(
 3    Ct 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7244,14 +7895,16 @@ entry(
 3    Cb 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7265,14 +7918,16 @@ entry(
 3    CO 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7286,14 +7941,16 @@ entry(
 3    Cb 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7307,14 +7964,16 @@ entry(
 3    CO 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7328,14 +7987,16 @@ entry(
 3    CO 0 {1,S}
 4    Cs 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7349,14 +8010,16 @@ entry(
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    O                0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7370,14 +8033,16 @@ entry(
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    S                0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
@@ -7391,14 +8056,16 @@ entry(
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 4    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
-    distances = {},
+    distances = DistanceData(distances={}),
+    reference = None,
+    referenceType = "",
     shortDesc = u"""""",
     longDesc = 
 u"""
 
 """,
     history = [
-        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","Copied kinetics group definitions")
+        ("2013-06-18","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Copied kinetics group definitions"""),
     ],
 )
 
