@@ -122,7 +122,7 @@ def generate(args):
 
 def evaluate(args):
     """
-    Evaluate kinetics group additivity values for one (or more) reaction
+    Evaluate distance geoemtry group additivity values for one (or more) reaction
     families. The `args` parameter provides the results of parsing the 
     command-line arguments using argparse.
     """
@@ -388,12 +388,12 @@ def parseAndRunCommandLineArguments():
     generateParser = subparsers.add_parser('generate', help='generate and save kinetics group values for one or more families')
     generateParser.add_argument('family', metavar='<family>', type=str, nargs='*', help='the family to generate, or --all for all families')
     generateParser.add_argument('-a', '--all', action='store_true', help='generate for all families')
-    generateParser.add_argument('-m', '--method', metavar='<method>', type=str, nargs='?', default='Arrhenius', help='the method to use')
+    generateParser.add_argument('-m', '--method', metavar='<method>', type=str, nargs='?', default='DistanceGeometry', help='the method to use')
     generateParser.add_argument('--training', metavar='<trainingset>', type=str, nargs='*', help='the training set(s) to use')
     generateParser.set_defaults(run=generate)
     
     # evaluate - load and evaluate kinetics group additivity values
-    evaluateParser = subparsers.add_parser('evaluate', help='evaluate kinetics group values for one family')
+    evaluateParser = subparsers.add_parser('evaluate', help='evaluate distance geometry group values for one family')
     evaluateParser.add_argument('family', metavar='<family>', type=str, nargs=1, help='the family to evaluate')
     evaluateParser.add_argument('-a', '--all', action='store_true', help='generate for all families')
     evaluateParser.add_argument('--test', metavar='<testset>', type=str, nargs='*', help='the test set(s) to use')
