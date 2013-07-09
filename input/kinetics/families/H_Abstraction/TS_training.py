@@ -1692,3 +1692,233 @@ u"""
         ("Thu Jun 20 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations using the automatic transition state search algorithm."""),
     ],
 )
+
+entry(
+    index = 31,
+    reactant1 = 
+"""
+1 *2 H 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3    C 0 {2,S} {4,S} {5,S} {6,S}
+4    H 0 {3,S}
+5    H 0 {3,S}
+6    H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    product1 = 
+"""
+1    H 0 {2,S}
+2    C 0 {1,S} {3,S} {4,S} {5,S}
+3 *3 O 1 {2,S}
+4    H 0 {2,S}
+5    H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+""",
+    distances = DistanceData(
+      distances = {'d12' : 1.22662146323, 'd23' : 1.26876032779, 'd13' : 2.48841133896},
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculations""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Tue Jul 09 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations using the automatic transition state search algorithm."""),
+    ],
+)
+
+entry(
+    index = 32,
+    reactant1 = 
+"""
+1 *2 H 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3    C 0 {2,S} {4,S} {5,S} {6,S}
+4    H 0 {3,S}
+5    H 0 {3,S}
+6    C 0 {3,S} {7,S} {8,S} {9,S}
+7    H 0 {6,S}
+8    H 0 {6,S}
+9    H 0 {6,S}
+""",
+    reactant2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    product1 = 
+"""
+1    H 0 {2,S}
+2 *1 C 0 {1,S} {3,S} {4,S} {5,S}
+3 *2 H 0 {2,S}
+4    H 0 {2,S}
+5    H 0 {2,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {3,S} {7,S} {8,S}
+3 *3 O 1 {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+""",
+    distances = DistanceData(
+      distances = {'d12' : 1.23281655422, 'd23' : 1.26433589813, 'd13' : 2.49087111395},
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculations""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Tue Jul 09 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations using the automatic transition state search algorithm."""),
+    ],
+)
+
+entry(
+    index = 33,
+    reactant1 = 
+"""
+1 *2 H 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3    C 0 {2,S} {4,S} {5,S} {6,S}
+4    H 0 {3,S}
+5    H 0 {3,S}
+6    C 0 {3,S} {7,S} {8,S} {9,S}
+7    H 0 {6,S}
+8    H 0 {6,S}
+9    H 0 {6,S}
+""",
+    reactant2 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    C 0 {1,S} {5,S} {6,S} {7,S}
+5    H 0 {4,S}
+6    H 0 {4,S}
+7    H 0 {4,S}
+""",
+    product1 = 
+"""
+1    H 0 {2,S}
+2    C 0 {1,S} {3,S} {4,S} {5,S}
+3 *3 O 1 {2,S}
+4    C 0 {2,S} {6,S} {7,S} {8,S}
+5    H 0 {2,S}
+6    H 0 {4,S}
+7    H 0 {4,S}
+8    H 0 {4,S}
+""",
+    product2 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+""",
+    distances = DistanceData(
+      distances = {'d12' : 1.27491700423, 'd23' : 1.24043183457, 'd13' : 2.51130683348},
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculations""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Tue Jul 09 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations using the automatic transition state search algorithm."""),
+    ],
+)
+
+entry(
+    index = 34,
+    reactant1 = 
+"""
+1 *2 H 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3    C 0 {2,S} {4,S} {5,S} {6,S}
+4    H 0 {3,S}
+5    H 0 {3,S}
+6    H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1     C 0 {2,S} {4,S} {5,S} {6,S}
+2  *3 C 1 {1,S} {3,S} {7,S}
+3     C 0 {2,S} {8,S} {9,S} {10,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {1,S}
+7     H 0 {2,S}
+8     H 0 {3,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+""",
+    product1 = 
+"""
+1    H 0 {2,S}
+2    C 0 {1,S} {3,S} {4,S} {5,S}
+3    H 0 {2,S}
+4    H 0 {2,S}
+5 *1 O 1 {2,S}
+""",
+    product2 = 
+"""
+1  *3 C 0 {2,S} {3,S} {4,S} {5,S}
+2     C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4  *2 H 0 {1,S}
+5     H 0 {1,S}
+6     H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+""",
+    distances = DistanceData(
+      distances = {'d12' : 1.32301125928, 'd23' : 1.21339171256, 'd13' : 2.532136452},
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculations""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Tue Jul 09 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations using the automatic transition state search algorithm."""),
+    ],
+)
