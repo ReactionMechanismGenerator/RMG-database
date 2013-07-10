@@ -1922,3 +1922,357 @@ u"""
         ("Tue Jul 09 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations using the automatic transition state search algorithm."""),
     ],
 )
+
+entry(
+    index = 35,
+    reactant1 = 
+"""
+1 *2 H 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3    C 0 {2,S} {4,S} {5,S} {6,S}
+4    H 0 {3,S}
+5    H 0 {3,S}
+6    C 0 {3,S} {7,S} {8,S} {9,S}
+7    H 0 {6,S}
+8    H 0 {6,S}
+9    H 0 {6,S}
+""",
+    reactant2 = 
+"""
+1  *3 C 1 {2,S} {3,S} {4,S}
+2     H 0 {1,S}
+3     H 0 {1,S}
+4     C 0 {1,S} {5,S} {6,S} {7,S}
+5     C 0 {4,S} {8,S} {9,S} {10,S}
+6     H 0 {4,S}
+7     H 0 {4,S}
+8     H 0 {5,S}
+9     H 0 {5,S}
+10    H 0 {5,S}
+""",
+    product1 = 
+"""
+1    H 0 {2,S}
+2    C 0 {1,S} {3,S} {4,S} {5,S}
+3 *3 O 1 {2,S}
+4    C 0 {2,S} {6,S} {7,S} {8,S}
+5    H 0 {2,S}
+6    H 0 {4,S}
+7    H 0 {4,S}
+8    H 0 {4,S}
+""",
+    product2 = 
+"""
+1     C 0 {2,S} {3,S} {4,S} {5,S}
+2  *1 C 0 {1,S} {6,S} {7,S} {8,S}
+3     C 0 {1,S} {9,S} {10,S} {11,S}
+4     H 0 {1,S}
+5     H 0 {1,S}
+6  *2 H 0 {2,S}
+7     H 0 {2,S}
+8     H 0 {2,S}
+9     H 0 {3,S}
+10    H 0 {3,S}
+11    H 0 {3,S}
+""",
+    distances = DistanceData(
+      distances = {'d12' : 1.28173528762, 'd23' : 1.23320782156, 'd13' : 2.51340049172},
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculations""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Tue Jul 09 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations using the automatic transition state search algorithm."""),
+    ],
+)
+
+entry(
+    index = 36,
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S} {6,S} {7,S} {8,S}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2 *3 C 1 {1,S} {3,S} {4,S}
+3    H 0 {2,S}
+4    H 0 {2,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    distances = DistanceData(
+      distances = {'d12' : 1.36237396793244, 'd23' : 0.920939107487569, 'd13' : 2.28237150284523},
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculations""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jul 10 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations manually conducted."""),
+    ],
+)
+
+entry(
+    index = 37,
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2 *1 O 0 {1,S} {6,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6 *2 H 0 {2,S}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 O 1 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    distances = DistanceData(
+      distances = {'d12' : 1.23049946968701, 'd23' : 0.878798866066632, 'd13' : 2.09984939386138},
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculations""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jul 10 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations manually conducted."""),
+    ],
+)
+
+entry(
+    index = 38,
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2    O 0 {1,S} {6,S}
+3 *2 H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {2,S}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    O 0 {1,S} {5,S}
+5    H 0 {4,S}
+""",
+    product2 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    distances = DistanceData(
+      distances = {'d12' : 1.30574576089681, 'd23' : 0.987751217361943, 'd13' : 2.29308108267021},
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculations""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jul 10 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations manually conducted."""),
+    ],
+)
+
+entry(
+    index = 39,
+    reactant1 = 
+"""
+1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {3,S} {7,S} {8,S}
+3    O 0 {2,S} {9,S}
+4 *2 H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1 *3 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    C 0 {1,S} {5,S} {6,S} {7,S}
+5    O 0 {4,S} {8,S}
+6    H 0 {4,S}
+7    H 0 {4,S}
+8    H 0 {5,S}
+""",
+    product2 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    distances = DistanceData(
+      distances = {'d12' : 1.36894227493346, 'd23' : 0.917222917125384, 'd13' : 2.28584480658683},
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculations""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jul 10 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations manually conducted."""),
+    ],
+)
+
+entry(
+    index = 40,
+    reactant1 = 
+"""
+1    C 0 {2,S} {4,S} {5,S} {6,S}
+2 *1 C 0 {1,S} {3,S} {7,S} {8,S}
+3    O 0 {2,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7 *2 H 0 {2,S}
+8    H 0 {2,S}
+9    H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {5,S} {6,S} {7,S}
+2 *3 C 1 {1,S} {3,S} {4,S}
+3    H 0 {2,S}
+4    O 0 {2,S} {8,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {1,S}
+8    H 0 {4,S}
+""",
+    product2 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    distances = DistanceData(
+      distances = {'d12' : 1.28038915998223, 'd23' : 1.01536924697373, 'd13' : 2.29500967372689},
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculations""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jul 10 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations manually conducted."""),
+    ],
+)
+
+entry(
+    index = 41,
+    reactant1 = 
+"""
+1    C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {3,S} {7,S} {8,S}
+3 *1 O 0 {2,S} {9,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+9 *2 H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1 *3 H 1
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {4,S} {5,S} {6,S}
+2    C 0 {1,S} {3,S} {7,S} {8,S}
+3 *3 O 1 {2,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+6    H 0 {1,S}
+7    H 0 {2,S}
+8    H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    distances = DistanceData(
+      distances = {'d12' : 1.23254024331865, 'd23' : 0.879987818608872, 'd13' : 2.10329318462738},
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 3,
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculations""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Jul 10 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations manually conducted."""),
+    ],
+)
