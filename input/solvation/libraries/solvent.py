@@ -11,7 +11,8 @@ entry(
     index = 1,
     label = "water",
     solvent = SolventData(
-    	c_g = -1.271,
+        # Abraham solvent descriptors:
+        c_g = -1.271,
     	e_g = 0.822,
     	s_g = 2.743,
     	a_g = 3.904,
@@ -23,13 +24,17 @@ entry(
     	a_h = -32.010,	
     	b_h = -41.816,	
     	l_h = -6.354,
+        # Viscosity correlation coefficients:
     	A = -52.843,
     	B = 3703.6,
     	C = 5.866,
     	D = -5.88E-29,
     	E = 10,
+        # Abraham SOLUTE descriptors for calculating H-abstraction intrinsic correction
     	alpha = 0.353,
-    	beta = 0.38
+    	beta = 0.38,
+        # The dielectric constant
+        eps = 80.4
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -60,7 +65,8 @@ entry(
     	D = 0.000013141,
     	E = 2,
     	alpha = 0.328, #primary alcohols
-    	beta = 0.45 #primary alcohols
+    	beta = 0.45, #primary alcohols,
+        eps = 10.3
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -91,7 +97,8 @@ entry(
     	D = 0,
     	E = 0,
     	alpha = 0,
-    	beta = 0.14
+    	beta = 0.14,
+        eps = 2.3
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -122,7 +129,8 @@ entry(
     	D = 0,
     	E = 0,
     	alpha = 0,
-    	beta = 0
+    	beta = 0,
+        eps = 2.0
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -153,7 +161,8 @@ entry(
     	D = 0,
     	E = 0,
     	alpha = 0, 
-    	beta = 0.45
+    	beta = 0.45,
+        eps = 3.1
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -184,7 +193,8 @@ entry(
     	D = -0.000025112,
     	E = 2,
     	alpha = 0,
-    	beta = 0
+    	beta = 0,
+        eps = 2.0
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -215,7 +225,8 @@ entry(
     	D = -0.000020943,
     	E = 2,
     	alpha = 0.37,
-    	beta = 0.48
+    	beta = 0.48,
+        eps = 17.8
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -246,7 +257,8 @@ entry(
     	D = 0,
     	E = 0,
     	alpha = 0,
-    	beta = 0.05 # Note 24 in Snelgrove et al. 2001
+    	beta = 0.05, # Note 24 in Snelgrove et al. 2001
+        eps = 2.23
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -276,7 +288,8 @@ entry(
     	D = 0,
     	E = 0,
     	alpha = 0.15,
-    	beta = 0.02
+    	beta = 0.02,
+        eps = 4.8
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -306,7 +319,8 @@ entry(
     	D = -0.000019319,
     	E = 2,
     	alpha = 0,
-    	beta = 0
+    	beta = 0,
+        eps = 2.0
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -336,7 +350,8 @@ entry(
     	D = 0,
     	E = 0,
     	alpha = 0.1,
-    	beta = 0.105
+    	beta = 0.105,
+        eps = 10.7
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -366,7 +381,8 @@ entry(
     	D = 0,
     	E = 0,
     	alpha = 0,
-    	beta = 0.73
+    	beta = 0.73,
+        eps = 36.7
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -396,7 +412,8 @@ entry(
     	D = 0,
     	E = 0,
     	alpha = 0,
-    	beta = 0.88
+    	beta = 0.88,
+        eps = 46.7
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -426,7 +443,8 @@ entry(
     	D = -0.00002443,
     	E = 2,
     	alpha = 0,
-    	beta = 0
+    	beta = 0,
+        eps = 2.0
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -456,7 +474,8 @@ entry(
     	D = 0,
     	E = 0,
     	alpha = 0.37,
-    	beta = 0.48
+    	beta = 0.48,
+        eps = 24.3
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -486,7 +505,8 @@ entry(
     	D = -0.000029555,
     	E = 2,
     	alpha = 0,
-    	beta = 0
+    	beta = 0,
+        eps = 1.9
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -516,7 +536,8 @@ entry(
     	D = 0,
     	E = 0,
     	alpha = 0,
-    	beta = 0
+    	beta = 0,
+        eps = 2.08
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -546,7 +567,8 @@ entry(
     	D = -0.000017676,
     	E = 2,
     	alpha = 0,
-    	beta = 0
+    	beta = 0,
+        eps = 2.0
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -576,7 +598,8 @@ entry(
     	D = -3.69E-28,
     	E = 10,
     	alpha = 0,
-    	beta = 0
+    	beta = 0,
+        eps = 1.94
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -606,7 +629,8 @@ entry(
     	D = -0.000013519,
     	E = 2,
     	alpha = 0,
-    	beta = 0
+    	beta = 0,
+        eps = 2.0
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -636,7 +660,8 @@ entry(
     	D = -0.000019627,
     	E = 2,
     	alpha = 0,
-    	beta = 0
+    	beta = 0,
+        eps = 1.8
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -666,7 +691,8 @@ entry(
     	D = -0.060853,
     	E = 1,
     	alpha = 0,
-    	beta = 0.14
+    	beta = 0.14,
+        eps = 2.2 # aerage of range 2.0-2.4
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -696,7 +722,8 @@ entry(
     	D = 570980,
     	E = -2,
     	alpha = 0,
-    	beta = 0
+    	beta = 0,
+        eps = 2.0
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -726,7 +753,8 @@ entry(
     	D = 0,
     	E = 0,
     	alpha = 0.04,
-    	beta = 0.33
+    	beta = 0.33,
+        eps = 37.5
     ),
     shortDesc = u""" """,
     longDesc = 
@@ -756,7 +784,8 @@ entry(
     	D = 0,
     	E = 0,
     	alpha = 0,
-    	beta = 0.45
+    	beta = 0.45,
+        eps = 6.0
     ),
     shortDesc = u""" """,
     longDesc = 
