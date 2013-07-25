@@ -10,7 +10,7 @@ group additivity values in this file.
 recommended = True
 
 entry(
-    index = 2,
+    index = 1,
     reactant1 = 
 """
 1    H 0 {2,S}
@@ -64,7 +64,7 @@ u"""
 )
 
 entry(
-    index = 3,
+    index = 2,
     reactant1 = 
 """
 1     H 0 {2,S}
@@ -124,7 +124,7 @@ u"""
 )
 
 entry(
-    index = 4,
+    index = 3,
     reactant1 = 
 """
 1     H 0 {2,S}
@@ -190,7 +190,7 @@ u"""
 )
 
 entry(
-    index = 5,
+    index = 4,
     reactant1 = 
 """
 1     H 0 {2,S}
@@ -256,7 +256,7 @@ u"""
 )
 
 entry(
-    index = 6,
+    index = 5,
     reactant1 = 
 """
 1    H 0 {2,S}
@@ -312,7 +312,7 @@ u"""
 )
 
 entry(
-    index = 7,
+    index = 6,
     reactant1 = 
 """
 1    H 0 {2,S}
@@ -366,7 +366,7 @@ u"""
 )
 
 entry(
-    index = 9,
+    index = 7,
     reactant1 = 
 """
 1     H 0 {2,S}
@@ -432,7 +432,7 @@ u"""
 )
 
 entry(
-    index = 10,
+    index = 8,
     reactant1 = 
 """
 1     H 0 {2,S}
@@ -504,7 +504,7 @@ u"""
 )
 
 entry(
-    index = 11,
+    index = 9,
     reactant1 = 
 """
 1     H 0 {2,S}
@@ -576,7 +576,7 @@ u"""
 )
 
 entry(
-    index = 12,
+    index = 10,
     reactant1 = 
 """
 1    H 0 {2,S}
@@ -638,7 +638,7 @@ u"""
 )
 
 entry(
-    index = 13,
+    index = 11,
     reactant1 = 
 """
 1    H 0 {2,S}
@@ -698,7 +698,7 @@ u"""
 )
 
 entry(
-    index = 14,
+    index = 12,
     reactant1 = 
 """
 1    H 0 {2,S}
@@ -764,7 +764,7 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 13,
     reactant1 = 
 """
 1     H 0 {2,S}
@@ -842,7 +842,7 @@ u"""
 )
 
 entry(
-    index = 18,
+    index = 14,
     reactant1 = 
 """
 1    H 0 {2,S}
@@ -910,7 +910,7 @@ u"""
 )
 
 entry(
-    index = 19,
+    index = 15,
     reactant1 = 
 """
 1    H 0 {2,S}
@@ -970,7 +970,7 @@ u"""
 )
 
 entry(
-    index = 20,
+    index = 16,
     reactant1 = 
 """
 1    H 0 {2,S}
@@ -1036,7 +1036,7 @@ u"""
 )
 
 entry(
-    index = 21,
+    index = 17,
     reactant1 = 
 """
 1     H 0 {2,S}
@@ -1108,7 +1108,7 @@ u"""
 )
 
 entry(
-    index = 22,
+    index = 18,
     reactant1 = 
 """
 1     H 0 {2,S}
@@ -1186,7 +1186,7 @@ u"""
 )
 
 entry(
-    index = 23,
+    index = 19,
     reactant1 = 
 """
 1     H 0 {2,S}
@@ -1264,7 +1264,7 @@ u"""
 )
 
 entry(
-    index = 24,
+    index = 20,
     reactant1 = 
 """
 1    H 0 {2,S}
@@ -1332,7 +1332,7 @@ u"""
 )
 
 entry(
-    index = 25,
+    index = 21,
     reactant1 = 
 """
 1    H 0 {2,S}
@@ -1382,7 +1382,7 @@ u"""
 )
 
 entry(
-    index = 26,
+    index = 22,
     reactant1 = 
 """
 1    H 0 {2,S}
@@ -1438,7 +1438,7 @@ u"""
 )
 
 entry(
-    index = 27,
+    index = 23,
     reactant1 = 
 """
 1     H 0 {2,S}
@@ -1500,7 +1500,7 @@ u"""
 )
 
 entry(
-    index = 28,
+    index = 24,
     reactant1 = 
 """
 1     H 0 {2,S}
@@ -1568,7 +1568,7 @@ u"""
 )
 
 entry(
-    index = 29,
+    index = 25,
     reactant1 = 
 """
 1     H 0 {2,S}
@@ -1636,7 +1636,7 @@ u"""
 )
 
 entry(
-    index = 30,
+    index = 26,
     reactant1 = 
 """
 1    H 0 {2,S}
@@ -1694,7 +1694,7 @@ u"""
 )
 
 entry(
-    index = 31,
+    index = 27,
     reactant1 = 
 """
 1 *2 H 0 {2,S}
@@ -1744,7 +1744,7 @@ u"""
 )
 
 entry(
-    index = 32,
+    index = 28,
     reactant1 = 
 """
 1 *2 H 0 {2,S}
@@ -1800,7 +1800,7 @@ u"""
 )
 
 entry(
-    index = 33,
+    index = 29,
     reactant1 = 
 """
 1 *2 H 0 {2,S}
@@ -1862,7 +1862,7 @@ u"""
 )
 
 entry(
-    index = 34,
+    index = 30,
     reactant1 = 
 """
 1 *2 H 0 {2,S}
@@ -1924,7 +1924,7 @@ u"""
 )
 
 entry(
-    index = 35,
+    index = 31,
     reactant1 = 
 """
 1 *2 H 0 {2,S}
@@ -1992,7 +1992,7 @@ u"""
 )
 
 entry(
-    index = 36,
+    index = 32,
     reactant1 = 
 """
 1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
@@ -2040,7 +2040,7 @@ u"""
 )
 
 entry(
-    index = 37,
+    index = 33,
     reactant1 = 
 """
 1    C 0 {2,S} {3,S} {4,S} {5,S}
@@ -2084,7 +2084,7 @@ u"""
 )
 
 entry(
-    index = 38,
+    index = 34,
     reactant1 = 
 """
 1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
@@ -2128,7 +2128,7 @@ u"""
 )
 
 entry(
-    index = 39,
+    index = 35,
     reactant1 = 
 """
 1 *1 C 0 {2,S} {4,S} {5,S} {6,S}
@@ -2178,7 +2178,7 @@ u"""
 )
 
 entry(
-    index = 40,
+    index = 36,
     reactant1 = 
 """
 1    C 0 {2,S} {4,S} {5,S} {6,S}
@@ -2228,7 +2228,7 @@ u"""
 )
 
 entry(
-    index = 41,
+    index = 37,
     reactant1 = 
 """
 1    C 0 {2,S} {4,S} {5,S} {6,S}
