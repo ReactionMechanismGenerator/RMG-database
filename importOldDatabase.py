@@ -13,9 +13,9 @@ import time
 import subprocess
 import os
 
-from rmgpy.data.rmg import RMGDatabase
 from rmgpy.kinetics import KineticsData
 from rmgpy.data.kinetics import KineticsDatabase, KineticsGroups
+from rmgpy.data.rmg import RMGDatabase
 
 ################################################################################
 
@@ -76,7 +76,8 @@ def setHistory(database, user):
         for label, entry in family.groups.entries.iteritems():
             entry.history.append(event)
         for label, entry in family.rules.entries.iteritems():
-            entry.history.append(event)
+            for item in entry:
+                item.history.append(event)
         for depository in family.depositories.values():
             for label, entry in depository.entries.iteritems():
                 entry.history.append(event)
