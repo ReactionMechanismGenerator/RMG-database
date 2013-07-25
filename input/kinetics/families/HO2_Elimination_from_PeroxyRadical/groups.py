@@ -9,7 +9,7 @@ longDesc = u"""
 
 template(reactants=["R2OO"], products=["R=R", "OOH"], ownReverse=False)
 
-reverse = "none"
+reverse = "HO2_concerted_addition"
 
 recipe(actions=[
     ['BREAK_BOND', '*1', 'S', '*5'],
