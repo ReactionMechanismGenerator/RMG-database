@@ -2276,3 +2276,1399 @@ u"""
         ("Wed Jul 10 12:04:58 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""pierrelb added this from calculations manually conducted."""),
     ],
 )
+
+entry(
+    index = 38,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1 *1 O 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *3 O 1
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.36876181545', 'd13': '2.1612155077', 'd23': '0.812296043557'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:47 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 39,
+    reactant1 = 
+"""
+1 *3 C 1 {2,S}
+2    C 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *3 H 1
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '0.921546207259', 'd13': '2.28201823633', 'd23': '1.36160791194'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:47 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 40,
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2 *3 O 1 {1,S}
+""",
+    reactant2 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *3 H 1
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *2 H 0 {2,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '0.878466949226', 'd13': '2.10041847117', 'd23': '1.23109428548'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:47 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 41,
+    reactant1 = 
+"""
+1    O 0 {2,S}
+2 *3 C 1 {1,S}
+""",
+    reactant2 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *3 H 1
+""",
+    product2 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2    O 0 {1,S}
+3 *2 H 0 {1,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '0.98778407539', 'd13': '1.30557736874', 'd23': '2.29297757456'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:47 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 42,
+    reactant1 = 
+"""
+1 *3 C 1 {2,D}
+2    C 0 {1,D}
+""",
+    reactant2 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *3 H 1
+""",
+    product2 = 
+"""
+1    C 0 {2,D}
+2 *1 C 0 {1,D} {3,S}
+3 *2 H 0 {2,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '0.870557845484', 'd13': '2.2993224283', 'd23': '1.43031240946'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:48 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 43,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *1 O 0 {1,S} {4,S}
+4 *2 H 0 {3,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *3 O 1 {1,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.23319401473', 'd13': '2.10364512661', 'd23': '0.879705648353'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:48 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 44,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3    O 0 {1,S}
+4 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S} {3,S}
+3    O 0 {2,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.28001196708', 'd13': '2.29519902464', 'd23': '1.01602678611'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:49 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 45,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3    O 0 {1,S}
+4 *2 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *3 C 1 {1,S}
+3    O 0 {1,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.3695985205', 'd13': '2.28620680055', 'd23': '0.916948114925'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:49 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 46,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4 *2 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *3 C 1 {1,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.36602382304', 'd13': '2.28513175685', 'd23': '0.92078848262'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:50 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 47,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S} {3,S}
+3    C 0 {1,S} {2,S}
+4 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {3,S}
+3 *3 C 1 {1,S} {2,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.41366938406', 'd13': '2.28737994166', 'd23': '0.87641002763'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:50 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 48,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S} {3,S}
+3    O 0 {1,S} {2,S}
+4 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *3 C 1 {1,S} {3,S}
+3    O 0 {1,S} {2,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.36395734593', 'd13': '2.28294668685', 'd23': '0.921160996834'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:51 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 49,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1 *1 C 0 {2,S} {4,S}
+2    C 0 {1,S} {3,D}
+3    C 0 {2,D}
+4 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,D}
+2 *3 C 1 {1,S}
+3    C 0 {1,D}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.26872335796', 'd13': '2.28673375578', 'd23': '1.01896160848'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:51 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 50,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1 *1 C 0 {3,S} {4,S}
+2    C 0 {3,S}
+3    O 0 {1,S} {2,S}
+4 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {3,S}
+2 *3 C 1 {3,S}
+3    O 0 {1,S} {2,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.31062425836', 'd13': '2.29898153229', 'd23': '0.98999514929'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:51 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 51,
+    reactant1 = 
+"""
+1 *3 C 1 {2,S} {3,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *3 H 1
+""",
+    product2 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *2 H 0 {1,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '0.955159876503', 'd13': '2.27516596724', 'd23': '1.32155051423'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:52 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 52,
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2    O 0 {1,S} {3,S}
+3 *3 O 1 {2,S}
+""",
+    reactant2 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *3 H 1
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2    O 0 {1,S} {3,S}
+3 *1 O 0 {2,S} {4,S}
+4 *2 H 0 {3,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.02407504738', 'd13': '2.13195529814', 'd23': '1.11101337387'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:52 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 53,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,D}
+3 *1 C 0 {2,D} {4,S}
+4 *2 H 0 {3,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,D}
+3 *3 C 1 {2,D}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.44592668741', 'd13': '2.31224060659', 'd23': '0.866699918354'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:53 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 54,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,D} {4,S}
+3    C 0 {2,D}
+4 *2 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,D}
+3 *3 C 1 {1,S} {2,D}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.40281808323', 'd13': '2.29239043303', 'd23': '0.889901992254'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:54 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 55,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    O 0 {1,S}
+5 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *3 C 1 {1,S} {2,S} {4,S}
+4    O 0 {3,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.25696584461', 'd13': '2.30205794469', 'd23': '1.04532238564'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:54 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 56,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1 *1 C 0 {3,S} {4,S}
+2    C 0 {3,S}
+3    C 0 {1,S} {2,S} {5,D}
+4 *2 H 0 {1,S}
+5    O 0 {3,D}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2    C 0 {1,S} {3,S} {4,D}
+3 *3 C 1 {2,S}
+4    O 0 {2,D}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.29493056195', 'd13': '2.27249806075', 'd23': '0.978150838197'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:55 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 57,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3 *1 C 0 {1,S} {5,S}
+4    C 0 {2,S}
+5 *2 H 0 {3,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4 *3 C 1 {2,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.36546577389', 'd13': '2.28311500994', 'd23': '0.918609178238'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:56 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 58,
+    reactant1 = 
+"""
+1 *3 C 1 {2,S}
+2    C 0 {1,S} {3,S} {4,S}
+3    C 0 {2,S}
+4    C 0 {2,S}
+""",
+    reactant2 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *3 H 1
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *1 C 0 {1,S} {5,S}
+5 *2 H 0 {4,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '0.916017072113', 'd13': '2.28557228705', 'd23': '1.37128917033'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:59 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 59,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S}
+2 *1 C 0 {1,S} {5,S} {6,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6 *2 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {5,S}
+5 *3 C 1 {1,S} {4,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.32473135159', 'd13': '2.27628753225', 'd23': '0.953657026076'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:33:09 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 60,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S} {5,S}
+4 *1 C 0 {2,S} {6,S}
+5    O 0 {3,S}
+6 *2 H 0 {4,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S} {5,S}
+4 *3 C 1 {2,S}
+5    O 0 {3,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.3705654368', 'd13': '2.27924742614', 'd23': '0.911660449142'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:33:03 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 61,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {6,S}
+2    C 0 {1,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {5,S}
+4    C 0 {5,S}
+5 *3 C 1 {1,S} {3,S} {4,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.29067159232', 'd13': '2.28019861724', 'd23': '0.989683775661'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:33:11 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 62,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2 *1 C 0 {1,S} {6,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    O 0 {1,S}
+6 *2 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *3 C 1 {1,S}
+5    O 0 {1,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.38521629154', 'd13': '2.28865472312', 'd23': '0.904177754518'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:33:04 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 63,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {4,S} {6,S}
+3    C 0 {1,S} {5,S}
+4    C 0 {2,S}
+5    C 0 {3,S}
+6 *2 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {5,S}
+5 *3 C 1 {2,S} {4,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.3360762976', 'd13': '2.28081641878', 'd23': '0.944807825795'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:33:13 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 64,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *1 C 0 {2,S} {6,S}
+6 *2 H 0 {5,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *3 C 1 {2,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.36701470973', 'd13': '2.28295034526', 'd23': '0.917257030126'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:33:06 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 65,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S} {5,S}
+4 *1 C 0 {2,S} {6,S}
+5    C 0 {3,S}
+6 *2 H 0 {4,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S} {5,S}
+4    C 0 {2,S}
+5 *3 C 1 {3,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.36617069335', 'd13': '2.2845885535', 'd23': '0.920262865652'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:33:15 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 66,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1 *1 C 0 {2,S} {3,S} {6,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S} {5,S}
+4    C 0 {2,S}
+5    C 0 {3,S}
+6 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {3,S} {5,S}
+2    C 0 {4,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {2,S}
+5 *3 C 1 {1,S} {2,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.32969490916', 'd13': '2.28108911894', 'd23': '0.953354903136'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:33:18 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 67,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2 *1 C 0 {1,S} {6,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {1,S}
+6 *2 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *3 C 1 {1,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.38050595251', 'd13': '2.29098920012', 'd23': '0.911885694943'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:33:21 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 68,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S}
+2 *1 C 0 {1,S} {9,S}
+3    C 0 {1,S} {4,B} {5,B}
+4    C 0 {3,B} {7,B}
+5    C 0 {3,B} {8,B}
+6    C 0 {7,B} {8,B}
+7    C 0 {4,B} {6,B}
+8    C 0 {5,B} {6,B}
+9 *2 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {8,S}
+2    C 0 {1,S} {3,B} {4,B}
+3    C 0 {2,B} {6,B}
+4    C 0 {2,B} {7,B}
+5    C 0 {6,B} {7,B}
+6    C 0 {3,B} {5,B}
+7    C 0 {4,B} {5,B}
+8 *3 C 1 {1,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.37352301632', 'd13': '2.28503454644', 'd23': '0.913537647903'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:33:28 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 69,
+    reactant1 = 
+"""
+1 *3 C 1
+""",
+    reactant2 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *3 H 1
+""",
+    product2 = 
+"""
+1 *1 C 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '0.892814650986', 'd13': '2.29276767822', 'd23': '1.39995305363'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:32:46 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
+entry(
+    index = 70,
+    reactant1 = 
+"""
+1 *3 H 1
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S} {5,S}
+3 *1 C 0 {1,S} {6,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6 *2 H 0 {3,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *2 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S} {3,S} {5,S}
+2    C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4    C 0 {2,S}
+5 *3 C 1 {1,S}
+""",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': '1.37937215782', 'd13': '2.29279020995', 'd23': '0.913652119097'},
+        method = 'M06-2X/6-31+G(d,p)',
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""M06-2X/6-31+G(d,p) calculation via group additive automatic TS estimator.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 20:33:24 2013","Pierre Bhoorasingh <bhoorasingh.p@husky.neu.edu>","action","""Found via direct estimation using automatic transition state generator"""),
+    ],
+)
+
