@@ -8046,8 +8046,7 @@ entry(
     label = "OJ",
     group = 
 """
-1 *3 Os 1 {2,S}
-2    R  0 {1,S}
+1 *3 Os 1 
 """,
     kinetics = None,
     reference = None,
