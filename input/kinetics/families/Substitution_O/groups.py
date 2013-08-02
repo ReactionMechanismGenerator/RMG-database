@@ -36,7 +36,7 @@ u"""
 entry(
     index = 2,
     label = "YJ",
-    group = "OR{Y_2centeradjbirad, HJ, CJ, O_rad, OJ, Y_1centerbirad}",
+    group = "OR{Y_2centeradjbirad, HJ, CJ, O_rad, OJ, Y_1centerbirad, NJ}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -5591,7 +5591,7 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-1 *3 {Cs,Cd,CO,O} 2T
+1 *3 {Cs,Cd,CO,O,N} 2T
 """,
     kinetics = None,
     reference = None,
@@ -8294,6 +8294,26 @@ u"""
     ],
 )
 
+entry(
+    index = 350,
+    label = "NJ",
+    group = 
+"""
+1 *3 N 1
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Tue Nov 27 12:11:59 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
 tree(
 """
 L1: O-RR_or_RRrad
@@ -8639,6 +8659,7 @@ L1: YJ
                 L5: OsJ-CO
                 L5: OsJ-Cd
                 L5: OsJ-C=O
+    L2: NJ
 """
 )
 
