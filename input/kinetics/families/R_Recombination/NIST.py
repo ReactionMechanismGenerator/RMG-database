@@ -2559,12 +2559,12 @@ entry(
 """,
     degeneracy = 2,
     kinetics = Arrhenius(
-        A = (197000,"s^-1"),
+        A = (5.012e14,"s^-1"),
         n = 0,
-        Ea = (62.691,"kJ/mol"),
+        Ea = (79.3,"kcal/mol"),
         T0 = (1,"K"),
-        Tmin = (1330,"K"),
-        Tmax = (1740,"K"),
+        Tmin = (1057,"K"),
+        Tmax = (1418,"K"),
     ),
     reference = Article(
         authors = ["Skinner, G.B.", "Ball, W.E."],
@@ -8863,6 +8863,7 @@ Bath gas: (CH3)2O
 )
 
 entry(
+<<<<<<< HEAD
     index = 148,
     label = "2004LI/KAZ7671-7680:12",
     reactant1 = 
@@ -8997,6 +8998,8 @@ The authors used their data together with that from the literature to perform a 
 )
 
 entry(
+=======
+>>>>>>> GreenGroup/master
     index = 150,
     label = "2004LI/KAZ7671-7680:14",
     reactant1 = 
@@ -9032,10 +9035,8 @@ entry(
         n = -1.93,
         Ea = (373.237,"kJ/mol"),
         T0 = (1,"K"),
-        Tmin = (1045,"K"),
-        Tmax = (1080,"K"),
-        Pmin = (172252,"Pa"),
-        Pmax = (303975,"Pa"),
+        Tmin = (600,"K"),
+        Tmax = (2000,"K"),
     ),
     reference = Article(
         authors = ["Li, J.", "Kazakov, A.", "Dryer, F.L."],
@@ -9064,6 +9065,7 @@ The authors used their data together with that from the literature to perform a 
 )
 
 entry(
+<<<<<<< HEAD
     index = 151,
     label = "2004LI/KAZ7671-7680:9",
     reactant1 = 
@@ -9332,6 +9334,8 @@ The authors used their data together with that from the literature to perform a 
 )
 
 entry(
+=======
+>>>>>>> GreenGroup/master
     index = 155,
     label = "2004TSA456-465:2",
     reactant1 = 
@@ -12372,9 +12376,9 @@ entry(
 """,
     degeneracy = 12,
     kinetics = Arrhenius(
-        A = (5e+12,"s^-1"),
+        A = (5e+11,"s^-1"),
         n = 0,
-        Ea = (-280.198,"kJ/mol","+|-",16.795),
+        Ea = (67.0,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (933,"K"),
         Tmax = (1080,"K"),
@@ -16591,7 +16595,7 @@ entry(
 """,
     degeneracy = 6,
     kinetics = Arrhenius(
-        A = (6.31e+07,"s^-1"),
+        A = (6.31e+17,"s^-1"),
         n = 0,
         Ea = (345.051,"kJ/mol","+|-",13.802),
         T0 = (1,"K"),
@@ -24610,7 +24614,7 @@ entry(
     kinetics = Arrhenius(
         A = (1.8e+15,"s^-1"),
         n = 0,
-        Ea = (-0.002,"kJ/mol"),
+        Ea = (75.05,"kcal/mol"),
         T0 = (1,"K"),
         Tmin = (1400,"K"),
         Tmax = (1400,"K"),

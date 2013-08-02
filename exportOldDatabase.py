@@ -62,7 +62,12 @@ def generateRules(family, database):
 
     # Load rules and determine starting index
     rules = family.rules
-    index = max([entry.index for entry in rules.entries.values()] or [0]) + 1
+    
+    entries = rules.entries.values()
+    if any(isinstance(item, list) for item in entries):
+        # if the entries are lists
+        entries = reduce(lambda x,y: x+y, entries)
+    index = max([entry.index for entry in entries] or [0]) + 1
 
     # Load training entries
     for depository in family.depositories:
