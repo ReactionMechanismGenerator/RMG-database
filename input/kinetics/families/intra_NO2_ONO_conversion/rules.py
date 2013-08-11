@@ -13,10 +13,10 @@ entry(
     label = "RNO2",
     group1 = 
 """
-1 *1 C 0 {2,S}
-2 *2 N 0 {1,S} {3,S} {4,D}
-3 *3 O 0 {2,S}
-4    O 0 {2,D}
+1 *1 Cs 0 {2,S}
+2 *2 N4d 0 {1,S} {3,S} {4,D}
+3 *3 Os 0 {2,S}
+4    Od 0 {2,D}
 """,
     kinetics = ArrheniusEP(
         A = (10000000000000.0, 's^-1'),
