@@ -765,7 +765,7 @@ entry(
     molecule =
 """
 1 C 0  {2,D}
-2 C 2T {1,D}
+2 C 2S {1,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -779,11 +779,17 @@ entry(
     longDesc =
 u"""
 L12/89.
-[C]=C
+singlet [C]=C
 Imported from USC-Mech ii thermdat.txt.
+Corrected from Triplet to Singlet state:
+    Reactions of this species in USC-Mech ii correspond to what RMG would think of
+    as the triplet, but this thermochemistry is definitely that of the singlet, which
+    is roughly 200kJ/mol more stable.
 """,
     history = [
         ("Thu Aug  8 17:29:48 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> imported this entry from USC-Mech ii thermdat.txt"""),
+        ("Mon Aug  13 2013","Richard West <r.west@neu.edu>","action","""Richard West <r.west@neu.edu> changed the electronic state from Triplet to Singlet"""),
+
     ],
 )
 
