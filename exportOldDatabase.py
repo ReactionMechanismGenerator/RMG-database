@@ -9,7 +9,7 @@ the path to save the old RMG-Java database to.
 
 import os
 import sys
-
+import logging
 from rmgpy.data.rmg import RMGDatabase
 from rmgpy.data.base import Entry
 from rmgpy.reaction import Reaction
@@ -44,8 +44,11 @@ def export(input, output, database=None):
     for family in database.kinetics.families.values():
         generateRules(family, database)
 
+    print "Deleting thermo library entries with atoms RMG-Java can't understand..."
+    database.thermo.pruneHeteroatoms(allowed=['C','H','O','S'])
     print 'Saving old RMG-Java database...'
     database.saveOld(output)
+    print "Done!"
 
 
 ###############################################################################
@@ -124,10 +127,9 @@ def generateRules(family, database):
                                      history=entry.history)
         index += 1
 
-
 ###############################################################################
 
 
 if __name__ == '__main__':
-
+    logging.getLogger().setLevel(logging.INFO)
     main()
