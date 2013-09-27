@@ -15,16 +15,16 @@ entry(
 """
 1   C 0 {2,S}
 2   O 0 {1,S} {3,S}
-3 * O 1 {2,S}
+3   O 1 {2,S}
 """,
     product1 = 
 """
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 * O 1 {2,S}
+2   O 1 {1,S}
 """,
     product2 = 
 """
-1 C 1
+1 * C 1
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
@@ -57,17 +57,17 @@ entry(
 1   C 0 {2,S} {3,S}
 2   C 0 {1,S}
 3   O 0 {1,S} {4,S}
-4 * O 1 {3,S}
+4   O 1 {3,S}
 """,
     product1 = 
 """
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 * O 1 {2,S}
+2   O 1 {1,S}
 """,
     product2 = 
 """
-1 C 0 {2,S}
-2 C 1 {1,S}
+1   C 0 {2,S}
+2 * C 1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(9.49e+21, 's^-1'), n=-2.41, Ea=(35.8, 'kcal/mol'), T0=(1, 'K')),
@@ -96,18 +96,18 @@ entry(
 2   C 0 {4,S}
 3   O 0 {1,S} {5,S}
 4   C 0 {1,S} {2,S}
-5 * O 1 {3,S}
+5   O 1 {3,S}
 """,
     product1 = 
 """
-1 O 1 {2,S}
-2 O 1 {1,S}
+1 * O 1 {2,S}
+2   O 1 {1,S}
 """,
     product2 = 
 """
-1 C 0 {2,S} {3,S}
-2 C 0 {1,S}
-3 C 1 {1,S}
+1   C 0 {2,S} {3,S}
+2   C 0 {1,S}
+3 * C 1 {1,S}
 """,
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.52e+23, 's^-1'), n=-2.71, Ea=(36.4, 'kcal/mol'), T0=(1, 'K')),
@@ -127,4 +127,3 @@ Method CBS-QB3 w/ 1-d Hindered rotor corrections
         ("Sun Sep 22 11:59:44 2013","Shamel Merchant <shamel@mit.edu>","action","""New entry. Rate rule for CCCO[O] = C[CH2] + O2"""),
     ],
 )
-
