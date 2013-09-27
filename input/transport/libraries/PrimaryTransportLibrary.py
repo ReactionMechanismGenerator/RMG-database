@@ -196,3 +196,29 @@ u"""
         "Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),
     ],
 )
+
+entry(
+    index = 8,
+    label = "N2",
+    molecule = 
+"""
+1     N     0 {2,T}
+2     N     0 {1,T}
+""",
+    transport = TransportData(
+        shapeIndex = 1,
+        epsilon = (97.530 * 8.3145, 'J/mol'),
+        sigma = (3.621, 'angstroms'),
+        dipoleMoment = (0.000, 'C*m'),
+        polarizability = (1.760, 'C*m^2*V^-1'),
+        rotrelaxcollnum = 4.000,
+    ),
+    shortDesc = u"""GRI-Mech3.0 value for N2""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("2013/04/17 21:20:48","Jake Barlow <barlow.ja@husky.neu.edu>","action",
+        """Jake Barlow <barlow.ja@husky.neu.edu> imported this entry from the old RMG database."""),    ],
+)
