@@ -4,7 +4,9 @@
 name = "Nitrogen_Dean_and_Bozelli"
 shortDesc = u""
 longDesc = u"""
-
+Anthony M. Dean and Joseph W. Bozzelli
+Combustion Chemistry of Nitrogen
+in Gas-Phase Combustion Chemistry, 2000, pp 125-341
 """
 recommended = False
 
@@ -3047,49 +3049,50 @@ u"""
     ],
 )
 
-entry(
-    index = 66,
-    reactant1 = 
-"""
-N
-1 N 3
-""",
-    reactant2 = 
-"""
-OH
-1 O 1 {2,S}
-2 H 0 {1,S}
-""",
-    product1 = 
-"""
-NH
-1 N 2S {2,S}
-2 H 0  {1,S}
-""",
-    product2 = 
-"""
-O
-1 O 2T
-""",
-    degeneracy = 1,
-    reversible = False,
-    kinetics = Arrhenius(
-        A = (6400000000000.0, 'cm^3/(mol*s)'),
-        n = 0.1,
-        Ea = (21249, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli"),
-    ],
-)
+# DUPLICATE
+#entry(
+#    index = 66,
+#    reactant1 = 
+#"""
+#N
+#1 N 3
+#""",
+#    reactant2 = 
+#"""
+#OH
+#1 O 1 {2,S}
+#2 H 0 {1,S}
+#""",
+#    product1 = 
+#"""
+#NH
+#1 N 2S {2,S}
+#2 H 0  {1,S}
+#""",
+#    product2 = 
+#"""
+#O
+#1 O 2T
+#""",
+#    degeneracy = 1,
+#    reversible = False,
+#    kinetics = Arrhenius(
+#        A = (6400000000000.0, 'cm^3/(mol*s)'),
+#        n = 0.1,
+#        Ea = (21249, 'cal/mol'),
+#        T0 = (1, 'K'),
+#    ),
+#    reference = None,
+#    referenceType = "",
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#    history = [
+#        ("Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli"),
+#    ],
+#)
 
 entry(
     index = 67,
@@ -15252,111 +15255,113 @@ u"""
     ],
 )
 
-entry(
-    index = 319,
-    reactant1 = 
-"""
-HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
-""",
-    reactant2 = 
-"""
-CH3
-1 C 1 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-""",
-    product1 = 
-"""
-NCO
-1 C 0 {2,T} {3,S}
-2 N 0 {1,T}
-3 O 1 {1,S}
-""",
-    product2 = 
-"""
-CH4
-1 C 0 {2,S} {3,S} {4,S} {5,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-5 H 0 {1,S}
-""",
-    degeneracy = 1,
-    reversible = False,
-    kinetics = Arrhenius(
-        A = (1000000000000.0, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (9929, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
+# DUPLICATE
+#entry(
+#    index = 319,
+#    reactant1 = 
+#"""
+#HNCO
+#1 H 0 {2,S}
+#2 N 0 {1,S} {3,D}
+#3 C 0 {2,D} {4,D}
+#4 O 0 {3,D}
+#""",
+#    reactant2 = 
+#"""
+#CH3
+#1 C 1 {2,S} {3,S} {4,S}
+#2 H 0 {1,S}
+#3 H 0 {1,S}
+#4 H 0 {1,S}
+#""",
+#    product1 = 
+#"""
+#NCO
+#1 C 0 {2,T} {3,S}
+#2 N 0 {1,T}
+#3 O 1 {1,S}
+#""",
+#    product2 = 
+#"""
+#CH4
+#1 C 0 {2,S} {3,S} {4,S} {5,S}
+#2 H 0 {1,S}
+#3 H 0 {1,S}
+#4 H 0 {1,S}
+#5 H 0 {1,S}
+#""",
+#    degeneracy = 1,
+#    reversible = False,
+#    kinetics = Arrhenius(
+#        A = (1000000000000.0, 'cm^3/(mol*s)'),
+#        n = 0,
+#        Ea = (9929, 'cal/mol'),
+#        T0 = (1, 'K'),
+#    ),
+#    reference = None,
+#    referenceType = "",
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#    history = [
+#        ("Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli"),
+#    ],
+#)
 
-""",
-    history = [
-        ("Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli"),
-    ],
-)
-
-entry(
-    index = 320,
-    reactant1 = 
-"""
-HNCO
-1 H 0 {2,S}
-2 N 0 {1,S} {3,D}
-3 C 0 {2,D} {4,D}
-4 O 0 {3,D}
-""",
-    reactant2 = 
-"""
-NH2
-1 N 1 {2,S} {3,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-""",
-    product1 = 
-"""
-NCO
-1 C 0 {2,T} {3,S}
-2 N 0 {1,T}
-3 O 1 {1,S}
-""",
-    product2 = 
-"""
-NH3
-1 N 0 {2,S} {3,S} {4,S}
-2 H 0 {1,S}
-3 H 0 {1,S}
-4 H 0 {1,S}
-""",
-    degeneracy = 1,
-    reversible = False,
-    kinetics = Arrhenius(
-        A = (1000000000000.0, 'cm^3/(mol*s)'),
-        n = 0,
-        Ea = (8936, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli"),
-    ],
-)
+# DUPLICATE
+#entry(
+#    index = 320,
+#    reactant1 = 
+#"""
+#HNCO
+#1 H 0 {2,S}
+#2 N 0 {1,S} {3,D}
+#3 C 0 {2,D} {4,D}
+#4 O 0 {3,D}
+#""",
+#    reactant2 = 
+#"""
+#NH2
+#1 N 1 {2,S} {3,S}
+#2 H 0 {1,S}
+#3 H 0 {1,S}
+#""",
+#    product1 = 
+#"""
+#NCO
+#1 C 0 {2,T} {3,S}
+#2 N 0 {1,T}
+#3 O 1 {1,S}
+#""",
+#    product2 = 
+#"""
+#NH3
+#1 N 0 {2,S} {3,S} {4,S}
+#2 H 0 {1,S}
+#3 H 0 {1,S}
+#4 H 0 {1,S}
+#""",
+#    degeneracy = 1,
+#    reversible = False,
+#    kinetics = Arrhenius(
+#        A = (1000000000000.0, 'cm^3/(mol*s)'),
+#        n = 0,
+#        Ea = (8936, 'cal/mol'),
+#        T0 = (1, 'K'),
+#    ),
+#    reference = None,
+#   referenceType = "",
+#    shortDesc = u"""""",
+#    longDesc = 
+#u"""
+#
+#""",
+#    history = [
+#        ("Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli"),
+#    ],
+#)
 
 entry(
     index = 321,
