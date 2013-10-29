@@ -4256,3 +4256,30 @@ u"""
     ],
 )
 
+entry(
+    index = 117,
+    label = "C",
+    molecule = 
+"""
+1 C 4 0
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(Tmin=(200,"K"), Tmax=(1000,"K"), coeffs=[2.55424,-0.000321538,7.33792e-07,-7.32235e-10,2.66521e-13,85443.9,4.53131]),
+            NASAPolynomial(Tmin=(1000,"K"), Tmax=(3500,"K"), coeffs=[2.49267,4.79889e-05,-7.24335e-08,3.74291e-11,-4.87278e-15,85451.3,4.8015]),
+        ],
+        Tmin = (200,"K"),
+        Tmax = (3500,"K"),
+    ),
+    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
+    referenceType = "review",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+    ],
+)
+
