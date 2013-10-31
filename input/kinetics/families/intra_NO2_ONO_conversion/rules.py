@@ -19,10 +19,10 @@ entry(
 4    Od 0 {2,D}
 """,
     kinetics = ArrheniusEP(
-        A = (10000000000000.0, 's^-1'),
+        A = (2.76e+14, 's^-1'),
         n = 0,
         alpha = 0,
-        E0 = (0.0, 'kcal/mol'),
+        E0 = (67.0, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (1500, 'K'),
     ),
