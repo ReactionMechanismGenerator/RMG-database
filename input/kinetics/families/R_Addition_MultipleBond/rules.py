@@ -5832,6 +5832,348 @@ u"""
 )
 
 entry(
+    index = 421,
+    label = "Cd/H2_Cd/H2;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd 0 {2,D} {3,S} {4,S}
+2 *2 Cd 0 {1,D} {5,S} {6,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {2,S}
+6    H  0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (35.6, 'cm^3/(mol*s)'),
+        n = 3.22,
+        alpha = 0,
+        E0 = (11.1, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""pp, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 422,
+    label = "Cd/H2_Cd/H/Nd;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    H        0 {1,S}
+4    H        0 {1,S}
+5    H        0 {2,S}
+6    {Cs,O,S} 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (791, 'cm^3/(mol*s)'),
+        n = 2.78,
+        alpha = 0,
+        E0 = (9.5, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""ps, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 423,
+    label = "Cd/H2_Cd/Nd2;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    H        0 {1,S}
+4    H        0 {1,S}
+5    {Cs,O,S} 0 {2,S}
+6    {Cs,O,S} 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1350, 'cm^3/(mol*s)'),
+        n = 2.67,
+        alpha = 0,
+        E0 = (7.9, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""pt, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 424,
+    label = "Cd/H/Nd_Cd/H2;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+5    H        0 {2,S}
+6    H        0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (10.6, 'cm^3/(mol*s)'),
+        n = 3.29,
+        alpha = 0,
+        E0 = (9.1, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""sp, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 425,
+    label = "Cd/H/Nd_Cd/H/Nd;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+5    H        0 {2,S}
+6    {Cs,O,S} 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (46.2, 'cm^3/(mol*s)'),
+        n = 3.09,
+        alpha = 0,
+        E0 = (7.2, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""ss , CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 426,
+    label = "Cd/H/Nd_Cd/Nd2;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    H        0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+5    {Cs,O,S} 0 {2,S}
+6    {Cs,O,S} 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (186, 'cm^3/(mol*s)'),
+        n = 2.95,
+        alpha = 0,
+        E0 = (5.4, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""st, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 427,
+    label = "Cd/Nd2_Cd/H2;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    {Cs,O,S} 0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+5    H        0 {2,S}
+6    H        0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.337, 'cm^3/(mol*s)'),
+        n = 3.67,
+        alpha = 0,
+        E0 = (7.2, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""tp, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 428,
+    label = "Cd/Nd2_Cd/H/Nd;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    {Cs,O,S} 0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+5    H        0 {2,S}
+6    {Cs,O,S} 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (0.172, 'cm^3/(mol*s)'),
+        n = 3.7,
+        alpha = 0,
+        E0 = (4.7, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""ts, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 429,
+    label = "Cd/Nd2_Cd/Nd2;O_rad/NonDeO",
+    group1 = 
+"""
+1 *1 Cd       0 {2,D} {3,S} {4,S}
+2 *2 Cd       0 {1,D} {5,S} {6,S}
+3    {Cs,O,S} 0 {1,S}
+4    {Cs,O,S} 0 {1,S}
+5    {Cs,O,S} 0 {2,S}
+6    {Cs,O,S} 0 {2,S}
+""",
+    group2 = 
+"""
+1 *3 O 1 {2,S}
+2    O 0 {1,S}
+""",
+    kinetics = ArrheniusEP(
+        A = (1.69, 'cm^3/(mol*s)'),
+        n = 3.44,
+        alpha = 0,
+        E0 = (2.7, 'kcal/mol'),
+        Tmin = (400, 'K'),
+        Tmax = (1100, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    rank = 2,
+    shortDesc = u"""tt, CBS-QB3 calculations, with hindered rotor treatment.""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
     index = 2498,
     label = "CS/H2_S;H_rad",
     group1 = 
