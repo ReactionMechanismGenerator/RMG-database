@@ -4342,7 +4342,7 @@ entry(
     group = 
 """
 1 *3 O                    1 {2,S}
-2    {Cd,Ct,Cb,CO,CS,N4d} 0 {1,S}
+2    {Cd,Ct,Cb,CO,CS,N5d} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -8151,7 +8151,7 @@ entry(
     group = 
 """
 1 *3 Os  1 {2,S}
-2    N4d 0 {1,S} {3,D} {4,S}
+2    N5d 0 {1,S} {3,D} {4,S}
 3    Od  0 {2,D}
 4    Os  0 {2,S}
 """,
