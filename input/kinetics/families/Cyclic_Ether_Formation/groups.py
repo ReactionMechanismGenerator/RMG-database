@@ -268,11 +268,7 @@ u"""
 
 """,
     history = [
-<<<<<<< HEAD
         ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-=======
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
->>>>>>> GreenGroup/master
     ],
 )
 
@@ -297,11 +293,7 @@ u"""
 
 """,
     history = [
-<<<<<<< HEAD
         ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-=======
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
->>>>>>> GreenGroup/master
     ],
 )
 
@@ -326,11 +318,7 @@ u"""
 
 """,
     history = [
-<<<<<<< HEAD
         ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-=======
-        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
->>>>>>> GreenGroup/master
     ],
 )
 
@@ -766,8 +754,6 @@ u"""
 """,
     history = [
         ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-<<<<<<< HEAD
-=======
     ],
 )
 
@@ -820,24 +806,10 @@ u"""
 """,
     history = [
         ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
->>>>>>> GreenGroup/master
     ],
 )
 
 entry(
-<<<<<<< HEAD
-    index = 31,
-    label = "R4OOR_SSD",
-    group = 
-"""
-1 *1 {Cd,Cs} 1 {2,S}
-2 *4 {Cd,Cs} 0 {1,S} {3,S}
-3    Cd      0 {2,S} {4,D}
-4    Cd      0 {3,D} {5,S}
-5 *2 O       0 {4,S} {6,S}
-6 *3 O       0 {5,S} {7,S}
-7    R!H     0 {6,S}
-=======
     index = 33,
     label = "R4OOR_DSS",
     group = 
@@ -849,7 +821,6 @@ entry(
 5 *2 O          0 {4,S} {6,S}
 6 *3 O          0 {5,S} {7,S}
 7    R!H        0 {6,S}
->>>>>>> GreenGroup/master
 """,
     kinetics = None,
     reference = None,
@@ -865,19 +836,6 @@ u"""
 )
 
 entry(
-<<<<<<< HEAD
-    index = 32,
-    label = "R4OOR_SDS",
-    group = 
-"""
-1 *1 {Cd,Cs}    1 {2,S}
-2 *4 Cd         0 {1,S} {3,D}
-3    Cd         0 {2,D} {4,S}
-4    {Cd,Cs,CO} 0 {3,S} {5,S}
-5 *2 O          0 {4,S} {6,S}
-6 *3 O          0 {5,S} {7,S}
-7    R!H        0 {6,S}
-=======
     index = 34,
     label = "R4OOR_DSD",
     group = 
@@ -889,7 +847,6 @@ entry(
 5 *2 O   0 {4,S} {6,S}
 6 *3 O   0 {5,S} {7,S}
 7    R!H 0 {6,S}
->>>>>>> GreenGroup/master
 """,
     kinetics = None,
     reference = None,
@@ -905,19 +862,6 @@ u"""
 )
 
 entry(
-<<<<<<< HEAD
-    index = 33,
-    label = "R4OOR_DSS",
-    group = 
-"""
-1 *1 Cd         1 {2,D}
-2 *4 Cd         0 {1,D} {3,S}
-3    {Cd,Cs,CO} 0 {2,S} {4,S}
-4    {Cd,Cs,CO} 0 {3,S} {5,S}
-5 *2 O          0 {4,S} {6,S}
-6 *3 O          0 {5,S} {7,S}
-7    R!H        0 {6,S}
-=======
     index = 35,
     label = "R5OOH",
     group = 
@@ -930,7 +874,6 @@ entry(
 6 *2 O                  0 {5,S} {7,S}
 7 *3 O                  0 {6,S} {8,S}
 8    H                  0 {7,S}
->>>>>>> GreenGroup/master
 """,
     kinetics = None,
     reference = None,
@@ -946,19 +889,6 @@ u"""
 )
 
 entry(
-<<<<<<< HEAD
-    index = 34,
-    label = "R4OOR_DSD",
-    group = 
-"""
-1 *1 Cd  1 {2,D}
-2 *4 Cd  0 {1,D} {3,S}
-3    Cd  0 {2,S} {4,D}
-4    Cd  0 {3,D} {5,S}
-5 *2 O   0 {4,S} {6,S}
-6 *3 O   0 {5,S} {7,S}
-7    R!H 0 {6,S}
-=======
     index = 36,
     label = "R5OOH_SSSS",
     group = 
@@ -971,7 +901,6 @@ entry(
 6 *2 O          0 {5,S} {7,S}
 7 *3 O          0 {6,S} {8,S}
 8    H          0 {7,S}
->>>>>>> GreenGroup/master
 """,
     kinetics = None,
     reference = None,
@@ -987,20 +916,6 @@ u"""
 )
 
 entry(
-<<<<<<< HEAD
-    index = 35,
-    label = "R5OOH",
-    group = 
-"""
-1 *1 {CO,Cd,Cs,Sid,Sis} 1 {2,{S,D}}
-2 *4 {CO,Cd,Cs,Sid,Sis} 0 {1,{S,D}} {3,{S,D}}
-3    {CO,Cd,Cs,Sid,Sis} 0 {2,{S,D}} {4,{S,D}}
-4    {CO,Cd,Cs,Sid,Sis} 0 {3,{S,D}} {5,{S,D}}
-5    {CO,Cd,Cs,Sid,Sis} 0 {4,{S,D}} {6,S}
-6 *2 O                  0 {5,S} {7,S}
-7 *3 O                  0 {6,S} {8,S}
-8    H                  0 {7,S}
-=======
     index = 37,
     label = "R5OOH_SSSSCO",
     group = 
@@ -1013,7 +928,6 @@ entry(
 6 *2 O       0 {5,S} {7,S}
 7 *3 O       0 {6,S} {8,S}
 8    H       0 {7,S}
->>>>>>> GreenGroup/master
 """,
     kinetics = None,
     reference = None,
@@ -1029,86 +943,6 @@ u"""
 )
 
 entry(
-<<<<<<< HEAD
-    index = 36,
-    label = "R5OOH_SSSS",
-=======
-    index = 38,
-    label = "R5OOH_SSSD",
->>>>>>> GreenGroup/master
-    group = 
-"""
-1 *1 {Cd,Cs}    1 {2,S}
-2 *4 {Cd,Cs}    0 {1,S} {3,S}
-3    {Cd,Cs,CO} 0 {2,S} {4,S}
-<<<<<<< HEAD
-4    {Cd,Cs,CO} 0 {3,S} {5,S}
-5    {Cd,Cs,CO} 0 {4,S} {6,S}
-=======
-4    Cd         0 {3,S} {5,D}
-5    Cd         0 {4,D} {6,S}
->>>>>>> GreenGroup/master
-6 *2 O          0 {5,S} {7,S}
-7 *3 O          0 {6,S} {8,S}
-8    H          0 {7,S}
-""",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-<<<<<<< HEAD
-    index = 37,
-    label = "R5OOH_SSSSCO",
-    group = 
-"""
-1 *1 {Cd,Cs} 1 {2,S}
-2 *4 {Cd,Cs} 0 {1,S} {3,S}
-3    {Cd,Cs} 0 {2,S} {4,S}
-4    {Cd,Cs} 0 {3,S} {5,S}
-5    CO      0 {4,S} {6,S}
-6 *2 O       0 {5,S} {7,S}
-7 *3 O       0 {6,S} {8,S}
-8    H       0 {7,S}
-=======
-    index = 39,
-    label = "R5OOH_SSDS",
-    group = 
-"""
-1 *1 {Cd,Cs}    1 {2,S}
-2 *4 {Cd,Cs}    0 {1,S} {3,S}
-3    Cd         0 {2,S} {4,D}
-4    Cd         0 {3,D} {5,S}
-5    {Cd,Cs,CO} 0 {4,S} {6,S}
-6 *2 O          0 {5,S} {7,S}
-7 *3 O          0 {6,S} {8,S}
-8    H          0 {7,S}
->>>>>>> GreenGroup/master
-""",
-    kinetics = None,
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Jul 25 17:51:43 2013","Connie Gao <connieg@mit.edu>","action","""Connie Gao <connieg@mit.edu> imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-<<<<<<< HEAD
     index = 38,
     label = "R5OOH_SSSD",
     group = 
@@ -1118,17 +952,6 @@ entry(
 3    {Cd,Cs,CO} 0 {2,S} {4,S}
 4    Cd         0 {3,S} {5,D}
 5    Cd         0 {4,D} {6,S}
-=======
-    index = 40,
-    label = "R5OOH_SDSS",
-    group = 
-"""
-1 *1 {Cd,Cs}    1 {2,S}
-2 *4 Cd         0 {1,S} {3,D}
-3    Cd         0 {2,D} {4,S}
-4    {Cd,Cs,CO} 0 {3,S} {5,S}
-5    {Cd,Cs,CO} 0 {4,S} {6,S}
->>>>>>> GreenGroup/master
 6 *2 O          0 {5,S} {7,S}
 7 *3 O          0 {6,S} {8,S}
 8    H          0 {7,S}
@@ -1147,7 +970,6 @@ u"""
 )
 
 entry(
-<<<<<<< HEAD
     index = 39,
     label = "R5OOH_SSDS",
     group = 
@@ -1177,10 +999,6 @@ u"""
 entry(
     index = 40,
     label = "R5OOH_SDSS",
-=======
-    index = 41,
-    label = "R5OOH_DSSS",
->>>>>>> GreenGroup/master
     group = 
 """
 1 *1 Cd         1 {2,D}
@@ -1206,7 +1024,6 @@ u"""
 )
 
 entry(
-<<<<<<< HEAD
     index = 41,
     label = "R5OOH_DSSS",
     group = 
@@ -1219,20 +1036,6 @@ entry(
 6 *2 O          0 {5,S} {7,S}
 7 *3 O          0 {6,S} {8,S}
 8    H          0 {7,S}
-=======
-    index = 42,
-    label = "R5OOH_SDSD",
-    group = 
-"""
-1 *1 {Cd,Cs} 1 {2,S}
-2 *4 Cd      0 {1,S} {3,D}
-3    Cd      0 {2,D} {4,S}
-4    Cd      0 {3,S} {5,D}
-5    Cd      0 {4,D} {6,S}
-6 *2 O       0 {5,S} {7,S}
-7 *3 O       0 {6,S} {8,S}
-8    H       0 {7,S}
->>>>>>> GreenGroup/master
 """,
     kinetics = None,
     reference = None,
@@ -1248,7 +1051,6 @@ u"""
 )
 
 entry(
-<<<<<<< HEAD
     index = 42,
     label = "R5OOH_SDSD",
     group = 
@@ -1276,8 +1078,6 @@ u"""
 )
 
 entry(
-=======
->>>>>>> GreenGroup/master
     index = 43,
     label = "R5OOH_DSDS",
     group = 
