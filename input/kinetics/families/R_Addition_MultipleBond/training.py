@@ -73,7 +73,7 @@ Pressure 0.01-0.32 atm. Excitation : direct photolysis, analysis : GC.
 C2H2 + Tert-C4H9 --> (CH3)3CCH=CH
 
 Was in the rules database with rank=4. Richard moved to the training database and checked with NIST database. NIST squib: 1962GAR/TRO940-944
-This is the full rate; NB the degeneracy=2 so the per-site rate is half this.
+A=5.01e+10 cm^3/(mol*s) is the full rate; NB the degeneracy=2 so the per-site rate is half this.
 """,
     history = [
         ("2011-08-09","Richard West <rwest@mit.edu>","action","""New entry. Moved from rules to training, cross-referenced with NIST and PrIMe."""),
