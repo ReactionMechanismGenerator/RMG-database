@@ -399,17 +399,9 @@ entry(
 1 *1 {Cd,Cs}    1 {2,S}
 2 *4 {Cd,Cs}    0 {1,S} {3,S}
 3    {Cd,Cs,CO} 0 {2,S} {4,S}
-<<<<<<< HEAD
 4 *2 O          0 {3,S} {5,S}
 5 *3 O          0 {4,S} {6,S}
 6    H          0 {5,S}
-=======
-4    {Cd,Cs,CO} 0 {3,S} {5,S}
-5    {Cd,Cs,CO} 0 {4,S} {6,S}
-6 *2 O          0 {5,S} {7,S}
-7 *3 O          0 {6,S} {8,S}
-8    H          0 {7,S}
->>>>>>> GreenGroup/master
 """,
     group2 = 
 """
