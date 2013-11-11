@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 
-template(reactants=["X_H_or_Xrad_H_Xbirad_H_Xtrirad_H", "Y_rad_birad_trirad"], products=["X_H_or_Xrad_H_Xbirad_H_Xtrirad_H", "Y_rad_birad_trirad"], ownReverse=True)
+template(reactants=["X_H_or_Xrad_H_Xbirad_H_Xtrirad_H", "Y_rad_birad_trirad_quadrad"], products=["X_H_or_Xrad_H_Xbirad_H_Xtrirad_H", "Y_rad_birad_trirad_quadrad"], ownReverse=True)
 
 recipe(actions=[
     ['BREAK_BOND', '*1', 'S', '*2'],
@@ -35,8 +35,8 @@ u"""
 
 entry(
     index = 2,
-    label = "Y_rad_birad_trirad",
-    group = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad, Y_1centertrirad}",
+    label = "Y_rad_birad_trirad_quadrad",
+    group = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad, Y_1centertrirad, Y_1centerquadrad}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -9752,6 +9752,26 @@ u"""
         ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
     ],
 )
+
+entry(
+    index = 475,
+    label = "Y_1centerquadrad",
+    group = 
+"""
+1 *3 R!H 4
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
                                        
 tree(
 """
@@ -9965,7 +9985,8 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
     L2: Xbirad_H
         L3: N_birad_H
     L2: Xtrirad_H
-L1: Y_rad_birad_trirad
+L1: Y_rad_birad_trirad_quadrad
+    L2: Y_1centerquadrad
     L2: Y_1centertrirad
         L3: N3_atom_quartet
         L3: CH_quartet

@@ -25,7 +25,7 @@ recommended = True
 
 entry(
     index = 0,
-    label = "X_H_or_Xrad_H;Y_rad_birad_trirad",
+    label = "X_H_or_Xrad_H;Y_rad_birad_trirad_quadrad",
     group1 = "OR{X_H, Xrad_H}",
     group2 = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad}",
     kinetics = ArrheniusEP(
@@ -58,13 +58,13 @@ Do better kinetics for this exist? Do we in fact use the reverse kinetics anyway
 
 entry(
     index = 1,
-    label = "X_H;Y_rad_birad_trirad",
+    label = "X_H;Y_rad_birad_trirad_quadrad",
     group1 = 
 """
 1 *1 R 0 {2,S}
 2 *2 H 0 {1,S}
 """,
-    group2 = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad, Y_1centertrirad}",
+    group2 = "OR{Y_2centeradjbirad, Y_1centerbirad, Y_rad, Y_1centertrirad, Y_1centerquadrad}",
     kinetics = ArrheniusEP(
         A = (100000, 'cm^3/(mol*s)'),
         n = 0,
