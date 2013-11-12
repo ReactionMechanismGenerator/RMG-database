@@ -378,7 +378,7 @@ Verified by Greg Magoon; RMG and NIST data seem to be the same; presumably, NIST
 
 entry(
     index = 433,
-    label = "H_rad;Ct_rad",
+    label = "H_rad;Ct_rad/Ct",
     group1 = 
 """
 1 * H 1
@@ -1977,7 +1977,7 @@ Verified by Greg Magoon; DA uncertainty updated, as I have done elsewhere; based
 
 entry(
     index = 465,
-    label = "Cd_pri_rad;Ct_rad",
+    label = "Cd_pri_rad;Ct_rad/Ct",
     group1 = 
 """
 1 * C 1 {2,D} {3,S}
