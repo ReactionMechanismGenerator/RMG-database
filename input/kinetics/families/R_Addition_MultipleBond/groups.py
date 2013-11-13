@@ -5489,7 +5489,7 @@ entry(
     group = 
 """
 1 *1 Od  0 {2,D}
-2 *2 N3d 0 {1,D}
+2 *2 N5d 0 {1,D}
 """,
     kinetics = None,
     reference = None,
