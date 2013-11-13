@@ -8485,12 +8485,12 @@ u"""
 
 entry(
     index = 418,
-    label = "N3s_rad_H/H",
+    label = "N3s_rad_H_pri",
     group = 
 """
-1 *1 N3s 1 {2,S} {3,S}
-2 *2 H   0 {1,S}
-3    R!H 0 {1,S}
+1 *1 N3s     1 {2,S} {3,S}
+2 *2 H       0 {1,S}
+3    {C,N,O} 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -9980,7 +9980,7 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
         L3: Srad_H
         L3: N3s_rad_H
             L4: NH2_rad_H
-            L4: N3s_rad_H/H
+            L4: N3s_rad_H_pri
                 L5: N3s_rad_H/H/NonDeN
     L2: Xbirad_H
         L3: N_birad_H
