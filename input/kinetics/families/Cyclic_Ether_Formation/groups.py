@@ -1823,6 +1823,71 @@ u"""
     ],
 )
 
+entry(
+    index = 74,
+    label = "N_rad",
+    group = 
+"""
+1 *1 N 1
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 75,
+    label = "Cd_rad_in/NonDeN",
+    group = 
+"""
+1 *1 C   1 {2,D} {3,S}
+2 *4 C   0 {1,D}
+3    N3s 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
+entry(
+    index = 76,
+    label = "C_rad/H/NonDeN_intra",
+    group = 
+"""
+1 *1 C   1 {2,S} {3,S} {4,S}
+2    H   0 {1,S}
+3 *4 C   0 {1,S}
+4    N3s 0 {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Thu Nov 15 16:45:30 2012","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+    ],
+)
+
 tree(
 """
 L1: RnOOR
@@ -1882,6 +1947,7 @@ L1: Y_rad_intra
         L3: Cd_sec_rad_in
             L4: Cd_rad_in/NonDeC
             L4: Cd_rad_in/NonDeO
+            L4: Cd_rad_in/NonDeN
             L4: Cd_rad_in/OneDe
     L2: Cd_rad_out
     L2: Cs_rad_intra
@@ -1889,6 +1955,7 @@ L1: Y_rad_intra
         L3: C_sec_rad_intra
             L4: C_rad/H/NonDeC_intra
             L4: C_rad/H/NonDeO_intra
+            L4: C_rad/H/NonDeN_intra
             L4: C_rad/H/OneDe_intra
         L3: C_ter_rad_intra
             L4: C_rad/NonDeC_intra
@@ -1898,6 +1965,7 @@ L1: Y_rad_intra
                 L5: C_rad/Cs2_intra
                 L5: C_rad/ODMustO_intra
             L4: C_rad/TwoDe_intra
+    L2: N_rad
 """
 )
 
