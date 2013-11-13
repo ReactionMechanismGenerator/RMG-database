@@ -9539,7 +9539,7 @@ entry(
 """
 1 *1 N3d         0 {2,S} {3,D}
 2 *2 H           0 {1,S}
-3    {Cd,N3d,Od} 0 {1,D}
+3    {N3d,Od} 0 {1,D}
 """,
     kinetics = None,
     reference = None,
