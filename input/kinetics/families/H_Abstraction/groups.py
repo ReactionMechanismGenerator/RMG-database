@@ -8613,8 +8613,8 @@ entry(
     label = "Ct_rad/N",
     group = 
 """
-1 *3 Ct  1 {2,T}
-2    N3t 0 {1,T}
+1 *3 Ct        1 {2,T}
+2    {N3t,N5t} 0 {1,T}
 """,
     kinetics = None,
     reference = None,

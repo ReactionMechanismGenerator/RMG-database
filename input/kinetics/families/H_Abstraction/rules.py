@@ -42360,8 +42360,8 @@ entry(
 """,
     group2 = 
 """
-1 *3 Ct  1 {2,T}
-2    N3t 0 {1,T}
+1 *3 Ct        1 {2,T}
+2    {N3t,N5t} 0 {1,T}
 """,
     kinetics = ArrheniusEP(
         A = (3.60e+8, 'cm^3/(mol*s)'),
@@ -42395,8 +42395,8 @@ entry(
 """,
     group2 = 
 """
-1 *3 Ct  1 {2,T}
-2    N3t 0 {1,T}
+1 *3 Ct        1 {2,T}
+2    {N3t,N5t} 0 {1,T}
 """,
     kinetics = ArrheniusEP(
         A = (7.80e+12, 'cm^3/(mol*s)'),
@@ -42432,8 +42432,8 @@ entry(
 """,
     group2 = 
 """
-1 *3 Ct  1 {2,T}
-2    N3t 0 {1,T}
+1 *3 Ct        1 {2,T}
+2    {N3t,N5t} 0 {1,T}
 """,
     kinetics = ArrheniusEP(
         A = (1.20e+5, 'cm^3/(mol*s)'),
@@ -42468,8 +42468,8 @@ entry(
 """,
     group2 = 
 """
-1 *3 Ct  1 {2,T}
-2    N3t 0 {1,T}
+1 *3 Ct        1 {2,T}
+2    {N3t,N5t} 0 {1,T}
 """,
     kinetics = ArrheniusEP(
         A = (9.20e+12, 'cm^3/(mol*s)'),
