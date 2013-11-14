@@ -125,7 +125,8 @@ entry(
     label = "Y_rad",
     group = 
 """
-1 *1 R 1
+1 *1 R 1 {2,S}
+2    R 0 {1,S}
 """,
     kinetics = None,
     reference = None,
@@ -2707,11 +2708,7 @@ u"""
 entry(
     index = 203,
     label = "Y_2centerbirad",
-    group = 
-"""
-1 *1 {Ct,Os,Ss} 1 {2,{S,T}}
-2    {Ct,Os,Ss} 1 {1,{S,T}}
-""",
+    group = "OR{O2b, C2b}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -4605,8 +4602,8 @@ L1: Y_rad_birad_trirad
         L3: O_atom_triplet
         L3: CH2_triplet
         L3: NH_triplet
+    L2: H_rad
     L2: Y_rad
-        L3: H_rad
         L3: Ct_rad
             L4: Ct_rad/Ct
             L4: Ct_rad/Nt
