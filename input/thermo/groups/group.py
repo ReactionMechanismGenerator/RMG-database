@@ -48378,12 +48378,12 @@ u"""
 
 entry(
     index = 1908,
-    label = "N3d-OdCs",
+    label = "N3d-OdC",
     group = 
 """
 1 * N3d 0 {2,D} {3,S}
 2   Od  0 {1,D}
-3   Cs  0 {1,S}
+3   C   0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
@@ -51434,7 +51434,7 @@ L1: R
             L4: N3d-OdOs
             L4: N3d-OdN3s
             L4: N3d-CsR
-                L5: N3d-OdCs
+                L5: N3d-OdC
                 L5: N3d-CdCs
                 L5: N3d-N3dCs
             L4: N3d-CbR
