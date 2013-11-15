@@ -35,7 +35,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (200000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -73,7 +73,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (1400000000000000.0, 'cm^3/(mol*s)'),
@@ -116,7 +116,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (570000000000000.0, 'cm^3/(mol*s)'),
@@ -165,7 +165,7 @@ O2
 2 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1400000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -211,7 +211,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (29000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -253,7 +253,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(3.6e+16, 'cm^3/(mol*s)'), n=0, Ea=(93733, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -299,7 +299,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(540000, 'cm^3/(mol*s)'), n=2.4, Ea=(9910, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -344,7 +344,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (50000000.0, 'cm^3/(mol*s)'),
         n = 1.6,
@@ -392,7 +392,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (9400000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -438,7 +438,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (480000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -486,7 +486,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2200000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -528,7 +528,7 @@ HNNO
 4 O 1 {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1.2e+24, 'cm^3/(mol*s)'),
         n = -4.46,
@@ -574,7 +574,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (220000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -620,7 +620,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (8.5e+20, 'cm^3/(mol*s)'),
         n = -1.26,
@@ -666,7 +666,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2.4e+19, 'cm^3/(mol*s)'),
         n = -1.26,
@@ -712,7 +712,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1.4e+17, 'cm^3/(mol*s)'),
         n = -1.49,
@@ -758,7 +758,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(3e+18, 'cm^3/(mol*s)'), n=-1.65, Ea=(1430, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -799,7 +799,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (170000000000000.0, 'cm^3/(mol*s)'),
         n = -0.2,
@@ -841,7 +841,7 @@ HNOO
 4 O 1 {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(3.5e+23, 'cm^3/(mol*s)'), n=-5, Ea=(2274, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -882,7 +882,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (76000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -928,7 +928,7 @@ NO2
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (23000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -974,7 +974,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(460000, 'cm^3/(mol*s)'), n=2, Ea=(6494, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -1017,7 +1017,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (250000000000.0, 'cm^3/(mol*s)'),
         n = 0.48,
@@ -1065,7 +1065,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (62000000.0, 'cm^3/(mol*s)'),
         n = 1.23,
@@ -1115,7 +1115,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (25000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -1165,7 +1165,7 @@ O2
 2 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -1211,7 +1211,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+#    reversible = True,
     kinetics = Arrhenius(
         A = (46000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -1257,7 +1257,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (7000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -1301,7 +1301,7 @@ NH2OH
 5 H 0 {4,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1.8e+32, 'cm^3/(mol*s)'),
         n = -6.91,
@@ -1349,7 +1349,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(2400000.0, 'cm^3/(mol*s)'), n=2, Ea=(50, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -1390,7 +1390,7 @@ N2H4
 6 H 0 {4,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2e+46, 'cm^3/(mol*s)'),
         n = -10.93,
@@ -1440,7 +1440,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2.4e+20, 'cm^3/(mol*s)'),
         n = -2.91,
@@ -1490,7 +1490,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (920000000000.0, 'cm^3/(mol*s)'),
         n = -0.01,
@@ -1540,7 +1540,7 @@ NH
 2 H 0  {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (50000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -1588,7 +1588,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (4700000000000.0, 'cm^3/(mol*s)'),
         n = -0.25,
@@ -1636,7 +1636,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (35000000000.0, 'cm^3/(mol*s)'),
         n = 0.34,
@@ -1680,7 +1680,7 @@ NH2NO
 5 O 0 {4,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1.9e+30, 'cm^3/(mol*s)'),
         n = -6.67,
@@ -1738,7 +1738,7 @@ N2
 2 N 0 {1,T}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (10000000000000.0, 'cm^6/(mol^2*s)'),
         n = 0,
@@ -1784,7 +1784,7 @@ CH3NO
 6 O 0 {5,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (3.6e+35, 'cm^3/(mol*s)'),
         n = -8.25,
@@ -1834,7 +1834,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2200000000.0, 'cm^3/(mol*s)'),
         n = 0.75,
@@ -1884,7 +1884,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (490000000.0, 'cm^3/(mol*s)'),
         n = 0.46,
@@ -1932,7 +1932,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (610000000000000.0, 'cm^3/(mol*s)'),
         n = -0.31,
@@ -1980,7 +1980,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (3700000000000.0, 'cm^3/(mol*s)'),
         n = 0.15,
@@ -2028,7 +2028,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (120000000000.0, 'cm^3/(mol*s)'),
         n = 0.52,
@@ -2076,7 +2076,7 @@ CH3NH2
 7 H 0 {5,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1.3e+54, 'cm^3/(mol*s)'),
         n = -12.72,
@@ -2128,7 +2128,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (11000000000000.0, 'cm^3/(mol*s)'),
         n = -0.13,
@@ -2180,7 +2180,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (12000000000000.0, 'cm^3/(mol*s)'),
         n = -0.15,
@@ -2232,7 +2232,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2100000000000.0, 'cm^3/(mol*s)'),
         n = -0.1,
@@ -2284,7 +2284,7 @@ NH
 2 H 0  {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2800000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -2336,7 +2336,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1600000.0, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -2380,7 +2380,7 @@ CH2NN
 5 N 0 {4,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (9.3e+30, 'cm^3/(mol*s)'),
         n = -7.01,
@@ -2428,7 +2428,7 @@ NH
 2 H 0  {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (10000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -2476,7 +2476,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (38000000000000.0, 'cm^3/(mol*s)'),
         n = -0.36,
@@ -2524,7 +2524,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (290000000000000.0, 'cm^3/(mol*s)'),
         n = -0.69,
@@ -2572,7 +2572,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (3.1e+17, 'cm^3/(mol*s)'),
         n = -1.38,
@@ -2620,7 +2620,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2.3e+16, 'cm^3/(mol*s)'),
         n = -1.43,
@@ -2668,7 +2668,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (81000000.0, 'cm^3/(mol*s)'),
         n = 1.42,
@@ -2710,7 +2710,7 @@ HCNN
 4 N 1 {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2.3e+27, 'cm^3/(mol*s)'),
         n = -5.78,
@@ -2756,7 +2756,7 @@ N
 1 N 3
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (4400000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -2802,7 +2802,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (53000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -2848,7 +2848,7 @@ NCO
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (20000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -2894,7 +2894,7 @@ HCO
 3 O 0 {2,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (29000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -2940,7 +2940,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (5500000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -2986,7 +2986,7 @@ CN
 2 N 0 {1,T}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (3300000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -3030,7 +3030,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (9000000000.0, 'cm^3/(mol*s)'),
         n = 1,
@@ -3049,50 +3049,49 @@ u"""
     ],
 )
 
-# DUPLICATE
-#entry(
-#    index = 66,
-#    reactant1 = 
-#"""
-#N
-#1 N 3
-#""",
-#    reactant2 = 
-#"""
-#OH
-#1 O 1 {2,S}
-#2 H 0 {1,S}
-#""",
-#    product1 = 
-#"""
-#NH
-#1 N 2S {2,S}
-#2 H 0  {1,S}
-#""",
-#    product2 = 
-#"""
-#O
-#1 O 2T
-#""",
-#    degeneracy = 1,
-#    reversible = False,
-#    kinetics = Arrhenius(
-#        A = (6400000000000.0, 'cm^3/(mol*s)'),
-#        n = 0.1,
-#        Ea = (21249, 'cal/mol'),
-#        T0 = (1, 'K'),
-#    ),
-#    reference = None,
-#    referenceType = "",
-#    shortDesc = u"""""",
-#    longDesc = 
-#u"""
-#
-#""",
-#    history = [
-#        ("Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli"),
-#    ],
-#)
+entry(
+    index = 66,
+    reactant1 = 
+"""
+N
+1 N 3
+""",
+    reactant2 = 
+"""
+OH
+1 O 1 {2,S}
+2 H 0 {1,S}
+""",
+    product1 = 
+"""
+NH
+1 N 2S {2,S}
+2 H 0  {1,S}
+""",
+    product2 = 
+"""
+O
+1 O 2T
+""",
+    degeneracy = 1,
+    reversible = True,
+    kinetics = Arrhenius(
+        A = (6400000000000.0, 'cm^3/(mol*s)'),
+        n = 0.1,
+        Ea = (21249, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli"),
+    ],
+)
 
 entry(
     index = 67,
@@ -3119,7 +3118,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (110000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -3163,7 +3162,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (170000000000000.0, 'cm^3/(mol*s)'),
         n = -0.09,
@@ -3209,7 +3208,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (50000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -3253,7 +3252,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (15000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -3303,7 +3302,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (71000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -3347,7 +3346,7 @@ N2
 2 N 0 {1,T}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (24000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -3397,7 +3396,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (51000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -3445,7 +3444,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1500000000000000.0, 'cm^3/(mol*s)'),
         n = -0.5,
@@ -3493,7 +3492,7 @@ N
 1 N 3
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(2443, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -3534,7 +3533,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (20000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -3580,7 +3579,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1200000.0, 'cm^3/(mol*s)'), n=2, Ea=(-487, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -3619,7 +3618,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (35000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -3663,7 +3662,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (60000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -3707,7 +3706,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (170000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -3757,7 +3756,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (40000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -3807,7 +3806,7 @@ N
 1 N 3
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(5848, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -3850,7 +3849,7 @@ HO2
 3 O 1 {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1200000000000.0, 'cm^3/(mol*s)'),
         n = -0.34,
@@ -3898,7 +3897,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (290000000000.0, 'cm^3/(mol*s)'),
         n = -0.34,
@@ -3944,7 +3943,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (240000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -3992,7 +3991,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2.4e+22, 'cm^3/(mol*s)'),
         n = -2.88,
@@ -4038,7 +4037,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1.7e+16, 'cm^3/(mol*s)'),
         n = -1.23,
@@ -4088,7 +4087,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(1698, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -4133,7 +4132,7 @@ H2O2
 4 H 0 {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -4178,7 +4177,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (24000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -4226,7 +4225,7 @@ HNO
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1200000.0, 'cm^3/(mol*s)'),
         n = 2,
@@ -4268,7 +4267,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(5.6e+36, 's^-1'), n=-7.75, Ea=(67689, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -4301,7 +4300,7 @@ H2NN
 4 N 2S {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(9.2e+38, 's^-1'), n=-9.01, Ea=(1579, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -4344,7 +4343,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (480000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -4392,7 +4391,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (330000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -4442,7 +4441,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2400000.0, 'cm^3/(mol*s)'),
         n = 2,
@@ -4494,7 +4493,7 @@ NNH
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1800000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -4548,7 +4547,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1600000.0, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -4598,7 +4597,7 @@ NH2
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2400000.0, 'cm^3/(mol*s)'),
         n = 2,
@@ -4648,7 +4647,7 @@ NH2
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (4000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -4690,7 +4689,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(5.9e+32, 's^-1'), n=-6.99, Ea=(50729, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -4735,7 +4734,7 @@ NO2
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1500000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -4783,7 +4782,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (18000000000.0, 'cm^3/(mol*s)'),
         n = 0.97,
@@ -4831,7 +4830,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (480000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -4879,7 +4878,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (3200000000.0, 'cm^3/(mol*s)'),
         n = 1.03,
@@ -4927,7 +4926,7 @@ NNH
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (330000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -4977,7 +4976,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -5027,7 +5026,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2400000.0, 'cm^3/(mol*s)'),
         n = 2,
@@ -5081,7 +5080,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(830000, 'cm^3/(mol*s)'), n=1.93, Ea=(6494, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -5130,7 +5129,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(830000, 'cm^3/(mol*s)'), n=1.93, Ea=(6494, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -5179,7 +5178,7 @@ NNH
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1600000.0, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -5231,7 +5230,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (7900000.0, 'cm^3/(mol*s)'),
         n = 1.9,
@@ -5283,7 +5282,7 @@ NNH
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1800000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -5335,7 +5334,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(660000, 'cm^3/(mol*s)'), n=1.94, Ea=(7050, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -5382,7 +5381,7 @@ H2O2
 4 H 0 {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -5421,7 +5420,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(2.3e+43, 's^-1'), n=-9.55, Ea=(64432, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -5466,7 +5465,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (240000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -5516,7 +5515,7 @@ HNO
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (30000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -5566,7 +5565,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (30000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -5616,7 +5615,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (170000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -5668,7 +5667,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1200000.0, 'cm^3/(mol*s)'),
         n = 2,
@@ -5720,7 +5719,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (30000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -5776,7 +5775,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(1817, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -5827,7 +5826,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (30000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -5881,7 +5880,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -5935,7 +5934,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (30000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -5989,7 +5988,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (30000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -6043,7 +6042,7 @@ H2O2
 4 H 0 {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -6092,7 +6091,7 @@ O2
 2 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(2125, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -6133,7 +6132,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(4e+44, 's^-1'), n=-9.85, Ea=(71313, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -6180,7 +6179,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (960000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -6232,7 +6231,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (670000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -6286,7 +6285,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(4800000.0, 'cm^3/(mol*s)'), n=2, Ea=(-645, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -6339,7 +6338,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (3300000.0, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -6395,7 +6394,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (3700000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -6439,7 +6438,7 @@ N
 1 N 3
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (17000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -6483,7 +6482,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (11000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -6533,7 +6532,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (46000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -6583,7 +6582,7 @@ CO2
 3 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (14000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -6629,7 +6628,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (130000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -6675,7 +6674,7 @@ O2
 2 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (3900000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -6715,7 +6714,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (5700000000000000.0, 'cm^3/(mol*s)'),
@@ -6768,7 +6767,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1.5e+16, 'cm^3/(mol*s)'),
         n = -1.44,
@@ -6818,7 +6817,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (6.6e+16, 'cm^3/(mol*s)'),
         n = -1.44,
@@ -6870,7 +6869,7 @@ CH3O
 5 O 1 {4,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (14000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -6918,7 +6917,7 @@ HO2
 3 O 1 {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(0.013, 'cm^3/(mol*s)'), n=4.72, Ea=(36540, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -6953,7 +6952,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(2.6e+16, 'cm^3/(mol*s)'), n=0, Ea=(48654, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -7001,7 +7000,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (850000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -7049,7 +7048,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (13000000.0, 'cm^3/(mol*s)'),
         n = 1.88,
@@ -7095,7 +7094,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (450000000000.0, 'cm^3/(mol*s)'),
         n = 0.72,
@@ -7141,7 +7140,7 @@ NH2
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+#    reversible = True,
     kinetics = Arrhenius(
         A = (3500000000000000.0, 'cm^3/(mol*s)'),
         n = -0.3,
@@ -7187,7 +7186,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (450000000000.0, 'cm^3/(mol*s)'),
         n = 0.72,
@@ -7237,7 +7236,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -7285,7 +7284,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (8500000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -7333,7 +7332,7 @@ HO2
 3 O 1 {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (20000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -7385,7 +7384,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (820000, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -7427,7 +7426,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (2.8e+24, 'cm^3/(mol*s)'),
@@ -7468,7 +7467,7 @@ HNOH
 4 H 0 {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(8.2e+25, 's^-1'), n=-4.94, Ea=(43769, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -7511,7 +7510,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (40000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -7559,7 +7558,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (480000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -7607,7 +7606,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (330000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -7657,7 +7656,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2400000.0, 'cm^3/(mol*s)'),
         n = 2,
@@ -7711,7 +7710,7 @@ NH2
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (20000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -7765,7 +7764,7 @@ HNO
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1600000.0, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -7817,7 +7816,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1800000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -7869,7 +7868,7 @@ H2O2
 4 H 0 {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -7916,7 +7915,7 @@ NH2OH
 5 H 0 {4,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -7953,7 +7952,7 @@ HNO
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (2e+24, 'cm^3/(mol*s)'),
@@ -8004,7 +8003,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (40000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -8052,7 +8051,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (480000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -8100,7 +8099,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (70000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -8150,7 +8149,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2400000.0, 'cm^3/(mol*s)'),
         n = 2,
@@ -8204,7 +8203,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (20000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -8258,7 +8257,7 @@ HNO
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1600000.0, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -8310,7 +8309,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (6700000.0, 'cm^3/(mol*s)'),
         n = 1.82,
@@ -8362,7 +8361,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (4.6e+19, 'cm^3/(mol*s)'),
         n = -1.94,
@@ -8414,7 +8413,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1800000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -8466,7 +8465,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (40000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -8518,7 +8517,7 @@ H2O2
 4 H 0 {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -8565,7 +8564,7 @@ O2
 2 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -8602,7 +8601,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (1.5e+36, 'cm^3/(mol*s)'),
@@ -8647,7 +8646,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (2e+31, 'cm^3/(mol*s)'),
@@ -8698,7 +8697,7 @@ NO2
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (200000000.0, 'cm^3/(mol*s)'),
         n = 1.55,
@@ -8746,7 +8745,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (8100000.0, 'cm^3/(mol*s)'),
         n = 1.89,
@@ -8794,7 +8793,7 @@ HNO
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (56000000000.0, 'cm^3/(mol*s)'),
         n = 0.86,
@@ -8842,7 +8841,7 @@ NO2
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (170000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -8892,7 +8891,7 @@ NO2
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1200000.0, 'cm^3/(mol*s)'), n=2, Ea=(-596, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -8941,7 +8940,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(810000, 'cm^3/(mol*s)'), n=1.87, Ea=(5501, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -8988,7 +8987,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(1916, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -9021,7 +9020,7 @@ HONO
 4 O 0 {3,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(7.1e+27, 's^-1'), n=-5.4, Ea=(52507, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -9064,7 +9063,7 @@ NO2
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (240000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -9112,7 +9111,7 @@ NO2
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (170000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -9162,7 +9161,7 @@ NO2
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1200000.0, 'cm^3/(mol*s)'), n=2, Ea=(-794, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -9211,7 +9210,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(810000, 'cm^3/(mol*s)'), n=1.87, Ea=(4836, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -9258,7 +9257,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(874, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -9289,7 +9288,7 @@ HNC
 3 C 0 {2,T}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1.5e+23, 's^-1'), n=-4.2, Ea=(49428, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -9332,7 +9331,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (3900000.0, 'cm^3/(mol*s)'),
         n = 1.83,
@@ -9380,7 +9379,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(4400, 'cm^3/(mol*s)'), n=2.26, Ea=(6395, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -9423,7 +9422,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1100000.0, 'cm^3/(mol*s)'),
         n = 2.03,
@@ -9471,7 +9470,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(160, 'cm^3/(mol*s)'), n=2.56, Ea=(8996, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -9510,7 +9509,7 @@ NCHOH
 5 H 0 {4,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1.7e+29, 'cm^3/(mol*s)'),
         n = -6.31,
@@ -9556,7 +9555,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (540000000.0, 'cm^3/(mol*s)'),
         n = 1.21,
@@ -9602,7 +9601,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (200000000.0, 'cm^3/(mol*s)'),
         n = 1.47,
@@ -9648,7 +9647,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (42000000000.0, 'cm^3/(mol*s)'),
         n = 0.4,
@@ -9694,7 +9693,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (4600000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -9742,7 +9741,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (28000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -9790,7 +9789,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1500000000000.0, 'cm^3/(mol*s)'),
         n = 0.01,
@@ -9838,7 +9837,7 @@ CO2
 3 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1.6e+19, 'cm^3/(mol*s)'),
         n = -2.25,
@@ -9884,7 +9883,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (360000000.0, 'cm^3/(mol*s)'),
         n = 1.55,
@@ -9932,7 +9931,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (7800000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -9976,7 +9975,7 @@ N
 1 N 3
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (77000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -10022,7 +10021,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (10000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -10068,7 +10067,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (40000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -10116,7 +10115,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (15000000.0, 'cm^3/(mol*s)'),
         n = 1.71,
@@ -10164,7 +10163,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (420000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -10212,7 +10211,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (6200000000000000.0, 'cm^3/(mol*s)'),
         n = -0.75,
@@ -10264,7 +10263,7 @@ CH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(120000, 'cm^3/(mol*s)'), n=2.64, Ea=(-159, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -10309,7 +10308,7 @@ NH2
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (9200000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -10351,7 +10350,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1.3e+29, 's^-1'), n=-6.03, Ea=(29878, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -10398,7 +10397,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (30000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -10450,7 +10449,7 @@ H2O2
 4 H 0 {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1609, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -10497,7 +10496,7 @@ O2
 2 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1609, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -10542,7 +10541,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (3000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -10596,7 +10595,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (810000, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -10646,7 +10645,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2.1e+17, 'cm^3/(mol*s)'),
         n = -1.68,
@@ -10694,7 +10693,7 @@ CH2
 3 H 0  {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (60000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -10742,7 +10741,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (240000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -10794,7 +10793,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -10842,7 +10841,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (170000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -10890,7 +10889,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (60000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -10938,7 +10937,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (20000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -10980,7 +10979,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(7.7e+25, 's^-1'), n=-5.2, Ea=(21974, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -11023,7 +11022,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (20000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -11071,7 +11070,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (240000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -11119,7 +11118,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (70000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -11167,7 +11166,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (170000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -11217,7 +11216,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1200000.0, 'cm^3/(mol*s)'),
         n = 2,
@@ -11271,7 +11270,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (820000, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -11325,7 +11324,7 @@ N2
 2 N 0 {1,T}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (4000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -11375,7 +11374,7 @@ N2O
 3 O 0 {2,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (4000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -11425,7 +11424,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (240000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -11475,7 +11474,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (170000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -11527,7 +11526,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1200000.0, 'cm^3/(mol*s)'), n=2, Ea=(-89, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -11578,7 +11577,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(7119, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -11627,7 +11626,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(4438, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -11672,7 +11671,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (300000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -11722,7 +11721,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (220000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -11774,7 +11773,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(2400000.0, 'cm^3/(mol*s)'), n=2, Ea=(457, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -11825,7 +11824,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(530000, 'cm^3/(mol*s)'), n=1.87, Ea=(9681, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -11874,7 +11873,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1800000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -11924,7 +11923,7 @@ NH
 2 H 0  {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1700000.0, 'cm^3/(mol*s)'), n=2.08, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -11965,7 +11964,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1.6e+36, 's^-1'), n=-7.92, Ea=(36322, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -12012,7 +12011,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (720000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -12064,7 +12063,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (500000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -12118,7 +12117,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (3600000.0, 'cm^3/(mol*s)'),
         n = 2,
@@ -12176,7 +12175,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2400000.0, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -12222,7 +12221,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1.1e+45, 's^-1'), n=-10.24, Ea=(47790, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -12271,7 +12270,7 @@ HO2
 3 O 1 {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1e+22, 'cm^3/(mol*s)'), n=-3.09, Ea=(6752, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -12324,7 +12323,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (6e+18, 'cm^3/(mol*s)'),
         n = -1.59,
@@ -12376,7 +12375,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (400000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -12428,7 +12427,7 @@ NH2
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (70000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -12480,7 +12479,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (330000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -12534,7 +12533,7 @@ NH2
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (40000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -12588,7 +12587,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2400000.0, 'cm^3/(mol*s)'),
         n = 2,
@@ -12646,7 +12645,7 @@ NH2
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (20000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -12704,7 +12703,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1600000.0, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -12758,7 +12757,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (560000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -12812,7 +12811,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (400000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -12868,7 +12867,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(3600000.0, 'cm^3/(mol*s)'), n=2, Ea=(238, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -12923,7 +12922,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1500000.0, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -12981,7 +12980,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2800000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -13035,7 +13034,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (480000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -13089,7 +13088,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (330000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -13145,7 +13144,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(2400000.0, 'cm^3/(mol*s)'), n=2, Ea=(447, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -13200,7 +13199,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1600000.0, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -13258,7 +13257,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1800000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -13300,7 +13299,7 @@ CN
 2 N 0 {1,T}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (1.6e+34, 'cm^3/(mol*s)'),
@@ -13351,7 +13350,7 @@ CN
 2 N 0 {1,T}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (140000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -13399,7 +13398,7 @@ CN
 2 N 0 {1,T}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (4600000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -13449,7 +13448,7 @@ CN
 2 N 0 {1,T}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -13497,7 +13496,7 @@ N2
 2 N 0 {1,T}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (7.8e+17, 'cm^3/(mol*s)'),
         n = -1.73,
@@ -13545,7 +13544,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (6.2e+17, 'cm^3/(mol*s)'),
         n = -1.73,
@@ -13585,7 +13584,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (330000000000000.0, 'cm^3/(mol*s)'),
@@ -13636,7 +13635,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(760, 'cm^3/(mol*s)'), n=3, Ea=(3972, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -13677,7 +13676,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (42000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -13723,7 +13722,7 @@ CO2
 3 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (8000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -13769,7 +13768,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (52000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -13815,7 +13814,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (33000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -13863,7 +13862,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(78000, 'cm^3/(mol*s)'), n=2.27, Ea=(-993, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -13906,7 +13905,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (5300000000000.0, 'cm^3/(mol*s)'),
         n = -0.07,
@@ -13958,7 +13957,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (8300000000000.0, 'cm^3/(mol*s)'),
         n = -0.05,
@@ -14008,7 +14007,7 @@ N2O
 3 O 0 {2,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2300000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -14062,7 +14061,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (210000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -14116,7 +14115,7 @@ CH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (9800000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -14168,7 +14167,7 @@ NH2
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(28000, 'cm^3/(mol*s)'), n=2.48, Ea=(983, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -14205,7 +14204,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(2e+30, 's^-1'), n=-6.03, Ea=(60698, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -14248,7 +14247,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2100000000000000.0, 'cm^3/(mol*s)'),
         n = -0.69,
@@ -14296,7 +14295,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (270000000000.0, 'cm^3/(mol*s)'),
         n = 0.18,
@@ -14344,7 +14343,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (170000000000000.0, 'cm^3/(mol*s)'),
         n = -0.75,
@@ -14392,7 +14391,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (140000000000.0, 'cm^3/(mol*s)'),
         n = -0.19,
@@ -14440,7 +14439,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (70000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -14490,7 +14489,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (40000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -14538,7 +14537,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (20000000000000.0, 'cm^3/(mol*s)'),
         n = -0.04,
@@ -14586,7 +14585,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (310000000.0, 'cm^3/(mol*s)'),
         n = 0.84,
@@ -14634,7 +14633,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (120000000.0, 'cm^3/(mol*s)'),
         n = 0.61,
@@ -14682,7 +14681,7 @@ NCO
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (240000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -14730,7 +14729,7 @@ NCO
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (170000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -14780,7 +14779,7 @@ NCO
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1200000.0, 'cm^3/(mol*s)'), n=2, Ea=(-248, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -14829,7 +14828,7 @@ NCO
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(6613, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -14876,7 +14875,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (920000, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -14918,7 +14917,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(A=(1.3e+16, 'cm^3/(mol*s)'), n=0, Ea=(84320, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
@@ -14964,7 +14963,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(36000, 'cm^3/(mol*s)'), n=2.49, Ea=(2343, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -15007,7 +15006,7 @@ CO
 2 O 0  {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1700000.0, 'cm^3/(mol*s)'), n=2.08, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -15050,7 +15049,7 @@ CO2
 3 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1700000.0, 'cm^3/(mol*s)'), n=2.08, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -15095,7 +15094,7 @@ CO2
 3 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (63000000000.0, 'cm^3/(mol*s)'),
         n = -0.06,
@@ -15145,7 +15144,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (52000000000.0, 'cm^3/(mol*s)'),
         n = -0.03,
@@ -15193,7 +15192,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(180000, 'cm^3/(mol*s)'), n=2.4, Ea=(9910, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -15236,7 +15235,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (3100000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -15255,113 +15254,112 @@ u"""
     ],
 )
 
-# DUPLICATE
-#entry(
-#    index = 319,
-#    reactant1 = 
-#"""
-#HNCO
-#1 H 0 {2,S}
-#2 N 0 {1,S} {3,D}
-#3 C 0 {2,D} {4,D}
-#4 O 0 {3,D}
-#""",
-#    reactant2 = 
-#"""
-#CH3
-#1 C 1 {2,S} {3,S} {4,S}
-#2 H 0 {1,S}
-#3 H 0 {1,S}
-#4 H 0 {1,S}
-#""",
-#    product1 = 
-#"""
-#NCO
-#1 C 0 {2,T} {3,S}
-#2 N 0 {1,T}
-#3 O 1 {1,S}
-#""",
-#    product2 = 
-#"""
-#CH4
-#1 C 0 {2,S} {3,S} {4,S} {5,S}
-#2 H 0 {1,S}
-#3 H 0 {1,S}
-#4 H 0 {1,S}
-#5 H 0 {1,S}
-#""",
-#    degeneracy = 1,
-#    reversible = False,
-#    kinetics = Arrhenius(
-#        A = (1000000000000.0, 'cm^3/(mol*s)'),
-#        n = 0,
-#        Ea = (9929, 'cal/mol'),
-#        T0 = (1, 'K'),
-#    ),
-#    reference = None,
-#    referenceType = "",
-#    shortDesc = u"""""",
-#    longDesc = 
-#u"""
-#
-#""",
-#    history = [
-#        ("Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli"),
-#    ],
-#)
 
-# DUPLICATE
-#entry(
-#    index = 320,
-#    reactant1 = 
-#"""
-#HNCO
-#1 H 0 {2,S}
-#2 N 0 {1,S} {3,D}
-#3 C 0 {2,D} {4,D}
-#4 O 0 {3,D}
-#""",
-#    reactant2 = 
-#"""
-#NH2
-#1 N 1 {2,S} {3,S}
-#2 H 0 {1,S}
-#3 H 0 {1,S}
-#""",
-#    product1 = 
-#"""
-#NCO
-#1 C 0 {2,T} {3,S}
-#2 N 0 {1,T}
-#3 O 1 {1,S}
-#""",
-#    product2 = 
-#"""
-#NH3
-#1 N 0 {2,S} {3,S} {4,S}
-#2 H 0 {1,S}
-#3 H 0 {1,S}
-#4 H 0 {1,S}
-#""",
-#    degeneracy = 1,
-#    reversible = False,
-#    kinetics = Arrhenius(
-#        A = (1000000000000.0, 'cm^3/(mol*s)'),
-#        n = 0,
-#        Ea = (8936, 'cal/mol'),
-#        T0 = (1, 'K'),
-#    ),
-#    reference = None,
-#   referenceType = "",
-#    shortDesc = u"""""",
-#    longDesc = 
-#u"""
-#
-#""",
-#    history = [
-#        ("Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli"),
-#    ],
-#)
+entry(
+    index = 319,
+    reactant1 = 
+"""
+HNCO
+1 H 0 {2,S}
+2 N 0 {1,S} {3,D}
+3 C 0 {2,D} {4,D}
+4 O 0 {3,D}
+""",
+    reactant2 = 
+"""
+CH3
+1 C 1 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+""",
+    product1 = 
+"""
+NCO
+1 C 0 {2,T} {3,S}
+2 N 0 {1,T}
+3 O 1 {1,S}
+""",
+    product2 = 
+"""
+CH4
+1 C 0 {2,S} {3,S} {4,S} {5,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+5 H 0 {1,S}
+""",
+    degeneracy = 1,
+    reversible = True,
+    kinetics = Arrhenius(
+        A = (1000000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (9929, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli"),
+    ],
+)
+
+entry(
+    index = 320,
+    reactant1 = 
+"""
+HNCO
+1 H 0 {2,S}
+2 N 0 {1,S} {3,D}
+3 C 0 {2,D} {4,D}
+4 O 0 {3,D}
+""",
+    reactant2 = 
+"""
+NH2
+1 N 1 {2,S} {3,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+""",
+    product1 = 
+"""
+NCO
+1 C 0 {2,T} {3,S}
+2 N 0 {1,T}
+3 O 1 {1,S}
+""",
+    product2 = 
+"""
+NH3
+1 N 0 {2,S} {3,S} {4,S}
+2 H 0 {1,S}
+3 H 0 {1,S}
+4 H 0 {1,S}
+""",
+    degeneracy = 1,
+    reversible = True,
+    kinetics = Arrhenius(
+        A = (1000000000000.0, 'cm^3/(mol*s)'),
+        n = 0,
+        Ea = (8936, 'cal/mol'),
+        T0 = (1, 'K'),
+    ),
+    reference = None,
+   referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli"),
+    ],
+)
 
 entry(
     index = 321,
@@ -15388,7 +15386,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(6.9e+41, 's^-1'), n=-9.3, Ea=(51673, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -15435,7 +15433,7 @@ NO2
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1200000000000000.0, 'cm^3/(mol*s)'),
         n = -1.01,
@@ -15485,7 +15483,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (40000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -15535,7 +15533,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (480000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -15585,7 +15583,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (70000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -15635,7 +15633,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (330000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -15687,7 +15685,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (40000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -15739,7 +15737,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2400000.0, 'cm^3/(mol*s)'),
         n = 2,
@@ -15795,7 +15793,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (30000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -15851,7 +15849,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1600000.0, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -15905,7 +15903,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (30000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -15959,7 +15957,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1800000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -16011,7 +16009,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (440000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -16063,7 +16061,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (330000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -16117,7 +16115,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (3600000.0, 'cm^3/(mol*s)'),
         n = 2,
@@ -16175,7 +16173,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(790000, 'cm^3/(mol*s)'), n=1.87, Ea=(5412, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -16226,7 +16224,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2800000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -16278,7 +16276,7 @@ HNO
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (18000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -16330,7 +16328,7 @@ NO2
 3 O 1 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1700000.0, 'cm^3/(mol*s)'), n=2.08, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -16379,7 +16377,7 @@ HONO
 4 O 0 {3,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2500000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -16419,7 +16417,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = ThirdBody(
         arrheniusLow = Arrhenius(
             A = (5.1e+19, 'cm^3/(mol*s)'),
@@ -16468,7 +16466,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (20000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -16514,7 +16512,7 @@ NH
 2 H 0  {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (20000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -16560,7 +16558,7 @@ NO
 2 O 0 {1,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (70000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -16608,7 +16606,7 @@ H
 1 H 1
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (40000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -16656,7 +16654,7 @@ O
 1 O 2T
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
@@ -16694,7 +16692,7 @@ CH2O
 4 O 0 {3,D}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(3.5e+17, 's^-1'), n=-2.86, Ea=(8877, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -16739,7 +16737,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (480000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -16789,7 +16787,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (240000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -16839,7 +16837,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (330000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -16889,7 +16887,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (170000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -16941,7 +16939,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(2400000.0, 'cm^3/(mol*s)'), n=2, Ea=(-328, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -16988,7 +16986,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(1200000.0, 'cm^3/(mol*s)'), n=2, Ea=(-596, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -17039,7 +17037,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1600000.0, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -17095,7 +17093,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(5491, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -17144,7 +17142,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1800000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -17198,7 +17196,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(1887, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -17247,7 +17245,7 @@ H2O2
 4 H 0 {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(9552, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -17296,7 +17294,7 @@ H2O2
 4 H 0 {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(6414, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -17335,7 +17333,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(4.1e+33, 's^-1'), n=-7.18, Ea=(35150, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -17380,7 +17378,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (480000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -17430,7 +17428,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (330000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -17482,7 +17480,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(2400000.0, 'cm^3/(mol*s)'), n=2, Ea=(-70, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -17533,7 +17531,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1600000.0, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -17587,7 +17585,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1800000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -17641,7 +17639,7 @@ H2O2
 4 H 0 {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(12620, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -17682,7 +17680,7 @@ HNO
 3 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(2.7e+39, 's^-1'), n=-8.74, Ea=(41594, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
@@ -17729,7 +17727,7 @@ H2
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (480000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -17781,7 +17779,7 @@ OH
 2 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (330000000.0, 'cm^3/(mol*s)'),
         n = 1.5,
@@ -17835,7 +17833,7 @@ H2O
 3 O 0 {1,S} {2,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (2400000.0, 'cm^3/(mol*s)'),
         n = 2,
@@ -17893,7 +17891,7 @@ CH4
 5 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1600000.0, 'cm^3/(mol*s)'),
         n = 1.87,
@@ -17949,7 +17947,7 @@ NH3
 4 H 0 {1,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(
         A = (1800000.0, 'cm^3/(mol*s)'),
         n = 1.94,
@@ -18005,7 +18003,7 @@ H2O2
 4 H 0 {3,S}
 """,
     degeneracy = 1,
-    reversible = False,
+    reversible = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
     reference = None,
     referenceType = "",
