@@ -47401,13 +47401,13 @@ u"""
 
 entry(
     index = 1869,
-    label = "Cs-(N3dOd)CsHH",
+    label = "Cs-(N3dOd)CHH",
     group = 
 """
 1 * Cs  0 {2,S} {4,S} {5,S} {6,S}
 2   N3d 0 {1,S} {3,D}
 3   Od  0 {2,D}
-4   Cs  0 {1,S}
+4   C   0 {1,S}
 5   H   0 {1,S}
 6   H   0 {1,S}
 """,
@@ -48800,12 +48800,12 @@ u"""
 
 entry(
     index = 1925,
-    label = "Cs-N3dCsHH",
+    label = "Cs-N3dCHH",
     group = 
 """
 1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
 2   N3d 0 {1,S}
-3   Cs  0 {1,S}
+3   C   0 {1,S}
 4   H   0 {1,S}
 5   H   0 {1,S}
 """,
@@ -49969,9 +49969,9 @@ L1: R
                     L6: Cs-(N3dN3d)HHH
             L4: Cs-NCsHH
                 L5: Cs-N3sCsHH
-                L5: Cs-N3dCsHH
+                L5: Cs-N3dCHH
                     L6: Cs-(N3dN3d)CsHH
-                    L6: Cs-(N3dOd)CsHH
+                    L6: Cs-(N3dOd)CHH
                     L6: Cs-(N3dCd)CsHH
                 L5: Cs-N5dCsHH
                     L6: Cs-(N5dOdOs)CsHH
