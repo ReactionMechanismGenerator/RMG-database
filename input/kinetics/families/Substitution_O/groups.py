@@ -5591,15 +5591,7 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-<<<<<<< HEAD
-<<<<<<< HEAD
 1 *3 {Cs,Cd,CO,O,N} 2T
-=======
-1 *3 {Cs,Cd,O} 2T
->>>>>>> GreenGroup/master
-=======
-1 *3 {Cs,Cd,O} 2T
->>>>>>> GreenGroup/master
 """,
     kinetics = None,
     reference = None,
