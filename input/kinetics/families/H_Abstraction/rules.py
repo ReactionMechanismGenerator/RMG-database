@@ -43753,8 +43753,8 @@ entry(
     label = "Cs/H3/OneDeN-H_rad",
     group1 = 
 """
-1 *1 C         0 {2,D} {3,S} {4,S} {5,S}
-2    {N3d,N5d} 0 {1,D}
+1 *1 C         0 {2,S} {3,S} {4,S} {5,S}
+2    {N3d,N5d} 0 {1,S}
 3 *2 H         0 {1,S}
 4    H         0 {1,S}
 5    H         0 {1,S}
@@ -43789,8 +43789,8 @@ entry(
     label = "Cs/H3/OneDeN-O_atom_triplet",
     group1 = 
 """
-1 *1 C         0 {2,D} {3,S} {4,S} {5,S}
-2    {N3d,N5d} 0 {1,D}
+1 *1 C         0 {2,S} {3,S} {4,S} {5,S}
+2    {N3d,N5d} 0 {1,S}
 3 *2 H         0 {1,S}
 4    H         0 {1,S}
 5    H         0 {1,S}
@@ -43825,8 +43825,8 @@ entry(
     label = "Cs/H3/OneDeN-OH_rad",
     group1 = 
 """
-1 *1 C         0 {2,D} {3,S} {4,S} {5,S}
-2    {N3d,N5d} 0 {1,D}
+1 *1 C         0 {2,S} {3,S} {4,S} {5,S}
+2    {N3d,N5d} 0 {1,S}
 3 *2 H         0 {1,S}
 4    H         0 {1,S}
 5    H         0 {1,S}
@@ -43862,8 +43862,8 @@ entry(
     label = "Cs/H3/OneDeN-C_methyl",
     group1 = 
 """
-1 *1 C         0 {2,D} {3,S} {4,S} {5,S}
-2    {N3d,N5d} 0 {1,D}
+1 *1 C         0 {2,S} {3,S} {4,S} {5,S}
+2    {N3d,N5d} 0 {1,S}
 3 *2 H         0 {1,S}
 4    H         0 {1,S}
 5    H         0 {1,S}
@@ -43901,8 +43901,8 @@ entry(
     label = "Cs/H3/OneDeN-NH2_rad",
     group1 = 
 """
-1 *1 C         0 {2,D} {3,S} {4,S} {5,S}
-2    {N3d,N5d} 0 {1,D}
+1 *1 C         0 {2,S} {3,S} {4,S} {5,S}
+2    {N3d,N5d} 0 {1,S}
 3 *2 H         0 {1,S}
 4    H         0 {1,S}
 5    H         0 {1,S}
