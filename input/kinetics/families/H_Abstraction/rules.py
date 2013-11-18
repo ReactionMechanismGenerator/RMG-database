@@ -40952,10 +40952,10 @@ entry(
 4    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (0, 'cm^3/(mol*s)'),
-        n = 0,
+        A = (2.80e+6, 'cm^3/(mol*s)'),
+        n = 1.94,
         alpha = 0,
-        E0 = (0, 'kcal/mol'),
+        E0 = (9.21, 'kcal/mol'),
         Tmin = (300, 'K'),
         Tmax = (2000, 'K'),
     ),
