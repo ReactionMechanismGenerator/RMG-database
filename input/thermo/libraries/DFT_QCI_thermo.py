@@ -1035,9 +1035,11 @@ entry(
     label = "CCH3",
     molecule = 
 """
-1 C 1 {2,T}
-2 C 0 {1,T} {3,S}
+1 C 3 {2,S}
+2 C 0 {1,S} {3,S} {4,S} {5,S}
 3 H 0 {2,S}
+4 H 0 {2,S}
+5 H 0 {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
