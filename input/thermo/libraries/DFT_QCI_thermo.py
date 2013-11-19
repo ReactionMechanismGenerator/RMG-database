@@ -2948,11 +2948,11 @@ entry(
     label = "HCCCH(T)",
     molecule = 
 """
-1 C 0  {2,T} {4,S}
-2 C 0  {1,T} {3,S}
-3 C 2T {2,S} {5,S}
-4 H 0  {1,S}
-5 H 0  {3,S}
+1 C 1 {2,D} {4,S}
+2 C 0 {1,D} {3,D}
+3 C 1 {2,D} {5,S}
+4 H 0 {1,S}
+5 H 0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
