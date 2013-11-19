@@ -63,13 +63,13 @@ entry(
     index = 2,
     reactant1 = 
 """
-1 O 0 {2,S}
-2 C 0 {1,S} {3,S} {5,S}
-3 C 0 {2,S} {6,S}
-4 C 0 {6,S}
-5 O 0 {2,S} {7,S}
-6 C 0 {3,S} {4,S}
-7 O 1 {5,S}
+1 C 0 {2,S} {3,S}
+2 C 0 {1,S} {4,S}
+3 C 0 {1,S} {5,S} {6,S}
+4 C 0 {2,S}
+5 O 0 {3,S}
+6 O 0 {3,S} {7,S}
+7 O 1 {6,S}
 """,
     product1 = 
 """
@@ -102,6 +102,47 @@ DOI: 10.1021/jp403792t
 """,
     history = [
         ("Tue Nov 19 12:46:54 2013","Connie Gao <connieg@mit.edu>","action","""New entry. Updated rate rule for CCCC(O[O])O = CCCC=O + HO2"""),
+    ],
+)
+
+entry(
+    index = 3,
+    reactant1 = 
+"""
+1 C 0 {2,S} {3,S}
+2 C 0 {1,S} {4,S}
+3 C 0 {1,S} {5,S} {6,S}
+4 C 0 {2,S}
+5 O 0 {3,S}
+6 O 0 {3,S} {7,S}
+7 O 1 {6,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *1 C 0 {1,S} {4,D}
+4 *2 C 0 {3,D} {5,S}
+5    O 0 {4,S}
+""",
+    product2 = 
+"""
+1 *4 O 0 {2,S} {3,S}
+2 *3 O 1 {1,S}
+3 *5 H 0 {1,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(A=(72900000.0, 's^-1'), n=1.408, Ea=(30.456, 'kcal/mol'), T0=(1, 'K')),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""CBS-QB3 w/ 1d-HR""",
+    longDesc = 
+u"""
+Reference: Low-Temperature Combustion Chemistry of n-Butanol: Principal Oxidation Pathways of Hydroxybutyl Radicals 
+DOI: 10.1021/jp403792t
+""",
+    history = [
+        ("Tue Nov 19 13:08:18 2013","Connie Gao <connieg@mit.edu>","action","""New entry. Updated rate rule for CCCC(O[O])O = CCC=CO + HO2"""),
     ],
 )
 
