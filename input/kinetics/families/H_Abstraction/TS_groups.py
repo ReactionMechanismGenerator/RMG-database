@@ -12,15 +12,15 @@ entry(
     label = "X_H_or_Xrad_H",
     group = "OR{X_H, Xrad_H}",
     distances = DistanceData(
-        distances = {'d12': 1.1995509541706189, 'd13': 2.396753060336018, 'd23': 1.2012645025729898},
-        uncertainties = {'d12': 0.12704161145323298, 'd13': 0.14277481284520957, 'd23': 0.11836265537658057},
+        distances = {'d12': 1.199550954170617, 'd13': 2.3967530603360143, 'd23': 1.2012645025729873},
+        uncertainties = {'d12': 0.1270416114532334, 'd13': 0.14277481284521115, 'd23': 0.11836265537658137},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [88, 88, 88] distances.
+Fitted to 88 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -119,15 +119,15 @@ entry(
 2 *2 H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -3.151604950634491e-15, 'd13': -5.0318238132289314e-15, 'd23': -2.2062726891633974e-15},
-        uncertainties = {'d12': 0.12704161145323298, 'd13': 0.14277481284520957, 'd23': 0.11836265537658057},
+        distances = {'d12': -9.610007519927138e-16, 'd13': -7.46118596267635e-16, 'd23': 2.6114150869367226e-17},
+        uncertainties = {'d12': 0.1270416114532334, 'd13': 0.14277481284521115, 'd23': 0.11836265537658137},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [88, 88, 88] distances.
+Fitted to 88 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -209,15 +209,15 @@ entry(
 2 *2 H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.19626711567152322, 'd13': -0.14101952208374424, 'd23': 0.05290783214641204},
-        uncertainties = {'d12': 0.189170101819518, 'd13': 0.16593789774913373, 'd23': 0.08927604923060409},
+        distances = {'d12': -0.19626711567152388, 'd13': -0.14101952208374469, 'd23': 0.0529078321464127},
+        uncertainties = {'d12': 0.18917010181951835, 'd13': 0.16593789774913464, 'd23': 0.08927604923060363},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [28, 28, 28] distances.
+Fitted to 28 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -322,15 +322,15 @@ entry(
 3    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.009666476766209409, 'd13': -0.025176147194755923, 'd23': 0.0011036800571947308},
-        uncertainties = {'d12': 0.14193317477705258, 'd13': 0.1347996507964955, 'd23': 0.1331454502721242},
+        distances = {'d12': -0.009666476766209853, 'd13': -0.025176147194756818, 'd23': 0.0011036800571943145},
+        uncertainties = {'d12': 0.14193317477705283, 'd13': 0.13479965079649836, 'd23': 0.13314545027212546},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [13, 13, 13] distances.
+Fitted to 13 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -413,15 +413,15 @@ entry(
 3    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.17659263941005787, 'd13': 0.023996021238159304, 'd23': -0.11093736566019016},
-        uncertainties = {'d12': 0.8975675099960987, 'd13': 1.1913915069774417, 'd23': 0.5097594045157119},
+        distances = {'d12': 0.17659263941006204, 'd13': 0.023996021238160414, 'd23': -0.11093736566018793},
+        uncertainties = {'d12': 0.897567509996066, 'd13': 1.191391506977429, 'd23': 0.5097594045157331},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2] distances.
+Fitted to 2 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -504,15 +504,15 @@ entry(
 3    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.04929607595265027, 'd13': -0.035638310691122554, 'd23': 0.0249422004225944},
-        uncertainties = {'d12': 0.15100868166459208, 'd13': 0.13578964126007612, 'd23': 0.14645237080557783},
+        distances = {'d12': -0.04929607595264887, 'd13': -0.0356383106911157, 'd23': 0.0249422004225959},
+        uncertainties = {'d12': 0.15100868166459297, 'd13': 0.13578964126008003, 'd23': 0.14645237080557902},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [11, 11, 11] distances.
+Fitted to 11 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -595,15 +595,15 @@ entry(
 3    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.01030226990870814, 'd13': -0.07546325651966321, 'd23': -0.0374309537483954},
-        uncertainties = {'d12': 0.09380508241540794, 'd13': 0.1728777109258363, 'd23': 0.12392844066241351},
+        distances = {'d12': -0.010302269908706918, 'd13': -0.07546325651965857, 'd23': -0.03743095374839096},
+        uncertainties = {'d12': 0.09380508241540916, 'd13': 0.17287771092584206, 'd23': 0.12392844066242274},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [4, 4, 4] distances.
+Fitted to 4 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -686,15 +686,15 @@ entry(
 3    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.06224395204288931, 'd13': 0.0034440575806067575, 'd23': 0.06833789144845179},
-        uncertainties = {'d12': 0.23569297290864005, 'd13': 0.1579951779730019, 'd23': 0.1648278675977289},
+        distances = {'d12': -0.0622439520428878, 'd13': 0.0034440575806080065, 'd23': 0.06833789144845423},
+        uncertainties = {'d12': 0.23569297290864194, 'd13': 0.15799517797300366, 'd23': 0.1648278675977273},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6] distances.
+Fitted to 6 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -778,15 +778,15 @@ entry(
 4    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.04940485682265933, 'd13': 0.01883647753808434, 'd23': 0.07110525083428498},
-        uncertainties = {'d12': 0.20404074958267351, 'd13': 0.18577036015740805, 'd23': 0.1252039767773099},
+        distances = {'d12': -0.049404856822656884, 'd13': 0.018836477538086524, 'd23': 0.07110525083428576},
+        uncertainties = {'d12': 0.20404074958267576, 'd13': 0.18577036015741039, 'd23': 0.1252039767773091},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [5, 5, 5] distances.
+Fitted to 5 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -947,15 +947,15 @@ entry(
 3    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.13641619801147237, 'd13': -0.18800737014175506, 'd23': -0.04742742690684103},
-        uncertainties = {'d12': 0.20404074958267351, 'd13': 0.18577036015740805, 'd23': 0.1252039767773099},
+        distances = {'d12': -0.13641619801147445, 'd13': -0.1880073701417592, 'd23': -0.047427426906841263},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -1304,15 +1304,15 @@ entry(
 4    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.2197163270551379, 'd13': 0.020827107725541305, 'd23': -0.20147669750106204},
-        uncertainties = {'d12': 0.10093133670552623, 'd13': 0.17392196252307798, 'd23': 0.26622135210365716},
+        distances = {'d12': 0.21971632705513758, 'd13': 0.020827107725539223, 'd23': -0.20147669750106012},
+        uncertainties = {'d12': 0.10093133670552346, 'd13': 0.17392196252307268, 'd23': 0.26622135210365827},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6] distances.
+Fitted to 6 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -1396,15 +1396,15 @@ entry(
 4    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.22996143246434564, 'd13': 0.05093848038891009, 'd23': -0.18138838106693012},
-        uncertainties = {'d12': 0.1314663008419779, 'd13': 0.11749846402429173, 'd23': 0.24259641724407133},
+        distances = {'d12': 0.22996143246434514, 'd13': 0.050938480388914464, 'd23': -0.18138838106692906},
+        uncertainties = {'d12': 0.13146630084197325, 'd13': 0.11749846402428164, 'd23': 0.24259641724407066},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [4, 4, 4] distances.
+Fitted to 4 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -1488,15 +1488,15 @@ entry(
 4    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.19751859866852245, 'd13': -0.04441419971176491, 'd23': -0.2450013831083446},
-        uncertainties = {'d12': 0.6464955475210362, 'd13': 1.7421403506209032, 'd23': 2.4173644786015904},
+        distances = {'d12': 0.19751859866852545, 'd13': -0.04441419971175592, 'd23': -0.24500138310834046},
+        uncertainties = {'d12': 0.6464955475210282, 'd13': 1.7421403506208712, 'd23': 2.4173644786016086},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2] distances.
+Fitted to 2 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -1580,15 +1580,15 @@ entry(
 4    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.19751859866852342, 'd13': -0.044414199711765884, 'd23': -0.2450013831083451},
-        uncertainties = {'d12': 0.6464955475210362, 'd13': 1.7421403506209032, 'd23': 2.4173644786015904},
+        distances = {'d12': 0.19751859866852386, 'd13': -0.044414199711762276, 'd23': -0.24500138310834485},
+        uncertainties = {'d12': 0.6464955475210282, 'd13': 1.7421403506208712, 'd23': 2.4173644786016086},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2] distances.
+Fitted to 2 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -1857,15 +1857,15 @@ entry(
 4 *2 H        0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.27555888060852296, 'd13': -0.005161578631764044, 'd23': -0.28397015041384466},
-        uncertainties = {'d12': 0.6464955475210362, 'd13': 1.7421403506209032, 'd23': 2.4173644786015904},
+        distances = {'d12': 0.2755588806085217, 'd13': -0.005161578631774882, 'd23': -0.28397015041384527},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -1949,15 +1949,15 @@ entry(
 4    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.010397042016471805, 'd13': 0.05200217680323906, 'd23': 0.05953978614816011},
-        uncertainties = {'d12': 0.6458918249542227, 'd13': 1.7421385580917386, 'd23': 2.4172377841095685},
+        distances = {'d12': -0.010397042016474354, 'd13': 0.05200217680324078, 'd23': 0.059539786148163285},
+        uncertainties = {'d12': 0.6458918249542387, 'd13': 1.7421385580916389, 'd23': 2.4172377841095627},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2] distances.
+Fitted to 2 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -2041,15 +2041,15 @@ entry(
 4    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.0023619572385236223, 'd13': 0.024631856888236256, 'd23': 0.019094250413156766},
-        uncertainties = {'d12': 0.6458918249542227, 'd13': 1.7421385580917386, 'd23': 2.4172377841095685},
+        distances = {'d12': 0.0023619572385278273, 'd13': 0.024631856888244777, 'd23': 0.019094250413159042},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -2133,15 +2133,15 @@ entry(
 4    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.023156041271472014, 'd13': 0.07937249671824567, 'd23': 0.09998532188316227},
-        uncertainties = {'d12': 0.6458918249542227, 'd13': 1.7421385580917386, 'd23': 2.4172377841095685},
+        distances = {'d12': -0.023156041271476427, 'd13': 0.07937249671823973, 'd23': 0.09998532188315862},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -2225,15 +2225,15 @@ entry(
 4    {Cs,O,S} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.02315604127147372, 'd13': 0.07937249671823798, 'd23': 0.09998532188315798},
-        uncertainties = {'d12': 0.6458918249542227, 'd13': 1.7421385580917386, 'd23': 2.4172377841095685},
+        distances = {'d12': -0.023156041271474345, 'd13': 0.07937249671824391, 'd23': 0.09998532188315891},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -2650,15 +2650,15 @@ entry(
 5    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.1455359242599014, 'd13': 0.1289159352012481, 'd23': -0.02000115693144745},
-        uncertainties = {'d12': 0.0838853593518522, 'd13': 0.13946678958273998, 'd23': 0.1077733922415082},
+        distances = {'d12': 0.14553592425990294, 'd13': 0.12891593520125064, 'd23': -0.020001156931445017},
+        uncertainties = {'d12': 0.08388535935185326, 'd13': 0.1394667895827428, 'd23': 0.10777339224150982},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [38, 38, 38] distances.
+Fitted to 38 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -2743,15 +2743,15 @@ entry(
 5    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.18243656851289522, 'd13': 0.1949349178887035, 'd23': 0.009219387849179183},
-        uncertainties = {'d12': 0.11597937702725357, 'd13': 0.18978446552207015, 'd23': 0.1259374686815504},
+        distances = {'d12': 0.18243656851289666, 'd13': 0.19493491788870546, 'd23': 0.00921938784918116},
+        uncertainties = {'d12': 0.11597937702725475, 'd13': 0.18978446552207132, 'd23': 0.12593746868155092},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [8, 8, 8] distances.
+Fitted to 8 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -2836,15 +2836,15 @@ entry(
 5    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.12826653683479064, 'd13': 0.07402148309319735, 'd23': -0.058330591491489614},
-        uncertainties = {'d12': 0.06213412727125669, 'd13': 0.13702233718262777, 'd23': 0.12315659612785378},
+        distances = {'d12': 0.12826653683479297, 'd13': 0.074021483093201, 'd23': -0.05833059149148741},
+        uncertainties = {'d12': 0.06213412727125754, 'd13': 0.13702233718263165, 'd23': 0.12315659612785608},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [20, 20, 20] distances.
+Fitted to 20 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -2929,15 +2929,15 @@ entry(
 5    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.13389976485011784, 'd13': 0.08485161097840849, 'd23': -0.053300518309242546},
-        uncertainties = {'d12': 0.060891383078221555, 'd13': 0.12806106848399587, 'd23': 0.08802597453583327},
+        distances = {'d12': 0.13389976485011945, 'd13': 0.08485161097841186, 'd23': -0.05330051830924048},
+        uncertainties = {'d12': 0.0608913830782222, 'd13': 0.1280610684839984, 'd23': 0.08802597453583422},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [18, 18, 18] distances.
+Fitted to 18 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -3025,15 +3025,15 @@ entry(
 8    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.12700717219630564, 'd13': 0.16787089617851808, 'd23': 0.03795798605847553},
-        uncertainties = {'d12': 0.10725848823521442, 'd13': 0.21432863584607836, 'd23': 0.13977491730297417},
+        distances = {'d12': 0.127007172196306, 'd13': 0.16787089617852208, 'd23': 0.037957986058478416},
+        uncertainties = {'d12': 0.10725848823521372, 'd13': 0.21432863584608478, 'd23': 0.13977491730297753},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6] distances.
+Fitted to 6 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -3152,15 +3152,15 @@ entry(
 5    Cd 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.015376607958524607, 'd13': -0.036608219141765375, 'd23': -0.05339824114684434},
-        uncertainties = {'d12': 0.10725848823521442, 'd13': 0.21432863584607836, 'd23': 0.13977491730297417},
+        distances = {'d12': 0.01537660795852544, 'd13': -0.03660821914175988, 'd23': -0.05339824114684178},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -3274,15 +3274,15 @@ entry(
 9    H 0 {3,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.015376607958523858, 'd13': -0.03660821914176232, 'd23': -0.05339824114683994},
-        uncertainties = {'d12': 0.10725848823521442, 'd13': 0.21432863584607836, 'd23': 0.13977491730297417},
+        distances = {'d12': 0.015376607958526946, 'd13': -0.036608219141760656, 'd23': -0.053398241146844716},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -3501,15 +3501,15 @@ entry(
 5    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.1115922213585246, 'd13': -0.06444175603175484, 'd23': -0.1789546250278419},
-        uncertainties = {'d12': 0.10725848823521442, 'd13': 0.21432863584607836, 'd23': 0.13977491730297417},
+        distances = {'d12': 0.11159222135852546, 'd13': -0.0644417560317645, 'd23': -0.17895462502784154},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -3618,15 +3618,15 @@ entry(
 5    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.14058768886240708, 'd13': 0.16096833560846935, 'd23': 0.01810487161394639},
-        uncertainties = {'d12': 0.1302439419196674, 'd13': 0.16653775402611717, 'd23': 0.10404903015003891},
+        distances = {'d12': 0.14058768886240913, 'd13': 0.16096833560847135, 'd23': 0.01810487161394761},
+        uncertainties = {'d12': 0.1302439419196692, 'd13': 0.16653775402612045, 'd23': 0.10404903015004034},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [10, 10, 10] distances.
+Fitted to 10 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -3711,15 +3711,15 @@ entry(
 5    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.13020212494913086, 'd13': 0.08508046305589215, 'd23': -0.04754313401574067},
-        uncertainties = {'d12': 0.18702818887709802, 'd13': 0.14814825966512443, 'd23': 0.1016087648953353},
+        distances = {'d12': 0.13020212494913314, 'd13': 0.08508046305589435, 'd23': -0.04754313401573973},
+        uncertainties = {'d12': 0.18702818887710168, 'd13': 0.14814825966512396, 'd23': 0.10160876489533487},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [5, 5, 5] distances.
+Fitted to 5 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -3834,15 +3834,15 @@ entry(
 5    {Cs,O,S} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.14848071743649766, 'd13': 0.21864311874842787, 'd23': 0.06799735589250722},
-        uncertainties = {'d12': 0.15005157384644002, 'd13': 0.2684303320772334, 'd23': 0.1623863761991111},
+        distances = {'d12': 0.1484807174364998, 'd13': 0.21864311874843104, 'd23': 0.0679973558925086},
+        uncertainties = {'d12': 0.15005157384644072, 'd13': 0.2684303320772405, 'd23': 0.16238637619911447},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [5, 5, 5] distances.
+Fitted to 5 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -3927,15 +3927,15 @@ entry(
 5    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.13245351339237854, 'd13': 0.21385163828419393, 'd23': 0.07700534834354934},
-        uncertainties = {'d12': 0.2858071491857857, 'd13': 0.37631498379112227, 'd23': 0.21115017784454057},
+        distances = {'d12': 0.13245351339238087, 'd13': 0.21385163828420245, 'd23': 0.0770053483435506},
+        uncertainties = {'d12': 0.2858071491857897, 'd13': 0.3763149837911705, 'd23': 0.21115017784454118},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3] distances.
+Fitted to 3 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -4054,15 +4054,15 @@ entry(
 5    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.17252152350268035, 'd13': 0.2258303394447862, 'd23': 0.054485367215948655},
-        uncertainties = {'d12': 0.6793312701962784, 'd13': 1.8884938507724813, 'd23': 1.196435588262051},
+        distances = {'d12': 0.1725215235026807, 'd13': 0.22583033944478165, 'd23': 0.05448536721595146},
+        uncertainties = {'d12': 0.6793312701962619, 'd13': 1.8884938507723983, 'd23': 1.1964355882620878},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2] distances.
+Fitted to 2 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -6259,15 +6259,15 @@ entry(
 1 *3 R 1
 """,
     distances = DistanceData(
-        distances = {'d12': -2.456368441983159e-15, 'd13': -3.847616669716558e-15, 'd23': -1.582067810090848e-15},
-        uncertainties = {'d12': 0.12704161145323298, 'd13': 0.14277481284520957, 'd23': 0.11836265537658057},
+        distances = {'d12': -6.106226635438361e-16, 'd13': 3.616898447411643e-16, 'd23': 4.718447854656915e-16},
+        uncertainties = {'d12': 0.1270416114532334, 'd13': 0.14277481284521115, 'd23': 0.11836265537658137},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [88, 88, 88] distances.
+Fitted to 88 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -6348,15 +6348,15 @@ entry(
 1 *3 H 1
 """,
     distances = DistanceData(
-        distances = {'d12': 0.053916314762569306, 'd13': -0.14542635040277502, 'd23': -0.20178077533844585},
-        uncertainties = {'d12': 0.10730574908061538, 'd13': 0.15555043107324265, 'd23': 0.17508790883081904},
+        distances = {'d12': 0.05391631476257028, 'd13': -0.14542635040277307, 'd23': -0.20178077533844466},
+        uncertainties = {'d12': 0.10730574908061649, 'd13': 0.1555504310732454, 'd23': 0.17508790883082087},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [28, 28, 28] distances.
+Fitted to 28 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -6522,15 +6522,15 @@ entry(
 2    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.000751968203365018, 'd13': -0.02676917746532148, 'd23': -0.010727214288096254},
-        uncertainties = {'d12': 0.13986286795110953, 'd13': 0.14250694603983682, 'd23': 0.1074601355196374},
+        distances = {'d12': 0.0007519682033653649, 'd13': -0.026769177465320315, 'd23': -0.010727214288095643},
+        uncertainties = {'d12': 0.13986286795111091, 'd13': 0.1425069460398386, 'd23': 0.10746013551963722},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [13, 13, 13] distances.
+Fitted to 13 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -6612,15 +6612,15 @@ entry(
 2    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.10995969450234586, 'd13': 0.02356080817724543, 'd23': 0.17520223142708702},
-        uncertainties = {'d12': 0.5177360566552452, 'd13': 1.1957539726671051, 'd23': 0.9147520679863306},
+        distances = {'d12': -0.10995969450234461, 'd13': 0.02356080817724758, 'd23': 0.17520223142708727},
+        uncertainties = {'d12': 0.5177360566552617, 'd13': 1.1957539726671134, 'd23': 0.9147520679863343},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2] distances.
+Fitted to 2 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -6702,15 +6702,15 @@ entry(
 2    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.023816897933720837, 'd13': -0.03725459114085612, 'd23': -0.04946251547875996},
-        uncertainties = {'d12': 0.1540277818202401, 'd13': 0.14522046911315567, 'd23': 0.10917246492549393},
+        distances = {'d12': 0.02381689793372166, 'd13': -0.037254591140853804, 'd23': -0.049462515478759114},
+        uncertainties = {'d12': 0.15402778182024154, 'd13': 0.14522046911315759, 'd23': 0.10917246492549358},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [11, 11, 11] distances.
+Fitted to 11 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -6792,15 +6792,15 @@ entry(
 2    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.03721545436630942, 'd13': -0.07571738088969286, 'd23': -0.010755210340266136},
-        uncertainties = {'d12': 0.13124865838034233, 'd13': 0.17386985259471333, 'd23': 0.09170620893033878},
+        distances = {'d12': -0.03721545436630773, 'd13': -0.07571738088969095, 'd23': -0.010755210340265275},
+        uncertainties = {'d12': 0.1312486583803442, 'd13': 0.1738698525947095, 'd23': 0.09170620893033847},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [4, 4, 4] distances.
+Fitted to 4 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -6915,15 +6915,15 @@ entry(
 2    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.06851889715093541, 'd13': 0.0024072871109954014, 'd23': -0.06349933609180797},
-        uncertainties = {'d12': 0.18380831619773177, 'd13': 0.18062107983401762, 'd23': 0.1636795654336627},
+        distances = {'d12': 0.06851889715093593, 'd13': 0.0024072871110002933, 'd23': -0.06349933609180602},
+        uncertainties = {'d12': 0.18380831619773402, 'd13': 0.18062107983402226, 'd23': 0.16367956543366227},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6] distances.
+Fitted to 6 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -7006,15 +7006,15 @@ entry(
 3    C 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.04515222507989605, 'd13': -0.1262950515047564, 'd23': -0.17061379974178673},
-        uncertainties = {'d12': 0.18380831619773177, 'd13': 0.18062107983401762, 'd23': 0.1636795654336627},
+        distances = {'d12': 0.04515222507989747, 'd13': -0.12629505150475448, 'd23': -0.1706137997417852},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -7096,15 +7096,15 @@ entry(
 2    {Cd,Ct,Cb,CO,CS} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.04755176506010843, 'd13': -0.18947631291476494, 'd23': -0.13779358554179105},
-        uncertainties = {'d12': 0.18380831619773177, 'd13': 0.18062107983401762, 'd23': 0.1636795654336627},
+        distances = {'d12': -0.04755176506010657, 'd13': -0.18947631291476225, 'd23': -0.13779358554178955},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -7471,15 +7471,15 @@ entry(
 3    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.20145152138336683, 'd13': 0.019569906583915407, 'd23': 0.21839742341070392},
-        uncertainties = {'d12': 0.22763035924805217, 'd13': 0.1655737144607033, 'd23': 0.07626738617476232},
+        distances = {'d12': -0.2014515213833655, 'd13': 0.01956990658391549, 'd23': 0.2183974234107047},
+        uncertainties = {'d12': 0.22763035924805367, 'd13': 0.16557371446070804, 'd23': 0.07626738617476071},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6] distances.
+Fitted to 6 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -7562,15 +7562,15 @@ entry(
 3    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.18129419836263552, 'd13': 0.049779006154082074, 'd23': 0.2286695213826289},
-        uncertainties = {'d12': 0.12948890323403797, 'd13': 0.10175508412837246, 'd23': 0.08036600571725111},
+        distances = {'d12': -0.18129419836263477, 'd13': 0.0497790061540838, 'd23': 0.22866952138263028},
+        uncertainties = {'d12': 0.12948890323403833, 'd13': 0.1017550841283713, 'd23': 0.0803660057172495},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [4, 4, 4] distances.
+Fitted to 4 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -7655,15 +7655,15 @@ entry(
 5    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.0988993093939402, 'd13': 0.10746413205310043, 'd23': 0.20397417991213634},
-        uncertainties = {'d12': 0.6423068432675777, 'd13': 0.5139854385485254, 'd23': 0.5425844330656765},
+        distances = {'d12': -0.09889930939394134, 'd13': 0.10746413205310051, 'd23': 0.20397417991213557},
+        uncertainties = {'d12': 0.6423068432675503, 'd13': 0.5139854385484771, 'd23': 0.5425844330656668},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2] distances.
+Fitted to 2 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -7776,15 +7776,15 @@ entry(
 3    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.2451257212616125, 'd13': -0.045883142484775624, 'd23': 0.19614121113820526},
-        uncertainties = {'d12': 2.351186761888788, 'd13': 1.6893468493524757, 'd23': 0.6338106825346516},
+        distances = {'d12': -0.24512572126161117, 'd13': -0.04588314248476841, 'd23': 0.1961412111382081},
+        uncertainties = {'d12': 2.3511867618888047, 'd13': 1.6893468493525357, 'd23': 0.6338106825346376},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2] distances.
+Fitted to 2 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -7867,15 +7867,15 @@ entry(
 3    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.24512572126160698, 'd13': -0.045883142484765715, 'd23': 0.1961412111382095},
-        uncertainties = {'d12': 2.351186761888788, 'd13': 1.6893468493524757, 'd23': 0.6338106825346516},
+        distances = {'d12': -0.24512572126160778, 'd13': -0.04588314248476028, 'd23': 0.1961412111382129},
+        uncertainties = {'d12': 2.3511867618888047, 'd13': 1.6893468493525357, 'd23': 0.6338106825346376},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2] distances.
+Fitted to 2 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -7963,15 +7963,15 @@ entry(
 8    H 0 {3,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.2437484217421147, 'd13': -0.04602222057477596, 'd23': 0.19458673445820449},
-        uncertainties = {'d12': 2.351186761888788, 'd13': 1.6893468493524757, 'd23': 0.6338106825346516},
+        distances = {'d12': -0.2437484217421133, 'd13': -0.04602222057477518, 'd23': 0.19458673445820493},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -8062,15 +8062,15 @@ entry(
 11    H 0 {4,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.24650302078111075, 'd13': -0.0457440643947674, 'd23': 0.19769568781820746},
-        uncertainties = {'d12': 2.351186761888788, 'd13': 1.6893468493524757, 'd23': 0.6338106825346516},
+        distances = {'d12': -0.2465030207811091, 'd13': -0.045744064394766686, 'd23': 0.19769568781820906},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -8330,15 +8330,15 @@ entry(
 3    {Cb,Cbf} 0 {1,B}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.28409448856711583, 'd13': -0.0066305214047768304, 'd23': 0.27418149307820366},
-        uncertainties = {'d12': 2.351186761888788, 'd13': 1.6893468493524757, 'd23': 0.6338106825346516},
+        distances = {'d12': -0.2840944885671136, 'd13': -0.006630521404774936, 'd23': 0.2741814930782046},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -8421,15 +8421,15 @@ entry(
 3    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.05941544799489008, 'd13': 0.05053323403022818, 'd23': -0.011774429546794436},
-        uncertainties = {'d12': 2.351186761888727, 'd13': 1.689346849352368, 'd23': 0.6338106825346774},
+        distances = {'d12': 0.059415447994889736, 'd13': 0.050533234030233055, 'd23': -0.011774429546791643},
+        uncertainties = {'d12': 2.3511867618887448, 'd13': 1.6893468493524002, 'd23': 0.6338106825346834},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2] distances.
+Fitted to 2 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -8512,15 +8512,15 @@ entry(
 3    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.01896991225989199, 'd13': 0.023162914115236508, 'd23': 0.0009845697082083438},
-        uncertainties = {'d12': 2.351186761888727, 'd13': 1.689346849352368, 'd23': 0.6338106825346774},
+        distances = {'d12': 0.018969912259893654, 'd13': 0.023162914115238326, 'd23': 0.0009845697082103769},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -8603,15 +8603,15 @@ entry(
 3    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.09986098372988766, 'd13': 0.07790355394522755, 'd23': -0.02453342880179467},
-        uncertainties = {'d12': 2.351186761888727, 'd13': 1.689346849352368, 'd23': 0.6338106825346774},
+        distances = {'d12': 0.09986098372988897, 'd13': 0.07790355394523008, 'd23': -0.02453342880179281},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -8694,15 +8694,15 @@ entry(
 3    {Cs,O,S} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.09986098372988961, 'd13': 0.0779035539452318, 'd23': -0.02453342880179355},
-        uncertainties = {'d12': 2.351186761888727, 'd13': 1.689346849352368, 'd23': 0.6338106825346774},
+        distances = {'d12': 0.09986098372989073, 'd13': 0.07790355394523456, 'd23': -0.02453342880179147},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -9095,15 +9095,15 @@ entry(
 4    R 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.01884483505857315, 'd13': 0.1276262955722486, 'd23': 0.14298095634556104},
-        uncertainties = {'d12': 0.12533047782524864, 'd13': 0.1471482473536339, 'd23': 0.09097734857676615},
+        distances = {'d12': -0.018844835058572346, 'd13': 0.12762629557225097, 'd23': 0.14298095634556224},
+        uncertainties = {'d12': 0.125330477825248, 'd13': 0.1471482473536343, 'd23': 0.09097734857676641},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [38, 38, 38] distances.
+Fitted to 38 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -9187,15 +9187,15 @@ entry(
 4    H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.01051890329634722, 'd13': 0.19437187742197826, 'd23': 0.18048076135300611},
-        uncertainties = {'d12': 0.14027880466207163, 'd13': 0.19718283737872017, 'd23': 0.15089065898964207},
+        distances = {'d12': 0.010518903296347457, 'd13': 0.1943718774219805, 'd23': 0.18048076135300833},
+        uncertainties = {'d12': 0.14027880466206938, 'd13': 0.19718283737871825, 'd23': 0.15089065898964366},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [8, 8, 8] distances.
+Fitted to 8 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -9279,15 +9279,15 @@ entry(
 4    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.0566669933533141, 'd13': 0.07430062924833039, 'd23': 0.12678829595777902},
-        uncertainties = {'d12': 0.15048547556493172, 'd13': 0.1487711338342338, 'd23': 0.06348463831695261},
+        distances = {'d12': -0.05666699335331332, 'd13': 0.07430062924833397, 'd23': 0.12678829595778046},
+        uncertainties = {'d12': 0.1504854755649311, 'd13': 0.14877113383423557, 'd23': 0.06348463831695317},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [20, 20, 20] distances.
+Fitted to 20 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -9371,15 +9371,15 @@ entry(
 4    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.051627519165654626, 'd13': 0.08497340893352345, 'd23': 0.13225431867577073},
-        uncertainties = {'d12': 0.12943016346456088, 'd13': 0.14320143854198764, 'd23': 0.06265379035810101},
+        distances = {'d12': -0.05162751916565378, 'd13': 0.08497340893352673, 'd23': 0.1322543186757725},
+        uncertainties = {'d12': 0.1294301634645599, 'd13': 0.14320143854198916, 'd23': 0.06265379035810152},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [18, 18, 18] distances.
+Fitted to 18 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -9466,15 +9466,15 @@ entry(
 7    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.037000502606780436, 'd13': 0.16542749544364824, 'd23': 0.12535601343291097},
-        uncertainties = {'d12': 0.14459845571015867, 'd13': 0.21868369615285516, 'd23': 0.10661083395689548},
+        distances = {'d12': 0.037000502606781144, 'd13': 0.16542749544365334, 'd23': 0.12535601343291225},
+        uncertainties = {'d12': 0.14459845571015706, 'd13': 0.21868369615286012, 'd23': 0.10661083395689645},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [6, 6, 6] distances.
+Fitted to 6 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -9568,15 +9568,15 @@ entry(
 14    H 0 {5,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.2045658682211121, 'd13': -0.06272814991477349, 'd23': 0.13887194119820492},
-        uncertainties = {'d12': 0.14459845571015867, 'd13': 0.21868369615285516, 'd23': 0.10661083395689548},
+        distances = {'d12': -0.20456586822111114, 'd13': -0.06272814991477105, 'd23': 0.13887194119820695},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -9736,15 +9736,15 @@ entry(
 14    H 0 {5,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.21065056437611235, 'd13': -0.05703941025477111, 'd23': 0.15033299828820573},
-        uncertainties = {'d12': 0.14459845571015867, 'd13': 0.21868369615285516, 'd23': 0.10661083395689548},
+        distances = {'d12': -0.21065056437611074, 'd13': -0.05703941025477054, 'd23': 0.15033299828820676},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -9861,15 +9861,15 @@ entry(
 4    Cd 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.05352257930010752, 'd13': -0.03807716191476193, 'd23': 0.013999220428209981},
-        uncertainties = {'d12': 0.14459845571015867, 'd13': 0.21868369615285516, 'd23': 0.10661083395689548},
+        distances = {'d12': -0.05352257930010615, 'd13': -0.03807716191476099, 'd23': 0.013999220428211168},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -9955,15 +9955,15 @@ entry(
 6    H 0 {2,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.053522579300111575, 'd13': -0.03807716191476919, 'd23': 0.01399922042820654},
-        uncertainties = {'d12': 0.14459845571015867, 'd13': 0.21868369615285516, 'd23': 0.10661083395689548},
+        distances = {'d12': -0.05352257930010838, 'd13': -0.038077161914765345, 'd23': 0.01399922042820921},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -10146,15 +10146,15 @@ entry(
 4    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.17907896318111163, 'd13': -0.06591069880476977, 'd23': 0.11021483382820624},
-        uncertainties = {'d12': 0.14459845571015867, 'd13': 0.21868369615285516, 'd23': 0.10661083395689548},
+        distances = {'d12': -0.17907896318111033, 'd13': -0.06591069880476857, 'd23': 0.1102148338282079},
+        uncertainties = {},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [1, 1, 1] distances.
+Fitted to 1 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -10261,15 +10261,15 @@ entry(
 4    R!H 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.01977197948582926, 'd13': 0.15954302963785316, 'd23': 0.1373552374469229},
-        uncertainties = {'d12': 0.1031433907864297, 'd13': 0.16940617245800632, 'd23': 0.12754624671456813},
+        distances = {'d12': 0.019771979485830496, 'd13': 0.15954302963785638, 'd23': 0.137355237446926},
+        uncertainties = {'d12': 0.1031433907864303, 'd13': 0.16940617245800585, 'd23': 0.12754624671456707},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [10, 10, 10] distances.
+Fitted to 10 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -10353,15 +10353,15 @@ entry(
 4    Cs 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': -0.0473233523399003, 'd13': 0.08411176509239864, 'd23': 0.12896314080315383},
-        uncertainties = {'d12': 0.09637095425159845, 'd13': 0.1547967946853216, 'd23': 0.18528357773210427},
+        distances = {'d12': -0.04732335233989904, 'd13': 0.0841117650923986, 'd23': 0.12896314080315463},
+        uncertainties = {'d12': 0.09637095425159878, 'd13': 0.1547967946853122, 'd23': 0.18528357773210202},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [5, 5, 5] distances.
+Fitted to 5 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -10573,15 +10573,15 @@ entry(
 4    {Cs,O} 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.06880318351232625, 'd13': 0.21466587680569377, 'd23': 0.14348792345583383},
-        uncertainties = {'d12': 0.16361642402586501, 'd13': 0.2707522198821418, 'd23': 0.14424955307617188},
+        distances = {'d12': 0.06880318351232702, 'd13': 0.21466587680569582, 'd23': 0.1434879234558354},
+        uncertainties = {'d12': 0.16361642402586607, 'd13': 0.2707522198821461, 'd23': 0.14424955307617157},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [5, 5, 5] distances.
+Fitted to 5 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -10665,15 +10665,15 @@ entry(
 4    O  0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.07742088774628555, 'd13': 0.20801213617809328, 'd23': 0.12603843661409872},
-        uncertainties = {'d12': 0.21196959307414637, 'd13': 0.3801098873517702, 'd23': 0.2703706529448049},
+        distances = {'d12': 0.07742088774628642, 'd13': 0.208012136178096, 'd23': 0.12603843661409914},
+        uncertainties = {'d12': 0.21196959307414573, 'd13': 0.3801098873517802, 'd23': 0.270370652944802},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [3, 3, 3] distances.
+Fitted to 3 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
@@ -10823,15 +10823,15 @@ entry(
 4    O 0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.055014856737988296, 'd13': 0.22531186180984672, 'd23': 0.1714071024026058},
-        uncertainties = {'d12': 1.2078925902756676, 'd13': 1.902950615348411, 'd23': 0.684241712780032},
+        distances = {'d12': 0.05501485673798983, 'd13': 0.22531186180984847, 'd23': 0.17140710240260673},
+        uncertainties = {'d12': 1.2078925902756819, 'd13': 1.9029506153484272, 'd23': 0.6842417127800469},
     ),
     reference = None,
     referenceType = "",
     shortDesc = u"""Group additive distances.""",
     longDesc = 
 u"""
-Fitted to [2, 2, 2] distances.
+Fitted to 2 distances.
 [<Entry index=29 label="Cd_pri">, <Entry index=170 label="H_rad">]
 [<Entry index=81 label="C/H2/O2">, <Entry index=235 label="InChI=1/C2H5/c1-2/h1H2,2H3">]
 [<Entry index=29 label="Cd_pri">, <Entry index=232 label="C_methyl">]
