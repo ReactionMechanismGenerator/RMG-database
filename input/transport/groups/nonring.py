@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+"""
+Note the Pc contributions are all the negative of what is in Table 3 of Joback's thesis.
+The Tb contributions are from table 13.
+"""
+
 entry(
     index = 0, # another 0!!
     label = "R",

@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+"""
+Note the Pc contributions are all the negative of what is in Table 3 of Joback's thesis.
+The Tb contributions are from table 13.
+"""
+
 entry(
     index = 0,
     label = "R_ring",
@@ -186,7 +191,7 @@ entry(
 """,
     transportGroup = CriticalPointGroupContribution(
         Tc = 0.0143,
-        Pc = 0.0008, # should this not be negative? (table 3 of Joback's thesis)
+        Pc = 0.0008,
         Vc = 32,
         Tb = 31.01,
         structureIndex = 1,
