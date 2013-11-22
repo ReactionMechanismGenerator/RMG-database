@@ -158,48 +158,5 @@ Method CBS-QB3 w/ 1-d Hindered rotor corrections
     ],
 )
 
-entry(
-    index = 4,
-    reactant1 = 
-"""
-1 C 0 {2,S} {3,S}
-2 C 0 {1,S} {4,S}
-3 C 0 {1,S}
-4 C 1 {2,S} {5,S}
-5 O 0 {4,S}
-""",
-    reactant2 = 
-"""
-1 O 1 {2,S}
-2 O 1 {1,S}
-""",
-    product1 = 
-"""
-1    C 0 {2,S} {3,S}
-2    C 0 {1,S} {4,S}
-3 *1 C 0 {1,S} {5,S} {6,S}
-4    C 0 {2,S}
-5    O 0 {3,S}
-6 *2 O 0 {3,S} {7,S}
-7    O 1 {6,S}
-""",
-    degeneracy = 1,
-    kinetics = Arrhenius(
-        A = (8360000000000.0, 'cm^3/(mol*s)'),
-        n = -0.085,
-        Ea = (-567.2, 'cal/mol'),
-        T0 = (1, 'K'),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""CBS-QB3 w/ 1-d HR""",
-    longDesc = 
-u"""
-Reference: Low-Temperature Combustion Chemistry of n-Butanol: Principal Oxidation Pathways of Hydroxybutyl Radicals 
-DOI: 10.1021/jp403792t
-""",
-    history = [
-        ("Mon Nov 18 15:16:03 2013","Connie Gao <connieg@mit.edu>","action","""New entry. Updated rate rule for CCC[C]O + O2 = CCCC(O[O])O"""),
-    ],
-)
+
 
