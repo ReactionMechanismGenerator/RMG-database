@@ -235,6 +235,33 @@ I'm copying R=CH-R in a ring.
         """Richard West <r.west@neu.edu> made this up"""),    ],
 )
 
+entry(
+    index = 10,
+    label = "Ctring",
+    group =
+"""
+1 * C 0 {2,T}
+2 R!H 0 {1,T}
+""",
+    transportGroup = CriticalPointGroupContribution(
+        Tc = 0.0143,
+        Pc = 0.0008,
+        Vc = 32,
+        Tb = 31.01,
+        structureIndex = 1,
+    ),
+    shortDesc = u"""Made up value for C#R (triple bond) in ring""",
+    longDesc = 
+u"""
+Made up value for triple bond in a ring.
+Without this existing, we crash.
+Joback's thesis has no data for such species.
+I'm copying R=CH-R in a ring.
+""",
+    history = [
+        ("2013/11/22 19:22:03","Richard West <r.west@neu.edu>","action",
+        """Richard West <r.west@neu.edu> made this up"""),    ],
+)
 
 
 entry(
@@ -328,6 +355,7 @@ L0: R_ring
             L3: Ketone_ring
         L2: CdringHR2
         L2: Cddring
+        L2: Ctring
     
     L1: O_centered_ring
         L2: Ether_ring
