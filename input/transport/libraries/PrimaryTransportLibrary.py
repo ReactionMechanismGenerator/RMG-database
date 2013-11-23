@@ -22,7 +22,7 @@ entry(
         epsilon = (59.700 * 8.3145, 'J/mol'),
         sigma = (2.8327, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
-        polarizability = (0.000, 'C*m^2*V^-1'),
+        polarizability = (0.000, 'angstroms^3'),
         rotrelaxcollnum = 0.000
     ),
     shortDesc = u"""library value for H2""",
@@ -49,7 +49,7 @@ entry(
         epsilon = (106.700 * 8.3145, 'J/mol'),
         sigma = (3.467, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
-        polarizability = (0.000, 'C*m^2*V^-1'),
+        polarizability = (0.000, 'angstroms^3'),
         rotrelaxcollnum = 0.000
     ),
     shortDesc = u"""library value for O2""",
@@ -75,7 +75,7 @@ entry(
         epsilon = (809.100 * 8.3145, 'J/mol'),
         sigma = (2.641, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
-        polarizability = (1.760, 'C*m^2*V^-1'),
+        polarizability = (1.760, 'angstroms^3'),
         rotrelaxcollnum = 4.000
     ),
     shortDesc = u"""library value for H2O""",
@@ -102,7 +102,7 @@ entry(
         epsilon = (289.300 * 8.3145, 'J/mol'),
         sigma = (4.196, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
-        polarizability = (0.000, 'C*m^2*V^-1'),
+        polarizability = (0.000, 'angstroms^3'),
         rotrelaxcollnum = 0.000 
     ),
     shortDesc = u"""library value for H2O2""",
@@ -130,7 +130,7 @@ entry(
         epsilon = (195.200 * 8.3145, 'J/mol'),
         sigma = (3.941, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
-        polarizability = (0.000, 'C*m^2*V^-1'),
+        polarizability = (0.000, 'angstroms^3'),
         rotrelaxcollnum = 0.000 
     ),
     shortDesc = u"""library value for CO2""",
@@ -157,7 +157,7 @@ entry(
         epsilon = (91.700 * 8.3145, 'J/mol'),
         sigma = (3.690, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
-        polarizability = (1.760, 'C*m^2*V^-1'),
+        polarizability = (1.760, 'angstroms^3'),
         rotrelaxcollnum = 4.000 
     ),
     shortDesc = u"""library value for CO""",
@@ -183,7 +183,7 @@ entry(
         epsilon = (221.000 * 8.3145, 'J/mol'),
         sigma = (3.730, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
-        polarizability = (0.000, 'C*m^2*V^-1'),
+        polarizability = (0.000, 'angstroms^3'),
         rotrelaxcollnum = 0.000 
     ),
     shortDesc = u"""library value for H2S""",
@@ -210,7 +210,7 @@ entry(
         epsilon = (97.530 * 8.3145, 'J/mol'),
         sigma = (3.621, 'angstroms'),
         dipoleMoment = (0.000, 'C*m'),
-        polarizability = (1.760, 'C*m^2*V^-1'),
+        polarizability = (1.760, 'angstroms^3'),
         rotrelaxcollnum = 4.000,
     ),
     shortDesc = u"""GRI-Mech3.0 value for N2""",
