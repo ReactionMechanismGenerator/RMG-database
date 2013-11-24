@@ -10,8 +10,8 @@ recommended = True
 
 entry(
     index = 485,
-    label = "Y_rad_birad_trirad;XH_Rrad_birad",
-    group1 = "OR{Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad}",
+    label = "Y_rad_birad_trirad_quadrad;XH_Rrad_birad",
+    group1 = "OR{Y_1centerquadrad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad}",
     group2 = 
 """
 1 *2 R!H 0 {2,S} {3,S}

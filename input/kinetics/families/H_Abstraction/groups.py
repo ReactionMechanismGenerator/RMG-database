@@ -8508,7 +8508,7 @@ u"""
 entry(
     index = 419,
     label = "Y_1centertrirad",
-    group = "OR{N3_atom_quartet, N3_atom_doublet, CH_quartet, CH_doublet}",
+    group = "OR{N_atom_quartet, N_atom_doublet, CH_quartet, CH_doublet}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -9949,7 +9949,7 @@ u"""
 
 entry(
     index = 485,
-    label = "N3_atom_quartet",
+    label = "N_atom_quartet",
     group = 
 """
 1 *3 N 3Q
@@ -9969,7 +9969,7 @@ u"""
 
 entry(
     index = 486,
-    label = "N3_atom_doublet",
+    label = "N_atom_doublet",
     group = 
 """
 1 *3 N 3D
@@ -10315,8 +10315,8 @@ L1: Y_rad_birad_trirad_quadrad
         L3: C_triplet
         L3: C_singlet
     L2: Y_1centertrirad
-        L3: N3_atom_quartet
-        L3: N3_atom_doublet
+        L3: N_atom_quartet
+        L3: N_atom_doublet
         L3: CH_quartet
         L3: CH_doublet
     L2: Y_1centerbirad
@@ -10521,4 +10521,5 @@ L1: Y_rad_birad_trirad_quadrad
 """
 
 )
+
 

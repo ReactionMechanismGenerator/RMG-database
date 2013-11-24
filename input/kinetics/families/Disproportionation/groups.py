@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 
-template(reactants=["Y_rad_birad_trirad", "XH_Rrad_birad"], products=["Y_H", "X_R"], ownReverse=False)
+template(reactants=["Y_rad_birad_trirad_quadrad", "XH_Rrad_birad"], products=["Y_H", "X_R"], ownReverse=False)
 
 reverse = "Molecular_Addition"
 
@@ -21,8 +21,8 @@ recipe(actions=[
 
 entry(
     index = 1,
-    label = "Y_rad_birad_trirad",
-    group = "OR{Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad}",
+    label = "Y_rad_birad_trirad_quadrad",
+    group = "OR{Y_1centerquadrad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_rad}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -63,7 +63,7 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-1 *1 {Cs,Cd,O,S} 2T
+1 *1 R!H 2
 """,
     kinetics = None,
     reference = None,
@@ -2647,10 +2647,7 @@ u"""
 entry(
     index = 200,
     label = "Y_1centertrirad",
-    group = 
-"""
-1 *1 R!H 3
-""",
+    group = "OR{N_atom_quartet, N_atom_doublet, CH_quartet, CH_doublet}",
     kinetics = None,
     reference = None,
     referenceType = "",
@@ -4587,21 +4584,252 @@ u"""
         ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
     ],
 )
-        
+
+entry(
+    index = 288,
+    label = "C_quintet",
+    group = 
+"""
+1 *1 C 4V
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 289,
+    label = "C_triplet",
+    group = 
+"""
+1 *1 C 4T
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 290,
+    label = "C_singlet",
+    group = 
+"""
+1 *1 C 4S
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 291,
+    label = "N_atom_quartet",
+    group = 
+"""
+1 *1 N 3Q
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 292,
+    label = "N_atom_doublet",
+    group = 
+"""
+1 *1 N 3D
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 293,
+    label = "CH_quartet",
+    group = 
+"""
+1 *1 C 3Q {2,S}
+2    H 0  {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 294,
+    label = "CH_doublet",
+    group = 
+"""
+1 *1 C 3D {2,S}
+2    H 0  {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 295,
+    label = "O_atom_singlet",
+    group = 
+"""
+1 *1 O 2S
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 296,
+    label = "CH2_singlet",
+    group = 
+"""
+1 *1 C 2S {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 297,
+    label = "NH_singlet",
+    group = 
+"""
+1 *1 N 2S {2,S}
+2    H 0  {1,S}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 298,
+    label = "Y_1centerquadrad",
+    group = "OR{C_quintet, C_triplet, C_singlet}",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov  4 10:25:25 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
 tree(
 """
-L1: Y_rad_birad_trirad
-    L2: Y_1centertrirad    
-        L3: N3_atom_quartet
+L1: Y_rad_birad_trirad_quadrad
+    L2: Y_1centerquadrad
+        L3: C_quintet
+        L3: C_triplet
+        L3: C_singlet
+    L2: Y_1centertrirad
+        L3: N_atom_quartet
+        L3: N_atom_doublet
         L3: CH_quartet
+        L3: CH_doublet
     L2: Y_2centerbirad    
         L3: O2b
         L3: C2b
     L2: Y_1centerbirad
         L3: CO_birad
         L3: O_atom_triplet
+        L3: O_atom_singlet
         L3: CH2_triplet
+        L3: CH2_singlet
         L3: NH_triplet
+        L3: NH_singlet
     L2: H_rad
     L2: Y_rad
         L3: Ct_rad

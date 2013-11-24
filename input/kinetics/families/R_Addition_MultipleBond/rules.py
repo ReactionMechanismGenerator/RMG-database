@@ -10,9 +10,9 @@ recommended = True
 
 entry(
     index = 269,
-    label = "XZ;Y_rad_birad_trirad",
+    label = "XZ;Y_rad_birad_trirad_quadrad",
     group1 = "OR{CZ, SZ, OCO, OCddO, OSi, OSiddO, Od_N, N_R}",
-    group2 = "OR{Y_rad, Y_birad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad}",
+    group2 = "OR{Y_rad, Y_birad, Y_1centertrirad, Y_2centerbirad, Y_1centerbirad, Y_1centerquadrad}",
     kinetics = ArrheniusEP(
         A = (10000000000000.0, 'cm^3/(mol*s)'),
         n = 0,
