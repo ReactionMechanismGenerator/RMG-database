@@ -57,7 +57,7 @@ entry(
     label = "CZ",
     group = 
 """
-1 *1 {Cd,Cdd,Ct,CO,CS,Sid,Sidd,Sit,N} 0 {2,{D,T}}
+1 *1 {Cd,Cdd,Ct,CO,CS}                0 {2,{D,T}}
 2 *2 {Cd,Cdd,Ct,Od,Sd,Sid,Sidd,Sit,N} 0 {1,{D,T}}
 """,
     kinetics = None,
