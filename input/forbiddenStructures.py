@@ -127,8 +127,8 @@ entry(
     label = "Carbene_D",
     group = 
 """
-1 C 2T {2,D}
-2 C 0  {1,D}
+1 C {2T,2S} {2,D}
+2 C 0       {1,D}
 """,
     shortDesc = u"""""",
     longDesc = 
@@ -144,8 +144,8 @@ entry(
     label = "Carbene_S",
     group = 
 """
-1 C   2T {2,S}
-2 R!H 0  {1,S}
+1 C   {2T,2S} {2,S}
+2 R!H 0       {1,S}
 """,
     shortDesc = u"""""",
     longDesc = 
