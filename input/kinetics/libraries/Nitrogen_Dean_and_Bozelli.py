@@ -427,7 +427,7 @@ H
 """,
     product1 = 
 """
-NH
+NH(S)
 1 N 2S {2,S}
 2 H 0  {1,S}
 """,
@@ -609,7 +609,7 @@ N2O
 """,
     product1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -689,7 +689,7 @@ entry(
     index = 16,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -735,7 +735,7 @@ entry(
     index = 17,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -776,7 +776,7 @@ entry(
     index = 18,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -822,7 +822,7 @@ entry(
     index = 19,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -859,7 +859,7 @@ entry(
     index = 20,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -905,7 +905,7 @@ entry(
     index = 21,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -951,7 +951,7 @@ entry(
     index = 22,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -1246,7 +1246,7 @@ O
 """,
     product1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -1337,7 +1337,7 @@ OH
 """,
     product1 = 
 """
-NH
+NH(S)
 1 N 2S {2,S}
 2 H 0  {1,S}
 """,
@@ -1535,7 +1535,7 @@ NH3
 """,
     product2 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -2279,7 +2279,7 @@ CH4
 """,
     product2 = 
 """
-NH
+NH(S)
 1 N 2S {2,S}
 2 H 0  {1,S}
 """,
@@ -2322,7 +2322,7 @@ NH2
 """,
     product1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -2359,7 +2359,7 @@ entry(
     index = 51,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -2403,7 +2403,7 @@ entry(
     index = 52,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -2423,7 +2423,7 @@ HCN
 """,
     product2 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -2451,7 +2451,7 @@ entry(
     index = 53,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -2499,7 +2499,7 @@ entry(
     index = 54,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -2547,7 +2547,7 @@ entry(
     index = 55,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -2595,7 +2595,7 @@ entry(
     index = 56,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -2616,8 +2616,8 @@ NH2
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -2643,7 +2643,7 @@ entry(
     index = 57,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -2929,15 +2929,15 @@ NO
 """,
     product1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -3064,7 +3064,7 @@ OH
 """,
     product1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -3185,7 +3185,7 @@ entry(
     index = 69,
     reactant1 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -3231,7 +3231,7 @@ entry(
     index = 70,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -3369,13 +3369,13 @@ entry(
     index = 73,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
     reactant2 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -3426,7 +3426,7 @@ NH2
 """,
     reactant2 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -3474,7 +3474,7 @@ NH2
 """,
     reactant2 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -3510,7 +3510,7 @@ entry(
     index = 76,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -3556,7 +3556,7 @@ entry(
     index = 77,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -3597,7 +3597,7 @@ entry(
     index = 78,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -3641,7 +3641,7 @@ entry(
     index = 79,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -3685,7 +3685,7 @@ entry(
     index = 80,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -3729,7 +3729,7 @@ entry(
     index = 81,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -3779,7 +3779,7 @@ entry(
     index = 82,
     reactant1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -4578,7 +4578,7 @@ N2H2
 """,
     reactant2 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -6429,8 +6429,8 @@ C
     product1 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     product2 = 
 """
@@ -6528,8 +6528,8 @@ HCNO
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -9466,8 +9466,8 @@ NH2
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -9544,15 +9544,15 @@ O
 """,
     product1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -9682,15 +9682,15 @@ HNC
 """,
     product1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -9825,7 +9825,7 @@ O2
 """,
     product1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -9966,8 +9966,8 @@ O
     product1 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     product2 = 
 """
@@ -10687,7 +10687,7 @@ N2
 """,
     product2 = 
 """
-CH2
+CH2(T)
 1 C 2T {2,S} {3,S}
 2 H 0  {1,S}
 3 H 0  {1,S}
@@ -11918,7 +11918,7 @@ CH2O
 """,
     product2 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -13540,8 +13540,8 @@ N2O
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -13580,8 +13580,8 @@ N
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -13672,8 +13672,8 @@ NO
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -13757,15 +13757,15 @@ H
 """,
     product1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -13810,8 +13810,8 @@ N2
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -13893,7 +13893,7 @@ OH
 """,
     product1 = 
 """
-HON
+HON(T)
 1 H 0  {2,S}
 2 O 0  {1,S} {3,S}
 3 N 2T {2,S}
@@ -13901,8 +13901,8 @@ HON
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -13947,8 +13947,8 @@ H
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     product3 = 
 """
@@ -14045,8 +14045,8 @@ NO2
     product1 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     product2 = 
 """
@@ -14339,8 +14339,8 @@ NH2
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -14629,8 +14629,8 @@ NH2
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -14906,15 +14906,15 @@ HNCO
 """,
     product1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -14959,8 +14959,8 @@ NH2
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -15002,8 +15002,8 @@ HNO
     product2 = 
 """
 CO
-1 C 0 1 {2,T}
-2 O 0 1 {1,T}
+1 C 2S {2,D}
+2 O 0  {1,D}
 """,
     degeneracy = 1,
     reversible = True,
@@ -15037,7 +15037,7 @@ O
 """,
     product1 = 
 """
-NH
+NH(T)
 1 N 2T {2,S}
 2 H 0  {1,S}
 """,
@@ -16400,7 +16400,7 @@ entry(
     index = 341,
     reactant1 = 
 """
-HON
+HON(S)
 1 H 0  {2,S}
 2 O 0  {1,S} {3,S}
 3 N 2S {2,S}
@@ -16443,7 +16443,7 @@ entry(
     index = 342,
     reactant1 = 
 """
-HON
+HON(S)
 1 H 0  {2,S}
 2 O 0  {1,S} {3,S}
 3 N 2S {2,S}
@@ -16489,7 +16489,7 @@ entry(
     index = 343,
     reactant1 = 
 """
-HON
+HON(S)
 1 H 0  {2,S}
 2 O 0  {1,S} {3,S}
 3 N 2S {2,S}
@@ -16507,7 +16507,7 @@ OH
 """,
     product2 = 
 """
-NH
+NH(S)
 1 N 2S {2,S}
 2 H 0  {1,S}
 """,
@@ -16535,7 +16535,7 @@ entry(
     index = 344,
     reactant1 = 
 """
-HON
+HON(S)
 1 H 0  {2,S}
 2 O 0  {1,S} {3,S}
 3 N 2S {2,S}
@@ -16581,7 +16581,7 @@ entry(
     index = 345,
     reactant1 = 
 """
-HON
+HON(S)
 1 H 0  {2,S}
 2 O 0  {1,S} {3,S}
 3 N 2S {2,S}
@@ -16629,7 +16629,7 @@ entry(
     index = 346,
     reactant1 = 
 """
-HON
+HON(S)
 1 H 0  {2,S}
 2 O 0  {1,S} {3,S}
 3 N 2S {2,S}
