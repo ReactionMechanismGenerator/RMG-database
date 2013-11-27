@@ -9,6 +9,43 @@ longDesc = u"""
 recommended = False
 
 entry(
+    label = "N_birad_RsRsRs",
+    group = 
+"""
+1 N 1         {2,S} {3,S} {4,S}
+2 R {0,1,2,3} {1,S}
+3 R {0,1,2,3} {1,S}
+4 R {0,1,2,3} {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov 18 12:27:50 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this entry."""),
+    ],
+)
+
+entry(
+    label = "N_birad_RsRs",
+    group = 
+"""
+1 N 2         {2,S} {3,S}
+2 R {0,1,2,3} {1,S}
+3 R {0,1,2,3} {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Mon Nov 18 12:27:50 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this entry."""),
+    ],
+)
+
+entry(
     label = "C_singlet",
     group = 
 """
