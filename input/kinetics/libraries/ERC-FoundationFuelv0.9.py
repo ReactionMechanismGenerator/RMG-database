@@ -1123,8 +1123,8 @@ entry(
     index = 29,
     reactant1 = 
 """
-C
-1 C 4 0
+C(T)
+1 C 4T 0
 """,
     reactant2 = 
 """
@@ -1166,8 +1166,8 @@ entry(
     index = 30,
     reactant1 = 
 """
-C
-1 C 4 0
+C(T)
+1 C 4T 0
 """,
     reactant2 = 
 """
@@ -1220,8 +1220,8 @@ H
 """,
     product1 = 
 """
-C
-1 C 4 0
+C(T)
+1 C 4T 0
 """,
     product2 = 
 """
@@ -2053,8 +2053,8 @@ CH2
 """,
     reactant2 = 
 """
-C
-1 C 4 0
+C(T)
+1 C 4T 0
 """,
     product1 = 
 """
@@ -3715,8 +3715,8 @@ CH3
 """,
     reactant2 = 
 """
-C
-1 C 4 0
+C(T)
+1 C 4T 0
 """,
     product1 = 
 """

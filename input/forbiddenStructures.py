@@ -46,26 +46,10 @@ u"""
 )
 
 entry(
-    label = "C_singlet",
+    label = "C_quintet",
     group = 
 """
-1 C 4S
-""",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Nov 18 12:27:50 2013","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this entry."""),
-    ],
-)
-
-entry(
-    label = "C_triplet",
-    group = 
-"""
-1 C 4T
+1 C 4V
 """,
     shortDesc = u"""""",
     longDesc = 

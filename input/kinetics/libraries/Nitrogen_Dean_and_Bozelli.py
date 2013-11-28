@@ -3336,8 +3336,8 @@ N
 """,
     product1 = 
 """
-C
-1 C 4V
+C(T)
+1 C 4T
 """,
     product2 = 
 """
@@ -6423,8 +6423,8 @@ NO
 """,
     reactant2 = 
 """
-C
-1 C 4V
+C(T)
+1 C 4T
 """,
     product1 = 
 """
@@ -6467,8 +6467,8 @@ NO
 """,
     reactant2 = 
 """
-C
-1 C 4V
+C(T)
+1 C 4T
 """,
     product1 = 
 """
