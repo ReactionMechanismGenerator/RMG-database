@@ -244,10 +244,10 @@ u"""
 
 entry(
     index = 9,
-    label = "C",
+    label = "C(T)",
     molecule = 
 """
-1 C 4
+1 C 4T
 """,
     thermo = NASA(
         polynomials = [

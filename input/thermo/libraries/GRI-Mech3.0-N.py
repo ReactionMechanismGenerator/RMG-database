@@ -10,10 +10,10 @@ recommended = False
 
 entry(
     index = 1,
-    label = "C",
+    label = "C(T)",
     molecule = 
 """
-1 C 4
+1 C 4T
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
