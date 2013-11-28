@@ -1894,8 +1894,8 @@ CH
 """,
     product1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     product2 = 
 """
@@ -3163,8 +3163,8 @@ OH
 """,
     reactant2 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     product1 = 
 """
@@ -4623,8 +4623,8 @@ entry(
     index = 99,
     reactant1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     reactant2 = 
 """
@@ -4666,8 +4666,8 @@ entry(
     index = 100,
     reactant1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     reactant2 = 
 """
@@ -4711,8 +4711,8 @@ entry(
     index = 101,
     reactant1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     reactant2 = 
 """

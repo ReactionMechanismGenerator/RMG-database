@@ -6051,8 +6051,8 @@ H
 """,
     product1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     product2 = 
 """

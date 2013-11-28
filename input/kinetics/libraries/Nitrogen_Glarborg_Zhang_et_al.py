@@ -7422,8 +7422,8 @@ CH2
 """,
     product1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     product2 = 
 """
@@ -8314,8 +8314,8 @@ H
 """,
     product1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     product2 = 
 """
@@ -8446,8 +8446,8 @@ OH
 """,
     product1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     product2 = 
 """
@@ -8618,8 +8618,8 @@ entry(
     index = 180,
     reactant1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     reactant2 = 
 """
@@ -8661,8 +8661,8 @@ entry(
     index = 181,
     reactant1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     reactant2 = 
 """
@@ -12848,8 +12848,8 @@ CH3
 """,
     reactant2 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     product1 = 
 """
@@ -13752,8 +13752,8 @@ CH2
 """,
     reactant2 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     product1 = 
 """
@@ -14081,13 +14081,13 @@ C2
 """,
     product1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     product2 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     degeneracy = 1,
     kinetics = ThirdBody(
@@ -14121,8 +14121,8 @@ O
 """,
     product1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     product2 = 
 """
@@ -19480,8 +19480,8 @@ C2O
 """,
     product1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     product2 = 
 """
@@ -19761,8 +19761,8 @@ C2O
 """,
     reactant2 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     product1 = 
 """
@@ -30411,8 +30411,8 @@ entry(
     index = 631,
     reactant1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     reactant2 = 
 """
@@ -30454,8 +30454,8 @@ entry(
     index = 632,
     reactant1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     reactant2 = 
 """
@@ -30497,8 +30497,8 @@ entry(
     index = 633,
     reactant1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     reactant2 = 
 """
@@ -30553,8 +30553,8 @@ N
 """,
     product1 = 
 """
-C
-1 C 4
+C(T)
+1 C 4T
 """,
     product2 = 
 """
