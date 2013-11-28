@@ -482,3 +482,29 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
     ],
 )
 
+entry(
+    index = 19,
+    label = "C(S)",
+    molecule = 
+"""
+1 C 4S 0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.968,4.968,4.968,4.968,4.968,4.968,4.968],'cal/(mol*K)'),
+        H298 = (202.771,'kcal/mol'),
+        S298 = (33.393,'cal/(mol*K)'),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
