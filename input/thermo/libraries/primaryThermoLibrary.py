@@ -457,7 +457,7 @@ u"""
 )
 
 entry(
-    index = 17,
+    index = 18,
     label = "C(T)",
     molecule = 
 """
@@ -474,7 +474,8 @@ entry(
     shortDesc = u"""""",
     longDesc = 
 u"""
-
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 """,
     history = [
         ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
